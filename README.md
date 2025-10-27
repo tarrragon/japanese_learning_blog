@@ -33,6 +33,14 @@
 - 翻譯練習（日翻中、中翻日）
 - 綜合應用題
 
+### 🗂️ Zettelkasten 卡片盒系統（新功能！）
+- 原子化知識卡片
+- 智能連結網絡
+- 三語對照（日文、英文、中文繁體）
+- 23 種卡片分類
+- Tag 系統（情境、領域、JLPT 等級）
+- 漸進式知識累積
+
 ## 安裝使用
 
 ### 系統要求
@@ -49,10 +57,15 @@ cd japanese_learning_blog
 
 2. **查看可用命令**
 專案已經包含以下 Slash Commands：
+
+**文章分析系列**
 - `/analyze-article` - 分析文章
 - `/extract-vocab` - 提取詞彙
 - `/explain-grammar` - 解釋文法
 - `/generate-exercises` - 生成練習題
+
+**Zettelkasten 系列** ⭐ 新功能
+- `/create-zettel` - 從文章建立卡片盒卡片（智能代理人）
 
 3. **開始使用**
 ```bash
@@ -104,15 +117,24 @@ cat articles/example_01_daily_life.md
 ```
 japanese_learning_blog/
 ├── README.md                          # 專案說明（本文件）
+├── .claude.md                         # 專案運作說明（給 AI 看的）
 ├── .claude/
 │   └── commands/                      # Slash Commands 定義
 │       ├── analyze-article.md         # 文章分析命令
 │       ├── extract-vocab.md           # 詞彙提取命令
 │       ├── explain-grammar.md         # 文法解釋命令
-│       └── generate-exercises.md      # 練習生成命令
-└── articles/                          # 文章存放目錄
-    ├── README.md                      # 文章目錄說明
-    └── example_01_daily_life.md       # 範例文章
+│       ├── generate-exercises.md      # 練習生成命令
+│       └── create-zettel.md           # Zettelkasten 卡片建立命令 ⭐
+├── articles/                          # 文章存放目錄
+│   ├── README.md                      # 文章目錄說明
+│   └── example_01_daily_life.md       # 範例文章
+└── zettelkasten/                      # Zettelkasten 卡片盒系統 ⭐
+    ├── index.md                       # 主索引
+    ├── noun/                          # 名詞卡片（已有2張範例）
+    ├── verb-ru/                       # る動詞卡片（已有1張範例）
+    ├── adj-na/                        # な形容詞卡片（已有1張範例）
+    ├── grammar/                       # 文法卡片（已有2張範例）
+    └── [其他 19 個分類資料夾...]     # 共 23 種卡片分類
 
 ```
 
@@ -188,6 +210,124 @@ japanese_learning_blog/
 /generate-exercises
 ```
 然後貼上你的日文文章。
+
+### `/create-zettel` - Zettelkasten 卡片建立 ⭐
+
+智能代理人，從文章建立原子化的知識卡片：
+
+**代理人功能**：
+- 分析文章，識別值得建卡的內容
+- 檢查既有卡片，避免重複
+- 自動建立適當的 Tag（情境、領域、JLPT）
+- 建立卡片間的連結
+- 生成多張卡片（可跨不同分類）
+- 更新索引文件
+
+**卡片特色**：
+- 三語並列（日文、英文解釋、中文解釋）
+- 基於日文思考的例句
+- 原子化（一卡一概念）
+- 互連性（智能連結網絡）
+
+**23 種卡片分類**：
+- 詞彙類：名詞、動詞、形容詞、副詞等
+- 文法類：助詞、助動詞、接續詞等
+- 特殊類：量詞、連體詞、接頭詞等
+- 表達類：慣用語、諺語、擬聲詞等
+- 概念類：概念、文法、對比、情境
+
+**使用方式**：
+```
+/create-zettel
+```
+然後貼上你的日文文章，AI 會自動：
+1. 分析文章內容
+2. 決定建立哪些卡片
+3. 分配適當的 Tag
+4. 建立卡片間的連結
+5. 生成卡片檔案
+6. 更新索引
+
+**範例卡片**：
+系統已包含 6 張範例卡片，位於：
+- `zettelkasten/noun/` - 朝ごはん、健康
+- `zettelkasten/verb-ru/` - 食べる
+- `zettelkasten/adj-na/` - 大切
+- `zettelkasten/grammar/` - て形、〜ながら
+
+瀏覽這些範例了解卡片格式和連結方式！
+
+## Zettelkasten 系統詳解
+
+### 什麼是 Zettelkasten？
+
+Zettelkasten（德文：卡片盒）是一種高效的知識管理方法，由社會學家 Niklas Luhmann 發展。核心理念：
+
+1. **原子化**：每張卡片只包含一個概念
+2. **連結性**：卡片之間透過連結形成知識網絡
+3. **漸進式成長**：知識網絡隨學習自然擴展
+4. **驚喜發現**：透過連結產生新的理解
+
+### 如何使用
+
+#### 基本工作流程
+```
+收集文章 → 使用 /create-zettel → 獲得卡片 → 複習連結 → 發現新知
+```
+
+#### 瀏覽方式
+1. **從主索引開始**：`zettelkasten/index.md`
+2. **按分類瀏覽**：進入感興趣的資料夾（如 noun/、grammar/）
+3. **點擊連結探索**：隨意點擊卡片中的連結
+4. **發現關聯**：透過連結發現意外的知識關聯
+
+#### Tag 系統
+每張卡片都有 Tag 幫助分類：
+- **context/** - 使用情境（business、casual、formal等）
+- **domain/** - 專業領域（economics、technology、culture等）
+- **jlpt/** - JLPT 等級（n5-n1）
+
+#### 卡片格式
+```yaml
+---
+title: 朝ごはん（あさごはん）
+description: 早餐，一天中的第一餐
+tags:
+  - context/family
+  - domain/daily_life
+  - jlpt/n5
+date: 2025-10-27
+links:
+  - [食べる](../verb-ru/001_taberu.md)
+  - [健康](002_kenkou.md)
+---
+
+## 日文
+朝ごはん（あさごはん）
+
+## 英文解釋
+[用英文解釋這個詞彙...]
+
+## 中文解釋
+[用中文解釋...]
+
+## 例句
+[三語並列的實際例句...]
+```
+
+### 學習建議
+
+1. **循序漸進**：不要一次建立太多卡片，5-15張/文章即可
+2. **重視連結**：新卡片要思考與既有知識的關聯
+3. **定期複習**：利用連結隨機遊走複習
+4. **主題平衡**：收集不同領域的文章，建立多元知識網絡
+
+### 與其他系統整合
+
+Zettelkasten 卡片可以輕鬆匯出或整合到：
+- **Obsidian**：直接作為 Obsidian vault
+- **Anki**：轉換為單字卡
+- **Notion**：複製到 Notion 資料庫
 
 ## 文章收集建議
 
