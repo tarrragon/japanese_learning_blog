@@ -10,6 +10,8 @@ date: 2025-10-27
 links:
   値段: ../noun/003_nedan.md
   物価上昇: ../concept/001_bukka_joushou.md
+extensions:
+  多義性與特殊用法: ../context/001_agaru_multiple_meanings.md
 ---
 
 ## 日文

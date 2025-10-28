@@ -10,6 +10,8 @@ date: 2025-10-27
 links:
   朝ごはん: ../noun/001_asagohan.md
   て形文法: ../grammar/001_te_form.md
+extensions:
+  敬語形式: ../honorific/001_meshiagaru_itadaku.md
 ---
 
 ## 日文

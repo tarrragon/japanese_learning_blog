@@ -9,6 +9,10 @@ date: 2025-10-27
 links:
   食べる: ../verb-ru/001_taberu.md
   〜ながら: 002_nagara.md
+extensions:
+  - title: 〜ながら vs. 〜て（動作連接的對比）
+    path: ../extension/comparison/001_nagara_vs_te.md
+    type: comparison
 ---
 
 ## 日文
