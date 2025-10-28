@@ -9,6 +9,10 @@ date: 2025-10-27
 links:
   調べる: ../verb-ru/002_shiraberu.md
   上がる: ../verb-u/001_agaru.md
+extensions:
+  - title: より vs. の方が（比較表達的辨析）
+    path: ../extension/discrimination/001_yori_vs_no_hou_ga.md
+    type: discrimination
 ---
 
 ## 日文
