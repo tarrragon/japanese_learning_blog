@@ -175,6 +175,339 @@ links:
 ```
 ```
 
+## YAML Frontmatter 結構化系統
+
+### 設計原則
+
+**核心理念**：將所有關鍵資訊集中在 YAML frontmatter 中，實現高效搜尋和判斷，無需讀取完整卡片內容。
+
+**優勢**：
+1. **搜尋效率**：只需讀取前 20-30 行即可判斷關聯性（提升 10-100 倍速度）
+2. **結構化資料**：所有元數據都是結構化的，容易解析和比對
+3. **可擴展性**：隨系統成長，YAML 可以輕鬆新增欄位
+4. **一致性**：強制所有卡片使用統一格式
+
+### YAML 欄位規範
+
+#### 必需欄位（所有卡片都要有）
+
+```yaml
+---
+title: verb-ru/taberu              # 卡片標識（路徑格式）
+description: 吃（食物）            # 簡短中文說明（一句話）
+type: verb                         # 卡片類型
+created: 2025-10-28                # 建立日期
+---
+```
+
+#### 詞彙卡片的標準欄位
+
+```yaml
+---
+title: verb-ru/taberu              # 必需
+description: 吃（食物）            # 必需
+type: verb                         # 必需：noun, verb, adj-i, adj-na 等
+subtype: ichidan                   # 推薦：細分類型（ichidan, godan, na, i 等）
+jlpt: n5                          # 必需：n5, n4, n3, n2, n1, none
+tags: [daily_life, casual, family] # 必需：至少一個 tag
+synonyms: [meshiagaru, itadaku]    # 可選：同義詞列表（羅馬拼音）
+antonyms: [nokosu]                 # 可選：反義詞列表
+related_words: [asagohan, tabemono] # 可選：相關詞彙
+created: 2025-10-28                # 必需
+---
+```
+
+#### 延伸卡片的標準欄位
+
+```yaml
+---
+title: verb-ru/taberu_001_keigo    # 必需：延伸卡片命名規則
+description: 食べる的敬語用法      # 必需
+type: extension_card               # 必需：extension_card
+extension_type: keigo              # 必需：keigo, nuance, register 等
+base_card: verb-ru/taberu          # 必需：指向基本卡片
+jlpt: n4                          # 必需：延伸內容的等級
+tags: [formal, business]           # 必需
+related_extensions: [taberu_003_register] # 可選：同詞彙的其他延伸
+created: 2025-10-28                # 必需
+---
+```
+
+#### 語法卡片的標準欄位
+
+```yaml
+---
+title: grammar/te_form             # 必需
+description: 動詞て形              # 必需
+type: grammar                      # 必需
+grammar_type: verb_conjugation     # 推薦：語法類型
+jlpt: n5                          # 必需
+tags: [basic_grammar]              # 必需
+applies_to: [verb]                 # 可選：適用的詞類
+related_grammar: [ta_form, te_iru] # 可選：相關語法
+created: 2025-10-28                # 必需
+---
+```
+
+#### 概念卡片的標準欄位
+
+```yaml
+---
+title: concept/bukka_joushou       # 必需
+description: 物價上漲              # 必需
+type: concept                      # 必需
+domain: economics                  # 推薦：所屬領域
+jlpt: n1                          # 必需
+tags: [economics, formal]          # 必需
+component_words: [bukka, joushou]  # 可選：組成詞彙
+related_concepts: [infure, keizai_seichou] # 可選：相關概念
+created: 2025-10-28                # 必需
+---
+```
+
+### 檔名與 YAML 的對應關係
+
+**重要原則**：檔名和 YAML 必須一致，這是高效搜尋的基礎。
+
+```
+檔案路徑：verb-ru/001_taberu.md
+
+YAML：
+---
+title: verb-ru/taberu    # ✅ 對應檔名（去掉編號）
+description: 吃（食物）
+type: verb               # ✅ 對應目錄（verb-ru → verb）
+subtype: ichidan         # ✅ 對應目錄（ru → ichidan）
+---
+```
+
+**命名規則**：
+- 檔名：`{編號}_{羅馬拼音}.md`
+- title：`{category}/{羅馬拼音}`
+- 編號僅用於排序，不出現在 title 中
+- title 與檔名（去掉編號）必須一致
+
+### 高效搜尋機制
+
+#### 搜尋策略：Glob + YAML（不要用 Grep）
+
+**為什麼不用 Grep？**
+- Grep 需要讀取所有檔案的完整內容
+- 隨著卡片增加，速度線性下降
+- 處理大量文字，消耗資源
+
+**為什麼用 Glob + YAML？**
+- Glob 只搜尋檔名，速度極快
+- YAML 只需讀取前 30 行
+- 效率幾乎不受卡片總數影響
+
+#### 實際範例
+
+**任務**：為「食べる」找同義詞
+
+```bash
+# ❌ 舊方法（慢）
+Grep: 搜尋所有卡片中的「食べる」或「meshiagaru」
+→ 掃描 120 張卡片的完整內容
+→ 處理大量文字
+→ 耗時 5-10 秒
+
+# ✅ 新方法（快）
+步驟一：從基本卡片的 YAML 取得同義詞列表
+Read: verb-ru/001_taberu.md (limit: 30)
+→ synonyms: [meshiagaru, itadaku]
+
+步驟二：用 Glob 搜尋檔名
+Glob: **/*meshiagaru*.md → 找到 verb-u/003_meshiagaru.md
+Glob: **/*itadaku*.md → 找到 verb-ru/004_itadaku.md
+
+步驟三：讀取候選卡片的 YAML（僅前 30 行）
+Read: verb-u/003_meshiagaru.md (limit: 30)
+→ 確認：type: verb, base_word: taberu → ✅ 是同義詞
+
+步驟四：建立連結
+→ 耗時 0.1-0.5 秒（快 10-100 倍）
+```
+
+#### 搜尋模式範例
+
+**1. 搜尋同義詞**
+```bash
+# YAML 中有：synonyms: [meshiagaru, itadaku, kuu]
+Glob: **/*meshiagaru*.md
+Glob: **/*itadaku*.md
+Glob: **/*kuu*.md
+```
+
+**2. 搜尋相同主題**
+```bash
+# 找「飲食」主題
+Glob: **/*tabe*.md    # 食べる、食べ物
+Glob: **/*nomi*.md    # 飲む、飲み物
+Glob: **/*shoku*.md   # 食事、食品
+```
+
+**3. 搜尋同詞性**
+```bash
+# 找所有一段動詞
+Glob: verb-ru/*.md
+```
+
+**4. 搜尋延伸卡片**
+```bash
+# 找某個詞的所有延伸卡片
+Glob: **/001_taberu_*.md
+→ 001_taberu_001_keigo.md
+→ 001_taberu_003_register.md
+```
+
+**5. 搜尋特定 JLPT 等級**
+```bash
+# 方法一：搜尋目錄（如果按等級分類）
+Glob: */n5/*.md
+
+# 方法二：用 Grep 搜尋 YAML
+Grep: "jlpt: n5" --files-with-matches
+→ 只搜尋 YAML 區塊（前 30 行）
+```
+
+#### YAML 判斷標準
+
+讀取候選卡片的 YAML 後，根據以下標準判斷關聯性：
+
+| YAML 欄位 | 判斷邏輯 | 連結類型 | 優先級 |
+|----------|---------|---------|--------|
+| `synonyms` 包含目標詞 | 明確同義關係 | synonym | 高 |
+| `antonyms` 包含目標詞 | 明確反義關係 | antonym | 高 |
+| `base_card` 相同 | 同詞彙的延伸卡片 | sibling_extension | 高 |
+| `related_words` 包含目標詞 | 明確相關 | related | 高 |
+| `tags` 有 2+ 個相同 | 主題相關 | topic_related | 中 |
+| `type` 和 `subtype` 相同 | 同類型 | same_type | 低 |
+| `jlpt` 相同 | 同等級 | same_level | 低 |
+
+### 代理人工作流程
+
+#### 延伸卡片建立代理人
+
+```
+1. 讀取基本卡片的 YAML (limit: 30)
+   ↓
+2. 提取關鍵資訊（type, subtype, synonyms 等）
+   ↓
+3. 判斷是否需要建立延伸卡片
+   - 有同義詞？→ 檢查是否已收錄
+   - 是動詞？→ 可能需要敬語卡片
+   - 有特殊語域？→ 可能需要 register 卡片
+   ↓
+4. 如需建立，用 Glob 搜尋相關卡片
+   Glob: **/*{synonym}*.md
+   ↓
+5. 讀取候選卡片的 YAML (limit: 30)
+   ↓
+6. 建立延伸卡片
+```
+
+#### 卡片連結建立代理人
+
+```
+1. 讀取新卡片的 YAML (limit: 30)
+   ↓
+2. 提取搜尋關鍵字
+   - synonyms: [word1, word2]
+   - related_words: [word3, word4]
+   - type, subtype, tags
+   ↓
+3. 用 Glob 搜尋候選卡片
+   Glob: **/*word1*.md
+   Glob: **/*word2*.md
+   Glob: {type}-{subtype}/*.md
+   ↓
+4. 讀取每個候選卡片的 YAML (limit: 30)
+   ↓
+5. 根據判斷標準決定是否建立連結
+   ↓
+6. 只在確定建立連結後，才讀取完整內容撰寫連結描述
+```
+
+### 效率對比
+
+**場景**：系統有 500 張卡片，為新卡片建立 10 個連結
+
+| 方法 | 讀取檔案數 | 讀取內容量 | 耗時 |
+|------|-----------|-----------|------|
+| Grep 全文搜尋 | 500 張完整內容 | ~500KB | 10-20 秒 |
+| Glob + YAML | 1 張完整 + 15 張 YAML | ~15KB | 0.5-1 秒 |
+| **效率提升** | **97% 減少** | **97% 減少** | **10-40 倍** |
+
+### 最佳實踐
+
+#### 建立卡片時
+
+1. **務必填寫完整 YAML**
+   - 所有必需欄位都要填寫
+   - 盡量填寫推薦欄位（synonyms, related_words 等）
+   - 這些資訊是高效搜尋的基礎
+
+2. **保持檔名與 title 一致**
+   - 檔名：`001_taberu.md`
+   - title：`verb-ru/taberu`
+   - 方便 Glob 搜尋
+
+3. **使用羅馬拼音**
+   - synonyms 和 related_words 用羅馬拼音
+   - 與檔名系統一致
+   - 便於搜尋
+
+#### 搜尋卡片時
+
+1. **優先使用 Glob**
+   - 90% 的搜尋用 Glob 即可
+   - 只在特殊情況用 Grep（如搜尋 tags）
+
+2. **只讀 YAML**
+   - 80% 的判斷只需要 YAML
+   - Read 時用 `limit: 30`
+
+3. **批次處理**
+   - 一次 Glob 多個模式
+   - 減少工具調用次數
+
+4. **確定後才讀完整內容**
+   - 只在確定要建立連結時
+   - 才讀取完整卡片內容撰寫描述
+
+### 範例：完整的卡片 YAML
+
+```yaml
+---
+# 基本資訊（必需）
+title: verb-ru/taberu
+description: 吃（食物）
+type: verb
+subtype: ichidan
+created: 2025-10-28
+
+# 等級和標籤（必需）
+jlpt: n5
+tags: [daily_life, casual, family]
+
+# 關聯詞彙（強烈推薦）
+synonyms: [meshiagaru, itadaku, kuu]
+antonyms: [nokosu, hakidasu]
+related_words: [asagohan, tabemono, nomu, shokuji]
+
+# 延伸卡片資訊（如適用）
+has_extensions: true
+extension_cards:
+  - taberu_001_keigo
+  - taberu_003_register
+  - taberu_006_comparison
+
+# 維護資訊
+updated: 2025-10-28
+---
+```
+
 ### 命名規範
 
 - 檔案名稱：`{編號}_{識別名稱}.md`
