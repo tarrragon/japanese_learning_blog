@@ -4,6 +4,7 @@ description: 敬語系統 - 日語的尊敬、謙讓、丁寧語三大系統
 type: grammar
 subtype: pragmatics
 jlpt: n4
+stage: draft
 tags: [grammar, keigo, honorific, pragmatics, social]
 draft: true
 auto_generated: true

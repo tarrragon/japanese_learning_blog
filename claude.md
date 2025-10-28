@@ -4,6 +4,140 @@
 
 這是一個結合 AI 輔助和 Zettelkasten（卡片盒筆記）方法的日文學習系統。透過將日文文章拆解為原子化的知識卡片，建立一個相互連結的知識網絡，幫助學習者在不同領域和情境下掌握日文的使用方法。
 
+本專案使用 Claude 代理人協助建立、延伸和維護卡片系統，實現智能化的卡片管理與連結建立。
+
+### 核心功能
+
+1. **詞彙卡片系統** - 動詞、名詞、形容詞等基礎詞彙卡片
+2. **延伸卡片系統** - 文法、語用、文化等概念卡片
+3. **雙重連結系統**：
+   - 標準 Wikilink 連結 `[[card]]` - 用於相關卡片列表
+   - 腳註標註 `[^note]` - 用於文內概念說明
+4. **智能代理人** - 自動檢測遺漏卡片並建立草稿
+
+## 版本管理
+
+當前版本：**1.0.0**
+
+### 語義化版本規範
+
+版本格式：`MAJOR.MINOR.PATCH`
+
+- **MAJOR（大版本）**：專案結構或核心功能有重大變動
+  - 例：卡片格式重新設計、資料夾結構改變、核心代理人邏輯大幅修改
+
+- **MINOR（中版本）**：新增或修改 slash command 或代理人
+  - 例：新增 `/create-grammar-card` 指令
+  - 例：修改 `build-card-links` 代理人邏輯
+  - 例：新增 `create-cultural-cards` 代理人
+
+- **PATCH（小版本）**：卡片內容的新增、修改或修復
+  - 例：新增 10 張動詞卡片
+  - 例：補充現有卡片的腳註和連結
+  - 例：修正卡片格式錯誤
+
+### 版本更新流程
+
+1. 確認變更類型（大版本/中版本/小版本）
+2. 更新 `CHANGELOG.md` 記錄變更
+3. 更新版本號
+4. 提交並建立 PR
+
+## 工作流程循環
+
+本專案採用**四階段迭代循環**開發卡片系統。每個小版本（PATCH）對應一個完整的工作流程循環。
+
+### 卡片四個階段
+
+每張卡片在生命週期中會經歷以下階段：
+
+1. **draft** - 草稿階段
+   - 卡片剛建立，包含基本資訊
+   - YAML 包含 `draft: true`, `auto_generated: true`, `needs_review: true`
+   - 需要補充完整內容
+
+2. **extension-review** - 延伸卡片檢查階段
+   - 基礎內容已完成
+   - 等待延伸卡片代理人檢查是否需要建立相關延伸卡片
+   - 可能會產生新的草稿卡片
+
+3. **linking** - 建立連結與腳註階段
+   - 延伸卡片已檢查完成
+   - 等待連結建立代理人補充：
+     - 標準連結（Related Links）
+     - 腳註標註（Footnotes）
+   - 可能會產生新的草稿卡片
+
+4. **completed** - 完成階段
+   - 所有連結和腳註已補充
+   - 卡片內容完整
+   - 可以進入下一個循環進行優化
+
+### 循環流程
+
+#### 循環 N（版本 1.0.N）：
+
+**階段 1：草稿完善**
+```bash
+# 執行：找出所有 stage: draft 的卡片
+# 代理人：人工審查 + 內容補充
+# 輸出：將卡片更新為 stage: extension-review
+```
+
+**階段 2：延伸卡片檢查**
+```bash
+# 執行延伸卡片代理人
+/create-extension-cards
+
+# 輸入：所有 stage: extension-review 的卡片
+# 輸出：
+#   - 識別需要的延伸卡片（文法、語用、文化等）
+#   - 建立新的延伸卡片草稿（stage: draft）
+#   - 將處理完的卡片更新為 stage: linking
+```
+
+**階段 3：連結與腳註建立**
+```bash
+# 執行連結建立代理人（對每張卡片）
+# 使用 build-card-links subagent
+
+# 輸入：所有 stage: linking 的卡片
+# 輸出：
+#   - 補充標準連結（Related Links 區塊）
+#   - 補充腳註標註（Footnotes）
+#   - 識別遺漏的卡片並建立草稿（stage: draft）
+#   - 將處理完的卡片更新為 stage: completed
+```
+
+**階段 4：完成與記錄**
+```bash
+# 將 stage: completed 的卡片記錄到工作流程文檔
+# 更新 CHANGELOG.md
+# 提交版本 1.0.N
+```
+
+#### 循環 N+1（版本 1.0.N+1）：
+
+回到階段 1，處理：
+- 上一循環產生的 `stage: draft` 卡片
+- 任何新建立的詞彙卡片
+
+### 工作流程文檔
+
+每個小版本一個工作流程文檔，放在 `doc/workflow-{version}.md`
+
+**格式範例**：`doc/workflow-1.0.0.md`
+
+工作流程文檔必須記錄：
+- **各階段卡片清單** - 哪些卡片在哪個階段
+- **循環開始日期**
+- **循環完成日期**
+- **本循環新增的卡片數量**
+- **本循環完成的卡片數量**
+- **發現的問題與改進**
+
+範例格式參考 `doc/workflow-1.0.0.md`。
+
 ## 核心理念
 
 ### Zettelkasten 原則
@@ -132,11 +266,15 @@ japanese_learning_blog/
 ---
 title: [卡片標題]
 description: [簡短描述]
+type: [卡片類型]
+jlpt: [等級]
+stage: [卡片階段]          # draft | extension-review | linking | completed
 tags:
   - context/[使用情境]
   - domain/[領域]
   - jlpt/[等級]
 date: YYYY-MM-DD
+updated: YYYY-MM-DD        # 最後更新日期
 links:
   連結詞彙1: 相對路徑1
   連結詞彙2: 相對路徑2
@@ -196,7 +334,10 @@ links:
 title: verb-ru/taberu              # 卡片標識（路徑格式）
 description: 吃（食物）            # 簡短中文說明（一句話）
 type: verb                         # 卡片類型
+jlpt: n5                          # JLPT 等級
+stage: completed                   # 卡片階段：draft | extension-review | linking | completed
 created: 2025-10-28                # 建立日期
+updated: 2025-10-28                # 最後更新日期
 ---
 ```
 
@@ -209,11 +350,13 @@ description: 吃（食物）            # 必需
 type: verb                         # 必需：noun, verb, adj-i, adj-na 等
 subtype: ichidan                   # 推薦：細分類型（ichidan, godan, na, i 等）
 jlpt: n5                          # 必需：n5, n4, n3, n2, n1, none
+stage: completed                   # 必需：draft | extension-review | linking | completed
 tags: [daily_life, casual, family] # 必需：至少一個 tag
 synonyms: [meshiagaru, itadaku]    # 可選：同義詞列表（羅馬拼音）
 antonyms: [nokosu]                 # 可選：反義詞列表
 related_words: [asagohan, tabemono] # 可選：相關詞彙
 created: 2025-10-28                # 必需
+updated: 2025-10-28                # 必需
 ---
 ```
 
@@ -227,9 +370,11 @@ type: extension_card               # 必需：extension_card
 extension_type: keigo              # 必需：keigo, nuance, register 等
 base_card: verb-ru/taberu          # 必需：指向基本卡片
 jlpt: n4                          # 必需：延伸內容的等級
+stage: completed                   # 必需：draft | extension-review | linking | completed
 tags: [formal, business]           # 必需
 related_extensions: [taberu_003_register] # 可選：同詞彙的其他延伸
 created: 2025-10-28                # 必需
+updated: 2025-10-28                # 必需
 ---
 ```
 
@@ -242,10 +387,12 @@ description: 動詞て形              # 必需
 type: grammar                      # 必需
 grammar_type: verb_conjugation     # 推薦：語法類型
 jlpt: n5                          # 必需
+stage: completed                   # 必需：draft | extension-review | linking | completed
 tags: [basic_grammar]              # 必需
 applies_to: [verb]                 # 可選：適用的詞類
 related_grammar: [ta_form, te_iru] # 可選：相關語法
 created: 2025-10-28                # 必需
+updated: 2025-10-28                # 必需
 ---
 ```
 
@@ -258,10 +405,12 @@ description: 物價上漲              # 必需
 type: concept                      # 必需
 domain: economics                  # 推薦：所屬領域
 jlpt: n1                          # 必需
+stage: completed                   # 必需：draft | extension-review | linking | completed
 tags: [economics, formal]          # 必需
 component_words: [bukka, joushou]  # 可選：組成詞彙
 related_concepts: [infure, keizai_seichou] # 可選：相關概念
 created: 2025-10-28                # 必需
+updated: 2025-10-28                # 必需
 ---
 ```
 
@@ -485,10 +634,12 @@ title: verb-ru/taberu
 description: 吃（食物）
 type: verb
 subtype: ichidan
-created: 2025-10-28
-
-# 等級和標籤（必需）
 jlpt: n5
+stage: completed                   # 卡片階段
+created: 2025-10-28
+updated: 2025-10-28
+
+# 標籤（必需）
 tags: [daily_life, casual, family]
 
 # 關聯詞彙（強烈推薦）
@@ -503,8 +654,11 @@ extension_cards:
   - taberu_003_register
   - taberu_006_comparison
 
-# 維護資訊
-updated: 2025-10-28
+# 草稿卡片生成記錄（如適用）
+generated_cards:
+  - ../particle/002_wo
+  - ../grammar/003_ichidan_verb
+generated_date: 2025-10-28
 ---
 ```
 

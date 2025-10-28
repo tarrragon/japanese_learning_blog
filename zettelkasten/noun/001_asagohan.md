@@ -1,12 +1,16 @@
 ---
 title: 朝ごはん（あさごはん）
 description: 早餐，一天中的第一餐
+type: noun
+jlpt: n5
+stage: completed
 tags:
   - context/family
   - context/casual
   - domain/daily_life
   - jlpt/n5
 date: 2025-10-27
+updated: 2025-10-28
 links:
   食べる: ../verb-ru/001_taberu.md
   健康: 002_kenkou.md

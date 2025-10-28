@@ -1,12 +1,16 @@
 ---
 title: 食べる（たべる）
 description: 吃、食用
+type: verb-ru
+jlpt: n5
+stage: completed
 tags:
   - context/casual
   - context/family
   - domain/daily_life
   - jlpt/n5
 date: 2025-10-27
+updated: 2025-10-28
 links:
   朝ごはん: ../noun/001_asagohan.md
   て形文法: ../grammar/001_te_form.md
