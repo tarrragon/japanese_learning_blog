@@ -8,13 +8,20 @@ tags:
   - jlpt/n5
 date: 2025-10-27
 links:
-  - [食べる](../verb-ru/001_taberu.md)
-  - [朝ごはん](001_asagohan.md)
-  - [値段](003_nedan.md)
+  食べる: ../verb-ru/001_taberu.md
+  朝ごはん: 001_asagohan.md
+  値段: 003_nedan.md
 ---
 
 ## 日文
 食べ物（たべもの）
+
+**羅馬拼音**：tabemono
+
+**詞性**：名詞
+
+## 日文解釋
+「食べ物」とは、食べることができるもの全般を指す言葉です。動詞「食べる」と「物」を組み合わせた言葉で、文字通り「食べるもの」という意味になります。日常会話でよく使われる基本的な語彙で、食事、食材、飲食に関する話題で広く使用されます。「食品」（しょくひん）という言葉がより正式または商業的な文脈で使われるのに対し、「食べ物」はカジュアルで親しみやすい表現です。子どもから大人まで、日常的に使われる一般的な言葉です。
 
 ## 英文解釋
 Tabemono means "food" in Japanese. It's a general term for anything edible, referring to food items or foodstuffs in general. This word is formed by combining the verb 食べる (taberu, to eat) with 物 (mono, thing), literally meaning "things to eat." It's commonly used in everyday conversation and is one of the basic vocabulary words for discussing meals, groceries, and dietary topics. It's more casual than 食品 (shokuhin), which is used in more formal or commercial contexts.

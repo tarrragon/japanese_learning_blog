@@ -8,12 +8,17 @@ tags:
   - jlpt/n5
 date: 2025-10-27
 links:
-  - [食べる](../verb-ru/001_taberu.md)
-  - [健康](002_kenkou.md)
+  食べる: ../verb-ru/001_taberu.md
+  健康: 002_kenkou.md
 ---
 
 ## 日文
 朝ごはん（あさごはん）
+
+**羅馬拼音**：asagohan
+
+## 日文解釋
+「朝ごはん」とは、朝に食べる食事のことで、一日の最初の食事を指します。「朝」（あさ、morning）と「ごはん」（meal/rice）を組み合わせた言葉です。日本の伝統的な朝ごはんには、ご飯、味噌汁、焼き魚、漬物などが含まれますが、現代では パンとコーヒーなどの洋風の朝食も一般的です。健康的な生活習慣として、朝ごはんをしっかり食べることが大切だと考えられています。日常会話でよく使われるカジュアルな言葉です。
 
 ## 英文解釋
 Asagohan means "breakfast" in Japanese, literally combining "morning" (朝, asa) and "meal" (ごはん, gohan). It refers to the first meal of the day, typically eaten in the morning. In Japanese culture, a traditional breakfast often includes rice, miso soup, grilled fish, and pickled vegetables, though Western-style breakfasts with bread and coffee are also common in modern Japan.

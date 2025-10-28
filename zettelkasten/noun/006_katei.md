@@ -8,12 +8,19 @@ tags:
   - jlpt/n3
 date: 2025-10-27
 links:
-  - [朝ごはん](001_asagohan.md)
-  - [サービス](004_service.md)
+  朝ごはん: 001_asagohan.md
+  サービス: 004_service.md
 ---
 
 ## 日文
 家庭（かてい）
+
+**羅馬拼音**：katei
+
+**詞性**：名詞
+
+## 日文解釋
+「家庭」とは、一緒に生活する家族の単位、または家庭環境のことを指す言葉です。正式な場面、統計、政策、家族に関する話題でよく使われます。特に経済的・社会的な文脈において、家庭を一つの単位として強調する際に用いられます（例：家庭の支出、家庭用品、家庭教育など）。「家族」（かぞく）という言葉が家族構成員に焦点を当てるのに対し、「家庭」は家という制度や環境そのものに重点を置いた、よりフォーマルな表現です。
 
 ## 英文解釋
 Katei means "family" or "household" in Japanese. It refers to a family unit living together or the home environment. This word is often used in formal contexts, statistics, policies, and when discussing family-related matters. It emphasizes the household as a unit, particularly in economic or social contexts (like household spending, household goods, family education). It's more formal than 家族 (kazoku, which means family members), and focuses on the home as an institution rather than individual family members.

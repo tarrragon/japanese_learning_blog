@@ -7,14 +7,19 @@ tags:
   - jlpt/n4
 date: 2025-10-27
 links:
-  - [食べる](../verb-ru/001_taberu.md)
-  - [て形](001_te_form.md)
+  食べる: ../verb-ru/001_taberu.md
+  て形: 001_te_form.md
 ---
 
 ## 日文
 〜ながら
 
+**羅馬拼音**：~nagara
+
 **接續**：動詞ます形去掉ます + ながら
+
+## 日文解釋
+「〜ながら」は、二つの動作が同時に行われていることを表す文法パターンです。動詞のます形から「ます」を取った形（動詞の連用形）に接続します。ながらの前の動作は副次的なもので、後ろの動作が主要な動作となります。同じ人が二つの動作を同時に行う場合にのみ使用できます。日常会話でも書き言葉でも頻繁に使われる便利な表現です。
 
 ## 英文解釋
 The grammar pattern 〜ながら (nagara) is used to express that two actions are happening simultaneously, similar to "while doing..." or "doing... at the same time" in English. It attaches to the verb stem (ます form without ます) of the simultaneous action. The key point is that both actions are performed by the same person at the same time, with the action before ながら being secondary or background to the main action that follows. This pattern is commonly used in both casual and formal contexts.

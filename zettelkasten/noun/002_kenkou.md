@@ -9,14 +9,19 @@ tags:
   - jlpt/n4
 date: 2025-10-27
 links:
-  - [朝ごはん](001_asagohan.md)
-  - [大切](../adj-na/001_taisetsu.md)
+  朝ごはん: 001_asagohan.md
+  大切: ../adj-na/001_taisetsu.md
 ---
 
 ## 日文
 健康（けんこう）
 
+**羅馬拼音**：kenkou
+
 **詞性**：名詞、な形容詞
+
+## 日文解釋
+「健康」とは、心身が良好な状態にあることを指す言葉です。名詞として「健康」（health）、な形容詞として「健康な」（healthy）の両方の使い方があります。日本の文化では、健康の維持が非常に重視されており、バランスの取れた食事、定期的な運動、年次健康診断などの予防的な健康習慣が強調されています。この概念は、身体的な健康だけでなく、精神的・社会的な健康も含む包括的なものです。日常会話でも格式張った場面でも広く使われます。
 
 ## 英文解釋
 Kenkou means "health" in Japanese, referring to the state of physical and mental well-being. It can be used as a noun (health) or as a na-adjective (healthy). In Japanese culture, maintaining health is highly valued, and there's a strong emphasis on preventive health practices such as eating balanced meals, regular exercise, and annual health check-ups. The concept extends beyond just physical health to include mental and social well-being.

@@ -8,14 +8,19 @@ tags:
   - jlpt/n3
 date: 2025-10-27
 links:
-  - [値段](003_nedan.md)
-  - [家庭](006_katei.md)
+  値段: 003_nedan.md
+  家庭: 006_katei.md
 ---
 
 ## 日文
 サービス
 
-**詞源**：英語 "service" 的外來語
+**羅馬拼音**：saabisu
+
+**詞性**：名詞
+
+## 日文解釋
+「サービス」は英語の「service」から来た外来語で、顧客に提供される無形の商品や行動のことを指します。物理的な商品（物）とは対照的に、医療、交通、飲食、公共事業、専門的なサービスなど、様々な分野で使われる言葉です。経済用語としては「物」（商品）と組み合わせて使われることが多く、消費支出の二大カテゴリーを表します。現代の日本語では、ビジネスの場でも日常会話でも広く使われている一般的な言葉です。
 
 ## 英文解釋
 Sābisu is a loanword from English meaning "service." It refers to intangible products or actions provided to customers, as opposed to physical goods. This includes services like healthcare, transportation, dining, utilities, and professional services. In economic contexts, it's often paired with 物 (mono, goods) to represent the two main categories of consumer spending. The term is widely used in both business and everyday conversation in modern Japanese.

@@ -8,12 +8,14 @@ tags:
   - jlpt/n3
 date: 2025-10-27
 links:
-  - [値段](../noun/003_nedan.md)
-  - [物価上昇](../concept/001_bukka_joushou.md)
+  値段: ../noun/003_nedan.md
+  物価上昇: ../concept/001_bukka_joushou.md
 ---
 
 ## 日文
 上がる（あがる）
+
+**羅馬拼音**：agaru
 
 **動詞類型**：五段動詞（う動詞）
 **辭書形**：上がる
@@ -21,6 +23,9 @@ links:
 **て形**：上がって
 **た形**：上がった
 **ない形**：上がらない
+
+## 日文解釋
+「上がる」は「上方へ移動する」「数値が増加する」という意味の五段動詞（う動詞）です。自動詞として、様々な上昇や増加の状況を表現します。価格の上昇、気温の上昇、階段や高度を上ること、技能の向上、家屋に入ること（家に上がる）など、多様な文脈で使われます。経済や価格の話題では「値段が上がる」「物価が上がる」という形で、上昇や増加を意味します。対義語は「下がる」（さがる、下降する・減少する）です。日本語で非常に汎用性が高く、日常生活でも正式な場面でも頻繁に使用される基本動詞の一つです。
 
 ## 英文解釋
 Agaru is a godan verb (u-verb) meaning "to rise," "to go up," or "to increase." It's an intransitive verb used to describe upward movement or increases in various contexts: prices going up, temperature rising, stairs/elevation going up, skills improving, or entering a room (going up into a house). When used with prices or numbers (like in the article), it specifically means "to rise" or "to increase." The opposite verb is 下がる (sagaru, to go down/decrease). This is a very versatile and commonly used verb in Japanese.

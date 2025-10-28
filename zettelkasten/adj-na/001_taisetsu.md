@@ -7,16 +7,21 @@ tags:
   - jlpt/n4
 date: 2025-10-27
 links:
-  - [健康](../noun/002_kenkou.md)
-  - [朝ごはん](../noun/001_asagohan.md)
+  健康: ../noun/002_kenkou.md
+  朝ごはん: ../noun/001_asagohan.md
 ---
 
 ## 日文
 大切（たいせつ）
 
+**羅馬拼音**：taisetsu
+
 **詞性**：な形容詞（形容動詞）
 **修飾名詞**：大切な + 名詞
 **述語形式**：大切だ / 大切です
+
+## 日文解釋
+「大切」は「重要である」「価値がある」「大事にすべきである」という意味のな形容詞（形容動詞）です。意義や価値を持つもの、または注意や配慮が必要なものを表現する際に使います。物理的なもの（大切な持ち物）、人（大切な人間関係）、抽象的な概念（大切な事柄）など、幅広い対象に使用できます。名詞を修飾する際は「大切な」の形をとり、述語として使う場合は「大切だ」「大切です」となります。日常会話でも正式な場面でも頻繁に使われる基本的な形容動詞で、何かの重要性や価値を表現する際に欠かせない言葉です。
 
 ## 英文解釋
 Taisetsu is a na-adjective meaning "important," "precious," or "valuable." It is used to describe something that holds significance, value, or requires care and attention. This word can apply to physical objects (precious belongings), people (important relationships), or abstract concepts (important matters). When used to modify nouns, it takes the form 大切な. It's commonly used in both daily conversation and formal contexts to express the importance or value of something.

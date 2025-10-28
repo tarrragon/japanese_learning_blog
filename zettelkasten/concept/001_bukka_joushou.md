@@ -8,18 +8,25 @@ tags:
   - jlpt/n1
 date: 2025-10-27
 links:
-  - [値段](../noun/003_nedan.md)
-  - [上がる](../verb-u/001_agaru.md)
-  - [理由](../noun/005_riyuu.md)
-  - [食べ物](../noun/007_tabemono.md)
+  値段: ../noun/003_nedan.md
+  上がる: ../verb-u/001_agaru.md
+  理由: ../noun/005_riyuu.md
+  食べ物: ../noun/007_tabemono.md
 ---
 
 ## 日文
 物価上昇（ぶっかじょうしょう）
 
+**羅馬拼音**：bukka joushou
+
+**詞性**：名詞、経済概念
+
 **相關詞彙**：
 - 物価（ぶっか）- 物價
 - インフレーション - 通貨膨脹（通貨膨脹）
+
+## 日文解釋
+「物価上昇」は、商品やサービスの価格水準が時間とともに全般的に上がっていく経済現象のことで、いわゆるインフレーション（通貨膨脹）を指します。この概念は経済学において極めて重要で、購買力に直接影響を与えます。物価が上昇すると、同じ金額で買えるものが少なくなるため、実質的な貨幣価値が下がります。通常、政府は一定期間にわたって消費財やサービスの価格変動を追跡することで、インフレ率を測定します。適度な物価上昇は経済成長の過程で正常な現象ですが、急速な物価上昇は経済の不安定性を招く可能性があります。日本政府をはじめ多くの国々の政府は、定期的に価格変動を監視し、インフレ率を把握して経済政策を調整しています。
 
 ## 英文解釋
 Bukka joushou literally means "price rise" and refers to the economic phenomenon of inflation, where the general level of prices for goods and services increases over time. This concept is crucial in economics and affects purchasing power, as money becomes worth less when prices rise. Inflation is typically measured by tracking price changes in a basket of consumer goods and services over time. Moderate inflation is normal in growing economies, but rapid inflation can cause economic instability. The Japanese government, like many others, regularly monitors price changes to track inflation rates and adjust economic policies accordingly.

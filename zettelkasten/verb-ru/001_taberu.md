@@ -8,12 +8,14 @@ tags:
   - jlpt/n5
 date: 2025-10-27
 links:
-  - [朝ごはん](../noun/001_asagohan.md)
-  - [て形文法](../grammar/001_te_form.md)
+  朝ごはん: ../noun/001_asagohan.md
+  て形文法: ../grammar/001_te_form.md
 ---
 
 ## 日文
 食べる（たべる）
+
+**羅馬拼音**：taberu
 
 **動詞類型**：一段動詞（る動詞）
 **辭書形**：食べる
@@ -21,6 +23,9 @@ links:
 **て形**：食べて
 **た形**：食べた
 **ない形**：食べない
+
+## 日文解釋
+「食べる」は「食物を摂取する」という意味の基本動詞です。一段動詞（る動詞）に分類され、活用が規則的で覚えやすい動詞です。日常生活で最も頻繁に使われる基本動詞の一つで、食事、間食、あらゆる食べ物の摂取に使用されます。「朝ごはんを食べる」「お菓子を食べる」など、助詞「を」と組み合わせて食べる対象を示すことが一般的です。また、「食べて」「食べた」「食べない」など、様々な文法形式と結びついて、飲食に関連する多様な表現を作ることができます。
 
 ## 英文解釋
 Taberu is a basic Japanese verb meaning "to eat" or "to consume food." It is an ichidan verb (ru-verb), which makes its conjugation pattern regular and predictable. This is one of the most fundamental verbs in Japanese, essential for daily conversation. It can be used for eating meals, snacks, or any food consumption. The verb can also appear in various grammatical constructions to express eating-related actions and states.

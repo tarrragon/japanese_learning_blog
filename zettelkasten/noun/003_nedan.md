@@ -8,13 +8,18 @@ tags:
   - jlpt/n4
 date: 2025-10-27
 links:
-  - [上がる](../verb-u/001_agaru.md)
-  - [物価上昇](../concept/001_bukka_joushou.md)
-  - [サービス](004_service.md)
+  上がる: ../verb-u/001_agaru.md
+  物価上昇: ../concept/001_bukka_joushou.md
+  サービス: 004_service.md
 ---
 
 ## 日文
 値段（ねだん）
+
+**羅馬拼音**：nedan
+
+## 日文解釋
+「値段」とは、商品やサービスを購入するために必要な金額のことです。日常生活で買い物をするとき、費用について話すとき、価格を比較するときなどによく使われます。カジュアルな会話でもビジネスの場面でも使える言葉です。経済の話題や物価の変動、市場の動向を理解する上で重要な基本的な語彙です。
 
 ## 英文解釋
 Nedan means "price" or "cost" in Japanese. It refers to the amount of money required to purchase goods or services. This word is commonly used in daily life when shopping, discussing costs, or comparing prices. It can be used in both casual conversation and business contexts. The term is essential for understanding economic discussions, price changes, and market trends.

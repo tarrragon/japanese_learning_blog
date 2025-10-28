@@ -7,12 +7,17 @@ tags:
   - jlpt/n5
 date: 2025-10-27
 links:
-  - [食べる](../verb-ru/001_taberu.md)
-  - [〜ながら](001_nagara.md)
+  食べる: ../verb-ru/001_taberu.md
+  〜ながら: 002_nagara.md
 ---
 
 ## 日文
 て形（てけい）/ 動詞のて形
+
+**羅馬拼音**：te-kei / doushi no te-kei
+
+## 日文解釋
+動詞のて形は、日本語の動詞活用の一つで、様々な文法表現の基礎となる重要な形です。この形自体に意味はありませんが、動作の連続や依頼、進行形など、多くの文法パターンで使われます。動詞の種類（一段動詞、五段動詞、不規則動詞）によって変化の仕方が異なります。日常会話でも書き言葉でも頻繁に使われるため、日本語学習の基礎として必ず覚えなければならない活用形です。
 
 ## 英文解釋
 The te-form (て形) is one of the most fundamental verb conjugations in Japanese. It is created by changing the verb ending according to specific rules based on the verb type (ru-verbs, u-verbs, or irregular verbs). The te-form itself doesn't have a standalone meaning but serves as a connective form used in many grammatical patterns, including: connecting sequential actions, making requests (〜てください), expressing ongoing actions (〜ている), giving reasons, and more. Mastering the te-form is essential for natural Japanese communication.

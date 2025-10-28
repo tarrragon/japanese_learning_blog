@@ -7,11 +7,18 @@ tags:
   - jlpt/n3
 date: 2025-10-27
 links:
-  - [物価上昇](../concept/001_bukka_joushou.md)
+  物価上昇: ../concept/001_bukka_joushou.md
 ---
 
 ## 日文
 理由（りゆう）
+
+**羅馬拼音**：riyuu
+
+**詞性**：名詞
+
+## 日文解釋
+「理由」とは、物事が起こった原因や、人が何かをした動機・根拠を説明する言葉です。状況を説明したり、言い訳をしたり、因果関係について話す際によく使われます。フォーマルな場面でもカジュアルな場面でも使用できる一般的な言葉です。正式な文章や会話では、「理由の一つは...」「〜という理由で」などの形で、説明を導入する際によく用いられます。日常会話では「どうして」「なぜ」といった疑問詞と一緒に使われることも多いです。
 
 ## 英文解釋
 Riyuu means "reason" or "cause" in Japanese. It refers to the explanation or justification for why something happened or why someone did something. This word is commonly used when explaining circumstances, giving excuses, or discussing causation. It can be used in both formal and casual contexts. In formal writing or speech, it's often used in phrases like "理由の一つは..." (one of the reasons is...) to introduce explanations.

@@ -7,14 +7,19 @@ tags:
   - jlpt/n3
 date: 2025-10-27
 links:
-  - [調べる](../verb-ru/002_shiraberu.md)
-  - [上がる](../verb-u/001_agaru.md)
+  調べる: ../verb-ru/002_shiraberu.md
+  上がる: ../verb-u/001_agaru.md
 ---
 
 ## 日文
 より
 
+**羅馬拼音**：yori
+
 **詞性**：助詞（比較助詞）
+
+## 日文解釋
+「より」は主に比較を表す助詞で、英語の「than」に相当します。比較の基準を示し、「AはBより大きい」（Aの方がBよりも大きい）のような文で使われます。比較される対象の名詞の後ろに付きます。基本的な型は「B より A」で、「BよりもAの方が〜」という意味になります。また、時間や場所の起点を示す「から」の意味でも使われることがありますが、この用法はよりフォーマルです。日本語で比較関係を表現するために不可欠な助詞で、日常会話でも書き言葉でも頻繁に使用されます。
 
 ## 英文解釋
 Yori is a particle used primarily for making comparisons, similar to "than" or "compared to" in English. It marks the standard of comparison in sentences like "A is bigger than B" (AはBより大きい). It can also mean "from" or "since" when indicating a starting point in time or place, though this usage is more formal. In comparison sentences, より follows the noun being compared against. The pattern is typically "B より A" (A compared to B). This particle is essential for expressing comparative relationships in Japanese.
