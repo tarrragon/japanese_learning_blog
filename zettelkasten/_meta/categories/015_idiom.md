@@ -5,6 +5,26 @@ type: category
 created: 2025-10-28
 ---
 
+## 日文
+慣用句（かんようく）
+
+**羅馬拼音**：kanyouku
+
+**詞性**：名詞（語言學術語）
+
+**別名**：慣用語（かんようご）
+
+## 日文解釋
+慣用句（かんようく）とは、二つ以上の言葉が組み合わさって、全体で特別な意味を表す固定的な表現のことです。「手を出す」「足を運ぶ」「腹を立てる」などが代表的な例です。それぞれの言葉の字面通りの意味ではなく、全体で慣用的な意味を持ちます。例えば、「手を出す」は文字通り「手を出す」という動作ではなく、「何かに関わる、介入する」という意味になります。身体部位を使った慣用句が多く、日本語の表現を豊かにする重要な要素です。順序や単語を変えることはできず、固定的な形で使われます。
+
+## 英文解釋
+An "idiom" (kanyouku) is a fixed expression formed by combining two or more words that together express a special meaning. Representative examples include "te wo dasu" (手を出す, to get involved), "ashi wo hakobu" (足を運ぶ, to visit), and "hara wo tateru" (腹を立てる, to get angry). Rather than the literal meaning of each word, the whole phrase carries an idiomatic meaning. For example, "te wo dasu" literally means "extend one's hand," but idiomatically means "to get involved or interfere in something." Many idioms use body parts and are an important element that enriches Japanese expression. They cannot be modified in word order or components and are used in fixed forms.
+
+## 中文解釋
+「慣用句」（かんようく），又稱「慣用語」，是由兩個以上的詞語組合而成，整體表達特殊意義的固定表達。代表性的例子包括「手を出す」（插手、介入）、「足を運ぶ」（前往）、「腹を立てる」（生氣）等。它們不是各個詞語的字面意思，而是整體具有慣用意義。例如，「手を出す」字面意思是「伸出手」，但慣用意義是「介入某事、插手」。許多慣用句使用身體部位，是豐富日語表達的重要元素。這些表達的詞序和成分不能隨意改變，必須以固定形式使用。
+
+---
+
 ## Category 資訊
 
 **Category 名稱**：`idiom`

@@ -5,6 +5,26 @@ type: category
 created: 2025-10-28
 ---
 
+## 日文
+擬音語・擬態語（ぎおんご・ぎたいご）
+
+**羅馬拼音**：giongo / gitaigo
+
+**詞性**：名詞（語言學術語）
+
+**別名**：オノマトペ
+
+## 日文解釋
+擬音語・擬態語（ぎおんご・ぎたいご）とは、音や様子を言葉で表現する特別な表現のことです。擬音語は「わんわん」「がやがや」「ざーざー」のように実際の音を真似た言葉で、擬態語は「きらきら」「ふわふわ」「しっかり」のように状態や動作、感情を表現する言葉です。日本語は世界の言語の中でも擬音語・擬態語が非常に多く、日常会話でも頻繁に使われます。「ABAB」のような繰り返しの形が多く、副詞として使われることがほとんどです。これらの表現を使うことで、状況や感情を生き生きと伝えることができます。
+
+## 英文解釋
+"Onomatopoeia" (giongo/gitaigo) refers to special expressions that represent sounds or states through words. Giongo (擬音語, sound-symbolic words) are words that mimic actual sounds, like "wanwan" (わんわん, dog barking), "gayagaya" (がやがや, noisy chatter), or "zaazaa" (ざーざー, heavy rain). Gitaigo (擬態語, mimetic words) express states, actions, and emotions, like "kirakira" (きらきら, sparkling), "fuwafuwa" (ふわふわ, fluffy), or "shikkari" (しっかり, firmly). Japanese has an exceptionally large number of onomatopoeic expressions compared to other languages worldwide, and they are frequently used in daily conversation. Many follow repetitive patterns like "ABAB" and are mostly used as adverbs. Using these expressions makes situations and emotions come alive in communication.
+
+## 中文解釋
+「擬音語・擬態語」（ぎおんご・ぎたいご），又稱「オノマトペ」（onomatopoeia），是用詞語表現聲音或狀態的特殊表達。擬音語是模擬實際聲音的詞語，如「わんわん」（狗叫聲）、「がやがや」（嘈雜聲）、「ざーざー」（大雨聲）。擬態語是表達狀態、動作和情感的詞語，如「きらきら」（閃亮）、「ふわふわ」（鬆軟）、「しっかり」（牢固地）。日語在世界語言中擁有極其豐富的擬音擬態語，在日常會話中使用頻繁。多採用「ABAB」之類的重複形式，大多作為副詞使用。使用這些表達可以生動地傳達情境和情感。
+
+---
+
 ## Category 資訊
 
 **Category 名稱**：`onomatopoeia`
