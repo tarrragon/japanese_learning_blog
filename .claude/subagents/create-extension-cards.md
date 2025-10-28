@@ -143,12 +143,15 @@ jlpt: {level}
 
 ## 日文說明
 {以日文思考，用日文解釋這個語用現象}
+{💡 在說明中使用腳註標註重要概念}
 
 ## 英文說明
 {英文解釋}
+{💡 在說明中使用腳註標註重要概念}
 
 ## 中文說明
 {繁體中文解釋}
+{💡 在說明中使用腳註標註重要概念}
 
 ## 對比說明
 {如果適用，提供對比表格或列表}
@@ -157,18 +160,18 @@ jlpt: {level}
 - **使用對象**：
 - **使用場合**：
 - **語氣**：
-- **範例**：
+- **範例**：{💡 例句中使用腳註標註文法點}
 
 ### {變體形式}
 - **使用對象**：
 - **使用場合**：
 - **語氣**：
-- **範例**：
+- **範例**：{💡 例句中使用腳註標註文法點}
 
 ## 正確用法 ✅
 
 ### 情境一
-{日文例句}
+{日文例句}{💡 使用腳註標註文法點}
 {英文翻譯}
 {中文翻譯}
 
@@ -187,9 +190,287 @@ jlpt: {level}
 - **優先級**：{High/Medium/Low}
 - **練習重點**：{應該如何練習}
 
-## 相關卡片
+---
+
+## 註解
+{💡 新增：腳註定義區塊}
+
+[^concept1]: **概念名稱**（[[相關卡片]]）- 簡短說明
+[^grammar1]: **文法點**（[[grammar/xxx]]）- 文法說明和例句
+[^context1]: **語境說明**（[[context/xxx]]）- 使用場景說明
+
+---
+
+## 相關連結
+{💡 標準連結區塊}
+
+### 相關延伸卡片
 - [[{其他相關延伸卡片}]]
+
+### 相關文法
 - [[{相關的語法卡片}]]
+
+### 相關語境
+- [[{相關的語境卡片}]]
+```
+
+#### 4.1 在延伸卡片中使用腳註（新增指南）
+
+延伸卡片因為涉及複雜的語用概念，**強烈建議**使用腳註來標註：
+
+**應該使用腳註的情境**：
+
+1. **語用概念標註**
+```markdown
+## 日文說明
+
+「召し上がる」は「食べる」の尊敬語[^sonkeigo]です。目上の人[^meue]が食事をする
+時に使います。
+
+---
+
+## 註解
+
+[^sonkeigo]: **尊敬語**（[[grammar/keigo/sonkeigo]]）- 提高對方地位的敬語形式。與謙讓語、丁寧語並列為三大敬語系統
+
+[^meue]: **目上の人**（[[context/social-hierarchy]]）- 社會地位或年齡比自己高的人。日語敬語使用的重要判斷標準
+```
+
+2. **文法點標註**
+```markdown
+## 正確用法 ✅
+
+### 情境一：長輩用餐
+部長は毎日7時に[^time]朝食を[^wo]召し上がります[^masu]。
+The director has breakfast at 7 o'clock every day.
+部長每天7點吃早餐。
+
+---
+
+## 註解
+
+[^time]: **時間表達**（[[grammar/time-expression]]）- 「〜時に」表示具體時間點
+
+[^wo]: **賓語助詞を**（[[particle/001_wo]]）- 標示動作的直接賓語
+
+[^masu]: **ます形**（[[grammar/verb-masu-form]]）- 禮貌體的基本形式
+```
+
+3. **對比說明中的標註**
+```markdown
+## 對比說明
+
+### 基本形式：食べる
+- **使用對象**：平輩、晚輩、自己
+- **使用場合**：日常會話[^casual-context]
+- **範例**：友達とラーメンを食べる
+
+### 尊敬語：召し上がる
+- **使用對象**：長輩、上司、客人
+- **使用場合**：正式場合[^formal-context]、商務場合[^business-context]
+- **範例**：先生はお寿司を召し上がる
+
+---
+
+## 註解
+
+[^casual-context]: **日常會話語境**（[[context/casual-conversation]]）- 朋友、家人之間的非正式對話
+
+[^formal-context]: **正式場合**（[[context/formal-situation]]）- 需要使用敬語和禮貌表達的場合
+
+[^business-context]: **商務場合**（[[context/business]]）- 職場、商務往來等專業環境
+```
+
+4. **文化背景標註**
+```markdown
+## 文化注意
+
+日本的敬語系統[^keigo-system]反映了社會階層[^social-hierarchy]和集團意識
+[^group-consciousness]。正確使用敬語是社交禮儀[^social-etiquette]的重要部分。
+
+---
+
+## 註解
+
+[^keigo-system]: **敬語系統**（[[grammar/keigo/overview]]）- 日語有尊敬語、謙讓語、丁寧語三大類，是世界上最複雜的敬語系統之一
+
+[^social-hierarchy]: **社會階層**（[[concept/social-hierarchy]]）- 日本社會重視年齡、職位、社會地位的上下關係
+
+[^group-consciousness]: **集團意識**（[[concept/group-consciousness]]）- 內外之分（内と外）是日語敬語使用的重要概念
+
+[^social-etiquette]: **社交禮儀**（[[concept/social-etiquette]]）- 日本重視禮節，敬語使用不當可能造成嚴重的社交失誤
+```
+
+**腳註使用原則**：
+
+✅ **應該使用腳註**：
+- 語用概念（敬語、語域、語氣等）
+- 社會文化概念（階層、禮儀、場合等）
+- 文法術語（動詞變化、助詞、句型等）
+- 例句中的重要文法點
+- 需要補充說明的專業術語
+
+❌ **不需要腳註**：
+- 基本詞彙（已在其他地方充分說明）
+- 極為簡單的概念
+- 已在「相關連結」區塊列出的卡片
+
+#### 4.2 完整範例：敬語延伸卡片（含腳註）
+
+```markdown
+---
+title: honorific/001_meshiagaru_itadaku
+extension_of: ../verb-ru/001_taberu.md
+extension_type: keigo
+type: extension_card
+jlpt: n4
+tags: [pragmatics, honorific, keigo]
+---
+
+# 「食べる」的敬語形式：召し上がる・いただく
+
+## 關聯基本卡片
+← [[verb-ru/001_taberu|食べる]]
+
+## 語用面向
+敬語（Honorific Language）- 尊敬語與謙讓語的區分使用
+
+## 日文說明
+
+「食べる」という動詞には、二つの敬語形式[^keigo-forms]があります：
+
+1. **召し上がる（めしあがる）** - 尊敬語[^sonkeigo]
+   目上の人[^meue]が食事をする時に使います。
+
+2. **いただく** - 謙讓語[^kenjougo]
+   自分や身内[^miuchi]が食事をする時、謙遜して[^kenson]言う表現です。
+
+この使い分けは、日本の上下関係[^hierarchy]を反映した重要な敬語表現です。
+
+## 英文說明
+
+The verb "taberu" (to eat) has two honorific forms[^keigo-forms]:
+
+1. **Meshiagaru (召し上がる)** - Respectful form[^sonkeigo]
+   Used when someone of higher status eats.
+
+2. **Itadaku (いただく)** - Humble form[^kenjougo]
+   Used when you or your in-group members[^miuchi] eat, showing humility[^kenson].
+
+This distinction reflects the hierarchical nature[^hierarchy] of Japanese society.
+
+## 中文說明
+
+動詞「食べる」（吃）有兩種敬語形式[^keigo-forms]：
+
+1. **召し上がる（meshiagaru）** - 尊敬語[^sonkeigo]
+   用於長輩或上級[^meue]用餐時。
+
+2. **いただく（itadaku）** - 謙讓語[^kenjougo]
+   用於自己或自己人[^miuchi]用餐時，表示謙遜[^kenson]。
+
+這種區分反映了日本社會的階層關係[^hierarchy]。
+
+## 對比說明
+
+| 形式 | 使用對象 | 使用場合 | 例句 |
+|------|---------|---------|------|
+| 食べる（基本形） | 平輩、晚輩 | 日常會話[^casual] | 友達とご飯を食べる |
+| 召し上がる（尊敬語） | 長輩、上司、客人 | 正式場合[^formal] | 先生はお寿司を召し上がる |
+| いただく（謙讓語） | 自己、自己人 | 對長輩說話時[^to-superior] | 私がケーキをいただきます |
+
+## 正確用法 ✅
+
+### 情境一：對上司
+部長は毎日7時に[^time]朝食を[^wo]召し上がります[^masu]。
+The director has breakfast at 7 o'clock every day.
+部長每天7點吃早餐。
+
+### 情境二：自己對客人
+私もコーヒーをいただきます[^masu]。
+I'll have coffee too. (polite)
+我也要喝咖啡。（禮貌）
+
+## 錯誤示範 ❌
+
+### 錯誤一：混淆尊敬語和謙讓語
+❌ 私は朝ごはんを召し上がります。
+✅ 私は朝ごはんをいただきます。
+**說明**：「召し上がる」是尊敬語，不能用於自己的動作
+
+### 錯誤二：對長輩使用基本形
+❌ 社長、ご飯を食べますか？
+✅ 社長、ご飯を召し上がりますか？
+**說明**：對長輩詢問時應使用尊敬語
+
+## 文化注意
+
+日本的敬語系統[^keigo-system]是世界上最複雜的之一。正確使用敬語不僅是語言問題，
+更是社交禮儀[^etiquette]的體現。在商務場合[^business]錯誤使用敬語可能造成嚴重的
+社交失誤[^social-error]。
+
+## 學習建議
+- **JLPT 等級**：N4（召し上がる）、N5（いただく的基本用法）
+- **優先級**：High（日常對話必備）
+- **練習重點**：區分「提高對方」（尊敬語）vs「降低自己」（謙讓語）的概念
+
+---
+
+## 註解
+
+[^keigo-forms]: **敬語形式**（[[grammar/keigo/overview]]）- 日語有尊敬語、謙讓語、丁寧語三大類
+
+[^sonkeigo]: **尊敬語**（[[grammar/keigo/sonkeigo]]）- 提高對方地位的敬語。用於描述對方或第三者的動作
+
+[^kenjougo]: **謙讓語**（[[grammar/keigo/kenjougo]]）- 降低自己地位的敬語。用於描述自己或自己人的動作
+
+[^meue]: **目上の人**（[[context/social-hierarchy]]）- 社會地位、年齡或職位比自己高的人
+
+[^miuchi]: **身内**（[[concept/uchi-soto]]）- 自己人、內集團成員。與「外」（soto）相對
+
+[^kenson]: **謙遜**（[[concept/humility]]）- 謙虛、自謙。日本文化重視的美德
+
+[^hierarchy]: **上下關係**（[[concept/social-hierarchy]]）- 日本社會重視的階層關係
+
+[^casual]: **日常會話**（[[context/casual-conversation]]）- 非正式的日常對話場景
+
+[^formal]: **正式場合**（[[context/formal-situation]]）- 需要使用敬語的正式場合
+
+[^to-superior]: **對長輩說話**（[[context/speaking-to-superior]]）- 與地位較高者對話的場景
+
+[^time]: **時間表達**（[[grammar/time-expression]]）- 「〜時に」表示具體時間點
+
+[^wo]: **賓語助詞を**（[[particle/001_wo]]）- 標示動作的直接賓語
+
+[^masu]: **ます形**（[[grammar/verb-masu-form]]）- 禮貌體的基本形式
+
+[^keigo-system]: **敬語系統**（[[grammar/keigo/overview]]）- 日語敬語是世界上最複雜的系統之一
+
+[^etiquette]: **社交禮儀**（[[concept/social-etiquette]]）- 日本重視禮節和禮貌
+
+[^business]: **商務場合**（[[context/business]]）- 職場、商務往來等專業環境
+
+[^social-error]: **社交失誤**（[[concept/social-mistakes]]）- 不當的敬語使用可能造成關係惡化
+
+---
+
+## 相關連結
+
+### 同一基本詞的其他延伸
+- [[verb-ru/001_taberu_003_register|語域差異]]
+
+### 相關敬語動詞
+- [[verb-u/nomu-keigo|飲む的敬語形式]]
+- [[verb-ru/miru-keigo|見る的敬語形式]]
+
+### 相關文法
+- [[grammar/keigo/overview|敬語系統總覽]]
+- [[grammar/keigo/sonkeigo|尊敬語詳解]]
+- [[grammar/keigo/kenjougo|謙讓語詳解]]
+
+### 相關語境
+- [[context/business|商務場合]]
+- [[context/formal-situation|正式場合]]
 ```
 
 ### 5. 輸出格式
