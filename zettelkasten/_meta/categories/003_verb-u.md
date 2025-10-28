@@ -5,6 +5,26 @@ type: category
 created: 2025-10-28
 ---
 
+## 日文
+五段動詞（ごだんどうし）
+
+**羅馬拼音**：godan doushi
+
+**詞性**：名詞（語言學術語）
+
+**別名**：う動詞（うどうし）
+
+## 日文解釋
+五段動詞（ごだんどうし）とは、日本語の動詞の中で最も数が多い分類で、語尾が「う段」の仮名（う、く、ぐ、す、つ、ぬ、ぶ、む、る）で終わる動詞です。「書く」「話す」「読む」「行く」などが代表的な例です。活用する時、語尾が五十音図の五つの段（あ段、い段、う段、え段、お段）を使って変化するため、「五段」という名前がついています。一段動詞より活用のパターンが複雑ですが、規則性があるので、パターンを覚えれば使いこなせるようになります。日本語の動詞の中で最も基本的で重要な分類であり、日常会話でも最も頻繁に使われる動詞の多くが五段動詞です。
+
+## 英文解釋
+A "godan verb" (godan doushi), also called "u-verb," is the most numerous category of Japanese verbs, characterized by endings in the "u-dan" (u-row) of the hiragana chart (u, ku, gu, su, tsu, nu, bu, mu, ru). Representative examples include "kaku" (書く, to write), "hanasu" (話す, to speak), "yomu" (読む, to read), and "iku" (行く, to go). During conjugation, the verb ending changes across all five rows of the kana chart (a-dan, i-dan, u-dan, e-dan, o-dan), which is why they are called "godan" (five-step) verbs. While the conjugation patterns are more complex than ichidan verbs, they follow regular rules that become manageable once you learn the patterns. This is the most fundamental and important verb category in Japanese, as many of the most frequently used verbs in daily conversation are godan verbs.
+
+## 中文解釋
+「五段動詞」（ごだんどうし），又稱「う動詞」，是日語動詞中數量最多的分類，其特徵是以「う段」假名（う、く、ぐ、す、つ、ぬ、ぶ、む、る）結尾。代表性的例子包括「書く」（kaku，寫）、「話す」（hanasu，說）、「読む」（yomu，讀）、「行く」（iku，去）。變化時，動詞語尾會使用五十音圖的五個段（あ段、い段、う段、え段、お段）進行變化，因此稱為「五段」動詞。雖然活用模式比一段動詞複雜，但具有規律性，掌握了模式就能熟練運用。這是日語中最基本且最重要的動詞分類，日常會話中最常用的許多動詞都屬於五段動詞。
+
+---
+
 ## Category 資訊
 
 **Category 名稱**：`verb-u`

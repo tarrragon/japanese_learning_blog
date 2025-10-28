@@ -5,6 +5,26 @@ type: category
 created: 2025-10-28
 ---
 
+## 日文
+な形容詞（なけいようし）
+
+**羅馬拼音**：na keiyoushi
+
+**詞性**：名詞（語言學術語）
+
+**別名**：形容動詞（けいようどうし）
+
+## 日文解釋
+な形容詞（なけいようし）とは、名詞を修飾する時に「な」をつける必要がある形容詞のことです。「きれい」「静か」「便利」「大切」などが代表的な例です。名詞を修飾する時は「きれいな花」のように「な」を使い、述語として使う時は「花がきれいだ」のように「だ」や「です」をつけます。変化の仕方は名詞とよく似ていて、い形容詞のような特殊な活用はしません。日本語の形容詞の二大分類の一つで、主に漢語や外来語に由来する形容詞が多く、性質や状態を表現する際に使われます。「形容動詞（けいようどうし）」とも呼ばれます。
+
+## 英文解釋
+A "na-adjective" (na keiyoushi), also known as an "adjectival noun" or "keiyoudoushi," is an adjective that requires the particle "na" (な) when modifying nouns. Representative examples include "kirei" (きれい, pretty/clean), "shizuka" (静か, quiet), "benri" (便利, convenient), and "taisetsu" (大切, important). When modifying nouns, they use "na" (e.g., "kirei na hana" - きれいな花, a pretty flower). When used as predicates, they take "da" or "desu" (e.g., "hana ga kirei da" - 花がきれいだ, the flower is pretty). Their conjugation pattern resembles that of nouns and does not have the special conjugations of i-adjectives. They are one of the two major adjective categories in Japanese and mostly derive from Chinese loan words (kango) or foreign loan words (gairaigo), used to express qualities and states.
+
+## 中文解釋
+「な形容詞」（なけいようし），又稱「形容動詞」（けいようどうし），是指修飾名詞時需要加上助詞「な」的形容詞。代表性的例子包括「きれい」（kirei，漂亮的／乾淨的）、「静か」（shizuka，安靜的）、「便利」（benri，方便的）、「大切」（taisetsu，重要的）。修飾名詞時使用「な」（如「きれいな花」——漂亮的花），作為謂語使用時加上「だ」或「です」（如「花がきれいだ」——花很漂亮）。變化方式類似於名詞，不像い形容詞那樣有特殊的活用變化。它是日語形容詞的兩大分類之一，主要源於漢語借詞或外來語，用於表達性質和狀態。
+
+---
+
 ## Category 資訊
 
 **Category 名稱**：`adj-na`

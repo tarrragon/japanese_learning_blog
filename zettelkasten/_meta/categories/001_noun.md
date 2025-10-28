@@ -5,6 +5,24 @@ type: category
 created: 2025-10-28
 ---
 
+## 日文
+名詞（めいし）
+
+**羅馬拼音**：meishi
+
+**詞性**：名詞（語言學術語）
+
+## 日文解釋
+名詞（めいし）とは、人や物、場所、概念など、あらゆる事物の名前を表す品詞です。日本語の品詞の中で最も基本的で、数も最も多い品詞です。「これは本です」のように「〜です」「〜だ」の前に置いたり、「学校の先生」のように「の」で他の名詞とつないだりすることができます。また、助詞と組み合わせることで、主語、目的語、修飾語など、さまざまな文中の役割を果たすことができます。名詞には、具体的なもの（本、犬、山）もあれば、抽象的な概念（愛、自由、時間）もあり、日本語学習の最も基礎となる品詞です。
+
+## 英文解釋
+A "noun" (meishi) is a part of speech that represents the names of all things, including people, objects, places, and concepts. It is the most fundamental and numerous part of speech in Japanese. Nouns can be used before "desu" or "da" (as in "kore wa hon desu" - "this is a book"), or connected to other nouns using "no" (as in "gakkou no sensei" - "school teacher"). By combining with particles, nouns can serve various grammatical roles in sentences, such as subject, object, or modifier. Nouns can refer to concrete things (book, dog, mountain) or abstract concepts (love, freedom, time), making them the most foundational part of speech in Japanese learning.
+
+## 中文解釋
+「名詞」（めいし）是表示所有事物名稱的詞類，包括人、物品、地點和概念等。它是日語中最基本且數量最多的詞類。名詞可以放在「です」或「だ」之前使用（如「これは本です」——「這是書」），也可以用「の」連接其他名詞（如「学校の先生」——「學校的老師」）。通過與助詞組合，名詞可以在句子中擔任主語、賓語、修飾語等各種語法角色。名詞可以指稱具體的事物（書、狗、山）或抽象的概念（愛、自由、時間），是日語學習中最基礎的詞類。
+
+---
+
 ## Category 資訊
 
 **Category 名稱**：`noun`
