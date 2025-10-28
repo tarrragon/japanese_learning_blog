@@ -5,6 +5,26 @@ type: category
 created: 2025-10-28
 ---
 
+## 日文
+対比（たいひ）
+
+**羅馬拼音**：taihi
+
+**詞性**：名詞
+
+**別名**：辨析（べんせき）
+
+## 日文解釋
+対比（たいひ）とは、意味が似ていて混同しやすい言葉を比べて、その違いを明確にすることです。この category では、二つ以上の似た言葉や表現を取り上げ、意味の違い、使い方の違い、語感の違いなどを詳しく説明します。例えば、「見る・観る・診る」（見るの使い分け）、「は・が」（助詞の違い）、「〜たい・〜てほしい」（文法の違い）などです。日本語学習者が間違いやすいポイントを比較することで、正確な理解と使い分けができるようになります。対比カードは、似た言葉を整理して覚えるのに非常に役立ちます。
+
+## 英文解釋
+"Contrast" or "comparative analysis" (taihi) refers to comparing words with similar meanings that are easily confused and clarifying their differences. This category presents two or more similar words or expressions and explains in detail their differences in meaning, usage, and nuance. Examples include distinguishing between "miru/miru/miru" (見る・観る・診る, different uses of "to see"), "wa/ga" (は・が, particle differences), and "~tai/~te hoshii" (〜たい・〜てほしい, grammatical differences). By comparing points that are prone to errors for Japanese learners, one can achieve accurate understanding and proper usage distinction. Contrast cards are extremely helpful for organizing and memorizing similar words.
+
+## 中文解釋
+「對比」（たいひ），又稱「辨析」，是指比較意思相似且容易混淆的詞語，明確其差異。此分類列出兩個或多個相似的詞語或表達，詳細說明意義差異、用法差異、語感差異等。例如，「見る・観る・診る」（「看」的不同用法）、「は・が」（助詞差異）、「〜たい・〜てほしい」（文法差異）等。通過比較日語學習者容易出錯的要點，可以實現準確理解和正確區分使用。對比卡片對於整理和記憶相似詞語非常有幫助。
+
+---
+
 ## Category 資訊
 
 **Category 名稱**：`contrast`

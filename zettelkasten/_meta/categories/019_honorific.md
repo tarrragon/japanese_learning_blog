@@ -5,6 +5,24 @@ type: category
 created: 2025-10-28
 ---
 
+## 日文
+敬語（けいご）
+
+**羅馬拼音**：keigo
+
+**詞性**：名詞
+
+## 日文解釋
+敬語（けいご）とは、相手や話題の人物に対して敬意を表すための特別な言葉遣いのことです。日本語の敬語は、尊敬語（相手の行為を高める）、謙譲語（自分の行為を低める）、丁寧語（丁寧に話す）の三種類に分けられます。「いらっしゃる」「召し上がる」（尊敬語）、「伺う」「申し上げる」（謙譲語）、「です」「ます」（丁寧語）などが代表的な例です。ビジネスや公式な場面では適切な敬語の使用が重要で、人間関係や社会的な立場を言葉で表現します。日本語の大きな特徴の一つであり、上級レベルでも学び続ける必要がある複雑な体系です。
+
+## 英文解釋
+"Honorific language" or "keigo" (敬語) refers to special ways of speaking that express respect toward the listener or the person being discussed. Japanese honorifics are divided into three types: sonkeigo (尊敬語, respectful language that elevates others' actions), kenjougo (謙譲語, humble language that lowers one's own actions), and teineigo (丁寧語, polite language). Representative examples include "irassharu" (いらっしゃる, to come/go/be - respectful), "meshiagaru" (召し上がる, to eat/drink - respectful), "ukagau" (伺う, to visit/ask - humble), "moushiageru" (申し上げる, to say - humble), and "desu/masu" (です/ます, polite endings). Proper use of keigo is crucial in business and formal settings, as it expresses interpersonal relationships and social positions through language. It is one of the major characteristics of Japanese and represents a complex system that requires continuous study even at advanced levels.
+
+## 中文解釋
+「敬語」（けいご）是指用於對聽者或談論對象表達敬意的特殊說話方式。日語敬語分為三類：尊敬語（提高對方行為）、謙讓語（降低自己行為）和丁寧語（禮貌地說話）。代表性的例子包括「いらっしゃる」「召し上がる」（尊敬語）、「伺う」「申し上げる」（謙讓語）、「です」「ます」（丁寧語）。在商務和正式場合，正確使用敬語非常重要，通過語言表達人際關係和社會地位。這是日語的一大特徵，是一個複雜的體系，即使在高級水平也需要持續學習。
+
+---
+
 ## Category 資訊
 
 **Category 名稱**：`honorific`

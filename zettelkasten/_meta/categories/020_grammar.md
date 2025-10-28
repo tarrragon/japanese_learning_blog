@@ -5,6 +5,26 @@ type: category
 created: 2025-10-28
 ---
 
+## 日文
+文法（ぶんぽう）
+
+**羅馬拼音**：bunpou
+
+**詞性**：名詞
+
+**別名**：語法（ごほう）
+
+## 日文解釋
+文法（ぶんぽう）とは、言葉を正しく組み合わせて文を作るための規則や体系のことです。動詞の活用、助詞の使い方、文型、語順など、言語のルールすべてを含みます。日本語文法には、「〜ながら」「〜たい」「〜そうだ」のような文型、て形・た形・可能形などの動詞変化、受身・使役などの文法構造があります。文法を理解することで、単語を正しく組み合わせて意味のある文を作ることができます。言語学習の基礎であり、読解や作文の能力向上に欠かせない知識です。
+
+## 英文解釋
+"Grammar" (bunpou) refers to the rules and systems for correctly combining words to form sentences. It encompasses all language rules including verb conjugations, particle usage, sentence patterns, and word order. Japanese grammar includes sentence patterns like "~nagara" (〜ながら), "~tai" (〜たい), "~souda" (〜そうだ), verb forms like te-form, ta-form, and potential form, and grammatical structures like passive and causative. Understanding grammar enables you to correctly combine words to create meaningful sentences. It is the foundation of language learning and essential knowledge for improving reading comprehension and writing abilities.
+
+## 中文解釋
+「文法」（ぶんぽう），又稱「語法」，是指正確組合詞語以構成句子的規則和體系。它包括所有語言規則，如動詞活用、助詞用法、句型和語序等。日語文法包含「〜ながら」「〜たい」「〜そうだ」等句型，て形、た形、可能形等動詞變化，以及被動、使役等文法結構。理解文法才能正確組合單詞形成有意義的句子。它是語言學習的基礎，是提高閱讀理解和寫作能力不可或缺的知識。
+
+---
+
 ## Category 資訊
 
 **Category 名稱**：`grammar`

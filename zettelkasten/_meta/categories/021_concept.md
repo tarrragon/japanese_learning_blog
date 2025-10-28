@@ -5,6 +5,24 @@ type: category
 created: 2025-10-28
 ---
 
+## 日文
+概念（がいねん）
+
+**羅馬拼音**：gainen
+
+**詞性**：名詞
+
+## 日文解釋
+概念（がいねん）とは、物事の本質的な意味や内容を抽象的にまとめたものです。この category では、単純な単語ではなく、深い理解や説明が必要な抽象的な考え方や専門的な用語を扱います。例えば、「物価上昇」「少子高齢化」「グローバル化」のような社会・経済の概念、「自由」「平等」「正義」のような哲学的な概念などが含まれます。これらは単なる言葉の意味を超えて、背景知識や文脈の理解が必要です。通常、複数の言葉で構成され、専門分野での特別な意味を持つことが多いです。
+
+## 英文解釋
+A "concept" (gainen) is an abstract summary of the essential meaning or content of something. This category deals with abstract ideas and specialized terminology that require deep understanding and explanation, rather than simple vocabulary words. Examples include socio-economic concepts like "bukka joushou" (物価上昇, price inflation), "shoushi koureika" (少子高齢化, declining birthrate and aging population), "globalization" (グローバル化), and philosophical concepts like "freedom" (自由), "equality" (平等), and "justice" (正義). These go beyond mere word meanings and require understanding of background knowledge and context. They are typically composed of multiple words and often carry special meanings within specific fields.
+
+## 中文解釋
+「概念」（がいねん）是對事物本質意義或內容的抽象總結。此分類處理的不是簡單的詞彙，而是需要深入理解和解釋的抽象思想和專業術語。例如，「物価上昇」（物價上漲）、「少子高齡化」、「全球化」等社會經濟概念，以及「自由」「平等」「正義」等哲學概念。這些超越了單純的詞語意義，需要理解背景知識和語境。通常由多個詞語組成，在特定領域具有特殊含義。
+
+---
+
 ## Category 資訊
 
 **Category 名稱**：`concept`
