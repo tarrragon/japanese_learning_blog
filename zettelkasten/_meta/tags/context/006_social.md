@@ -5,6 +5,26 @@ type: context_tag
 created: 2025-10-28
 ---
 
+## 日文
+社交的な場面（しゃこうてきなばめん）
+
+**羅馬拼音**：shakouteki na bamen
+
+**詞性**：名詞片語
+
+## 日文解釋
+社交的な場面とは、人と人とが交流する場のことです。パーティーや集まり、初めて会う人との会話、地域のイベントなど、人間関係を築いたり広げたりする機会を指します。家族や親しい友達との会話とは違い、ある程度の礼儀正しさが必要ですが、ビジネスシーンほど堅苦しくはありません。相手に興味を示したり、共通の話題を見つけたり、楽しい雰囲気を作ることが大切です。自己紹介をしたり、世間話をしたり、相手を褒めたりといった、人との距離を縮めるためのコミュニケーションが中心となります。「お元気ですか」「初めまして」「素敵ですね」といった表現を使い、相手と良い関係を築こうとする場面です。
+
+## 英文解釋
+"Social situations" (shakouteki na bamen) refers to contexts where people interact and socialize with each other. This includes parties, gatherings, conversations with people you're meeting for the first time, and community events—opportunities to build and expand relationships. Unlike conversations with family or close friends, a certain degree of politeness is required, though it's not as rigid as business scenes. It's important to show interest in others, find common topics, and create an enjoyable atmosphere. Communication centers on bridging the distance between people through self-introductions, small talk, and compliments. These are situations where you use expressions like "ogenki desu ka" (how are you?), "hajimemashite" (nice to meet you), and "suteki desu ne" (that's wonderful) to build good relationships with others.
+
+## 中文解釋
+「社交場合」指的是人與人交流互動的情境。包括派對、聚會、與初次見面的人對話、社區活動等建立和擴展人際關係的機會。與家人或親密朋友的對話不同，需要一定程度的禮貌，但不像商務場景那樣拘謹。重要的是表現出對他人的興趣、尋找共同話題、營造愉快的氛圍。溝通的核心是透過自我介紹、閒聊、讚美等方式拉近人與人之間的距離。使用「お元気ですか」（您好嗎）、「初めまして」（初次見面）、「素敵ですね」（真棒）等表達來與他人建立良好關係的場合。
+
+---
+
+## Meta 資訊
+
 ## Tag 資訊
 
 **Tag 名稱**：`context/social`
@@ -84,3 +104,4 @@ created: 2025-10-28
 
 **維護記錄**
 - 2025-10-28：建立 tag 定義卡片
+- 2025-10-28：重構為標準三語卡片格式，以日文思考重新撰寫解釋
