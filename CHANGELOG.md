@@ -12,7 +12,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 
 #### 專案結構與文檔
-- 建立專案主指南文檔 `.claude/claude.md`
 - 建立版本更新記錄 `CHANGELOG.md`
 - 建立工作流程文檔目錄 `doc/`
 - 定義四階段工作流程循環系統
@@ -37,7 +36,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - 支援語義化腳註標籤（如 `[^ichidan]`）
 - 建立卡片格式完整指南 `.claude/card-format-guidelines.md`
 
-#### 智能代理人
+#### 代理人
 - **延伸卡片建立代理人** (`.claude/subagents/create-extension-cards.md`)
   - 分析詞彙卡片識別需要的延伸卡片
   - 自動建立文法、語用、文化等延伸卡片
