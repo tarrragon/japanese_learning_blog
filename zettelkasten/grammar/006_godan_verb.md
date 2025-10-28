@@ -4,7 +4,7 @@ description: 五段動詞（う動詞）- 變化複雜的動詞類型
 type: grammar
 subtype: verb_conjugation
 jlpt: n5
-stage: extension-review
+stage: linking
 tags: [grammar, verb, conjugation, basic]
 created: 2025-10-28
 updated: 2025-10-28

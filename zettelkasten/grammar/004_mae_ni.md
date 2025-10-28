@@ -4,7 +4,7 @@ description: 〜前に - 表示「在...之前」的時間文法
 type: grammar
 subtype: time_expression
 jlpt: n5
-stage: extension-review
+stage: linking
 tags: [grammar, time, sequence]
 created: 2025-10-28
 updated: 2025-10-28

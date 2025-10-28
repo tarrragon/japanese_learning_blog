@@ -4,7 +4,7 @@ description: 一段動詞（る動詞）- 規則動詞類型
 type: grammar
 subtype: verb_conjugation
 jlpt: n5
-stage: extension-review
+stage: linking
 tags: [grammar, verb, conjugation, basic]
 created: 2025-10-28
 updated: 2025-10-28
