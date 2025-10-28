@@ -5,6 +5,26 @@ type: category
 created: 2025-10-28
 ---
 
+## 日文
+一段動詞（いちだんどうし）
+
+**羅馬拼音**：ichidan doushi
+
+**詞性**：名詞（語言學術語）
+
+**別名**：る動詞（るどうし）
+
+## 日文解釋
+一段動詞（いちだんどうし）とは、日本語の動詞の分類の一つで、語尾が「る」で終わり、その前が「い段」または「え段」の仮名である動詞です。「食べる」「見る」「寝る」などが代表的な例です。活用する時は「る」を取って、「ます」「て」「た」などの語尾をつけるだけなので、変化のパターンが一つしかなく、とても規則的で覚えやすい動詞です。五段動詞に比べて活用が簡単なため、日本語学習の初期段階で最初に学ぶべき動詞の種類です。「一段」という名前は、活用の際に語幹が一つの段（音の高さ）しか使わないことから付けられました。
+
+## 英文解釋
+An "ichidan verb" (ichidan doushi), also called "ru-verb," is one of the main categories of Japanese verbs. These verbs end with "ru" (る), and the syllable before "ru" is always in the "i-dan" (i-row) or "e-dan" (e-row) of the hiragana chart. Representative examples include "taberu" (食べる, to eat), "miru" (見る, to see), and "neru" (寝る, to sleep). When conjugating, you simply remove "ru" and add endings like "masu," "te," or "ta," making the conjugation pattern very regular and easy to memorize. Compared to godan verbs, ichidan verbs have simpler conjugations, making them the ideal verb type to learn first for Japanese beginners. The name "ichidan" (one-step) comes from the fact that the verb stem uses only one row of the kana chart during conjugation.
+
+## 中文解釋
+「一段動詞」（いちだんどうし），又稱「る動詞」，是日語動詞的主要分類之一。這類動詞以「る」結尾，且「る」前面的假名必定是「い段」或「え段」。代表性的例子包括「食べる」（taberu，吃）、「見る」（miru，看）、「寝る」（neru，睡）。變化時只需去掉「る」，再加上「ます」「て」「た」等語尾，因此變化模式只有一種，非常規則且容易記憶。相比五段動詞，一段動詞的活用更為簡單，是日語學習初期階段應該首先學習的動詞類型。「一段」這個名稱源於動詞詞幹在活用時只使用假名表中的一個段（行）。
+
+---
+
 ## Category 資訊
 
 **Category 名稱**：`verb-ru`

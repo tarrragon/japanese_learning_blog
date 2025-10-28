@@ -5,6 +5,26 @@ type: category
 created: 2025-10-28
 ---
 
+## 日文
+い形容詞（いけいようし）
+
+**羅馬拼音**：i keiyoushi
+
+**詞性**：名詞（語言學術語）
+
+**別名**：形容詞（けいようし）
+
+## 日文解釋
+い形容詞（いけいようし）とは、語尾が「い」で終わる形容詞のことです。「大きい」「小さい」「高い」「安い」などが代表的な例です。名詞を直接修飾することができ（「大きい家」）、述語としても使えます（「家が大きい」）。活用することができ、「大きい→大きくない→大きかった」のように、否定形、過去形、て形などに変化します。日本語の形容詞の二大分類の一つで、主に和語に由来する形容詞が多く、感覚や状態を表現する際に頻繁に使われます。初級レベルから学ぶ重要な品詞です。
+
+## 英文解釋
+An "i-adjective" (i keiyoushi) is an adjective that ends with the hiragana character "i" (い). Representative examples include "ookii" (大きい, big), "chiisai" (小さい, small), "takai" (高い, expensive/tall), and "yasui" (安い, cheap). These adjectives can directly modify nouns (e.g., "ookii ie" - 大きい家, a big house) and can also serve as predicates (e.g., "ie ga ookii" - 家が大きい, the house is big). I-adjectives conjugate, changing forms for negative (ookikunai - 大きくない), past tense (ookikatta - 大きかった), te-form, and others. They are one of the two major adjective categories in Japanese and mostly derive from native Japanese words (wago), frequently used to express sensations and states. They are an essential part of speech learned from the beginner level.
+
+## 中文解釋
+「い形容詞」（いけいようし）是指以假名「い」結尾的形容詞。代表性的例子包括「大きい」（ookii，大的）、「小さい」（chiisai，小的）、「高い」（takai，高的／貴的）、「安い」（yasui，便宜的）。這類形容詞可以直接修飾名詞（如「大きい家」——大房子），也可以作為謂語使用（如「家が大きい」——房子很大）。い形容詞可以活用變化，如「大きい→大きくない→大きかった」，能夠變為否定形、過去式、て形等。它是日語形容詞的兩大分類之一，主要源於日語固有詞彙（和語），常用於表達感覺和狀態，是從初級階段就要學習的重要詞類。
+
+---
+
 ## Category 資訊
 
 **Category 名稱**：`adj-i`

@@ -5,6 +5,24 @@ type: category
 created: 2025-10-28
 ---
 
+## 日文
+助詞（じょし）
+
+**羅馬拼音**：joshi
+
+**詞性**：名詞（語言學術語）
+
+## 日文解釋
+助詞（じょし）とは、名詞や動詞、形容詞などの後ろに付いて、言葉と言葉の関係や文の構造を示す品詞です。「が」「を」「に」「は」「も」「ね」などが代表的な例です。助詞自体には実質的な意味がありませんが、文の中での役割（主語、目的語、場所など）を明確にしたり、話し手の気持ちを表したりする重要な働きをします。格助詞（が、を、に、で、と）、副助詞（は、も、だけ）、接続助詞（が、けど、から）、終助詞（ね、よ、か）など、様々な種類があります。日本語の文法において最も重要な要素の一つです。
+
+## 英文解釋
+"Particles" (joshi) are a part of speech that attach to nouns, verbs, adjectives, and other words to indicate grammatical relationships and sentence structure. Representative examples include "ga" (が), "wo" (を), "ni" (に), "wa" (は), "mo" (も), and "ne" (ね). While particles themselves have no substantial meaning, they play a crucial role in clarifying grammatical functions (subject, object, location, etc.) and expressing the speaker's emotions or attitudes. There are various types including case particles (ga, wo, ni, de, to), adverbial particles (wa, mo, dake), conjunctive particles (ga, kedo, kara), and sentence-ending particles (ne, yo, ka). They are one of the most essential elements in Japanese grammar.
+
+## 中文解釋
+「助詞」（じょし）是附加在名詞、動詞、形容詞等詞語後面，用以表示詞語間關係和句子結構的詞類。代表性的例子包括「が」「を」「に」「は」「も」「ね」等。助詞本身雖然沒有實質意義，但在句子中起著重要作用，用於明確語法角色（主語、賓語、地點等）或表達說話者的情感態度。助詞有多種類型，包括格助詞（が、を、に、で、と）、副助詞（は、も、だけ）、接續助詞（が、けど、から）、終助詞（ね、よ、か）等。它們是日語語法中最重要的要素之一。
+
+---
+
 ## Category 資訊
 
 **Category 名稱**：`particle`

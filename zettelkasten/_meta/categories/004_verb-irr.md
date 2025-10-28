@@ -5,6 +5,26 @@ type: category
 created: 2025-10-28
 ---
 
+## 日文
+不規則動詞（ふきそくどうし）
+
+**羅馬拼音**：fukisoku doushi
+
+**詞性**：名詞（語言學術語）
+
+**別名**：変格動詞（へんかくどうし）
+
+## 日文解釋
+不規則動詞（ふきそくどうし）とは、一段動詞や五段動詞の活用規則に当てはまらない、特殊な変化をする動詞のことです。日本語には不規則動詞が二つしかありません。それは「する」（何かをする）と「来る（くる）」（来る）です。この二つの動詞は、他の動詞とは違う独特な活用パターンを持っているため、別々に覚える必要があります。また、「勉強する」「運動する」のように名詞に「する」をつけた複合動詞や、「持って来る」のように「来る」を使った複合動詞も不規則動詞として扱われます。数は少ないですが、日常会話で非常によく使われる重要な動詞です。
+
+## 英文解釋
+"Irregular verbs" (fukisoku doushi) are verbs that do not follow the conjugation rules of ichidan or godan verbs and have special conjugation patterns. Japanese has only two irregular verbs: "suru" (する, to do) and "kuru" (来る, to come). These two verbs have unique conjugation patterns that differ from all other verbs, so they must be memorized separately. Compound verbs that use "suru" (like "benkyou suru" - 勉強する, to study, or "undou suru" - 運動する, to exercise) and compound verbs with "kuru" (like "motte kuru" - 持って来る, to bring) are also treated as irregular verbs. While there are only a few of them, they are extremely important and frequently used in daily conversation.
+
+## 中文解釋
+「不規則動詞」（ふきそくどうし）是指不符合一段動詞或五段動詞活用規則、具有特殊變化的動詞。日語中只有兩個不規則動詞：「する」（做某事）和「来る（くる）」（來）。這兩個動詞具有與其他動詞不同的獨特活用模式，因此需要單獨記憶。此外，像「勉強する」「運動する」這樣在名詞後加「する」的複合動詞，以及「持って来る」這類使用「来る」的複合動詞，也被視為不規則動詞。雖然數量很少，但在日常會話中使用頻率極高，是非常重要的動詞。
+
+---
+
 ## Category 資訊
 
 **Category 名稱**：`verb-irr`

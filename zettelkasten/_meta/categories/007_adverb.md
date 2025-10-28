@@ -5,6 +5,24 @@ type: category
 created: 2025-10-28
 ---
 
+## 日文
+副詞（ふくし）
+
+**羅馬拼音**：fukushi
+
+**詞性**：名詞（語言學術語）
+
+## 日文解釋
+副詞（ふくし）とは、動詞や形容詞、他の副詞、あるいは文全体を修飾する品詞です。「とても」「ゆっくり」「もう」「よく」などが代表的な例です。時間（もう、まだ、すぐ）、程度（とても、少し、かなり）、状態（ゆっくり、はっきり）、頻度（よく、時々、いつも）などを表します。形容詞や動詞と違って、副詞自体は活用せず、形が変わりません。「とても大きい」「ゆっくり話す」のように、他の言葉の意味をより詳しく説明する役割を果たします。
+
+## 英文解釋
+An "adverb" (fukushi) is a part of speech that modifies verbs, adjectives, other adverbs, or entire sentences. Representative examples include "totemo" (とても, very), "yukkuri" (ゆっくり, slowly), "mou" (もう, already), and "yoku" (よく, often). Adverbs express time (mou, mada, sugu), degree (totemo, sukoshi, kanari), manner (yukkuri, hakkiri), and frequency (yoku, tokidoki, itsumo). Unlike adjectives and verbs, adverbs do not conjugate and remain unchanged. They serve to provide more detailed information about other words, as in "totemo ookii" (とても大きい, very big) or "yukkuri hanasu" (ゆっくり話す, speak slowly).
+
+## 中文解釋
+「副詞」（ふくし）是用於修飾動詞、形容詞、其他副詞或整個句子的詞類。代表性的例子包括「とても」（totemo，非常）、「ゆっくり」（yukkuri，慢慢地）、「もう」（mou，已經）、「よく」（yoku，經常）。副詞表達時間（もう、まだ、すぐ）、程度（とても、少し、かなり）、狀態（ゆっくり、はっきり）、頻率（よく、時々、いつも）等。與形容詞和動詞不同，副詞本身不活用，形式不會改變。它們起到更詳細說明其他詞語意義的作用，如「とても大きい」（非常大）或「ゆっくり話す」（慢慢說）。
+
+---
+
 ## Category 資訊
 
 **Category 名稱**：`adverb`
