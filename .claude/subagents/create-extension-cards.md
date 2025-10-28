@@ -224,7 +224,54 @@ jlpt: {level}
 
 3. **更新基本卡片**：在基本卡片中加入延伸卡片連結
 
-### 6. 更新基本卡片
+### 6. 搜尋同義詞卡片（高效策略）
+
+在建立「同義詞辨析」延伸卡片前，需要檢查同義詞是否已收錄：
+
+#### 使用 Glob 檔名搜尋（不要用 Grep）
+
+```bash
+# 例如：為 taberu 建立同義詞辨析卡片
+# 基本卡片 YAML 中有：synonyms: [meshiagaru, itadaku, kuu]
+
+# 使用 Glob 搜尋這些詞的卡片
+Glob: **/*meshiagaru*.md
+Glob: **/*itadaku*.md
+Glob: **/*kuu*.md
+
+# 找到：
+# - verb-u/003_meshiagaru.md ✅
+# - verb-ru/004_itadaku.md ✅
+# - （未找到 kuu）❌
+```
+
+#### 讀取候選卡片的 YAML（僅前 30 行）
+
+```bash
+# 只讀取 YAML 部分判斷是否相關
+Read: verb-u/003_meshiagaru.md (limit: 30)
+
+---
+title: verb-u/meshiagaru
+description: 吃、喝（尊敬語）
+type: verb
+subtype: godan
+jlpt: n4
+tags: [daily_life, formal, business]
+base_word: taberu
+register: honorific
+---
+
+# 判斷：確實是 taberu 的尊敬語形式 ✅
+```
+
+#### 決策
+
+- ✅ 找到 2+ 個同義詞卡片 → 建立比較卡片
+- ⚠️ 只找到 1 個同義詞卡片 → 可在基本卡片簡單說明，暫不建立延伸卡片
+- ❌ 沒找到同義詞卡片 → 不建立比較卡片
+
+### 7. 更新基本卡片
 
 在基本卡片的末尾（Meta 資訊區塊之前）加入：
 

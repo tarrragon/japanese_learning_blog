@@ -14,27 +14,55 @@
 - 新建立的卡片檔案路徑（如 `verb-ru/001_taberu.md`）
 - 可選：卡片類型（基本卡片、延伸卡片、語法卡片等）
 
-### 2. 分析新卡片
+### 2. 分析新卡片（高效策略）
 
-讀取新卡片，提取以下資訊：
+**重要原則**：不需要讀取整張卡片內容！使用 YAML frontmatter 即可完成大部分判斷。
 
-#### 基本資訊
-- **詞彙/概念**：日文原文
-- **詞性**：動詞、名詞、形容詞等
-- **JLPT 等級**：N5-N1 或 none
-- **Tags**：context, domain, jlpt 標籤
-- **類型**：基本卡片、延伸卡片、語法卡片、概念卡片等
+#### 步驟一：讀取 YAML frontmatter
 
-#### 語義資訊
-- **核心意義**：主要的語義內容
-- **同義詞**：卡片中提到的同義詞
-- **反義詞**：卡片中提到的反義詞
-- **相關詞彙**：卡片中提到的相關概念
+每張卡片開頭都有 YAML 格式的元數據，**只需讀取前 20-30 行**即可獲得關鍵資訊：
 
-#### 使用資訊
-- **例句中的詞彙**：例句中使用了哪些其他詞彙
-- **語法結構**：使用了哪些語法（如て形、た形等）
-- **使用場景**：哪些 context tags
+```yaml
+---
+title: verb-ru/taberu
+description: 吃（食物）
+type: verb
+subtype: ichidan
+jlpt: n5
+tags: [daily_life, casual, family]
+related_words: [asagohan, tabemono, nomu]
+synonyms: [meshiagaru, itadaku]
+created: 2025-10-28
+---
+```
+
+從 YAML 提取：
+- **title**: 詞彙標識
+- **description**: 簡短說明（中文）
+- **type**: 卡片類型（verb, noun, grammar, concept 等）
+- **subtype**: 細分類型（ichidan, godan, na-adj 等）
+- **jlpt**: JLPT 等級
+- **tags**: 所有標籤（context, domain）
+- **related_words**: 明確標記的相關詞彙
+- **synonyms**: 同義詞列表
+- **antonyms**: 反義詞列表（如有）
+
+#### 步驟二：提取檔名關鍵字
+
+從目標卡片的檔案路徑提取關鍵字：
+- 檔名：`001_taberu.md` → 關鍵字：`taberu`
+- 目錄：`verb-ru/` → 詞性：`verb`, 活用：`ru`
+
+#### 步驟三：不需要讀取的內容
+
+以下內容**不需要在搜尋階段讀取**：
+- ❌ 完整的日文解釋
+- ❌ 英文解釋
+- ❌ 中文解釋
+- ❌ 詳細例句
+- ❌ Meta 資訊區塊
+
+這些只在**確認要建立連結後**，撰寫連結描述時才需要參考。
 
 ### 3. 搜尋相關卡片
 
@@ -206,31 +234,168 @@
 - [[verb-ru/001_taberu|食べる]] - 吃（早餐）
 ```
 
-### 7. 搜尋策略
+### 7. 搜尋策略（高效兩步法）
 
-#### 步驟一：快速文字搜尋
-使用 Grep 工具搜尋：
-- 卡片中明確提到的詞彙
-- 相同的 tag 值
-- 相同的 JLPT 等級
+**核心原則**：檔名搜尋 → YAML 判斷 → 建立連結
 
-#### 步驟二：語義分析
-分析搜尋結果：
-- 判斷相關性程度
-- 確定連結類型
-- 評估優先級
+#### 步驟一：使用 Glob 進行檔名搜尋
 
-#### 步驟三：例句分析
-分析新卡片的例句：
-- 提取例句中的所有詞彙
-- 使用 Glob 和 Grep 查找這些詞彙的卡片
-- 建立「共同使用」連結
+**不要使用 Grep！** 檔名搜尋比全文搜尋快 10-100 倍。
 
-#### 步驟四：結構化搜尋
-根據新卡片的結構：
-- 如果是動詞：找相同活用類型的動詞
-- 如果是語法：找使用此語法的例句卡片
-- 如果是延伸卡片：找基本卡片和同類延伸卡片
+**範例一：搜尋同義詞**
+```bash
+# 目標：為 taberu（食べる）找同義詞
+# YAML 中有：synonyms: [meshiagaru, itadaku]
+
+# 使用 Glob 搜尋檔名包含這些關鍵字的卡片
+Glob: **/*meshiagaru*.md
+Glob: **/*itadaku*.md
+```
+
+**範例二：搜尋相同主題**
+```bash
+# 目標：找飲食相關詞彙
+# 關鍵字：食、飲、料理、食事
+
+Glob: **/*tabe*.md    # 食べる、食べ物
+Glob: **/*nomi*.md    # 飲む、飲み物
+Glob: **/*ryouri*.md  # 料理
+Glob: **/*shokuji*.md # 食事
+```
+
+**範例三：搜尋相同詞性**
+```bash
+# 目標：找其他一段動詞
+Glob: verb-ru/*.md    # 所有一段動詞都在這個目錄
+```
+
+**範例四：搜尋延伸卡片**
+```bash
+# 目標：找 taberu 的所有延伸卡片
+Glob: **/001_taberu_*.md
+
+# 結果：
+# - verb-ru/001_taberu_001_keigo.md
+# - verb-ru/001_taberu_003_register.md
+# - verb-ru/001_taberu_006_comparison.md
+```
+
+#### 步驟二：讀取候選卡片的 YAML（僅前 30 行）
+
+對每個 Glob 找到的卡片：
+
+```bash
+# 使用 Read 工具，限制只讀前 30 行
+Read: verb-ru/xxx_meshiagaru.md (limit: 30)
+
+# 提取 YAML
+---
+title: verb-u/meshiagaru
+description: 吃、喝（尊敬語）
+type: verb
+subtype: godan
+jlpt: n4
+tags: [daily_life, formal, business]
+base_word: taberu
+register: honorific
+---
+```
+
+#### 步驟三：根據 YAML 判斷關聯性
+
+**判斷標準**：
+
+| YAML 欄位 | 判斷邏輯 | 連結類型 |
+|----------|---------|---------|
+| `synonyms` 包含目標詞 | 高優先級 | synonym |
+| `antonyms` 包含目標詞 | 高優先級 | antonym |
+| `base_word` 相同 | 高優先級（延伸卡片） | sibling_extension |
+| `tags` 有 2+ 個相同 | 中優先級 | topic_related |
+| `type` 和 `subtype` 相同 | 低優先級 | same_type |
+| `jlpt` 相同 | 低優先級 | same_level |
+
+#### 步驟四：只在確定連結後才讀取完整內容
+
+**只有在確定要建立連結時**，才讀取卡片的其他部分來撰寫連結描述：
+
+```bash
+# 確定要連結 taberu ↔ meshiagaru
+# 現在讀取完整內容來撰寫準確的連結描述
+Read: verb-u/xxx_meshiagaru.md
+
+# 提取重要資訊用於連結描述
+- 主要用途：尊敬語
+- 使用對象：長輩、上司、客人
+- 例句：部長は毎日7時に朝食を召し上がります
+```
+
+#### 效率對比
+
+```
+❌ 舊方法（全文搜尋）：
+1. Grep 搜尋所有卡片中的「食べる」 → 讀取 100+ 張卡片
+2. 分析每張卡片的內容 → 處理大量文字
+3. 判斷相關性 → 耗時
+
+✅ 新方法（檔名 + YAML）：
+1. Glob 搜尋檔名包含 "meshiagaru" → 找到 1 張卡片
+2. Read 前 30 行 YAML → 立即知道是同義詞
+3. 建立連結 → 完成
+
+速度提升：10-100 倍
+```
+
+#### 步驟五：特殊情況的搜尋技巧
+
+**情況一：搜尋例句中的詞彙**
+
+如果新卡片的例句是：
+```
+毎日朝ごはんを食べます。
+```
+
+提取關鍵詞：毎日、朝ごはん、を、食べます
+
+```bash
+# 使用檔名搜尋
+Glob: **/*mainichi*.md   # 毎日
+Glob: **/*asagohan*.md   # 朝ごはん
+Glob: particle/*wo*.md   # を（助詞）
+```
+
+**情況二：搜尋語法相關**
+
+如果新卡片是動詞，需要連結到て形語法：
+
+```bash
+# 不要搜尋「て形」這個詞！
+# 搜尋檔名中的關鍵字
+Glob: grammar/*te*.md
+Glob: grammar/*te_form*.md
+```
+
+**情況三：搜尋主題群組**
+
+如果要找所有「飲食」主題的詞彙：
+
+```bash
+# 方法一：搜尋常見關鍵字
+Glob: **/*tabe*.md   # 食
+Glob: **/*nomi*.md   # 飲
+Glob: **/*shoku*.md  # 食
+
+# 方法二：用 Grep 搜尋 YAML 中的 tags
+Grep: "tags:.*food"
+Grep: "tags:.*meal"
+Grep: "tags:.*eating"
+```
+
+#### 最佳實踐
+
+1. **優先使用 Glob**：90% 的搜尋用 Glob 即可
+2. **YAML 就夠了**：80% 的判斷只需要 YAML
+3. **批次處理**：一次 Glob 多個模式
+4. **快取結果**：如果要處理多張卡片，可以先列出所有卡片的 YAML
 
 ### 8. 連結品質控制
 
