@@ -5,6 +5,26 @@ type: jlpt_tag
 created: 2025-10-28
 ---
 
+## 日文
+専門用語・特殊語彙（せんもんようご・とくしゅごい）
+
+**羅馬拼音**：senmon yougo・tokushu goi
+
+**詞性**：名詞
+
+## 日文解釋
+専門用語・特殊語彙とは、JLPTの試験範囲に含まれない専門的な言葉や特殊な表現のことです。医学、法律、IT、金融などの専門分野で使われる用語、最近できたばかりの新しい言葉（ネット用語や若者言葉）、地域ごとの方言、古語や文言文など、様々な種類があります。これらの言葉はJLPTには出ませんが、特定の仕事や生活場面ではとても重要です。例えば、日本の病院で働く場合は医学用語を、IT企業で働く場合は技術用語を覚える必要があります。一般的には、まずN3くらいの基礎を固めてから、自分に必要な分野の専門用語を学ぶのがおすすめです。自分の仕事や興味に合わせて選んで学ぶことが大切です。
+
+## 英文解釋
+"Professional terminology and special vocabulary" (senmon yougo・tokushu goi) refers to specialized words and unique expressions not included in the JLPT exam scope. These include various types such as: technical terms used in professional fields like medicine, law, IT, and finance; newly created words (internet slang and youth language); regional dialects; classical language and literary Chinese. While these words don't appear on the JLPT, they're very important in specific work or life situations. For example, if you work at a Japanese hospital, you need to learn medical terminology, and if you work at an IT company, you need to learn technical terms. Generally, it's recommended to first solidify your foundation around N3 level, then learn the specialized terminology relevant to your field. It's important to choose and learn according to your work and interests.
+
+## 中文解釋
+「專業術語・特殊詞彙」指的是不包含在JLPT考試範圍內的專業詞彙和特殊表達。包含各種類型：醫學、法律、IT、金融等專業領域使用的術語、剛創造的新詞（網路用語和年輕人用語）、各地區的方言、古語和文言文等。這些詞彙雖然不出現在JLPT中，但在特定工作或生活場景中非常重要。例如，在日本醫院工作需要學習醫學術語，在IT企業工作需要學習技術術語。一般建議先打好N3左右的基礎，然後學習自己需要領域的專業術語。重要的是根據自己的工作和興趣選擇學習。
+
+---
+
+## Meta 資訊
+
 ## Tag 資訊
 
 **Tag 名稱**：`jlpt/none`
@@ -242,3 +262,4 @@ created: 2025-10-28
 
 **維護記錄**
 - 2025-10-28：建立 tag 定義卡片
+- 2025-10-28：重構為標準三語卡片格式，以日文思考重新撰寫解釋
