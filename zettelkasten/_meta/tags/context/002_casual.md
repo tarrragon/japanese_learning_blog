@@ -5,17 +5,37 @@ type: context_tag
 created: 2025-10-28
 ---
 
-## Tag 資訊
+## 日文
+日常会話の場面（にちじょうかいわのばめん）
+
+**羅馬拼音**：nichijou kaiwa no bamen
+
+**詞性**：名詞片語
+
+## 日文解釋
+日常会話の場面とは、友達や家族など親しい人と話をする時の場面を指します。リラックスした雰囲気の中で、普段使っている自然な言葉で会話をすることができます。敬語をほとんど使わず、「〜じゃん」「〜ちゃう」といった縮約形や、「めっちゃ」「すごく」のような口語表現も自由に使えます。ビジネスシーンやフォーマルな場面とは違い、相手との距離が近く、気を使いすぎずに素直な気持ちを表現できる場面です。日本語を学び始める時、まずこの日常会話の基本的な表現から学ぶことが多いです。
+
+## 英文解釋
+"Everyday conversation scenes" (nichijou kaiwa no bamen) refers to situations where you talk with close people like friends and family. In a relaxed atmosphere, you can converse using natural, everyday language. You use almost no honorifics (keigo), and can freely use contracted forms like "〜じゃん" and "〜ちゃう," as well as colloquial expressions like "めっちゃ" (meccha) and "すごく" (sugoku). Unlike business scenes or formal situations, the distance between speakers is close, allowing you to express honest feelings without being overly cautious. When beginning to learn Japanese, people often start with basic expressions from everyday conversation.
+
+## 中文解釋
+「日常會話場合」指的是與朋友、家人等親近的人交談的情境。在輕鬆的氛圍中，可以使用平常習慣的自然語言進行對話。幾乎不使用敬語，可以自由使用「〜じゃん」「〜ちゃう」等縮約形式，以及「めっちゃ」「すごく」等口語表達。與商務場景或正式場合不同，與對方的距離較近，不需要過度謹慎，可以表達真實的感受。開始學習日文時，通常會先從日常會話的基本表達開始學習。
+
+---
+
+## Meta 資訊
+
+### Tag 資訊
 
 **Tag 名稱**：`context/casual`
 **Tag 類型**：使用情境（Context）
 **建立日期**：2025-10-28
 
-## 定義
+### 定義
 
 此標籤用於標記在日常生活中、朋友之間使用的隨意、輕鬆的詞彙和表達方式。
 
-## 使用場景
+### 使用場景
 
 - 朋友之間的對話
 - 日常生活交流
@@ -23,7 +43,7 @@ created: 2025-10-28
 - 非正式的電子郵件或訊息
 - 日常購物、用餐等場景
 
-## 特徵
+### 特徵
 
 - 語言較為輕鬆自然
 - 可能使用縮約形式
@@ -31,21 +51,21 @@ created: 2025-10-28
 - 表達直接、親切
 - 口語化程度高
 
-## 與其他 Tags 的關係
+### 與其他 Tags 的關係
 
-### 常搭配使用
+#### 常搭配使用
 - `context/family` - 家庭場合也常用輕鬆語言
 - `context/social` - 社交場合也可能是輕鬆氛圍
 - `domain/daily_life` - 日常生活詞彙通常是隨意的
 
-### 對比關係
+#### 對比關係
 - `context/formal` - 正式 vs. 隨意
 - `context/business` - 商務 vs. 日常
 - `context/academic` - 學術 vs. 口語
 
-## 使用範例
+### 使用範例
 
-### 已使用此 tag 的卡片
+#### 已使用此 tag 的卡片
 - [朝ごはん](../../../noun/001_asagohan.md)
 - [食べ物](../../../noun/007_tabemono.md)
 - [食べる](../../../verb-ru/001_taberu.md)
@@ -56,32 +76,32 @@ created: 2025-10-28
 - [サービス](../../../noun/004_service.md)
 - [理由](../../../noun/005_riyuu.md)
 
-### 典型詞彙類型
+#### 典型詞彙類型
 - 日常名詞（食物、家居用品等）
 - 基本動詞（吃、喝、看等）
 - 常用形容詞
 - 日常會話句型
 
-## 使用指南
+### 使用指南
 
-### 何時使用此 tag
+#### 何時使用此 tag
 ✅ 詞彙主要用於日常對話
 ✅ 朋友間常用的表達
 ✅ 口語化的詞彙
 ✅ 生活中常見的基本詞彙
 
-### 何時不使用此 tag
+#### 何時不使用此 tag
 ❌ 僅用於正式場合的詞彙
 ❌ 專業術語
 ❌ 僅用於商務環境的表達
 
-## 統計資訊
+### 統計資訊
 
 - **使用次數**：9
 - **最常見詞類**：名詞、動詞
 - **最常見 JLPT 等級**：N5, N4, N3
 
-## 備註
+### 備註
 
 `casual` 是系統中使用最頻繁的 context tag，因為大部分基礎日文學習內容都與日常生活相關。
 
@@ -89,3 +109,4 @@ created: 2025-10-28
 
 **維護記錄**
 - 2025-10-28：建立 tag 定義卡片
+- 2025-10-28：重構為標準三語卡片格式，以日文思考重新撰寫解釋

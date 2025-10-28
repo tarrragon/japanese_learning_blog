@@ -6,20 +6,20 @@ created: 2025-10-28
 ---
 
 ## 日文
-ビジネス場面（ビジネスばめん）
+ビジネスシーン
 
-**羅馬拼音**：bijinesu bamen
+**羅馬拼音**：bijinesu shiin
 
-**詞性**：名詞片語、概念標籤
+**詞性**：名詞
 
 ## 日文解釋
-「ビジネス場面」とは、仕事や商業活動に関連する状況や環境のことを指します。会社での会議、取引先との商談、ビジネス文書の作成など、職業上の正式な場面で使われる言葉遣いや振る舞いが求められる文脈を意味します。このタグが付いた語彙や表現は、主に職場やビジネスの場で適切とされるもので、丁寧語や敬語を含むフォーマルな表現が多く見られます。
+ビジネスシーンとは、仕事に関わる場面のことです。会社で会議をする時、取引先と商談をする時、メールや報告書を書く時など、仕事をする場面全般を指します。ビジネスシーンでは、普段の友達同士の会話とは違い、丁寧な言葉遣いが求められます。相手との関係によっては敬語を使う必要があり、カジュアルすぎる表現は避けるべきです。また、専門的な用語や決まった表現を使うことも多く、状況に応じた適切なコミュニケーションが重要になります。
 
 ## 英文解釋
-"Business context" (bijinesu bamen) refers to situations and environments related to work and commercial activities. This tag marks vocabulary and expressions used in professional settings such as company meetings, business negotiations, client communications, and formal workplace documents. Words tagged with this label are appropriate for professional environments and often include formal language and keigo (honorific expressions).
+"Business scene" (bijinesu shiin) refers to work-related situations and contexts. This includes company meetings, business negotiations with clients, writing emails and reports, and all aspects of professional work environments. In business scenes, polite language is required, which differs from casual conversation among friends. Depending on the relationship with others, honorific language (keigo) may be necessary, and overly casual expressions should be avoided. Professional terminology and established expressions are commonly used, making appropriate communication for each situation essential.
 
 ## 中文解釋
-「商務場合」是指與工作和商業活動相關的情境和環境。此標籤用於標記在專業場合使用的詞彙和表達方式，如公司會議、商務談判、客戶溝通、正式的商業文件等。帶有此標籤的詞彙適合在專業環境中使用，通常包含正式語言和敬語表達。
+「商務場景」指的是與工作相關的場合和情境。包括公司會議、與客戶的商務洽談、撰寫電子郵件和報告等所有專業工作環境。在商務場景中，需要使用禮貌的語言，這與朋友間的隨意對話不同。根據與對方的關係，可能需要使用敬語，應避免過於隨意的表達。經常使用專業術語和固定表達方式，針對不同情況進行適當的溝通非常重要。
 
 ---
 
@@ -94,4 +94,4 @@ created: 2025-10-28
 
 **維護記錄**
 - 2025-10-28：建立 tag 定義卡片
-- 2025-10-28：重構為標準三語卡片格式
+- 2025-10-28：重構為標準三語卡片格式，以日文思考重新撰寫解釋
