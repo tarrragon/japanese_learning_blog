@@ -5,6 +5,26 @@ type: domain_tag
 created: 2025-10-28
 ---
 
+## 日文
+金融（きんゆう）
+
+**羅馬拼音**：kinyuu
+
+**詞性**：名詞
+
+## 日文解釋
+金融とは、お金を必要とする人にお金を提供したり、お金を増やすために投資をしたりする活動やその仕組みのことです。銀行でお金を預けたり借りたり、株式や債券に投資をしたり、保険に加入したりすることなど、お金の流れに関わるあらゆることを含みます。個人のレベルでは貯蓄や資産運用、企業のレベルでは資金調達や投資、国のレベルでは金融政策など、様々な規模で金融活動が行われています。「投資」「株式」「金利」「為替」「リスク」といった専門的な言葉を使います。経済学が理論を扱うのに対し、金融は実際のお金の動きや金融市場の仕組みに焦点を当てています。
+
+## 英文解釋
+"Finance" (kinyuu) refers to activities and systems involving providing money to those who need it or investing money to increase it. It encompasses everything related to the flow of money: depositing and borrowing money at banks, investing in stocks and bonds, purchasing insurance, and more. Financial activities occur at various scales—at the personal level with savings and asset management, at the corporate level with fundraising and investment, and at the national level with monetary policy. It uses specialized terminology like "toushi" (investment), "kabushiki" (stocks), "kinri" (interest rates), "kawase" (exchange rates), and "risuku" (risk). While economics deals with theory, finance focuses on actual money movements and the mechanisms of financial markets.
+
+## 中文解釋
+「金融」指的是向需要錢的人提供資金，或為增加資金而進行投資的活動及其機制。包含與金錢流動相關的一切：在銀行存款或借款、投資股票和債券、購買保險等。金融活動在各種規模上進行——個人層面的儲蓄和資產運用、企業層面的資金籌措和投資、國家層面的金融政策等。使用「投資」「股票」「利率」「匯率」「風險」等專業術語。經濟學處理理論，而金融則聚焦於實際的資金流動和金融市場機制。
+
+---
+
+## Meta 資訊
+
 ## Tag 資訊
 
 **Tag 名稱**：`domain/finance`
@@ -112,3 +132,4 @@ created: 2025-10-28
 
 **維護記錄**
 - 2025-10-28：建立 tag 定義卡片（尚未實際使用）
+- 2025-10-28：重構為標準三語卡片格式，以日文思考重新撰寫解釋

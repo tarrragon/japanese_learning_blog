@@ -5,6 +5,26 @@ type: domain_tag
 created: 2025-10-28
 ---
 
+## 日文
+経済学（けいざいがく）
+
+**羅馬拼音**：keizaigaku
+
+**詞性**：名詞
+
+## 日文解釋
+経済学とは、お金、モノ、サービスの生産・流通・消費について研究する学問です。物価がどう決まるのか、なぜ景気が良くなったり悪くなったりするのか、政府がどんな政策を取るべきかといったことを考えます。マクロ経済学では国全体の経済を、ミクロ経済学では個別の市場や企業の行動を分析します。「物価」「インフレ」「GDP」「需要と供給」「市場」といった専門用語を使って、経済の仕組みを説明します。日常生活でも、買い物をする時の値段、給料、税金など、すべて経済に関わっています。経済を理解することは、ニュースを読んだり、賢くお金を使ったりするために大切です。
+
+## 英文解釋
+"Economics" (keizaigaku) is the study of the production, distribution, and consumption of money, goods, and services. It examines how prices are determined, why the economy improves or worsens, and what policies governments should adopt. Macroeconomics analyzes the economy as a whole, while microeconomics studies individual markets and business behavior. It uses specialized terminology like "bukka" (prices), "infure" (inflation), "GDP," "jukyou to kyoukyuu" (supply and demand), and "shijou" (market) to explain how the economy works. In daily life, everything from prices when shopping to salaries and taxes is related to economics. Understanding economics is important for reading the news and making wise financial decisions.
+
+## 中文解釋
+「經濟學」是研究金錢、商品和服務的生產、流通和消費的學問。探討價格如何決定、為何景氣會變好或變壞、政府應該採取什麼政策等問題。總體經濟學分析整體國家經濟，個體經濟學研究個別市場和企業行為。使用「物價」「通膨」「GDP」「供給與需求」「市場」等專業術語來說明經濟運作機制。在日常生活中，購物時的價格、薪水、稅金等全都與經濟有關。理解經濟學對於閱讀新聞和明智使用金錢非常重要。
+
+---
+
+## Meta 資訊
+
 ## Tag 資訊
 
 **Tag 名稱**：`domain/economics`
@@ -105,3 +125,4 @@ created: 2025-10-28
 
 **維護記錄**
 - 2025-10-28：建立 tag 定義卡片
+- 2025-10-28：重構為標準三語卡片格式，以日文思考重新撰寫解釋

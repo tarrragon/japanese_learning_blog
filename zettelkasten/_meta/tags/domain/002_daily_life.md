@@ -5,6 +5,26 @@ type: domain_tag
 created: 2025-10-28
 ---
 
+## 日文
+日常生活（にちじょうせいかつ）
+
+**羅馬拼音**：nichijou seikatsu
+
+**詞性**：名詞
+
+## 日文解釋
+日常生活とは、毎日繰り返される普段の生活のことです。朝起きて、ご飯を食べて、学校や仕事に行って、家に帰って、夜寝る。そんな一日一日の暮らしを指します。食事を作ったり食べたり、掃除や洗濯をしたり、家族や友達と話したり、買い物に行ったり、趣味を楽しんだりすることなど、特別なことではない、いつもの生活全般のことです。「朝ごはん」「食べ物」「健康」「家族」といった身近な言葉を使って、自分の暮らしについて話すことができます。日本語を学び始める時、まずこの日常生活に関する基本的な言葉から学ぶことが多く、すぐに使える実用的な表現が多いのが特徴です。
+
+## 英文解釋
+"Daily life" (nichijou seikatsu) refers to ordinary, everyday living that repeats day after day. It's waking up in the morning, eating meals, going to school or work, returning home, and sleeping at night—the routine of each day. It encompasses all aspects of regular life that aren't special occasions: preparing and eating meals, cleaning and doing laundry, talking with family and friends, going shopping, and enjoying hobbies. You can talk about your life using familiar words like "asagohan" (breakfast), "tabemono" (food), "kenkou" (health), and "kazoku" (family). When beginning to learn Japanese, people often start with basic words related to daily life, which is characterized by practical expressions that can be used immediately.
+
+## 中文解釋
+「日常生活」指的是每天重複的平常生活。早上起床、吃飯、去學校或工作、回家、晚上睡覺——這樣日復一日的生活。包含製作和吃飯、打掃和洗衣、與家人朋友交談、去購物、享受興趣等所有不是特別場合的平常生活各方面。可以使用「朝ごはん」（早餐）、「食べ物」（食物）、「健康」（健康）、「家族」（家人）等貼近生活的詞彙來談論自己的生活。開始學習日文時，通常會先從與日常生活相關的基本詞彙學起，特點是有很多可以立即使用的實用表達。
+
+---
+
+## Meta 資訊
+
 ## Tag 資訊
 
 **Tag 名稱**：`domain/daily_life`
@@ -108,3 +128,4 @@ created: 2025-10-28
 
 **維護記錄**
 - 2025-10-28：建立 tag 定義卡片
+- 2025-10-28：重構為標準三語卡片格式，以日文思考重新撰寫解釋
