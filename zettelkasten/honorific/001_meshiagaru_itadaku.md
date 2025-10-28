@@ -1,12 +1,16 @@
 ---
 title: 召し上がる・いただく
 description: 「食べる」的敬語形式 - 召し上がる（尊敬語）、いただく（謙讓語）
+type: honorific
+jlpt: n3
+stage: completed
 tags:
   - honorific
   - context/formal
   - jlpt/n4
   - jlpt/n3
 date: 2025-10-28
+updated: 2025-10-28
 links:
   食べる: ../verb-ru/001_taberu.md
   敬語系統: ./_meta/categories/019_honorific.md

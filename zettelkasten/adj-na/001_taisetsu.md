@@ -1,11 +1,15 @@
 ---
 title: 大切（たいせつ）
 description: 重要的、珍貴的、寶貴的
+type: adj-na
+jlpt: n4
+stage: completed
 tags:
   - context/casual
   - context/formal
   - jlpt/n4
 date: 2025-10-27
+updated: 2025-10-28
 links:
   健康: ../noun/002_kenkou.md
   朝ごはん: ../noun/001_asagohan.md

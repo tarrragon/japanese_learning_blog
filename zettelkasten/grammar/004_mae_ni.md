@@ -4,6 +4,7 @@ description: 〜前に - 表示「在...之前」的時間文法
 type: grammar
 subtype: time_expression
 jlpt: n5
+stage: draft
 tags: [grammar, time, sequence]
 draft: true
 auto_generated: true
