@@ -8,7 +8,7 @@
 
 ## 統計資訊
 
-- **總卡片數**：6 （名詞:2, る動詞:1, な形容詞:1, 文法:2）
+- **總卡片數**：15 （名詞:7, る動詞:2, う動詞:1, な形容詞:1, 助詞:1, 文法:2, 概念:1）
 - **最後更新**：2025-10-27
 
 ## 卡片分類
@@ -17,9 +17,9 @@
 
 | 分類 | 說明 | 卡片數 | 快速連結 |
 |------|------|--------|----------|
-| [名詞](noun/index.md) | 名詞 (Noun) | 2 | noun/ |
-| [る動詞](verb-ru/index.md) | 一段動詞 (Ichidan Verb) | 1 | verb-ru/ |
-| [う動詞](verb-u/index.md) | 五段動詞 (Godan Verb) | 0 | verb-u/ |
+| [名詞](noun/index.md) | 名詞 (Noun) | 7 | noun/ |
+| [る動詞](verb-ru/index.md) | 一段動詞 (Ichidan Verb) | 2 | verb-ru/ |
+| [う動詞](verb-u/index.md) | 五段動詞 (Godan Verb) | 1 | verb-u/ |
 | [不規則動詞](verb-irr/index.md) | 不規則動詞 (Irregular Verb) | 0 | verb-irr/ |
 | [い形容詞](adj-i/index.md) | い形容詞 (I-adjective) | 0 | adj-i/ |
 | [な形容詞](adj-na/index.md) | な形容詞/形容動詞 (Na-adjective) | 1 | adj-na/ |
@@ -29,7 +29,7 @@
 
 | 分類 | 說明 | 卡片數 | 快速連結 |
 |------|------|--------|----------|
-| [助詞](particle/index.md) | 助詞 (Particle) | 0 | particle/ |
+| [助詞](particle/index.md) | 助詞 (Particle) | 1 | particle/ |
 | [助動詞](auxiliary/index.md) | 助動詞 (Auxiliary Verb) | 0 | auxiliary/ |
 | [接續詞](conjunction/index.md) | 接續詞 (Conjunction) | 0 | conjunction/ |
 
@@ -56,7 +56,7 @@
 
 | 分類 | 說明 | 卡片數 | 快速連結 |
 |------|------|--------|----------|
-| [概念](concept/index.md) | 概念卡片 (Concept) | 0 | concept/ |
+| [概念](concept/index.md) | 概念卡片 (Concept) | 1 | concept/ |
 | [文法](grammar/index.md) | 文法卡片 (Grammar) | 2 | grammar/ |
 | [對比](contrast/index.md) | 對比卡片 (Contrast) | 0 | contrast/ |
 | [情境](context/index.md) | 情境卡片 (Context) | 0 | context/ |
