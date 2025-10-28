@@ -4,7 +4,7 @@ description: 一段動詞（る動詞）- 規則動詞類型
 type: grammar
 subtype: verb_conjugation
 jlpt: n5
-stage: linking
+stage: completed
 tags: [grammar, verb, conjugation, basic]
 created: 2025-10-28
 updated: 2025-10-28
@@ -27,14 +27,14 @@ related_to: [[verb-ru/001_taberu]]
 ### 基本特徴
 
 **語幹が不変**
-一段動詞の最大の特徴は、語幹が決して変化しないことです。例えば「食べる」の場合、どんな活用形でも「食べ」という語幹は常に同じままです。変化するのは語尾の「る」の部分だけです。
+一段動詞の最大の特徴は、語幹[^stem]が決して変化しないことです。例えば「[[verb-ru/001_taberu|食べる]]」の場合、どんな活用形でも「食べ」という語幹は常に同じままです。変化するのは語尾の「る」の部分だけです。
 
 **見分け方**
 1. 辞書形が「〜る」で終わる
 2. 「る」の直前が「え段」(e)または「い段」(i)の音
    - 例：たべる（taberu）、みる（miru）、ねる（neru）
 
-**注意**: すべての「〜る」で終わる動詞が一段動詞とは限りません。「帰る」「走る」など、「る」の前が「あ・う・お段」の場合は五段動詞です。
+**注意**: すべての「〜る」で終わる動詞が一段動詞とは限りません。「帰る」「走る」など、「る」の前が「あ・う・お段」の場合は[[grammar/006_godan_verb|五段動詞]]です。
 
 ### 活用パターン
 
@@ -42,16 +42,16 @@ related_to: [[verb-ru/001_taberu]]
 
 | 活用形 | 規則 | 例：食べる |
 |--------|------|-----------|
-| 辞書形 | 語幹 + る | 食べる |
-| ます形 | 語幹 + ます | 食べます |
-| て形 | 語幹 + て | 食べて |
-| た形 | 語幹 + た | 食べた |
-| ない形 | 語幹 + ない | 食べない |
-| 可能形 | 語幹 + られる | 食べられる |
-| 受身形 | 語幹 + られる | 食べられる |
-| 使役形 | 語幹 + させる | 食べさせる |
-| 命令形 | 語幹 + ろ/よ | 食べろ |
-| 意志形 | 語幹 + よう | 食べよう |
+| 辞書形[^dict-form] | 語幹 + る | 食べる |
+| ます形[^masu-form] | 語幹 + ます | 食べます |
+| て形[^te-form] | 語幹 + て | 食べて |
+| た形[^ta-form] | 語幹 + た | 食べた |
+| ない形[^nai-form] | 語幹 + ない | 食べない |
+| 可能形[^potential] | 語幹 + られる | 食べられる |
+| 受身形[^passive] | 語幹 + られる | 食べられる |
+| 使役形[^causative] | 語幹 + させる | 食べさせる |
+| 命令形[^imperative] | 語幹 + ろ/よ | 食べろ |
+| 意志形[^volitional] | 語幹 + よう | 食べよう |
 
 すべての活用で語幹「食べ」は変わりません。
 
@@ -73,17 +73,17 @@ The defining feature of ichidan verbs is that the stem never changes. For exampl
 2. The syllable immediately before "ru" is in the "e-row" (e) or "i-row" (i)
    - Examples: taberu (eat), miru (see), neru (sleep)
 
-**Important**: Not all verbs ending in "~ru" are ichidan verbs. Verbs like "kaeru" (return) and "hashiru" (run), where the syllable before "ru" is in the "a," "u," or "o" rows, are godan verbs.
+**Important**: Not all verbs ending in "~ru" are ichidan verbs. Verbs like "kaeru" (return) and "hashiru" (run), where the syllable before "ru" is in the "a," "u," or "o" rows, are [[grammar/006_godan_verb|godan verbs]].
 
 ### Conjugation Pattern
 
 Ichidan verb conjugation is very straightforward:
 
-| Form | Rule | Example: taberu |
+| Form | Rule | Example: [[verb-ru/001_taberu|taberu]] |
 |------|------|----------------|
 | Dictionary | stem + ru | taberu |
 | Masu | stem + masu | tabemasu |
-| Te | stem + te | tabete |
+| [[grammar/001_te_form|Te]] | stem + te | tabete |
 | Ta | stem + ta | tabeta |
 | Nai | stem + nai | tabenai |
 | Potential | stem + rareru | taberareru |
@@ -105,14 +105,14 @@ There are approximately 200 ichidan verbs in Japanese, far fewer than godan verb
 ### 基本特徵
 
 **詞幹不變**
-一段動詞最大的特點是詞幹永遠不變。例如「食べる」（吃），無論如何變化，詞幹「食べ」都保持不變，只有詞尾「る」會變化。
+一段動詞最大的特點是詞幹[^stem]永遠不變。例如「[[verb-ru/001_taberu|食べる]]」（吃），無論如何變化，詞幹「食べ」都保持不變，只有詞尾「る」會變化。
 
 **識別方法**
 1. 辭書形以「〜る」結尾
 2. 「る」前面是「え段」(e)或「い段」(i)的音
    - 例如：たべる（taberu）、みる（miru）、ねる（neru）
 
-**注意**：不是所有以「〜る」結尾的動詞都是一段動詞。「帰る」「走る」等「る」前面是「あ・う・お段」的動詞是五段動詞。
+**注意**：不是所有以「〜る」結尾的動詞都是一段動詞。「帰る」「走る」等「る」前面是「あ・う・お段」的動詞是[[grammar/006_godan_verb|五段動詞]]。
 
 ### 變化規則
 
@@ -201,12 +201,12 @@ I wore new clothes yesterday.
 
 ### 對比：一段動詞 vs 五段動詞
 
-| 特徵 | 一段動詞 | 五段動詞 |
+| 特徵 | 一段動詞 | [[grammar/006_godan_verb|五段動詞]] |
 |------|---------|---------|
 | 數量 | 約200個 | 約4000個 |
 | 詞幹 | 永不變化 | 會變化 |
 | 辭書形結尾 | 〜る（前面是e/i段） | 〜う、〜く、〜ぐ、〜す等 |
-| て形規則 | 詞幹 + て | 複雜（6種規則） |
+| [[grammar/001_te_form|て形]]規則 | 詞幹 + て | 複雜（6種規則） |
 | ない形規則 | 詞幹 + ない | 詞尾變あ段 + ない |
 | 學習難度 | 簡單 | 中等 |
 | 例子 | 食べる、見る、寝る | 書く、話す、読む |
@@ -230,9 +230,37 @@ I wore new clothes yesterday.
 
 一段動詞的可能形「られる」在口語中常簡化為「れる」：
 - 正式：食べられる
-- 口語：食べれる（俗稱「ら抜き言葉」）
+- 口語：食べれる（俗稱「ら抜き言葉」[^ra-nuki]）
 
-雖然「ら抜き言葉」在口語中很常見，但書面語和正式場合應使用完整形式。
+雖然「ら抜き言葉」[^ra-nuki]在口語中很常見，但書面語和正式場合應使用完整形式。
+
+---
+
+## 註解
+
+[^stem]: **語幹/詞幹** - 動詞中不變化的核心部分。一段動詞的語幹是去掉「る」後的部分，如「食べる」的語幹是「食べ」。
+
+[^dict-form]: **辞書形** - 動詞的基本形式，也就是字典中查到的形式。用於從句、名詞化等。
+
+[^masu-form]: **ます形** - 動詞的禮貌體基本形式，用於正式場合和禮貌表達。一段動詞：詞幹 + ます。
+
+[^te-form]: **て形** ([[grammar/001_te_form]]) - 動詞的連用形，用於連接動作、表示原因、請求等。一段動詞：詞幹 + て。
+
+[^ta-form]: **た形** - 動詞的過去式/完成形。用於表示已完成的動作或過去的狀態。一段動詞：詞幹 + た。
+
+[^nai-form]: **ない形** - 動詞的否定形式。用於表示不做某動作。一段動詞：詞幹 + ない。
+
+[^potential]: **可能形** - 表示「能夠做某事」的動詞形式。一段動詞：詞幹 + られる（口語中常簡化為「れる」）。
+
+[^passive]: **受身形** - 被動語態，表示「被...」。一段動詞：詞幹 + られる。
+
+[^causative]: **使役形** - 表示「讓/使某人做某事」。一段動詞：詞幹 + させる。
+
+[^imperative]: **命令形** - 命令語氣，直接要求對方做某事（較為粗魯）。一段動詞：詞幹 + ろ/よ。
+
+[^volitional]: **意志形** - 表示說話者的意志或邀請對方一起做某事（「讓我們...吧」）。一段動詞：詞幹 + よう。
+
+[^ra-nuki]: **ら抜き言葉** - 將可能形「られる」簡化為「れる」的口語用法（如「食べれる」代替「食べられる」）。雖然在口語中普遍，但在正式書面語中仍被視為不正確。
 
 ---
 

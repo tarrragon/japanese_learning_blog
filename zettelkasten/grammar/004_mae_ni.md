@@ -4,7 +4,7 @@ description: 〜前に - 表示「在...之前」的時間文法
 type: grammar
 subtype: time_expression
 jlpt: n5
-stage: linking
+stage: completed
 tags: [grammar, time, sequence]
 created: 2025-10-28
 updated: 2025-10-28
@@ -85,7 +85,7 @@ Frequently used to describe daily habits, schedules, and sequential actions, esp
 ### 接續方法
 
 **1. 動詞 + 前に**
-- 動詞辭書形 + 前に
+- 動詞辭書形[^dictionary-form] + 前に
 - 例：食べる前に（吃之前）、寝る前に（睡之前）
 
 **2. 名詞 + の + 前に**
@@ -112,7 +112,7 @@ Frequently used to describe daily habits, schedules, and sequential actions, esp
 
 **例句1：日常習慣（洗臉）**
 ```
-朝ごはんを食べる前に、まず顔を洗います。
+[[noun/001_asagohan|朝ごはん]]を食べる前に、まず顔を洗います。
 Before eating breakfast, I first wash my face.
 在吃早餐之前，我先洗臉。
 ```
@@ -157,8 +157,8 @@ He came to Japan 3 days ago.
 
 **重要區別**：
 - 「前に」用辭書形：食べる前に（吃之前）
-- 「後で」用た形：食べた後で（吃之後）
-- 「てから」用て形：食べてから（吃完之後）
+- 「後で」用た形[^ta-form]：食べた後で（吃之後）
+- 「てから」用[[grammar/001_te_form|て形]]：食べてから（吃完之後）
 
 ### 時態注意事項
 
@@ -166,9 +166,9 @@ He came to Japan 3 days ago.
 
 | 主句時態 | 例句 | 說明 |
 |---------|------|------|
-| 現在式 | 朝ごはんを食べる前に、顔を洗います | 習慣 |
-| 過去式 | 朝ごはんを食べる前に、顔を洗いました | 過去的事實 |
-| 未來/意志 | 朝ごはんを食べる前に、顔を洗います | 計畫 |
+| 現在式 | [[noun/001_asagohan|朝ごはん]]を食べる前に、顔を洗います | 習慣 |
+| 過去式 | [[noun/001_asagohan|朝ごはん]]を食べる前に、顔を洗いました | 過去的事實 |
+| 未來/意志 | [[noun/001_asagohan|朝ごはん]]を食べる前に、顔を洗います | 計畫 |
 
 注意：「前に」前的動詞永遠是辭書形，不隨主句時態變化。
 
@@ -189,7 +189,15 @@ He came to Japan 3 days ago.
 
 但在動詞或名詞之後的「前に」，「に」通常不省略：
 - 食べる前に（不省略）
-- 朝ごはんの前に（不省略）
+- [[noun/001_asagohan|朝ごはん]]の前に（不省略）
+
+---
+
+## 註解
+
+[^dictionary-form]: **辞書形（辭書形）** - 動詞的基本形式，也稱為「原形」或「plain form」。是在字典中查詢時使用的形式。例：食べる、寝る、行く。在「〜前に」句型中，動詞必須使用辭書形。相關：[[grammar/003_ichidan_verb|一段動詞]]、[[grammar/006_godan_verb|五段動詞]]。
+
+[^ta-form]: **た形** - 動詞的過去式形式，用於表達過去的動作或完成的動作。例：食べる → 食べた、寝る → 寝た。與「辭書形」不同，「た形」用於「〜後で」（之後）的句型中，強調前一個動作已經完成。
 
 ---
 
@@ -198,6 +206,7 @@ He came to Japan 3 days ago.
 ### 相關文法
 - [[grammar/001_te_form|て形文法]] - 相關時間表達
 - [[grammar/003_ichidan_verb|一段動詞]] - 辭書形變化
+- [[grammar/006_godan_verb|五段動詞]] - 辭書形變化
 
 ### 對比文法
 （暫無卡片 - 可建立：〜後で、〜てから）

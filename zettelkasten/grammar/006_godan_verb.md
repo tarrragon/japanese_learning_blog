@@ -4,7 +4,7 @@ description: 五段動詞（う動詞）- 變化複雜的動詞類型
 type: grammar
 subtype: verb_conjugation
 jlpt: n5
-stage: linking
+stage: completed
 tags: [grammar, verb, conjugation, basic]
 created: 2025-10-28
 updated: 2025-10-28
@@ -22,7 +22,7 @@ related_to: [[honorific/001_meshiagaru_itadaku]]
 
 ## 日文解釋
 
-五段動詞（う動詞）は、日本語動詞の三大分類の一つで、最も数が多い動詞グループです。語幹の最後の音が五十音図の五段（あ・い・う・え・お）を使って活用するため「五段動詞」と呼ばれます。
+五段動詞（う動詞）は、日本語動詞の三大分類の一つで、最も数が多い動詞グループです。語幹[^gokan]の最後の音が五十音図[^gojuuon]の五段（あ・い・う・え・お）を使って活用[^katsuyou]するため「五段動詞」と呼ばれます。
 
 ### 基本特徴
 
@@ -30,7 +30,7 @@ related_to: [[honorific/001_meshiagaru_itadaku]]
 五段動詞の特徴は、活用するときに語幹の最後の音が変化することです。例えば「書く」の場合、「書」の部分は同じですが、「く」の部分が「か・き・く・け・こ」と変化します。
 
 **見分け方**
-1. 辞書形の語尾が以下のいずれかで終わる：
+1. 辞書形[^jisho-kei]の語尾が以下のいずれかで終わる：
    - う、く、ぐ、す、つ、ぬ、ぶ、む、る
 
 2. 特に注意が必要な「〜る」：
@@ -38,7 +38,7 @@ related_to: [[honorific/001_meshiagaru_itadaku]]
    - 例：入る（hairu）、帰る（kaeru）、走る（hashiru）
 
 **活用の複雑さ**
-五段動詞は一段動詞と比べて活用が複雑です。特に「て形」は6つの異なる変化パターンがあります。
+五段動詞は[[grammar/003_ichidan_verb|一段動詞]]と比べて活用が複雑です。特に[[grammar/001_te_form|て形]]は6つの異なる変化パターンがあります。
 
 ### 五段活用の仕組み
 
@@ -83,7 +83,7 @@ The defining feature of godan verbs is that the final sound of the stem changes 
    - Examples: hairu (enter), kaeru (return), hashiru (run)
 
 **Conjugation Complexity**
-Godan verbs have more complex conjugation than ichidan verbs. The te-form in particular has 6 different transformation patterns.
+Godan verbs have more complex conjugation than [[grammar/003_ichidan_verb|ichidan verbs]]. The [[grammar/001_te_form|te-form]] in particular has 6 different transformation patterns.
 
 ### Five-Step Conjugation System
 
@@ -128,7 +128,7 @@ The te-form is particularly important, with these 6 patterns:
    - 例：入る（hairu）、帰る（kaeru）、走る（hashiru）
 
 **變化的複雜性**
-五段動詞比一段動詞的變化更複雜。特別是「て形」有 6 種不同的變化模式。
+五段動詞比[[grammar/003_ichidan_verb|一段動詞]]的變化更複雜。特別是[[grammar/001_te_form|て形]]有 6 種不同的變化模式。
 
 ### 五段活用的機制
 
@@ -247,7 +247,7 @@ I return home at 6 o'clock every day.
 
 ## 補充說明
 
-### 對比：五段動詞 vs 一段動詞
+### 對比：五段動詞 vs [[grammar/003_ichidan_verb|一段動詞]]
 
 | 特徵 | 五段動詞 | 一段動詞 |
 |------|---------|---------|
@@ -306,6 +306,16 @@ I return home at 6 o'clock every day.
 
 ---
 
+[^gokan]: 語幹（ごかん）- 動詞中不變化的部分。例如「書く」中的「書」就是語幹，而「く」是活用語尾。
+
+[^gojuuon]: 五十音図（ごじゅうおんず）- 日語假名的排列表，按照發音規律排成五行十段。五段指的是あ、い、う、え、お五個母音段。
+
+[^katsuyou]: 活用（かつよう）- 動詞、形容詞等詞類根據文法功能而改變形態的現象。五段動詞的活用會使用五十音的五個段。
+
+[^jisho-kei]: 辞書形（じしょけい）- 動詞的基本形態，也就是字典中查詢時使用的形式。日語辭書形通常是動詞的終止形（plain form）。
+
+---
+
 ## 相關連結
 
 ### 對比參考
@@ -313,8 +323,10 @@ I return home at 6 o'clock every day.
 
 ### 相關動詞
 - [[honorific/001_meshiagaru_itadaku|召し上がる・いただく]] - 五段動詞的敬語形式
+- [[verb-u/001_agaru|上がる]] - 五段動詞範例
 
 ### 相關文法
+- [[grammar/005_keigo_system|敬語系統]] - 五段動詞的敬語變化
 - [[grammar/001_te_form|て形文法]] - 動詞連接
 - [[grammar/002_nagara|ながら文法]] - 同時動作
 
