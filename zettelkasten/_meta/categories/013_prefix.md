@@ -5,6 +5,26 @@ type: category
 created: 2025-10-28
 ---
 
+## 日文
+接頭語（せっとうご）
+
+**羅馬拼音**：settougo
+
+**詞性**：名詞（語言學術語）
+
+**別名**：接頭辞（せっとうじ）
+
+## 日文解釋
+接頭語（せっとうご）とは、他の言葉の前に付けて、その言葉に特別な意味や語感を加える言葉の一部です。「お〜」「ご〜」「大〜」「小〜」などが代表的な例です。単独では使えず、必ず他の言葉と組み合わせて使います。例えば、「お名前」「ご飯」「大雨」「小説」のように使います。敬語を作る接頭語（お、ご）、程度を表す接頭語（大、小、超）、時間を表す接頭語（前、後、新）など、様々な種類があります。接頭語を使うことで、言葉の意味をより正確に、あるいは丁寧に表現することができます。
+
+## 英文解釋
+A "prefix" (settougo) is a part of speech that attaches to the beginning of other words to add special meaning or nuance. Representative examples include "o-" (お〜), "go-" (ご〜), "oo-" (大〜), and "ko-" (小〜). Prefixes cannot be used independently and must always be combined with other words, as in "onamae" (お名前, your name - polite), "gohan" (ご飯, rice/meal), "ooame" (大雨, heavy rain), or "shousetsu" (小説, novel). There are various types including honorific prefixes (o, go), degree prefixes (oo, ko, chou), and time-related prefixes (mae, ato, shin). Using prefixes allows for more precise or polite expression of word meanings.
+
+## 中文解釋
+「接頭語」（せっとうご），又稱「接頭辭」，是附加在其他詞語前面，為該詞語增添特殊意義或語感的詞語成分。代表性的例子包括「お〜」「ご〜」「大〜」「小〜」等。接頭語不能單獨使用，必須與其他詞語組合，如「お名前」（您的名字，禮貌）、「ご飯」（飯、餐）、「大雨」（大雨）、「小説」（小說）。接頭語有多種類型，包括構成敬語的接頭語（お、ご）、表示程度的接頭語（大、小、超）、表示時間的接頭語（前、後、新）等。使用接頭語可以更準確或更禮貌地表達詞語的意義。
+
+---
+
 ## Category 資訊
 
 **Category 名稱**：`prefix`

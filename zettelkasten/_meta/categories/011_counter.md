@@ -5,6 +5,26 @@ type: category
 created: 2025-10-28
 ---
 
+## 日文
+助数詞（じょすうし）
+
+**羅馬拼音**：josuushi
+
+**詞性**：名詞（語言學術語）
+
+**別名**：量詞（りょうし）
+
+## 日文解釋
+助数詞（じょすうし）とは、物や人を数える時に使う単位を表す言葉です。「本」「枚」「匹」「人」などが代表的な例です。日本語では、数えるものの形や性質によって使う助数詞が変わります。例えば、細長いもの（ペン、傘、瓶など）は「本」、平たいもの（紙、お皿など）は「枚」、小動物は「匹」、人は「人」を使います。「一本（いっぽん）」「二枚（にまい）」「三匹（さんびき）」のように、数字の後ろに付けて使います。日本語学習で最も難しい要素の一つで、適切な助数詞を選ぶには練習が必要です。
+
+## 英文解釋
+"Counters" or "classifiers" (josuushi) are words that express units used when counting objects or people. Representative examples include "hon" (本), "mai" (枚), "hiki" (匹), and "nin" (人). In Japanese, the counter used changes depending on the shape and nature of what is being counted. For example, long thin objects (pens, umbrellas, bottles) use "hon," flat objects (paper, plates) use "mai," small animals use "hiki," and people use "nin." They are attached after numbers, as in "ippon" (一本, one long object), "nimai" (二枚, two flat objects), or "sanbiki" (三匹, three small animals). Counters are one of the most challenging elements in Japanese learning, and choosing the appropriate counter requires practice.
+
+## 中文解釋
+「助數詞」（じょすうし），又稱「量詞」，是表示計數物品或人時使用的單位詞。代表性的例子包括「本」「枚」「匹」「人」等。在日語中，根據所數物品的形狀和性質，使用的助數詞會有所不同。例如，細長的物品（筆、傘、瓶子等）用「本」，扁平的物品（紙、盤子等）用「枚」，小動物用「匹」，人用「人」。它們接在數字後面使用，如「一本（いっぽん）」「二枚（にまい）」「三匹（さんびき）」。助數詞是日語學習中最困難的要素之一，選擇合適的助數詞需要大量練習。
+
+---
+
 ## Category 資訊
 
 **Category 名稱**：`counter`
