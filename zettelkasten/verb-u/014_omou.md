@@ -4,7 +4,8 @@ description: 思う - 想、覺得、認為
 type: verb
 subtype: u_verb
 jlpt: n5
-stage: draft
+stage: linking
+draft: false
 tags: [verb, u-verb, n5, thinking, feeling, opinion, basic]
 ---
 
@@ -753,9 +754,11 @@ Firmly believe:
 ### 相關助詞
 - [[particle/005_to|と]] - 引用助詞（と思う的核心）
 - [[particle/002_wo|を]] - を助詞（思い出す等用法）
+- [[particle/007_ni|に]] - に助詞（不思議に思う等感覺表達）
+- [[particle/006_wa|は]] - は助詞（主題標記）
 
 ### 相關文法
-- [[grammar/007_masu_form|ます形]]（待建立） - 思います的用法
+- [[grammar/007_masu_form|ます形]] - 思います的用法
 - [[grammar/001_te_form|て形文法]] - 思って的用法
 - 意向形（待建立） - ～ようと思う的用法
 

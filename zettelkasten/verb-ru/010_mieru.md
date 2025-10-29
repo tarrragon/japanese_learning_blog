@@ -4,7 +4,8 @@ description: 見える - 看得見、可見、似乎
 type: verb
 subtype: ru_verb
 jlpt: n4
-stage: draft
+stage: linking
+draft: false
 tags: [verb, ru-verb, n4, perception, visibility, potential, basic]
 created: 2025-10-29
 related_to: [[verb-ru/003_miru]], [[grammar/003_ichidan_verb]], [[particle/001_ga]]
@@ -1044,6 +1045,7 @@ Remembering these patterns is important.
 
 ### 相關助詞
 - [[particle/001_ga|が]] - 見える的主要助詞（自動詞）
+- [[particle/007_ni|に]] - ～に見える（看起來像～）句型使用
 - [[particle/002_wo|を]] - 見る使用（對比）
 
 ### 相關文法

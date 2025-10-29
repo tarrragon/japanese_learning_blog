@@ -4,7 +4,8 @@ description: 履く - 穿（褲子、鞋子、襪子）
 type: verb
 subtype: u_verb
 jlpt: n5
-stage: draft
+stage: linking
+draft: false
 tags: [verb, u-verb, n5, clothing, wearing, basic]
 ---
 
@@ -331,11 +332,14 @@ In formal situations or when speaking to elders, use **お履きになる**:
 
 ## Related Cards | 相關卡片
 
-- [[verb-ru/006_kiru|着る - to wear (upper body)]]
-- [[verb-u/016_nugu|脱ぐ - to take off]]
-- [[noun/clothing_vocabulary|Clothing Vocabulary]]
-- [[grammar/particles/wo|を Particle - Object Marker]]
-- [[verb-u/002_kau|買う - to buy]]
+### 相關動詞 Related Verbs
+- [[verb-ru/006_kiru|着る]] - 穿（上半身衣物）
+- [[verb-u/016_nugu|脱ぐ]] - 脫（衣服、鞋子）
+
+### 相關助詞 Related Particles
+- [[particle/002_wo|を]] - 賓語助詞（Object Marker）
+- [[particle/006_wa|は]] - 主題助詞（Topic Marker）
+- [[particle/007_ni|に]] - 目的地・存在場所助詞
 
 ---
 

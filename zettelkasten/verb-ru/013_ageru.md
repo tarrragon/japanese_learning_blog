@@ -4,10 +4,11 @@ description: 上げる/あげる - 舉起、給予
 type: verb
 subtype: ru_verb
 jlpt: n5
-stage: draft
+stage: linking
+draft: false
 tags: [verb, ru-verb, n5, giving, raising, 授受表現, basic]
 created: 2025-10-29
-related_to: [[grammar/003_ichidan_verb]], [[particle/002_wo]], [[particle/001_ni]]
+related_to: [[grammar/003_ichidan_verb]], [[particle/002_wo]], [[particle/007_ni]]
 ---
 
 ## 日文
@@ -590,11 +591,14 @@ Japanese giving-receiving expressions use three different verbs based on perspec
 
 ### 相關助詞
 - [[particle/002_wo|を]] - を助詞（對象標記）
-- [[particle/001_ni|に]] - に助詞（接受者標記）
+- [[particle/007_ni|に]] - に助詞（接受者標記）
+- [[particle/003_kara|から]] - から助詞（來源標記，用於もらう）
+- [[particle/006_wa|は]] - は助詞（主題標記）
 
 ### 相關文法
 - [[grammar/001_te_form|て形文法]] - 〜てあげる的用法
-- [[grammar/007_masu_form|ます形]]（待建立） - あげます的用法
+- [[grammar/007_masu_form|ます形]] - あげます的用法
+- [[grammar/009_ta_form|た形]] - あげた的用法
 
 ### 相關概念
 - [[grammar/giving_receiving|授受表現]]（待建立） - 完整的授受表現說明

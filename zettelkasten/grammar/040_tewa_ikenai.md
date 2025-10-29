@@ -4,8 +4,8 @@ description: てはいけない - 禁止的表達方式（不可以做某事）
 type: grammar
 subtype: prohibition
 jlpt: n5
-stage: draft
-draft: true
+stage: linking
+draft: false
 auto_generated: true
 needs_review: true
 tags: [grammar, n5, prohibition, te-form, rules, basic]
@@ -393,21 +393,23 @@ From strongest to weakest:
 ## Related Cards
 
 ### Grammar Patterns
-- [[grammar/010_te_form|て形 - Te-form]] - Foundation for this pattern
+- [[grammar/001_te_form|て形 - Te-form]] - Foundation for this pattern
 - [[grammar/039_temo_ii|〜てもいい - Permission]] - Opposite concept (permission)
+- [[grammar/023_naide_kudasai|〜ないでください - Polite Negative Request]] - Related prohibition pattern
 - [[grammar/041_nakereba_naranai|〜なければならない - Obligation]]（待建立）
-- [[grammar/023_naide_kudasai|〜ないでください - Polite Negative Request]]（待建立）
 
 ### Related Verbs (Common in Prohibitions)
-- [[verb-i/011_hairu|入る - to enter]]
-- [[verb-i/007_hanasu|話す - to speak]]
-- [[verb-i/019_tsukau|使う - to use]]
-- [[verb-ii/003_taberu|食べる - to eat]]
-- [[verb-ii/002_miru|見る - to see]]
+- [[verb-irr/001_suru|する - to do]] - Irregular verb, frequently used in prohibitions
+- [[verb-irr/002_kuru|来る - to come]] - Irregular verb
+- [[verb-irr/003_iru|いる - to be (animate)]] - Irregular verb
+- [[verb-u/010_hairu|入る - to enter]]
+- [[verb-u/007_hanasu|話す - to speak]]
+- [[verb-ru/001_taberu|食べる - to eat]]
+- [[verb-ru/003_miru|見る - to see]]
 
 ### Related Particles
-- [[particle/006_wa|は - Topic/contrast marker]]
-- [[particle/007_ni|に - Target/location marker]]
+- [[particle/006_wa|は - Topic/contrast marker]] - Used in ては construction
+- [[particle/007_ni|に - Target/location marker]] - Common in prohibition contexts
 
 ### Cultural Context
 - [[culture/001_rules|Japanese Social Rules and Etiquette]]（待建立）
@@ -417,7 +419,7 @@ From strongest to weakest:
 
 ## Card Status
 
-**Card Status:** Draft
+**Card Status:** Linking
 **Priority:** High - Essential N5 prohibition pattern, fundamental for expressing rules and warnings
 **Estimated Study Time:** 25-35 minutes
 

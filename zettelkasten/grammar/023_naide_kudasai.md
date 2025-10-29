@@ -4,8 +4,8 @@ description: ないでください - 禮貌的否定請求（請不要做某事�
 type: grammar
 subtype: request
 jlpt: n5
-stage: draft
-draft: true
+stage: linking
+draft: false
 auto_generated: true
 needs_review: true
 tags: [grammar, n5, request, negative, nai-form, polite, basic]
@@ -464,10 +464,20 @@ Example:
 - [[grammar/022_naide|〜ないで - Without doing]]
 - [[grammar/040_tewa_ikenai|〜てはいけない - Prohibition]]
 
-**Related Concepts:**
-- [[verb-1/001_kaku|書く - To write]]
-- [[verb-2/001_taberu|食べる - To eat]]
+**Phase 1 Particles:**
+- [[particle/006_wa|は - Topic Marker]]
+- [[particle/007_ni|に - Target/Location Marker]]
+- [[particle/004_de|で - Means/Location Marker]]
+- [[particle/002_wo|を - Object Marker]]
+
+**Phase 1 Irregular Verbs:**
 - [[verb-irr/001_suru|する - To do]]
+- [[verb-irr/002_kuru|来る - To come]]
+- [[verb-irr/003_iru|いる - To exist (animate)]]
+
+**Example Verbs:**
+- [[verb-u/004_kaku|書く - To write]]
+- [[verb-ru/001_taberu|食べる - To eat]]
 
 ---
 

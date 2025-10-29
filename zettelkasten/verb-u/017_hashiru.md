@@ -4,7 +4,8 @@ description: 走る - 跑、奔跑
 type: verb
 subtype: u_verb
 jlpt: n5
-stage: draft
+stage: linking
+draft: false
 tags: [verb, u-verb, n5, movement, running, basic]
 created: 2025-10-29
 related_to: [[grammar/006_godan_verb]], [[verb-u/008_aruku]], [[particle/002_wo]]
@@ -646,10 +647,13 @@ Practice:
 
 ### 相關助詞
 - [[particle/002_wo|を]] - を助詞（路徑標記）
-- [[particle/004_de|で]] - で助詞（場所）
+- [[particle/004_de|で]] - で助詞（場所標記）
+- [[particle/008_made|まで]] - まで助詞（目的地標記）
 
 ### 對比動詞
 - [[verb-u/008_aruku|歩く]] - 走路（速度對比：慢 vs 快）
+  - 速度差異：歩く（慢速、雙腳不離地）vs 走る（快速、有離地瞬間）
+  - 使用場景：歩く（日常移動、散步）vs 走る（運動、趕時間）
 
 ### 移動動詞
 - [[verb-u/009_iku|行く]] - 去（方向性移動）

@@ -4,8 +4,8 @@ description: まで - 終點助詞（直到、到...為止）
 type: particle
 subtype: endpoint
 jlpt: n5
-stage: draft
-draft: true
+stage: linking
+draft: false
 auto_generated: true
 needs_review: true
 tags: [grammar, particle, n5, endpoint, time, location, basic]
@@ -564,7 +564,7 @@ Time + までに + Completion Verb
 
 ## Card Status
 
-**Card Status:** Draft
+**Card Status:** Linking
 **Priority:** High - Essential N5 particle with critical distinction (まで vs までに)
 **Estimated Study Time:** 25-30 minutes
 

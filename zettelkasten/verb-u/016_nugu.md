@@ -4,12 +4,12 @@ description: 脱ぐ - 脫（衣服、鞋子）
 type: verb
 subtype: godan
 jlpt: n5
-stage: draft
-draft: true
+stage: linking
+draft: false
 auto_generated: false
 tags: [verb, u-verb, n5, clothing, removing, basic, daily_life]
 created: 2025-10-29
-related_to: [[grammar/006_godan_verb]], [[particle/002_wo]], [[verb-ru/006_kiru]]
+related_to: [[grammar/006_godan_verb]], [[particle/002_wo]], [[particle/007_ni]], [[verb-ru/006_kiru]], [[verb-u/015_haku]]
 ---
 
 ## 日文
@@ -574,7 +574,12 @@ Small worn items:
 - [[verb-u/004_kaku|書く]] - 同類型五段動詞示範
 
 ### 相關助詞
-- [[particle/002_wo|を]] - 脱ぐ常用的助詞
+- [[particle/002_wo|を]] - 脱ぐ常用的助詞（對象標記）
+- [[particle/007_ni|に]] - 使役形・受身形的對象（子供に靴を脱がせる）
+- [[particle/001_ga|が]] - 可能形的主語（靴が脱げる）
+- [[particle/004_de|で]] - 脱ぐ的場所（玄関で靴を脱ぐ）
+- [[particle/003_kara|から]] - 相關場所起點（家から靴を脱ぐ）
+- [[particle/005_to|と]] - 並列動作（靴を脱いで、スリッパを履く）
 
 ### 相關文法
 - [[grammar/007_masu_form|ます形]] - 脱ぎます的用法

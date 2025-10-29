@@ -4,13 +4,13 @@ description: する - 做、進行（最常用的不規則動詞）
 type: verb
 subtype: irregular
 jlpt: n5
-stage: draft
-draft: true
+stage: linking
+draft: false
 auto_generated: true
 needs_review: true
 tags: [verb, irregular, n5, suru-verb, basic]
 created: 2025-10-28
-related_to: [[verb-irr/002_kuru]], [[honorific/004_nasaru_itasu]]
+related_to: [[verb-irr/002_kuru]], [[verb-irr/003_iru]], [[particle/006_wa]], [[particle/007_ni]], [[honorific/004_nasaru_itasu]]
 ---
 
 ## 日文
@@ -789,23 +789,29 @@ Can't be helped:
 ### 動詞類型
 - [[grammar/006_godan_verb|五段動詞]] - 對比：する不是五段動詞
 - [[grammar/003_ichidan_verb|一段動詞]] - 對比：する不是一段動詞
-- [[verb-irr/002_kuru|來る（くる）]] - 另一個不規則動詞（待建立）
+- [[verb-irr/002_kuru|來る（くる）]] - 另一個不規則動詞
+- [[verb-irr/003_iru|いる]] - 存在動詞（不規則變化）
 
 ### 敬語形式
-- [[honorific/004_nasaru_itasu|なさる・いたす]] - する的敬語形式（待建立）
+- [[honorific/004_nasaru_itasu|なさる・いたす]] - する的敬語形式
 
 ### 相關文法
 - [[grammar/007_masu_form|ます形]] - します的用法
 - [[grammar/001_te_form|て形文法]] - して的用法
-- [[grammar/009_ta_form|た形]] - した的用法（待建立）
-- [[grammar/008_nai_form|ない形]] - しない的用法（待建立）
-- [[grammar/011_potential_form|可能形]] - できる的用法（待建立）
+- [[grammar/009_ta_form|た形]] - した的用法
+- [[grammar/008_nai_form|ない形]] - しない的用法
+- [[grammar/011_potential_form|可能形]] - できる的用法
+- [[grammar/016_tai_form|たい形]] - したい的用法（想要做...）
+- [[grammar/027_koto_ga_dekiru|ことができる]] - することができる的用法（能夠...）
+- [[grammar/022_naide|ないで]] - しないで的用法（不...而...）
+- [[grammar/023_naide_kudasai|ないでください]] - しないでください的用法（請不要...）
+- [[grammar/024_ta_koto_ga_aru|たことがある]] - したことがある的用法（曾經做過...）
 
 ### 相關助詞
+- [[particle/006_wa|は]] - 主題標記助詞
+- [[particle/007_ni|に]] - ～にする的用法
 - [[particle/002_wo|を]] - する常用的助詞
-- [[particle/003_ni|に]] - ～にする的用法（待建立）
 
-### 常見サ變動詞
-- [[verb-irr/003_benkyou_suru|勉強する]] - 學習（待建立）
-- [[verb-irr/004_ryouri_suru|料理する]] - 做菜（待建立）
-- [[verb-irr/005_souji_suru|掃除する]] - 打掃（待建立）
+### 其他相關主題
+- サ変動詞系統：本文中已列舉大量常見的「名詞＋する」動詞（勉強する、料理する、掃除する等）
+- [[grammar/038_te_iru|ている形]] - している的用法（正在做...）

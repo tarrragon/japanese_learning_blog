@@ -4,8 +4,8 @@ description: 〜ている - 進行式、持續狀態的表達方式
 type: grammar
 subtype: aspect
 jlpt: n5
-stage: draft
-draft: true
+stage: linking
+draft: false
 auto_generated: true
 needs_review: true
 tags: [grammar, n5, progressive, continuous, state, te-form, aspect, basic]
@@ -16,7 +16,7 @@ tags: [grammar, n5, progressive, continuous, state, te-form, aspect, basic]
 ## 日文
 
 ### 基本概念
-**〜ている**是日語中最重要的文法模式之一，由[[grammar/010_te_form|て形]] + [[verb-irr/003_iru|いる]]構成。它有多重意義，主要表達「動作進行中」或「結果狀態持續」。
+**〜ている**是日語中最重要的文法模式之一，由[[grammar/001_te_form|て形]] + [[verb-irr/003_iru|いる]]構成。它有多重意義，主要表達「動作進行中」或「結果狀態持續」。
 
 ### 構成方式
 
@@ -676,11 +676,18 @@ Expresses past ongoing action.
 ## Related Cards
 
 ### Grammar Forms
-- [[grammar/010_te_form|て形 - Te-form]]
+- [[grammar/001_te_form|て形 - Te-form]]
 - [[grammar/009_ta_form|た形 - Past Form]]
 - [[grammar/007_masu_form|ます形 - Polite Form]]
 
-### Related Verbs
+### Phase 1 Particles
+- [[particle/006_wa|は - Topic Marker]]
+- [[particle/001_ga|が - Subject Marker]]
+- [[particle/002_wo|を - Object Marker]]
+- [[particle/007_ni|に - Direction/Location Marker]]
+- [[particle/004_de|で - Location/Means Marker]]
+
+### Phase 1 Irregular Verbs
 - [[verb-irr/003_iru|いる - to be/exist (animate)]]
 - [[verb-irr/001_suru|する - to do]]
 - [[verb-irr/002_kuru|来る - to come]]

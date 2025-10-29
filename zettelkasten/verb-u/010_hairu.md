@@ -4,8 +4,8 @@ description: 入る - 進入、加入
 type: verb
 subtype: u_verb
 jlpt: n5
-stage: draft
-draft: true
+stage: linking
+draft: false
 auto_generated: true
 needs_review: true
 tags: [verb, u-verb, n5, movement, entering, basic]
@@ -650,8 +650,9 @@ Meaning changes by context:
 - [[verb-ru/007_deru|出る]] - 出る（離開、出去）- 反義詞
 - [[verb-ru/008_dekakeru|出かける]] - 出かける（外出）
 - [[verb-u/009_iku|行く]] - 行く（去）
-- [[verb-u/011_kaeru|帰る]]（待建立） - 回家
+- [[verb-irr/002_kuru|来る]] - 来る（來）
+- [[verb-u/011_kaeru|帰る]] - 帰る（回家）
 
 ### 相關文法
-- [[grammar/007_masu_form|ます形]]（待建立） - 入ります的用法
+- [[grammar/007_masu_form|ます形]] - 入ります的用法
 - [[grammar/001_te_form|て形文法]] - 入って的用法

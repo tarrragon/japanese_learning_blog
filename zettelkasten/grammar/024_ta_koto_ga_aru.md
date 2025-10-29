@@ -4,8 +4,8 @@ description: たことがある - 經驗的表達方式（曾經做過某事）
 type: grammar
 subtype: experience
 jlpt: n5
-stage: draft
-draft: true
+stage: linking
+draft: false
 auto_generated: true
 needs_review: true
 tags:
@@ -478,26 +478,28 @@ Important: 「たことがある」typically does not combine with specific time
 ## Related Cards
 
 ### Core Grammar Components
-- [[grammar/009_ta_form|た形 - Past Tense Form]] - Essential for forming this pattern
+- [[grammar/009_ta_form|た形 - Past Tense Form]] - Essential foundation for this pattern
 - [[grammar/038_te_iru|〜ている - Progressive/Continuous]] - Compare with current state expressions
-- [[verb-ru/013_aru|ある - to exist]] - The "aru" component of this pattern
 
-### Related Experience Patterns
-- [[grammar/025_ta_koto_ga_nai|〜たことがない - Never Done]] - Negative experience form
-- [[grammar/026_koto_ga_dekiru|〜ことができる - Can/Able to]] - Ability expressions
+### Essential Particles
+- [[particle/001_ga|が - Subject Particle]] - Core particle in「ことがある」structure
+- [[particle/002_wo|を - Object Particle]] - Marks objects of experience
+- [[particle/006_wa|は - Topic Particle]] - Marks topics in experience sentences
+- [[particle/007_ni|に - Target/Location Particle]] - Used with destinations in travel experiences
 
-### Particles Used
-- [[particle/006_wa|は - Topic Particle]] - Marking topics in experience sentences
-- [[particle/007_ni|に - Target/Location Particle]] - Used with places in travel experiences
-- [[particle/008_wo|を - Object Particle]] - Marking objects of experience
+### Irregular Verbs (Phase 1)
+- [[verb-irr/001_suru|する - to do]] - した → したことがある (have done)
+- [[verb-irr/002_kuru|来る - to come]] - 来た → 来たことがある (have come)
 
-### Time and Frequency
-- [[vocabulary/time_frequency|時間・頻度表現 - Time and Frequency Expressions]]
-- [[grammar/temporal_expressions|時間表現 - Temporal Expressions]]
+### Common Ru-verbs (Phase 1)
+- [[verb-ru/001_taberu|食べる - to eat]] - 食べた → 食べたことがある (have eaten)
+- [[verb-ru/003_miru|見る - to see]] - 見た → 見たことがある (have seen)
+- [[verb-ru/006_kiru|着る - to wear]] - 着た → 着たことがある (have worn)
 
-### Practical Application
-- [[conversation/travel_experiences|旅行經驗對話 - Travel Experience Conversations]]
-- [[conversation/food_experiences|飲食經驗對話 - Food Experience Conversations]]
+### Common U-verbs (Phase 1)
+- [[verb-u/009_iku|行く - to go]] - 行った → 行ったことがある (have been/gone)
+- [[verb-u/002_nomu|飲む - to drink]] - 飲んだ → 飲んだことがある (have drunk)
+- [[verb-u/010_hairu|入る - to enter]] - 入った → 入ったことがある (have entered)
 
 ---
 

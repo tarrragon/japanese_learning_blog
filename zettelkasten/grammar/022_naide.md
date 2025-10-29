@@ -4,8 +4,8 @@ description: ないで - 不做某動作就做另一動作的表達方式
 type: grammar
 subtype: sequential_action
 jlpt: n5
-stage: draft
-draft: true
+stage: linking
+draft: false
 auto_generated: true
 needs_review: true
 tags:
@@ -449,11 +449,24 @@ In daily conversation, using ずに sounds overly formal or stiff.
 
 ## Related Cards
 
+**Grammar Patterns:**
 - [[grammar/008_nai_form|ない形 - Negative Form]] - Foundation for ないで pattern
-- [[grammar/010_te_form|て形 - Te-form]] - Positive equivalent for sequential actions
-- [[grammar/023_naide_kudasai|〜ないでください - Negative Request]]（待建立）
+- [[grammar/001_te_form|て形 - Te-form]] - Positive equivalent for sequential actions
+- [[grammar/023_naide_kudasai|〜ないでください - Negative Request]] - Closely related negative request pattern
 - [[grammar/045_nakute|〜なくて - Negative Te-form]]（待建立）
 - [[grammar/046_zuni|〜ずに - Without doing (formal)]]（待建立）
+
+**Phase 1 Particles:**
+- [[particle/006_wa|は - Topic Marker]] - Basic sentence structure
+- [[particle/007_ni|に - Direction/Location/Time]] - Location and direction marker
+- [[particle/004_de|で - Means/Location]] - Means and location of action
+- [[particle/002_wo|を - Object Marker]] - Direct object marker
+- [[particle/001_ga|が - Subject Marker]] - Subject marker
+
+**Phase 1 Irregular Verbs:**
+- [[verb-irr/001_suru|する - To do]] - する → しないで (without doing)
+- [[verb-irr/002_kuru|来る - To come]] - 来る → 来ないで (without coming)
+- [[verb-irr/003_iru|いる - To exist (animate)]] - いる → いないで (without being present)
 
 ---
 

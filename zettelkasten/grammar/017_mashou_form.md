@@ -4,8 +4,8 @@ description: ましょう形 - 建議、邀請、意向的表達方式
 type: grammar
 subtype: conjugation
 jlpt: n5
-stage: draft
-draft: true
+stage: linking
+draft: false
 auto_generated: true
 needs_review: true
 tags: [grammar, n5, volitional, invitation, suggestion, mashou, basic]
@@ -640,23 +640,29 @@ Making a decision.
 ## Related Cards
 
 ### Grammar Forms
-- [[grammar/007_masu_form|ます形 - Polite Form]]
-- [[grammar/016_tai_form|たい形 - Desire Form]]
+- [[grammar/007_masu_form|ます形 - Polite Form]] - Base form for ましょう
+- [[grammar/016_tai_form|たい形 - Desire Form]] - Both derive from ます形
 - [[grammar/010_dictionary_form|辞書形 - Dictionary Form]]
+- [[grammar/008_nai_form|ない形 - Negative Form]]
 
 ### Related Expressions
 - [[grammar/021_masenka|〜ませんか - Negative Invitation]]（待建立）
 - [[grammar/025_volitional_plain|意向形（普通形）- Plain Volitional]]（待建立）
+- [[grammar/012_te_kudasai|〜てください - Please do]]（待建立）
 
 ### Verbs Referenced
-- [[verb-irr/001_suru|する - to do]]
-- [[verb-irr/002_kuru|来る - to come]]
+- [[verb-irr/001_suru|する - to do]] - Phase 1 irregular verb
+- [[verb-irr/002_kuru|来る - to come]] - Phase 1 irregular verb
+- [[verb-irr/003_iru|いる - to exist (animate)]] - Phase 1 irregular verb
 
-### Request Forms
-- [[grammar/012_te_kudasai|〜てください - Please do]]
+### Particles
+- [[particle/006_wa|は - Topic Marker]] - Phase 1 particle
+- [[particle/007_ni|に - Destination/Location]] - Phase 1 particle
+- [[particle/001_ga|が - Subject Marker]] - Phase 1 particle
+- [[particle/002_wo|を - Object Marker]] - Phase 1 particle
 
 ---
 
-**Card Status**: Draft - Needs review for accuracy and completeness
+**Card Status**: Linking - Wikilinks added, ready for content review
 **Priority**: High - Essential N5 grammar pattern
 **Estimated Study Time**: 25-35 minutes

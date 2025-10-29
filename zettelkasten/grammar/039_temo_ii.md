@@ -4,8 +4,8 @@ description: てもいい - 許可的表達方式（可以做某事）
 type: grammar
 subtype: permission
 jlpt: n5
-stage: draft
-draft: true
+stage: linking
+draft: false
 auto_generated: true
 needs_review: true
 tags: [grammar, n5, permission, te-form, basic]
@@ -454,16 +454,22 @@ Use this to indicate that it's okay not to do something - there's no obligation.
 ## Related Cards
 
 ### Grammar Patterns
-- [[grammar/010_te_form|て形 - Te-form]]
-- [[grammar/008_nai_form|ない形 - Nai-form]]
-- [[grammar/040_tewa_ikenai|〜てはいけない - Prohibition]]
-- [[grammar/012_te_kudasai|〜てください - Request Pattern]]
-- [[grammar/041_nakereba_naranai|〜なければならない - Obligation]]
+- [[grammar/001_te_form|て形 - Te-form]] - Foundation for this pattern
+- [[grammar/008_nai_form|ない形 - Nai-form]] - Used for negative permission (なくてもいい)
+- [[grammar/040_tewa_ikenai|〜てはいけない - Prohibition]] - Opposite pattern (must not vs. may)
+- [[grammar/023_naide_kudasai|〜ないでください - Negative Request]]
 
-### Related Concepts
+### Phase 1 Particles
 - [[particle/006_wa|は - Topic Particle]]
 - [[particle/007_ni|に - Direction/Time Particle]]
+- [[particle/001_ga|が - Subject Particle]]
+- [[particle/002_wo|を - Object Particle]]
+- [[particle/004_de|で - Location/Method Particle]]
+
+### Phase 1 Irregular Verbs
 - [[verb-irr/001_suru|する - To Do (Irregular)]]
+- [[verb-irr/002_kuru|来る - To Come (Irregular)]]
+- [[verb-irr/003_iru|いる - To Exist/Be (Irregular)]]
 
 ---
 

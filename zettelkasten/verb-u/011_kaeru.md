@@ -4,7 +4,8 @@ description: 帰る - 回去、回家
 type: verb
 subtype: u_verb
 jlpt: n5
-stage: draft
+stage: linking
+draft: false
 tags: [verb, u-verb, n5, movement, returning, basic]
 ---
 

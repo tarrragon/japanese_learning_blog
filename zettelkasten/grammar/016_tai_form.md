@@ -4,8 +4,8 @@ description: たい形 - 想要做某事的表達方式
 type: grammar
 subtype: conjugation
 jlpt: n5
-stage: draft
-draft: true
+stage: linking
+draft: false
 auto_generated: true
 needs_review: true
 tags: [grammar, n5, desire, tai-form, conjugation, basic]
@@ -576,13 +576,16 @@ Don't use たい directly with superiors:
 
 ### Grammar Forms
 - [[grammar/007_masu_form|ます形 - Polite Form]]
-- [[grammar/017_mashou_form|ましょう形 - Volitional Form]]（待建立）
+- [[grammar/017_mashou_form|ましょう形 - Volitional Form]]
 - [[grammar/008_nai_form|ない形 - Negative Form]]
+- [[grammar/038_te_iru|〜ている - Progressive Form]]
 
 ### Related Expressions
 - [[grammar/018_hoshii|ほしい - Want (noun)]]（待建立）
 - [[grammar/019_tagaru|〜たがる - Third-person desire]]（待建立）
 - [[grammar/020_to_omou|〜と思う - I think]]（待建立）
+- [[grammar/022_naide|〜ないで - Without doing]]
+- [[grammar/023_naide_kudasai|〜ないでください - Please don't]]
 
 ### Verbs Referenced
 - [[verb-irr/001_suru|する - to do]]
@@ -590,11 +593,13 @@ Don't use たい directly with superiors:
 - [[verb-ru/001_taberu|食べる - to eat]]
 
 ### Particles
+- [[particle/006_wa|は - Topic Marker]]
+- [[particle/007_ni|に - Direction/Location Marker]]
 - [[particle/001_ga|が - Subject Marker]]
 - [[particle/002_wo|を - Object Marker]]
 
 ---
 
-**Card Status**: Draft - Needs review for accuracy and completeness
+**Card Status**: Linking - Adding connections to related cards
 **Priority**: High - Essential N5 grammar pattern
 **Estimated Study Time**: 30-40 minutes

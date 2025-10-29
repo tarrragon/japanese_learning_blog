@@ -4,8 +4,8 @@ description: ことができる - 能力的表達方式（會做、能做某事�
 type: grammar
 subtype: ability
 jlpt: n5
-stage: draft
-draft: true
+stage: linking
+draft: false
 auto_generated: true
 needs_review: true
 tags: [grammar, n5, ability, potential, dictionary-form, basic]
@@ -477,17 +477,20 @@ Both mean "I can speak Japanese," but the first is more formal.
 ## Related Cards
 
 ### Grammar
-- [[grammar/010_dictionary_form|辞書形 - Dictionary Form]] - Required for this pattern
-- [[grammar/044_potential_form|可能形 - Potential Form]]（待建立） - Alternative way to express ability
-- [[grammar/001_desu_masu|です・ます形 - Polite Form]] - Politeness levels
+- [[grammar/010_dictionary_form|辞書形 - Dictionary Form]] - **Required foundation** for this pattern
+- [[grammar/011_potential_form|可能形 - Potential Form]] - Alternative way to express ability
+- [[grammar/007_masu_form|ます形 - Masu Form]] - Polite conjugation form
 
-### Verbs
-- [[verb-ru/011_dekiru|できる - to be able to]] - Related verb
-- [[verb-irr/001_suru|する - to do]] - Irregular verb example
+### Particles (Phase 1)
+- [[particle/001_ga|が - Subject Marker]] - **Core component** of ことができる pattern
+- [[particle/002_wo|を - Object Marker]] - Common with action verbs before ことができる
+- [[particle/007_ni|に - Direction/Time Marker]] - Frequently used in example contexts
+- [[particle/004_de|で - Location/Method Marker]] - Common in situational examples
+- [[particle/006_wa|は - Topic Marker]] - Used for sentence topics
 
-### Particles
-- [[particle/003_ga|が - Subject Marker]] - Used in this pattern
-- [[particle/004_wo|を - Object Marker]] - Common with action verbs
+### Verbs (Phase 1)
+- [[verb-irr/001_suru|する - to do]] - Irregular verb used in examples (することができる)
+- [[verb-irr/002_kuru|来る - to come]] - Irregular verb used in examples (来ることができる)
 
 ### Related Concepts
 - [[grammar/ability_expressions|能力表現の比較]] - Comparison of ability expressions（待建立）
@@ -497,7 +500,7 @@ Both mean "I can speak Japanese," but the first is more formal.
 
 ## Card Status
 
-**Card Status**: Draft
+**Card Status**: Linking
 **Priority**: High - Essential N5 ability pattern
 **Estimated Study Time**: 30-40 minutes
 
