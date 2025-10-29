@@ -228,15 +228,15 @@
 
 **目標**: 完成 25 張 Phase 1 卡片的內容編寫
 
-**進度**: 5 / 25 (20%)
+**進度**: 15 / 25 (60%)
 
 | 類別 | 計劃 | 已完成 | 進度 | 完成卡片 |
 |-----|------|--------|------|---------|
 | Critical 助詞 | 2 | 2 | 100% | particle/006_wa, particle/007_ni |
 | Critical 不規則動詞 | 3 | 3 | 100% | verb-irr/001_suru, verb-irr/002_kuru, verb-irr/003_iru |
-| High 文法 | 10 | 0 | 0% | - |
+| High 文法 | 10 | 10 | 100% | grammar/016_tai_form, 017_mashou_form, 038_te_iru, 039_temo_ii, 027_koto_ga_dekiru, 040_tewa_ikenai, 022_naide, 023_naide_kudasai, 024_ta_koto_ga_aru, particle/008_made |
 | High 動詞 | 10 | 0 | 0% | - |
-| **總計** | **25** | **5** | **20%** | ✅ **All Critical cards completed!** |
+| **總計** | **25** | **15** | **60%** | ✅ **Critical + High Grammar completed!** |
 
 ### 階段 2: Extension-Review（延伸卡片檢查階段）
 
