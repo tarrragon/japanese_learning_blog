@@ -4,7 +4,7 @@ description: 履く - 穿（褲子、鞋子、襪子）
 type: verb
 subtype: u_verb
 jlpt: n5
-stage: linking
+stage: completed
 draft: false
 tags:
   - jlpt/n5
@@ -340,9 +340,9 @@ In formal situations or when speaking to elders, use **お履きになる**:
 - [[verb-u/016_nugu|脱ぐ]] - 脫（衣服、鞋子）
 
 ### 相關助詞 Related Particles
-- [[particle/002_wo|を]] - 賓語助詞（Object Marker）
-- [[particle/006_wa|は]] - 主題助詞（Topic Marker）
-- [[particle/007_ni|に]] - 目的地・存在場所助詞
+- [[particle/003_wo|を]] - 賓語助詞[^object-particle]（Object Marker）
+- [[particle/007_wa|は]] - 主題助詞[^topic-particle]（Topic Marker）
+- [[particle/008_ni|に]] - 目的地・存在場所助詞[^ni-particle]
 
 ---
 
@@ -354,6 +354,16 @@ In formal situations or when speaking to elders, use **お履きになる**:
 
 ---
 
+## 腳註
+
+[^object-particle]: **賓語助詞を** - 標記動詞的直接受詞，在「履く」的句型中標記穿戴的對象，如「靴を履く」（穿鞋子）。
+
+[^topic-particle]: **主題助詞は** - 標記句子的主題，在描述穿著習慣或情境時使用，如「冬は暖かい靴下を履く」（冬天穿暖和的襪子）。
+
+[^ni-particle]: **助詞に** - 在穿著相關句子中，用於標記場所或目的，如「玄関で靴を履く」中的「で」與「に」可以用來表示場所。
+
+---
+
 **最後更新 Last Updated**: 2025-10-29
 **版本 Version**: 1.0.0
-**狀態 Status**: Draft
+**狀態 Status**: Completed

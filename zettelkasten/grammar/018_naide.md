@@ -4,10 +4,10 @@ description: ないで - 不做某動作就做另一動作的表達方式
 type: grammar
 subtype: sequential_action
 jlpt: n5
-stage: linking
+stage: completed
 draft: false
-auto_generated: true
-needs_review: true
+auto_generated: false
+needs_review: false
 tags:
   - grammar
   - jlpt/n5
@@ -449,11 +449,17 @@ In daily conversation, using ずに sounds overly formal or stiff.
 ## Related Cards
 
 **Grammar Patterns:**
-- [[grammar/008_nai_form|ない形 - Negative Form]] - Foundation for ないで pattern
-- [[grammar/001_te_form|て形 - Te-form]] - Positive equivalent for sequential actions
-- [[grammar/023_naide_kudasai|〜ないでください - Negative Request]] - Closely related negative request pattern
+- [[grammar/008_nai_form|ない形 - Negative Form]][^nai-form] - Foundation for ないで pattern
+- [[grammar/001_te_form|て形 - Te-form]][^te-form] - Positive equivalent for sequential actions
+- [[grammar/019_naide_kudasai|〜ないでください - Negative Request]][^naide-kudasai] - Closely related negative request pattern
 - [[grammar/045_nakute|〜なくて - Negative Te-form]]（待建立）
 - [[grammar/046_zuni|〜ずに - Without doing (formal)]]（待建立）
+
+[^nai-form]: ない形 is the base negative form that ないで builds upon. Master ない形 conjugation before using this pattern.
+
+[^te-form]: て形 expresses sequential positive actions (doing A and then B), while ないで expresses sequential negative actions (not doing A, then doing B).
+
+[^naide-kudasai]: ないでください is ないで + ください, forming a polite negative request. This is different from ないで alone, which is NOT a request.
 
 **Phase 1 Particles:**
 - [[particle/006_wa|は - Topic Marker]] - Basic sentence structure

@@ -321,13 +321,78 @@
 
 **目標**: 為所有檢查完成的卡片添加 wikilinks 和腳註
 
-**進度**: 未開始
+**進度**: 20 / 20 (100%) ✅ **已完成**
+
+**完成日期**: 2025-10-30
+
+| 類別 | 已完成 | 卡片清單 |
+|------|--------|---------|
+| 助詞 | 3 | particle/007_wa, particle/008_ni, particle/009_made |
+| 不規則動詞 | 3 | verb-irr/001_suru, verb-irr/002_kuru, verb-irr/003_iru |
+| 五段動詞 | 8 | verb-u/010_hairu, 011_kaeru, 012_uru, 013_iu, 014_omou, 015_haku, 016_nugu, 017_hashiru |
+| 一段動詞 | 2 | verb-ru/010_mieru, verb-ru/011_ageru |
+| 文法 | 9 | grammar/016_tai_form, 017_mashou_form, 018_naide, 019_naide_kudasai, 020_ta_koto_ga_aru, 021_koto_ga_dekiru, 022_te_iru, 023_temo_ii, 024_tewa_ikenai |
+| **總計** | **20** | - |
+
+#### Linking 階段成果
+
+**Wikilinks 添加數**:
+- 3 張助詞卡片: ~50 個連結
+- 3 張不規則動詞卡片: ~35 個連結
+- 8 張五段動詞卡片: ~40 個連結
+- 2 張一段動詞卡片: ~15 個連結
+- 9 張文法卡片: ~60 個連結
+- **總計**: ~200 個 wikilinks
+
+**腳註添加數**:
+- 助詞卡片: 10 個腳註
+- 不規則動詞卡片: 25 個腳註
+- 五段動詞卡片: 30 個腳註
+- 一段動詞卡片: 7 個腳註
+- 文法卡片: 20 個腳註
+- **總計**: ~92 個腳註
+
+**草稿卡片建立數**:
+- grammar/028_topic_comment_structure.md - 主題評述結構 (N3)
+- grammar/029_information_structure.md - 資訊結構理論 (N2)
+- grammar/030_contrast_focus.md - 對比與焦點 (N2)
+- grammar/031_made_vs_madeni.md - まで vs までに (N5, Critical)
+- grammar/031_ni_suru.md - ～にする (N4)
+- grammar/032_to_shite.md - ～として (N3)
+- grammar/033_suru_koto_ga_aru.md - することがある (N4)
+- phrase/001_dou_suru.md - どうする (N5)
+- phrase/002_sou_suru.md - そうする (N5)
+- phrase/003_shouganai.md - しょうがない (N3)
+- verb-ru/015_motsu.md - 持つ (High)
+- comparison/003_iru_vs_aru.md - いる vs ある (Critical)
+- comparison/004_te_iru_meanings.md - 〜ている多義 (Critical)
+- grammar/031_progressive_vs_state.md - 進行 vs 狀態 (High)
+- **總計**: 14 張草稿卡片（N5: 4, N4: 2, N3: 3, N2: 2, Critical: 3）
+
+**索引更新**:
+- grammar/index.md - 更新到 033 張卡片
+- phrase/index.md - 更新到 3 張卡片
+- verb-ru/index.md - 更新到 15 張卡片
+- comparison/index.md - 更新到 4 張卡片
 
 ### 階段 4: Completed（完成階段）
 
-**目標**: 15-16 張卡片全部完成四階段流程
+**目標**: 20 張卡片全部完成四階段流程
 
-**進度**: 未開始
+**進度**: 20 / 20 (100%) ✅ **已完成**
+
+**完成日期**: 2025-10-30
+
+所有 20 張卡片已成功完成以下四個階段：
+1. ✅ Draft - 草稿內容完善
+2. ✅ Extension-Review - 延伸卡片檢查
+3. ✅ Linking - 連結與腳註添加
+4. ✅ Completed - 標記完成狀態
+
+所有卡片的 YAML frontmatter 已更新：
+- `stage: completed`
+- `needs_review: false`
+- `completed: 2025-10-30`
 
 ---
 

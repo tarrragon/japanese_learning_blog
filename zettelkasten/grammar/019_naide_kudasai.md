@@ -4,10 +4,10 @@ description: ないでください - 禮貌的否定請求（請不要做某事�
 type: grammar
 subtype: request
 jlpt: n5
-stage: linking
+stage: completed
 draft: false
-auto_generated: true
-needs_review: true
+auto_generated: false
+needs_review: false
 tags:
   - grammar
   - jlpt/n5
@@ -465,10 +465,14 @@ Example:
 ## Related Cards
 
 **Grammar Patterns:**
-- [[grammar/008_nai_form|ない形 - Negative Form]]
-- [[grammar/012_te_kudasai|〜てください - Positive Request]]
-- [[grammar/022_naide|〜ないで - Without doing]]
-- [[grammar/040_tewa_ikenai|〜てはいけない - Prohibition]]
+- [[grammar/008_nai_form|ない形 - Negative Form]][^nai-form] - Base negative form required for this pattern
+- [[grammar/012_te_kudasai|〜てください - Positive Request]]（待建立）
+- [[grammar/018_naide|〜ないで - Without doing]][^naide] - Related but NOT a request form
+- [[grammar/040_tewa_ikenai|〜てはいけない - Prohibition]]（待建立）
+
+[^nai-form]: ない形 is the foundation. You must master ない形 conjugation across all verb groups to use ないでください correctly.
+
+[^naide]: Important distinction: ないで means "without doing" (sequential action), while ないでください means "please don't do" (polite request). Don't confuse these two patterns.
 
 **Phase 1 Particles:**
 - [[particle/006_wa|は - Topic Marker]]

@@ -4,10 +4,10 @@ description: たことがある - 經驗的表達方式（曾經做過某事）
 type: grammar
 subtype: experience
 jlpt: n5
-stage: linking
+stage: completed
 draft: false
-auto_generated: true
-needs_review: true
+auto_generated: false
+needs_review: false
 tags:
   - grammar
   - jlpt/n5
@@ -477,14 +477,22 @@ Important: 「たことがある」typically does not combine with specific time
 ## Related Cards
 
 ### Core Grammar Components
-- [[grammar/009_ta_form|た形 - Past Tense Form]] - Essential foundation for this pattern
-- [[grammar/038_te_iru|〜ている - Progressive/Continuous]] - Compare with current state expressions
+- [[grammar/009_ta_form|た形 - Past Tense Form]][^ta-form] - Essential foundation for this pattern
+- [[grammar/038_te_iru|〜ている - Progressive/Continuous]][^te-iru] - Compare with current state expressions
+
+[^ta-form]: た形 is the foundation of たことがある. This pattern literally means "there exists the thing/fact of having done [verb in た-form]." You must master た形 conjugation before using this experience pattern.
+
+[^te-iru]: Key difference: たことがある = past experience (not currently true), ている = current ongoing state. Example: 日本に住んだことがある (have lived in Japan before) vs 日本に住んでいる (currently living in Japan).
 
 ### Essential Particles
-- [[particle/001_ga|が - Subject Particle]] - Core particle in「ことがある」structure
-- [[particle/002_wo|を - Object Particle]] - Marks objects of experience
+- [[particle/001_ga|が - Subject Particle]][^ga-particle] - Core particle in「ことがある」structure
+- [[particle/002_wo|を - Object Particle]][^wo-particle] - Marks objects of experience
 - [[particle/006_wa|は - Topic Particle]] - Marks topics in experience sentences
 - [[particle/007_ni|に - Target/Location Particle]] - Used with destinations in travel experiences
+
+[^ga-particle]: The が in ことがある is essential to the pattern's structure. It marks こと (the nominalized experience) as the subject of ある (to exist). This creates the meaning "the experience exists."
+
+[^wo-particle]: を marks the direct object of the action being experienced. Example: 寿司を食べたことがある (have eaten sushi) - を marks 寿司 as the object of 食べる.
 
 ### Irregular Verbs (Phase 1)
 - [[verb-irr/001_suru|する - to do]] - した → したことがある (have done)
