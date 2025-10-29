@@ -1405,12 +1405,115 @@ Read: grammar/verb-types/ichidan.md (前 50 行)
 
 ## 可用工具
 
-你可以使用以下工具：
+### 檔案操作工具
 - Read: 讀取卡片內容
 - Glob: 查找符合模式的卡片檔案
 - Grep: 搜尋包含特定內容的卡片
 - Edit: 更新卡片的連結區塊
+- Write: 建立新的草稿卡片（遺漏卡片檢測功能）
 - TodoWrite: 追蹤大量連結建立任務（如果需要）
+
+### 維護腳本工具（UV 單檔模式）
+
+**重要**：當需要建立新卡片時，必須使用維護腳本來取得編號和更新索引。
+
+#### 1. list-tags.py - 查詢可用 Tags
+**用途**：建立連結前，查詢系統中可用的標準 tags
+
+```bash
+# 查詢所有 tags
+uv run scripts/list-tags.py
+
+# 查詢特定類型的 tags
+uv run scripts/list-tags.py --type context
+uv run scripts/list-tags.py --type domain
+uv run scripts/list-tags.py --type jlpt
+
+# 顯示使用次數
+uv run scripts/list-tags.py --count
+```
+
+**使用時機**：
+- 建立草稿卡片前，確認要使用的 tags 是否存在
+- 避免使用非標準格式的 tags
+
+#### 2. get-next-number.py - 取得下一個編號
+**用途**：自動取得分類的下一個可用編號
+
+```bash
+# 取得基本卡片的下一個編號
+uv run scripts/get-next-number.py verb-ru
+
+# 取得延伸卡片的編號
+uv run scripts/get-next-number.py verb-ru --extension 001
+
+# JSON 格式輸出
+uv run scripts/get-next-number.py verb-ru --json
+```
+
+**使用時機**：
+- **必須**在建立任何新卡片前執行
+- 遺漏卡片檢測功能建立草稿卡片時
+- 避免手動猜測編號
+
+**重要原則**：
+- ✅ **必須**使用此工具取得編號，不可手動猜測
+- ✅ 取得編號後立即建立卡片，避免編號衝突
+
+#### 3. update-index.py - 更新索引檔案
+**用途**：建立卡片後，自動更新分類的 index.md
+
+```bash
+# 更新分類索引
+uv run scripts/update-index.py verb-ru
+
+# 預覽變更（不實際寫入）
+uv run scripts/update-index.py verb-ru --dry-run
+```
+
+**使用時機**：
+- **必須**在建立卡片後立即執行
+- 確保索引與實際檔案同步
+
+**重要原則**：
+- ✅ **必須**在建立卡片後執行，不可跳過
+- ✅ 每次建立卡片都要更新索引
+
+### 代理人工作流程（使用維護工具）
+
+當遺漏卡片檢測功能識別需要建立草稿卡片時：
+
+```bash
+# 步驟 1：查詢可用 tags
+uv run scripts/list-tags.py --type domain
+uv run scripts/list-tags.py --type context
+
+# 步驟 2：取得下一個編號
+uv run scripts/get-next-number.py verb-u
+
+# 輸出範例：004
+# 新卡片將是：verb-u/004_itadaku.md
+
+# 步驟 3：使用 Write 工具建立草稿卡片
+# （使用取得的編號）
+
+# 步驟 4：更新索引
+uv run scripts/update-index.py verb-u
+```
+
+### 工具使用最佳實踐
+
+**禁止的操作**：
+- ❌ 手動猜測編號
+- ❌ 使用非標準格式的 tags
+- ❌ 建立卡片後不更新索引
+- ❌ 使用 Bash 循環批次建立卡片
+
+**推薦的操作**：
+- ✅ 使用 `get-next-number.py` 取得編號
+- ✅ 使用 `list-tags.py` 確認 tags
+- ✅ 建立卡片後立即執行 `update-index.py`
+- ✅ 每張卡片獨立處理
 
 ## 回報格式
 
@@ -1421,6 +1524,21 @@ Read: grammar/verb-types/ichidan.md (前 50 行)
 
 目標卡片：verb-ru/001_taberu.md
 詞彙：食べる
+
+## 維護工具使用記錄（新增）
+
+### 查詢可用 Tags
+✅ 執行：uv run scripts/list-tags.py --type domain
+✅ 執行：uv run scripts/list-tags.py --type context
+確認可用 tags：daily_life, casual, family, formal, humble_form
+
+### 取得編號
+✅ 執行：uv run scripts/get-next-number.py verb-u
+取得編號：004, 005, 006, 007
+
+### 更新索引
+✅ 執行：uv run scripts/update-index.py verb-u
+索引已更新：verb-u/index.md
 
 ## 遺漏卡片檢測（新功能）
 檢測詞彙：7 個
@@ -1451,6 +1569,7 @@ Read: grammar/verb-types/ichidan.md (前 50 行)
 - 4 張草稿卡片需要審查和補充內容
 - 草稿卡片已標記 draft: true 和 needs_review: true
 - 草稿卡片列表已記錄在原卡片的 generated_cards 欄位
+- 所有分類索引已使用 update-index.py 更新
 ```
 
 ## 進階功能（可選）
