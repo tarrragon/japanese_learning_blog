@@ -4,10 +4,11 @@ description: ご覧になる・拝見する - 看的敬語
 type: honorific
 subtype: verb_pair
 jlpt: n4
-stage: draft
-draft: true
+stage: completed
+draft: false
 auto_generated: true
-needs_review: true
+needs_review: false
+completed: 2025-10-28
 tags: [honorific, keigo, verb, sonkeigo, kenjougo, n4]
 created: 2025-10-28
 related_to: [[verb-ru/003_miru]], [[grammar/005_keigo_system]], [[honorific/001_kudasaru_itadaku]]

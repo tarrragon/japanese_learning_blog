@@ -4,10 +4,11 @@ description: 受身形 - 日語動詞被動態
 type: grammar
 subtype: verb_conjugation
 jlpt: n3
-stage: draft
-draft: true
+stage: completed
+draft: false
 auto_generated: true
-needs_review: true
+needs_review: false
+completed: 2025-10-28
 tags: [grammar, verb, conjugation, passive, n3]
 created: 2025-10-28
 related_to: [[grammar/003_ichidan_verb]], [[grammar/006_godan_verb]], [[grammar/011_potential_form]]

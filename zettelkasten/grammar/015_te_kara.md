@@ -4,10 +4,11 @@ description: 〜てから - 表示「做完...之後」的時間順序文法（�
 type: grammar
 subtype: time_expression
 jlpt: n5
-stage: draft
-draft: true
+stage: completed
+draft: false
 auto_generated: true
-needs_review: true
+needs_review: false
+completed: 2025-10-28
 tags: [grammar, time, sequence, basic]
 created: 2025-10-28
 related_to: [[grammar/001_te_form]], [[grammar/004_mae_ni]], [[grammar/014_ato_de]]

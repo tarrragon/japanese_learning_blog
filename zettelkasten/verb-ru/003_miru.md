@@ -4,10 +4,11 @@ description: 見る - 看、觀看
 type: verb
 subtype: ichidan
 jlpt: n5
-stage: draft
-draft: true
+stage: completed
+draft: false
 auto_generated: true
-needs_review: true
+needs_review: false
+completed: 2025-10-28
 tags: [verb, basic, ichidan, perception]
 created: 2025-10-28
 related_to: [[grammar/003_ichidan_verb]], [[particle/002_wo]]

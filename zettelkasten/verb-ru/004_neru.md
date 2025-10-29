@@ -4,10 +4,11 @@ description: 寝る - 睡覺、就寢
 type: verb
 subtype: ichidan
 jlpt: n5
-stage: draft
-draft: true
+stage: completed
+draft: false
 auto_generated: true
-needs_review: true
+needs_review: false
+completed: 2025-10-28
 tags: [verb, basic, ichidan, daily_life]
 created: 2025-10-28
 related_to: [[grammar/003_ichidan_verb]], [[verb-ru/005_okiru]]

@@ -4,10 +4,11 @@ description: から - 起點助詞、原因助詞
 type: particle
 subtype: case_marker
 jlpt: n5
-stage: draft
-draft: true
+stage: completed
+draft: false
 auto_generated: true
-needs_review: true
+needs_review: false
+completed: 2025-10-28
 tags: [grammar, basic, particle, origin, reason]
 created: 2025-10-28
 related_to: [[particle/004_de]], [[particle/005_to]], [[grammar/006_godan_verb]]

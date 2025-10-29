@@ -4,10 +4,11 @@ description: 〜後で - 表示「在...之後」的時間文法
 type: grammar
 subtype: time_expression
 jlpt: n5
-stage: draft
-draft: true
+stage: completed
+draft: false
 auto_generated: true
-needs_review: true
+needs_review: false
+completed: 2025-10-28
 tags: [grammar, time, sequence, basic]
 created: 2025-10-28
 related_to: [[grammar/004_mae_ni]], [[grammar/001_te_form]]

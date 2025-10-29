@@ -4,10 +4,11 @@ description: た形 - 日語過去形・完了形動詞變化
 type: grammar
 subtype: verb_conjugation
 jlpt: n5
-stage: draft
-draft: true
+stage: completed
+draft: false
 auto_generated: true
-needs_review: true
+needs_review: false
+completed: 2025-10-28
 tags: [grammar, verb, conjugation, past, basic]
 created: 2025-10-28
 related_to: [[grammar/001_te_form]], [[grammar/003_ichidan_verb]], [[grammar/006_godan_verb]]

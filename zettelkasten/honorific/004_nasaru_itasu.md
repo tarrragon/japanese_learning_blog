@@ -4,10 +4,11 @@ description: なさる・いたす - 「する」的敬語形式
 type: honorific
 subtype: verb_pair
 jlpt: n4
-stage: draft
-draft: true
+stage: completed
+draft: false
 auto_generated: true
-needs_review: true
+needs_review: false
+completed: 2025-10-28
 tags: [honorific, keigo, verb, action, n4]
 created: 2025-10-28
 related_to: [[grammar/005_keigo_system]], [[grammar/006_godan_verb]]

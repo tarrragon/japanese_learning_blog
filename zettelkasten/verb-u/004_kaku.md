@@ -4,10 +4,11 @@ description: 書く - 寫、書寫
 type: verb
 subtype: godan
 jlpt: n5
-stage: draft
-draft: true
+stage: completed
+draft: false
 auto_generated: true
-needs_review: true
+needs_review: false
+completed: 2025-10-28
 tags: [verb, basic, godan, learning]
 created: 2025-10-28
 related_to: [[grammar/006_godan_verb]], [[particle/002_wo]]
