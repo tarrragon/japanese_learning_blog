@@ -1090,19 +1090,314 @@ English translation
 - 避免過度複雜化
 - 確保對學習者有實際幫助
 
+## 維護工具系統
+
+本專案提供 7 個 Python 維護腳本（位於 `scripts/`），使用 **UV 單檔模式**開發，零外部依賴。這些工具幫助維護系統一致性、檢查錯誤、自動化重複任務。
+
+### 工具清單
+
+#### 1. list-categories.py - 列出所有分類
+**用途**：查看系統中所有分類及其統計資訊
+
+```bash
+# 顯示所有分類
+uv run scripts/list-categories.py
+
+# 顯示詳細統計（包含卡片數量）
+uv run scripts/list-categories.py --count
+
+# JSON 格式輸出
+uv run scripts/list-categories.py --json
+```
+
+**使用時機**：
+- 建立新卡片前，確認分類是否存在
+- 檢查系統整體狀況
+- 代理人在建立卡片前查詢可用分類
+
+#### 2. list-tags.py - 列出所有 Tags
+**用途**：查看系統中所有 tags 及其使用情況
+
+```bash
+# 顯示所有 tags
+uv run scripts/list-tags.py
+
+# 顯示使用次數
+uv run scripts/list-tags.py --count
+
+# 只顯示特定類型的 tags
+uv run scripts/list-tags.py --type context
+```
+
+**使用時機**：
+- 建立新卡片時選擇合適的 tags
+- 檢查是否需要新增 tag 定義
+- 代理人在標記卡片前查詢可用 tags
+
+#### 3. get-next-number.py - 取得下一個編號
+**用途**：自動取得分類的下一個可用編號
+
+```bash
+# 取得下一個編號
+uv run scripts/get-next-number.py verb-ru
+
+# 取得延伸卡片編號
+uv run scripts/get-next-number.py verb-ru --extension 001
+
+# JSON 格式輸出
+uv run scripts/get-next-number.py verb-ru --json
+```
+
+**使用時機**：
+- 建立新卡片時自動分配編號
+- 避免手動查找和計算
+- **代理人必須使用此工具**取得新卡片編號
+
+#### 4. update-index.py - 更新索引檔案
+**用途**：自動更新分類的 index.md，保持索引同步
+
+```bash
+# 更新分類索引
+uv run scripts/update-index.py verb-ru
+
+# 預覽變更（不實際寫入）
+uv run scripts/update-index.py verb-ru --dry-run
+
+# 強制重建索引
+uv run scripts/update-index.py verb-ru --force
+```
+
+**使用時機**：
+- 新增卡片後立即更新索引
+- 修改卡片檔名後同步索引
+- **代理人在建立卡片後必須執行**
+
+#### 5. verify-meta.py - 驗證 Meta 一致性
+**用途**：檢查 `_meta/` 資料夾的定義是否與實際系統一致
+
+```bash
+# 完整驗證
+uv run scripts/verify-meta.py
+
+# 只檢查 tags
+uv run scripts/verify-meta.py --tags
+
+# 顯示詳細資訊
+uv run scripts/verify-meta.py --verbose
+```
+
+**使用時機**：
+- 定期檢查系統一致性（建議每週）
+- 新增分類或 tag 後驗證
+- 確保所有 meta 定義都已建立
+
+#### 6. clean-tags.py - 清理和標準化 Tags
+**用途**：移除重複的、非標準的 tags，並將其標準化
+
+```bash
+# 預覽清理結果
+uv run scripts/clean-tags.py --dry-run
+
+# 執行清理
+uv run scripts/clean-tags.py
+
+# 只處理特定分類
+uv run scripts/clean-tags.py --category verb-ru
+```
+
+**使用時機**：
+- 發現 tags 不一致時批次清理
+- 系統標準化維護
+- 通常由人工觸發，不建議代理人自動執行
+
+#### 7. fix-numbering.py - 檢查和修復編號
+**用途**：檢測編號缺口和跳號，並提供修復方案
+
+```bash
+# 檢查所有分類
+uv run scripts/fix-numbering.py --check
+
+# 預覽修復方案
+uv run scripts/fix-numbering.py --dry-run
+
+# 執行修復
+uv run scripts/fix-numbering.py --fix
+```
+
+**使用時機**：
+- 定期檢查編號連續性（建議每月）
+- 發現編號異常時修復
+- 通常由人工觸發，不建議代理人自動執行
+
+### 代理人使用指南
+
+#### `/create-zettel` 代理人
+
+此代理人負責建立新的 Zettelkasten 卡片，**必須使用以下工具**：
+
+**建立卡片流程**：
+1. **使用 `list-categories.py`** 確認目標分類存在
+   ```bash
+   uv run scripts/list-categories.py
+   ```
+
+2. **使用 `list-tags.py`** 查詢可用的標準 tags
+   ```bash
+   uv run scripts/list-tags.py --count
+   ```
+
+3. **使用 `get-next-number.py`** 取得下一個編號
+   ```bash
+   uv run scripts/get-next-number.py <category>
+   ```
+
+4. 建立卡片檔案（使用取得的編號）
+
+5. **使用 `update-index.py`** 更新索引
+   ```bash
+   uv run scripts/update-index.py <category>
+   ```
+
+**重要原則**：
+- ✅ **必須**使用 `get-next-number.py` 取得編號，不可手動猜測
+- ✅ **必須**在建立卡片後執行 `update-index.py`
+- ✅ **必須**使用 `list-tags.py` 確認 tags 存在於 meta 中
+- ❌ **不可**使用非標準格式的 tags
+- ❌ **不可**跳過索引更新
+
+#### `build-card-links` 子代理人
+
+此子代理人負責為卡片建立連結和腳註，**建議使用以下工具**：
+
+**建立連結流程**：
+1. **使用 `list-tags.py`** 查找相關主題的 tags
+   ```bash
+   uv run scripts/list-tags.py --type domain
+   ```
+
+2. 使用 Glob 搜尋相關卡片（基於 YAML frontmatter）
+
+3. 建立 wikilinks 和腳註
+
+4. 如果發現遺漏的卡片：
+   - **使用 `get-next-number.py`** 取得編號
+   - 建立草稿卡片
+   - **使用 `update-index.py`** 更新索引
+
+**重要原則**：
+- ✅ **建議**使用工具查詢 tags，提高效率
+- ✅ **必須**在建立新卡片後更新索引
+- ✅ 優先使用 Glob + YAML 搜尋，而非 Grep 全文搜尋
+- ❌ **不可**建立不存在於 meta 的 tags
+
+### 維護最佳實踐
+
+#### 日常維護檢查清單
+
+**每次建立卡片後**：
+```bash
+# 1. 更新索引
+uv run scripts/update-index.py <category>
+
+# 2. 驗證（可選）
+uv run scripts/verify-meta.py --check
+```
+
+**每週維護**：
+```bash
+# 1. 檢查 meta 一致性
+uv run scripts/verify-meta.py --verbose
+
+# 2. 檢查所有分類狀態
+uv run scripts/list-categories.py --count
+```
+
+**每月維護**：
+```bash
+# 1. 檢查編號連續性
+uv run scripts/fix-numbering.py --check
+
+# 2. 如有問題，預覽修復
+uv run scripts/fix-numbering.py --dry-run
+
+# 3. 執行修復（如需要）
+uv run scripts/fix-numbering.py --fix
+```
+
+#### 故障排除
+
+**問題：索引與實際不一致**
+```bash
+# 檢查
+uv run scripts/list-categories.py --count
+
+# 修復
+uv run scripts/update-index.py <category>
+```
+
+**問題：tags 不標準或重複**
+```bash
+# 檢查
+uv run scripts/verify-meta.py --tags
+
+# 預覽清理
+uv run scripts/clean-tags.py --dry-run
+
+# 執行清理
+uv run scripts/clean-tags.py
+```
+
+**問題：編號不連續**
+```bash
+# 檢查
+uv run scripts/fix-numbering.py --check
+
+# 預覽修復
+uv run scripts/fix-numbering.py --dry-run
+
+# 執行修復
+uv run scripts/fix-numbering.py --fix
+```
+
+### 工具開發指南
+
+所有腳本使用 **UV 單檔模式**（基於 PEP 723）：
+
+```python
+#!/usr/bin/env python3
+# /// script
+# dependencies = []
+# requires-python = ">=3.10"
+# ///
+
+# 腳本內容...
+```
+
+**優勢**：
+- ✅ 零外部依賴（只用 Python 標準庫）
+- ✅ 自動虛擬環境管理
+- ✅ 快速啟動（~50ms）
+- ✅ 高可移植性
+
+詳細開發指南參考：`doc/hooks/03-uv-single-file-pattern.md`
+
+---
+
 ## 維護與擴展
 
 ### 定期維護
 - 檢查損壞的連結
 - 更新過時的資訊
 - 合併重複的卡片
-- **更新 Meta 系統的統計資訊**（新）
+- **執行維護腳本檢查系統狀態**（新）
+- **更新 Meta 系統的統計資訊**
 
 ### 系統擴展
 - 可新增卡片分類（新增資料夾 + Meta 卡片）
 - 可新增 Tag 類型（在 Meta 系統中定義）
 - 可自定義命令
-- **所有擴展都應在 Meta 系統中記錄**（新）
+- **所有擴展都應在 Meta 系統中記錄**
+- **使用 `verify-meta.py` 驗證擴展結果**（新）
 
 ### 備份建議
 - 定期 Git commit
@@ -1130,4 +1425,4 @@ English translation
 
 ---
 
-**最後更新：2025-10-28**
+**最後更新：2025-10-29**
