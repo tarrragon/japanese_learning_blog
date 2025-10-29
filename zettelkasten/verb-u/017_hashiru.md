@@ -6,11 +6,14 @@ subtype: u_verb
 jlpt: n5
 stage: linking
 draft: false
-tags: [verb, u-verb, n5, movement, running, basic]
+tags:
+  - jlpt/n5
+  - domain/movement
+  - running
+  - basic
 created: 2025-10-29
 related_to: [[grammar/006_godan_verb]], [[verb-u/008_aruku]], [[particle/002_wo]]
 ---
-
 ## 日文
 走る（はしる）
 

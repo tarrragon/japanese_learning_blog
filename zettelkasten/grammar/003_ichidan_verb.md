@@ -5,12 +5,11 @@ type: grammar
 subtype: verb_conjugation
 jlpt: n5
 stage: completed
-tags: [grammar, verb, conjugation, basic]
+tags: [grammar, conjugation, basic]
 created: 2025-10-28
 updated: 2025-10-28
 related_to: [[verb-ru/001_taberu]]
 ---
-
 ## 日文
 一段動詞（いちだんどうし）/ る動詞
 

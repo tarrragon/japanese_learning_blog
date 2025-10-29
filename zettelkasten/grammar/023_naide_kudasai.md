@@ -8,9 +8,15 @@ stage: linking
 draft: false
 auto_generated: true
 needs_review: true
-tags: [grammar, n5, request, negative, nai-form, polite, basic]
+tags:
+  - grammar
+  - jlpt/n5
+  - request
+  - negative
+  - nai-form
+  - polite
+  - basic
 ---
-
 # ないでください - Negative Request Pattern
 
 ## 日文

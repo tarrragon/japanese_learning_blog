@@ -8,9 +8,14 @@ stage: linking
 draft: false
 auto_generated: true
 needs_review: true
-tags: [grammar, n5, prohibition, te-form, rules, basic]
+tags:
+  - grammar
+  - jlpt/n5
+  - prohibition
+  - te-form
+  - rules
+  - basic
 ---
-
 # てはいけない - Prohibition Pattern (不可以做某事)
 
 ## 日文

@@ -7,11 +7,15 @@ jlpt: n5
 stage: linking
 draft: false
 auto_generated: false
-tags: [verb, u-verb, n5, clothing, removing, basic, daily_life]
+tags:
+  - jlpt/n5
+  - clothing
+  - removing
+  - basic
+  - domain/daily_life
 created: 2025-10-29
 related_to: [[grammar/006_godan_verb]], [[particle/002_wo]], [[particle/007_ni]], [[verb-ru/006_kiru]], [[verb-u/015_haku]]
 ---
-
 ## 日文
 脱ぐ（ぬぐ）
 

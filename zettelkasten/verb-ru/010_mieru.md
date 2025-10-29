@@ -6,11 +6,15 @@ subtype: ru_verb
 jlpt: n4
 stage: linking
 draft: false
-tags: [verb, ru-verb, n4, perception, visibility, potential, basic]
+tags:
+  - jlpt/n4
+  - domain/perception
+  - visibility
+  - potential
+  - basic
 created: 2025-10-29
 related_to: [[verb-ru/003_miru]], [[grammar/003_ichidan_verb]], [[particle/001_ga]]
 ---
-
 ## 日文
 見える（みえる）
 

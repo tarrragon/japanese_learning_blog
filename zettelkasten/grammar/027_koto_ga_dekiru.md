@@ -8,9 +8,14 @@ stage: linking
 draft: false
 auto_generated: true
 needs_review: true
-tags: [grammar, n5, ability, potential, dictionary-form, basic]
+tags:
+  - grammar
+  - jlpt/n5
+  - ability
+  - potential
+  - dictionary-form
+  - basic
 ---
-
 # ことができる - Ability Expression Pattern
 
 ## 日文

@@ -10,13 +10,12 @@ auto_generated: true
 needs_review: true
 tags:
   - grammar
-  - n5
+  - jlpt/n5
   - nai-form
   - sequence
   - negative-action
   - basic
 ---
-
 # ないで - Without Doing / Not Doing Pattern
 
 ## 日文

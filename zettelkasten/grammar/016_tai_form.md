@@ -8,9 +8,14 @@ stage: linking
 draft: false
 auto_generated: true
 needs_review: true
-tags: [grammar, n5, desire, tai-form, conjugation, basic]
+tags:
+  - grammar
+  - jlpt/n5
+  - desire
+  - tai-form
+  - conjugation
+  - basic
 ---
-
 # たい形 (Tai-form) - Desire Form
 
 ## 日文

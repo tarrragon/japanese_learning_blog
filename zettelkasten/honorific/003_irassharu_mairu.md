@@ -9,11 +9,14 @@ draft: false
 auto_generated: true
 needs_review: false
 completed: 2025-10-28
-tags: [honorific, keigo, verb, movement, n4]
+tags:
+  - honorific
+  - keigo
+  - domain/movement
+  - jlpt/n4
 created: 2025-10-28
 related_to: [[grammar/005_keigo_system]], [[verb-u/009_iku]]
 ---
-
 ## 日文
 いらっしゃる・参る（いらっしゃる・まいる）
 

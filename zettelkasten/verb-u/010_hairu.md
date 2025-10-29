@@ -8,11 +8,14 @@ stage: linking
 draft: false
 auto_generated: true
 needs_review: true
-tags: [verb, u-verb, n5, movement, entering, basic]
+tags:
+  - jlpt/n5
+  - domain/movement
+  - entering
+  - basic
 created: 2025-10-29
 related_to: [[grammar/006_godan_verb]], [[particle/007_ni]], [[verb-ru/007_deru]]
 ---
-
 ## 日文
 入る（はいる）
 

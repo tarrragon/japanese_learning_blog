@@ -9,11 +9,10 @@ draft: false
 auto_generated: true
 needs_review: false
 completed: 2025-10-28
-tags: [verb, basic, ichidan, thinking, cognition]
+tags: [basic, thinking, domain/cognition]
 created: 2025-10-28
 related_to: [[grammar/003_ichidan_verb]], [[particle/002_wo]]
 ---
-
 ## 日文
 考える（かんがえる）
 

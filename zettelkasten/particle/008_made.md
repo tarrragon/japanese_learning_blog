@@ -8,9 +8,14 @@ stage: linking
 draft: false
 auto_generated: true
 needs_review: true
-tags: [grammar, particle, n5, endpoint, time, location, basic]
+tags:
+  - grammar
+  - jlpt/n5
+  - endpoint
+  - time
+  - location
+  - basic
 ---
-
 # まで - Until/To/Up To Particle
 
 ## 日文

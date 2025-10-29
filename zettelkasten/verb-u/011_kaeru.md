@@ -6,9 +6,12 @@ subtype: u_verb
 jlpt: n5
 stage: linking
 draft: false
-tags: [verb, u-verb, n5, movement, returning, basic]
+tags:
+  - jlpt/n5
+  - domain/movement
+  - returning
+  - basic
 ---
-
 # 帰る (kaeru) - To Return / Go Home
 
 ## 日文

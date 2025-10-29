@@ -5,12 +5,11 @@ type: grammar
 subtype: verb_conjugation
 jlpt: n5
 stage: completed
-tags: [grammar, verb, conjugation, basic]
+tags: [grammar, conjugation, basic]
 created: 2025-10-28
 updated: 2025-10-28
 related_to: [[honorific/001_meshiagaru_itadaku]]
 ---
-
 ## 日文
 五段動詞（ごだんどうし）/ う動詞
 

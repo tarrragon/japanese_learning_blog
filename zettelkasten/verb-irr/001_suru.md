@@ -8,11 +8,10 @@ stage: linking
 draft: false
 auto_generated: true
 needs_review: true
-tags: [verb, irregular, n5, suru-verb, basic]
+tags: [irregular, jlpt/n5, basic]
 created: 2025-10-28
 related_to: [[verb-irr/002_kuru]], [[verb-irr/003_iru]], [[particle/006_wa]], [[particle/007_ni]], [[honorific/004_nasaru_itasu]]
 ---
-
 ## 日文
 する
 

@@ -1,50 +1,28 @@
 # う動詞（五段動詞）索引
 
-**分類**：う動詞（五段動詞） (Godan Verb (U-verb))
-**最後編號**：010
-**總卡片數**：10
-
-## 說明
-
-此目錄收錄う動詞（五段動詞）的卡片。每張卡片包含：
-- 日文原文（含假名）
-- 英文解釋
-- 中文繁體解釋
-- 實際例句（三語並列）
+最後編號：017
+總卡片數：17
 
 ## 卡片列表
 
 ### 依編號
-
-- [001 - 上がる（あがる）](001_agaru.md) #economics #n3
-- [002 - 飲む（のむ）](002_nomu.md) #basic #n5
-- [003 - 読む（よむ）](003_yomu.md) #basic #n5
-- [004 - 書く（かく）](004_kaku.md) #basic #n5
-- [005 - 聞く（きく）](005_kiku.md) #basic #n5
-- [006 - 買う（かう）](006_kau.md) #basic #n5
-- [007 - 話す（はなす）](007_hanasu.md) #basic #n5
-- [008 - 歩く（あるく）](008_aruku.md) #movement #n5
-- [009 - 行く（いく）](009_iku.md) #movement #n5
-- [010 - 入る（はいる）](010_hairu.md) #movement #entering #n5
-
-### 依主題
-
-#### 基本動作 (N5)
-- [002 - 飲む](002_nomu.md) - 喝
-- [003 - 読む](003_yomu.md) - 讀
-- [004 - 書く](004_kaku.md) - 寫
-- [005 - 聞く](005_kiku.md) - 聽
-- [006 - 買う](006_kau.md) - 買
-- [007 - 話す](007_hanasu.md) - 說
-
-#### 移動動詞 (N5)
-- [008 - 歩く](008_aruku.md) - 走、步行
-- [009 - 行く](009_iku.md) - 去、前往
-- [010 - 入る](010_hairu.md) - 進入、加入
-
-#### 經濟相關 (N3)
-- [001 - 上がる](001_agaru.md) - 上升、上漲
+- [001 - 上升、上漲、提高](001_agaru.md) 
+- [002 - 飲む - 喝](002_nomu.md) #verb #basic #godan
+- [003 - 読む - 讀、閱讀](003_yomu.md) #verb #basic #godan
+- [004 - 書く - 寫、書寫](004_kaku.md) #verb #basic #godan
+- [005 - 聞く - 聽、問](005_kiku.md) #verb #basic #godan
+- [006 - 買う - 買、購買](006_kau.md) #verb #basic #godan
+- [007 - 話す - 說話、交談](007_hanasu.md) #verb #basic #godan
+- [008 - 歩く - 走路、步行](008_aruku.md) #verb #basic #godan
+- [009 - 行く - 去、前往](009_iku.md) #verb #basic #godan
+- [010 - 入る - 進入、加入](010_hairu.md) #verb #u-verb #n5
+- [011 - 帰る - 回去、回家](011_kaeru.md) #verb #u-verb #n5
+- [012 - 売る - 賣、出售](012_uru.md) #verb #u-verb #n5
+- [013 - 言う - 說、講](013_iu.md) #verb #u-verb #n5
+- [014 - 思う - 想、覺得、認為](014_omou.md) #verb #u-verb #n5
+- [015 - 履く - 穿（褲子、鞋子、襪子）](015_haku.md) #verb #u-verb #n5
+- [016 - 脱ぐ - 脫（衣服、鞋子）](016_nugu.md) #verb #u-verb #n5
+- [017 - 走る - 跑、奔跑](017_hashiru.md) #verb #u-verb #n5
 
 ---
-
-[← 返回主索引](../index.md)
+最後更新: 2025-10-29 17:05:04

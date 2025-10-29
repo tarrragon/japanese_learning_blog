@@ -8,9 +8,15 @@ stage: linking
 draft: false
 auto_generated: true
 needs_review: true
-tags: [grammar, n5, volitional, invitation, suggestion, mashou, basic]
+tags:
+  - grammar
+  - jlpt/n5
+  - volitional
+  - invitation
+  - suggestion
+  - mashou
+  - basic
 ---
-
 # ましょう形 (Mashou-form) - Volitional/Let's Form
 
 ## 日文

@@ -10,13 +10,12 @@ auto_generated: true
 needs_review: true
 tags:
   - grammar
-  - n5
+  - jlpt/n5
   - experience
   - ta-form
   - past-experience
   - basic
 ---
-
 # たことがある - Experience Pattern (Have Done Something)
 
 ## 日本語

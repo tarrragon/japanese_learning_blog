@@ -8,9 +8,16 @@ stage: linking
 draft: false
 auto_generated: true
 needs_review: true
-tags: [grammar, n5, progressive, continuous, state, te-form, aspect, basic]
+tags:
+  - grammar
+  - jlpt/n5
+  - progressive
+  - continuous
+  - state
+  - te-form
+  - aspect
+  - basic
 ---
-
 # 〜ている (Te-iru) - Progressive/Continuous Form
 
 ## 日文

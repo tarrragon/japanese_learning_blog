@@ -6,11 +6,15 @@ subtype: ru_verb
 jlpt: n5
 stage: linking
 draft: false
-tags: [verb, ru-verb, n5, giving, raising, 授受表現, basic]
+tags:
+  - jlpt/n5
+  - giving
+  - raising
+  - 授受表現
+  - basic
 created: 2025-10-29
 related_to: [[grammar/003_ichidan_verb]], [[particle/002_wo]], [[particle/007_ni]]
 ---
-
 ## 日文
 上げる/あげる（あげる）
 

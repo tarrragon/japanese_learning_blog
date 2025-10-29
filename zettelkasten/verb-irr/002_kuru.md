@@ -8,9 +8,12 @@ stage: linking
 draft: false
 auto_generated: true
 needs_review: true
-tags: [verb, irregular, n5, movement, basic]
+tags:
+  - irregular
+  - jlpt/n5
+  - domain/movement
+  - basic
 ---
-
 # 来る (kuru) - To Come
 
 ## 日文

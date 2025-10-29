@@ -9,11 +9,14 @@ draft: false
 auto_generated: true
 needs_review: false
 completed: 2025-10-28
-tags: [grammar, verb, conjugation, potential, n4]
+tags:
+  - grammar
+  - conjugation
+  - potential
+  - jlpt/n4
 created: 2025-10-28
 related_to: [[grammar/003_ichidan_verb]], [[grammar/006_godan_verb]], [[grammar/010_dictionary_form]]
 ---
-
 ## 日文
 可能形（かのうけい）
 

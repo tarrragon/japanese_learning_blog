@@ -9,11 +9,14 @@ draft: false
 auto_generated: true
 needs_review: false
 completed: 2025-10-28
-tags: [grammar, basic, particle, origin, reason]
+tags:
+  - grammar
+  - basic
+  - origin
+  - reason
 created: 2025-10-28
 related_to: [[particle/004_de]], [[particle/005_to]], [[grammar/006_godan_verb]]
 ---
-
 ## 日文
 から（kara）
 

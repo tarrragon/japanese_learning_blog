@@ -6,9 +6,13 @@ subtype: u_verb
 jlpt: n5
 stage: linking
 draft: false
-tags: [verb, u-verb, n5, thinking, feeling, opinion, basic]
+tags:
+  - jlpt/n5
+  - thinking
+  - feeling
+  - opinion
+  - basic
 ---
-
 ## 日文
 思う（おもう）
 

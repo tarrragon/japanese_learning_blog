@@ -9,11 +9,14 @@ draft: false
 auto_generated: true
 needs_review: false
 completed: 2025-10-28
-tags: [grammar, verb, conjugation, passive, n3]
+tags:
+  - grammar
+  - conjugation
+  - passive
+  - jlpt/n3
 created: 2025-10-28
 related_to: [[grammar/003_ichidan_verb]], [[grammar/006_godan_verb]], [[grammar/011_potential_form]]
 ---
-
 ## 日文
 受身形（うけみけい）/ 受動態（じゅどうたい）
 

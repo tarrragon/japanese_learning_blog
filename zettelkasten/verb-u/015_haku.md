@@ -6,9 +6,12 @@ subtype: u_verb
 jlpt: n5
 stage: linking
 draft: false
-tags: [verb, u-verb, n5, clothing, wearing, basic]
+tags:
+  - jlpt/n5
+  - clothing
+  - wearing
+  - basic
 ---
-
 # 履く (はく)
 
 ## 基本情報 Basic Information | 基本資訊

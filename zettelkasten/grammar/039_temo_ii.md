@@ -8,9 +8,13 @@ stage: linking
 draft: false
 auto_generated: true
 needs_review: true
-tags: [grammar, n5, permission, te-form, basic]
+tags:
+  - grammar
+  - jlpt/n5
+  - permission
+  - te-form
+  - basic
 ---
-
 # てもいい - Permission Pattern
 
 ## 日文

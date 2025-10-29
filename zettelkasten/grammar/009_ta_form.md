@@ -9,11 +9,14 @@ draft: false
 auto_generated: true
 needs_review: false
 completed: 2025-10-28
-tags: [grammar, verb, conjugation, past, basic]
+tags:
+  - grammar
+  - conjugation
+  - past
+  - basic
 created: 2025-10-28
 related_to: [[grammar/001_te_form]], [[grammar/003_ichidan_verb]], [[grammar/006_godan_verb]]
 ---
-
 ## 日文
 た形（たけい）
 
