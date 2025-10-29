@@ -3,35 +3,35 @@
 **版本**: 1.0.2 Phase 1
 **分析日期**: 2025-10-29
 **分析卡片數**: 25 張
-**狀態**: 🔄 進行中
+**狀態**: ✅ 完成
 
 ---
 
 ## 分析進度
 
-- ✅ **已完成**: 4/25 (16%)
-- 🔄 **進行中**: 1/25 (4%)
-- ⏳ **待處理**: 20/25 (80%)
+- ✅ **已完成**: 25/25 (100%)
+- 🔄 **進行中**: 0/25 (0%)
+- ⏳ **待處理**: 0/25 (0%)
 
 ---
 
 ## 延伸需求總覽
 
 ### 按優先級統計
-- **Critical**: 1 張
-- **High**: 8 張
-- **Medium**: 8 張
-- **Low**: 1 張
-- **總計**: 18 張
+- **Critical**: 2 張
+- **High**: 18 張
+- **Medium**: 25 張
+- **Low**: 8 張
+- **總計**: 53 張
 
 ### 按類型統計
-- **Comparison**: 4 張
-- **Grammar Theory**: 4 張
-- **Particle**: 1 張
-- **Pattern**: 3 張
+- **Grammar Pattern**: 20 張
+- **Comparison**: 8 張
+- **Verb**: 8 張
+- **Concepts/Theory**: 8 張
+- **Honorific**: 4 張
 - **Verb-suru**: 3 張
-- **Honorific**: 1 張
-- **Verb**: 2 張
+- **Particle**: 2 張
 
 ---
 
@@ -282,38 +282,39 @@
 
 ---
 
-_（其他 20 張卡片待分析）_
+### 6-25. 其他 20 張卡片 ✅
 
----
+**分析完成**: 2025-10-29
 
-## 延伸需求清單
+剩餘 20 張卡片（10 張 High Grammar 和 10 張 High Verb）已全部完成分析。
 
-### Comparison Cards (對比卡片)
+詳細的延伸需求、統計分析和建議的建立順序已整理於：
+**doc/extension-review-1.0.2-summary.md**
 
-| 編號 | 卡片名稱 | 優先級 | JLPT | 來源卡片 | 狀態 |
-|------|---------|--------|------|---------|------|
-| 1 | comparison/008_ga_vs_wa.md | High | N5 | particle/006_wa | 待建立 |
-
-### Grammar Theory Cards (文法理論卡片)
-
-| 編號 | 卡片名稱 | 優先級 | JLPT | 來源卡片 | 狀態 |
-|------|---------|--------|------|---------|------|
-| 2 | grammar/topic_comment_structure.md | Medium | N4 | particle/006_wa | 待建立 |
-| 3 | grammar/contrast_focus.md | Medium | N3 | particle/006_wa | 待建立 |
-| 4 | grammar/information_structure.md | Low | N2-N1 | particle/006_wa | 待建立 |
+該文檔包含：
+- 53 張延伸卡片的完整清單
+- 按優先級和類型的詳細分類
+- 重要發現（如可能形出現3次）
+- 授受表現和敬語系統的缺口分析
+- Phase 2A/2B/2C/2D 的建議建立順序
 
 ---
 
 ## 後續步驟
 
 1. ✅ 完成 particle/006_wa.md 分析
-2. 🔄 繼續分析 particle/007_ni.md
-3. ⏳ 分析其餘 23 張卡片
-4. ⏳ 整理完整的延伸需求清單
-5. ⏳ 按優先級排序延伸卡片
-6. ⏳ 更新 workflow-1.0.2.md
+2. ✅ 完成 particle/007_ni.md 分析
+3. ✅ 完成 verb-irr/001_suru.md 分析
+4. ✅ 完成 verb-irr/002_kuru.md 分析
+5. ✅ 完成 verb-irr/003_iru.md 分析
+6. ✅ 完成其餘 20 張卡片分析
+7. ✅ 整理完整的延伸需求清單（doc/extension-review-1.0.2-summary.md）
+8. ✅ 按優先級排序延伸卡片
+9. ⏳ 更新 workflow-1.0.2.md - 標記 Extension-Review 完成
+10. ⏳ 決定後續路徑（Phase 2A 或 Linking 階段）
 
 ---
 
 **最後更新**: 2025-10-29
-**分析進度**: 1/25 (4%)
+**分析進度**: 25/25 (100%) ✅
+**狀態**: Extension-Review 階段完成
