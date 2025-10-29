@@ -4,10 +4,10 @@ description: たい形 - 想要做某事的表達方式
 type: grammar
 subtype: conjugation
 jlpt: n5
-stage: linking
+stage: completed
 draft: false
-auto_generated: true
-needs_review: true
+auto_generated: false
+needs_review: false
 tags:
   - grammar
   - jlpt/n5

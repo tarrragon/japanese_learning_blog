@@ -4,7 +4,7 @@ description: 思う - 想、覺得、認為
 type: verb
 subtype: u_verb
 jlpt: n5
-stage: linking
+stage: completed
 draft: false
 tags:
   - jlpt/n5
@@ -756,10 +756,10 @@ Firmly believe:
 - [[verb-ru/009_kangaeru|考える]] - 理性思考（最重要對比）
 
 ### 相關助詞
-- [[particle/005_to|と]] - 引用助詞（と思う的核心）
-- [[particle/002_wo|を]] - を助詞（思い出す等用法）
-- [[particle/007_ni|に]] - に助詞（不思議に思う等感覺表達）
-- [[particle/006_wa|は]] - は助詞（主題標記）
+- [[particle/006_to|と]] - 引用助詞[^quotation-particle]（と思う的核心）
+- [[particle/003_wo|を]] - を助詞[^object-particle]（思い出す等用法）
+- [[particle/008_ni|に]] - に助詞[^ni-particle]（不思議に思う等感覺表達）
+- [[particle/007_wa|は]] - は助詞[^topic-particle]（主題標記）
 
 ### 相關文法
 - [[grammar/007_masu_form|ます形]] - 思います的用法
@@ -770,3 +770,13 @@ Firmly believe:
 - 主觀意見表達（待建立）
 - 推測表達（待建立）
 - 意圖表達（待建立）
+
+## 腳註
+
+[^quotation-particle]: **引用助詞と** - 用於引用想法、言論或內容，是「と思う」句型的核心助詞，將前面的內容標記為思考或發言的內容。
+
+[^object-particle]: **賓語助詞を** - 標記動詞的直接受詞，在「思い出す」等複合動詞中，用於標記回憶或想起的對象。
+
+[^ni-particle]: **助詞に** - 在「不思議に思う」等表達中，表示感覺或判斷的方式或狀態。
+
+[^topic-particle]: **主題助詞は** - 標記句子的主題，在意見表達時常與「と思う」搭配使用，如「私は〜と思います」。

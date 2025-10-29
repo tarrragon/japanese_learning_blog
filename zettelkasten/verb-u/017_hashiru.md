@@ -4,7 +4,7 @@ description: 走る - 跑、奔跑
 type: verb
 subtype: u_verb
 jlpt: n5
-stage: linking
+stage: completed
 draft: false
 tags:
   - jlpt/n5
@@ -649,9 +649,9 @@ Practice:
 - [[grammar/001_te_form|て形]] - て形文法（走る→走って）
 
 ### 相關助詞
-- [[particle/002_wo|を]] - を助詞（路徑標記）
-- [[particle/004_de|で]] - で助詞（場所標記）
-- [[particle/008_made|まで]] - まで助詞（目的地標記）
+- [[particle/003_wo|を]] - を助詞[^wo-particle]（路徑標記）
+- [[particle/005_de|で]] - で助詞[^de-particle]（場所標記）
+- [[particle/009_made|まで]] - まで助詞[^made-particle]（目的地標記）
 
 ### 對比動詞
 - [[verb-u/008_aruku|歩く]] - 走路（速度對比：慢 vs 快）
@@ -666,3 +666,11 @@ Practice:
 - 運動・體育詞彙
 - 交通工具動詞
 - 速度表達
+
+## 腳註
+
+[^wo-particle]: **路徑助詞を** - 標記經過或移動的路徑，在「走る」的句型中標記跑步經過的場所，如「道を走る」（在路上跑）、「公園を走る」（在公園跑）。
+
+[^de-particle]: **場所助詞で** - 標記動作發生的場所，在「走る」的句型中標記跑步活動的範圍，如「公園で走る」（在公園跑步）、「グラウンドで走る」（在操場跑步）。
+
+[^made-particle]: **目的地助詞まで** - 標記移動的終點或目的地，在「走る」的句型中標記跑步的目的地，如「駅まで走る」（跑到車站）、「ゴールまで走る」（跑到終點）。

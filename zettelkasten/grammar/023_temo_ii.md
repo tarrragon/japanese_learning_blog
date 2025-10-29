@@ -4,10 +4,11 @@ description: てもいい - 許可的表達方式（可以做某事）
 type: grammar
 subtype: permission
 jlpt: n5
-stage: linking
+stage: completed
 draft: false
 auto_generated: true
-needs_review: true
+needs_review: false
+completed: 2025-10-30
 tags:
   - grammar
   - jlpt/n5
@@ -21,11 +22,13 @@ tags:
 
 ### 基本概念
 
-「てもいい」是日語中表達許可的基本句型，用於詢問或給予做某事的許可。這個句型由動詞的て形加上「もいい」組成，是日常會話中最常用的許可表達方式之一。
+「てもいい」は日語中表達許可的基本句型，用於詢問或給予做某事的許可。這個句型由動詞的[[grammar/001_te_form|て形]][^te-form]加上「もいい」組成，是日常會話中最常用的許可表達方式之一。
+
+[^te-form]: て形は動詞の接続形。許可や依頼などの文型を作る基礎。
 
 ### 構成方式
 
-**基本公式：** 動詞て形 + もいい
+**基本公式：** [[grammar/001_te_form|動詞て形]] + もいい
 
 | 動詞類型 | 辭書形 | て形 | てもいい形 |
 |---------|--------|------|-----------|
@@ -37,7 +40,9 @@ tags:
 | 不規則動詞 | する (suru) | して | してもいい |
 | 不規則動詞 | 来る (kuru) | 来て | 来てもいい |
 
-**否定形：** 動詞ない形 + くてもいい
+**否定形：** [[grammar/008_nai_form|動詞ない形]][^nai-form] + くてもいい
+
+[^nai-form]: ない形は動詞の否定形。「〜なくてもいい」で「しなくても大丈夫」の意味。
 
 | 辭書形 | ない形 | なくてもいい形 |
 |--------|--------|---------------|
@@ -99,12 +104,14 @@ tags:
 - 申し訳ありませんが、困ります。(I'm sorry, but that would be troublesome.)
 - 遠慮してください。(Please refrain from doing so.)
 
-### 「〜てはいけない」との対比
+### 「[[grammar/024_tewa_ikenai|〜てはいけない]]」との対比[^contrast]
+
+[^contrast]: てもいいは許可、てはいけないは禁止。正反対の意味を表す重要な対比。
 
 | 文型 | 意味 | 例文 |
 |------|------|------|
 | 〜てもいい | 許可（してもよい） | ここで食べてもいいです。(You may eat here.) |
-| 〜てはいけない | 禁止（してはだめ） | ここで食べてはいけません。(You must not eat here.) |
+| [[grammar/024_tewa_ikenai|〜てはいけない]] | 禁止（してはだめ） | ここで食べてはいけません。(You must not eat here.) |
 | 〜なくてもいい | 不必要（しなくてもよい） | 食べなくてもいいです。(You don't have to eat.) |
 | 〜なくてはいけない | 義務（しなければならない） | 食べなくてはいけません。(You must eat.) |
 

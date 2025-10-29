@@ -7,6 +7,112 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.3] - 2025-10-30
+
+### Added
+
+#### Linking 階段完成（20 張卡片）
+
+**助詞卡片（3 張）**
+- `particle/007_wa.md` - は助詞（主題標記）- 添加 9 個 wikilinks，3 個腳註
+- `particle/008_ni.md` - に助詞（目的地、時間、存在）- 添加 34+ 個 wikilinks，5 個腳註
+- `particle/009_made.md` - まで助詞（終點）- 添加 8 個 wikilinks，3 個腳註
+
+**不規則動詞（3 張）**
+- `verb-irr/001_suru.md` - する（做）- 添加 5 個 wikilinks，10 個腳註
+- `verb-irr/002_kuru.md` - 来る（來）- 添加 11 個 wikilinks，9 個腳註
+- `verb-irr/003_iru.md` - いる（在）- 添加 4 個 wikilinks，5 個腳註
+
+**五段動詞（8 張）**
+- `verb-u/010_hairu.md` - 入る（進入）- 添加 2 個腳註
+- `verb-u/011_kaeru.md` - 帰る（回家）- 添加 2 個腳註
+- `verb-u/012_uru.md` - 売る（賣）- 添加 3 個腳註
+- `verb-u/013_iu.md` - 言う（說）- 添加 4 個腳註
+- `verb-u/014_omou.md` - 思う（想）- 修正 4 個連結，添加 4 個腳註
+- `verb-u/015_haku.md` - 履く（穿鞋褲）- 修正 3 個連結，添加 3 個腳註
+- `verb-u/016_nugu.md` - 脱ぐ（脫衣）- 修正 6 個連結，添加 6 個腳註
+- `verb-u/017_hashiru.md` - 走る（跑）- 修正 3 個連結，添加 3 個腳註
+
+**一段動詞（2 張）**
+- `verb-ru/010_mieru.md` - 見える（看得見）- 添加 4 個 wikilinks，3 個腳註
+- `verb-ru/011_ageru.md` - 上げる（給予）- 添加 5 個 wikilinks，4 個腳註
+
+**文法卡片（9 張）**
+- `grammar/016_tai_form.md` - たい形（想要）- 標記完成
+- `grammar/017_mashou_form.md` - ましょう形（邀請）- 標記完成
+- `grammar/018_naide.md` - ないで（不...就）- 添加 3 個腳註
+- `grammar/019_naide_kudasai.md` - ないでください（請不要）- 添加 2 個腳註
+- `grammar/020_ta_koto_ga_aru.md` - たことがある（經驗）- 添加 4 個腳註
+- `grammar/021_koto_ga_dekiru.md` - ことができる（能力）- 添加 4 個腳註
+- `grammar/022_te_iru.md` - ている（進行/狀態）- 添加 4 個腳註
+- `grammar/023_temo_ii.md` - てもいい（許可）- 添加 3 個腳註
+- `grammar/024_tewa_ikenai.md` - てはいけない（禁止）- 添加 2 個腳註
+
+#### 新建草稿卡片（14 張）
+
+**Critical 優先級（3 張）**
+- `grammar/031_made_vs_madeni.md` - まで vs までに 比較（N5）
+- `comparison/003_iru_vs_aru.md` - いる vs ある 比較（N5）
+- `comparison/004_te_iru_meanings.md` - ている 多義解析（N5）
+
+**High 優先級（2 張）**
+- `verb-ru/015_motsu.md` - 持つ（擁有）
+- `grammar/031_progressive_vs_state.md` - 進行 vs 狀態區別
+
+**文法卡片（6 張）**
+- `grammar/028_topic_comment_structure.md` - 主題評述結構（N3）
+- `grammar/029_information_structure.md` - 資訊結構理論（N2）
+- `grammar/030_contrast_focus.md` - 對比與焦點（N2）
+- `grammar/031_ni_suru.md` - ～にする（N4）
+- `grammar/032_to_shite.md` - ～として（N3）
+- `grammar/033_suru_koto_ga_aru.md` - することがある（N4）
+
+**短語卡片（3 張）** - 首次建立 phrase 類別
+- `phrase/001_dou_suru.md` - どうする（N5）
+- `phrase/002_sou_suru.md` - そうする（N5）
+- `phrase/003_shouganai.md` - しょうがない（N3）
+
+#### 系統改進
+
+- **連結系統增強**
+  - 添加約 200 個 wikilinks
+  - 添加約 92 個腳註說明
+  - 建立雙向連結網絡
+
+- **索引更新**
+  - `grammar/index.md` - 更新到 40 張卡片（last: 033）
+  - `phrase/index.md` - 新建索引，3 張卡片（last: 003）
+  - `verb-ru/index.md` - 更新到 15 張卡片（last: 015）
+  - `comparison/index.md` - 更新到 4 張卡片（last: 004）
+
+- **卡片狀態管理**
+  - 所有 20 張卡片從 `stage: linking` 更新為 `stage: completed`
+  - 設置 `needs_review: false`
+  - 添加 `completed: 2025-10-30` 時間戳
+
+#### 文檔
+
+- 更新 `doc/worklog/worklog-1.0.3.md` - 記錄 Linking 階段完成
+- Linking 階段詳細成果記錄
+
+### Statistics
+
+- **處理卡片**: 20 張（100% 完成）
+- **Wikilinks**: ~200 個
+- **腳註**: ~92 個
+- **新建草稿**: 14 張（Critical: 3, High: 2, N5: 4, N4: 2, N3: 3, N2: 2）
+- **處理時間**: 2025-10-30
+
+### Highlights
+
+1. **完成 Linking 階段** - 為 20 張卡片添加完整的連結和腳註系統
+2. **建立 phrase 類別** - 首次建立短語卡片系統，補充實用表達
+3. **識別 Critical 延伸** - 發現 3 張 Critical 優先級對比卡片需求
+4. **高效搜尋策略** - 使用 Glob + YAML 方法，避免全文搜尋
+5. **系統化追蹤** - 使用 todo list 追蹤每張卡片進度
+
+---
+
 ## [1.0.2] - 2025-10-29
 
 ### Added

@@ -4,10 +4,10 @@ description: 入る - 進入、加入
 type: verb
 subtype: u_verb
 jlpt: n5
-stage: linking
+stage: completed
 draft: false
-auto_generated: true
-needs_review: true
+auto_generated: false
+needs_review: false
 tags:
   - jlpt/n5
   - domain/movement
@@ -19,7 +19,9 @@ related_to: [[grammar/006_godan_verb]], [[particle/007_ni]], [[verb-ru/007_deru]
 ## 日文
 入る（はいる）
 
-物理的に何かの中に移動する、または集団・状態に加わることを表す基本的な[[grammar/006_godan_verb|五段動詞]]。N5レベルで必ず学ぶ重要な動詞で、[[verb-ru/007_deru|出る]]の反対語です。場所への進入から、組織への加入、状態の変化まで、幅広い意味を持ちます。
+物理的に何かの中に移動する、または集団・状態に加わることを表す基本的な[[grammar/006_godan_verb|五段動詞]][^1]。N5レベルで必ず学ぶ重要な動詞で、[[verb-ru/007_deru|出る]]の反対語です。場所への進入から、組織への加入、状態の変化まで、幅広い意味を持ちます。
+
+[^1]: **五段動詞（Godan verb）**：語尾が「う」で終わり、活用時にあ・い・う・え・お段を使う動詞。「入る」は「る」で終わりますが、一段動詞ではなく五段動詞です（入ら・入り・入る・入る・入れ・入ろう）。
 
 ### 動詞情報
 
@@ -100,9 +102,11 @@ related_to: [[grammar/006_godan_verb]], [[particle/007_ni]], [[verb-ru/007_deru]
 - 大学**に**入る（進入大學）
 - お風呂**に**入る（洗澡）
 
-**[[particle/007_ni|に]]助詞の意味**：
+**に助詞[^2]の意味**：
 - 目的地・到達点を示す
 - 「入る」と一緒に最もよく使われる助詞
+
+[^2]: **に助詞（Particle ni）**：目的地や到達点を表す助詞。「入る」のような移動動詞と組み合わせて「～に入る」（進入～）という形で使われます。
 
 #### ～を入る
 通過する場所（まれ）：

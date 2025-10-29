@@ -4,7 +4,7 @@ description: 脱ぐ - 脫（衣服、鞋子）
 type: verb
 subtype: godan
 jlpt: n5
-stage: linking
+stage: completed
 draft: false
 auto_generated: false
 tags:
@@ -578,12 +578,12 @@ Small worn items:
 - [[verb-u/004_kaku|書く]] - 同類型五段動詞示範
 
 ### 相關助詞
-- [[particle/002_wo|を]] - 脱ぐ常用的助詞（對象標記）
-- [[particle/007_ni|に]] - 使役形・受身形的對象（子供に靴を脱がせる）
-- [[particle/001_ga|が]] - 可能形的主語（靴が脱げる）
-- [[particle/004_de|で]] - 脱ぐ的場所（玄関で靴を脱ぐ）
-- [[particle/003_kara|から]] - 相關場所起點（家から靴を脱ぐ）
-- [[particle/005_to|と]] - 並列動作（靴を脱いで、スリッパを履く）
+- [[particle/003_wo|を]] - 脱ぐ常用的助詞[^object-particle]（對象標記）
+- [[particle/008_ni|に]] - 使役形・受身形的對象[^ni-particle]（子供に靴を脱がせる）
+- [[particle/001_ga|が]] - 可能形的主語[^ga-particle]（靴が脱げる）
+- [[particle/005_de|で]] - 脱ぐ的場所[^de-particle]（玄関で靴を脱ぐ）
+- [[particle/004_kara|から]] - 相關場所起點[^kara-particle]（家から靴を脱ぐ）
+- [[particle/006_to|と]] - 並列動作[^to-particle]（靴を脱いで、スリッパを履く）
 
 ### 相關文法
 - [[grammar/007_masu_form|ます形]] - 脱ぎます的用法
@@ -596,3 +596,17 @@ Small worn items:
 ### 相關動詞
 - [[verb-u/001_agaru|上がる]] - 進入（與玄關文化相關）
 - 外す（待建立） - 取下（配件）
+
+## 腳註
+
+[^object-particle]: **賓語助詞を** - 標記動詞的直接受詞，在「脱ぐ」的句型中標記脫下的對象，如「靴を脱ぐ」（脫鞋子）、「服を脱ぐ」（脫衣服）。
+
+[^ni-particle]: **助詞に** - 在使役形和受身形中標記動作的對象或接受者，如「子供に靴を脱がせる」（讓孩子脫鞋）。
+
+[^ga-particle]: **主格助詞が** - 在可能形「脱げる」中標記主語，表示能夠脫下或自然脫落的對象，如「靴が脱げる」（鞋子能脫下/鞋子脫落了）。
+
+[^de-particle]: **場所助詞で** - 標記動作發生的場所，如「玄関で靴を脱ぐ」（在玄關脫鞋），是日本文化中最重要的脫鞋場所。
+
+[^kara-particle]: **起點助詞から** - 標記動作的起點或來源，在脫鞋相關句子中較少使用，但可表示從某處開始的動作。
+
+[^to-particle]: **連接助詞と** - 用於連接並列的動作或事物，如「靴を脱いで、スリッパを履く」（脫掉鞋子，穿上拖鞋），表示連續動作。
