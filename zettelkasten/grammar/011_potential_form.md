@@ -37,7 +37,7 @@ related_to: [[grammar/003_ichidan_verb]], [[grammar/006_godan_verb]], [[grammar/
 
 ### 活用規則
 
-#### 一段動詞（る動詞）
+#### [[grammar/003_ichidan_verb|一段動詞]]（る動詞）
 る → られる
 
 | 辞書形 | 可能形 | 意味 |
@@ -52,7 +52,7 @@ related_to: [[grammar/003_ichidan_verb]], [[grammar/006_godan_verb]], [[grammar/
 - 食べられる → 食べれる
 - 見られる → 見れる
 
-#### 五段動詞（う動詞）
+#### [[grammar/006_godan_verb|五段動詞]]（う動詞）
 語尾を「える」段に変える
 
 | 語尾 | 変化 | 辞書形 | 可能形 |
@@ -92,7 +92,7 @@ related_to: [[grammar/003_ichidan_verb]], [[grammar/006_godan_verb]], [[grammar/
 
 ### できると可能形
 
-#### できる（～することができる）
+#### [[grammar/027_koto_ga_dekiru|できる（～することができる）]]（待建立）
 より明確に能力を強調：
 - 日本語を話すことができる。（能說日語）
 - 料理を作ることができる。（能做菜）
@@ -105,6 +105,8 @@ related_to: [[grammar/003_ichidan_verb]], [[grammar/006_godan_verb]], [[grammar/
 **使い分け**：
 - できる：正式、強調能力
 - 可能形：日常、自然な表現
+
+→ 詳しくは[[comparison/002_potential_vs_dekiru|可能形 vs できる]]（待建立）を参照
 
 ## English
 Potential Form
@@ -375,14 +377,17 @@ More natural and Japanese-like:
 ## 相關連結
 
 ### 動詞基礎
-- [[grammar/003_ichidan_verb]] - 一段動詞的可能形變化
-- [[grammar/006_godan_verb]] - 五段動詞的可能形變化
-- [[grammar/010_dictionary_form]] - 從辭書形理解可能形
+- [[grammar/003_ichidan_verb|一段動詞]] - 一段動詞的可能形變化
+- [[grammar/006_godan_verb|五段動詞]] - 五段動詞的可能形變化
+- [[grammar/010_dictionary_form|辭書形]] - 從辭書形理解可能形
 
 ### 相關形式
-- [[grammar/012_passive_form]] - 受身形（形態相似）
-- [[grammar/008_nai_form]] - ない形（可能形的否定）
+- [[grammar/012_passive_form|受身形]] - 受身形（一段動詞形態相同）
+- [[grammar/008_nai_form|ない形]] - ない形（可能形的否定）
 
 ### 相關助詞
-- [[particle/001_ga]] - が助詞（可能形常用）
-- [[particle/002_wo]] - を助詞（與可能形的對比）
+- [[particle/001_ga|が]] - が助詞（可能形常用）
+
+### 比較卡片
+- [[comparison/002_potential_vs_dekiru|可能形 vs できる]]（待建立）- 使用區別
+- [[grammar/027_koto_ga_dekiru|～ことができる]]（待建立）- できる 的文法形式

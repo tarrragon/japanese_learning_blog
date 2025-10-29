@@ -16,7 +16,7 @@ related_to: [[grammar/005_keigo_system]], [[grammar/006_godan_verb]]
 ## 日文
 おっしゃる・申す（おっしゃる・もうす）
 
-「言う」の敬語形式で、尊敬語「おっしゃる」と謙譲語「申す」のペアです。N4レベルで学ぶ重要な敬語動詞で、ビジネスや日常の丁寧な場面で頻繁に使用されます。
+[[verb-u/013_iu|言う]]（待建立）の敬語形式で、尊敬語「おっしゃる」と謙譲語「申す」のペアです。N4レベルで学ぶ重要な[[grammar/005_keigo_system|敬語]]動詞で、ビジネスや日常の丁寧な場面で頻繁に使用されます。
 
 ### 動詞情報
 
@@ -435,8 +435,12 @@ Apology expression:
 - [[honorific/001_meshiagaru_itadaku]] - 吃喝的敬語
 
 ### 基本動詞
-- 言う - 說（普通體）
+- [[verb-u/013_iu|言う]]（待建立）- 說（普通體）
 
 ### 相關敬語
 - [[honorific/003_irassharu_mairu]] - 去來的敬語
 - [[honorific/004_nasaru_itasu]] - 做的敬語
+
+### 相關文法
+- [[grammar/041_o_go_ni_naru|お/ご～になる]]（待建立）- 尊敬語形式
+- [[grammar/042_o_go_suru|お/ご～する]]（待建立）- 謙讓語形式

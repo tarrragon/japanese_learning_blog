@@ -16,7 +16,7 @@ related_to: [[grammar/005_keigo_system]], [[verb-u/009_iku]]
 ## 日文
 いらっしゃる・参る（いらっしゃる・まいる）
 
-「行く」「来る」「いる」の敬語形式で、尊敬語「いらっしゃる」と謙譲語「参る」のペアです。N4レベルで学ぶ重要な敬語動詞で、移動や存在を丁寧に表現する際に頻繁に使用されます。
+[[verb-u/009_iku|行く]]、[[verb-irr/002_kuru|来る]]（待建立）、[[verb-irr/003_iru|いる]]（待建立）の敬語形式で、尊敬語「いらっしゃる」と謙譲語「参る」のペアです。N4レベルで学ぶ重要な[[grammar/005_keigo_system|敬語]]動詞で、移動や存在を丁寧に表現する際に頻繁に使用されます。
 
 ### 動詞情報
 
@@ -93,7 +93,7 @@ related_to: [[grammar/005_keigo_system]], [[verb-u/009_iku]]
 - 目上の人への約束
 - サービス業での応対
 
-**注意**：「いる」の謙譲語は「参る」ではなく「おる」
+**注意**：「いる」の謙譲語は「参る」ではなく[[honorific/007_oru|おる]]（待建立）
 
 ### よく使う表現
 
@@ -149,9 +149,9 @@ related_to: [[grammar/005_keigo_system]], [[verb-u/009_iku]]
 - 先生がいらっしゃる（老師去/來/在）
   - 文脈で判断
 
-#### 参る / おる（謙譲語）
+#### 参る / [[honorific/007_oru|おる]]（待建立）（謙譲語）
 - 私が参る（我去/來）
-- 私がおる（我在）
+- 私が[[honorific/007_oru|おる]]（待建立）（我在）
 
 ## English
 irassharu / mairu (honorific forms of "to go/come/be")
@@ -233,7 +233,7 @@ The honorific forms of "iku" (go), "kuru" (come), and "iru" (be), with "irasshar
 - Promises to superiors
 - Service industry responses
 
-**Note**: The humble form of いる is not 参る but おる
+**Note**: The humble form of いる is not 参る but [[honorific/007_oru|おる]]（待建立）
 
 ### Common Expressions
 
@@ -274,9 +274,9 @@ Expression when troubled (different meaning):
 
 | Meaning | Plain | Respectful | Humble |
 |---------|-------|-----------|--------|
-| Go | 行く | いらっしゃる | 参る |
-| Come | 来る | いらっしゃる | 参る |
-| Be | いる | いらっしゃる | おる |
+| Go | [[verb-u/009_iku|行く]] | いらっしゃる | 参る |
+| Come | [[verb-irr/002_kuru|来る]]（待建立） | いらっしゃる | 参る |
+| Be | [[verb-irr/003_iru|いる]]（待建立） | いらっしゃる | [[honorific/007_oru|おる]]（待建立） |
 
 ## 中文解釋
 いらっしゃる・参る（「去・來・在」的敬語形式）
@@ -358,7 +358,7 @@ Expression when troubled (different meaning):
 - 對上級的約定
 - 服務業的應對
 
-**注意**：「いる」的謙讓語不是「参る」而是「おる」
+**注意**：「いる」的謙讓語不是「参る」而是[[honorific/007_oru|おる]]（待建立）
 
 ### 常用表達
 
@@ -420,7 +420,7 @@ Expression when troubled (different meaning):
 
 4. **謙讓語組合**
    - 参る：去/來
-   - おる：在（不是参る）
+   - [[honorific/007_oru|おる]]（待建立）：在（不是参る）
 
 ## 例句
 
@@ -488,9 +488,14 @@ Expression when troubled (different meaning):
 
 ### 基本動詞
 - [[verb-u/009_iku]] - 行く（去）
-- 来る - 來
-- いる - 在
+- [[verb-irr/002_kuru|来る]]（待建立）- 來
+- [[verb-irr/003_iru|いる]]（待建立）- 在
 
 ### 相關敬語
 - [[honorific/004_nasaru_itasu]] - 做的敬語
 - [[honorific/005_goran_haiken]] - 看的敬語
+- [[honorific/007_oru|おる]]（待建立）- 在的謙讓語
+
+### 相關文法
+- [[grammar/041_o_go_ni_naru|お/ご～になる]]（待建立）- 尊敬語形式
+- [[grammar/042_o_go_suru|お/ご～する]]（待建立）- 謙讓語形式

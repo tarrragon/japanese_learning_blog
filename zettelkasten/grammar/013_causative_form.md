@@ -37,7 +37,7 @@ related_to: [[grammar/003_ichidan_verb]], [[grammar/006_godan_verb]], [[grammar/
 
 ### 活用規則
 
-#### 一段動詞（る動詞）
+#### [[grammar/003_ichidan_verb|一段動詞]]（る動詞）
 る → させる
 
 | 辞書形 | 使役形 | 意味 |
@@ -47,7 +47,7 @@ related_to: [[grammar/003_ichidan_verb]], [[grammar/006_godan_verb]], [[grammar/
 | 起きる | 起きさせる | 讓起床 |
 | 寝る | 寝させる | 讓睡 |
 
-#### 五段動詞（う動詞）
+#### [[grammar/006_godan_verb|五段動詞]]（う動詞）
 語尾を「あ」段 + せる
 
 | 語尾 | 変化 | 辞書形 | 使役形 |
@@ -132,16 +132,16 @@ related_to: [[grammar/003_ichidan_verb]], [[grammar/006_godan_verb]], [[grammar/
 
 ### 使役受身（させられる）
 
-**使役形 + 受身形 = 使役受身**
+**使役形 + [[grammar/012_passive_form|受身形]] = [[grammar/029_causative_passive|使役受身]]（待建立）**
 
 意味：強制的にさせられる（被迫做）
 
-#### 一段動詞
+#### [[grammar/003_ichidan_verb|一段動詞]]
 食べさせる → 食べさせられる
 - 母に野菜を食べさせられた。
   （被媽媽強迫吃蔬菜）
 
-#### 五段動詞
+#### [[grammar/006_godan_verb|五段動詞]]
 飲ませる → 飲まされる（短縮形）
 正式：飲ませられる
 口語：飲まされる
@@ -539,13 +539,13 @@ Examples:
 ## 相關連結
 
 ### 動詞基礎
-- [[grammar/003_ichidan_verb]] - 一段動詞的使役形變化
-- [[grammar/006_godan_verb]] - 五段動詞的使役形變化
+- [[grammar/003_ichidan_verb|一段動詞]] - 一段動詞的使役形變化
+- [[grammar/006_godan_verb|五段動詞]] - 五段動詞的使役形變化
 
 ### 相關形式
-- [[grammar/012_passive_form]] - 受身形（與使役受身相關）
-- [[grammar/011_potential_form]] - 可能形（變化模式對比）
+- [[grammar/012_passive_form|受身形]] - 受身形（與使役受身相關）
+- [[grammar/029_causative_passive|使役受身]]（待建立）- させられる形
+- [[grammar/011_potential_form|可能形]] - 可能形（變化模式對比）
 
 ### 相關助詞
-- [[particle/001_ga]] - が助詞（使役句的主語）
-- [[particle/002_wo]] - を助詞（被使役者標記）
+- [[particle/001_ga|が]] - が助詞（使役句的主語）
