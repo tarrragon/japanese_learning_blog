@@ -9,11 +9,14 @@ draft: false
 auto_generated: true
 needs_review: false
 completed: 2025-10-28
-tags: [grammar, verb, conjugation, causative, n3]
+tags:
+  - grammar
+  - conjugation
+  - causative
+  - jlpt/n3
 created: 2025-10-28
 related_to: [[grammar/003_ichidan_verb]], [[grammar/006_godan_verb]], [[grammar/012_passive_form]]
 ---
-
 ## 日文
 使役形（しえきけい）/ 使役態（しえきたい）
 

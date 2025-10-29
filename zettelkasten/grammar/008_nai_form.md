@@ -9,11 +9,14 @@ draft: false
 auto_generated: true
 needs_review: false
 completed: 2025-10-28
-tags: [grammar, verb, conjugation, negative, basic]
+tags:
+  - grammar
+  - conjugation
+  - negative
+  - basic
 created: 2025-10-28
 related_to: [[grammar/003_ichidan_verb]], [[grammar/006_godan_verb]]
 ---
-
 ## 日文
 ない形（ないけい）
 

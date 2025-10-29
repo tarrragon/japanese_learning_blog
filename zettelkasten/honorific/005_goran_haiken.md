@@ -9,11 +9,15 @@ draft: false
 auto_generated: true
 needs_review: false
 completed: 2025-10-28
-tags: [honorific, keigo, verb, sonkeigo, kenjougo, n4]
+tags:
+  - honorific
+  - keigo
+  - sonkeigo
+  - kenjougo
+  - jlpt/n4
 created: 2025-10-28
 related_to: [[verb-ru/003_miru]], [[grammar/005_keigo_system]], [[honorific/001_kudasaru_itadaku]]
 ---
-
 ## 日文
 ご覧になる・拝見する（見るの敬語）
 

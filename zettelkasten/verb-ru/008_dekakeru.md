@@ -9,11 +9,10 @@ draft: false
 auto_generated: true
 needs_review: false
 completed: 2025-10-28
-tags: [verb, basic, ichidan, movement, daily_life]
+tags: [basic, domain/movement, domain/daily_life]
 created: 2025-10-28
 related_to: [[grammar/003_ichidan_verb]], [[grammar/004_mae_ni]], [[verb-ru/007_deru]]
 ---
-
 ## 日文
 出かける（でかける）
 

@@ -9,11 +9,14 @@ draft: false
 auto_generated: true
 needs_review: false
 completed: 2025-10-28
-tags: [honorific, keigo, verb, communication, n4]
+tags:
+  - honorific
+  - keigo
+  - domain/communication
+  - jlpt/n4
 created: 2025-10-28
 related_to: [[grammar/005_keigo_system]], [[grammar/006_godan_verb]]
 ---
-
 ## 日文
 おっしゃる・申す（おっしゃる・もうす）
 

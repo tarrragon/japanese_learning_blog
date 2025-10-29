@@ -9,11 +9,10 @@ draft: false
 auto_generated: true
 needs_review: false
 completed: 2025-10-28
-tags: [verb, basic, ichidan, thinking, cognition]
+tags: [basic, thinking, domain/cognition]
 created: 2025-10-28
 related_to: [[grammar/003_ichidan_verb]], [[particle/002_wo]]
 ---
-
 ## 日文
 考える（かんがえる）
 
@@ -470,8 +469,8 @@ Have an idea:
 - [[particle/005_to|と]] - と助詞（引用、判斷）
 
 ### 相關文法
-- [[grammar/007_masu_form|ます形]]（待建立） - 考えます的用法
+- [[grammar/007_masu_form|ます形]] - 考えます的用法
 - [[grammar/001_te_form|て形文法]] - 考えて的用法
 
 ### 相關動詞
-- [[verb-u/014_omou|思う]]（待建立） - 覺得、想（直覺）
+- [[verb-u/014_omou|思う]] - 覺得、想（直覺思考的重要對比）

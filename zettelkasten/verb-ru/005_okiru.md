@@ -9,11 +9,10 @@ draft: false
 auto_generated: true
 needs_review: false
 completed: 2025-10-28
-tags: [verb, basic, ichidan, daily_life]
+tags: [basic, domain/daily_life]
 created: 2025-10-28
 related_to: [[grammar/003_ichidan_verb]], [[verb-ru/004_neru]]
 ---
-
 ## 日文
 起きる（おきる）
 

@@ -9,11 +9,10 @@ draft: false
 auto_generated: true
 needs_review: false
 completed: 2025-10-28
-tags: [verb, basic, ichidan, movement, daily_life]
+tags: [basic, domain/movement, domain/daily_life]
 created: 2025-10-28
 related_to: [[grammar/003_ichidan_verb]], [[particle/002_wo]], [[verb-ru/008_dekakeru]]
 ---
-
 ## 日文
 出る（でる）
 
@@ -402,4 +401,4 @@ Indicating origin:
 
 ### 相關動詞
 - [[verb-ru/008_dekakeru|出かける]] - 外出（有目的）
-- [[verb-u/010_hairu|入る]]（待建立） - 進入（反義詞）
+- [[verb-u/010_hairu|入る]] - 進入（反義詞）

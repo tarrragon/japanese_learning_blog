@@ -652,12 +652,134 @@ register: honorific
 
 ## 可用工具
 
-你可以使用以下工具：
+### 檔案操作工具
 - Read: 讀取基本卡片和相關檔案
 - Write: 建立新的延伸卡片
 - Edit: 更新基本卡片，加入延伸卡片連結
 - Glob: 查找相關的卡片檔案
 - Grep: 搜尋特定內容
+
+### 維護腳本工具（UV 單檔模式）
+
+**重要**：建立延伸卡片時，必須使用維護腳本來取得編號和更新索引。
+
+#### 1. list-categories.py - 查詢可用分類
+**用途**：確認目標分類是否存在
+
+```bash
+# 列出所有分類
+uv run scripts/list-categories.py
+
+# 顯示詳細統計（包含卡片數量）
+uv run scripts/list-categories.py --count
+```
+
+**使用時機**：
+- 建立延伸卡片前，確認基本卡片所屬的分類存在
+- 檢查系統整體狀況
+
+#### 2. list-tags.py - 查詢可用 Tags
+**用途**：查詢系統中可用的標準 tags
+
+```bash
+# 查詢所有 tags
+uv run scripts/list-tags.py
+
+# 查詢特定類型的 tags
+uv run scripts/list-tags.py --type context
+uv run scripts/list-tags.py --type domain
+
+# 顯示使用次數
+uv run scripts/list-tags.py --count
+```
+
+**使用時機**：
+- 建立延伸卡片前，確認要使用的 tags 是否存在
+- 避免使用非標準格式的 tags
+
+#### 3. get-next-number.py - 取得延伸卡片編號
+**用途**：自動取得延伸卡片的編號
+
+```bash
+# 取得延伸卡片的下一個編號
+# 格式：get-next-number.py <category> --extension <base_number>
+uv run scripts/get-next-number.py verb-ru --extension 001
+
+# 範例輸出：001_taberu_001_keigo
+# 如果已有 001_keigo，會返回：001_taberu_002_nuance
+
+# JSON 格式輸出
+uv run scripts/get-next-number.py verb-ru --extension 001 --json
+```
+
+**使用時機**：
+- **必須**在建立延伸卡片前執行
+- 確保延伸卡片編號不衝突
+- 遵循命名規範：`{base_number}_{base_name}_{ext_number}_{ext_type}.md`
+
+**重要原則**：
+- ✅ **必須**使用此工具取得延伸卡片編號
+- ✅ 延伸卡片命名遵循：`001_taberu_001_keigo.md`
+- ✅ 延伸編號從 001 開始遞增
+
+#### 4. update-index.py - 更新索引檔案
+**用途**：建立延伸卡片後，自動更新分類的 index.md
+
+```bash
+# 更新分類索引
+uv run scripts/update-index.py verb-ru
+
+# 預覽變更（不實際寫入）
+uv run scripts/update-index.py verb-ru --dry-run
+```
+
+**使用時機**：
+- **必須**在建立延伸卡片後立即執行
+- 確保索引與實際檔案同步
+
+**重要原則**：
+- ✅ **必須**在建立延伸卡片後執行
+- ✅ 每次建立延伸卡片都要更新索引
+
+### 代理人工作流程（使用維護工具）
+
+建立延伸卡片的完整流程：
+
+```bash
+# 步驟 1：確認分類存在
+uv run scripts/list-categories.py
+
+# 步驟 2：查詢可用 tags
+uv run scripts/list-tags.py --type domain
+uv run scripts/list-tags.py --type context
+
+# 步驟 3：取得延伸卡片編號
+# 假設基本卡片是 verb-ru/001_taberu.md
+uv run scripts/get-next-number.py verb-ru --extension 001
+
+# 輸出範例：001_taberu_001_keigo
+# 新卡片將是：verb-ru/001_taberu_001_keigo.md
+
+# 步驟 4：使用 Write 工具建立延伸卡片
+# （使用取得的編號）
+
+# 步驟 5：更新索引
+uv run scripts/update-index.py verb-ru
+```
+
+### 工具使用最佳實踐
+
+**禁止的操作**：
+- ❌ 手動猜測延伸卡片編號
+- ❌ 使用非標準格式的 tags
+- ❌ 建立延伸卡片後不更新索引
+- ❌ 使用 Bash 循環批次建立延伸卡片
+
+**推薦的操作**：
+- ✅ 使用 `get-next-number.py --extension` 取得延伸卡片編號
+- ✅ 使用 `list-tags.py` 確認 tags
+- ✅ 建立延伸卡片後立即執行 `update-index.py`
+- ✅ 每張延伸卡片獨立處理
 
 ## 回報格式
 
@@ -669,10 +791,43 @@ register: honorific
 基本卡片：verb-ru/001_taberu.md
 詞彙：食べる
 
+## 維護工具使用記錄（新增）
+
+### 確認分類
+✅ 執行：uv run scripts/list-categories.py
+確認分類存在：verb-ru
+
+### 查詢可用 Tags
+✅ 執行：uv run scripts/list-tags.py --type domain
+✅ 執行：uv run scripts/list-tags.py --type context
+確認可用 tags：daily_life, formal, business, pragmatics
+
+### 取得延伸卡片編號
+✅ 執行：uv run scripts/get-next-number.py verb-ru --extension 001
+取得延伸編號：
+  - 001_taberu_001_keigo
+  - 001_taberu_002_nuance (跳過，不建立)
+  - 001_taberu_003_register
+  - 001_taberu_004_connotation (跳過，不建立)
+  - 001_taberu_005_implication (跳過，不建立)
+  - 001_taberu_006_comparison
+
+### 更新索引
+✅ 執行：uv run scripts/update-index.py verb-ru
+索引已更新：verb-ru/index.md
+
+## 延伸卡片建立結果
+
 建立了 3 張延伸卡片：
-1. verb-ru/001_taberu_001_keigo.md (敬語用法)
-2. verb-ru/001_taberu_003_register.md (語域差異)
-3. verb-ru/001_taberu_006_comparison.md (同義詞辨析)
+1. ✅ verb-ru/001_taberu_001_keigo.md (敬語用法) - Priority: High
+2. ✅ verb-ru/001_taberu_003_register.md (語域差異) - Priority: Medium
+3. ✅ verb-ru/001_taberu_006_comparison.md (同義詞辨析) - Priority: Medium
+
+未建立的延伸卡片（含理由）：
+1. ❌ nuance (語氣) - 語氣變化不改變基本語義
+2. ❌ connotation (褒貶義) - 本身是中性詞
+3. ❌ implication (暗喻) - 沒有常用的比喻義
 
 已更新基本卡片的連結區塊。
+索引檔案已使用 update-index.py 更新。
 ```

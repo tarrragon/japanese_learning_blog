@@ -13,7 +13,7 @@
 3. **雙重連結系統**：
    - 標準 Wikilink 連結 `[[card]]` - 用於相關卡片列表
    - 腳註標註 `[^note]` - 用於文內概念說明
-4. **智能代理人** - 自動檢測遺漏卡片並建立草稿
+4. **代理人** - 自動檢測遺漏卡片並建立草稿
 
 ## 版本管理
 
@@ -124,9 +124,9 @@
 
 ### 工作流程文檔
 
-每個小版本一個工作流程文檔，放在 `doc/workflow-{version}.md`
+每個小版本一個工作流程文檔，放在 `doc/worklog/worklog-{version}.md`
 
-**格式範例**：`doc/workflow-1.0.0.md`
+**格式範例**：`doc/worklog/worklog-1.0.0.md`
 
 工作流程文檔必須記錄：
 - **各階段卡片清單** - 哪些卡片在哪個階段
@@ -136,7 +136,7 @@
 - **本循環完成的卡片數量**
 - **發現的問題與改進**
 
-範例格式參考 `doc/workflow-1.0.0.md`。
+範例格式參考 `doc/worklog/worklog-1.0.0.md`。
 
 ## 核心理念
 
@@ -789,7 +789,9 @@ jlpt/none            # 不在 JLPT 範圍（專業術語等）
 ```
 
 #### 5. 層級連結
+
 上位概念與下位概念之間的連結。
+
 ```markdown
 上位概念：
 - [経済指標](../concept/001_economic_indicators.md)
@@ -802,11 +804,13 @@ jlpt/none            # 不在 JLPT 範圍（專業術語等）
 ### 連結格式
 
 使用標準 Markdown 連結格式：
+
 ```markdown
 [顯示文字](相對路徑)
 ```
 
 範例：
+
 ```markdown
 # 在 noun/001_gdp.md 中
 links:
@@ -819,7 +823,7 @@ links:
 
 ### 標準學習流程
 
-```
+```markdown
 1. 收集文章
    ↓
    將日文文章保存到 articles/ 目錄
@@ -903,13 +907,11 @@ links:
    - 語言學習需要思考和理解，不是機械性工作
    - 每個詞彙、文法在不同情境下有細微差異
    - 精準的用詞是語言學習的核心
-   - 腳本無法理解語言的深層含義和文化背景
-
-**記住：品質遠比速度重要。每張卡片都是知識網絡中的重要節點。**
 
 ## 例句原則
 
 ### 核心原則
+
 - **以日文為思考核心**：先想日文怎麼說，再提供英文和中文對應
 - **實用性**：例句要反映真實使用情境
 - **漸進性**：從簡單到複雜
@@ -927,22 +929,23 @@ English translation
 ```
 
 ### 例句數量
+
 - 每張卡片：2-3 個例句
-- 避免過多造成負擔
-- 重質不重量
 
 ## 使用指南
 
 ### 可用命令
 
 #### 文章分析系列
+
 - `/analyze-article` - 全面分析文章（難度、主題、文法）
 - `/extract-vocab` - 提取關鍵詞彙
 - `/explain-grammar` - 深入解析文法
 - `/generate-exercises` - 生成練習題
 
 #### Zettelkasten 系列
-- `/create-zettel` - 從文章建立卡片盒卡片（智能代理人）
+
+- `/create-zettel` - 從文章建立卡片盒卡片（指令）
 
 ### 最佳實踐
 
@@ -970,11 +973,13 @@ English translation
 ## 技術細節
 
 ### 檔案編碼
+
 - 所有檔案使用 UTF-8 編碼
 - Markdown 格式
 - YAML frontmatter
 
 ### 相對路徑規則
+
 ```
 當前位置：noun/001_gdp.md
 
@@ -984,6 +989,7 @@ English translation
 ```
 
 ### 編號規則
+
 - 三位數字：001-999
 - 每個資料夾獨立編號
 - 編號不重複使用（即使刪除卡片）
@@ -995,6 +1001,7 @@ English translation
 `_meta/` 資料夾包含系統的元資訊（metadata），用於記錄和追蹤系統中使用的 tags 和 categories 的定義。
 
 **核心價值**：
+
 1. **明確定義**：為每個 tag 和 category 提供清晰、詳細的定義
 2. **使用追蹤**：記錄何時新增、當前使用情況、統計資訊
 3. **一致性維護**：確保 tags 和 categories 使用的一致性
@@ -1009,6 +1016,7 @@ English translation
 **總數**：15 個 tag 定義卡片
 
 **Context Tags**（使用情境）
+
 - business - 商務場合
 - casual - 日常、朋友間
 - family - 家庭
@@ -1017,12 +1025,14 @@ English translation
 - social - 社交場合
 
 **Domain Tags**（領域）
+
 - economics - 經濟學
 - daily_life - 日常生活
 - finance - 財經金融
 - （其他可擴展領域：technology, culture, medical, legal等）
 
 **JLPT Tags**（等級）
+
 - n5 - JLPT N5（最基礎）
 - n4 - JLPT N4
 - n3 - JLPT N3
@@ -1036,6 +1046,7 @@ English translation
 **總數**：23 個 category 定義卡片
 
 涵蓋所有卡片類型：
+
 - 基礎詞類（8個）：名詞、動詞、形容詞、副詞等
 - 功能詞（5個）：助詞、助動詞、接續詞等
 - 構詞（2個）：接頭詞、接尾詞
@@ -1045,6 +1056,7 @@ English translation
 ### Meta 卡片內容
 
 每張 meta 卡片包含：
+
 - **定義和說明**：清楚解釋 tag/category 的意義
 - **使用場景**：何時使用此 tag/category
 - **典型特徵**：該 tag/category 的典型內容
@@ -1057,6 +1069,7 @@ English translation
 ### 新增 Tag 或 Category 的流程
 
 #### 新增 Tag
+
 1. 確認是否真的需要新 tag（避免過度細分）
 2. 決定 tag 的類型（context/domain/jlpt）
 3. 在 `_meta/tags/{type}/` 建立新的定義卡片
@@ -1065,6 +1078,7 @@ English translation
 6. 在實際卡片中開始使用新 tag
 
 #### 新增 Category
+
 1. 確認新的卡片類型確實需要獨立分類
 2. 在 `_meta/categories/` 建立定義卡片
 3. 更新 `_meta/categories/index.md`
@@ -1075,59 +1089,364 @@ English translation
 
 ### Meta 系統的維護
 
-**定期檢查**（建議每月一次）：
+**定期檢查**：
+
 - 檢查 meta 卡片的統計資訊是否準確
 - 更新使用範例列表
 - 確認定義是否需要調整
 - 檢查是否有新的使用模式
 
 **保持同步**：
+
 - 每次新增 tag 或 category 時，必須同時建立 meta 卡片
 - Meta 資訊應反映系統的實際使用情況
 
 **品質控制**：
+
 - Meta 卡片的定義應該清晰、準確
 - 避免過度複雜化
 - 確保對學習者有實際幫助
 
+## 維護工具系統
+
+本專案提供 7 個 Python 維護腳本（位於 `scripts/`），使用 **UV 單檔模式**開發，零外部依賴。這些工具幫助維護系統一致性、檢查錯誤、自動化重複任務。
+
+### 工具清單
+
+#### 1. list-categories.py - 列出所有分類
+
+**用途**：查看系統中所有分類及其統計資訊
+
+```bash
+# 顯示所有分類
+uv run scripts/list-categories.py
+
+# 顯示詳細統計（包含卡片數量）
+uv run scripts/list-categories.py --count
+
+# JSON 格式輸出
+uv run scripts/list-categories.py --json
+```
+
+**使用時機**：
+
+- 建立新卡片前，確認分類是否存在
+- 檢查系統整體狀況
+- 代理人在建立卡片前查詢可用分類
+
+#### 2. list-tags.py - 列出所有 Tags
+
+**用途**：查看系統中所有 tags 及其使用情況
+
+```bash
+# 顯示所有 tags
+uv run scripts/list-tags.py
+
+# 顯示使用次數
+uv run scripts/list-tags.py --count
+
+# 只顯示特定類型的 tags
+uv run scripts/list-tags.py --type context
+```
+
+**使用時機**：
+
+- 建立新卡片時選擇合適的 tags
+- 檢查是否需要新增 tag 定義
+- 代理人在標記卡片前查詢可用 tags
+
+#### 3. get-next-number.py - 取得下一個編號
+
+**用途**：自動取得分類的下一個可用編號
+
+```bash
+# 取得下一個編號
+uv run scripts/get-next-number.py verb-ru
+
+# 取得延伸卡片編號
+uv run scripts/get-next-number.py verb-ru --extension 001
+
+# JSON 格式輸出
+uv run scripts/get-next-number.py verb-ru --json
+```
+
+**使用時機**：
+
+- 建立新卡片時自動分配編號
+- 避免手動查找和計算
+- **代理人必須使用此工具**取得新卡片編號
+
+#### 4. update-index.py - 更新索引檔案
+
+**用途**：自動更新分類的 index.md，保持索引同步
+
+```bash
+# 更新分類索引
+uv run scripts/update-index.py verb-ru
+
+# 預覽變更（不實際寫入）
+uv run scripts/update-index.py verb-ru --dry-run
+
+# 強制重建索引
+uv run scripts/update-index.py verb-ru --force
+```
+
+**使用時機**：
+
+- 新增卡片後立即更新索引
+- 修改卡片檔名後同步索引
+- **代理人在建立卡片後必須執行**
+
+#### 5. verify-meta.py - 驗證 Meta 一致性
+
+**用途**：檢查 `_meta/` 資料夾的定義是否與實際系統一致
+
+```bash
+# 完整驗證
+uv run scripts/verify-meta.py
+
+# 只檢查 tags
+uv run scripts/verify-meta.py --tags
+
+# 顯示詳細資訊
+uv run scripts/verify-meta.py --verbose
+```
+
+**使用時機**：
+
+- 定期檢查系統一致性（建議每週）
+- 新增分類或 tag 後驗證
+- 確保所有 meta 定義都已建立
+
+#### 6. clean-tags.py - 清理和標準化 Tags
+
+**用途**：移除重複的、非標準的 tags，並將其標準化
+
+```bash
+# 預覽清理結果
+uv run scripts/clean-tags.py --dry-run
+
+# 執行清理
+uv run scripts/clean-tags.py
+
+# 只處理特定分類
+uv run scripts/clean-tags.py --category verb-ru
+```
+
+**使用時機**：
+
+- 發現 tags 不一致時批次清理
+- 系統標準化維護
+- 通常由人工觸發，不建議代理人自動執行
+
+#### 7. fix-numbering.py - 檢查和修復編號
+
+**用途**：檢測編號缺口和跳號，並提供修復方案
+
+```bash
+# 檢查所有分類
+uv run scripts/fix-numbering.py --check
+
+# 預覽修復方案
+uv run scripts/fix-numbering.py --dry-run
+
+# 執行修復
+uv run scripts/fix-numbering.py --fix
+```
+
+**使用時機**：
+
+- 定期檢查編號連續性（建議每月）
+- 發現編號異常時修復
+- 通常由人工觸發，不建議代理人自動執行
+
+### 代理人使用指南
+
+#### `/create-zettel` 代理人
+
+此代理人負責建立新的 Zettelkasten 卡片，**必須使用以下工具**：
+
+**建立卡片流程**：
+
+1. **使用 `list-categories.py`** 確認目標分類存在
+
+   ```bash
+   uv run scripts/list-categories.py
+   ```
+
+2. **使用 `list-tags.py`** 查詢可用的標準 tags
+
+   ```bash
+   uv run scripts/list-tags.py --count
+   ```
+
+3. **使用 `get-next-number.py`** 取得下一個編號
+
+   ```bash
+   uv run scripts/get-next-number.py <category>
+   ```
+
+4. 建立卡片檔案（使用取得的編號）
+
+5. **使用 `update-index.py`** 更新索引
+
+   ```bash
+   uv run scripts/update-index.py <category>
+   ```
+
+**重要原則**：
+
+- **必須**使用 `get-next-number.py` 取得編號，不可手動猜測
+- **必須**在建立卡片後執行 `update-index.py`
+- **必須**使用 `list-tags.py` 確認 tags 存在於 meta 中
+- **不可**使用非標準格式的 tags
+- **不可**跳過索引更新
+
+#### `build-card-links` 子代理人
+
+此子代理人負責為卡片建立連結和腳註，**建議使用以下工具**：
+
+**建立連結流程**：
+
+1. **使用 `list-tags.py`** 查找相關主題的 tags
+
+   ```bash
+   uv run scripts/list-tags.py --type domain
+   ```
+
+2. 使用 Glob 搜尋相關卡片（基於 YAML frontmatter）
+
+3. 建立 wikilinks 和腳註
+
+4. 如果發現遺漏的卡片：
+   - **使用 `get-next-number.py`** 取得編號
+   - 建立草稿卡片
+   - **使用 `update-index.py`** 更新索引
+
+**重要原則**：
+
+- ✅ **建議**使用工具查詢 tags，提高效率
+- ✅ **必須**在建立新卡片後更新索引
+- ✅ 優先使用 Glob + YAML 搜尋，而非 Grep 全文搜尋
+- ❌ **不可**建立不存在於 meta 的 tags
+
+### 維護最佳實踐
+
+#### 日常維護檢查清單
+
+**每次建立版本推進後**：
+
+```bash
+# 1. 更新索引
+uv run scripts/update-index.py <category>
+
+# 2. 驗證（可選）
+uv run scripts/verify-meta.py --check
+
+# 3. 檢查 meta 一致性
+uv run scripts/verify-meta.py --verbose
+
+# 4. 檢查所有分類狀態
+uv run scripts/list-categories.py --count
+
+# 5. 檢查編號連續性
+uv run scripts/fix-numbering.py --check
+
+# 6. 如有問題，預覽修復
+uv run scripts/fix-numbering.py --dry-run
+
+# 7. 執行修復（如需要）
+uv run scripts/fix-numbering.py --fix
+```
+
+#### 故障排除
+
+**問題：索引與實際不一致**
+
+```bash
+# 檢查
+uv run scripts/list-categories.py --count
+
+# 修復
+uv run scripts/update-index.py <category>
+```
+
+**問題：tags 不標準或重複**
+
+```bash
+# 檢查
+uv run scripts/verify-meta.py --tags
+
+# 預覽清理
+uv run scripts/clean-tags.py --dry-run
+
+# 執行清理
+uv run scripts/clean-tags.py
+```
+
+**問題：編號不連續**
+
+```bash
+# 檢查
+uv run scripts/fix-numbering.py --check
+
+# 預覽修復
+uv run scripts/fix-numbering.py --dry-run
+
+# 執行修復
+uv run scripts/fix-numbering.py --fix
+```
+
+### 工具開發指南
+
+所有腳本使用 **UV 單檔模式**（基於 PEP 723）：
+
+```python
+#!/usr/bin/env python3
+# /// script
+# dependencies = []
+# requires-python = ">=3.10"
+# ///
+
+# 腳本內容...
+```
+
+詳細開發指南參考：`doc/hooks/03-uv-single-file-pattern.md`
+
+---
+
 ## 維護與擴展
 
 ### 定期維護
+
 - 檢查損壞的連結
 - 更新過時的資訊
 - 合併重複的卡片
-- **更新 Meta 系統的統計資訊**（新）
+- **執行維護腳本檢查系統狀態**
+- **更新 Meta 系統的統計資訊**
 
 ### 系統擴展
+
 - 可新增卡片分類（新增資料夾 + Meta 卡片）
 - 可新增 Tag 類型（在 Meta 系統中定義）
 - 可自定義命令
-- **所有擴展都應在 Meta 系統中記錄**（新）
-
-### 備份建議
-- 定期 Git commit
-- 推送到遠端倉庫
-- 保持版本歷史
+- **所有擴展都應在 Meta 系統中記錄**
+- **使用 `verify-meta.py` 驗證擴展結果**
 
 ---
 
 ## 開發者筆記
 
 ### 代理人設計原則
+
 `/create-zettel` 代理人應該：
+
 - 具備深厚的日文語言學知識
 - 能夠識別詞彙、文法、概念的細微差異
 - 理解不同領域的專業術語
 - 能夠建立有意義的連結
 - 保持卡片的原子化（一卡一概念）
 
-### 未來可能的功能
-- 卡片統計和視覺化
-- 連結圖譜生成
-- 複習系統整合（間隔重複）
-- 匯出為 Anki 卡片
-- 與 Obsidian 等工具整合
-
 ---
 
-**最後更新：2025-10-28**
+**最後更新：2025-10-29**
