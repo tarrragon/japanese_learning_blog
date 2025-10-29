@@ -402,4 +402,4 @@ Indicating origin:
 
 ### 相關動詞
 - [[verb-ru/008_dekakeru|出かける]] - 外出（有目的）
-- [[verb-u/010_hairu|入る]]（待建立） - 進入（反義詞）
+- [[verb-u/010_hairu|入る]] - 進入（反義詞）
