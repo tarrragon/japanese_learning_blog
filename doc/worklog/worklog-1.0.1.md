@@ -382,7 +382,7 @@
 - **doc/completion-summary-1.0.1.md** - 完整總結文檔
 - **doc/extension-review-1.0.1.md** - 延伸檢查報告（90 張）
 - **doc/linking-strategy-1.0.1.md** - 連結策略文檔
-- **doc/workflow-1.0.1.md** - 本工作流程文檔
+- **doc/worklog/worklog-1.0.1.md** - 本工作流程文檔
 
 ### 下一步行動
 建議開始 **v1.0.2 Phase 1**，建立 Critical 和 High N5 卡片（20-25 張）。

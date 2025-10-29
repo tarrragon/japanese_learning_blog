@@ -310,7 +310,7 @@
 6. ✅ 完成其餘 20 張卡片分析
 7. ✅ 整理完整的延伸需求清單（doc/extension-review-1.0.2-summary.md）
 8. ✅ 按優先級排序延伸卡片
-9. ⏳ 更新 workflow-1.0.2.md - 標記 Extension-Review 完成
+9. ⏳ 更新 worklog-1.0.2.md - 標記 Extension-Review 完成
 10. ⏳ 決定後續路徑（Phase 2A 或 Linking 階段）
 
 ---

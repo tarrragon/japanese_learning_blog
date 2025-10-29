@@ -197,7 +197,7 @@ Extension-Review 階段成功識別 90 張延伸需求：
 ## 工作文件
 
 ### 主要文件
-1. **doc/workflow-1.0.1.md** - 工作流程追蹤文檔
+1. **doc/worklog/worklog-1.0.1.md** - 工作流程追蹤文檔
 2. **doc/extension-review-1.0.1.md** - 延伸檢查完整報告
 3. **doc/linking-strategy-1.0.1.md** - 連結策略文檔
 4. **doc/completion-summary-1.0.1.md** - 本完成總結文檔

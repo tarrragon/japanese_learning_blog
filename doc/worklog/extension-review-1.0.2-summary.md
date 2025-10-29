@@ -236,7 +236,7 @@
 ## ✅ 下一步行動
 
 1. **完成 Extension-Review 文檔** ✓
-2. **更新 workflow-1.0.2.md** - 標記 Extension-Review 完成
+2. **更新 worklog-1.0.2.md** - 標記 Extension-Review 完成
 3. **決定後續路徑**：
    - 選項 A: 立即建立 Critical + High 卡片
    - 選項 B: 先進入 Linking 階段（為現有25張卡片添加連結）

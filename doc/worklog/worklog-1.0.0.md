@@ -101,7 +101,7 @@
 **完成項目**:
 - ✅ 建立專案指南 `.claude/claude.md`
 - ✅ 建立版本更新記錄 `CHANGELOG.md`
-- ✅ 建立工作流程文檔系統 `doc/workflow-{version}.md`
+- ✅ 建立工作流程文檔系統 `doc/worklog/worklog-{version}.md`
 - ✅ 定義四階段循環流程
 - ✅ 定義語義化版本規則
 
@@ -214,7 +214,7 @@
    - 補充標準連結和腳註
 
 4. **記錄與提交**
-   - 更新 `doc/workflow-1.0.1.md`
+   - 更新 `doc/worklog/worklog-1.0.1.md`
    - 更新 `CHANGELOG.md`
    - 提交版本 1.0.1
 
@@ -260,7 +260,7 @@ message: docs: 建立工作流程循環系統與版本管理
 files:
   - .claude/claude.md
   - CHANGELOG.md
-  - doc/workflow-1.0.0.md
+  - doc/worklog/worklog-1.0.0.md
   - (更新現有卡片的 YAML stage 欄位)
 ```
 

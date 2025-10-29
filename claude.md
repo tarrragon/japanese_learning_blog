@@ -124,9 +124,9 @@
 
 ### 工作流程文檔
 
-每個小版本一個工作流程文檔，放在 `doc/workflow-{version}.md`
+每個小版本一個工作流程文檔，放在 `doc/worklog/worklog-{version}.md`
 
-**格式範例**：`doc/workflow-1.0.0.md`
+**格式範例**：`doc/worklog/worklog-1.0.0.md`
 
 工作流程文檔必須記錄：
 - **各階段卡片清單** - 哪些卡片在哪個階段
@@ -136,7 +136,7 @@
 - **本循環完成的卡片數量**
 - **發現的問題與改進**
 
-範例格式參考 `doc/workflow-1.0.0.md`。
+範例格式參考 `doc/worklog/worklog-1.0.0.md`。
 
 ## 核心理念
 
