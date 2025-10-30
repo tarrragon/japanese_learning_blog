@@ -4,15 +4,18 @@ description: 来る - 来、到来（第二個最常用的不規則動詞）
 type: verb
 subtype: irregular
 jlpt: n5
-stage: linking
+stage: completed
 draft: false
 auto_generated: true
-needs_review: true
+needs_review: false
+completed: 2025-10-30
 tags:
   - irregular
   - jlpt/n5
   - domain/movement
   - basic
+created: 2025-10-30
+updated: 2025-10-30
 ---
 # 来る (kuru) - To Come
 
@@ -29,7 +32,7 @@ tags:
 **カ変動詞（Ka-hen Verb）** - 来る変格活用
 - 来る是日文中僅有的兩個不規則動詞之一（另一個是[する](001_suru.md)）
 - 屬於「カ変動詞」，有獨特的活用規則
-- 讀音會根據活用形式改變：く（辞書形）、き（連用形）、こ（未然形）
+- 讀音會根據活用形式改變：く（辞書形）、き（連用形）、こ（未然形）[^conjugation]
 
 ### 活用表（Conjugation Table）
 
@@ -113,7 +116,7 @@ tags:
   - The bus has arrived.
 
 #### 4. 「〜てくる」表示接近
-與て形結合，表示動作朝說話者方向或從過去到現在。
+與[[grammar/001_te_form|て形]]結合，表示動作朝說話者方向或從過去到現在[^tekuru]。
 
 **例句：**
 - 雨が降って**きました**。
@@ -139,18 +142,18 @@ tags:
 
 #### 来る + 助詞組合
 
-1. **〜に来る**（朝目的地來）
+1. **〜に来る**（朝目的地來）[^particle-ni]
    - 日本に**来る** - 來日本
    - 会いに**来る** - 來見面
 
-2. **〜から来る**（從某地來）
+2. **〜から来る**（從某地來）[^particle-kara]
    - 駅から**来る** - 從車站來
    - 外国から**来る** - 從外國來
 
 3. **〜へ来る**（往某方向來）
    - こちらへ**来てください** - 請往這邊來
 
-4. **〜まで来る**（來到某處）
+4. **〜まで来る**（來到某處）[^particle-made]
    - ここまで**来た** - 來到這裡
 
 #### 複合動詞「〜てくる」
@@ -177,9 +180,9 @@ tags:
 | [帰る](../verb-u/011_kaeru\.md) | kaeru | 回 | 回到基點 |
 
 #### 常用表現
-- **お越しになる**（おこしになる）- 來（尊敬語）
-- **いらっしゃる** - 來（尊敬語）
-- **参る**（まいる）- 來（謙讓語）
+- **お越しになる**（おこしになる）- 來（尊敬語）[^honorific]
+- **いらっしゃる** - 來（尊敬語）[^honorific]
+- **参る**（まいる）- 來（謙讓語）[^honorific]
 - **来てもらう** - 請人來
 - **来てくれる** - 幫忙來
 - **来てほしい** - 希望來
@@ -511,6 +514,7 @@ This is one of the most important patterns in Japanese:
 
 ---
 
-**Card Status**: Linking - Adding connections to related cards
+**Card Status**: Completed
 **Priority**: Critical - Core irregular verb
 **Estimated Study Time**: 45-60 minutes
+**Last Updated**: 2025-10-30

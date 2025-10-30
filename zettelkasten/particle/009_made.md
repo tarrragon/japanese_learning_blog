@@ -4,10 +4,11 @@ description: まで - 終點助詞（直到、到...為止）
 type: particle
 subtype: endpoint
 jlpt: n5
-stage: linking
+stage: completed
 draft: false
 auto_generated: true
-needs_review: true
+needs_review: false
+completed: 2025-10-30
 tags:
   - grammar
   - jlpt/n5
@@ -15,6 +16,11 @@ tags:
   - time
   - location
   - basic
+created: 2025-10-30
+updated: 2025-10-30
+related_to: [[particle/004_kara]], [[particle/008_ni]], [[particle/007_wa]]
+generated_cards: [../grammar/031_made_vs_madeni]
+generated_date: 2025-10-30
 ---
 # まで - Until/To/Up To Particle
 
@@ -22,7 +28,7 @@ tags:
 
 ### 基本概念
 
-**まで**是日語中表示「終點」的助詞，用於標示時間、地點、程度或範圍的終點或上限。它的核心意義是「直到...為止」、「到...」，強調某個動作、狀態或範圍持續到某個終點。
+**まで**是日語中表示「終點」的助詞[^particle]，用於標示時間、地點、程度或範圍的終點或上限。它的核心意義是「直到...為止」、「到...」，強調某個動作、狀態或範圍持續到某個終點。
 
 ### 核心用法
 
@@ -49,7 +55,7 @@ tags:
 ```
 
 - **駅まで歩きます** - 走路到車站
-- **東京まで行きます** - 去到東京
+- **東京まで[[verb-u/009_iku|行きます]]** - 去到東京
 - **家まで送ります** - 送到家
 
 #### 3. 程度的極限「到...的程度」
@@ -72,7 +78,7 @@ tags:
 - **ここまで読みました** - 讀到這裡了
 - **これまでの経験** - 到目前為止的經驗
 
-### まで vs までに の區別（重要！）
+### まで vs までに の區別（重要！）[^made-madeni-distinction]
 
 這是學習者最容易混淆的重點：
 
@@ -118,7 +124,7 @@ tags:
 
 ### から〜まで 搭配用法
 
-から（起點）和まで（終點）經常搭配使用，表示從某個起點到某個終點的範圍。
+[[particle/004_kara|から]]（起點）和まで（終點）經常搭配使用，表示從某個起點到某個終點的範圍。
 
 #### 時間範囲
 
@@ -157,7 +163,7 @@ tags:
 
 #### までは（範圍限定）
 
-は是主題助詞，までは表示「到...為止（但不超過）」，帶有限定的語氣。
+[[particle/007_wa|は]]是主題助詞[^topic-particle]，までは表示「到...為止（但不超過）」，帶有限定的語氣。
 
 - **ここまでは読みました** - 到這裡為止我讀了（但還沒讀更多）
 - **駅までは送ります** - 我送到車站為止（但不會送更遠）
@@ -584,3 +590,21 @@ Time + までに + Completion Verb
 2. Focus on まで vs までに distinction with timed exercises
 3. Practice から〜まで patterns for time and location ranges
 4. Create flashcards for common fixed expressions (今まで, これまで, etc.)
+
+---
+
+## Footnotes
+
+[^particle]: **助詞（じょし）Particle** - Japanese grammatical markers that indicate the function of words in a sentence. Particles like まで attach to nouns or phrases to show their grammatical role (endpoint, topic, object, etc.). See related: [[particle/004_kara|から]], [[particle/008_ni|に]], [[particle/007_wa|は]]
+
+[^made-madeni-distinction]: **まで vs までに の重要な違い** - This is one of the most critical distinctions for Japanese learners:
+  - **まで** = continuous action until a time point (until)
+  - **までに** = completion by a deadline (by)
+
+  Example:
+  - 9時まで働く (work until 9) = continue working until 9
+  - 9時までに終わる (finish by 9) = complete before 9
+
+  See: [[grammar/031_made_vs_madeni|まで vs までに 比較]]（待建立）
+
+[^topic-particle]: **主題助詞（しゅだいじょし）Topic Particle** - The particle は (wa) marks the topic or theme of a sentence. When combined with まで to form までは, it emphasizes a limited range: "up to (but not beyond)". See: [[particle/007_wa|は - Topic Particle]]

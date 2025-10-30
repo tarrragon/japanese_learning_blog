@@ -4,10 +4,11 @@ description: ことができる - 能力的表達方式（會做、能做某事�
 type: grammar
 subtype: ability
 jlpt: n5
-stage: linking
+stage: completed
 draft: false
 auto_generated: true
-needs_review: true
+needs_review: false
+completed: 2025-10-30
 tags:
   - grammar
   - jlpt/n5
@@ -22,11 +23,15 @@ tags:
 
 ### 基本概念
 
-「ことができる」は日本語で能力や可能性を表現する基本的な文法パターンです。「〜することができる」という形で、「〜できる」「〜が可能だ」という意味を表します。
+「ことができる」は日本語で能力や可能性を表現する基本的な文法パターンです。「〜することができる」という形で、「〜できる」「〜[[particle/001_ga|が]][^ga]可能だ」という意味を表します。
+
+[^ga]: が（ga）は主語を示す格助詞。「ことができる」パターンの核心構成要素。
 
 ### 構成方式
 
-**基本構造**: 動詞辞書形 + ことができる
+**基本構造**: [[grammar/010_dictionary_form|動詞辞書形]][^dict-form] + ことができる
+
+[^dict-form]: 辞書形（じしょけい）は動詞の基本形で、辞書に載っている形。全ての活用の出発点となる。
 
 | 動詞タイプ | 辞書形 | ことができる形 | 意味 |
 |---------|-------|-------------|-----|
@@ -35,8 +40,8 @@ tags:
 | う動詞 | 書く | 書くことができる | can write |
 | う動詞 | 話す | 話すことができる | can speak |
 | う動詞 | 泳ぐ | 泳ぐことができる | can swim |
-| 不規則 | する | することができる | can do |
-| 不規則 | 来る(くる) | 来ることができる | can come |
+| 不規則 | [[verb-irr/001_suru|する]] | することができる | can do |
+| 不規則 | [[verb-irr/002_kuru|来る(くる)]] | 来ることができる | can come |
 
 ### 核心用法
 
@@ -61,7 +66,9 @@ tags:
 - ここで写真を撮ることができます。(You can take photos here.)
 - 図書館で勉強することができます。(You can study at the library.)
 
-### 丁寧形変化
+### 丁寧形変化[^polite]
+
+[^polite]: [[grammar/007_masu_form|ます形]]を使った丁寧な表現。ビジネスや目上の人との会話で必須。
 
 | 形式 | 例 | 意味 |
 |-----|---|-----|
@@ -92,7 +99,9 @@ tags:
 - 子供の時、速く走ることができた。(I could run fast when I was a child.)
 - 試験に合格することができました。(I was able to pass the exam.)
 
-### ことができる vs 可能形（られる形）の比較
+### ことができる vs [[grammar/011_potential_form|可能形（られる形）]][^potential]の比較
+
+[^potential]: 可能形（かのうけい）は動詞自体に「できる」の意味を含ませる活用形。ことができるより簡潔で日常的。
 
 | 辞書形 | ことができる | 可能形 | 違い |
 |-------|------------|-------|-----|

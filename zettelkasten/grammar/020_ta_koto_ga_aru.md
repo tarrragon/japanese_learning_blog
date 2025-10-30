@@ -4,10 +4,10 @@ description: たことがある - 經驗的表達方式（曾經做過某事）
 type: grammar
 subtype: experience
 jlpt: n5
-stage: linking
+stage: completed
 draft: false
-auto_generated: true
-needs_review: true
+auto_generated: false
+needs_review: false
 tags:
   - grammar
   - jlpt/n5
@@ -485,6 +485,10 @@ Important: 「たことがある」typically does not combine with specific time
 - [を - Object Particle](../particle/002_wo.md) - Marks objects of experience
 - [は - Topic Particle](../particle/006_wa.md) - Marks topics in experience sentences
 - [に - Target/Location Particle](../particle/007_ni.md) - Used with destinations in travel experiences
+
+[^ga-particle]: The が in ことがある is essential to the pattern's structure. It marks こと (the nominalized experience) as the subject of ある (to exist). This creates the meaning "the experience exists."
+
+[^wo-particle]: を marks the direct object of the action being experienced. Example: 寿司を食べたことがある (have eaten sushi) - を marks 寿司 as the object of 食べる.
 
 ### Irregular Verbs (Phase 1)
 - [する - to do](../verb-irr/001_suru.md) - した → したことがある (have done)

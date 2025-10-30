@@ -4,7 +4,7 @@ description: 上げる/あげる - 舉起、給予
 type: verb
 subtype: ru_verb
 jlpt: n5
-stage: linking
+stage: completed
 draft: false
 tags:
   - jlpt/n5
@@ -27,7 +27,7 @@ related_to: [003_ichidan_verb](../grammar/003_ichidan_verb.md), [002_wo](../part
 | 漢字 | 上げる（上昇）/ あげる（授与）|
 | 読み | あげる |
 | 動詞タイプ | 一段動詞（る動詞）|
-| 自他 | 他動詞 |
+| 自他 | 他動詞[^transitive] |
 | JLPT | N5 |
 | 助詞 | を（対象）/ に（受け手）|
 
@@ -113,7 +113,7 @@ related_to: [003_ichidan_verb](../grammar/003_ichidan_verb.md), [002_wo](../part
 
 ### 〜てあげる文型（してあげる）
 
-「〜てあげる」は「相手のために～する」という恩恵の授受を表す重要な文型です。
+「〜てあげる」は「相手のために～する」という恩恵の授受を表す重要な[[grammar/001_te_form|文型]][^te-ageru]です。
 
 #### 基本構文
 - 【私は】【相手に】【動詞て形】+ あげる
@@ -580,7 +580,13 @@ Japanese giving-receiving expressions use three different verbs based on perspec
 
 ## 註解
 
-[^giving-receiving]: **授受表現** - 日文中表達物品或恩惠給予與接受的重要語法系統，包括あげる（給）、もらう（得到）、くれる（給我）三個核心動詞及其衍生形式
+[^ichidan]: **一段動詞（る動詞）** - 日文動詞三大類之一，語尾是「-る」，活用時直接去掉「る」加上各種詞尾。あげる屬於一段動詞，活用規則簡單且規律。詳見 [[grammar/003_ichidan_verb|一段動詞]]。
+
+[^giving-receiving]: **授受表現** - 日文中表達物品或恩惠給予與接受的重要語法系統，包括あげる（我給別人）、[[verb-ru/012_morau|もらう]]（我得到）、[[verb-ru/014_kureru|くれる]]（別人給我）三個核心動詞及其衍生形式（〜てあげる、〜てもらう、〜てくれる）。這個系統體現日文獨特的視角和內外關係概念。
+
+[^transitive]: **他動詞** - 需要受詞的動詞，表示動作施加於對象。あげる是他動詞，需要用を標記給予的對象（如：プレゼントをあげる），並可用に標記接受者（如：友達にプレゼントをあげる）。與自動詞形成對比。
+
+[^te-ageru]: **〜てあげる** - 動詞て形 + あげる，表示「為對方做某事」的恩惠授受句型。詳見 [[grammar/001_te_form|て形文法]]。使用時需注意禮貌和場合，對長輩應使用謙讓語「〜てさしあげる」。
 
 ---
 

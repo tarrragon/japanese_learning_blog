@@ -4,10 +4,10 @@ description: ないでください - 禮貌的否定請求（請不要做某事�
 type: grammar
 subtype: request
 jlpt: n5
-stage: linking
+stage: completed
 draft: false
-auto_generated: true
-needs_review: true
+auto_generated: false
+needs_review: false
 tags:
   - grammar
   - jlpt/n5

@@ -4,10 +4,10 @@ description: 入る - 進入、加入
 type: verb
 subtype: u_verb
 jlpt: n5
-stage: linking
+stage: completed
 draft: false
-auto_generated: true
-needs_review: true
+auto_generated: false
+needs_review: false
 tags:
   - jlpt/n5
   - domain/movement
@@ -103,6 +103,8 @@ related_to: [006_godan_verb](../grammar/006_godan_verb.md), [007_ni](../particle
 **[に](../particle/007_ni.md)助詞の意味**：
 - 目的地・到達点を示す
 - 「入る」と一緒に最もよく使われる助詞
+
+[^2]: **に助詞（Particle ni）**：目的地や到達点を表す助詞。「入る」のような移動動詞と組み合わせて「～に入る」（進入～）という形で使われます。
 
 #### ～を入る
 通過する場所（まれ）：

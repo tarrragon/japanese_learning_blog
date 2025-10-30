@@ -4,10 +4,11 @@ description: 〜ている - 進行式、持續狀態的表達方式
 type: grammar
 subtype: aspect
 jlpt: n5
-stage: linking
+stage: completed
 draft: false
 auto_generated: true
-needs_review: true
+needs_review: false
+completed: 2025-10-30
 tags:
   - grammar
   - jlpt/n5
@@ -27,7 +28,7 @@ tags:
 
 ### 構成方式
 
-**公式：て形 + いる**
+**公式：[[grammar/001_te_form|て形]] + いる**
 
 | 動詞類型 | 辞書形 | て形 | ている形 |
 |---------|--------|------|----------|
@@ -39,14 +40,16 @@ tags:
 | 不規則 | [する](../verb-irr/001_suru\.md) | して | している |
 | 不規則 | [来る](../verb-irr/002_kuru\.md) | 来て | 来ている |
 
-### 丁寧形
+[^polite]: 丁寧形（ていねいけい）はます形を使った丁寧な表現。フォーマルな場面や目上の人との会話で使用。
 | 普通形 | 丁寧形 |
 |--------|--------|
 | 食べている | 食べています |
 | 見ている | 見ています |
 | している | しています |
 
-### 四大核心意義
+### 四大核心意義[^four-meanings]
+
+[^four-meanings]: ている形の意味は動詞の種類によって決まる。動作動詞なら進行、瞬間動詞なら結果状態を表す。
 
 #### 意義 1：動作進行中（Present Progressive）
 
