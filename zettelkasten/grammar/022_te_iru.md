@@ -23,7 +23,7 @@ tags:
 ## 日文
 
 ### 基本概念
-**〜ている**是日語中最重要的文法模式之一，由[[grammar/001_te_form|て形]] + [[verb-irr/003_iru|いる]]構成。它有多重意義，主要表達「動作進行中」或「結果狀態持續」。
+**〜ている**是日語中最重要的文法模式之一，由[て形](001_te_form.md) + [いる](../verb-irr/003_iru.md)構成。它有多重意義，主要表達「動作進行中」或「結果狀態持續」。
 
 ### 構成方式
 
@@ -36,8 +36,8 @@ tags:
 | う動詞 | 行く | 行って | 行っている |
 | う動詞 | 買う | 買って | 買っている |
 | う動詞 | 話す | 話して | 話している |
-| 不規則 | [[verb-irr/001_suru\|する]] | して | している |
-| 不規則 | [[verb-irr/002_kuru\|来る]] | 来て | 来ている |
+| 不規則 | [する](../verb-irr/001_suru\.md) | して | している |
+| 不規則 | [来る](../verb-irr/002_kuru\.md) | 来て | 来ている |
 
 ### 丁寧形
 | 普通形 | 丁寧形 |
@@ -351,8 +351,8 @@ tags:
 | Ru-verb | 見る (see) | 見て | 見ている |
 | U-verb | 行く (go) | 行って | 行っている |
 | U-verb | 買う (buy) | 買って | 買っている |
-| Irregular | [[verb-irr/001_suru|する]] (do) | して | している |
-| Irregular | [[verb-irr/002_kuru|来る]] (come) | 来て | 来ている |
+| Irregular | [する](../verb-irr/001_suru.md) (do) | して | している |
+| Irregular | [来る](../verb-irr/002_kuru.md) (come) | 来て | 来ている |
 
 ### Four Core Meanings
 
@@ -533,8 +533,8 @@ Expresses past ongoing action.
 | 一段動詞 | 見る（看）| 見て | 見ている |
 | 五段動詞 | 行く（去）| 行って | 行っている |
 | 五段動詞 | 買う（買）| 買って | 買っている |
-| 不規則 | [[verb-irr/001_suru|する]]（做）| して | している |
-| 不規則 | [[verb-irr/002_kuru|来る]]（來）| 来て | 来ている |
+| 不規則 | [する](../verb-irr/001_suru.md)（做）| して | している |
+| 不規則 | [来る](../verb-irr/002_kuru.md)（來）| 来て | 来ている |
 
 ### 四大核心意義
 
@@ -683,30 +683,30 @@ Expresses past ongoing action.
 ## Related Cards
 
 ### Grammar Forms
-- [[grammar/001_te_form|て形 - Te-form]]
-- [[grammar/009_ta_form|た形 - Past Form]]
-- [[grammar/007_masu_form|ます形 - Polite Form]]
+- [て形 - Te-form](001_te_form.md)
+- [た形 - Past Form](009_ta_form.md)
+- [ます形 - Polite Form](007_masu_form.md)
 
 ### Phase 1 Particles
-- [[particle/006_wa|は - Topic Marker]]
-- [[particle/001_ga|が - Subject Marker]]
-- [[particle/002_wo|を - Object Marker]]
-- [[particle/007_ni|に - Direction/Location Marker]]
-- [[particle/004_de|で - Location/Means Marker]]
+- [は - Topic Marker](../particle/006_wa.md)
+- [が - Subject Marker](../particle/001_ga.md)
+- [を - Object Marker](../particle/002_wo.md)
+- [に - Direction/Location Marker](../particle/007_ni.md)
+- [で - Location/Means Marker](../particle/004_de.md)
 
 ### Phase 1 Irregular Verbs
-- [[verb-irr/003_iru|いる - to be/exist (animate)]]
-- [[verb-irr/001_suru|する - to do]]
-- [[verb-irr/002_kuru|来る - to come]]
+- [いる - to be/exist (animate)](../verb-irr/003_iru.md)
+- [する - to do](../verb-irr/001_suru.md)
+- [来る - to come](../verb-irr/002_kuru.md)
 
 ### Related Patterns
-- [[grammar/041_te_aru|〜てある - Preparatory State]]（待建立）
-- [[grammar/042_te_iru_tokoro|〜ているところ - In the middle of]]（待建立）
-- [[grammar/043_te_ita|〜ていた - Past Progressive]]（待建立）
+- [〜てある - Preparatory State](041_te_aru.md)（待建立）
+- [〜ているところ - In the middle of](042_te_iru_tokoro.md)（待建立）
+- [〜ていた - Past Progressive](043_te_ita.md)（待建立）
 
 ### Verb Types
-- [[verb-basics/001_action_vs_state|動作動詞 vs 狀態動詞]]（待建立）
-- [[verb-basics/002_instantaneous_verbs|瞬間動詞]]（待建立）
+- [動作動詞 vs 狀態動詞](../verb-basics/001_action_vs_state.md)（待建立）
+- [瞬間動詞](../verb-basics/002_instantaneous_verbs.md)（待建立）
 
 ---
 

@@ -13,12 +13,12 @@ tags:
   - potential
   - basic
 created: 2025-10-29
-related_to: [[verb-ru/003_miru]], [[grammar/003_ichidan_verb]], [[particle/001_ga]]
+related_to: [003_miru](003_miru.md), [003_ichidan_verb](../grammar/003_ichidan_verb.md), [001_ga](../particle/001_ga.md)
 ---
 ## 日文
 見える（みえる）
 
-視覚に関する重要な[[grammar/003_ichidan_verb|一段動詞]]で、「自然に見える・見ることができる」という意味を表します。[[verb-ru/003_miru|見る]]の可能形「見られる」とは異なり、自発的・自然な視覚現象を表現します。N4レベルの重要動詞で、物理的な視認性だけでなく、「～に見える（～のように見える）」という外見や印象を表す用法も重要です。
+視覚に関する重要な[一段動詞](../grammar/003_ichidan_verb.md)で、「自然に見える・見ることができる」という意味を表します。[見る](003_miru.md)の可能形「見られる」とは異なり、自発的・自然な視覚現象を表現します。N4レベルの重要動詞で、物理的な視認性だけでなく、「～に見える（～のように見える）」という外見や印象を表す用法も重要です。
 
 ### 動詞情報
 
@@ -90,7 +90,7 @@ related_to: [[verb-ru/003_miru]], [[grammar/003_ichidan_verb]], [[particle/001_g
 - 富士山が見られる（有機會看到富士山 - 特別な機会）
 
 **特徴**：
-- [[verb-ru/003_miru|見る]]の可能形
+- [見る](003_miru.md)の可能形
 - 能力・機会・許可
 - 意志的な行為の可能性
 - 「can watch/able to see」に近い
@@ -138,7 +138,7 @@ related_to: [[verb-ru/003_miru]], [[grammar/003_ichidan_verb]], [[particle/001_g
 
 | 動詞 | 自他 | 意志性 | 助詞 | 意味 | 例 |
 |------|------|--------|------|------|-----|
-| [[verb-ru/003_miru|見る]] | 他動詞 | 意志的 | を | 看（主動） | 映画**を見る** |
+| [見る](003_miru.md) | 他動詞 | 意志的 | を | 看（主動） | 映画**を見る** |
 | 見える | 自動詞 | 非意志的 | が | 看得見（自然） | 富士山**が見える** |
 
 **違いのポイント**：
@@ -349,7 +349,7 @@ Potential form of 見る. Ability, opportunity, or permission to see/watch:
 - 富士山が見られる (can see Mt. Fuji - special opportunity)
 
 **Characteristics**:
-- Potential form of [[verb-ru/003_miru|見る]]
+- Potential form of [見る](003_miru.md)
 - Ability, opportunity, permission
 - Potentiality of volitional action
 - Close to "can watch/able to see"
@@ -397,7 +397,7 @@ Speculation/judgment:
 
 | Verb | Trans. | Volition | Particle | Meaning | Example |
 |------|--------|----------|----------|---------|---------|
-| [[verb-ru/003_miru|見る]] | Trans. | Volitional | を | to see (active) | 映画**を見る** |
+| [見る](003_miru.md) | Trans. | Volitional | を | to see (active) | 映画**を見る** |
 | 見える | Intrans. | Non-volitional | が | to be visible (natural) | 富士山**が見える** |
 
 **Key Differences**:
@@ -546,7 +546,7 @@ Remembering these patterns is important.
 ## 中文
 見える（看得見、可見、似乎）
 
-與視覺相關的重要一段動詞，表示「自然能見、能夠看到」的意思。與[[verb-ru/003_miru|見る]]的可能形「見られる」不同，表達自發性、自然的視覺現象。N4 級別的重要動詞，不僅用於物理上的可視性，「～に見える（看起來像～）」這種表達外觀或印象的用法也很重要。
+與視覺相關的重要一段動詞，表示「自然能見、能夠看到」的意思。與[見る](003_miru.md)的可能形「見られる」不同，表達自發性、自然的視覺現象。N4 級別的重要動詞，不僅用於物理上的可視性，「～に見える（看起來像～）」這種表達外觀或印象的用法也很重要。
 
 ### 動詞資訊
 
@@ -618,7 +618,7 @@ Remembering these patterns is important.
 - 富士山が見られる（能看到富士山 - 特別的機會）
 
 **特徵**：
-- [[verb-ru/003_miru|見る]]的可能形
+- [見る](003_miru.md)的可能形
 - 能力、機會、許可
 - 意志性行為的可能性
 - 接近「can watch/able to see」
@@ -666,7 +666,7 @@ Remembering these patterns is important.
 
 | 動詞 | 自他 | 意志性 | 助詞 | 意思 | 例句 |
 |------|------|--------|------|------|------|
-| [[verb-ru/003_miru|見る]] | 他動詞 | 有意志 | を | 看（主動） | 映画**を見る** |
+| [見る](003_miru.md) | 他動詞 | 有意志 | を | 看（主動） | 映画**を見る** |
 | 見える | 自動詞 | 無意志 | が | 看得見（自然） | 富士山**が見える** |
 
 **區別要點**：
@@ -1041,21 +1041,21 @@ Remembering these patterns is important.
 ## 相關連結
 
 ### 基礎動詞
-- [[verb-ru/003_miru|見る]] - 看、觀看（他動詞）
-- [[verb-ru/001_taberu|食べる]] - 吃（一段動詞範例）
+- [見る](003_miru.md) - 看、觀看（他動詞）
+- [食べる](001_taberu.md) - 吃（一段動詞範例）
 
 ### 動詞類型
-- [[grammar/003_ichidan_verb|一段動詞]] - 見える是一段動詞
+- [一段動詞](../grammar/003_ichidan_verb.md) - 見える是一段動詞
 
 ### 相關助詞
-- [[particle/001_ga|が]] - 見える的主要助詞（自動詞）
-- [[particle/007_ni|に]] - ～に見える（看起來像～）句型使用
-- [[particle/002_wo|を]] - 見る使用（對比）
+- [が](../particle/001_ga.md) - 見える的主要助詞（自動詞）
+- [に](../particle/007_ni.md) - ～に見える（看起來像～）句型使用
+- [を](../particle/002_wo.md) - 見る使用（對比）
 
 ### 相關文法
-- [[grammar/007_masu_form|ます形]] - 見えます的用法
-- [[grammar/001_te_form|て形文法]] - 見えて的用法
-- [[grammar/011_potential_form|可能形]]（待建立） - 與見られる的對比
+- [ます形](../grammar/007_masu_form.md) - 見えます的用法
+- [て形文法](../grammar/001_te_form.md) - 見えて的用法
+- [可能形](../grammar/011_potential_form.md)（待建立） - 與見られる的對比
 
 ### 相關概念
 - 自動詞 vs 他動詞（待建立）

@@ -13,12 +13,12 @@ tags:
   - 授受表現
   - basic
 created: 2025-10-29
-related_to: [[grammar/003_ichidan_verb]], [[particle/002_wo]], [[particle/007_ni]]
+related_to: [003_ichidan_verb](../grammar/003_ichidan_verb.md), [002_wo](../particle/002_wo.md), [007_ni](../particle/007_ni.md)
 ---
 ## 日文
 上げる/あげる（あげる）
 
-日本語で最も重要な動詞の一つで、「上昇」と「授与」という二つの核心的な意味を持つ[[grammar/003_ichidan_verb|一段動詞]]。特に「あげる・もらう・くれる」の授受表現[^giving-receiving]の中心的な動詞として、N5レベルで必ず習得すべき基本動詞です。意味によって漢字表記（上げる）とひらがな表記（あげる）を使い分けることが重要です。
+日本語で最も重要な動詞の一つで、「上昇」と「授与」という二つの核心的な意味を持つ[一段動詞](../grammar/003_ichidan_verb.md)。特に「あげる・もらう・くれる」の授受表現[^giving-receiving]の中心的な動詞として、N5レベルで必ず習得すべき基本動詞です。意味によって漢字表記（上げる）とひらがな表記（あげる）を使い分けることが重要です。
 
 ### 動詞情報
 
@@ -165,7 +165,7 @@ related_to: [[grammar/003_ichidan_verb]], [[particle/002_wo]], [[particle/007_ni
 ## English
 ageru (to raise, to lift / to give)
 
-One of the most important verbs in Japanese, an [[grammar/003_ichidan_verb|ichidan verb]] with two core meanings: "elevation" and "giving." It is a central verb in the giving-receiving expressions[^giving-receiving] system (ageru-morau-kureru) and is an essential basic verb that must be mastered at the N5 level. It's important to distinguish between kanji notation (上げる) and hiragana notation (あげる) depending on the meaning.
+One of the most important verbs in Japanese, an [ichidan verb](../grammar/003_ichidan_verb.md) with two core meanings: "elevation" and "giving." It is a central verb in the giving-receiving expressions[^giving-receiving] system (ageru-morau-kureru) and is an essential basic verb that must be mastered at the N5 level. It's important to distinguish between kanji notation (上げる) and hiragana notation (あげる) depending on the meaning.
 
 ### Verb Information
 
@@ -587,23 +587,23 @@ Japanese giving-receiving expressions use three different verbs based on perspec
 ## 相關連結
 
 ### 授受動詞（待建立）
-- [[verb-ru/014_morau|もらう]] - 得到、收到（接受方視角）
-- [[verb-ru/015_kureru|くれる]] - 給予（給我方視角）
+- [もらう](014_morau.md) - 得到、收到（接受方視角）
+- [くれる](015_kureru.md) - 給予（給我方視角）
 
 ### 動詞基礎
-- [[grammar/003_ichidan_verb|一段動詞]] - 一段動詞的完整說明
+- [一段動詞](../grammar/003_ichidan_verb.md) - 一段動詞的完整說明
 
 ### 相關助詞
-- [[particle/002_wo|を]] - を助詞（對象標記）
-- [[particle/007_ni|に]] - に助詞（接受者標記）
-- [[particle/003_kara|から]] - から助詞（來源標記，用於もらう）
-- [[particle/006_wa|は]] - は助詞（主題標記）
+- [を](../particle/002_wo.md) - を助詞（對象標記）
+- [に](../particle/007_ni.md) - に助詞（接受者標記）
+- [から](../particle/003_kara.md) - から助詞（來源標記，用於もらう）
+- [は](../particle/006_wa.md) - は助詞（主題標記）
 
 ### 相關文法
-- [[grammar/001_te_form|て形文法]] - 〜てあげる的用法
-- [[grammar/007_masu_form|ます形]] - あげます的用法
-- [[grammar/009_ta_form|た形]] - あげた的用法
+- [て形文法](../grammar/001_te_form.md) - 〜てあげる的用法
+- [ます形](../grammar/007_masu_form.md) - あげます的用法
+- [た形](../grammar/009_ta_form.md) - あげた的用法
 
 ### 相關概念
-- [[grammar/giving_receiving|授受表現]]（待建立） - 完整的授受表現說明
-- [[honorific/002_sashiageru|さしあげる]]（待建立） - あげる的謙讓語
+- [授受表現](../grammar/giving_receiving.md)（待建立） - 完整的授受表現說明
+- [さしあげる](../honorific/002_sashiageru.md)（待建立） - あげる的謙讓語

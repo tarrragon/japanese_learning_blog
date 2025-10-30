@@ -100,7 +100,7 @@ tags:
 - **ないで：** 静かにしないで、話した（沒有保持安靜，而是說話了）→ 陳述事實
 - **ないでください：** 静かにしないでください（請不要保持安靜）→ 請求
 
-詳細說明請參考 → [[grammar/023_naide_kudasai|〜ないでください - Negative Request]]
+詳細說明請參考 → [〜ないでください - Negative Request](023_naide_kudasai.md)
 
 ### 與「ずに」的比較（書面語）
 
@@ -449,23 +449,23 @@ In daily conversation, using ずに sounds overly formal or stiff.
 ## Related Cards
 
 **Grammar Patterns:**
-- [[grammar/008_nai_form|ない形 - Negative Form]] - Foundation for ないで pattern
-- [[grammar/001_te_form|て形 - Te-form]] - Positive equivalent for sequential actions
-- [[grammar/023_naide_kudasai|〜ないでください - Negative Request]] - Closely related negative request pattern
-- [[grammar/045_nakute|〜なくて - Negative Te-form]]（待建立）
-- [[grammar/046_zuni|〜ずに - Without doing (formal)]]（待建立）
+- [ない形 - Negative Form](008_nai_form.md) - Foundation for ないで pattern
+- [て形 - Te-form](001_te_form.md) - Positive equivalent for sequential actions
+- [〜ないでください - Negative Request](023_naide_kudasai.md) - Closely related negative request pattern
+- [〜なくて - Negative Te-form](045_nakute.md)（待建立）
+- [〜ずに - Without doing (formal)](046_zuni.md)（待建立）
 
 **Phase 1 Particles:**
-- [[particle/006_wa|は - Topic Marker]] - Basic sentence structure
-- [[particle/007_ni|に - Direction/Location/Time]] - Location and direction marker
-- [[particle/004_de|で - Means/Location]] - Means and location of action
-- [[particle/002_wo|を - Object Marker]] - Direct object marker
-- [[particle/001_ga|が - Subject Marker]] - Subject marker
+- [は - Topic Marker](../particle/006_wa.md) - Basic sentence structure
+- [に - Direction/Location/Time](../particle/007_ni.md) - Location and direction marker
+- [で - Means/Location](../particle/004_de.md) - Means and location of action
+- [を - Object Marker](../particle/002_wo.md) - Direct object marker
+- [が - Subject Marker](../particle/001_ga.md) - Subject marker
 
 **Phase 1 Irregular Verbs:**
-- [[verb-irr/001_suru|する - To do]] - する → しないで (without doing)
-- [[verb-irr/002_kuru|来る - To come]] - 来る → 来ないで (without coming)
-- [[verb-irr/003_iru|いる - To exist (animate)]] - いる → いないで (without being present)
+- [する - To do](../verb-irr/001_suru.md) - する → しないで (without doing)
+- [来る - To come](../verb-irr/002_kuru.md) - 来る → 来ないで (without coming)
+- [いる - To exist (animate)](../verb-irr/003_iru.md) - いる → いないで (without being present)
 
 ---
 

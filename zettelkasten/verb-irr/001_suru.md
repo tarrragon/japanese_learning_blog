@@ -10,12 +10,12 @@ auto_generated: true
 needs_review: true
 tags: [irregular, jlpt/n5, basic]
 created: 2025-10-28
-related_to: [[verb-irr/002_kuru]], [[verb-irr/003_iru]], [[particle/006_wa]], [[particle/007_ni]], [[honorific/004_nasaru_itasu]]
+related_to: [002_kuru](002_kuru.md), [003_iru](003_iru.md), [006_wa](../particle/006_wa.md), [007_ni](../particle/007_ni.md), [004_nasaru_itasu](../honorific/004_nasaru_itasu.md)
 ---
 ## 日文
 する
 
-日本語で最も重要で多様な動詞の一つ。[[verb-irr/002_kuru|来る]]と並んで、日本語にたった二つしかない真の不規則動詞です。N5レベルで最初に学ぶ基本動詞で、極めて高い使用頻度を持ち、様々な文脈で使われます。名詞と結合して新しい動詞を作る「サ変動詞」（サ行変格活用動詞）のシステムの基礎となります。
+日本語で最も重要で多様な動詞の一つ。[来る](002_kuru.md)と並んで、日本語にたった二つしかない真の不規則動詞です。N5レベルで最初に学ぶ基本動詞で、極めて高い使用頻度を持ち、様々な文脈で使われます。名詞と結合して新しい動詞を作る「サ変動詞」（サ行変格活用動詞）のシステムの基礎となります。
 
 ### 動詞情報
 
@@ -52,7 +52,7 @@ related_to: [[verb-irr/002_kuru]], [[verb-irr/003_iru]], [[particle/006_wa]], [[
 - 可能形：**できる**（完全に別の動詞）
 - 命令形：しろ / せよ（二つの形）
 
-**注意**：するは[[grammar/006_godan_verb|五段動詞]]でも[[grammar/003_ichidan_verb|一段動詞]]でもない完全な不規則動詞です。
+**注意**：するは[五段動詞](../grammar/006_godan_verb.md)でも[一段動詞](../grammar/003_ichidan_verb.md)でもない完全な不規則動詞です。
 
 ### サ変動詞システム
 
@@ -195,10 +195,10 @@ related_to: [[verb-irr/002_kuru]], [[verb-irr/003_iru]], [[particle/006_wa]], [[
 
 | 形 | 動詞 | 例 |
 |----|------|-----|
-| **尊敬語** | [[honorific/004_nasaru_itasu\|なさる]] | 何をなさいますか |
-| **謙譲語** | [[honorific/004_nasaru_itasu\|いたす]] | お手伝いいたします |
+| **尊敬語** | [なさる](../honorific/004_nasaru_itasu\.md) | 何をなさいますか |
+| **謙譲語** | [いたす](../honorific/004_nasaru_itasu\.md) | お手伝いいたします |
 
-これらは[[honorific/004_nasaru_itasu|敬語カード]]で詳しく学習します。
+これらは[敬語カード](../honorific/004_nasaru_itasu.md)で詳しく学習します。
 
 ### よく使う慣用表現
 
@@ -220,7 +220,7 @@ related_to: [[verb-irr/002_kuru]], [[verb-irr/003_iru]], [[particle/006_wa]], [[
 ## English
 suru (to do, to make)
 
-One of the most important and versatile verbs in Japanese. Along with [[verb-irr/002_kuru|kuru (来る)]], it is one of only two truly irregular verbs in Japanese. A fundamental N5 level verb learned first, with extremely high frequency of use across various contexts. It forms the basis of the "suru-verb" (sa-hen verb) system, which combines with nouns to create new verbs.
+One of the most important and versatile verbs in Japanese. Along with [kuru (来る)](002_kuru.md), it is one of only two truly irregular verbs in Japanese. A fundamental N5 level verb learned first, with extremely high frequency of use across various contexts. It forms the basis of the "suru-verb" (sa-hen verb) system, which combines with nouns to create new verbs.
 
 ### Verb Information
 
@@ -400,10 +400,10 @@ Suru has special honorific forms:
 
 | Type | Verb | Example |
 |------|------|---------|
-| **Respectful** | [[honorific/004_nasaru_itasu\|nasaru]] | 何をなさいますか (what will you do - respectful) |
-| **Humble** | [[honorific/004_nasaru_itasu\|itasu]] | お手伝いいたします (I will help - humble) |
+| **Respectful** | [nasaru](../honorific/004_nasaru_itasu\.md) | 何をなさいますか (what will you do - respectful) |
+| **Humble** | [itasu](../honorific/004_nasaru_itasu\.md) | お手伝いいたします (I will help - humble) |
 
-These are studied in detail in the [[honorific/004_nasaru_itasu|honorific card]].
+These are studied in detail in the [honorific card](../honorific/004_nasaru_itasu.md).
 
 ### Common Idiomatic Expressions
 
@@ -425,7 +425,7 @@ Can't be helped:
 ## 中文解釋
 する（做、進行）
 
-日語中最重要且用途最廣泛的動詞之一。與[[verb-irr/002_kuru|來る（くる）]]並列，是日語中僅有的兩個真正的不規則動詞。作為N5級別首先學習的基本動詞，使用頻率極高，在各種語境中都會使用。它構成了「サ變動詞」（サ行變格活用動詞）系統的基礎，可以與名詞結合創造新的動詞。
+日語中最重要且用途最廣泛的動詞之一。與[來る（くる）](002_kuru.md)並列，是日語中僅有的兩個真正的不規則動詞。作為N5級別首先學習的基本動詞，使用頻率極高，在各種語境中都會使用。它構成了「サ變動詞」（サ行變格活用動詞）系統的基礎，可以與名詞結合創造新的動詞。
 
 ### 動詞資訊
 
@@ -605,10 +605,10 @@ Can't be helped:
 
 | 類型 | 動詞 | 例子 |
 |------|------|------|
-| **尊敬語** | [[honorific/004_nasaru_itasu\|なさる]] | 何をなさいますか（您要做什麼 - 尊敬）|
-| **謙讓語** | [[honorific/004_nasaru_itasu\|いたす]] | お手伝いいたします（我來幫忙 - 謙讓）|
+| **尊敬語** | [なさる](../honorific/004_nasaru_itasu\.md) | 何をなさいますか（您要做什麼 - 尊敬）|
+| **謙讓語** | [いたす](../honorific/004_nasaru_itasu\.md) | お手伝いいたします（我來幫忙 - 謙讓）|
 
-這些在[[honorific/004_nasaru_itasu|敬語卡片]]中有詳細學習。
+這些在[敬語卡片](../honorific/004_nasaru_itasu.md)中有詳細學習。
 
 ### 常用慣用表達
 
@@ -786,31 +786,31 @@ Can't be helped:
 ## 相關連結
 
 ### 動詞類型
-- [[grammar/006_godan_verb|五段動詞]] - 對比：する不是五段動詞
-- [[grammar/003_ichidan_verb|一段動詞]] - 對比：する不是一段動詞
-- [[verb-irr/002_kuru|來る（くる）]] - 另一個不規則動詞
-- [[verb-irr/003_iru|いる]] - 存在動詞（不規則變化）
+- [五段動詞](../grammar/006_godan_verb.md) - 對比：する不是五段動詞
+- [一段動詞](../grammar/003_ichidan_verb.md) - 對比：する不是一段動詞
+- [來る（くる）](002_kuru.md) - 另一個不規則動詞
+- [いる](003_iru.md) - 存在動詞（不規則變化）
 
 ### 敬語形式
-- [[honorific/004_nasaru_itasu|なさる・いたす]] - する的敬語形式
+- [なさる・いたす](../honorific/004_nasaru_itasu.md) - する的敬語形式
 
 ### 相關文法
-- [[grammar/007_masu_form|ます形]] - します的用法
-- [[grammar/001_te_form|て形文法]] - して的用法
-- [[grammar/009_ta_form|た形]] - した的用法
-- [[grammar/008_nai_form|ない形]] - しない的用法
-- [[grammar/011_potential_form|可能形]] - できる的用法
-- [[grammar/016_tai_form|たい形]] - したい的用法（想要做...）
-- [[grammar/027_koto_ga_dekiru|ことができる]] - することができる的用法（能夠...）
-- [[grammar/022_naide|ないで]] - しないで的用法（不...而...）
-- [[grammar/023_naide_kudasai|ないでください]] - しないでください的用法（請不要...）
-- [[grammar/024_ta_koto_ga_aru|たことがある]] - したことがある的用法（曾經做過...）
+- [ます形](../grammar/007_masu_form.md) - します的用法
+- [て形文法](../grammar/001_te_form.md) - して的用法
+- [た形](../grammar/009_ta_form.md) - した的用法
+- [ない形](../grammar/008_nai_form.md) - しない的用法
+- [可能形](../grammar/011_potential_form.md) - できる的用法
+- [たい形](../grammar/016_tai_form.md) - したい的用法（想要做...）
+- [ことができる](../grammar/027_koto_ga_dekiru.md) - することができる的用法（能夠...）
+- [ないで](../grammar/022_naide.md) - しないで的用法（不...而...）
+- [ないでください](../grammar/023_naide_kudasai.md) - しないでください的用法（請不要...）
+- [たことがある](../grammar/024_ta_koto_ga_aru.md) - したことがある的用法（曾經做過...）
 
 ### 相關助詞
-- [[particle/006_wa|は]] - 主題標記助詞
-- [[particle/007_ni|に]] - ～にする的用法
-- [[particle/002_wo|を]] - する常用的助詞
+- [は](../particle/006_wa.md) - 主題標記助詞
+- [に](../particle/007_ni.md) - ～にする的用法
+- [を](../particle/002_wo.md) - する常用的助詞
 
 ### 其他相關主題
 - サ変動詞系統：本文中已列舉大量常見的「名詞＋する」動詞（勉強する、料理する、掃除する等）
-- [[grammar/038_te_iru|ている形]] - している的用法（正在做...）
+- [ている形](../grammar/038_te_iru.md) - している的用法（正在做...）

@@ -16,7 +16,7 @@ tags:
 ## 日文
 思う（おもう）
 
-主観的な考えや感情を表す基本的な[[grammar/006_godan_verb|五段動詞]]。N5レベルで学ぶ最重要動詞の一つで、日常会話で非常に頻繁に使用されます。意見、感想、直感的な判断を表現する際に不可欠な動詞です。[[verb-ru/009_kangaeru|考える]]との使い分けが学習の重要ポイントです。
+主観的な考えや感情を表す基本的な[五段動詞](../grammar/006_godan_verb.md)。N5レベルで学ぶ最重要動詞の一つで、日常会話で非常に頻繁に使用されます。意見、感想、直感的な判断を表現する際に不可欠な動詞です。[考える](../verb-ru/009_kangaeru.md)との使い分けが学習の重要ポイントです。
 
 ### 動詞情報
 
@@ -83,7 +83,7 @@ tags:
 - **例**：この映画は面白いと**思う**（直感的感想）
 - **例**：明日は雨だと**思う**（推測・予感）
 
-#### [[verb-ru/009_kangaeru|考える]]
+#### [考える](../verb-ru/009_kangaeru.md)
 - **性質**：理性的、論理的、意識的
 - **プロセス**：時間をかけて思考する
 - **時間**：継続的な思考活動
@@ -160,7 +160,7 @@ tags:
 ## English
 omou (to think, to feel, to believe, to recall)
 
-A basic godan verb expressing subjective thoughts and feelings. One of the most important N5 level verbs, used very frequently in daily conversation. Essential for expressing opinions, impressions, and intuitive judgments. Distinguishing it from [[verb-ru/009_kangaeru|kangaeru]] (to think rationally) is a crucial learning point.
+A basic godan verb expressing subjective thoughts and feelings. One of the most important N5 level verbs, used very frequently in daily conversation. Essential for expressing opinions, impressions, and intuitive judgments. Distinguishing it from [kangaeru](../verb-ru/009_kangaeru.md) (to think rationally) is a crucial learning point.
 
 ### Verb Information
 
@@ -215,7 +215,7 @@ Expressing intention or plan:
 - やってみようと思う (planning to try)
 - 勉強しようと思う (intend to study)
 
-### Difference: 思う vs [[verb-ru/009_kangaeru|考える]] (Critical)
+### Difference: 思う vs [考える](../verb-ru/009_kangaeru.md) (Critical)
 
 This distinction is extremely important in Japanese learning.
 
@@ -227,7 +227,7 @@ This distinction is extremely important in Japanese learning.
 - **Example**: この映画は面白いと**思う** (intuitive impression)
 - **Example**: 明日は雨だと**思う** (guess/premonition)
 
-#### [[verb-ru/009_kangaeru|考える]] (kangaeru)
+#### [考える](../verb-ru/009_kangaeru.md) (kangaeru)
 - **Nature**: Rational, logical, conscious
 - **Process**: Takes time to think
 - **Time**: Continuous thinking activity
@@ -304,7 +304,7 @@ Firmly believe:
 ## 中文解釋
 思う（おもう）想、覺得、認為
 
-表示主觀想法和感情的基本五段動詞。N5 級別學習的最重要動詞之一，在日常對話中非常頻繁使用。表達意見、感想、直覺判斷時不可或缺的動詞。與[[verb-ru/009_kangaeru|考える]]的區別是學習的重要要點。
+表示主觀想法和感情的基本五段動詞。N5 級別學習的最重要動詞之一，在日常對話中非常頻繁使用。表達意見、感想、直覺判斷時不可或缺的動詞。與[考える](../verb-ru/009_kangaeru.md)的區別是學習的重要要點。
 
 ### 動詞資訊
 
@@ -359,7 +359,7 @@ Firmly believe:
 - やってみようと思う（打算試試看）
 - 勉強しようと思う（打算學習）
 
-### 思う 與 [[verb-ru/009_kangaeru|考える]] 的區別（最重要）
+### 思う 與 [考える](../verb-ru/009_kangaeru.md) 的區別（最重要）
 
 這個區別在日語學習中非常重要。
 
@@ -371,7 +371,7 @@ Firmly believe:
 - **例**：この映画は面白いと**思う**（直覺感想）
 - **例**：明日は雨だと**思う**（推測、預感）
 
-#### [[verb-ru/009_kangaeru|考える]]
+#### [考える](../verb-ru/009_kangaeru.md)
 - **性質**：理性的、邏輯的、有意識
 - **過程**：花時間思考
 - **時間**：持續的思考活動
@@ -750,20 +750,20 @@ Firmly believe:
 ## 相關連結
 
 ### 動詞基礎
-- [[grammar/006_godan_verb|五段動詞]] - 思う是う型五段動詞
+- [五段動詞](../grammar/006_godan_verb.md) - 思う是う型五段動詞
 
 ### 對比動詞
-- [[verb-ru/009_kangaeru|考える]] - 理性思考（最重要對比）
+- [考える](../verb-ru/009_kangaeru.md) - 理性思考（最重要對比）
 
 ### 相關助詞
-- [[particle/005_to|と]] - 引用助詞（と思う的核心）
-- [[particle/002_wo|を]] - を助詞（思い出す等用法）
-- [[particle/007_ni|に]] - に助詞（不思議に思う等感覺表達）
-- [[particle/006_wa|は]] - は助詞（主題標記）
+- [と](../particle/005_to.md) - 引用助詞（と思う的核心）
+- [を](../particle/002_wo.md) - を助詞（思い出す等用法）
+- [に](../particle/007_ni.md) - に助詞（不思議に思う等感覺表達）
+- [は](../particle/006_wa.md) - は助詞（主題標記）
 
 ### 相關文法
-- [[grammar/007_masu_form|ます形]] - 思います的用法
-- [[grammar/001_te_form|て形文法]] - 思って的用法
+- [ます形](../grammar/007_masu_form.md) - 思います的用法
+- [て形文法](../grammar/001_te_form.md) - 思って的用法
 - 意向形（待建立） - ～ようと思う的用法
 
 ### 相關概念

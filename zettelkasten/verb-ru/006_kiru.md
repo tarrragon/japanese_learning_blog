@@ -11,12 +11,12 @@ needs_review: false
 completed: 2025-10-28
 tags: [basic, domain/daily_life, clothing]
 created: 2025-10-28
-related_to: [[grammar/003_ichidan_verb]], [[particle/002_wo]]
+related_to: [003_ichidan_verb](../grammar/003_ichidan_verb.md), [002_wo](../particle/002_wo.md)
 ---
 ## 日文
 着る（きる）
 
-衣服を身につける動作を表す基本的な[[grammar/003_ichidan_verb|一段動詞]]。N5レベルで必ず学ぶ重要な動詞で、日常生活で非常に頻繁に使用されます。上半身の衣服に使う動詞として「はく」「かぶる」と区別して覚える必要があります。
+衣服を身につける動作を表す基本的な[一段動詞](../grammar/003_ichidan_verb.md)。N5レベルで必ず学ぶ重要な動詞で、日常生活で非常に頻繁に使用されます。上半身の衣服に使う動詞として「はく」「かぶる」と区別して覚える必要があります。
 
 ### 動詞情報
 
@@ -264,16 +264,16 @@ Used in specific expressions:
 ## 相關連結
 
 ### 動詞基礎
-- [[grammar/003_ichidan_verb|一段動詞]] - 一段動詞的完整說明
-- [[verb-ru/001_taberu|食べる]] - 同類型一段動詞
+- [一段動詞](../grammar/003_ichidan_verb.md) - 一段動詞的完整說明
+- [食べる](001_taberu.md) - 同類型一段動詞
 
 ### 相關助詞
-- [[particle/002_wo|を]] - を助詞（對象標記）
+- [を](../particle/002_wo.md) - を助詞（對象標記）
 
 ### 相關文法
-- [[grammar/007_masu_form|ます形]]（待建立） - 着ます的用法
-- [[grammar/001_te_form|て形文法]] - 着て的用法
+- [ます形](../grammar/007_masu_form.md)（待建立） - 着ます的用法
+- [て形文法](../grammar/001_te_form.md) - 着て的用法
 
 ### 相關動詞
-- [[verb-u/015_haku|履く]]（待建立） - 穿（下半身衣物）
-- [[verb-u/016_nugu|脱ぐ]]（待建立） - 脫（衣服）
+- [履く](../verb-u/015_haku.md)（待建立） - 穿（下半身衣物）
+- [脱ぐ](../verb-u/016_nugu.md)（待建立） - 脫（衣服）

@@ -548,22 +548,22 @@ Time + までに + Completion Verb
 ## Related Cards
 
 ### Particle Cards
-- [[particle/003_kara|から - From/Since Particle]] - Starting point particle, often paired with まで
-- [[particle/007_ni|に - At/To/In Particle]] - Time and location marker, compare with まで's endpoint meaning
-- [[particle/006_wa|は - Topic Particle]] - Used with まで to form までは (limited range)
+- [から - From/Since Particle](003_kara.md) - Starting point particle, often paired with まで
+- [に - At/To/In Particle](007_ni.md) - Time and location marker, compare with まで's endpoint meaning
+- [は - Topic Particle](006_wa.md) - Used with まで to form までは (limited range)
 
 ### Related Grammar
-- [[particle/005_made_madeni|まで vs までに 比較]]（待建立）- Detailed comparison of まで and までに
-- [[time-expressions/001_time_duration|時間の長さと継続]]（待建立）- Time duration and continuation expressions
-- [[time-expressions/002_deadlines|期限表現]]（待建立）- Deadline expressions with までに
+- [まで vs までに 比較](005_made_madeni.md)（待建立）- Detailed comparison of まで and までに
+- [時間の長さと継続](../time-expressions/001_time_duration.md)（待建立）- Time duration and continuation expressions
+- [期限表現](../time-expressions/002_deadlines.md)（待建立）- Deadline expressions with までに
 
 ### Verb Combinations
-- [[verb-combo/001_made_verbs|までと動詞の組み合わせ]]（待建立）- Common verbs used with まで
-- [[verb-combo/002_madeni_verbs|までに と動詞の組み合わせ]]（待建立）- Common verbs used with までに
+- [までと動詞の組み合わせ](../verb-combo/001_made_verbs.md)（待建立）- Common verbs used with まで
+- [までに と動詞の組み合わせ](../verb-combo/002_madeni_verbs.md)（待建立）- Common verbs used with までに
 
 ### Related Concepts
-- [[concepts/time-point-vs-duration|時点 vs 時間の長さ]]（待建立）- Time point vs time duration
-- [[concepts/continuous-vs-completion|継続動作 vs 完了動作]]（待建立）- Continuous vs completion actions
+- [時点 vs 時間の長さ](../concepts/time-point-vs-duration.md)（待建立）- Time point vs time duration
+- [継続動作 vs 完了動作](../concepts/continuous-vs-completion.md)（待建立）- Continuous vs completion actions
 
 ---
 

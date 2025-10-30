@@ -11,12 +11,12 @@ needs_review: false
 completed: 2025-10-28
 tags: [basic, domain/perception]
 created: 2025-10-28
-related_to: [[grammar/003_ichidan_verb]], [[particle/002_wo]]
+related_to: [003_ichidan_verb](../grammar/003_ichidan_verb.md), [002_wo](../particle/002_wo.md)
 ---
 ## 日文
 見る（みる）
 
-基本的な視覚動詞。目で対象を認識する動作を表します。N5レベルで最も重要な動詞の一つで、日常会話で頻繁に使用されます。[[grammar/003_ichidan_verb|一段動詞]]（る動詞）の代表的な例としても学習されます。
+基本的な視覚動詞。目で対象を認識する動作を表します。N5レベルで最も重要な動詞の一つで、日常会話で頻繁に使用されます。[一段動詞](../grammar/003_ichidan_verb.md)（る動詞）の代表的な例としても学習されます。
 
 ### 動詞情報
 
@@ -229,11 +229,11 @@ A basic verb of visual perception. It expresses the action of recognizing object
 | 動詞 | 意思 | 主動性 | 例句 |
 |------|------|--------|------|
 | **見る** | 看（主動） | 主動看 | 映画を見る（去看電影） |
-| **[[verb-ru/010_mieru|見える]]** | 看得見（自然） | 自然進入視野 | 富士山が見える（看得見富士山） |
+| **[見える](010_mieru.md)** | 看得見（自然） | 自然進入視野 | 富士山が見える（看得見富士山） |
 
 **差異**：
 - 見る：主動去看
-- [[verb-ru/010_mieru|見える]]：自然看得見、視力可及（待建立）
+- [見える](010_mieru.md)：自然看得見、視力可及（待建立）
 
 ### 〜てみる（試試看）
 
@@ -287,18 +287,18 @@ A basic verb of visual perception. It expresses the action of recognizing object
 ## 相關連結
 
 ### 動詞類型
-- [[grammar/003_ichidan_verb|一段動詞]] - 見る是典型的一段動詞
-- [[verb-ru/001_taberu|食べる]] - 另一個常見一段動詞
+- [一段動詞](../grammar/003_ichidan_verb.md) - 見る是典型的一段動詞
+- [食べる](001_taberu.md) - 另一個常見一段動詞
 
 ### 相關助詞
-- [[particle/002_wo|を]] - 見る常用的助詞
+- [を](../particle/002_wo.md) - 見る常用的助詞
 
 ### 相關文法
-- [[grammar/007_masu_form|ます形]] - 禮貌形變化
-- [[grammar/001_te_form|て形文法]] - 見て的用法
-- [[grammar/009_ta_form|た形]]（待建立） - 見た的用法
-- [[grammar/008_nai_form|ない形]]（待建立） - 見ない的用法
-- [[grammar/011_potential_form|可能形]]（待建立） - 見られる的用法
+- [ます形](../grammar/007_masu_form.md) - 禮貌形變化
+- [て形文法](../grammar/001_te_form.md) - 見て的用法
+- [た形](../grammar/009_ta_form.md)（待建立） - 見た的用法
+- [ない形](../grammar/008_nai_form.md)（待建立） - 見ない的用法
+- [可能形](../grammar/011_potential_form.md)（待建立） - 見られる的用法
 
 ### 相關動詞
-- [[verb-ru/010_mieru|見える]]（待建立） - 看得見（自動詞）
+- [見える](010_mieru.md)（待建立） - 看得見（自動詞）

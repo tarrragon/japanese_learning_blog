@@ -458,22 +458,22 @@ Use this to indicate that it's okay not to do something - there's no obligation.
 ## Related Cards
 
 ### Grammar Patterns
-- [[grammar/001_te_form|て形 - Te-form]] - Foundation for this pattern
-- [[grammar/008_nai_form|ない形 - Nai-form]] - Used for negative permission (なくてもいい)
-- [[grammar/040_tewa_ikenai|〜てはいけない - Prohibition]] - Opposite pattern (must not vs. may)
-- [[grammar/023_naide_kudasai|〜ないでください - Negative Request]]
+- [て形 - Te-form](001_te_form.md) - Foundation for this pattern
+- [ない形 - Nai-form](008_nai_form.md) - Used for negative permission (なくてもいい)
+- [〜てはいけない - Prohibition](040_tewa_ikenai.md) - Opposite pattern (must not vs. may)
+- [〜ないでください - Negative Request](023_naide_kudasai.md)
 
 ### Phase 1 Particles
-- [[particle/006_wa|は - Topic Particle]]
-- [[particle/007_ni|に - Direction/Time Particle]]
-- [[particle/001_ga|が - Subject Particle]]
-- [[particle/002_wo|を - Object Particle]]
-- [[particle/004_de|で - Location/Method Particle]]
+- [は - Topic Particle](../particle/006_wa.md)
+- [に - Direction/Time Particle](../particle/007_ni.md)
+- [が - Subject Particle](../particle/001_ga.md)
+- [を - Object Particle](../particle/002_wo.md)
+- [で - Location/Method Particle](../particle/004_de.md)
 
 ### Phase 1 Irregular Verbs
-- [[verb-irr/001_suru|する - To Do (Irregular)]]
-- [[verb-irr/002_kuru|来る - To Come (Irregular)]]
-- [[verb-irr/003_iru|いる - To Exist/Be (Irregular)]]
+- [する - To Do (Irregular)](../verb-irr/001_suru.md)
+- [来る - To Come (Irregular)](../verb-irr/002_kuru.md)
+- [いる - To Exist/Be (Irregular)](../verb-irr/003_iru.md)
 
 ---
 

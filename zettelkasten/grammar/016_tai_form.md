@@ -21,7 +21,7 @@ tags:
 ## 日文
 
 ### 基本概念
-**たい形**是表達「想要做某事」的文法形式，從動詞的[[grammar/007_masu_form|ます形]]語幹派生而來。它表達說話者自己的願望或慾望。
+**たい形**是表達「想要做某事」的文法形式，從動詞的[ます形](007_masu_form.md)語幹派生而來。它表達說話者自己的願望或慾望。
 
 ### 構成方式
 
@@ -34,8 +34,8 @@ tags:
 | う動詞 | 行く | 行きます | 行き | 行きたい |
 | う動詞 | 買う | 買います | 買い | 買いたい |
 | う動詞 | 話す | 話します | 話し | 話したい |
-| 不規則 | [[verb-irr/001_suru\|する]] | します | し | したい |
-| 不規則 | [[verb-irr/002_kuru\|来る]] | 来ます | 来 | 来たい |
+| 不規則 | [する](../verb-irr/001_suru\.md) | します | し | したい |
+| 不規則 | [来る](../verb-irr/002_kuru\.md) | 来ます | 来 | 来たい |
 
 ### 活用方式
 
@@ -285,8 +285,8 @@ tags:
 | Ru-verb | 見る (see) | 見ます | 見 | 見たい |
 | U-verb | 行く (go) | 行きます | 行き | 行きたい |
 | U-verb | 買う (buy) | 買います | 買い | 買いたい |
-| Irregular | [[verb-irr/001_suru|する]] (do) | します | し | したい |
-| Irregular | [[verb-irr/002_kuru|来る]] (come) | 来ます | 来 | 来たい |
+| Irregular | [する](../verb-irr/001_suru.md) (do) | します | し | したい |
+| Irregular | [来る](../verb-irr/002_kuru.md) (come) | 来ます | 来 | 来たい |
 
 ### Conjugation
 
@@ -422,8 +422,8 @@ Don't use たい directly with superiors:
 | 一段動詞 | 見る（看）| 見ます | 見 | 見たい |
 | 五段動詞 | 行く（去）| 行きます | 行き | 行きたい |
 | 五段動詞 | 買う（買）| 買います | 買い | 買いたい |
-| 不規則 | [[verb-irr/001_suru|する]]（做）| します | し | したい |
-| 不規則 | [[verb-irr/002_kuru|来る]]（來）| 来ます | 来 | 来たい |
+| 不規則 | [する](../verb-irr/001_suru.md)（做）| します | し | したい |
+| 不規則 | [来る](../verb-irr/002_kuru.md)（來）| 来ます | 来 | 来たい |
 
 ### 活用方式
 
@@ -580,28 +580,28 @@ Don't use たい directly with superiors:
 ## Related Cards
 
 ### Grammar Forms
-- [[grammar/007_masu_form|ます形 - Polite Form]]
-- [[grammar/017_mashou_form|ましょう形 - Volitional Form]]
-- [[grammar/008_nai_form|ない形 - Negative Form]]
-- [[grammar/038_te_iru|〜ている - Progressive Form]]
+- [ます形 - Polite Form](007_masu_form.md)
+- [ましょう形 - Volitional Form](017_mashou_form.md)
+- [ない形 - Negative Form](008_nai_form.md)
+- [〜ている - Progressive Form](038_te_iru.md)
 
 ### Related Expressions
-- [[grammar/018_hoshii|ほしい - Want (noun)]]（待建立）
-- [[grammar/019_tagaru|〜たがる - Third-person desire]]（待建立）
-- [[grammar/020_to_omou|〜と思う - I think]]（待建立）
-- [[grammar/022_naide|〜ないで - Without doing]]
-- [[grammar/023_naide_kudasai|〜ないでください - Please don't]]
+- [ほしい - Want (noun)](018_hoshii.md)（待建立）
+- [〜たがる - Third-person desire](019_tagaru.md)（待建立）
+- [〜と思う - I think](020_to_omou.md)（待建立）
+- [〜ないで - Without doing](022_naide.md)
+- [〜ないでください - Please don't](023_naide_kudasai.md)
 
 ### Verbs Referenced
-- [[verb-irr/001_suru|する - to do]]
-- [[verb-irr/002_kuru|来る - to come]]
-- [[verb-ru/001_taberu|食べる - to eat]]
+- [する - to do](../verb-irr/001_suru.md)
+- [来る - to come](../verb-irr/002_kuru.md)
+- [食べる - to eat](../verb-ru/001_taberu.md)
 
 ### Particles
-- [[particle/006_wa|は - Topic Marker]]
-- [[particle/007_ni|に - Direction/Location Marker]]
-- [[particle/001_ga|が - Subject Marker]]
-- [[particle/002_wo|を - Object Marker]]
+- [は - Topic Marker](../particle/006_wa.md)
+- [に - Direction/Location Marker](../particle/007_ni.md)
+- [が - Subject Marker](../particle/001_ga.md)
+- [を - Object Marker](../particle/002_wo.md)
 
 ---
 

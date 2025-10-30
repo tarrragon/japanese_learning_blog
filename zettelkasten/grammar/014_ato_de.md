@@ -11,7 +11,7 @@ needs_review: false
 completed: 2025-10-28
 tags: [grammar, time, sequence, basic]
 created: 2025-10-28
-related_to: [[grammar/004_mae_ni]], [[grammar/001_te_form]]
+related_to: [004_mae_ni](004_mae_ni.md), [001_te_form](001_te_form.md)
 ---
 
 ## 日文
@@ -152,11 +152,11 @@ Number + time unit + ato
 
 | 文法 | 接續 | 時間關係 | 強調重點 | 例句 |
 |------|------|----------|---------|------|
-| [[grammar/004_mae_ni|〜前に]] | 辭書形 + 前に | A之前做B | 順序 | 寝る前に、歯を磨く |
+| [〜前に](004_mae_ni.md) | 辭書形 + 前に | A之前做B | 順序 | 寝る前に、歯を磨く |
 | 〜後で | た形 + 後で | A之後做B | 完成 | 食べた後で、皿を洗う |
-| [[grammar/015_te_kara|〜てから]] | て形 + から | A之後做B | 緊接順序 | 食べてから、出かける |
+| [〜てから](015_te_kara.md) | て形 + から | A之後做B | 緊接順序 | 食べてから、出かける |
 
-### 〜後で vs [[grammar/015_te_kara|〜てから]] の違い
+### 〜後で vs [〜てから](015_te_kara.md) の違い
 
 #### 〜後で（較鬆散的順序）
 - 強調「完成之後」，但不一定緊接著做
@@ -164,13 +164,13 @@ Number + time unit + ato
 - 例：朝ご飯を食べた後で、学校に行きます。
   （吃完早餐後去學校 - 中間可能做其他事）
 
-#### [[grammar/015_te_kara|〜てから]]（緊密的順序）
+#### [〜てから](015_te_kara.md)（緊密的順序）
 - 強調「馬上接著做」，緊密的順序
 - 動作緊接進行
 - 例：手を洗ってから、食べます。
   （洗完手馬上吃 - 動作緊接）
 
-→ 詳しくは[[comparison/004_ato_de_vs_te_kara|後で vs てから]]（待建立）を参照
+→ 詳しくは[後で vs てから](../comparison/004_ato_de_vs_te_kara.md)（待建立）を参照
 
 ### 時態使用重點
 
@@ -241,12 +241,12 @@ Number + time unit + ato
 ## 相關連結
 
 ### 對比文法
-- [[grammar/004_mae_ni|〜前に]] - 在...之前
-- [[grammar/015_te_kara|〜てから]] - 做完...之後（強調緊接順序）
+- [〜前に](004_mae_ni.md) - 在...之前
+- [〜てから](015_te_kara.md) - 做完...之後（強調緊接順序）
 
 ### 相關動詞形
-- [[grammar/009_ta_form|た形]] - 過去形（後で必須使用）
-- [[grammar/001_te_form|て形文法]] - て形（てから使用）
+- [た形](009_ta_form.md) - 過去形（後で必須使用）
+- [て形文法](001_te_form.md) - て形（てから使用）
 
 ### 比較卡片
-- [[comparison/004_ato_de_vs_te_kara|後で vs てから]]（待建立）- 使用區別
+- [後で vs てから](../comparison/004_ato_de_vs_te_kara.md)（待建立）- 使用區別

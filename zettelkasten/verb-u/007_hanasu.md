@@ -11,12 +11,12 @@ needs_review: false
 completed: 2025-10-28
 tags: [basic, domain/communication]
 created: 2025-10-28
-related_to: [[grammar/006_godan_verb]], [[particle/002_wo]]
+related_to: [006_godan_verb](../grammar/006_godan_verb.md), [002_wo](../particle/002_wo.md)
 ---
 ## 日文
 話す（はなす）
 
-基本的な[[grammar/006_godan_verb|五段動詞]]の一つ。言葉を使ってコミュニケーションする動作を表します。N5レベルで必ず学ぶ重要な動詞で、コミュニケーションに関する最も基本的な動詞です。五段動詞の「す」で終わる動詞の代表例として学習されます。
+基本的な[五段動詞](../grammar/006_godan_verb.md)の一つ。言葉を使ってコミュニケーションする動作を表します。N5レベルで必ず学ぶ重要な動詞で、コミュニケーションに関する最も基本的な動詞です。五段動詞の「す」で終わる動詞の代表例として学習されます。
 
 ### 動詞情報
 
@@ -343,18 +343,18 @@ A basic godan verb. It expresses the action of communicating using words. An ess
 ## 相關連結
 
 ### 動詞類型
-- [[grammar/006_godan_verb|五段動詞]] - 話す是す型五段動詞的代表
+- [五段動詞](../grammar/006_godan_verb.md) - 話す是す型五段動詞的代表
 
 ### 相關助詞
-- [[particle/002_wo|を]] - 話す的助詞（語言）
-- [[particle/005_to|と]] - と助詞（對象）
+- [を](../particle/002_wo.md) - 話す的助詞（語言）
+- [と](../particle/005_to.md) - と助詞（對象）
 
 ### 相關文法
-- [[grammar/007_masu_form|ます形]]（待建立） - 話します的用法
-- [[grammar/001_te_form|て形文法]] - 話して的用法（す→して）
+- [ます形](../grammar/007_masu_form.md)（待建立） - 話します的用法
+- [て形文法](../grammar/001_te_form.md) - 話して的用法（す→して）
 
 ### 相關動詞
-- [[verb-u/005_kiku|聞く]] - 聽（相關技能）
-- [[verb-u/003_yomu|読む]] - 讀
-- [[verb-u/004_kaku|書く]] - 寫
-- [[verb-u/013_iu|言う]]（待建立） - 說（具體內容）
+- [聞く](005_kiku.md) - 聽（相關技能）
+- [読む](003_yomu.md) - 讀
+- [書く](004_kaku.md) - 寫
+- [言う](013_iu.md)（待建立） - 說（具體內容）

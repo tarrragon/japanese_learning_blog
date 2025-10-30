@@ -398,27 +398,27 @@ From strongest to weakest:
 ## Related Cards
 
 ### Grammar Patterns
-- [[grammar/001_te_form|て形 - Te-form]] - Foundation for this pattern
-- [[grammar/039_temo_ii|〜てもいい - Permission]] - Opposite concept (permission)
-- [[grammar/023_naide_kudasai|〜ないでください - Polite Negative Request]] - Related prohibition pattern
-- [[grammar/041_nakereba_naranai|〜なければならない - Obligation]]（待建立）
+- [て形 - Te-form](001_te_form.md) - Foundation for this pattern
+- [〜てもいい - Permission](039_temo_ii.md) - Opposite concept (permission)
+- [〜ないでください - Polite Negative Request](023_naide_kudasai.md) - Related prohibition pattern
+- [〜なければならない - Obligation](041_nakereba_naranai.md)（待建立）
 
 ### Related Verbs (Common in Prohibitions)
-- [[verb-irr/001_suru|する - to do]] - Irregular verb, frequently used in prohibitions
-- [[verb-irr/002_kuru|来る - to come]] - Irregular verb
-- [[verb-irr/003_iru|いる - to be (animate)]] - Irregular verb
-- [[verb-u/010_hairu|入る - to enter]]
-- [[verb-u/007_hanasu|話す - to speak]]
-- [[verb-ru/001_taberu|食べる - to eat]]
-- [[verb-ru/003_miru|見る - to see]]
+- [する - to do](../verb-irr/001_suru.md) - Irregular verb, frequently used in prohibitions
+- [来る - to come](../verb-irr/002_kuru.md) - Irregular verb
+- [いる - to be (animate)](../verb-irr/003_iru.md) - Irregular verb
+- [入る - to enter](../verb-u/010_hairu.md)
+- [話す - to speak](../verb-u/007_hanasu.md)
+- [食べる - to eat](../verb-ru/001_taberu.md)
+- [見る - to see](../verb-ru/003_miru.md)
 
 ### Related Particles
-- [[particle/006_wa|は - Topic/contrast marker]] - Used in ては construction
-- [[particle/007_ni|に - Target/location marker]] - Common in prohibition contexts
+- [は - Topic/contrast marker](../particle/006_wa.md) - Used in ては construction
+- [に - Target/location marker](../particle/007_ni.md) - Common in prohibition contexts
 
 ### Cultural Context
-- [[culture/001_rules|Japanese Social Rules and Etiquette]]（待建立）
-- [[culture/002_politeness|Politeness Levels in Japanese]]（待建立）
+- [Japanese Social Rules and Etiquette](../culture/001_rules.md)（待建立）
+- [Politeness Levels in Japanese](../culture/002_politeness.md)（待建立）
 
 ---
 

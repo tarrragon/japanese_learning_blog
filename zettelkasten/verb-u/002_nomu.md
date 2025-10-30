@@ -11,12 +11,12 @@ needs_review: false
 completed: 2025-10-28
 tags: [basic, domain/daily_life]
 created: 2025-10-28
-related_to: [[grammar/006_godan_verb]], [[particle/002_wo]], [[verb-ru/001_taberu]]
+related_to: [006_godan_verb](../grammar/006_godan_verb.md), [002_wo](../particle/002_wo.md), [001_taberu](../verb-ru/001_taberu.md)
 ---
 ## 日文
 飲む（のむ）
 
-日常生活で最も基本的な[[grammar/006_godan_verb|五段動詞]]の一つ。液体を摂取する動作を表します。N5レベルで必ず学ぶ重要な動詞で、「食べる」と並んで飲食に関する基本動詞です。五段動詞の「む」で終わる動詞の代表例としても学習されます。
+日常生活で最も基本的な[五段動詞](../grammar/006_godan_verb.md)の一つ。液体を摂取する動作を表します。N5レベルで必ず学ぶ重要な動詞で、「食べる」と並んで飲食に関する基本動詞です。五段動詞の「む」で終わる動詞の代表例としても学習されます。
 
 ### 動詞情報
 
@@ -317,15 +317,15 @@ One of the most basic godan verbs in daily life. It expresses the action of cons
 ## 相關連結
 
 ### 動詞類型
-- [[grammar/006_godan_verb|五段動詞]] - 飲む是む型五段動詞
-- [[verb-u/003_yomu|読む]] - 同類型む動詞
+- [五段動詞](../grammar/006_godan_verb.md) - 飲む是む型五段動詞
+- [読む](003_yomu.md) - 同類型む動詞
 
 ### 相關助詞
-- [[particle/002_wo|を]] - 飲む常用的助詞
+- [を](../particle/002_wo.md) - 飲む常用的助詞
 
 ### 相關文法
-- [[grammar/007_masu_form|ます形]]（待建立） - 飲みます的用法
-- [[grammar/001_te_form|て形文法]] - 飲んで的用法（む→んで）
+- [ます形](../grammar/007_masu_form.md)（待建立） - 飲みます的用法
+- [て形文法](../grammar/001_te_form.md) - 飲んで的用法（む→んで）
 
 ### 相關動詞
-- [[verb-ru/001_taberu|食べる]] - 吃（相關動詞）
+- [食べる](../verb-ru/001_taberu.md) - 吃（相關動詞）

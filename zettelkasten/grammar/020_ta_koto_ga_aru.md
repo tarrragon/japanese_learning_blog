@@ -477,28 +477,28 @@ Important: 「たことがある」typically does not combine with specific time
 ## Related Cards
 
 ### Core Grammar Components
-- [[grammar/009_ta_form|た形 - Past Tense Form]] - Essential foundation for this pattern
-- [[grammar/038_te_iru|〜ている - Progressive/Continuous]] - Compare with current state expressions
+- [た形 - Past Tense Form](009_ta_form.md) - Essential foundation for this pattern
+- [〜ている - Progressive/Continuous](038_te_iru.md) - Compare with current state expressions
 
 ### Essential Particles
-- [[particle/001_ga|が - Subject Particle]] - Core particle in「ことがある」structure
-- [[particle/002_wo|を - Object Particle]] - Marks objects of experience
-- [[particle/006_wa|は - Topic Particle]] - Marks topics in experience sentences
-- [[particle/007_ni|に - Target/Location Particle]] - Used with destinations in travel experiences
+- [が - Subject Particle](../particle/001_ga.md) - Core particle in「ことがある」structure
+- [を - Object Particle](../particle/002_wo.md) - Marks objects of experience
+- [は - Topic Particle](../particle/006_wa.md) - Marks topics in experience sentences
+- [に - Target/Location Particle](../particle/007_ni.md) - Used with destinations in travel experiences
 
 ### Irregular Verbs (Phase 1)
-- [[verb-irr/001_suru|する - to do]] - した → したことがある (have done)
-- [[verb-irr/002_kuru|来る - to come]] - 来た → 来たことがある (have come)
+- [する - to do](../verb-irr/001_suru.md) - した → したことがある (have done)
+- [来る - to come](../verb-irr/002_kuru.md) - 来た → 来たことがある (have come)
 
 ### Common Ru-verbs (Phase 1)
-- [[verb-ru/001_taberu|食べる - to eat]] - 食べた → 食べたことがある (have eaten)
-- [[verb-ru/003_miru|見る - to see]] - 見た → 見たことがある (have seen)
-- [[verb-ru/006_kiru|着る - to wear]] - 着た → 着たことがある (have worn)
+- [食べる - to eat](../verb-ru/001_taberu.md) - 食べた → 食べたことがある (have eaten)
+- [見る - to see](../verb-ru/003_miru.md) - 見た → 見たことがある (have seen)
+- [着る - to wear](../verb-ru/006_kiru.md) - 着た → 着たことがある (have worn)
 
 ### Common U-verbs (Phase 1)
-- [[verb-u/009_iku|行く - to go]] - 行った → 行ったことがある (have been/gone)
-- [[verb-u/002_nomu|飲む - to drink]] - 飲んだ → 飲んだことがある (have drunk)
-- [[verb-u/010_hairu|入る - to enter]] - 入った → 入ったことがある (have entered)
+- [行く - to go](../verb-u/009_iku.md) - 行った → 行ったことがある (have been/gone)
+- [飲む - to drink](../verb-u/002_nomu.md) - 飲んだ → 飲んだことがある (have drunk)
+- [入る - to enter](../verb-u/010_hairu.md) - 入った → 入ったことがある (have entered)
 
 ---
 

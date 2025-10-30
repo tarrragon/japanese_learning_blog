@@ -27,7 +27,7 @@ tags:
 
 ### 動詞類型
 **カ変動詞（Ka-hen Verb）** - 来る変格活用
-- 来る是日文中僅有的兩個不規則動詞之一（另一個是[[verb-irr/001_suru|する]]）
+- 来る是日文中僅有的兩個不規則動詞之一（另一個是[する](001_suru.md)）
 - 屬於「カ変動詞」，有獨特的活用規則
 - 讀音會根據活用形式改變：く（辞書形）、き（連用形）、こ（未然形）
 
@@ -172,9 +172,9 @@ tags:
 #### 與移動動詞的對比
 | 日文 | 讀音 | 中文 | 說明 |
 |------|------|------|------|
-| [[verb-u/009_iku\|行く]] | iku | 去 | 離開說話者 |
+| [行く](../verb-u/009_iku\.md) | iku | 去 | 離開說話者 |
 | 来る | kuru | 來 | 靠近說話者 |
-| [[verb-u/011_kaeru\|帰る]] | kaeru | 回 | 回到基點 |
+| [帰る](../verb-u/011_kaeru\.md) | kaeru | 回 | 回到基點 |
 
 #### 常用表現
 - **お越しになる**（おこしになる）- 來（尊敬語）
@@ -223,7 +223,7 @@ tags:
 ## English
 
 ### Basic Information
-**来る (kuru)** is one of only two truly irregular verbs in Japanese (the other being [[verb-irr/001_suru|する - suru]]). It means "to come" and follows completely irregular conjugation patterns.
+**来る (kuru)** is one of only two truly irregular verbs in Japanese (the other being [する - suru](001_suru.md)). It means "to come" and follows completely irregular conjugation patterns.
 
 ### Core Meanings
 
@@ -255,7 +255,7 @@ Unlike る-verbs which have regular patterns, 来る changes its stem:
 ### Key Grammar Points
 
 #### 1. Directional Perspective
-The use of 来る vs [[verb-u/009_iku|行く (iku - to go)]] depends on the speaker's perspective:
+The use of 来る vs [行く (iku - to go)](../verb-u/009_iku.md) depends on the speaker's perspective:
 - **来る**: Movement TOWARD the speaker/listener
 - **行く**: Movement AWAY FROM the speaker/listener
 
@@ -327,7 +327,7 @@ This is one of the most important patterns in Japanese:
 ## 中文
 
 ### 基本資訊
-**来る（くる）** 是日文中僅有的兩個完全不規則動詞之一（另一個是[[verb-irr/001_suru|する]]）。它的意思是「來」，有完全不規則的活用模式。
+**来る（くる）** 是日文中僅有的兩個完全不規則動詞之一（另一個是[する](001_suru.md)）。它的意思是「來」，有完全不規則的活用模式。
 
 ### 核心含義
 
@@ -359,7 +359,7 @@ This is one of the most important patterns in Japanese:
 ### 重要文法點
 
 #### 1. 方向視角
-使用「来る」vs「[[verb-u/009_iku|行く]]」取決於說話者的視角：
+使用「来る」vs「[行く](../verb-u/009_iku.md)」取決於說話者的視角：
 - **来る**：朝向說話者/聽話者的移動
 - **行く**：離開說話者/聽話者的移動
 
@@ -476,38 +476,38 @@ This is one of the most important patterns in Japanese:
 ## Related Cards
 
 ### Phase 1 Core Cards
-- [[particle/006_wa|は - Topic Marker]]
-- [[particle/007_ni|に - Destination/Location/Time]]
-- [[verb-irr/001_suru|する - To Do]]
-- [[verb-irr/003_iru|いる - To Exist (Animate)]]
-- [[verb-u/011_kaeru|帰る - To Return]]
+- [は - Topic Marker](../particle/006_wa.md)
+- [に - Destination/Location/Time](../particle/007_ni.md)
+- [する - To Do](001_suru.md)
+- [いる - To Exist (Animate)](003_iru.md)
+- [帰る - To Return](../verb-u/011_kaeru.md)
 
 ### Grammar Points
-- [[grammar/001_te_form|て形 - Te-form]]
-- [[grammar/007_masu_form|ます形 - Masu-form]]
-- [[grammar/008_nai_form|ない形 - Negative Form]]
-- [[grammar/009_ta_form|た形 - Past Form]]
-- [[grammar/010_dictionary_form|辞書形 - Dictionary Form]]
-- [[grammar/016_tai_form|たい形 - Want to]]
-- [[grammar/038_te_iru|〜ている - Progressive/State]]
-- [[grammar/039_temo_ii|〜てもいい - Permission]]
-- [[grammar/016_te_kuru_iku|〜てくる・〜ていく]]（待建立）
+- [て形 - Te-form](../grammar/001_te_form.md)
+- [ます形 - Masu-form](../grammar/007_masu_form.md)
+- [ない形 - Negative Form](../grammar/008_nai_form.md)
+- [た形 - Past Form](../grammar/009_ta_form.md)
+- [辞書形 - Dictionary Form](../grammar/010_dictionary_form.md)
+- [たい形 - Want to](../grammar/016_tai_form.md)
+- [〜ている - Progressive/State](../grammar/038_te_iru.md)
+- [〜てもいい - Permission](../grammar/039_temo_ii.md)
+- [〜てくる・〜ていく](../grammar/016_te_kuru_iku.md)（待建立）
 
 ### Related Verbs
-- [[verb-u/009_iku|行く - To Go]]
-- [[verb-ru/007_deru|出る - To Leave/Exit]]
+- [行く - To Go](../verb-u/009_iku.md)
+- [出る - To Leave/Exit](../verb-ru/007_deru.md)
 
 ### Particles
-- [[particle/003_kara|から - From]]
-- [[particle/004_de|で - At/By/With]]
-- [[particle/008_made|まで - Until/To]]
+- [から - From](../particle/003_kara.md)
+- [で - At/By/With](../particle/004_de.md)
+- [まで - Until/To](../particle/008_made.md)
 
 ### Comparisons
-- [[comparison/010_iku_vs_kuru|行く vs 来る 詳細比較]]（待建立）
-- [[comparison/011_kuru_kaeru|来る vs 帰る 用法差異]]（待建立）
+- [行く vs 来る 詳細比較](../comparison/010_iku_vs_kuru.md)（待建立）
+- [来る vs 帰る 用法差異](../comparison/011_kuru_kaeru.md)（待建立）
 
 ### Honorifics
-- [[honorific/003_irassharu_mairu|いらっしゃる・参る - 来る的敬語]]
+- [いらっしゃる・参る - 来る的敬語](../honorific/003_irassharu_mairu.md)
 
 ---
 

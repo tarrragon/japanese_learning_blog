@@ -22,7 +22,7 @@ tags:
 ## 日文
 
 ### 基本概念
-**ましょう形**（意向形的丁寧體）用於表達建議、邀請或「我們一起做某事」的意願。它從[[grammar/007_masu_form|ます形]]直接變化而來。
+**ましょう形**（意向形的丁寧體）用於表達建議、邀請或「我們一起做某事」的意願。它從[ます形](007_masu_form.md)直接變化而來。
 
 ### 構成方式
 
@@ -35,8 +35,8 @@ tags:
 | う動詞 | 行く | 行きます | 行きましょう |
 | う動詞 | 買う | 買います | 買いましょう |
 | う動詞 | 話す | 話します | 話しましょう |
-| 不規則 | [[verb-irr/001_suru\|する]] | します | しましょう |
-| 不規則 | [[verb-irr/002_kuru\|来る]] | 来ます | 来ましょう |
+| 不規則 | [する](../verb-irr/001_suru\.md) | します | しましょう |
+| 不規則 | [来る](../verb-irr/002_kuru\.md) | 来ます | 来ましょう |
 
 ### 核心用法
 
@@ -229,8 +229,8 @@ tags:
 |---------|--------|---------------|--------------|
 | る動詞 | 食べる | 食べよう | 食べましょう |
 | う動詞 | 行く | 行こう | 行きましょう |
-| 不規則 | [[verb-irr/001_suru\|する]] | しよう | しましょう |
-| 不規則 | [[verb-irr/002_kuru\|来る]] | 来よう | 来ましょう |
+| 不規則 | [する](../verb-irr/001_suru\.md) | しよう | しましょう |
+| 不規則 | [来る](../verb-irr/002_kuru\.md) | 来よう | 来ましょう |
 
 **使用場景：**
 - **〜よう**: 朋友、家人之間（casual）
@@ -312,8 +312,8 @@ tags:
 | Ru-verb | 見る (see) | 見ます | 見ましょう |
 | U-verb | 行く (go) | 行きます | 行きましょう |
 | U-verb | 買う (buy) | 買います | 買いましょう |
-| Irregular | [[verb-irr/001_suru|する]] (do) | します | しましょう |
-| Irregular | [[verb-irr/002_kuru|来る]] (come) | 来ます | 来ましょう |
+| Irregular | [する](../verb-irr/001_suru.md) (do) | します | しましょう |
+| Irregular | [来る](../verb-irr/002_kuru.md) (come) | 来ます | 来ましょう |
 
 ### Core Usage
 
@@ -424,8 +424,8 @@ Asking for opinion or offering help.
 |-----------|-----------|-------------------|-------------------|
 | Ru-verb | 食べる | 食べよう | 食べましょう |
 | U-verb | 行く | 行こう | 行きましょう |
-| Irregular | [[verb-irr/001_suru|する]] | しよう | しましょう |
-| Irregular | [[verb-irr/002_kuru|来る]] | 来よう | 来ましょう |
+| Irregular | [する](../verb-irr/001_suru.md) | しよう | しましょう |
+| Irregular | [来る](../verb-irr/002_kuru.md) | 来よう | 来ましょう |
 
 **Usage Context:**
 - **〜よう**: Friends, family (casual)
@@ -484,8 +484,8 @@ Making a decision.
 | 一段動詞 | 見る（看）| 見ます | 見ましょう |
 | 五段動詞 | 行く（去）| 行きます | 行きましょう |
 | 五段動詞 | 買う（買）| 買います | 買いましょう |
-| 不規則 | [[verb-irr/001_suru|する]]（做）| します | しましょう |
-| 不規則 | [[verb-irr/002_kuru|来る]]（來）| 来ます | 来ましょう |
+| 不規則 | [する](../verb-irr/001_suru.md)（做）| します | しましょう |
+| 不規則 | [来る](../verb-irr/002_kuru.md)（來）| 来ます | 来ましょう |
 
 ### 核心用法
 
@@ -596,8 +596,8 @@ Making a decision.
 |---------|--------|-------------|-------------|
 | 一段動詞 | 食べる | 食べよう | 食べましょう |
 | 五段動詞 | 行く | 行こう | 行きましょう |
-| 不規則 | [[verb-irr/001_suru|する]] | しよう | しましょう |
-| 不規則 | [[verb-irr/002_kuru|来る]] | 来よう | 来ましょう |
+| 不規則 | [する](../verb-irr/001_suru.md) | しよう | しましょう |
+| 不規則 | [来る](../verb-irr/002_kuru.md) | 来よう | 来ましょう |
 
 **使用場景：**
 - **〜よう**：朋友、家人之間（隨意）
@@ -646,26 +646,26 @@ Making a decision.
 ## Related Cards
 
 ### Grammar Forms
-- [[grammar/007_masu_form|ます形 - Polite Form]] - Base form for ましょう
-- [[grammar/016_tai_form|たい形 - Desire Form]] - Both derive from ます形
-- [[grammar/010_dictionary_form|辞書形 - Dictionary Form]]
-- [[grammar/008_nai_form|ない形 - Negative Form]]
+- [ます形 - Polite Form](007_masu_form.md) - Base form for ましょう
+- [たい形 - Desire Form](016_tai_form.md) - Both derive from ます形
+- [辞書形 - Dictionary Form](010_dictionary_form.md)
+- [ない形 - Negative Form](008_nai_form.md)
 
 ### Related Expressions
-- [[grammar/021_masenka|〜ませんか - Negative Invitation]]（待建立）
-- [[grammar/025_volitional_plain|意向形（普通形）- Plain Volitional]]（待建立）
-- [[grammar/012_te_kudasai|〜てください - Please do]]（待建立）
+- [〜ませんか - Negative Invitation](021_masenka.md)（待建立）
+- [意向形（普通形）- Plain Volitional](025_volitional_plain.md)（待建立）
+- [〜てください - Please do](012_te_kudasai.md)（待建立）
 
 ### Verbs Referenced
-- [[verb-irr/001_suru|する - to do]] - Phase 1 irregular verb
-- [[verb-irr/002_kuru|来る - to come]] - Phase 1 irregular verb
-- [[verb-irr/003_iru|いる - to exist (animate)]] - Phase 1 irregular verb
+- [する - to do](../verb-irr/001_suru.md) - Phase 1 irregular verb
+- [来る - to come](../verb-irr/002_kuru.md) - Phase 1 irregular verb
+- [いる - to exist (animate)](../verb-irr/003_iru.md) - Phase 1 irregular verb
 
 ### Particles
-- [[particle/006_wa|は - Topic Marker]] - Phase 1 particle
-- [[particle/007_ni|に - Destination/Location]] - Phase 1 particle
-- [[particle/001_ga|が - Subject Marker]] - Phase 1 particle
-- [[particle/002_wo|を - Object Marker]] - Phase 1 particle
+- [は - Topic Marker](../particle/006_wa.md) - Phase 1 particle
+- [に - Destination/Location](../particle/007_ni.md) - Phase 1 particle
+- [が - Subject Marker](../particle/001_ga.md) - Phase 1 particle
+- [を - Object Marker](../particle/002_wo.md) - Phase 1 particle
 
 ---
 

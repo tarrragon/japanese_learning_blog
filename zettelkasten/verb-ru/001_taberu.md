@@ -71,17 +71,17 @@ If you don't eat breakfast, your brain doesn't work well in the morning, and you
 
 ## 註解
 
-[^ichidan]: **一段動詞**（[[grammar/003_ichidan_verb]]）- 日語動詞分類之一，特點是詞幹不變，只有詞尾「る」會變化。規則且容易記憶。例：食べる → 食べます、食べて、食べた
+[^ichidan]: **一段動詞**（[003_ichidan_verb](../grammar/003_ichidan_verb.md)）- 日語動詞分類之一，特點是詞幹不變，只有詞尾「る」會變化。規則且容易記憶。例：食べる → 食べます、食べて、食べた
 
-[^daily-context]: **日常會話場景**（[[_meta/tags/context/002_casual]]）- 朋友、家人之間的非正式日常對話
+[^daily-context]: **日常會話場景**（[002_casual](_meta/tags/context/002_casual.md)）- 朋友、家人之間的非正式日常對話
 
-[^wo]: **賓語助詞「を」**（[[particle/002_wo]]）- 標示及物動詞的直接賓語。例：朝ごはん**を**食べる（吃早餐）
+[^wo]: **賓語助詞「を」**（[002_wo](../particle/002_wo.md)）- 標示及物動詞的直接賓語。例：朝ごはん**を**食べる（吃早餐）
 
-[^mae-ni]: **〜前に文法**（[[grammar/004_mae_ni]]）- 表示「在...之前」的時間文法。接續：動詞辭書形 + 前に
+[^mae-ni]: **〜前に文法**（[004_mae_ni](../grammar/004_mae_ni.md)）- 表示「在...之前」的時間文法。接續：動詞辭書形 + 前に
 
-[^te-form]: **て形**（[[grammar/001_te_form]]）- 動詞的連用形，用於連接動作、表示原因、請求等。一段動詞：詞幹 + て
+[^te-form]: **て形**（[001_te_form](../grammar/001_te_form.md)）- 動詞的連用形，用於連接動作、表示原因、請求等。一段動詞：詞幹 + て
 
-[^masu-form]: **ます形**（[[_meta/categories/002_verb-ru]]）- 動詞的禮貌體基本形式。用於正式場合和禮貌表達
+[^masu-form]: **ます形**（[002_verb-ru](_meta/categories/002_verb-ru.md)）- 動詞的禮貌體基本形式。用於正式場合和禮貌表達
 
 [^no]: **連體助詞「の」** - 表示所屬關係或修飾。此處「母の作る」意為「媽媽做的」
 
@@ -92,17 +92,17 @@ If you don't eat breakfast, your brain doesn't work well in the morning, and you
 ## 相關連結
 
 ### 同義詞・敬語
-- [[honorific/001_meshiagaru_itadaku|敬語形式]] - 召し上がる（尊敬語）・いただく（謙讓語）
+- [敬語形式](../honorific/001_meshiagaru_itadaku.md) - 召し上がる（尊敬語）・いただく（謙讓語）
 
 ### 相關詞彙（飲食）
-- [[noun/001_asagohan|朝ごはん]] - 早餐
-- [[noun/007_tabemono|食べ物]] - 食物
+- [朝ごはん](../noun/001_asagohan.md) - 早餐
+- [食べ物](../noun/007_tabemono.md) - 食物
 
 ### 文法相關
-- [[grammar/003_ichidan_verb|一段動詞]] - 動詞分類和變化規則
-- [[grammar/001_te_form|て形]] - 動詞て形文法
-- [[grammar/004_mae_ni|〜前に]] - 時間文法「在...之前」
-- [[particle/002_wo|を]] - 賓語助詞
+- [一段動詞](../grammar/003_ichidan_verb.md) - 動詞分類和變化規則
+- [て形](../grammar/001_te_form.md) - 動詞て形文法
+- [〜前に](../grammar/004_mae_ni.md) - 時間文法「在...之前」
+- [を](../particle/002_wo.md) - 賓語助詞
 
 ### 延伸說明
-- [[honorific/001_meshiagaru_itadaku|敬語用法]] - 詳細的敬語說明
+- [敬語用法](../honorific/001_meshiagaru_itadaku.md) - 詳細的敬語說明

@@ -11,12 +11,12 @@ needs_review: false
 completed: 2025-10-28
 tags: [basic, domain/movement, domain/daily_life]
 created: 2025-10-28
-related_to: [[grammar/003_ichidan_verb]], [[particle/002_wo]], [[verb-ru/008_dekakeru]]
+related_to: [003_ichidan_verb](../grammar/003_ichidan_verb.md), [002_wo](../particle/002_wo.md), [008_dekakeru](008_dekakeru.md)
 ---
 ## 日文
 出る（でる）
 
-ある場所から外へ移動する動作、または何かが現れることを表す基本的な[[grammar/003_ichidan_verb|一段動詞]]。N5レベルで必ず学ぶ重要な動詞で、多様な意味を持ちます。「出かける」との違いを理解することが重要です。
+ある場所から外へ移動する動作、または何かが現れることを表す基本的な[一段動詞](../grammar/003_ichidan_verb.md)。N5レベルで必ず学ぶ重要な動詞で、多様な意味を持ちます。「出かける」との違いを理解することが重要です。
 
 ### 動詞情報
 
@@ -388,17 +388,17 @@ Indicating origin:
 ## 相關連結
 
 ### 動詞基礎
-- [[grammar/003_ichidan_verb|一段動詞]] - 一段動詞的完整說明
-- [[verb-ru/008_dekakeru|出かける]] - 出かける（相關動詞）
+- [一段動詞](../grammar/003_ichidan_verb.md) - 一段動詞的完整說明
+- [出かける](008_dekakeru.md) - 出かける（相關動詞）
 
 ### 相關助詞
-- [[particle/002_wo|を]] - を助詞（場所標記）
-- [[particle/003_kara|から]] - から助詞（起點）
+- [を](../particle/002_wo.md) - を助詞（場所標記）
+- [から](../particle/003_kara.md) - から助詞（起點）
 
 ### 相關文法
-- [[grammar/007_masu_form|ます形]]（待建立） - 出ます的用法
-- [[grammar/001_te_form|て形文法]] - 出て的用法
+- [ます形](../grammar/007_masu_form.md)（待建立） - 出ます的用法
+- [て形文法](../grammar/001_te_form.md) - 出て的用法
 
 ### 相關動詞
-- [[verb-ru/008_dekakeru|出かける]] - 外出（有目的）
-- [[verb-u/010_hairu|入る]] - 進入（反義詞）
+- [出かける](008_dekakeru.md) - 外出（有目的）
+- [入る](../verb-u/010_hairu.md) - 進入（反義詞）

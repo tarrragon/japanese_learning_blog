@@ -66,11 +66,11 @@ A traditional Japanese breakfast consists of rice, miso soup, grilled fish, natt
 
 [^gohan]: **「ごはん」的多義性** - 此詞有兩個主要意思：①米飯（cooked rice）②餐食（meal）。在「朝ごはん」中指「餐食」。其他例子：昼ごはん（午餐）、晩ごはん（晚餐）
 
-[^casual]: **日常會話語境**（[[_meta/tags/context/002_casual]]）- 朋友、家人之間的非正式對話。「朝ごはん」比「朝食」更口語化
+[^casual]: **日常會話語境**（[002_casual](_meta/tags/context/002_casual.md)）- 朋友、家人之間的非正式對話。「朝ごはん」比「朝食」更口語化
 
 [^maiasa]: **頻率副詞「毎朝」** - 表示「每天早上」。類似的詞：毎日（每天）、毎晩（每晚）、毎週（每週）
 
-[^kenkou]: **健康**（[[noun/002_kenkou]]）- health, 健康。日本文化重視飲食與健康的關係
+[^kenkou]: **健康**（[002_kenkou](002_kenkou.md)）- health, 健康。日本文化重視飲食與健康的關係
 
 [^iwareteimasu]: **〜と言われています** - 「據說...」的表達。文法結構：と（引用）+ 言う（說）+ れています（被動 + 現在進行）。用於傳達一般認知或他人觀點
 
@@ -81,13 +81,13 @@ A traditional Japanese breakfast consists of rice, miso soup, grilled fish, natt
 ## 相關連結
 
 ### 相關詞彙（飲食）
-- [[verb-ru/001_taberu|食べる]] - 吃
-- [[noun/007_tabemono|食べ物]] - 食物
-- [[noun/002_kenkou|健康]] - 健康
+- [食べる](../verb-ru/001_taberu.md) - 吃
+- [食べ物](007_tabemono.md) - 食物
+- [健康](002_kenkou.md) - 健康
 
 ### 相關時間詞彙
 （暫無卡片 - 可建立：昼ごはん、晩ごはん、朝）
 
 ### 相關語境
-- [[_meta/tags/context/002_casual|日常會話]] - 口語場景
-- [[_meta/tags/context/003_family|家庭]] - 家庭場景
+- [日常會話](_meta/tags/context/002_casual.md) - 口語場景
+- [家庭](_meta/tags/context/003_family.md) - 家庭場景
