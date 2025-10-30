@@ -597,7 +597,7 @@ Time + までに + Completion Verb
 
 [^particle]: **助詞（じょし）Particle** - Japanese grammatical markers that indicate the function of words in a sentence. Particles like まで attach to nouns or phrases to show their grammatical role (endpoint, topic, object, etc.). See related: [から](004_kara.md), [に](008_ni.md), [は](007_wa.md)
 
-[^made-madeni-distinction]: **まで vs までに の重要な違い** - This is one of the most critical distinctions for Japanese learners:
+[^made-madeni-distinction]: **まで vs までに の重要な違い** - This is one of the most critical distinctions for Japanese learners:。詳見 [grammar/progressive_vs_state](../grammar/031_progressive_vs_state.md)
   - **まで** = continuous action until a time point (until)
   - **までに** = completion by a deadline (by)
 

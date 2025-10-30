@@ -2,28 +2,6 @@
 
 本文件說明日文學習 Zettelkasten 系統中卡片的格式規範，特別是連結建立的兩種方式。
 
-## ⚠️ 重要格式說明
-
-**本專案嚴格使用標準 Markdown 連結格式**：
-
-✅ **正確格式**: `[顯示文字](相對路徑.md)`
-- 範例：`[食べる](../verb-ru/001_taberu.md)`
-- 範例：`[が](../particle/001_ga.md)`
-- 範例：`[て形](../grammar/001_te_form.md)`
-
-❌ **禁止格式**: `[[path|text]]` 或 `[[path]]`（Obsidian Wikilink）
-- 原因：在 GitHub、GitLab、VS Code 等標準 Markdown 渲染器中無法正常顯示
-- 本文檔使用「Wikilink」或「標準連結」術語僅指「雙向連結」的概念，而非指 Obsidian 的 `[[...]]` 格式
-
-**腳註連結格式**：
-```markdown
-[^key]: **概念名稱** - 簡短說明（一句話）。詳見 [卡片標題](../path/card.md)
-```
-
-詳細說明請參考：[CLAUDE.md - 連結格式規範](../CLAUDE.md#連結格式規範)
-
----
-
 ## 目錄
 
 1. [卡片基本結構](#卡片基本結構)
@@ -64,8 +42,8 @@
 ## 註解
 (腳註定義區塊)
 
-[^note1]: **概念名稱** - 說明。詳見 [概念卡片](../concept/001_example.md)
-[^note2]: **文法點** - 說明。詳見 [文法卡片](../grammar/001_example.md)
+[^note1]: **概念名稱**（[[連結]]）- 說明
+[^note2]: **文法點**（[[連結]]）- 說明
 
 ---
 
@@ -73,14 +51,14 @@
 (標準連結區塊)
 
 ### 同義詞
-- [卡片1](001_card1.md) - 說明
-- [卡片2](002_card2.md) - 說明
+- [[card1]] - 說明
+- [[card2]] - 說明
 
 ### 相關詞彙
-- [卡片3](../noun/001_card3.md) - 說明
+- [[card3]] - 說明
 
 ### 延伸說明
-- [延伸說明1](../extension/001_extension1.md) - 說明
+- [[extension1]] - 說明
 ```
 
 ---
@@ -89,21 +67,19 @@
 
 本系統支援兩種連結方式，應根據情境選擇：
 
-### 🔗 標準連結（Standard Links）：`[text](path.md)`
+### 🔗 標準 Wikilink：`[[card]]`
 - **位置**：卡片底部的「相關連結」區塊
 - **用途**：集中列出相關卡片
 - **特點**：易於瀏覽，不干擾閱讀
-- **格式**：標準 Markdown `[顯示文字](相對路徑.md)`
 
 ### 📝 腳註：`[^note]`
 - **位置**：解釋或例句的文字內容中
 - **用途**：就地標註概念，提供補充說明
 - **特點**：不打斷閱讀流程，可包含詳細解釋
-- **連結格式**：腳註定義中使用 `詳見 [text](path.md)`
 
 ---
 
-## 標準連結（Standard Links）
+## 標準 Wikilink 連結
 
 ### 使用情境
 
@@ -122,21 +98,21 @@
 ## 相關連結
 
 ### 同義詞
-- [召し上がる](../verb-u/003_meshiagaru.md) - 尊敬語形式
-- [いただく](004_itadaku.md) - 謙讓語形式
+- [[verb-u/003_meshiagaru|召し上がる]] - 尊敬語形式
+- [[verb-ru/004_itadaku|いただく]] - 謙讓語形式
 
 ### 相關詞彙（飲食）
-- [朝ごはん](../noun/001_asagohan.md) - 早餐
-- [食べ物](../noun/007_tabemono.md) - 食物
-- [飲む](../verb-u/006_nomu.md) - 喝
+- [[noun/001_asagohan|朝ごはん]] - 早餐
+- [[noun/007_tabemono|食べ物]] - 食物
+- [[verb-u/006_nomu|飲む]] - 喝
 
 ### 文法相關
-- [を](../particle/001_wo.md) - 賓語助詞
-- [て形](../grammar/001_te_form.md) - 動詞て形
+- [[particle/001_wo|を]] - 賓語助詞
+- [[grammar/001_te_form|て形]] - 動詞て形
 
 ### 延伸說明
-- [敬語用法](../honorific/001_meshiagaru_itadaku.md)
-- [食べる vs 食う](../extension/comparison/001_taberu_vs_kuu.md)
+- [[honorific/001_meshiagaru_itadaku|敬語用法]]
+- [[extension/comparison/001_taberu_vs_kuu|食べる vs 食う]]
 ```
 
 ### 分類建議
@@ -224,16 +200,14 @@
 每個腳註應包含：
 
 ```markdown
-[^tag]: **標題** - 簡短說明（一句話解釋）。詳見 [卡片標題](../path/card.md)
+[^tag]: **標題**（[[連結]]）- 簡短說明。額外補充資訊（可選）
 ```
 
 **要素**：
 1. **粗體標題**：概念名稱（必須）
-2. **破折號 + 簡短說明**：一句話解釋（必須）
-3. **詳見 + 連結**：`詳見 [卡片標題](相對路徑.md)`（推薦）
-4. **額外資訊**：例句、補充說明（可選）
-
-**重要**：使用標準 Markdown 格式 `[text](path.md)`，符合 `add-footnote-links.py` 腳本的解析規則
+2. **連結**：主要相關卡片（必須）
+3. **破折號 + 簡短說明**：一句話解釋（必須）
+4. **額外資訊**：例句、相關連結、分類索引（可選）
 
 ### 腳註範例
 
@@ -249,9 +223,9 @@
 
 ## 註解
 
-[^ichidan]: **一段動詞** - 語幹不變，只變化「る」的動詞類型。例：食べる → 食べます、食べて、食べた。詳見 [一段動詞](../grammar/verb-types/ichidan.md)
+[^ichidan]: **一段動詞**（[[grammar/verb-types/ichidan]]）- 語幹不變，只變化「る」的動詞類型。例：食べる → 食べます、食べて、食べた
 
-[^casual]: **日常會話場景** - 朋友、家人之間的非正式對話。詳見 [日常會話](../context/casual-conversation.md)
+[^casual]: **日常會話場景**（[[context/casual-conversation]]）- 朋友、家人之間的非正式對話
 ```
 
 #### 範例 2：例句中的文法點
@@ -271,11 +245,11 @@
 
 ## 註解
 
-[^mainichi]: **頻率副詞「毎日」** - 表示每天、日常的頻率。詳見 [毎日](../adverb/frequency/mainichi.md)
+[^mainichi]: **頻率副詞「毎日」**（[[adverb/frequency/mainichi]]）- 表示每天、日常的頻率
 
-[^wo]: **賓語助詞「を」** - 標示動作的直接賓語。詳見 [を](../particle/001_wo.md)
+[^wo]: **賓語助詞「を」**（[[particle/001_wo]]）- 標示動作的直接賓語
 
-[^te-ni-iku]: **〜に行く文法** - 表示「去做某事」的目的表達。格式：動詞ます形去掉ます + に行く。詳見 [〜に行く](../grammar/purpose-ni-iku.md)
+[^te-ni-iku]: **〜に行く文法**（[[grammar/purpose-ni-iku]]）- 表示「去做某事」的目的表達。格式：動詞ます形去掉ます + に行く
 ```
 
 #### 範例 3：文化背景標註
@@ -290,13 +264,13 @@
 
 ## 註解
 
-[^keigo-system]: **敬語系統** - 日語有尊敬語、謙讓語、丁寧語三大類，是世界上最複雜的敬語系統之一。詳見 [敬語總覽](../grammar/keigo/overview.md)
+[^keigo-system]: **敬語系統**（[[grammar/keigo/overview]]）- 日語有尊敬語、謙讓語、丁寧語三大類，是世界上最複雜的敬語系統之一
 
-[^social-hierarchy]: **社會階層** - 日本社會重視年齡、職位、社會地位的上下關係。詳見 [社會階層](../concept/social-hierarchy.md)
+[^social-hierarchy]: **社會階層**（[[concept/social-hierarchy]]）- 日本社會重視年齡、職位、社會地位的上下關係
 
-[^group-consciousness]: **集團意識** - 內外之分（内と外）是日語敬語使用的重要概念。詳見 [集團意識](../concept/group-consciousness.md)
+[^group-consciousness]: **集團意識**（[[concept/group-consciousness]]）- 內外之分（内と外）是日語敬語使用的重要概念
 
-[^social-etiquette]: **社交禮儀** - 日本重視禮節，敬語使用不當可能造成嚴重的社交失誤。詳見 [社交禮儀](../concept/social-etiquette.md)
+[^social-etiquette]: **社交禮儀**（[[concept/social-etiquette]]）- 日本重視禮節，敬語使用不當可能造成嚴重的社交失誤
 ```
 
 ---
@@ -309,14 +283,14 @@
 要建立連結時
     ↓
 問：在「相關連結」區塊嗎？
-    ├─ 是 → 使用標準連結 [text](path.md)
+    ├─ 是 → 使用標準連結 [[card]]
     └─ 否 ↓
         問：在解釋或例句的文字內容中嗎？
             ├─ 是 ↓
             │   問：需要補充說明嗎？
             │   ├─ 是 → 使用腳註 [^note]
-            │   └─ 否 → 直接使用標準連結 [text](path.md)（較少見）
-            └─ 否 → 使用標準連結 [text](path.md)
+            │   └─ 否 → 使用行內連結 [[card]]（較少見）
+            └─ 否 → 使用標準連結 [[card]]
 ```
 
 ### 具體判斷標準
@@ -341,15 +315,15 @@
 ---
 
 ## 註解
-[^ichidan]: **一段動詞** - 語幹不變...。詳見 [一段動詞](../grammar/verb-types/ichidan.md)
+[^ichidan]: **一段動詞**（[[grammar/verb-types/ichidan]]）- 語幹不變...
 
 ---
 
 ## 相關連結
 
 ### 文法相關
-- [一段動詞類型](../grammar/verb-types/ichidan.md) - 詳細說明
-- [五段動詞類型](../grammar/verb-types/godan.md) - 對比參考
+- [[grammar/verb-types/ichidan|一段動詞類型]] - 詳細說明
+- [[grammar/verb-types/godan|五段動詞類型]] - 對比參考
 ```
 
 **處理方式**：
@@ -369,7 +343,7 @@
 ## 相關連結
 
 ### 相關詞彙
-- [朝ごはん](../noun/001_asagohan.md) - 早餐
+- [[noun/001_asagohan|朝ごはん]] - 早餐
 ```
 
 **處理方式**：
@@ -450,44 +424,44 @@ and humble[^kenjougo] forms.
 
 ## 註解
 
-[^ichidan]: **一段動詞** - 語幹不變，只變化「る」的動詞類型。例：食べる → 食べます、食べて、食べた。詳見 [一段動詞](../grammar/verb-types/ichidan.md)
+[^ichidan]: **一段動詞**（[[grammar/verb-types/ichidan]]）- 語幹不變，只變化「る」的動詞類型。例：食べる → 食べます、食べて、食べた
 
-[^casual]: **日常會話場景** - 朋友、家人之間的非正式對話。詳見 [日常會話](../context/casual-conversation.md)
+[^casual]: **日常會話場景**（[[context/casual-conversation]]）- 朋友、家人之間的非正式對話
 
-[^sonkeigo]: **尊敬語** - 提高對方地位的敬語。「食べる」的尊敬語是「召し上がる」。詳見 [尊敬語](../grammar/keigo/sonkeigo.md)
+[^sonkeigo]: **尊敬語**（[[grammar/keigo/sonkeigo]]）- 提高對方地位的敬語。「食べる」的尊敬語是「召し上がる」
 
-[^kenjougo]: **謙讓語** - 降低自己地位的敬語。「食べる」的謙讓語是「いただく」。詳見 [謙讓語](../grammar/keigo/kenjougo.md)
+[^kenjougo]: **謙讓語**（[[grammar/keigo/kenjougo]]）- 降低自己地位的敬語。「食べる」的謙讓語是「いただく」
 
-[^mainichi]: **頻率副詞「毎日」** - 表示每天、日常的頻率。詳見 [毎日](../adverb/frequency/mainichi.md)
+[^mainichi]: **頻率副詞「毎日」**（[[adverb/frequency/mainichi]]）- 表示每天、日常的頻率
 
-[^wo]: **賓語助詞「を」** - 標示動作的直接賓語。詳見 [を](../particle/001_wo.md)
+[^wo]: **賓語助詞「を」**（[[particle/001_wo]]）- 標示動作的直接賓語
 
-[^te-ni-iku]: **〜に行く文法** - 表示「去做某事」的目的表達。格式：動詞ます形去掉ます + に行く。詳見 [〜に行く](../grammar/purpose-ni-iku.md)
+[^te-ni-iku]: **〜に行く文法**（[[grammar/purpose-ni-iku]]）- 表示「去做某事」的目的表達。格式：動詞ます形去掉ます + に行く
 
-[^te-kudasai]: **〜てください文法** - 禮貌的請求或命令。格式：動詞て形 + ください。詳見 [てください](../grammar/te-kudasai.md)
+[^te-kudasai]: **〜てください文法**（[[grammar/te-kudasai]]）- 禮貌的請求或命令。格式：動詞て形 + ください
 
 ---
 
 ## 相關連結
 
 ### 同義詞・敬語
-- [召し上がる](../verb-u/003_meshiagaru.md) - 尊敬語
-- [いただく](004_itadaku.md) - 謙讓語
-- [食う](../verb-u/005_kuu.md) - 粗俗用法
+- [[verb-u/003_meshiagaru|召し上がる]] - 尊敬語
+- [[verb-ru/004_itadaku|いただく]] - 謙讓語
+- [[verb-u/005_kuu|食う]] - 粗俗用法
 
 ### 相關詞彙（飲食）
-- [朝ごはん](../noun/001_asagohan.md) - 早餐
-- [食べ物](../noun/007_tabemono.md) - 食物
-- [飲む](../verb-u/006_nomu.md) - 喝
+- [[noun/001_asagohan|朝ごはん]] - 早餐
+- [[noun/007_tabemono|食べ物]] - 食物
+- [[verb-u/006_nomu|飲む]] - 喝
 
 ### 文法相關
-- [を](../particle/001_wo.md) - 賓語助詞
-- [て形](../grammar/001_te_form.md) - 動詞て形
-- [一段動詞](../grammar/verb-types/ichidan.md) - 動詞類型
+- [[particle/001_wo|を]] - 賓語助詞
+- [[grammar/001_te_form|て形]] - 動詞て形
+- [[grammar/verb-types/ichidan|一段動詞]] - 動詞類型
 
 ### 延伸說明
-- [敬語用法](../honorific/001_meshiagaru_itadaku.md) - 詳細的敬語說明
-- [食べる vs 食う](../extension/comparison/001_taberu_vs_kuu.md) - 語域差異
+- [[honorific/001_meshiagaru_itadaku|敬語用法]] - 詳細的敬語說明
+- [[extension/comparison/001_taberu_vs_kuu|食べる vs 食う]] - 語域差異
 ```
 
 ---
@@ -496,15 +470,14 @@ and humble[^kenjougo] forms.
 
 ### 標準連結 vs 腳註的核心區別
 
-| 特徵 | 標準連結 `[text](path.md)` | 腳註 `[^note]` |
-|------|---------------------------|---------------|
+| 特徵 | 標準連結 `[[card]]` | 腳註 `[^note]` |
+|------|-------------------|---------------|
 | **位置** | 卡片底部「相關連結」區塊 | 文字內容中就地標註 |
 | **功能** | 集中列出相關資源 | 補充說明概念 |
 | **閱讀體驗** | 需跳到底部查看 | 點擊跳轉，可返回 |
 | **說明詳細度** | 一行簡短說明 | 可多行詳細解釋 |
 | **適用內容** | 同義詞、相關詞彙、延伸卡片 | 概念、文法點、文化背景 |
 | **管理方式** | 手動分類組織 | 自動編號渲染 |
-| **連結格式** | 標準 Markdown | 腳註定義中使用「詳見 [...]」 |
 
 ### 最佳實踐
 
