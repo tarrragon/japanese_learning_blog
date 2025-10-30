@@ -15,12 +15,12 @@ tags:
   - domain/movement
   - jlpt/n4
 created: 2025-10-28
-related_to: [[grammar/005_keigo_system]], [[verb-u/009_iku]]
+related_to: [005_keigo_system](../grammar/005_keigo_system.md), [009_iku](../verb-u/009_iku.md)
 ---
 ## 日文
 いらっしゃる・参る（いらっしゃる・まいる）
 
-[[verb-u/009_iku|行く]]、[[verb-irr/002_kuru|来る]]（待建立）、[[verb-irr/003_iru|いる]]（待建立）の敬語形式で、尊敬語「いらっしゃる」と謙譲語「参る」のペアです。N4レベルで学ぶ重要な[[grammar/005_keigo_system|敬語]]動詞で、移動や存在を丁寧に表現する際に頻繁に使用されます。
+[行く](../verb-u/009_iku.md)、[来る](../verb-irr/002_kuru.md)（待建立）、[いる](../verb-irr/003_iru.md)（待建立）の敬語形式で、尊敬語「いらっしゃる」と謙譲語「参る」のペアです。N4レベルで学ぶ重要な[敬語](../grammar/005_keigo_system.md)動詞で、移動や存在を丁寧に表現する際に頻繁に使用されます。
 
 ### 動詞情報
 
@@ -97,7 +97,7 @@ related_to: [[grammar/005_keigo_system]], [[verb-u/009_iku]]
 - 目上の人への約束
 - サービス業での応対
 
-**注意**：「いる」の謙譲語は「参る」ではなく[[honorific/007_oru|おる]]（待建立）
+**注意**：「いる」の謙譲語は「参る」ではなく[おる](007_oru.md)（待建立）
 
 ### よく使う表現
 
@@ -153,9 +153,9 @@ related_to: [[grammar/005_keigo_system]], [[verb-u/009_iku]]
 - 先生がいらっしゃる（老師去/來/在）
   - 文脈で判断
 
-#### 参る / [[honorific/007_oru|おる]]（待建立）（謙譲語）
+#### 参る / [おる](007_oru.md)（待建立）（謙譲語）
 - 私が参る（我去/來）
-- 私が[[honorific/007_oru|おる]]（待建立）（我在）
+- 私が[おる](007_oru.md)（待建立）（我在）
 
 ## English
 irassharu / mairu (honorific forms of "to go/come/be")
@@ -237,7 +237,7 @@ The honorific forms of "iku" (go), "kuru" (come), and "iru" (be), with "irasshar
 - Promises to superiors
 - Service industry responses
 
-**Note**: The humble form of いる is not 参る but [[honorific/007_oru|おる]]（待建立）
+**Note**: The humble form of いる is not 参る but [おる](007_oru.md)（待建立）
 
 ### Common Expressions
 
@@ -278,9 +278,9 @@ Expression when troubled (different meaning):
 
 | Meaning | Plain | Respectful | Humble |
 |---------|-------|-----------|--------|
-| Go | [[verb-u/009_iku|行く]] | いらっしゃる | 参る |
-| Come | [[verb-irr/002_kuru|来る]]（待建立） | いらっしゃる | 参る |
-| Be | [[verb-irr/003_iru|いる]]（待建立） | いらっしゃる | [[honorific/007_oru|おる]]（待建立） |
+| Go | [行く](../verb-u/009_iku.md) | いらっしゃる | 参る |
+| Come | [来る](../verb-irr/002_kuru.md)（待建立） | いらっしゃる | 参る |
+| Be | [いる](../verb-irr/003_iru.md)（待建立） | いらっしゃる | [おる](007_oru.md)（待建立） |
 
 ## 中文解釋
 いらっしゃる・参る（「去・來・在」的敬語形式）
@@ -362,7 +362,7 @@ Expression when troubled (different meaning):
 - 對上級的約定
 - 服務業的應對
 
-**注意**：「いる」的謙讓語不是「参る」而是[[honorific/007_oru|おる]]（待建立）
+**注意**：「いる」的謙讓語不是「参る」而是[おる](007_oru.md)（待建立）
 
 ### 常用表達
 
@@ -424,7 +424,7 @@ Expression when troubled (different meaning):
 
 4. **謙讓語組合**
    - 参る：去/來
-   - [[honorific/007_oru|おる]]（待建立）：在（不是参る）
+   - [おる](007_oru.md)（待建立）：在（不是参る）
 
 ## 例句
 
@@ -487,19 +487,19 @@ Expression when troubled (different meaning):
 ## 相關連結
 
 ### 敬語系統
-- [[grammar/005_keigo_system]] - 敬語系統完整說明
-- [[honorific/002_ossharu_mousu]] - 說的敬語
+- [005_keigo_system](../grammar/005_keigo_system.md) - 敬語系統完整說明
+- [002_ossharu_mousu](002_ossharu_mousu.md) - 說的敬語
 
 ### 基本動詞
-- [[verb-u/009_iku]] - 行く（去）
-- [[verb-irr/002_kuru|来る]]（待建立）- 來
-- [[verb-irr/003_iru|いる]]（待建立）- 在
+- [009_iku](../verb-u/009_iku.md) - 行く（去）
+- [来る](../verb-irr/002_kuru.md)（待建立）- 來
+- [いる](../verb-irr/003_iru.md)（待建立）- 在
 
 ### 相關敬語
-- [[honorific/004_nasaru_itasu]] - 做的敬語
-- [[honorific/005_goran_haiken]] - 看的敬語
-- [[honorific/007_oru|おる]]（待建立）- 在的謙讓語
+- [004_nasaru_itasu](004_nasaru_itasu.md) - 做的敬語
+- [005_goran_haiken](005_goran_haiken.md) - 看的敬語
+- [おる](007_oru.md)（待建立）- 在的謙讓語
 
 ### 相關文法
-- [[grammar/041_o_go_ni_naru|お/ご～になる]]（待建立）- 尊敬語形式
-- [[grammar/042_o_go_suru|お/ご～する]]（待建立）- 謙讓語形式
+- [お/ご～になる](../grammar/041_o_go_ni_naru.md)（待建立）- 尊敬語形式
+- [お/ご～する](../grammar/042_o_go_suru.md)（待建立）- 謙讓語形式

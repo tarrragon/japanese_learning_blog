@@ -15,7 +15,7 @@ tags:
   - negative
   - basic
 created: 2025-10-28
-related_to: [[grammar/003_ichidan_verb]], [[grammar/006_godan_verb]]
+related_to: [003_ichidan_verb](003_ichidan_verb.md), [006_godan_verb](006_godan_verb.md)
 ---
 ## 日文
 ない形（ないけい）
@@ -42,13 +42,13 @@ related_to: [[grammar/003_ichidan_verb]], [[grammar/006_godan_verb]]
 
 ### 活用規則
 
-#### [[grammar/003_ichidan_verb|一段動詞]]（る動詞）
+#### [一段動詞](003_ichidan_verb.md)（る動詞）
 語幹 + ない
 - 食べる → 食べ + ない = 食べない
 - 見る → 見 + ない = 見ない
 - 起きる → 起き + ない = 起きない
 
-#### [[grammar/006_godan_verb|五段動詞]]（う動詞）
+#### [五段動詞](006_godan_verb.md)（う動詞）
 語尾をあ段に変えて + ない
 - 書く → 書か + ない = 書かない（く → か）
 - 飲む → 飲ま + ない = 飲まない（む → ま）
@@ -219,16 +219,16 @@ Change final syllable to あ-row + ない
 
 ### ない形が基礎となる文法
 
-#### 1. [[grammar/020_nakereba_naranai|なければならない]]（必須）（待建立）
+#### 1. [なければならない](020_nakereba_naranai.md)（必須）（待建立）
 - 勉強しなければならない（必須學習）
 
-#### 2. [[grammar/021_nakutemo_ii|なくてもいい]]（不用也可以）（待建立）
+#### 2. [なくてもいい](021_nakutemo_ii.md)（不用也可以）（待建立）
 - 来なくてもいいですよ（不來也可以喔）
 
 #### 3. **ないで**（不...就...）
 - 朝ごはんを食べないで学校に行った（沒吃早餐就去學校了）
 
-#### 4. [[grammar/023_naide_kudasai|ないでください]]（請不要...）（待建立）
+#### 4. [ないでください](023_naide_kudasai.md)（請不要...）（待建立）
 - タバコを吸わないでください（請不要抽菸）
 
 ### 一段動詞 vs 五段動詞的ない形
@@ -287,13 +287,13 @@ Change final syllable to あ-row + ない
 ## 相關連結
 
 ### 相關動詞類型
-- [[grammar/003_ichidan_verb|一段動詞]] - 一段動詞的活用
-- [[grammar/006_godan_verb|五段動詞]] - 五段動詞的活用
+- [一段動詞](003_ichidan_verb.md) - 一段動詞的活用
+- [五段動詞](006_godan_verb.md) - 五段動詞的活用
 
 ### 相關文法
-- [[grammar/007_masu_form|ます形]] - 禮貌形式
-- [[grammar/001_te_form|て形文法]] - て形變化
-- [[grammar/010_dictionary_form|辭書形]] - 動詞基本形
-- [[grammar/020_nakereba_naranai|なければならない]]（待建立）- 必須表達
-- [[grammar/021_nakutemo_ii|なくてもいい]]（待建立）- 不必表達
-- [[grammar/023_naide_kudasai|ないでください]]（待建立）- 請求不要做
+- [ます形](007_masu_form.md) - 禮貌形式
+- [て形文法](001_te_form.md) - て形變化
+- [辭書形](010_dictionary_form.md) - 動詞基本形
+- [なければならない](020_nakereba_naranai.md)（待建立）- 必須表達
+- [なくてもいい](021_nakutemo_ii.md)（待建立）- 不必表達
+- [ないでください](023_naide_kudasai.md)（待建立）- 請求不要做

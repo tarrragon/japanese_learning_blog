@@ -15,12 +15,12 @@ tags:
   - action
   - jlpt/n4
 created: 2025-10-28
-related_to: [[grammar/005_keigo_system]], [[grammar/006_godan_verb]]
+related_to: [005_keigo_system](../grammar/005_keigo_system.md), [006_godan_verb](../grammar/006_godan_verb.md)
 ---
 ## 日文
 なさる・いたす（なさる・いたす）
 
-[[verb-irr/001_suru|する]]（待建立）の敬語形式で、尊敬語「なさる」と謙譲語「いたす」のペアです。N4レベルで学ぶ重要な[[grammar/005_keigo_system|敬語]]動詞で、あらゆる動作を丁寧に表現する際に使用されます。「する」は日本語で最も汎用性の高い動詞なので、その敬語形も極めて重要です。
+[する](../verb-irr/001_suru.md)（待建立）の敬語形式で、尊敬語「なさる」と謙譲語「いたす」のペアです。N4レベルで学ぶ重要な[敬語](../grammar/005_keigo_system.md)動詞で、あらゆる動作を丁寧に表現する際に使用されます。「する」は日本語で最も汎用性の高い動詞なので、その敬語形も極めて重要です。
 
 ### 動詞情報
 
@@ -73,7 +73,7 @@ related_to: [[grammar/005_keigo_system]], [[grammar/006_godan_verb]]
 - 目上の人への質問
 
 **サ変動詞との組み合わせ**：
-- [[grammar/041_o_go_ni_naru|ご~なさる]]（待建立）形で使用：
+- [ご~なさる](../grammar/041_o_go_ni_naru.md)（待建立）形で使用：
   - ご出発なさる（出發）
   - ご心配なさる（擔心）
   - ご説明なさる（説明）
@@ -90,7 +90,7 @@ related_to: [[grammar/005_keigo_system]], [[grammar/006_godan_verb]]
 - 目上への申し出
 
 **サ変動詞との組み合わせ**：
-- [[grammar/042_o_go_suru|お~いたす]]（待建立）形で使用：
+- [お~いたす](../grammar/042_o_go_suru.md)（待建立）形で使用：
   - お待ちいたします（我等候）
   - お伝えいたします（我轉達）
   - ご案内いたします（我引導）
@@ -145,20 +145,20 @@ related_to: [[grammar/005_keigo_system]], [[grammar/006_godan_verb]]
 ### サ変動詞の敬語化パターン
 
 #### 尊敬語パターン
-1. **[[grammar/041_o_go_ni_naru|お/ご~なさる]]（待建立）**：
+1. **[お/ご~なさる](../grammar/041_o_go_ni_naru.md)（待建立）**：
    - 勉強する → ご勉強なさる
    - 説明する → ご説明なさる
 
-2. **[[grammar/041_o_go_ni_naru|お/ご~になる]]（待建立）**（別の尊敬語）：
+2. **[お/ご~になる](../grammar/041_o_go_ni_naru.md)（待建立）**（別の尊敬語）：
    - 勉強する → ご勉強になる
    - 説明する → ご説明になる
 
 #### 謙譲語パターン
-1. **[[grammar/042_o_go_suru|お/ご~いたす]]（待建立）**：
+1. **[お/ご~いたす](../grammar/042_o_go_suru.md)（待建立）**：
    - 説明する → ご説明いたす
    - 連絡する → ご連絡いたす
 
-2. **[[grammar/042_o_go_suru|お/ご~する]]（待建立）**（別の謙譲語）：
+2. **[お/ご~する](../grammar/042_o_go_suru.md)（待建立）**（別の謙譲語）：
    - 待つ → お待ちする
    - 知らせる → お知らせする
 
@@ -486,16 +486,16 @@ Giving and receiving:
 ## 相關連結
 
 ### 敬語系統
-- [[grammar/005_keigo_system]] - 敬語系統完整說明
-- [[honorific/002_ossharu_mousu]] - 說的敬語
-- [[honorific/003_irassharu_mairu]] - 去來的敬語
+- [005_keigo_system](../grammar/005_keigo_system.md) - 敬語系統完整說明
+- [002_ossharu_mousu](002_ossharu_mousu.md) - 說的敬語
+- [003_irassharu_mairu](003_irassharu_mairu.md) - 去來的敬語
 
 ### 基本動詞
-- [[verb-irr/001_suru|する]]（待建立）- 做（普通體）
+- [する](../verb-irr/001_suru.md)（待建立）- 做（普通體）
 
 ### 相關敬語
-- [[honorific/005_goran_haiken]] - 看的敬語
+- [005_goran_haiken](005_goran_haiken.md) - 看的敬語
 
 ### 相關文法
-- [[grammar/041_o_go_ni_naru|お/ご～になる]]（待建立）- 尊敬語形式
-- [[grammar/042_o_go_suru|お/ご～する]]（待建立）- 謙讓語形式
+- [お/ご～になる](../grammar/041_o_go_ni_naru.md)（待建立）- 尊敬語形式
+- [お/ご～する](../grammar/042_o_go_suru.md)（待建立）- 謙讓語形式

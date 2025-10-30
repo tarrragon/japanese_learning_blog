@@ -15,7 +15,7 @@ tags:
   - polite
   - basic
 created: 2025-10-28
-related_to: [[grammar/003_ichidan_verb]], [[grammar/006_godan_verb]]
+related_to: [003_ichidan_verb](003_ichidan_verb.md), [006_godan_verb](006_godan_verb.md)
 ---
 ## 日文
 ます形（ますけい）
@@ -41,13 +41,13 @@ related_to: [[grammar/003_ichidan_verb]], [[grammar/006_godan_verb]]
 
 ### 活用規則
 
-#### [[grammar/003_ichidan_verb|一段動詞]]（る動詞）
+#### [一段動詞](003_ichidan_verb.md)（る動詞）
 語幹 + ます
 - 食べる → 食べ + ます = 食べます
 - 見る → 見 + ます = 見ます
 - 起きる → 起き + ます = 起きます
 
-#### [[grammar/006_godan_verb|五段動詞]]（う動詞）
+#### [五段動詞](006_godan_verb.md)（う動詞）
 語尾をい段に変えて + ます
 - 書く → 書き + ます = 書きます（く → き）
 - 飲む → 飲み + ます = 飲みます（む → み）
@@ -229,13 +229,13 @@ Change final syllable to い-row + ます
 ### 與其他形式的關係
 
 #### ます形是許多其他形式的基礎
-1. **[[grammar/016_tai_form|たい形]]**（想要）（待建立）：ます形語幹 + たい
+1. **[たい形](016_tai_form.md)**（想要）（待建立）：ます形語幹 + たい
    - 食べます → 食べたい（想吃）
 
-2. **[[grammar/017_mashou_form|ましょう形]]**（建議、邀請）（待建立）：ます → ましょう
+2. **[ましょう形](017_mashou_form.md)**（建議、邀請）（待建立）：ます → ましょう
    - 食べます → 食べましょう（我們吃吧）
 
-3. **[[grammar/018_nagara_form|ながら形]]**（同時）（待建立）：ます形語幹 + ながら
+3. **[ながら形](018_nagara_form.md)**（同時）（待建立）：ます形語幹 + ながら
    - 食べます → 食べながら（邊吃邊...）
 
 4. **なさい形**（命令）：ます形語幹 + なさい
@@ -261,13 +261,13 @@ Change final syllable to い-row + ます
 ## 相關連結
 
 ### 相關動詞類型
-- [[grammar/003_ichidan_verb|一段動詞]] - 一段動詞的活用
-- [[grammar/006_godan_verb|五段動詞]] - 五段動詞的活用
+- [一段動詞](003_ichidan_verb.md) - 一段動詞的活用
+- [五段動詞](006_godan_verb.md) - 五段動詞的活用
 
 ### 相關文法
-- [[grammar/001_te_form|て形文法]] - て形是另一個重要基礎形式
-- [[grammar/010_dictionary_form|辭書形]] - 動詞基本形
-- [[grammar/008_nai_form|ない形]] - 否定形式
-- [[grammar/016_tai_form|たい形]]（待建立）- 表達願望
-- [[grammar/017_mashou_form|ましょう形]]（待建立）- 建議和邀請
-- [[grammar/018_nagara_form|ながら形]]（待建立）- 同時進行
+- [て形文法](001_te_form.md) - て形是另一個重要基礎形式
+- [辭書形](010_dictionary_form.md) - 動詞基本形
+- [ない形](008_nai_form.md) - 否定形式
+- [たい形](016_tai_form.md)（待建立）- 表達願望
+- [ましょう形](017_mashou_form.md)（待建立）- 建議和邀請
+- [ながら形](018_nagara_form.md)（待建立）- 同時進行

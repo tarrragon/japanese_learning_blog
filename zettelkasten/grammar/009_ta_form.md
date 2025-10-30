@@ -15,7 +15,7 @@ tags:
   - past
   - basic
 created: 2025-10-28
-related_to: [[grammar/001_te_form]], [[grammar/003_ichidan_verb]], [[grammar/006_godan_verb]]
+related_to: [001_te_form](001_te_form.md), [003_ichidan_verb](003_ichidan_verb.md), [006_godan_verb](006_godan_verb.md)
 ---
 ## 日文
 た形（たけい）
@@ -40,16 +40,16 @@ related_to: [[grammar/001_te_form]], [[grammar/003_ichidan_verb]], [[grammar/006
 
 ### 活用規則
 
-た形の変化は**[[grammar/001_te_form|て形]]とほぼ同じ**で、最後を「た」「だ」に変えるだけです。
+た形の変化は**[て形](001_te_form.md)とほぼ同じ**で、最後を「た」「だ」に変えるだけです。
 
-#### [[grammar/003_ichidan_verb|一段動詞]]（る動詞）
+#### [一段動詞](003_ichidan_verb.md)（る動詞）
 語幹 + た
 - 食べる → 食べ + た = 食べた
 - 見る → 見 + た = 見た
 - 起きる → 起き + た = 起きた
 
-#### [[grammar/006_godan_verb|五段動詞]]（う動詞）
-[[grammar/001_te_form|て形]]と同じ規則で、最後を「た」「だ」に変える：
+#### [五段動詞](006_godan_verb.md)（う動詞）
+[て形](001_te_form.md)と同じ規則で、最後を「た」「だ」に変える：
 
 | 語尾 | 変化 | た形 | 例 |
 |------|------|------|-----|
@@ -224,17 +224,17 @@ Follow the same rules as te-form, changing the ending to「た」or「だ」:
 
 ### た形が基礎となる文法
 
-#### 1. [[grammar/024_ta_koto_ga_aru|〜たことがある]]（経験）（待建立）
+#### 1. [〜たことがある](024_ta_koto_ga_aru.md)（経験）（待建立）
 - 富士山に登ったことがある。（爬過富士山）
 - 納豆を食べたことがありません。（沒吃過納豆）
 
 #### 2. **〜たばかり**（剛剛）
 - 今起きたばかりです。（剛剛起床）
 
-#### 3. [[grammar/026_tara|〜たら]]（假設・條件）（待建立）
+#### 3. [〜たら](026_tara.md)（假設・條件）（待建立）
 - 雨が降ったら、行かない。（如果下雨就不去）
 
-#### 4. [[grammar/014_ato_de|〜た後で]]（之後）
+#### 4. [〜た後で](014_ato_de.md)（之後）
 - 食べた後で、散歩する。（吃完之後散步）
 
 ### 常用動詞のた形一覧
@@ -312,13 +312,13 @@ Follow the same rules as te-form, changing the ending to「た」or「だ」:
 ## 相關連結
 
 ### 相關動詞類型
-- [[grammar/003_ichidan_verb|一段動詞]] - 一段動詞的活用
-- [[grammar/006_godan_verb|五段動詞]] - 五段動詞的活用
+- [一段動詞](003_ichidan_verb.md) - 一段動詞的活用
+- [五段動詞](006_godan_verb.md) - 五段動詞的活用
 
 ### 相關文法
-- [[grammar/001_te_form|て形文法]] - て形變化（規則相同）
-- [[grammar/007_masu_form|ます形]] - 禮貌形式
-- [[grammar/014_ato_de|〜後で]] - 時間順序（た形 + 後で）
-- [[grammar/004_mae_ni|〜前に]] - 與「後で」對比
-- [[grammar/024_ta_koto_ga_aru|〜たことがある]]（待建立）- 經驗表達
-- [[grammar/026_tara|〜たら]]（待建立）- 條件表達
+- [て形文法](001_te_form.md) - て形變化（規則相同）
+- [ます形](007_masu_form.md) - 禮貌形式
+- [〜後で](014_ato_de.md) - 時間順序（た形 + 後で）
+- [〜前に](004_mae_ni.md) - 與「後で」對比
+- [〜たことがある](024_ta_koto_ga_aru.md)（待建立）- 經驗表達
+- [〜たら](026_tara.md)（待建立）- 條件表達

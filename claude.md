@@ -872,7 +872,9 @@ jlpt/none            # 不在 JLPT 範圍（專業術語等）
 
 ### 連結格式
 
-使用標準 Markdown 連結格式：
+**重要原則**：本專案使用標準 Markdown 連結格式，**嚴格禁止使用 Wikilink 格式**。
+
+#### ✅ 正確格式：標準 Markdown
 
 ```markdown
 [顯示文字](相對路徑)
@@ -887,6 +889,47 @@ links:
   - [インフレーション](002_inflation.md)
   - [は（助詞）](../particle/001_wa.md)
 ```
+
+#### ❌ 錯誤格式：Wikilink（禁止使用）
+
+以下格式**不得使用**：
+
+```markdown
+# ❌ 禁止：Wikilink / Obsidian 格式
+[[particle/007_ni|に]]
+[[verb-ru/001_taberu|食べる]]
+[[grammar/001_te_form]]
+
+# ❌ 禁止：在 YAML 中使用 Wikilink
+related_to: [[particle/003_wo]], [[verb-ru/001_taberu]]
+```
+
+**原因**：
+1. Wikilink 格式無法在標準 Markdown 渲染器（GitHub、GitLab、VS Code）中正確顯示
+2. 無法形成可點擊的連結
+3. 違反專案的統一性和可維護性原則
+
+#### 連結建立注意事項
+
+1. **使用相對路徑**
+   - 同資料夾：`[食べる](001_taberu.md)`
+   - 不同資料夾：`[が](../particle/001_ga.md)`
+
+2. **必須包含 .md 副檔名**
+   - ✅ `[て形](../grammar/001_te_form.md)`
+   - ❌ `[[grammar/001_te_form]]`
+
+3. **顯示文字應該清楚易懂**
+   - 日文：`[食べる](001_taberu.md)` 或 `[食べる（吃）](001_taberu.md)`
+   - 中文：`[動詞て形](../grammar/001_te_form.md)`
+   - 英文：`[て-form grammar](../grammar/001_te_form.md)`
+
+4. **代理人建立連結時的檢查清單**
+   - ✅ 使用標準 Markdown `[text](path)` 格式
+   - ✅ 路徑包含 `.md` 副檔名
+   - ✅ 相對路徑正確（使用 `../` 跨目錄）
+   - ✅ 目標檔案確實存在
+   - ❌ 絕對不使用 `[[...]]` 格式
 
 ## 工作流程
 

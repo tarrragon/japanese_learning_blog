@@ -181,17 +181,17 @@ Then, I'll start eating first (with your permission).
 
 ## 註解
 
-[^keigo]: **敬語系統**（[[grammar/005_keigo_system]]）- 日語表達敬意的語言系統，分為尊敬語、謙讓語、丁寧語三大類。是世界上最複雜的敬語系統之一
+[^keigo]: **敬語系統**（[005_keigo_system](../grammar/005_keigo_system.md)）- 日語表達敬意的語言系統，分為尊敬語、謙讓語、丁寧語三大類。是世界上最複雜的敬語系統之一
 
-[^sonkeigo]: **尊敬語**（[[grammar/005_keigo_system#尊敬語]]）- 提高對方或話題人物地位的敬語形式。用於描述對方、上級或第三者的動作
+[^sonkeigo]: **尊敬語**（[005_keigo_system#尊敬語](../grammar/005_keigo_system#尊敬語.md)）- 提高對方或話題人物地位的敬語形式。用於描述對方、上級或第三者的動作
 
-[^kenjougo]: **謙讓語**（[[grammar/005_keigo_system#謙讓語]]）- 降低自己或自己人地位的敬語形式。用於描述自己或內集團成員的動作
+[^kenjougo]: **謙讓語**（[005_keigo_system#謙讓語](../grammar/005_keigo_system#謙讓語.md)）- 降低自己或自己人地位的敬語形式。用於描述自己或內集團成員的動作
 
-[^godan]: **五段動詞**（[[grammar/006_godan_verb]]）- 日語動詞分類之一，詞幹會使用五十音圖的五段（あ・い・う・え・お）來變化。例：召し上がる、いただく
+[^godan]: **五段動詞**（[006_godan_verb](../grammar/006_godan_verb.md)）- 日語動詞分類之一，詞幹會使用五十音圖的五段（あ・い・う・え・お）來變化。例：召し上がる、いただく
 
-[^meue]: **目上の人**（[[_meta/tags/context/004_formal]]）- 社會地位、年齡或職位比自己高的人。日語敬語使用的重要判斷標準
+[^meue]: **目上の人**（[004_formal](_meta/tags/context/004_formal.md)）- 社會地位、年齡或職位比自己高的人。日語敬語使用的重要判斷標準
 
-[^kyakusetsu]: **接客場景**（[[_meta/tags/context/001_business]]）- 餐廳、飯店、商店等服務業對客人的接待場合。需要使用高度敬語
+[^kyakusetsu]: **接客場景**（[001_business](_meta/tags/context/001_business.md)）- 餐廳、飯店、商店等服務業對客人的接待場合。需要使用高度敬語
 
 [^itadakimasu]: **「いただきます」慣用表達** - 日本人在用餐前說的感謝語，源自謙讓語「いただく」。表達對食物、烹飪者和大自然的感恩
 
@@ -203,9 +203,9 @@ Then, I'll start eating first (with your permission).
 
 [^osaki-ni]: **「お先に」慣用表達** - 「先走一步」的禮貌說法。在比別人先做某事時使用，表示歉意和禮貌
 
-[^o-ni-naru]: **お〜になる尊敬語構造**（[[grammar/005_keigo_system#尊敬語構造]]）- 動詞尊敬語的構成方式之一。格式：お + 動詞ます形去掉ます + になる
+[^o-ni-naru]: **お〜になる尊敬語構造**（[005_keigo_system#尊敬語構造](../grammar/005_keigo_system#尊敬語構造.md)）- 動詞尊敬語的構成方式之一。格式：お + 動詞ます形去掉ます + になる
 
-[^register]: **語域**（[[concept/register]]）- 語言學概念，指根據社會場合、對象關係而選用不同的語言風格。日語的語域差異特別明顯
+[^register]: **語域**（[register](../concept/register.md)）- 語言學概念，指根據社會場合、對象關係而選用不同的語言風格。日語的語域差異特別明顯
 
 [^vulgar]: **粗俗語域** - 非正式、粗魯或男性化的表達方式。不適合用於正式場合或對長輩使用
 
@@ -214,16 +214,16 @@ Then, I'll start eating first (with your permission).
 ## 相關連結
 
 ### 基本卡片
-← [[verb-ru/001_taberu|食べる]] - 基本形
+← [食べる](../verb-ru/001_taberu.md) - 基本形
 
 ### 敬語系統
-- [[grammar/005_keigo_system|敬語系統總覽]] - 尊敬語、謙讓語、丁寧語
-- [[_meta/categories/019_honorific|敬語分類]] - 所有敬語相關卡片
+- [敬語系統總覽](../grammar/005_keigo_system.md) - 尊敬語、謙讓語、丁寧語
+- [敬語分類](_meta/categories/019_honorific.md) - 所有敬語相關卡片
 
 ### 相關文法
-- [[grammar/006_godan_verb|五段動詞]] - 動詞變化規則
-- [[verb-ru/001_taberu|食べる]] - 基本動詞
+- [五段動詞](../grammar/006_godan_verb.md) - 動詞變化規則
+- [食べる](../verb-ru/001_taberu.md) - 基本動詞
 
 ### 相關語境
-- [[_meta/tags/context/004_formal|正式場合]] - 需要使用敬語的場景
-- [[_meta/tags/context/001_business|商務場合]] - 接客、職場等
+- [正式場合](_meta/tags/context/004_formal.md) - 需要使用敬語的場景
+- [商務場合](_meta/tags/context/001_business.md) - 接客、職場等

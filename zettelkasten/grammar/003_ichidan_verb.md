@@ -8,7 +8,7 @@ stage: completed
 tags: [grammar, conjugation, basic]
 created: 2025-10-28
 updated: 2025-10-28
-related_to: [[verb-ru/001_taberu]]
+related_to: [001_taberu](../verb-ru/001_taberu.md)
 ---
 ## 日文
 一段動詞（いちだんどうし）/ る動詞
@@ -26,14 +26,14 @@ related_to: [[verb-ru/001_taberu]]
 ### 基本特徴
 
 **語幹が不変**
-一段動詞の最大の特徴は、語幹[^stem]が決して変化しないことです。例えば「[[verb-ru/001_taberu|食べる]]」の場合、どんな活用形でも「食べ」という語幹は常に同じままです。変化するのは語尾の「る」の部分だけです。
+一段動詞の最大の特徴は、語幹[^stem]が決して変化しないことです。例えば「[食べる](../verb-ru/001_taberu.md)」の場合、どんな活用形でも「食べ」という語幹は常に同じままです。変化するのは語尾の「る」の部分だけです。
 
 **見分け方**
 1. 辞書形が「〜る」で終わる
 2. 「る」の直前が「え段」(e)または「い段」(i)の音
    - 例：たべる（taberu）、みる（miru）、ねる（neru）
 
-**注意**: すべての「〜る」で終わる動詞が一段動詞とは限りません。「帰る」「走る」など、「る」の前が「あ・う・お段」の場合は[[grammar/006_godan_verb|五段動詞]]です。
+**注意**: すべての「〜る」で終わる動詞が一段動詞とは限りません。「帰る」「走る」など、「る」の前が「あ・う・お段」の場合は[五段動詞](006_godan_verb.md)です。
 
 ### 活用パターン
 
@@ -72,17 +72,17 @@ The defining feature of ichidan verbs is that the stem never changes. For exampl
 2. The syllable immediately before "ru" is in the "e-row" (e) or "i-row" (i)
    - Examples: taberu (eat), miru (see), neru (sleep)
 
-**Important**: Not all verbs ending in "~ru" are ichidan verbs. Verbs like "kaeru" (return) and "hashiru" (run), where the syllable before "ru" is in the "a," "u," or "o" rows, are [[grammar/006_godan_verb|godan verbs]].
+**Important**: Not all verbs ending in "~ru" are ichidan verbs. Verbs like "kaeru" (return) and "hashiru" (run), where the syllable before "ru" is in the "a," "u," or "o" rows, are [godan verbs](006_godan_verb.md).
 
 ### Conjugation Pattern
 
 Ichidan verb conjugation is very straightforward:
 
-| Form | Rule | Example: [[verb-ru/001_taberu|taberu]] |
+| Form | Rule | Example: [taberu](../verb-ru/001_taberu.md) |
 |------|------|----------------|
 | Dictionary | stem + ru | taberu |
 | Masu | stem + masu | tabemasu |
-| [[grammar/001_te_form|Te]] | stem + te | tabete |
+| [Te](001_te_form.md) | stem + te | tabete |
 | Ta | stem + ta | tabeta |
 | Nai | stem + nai | tabenai |
 | Potential | stem + rareru | taberareru |
@@ -104,14 +104,14 @@ There are approximately 200 ichidan verbs in Japanese, far fewer than godan verb
 ### 基本特徵
 
 **詞幹不變**
-一段動詞最大的特點是詞幹[^stem]永遠不變。例如「[[verb-ru/001_taberu|食べる]]」（吃），無論如何變化，詞幹「食べ」都保持不變，只有詞尾「る」會變化。
+一段動詞最大的特點是詞幹[^stem]永遠不變。例如「[食べる](../verb-ru/001_taberu.md)」（吃），無論如何變化，詞幹「食べ」都保持不變，只有詞尾「る」會變化。
 
 **識別方法**
 1. 辭書形以「〜る」結尾
 2. 「る」前面是「え段」(e)或「い段」(i)的音
    - 例如：たべる（taberu）、みる（miru）、ねる（neru）
 
-**注意**：不是所有以「〜る」結尾的動詞都是一段動詞。「帰る」「走る」等「る」前面是「あ・う・お段」的動詞是[[grammar/006_godan_verb|五段動詞]]。
+**注意**：不是所有以「〜る」結尾的動詞都是一段動詞。「帰る」「走る」等「る」前面是「あ・う・お段」的動詞是[五段動詞](006_godan_verb.md)。
 
 ### 變化規則
 
@@ -200,12 +200,12 @@ I wore new clothes yesterday.
 
 ### 對比：一段動詞 vs 五段動詞
 
-| 特徵 | 一段動詞 | [[grammar/006_godan_verb|五段動詞]] |
+| 特徵 | 一段動詞 | [五段動詞](006_godan_verb.md) |
 |------|---------|---------|
 | 數量 | 約200個 | 約4000個 |
 | 詞幹 | 永不變化 | 會變化 |
 | 辭書形結尾 | 〜る（前面是e/i段） | 〜う、〜く、〜ぐ、〜す等 |
-| [[grammar/001_te_form|て形]]規則 | 詞幹 + て | 複雜（6種規則） |
+| [て形](001_te_form.md)規則 | 詞幹 + て | 複雜（6種規則） |
 | ない形規則 | 詞幹 + ない | 詞尾變あ段 + ない |
 | 學習難度 | 簡單 | 中等 |
 | 例子 | 食べる、見る、寝る | 書く、話す、読む |
@@ -243,7 +243,7 @@ I wore new clothes yesterday.
 
 [^masu-form]: **ます形** - 動詞的禮貌體基本形式，用於正式場合和禮貌表達。一段動詞：詞幹 + ます。
 
-[^te-form]: **て形** ([[grammar/001_te_form]]) - 動詞的連用形，用於連接動作、表示原因、請求等。一段動詞：詞幹 + て。
+[^te-form]: **て形** ([001_te_form](001_te_form.md)) - 動詞的連用形，用於連接動作、表示原因、請求等。一段動詞：詞幹 + て。
 
 [^ta-form]: **た形** - 動詞的過去式/完成形。用於表示已完成的動作或過去的狀態。一段動詞：詞幹 + た。
 
@@ -266,12 +266,12 @@ I wore new clothes yesterday.
 ## 相關連結
 
 ### 相關動詞
-- [[verb-ru/001_taberu|食べる]] - 典型的一段動詞
-- [[grammar/006_godan_verb|五段動詞]] - 對比參考
+- [食べる](../verb-ru/001_taberu.md) - 典型的一段動詞
+- [五段動詞](006_godan_verb.md) - 對比參考
 
 ### 相關文法
-- [[grammar/001_te_form|て形文法]] - 動詞連接
-- [[grammar/002_nagara|ながら文法]] - 同時動作
+- [て形文法](001_te_form.md) - 動詞連接
+- [ながら文法](002_nagara.md) - 同時動作
 
 ### Meta 資訊
 - **難度等級**: N5（基礎文法）

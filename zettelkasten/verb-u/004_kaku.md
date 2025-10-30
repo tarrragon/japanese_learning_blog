@@ -11,12 +11,12 @@ needs_review: false
 completed: 2025-10-28
 tags: [basic, learning]
 created: 2025-10-28
-related_to: [[grammar/006_godan_verb]], [[particle/002_wo]]
+related_to: [006_godan_verb](../grammar/006_godan_verb.md), [002_wo](../particle/002_wo.md)
 ---
 ## 日文
 書く（かく）
 
-基本的な[[grammar/006_godan_verb|五段動詞]]の一つ。文字や文章を記す動作を表します。N5レベルで必ず学ぶ重要な動詞で、学習活動に関する基本動詞です。五段動詞の「く」で終わる動詞の代表例として、[[grammar/001_te_form|て形]]の変化（いて）を学習します。
+基本的な[五段動詞](../grammar/006_godan_verb.md)の一つ。文字や文章を記す動作を表します。N5レベルで必ず学ぶ重要な動詞で、学習活動に関する基本動詞です。五段動詞の「く」で終わる動詞の代表例として、[て形](../grammar/001_te_form.md)の変化（いて）を学習します。
 
 ### 動詞情報
 
@@ -351,17 +351,17 @@ A basic godan verb. It expresses the action of writing characters or text. An es
 ## 相關連結
 
 ### 動詞類型
-- [[grammar/006_godan_verb|五段動詞]] - 書く是く型五段動詞的代表
-- [[verb-u/005_kiku|聞く]] - 同類型く動詞
+- [五段動詞](../grammar/006_godan_verb.md) - 書く是く型五段動詞的代表
+- [聞く](005_kiku.md) - 同類型く動詞
 
 ### 相關助詞
-- [[particle/002_wo|を]] - 書く常用的助詞
+- [を](../particle/002_wo.md) - 書く常用的助詞
 
 ### 相關文法
-- [[grammar/007_masu_form|ます形]]（待建立） - 書きます的用法
-- [[grammar/001_te_form|て形文法]] - 書いて的用法（く→いて）
+- [ます形](../grammar/007_masu_form.md)（待建立） - 書きます的用法
+- [て形文法](../grammar/001_te_form.md) - 書いて的用法（く→いて）
 
 ### 相關動詞
-- [[verb-u/003_yomu|読む]] - 讀（相關技能）
-- [[verb-u/007_hanasu|話す]] - 說
-- [[verb-u/005_kiku|聞く]] - 聽
+- [読む](003_yomu.md) - 讀（相關技能）
+- [話す](007_hanasu.md) - 說
+- [聞く](005_kiku.md) - 聽

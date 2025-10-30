@@ -16,12 +16,12 @@ tags:
   - kenjougo
   - jlpt/n4
 created: 2025-10-28
-related_to: [[verb-ru/003_miru]], [[grammar/005_keigo_system]], [[honorific/001_kudasaru_itadaku]]
+related_to: [003_miru](../verb-ru/003_miru.md), [005_keigo_system](../grammar/005_keigo_system.md), [001_kudasaru_itadaku](001_kudasaru_itadaku.md)
 ---
 ## 日文
 ご覧になる・拝見する（見るの敬語）
 
-[[verb-ru/003_miru|見る]]の尊敬語と謙譲語のペア。ビジネスシーンや丁寧な会話で非常に頻繁に使用される重要な[[grammar/005_keigo_system|敬語]]表現です。視覚的な動作を丁寧に表現する際に必須の表現です。
+[見る](../verb-ru/003_miru.md)の尊敬語と謙譲語のペア。ビジネスシーンや丁寧な会話で非常に頻繁に使用される重要な[敬語](../grammar/005_keigo_system.md)表現です。視覚的な動作を丁寧に表現する際に必須の表現です。
 
 ### 動詞情報
 
@@ -51,7 +51,7 @@ related_to: [[verb-ru/003_miru]], [[grammar/005_keigo_system]], [[honorific/001_
 #### 基本的な使い方
 
 **形式**：ご覧になる
-- **構造**：ご + 覧（見の漢語） + [[grammar/041_o_go_ni_naru|になる]]（待建立）
+- **構造**：ご + 覧（見の漢語） + [になる](../grammar/041_o_go_ni_naru.md)（待建立）
 - **意味**：相手や目上の人が見る動作を丁寧に表現
 
 #### よく使う表現
@@ -65,7 +65,7 @@ related_to: [[verb-ru/003_miru]], [[grammar/005_keigo_system]], [[honorific/001_
    - 丁寧な確認
    - もうご覧になりましたか（您看過了嗎）
 
-3. **ご覧[[honorific/006_kudasaru_itadaku|いただく]]（待建立）**
+3. **ご覧[いただく](006_kudasaru_itadaku.md)（待建立）**
    - さらに丁寧な表現
    - ご覧いただけますか（能否請您過目）
 
@@ -86,7 +86,7 @@ related_to: [[verb-ru/003_miru]], [[grammar/005_keigo_system]], [[honorific/001_
 #### 基本的な使い方
 
 **形式**：拝見する
-- **構造**：拝見（謙譲の漢語） + [[verb-irr/001_suru|する]]（待建立）
+- **構造**：拝見（謙譲の漢語） + [する](../verb-irr/001_suru.md)（待建立）
 - **意味**：自分が見る動作を謙遜して表現
 
 #### よく使う表現
@@ -95,11 +95,11 @@ related_to: [[verb-ru/003_miru]], [[grammar/005_keigo_system]], [[honorific/001_
    - 基本的な謙譲表現
    - 資料を拝見します（我看資料）
 
-2. **拝見[[honorific/004_nasaru_itasu|いたします]]**
+2. **拝見[いたします](004_nasaru_itasu.md)**
    - さらに丁寧な表現
    - 後ほど拝見いたします（稍後過目）
 
-3. **拝見させて[[honorific/006_kudasaru_itadaku|いただく]]（待建立）**
+3. **拝見させて[いただく](006_kudasaru_itadaku.md)（待建立）**
    - 最も丁寧な謙譲表現
    - 拝見させていただけますか（能否讓我看一下）
 
@@ -126,7 +126,7 @@ related_to: [[verb-ru/003_miru]], [[grammar/005_keigo_system]], [[honorific/001_
 
 2. **許可を求める**
    - 拝見してもよろしいですか（可以讓我看嗎）
-   - 拝見させて[[honorific/006_kudasaru_itadaku|いただけ]]（待建立）ますか（能否讓我過目）
+   - 拝見させて[いただけ](006_kudasaru_itadaku.md)（待建立）ますか（能否讓我過目）
 
 3. **報告**
    - 資料を拝見いたしました（我已拜讀資料）
@@ -505,23 +505,23 @@ Alternative humble form (meaning "to meet"):
 ## 相關連結
 
 ### 基本動詞
-- [[verb-ru/003_miru]] - 見る（基本形）
+- [003_miru](../verb-ru/003_miru.md) - 見る（基本形）
 
 ### 敬語系統
-- [[grammar/005_keigo_system]] - 敬語體系完整說明
-- [[honorific/001_kudasaru_itadaku]] - くださる・いただく
-- [[honorific/002_ossharu_mousu]] - おっしゃる・申す
-- [[honorific/003_irassharu_mairu]] - いらっしゃる・参る
-- [[honorific/004_nasaru_itasu]] - なさる・いたす
+- [005_keigo_system](../grammar/005_keigo_system.md) - 敬語體系完整說明
+- [001_kudasaru_itadaku](001_kudasaru_itadaku.md) - くださる・いただく
+- [002_ossharu_mousu](002_ossharu_mousu.md) - おっしゃる・申す
+- [003_irassharu_mairu](003_irassharu_mairu.md) - いらっしゃる・参る
+- [004_nasaru_itasu](004_nasaru_itasu.md) - なさる・いたす
 
 ### 相關文法
-- [[grammar/041_o_go_ni_naru|お/ご～になる]]（待建立）- 尊敬語形式
-- [[grammar/042_o_go_suru|お/ご～する]]（待建立）- 謙讓語形式
-- [[grammar/043_o_go_itadaku|お/ご～いただく]]（待建立）- 謙讓語授受表現
+- [お/ご～になる](../grammar/041_o_go_ni_naru.md)（待建立）- 尊敬語形式
+- [お/ご～する](../grammar/042_o_go_suru.md)（待建立）- 謙讓語形式
+- [お/ご～いただく](../grammar/043_o_go_itadaku.md)（待建立）- 謙讓語授受表現
 
 ### 相關表達
 - お目にかかる（見面的謙讓語）
 - ご覧の通り（如您所見）
 
 ### 相關敬語
-- [[honorific/006_kudasaru_itadaku|くださる・いただく]]（待建立）- 給予和接受的敬語
+- [くださる・いただく](006_kudasaru_itadaku.md)（待建立）- 給予和接受的敬語

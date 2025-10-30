@@ -30,7 +30,7 @@ updated: 2025-10-30
 
 ### 動詞類型
 **カ変動詞（Ka-hen Verb）** - 来る変格活用
-- 来る是日文中僅有的兩個不規則動詞之一（另一個是[[verb-irr/001_suru|する]]）[^irregular]
+- 来る是日文中僅有的兩個不規則動詞之一（另一個是[する](001_suru.md)）
 - 屬於「カ変動詞」，有獨特的活用規則
 - 讀音會根據活用形式改變：く（辞書形）、き（連用形）、こ（未然形）[^conjugation]
 
@@ -175,9 +175,9 @@ updated: 2025-10-30
 #### 與移動動詞的對比
 | 日文 | 讀音 | 中文 | 說明 |
 |------|------|------|------|
-| [[verb-u/009_iku\|行く]] | iku | 去 | 離開說話者[^iku] |
+| [行く](../verb-u/009_iku\.md) | iku | 去 | 離開說話者 |
 | 来る | kuru | 來 | 靠近說話者 |
-| [[verb-u/011_kaeru\|帰る]] | kaeru | 回 | 回到基點[^kaeru] |
+| [帰る](../verb-u/011_kaeru\.md) | kaeru | 回 | 回到基點 |
 
 #### 常用表現
 - **お越しになる**（おこしになる）- 來（尊敬語）[^honorific]
@@ -226,7 +226,7 @@ updated: 2025-10-30
 ## English
 
 ### Basic Information
-**来る (kuru)** is one of only two truly irregular verbs in Japanese (the other being [[verb-irr/001_suru|する - suru]]). It means "to come" and follows completely irregular conjugation patterns.
+**来る (kuru)** is one of only two truly irregular verbs in Japanese (the other being [する - suru](001_suru.md)). It means "to come" and follows completely irregular conjugation patterns.
 
 ### Core Meanings
 
@@ -258,7 +258,7 @@ Unlike る-verbs which have regular patterns, 来る changes its stem:
 ### Key Grammar Points
 
 #### 1. Directional Perspective
-The use of 来る vs [[verb-u/009_iku|行く (iku - to go)]] depends on the speaker's perspective:
+The use of 来る vs [行く (iku - to go)](../verb-u/009_iku.md) depends on the speaker's perspective:
 - **来る**: Movement TOWARD the speaker/listener
 - **行く**: Movement AWAY FROM the speaker/listener
 
@@ -330,7 +330,7 @@ This is one of the most important patterns in Japanese:
 ## 中文
 
 ### 基本資訊
-**来る（くる）** 是日文中僅有的兩個完全不規則動詞之一（另一個是[[verb-irr/001_suru|する]]）。它的意思是「來」，有完全不規則的活用模式。
+**来る（くる）** 是日文中僅有的兩個完全不規則動詞之一（另一個是[する](001_suru.md)）。它的意思是「來」，有完全不規則的活用模式。
 
 ### 核心含義
 
@@ -362,7 +362,7 @@ This is one of the most important patterns in Japanese:
 ### 重要文法點
 
 #### 1. 方向視角
-使用「来る」vs「[[verb-u/009_iku|行く]]」取決於說話者的視角：
+使用「来る」vs「[行く](../verb-u/009_iku.md)」取決於說話者的視角：
 - **来る**：朝向說話者/聽話者的移動
 - **行く**：離開說話者/聽話者的移動
 
@@ -479,51 +479,38 @@ This is one of the most important patterns in Japanese:
 ## Related Cards
 
 ### Phase 1 Core Cards
-- [[particle/006_wa|は - Topic Marker]]
-- [[particle/007_ni|に - Destination/Location/Time]]
-- [[verb-irr/001_suru|する - To Do]]
-- [[verb-irr/003_iru|いる - To Exist (Animate)]]
-- [[verb-u/011_kaeru|帰る - To Return]]
+- [は - Topic Marker](../particle/006_wa.md)
+- [に - Destination/Location/Time](../particle/007_ni.md)
+- [する - To Do](001_suru.md)
+- [いる - To Exist (Animate)](003_iru.md)
+- [帰る - To Return](../verb-u/011_kaeru.md)
 
 ### Grammar Points
-- [[grammar/001_te_form|て形 - Te-form]] - 動詞的基本連接形，来るの て形は「来て」（きて）
-- [[grammar/007_masu_form|ます形 - Masu-form]] - 丁寧體形式，来るのます形は「来ます」（きます）
-- [[grammar/027_tekuru_teiku|〜てくる・〜ていく]] - 表示方向和變化的重要句型
+- [て形 - Te-form](../grammar/001_te_form.md)
+- [ます形 - Masu-form](../grammar/007_masu_form.md)
+- [ない形 - Negative Form](../grammar/008_nai_form.md)
+- [た形 - Past Form](../grammar/009_ta_form.md)
+- [辞書形 - Dictionary Form](../grammar/010_dictionary_form.md)
+- [たい形 - Want to](../grammar/016_tai_form.md)
+- [〜ている - Progressive/State](../grammar/038_te_iru.md)
+- [〜てもいい - Permission](../grammar/039_temo_ii.md)
+- [〜てくる・〜ていく](../grammar/016_te_kuru_iku.md)（待建立）
 
 ### Related Verbs
-- [[verb-u/009_iku|行く - To Go]] - 與「来る」形成對比，表示離開說話者的移動
-- [[verb-ru/007_deru|出る - To Leave/Exit]] - 表示從內部到外部的移動
-- [[verb-u/011_kaeru|帰る - To Return]] - 表示回到原點
+- [行く - To Go](../verb-u/009_iku.md)
+- [出る - To Leave/Exit](../verb-ru/007_deru.md)
 
 ### Particles
-- [[particle/004_kara|から - From]] - 表示起點「〜から来る」
-- [[particle/009_made|まで - Until/To]] - 表示終點「〜まで来る」
-- [[particle/007_ni|に - Destination]] - 表示目的地「〜に来る」
+- [から - From](../particle/003_kara.md)
+- [で - At/By/With](../particle/004_de.md)
+- [まで - Until/To](../particle/008_made.md)
+
+### Comparisons
+- [行く vs 来る 詳細比較](../comparison/010_iku_vs_kuru.md)（待建立）
+- [来る vs 帰る 用法差異](../comparison/011_kuru_kaeru.md)（待建立）
 
 ### Honorifics
-- [[honorific/003_irassharu_mairu|いらっしゃる・参る]] - 「来る」的尊敬語和謙讓語表達
-
----
-
-## Footnotes
-
-[^irregular]: 日文只有兩個完全不規則動詞：[[verb-irr/001_suru|する]]（做）和 来る（來）。它們的活用不遵循任何規則動詞模式，必須單獨記憶。
-
-[^conjugation]: 来る的詞幹會根據活用形式改變：く（辞書形）、き（連用形）、こ（未然形）。這種變化是不規則的，需要特別記憶。
-
-[^tekuru]: [[grammar/027_tekuru_teiku|〜てくる]]有兩個重要意義：(1) 動作朝說話者方向進行（如「持ってくる」帶來）；(2) 從過去到現在的變化或開始（如「雨が降ってきた」開始下雨了）。
-
-[^particle-ni]: [[particle/007_ni|に]]表示目的地或目標。「〜に来る」表示來到某個地點或為了某個目的而來。
-
-[^particle-kara]: [[particle/004_kara|から]]表示起點或來源。「〜から来る」表示從某地出發或來自某處。
-
-[^particle-made]: [[particle/009_made|まで]]表示終點或範圍。「〜まで来る」強調來到某個終點或程度。
-
-[^iku]: [[verb-u/009_iku|行く]]與「来る」形成基本的方向對比。行く表示離開說話者的位置，而来る表示朝向說話者。視角的選擇決定使用哪個動詞。
-
-[^kaeru]: [[verb-u/011_kaeru|帰る]]表示「回去」或「回家」，強調回到原本的基點（如家、故鄉）。與来る的差異在於，帰る有明確的「歸屬地」概念。
-
-[^honorific]: [[honorific/003_irassharu_mairu|いらっしゃる・参る]]是来るの敬語形式。「いらっしゃる」和「お越しになる」是尊敬語（提高對方地位），用於描述對方或第三者的來訪；「参る」是謙讓語（降低自己地位），用於描述自己的來訪。
+- [いらっしゃる・参る - 来る的敬語](../honorific/003_irassharu_mairu.md)
 
 ---
 

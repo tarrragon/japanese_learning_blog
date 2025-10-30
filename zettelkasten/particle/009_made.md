@@ -554,18 +554,22 @@ Time + までに + Completion Verb
 ## Related Cards
 
 ### Particle Cards
-- [[particle/004_kara|から - From/Since Particle]] - Starting point particle, often paired with まで to express ranges (から〜まで)
-- [[particle/008_ni|に - At/To/In Particle]] - Time and location marker, compare with まで's endpoint meaning
-- [[particle/007_wa|は - Topic Particle]] - Used with まで to form までは (limited range with topic emphasis)
-- [[particle/005_de|で - At/By/With Particle]] - Location and means particle, contrasts with まで's endpoint usage
+- [から - From/Since Particle](003_kara.md) - Starting point particle, often paired with まで
+- [に - At/To/In Particle](007_ni.md) - Time and location marker, compare with まで's endpoint meaning
+- [は - Topic Particle](006_wa.md) - Used with まで to form までは (limited range)
 
-### Grammar Cards
-- [[grammar/031_made_vs_madeni|まで vs までに 比較]]（待建立）- Detailed comparison of まで (until) and までに (by/deadline)
-- [[grammar/004_mae_ni|〜前に - Before]] - Time expression for "before", contrasts with まで's "until"
-- [[grammar/014_ato_de|〜後で - After]] - Time expression for "after", pairs with まで for time sequences
+### Related Grammar
+- [まで vs までに 比較](005_made_madeni.md)（待建立）- Detailed comparison of まで and までに
+- [時間の長さと継続](../time-expressions/001_time_duration.md)（待建立）- Time duration and continuation expressions
+- [期限表現](../time-expressions/002_deadlines.md)（待建立）- Deadline expressions with までに
 
-### Movement Verbs
-- [[verb-u/009_iku|行く - To Go]] - Commonly used with まで to indicate destination (〜まで行く)
+### Verb Combinations
+- [までと動詞の組み合わせ](../verb-combo/001_made_verbs.md)（待建立）- Common verbs used with まで
+- [までに と動詞の組み合わせ](../verb-combo/002_madeni_verbs.md)（待建立）- Common verbs used with までに
+
+### Related Concepts
+- [時点 vs 時間の長さ](../concepts/time-point-vs-duration.md)（待建立）- Time point vs time duration
+- [継続動作 vs 完了動作](../concepts/continuous-vs-completion.md)（待建立）- Continuous vs completion actions
 
 ---
 

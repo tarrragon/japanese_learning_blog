@@ -336,21 +336,13 @@ In formal situations or when speaking to elders, use **お履きになる**:
 ## Related Cards | 相關卡片
 
 ### 相關動詞 Related Verbs
-- [[verb-ru/006_kiru|着る]] - 穿（上半身衣物）
-- [[verb-u/016_nugu|脱ぐ]] - 脫（衣服、鞋子）
+- [着る](../verb-ru/006_kiru.md) - 穿（上半身衣物）
+- [脱ぐ](016_nugu.md) - 脫（衣服、鞋子）
 
 ### 相關助詞 Related Particles
-- [[particle/003_wo|を]] - 賓語助詞[^object-particle]（Object Marker）
-- [[particle/007_wa|は]] - 主題助詞[^topic-particle]（Topic Marker）
-- [[particle/008_ni|に]] - 目的地・存在場所助詞[^ni-particle]
-
----
-
-## 參考資料 References | 參考資料
-
-- JLPT N5 Vocabulary List
-- Japanese Core 2000 Vocabulary
-- Genki I Textbook - Chapter 6: Clothes and Daily Routine
+- [を](../particle/002_wo.md) - 賓語助詞（Object Marker）
+- [は](../particle/006_wa.md) - 主題助詞（Topic Marker）
+- [に](../particle/007_ni.md) - 目的地・存在場所助詞
 
 ---
 
@@ -366,4 +358,4 @@ In formal situations or when speaking to elders, use **お履きになる**:
 
 **最後更新 Last Updated**: 2025-10-29
 **版本 Version**: 1.0.0
-**狀態 Status**: Completed
+**狀態 Status**: Draft

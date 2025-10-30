@@ -491,24 +491,24 @@ Both mean "I can speak Japanese," but the first is more formal.
 ## Related Cards
 
 ### Grammar
-- [[grammar/010_dictionary_form|辞書形 - Dictionary Form]] - **Required foundation** for this pattern
-- [[grammar/011_potential_form|可能形 - Potential Form]] - Alternative way to express ability
-- [[grammar/007_masu_form|ます形 - Masu Form]] - Polite conjugation form
+- [辞書形 - Dictionary Form](010_dictionary_form.md) - **Required foundation** for this pattern
+- [可能形 - Potential Form](011_potential_form.md) - Alternative way to express ability
+- [ます形 - Masu Form](007_masu_form.md) - Polite conjugation form
 
 ### Particles (Phase 1)
-- [[particle/001_ga|が - Subject Marker]] - **Core component** of ことができる pattern
-- [[particle/002_wo|を - Object Marker]] - Common with action verbs before ことができる
-- [[particle/007_ni|に - Direction/Time Marker]] - Frequently used in example contexts
-- [[particle/004_de|で - Location/Method Marker]] - Common in situational examples
-- [[particle/006_wa|は - Topic Marker]] - Used for sentence topics
+- [が - Subject Marker](../particle/001_ga.md) - **Core component** of ことができる pattern
+- [を - Object Marker](../particle/002_wo.md) - Common with action verbs before ことができる
+- [に - Direction/Time Marker](../particle/007_ni.md) - Frequently used in example contexts
+- [で - Location/Method Marker](../particle/004_de.md) - Common in situational examples
+- [は - Topic Marker](../particle/006_wa.md) - Used for sentence topics
 
 ### Verbs (Phase 1)
-- [[verb-irr/001_suru|する - to do]] - Irregular verb used in examples (することができる)
-- [[verb-irr/002_kuru|来る - to come]] - Irregular verb used in examples (来ることができる)
+- [する - to do](../verb-irr/001_suru.md) - Irregular verb used in examples (することができる)
+- [来る - to come](../verb-irr/002_kuru.md) - Irregular verb used in examples (来ることができる)
 
 ### Related Concepts
-- [[grammar/ability_expressions|能力表現の比較]] - Comparison of ability expressions（待建立）
-- [[grammar/polite_levels|丁寧度のレベル]] - Formality levels（待建立）
+- [能力表現の比較](ability_expressions.md) - Comparison of ability expressions（待建立）
+- [丁寧度のレベル](polite_levels.md) - Formality levels（待建立）
 
 ---
 

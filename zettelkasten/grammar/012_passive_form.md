@@ -15,7 +15,7 @@ tags:
   - passive
   - jlpt/n3
 created: 2025-10-28
-related_to: [[grammar/003_ichidan_verb]], [[grammar/006_godan_verb]], [[grammar/011_potential_form]]
+related_to: [003_ichidan_verb](003_ichidan_verb.md), [006_godan_verb](006_godan_verb.md), [011_potential_form](011_potential_form.md)
 ---
 ## 日文
 受身形（うけみけい）/ 受動態（じゅどうたい）
@@ -41,7 +41,7 @@ related_to: [[grammar/003_ichidan_verb]], [[grammar/006_godan_verb]], [[grammar/
 
 ### 活用規則
 
-#### [[grammar/003_ichidan_verb|一段動詞]]（る動詞）
+#### [一段動詞](003_ichidan_verb.md)（る動詞）
 る → られる
 
 | 辞書形 | 受身形 | 意味 |
@@ -51,9 +51,9 @@ related_to: [[grammar/003_ichidan_verb]], [[grammar/006_godan_verb]], [[grammar/
 | 褒める | 褒められる | 被稱讚 |
 | 教える | 教えられる | 被教 |
 
-**注意**：[[grammar/011_potential_form|可能形]]と同じ形！文脈で判断
+**注意**：[可能形](011_potential_form.md)と同じ形！文脈で判断
 
-#### [[grammar/006_godan_verb|五段動詞]]（う動詞）
+#### [五段動詞](006_godan_verb.md)（う動詞）
 語尾を「あ」段 + れる
 
 | 語尾 | 変化 | 辞書形 | 受身形 |
@@ -123,7 +123,7 @@ related_to: [[grammar/003_ichidan_verb]], [[grammar/006_godan_verb]], [[grammar/
 
 ### 可能形との区別
 
-**[[grammar/003_ichidan_verb|一段動詞]]は同じ形**：文脈で判断
+**[一段動詞](003_ichidan_verb.md)は同じ形**：文脈で判断
 
 | 辞書形 | られる形 | 可能 | 受身 |
 |--------|----------|------|------|
@@ -132,7 +132,7 @@ related_to: [[grammar/003_ichidan_verb]], [[grammar/006_godan_verb]], [[grammar/
 
 **判断方法**：
 
-[[grammar/011_potential_form|可能形]]：
+[可能形](011_potential_form.md)：
 - 助詞が「が」
 - 魚**が**食べられる。（能吃魚）
 
@@ -140,7 +140,7 @@ related_to: [[grammar/003_ichidan_verb]], [[grammar/006_godan_verb]], [[grammar/
 - 助詞が「に」
 - 魚**に**食べられる。（被魚吃）
 
-→ 詳しくは[[comparison/003_passive_vs_potential_ichidan|受身形 vs 可能形（一段動詞）]]（待建立）を参照
+→ 詳しくは[受身形 vs 可能形（一段動詞）](../comparison/003_passive_vs_potential_ichidan.md)（待建立）を参照
 
 ### 受身と能動の対比
 
@@ -513,15 +513,15 @@ Passive form:
 ## 相關連結
 
 ### 動詞基礎
-- [[grammar/003_ichidan_verb|一段動詞]] - 一段動詞的受身形變化
-- [[grammar/006_godan_verb|五段動詞]] - 五段動詞的受身形變化
+- [一段動詞](003_ichidan_verb.md) - 一段動詞的受身形變化
+- [五段動詞](006_godan_verb.md) - 五段動詞的受身形變化
 
 ### 相關形式
-- [[grammar/011_potential_form|可能形]] - 可能形（一段動詞形式相同）
-- [[grammar/013_causative_form|使役形]] - 使役形（概念相關）
+- [可能形](011_potential_form.md) - 可能形（一段動詞形式相同）
+- [使役形](013_causative_form.md) - 使役形（概念相關）
 
 ### 相關助詞
-- [[particle/001_ga|が]] - が助詞（受身句的主語標記）
+- [が](../particle/001_ga.md) - が助詞（受身句的主語標記）
 
 ### 比較卡片
-- [[comparison/003_passive_vs_potential_ichidan|受身形 vs 可能形（一段動詞）]]（待建立）- 形式相同的區別
+- [受身形 vs 可能形（一段動詞）](../comparison/003_passive_vs_potential_ichidan.md)（待建立）- 形式相同的區別

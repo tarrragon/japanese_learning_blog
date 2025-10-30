@@ -11,12 +11,12 @@ needs_review: false
 completed: 2025-10-28
 tags: [basic, domain/daily_life]
 created: 2025-10-28
-related_to: [[grammar/003_ichidan_verb]], [[verb-ru/004_neru]]
+related_to: [003_ichidan_verb](../grammar/003_ichidan_verb.md), [004_neru](004_neru.md)
 ---
 ## 日文
 起きる（おきる）
 
-日常生活で最も基本的な動詞の一つ。睡眠から目覚める、または座る・立つ動作を表します。N5レベルで必ず学ぶ重要な[[grammar/003_ichidan_verb|一段動詞]]で、「寝る」と対になる動詞として頻繁に使用されます。
+日常生活で最も基本的な動詞の一つ。睡眠から目覚める、または座る・立つ動作を表します。N5レベルで必ず学ぶ重要な[一段動詞](../grammar/003_ichidan_verb.md)で、「寝る」と対になる動詞として頻繁に使用されます。
 
 ### 動詞情報
 
@@ -319,15 +319,15 @@ One of the most basic verbs in daily life. It expresses waking up from sleep or 
 ## 相關連結
 
 ### 動詞類型
-- [[grammar/003_ichidan_verb|一段動詞]] - 起きる是典型的一段動詞
-- [[verb-ru/004_neru|寝る]] - 對應動詞（睡覺）
+- [一段動詞](../grammar/003_ichidan_verb.md) - 起きる是典型的一段動詞
+- [寝る](004_neru.md) - 對應動詞（睡覺）
 
 ### 相關文法
-- [[grammar/007_masu_form|ます形]]（待建立） - 起きます的用法
-- [[grammar/001_te_form|て形文法]] - 起きて的用法
-- [[grammar/015_te_kara|〜てから]] - 起床後習慣表達
+- [ます形](../grammar/007_masu_form.md)（待建立） - 起きます的用法
+- [て形文法](../grammar/001_te_form.md) - 起きて的用法
+- [〜てから](../grammar/015_te_kara.md) - 起床後習慣表達
 
 ### 相關動詞
-- [[verb-ru/004_neru|寝る]] - 睡覺（對應動詞）
-- [[verb-u/018_okosu|起こす]]（待建立） - 叫醒（他動詞）
-- [[verb-u/019_okoru|起こる]]（待建立） - 發生
+- [寝る](004_neru.md) - 睡覺（對應動詞）
+- [起こす](../verb-u/018_okosu.md)（待建立） - 叫醒（他動詞）
+- [起こる](../verb-u/019_okoru.md)（待建立） - 發生

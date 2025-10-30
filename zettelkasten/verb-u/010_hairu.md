@@ -14,14 +14,12 @@ tags:
   - entering
   - basic
 created: 2025-10-29
-related_to: [[grammar/006_godan_verb]], [[particle/007_ni]], [[verb-ru/007_deru]]
+related_to: [006_godan_verb](../grammar/006_godan_verb.md), [007_ni](../particle/007_ni.md), [007_deru](../verb-ru/007_deru.md)
 ---
 ## 日文
 入る（はいる）
 
-物理的に何かの中に移動する、または集団・状態に加わることを表す基本的な[[grammar/006_godan_verb|五段動詞]][^1]。N5レベルで必ず学ぶ重要な動詞で、[[verb-ru/007_deru|出る]]の反対語です。場所への進入から、組織への加入、状態の変化まで、幅広い意味を持ちます。
-
-[^1]: **五段動詞（Godan verb）**：語尾が「う」で終わり、活用時にあ・い・う・え・お段を使う動詞。「入る」は「る」で終わりますが、一段動詞ではなく五段動詞です（入ら・入り・入る・入る・入れ・入ろう）。
+物理的に何かの中に移動する、または集団・状態に加わることを表す基本的な[五段動詞](../grammar/006_godan_verb.md)。N5レベルで必ず学ぶ重要な動詞で、[出る](../verb-ru/007_deru.md)の反対語です。場所への進入から、組織への加入、状態の変化まで、幅広い意味を持ちます。
 
 ### 動詞情報
 
@@ -34,7 +32,7 @@ related_to: [[grammar/006_godan_verb]], [[particle/007_ni]], [[verb-ru/007_deru]
 | 自他 | 自動詞 |
 | JLPT | N5 |
 | 助詞 | に（目的地）/ を（通過場所）|
-| 反対語 | [[verb-ru/007_deru|出る]]（離開、出去）|
+| 反対語 | [出る](../verb-ru/007_deru.md)（離開、出去）|
 
 ### 活用形
 
@@ -102,7 +100,7 @@ related_to: [[grammar/006_godan_verb]], [[particle/007_ni]], [[verb-ru/007_deru]
 - 大学**に**入る（進入大學）
 - お風呂**に**入る（洗澡）
 
-**に助詞[^2]の意味**：
+**[に](../particle/007_ni.md)助詞の意味**：
 - 目的地・到達点を示す
 - 「入る」と一緒に最もよく使われる助詞
 
@@ -127,7 +125,7 @@ related_to: [[grammar/006_godan_verb]], [[particle/007_ni]], [[verb-ru/007_deru]
 - 部屋**に入る**。（進入房間）
 - 視点：外 → 中
 
-#### [[verb-ru/007_deru|出る]]（離開）
+#### [出る](../verb-ru/007_deru.md)（離開）
 中から外へ：
 - 部屋**を出る**。（離開房間）
 - 視点：中 → 外
@@ -646,20 +644,20 @@ Meaning changes by context:
 ## 相關連結
 
 ### 動詞基礎
-- [[grammar/006_godan_verb|五段動詞]] - 五段動詞的完整說明
-- [[grammar/001_te_form|て形]] - て形（入る的變化：入って）
+- [五段動詞](../grammar/006_godan_verb.md) - 五段動詞的完整說明
+- [て形](../grammar/001_te_form.md) - て形（入る的變化：入って）
 
 ### 相關助詞
-- [[particle/007_ni|に]] - に助詞（目的地）
-- [[particle/002_wo|を]] - を助詞（通過場所）
+- [に](../particle/007_ni.md) - に助詞（目的地）
+- [を](../particle/002_wo.md) - を助詞（通過場所）
 
 ### 相關動詞
-- [[verb-ru/007_deru|出る]] - 出る（離開、出去）- 反義詞
-- [[verb-ru/008_dekakeru|出かける]] - 出かける（外出）
-- [[verb-u/009_iku|行く]] - 行く（去）
-- [[verb-irr/002_kuru|来る]] - 来る（來）
-- [[verb-u/011_kaeru|帰る]] - 帰る（回家）
+- [出る](../verb-ru/007_deru.md) - 出る（離開、出去）- 反義詞
+- [出かける](../verb-ru/008_dekakeru.md) - 出かける（外出）
+- [行く](009_iku.md) - 行く（去）
+- [来る](../verb-irr/002_kuru.md) - 来る（來）
+- [帰る](011_kaeru.md) - 帰る（回家）
 
 ### 相關文法
-- [[grammar/007_masu_form|ます形]] - 入ります的用法
-- [[grammar/001_te_form|て形文法]] - 入って的用法
+- [ます形](../grammar/007_masu_form.md) - 入ります的用法
+- [て形文法](../grammar/001_te_form.md) - 入って的用法

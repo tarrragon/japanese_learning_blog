@@ -84,7 +84,7 @@ Time is very precious, so let's not waste it.
 
 [^juuyou]: **重要** - 更正式的「重要」說法，多用於書面語、商務或學術場合。例：重要な問題（重要的問題）、重要性（重要性）
 
-[^written]: **書面語**（[[concept/register#書面語]]）- 用於書寫的語言風格，通常比口語更正式、精確。與口語（話し言葉）相對
+[^written]: **書面語**（[register#書面語](../concept/register#書面語.md)）- 用於書寫的語言風格，通常比口語更正式、精確。與口語（話し言葉）相對
 
 ---
 
@@ -94,12 +94,12 @@ Time is very precious, so let's not waste it.
 （暫無卡片 - 可建立：大事、重要）
 
 ### 相關詞彙
-- [[noun/002_kenkou|健康]] - 健康
-- [[noun/001_asagohan|朝ごはん]] - 早餐
+- [健康](../noun/002_kenkou.md) - 健康
+- [朝ごはん](../noun/001_asagohan.md) - 早餐
 
 ### 相關文法
 （暫無卡片 - 可建立：な形容詞總覽、にとって文法、〜ようにする文法）
 
 ### 相關語境
-- [[_meta/tags/context/002_casual|日常會話]] - 口語場景
-- [[_meta/tags/context/004_formal|正式場合]] - 正式場景
+- [日常會話](_meta/tags/context/002_casual.md) - 口語場景
+- [正式場合](_meta/tags/context/004_formal.md) - 正式場景
