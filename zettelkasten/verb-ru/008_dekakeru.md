@@ -11,12 +11,12 @@ needs_review: false
 completed: 2025-10-28
 tags: [basic, domain/movement, domain/daily_life]
 created: 2025-10-28
-related_to: [[grammar/003_ichidan_verb]], [[grammar/004_mae_ni]], [[verb-ru/007_deru]]
+related_to: [003_ichidan_verb](../grammar/003_ichidan_verb.md), [004_mae_ni](../grammar/004_mae_ni.md), [007_deru](007_deru.md)
 ---
 ## 日文
 出かける（でかける）
 
-目的を持って外出する動作を表す[[grammar/003_ichidan_verb|一段動詞]]。「出る」と異なり、明確な目的地や用事があることを示します。N5レベルで学ぶ重要な動詞で、日常会話で頻繁に使用されます。
+目的を持って外出する動作を表す[一段動詞](../grammar/003_ichidan_verb.md)。「出る」と異なり、明確な目的地や用事があることを示します。N5レベルで学ぶ重要な動詞で、日常会話で頻繁に使用されます。
 
 ### 動詞情報
 
@@ -404,18 +404,18 @@ Purpose unclear:
 ## 相關連結
 
 ### 動詞基礎
-- [[grammar/003_ichidan_verb|一段動詞]] - 一段動詞的完整說明
+- [一段動詞](../grammar/003_ichidan_verb.md) - 一段動詞的完整說明
 
 ### 相關助詞
-- [[particle/003_kara|から]] - から助詞（起點）
-- [[particle/004_de|で]] - で助詞（交通手段）
+- [から](../particle/003_kara.md) - から助詞（起點）
+- [で](../particle/004_de.md) - で助詞（交通手段）
 
 ### 相關文法
-- [[grammar/007_masu_form|ます形]]（待建立） - 出かけます的用法
-- [[grammar/001_te_form|て形文法]] - 出かけて的用法
-- [[grammar/004_mae_ni|〜前に]] - 出かける前に（出門前）
+- [ます形](../grammar/007_masu_form.md)（待建立） - 出かけます的用法
+- [て形文法](../grammar/001_te_form.md) - 出かけて的用法
+- [〜前に](../grammar/004_mae_ni.md) - 出かける前に（出門前）
 
 ### 相關動詞
-- [[verb-ru/007_deru|出る]] - 出る（單純離開）
-- [[verb-irr/002_kuru|来る]]（待建立） - 來
-- [[verb-u/011_kaeru|帰る]]（待建立） - 回
+- [出る](007_deru.md) - 出る（單純離開）
+- [来る](../verb-irr/002_kuru.md)（待建立） - 來
+- [帰る](../verb-u/011_kaeru.md)（待建立） - 回

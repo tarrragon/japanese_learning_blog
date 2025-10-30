@@ -11,7 +11,7 @@ needs_review: false
 completed: 2025-10-28
 tags: [grammar, time, sequence, basic]
 created: 2025-10-28
-related_to: [[grammar/001_te_form]], [[grammar/004_mae_ni]], [[grammar/014_ato_de]]
+related_to: [001_te_form](001_te_form.md), [004_mae_ni](004_mae_ni.md), [014_ato_de](014_ato_de.md)
 ---
 
 ## 日文
@@ -21,7 +21,7 @@ related_to: [[grammar/001_te_form]], [[grammar/004_mae_ni]], [[grammar/014_ato_d
 
 ### 基本接続
 
-#### 動詞[[grammar/001_te_form|て形]] + から
+#### 動詞[て形](001_te_form.md) + から
 - 食べてから（吃完之後）
 - 勉強してから（學習完之後）
 - 見てから（看完之後）
@@ -163,17 +163,17 @@ Can also mean "since..." when expressing duration:
 
 ## 補充說明
 
-### 〜てから vs [[grammar/014_ato_de|〜後で]] 詳細比較
+### 〜てから vs [〜後で](014_ato_de.md) 詳細比較
 
-| 比較點 | 〜てから | [[grammar/014_ato_de|〜後で]] |
+| 比較點 | 〜てから | [〜後で](014_ato_de.md) |
 |--------|---------|--------|
-| **接續** | [[grammar/001_te_form|て形]] + から | [[grammar/009_ta_form|た形]] + 後で |
+| **接續** | [て形](001_te_form.md) + から | [た形](009_ta_form.md) + 後で |
 | **順序感** | 強（緊接著做） | 弱（中間可能有間隔） |
 | **連續性** | 強調連續動作 | 不一定連續 |
 | **使用場合** | 有明確先後關係 | 較一般的時間順序 |
 | **例句** | 手を洗ってから食べる | 食事の後で散歩する |
 
-→ 詳しくは[[comparison/004_ato_de_vs_te_kara|後で vs てから]]（待建立）を参照
+→ 詳しくは[後で vs てから](../comparison/004_ato_de_vs_te_kara.md)（待建立）を参照
 
 #### 實例對比
 
@@ -194,7 +194,7 @@ Can also mean "since..." when expressing duration:
 4. **仔細考慮**：よく考えてから
 5. **學習順序**：基礎を勉強してから
 
-#### 適合用[[grammar/014_ato_de|〜後で]]
+#### 適合用[〜後で](014_ato_de.md)
 1. **大的時間區塊**：仕事の後で
 2. **鬆散的順序**：食事の後で
 3. **名詞接續**：会議の後で
@@ -266,12 +266,12 @@ Can also mean "since..." when expressing duration:
 ## 相關連結
 
 ### 對比文法
-- [[grammar/014_ato_de|〜後で]] - 在...之後（較鬆散）
-- [[grammar/004_mae_ni|〜前に]] - 在...之前
+- [〜後で](014_ato_de.md) - 在...之後（較鬆散）
+- [〜前に](004_mae_ni.md) - 在...之前
 
 ### 相關動詞形
-- [[grammar/001_te_form|て形文法]] - て形變化（てから必須使用）
-- [[grammar/009_ta_form|た形]] - 過去形（後で使用）
+- [て形文法](001_te_form.md) - て形變化（てから必須使用）
+- [た形](009_ta_form.md) - 過去形（後で使用）
 
 ### 比較卡片
-- [[comparison/004_ato_de_vs_te_kara|後で vs てから]]（待建立）- 使用區別
+- [後で vs てから](../comparison/004_ato_de_vs_te_kara.md)（待建立）- 使用區別

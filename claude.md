@@ -47,6 +47,19 @@
 
 本專案採用**四階段迭代循環**開發卡片系統。每個小版本（PATCH）對應一個完整的工作流程循環。
 
+**⚠️ 重要：版本循環檢查清單**
+
+在執行每個階段時，**必須**參考並遵循 `.claude/version-cycle-checklist.md` 中的檢查清單。該文檔定義了：
+- 每個階段的標準流程
+- 必須產出的三份核心文檔
+- 詳細的檢查項目
+- 文檔格式範本
+
+**每個版本必須產出的三份核心文檔**：
+1. `doc/worklog/worklog-{version}.md` - 工作日誌（記錄整個版本進度）
+2. `doc/worklog/extension-cards-{version}.md` - 延伸卡片記錄（Extension-Review 階段產出）
+3. `doc/worklog/linking-cards-{version}.md` - 連結階段新卡片記錄（Linking 階段產出）
+
 ### 卡片四個階段
 
 每張卡片在生命週期中會經歷以下階段：
@@ -77,14 +90,27 @@
 
 #### 循環 N（版本 1.0.N）：
 
-**階段 1：草稿完善**
+**📋 重要提醒**：每個階段開始前，必須查閱 `.claude/version-cycle-checklist.md` 對應章節的檢查清單。
+
+**階段 1：草稿完善（Draft）**
+
+📋 **檢查清單**：參考 `.claude/version-cycle-checklist.md` → "階段 1: Draft（草稿完善）"
+
 ```bash
 # 執行：找出所有 stage: draft 的卡片
 # 代理人：人工審查 + 內容補充
 # 輸出：將卡片更新為 stage: extension-review
 ```
 
-**階段 2：延伸卡片檢查**
+**必須完成**：
+- ✅ 所有卡片內容完善（三語解釋、例句）
+- ✅ 更新工作日誌的「階段 1」進度
+- ✅ 提交 git commit
+
+**階段 2：延伸卡片檢查（Extension-Review）**
+
+📋 **檢查清單**：參考 `.claude/version-cycle-checklist.md` → "階段 2: Extension-Review（延伸卡片檢查）"
+
 ```bash
 # 執行延伸卡片代理人
 /create-extension-cards
@@ -92,11 +118,18 @@
 # 輸入：所有 stage: extension-review 的卡片
 # 輸出：
 #   - 識別需要的延伸卡片（文法、語用、文化等）
-#   - 建立新的延伸卡片草稿（stage: draft）
 #   - 將處理完的卡片更新為 stage: linking
 ```
 
-**階段 3：連結與腳註建立**
+**必須產出**：
+- ✅ `doc/worklog/extension-cards-{version}.md` - 延伸卡片記錄文檔
+- ✅ 更新工作日誌的「階段 2」進度
+- ✅ 提交 git commit
+
+**階段 3：連結與腳註建立（Linking）**
+
+📋 **檢查清單**：參考 `.claude/version-cycle-checklist.md` → "階段 3: Linking（建立連結與腳註）"
+
 ```bash
 # 執行連結建立代理人（對每張卡片）
 # 使用 build-card-links subagent
@@ -105,38 +138,74 @@
 # 輸出：
 #   - 補充標準連結（Related Links 區塊）
 #   - 補充腳註標註（Footnotes）
-#   - 識別遺漏的卡片並建立草稿（stage: draft）
+#   - 識別遺漏的卡片（Critical 立即建立草稿）
 #   - 將處理完的卡片更新為 stage: completed
 ```
 
-**階段 4：完成與記錄**
+**必須產出**：
+- ✅ `doc/worklog/linking-cards-{version}.md` - 連結階段新卡片記錄文檔
+- ✅ 更新工作日誌的「階段 3」進度
+- ✅ 提交 git commit
+
+**階段 4：完成與記錄（Completed）**
+
+📋 **檢查清單**：參考 `.claude/version-cycle-checklist.md` → "階段 4: Completed（完成標記）"
+
 ```bash
-# 將 stage: completed 的卡片記錄到工作流程文檔
+# 確認所有卡片 stage: completed
 # 更新 CHANGELOG.md
+# 更新工作日誌的整體狀態
 # 提交版本 1.0.N
 ```
 
+**必須完成**：
+- ✅ 更新 CHANGELOG.md
+- ✅ 更新工作日誌為「已完成」狀態
+- ✅ 合併到 main 分支
+- ✅ 確認三份核心文檔都已產出
+
 #### 循環 N+1（版本 1.0.N+1）：
 
-回到階段 1，處理：
-- 上一循環產生的 `stage: draft` 卡片
-- 任何新建立的詞彙卡片
+📋 **檢查清單**：參考 `.claude/version-cycle-checklist.md` → "版本循環完成：準備下一版本"
+
+**整合卡片來源**：
+1. **來自上一版本的待建立清單**：
+   - `doc/worklog/extension-cards-{current}.md` - Extension-Review 識別的延伸卡片
+   - `doc/worklog/linking-cards-{current}.md` - Linking 階段識別的新卡片（含已建立草稿）
+
+2. **來自新文章解析**（如有）：
+   - 使用 `/extract-vocab` 或 `/create-zettel` 識別新卡片需求
+
+3. **手動識別的缺口**：
+   - 學習者反饋
+   - 系統性缺口
+
+**開始新循環**：
+- 建立新的工作日誌 `doc/worklog/worklog-{next}.md`
+- 在「卡片來源」章節明確列出上述三個來源
+- 決定本版本的優先處理卡片
+- 開始階段 1（Draft）
 
 ### 工作流程文檔
 
-每個小版本一個工作流程文檔，放在 `doc/worklog/worklog-{version}.md`
+**每個版本必須產出三份核心文檔**：
 
-**格式範例**：`doc/worklog/worklog-1.0.0.md`
+1. **工作日誌** - `doc/worklog/worklog-{version}.md`
+   - 記錄整個版本的進度、統計、問題
+   - 在版本開始前建立
+   - 各階段持續更新
 
-工作流程文檔必須記錄：
-- **各階段卡片清單** - 哪些卡片在哪個階段
-- **循環開始日期**
-- **循環完成日期**
-- **本循環新增的卡片數量**
-- **本循環完成的卡片數量**
-- **發現的問題與改進**
+2. **延伸卡片記錄** - `doc/worklog/extension-cards-{version}.md`
+   - 記錄 Extension-Review 階段識別的延伸需求
+   - 在階段 2 完成時建立
+   - 格式範本見 `.claude/version-cycle-checklist.md`
 
-範例格式參考 `doc/worklog/worklog-1.0.0.md`。
+3. **連結階段新卡片記錄** - `doc/worklog/linking-cards-{version}.md`
+   - 記錄 Linking 階段發現的新卡片需求
+   - 在階段 3 完成時建立
+   - 格式範本見 `.claude/version-cycle-checklist.md`
+
+**文檔格式範本和詳細要求**：參考 `.claude/version-cycle-checklist.md`
 
 ## 核心理念
 
@@ -803,7 +872,9 @@ jlpt/none            # 不在 JLPT 範圍（專業術語等）
 
 ### 連結格式
 
-使用標準 Markdown 連結格式：
+**重要原則**：本專案使用標準 Markdown 連結格式，**嚴格禁止使用 Wikilink 格式**。
+
+#### ✅ 正確格式：標準 Markdown
 
 ```markdown
 [顯示文字](相對路徑)
@@ -818,6 +889,47 @@ links:
   - [インフレーション](002_inflation.md)
   - [は（助詞）](../particle/001_wa.md)
 ```
+
+#### ❌ 錯誤格式：Wikilink（禁止使用）
+
+以下格式**不得使用**：
+
+```markdown
+# ❌ 禁止：Wikilink / Obsidian 格式
+[[particle/007_ni|に]]
+[[verb-ru/001_taberu|食べる]]
+[[grammar/001_te_form]]
+
+# ❌ 禁止：在 YAML 中使用 Wikilink
+related_to: [[particle/003_wo]], [[verb-ru/001_taberu]]
+```
+
+**原因**：
+1. Wikilink 格式無法在標準 Markdown 渲染器（GitHub、GitLab、VS Code）中正確顯示
+2. 無法形成可點擊的連結
+3. 違反專案的統一性和可維護性原則
+
+#### 連結建立注意事項
+
+1. **使用相對路徑**
+   - 同資料夾：`[食べる](001_taberu.md)`
+   - 不同資料夾：`[が](../particle/001_ga.md)`
+
+2. **必須包含 .md 副檔名**
+   - ✅ `[て形](../grammar/001_te_form.md)`
+   - ❌ `[[grammar/001_te_form]]`
+
+3. **顯示文字應該清楚易懂**
+   - 日文：`[食べる](001_taberu.md)` 或 `[食べる（吃）](001_taberu.md)`
+   - 中文：`[動詞て形](../grammar/001_te_form.md)`
+   - 英文：`[て-form grammar](../grammar/001_te_form.md)`
+
+4. **代理人建立連結時的檢查清單**
+   - ✅ 使用標準 Markdown `[text](path)` 格式
+   - ✅ 路徑包含 `.md` 副檔名
+   - ✅ 相對路徑正確（使用 `../` 跨目錄）
+   - ✅ 目標檔案確實存在
+   - ❌ 絕對不使用 `[[...]]` 格式
 
 ## 工作流程
 

@@ -15,7 +15,7 @@ tags:
   - basic
   - dictionary
 created: 2025-10-28
-related_to: [[grammar/003_ichidan_verb]], [[grammar/006_godan_verb]], [[grammar/007_masu_form]]
+related_to: [003_ichidan_verb](003_ichidan_verb.md), [006_godan_verb](006_godan_verb.md), [007_masu_form](007_masu_form.md)
 ---
 ## 日文
 辞書形（じしょけい）
@@ -37,8 +37,8 @@ related_to: [[grammar/003_ichidan_verb]], [[grammar/006_godan_verb]], [[grammar/
 
 #### 3. 動詞の分類基準
 動詞のタイプを判断する基準：
-- る動詞（[[grammar/003_ichidan_verb|一段動詞]]）：語尾が「る」で終わる
-- う動詞（[[grammar/006_godan_verb|五段動詞]]）：語尾が「う」段で終わる
+- る動詞（[一段動詞](003_ichidan_verb.md)）：語尾が「る」で終わる
+- う動詞（[五段動詞](006_godan_verb.md)）：語尾が「う」段で終わる
 - 不規則動詞：する、来る
 
 #### 4. 文法形式の基礎
@@ -84,8 +84,8 @@ related_to: [[grammar/003_ichidan_verb]], [[grammar/006_godan_verb]], [[grammar/
 
 #### 2. 文法接続
 様々な文法形式に接続：
-- [[grammar/027_koto_ga_dekiru|～ことができる]]（待建立）：食べることができる（能吃）
-- [[grammar/004_mae_ni|～前に]]：食べる前に（吃之前）
+- [～ことができる](027_koto_ga_dekiru.md)（待建立）：食べることができる（能吃）
+- [～前に](004_mae_ni.md)：食べる前に（吃之前）
 - ～つもりだ：行くつもりだ（打算去）
 
 #### 3. 命令・推量
@@ -236,8 +236,8 @@ Can express commands or intentions depending on context:
 
 #### 2. 文法接續
 連接各種文法句型：
-- [[grammar/027_koto_ga_dekiru|～ことができる]]（待建立）：食べることができる（能吃）
-- [[grammar/004_mae_ni|～前に]]：食べる前に（吃之前）
+- [～ことができる](027_koto_ga_dekiru.md)（待建立）：食べることができる（能吃）
+- [～前に](004_mae_ni.md)：食べる前に（吃之前）
 - ～つもりだ：行くつもりだ（打算去）
 
 #### 3. 命令・意志
@@ -316,16 +316,16 @@ Can express commands or intentions depending on context:
 ## 相關連結
 
 ### 基礎文法
-- [[grammar/003_ichidan_verb|一段動詞]] - 一段動詞（る動詞）的完整說明
-- [[grammar/006_godan_verb|五段動詞]] - 五段動詞（う動詞）的完整說明
-- [[grammar/007_masu_form|ます形]] - ます形（從辭書形變化而來）
+- [一段動詞](003_ichidan_verb.md) - 一段動詞（る動詞）的完整說明
+- [五段動詞](006_godan_verb.md) - 五段動詞（う動詞）的完整說明
+- [ます形](007_masu_form.md) - ます形（從辭書形變化而來）
 
 ### 其他動詞形式
-- [[grammar/008_nai_form|ない形]] - ない形（否定形）
-- [[grammar/009_ta_form|た形]] - た形（過去形）
-- [[grammar/001_te_form|て形]] - て形（連接形）
+- [ない形](008_nai_form.md) - ない形（否定形）
+- [た形](009_ta_form.md) - た形（過去形）
+- [て形](001_te_form.md) - て形（連接形）
 
 ### 文法接續
-- [[grammar/004_mae_ni|～前に]] - ～前に（辭書形 + 前に）
-- [[grammar/011_potential_form|可能形]] - 可能形（從辭書形理解變化）
-- [[grammar/027_koto_ga_dekiru|～ことができる]]（待建立）- 能夠做某事
+- [～前に](004_mae_ni.md) - ～前に（辭書形 + 前に）
+- [可能形](011_potential_form.md) - 可能形（從辭書形理解變化）
+- [～ことができる](027_koto_ga_dekiru.md)（待建立）- 能夠做某事

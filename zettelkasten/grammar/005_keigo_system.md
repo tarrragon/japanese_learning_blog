@@ -8,7 +8,7 @@ stage: completed
 tags: [grammar, keigo, honorific, pragmatics, social]
 created: 2025-10-28
 updated: 2025-10-28
-related_to: [[honorific/001_meshiagaru_itadaku]], [[verb-ru/001_taberu]], [[grammar/003_ichidan_verb]], [[grammar/006_godan_verb]]
+related_to: [001_meshiagaru_itadaku](../honorific/001_meshiagaru_itadaku.md), [001_taberu](../verb-ru/001_taberu.md), [003_ichidan_verb](003_ichidan_verb.md), [006_godan_verb](006_godan_verb.md)
 ---
 
 ## 日文
@@ -35,7 +35,7 @@ related_to: [[honorific/001_meshiagaru_itadaku]], [[verb-ru/001_taberu]], [[gram
 - 話題の人物（第三者）で自分より立場が上の人の動作
 
 **構成方法**：
-- 特別な敬語動詞を使う：「[[verb-ru/001_taberu|食べる]]」→「[[honorific/001_meshiagaru_itadaku|召し上がる]]」
+- 特別な敬語動詞を使う：「[食べる](../verb-ru/001_taberu.md)」→「[召し上がる](../honorific/001_meshiagaru_itadaku.md)」
 - お〜になる形[^o-ni-naru]：「食べる」→「お食べになる」
 - れる・られる形[^rareru]：「行く」→「行かれる」
 
@@ -48,7 +48,7 @@ related_to: [[honorific/001_meshiagaru_itadaku]], [[verb-ru/001_taberu]], [[gram
 - 身内（家族、同じ会社の人など）の動作
 
 **構成方法**：
-- 特別な謙譲語動詞を使う：「[[verb-ru/001_taberu|食べる]]」→「[[honorific/001_meshiagaru_itadaku|いただく]]」
+- 特別な謙譲語動詞を使う：「[食べる](../verb-ru/001_taberu.md)」→「[いただく](../honorific/001_meshiagaru_itadaku.md)」
 - お〜する形[^o-suru]：「話す」→「お話しする」
 - お〜いただく形：「見る」→「お見せいただく」
 
@@ -87,7 +87,7 @@ Elevates the actions or states of the listener or a third party to show respect 
 - Actions of a third party who is of higher status
 
 **Formation Methods**:
-- Special respectful verbs: "[[verb-ru/001_taberu|taberu]]" → "[[honorific/001_meshiagaru_itadaku|meshiagaru]]"
+- Special respectful verbs: "[taberu](../verb-ru/001_taberu.md)" → "[meshiagaru](../honorific/001_meshiagaru_itadaku.md)"
 - O-~ninaru form[^o-ni-naru]: "taberu" → "otabe ni naru"
 - Reru/rareru form[^rareru]: "iku" → "ikareru"
 
@@ -100,7 +100,7 @@ Lowers the speaker's own actions or those of the speaker's group to show respect
 - Actions of one's in-group (family, company colleagues, etc.)
 
 **Formation Methods**:
-- Special humble verbs: "[[verb-ru/001_taberu|taberu]]" → "[[honorific/001_meshiagaru_itadaku|itadaku]]"
+- Special humble verbs: "[taberu](../verb-ru/001_taberu.md)" → "[itadaku](../honorific/001_meshiagaru_itadaku.md)"
 - O-~suru form[^o-suru]: "hanasu" → "ohanashi suru"
 - O-~itadaku form: "miru" → "omise itadaku"
 
@@ -139,7 +139,7 @@ To use keigo correctly, one must assess the following relationships:
 - 話題人物（第三方）且地位比自己高的人的動作
 
 **構成方法**：
-- 使用特殊的尊敬語動詞：「[[verb-ru/001_taberu|食べる]]」→「[[honorific/001_meshiagaru_itadaku|召し上がる]]」
+- 使用特殊的尊敬語動詞：「[食べる](../verb-ru/001_taberu.md)」→「[召し上がる](../honorific/001_meshiagaru_itadaku.md)」
 - お〜になる形[^o-ni-naru]：「食べる」→「お食べになる」
 - れる・られる形[^rareru]：「行く」→「行かれる」
 
@@ -152,7 +152,7 @@ To use keigo correctly, one must assess the following relationships:
 - 內部人士（家人、同公司的人等）的動作
 
 **構成方法**：
-- 使用特殊的謙讓語動詞：「[[verb-ru/001_taberu|食べる]]」→「[[honorific/001_meshiagaru_itadaku|いただく]]」
+- 使用特殊的謙讓語動詞：「[食べる](../verb-ru/001_taberu.md)」→「[いただく](../honorific/001_meshiagaru_itadaku.md)」
 - お〜する形[^o-suru]：「話す」→「お話しする」
 - お〜いただく形：「見る」→「お見せいただく」
 
@@ -178,7 +178,7 @@ To use keigo correctly, one must assess the following relationships:
 
 | 普通形 | 尊敬語 | 謙讓語 | 丁寧語 |
 |-------|--------|--------|--------|
-| [[verb-ru/001_taberu|食べる]] | [[honorific/001_meshiagaru_itadaku|召し上がる]] | [[honorific/001_meshiagaru_itadaku|いただく]] | 食べます |
+| [食べる](../verb-ru/001_taberu.md) | [召し上がる](../honorific/001_meshiagaru_itadaku.md) | [いただく](../honorific/001_meshiagaru_itadaku.md) | 食べます |
 | 飲む | 召し上がる | いただく | 飲みます |
 | 言う | おっしゃる | 申す・申し上げる | 言います |
 | 行く | いらっしゃる | 参る・伺う | 行きます |
@@ -284,11 +284,11 @@ I told the customer what the president said.
 
 [^o-ni-naru]: **お〜になる形** - 尊敬語的一種構成方式。結構：お + 動詞ます形詞幹 + になる。用於表示對方或尊長的動作。例：食べる → お食べになる、話す → お話しになる。這是除了特殊敬語動詞和られる形之外，最常用的尊敬語構成方法。
 
-[^rareru]: **れる・られる形** - 動詞的受身形式，同時也可用作尊敬語。[[grammar/003_ichidan_verb|一段動詞]]加「られる」，[[grammar/006_godan_verb|五段動詞]]詞尾變あ段加「れる」。作為尊敬語時表示對對方行為的尊敬，但敬意程度較「お〜になる」和特殊敬語動詞低。例：行く → 行かれる、見る → 見られる。
+[^rareru]: **れる・られる形** - 動詞的受身形式，同時也可用作尊敬語。[一段動詞](003_ichidan_verb.md)加「られる」，[五段動詞](006_godan_verb.md)詞尾變あ段加「れる」。作為尊敬語時表示對對方行為的尊敬，但敬意程度較「お〜になる」和特殊敬語動詞低。例：行く → 行かれる、見る → 見られる。
 
 [^o-suru]: **お〜する形** - 謙讓語的一種構成方式。結構：お + 動詞ます形詞幹 + する。用於降低自己的動作以表示對對方的敬意。例：話す → お話しする、知らせる → お知らせする。注意：漢語動詞（サ變動詞）則用「ご〜する」，如：説明する → ご説明する。
 
-[^desu-masu]: **です・ます形** - 日語動詞和形容詞的禮貌體基本形式，是丁寧語的核心。動詞加「ます」（[[grammar/003_ichidan_verb|一段動詞]]：詞幹+ます；[[grammar/006_godan_verb|五段動詞]]：詞尾變い段+ます），名詞和形容詞加「です」。這是日語學習的基礎，用於一般禮貌場合。例：食べる → 食べます、綺麗だ → 綺麗です。
+[^desu-masu]: **です・ます形** - 日語動詞和形容詞的禮貌體基本形式，是丁寧語的核心。動詞加「ます」（[一段動詞](003_ichidan_verb.md)：詞幹+ます；[五段動詞](006_godan_verb.md)：詞尾變い段+ます），名詞和形容詞加「です」。這是日語學習的基礎，用於一般禮貌場合。例：食べる → 食べます、綺麗だ → 綺麗です。
 
 [^bikago]: **美化語** - 丁寧語的特殊形式，通過在名詞前加「お」或「ご」來美化語言，表示禮貌和優雅。選擇規則：和語（日本原有詞）加「お」（例：お茶、お金），漢語（中文來源詞）加「ご」（例：ご飯、ご意見）。美化語不區分說話者和聽者，主要用於提升整體談話的禮貌度。
 
@@ -297,19 +297,19 @@ I told the customer what the president said.
 ## 相關連結
 
 ### 相關敬語卡片
-- [[honorific/001_meshiagaru_itadaku|召し上がる・いただく]] - 食べる的敬語形式
+- [召し上がる・いただく](../honorific/001_meshiagaru_itadaku.md) - 食べる的敬語形式
 
 ### 基本動詞範例
-- [[verb-ru/001_taberu|食べる]] - 本卡片的主要範例動詞
+- [食べる](../verb-ru/001_taberu.md) - 本卡片的主要範例動詞
 
 ### 相關文法
-- [[grammar/003_ichidan_verb|一段動詞]] - 動詞變化基礎
-- [[grammar/006_godan_verb|五段動詞]] - 動詞變化基礎
-- [[grammar/001_te_form|て形]] - 動詞連接形式
+- [一段動詞](003_ichidan_verb.md) - 動詞變化基礎
+- [五段動詞](006_godan_verb.md) - 動詞變化基礎
+- [て形](001_te_form.md) - 動詞連接形式
 
 ### 相關語境標籤
-- [[_meta/tags/context/004_formal|正式場合]] - 需要使用敬語的場景
-- [[_meta/tags/context/001_business|商務場合]] - 職場與接客場合
+- [正式場合](_meta/tags/context/004_formal.md) - 需要使用敬語的場景
+- [商務場合](_meta/tags/context/001_business.md) - 職場與接客場合
 
 ### Meta 資訊
 - **難度等級**: N4-N3（進階文法）

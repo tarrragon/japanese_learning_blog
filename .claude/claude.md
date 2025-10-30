@@ -54,3 +54,58 @@
 ### Completed 階段
 - 批次更新 YAML frontmatter
 - 統一標記 completed 狀態
+
+---
+
+## 連結格式規範（重要！）
+
+### ⚠️ 嚴格禁止使用 Wikilink 格式
+
+**絕對不可使用以下格式**：
+
+```markdown
+❌ [[particle/007_ni|に]]
+❌ [[verb-ru/001_taberu|食べる]]
+❌ [[grammar/001_te_form]]
+❌ related_to: [[particle/003_wo]]
+```
+
+### ✅ 必須使用標準 Markdown 格式
+
+**唯一正確的連結格式**：
+
+```markdown
+✅ [に](../particle/008_ni.md)
+✅ [食べる](001_taberu.md)
+✅ [て形文法](../grammar/001_te_form.md)
+```
+
+### 代理人建立連結檢查清單
+
+每次建立連結時，**必須確認**：
+
+1. ✅ 使用 `[text](path)` 格式，**不是** `[[text]]` 或 `[[path|text]]`
+2. ✅ 路徑包含 `.md` 副檔名
+3. ✅ 使用正確的相對路徑
+   - 同目錄：`[食べる](001_taberu.md)`
+   - 跨目錄：`[が](../particle/001_ga.md)`
+4. ✅ 檔案確實存在
+5. ❌ 絕對不使用 Wikilink `[[...]]` 格式
+
+### 為什麼禁止 Wikilink？
+
+1. **無法正常工作**：在 GitHub、GitLab、VS Code 等標準 Markdown 渲染器中無法形成可點擊連結
+2. **違反規範**：CLAUDE.md 明確規定使用標準 Markdown
+3. **維護困難**：需要額外的轉換腳本修正
+
+### 如何處理遺留的 Wikilink
+
+如果發現卡片中有 Wikilink 格式：
+
+```bash
+# 檢查是否還有 Wikilink
+uv run scripts/fix-wikilinks.py --check
+
+# 修正所有 Wikilink
+uv run scripts/fix-wikilinks.py --fix
+```

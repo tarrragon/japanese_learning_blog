@@ -148,8 +148,8 @@ tags:
 
 | 動詞 | 方向性 | 基準點 | 核心概念 |
 |------|--------|--------|----------|
-| **[[verb-u/009_iku\|行く]]** | 離開 | 從說話者離開 | 去（遠離）|
-| **[[verb-irr/002_kuru\|来る]]** | 接近 | 朝說話者來 | 來（靠近）|
+| **[行く](009_iku\.md)** | 離開 | 從說話者離開 | 去（遠離）|
+| **[来る](../verb-irr/002_kuru\.md)** | 接近 | 朝說話者來 | 來（靠近）|
 | **帰る** | 回歸 | 回到基地/家 | 回（返回）|
 
 [^2]: **移動動詞三元組**：日文的三個基本移動動詞（行く・来る・帰る）形成完整的空間移動系統。行く表示遠離說話者，来る表示接近說話者，帰る表示返回基地（家、國家等）。
@@ -349,8 +349,8 @@ Understanding these three verbs is fundamental to Japanese spatial concepts:
 
 | Verb | Direction | Reference Point | Core Concept |
 |------|-----------|-----------------|--------------|
-| **[[verb-u/009_iku\|行く]]** (iku) | Away | Leaving speaker | Go (moving away) |
-| **[[verb-irr/002_kuru\|来る]]** (kuru) | Toward | Coming to speaker | Come (approaching) |
+| **[行く](009_iku\.md)** (iku) | Away | Leaving speaker | Go (moving away) |
+| **[来る](../verb-irr/002_kuru\.md)** (kuru) | Toward | Coming to speaker | Come (approaching) |
 | **帰る** (kaeru) | Return | Back to home base | Return (going back) |
 
 **Key Difference:**
@@ -488,8 +488,8 @@ Indicating the place you're returning from:
 
 | 動詞 | 方向 | 基準點 | 核心概念 |
 |------|------|--------|----------|
-| **[[verb-u/009_iku\|行く]]** (iku) | 離開 | 離開說話者 | 去（遠離）|
-| **[[verb-irr/002_kuru\|来る]]** (kuru) | 接近 | 朝向說話者 | 來（靠近）|
+| **[行く](009_iku\.md)** (iku) | 離開 | 離開說話者 | 去（遠離）|
+| **[来る](../verb-irr/002_kuru\.md)** (kuru) | 接近 | 朝向說話者 | 來（靠近）|
 | **帰る** (kaeru) | 回歸 | 回到基地 | 回（返回）|
 
 **關鍵區別：**
@@ -713,19 +713,19 @@ Indicating the place you're returning from:
 ## Related Cards
 
 ### Grammar Points
-- [[grammar/006_godan_verb|五段動詞]] - 帰る是五段動詞的代表例
-- [[grammar/001_te_form|て形]] - て形的用法（帰って）
-- [[grammar/007_masu_form|ます形]] - ます形的用法（帰ります）
+- [五段動詞](../grammar/006_godan_verb.md) - 帰る是五段動詞的代表例
+- [て形](../grammar/001_te_form.md) - て形的用法（帰って）
+- [ます形](../grammar/007_masu_form.md) - ます形的用法（帰ります）
 
 ### Related Verbs
-- [[verb-u/009_iku|行く - to go]] - 移動動詞三元組
-- [[verb-irr/002_kuru|来る - to come]] - 移動動詞三元組
-- [[verb-u/008_aruku|歩く - to walk]] - 移動方式
+- [行く - to go](009_iku.md) - 移動動詞三元組
+- [来る - to come](../verb-irr/002_kuru.md) - 移動動詞三元組
+- [歩く - to walk](008_aruku.md) - 移動方式
 
 ### Particles
-- [[particle/007_ni|に - destination/location]] - 家に帰る
-- [[particle/003_kara|から - from]] - 学校から帰る
-- [[particle/004_de|で - means]] - 電車で帰る
+- [に - destination/location](../particle/007_ni.md) - 家に帰る
+- [から - from](../particle/003_kara.md) - 学校から帰る
+- [で - means](../particle/004_de.md) - 電車で帰る
 
 ### Comparisons
 - Movement Verbs: 行く vs 来る vs 帰る（本卡）

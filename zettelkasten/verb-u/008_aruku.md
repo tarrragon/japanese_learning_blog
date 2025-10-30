@@ -11,12 +11,12 @@ needs_review: false
 completed: 2025-10-28
 tags: [basic, domain/movement, domain/daily_life]
 created: 2025-10-28
-related_to: [[grammar/006_godan_verb]], [[particle/002_wo]], [[particle/004_de]]
+related_to: [006_godan_verb](../grammar/006_godan_verb.md), [002_wo](../particle/002_wo.md), [004_de](../particle/004_de.md)
 ---
 ## 日文
 歩く（あるく）
 
-足で移動する基本的な動作を表す[[grammar/006_godan_verb|五段動詞]]。N5レベルで学ぶ重要な動詞で、日常生活で頻繁に使用されます。「く」で終わる五段動詞の代表例です。
+足で移動する基本的な動作を表す[五段動詞](../grammar/006_godan_verb.md)。N5レベルで学ぶ重要な動詞で、日常生活で頻繁に使用されます。「く」で終わる五段動詞の代表例です。
 
 ### 動詞情報
 
@@ -453,17 +453,17 @@ Vehicles:
 ## 相關連結
 
 ### 動詞基礎
-- [[grammar/006_godan_verb|五段動詞]] - 五段動詞的完整說明
-- [[verb-u/009_iku|行く]] - 行く（移動相關）
+- [五段動詞](../grammar/006_godan_verb.md) - 五段動詞的完整說明
+- [行く](009_iku.md) - 行く（移動相關）
 
 ### 相關助詞
-- [[particle/002_wo|を]] - を助詞（路徑標記）
-- [[particle/004_de|で]] - で助詞（場所）
+- [を](../particle/002_wo.md) - を助詞（路徑標記）
+- [で](../particle/004_de.md) - で助詞（場所）
 
 ### 相關文法
-- [[grammar/007_masu_form|ます形]]（待建立） - 歩きます的用法
-- [[grammar/001_te_form|て形文法]] - 歩いて的用法（く→いて）
+- [ます形](../grammar/007_masu_form.md)（待建立） - 歩きます的用法
+- [て形文法](../grammar/001_te_form.md) - 歩いて的用法（く→いて）
 
 ### 相關動詞
-- [[verb-u/009_iku|行く]] - 去
-- [[verb-u/017_hashiru|走る]]（待建立） - 跑
+- [行く](009_iku.md) - 去
+- [走る](017_hashiru.md)（待建立） - 跑

@@ -465,29 +465,25 @@ Example:
 ## Related Cards
 
 **Grammar Patterns:**
-- [[grammar/008_nai_form|ない形 - Negative Form]][^nai-form] - Base negative form required for this pattern
-- [[grammar/012_te_kudasai|〜てください - Positive Request]]（待建立）
-- [[grammar/018_naide|〜ないで - Without doing]][^naide] - Related but NOT a request form
-- [[grammar/040_tewa_ikenai|〜てはいけない - Prohibition]]（待建立）
-
-[^nai-form]: ない形 is the foundation. You must master ない形 conjugation across all verb groups to use ないでください correctly.
-
-[^naide]: Important distinction: ないで means "without doing" (sequential action), while ないでください means "please don't do" (polite request). Don't confuse these two patterns.
+- [ない形 - Negative Form](008_nai_form.md)
+- [〜てください - Positive Request](012_te_kudasai.md)
+- [〜ないで - Without doing](022_naide.md)
+- [〜てはいけない - Prohibition](040_tewa_ikenai.md)
 
 **Phase 1 Particles:**
-- [[particle/006_wa|は - Topic Marker]]
-- [[particle/007_ni|に - Target/Location Marker]]
-- [[particle/004_de|で - Means/Location Marker]]
-- [[particle/002_wo|を - Object Marker]]
+- [は - Topic Marker](../particle/006_wa.md)
+- [に - Target/Location Marker](../particle/007_ni.md)
+- [で - Means/Location Marker](../particle/004_de.md)
+- [を - Object Marker](../particle/002_wo.md)
 
 **Phase 1 Irregular Verbs:**
-- [[verb-irr/001_suru|する - To do]]
-- [[verb-irr/002_kuru|来る - To come]]
-- [[verb-irr/003_iru|いる - To exist (animate)]]
+- [する - To do](../verb-irr/001_suru.md)
+- [来る - To come](../verb-irr/002_kuru.md)
+- [いる - To exist (animate)](../verb-irr/003_iru.md)
 
 **Example Verbs:**
-- [[verb-u/004_kaku|書く - To write]]
-- [[verb-ru/001_taberu|食べる - To eat]]
+- [書く - To write](../verb-u/004_kaku.md)
+- [食べる - To eat](../verb-ru/001_taberu.md)
 
 ---
 

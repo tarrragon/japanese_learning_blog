@@ -11,12 +11,12 @@ needs_review: false
 completed: 2025-10-28
 tags: [basic, thinking, domain/cognition]
 created: 2025-10-28
-related_to: [[grammar/003_ichidan_verb]], [[particle/002_wo]]
+related_to: [003_ichidan_verb](../grammar/003_ichidan_verb.md), [002_wo](../particle/002_wo.md)
 ---
 ## 日文
 考える（かんがえる）
 
-思考や判断などの知的活動を表す基本的な[[grammar/003_ichidan_verb|一段動詞]]。N5レベルで学ぶ重要な動詞で、日常会話から学術的な場面まで幅広く使用されます。「思う」との使い分けが重要です。
+思考や判断などの知的活動を表す基本的な[一段動詞](../grammar/003_ichidan_verb.md)。N5レベルで学ぶ重要な動詞で、日常会話から学術的な場面まで幅広く使用されます。「思う」との使い分けが重要です。
 
 ### 動詞情報
 
@@ -462,15 +462,15 @@ Have an idea:
 ## 相關連結
 
 ### 動詞基礎
-- [[grammar/003_ichidan_verb|一段動詞]] - 一段動詞的完整說明
+- [一段動詞](../grammar/003_ichidan_verb.md) - 一段動詞的完整說明
 
 ### 相關助詞
-- [[particle/002_wo|を]] - を助詞（對象標記）
-- [[particle/005_to|と]] - と助詞（引用、判斷）
+- [を](../particle/002_wo.md) - を助詞（對象標記）
+- [と](../particle/005_to.md) - と助詞（引用、判斷）
 
 ### 相關文法
-- [[grammar/007_masu_form|ます形]] - 考えます的用法
-- [[grammar/001_te_form|て形文法]] - 考えて的用法
+- [ます形](../grammar/007_masu_form.md) - 考えます的用法
+- [て形文法](../grammar/001_te_form.md) - 考えて的用法
 
 ### 相關動詞
-- [[verb-u/014_omou|思う]] - 覺得、想（直覺思考的重要對比）
+- [思う](../verb-u/014_omou.md) - 覺得、想（直覺思考的重要對比）

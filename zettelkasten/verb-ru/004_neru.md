@@ -11,12 +11,12 @@ needs_review: false
 completed: 2025-10-28
 tags: [basic, domain/daily_life]
 created: 2025-10-28
-related_to: [[grammar/003_ichidan_verb]], [[verb-ru/005_okiru]]
+related_to: [003_ichidan_verb](../grammar/003_ichidan_verb.md), [005_okiru](005_okiru.md)
 ---
 ## 日文
 寝る（ねる）
 
-日常生活で最も基本的な動詞の一つ。睡眠をとる動作を表します。N5レベルで必ず学ぶ重要な[[grammar/003_ichidan_verb|一段動詞]]です。「起きる」と対になる動詞として、日常会話で頻繁に使用されます。
+日常生活で最も基本的な動詞の一つ。睡眠をとる動作を表します。N5レベルで必ず学ぶ重要な[一段動詞](../grammar/003_ichidan_verb.md)です。「起きる」と対になる動詞として、日常会話で頻繁に使用されます。
 
 ### 動詞情報
 
@@ -302,15 +302,15 @@ One of the most basic verbs in daily life. It expresses the action of sleeping. 
 ## 相關連結
 
 ### 動詞類型
-- [[grammar/003_ichidan_verb|一段動詞]] - 寝る是典型的一段動詞
-- [[verb-ru/005_okiru|起きる]] - 對應動詞（起床）
+- [一段動詞](../grammar/003_ichidan_verb.md) - 寝る是典型的一段動詞
+- [起きる](005_okiru.md) - 對應動詞（起床）
 
 ### 相關文法
-- [[grammar/007_masu_form|ます形]]（待建立） - 寝ます的用法
-- [[grammar/001_te_form|て形文法]] - 寝て的用法
-- [[grammar/009_ta_form|た形]]（待建立） - 寝た的用法
-- [[grammar/015_te_kara|〜てから]] - 睡前習慣表達
-- [[grammar/004_mae_ni|〜前に]] - 寝る前に（睡覺前）
+- [ます形](../grammar/007_masu_form.md)（待建立） - 寝ます的用法
+- [て形文法](../grammar/001_te_form.md) - 寝て的用法
+- [た形](../grammar/009_ta_form.md)（待建立） - 寝た的用法
+- [〜てから](../grammar/015_te_kara.md) - 睡前習慣表達
+- [〜前に](../grammar/004_mae_ni.md) - 寝る前に（睡覺前）
 
 ### 相關動詞
-- [[verb-ru/005_okiru|起きる]] - 起床（對應動詞）
+- [起きる](005_okiru.md) - 起床（對應動詞）

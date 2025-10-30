@@ -12,12 +12,12 @@ tags:
   - running
   - basic
 created: 2025-10-29
-related_to: [[grammar/006_godan_verb]], [[verb-u/008_aruku]], [[particle/002_wo]]
+related_to: [006_godan_verb](../grammar/006_godan_verb.md), [008_aruku](008_aruku.md), [002_wo](../particle/002_wo.md)
 ---
 ## 日文
 走る（はしる）
 
-速く移動する動作を表す[[grammar/006_godan_verb|五段動詞]]。N5レベルで学ぶ重要な動詞で、人や動物の素早い移動、車両の走行、さらに抽象的な「広がる」という意味でも使われます。「る」で終わる五段動詞の代表例で、[[verb-u/008_aruku|歩く]]と対をなす移動動詞です。
+速く移動する動作を表す[五段動詞](../grammar/006_godan_verb.md)。N5レベルで学ぶ重要な動詞で、人や動物の素早い移動、車両の走行、さらに抽象的な「広がる」という意味でも使われます。「る」で終わる五段動詞の代表例で、[歩く](008_aruku.md)と対をなす移動動詞です。
 
 ### 動詞情報
 
@@ -30,7 +30,7 @@ related_to: [[grammar/006_godan_verb]], [[verb-u/008_aruku]], [[particle/002_wo]
 | 自他 | 自動詞 |
 | JLPT | N5 |
 | 助詞 | を（場所）/ で（場所）|
-| 対比動詞 | [[verb-u/008_aruku|歩く]]（歩く vs 走る）|
+| 対比動詞 | [歩く](008_aruku.md)（歩く vs 走る）|
 
 ### 活用形
 
@@ -188,7 +188,7 @@ related_to: [[grammar/006_godan_verb]], [[verb-u/008_aruku]], [[particle/002_wo]
 ## English
 hashiru (to run, to drive, to extend)
 
-A godan verb expressing rapid movement. An important N5 level verb used to describe people and animals running quickly, vehicles traveling, and abstract concepts like "spreading" or "extending." A representative example of godan verbs ending in "ru," forming a movement verb pair with [[verb-u/008_aruku|歩く (to walk)]].
+A godan verb expressing rapid movement. An important N5 level verb used to describe people and animals running quickly, vehicles traveling, and abstract concepts like "spreading" or "extending." A representative example of godan verbs ending in "ru," forming a movement verb pair with [歩く (to walk)](008_aruku.md).
 
 ### Verb Information
 
@@ -201,7 +201,7 @@ A godan verb expressing rapid movement. An important N5 level verb used to descr
 | Transitivity | Intransitive |
 | JLPT | N5 |
 | Particle | を (place) / で (place) |
-| Contrast Verb | [[verb-u/008_aruku|歩く]] (walk vs run) |
+| Contrast Verb | [歩く](008_aruku.md) (walk vs run) |
 
 ### Conjugations
 
@@ -359,7 +359,7 @@ Practice:
 ## 中文解釋
 走る（跑、奔跑）
 
-表示快速移動動作的五段動詞。N5 級別學習的重要動詞，用於描述人和動物的快速移動、車輛的行駛，以及抽象的「延伸」、「蔓延」概念。以「る」結尾的五段動詞代表例，與[[verb-u/008_aruku|歩く（走路）]]構成一對移動動詞。
+表示快速移動動作的五段動詞。N5 級別學習的重要動詞，用於描述人和動物的快速移動、車輛的行駛，以及抽象的「延伸」、「蔓延」概念。以「る」結尾的五段動詞代表例，與[歩く（走路）](008_aruku.md)構成一對移動動詞。
 
 ### 動詞資訊
 
@@ -372,7 +372,7 @@ Practice:
 | 自他性 | 自動詞 |
 | JLPT | N5 |
 | 助詞 | を（場所）/ で（場所）|
-| 對比動詞 | [[verb-u/008_aruku|歩く]]（走路 vs 跑步）|
+| 對比動詞 | [歩く](008_aruku.md)（走路 vs 跑步）|
 
 ### 變化形式
 
@@ -645,22 +645,22 @@ Practice:
 ## 相關連結
 
 ### 動詞基礎
-- [[grammar/006_godan_verb|五段動詞]] - 五段動詞的完整說明
-- [[grammar/001_te_form|て形]] - て形文法（走る→走って）
+- [五段動詞](../grammar/006_godan_verb.md) - 五段動詞的完整說明
+- [て形](../grammar/001_te_form.md) - て形文法（走る→走って）
 
 ### 相關助詞
-- [[particle/003_wo|を]] - を助詞[^wo-particle]（路徑標記）
-- [[particle/005_de|で]] - で助詞[^de-particle]（場所標記）
-- [[particle/009_made|まで]] - まで助詞[^made-particle]（目的地標記）
+- [を](../particle/002_wo.md) - を助詞（路徑標記）
+- [で](../particle/004_de.md) - で助詞（場所標記）
+- [まで](../particle/008_made.md) - まで助詞（目的地標記）
 
 ### 對比動詞
-- [[verb-u/008_aruku|歩く]] - 走路（速度對比：慢 vs 快）
+- [歩く](008_aruku.md) - 走路（速度對比：慢 vs 快）
   - 速度差異：歩く（慢速、雙腳不離地）vs 走る（快速、有離地瞬間）
   - 使用場景：歩く（日常移動、散步）vs 走る（運動、趕時間）
 
 ### 移動動詞
-- [[verb-u/009_iku|行く]] - 去（方向性移動）
-- [[verb-u/011_kaeru|帰る]] - 回（返回）
+- [行く](009_iku.md) - 去（方向性移動）
+- [帰る](011_kaeru.md) - 回（返回）
 
 ### 相關主題
 - 運動・體育詞彙

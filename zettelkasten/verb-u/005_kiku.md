@@ -11,12 +11,12 @@ needs_review: false
 completed: 2025-10-28
 tags: [basic, domain/communication]
 created: 2025-10-28
-related_to: [[grammar/006_godan_verb]], [[particle/002_wo]]
+related_to: [006_godan_verb](../grammar/006_godan_verb.md), [002_wo](../particle/002_wo.md)
 ---
 ## 日文
 聞く（きく）
 
-基本的な[[grammar/006_godan_verb|五段動詞]]の一つ。「聞く」は二つの重要な意味を持ちます：①耳で音を聞く、②質問する。N5レベルで必ず学ぶ重要な動詞で、コミュニケーションに関する基本動詞です。五段動詞の「く」で終わる動詞の重要な例です。
+基本的な[五段動詞](../grammar/006_godan_verb.md)の一つ。「聞く」は二つの重要な意味を持ちます：①耳で音を聞く、②質問する。N5レベルで必ず学ぶ重要な動詞で、コミュニケーションに関する基本動詞です。五段動詞の「く」で終わる動詞の重要な例です。
 
 ### 動詞情報
 
@@ -348,17 +348,17 @@ A basic godan verb with two important meanings: ① to listen/hear with ears, �
 ## 相關連結
 
 ### 動詞類型
-- [[grammar/006_godan_verb|五段動詞]] - 聞く是く型五段動詞
-- [[verb-u/004_kaku|書く]] - 同類型く動詞
+- [五段動詞](../grammar/006_godan_verb.md) - 聞く是く型五段動詞
+- [書く](004_kaku.md) - 同類型く動詞
 
 ### 相關助詞
-- [[particle/002_wo|を]] - 聞く的助詞（聽的對象）
+- [を](../particle/002_wo.md) - 聞く的助詞（聽的對象）
 
 ### 相關文法
-- [[grammar/007_masu_form|ます形]]（待建立） - 聞きます的用法
-- [[grammar/001_te_form|て形文法]] - 聞いて的用法（く→いて）
+- [ます形](../grammar/007_masu_form.md)（待建立） - 聞きます的用法
+- [て形文法](../grammar/001_te_form.md) - 聞いて的用法（く→いて）
 
 ### 相關動詞
-- [[verb-u/007_hanasu|話す]] - 說（相關動詞）
-- [[verb-ru/012_kikoeru|聞こえる]]（待建立） - 聽得見（自動詞）
-- [[verb-ru/016_tazuneru|尋ねる]]（待建立） - 詢問（較禮貌）
+- [話す](007_hanasu.md) - 說（相關動詞）
+- [聞こえる](../verb-ru/012_kikoeru.md)（待建立） - 聽得見（自動詞）
+- [尋ねる](../verb-ru/016_tazuneru.md)（待建立） - 詢問（較禮貌）
