@@ -87,11 +87,38 @@
 3. **linking** - 建立連結與腳註階段：補充標準連結和腳註標註
 4. **completed** - 完成階段：所有連結和腳註已補充，卡片內容完整
 
+### 版本邊界定義
+
+**一個版本（v1.0.X）的完整循環包括**：
+
+1. **版本規劃**：建立 `doc/worklog/worklog-{version}.md`，明確本版本的卡片來源和目標
+2. **階段 1：Draft**：建立並完善本版本規劃的所有卡片
+3. **階段 2：Extension-Review**：識別延伸需求，產出 `extension-review-{version}.md`（作為下一版本的卡片來源）
+4. **階段 3：Linking**：添加連結和腳註，識別遺漏卡片，產出 `linking-cards-{version}.md`（Critical 立即建立草稿，其他作為下一版本的卡片來源）
+5. **階段 4：Completed**：確認所有卡片完成，更新 CHANGELOG.md
+
+### 延伸需求的版本歸屬
+
+**重要原則**：
+- v1.0.X 的 Extension-Review 階段產出的延伸需求 → 作為 **v1.0.(X+1)** 的卡片來源
+- v1.0.X 的 Linking 階段產出的 Non-Critical 卡片 → 作為 **v1.0.(X+1)** 的卡片來源
+- v1.0.X 的 Linking 階段產出的 Critical 卡片 → 立即建立草稿，在 **v1.0.(X+1)** 的 Draft 階段完善
+
+**範例**：
+- `extension-review-1.0.4.md` 記錄的延伸需求 → 在 v1.0.5 的 Draft 階段建立
+- `linking-cards-1.0.4.md` 記錄的遺漏卡片 → 在 v1.0.5 的 Draft 階段建立
+
 ### 版本循環流程
 
 #### 階段 1：草稿完善（Draft）
 
 找出所有 `stage: draft` 的卡片，補充完整內容（三語解釋、例句），更新為 `stage: extension-review`。
+
+**卡片來源**：
+- 上一版本的 `extension-review-{prev}.md` 中的延伸需求
+- 上一版本的 `linking-cards-{prev}.md` 中的遺漏卡片
+- 新文章解析產生的卡片需求
+- 其他手動識別的缺口
 
 #### 階段 2：延伸卡片檢查（Extension-Review）
 
