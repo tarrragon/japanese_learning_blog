@@ -16,7 +16,7 @@ base_card: verb-irr/001_suru
 
 どうする
 
-「どうする」是日語中最常用的疑問短語之一，由疑問詞「どう」（怎麼）和動詞[[verb-irr/001_suru|する]]組成。用於詢問對方對某種情況的處理方式、計劃或意見。
+「どうする」是日語中最常用的疑問短語之一，由疑問詞「どう」（怎麼）和動詞[する](../verb-irr/001_suru.md)組成。用於詢問對方對某種情況的處理方式、計劃或意見。
 
 ### 基本形式
 
@@ -41,14 +41,14 @@ base_card: verb-irr/001_suru
 - これからどうする（接下來怎麼辦）
 
 ### 相關表達
-- [[phrase/002_sou_suru|そうする]] - 那樣做
-- [[verb-irr/001_suru|する]] - 基礎動詞
+- [そうする](002_sou_suru.md) - 那樣做
+- [する](../verb-irr/001_suru.md) - 基礎動詞
 
 ## English
 
 dousuru (what to do, how to handle)
 
-"Dousuru" is one of the most commonly used question phrases in Japanese, composed of the question word "dou" (how) and the verb [[verb-irr/001_suru|suru]]. It's used to ask about how to handle a situation, plans, or opinions.
+"Dousuru" is one of the most commonly used question phrases in Japanese, composed of the question word "dou" (how) and the verb [suru](../verb-irr/001_suru.md). It's used to ask about how to handle a situation, plans, or opinions.
 
 ### Basic Forms
 
@@ -76,7 +76,7 @@ dousuru (what to do, how to handle)
 
 どうする（怎麼做、怎麼辦）
 
-「どうする」是日語中最常用的疑問短語之一，由疑問詞「どう」（怎麼）和動詞[[verb-irr/001_suru|する]]組成。用於詢問對方對某種情況的處理方式、計劃或意見。
+「どうする」是日語中最常用的疑問短語之一，由疑問詞「どう」（怎麼）和動詞[する](../verb-irr/001_suru.md)組成。用於詢問對方對某種情況的處理方式、計劃或意見。
 
 ### 基本形式
 

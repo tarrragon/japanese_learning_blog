@@ -21,19 +21,19 @@ generated_by: particle/007_wa
 ## English
 Topic-Comment Structure
 
-A fundamental sentence structure in Japanese where a topic is marked with [[particle/007_wa|は]] and followed by a comment that provides information about that topic.
+A fundamental sentence structure in Japanese where a topic is marked with [は](../particle/007_wa.md) and followed by a comment that provides information about that topic.
 
 ## 中文
 主題評述結構
 
-日語句子的基本組織方式之一，由「主題」和「評述」兩部分組成。使用「[[particle/007_wa|は]]」標記主題，其後的評述部分提供關於該主題的資訊。
+日語句子的基本組織方式之一，由「主題」和「評述」兩部分組成。使用「[は](../particle/007_wa.md)」標記主題，其後的評述部分提供關於該主題的資訊。
 
 ## 相關連結
 
 ### 相關助詞
-- [[particle/007_wa|は]] - 主題標記助詞
-- [[particle/001_ga|が]] - 主語標記助詞
+- [は](../particle/007_wa.md) - 主題標記助詞
+- [が](../particle/001_ga.md) - 主語標記助詞
 
 ### 相關文法
-- [[grammar/information_structure|資訊結構理論]] - 資訊組織的語言學理論
-- [[comparison/001_ga_vs_wa|が vs は]] - 主語與主題的區別
+- [資訊結構理論](information_structure.md) - 資訊組織的語言學理論
+- [が vs は](../comparison/001_ga_vs_wa.md) - 主語與主題的區別

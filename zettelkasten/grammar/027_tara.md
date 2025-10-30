@@ -285,19 +285,19 @@ When I opened my wallet, there was no money in it at all.
 ## Related Links
 
 **條件表達對比**：
-- [[grammar/to_conditional|と條件形]] - 自然結果、恆常條件
-- [[grammar/ba_form|ば條件形]] - 一般條件、假設
-- [[grammar/nara|なら]] - 話題條件、情境假設
+- [と條件形](to_conditional.md) - 自然結果、恆常條件
+- [ば條件形](ba_form.md) - 一般條件、假設
+- [なら](nara.md) - 話題條件、情境假設
 
 **相關文法**：
-- [[grammar/ta_form|た形]] - たら的基礎形式
-- [[grammar/tara_ii|たらいい]] - 建議、希望表達
-- [[grammar/tara_dou|たらどう]] - 提議句型
+- [た形](ta_form.md) - たら的基礎形式
+- [たらいい](tara_ii.md) - 建議、希望表達
+- [たらどう](tara_dou.md) - 提議句型
 
 **實際應用**：
-- [[phrase/moshi_tara|もし～たら]] - 強調假設的表達
-- 待建立：[[grammar/conditional_comparison|條件表達總整理]]
-- 待建立：[[grammar/tara_usage_patterns|たら用法模式集]]
+- [もし～たら](../phrase/moshi_tara.md) - 強調假設的表達
+- 待建立：[條件表達總整理](conditional_comparison.md)
+- 待建立：[たら用法模式集](tara_usage_patterns.md)
 
 ## Footnotes
 

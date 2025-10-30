@@ -100,17 +100,17 @@ To protect the environment, all of us must take action.
 
 **與「べき」的差異**:
 - 「なければならない」: 強調必須遵守的義務（must, have to）
-- [[grammar/031_beki|べき]]: 表示應該做的建議或道德判斷（should, ought to）
+- [べき](031_beki.md): 表示應該做的建議或道德判斷（should, ought to）
 
 **與「なくてもいい」的對比**:
-- [[grammar/029_nakutemo_ii|なくてもいい]]: 表示「不必」「不做也可以」
+- [なくてもいい](029_nakutemo_ii.md): 表示「不必」「不做也可以」
 - 「なければならない」: 表示「必須」「一定要做」
 - 兩者為相反概念
 
 **口語變體**:
 - なきゃならない（較口語）
 - なきゃいけない（口語）
-- [[grammar/028_naito_ikenai|ないといけない]]（常用口語形）
+- [ないといけない](028_naito_ikenai.md)（常用口語形）
 - ないとダメ（非常口語）
 
 ## 文法筆記
@@ -137,15 +137,15 @@ To protect the environment, all of us must take action.
 ## Related Links
 
 **義務表達**:
-- [[grammar/031_beki|べき]] - 應該（建議、道德判斷）
-- [[grammar/028_naito_ikenai|ないといけない]] - 必須（口語常用）
-- [[verb-irr/003_iru|いる]] - 需要（動詞）
+- [べき](031_beki.md) - 應該（建議、道德判斷）
+- [ないといけない](028_naito_ikenai.md) - 必須（口語常用）
+- [いる](../verb-irr/003_iru.md) - 需要（動詞）
 
 **反義表達**:
-- [[grammar/029_nakutemo_ii|なくてもいい]] - 不必、不做也可以
+- [なくてもいい](029_nakutemo_ii.md) - 不必、不做也可以
 
 **相關文法**:
-- [[grammar/024_ta_hou_ga_ii|たほうがいい]] - 最好做某事
-- [[auxiliary/001_tai|たい]] - 想要做某事
+- [たほうがいい](024_ta_hou_ga_ii.md) - 最好做某事
+- [たい](../auxiliary/001_tai.md) - 想要做某事
 
 ## Footnotes

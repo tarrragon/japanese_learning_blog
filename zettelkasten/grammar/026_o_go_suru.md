@@ -22,7 +22,7 @@ updated: 2025-10-30
 
 お/ご～する(お/ご～する)
 
-日本語の謙譲語を形成する最も基本的なパターンです。自分の行為を控えめに表現することで、相手や第三者を高める敬語表現です。「お」は和語動詞に、「ご」は漢語動詞に付けるのが原則で、[[grammar/005_keigo_system|敬語システム]]において[[grammar/025_o_go_ni_naru|お/ご～になる]]（尊敬語）と対をなす重要な文法パターンです。
+日本語の謙譲語を形成する最も基本的なパターンです。自分の行為を控えめに表現することで、相手や第三者を高める敬語表現です。「お」は和語動詞に、「ご」は漢語動詞に付けるのが原則で、[敬語システム](005_keigo_system.md)において[お/ご～になる](025_o_go_ni_naru.md)（尊敬語）と対をなす重要な文法パターンです。
 
 ### 文法情報
 
@@ -212,19 +212,19 @@ I will guide you to the meeting room.
 ## 相關連結
 
 ### 敬語システム
-- [[grammar/005_keigo_system]] - 敬語システム全体
-- [[grammar/025_o_go_ni_naru]] - お/ご～になる（尊敬語模式）
-- [[grammar/027_o_go_itadaku]] - お/ご～いただく（待建立）
+- [005_keigo_system](005_keigo_system.md) - 敬語システム全体
+- [025_o_go_ni_naru](025_o_go_ni_naru.md) - お/ご～になる（尊敬語模式）
+- [027_o_go_itadaku](027_o_go_itadaku.md) - お/ご～いただく（待建立）
 
 ### 特殊謙譲語動詞
-- [[honorific/002_ossharu_mousu]] - おっしゃる・申す
-- [[honorific/003_irassharu_mairu]] - いらっしゃる・参る
-- [[honorific/004_nasaru_itasu]] - なさる・いたす
-- [[honorific/005_goran_haiken]] - ご覧になる・拝見する
+- [002_ossharu_mousu](../honorific/002_ossharu_mousu.md) - おっしゃる・申す
+- [003_irassharu_mairu](../honorific/003_irassharu_mairu.md) - いらっしゃる・参る
+- [004_nasaru_itasu](../honorific/004_nasaru_itasu.md) - なさる・いたす
+- [005_goran_haiken](../honorific/005_goran_haiken.md) - ご覧になる・拝見する
 
 ### 相關文法
-- [[grammar/humble_levels]] - 謙譲語のレベル（待建立）
-- [[grammar/keigo_comparison]] - 尊敬語・謙譲語・丁寧語の比較（待建立）
+- [humble_levels](humble_levels.md) - 謙譲語のレベル（待建立）
+- [keigo_comparison](keigo_comparison.md) - 尊敬語・謙譲語・丁寧語の比較（待建立）
 
 ---
 

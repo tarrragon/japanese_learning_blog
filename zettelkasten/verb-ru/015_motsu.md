@@ -83,8 +83,8 @@ I don't have money.
 ---
 
 ## Related Concepts
-- [[verb-irr/003_iru|いる]] - Used in 持っている for possession state
-- [[grammar/022_te_iru|〜ている]] - Essential pattern for expressing possession
+- [いる](../verb-irr/003_iru.md) - Used in 持っている for possession state
+- [〜ている](../grammar/022_te_iru.md) - Essential pattern for expressing possession
 
 ---
 

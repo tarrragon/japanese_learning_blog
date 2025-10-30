@@ -161,16 +161,16 @@ You must do homework, but you don't have to do prep work.
 ## 相關文法
 
 ### てもいい
-- [[grammar/temo_ii|てもいい]] - 可以、許可做某事
+- [てもいい](temo_ii.md) - 可以、許可做某事
 - 例：食べてもいい（可以吃）
 
 ### なければならない
-- [[grammar/nakereba_naranai|なければならない]] - 必須、不得不
+- [なければならない](nakereba_naranai.md) - 必須、不得不
 - 例：行かなければならない（必須去）
 - **反義關係**：なければならない ↔ なくてもいい
 
 ### てはいけない
-- [[grammar/tewa_ikenai|てはいけない]] - 不可以、禁止
+- [てはいけない](tewa_ikenai.md) - 不可以、禁止
 - 例：入ってはいけない（不可以進去）
 
 ## 學習要點
@@ -200,15 +200,15 @@ You must do homework, but you don't have to do prep work.
 - **する必要はない**（不需要）
 
 ### 相關概念
-- [[concept/permission|許可的表達方式]]
-- [[concept/obligation|義務的表達方式]]
+- [許可的表達方式](../concept/permission.md)
+- [義務的表達方式](../concept/obligation.md)
 
 ---
 
 **Footnotes**
 
-[^1]: [[grammar/nai_form|ない形（否定形）]] - 動詞的否定形態
-[^2]: [[grammar/te_form|て形]] - 日文動詞的連接形
-[^3]: [[grammar/nakereba_naranai|なければならない]] - 表示必須、義務的文法
-[^4]: [[grammar/temo_ii|てもいい]] - 表示許可的文法
-[^5]: [[grammar/tewa_ikenai|てはいけない]] - 表示禁止的文法
+[^1]: [ない形（否定形）](nai_form.md) - 動詞的否定形態
+[^2]: [て形](te_form.md) - 日文動詞的連接形
+[^3]: [なければならない](nakereba_naranai.md) - 表示必須、義務的文法
+[^4]: [てもいい](temo_ii.md) - 表示許可的文法
+[^5]: [てはいけない](tewa_ikenai.md) - 表示禁止的文法

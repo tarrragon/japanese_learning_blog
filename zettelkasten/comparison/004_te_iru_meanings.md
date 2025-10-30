@@ -142,10 +142,10 @@ What work do you do?
 ---
 
 ## Related Cards
-- [[grammar/022_te_iru|〜ている]] - Main grammar card
-- [[verb-irr/003_iru|いる]] - The auxiliary verb used in this pattern
-- [[grammar/001_te_form|て形]] - Foundation of this pattern
-- [[grammar/017_progressive_vs_state|進行形 vs 狀態形]] - Related distinction
+- [〜ている](../grammar/022_te_iru.md) - Main grammar card
+- [いる](../verb-irr/003_iru.md) - The auxiliary verb used in this pattern
+- [て形](../grammar/001_te_form.md) - Foundation of this pattern
+- [進行形 vs 狀態形](../grammar/017_progressive_vs_state.md) - Related distinction
 
 ---
 

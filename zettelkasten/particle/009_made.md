@@ -18,7 +18,7 @@ tags:
   - basic
 created: 2025-10-30
 updated: 2025-10-30
-related_to: [[particle/004_kara]], [[particle/008_ni]], [[particle/007_wa]]
+related_to: [004_kara](004_kara.md), [008_ni](008_ni.md), [007_wa](007_wa.md)
 generated_cards: [../grammar/031_made_vs_madeni]
 generated_date: 2025-10-30
 ---
@@ -55,7 +55,7 @@ generated_date: 2025-10-30
 ```
 
 - **駅まで歩きます** - 走路到車站
-- **東京まで[[verb-u/009_iku|行きます]]** - 去到東京
+- **東京まで[行きます](../verb-u/009_iku.md)** - 去到東京
 - **家まで送ります** - 送到家
 
 #### 3. 程度的極限「到...的程度」
@@ -124,7 +124,7 @@ generated_date: 2025-10-30
 
 ### から〜まで 搭配用法
 
-[[particle/004_kara|から]]（起點）和まで（終點）經常搭配使用，表示從某個起點到某個終點的範圍。
+[から](004_kara.md)（起點）和まで（終點）經常搭配使用，表示從某個起點到某個終點的範圍。
 
 #### 時間範囲
 
@@ -163,7 +163,7 @@ generated_date: 2025-10-30
 
 #### までは（範圍限定）
 
-[[particle/007_wa|は]]是主題助詞[^topic-particle]，までは表示「到...為止（但不超過）」，帶有限定的語氣。
+[は](007_wa.md)是主題助詞[^topic-particle]，までは表示「到...為止（但不超過）」，帶有限定的語氣。
 
 - **ここまでは読みました** - 到這裡為止我讀了（但還沒讀更多）
 - **駅までは送ります** - 我送到車站為止（但不會送更遠）
@@ -595,7 +595,7 @@ Time + までに + Completion Verb
 
 ## Footnotes
 
-[^particle]: **助詞（じょし）Particle** - Japanese grammatical markers that indicate the function of words in a sentence. Particles like まで attach to nouns or phrases to show their grammatical role (endpoint, topic, object, etc.). See related: [[particle/004_kara|から]], [[particle/008_ni|に]], [[particle/007_wa|は]]
+[^particle]: **助詞（じょし）Particle** - Japanese grammatical markers that indicate the function of words in a sentence. Particles like まで attach to nouns or phrases to show their grammatical role (endpoint, topic, object, etc.). See related: [から](004_kara.md), [に](008_ni.md), [は](007_wa.md)
 
 [^made-madeni-distinction]: **まで vs までに の重要な違い** - This is one of the most critical distinctions for Japanese learners:
   - **まで** = continuous action until a time point (until)
@@ -605,6 +605,6 @@ Time + までに + Completion Verb
   - 9時まで働く (work until 9) = continue working until 9
   - 9時までに終わる (finish by 9) = complete before 9
 
-  See: [[grammar/031_made_vs_madeni|まで vs までに 比較]]（待建立）
+  See: [まで vs までに 比較](../grammar/031_made_vs_madeni.md)（待建立）
 
-[^topic-particle]: **主題助詞（しゅだいじょし）Topic Particle** - The particle は (wa) marks the topic or theme of a sentence. When combined with まで to form までは, it emphasizes a limited range: "up to (but not beyond)". See: [[particle/007_wa|は - Topic Particle]]
+[^topic-particle]: **主題助詞（しゅだいじょし）Topic Particle** - The particle は (wa) marks the topic or theme of a sentence. When combined with まで to form までは, it emphasizes a limited range: "up to (but not beyond)". See: [は - Topic Particle](007_wa.md)

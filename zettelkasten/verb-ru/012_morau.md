@@ -21,7 +21,7 @@ updated: 2025-10-29
 
 もらう（もらう）
 
-授受表現の三大動詞の一つで、「受け取る」「もらい受ける」という意味を持つ[[grammar/003_ichidan_verb|一段動詞]]。「あげる」の視点の反対で、受け手の立場から「誰かから何かを受け取る」ことを表す。日本語の授受表現[^giving-receiving]の核心概念を理解するために不可欠な動詞です。
+授受表現の三大動詞の一つで、「受け取る」「もらい受ける」という意味を持つ[一段動詞](../grammar/003_ichidan_verb.md)。「あげる」の視点の反対で、受け手の立場から「誰かから何かを受け取る」ことを表す。日本語の授受表現[^giving-receiving]の核心概念を理解するために不可欠な動詞です。
 
 ### 動詞情報
 
@@ -346,19 +346,19 @@ Get a signature
 ## 相關連結
 
 ### 授受表現
-- [[verb-ru/011_ageru]] - あげる（給予）
-- [[verb-ru/014_kureru]] - くれる（給我）（待建立）
-- [[verb-u/018_yaru]] - やる（給，口語）（待建立）
-- [[honorific/itadaku]] - いただく（謙讓語）（待建立）
-- [[honorific/kudasaru]] - くださる（尊敬語）（待建立）
+- [011_ageru](011_ageru.md) - あげる（給予）
+- [014_kureru](014_kureru.md) - くれる（給我）（待建立）
+- [018_yaru](../verb-u/018_yaru.md) - やる（給，口語）（待建立）
+- [itadaku](../honorific/itadaku.md) - いただく（謙讓語）（待建立）
+- [kudasaru](../honorific/kudasaru.md) - くださる（尊敬語）（待建立）
 
 ### 相關文法
-- [[grammar/te_morau]] - 〜てもらう（待建立）
-- [[grammar/giving_receiving]] - 授受表現完整說明（待建立）
+- [te_morau](../grammar/te_morau.md) - 〜てもらう（待建立）
+- [giving_receiving](../grammar/giving_receiving.md) - 授受表現完整說明（待建立）
 
 ### 相關助詞
-- [[particle/008_ni]] - に助詞（對象）
-- [[particle/004_kara]] - から助詞（來源）
+- [008_ni](../particle/008_ni.md) - に助詞（對象）
+- [004_kara](../particle/004_kara.md) - から助詞（來源）
 
 ---
 

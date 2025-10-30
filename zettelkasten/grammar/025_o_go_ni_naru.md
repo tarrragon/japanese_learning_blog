@@ -22,7 +22,7 @@ updated: 2025-10-29
 
 お/ご～になる（お/ご～になる）
 
-日本語で最も基本的かつ頻繁に使われる尊敬語の形成パターンです。相手や第三者の行為を敬って表現する際に使用し、「お」は和語動詞に、「ご」は漢語動詞に付けるのが原則です。[[grammar/005_keigo_system|敬語システム]]の中核をなす表現で、ビジネスや正式な場面で不可欠な文法パターンです。
+日本語で最も基本的かつ頻繁に使われる尊敬語の形成パターンです。相手や第三者の行為を敬って表現する際に使用し、「お」は和語動詞に、「ご」は漢語動詞に付けるのが原則です。[敬語システム](005_keigo_system.md)の中核をなす表現で、ビジネスや正式な場面で不可欠な文法パターンです。
 
 ### 文法情報
 
@@ -412,19 +412,19 @@ Please let me know the result of your consideration.
 ## 相關連結
 
 ### 敬語システム
-- [[grammar/005_keigo_system]] - 敬語システム全体
-- [[grammar/026_o_go_suru]] - お/ご～する（謙讓語模式）（待建立）
-- [[grammar/027_o_go_itadaku]] - お/ご～いただく（待建立）
+- [005_keigo_system](005_keigo_system.md) - 敬語システム全体
+- [026_o_go_suru](026_o_go_suru.md) - お/ご～する（謙讓語模式）（待建立）
+- [027_o_go_itadaku](027_o_go_itadaku.md) - お/ご～いただく（待建立）
 
 ### 特殊尊敬語動詞
-- [[honorific/002_ossharu_mousu]] - おっしゃる・申す
-- [[honorific/003_irassharu_mairu]] - いらっしゃる・参る
-- [[honorific/004_nasaru_itasu]] - なさる・いたす
-- [[honorific/005_goran_haiken]] - ご覧になる・拝見する
+- [002_ossharu_mousu](../honorific/002_ossharu_mousu.md) - おっしゃる・申す
+- [003_irassharu_mairu](../honorific/003_irassharu_mairu.md) - いらっしゃる・参る
+- [004_nasaru_itasu](../honorific/004_nasaru_itasu.md) - なさる・いたす
+- [005_goran_haiken](../honorific/005_goran_haiken.md) - ご覧になる・拝見する
 
 ### 相關文法
-- [[grammar/passive_respect]] - 受身形の尊敬用法（待建立）
-- [[grammar/keigo_levels]] - 敬語のレベル（待建立）
+- [passive_respect](passive_respect.md) - 受身形の尊敬用法（待建立）
+- [keigo_levels](keigo_levels.md) - 敬語のレベル（待建立）
 
 ---
 

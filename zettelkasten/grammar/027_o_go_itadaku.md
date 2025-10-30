@@ -23,7 +23,7 @@ updated: 2025-10-30
 
 お/ご～いただく（お/ご～いただく）
 
-日本語の謙譲語の中でも、特に丁寧で謙遜の度合いが高い表現パターンです。[[grammar/026_o_go_suru|お/ご～する]]よりもさらに謙遜の意を強めた形で、相手に許可を求めたり、相手の行為に対して感謝を表す際に使用します。「お」は和語動詞に、「ご」は漢語動詞に付け、[[grammar/005_keigo_system|敬語システム]]において最も丁寧な謙譲表現として位置づけられます。
+日本語の謙譲語の中でも、特に丁寧で謙遜の度合いが高い表現パターンです。[お/ご～する](026_o_go_suru.md)よりもさらに謙遜の意を強めた形で、相手に許可を求めたり、相手の行為に対して感謝を表す際に使用します。「お」は和語動詞に、「ご」は漢語動詞に付け、[敬語システム](005_keigo_system.md)において最も丁寧な謙譲表現として位置づけられます。
 
 ### 文法情報
 
@@ -187,13 +187,13 @@ Would it be possible for you to explain it one more time?
 ## 相關連結
 
 ### 敬語體系
-- [[grammar/005_keigo_system]] - 敬語系統總覽
-- [[grammar/025_o_go_ni_naru]] - 尊敬語形成模式
-- [[grammar/026_o_go_suru]] - 基本謙讓語模式
+- [005_keigo_system](005_keigo_system.md) - 敬語系統總覽
+- [025_o_go_ni_naru](025_o_go_ni_naru.md) - 尊敬語形成模式
+- [026_o_go_suru](026_o_go_suru.md) - 基本謙讓語模式
 
 ### 相關表達
-- [[verb-ru/itadaku]] - いただく（動詞）
-- [[verb-ru/kudasaru]] - くださる（對比：尊敬語視角）
+- [itadaku](../verb-ru/itadaku.md) - いただく（動詞）
+- [kudasaru](../verb-ru/kudasaru.md) - くださる（對比：尊敬語視角）
 
 ---
 

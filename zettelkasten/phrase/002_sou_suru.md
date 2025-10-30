@@ -16,7 +16,7 @@ base_card: verb-irr/001_suru
 
 そうする
 
-「そうする」由指示詞「そう」（那樣）和動詞[[verb-irr/001_suru|する]]組成，表示「那樣做」。用於表示同意對方的提議或確認自己將按照某種方式行動。
+「そうする」由指示詞「そう」（那樣）和動詞[する](../verb-irr/001_suru.md)組成，表示「那樣做」。用於表示同意對方的提議或確認自己將按照某種方式行動。
 
 ### 基本形式
 
@@ -43,19 +43,19 @@ base_card: verb-irr/001_suru
 
 | 表達 | 意思 | 使用時機 |
 |------|------|----------|
-| [[phrase/001_dou_suru\|どうする]] | 怎麼做 | 詢問 |
+| [どうする](001_dou_suru\.md) | 怎麼做 | 詢問 |
 | **そうする** | 那樣做 | 回應、同意 |
 | こうする | 這樣做 | 說明方式 |
 
 ### 相關表達
-- [[phrase/001_dou_suru|どうする]] - 怎麼做
-- [[verb-irr/001_suru|する]] - 基礎動詞
+- [どうする](001_dou_suru.md) - 怎麼做
+- [する](../verb-irr/001_suru.md) - 基礎動詞
 
 ## English
 
 sousuru (to do so, to do that)
 
-"Sousuru" combines the demonstrative "sou" (that way) with the verb [[verb-irr/001_suru|suru]], meaning "to do that way." It's used to express agreement with a suggestion or to confirm that one will act in a certain manner.
+"Sousuru" combines the demonstrative "sou" (that way) with the verb [suru](../verb-irr/001_suru.md), meaning "to do that way." It's used to express agreement with a suggestion or to confirm that one will act in a certain manner.
 
 ### Basic Forms
 
@@ -82,7 +82,7 @@ sousuru (to do so, to do that)
 
 そうする（那樣做）
 
-「そうする」由指示詞「そう」（那樣）和動詞[[verb-irr/001_suru|する]]組成，表示「那樣做」。用於表示同意對方的提議或確認自己將按照某種方式行動。
+「そうする」由指示詞「そう」（那樣）和動詞[する](../verb-irr/001_suru.md)組成，表示「那樣做」。用於表示同意對方的提議或確認自己將按照某種方式行動。
 
 ### 基本形式
 

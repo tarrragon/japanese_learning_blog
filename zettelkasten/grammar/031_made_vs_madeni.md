@@ -16,7 +16,7 @@ tags:
   - particle
 created: 2025-10-30
 base_card: particle/009_made
-related_to: [[particle/009_made]], [[particle/008_ni]], [[grammar/004_mae_ni]]
+related_to: [009_made](../particle/009_made.md), [008_ni](../particle/008_ni.md), [004_mae_ni](004_mae_ni.md)
 ---
 
 # まで vs までに - Until vs By
@@ -184,13 +184,13 @@ Time + までに + Completion Verb
 ## Related Cards
 
 ### Particle Cards
-- [[particle/009_made|まで - Until/To Particle]] - Base particle for endpoint marking
-- [[particle/008_ni|に - At/To/In Particle]] - Time particle, component of までに
-- [[particle/004_kara|から - From/Since Particle]] - Starting point, pairs with まで
+- [まで - Until/To Particle](../particle/009_made.md) - Base particle for endpoint marking
+- [に - At/To/In Particle](../particle/008_ni.md) - Time particle, component of までに
+- [から - From/Since Particle](../particle/004_kara.md) - Starting point, pairs with まで
 
 ### Time Grammar
-- [[grammar/004_mae_ni|〜前に - Before]] - Another time expression with に for "before"
-- [[grammar/014_ato_de|〜後で - After]] - Time expression for "after"
+- [〜前に - Before](004_mae_ni.md) - Another time expression with に for "before"
+- [〜後で - After](014_ato_de.md) - Time expression for "after"
 
 ---
 

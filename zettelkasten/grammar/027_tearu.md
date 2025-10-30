@@ -198,20 +198,20 @@ Important clauses are written in the contract.
 ## Related Links
 
 **相關文法**：
-- [[grammar/teiru]] - ている - 進行與結果狀態（需建立對比說明）
-- [[grammar/transitive_intransitive]] - 他動詞與自動詞的區別（待建立）
+- [teiru](teiru.md) - ている - 進行與結果狀態（需建立對比說明）
+- [transitive_intransitive](transitive_intransitive.md) - 他動詞與自動詞的區別（待建立）
 
 **相關概念**：
-- [[concept/intentionality]] - 意圖性的語法表現（待建立）
-- [[concept/resultative_state]] - 結果狀態的各種表達（待建立）
+- [intentionality](../concept/intentionality.md) - 意圖性的語法表現（待建立）
+- [resultative_state](../concept/resultative_state.md) - 結果狀態的各種表達（待建立）
 
 **動詞相關**：
-- [[verb-ru/akeru]] - 開ける（他動詞範例，待建立）
-- [[verb-u/aku]] - 開く（自動詞對比，待建立）
+- [akeru](../verb-ru/akeru.md) - 開ける（他動詞範例，待建立）
+- [aku](../verb-u/aku.md) - 開く（自動詞對比，待建立）
 
 ## Footnotes
 
-[^他動詞]: 他動詞是需要對象（受詞）的動詞，表示動作影響到某個對象。參見 [[grammar/transitive_intransitive]]
+[^他動詞]: 他動詞是需要對象（受詞）的動詞，表示動作影響到某個對象。參見 [transitive_intransitive](transitive_intransitive.md)
 
 [^自動詞]: 自動詞不需要對象，表示主語本身的動作或狀態變化。與他動詞成對出現時，自動詞用「ている」表示狀態。
 

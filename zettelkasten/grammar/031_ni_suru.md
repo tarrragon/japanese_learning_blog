@@ -17,7 +17,7 @@ base_card: verb-irr/001_suru
 
 ～にする
 
-「～にする」是日語中表達決定和選擇的基本句型。由助詞[[particle/007_ni|に]]和動詞[[verb-irr/001_suru|する]]組成，用於從多個選項中做出決定。
+「～にする」是日語中表達決定和選擇的基本句型。由助詞[に](../particle/007_ni.md)和動詞[する](../verb-irr/001_suru.md)組成，用於從多個選項中做出決定。
 
 ### 基本結構
 
@@ -35,14 +35,14 @@ base_card: verb-irr/001_suru
 - やめることにします（決定放棄）
 
 ### 相關文法
-- [[verb-irr/001_suru|する]] - 基礎動詞
-- [[particle/007_ni|に]] - 表示結果、方向的助詞
+- [する](../verb-irr/001_suru.md) - 基礎動詞
+- [に](../particle/007_ni.md) - 表示結果、方向的助詞
 
 ## English
 
 ～nisuru (to decide on, to choose)
 
-The pattern "～nisuru" is a fundamental sentence structure for expressing decisions and choices in Japanese. It combines the particle [[particle/007_ni|ni]] with the verb [[verb-irr/001_suru|suru]], used to make a choice from multiple options.
+The pattern "～nisuru" is a fundamental sentence structure for expressing decisions and choices in Japanese. It combines the particle [ni](../particle/007_ni.md) with the verb [suru](../verb-irr/001_suru.md), used to make a choice from multiple options.
 
 ### Basic Structure
 
@@ -63,7 +63,7 @@ The pattern "～nisuru" is a fundamental sentence structure for expressing decis
 
 ～にする（決定、選擇）
 
-「～にする」是日語中表達決定和選擇的基本句型。由助詞[[particle/007_ni|に]]和動詞[[verb-irr/001_suru|する]]組成，用於從多個選項中做出決定。
+「～にする」是日語中表達決定和選擇的基本句型。由助詞[に](../particle/007_ni.md)和動詞[する](../verb-irr/001_suru.md)組成，用於從多個選項中做出決定。
 
 ### 基本結構
 

@@ -43,8 +43,8 @@ base_card: verb-irr/001_suru
 | **した**ことがある | 曾經做過 | したことがある（做過）|
 
 ### 相關文法
-- [[verb-irr/001_suru|する]] - 基礎動詞
-- [[grammar/024_ta_koto_ga_aru|たことがある]] - 經驗表達（注意區分）
+- [する](../verb-irr/001_suru.md) - 基礎動詞
+- [たことがある](024_ta_koto_ga_aru.md) - 經驗表達（注意區分）
 
 ## English
 

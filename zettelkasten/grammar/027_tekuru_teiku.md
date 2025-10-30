@@ -317,22 +317,22 @@ Mom is going shopping (away from here).
 ## Related Links
 
 ### 必須理解的基礎文法
-- [[grammar/te_form|て形]]^[te-form] - てくる・ていく的基礎，必須先掌握動詞て形變化
-- [[verb-irr/kuru|来る（くる）]]^[kuru] - てくる的本動詞，理解其基本移動方向
-- [[verb-u/iku|行く（いく）]]^[iku] - ていく的本動詞，理解其基本移動方向
+- [て形](te_form.md)^[te-form] - てくる・ていく的基礎，必須先掌握動詞て形變化
+- [来る（くる）](../verb-irr/kuru.md)^[kuru] - てくる的本動詞，理解其基本移動方向
+- [行く（いく）](../verb-u/iku.md)^[iku] - ていく的本動詞，理解其基本移動方向
 
 ### 相關的補助動詞文法
-- [[grammar/teiru|ている]]^[teiru] - 持續體，與てくる・ていく的時間推移用法相關
-- [[grammar/temiru|てみる]]^[temiru] - 嘗試做某事，同樣是補助動詞用法
-- [[grammar/teoku|ておく]]^[teoku] - 預先做某事，補助動詞的另一種用法
+- [ている](teiru.md)^[teiru] - 持續體，與てくる・ていく的時間推移用法相關
+- [てみる](temiru.md)^[temiru] - 嘗試做某事，同樣是補助動詞用法
+- [ておく](teoku.md)^[teoku] - 預先做某事，補助動詞的另一種用法
 
 ### 方向性相關文法
-- [[grammar/direction_verbs|方向動詞]]^[direction] - 待建立：日文中表示方向的動詞系統
-- [[grammar/perspective|視角與方向性]]^[perspective] - 待建立：日文中說話者視角的重要性
+- [方向動詞](direction_verbs.md)^[direction] - 待建立：日文中表示方向的動詞系統
+- [視角與方向性](perspective.md)^[perspective] - 待建立：日文中說話者視角的重要性
 
 ### 時相（Aspect）相關
-- [[grammar/aspect|動詞時相體系]]^[aspect] - 待建立：日文動詞的時相系統
-- [[grammar/change_verbs|變化動詞]]^[change] - 待建立：表示狀態變化的動詞
+- [動詞時相體系](aspect.md)^[aspect] - 待建立：日文動詞的時相系統
+- [變化動詞](change_verbs.md)^[change] - 待建立：表示狀態變化的動詞
 
 ---
 

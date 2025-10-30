@@ -59,7 +59,7 @@ base_card: verb-irr/001_suru
 - **諦める** - 放棄、接受
 
 ### 相關
-- [[verb-irr/001_suru|する]] - 基礎動詞（仕方する）
+- [する](../verb-irr/001_suru.md) - 基礎動詞（仕方する）
 
 ## English
 

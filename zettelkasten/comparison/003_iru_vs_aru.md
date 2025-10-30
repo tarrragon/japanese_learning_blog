@@ -31,8 +31,8 @@ compared_items:
 
 | 動詞 | 対象 | 例 |
 |------|------|-----|
-| [[verb-irr/003_iru\|いる]] | 有生物（人・動物） | 人がいる、犬がいる |
-| [[verb-irr/004_aru\|ある]] | 無生物（物・植物・抽象） | 本がある、木がある、時間がある |
+| [いる](../verb-irr/003_iru\.md) | 有生物（人・動物） | 人がいる、犬がいる |
+| [ある](../verb-irr/004_aru\.md) | 無生物（物・植物・抽象） | 本がある、木がある、時間がある |
 
 ## 英文解釋
 
@@ -106,10 +106,10 @@ There is a tree in the yard.
 ---
 
 ## Related Cards
-- [[verb-irr/003_iru|いる]] - To exist (animate)
-- [[verb-irr/004_aru|ある]] - To exist (inanimate)
-- [[particle/001_ga|が]] - Subject marker used with existence verbs
-- [[particle/007_ni|に]] - Location marker used with existence verbs
+- [いる](../verb-irr/003_iru.md) - To exist (animate)
+- [ある](../verb-irr/004_aru.md) - To exist (inanimate)
+- [が](../particle/001_ga.md) - Subject marker used with existence verbs
+- [に](../particle/007_ni.md) - Location marker used with existence verbs
 
 ---
 

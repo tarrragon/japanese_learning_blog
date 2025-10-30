@@ -110,9 +110,9 @@ I live in Tokyo.
 ---
 
 ## Related Cards
-- [[grammar/022_te_iru|〜ている]] - Main pattern
-- [[verb-irr/003_iru|いる]] - Auxiliary verb
-- [[comparison/004_te_iru_meanings|〜ている的多重意義]] - Comprehensive comparison
+- [〜ている](022_te_iru.md) - Main pattern
+- [いる](../verb-irr/003_iru.md) - Auxiliary verb
+- [〜ている的多重意義](../comparison/004_te_iru_meanings.md) - Comprehensive comparison
 
 ---
 

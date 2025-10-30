@@ -21,7 +21,7 @@ updated: 2025-10-29
 
 くれる（くれる）
 
-授受表現の三大動詞の一つで、「誰かが私（または私の身内）に何かを与える」という意味を持つ[[grammar/003_ichidan_verb|一段動詞]]。「あげる」と同じく与える側の視点ですが、受け手が必ず話者（私）または話者の内集団（家族など）である点が特徴的です。この動詞は日本語特有の「内と外」の概念を反映しており、授受表現[^giving-receiving]の理解において最も重要な動詞の一つです。
+授受表現の三大動詞の一つで、「誰かが私（または私の身内）に何かを与える」という意味を持つ[一段動詞](../grammar/003_ichidan_verb.md)。「あげる」と同じく与える側の視点ですが、受け手が必ず話者（私）または話者の内集団（家族など）である点が特徴的です。この動詞は日本語特有の「内と外」の概念を反映しており、授受表現[^giving-receiving]の理解において最も重要な動詞の一つです。
 
 ### 動詞情報
 
@@ -440,19 +440,19 @@ I had my friend help me. (neutral statement)
 ## 相關連結
 
 ### 授受表現
-- [[verb-ru/011_ageru]] - あげる（給予）
-- [[verb-ru/012_morau]] - もらう（接受）
-- [[verb-u/018_yaru]] - やる（給，口語）（待建立）
-- [[honorific/kudasaru]] - くださる（尊敬語）（待建立）
+- [011_ageru](011_ageru.md) - あげる（給予）
+- [012_morau](012_morau.md) - もらう（接受）
+- [018_yaru](../verb-u/018_yaru.md) - やる（給，口語）（待建立）
+- [kudasaru](../honorific/kudasaru.md) - くださる（尊敬語）（待建立）
 
 ### 相關文法
-- [[grammar/te_kureru]] - 〜てくれる（待建立）
-- [[grammar/giving_receiving]] - 授受表現完整說明（待建立）
-- [[grammar/uchi_soto]] - ウチ・ソト概念（待建立）
+- [te_kureru](../grammar/te_kureru.md) - 〜てくれる（待建立）
+- [giving_receiving](../grammar/giving_receiving.md) - 授受表現完整說明（待建立）
+- [uchi_soto](../grammar/uchi_soto.md) - ウチ・ソト概念（待建立）
 
 ### 相關助詞
-- [[particle/001_ga]] - が助詞（主語標記）
-- [[particle/008_ni]] - に助詞（對象）
+- [001_ga](../particle/001_ga.md) - が助詞（主語標記）
+- [008_ni](../particle/008_ni.md) - に助詞（對象）
 
 ---
 

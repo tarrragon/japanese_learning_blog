@@ -22,7 +22,7 @@ updated: 2025-10-29
 
 やる（やる）
 
-多義的な[[grammar/006_godan_verb|五段動詞]]で、主に二つの核心的な意味を持ちます：①「あげる」の口語的・非敬語的な表現として「与える」、②「する」と同じく「行う・実行する」という意味。授受表現[^giving-receiving]においては、「あげる」よりもカジュアルで、対等または目下の相手、動植物に対して使われることが特徴的です。
+多義的な[五段動詞](../grammar/006_godan_verb.md)で、主に二つの核心的な意味を持ちます：①「あげる」の口語的・非敬語的な表現として「与える」、②「する」と同じく「行う・実行する」という意味。授受表現[^giving-receiving]においては、「あげる」よりもカジュアルで、対等または目下の相手、動植物に対して使われることが特徴的です。
 
 ### 動詞情報
 
@@ -428,18 +428,18 @@ Way of doing / Method
 ## 相關連結
 
 ### 授受表現
-- [[verb-ru/011_ageru]] - あげる（給予，標準）
-- [[verb-ru/012_morau]] - もらう（接受）
-- [[verb-ru/014_kureru]] - くれる（給我）
-- [[honorific/sashiageru]] - 差し上げる（謙讓語）（待建立）
+- [011_ageru](../verb-ru/011_ageru.md) - あげる（給予，標準）
+- [012_morau](../verb-ru/012_morau.md) - もらう（接受）
+- [014_kureru](../verb-ru/014_kureru.md) - くれる（給我）
+- [sashiageru](../honorific/sashiageru.md) - 差し上げる（謙讓語）（待建立）
 
 ### 相關動詞
-- [[verb-irr/001_suru]] - する（做）
-- [[grammar/te_miru]] - 〜てみる（試試看）（待建立）
+- [001_suru](../verb-irr/001_suru.md) - する（做）
+- [te_miru](../grammar/te_miru.md) - 〜てみる（試試看）（待建立）
 
 ### 相關文法
-- [[grammar/giving_receiving]] - 授受表現完整說明（待建立）
-- [[grammar/casual_vs_polite]] - カジュアル vs 丁寧（待建立）
+- [giving_receiving](../grammar/giving_receiving.md) - 授受表現完整說明（待建立）
+- [casual_vs_polite](../grammar/casual_vs_polite.md) - カジュアル vs 丁寧（待建立）
 
 ---
 

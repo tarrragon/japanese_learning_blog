@@ -439,22 +439,22 @@ A: 「において」是書面語，意思接近「で」，可以用，但日�
 ## 相關連結
 
 ### 基礎助詞
-- [[particle/005_de]] - で助詞（手段、場所、原因）
-- [[particle/008_ni]] - に助詞（目的地、存在場所、時間）
+- [005_de](../particle/005_de.md) - で助詞（手段、場所、原因）
+- [008_ni](../particle/008_ni.md) - に助詞（目的地、存在場所、時間）
 
 ### 相關動詞
-- [[verb-irr/004_aru]] - ある（存在，無生命）（待建立）
-- [[verb-irr/003_iru]] - いる（存在，有生命）
-- [[verb-u/009_iku]] - 行く（去）
-- [[verb-irr/002_kuru]] - 来る（來）
+- [004_aru](../verb-irr/004_aru.md) - ある（存在，無生命）（待建立）
+- [003_iru](../verb-irr/003_iru.md) - いる（存在，有生命）
+- [009_iku](../verb-u/009_iku.md) - 行く（去）
+- [002_kuru](../verb-irr/002_kuru.md) - 来る（來）
 
 ### 相關文法
-- [[grammar/existence_location]] - 存在與場所表達（待建立）
-- [[grammar/particle_choice]] - 助詞選擇邏輯（待建立）
+- [existence_location](../grammar/existence_location.md) - 存在與場所表達（待建立）
+- [particle_choice](../grammar/particle_choice.md) - 助詞選擇邏輯（待建立）
 
 ### 其他對比
-- [[comparison/de_means_vs_location]] - で的手段用法 vs 場所用法（待建立）
-- [[comparison/ni_time_vs_location]] - に的時間用法 vs 場所用法（待建立）
+- [de_means_vs_location](de_means_vs_location.md) - で的手段用法 vs 場所用法（待建立）
+- [ni_time_vs_location](ni_time_vs_location.md) - に的時間用法 vs 場所用法（待建立）
 
 ---
 
