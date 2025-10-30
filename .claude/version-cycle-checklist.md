@@ -14,6 +14,27 @@
 
 ---
 
+## 延伸卡片的處理時間線
+
+```
+版本 v1.0.4:
+├─ Draft → Extension-Review → Linking → Completed
+└─ 產出: extension-cards-1.0.4.md (記錄 80 張延伸需求)
+
+版本 v1.0.5:
+├─ 來源: extension-cards-1.0.4.md (選擇 30 張 Critical/High)
+├─ Draft → Extension-Review → Linking → Completed
+└─ 產出: extension-cards-1.0.5.md (記錄新的延伸需求)
+```
+
+**說明**：
+- 每個版本的 Extension-Review 階段產出的延伸需求，是**下一個版本**的卡片來源
+- 不需要（也不建議）立即建立所有延伸卡片
+- 可以根據優先級分批在後續版本中建立
+- Linking 階段識別的 Critical 遺漏卡片例外，可以立即建立草稿
+
+---
+
 ## 版本開始前：規劃階段
 
 ### ✅ 檢查清單
@@ -131,6 +152,11 @@
 
 ### 🎯 目標
 分析 Draft 階段建立的卡片，識別可以延伸的新卡片需求。
+
+**⚠️ 重要提醒**：
+- Extension-Review 階段**僅識別和記錄**延伸需求
+- **不建立**新卡片（除非是 Linking 階段的 Critical 遺漏卡片）
+- 延伸需求將成為下一版本（或後續版本）的卡片來源
 
 ### ✅ 檢查清單
 

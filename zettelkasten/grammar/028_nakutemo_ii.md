@@ -4,14 +4,15 @@ description: なくてもいい - 不必、不用
 type: grammar
 grammar_type: permission
 jlpt: n4
-stage: draft
+stage: completed
 tags: [permission, optional, grammar_pattern, casual]
 related_grammar: [temo_ii, nakereba_naranai, tewa_ikenai]
 created: 2025-10-30
 updated: 2025-10-30
-draft: true
+draft: false
 auto_generated: true
-needs_review: true
+needs_review: false
+completed: 2025-10-30
 ---
 
 ## 日文
@@ -45,9 +46,9 @@ needs_review: true
 
 ## 日文解釋
 
-「なくてもいい」は、ある行為をしなくても問題ない、必要ないという意味を表す文法パターンです。相手に対して、何かをする義務がないことを伝えたり、許可を与えたりするときに使います。
+「なくてもいい」は、ある行為をしなくても問題ない、必要ないという意味を表す文法パターン[^grammar-pattern]です。相手に対して、何かをする義務がないことを伝えたり、許可[^permission]を与えたりするときに使います。
 
-「なければならない」（〜しなければならない）の反対の意味で、行為を行わないことの許可を表します。口語では「なくていい」という短縮形がよく使われます。
+「なければならない」（〜しなければならない）[^nakereba-naranai]の反対の意味で、行為を行わないことの許可を表します。口語では「なくていい」という短縮形がよく使われます。
 
 ## 英文解釋
 
@@ -57,8 +58,8 @@ This grammar pattern expresses that it's not necessary to do something, or that 
 
 Key distinctions:
 - なくてもいい = don't have to (permission NOT to do)
-- てもいい = may/can (permission TO do)
-- てはいけない = must not (prohibition)
+- てもいい[^temo-ii] = may/can (permission TO do)
+- てはいけない[^tewa-ikenai] = must not (prohibition)
 
 ## 中文解釋
 
@@ -68,8 +69,8 @@ Key distinctions:
 
 **重要區別**：
 - なくてもいい = 不必、可以不做（給予不做的許可）
-- てもいい = 可以做（給予做的許可）
-- てはいけない = 不可以（禁止）
+- てもいい[^temo-ii] = 可以做（給予做的許可）
+- てはいけない[^tewa-ikenai] = 不可以（禁止）
 
 **注意**：這不是「不可以」的意思，而是「不需要」的意思。
 
@@ -158,20 +159,38 @@ You must do homework, but you don't have to do prep work.
 3. **釐清義務**：說明某事不是必須的
 4. **安慰或體貼**：讓對方放心，不用有壓力
 
-## 相關文法
+---
 
-### てもいい
-- [てもいい](temo_ii.md) - 可以、許可做某事
-- 例：食べてもいい（可以吃）
+## 註解
 
-### なければならない
-- [なければならない](nakereba_naranai.md) - 必須、不得不
-- 例：行かなければならない（必須去）
-- **反義關係**：なければならない ↔ なくてもいい
+[^grammar-pattern]: **文法句型** - 日文中用於表達特定意義或功能的固定文法結構。なくてもいい是表達許可（不做也可以）的標準句型。
 
-### てはいけない
-- [てはいけない](tewa_ikenai.md) - 不可以、禁止
-- 例：入ってはいけない（不可以進去）
+[^permission]: **許可表達** - 在日文中，許可表達分為「做的許可」（てもいい）和「不做的許可」（なくてもいい），是基本的語法概念。
+
+[^nakereba-naranai]: **なければならない** - 表示「必須」「一定要」的文法句型。與なくてもいい形成反義關係。詳見 [なければならない](027_nakereba_naranai.md)
+
+[^temo-ii]: **てもいい** - 表示「可以做」的許可文法。與なくてもいい（可以不做）形成對照。詳見 [てもいい](023_temo_ii.md)
+
+[^tewa-ikenai]: **てはいけない** - 表示「不可以」「禁止」的文法。注意區別：なくてもいい是「可以不做」，てはいけない是「不可以做」。詳見 [てはいけない](024_tewa_ikenai.md)
+
+[^nai-form]: **ない形（否定形）** - 動詞的否定變化形式，是形成なくてもいい的基礎。詳見 [ない形](008_nai_form.md)
+
+[^te-form]: **て形** - 動詞的連接形，用於連接各種文法句型。詳見 [て形](001_te_form.md)
+
+---
+
+## 相關連結
+
+### 許可表達對比
+- [てもいい](023_temo_ii.md) - 可以做（給予做的許可）
+- [てはいけない](024_tewa_ikenai.md) - 不可以（禁止）
+
+### 義務與許可對照
+- [なければならない](027_nakereba_naranai.md) - 必須、一定要（反義）
+
+### 動詞變化基礎
+- [ない形](008_nai_form.md) - 否定形變化
+- [て形](001_te_form.md) - 連接形變化
 
 ## 學習要點
 
@@ -198,17 +217,3 @@ You must do homework, but you don't have to do prep work.
 ### 更正式的表達
 - **しなくてもよろしい**（更正式）
 - **する必要はない**（不需要）
-
-### 相關概念
-- [許可的表達方式](../concept/permission.md)
-- [義務的表達方式](../concept/obligation.md)
-
----
-
-**Footnotes**
-
-[^1]: [ない形（否定形）](nai_form.md) - 動詞的否定形態
-[^2]: [て形](te_form.md) - 日文動詞的連接形
-[^3]: [なければならない](nakereba_naranai.md) - 表示必須、義務的文法
-[^4]: [てもいい](temo_ii.md) - 表示許可的文法
-[^5]: [てはいけない](tewa_ikenai.md) - 表示禁止的文法

@@ -113,10 +113,15 @@ def get_meta_categories() -> set[str]:
         content = file.read_text(encoding="utf-8")
         yaml_data = parse_yaml_frontmatter(content)
 
-        # 從 title 提取分類名稱 (如: _meta/categories/verb-ru -> verb-ru)
+        # 從 title 提取分類名稱 (如: verb-ru)
         title = yaml_data.get("title", "")
-        if title.startswith("_meta/categories/"):
-            category_name = title.replace("_meta/categories/", "")
+        if title:
+            # 如果 title 包含路徑前綴，去除之
+            if title.startswith("_meta/categories/"):
+                category_name = title.replace("_meta/categories/", "")
+            else:
+                # 直接使用 title 值
+                category_name = title
             categories.add(category_name)
 
     return categories

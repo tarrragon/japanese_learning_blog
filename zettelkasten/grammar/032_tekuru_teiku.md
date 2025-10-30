@@ -4,7 +4,7 @@ description: てくる・ていく - 方向補助動詞（來去方向）
 type: grammar
 grammar_type: auxiliary_verb_pattern
 jlpt: n4
-stage: draft
+stage: completed
 tags:
   - auxiliary_verb
   - direction
@@ -20,20 +20,21 @@ applies_to:
   - verb
 created: 2025-10-30
 updated: 2025-10-30
-draft: true
+draft: false
 auto_generated: true
-needs_review: true
+needs_review: false
+completed: 2025-10-30
 ---
 
 ## 日文
 
 ### てくる（~te kuru）
 
-**構造**：動詞て形 + くる
+**構造**：動詞て形[^te-form] + くる[^kuru]
 
 ### ていく（~te iku）
 
-**構造**：動詞て形 + いく
+**構造**：動詞て形[^te-form] + いく[^iku]
 
 **羅馬拼音**：
 - ~te kuru
@@ -57,7 +58,7 @@ needs_review: true
 3. **変化の継続**：変化が進行し、その状態が続いていくことを表す
 4. **視点の移動**：動作の結果や影響が話し手から遠ざかることを表す
 
-**共通点**：両方とも、動詞のて形に接続し、動作の方向性（物理的または時間的・心理的）を表す補助動詞として機能する。
+**共通点**：両方とも、動詞のて形[^te-form]に接続し、動作の方向性[^directionality]（物理的または時間的・心理的）を表す補助動詞[^auxiliary-verb]として機能する。
 
 ---
 
@@ -77,7 +78,7 @@ needs_review: true
 3. **Continuation of change**: Indicates the progression and continuation of a change
 4. **Perspective shift**: Expresses that the result or effect of an action moves away from the speaker
 
-**Common feature**: Both patterns attach to the te-form of verbs and function as auxiliary verbs expressing directionality (physical, temporal, or psychological) of actions.
+**Common feature**: Both patterns attach to the te-form[^te-form] of verbs and function as auxiliary verbs[^auxiliary-verb] expressing directionality[^directionality] (physical, temporal, or psychological) of actions.
 
 ---
 
@@ -97,7 +98,7 @@ needs_review: true
 3. **變化的持續**：表示變化的進行和持續
 4. **視角轉移**：表示動作的結果或影響遠離說話者
 
-**共同特點**：兩者都接續在動詞て形後面，作為補助動詞表示動作的方向性（物理的、時間的或心理的）。
+**共同特點**：兩者都接續在動詞て形[^te-form]後面，作為補助動詞[^auxiliary-verb]表示動作的方向性[^directionality]（物理的、時間的或心理的）。
 
 ---
 
@@ -314,49 +315,37 @@ Mom is going shopping (away from here).
 
 ---
 
-## Related Links
+---
 
-### 必須理解的基礎文法
-- [て形](te_form.md)^[te-form] - てくる・ていく的基礎，必須先掌握動詞て形變化
-- [来る（くる）](../verb-irr/kuru.md)^[kuru] - てくる的本動詞，理解其基本移動方向
-- [行く（いく）](../verb-u/iku.md)^[iku] - ていく的本動詞，理解其基本移動方向
+## 註解
 
-### 相關的補助動詞文法
-- [ている](teiru.md)^[teiru] - 持續體，與てくる・ていく的時間推移用法相關
-- [てみる](temiru.md)^[temiru] - 嘗試做某事，同樣是補助動詞用法
-- [ておく](teoku.md)^[teoku] - 預先做某事，補助動詞的另一種用法
+[^te-form]: **て形** - 日文動詞的重要變化形式，許多補助動詞都接續在て形後面。てくる和ていく必須接續在正確的て形之後。詳見 [て形](001_te_form.md)
 
-### 方向性相關文法
-- [方向動詞](direction_verbs.md)^[direction] - 待建立：日文中表示方向的動詞系統
-- [視角與方向性](perspective.md)^[perspective] - 待建立：日文中說話者視角的重要性
+[^kuru]: **来る（くる）** - 「來」的意思，表示朝向說話者移動。てくる中的くる保留了這個方向性的核心意義。詳見 [来る](../verb-irr/002_kuru.md)
 
-### 時相（Aspect）相關
-- [動詞時相體系](aspect.md)^[aspect] - 待建立：日文動詞的時相系統
-- [變化動詞](change_verbs.md)^[change] - 待建立：表示狀態變化的動詞
+[^iku]: **行く（いく）** - 「去」的意思，表示遠離說話者移動。ていく中的いく保留了這個方向性的核心意義。詳見 [行く](../verb-u/009_iku.md)
+
+[^auxiliary-verb]: **補助動詞（ほじょどうし）** - 接在動詞て形後面，增加額外意義的動詞。てくる、ていく、てみる、ておく等都是補助動詞。
+
+[^directionality]: **方向性（ほうこうせい）** - てくる和ていく表示物理、時間、心理三個層面的方向性。這是日文特有的重要概念。
+
+[^te-iru]: **〜ている** - 表示動作的持續或結果的狀態。與てくる・ていく結合使用時（～てきている／～ていっている），可以表示更複雜的時相意義。詳見 [〜ている](022_te_iru.md)
+
+[^perspective]: **說話者視角** - 日文的許多表達都與說話者的視角密切相關。てくる和ていく是最典型的例子，說話者的位置決定了應該使用哪個形式。
+
+[^aspect]: **時相（じそう）** - 時相（aspect）指的是動作的內部時間結構，包括動作的開始、持續、完成等。てくる和ていく在表示變化時，具有重要的時相功能。
 
 ---
 
-## Footnotes
+## 相關連結
 
-[^te-form]: て形是日文動詞的重要變化形式，許多補助動詞都接續在て形後面。てくる和ていく必須接續在正確的て形之後。
+### 基礎文法
+- [て形](001_te_form.md) - てくる・ていく的基礎
+- [〜ている](022_te_iru.md) - 持續體，與時間推移用法相關
 
-[^kuru]: 来る（くる）是「來」的意思，表示朝向說話者移動。てくる中的くる保留了這個方向性的核心意義。
-
-[^iku]: 行く（いく）是「去」的意思，表示遠離說話者移動。ていく中的いく保留了這個方向性的核心意義。
-
-[^teiru]: ている表示動作的持續或結果的狀態。與てくる・ていく結合使用時（～てきている／～ていっている），可以表示更複雜的時相意義。
-
-[^temiru]: てみる是「試著做」的意思，也是補助動詞的一種。理解各種補助動詞的用法有助於掌握日文的表達方式。
-
-[^teoku]: ておく表示「事先做好某事」，強調準備性。與てくる・ていく一樣，都是重要的補助動詞句型。
-
-[^direction]: 日文有一套完整的方向動詞系統，包括來る/行く、上がる/下がる、出る/入る等，理解這個系統有助於掌握日文的空間表達。
-
-[^perspective]: 日文的許多表達都與說話者的視角密切相關。てくる和ていく是最典型的例子，說話者的位置決定了應該使用哪個形式。
-
-[^aspect]: 時相（aspect）指的是動作的內部時間結構，包括動作的開始、持續、完成等。てくる和ていく在表示變化時，具有重要的時相功能。
-
-[^change]: 日文有許多表示變化的動詞和文法，如「なる」「～くなる」「～になる」等。理解變化表達有助於掌握てくる和ていく的變化用法。
+### 本動詞
+- [来る](../verb-irr/002_kuru.md) - てくる的本動詞（來）
+- [行く](../verb-u/009_iku.md) - ていく的本動詞（去）
 
 ---
 

@@ -4,15 +4,16 @@ description: たら - 條件、假設（如果...的話）
 type: grammar
 grammar_type: conditional_form
 jlpt: n4
-stage: draft
+stage: completed
 tags: [conditional, hypothesis, grammar_pattern, basic]
 created: 2025-10-30
 updated: 2025-10-30
 applies_to: [verb, adj-i, adj-na, noun]
 related_grammar: [to_conditional, ba_form, nara]
-draft: true
+draft: false
 auto_generated: true
-needs_review: true
+needs_review: false
+completed: 2025-10-30
 ---
 
 ## 日文
@@ -50,14 +51,14 @@ needs_review: true
 
 ## 日文解釋
 
-「たら」は条件を表す文法で、「もし～なら」「～したときに」という意味を持つ。動詞のた形に「ら」を付けて作る。主に四つの使い方がある：
+「たら」は条件[^jouken]を表す文法で、「もし～なら」「～したときに」という意味を持つ。動詞のた形[^ta-form]に「ら」を付けて作る。主に四つの使い方がある：
 
 1. **条件**：ある条件が満たされたら、結果が起こることを表す
 2. **時間的順序**：前の動作が完了してから、次の動作が起こる
 3. **発見**：ある動作をしたら、予想外のことが起きた
 4. **提案・アドバイス**：「～たらどう」の形で提案を表す
 
-「と」「ば」「なら」と比べて、過去・現在・未来のいずれの仮定にも使える最も汎用性の高い条件表現である。
+「と」[^to-jouken]「ば」[^ba-jouken]「なら」[^nara]と比べて、過去・現在・未来のいずれの仮定にも使える最も汎用性の高い条件表現である。
 
 ## 英文解釋
 
@@ -70,7 +71,7 @@ needs_review: true
 3. **Discovery**: Upon doing A, unexpectedly discovered B
 4. **Suggestion**: "Why don't you..." using たらどう
 
-This is the most versatile conditional form in Japanese, applicable to past, present, and future hypothetical situations. It's more flexible than と (automatic result), ば (general condition), or なら (situational condition).
+This is the most versatile conditional form in Japanese, applicable to past, present, and future hypothetical situations. It's more flexible than と[^to-jouken] (automatic result), ば[^ba-jouken] (general condition), or なら[^nara] (situational condition).
 
 ## 中文解釋
 
@@ -83,7 +84,7 @@ This is the most versatile conditional form in Japanese, applicable to past, pre
 3. **意外發現**：做了A之後，意外發現了B
 4. **建議提案**：用「～たらどう」表示「要不要...」的建議
 
-這是日文中最通用的條件表達方式，可用於過去、現在、未來的各種假設情境。相較於と（自動結果）、ば（一般條件）、なら（情境條件），たら的適用範圍最廣。
+這是日文中最通用的條件表達方式，可用於過去、現在、未來的各種假設情境。相較於と[^to-jouken]（自動結果）、ば[^ba-jouken]（一般條件）、なら[^nara]（情境條件），たら的適用範圍最廣。
 
 ## 四大用法詳解
 
@@ -282,29 +283,32 @@ When I opened my wallet, there was no money in it at all.
 打開錢包一看，裡面完全沒有錢。
 ```
 
-## Related Links
+---
 
-**條件表達對比**：
-- [と條件形](to_conditional.md) - 自然結果、恆常條件
-- [ば條件形](ba_form.md) - 一般條件、假設
-- [なら](nara.md) - 話題條件、情境假設
+## 註解
 
-**相關文法**：
-- [た形](ta_form.md) - たら的基礎形式
-- [たらいい](tara_ii.md) - 建議、希望表達
-- [たらどう](tara_dou.md) - 提議句型
+[^jouken]: **條件表達（じょうけん）** - 日文有四大條件形式：たら、と、ば、なら，各有不同用法和語感。たら是最通用的形式。
 
-**實際應用**：
-- [もし～たら](../phrase/moshi_tara.md) - 強調假設的表達
-- 待建立：[條件表達總整理](conditional_comparison.md)
-- 待建立：[たら用法模式集](tara_usage_patterns.md)
+[^ta-form]: **た形（過去形）** - 動詞的過去式形態，也是たら條件形的基礎。每個動詞類型的た形變化規則不同。詳見 [た形](009_ta_form.md)
 
-## Footnotes
+[^to-jouken]: **と條件形** - 表示自然結果、恆常條件的條件表達。後句不能用意志、命令等表達。詳見 [と條件形](052_to-jouken.md)
 
-[^ta-form]: た形是日文動詞的過去式形態，也是たら條件形的基礎。每個動詞類型的た形變化規則不同。
+[^ba-jouken]: **ば條件形** - 表示一般條件、假設的條件表達。較書面正式。詳見 [ば條件形](047_ba-jouken.md)
 
-[^conditional-difference]: 日文有四大條件表達（と・ば・たら・なら），各有不同的語感和使用場合。たら是最通用的形式。
+[^nara]: **なら** - 基於話題或情境的條件表達。強調「如果是那樣的話」。詳見 [なら](054_nara.md)
 
-[^tara-dou]: 「～たらどう」是日文中常用的建議句型，比直接命令更委婉有禮。
+[^tara-dou]: **～たらどう** - 日文中常用的建議句型，比直接命令更委婉有禮。例：休んだらどうですか（要不要休息一下？）
 
-[^discovery-pattern]: たら的「發現」用法是日文特有的表達方式，強調動作完成後發現的意外狀況。
+[^discovery-pattern]: **發現用法** - たら的特殊用法，表示做某事後發現意外狀況。常用「～たら、～ていた」句型。
+
+---
+
+## 相關連結
+
+### 條件表達對比
+- [と條件形](052_to-jouken.md) - 自然結果、恆常條件
+- [ば條件形](047_ba-jouken.md) - 一般條件、假設
+- [なら](054_nara.md) - 話題條件、情境假設
+
+### 動詞變化基礎
+- [た形](009_ta_form.md) - たら的基礎形式

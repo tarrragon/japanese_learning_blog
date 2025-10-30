@@ -4,15 +4,16 @@ description: てある - 結果狀態（有意圖的準備狀態）
 type: grammar
 grammar_type: resultative_state
 jlpt: n4
-stage: draft
+stage: completed
 tags:
   - jlpt/n4
   - domain/daily_life
 created: 2025-10-30
 updated: 2025-10-30
-draft: true
+draft: false
 auto_generated: false
-needs_review: true
+needs_review: false
+completed: 2025-10-30
 related_grammar:
   - teiru
   - transitive_intransitive
@@ -47,15 +48,15 @@ applies_to:
 
 ## 日文解釋
 
-「〜てある」は、誰かが意図的に行った動作の結果が現在も残っている状態を表す文法です。他動詞のて形に接続し、「事前の準備」や「意図的な行為の結果」を強調します。助詞「を」は「が」または「は」に変わります。
+「〜てある」は、誰かが意図的に行った動作の結果が現在も残っている状態を表す文法です。他動詞[^tadoushi]のて形[^te-form]に接続し、「事前の準備」や「意図的な行為の結果」を強調します。助詞「を」[^wo-particle]は「が」または「は」に変わります。
 
 ## 英文解釋
 
-The grammar pattern "〜てaru" expresses a resultant state that came about through someone's intentional action, and that state still exists in the present. It attaches to the te-form of transitive verbs and emphasizes "preparation" or "the result of a deliberate action." The particle を changes to が or は.
+The grammar pattern "〜てaru" expresses a resultant state that came about through someone's intentional action, and that state still exists in the present. It attaches to the te-form of transitive verbs[^tadoushi] and emphasizes "preparation" or "the result of a deliberate action." The particle を[^wo-particle] changes to が or は.
 
 ## 中文解釋
 
-文法句型「〜てある」表示某人有意圖地做了某個動作，而該動作的結果狀態現在仍然存在。它接在他動詞的て形後面，強調「事前準備」或「有意為之的結果」。助詞「を」會改為「が」或「は」。
+文法句型「〜てある」表示某人有意圖地做了某個動作，而該動作的結果狀態現在仍然存在。它接在他動詞[^tadoushi]的て形[^te-form]後面，強調「事前準備」或「有意為之的結果」。助詞「を」[^wo-particle]會改為「が」或「は」。
 
 ## 核心概念
 
@@ -69,11 +70,11 @@ The grammar pattern "〜てaru" expresses a resultant state that came about thro
 
 ### 2. 只用於他動詞
 
-「てある」只能接在他動詞（transitive verb）後面，因為它需要表達「有人做了某事」。
+「てある」只能接在他動詞[^tadoushi]（transitive verb）後面，因為它需要表達「有人做了某事」。
 
 ```
 ✓ 窓を開ける（他動詞）→ 窓が開けてある
-✗ 窓が開く（自動詞）→ 窓が開いてある（用ている）
+✗ 窓が開く（自動詞[^jidoushi]）→ 窓が開いてある（用ている[^te-iru]）
 ```
 
 ### 3. 與「ている」的對比
@@ -195,26 +196,37 @@ Important clauses are written in the contract.
 4. **限制**：只用於他動詞
 5. **對比**：てある（有意圖）vs ている（無特別意圖）
 
-## Related Links
+---
 
-**相關文法**：
-- [teiru](teiru.md) - ている - 進行與結果狀態（需建立對比說明）
-- [transitive_intransitive](transitive_intransitive.md) - 他動詞與自動詞的區別（待建立）
+## 註解
 
-**相關概念**：
-- [intentionality](../concept/intentionality.md) - 意圖性的語法表現（待建立）
-- [resultative_state](../concept/resultative_state.md) - 結果狀態的各種表達（待建立）
+[^tadoushi]: **他動詞（たどうし）** - 需要賓語的動詞，表示動作影響到某個對象。てある只能接他動詞。詳見 [他動詞](../concept/004_tadoushi.md)
 
-**動詞相關**：
-- [akeru](../verb-ru/akeru.md) - 開ける（他動詞範例，待建立）
-- [aku](../verb-u/aku.md) - 開く（自動詞對比，待建立）
+[^jidoushi]: **自動詞（じどうし）** - 不需要賓語的動詞，表示主語本身的動作或狀態變化。自動詞用「ている」表示狀態，不用「てある」。詳見 [自動詞](../concept/003_jidoushi.md)
 
-## Footnotes
+[^te-form]: **て形** - 動詞的連接形，是てある和ている的基礎。詳見 [て形](001_te_form.md)
 
-[^他動詞]: 他動詞是需要對象（受詞）的動詞，表示動作影響到某個對象。參見 [transitive_intransitive](transitive_intransitive.md)
+[^te-iru]: **〜ている** - 表示動作進行或結果狀態持續。與てある的差別在於不強調意圖性。詳見 [〜ている](022_te_iru.md)
 
-[^自動詞]: 自動詞不需要對象，表示主語本身的動作或狀態變化。與他動詞成對出現時，自動詞用「ている」表示狀態。
+[^wo-particle]: **助詞を** - 標示他動詞的賓語。使用てある時，を要改為が或は。詳見 [を](../particle/011_wo.md)
 
-[^意圖性]: 「てある」隱含「有人有意識地做了這個動作」，這是與「ている」最大的區別。
+[^intentionality]: **意圖性** - 「てある」隱含「有人有意識地做了這個動作」，這是與「ている」最大的區別。
 
-[^準備]: 「てある」常用於描述事前準備完成的狀態，如「料理が作ってある」（料理做好了）。
+[^preparation]: **準備狀態** - 「てある」常用於描述事前準備完成的狀態，如「料理が作ってある」（料理做好了）。
+
+---
+
+## 相關連結
+
+### 對比文法
+- [〜ている](022_te_iru.md) - 進行與結果狀態（對比：不強調意圖）
+
+### 動詞概念
+- [他動詞](../concept/004_tadoushi.md) - てある只用於他動詞
+- [自動詞](../concept/003_jidoushi.md) - 自動詞用ている
+
+### 基礎文法
+- [て形](001_te_form.md) - てある的基礎形式
+
+### 助詞
+- [を](../particle/011_wo.md) - 他動詞的賓語標記

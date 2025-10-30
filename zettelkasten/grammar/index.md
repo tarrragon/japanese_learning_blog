@@ -1,7 +1,7 @@
 # 文法卡片索引
 
-最後編號：033
-總卡片數：40
+最後編號：055
+總卡片數：55
 
 ## 卡片列表
 
@@ -33,19 +33,34 @@
 - [025 - お/ご～になる - 尊敬語形成模式](025_o_go_ni_naru.md) 
 - [026 - お/ご～する - 謙讓語形成模式](026_o_go_suru.md) 
 - [027 - なければならない - 必須、一定要](027_nakereba_naranai.md) 
-- [027 - なくてもいい - 不必、不用](027_nakutemo_ii.md) #permission #optional #grammar_pattern
-- [027 - てくる・ていく - 方向補助動詞（來去方向）](027_tekuru_teiku.md) 
-- [027 - お/ご～いただく - 更謙遜的謙讓語表達](027_o_go_itadaku.md) 
-- [027 - たら - 條件、假設（如果...的話）](027_tara.md) #conditional #hypothesis #grammar_pattern
-- [027 - てある - 結果狀態（有意圖的準備狀態）](027_tearu.md) 
-- [028 - 主題評述結構 - 日語句子的基本組織方式](028_topic_comment_structure.md) #grammar #sentence_structure #linguistic_theory
-- [029 - 資訊結構理論 - 舊資訊與新資訊的標記系統](029_information_structure.md) #grammar #linguistic_theory #information_flow
-- [030 - 對比與焦點 - は的對比功能與焦點理論](030_contrast_focus.md) #grammar #linguistic_theory #contrast
-- [031 - ～にする - 決定、選擇（表達做出選擇）](031_ni_suru.md) #grammar #jlpt/n4 #decision
-- [031 - 進行形 vs 狀態形 - 〜ている的兩大核心意義區別](031_progressive_vs_state.md) 
-- [031 - まで vs までに - 持續性 vs 期限的重要區別](031_made_vs_madeni.md) 
-- [032 - ～として - 作為...（表達身份、角色、立場）](032_to_shite.md) #grammar #jlpt/n3 #role
-- [033 - することがある - 有...要做（表達計劃、任務）](033_suru_koto_ga_aru.md) #grammar #jlpt/n4 #obligation
+- [028 - なくてもいい - 不必、不用](028_nakutemo_ii.md) #permission #optional #grammar_pattern
+- [029 - お/ご～いただく - 更謙遜的謙讓語表達](029_o_go_itadaku.md) 
+- [030 - たら - 條件、假設（如果...的話）](030_tara.md) #conditional #hypothesis #grammar_pattern
+- [031 - てある - 結果狀態（有意圖的準備狀態）](031_tearu.md) 
+- [032 - てくる・ていく - 方向補助動詞（來去方向）](032_tekuru_teiku.md) 
+- [033 - 主題評述結構 - 日語句子的基本組織方式，以「主題」為出發點進行陳述](033_topic_comment_structure.md) #grammar #sentence_structure #linguistic_theory
+- [034 - 資訊結構理論 - 舊資訊與新資訊的標記系統](034_information_structure.md) 
+- [035 - 對比與焦點 - は的對比功能與焦點理論](035_contrast_focus.md) #grammar #linguistic_theory #contrast
+- [036 - まで vs までに - 持續性 vs 期限的重要區別](036_made_vs_madeni.md) 
+- [037 - ～にする - 決定、選擇（表達做出選擇和改變狀態）](037_ni_suru.md) #grammar #jlpt/n4 #decision
+- [038 - 進行形 vs 狀態形 - 〜ている的兩大核心意義區別](038_progressive_vs_state.md) 
+- [039 - ～として - 作為...（表達身份、角色、立場、資格）](039_to_shite.md) #grammar #jlpt/n3 #role
+- [040 - することがある - 有時會做、偶爾做（表示習慣性的偶爾發生）](040_suru_koto_ga_aru.md) #grammar #jlpt/n4 #frequency
+- [041 - 動詞的辞書形（基本形），是字典查詢用的形式，也是普通體的基礎。所有動詞在字典中都以此形式呈現，表示未完成的動作或狀態。](041_jishokei.md) 
+- [042 - 過去疑問形〜ましたか，用於禮貌地詢問過去發生的事情或行為](042_mashitaka.md) 
+- [043 - ます形は日本語の丁寧体における基本的な動詞活用形式で、初学者が最初に学ぶ礼儀正しい表現方法です](043_masu-kei.md) 
+- [044 - 動詞的否定形式，用於表示否定、禁止、義務等各種文法結構的基礎形態](044_nai-kei.md) 
+- [045 - 日文動詞た形，表示過去、完了、經驗的基本動詞形式](045_ta-kei.md) 
+- [046 - 日語動詞最重要的活用形之一，用於連接句子、表達請求、進行狀態等多種文法功能](046_te-kei.md) 
+- [047 - ば條件形 - 假定條件表達方式](047_ba-jouken.md) 
+- [048 - 授受表現 - 日語的給予與接受動詞系統](048_juju-hyougen.md) #grammar #verb #pragmatics
+- [049 - 〜ている形 - 日文的進行式與狀態表達（進行、結果、習慣、職業四大用法）](049_te-iru.md) 
+- [050 - 〜てくれる（他人為我方做某事）](050_te-kureru.md) 
+- [051 - 請求或接受他人做某事（受益者視角）](051_te-morau.md) 
+- [052 - と條件形（自然條件/恆常關係）](052_to-jouken.md) 
+- [053 - 應該、義務建議（表達義務、應然、道德規範的助動詞）](053_beki.md) #grammar #modal #formal
+- [054 - なら - 話題條件/建議前提（基於對方提出的話題或情況）](054_nara.md) 
+- [055 - 存在與場所表達 - いる/ある的使用與場所句型](055_sonzai-basho.md) 
 
 ---
-最後更新: 2025-10-30 01:11:25
+最後更新: 2025-10-30 14:20:49

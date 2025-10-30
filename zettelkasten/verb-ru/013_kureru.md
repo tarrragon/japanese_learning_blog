@@ -4,10 +4,10 @@ description: くれる - 給我、為我（給予）
 type: verb
 subtype: ru_verb
 jlpt: n5
-stage: draft
-draft: true
+stage: completed
+draft: false
 auto_generated: false
-needs_review: true
+needs_review: false
 tags:
   - jlpt/n5
   - giving_to_me
@@ -440,19 +440,25 @@ I had my friend help me. (neutral statement)
 ## 相關連結
 
 ### 授受表現
-- [011_ageru](011_ageru.md) - あげる（給予）
-- [012_morau](012_morau.md) - もらう（接受）
-- [018_yaru](../verb-u/018_yaru.md) - やる（給，口語）（待建立）
-- [kudasaru](../honorific/kudasaru.md) - くださる（尊敬語）（待建立）
+- [あげる](011_ageru.md) - あげる（給予）
+- [もらう](012_morau.md) - もらう（接受）
+- [やる](../verb-u/yaru.md) - やる（給，口語）（待建立）
+- [くださる](../honorific/kudasaru.md) - くださる（尊敬語）（待建立）
 
 ### 相關文法
-- [te_kureru](../grammar/te_kureru.md) - 〜てくれる（待建立）
-- [giving_receiving](../grammar/giving_receiving.md) - 授受表現完整說明（待建立）
-- [uchi_soto](../grammar/uchi_soto.md) - ウチ・ソト概念（待建立）
+- [〜てくれる](../grammar/050_te-kureru.md) - 〜てくれる（恩惠表現）
+- [授受表現](../grammar/048_juju-hyougen.md) - 授受表現完整說明
+- [〜てもらう](../grammar/051_te-morau.md) - 〜てもらう
 
 ### 相關助詞
-- [001_ga](../particle/001_ga.md) - が助詞（主語標記）
-- [008_ni](../particle/008_ni.md) - に助詞（對象）
+- [が](../particle/001_ga.md) - が助詞（主語標記）
+- [に](../particle/008_ni.md) - に助詞（對象）
+- [を](../particle/011_wo.md) - を助詞（賓語標記）
+
+### 延伸說明
+- [ウチ・ソト概念](../concept/uchi-soto.md) - 內外之分（待建立）
+- [くれる vs もらう](../comparison/kureru-vs-morau.md) - 視角差異（待建立）
+- [くれる vs あげる](../comparison/kureru-vs-ageru.md) - 方向性差異（待建立）
 
 ---
 

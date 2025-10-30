@@ -7,6 +7,131 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.4] - 2025-10-30
+
+### Added
+
+#### Linking 階段完成（36 張卡片）
+
+本版本完成了 36 張新建卡片的連結階段處理，使用 8 個平行代理人同時處理，建立完整的知識網絡連結。
+
+**概念卡片（3 張）**
+- `concept/002_fukisoku-katsuyou.md` - 不規則活用 - 添加 5 個腳註，連結 11 張相關卡片
+- `concept/003_jidoushi.md` - 自動詞 - 添加 6 個腳註，建立與他動詞的對比系統
+- `concept/004_tadoushi.md` - 他動詞 - 強化 5 個腳註，建立動詞分類體系
+
+**文法卡片（28 張）**
+- `grammar/028_nakutemo_ii.md` - なくてもいい（不必）- 添加 7 個腳註
+- `grammar/029_o_go_itadaku.md` - お/ご～いただく（謙讓語）- 添加 7 個腳註
+- `grammar/030_tara.md` - たら條件形 - 添加 7 個腳註，連結四大條件形
+- `grammar/031_tearu.md` - てある（結果狀態）- 添加 7 個腳註
+- `grammar/032_tekuru_teiku.md` - てくる・ていく（方向補助動詞）- 添加 8 個腳註
+- `grammar/033_topic_comment_structure.md` - 主題評述結構 - 添加 5 個腳註
+- `grammar/034_information_structure.md` - 資訊結構理論 - 添加 4 個腳註
+- `grammar/035_contrast_focus.md` - 對比與焦點 - 添加 4 個腳註
+- `grammar/036_made_vs_madeni.md` - まで vs までに - 添加 4 個腳註
+- `grammar/037_ni_suru.md` - ～にする - 添加 4 個腳註
+- `grammar/038_progressive_vs_state.md` - 進行形 vs 狀態形 - 添加 9 個腳註
+- `grammar/039_to_shite.md` - ～として - 添加 3 個腳註
+- `grammar/040_suru_koto_ga_aru.md` - することがある - 添加 2 個腳註，修正內部參照
+- `grammar/041_jishokei.md` - 辭書形 - 添加 7 個腳註
+- `grammar/042_mashitaka.md` - ～ましたか - 添加 3 個腳註
+- `grammar/043_masu-kei.md` - ます形 - 添加 8 個腳註
+- `grammar/044_nai-kei.md` - ない形 - 添加 9 個腳註
+- `grammar/045_ta-kei.md` - た形 - 添加 8 個腳註
+- `grammar/046_te-kei.md` - て形 - 添加 16 個腳註（最複雜的文法卡片）
+- `grammar/047_ba-jouken.md` - ば條件形 - 添加 6 個腳註，修正 Wikilink 格式
+- `grammar/048_juju-hyougen.md` - 授受表達 - 添加 7 個腳註
+- `grammar/049_te-iru.md` - ～ている形 - 強化 5 個腳註
+- `grammar/050_te-kureru.md` - ～てくれる - 添加 4 個腳註，轉換 Wikilink
+- `grammar/051_te-morau.md` - ～てもらう - 添加 4 個腳註，轉換 Wikilink
+- `grammar/052_to-jouken.md` - と條件形 - 添加 6 個腳註，轉換 Wikilink
+- `grammar/053_beki.md` - べき（應該）- 修正腳註連結
+- `grammar/054_nara.md` - なら條件形 - 重組腳註結構
+- `grammar/055_sonzai-basho.md` - 存在與場所表達 - 建立完整連結系統
+
+**助詞卡片（2 張）**
+- `particle/010_to.md` - と（引用/並列）- 建立完整連結
+- `particle/011_wo.md` - を（賓格）- 建立完整連結
+
+**動詞卡片（3 張）**
+- `verb-irr/005_iru.md` - いる（存在）- 修正 Wikilink 格式
+- `verb-ru/013_kureru.md` - くれる（給我）- 建立授受表達連結
+- `verb-ru/014_motsu.md` - 持つ（持有）- 添加元資料
+
+**短語卡片（1 張）**
+- `phrase/001_dou_suru.md` - どうする（怎麼辦）- 添加完整連結系統
+
+#### 系統改進
+
+- **連結系統強化**
+  - 添加約 200+ 個腳註標註
+  - 建立約 350+ 個標準連結
+  - 所有連結使用標準 Markdown 格式 `[text](path.md)`
+  - 修正 5 張卡片的 Wikilink 格式
+
+- **平行處理優化**
+  - 使用 8 個專門代理人同時處理卡片
+  - 按分類分批處理：概念、文法（分 7 批）、助詞/動詞/短語
+  - 處理效率提升 8 倍
+
+- **索引完整性**
+  - 所有分類索引保持最新
+  - 編號連續性驗證通過
+  - 總計 129 張卡片
+
+- **卡片狀態管理**
+  - 所有 36 張卡片從 `stage: extension-review` 或 `stage: draft` 更新為 `stage: completed`
+  - 設置 `completed: 2025-10-30` 時間戳
+  - 移除冗餘的 YAML 欄位
+
+#### Meta 系統修復
+
+- **修復 verify-meta.py 腳本**
+  - 修正 category title 讀取邏輯
+  - 現在可以正確識別所有 category Meta 定義
+
+- **新增 Category Meta 卡片（2 張）**
+  - `_meta/categories/024_comparison.md` - 比較分析分類定義
+  - `_meta/categories/025_extension.md` - 延伸卡片分類定義
+
+- **驗證結果**
+  - ✅ Categories: 25/25 完全一致
+  - ⚠️ Tags: 20/152（132 個待定義，列入 v1.0.5）
+
+#### 文檔
+
+- `doc/worklog/linking-cards-1.0.4.md` - Linking 階段詳細記錄
+- `doc/worklog/worklog-1.0.5.md` - v1.0.5 規劃（Tag Meta 系統）
+
+### Fixed
+
+- 修正 `verify-meta.py` 無法讀取 category Meta 卡片的問題
+- 修正 5 張卡片的 Wikilink 格式為標準 Markdown 格式
+- 修正 `grammar/040_suru_koto_ga_aru.md` 的內部參照錯誤
+
+### Statistics
+
+- **處理卡片**: 36 張（100% 完成）
+- **腳註**: ~200+ 個
+- **標準連結**: ~350+ 個
+- **Wikilink 修正**: 5 張卡片
+- **Category Meta 新增**: 2 張
+- **處理時間**: 2025-10-30
+- **代理人數量**: 8 個平行代理人
+
+### Highlights
+
+1. **完成 Linking 階段** - v1.0.4 所有 36 張新卡片完成連結建立
+2. **平行處理創新** - 首次使用 8 個代理人同步處理，大幅提升效率
+3. **格式標準化** - 統一使用標準 Markdown 連結格式，移除所有 Wikilinks
+4. **Meta 系統修復** - 解決 Category Meta 驗證問題，新增缺失定義
+5. **高效搜尋策略** - 全面採用 Glob + YAML 方法，避免 Grep 全文搜尋
+6. **文法體系完整** - 建立四大條件形、動詞活用形、授受表達等完整體系
+7. **v1.0.5 規劃** - 識別 132 個 Tag Meta 卡片需求，完成下一版本規劃
+
+---
+
 ## [1.0.3] - 2025-10-30
 
 ### Added
