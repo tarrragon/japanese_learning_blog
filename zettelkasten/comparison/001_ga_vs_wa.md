@@ -404,17 +404,6 @@ A: 通常用「は」：「私は田中です」，因為是設定主題（關�
 - [contrast_focus](../grammar/contrast_focus.md) - 對比與焦點（待建立）
 
 ### 其他對比
+
 - [topic_vs_subject](topic_vs_subject.md) - 主題 vs 主語的語言學區別（待建立）
 
-## 參考資料
-
-- Makino, Seiichi & Tsutsui, Michio. "A Dictionary of Basic Japanese Grammar"
-- Hinds, John. "Ellipsis in Japanese"
-- Kuno, Susumu. "The Structure of the Japanese Language"
-
----
-
-**建立日期**: 2025-10-29
-**最後更新**: 2025-10-29
-**字數**: ~3,200
-**例句數**: 25
