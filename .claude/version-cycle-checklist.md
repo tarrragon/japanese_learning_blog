@@ -35,9 +35,43 @@
 
 ---
 
+## ⚠️ 版本開始前：強制檢查清單
+
+**重要**：以下檢查項目**必須全部完成**，才能開始 Draft 階段的工作。
+
+### ✅ 必須完成的檢查（不可跳過）
+
+1. **[ ] 讀取並確認工作日誌**
+   - 文件路徑：`doc/worklog/worklog-{version}.md`
+   - 確認「版本目標聲明」清晰明確
+   - 確認「Phase 1 卡片清單」已完整列出（表格形式）
+
+2. **[ ] 確認卡片來源的版本歸屬**
+   - 如果來源是 `extension-review-{prev}.md`，確認版本號為 `{prev}`（上一版本），不是 `{current}`
+   - 如果來源是 `linking-cards-{prev}.md`，確認版本號為 `{prev}`（上一版本），不是 `{current}`
+   - 理解：v1.0.X 的產出文檔 → v1.0.(X+1) 的輸入來源
+
+3. **[ ] 確認 Draft 階段的卡片數量合理**
+   - 建議範圍：20-40 張內容卡片
+   - 如果超過 50 張，考慮分批次處理
+   - Tag Meta 卡片可以另計
+
+4. **[ ] 確認沒有遺漏上一版本的草稿卡片**
+   - 執行：`grep -r "stage: draft" zettelkasten/*/`
+   - 確認所有草稿卡片都已列入本版本的工作清單
+
+5. **[ ] 確認版本分支已建立**
+   - 執行：`git checkout -b feature/v{version}` 或 `git checkout feature/v{version}`
+
+### 📋 檢查完成後再開始 Draft 階段
+
+**只有完成以上檢查後，才能開始 Draft 階段的工作**。
+
+---
+
 ## 版本開始前：規劃階段
 
-### ✅ 檢查清單
+### ✅ 規劃檢查清單
 
 - [ ] 檢查上一版本是否有遺留的待建立卡片清單
 - [ ] 檢查是否有新文章需要解析
@@ -57,22 +91,68 @@
 **循環完成日期**: _進行中_
 **狀態**: 🚧 進行中
 
-## 概述
-[簡述本版本目標]
+## 📌 版本目標聲明
 
-## 卡片來源
-### 來自上一版本的待建立清單
-- 延伸卡片清單：{上一版本的 extension-cards 文檔}
-- 連結階段卡片清單：{上一版本的 linking-cards 文檔}
+**核心目標**：[用一句話描述本版本的核心目標]
 
-### 來自新文章解析
+例如：「完成 v1.0.4 Extension-Review 階段識別的 28 張 Critical 卡片」
+
+**版本類型**：
+- [ ] 內容卡片版本（新增/修改學習內容）
+- [ ] Meta 系統維護版本（完善 tags/categories 定義）
+- [ ] 修復版本（修正錯誤、更新格式）
+
+---
+
+## 📋 卡片來源與優先級篩選
+
+### 來源 1：上一版本的延伸需求
+
+**文檔**：`doc/worklog/extension-review-{previous}.md`
+
+**篩選標準**：
+- [ ] 優先級：Critical / High / Medium
+- [ ] 數量上限：建議 20-30 張
+- [ ] JLPT 等級：N5-N4 優先
+
+**選定卡片**（X 張）：
+1. {category}/{name} - {title} (Priority: Critical, JLPT: N5)
+2. {category}/{name} - {title} (Priority: High, JLPT: N4)
+3. ...
+
+### 來源 2：上一版本 Linking 階段識別的卡片
+
+**文檔**：`doc/worklog/linking-cards-{previous}.md`
+
+**已建立草稿**（Y 張）：
+1. {category}/{name} - {title} (已有草稿，需完善)
+2. ...
+
+**待建立卡片**（Z 張）：
+1. {category}/{name} - {title} (Priority: High, JLPT: N4)
+2. ...
+
+### 來源 3：新文章解析
+
 [如有新文章，列出文章和識別的卡片需求]
 
-### 其他來源
+### 來源 4：其他來源
+
 [如：手動識別的缺口、學習者反饋等]
 
-## Phase 1 卡片清單
-[列出本版本要建立的所有卡片]
+---
+
+## ✅ Phase 1 卡片清單確認
+
+**本版本 Draft 階段將處理以下卡片**（共 X 張）：
+
+| 編號 | 卡片路徑 | 標題 | 優先級 | JLPT | 來源 | 狀態 |
+|------|----------|------|--------|------|------|------|
+| 1 | {category}/{number}_{name} | {title} | Critical | N5 | Extension-Review v{prev} | 待建立 |
+| 2 | {category}/{number}_{name} | {title} | High | N4 | Linking v{prev} | 已有草稿 |
+| ... | ... | ... | ... | ... | ... | ... |
+
+**重要**：此清單必須詳細列出，作為 Draft 階段的執行依據。
 
 ## 工作進度追蹤
 
@@ -194,6 +274,11 @@
 ```markdown
 # 延伸卡片記錄 - 版本 {version}
 
+> ⚠️ **適用版本**：本文檔記錄的延伸需求將作為 **v{next}** 或後續版本的卡片來源。
+>
+> **產出版本**：v{version}（Extension-Review 階段完成）
+> **使用版本**：v{next}+（Draft 階段使用）
+
 **版本號**: {version}
 **Extension-Review 完成日期**: YYYY-MM-DD
 **識別延伸卡片總數**: X 張
@@ -220,6 +305,7 @@
 **JLPT**: N5/N4/N3/N2/N1
 **優先級**: Critical
 **類型**: comparison/grammar/usage/cultural
+**建議版本**: v{next} ← 新增：標註此卡片建議在哪個版本建立
 
 **說明**:
 [簡短說明為什麼需要這張延伸卡片]
