@@ -89,6 +89,42 @@ ls doc/worklog/linking-cards-{prev}.md
 
 ---
 
+## CSV 工作清單管理（v1.0.6+）
+
+從 v1.0.6 開始，工作清單採用 CSV + Markdown 混合方案，提供專用腳本管理卡片進度。
+
+### 可用腳本
+
+| 腳本 | 用途 | 使用者 |
+|------|------|--------|
+| `get_pending_cards.py` | 讀取待辦卡片清單（建立 Todo） | 主線程 |
+| `add_pending_cards.py` | 新增待辦卡片（Extension/Linking） | 代理人 |
+| `update_card_progress.py` | 更新卡片進度（完成建立） | 代理人 |
+| `manage_worklog_cards.py` | 查詢統計與驗證 | 人工查詢 |
+
+### 常用操作
+
+```bash
+# 1. 讀取待辦卡片（文字格式）
+uv run scripts/get_pending_cards.py --stage pending --priority Critical --limit 10
+
+# 2. 讀取待辦卡片（JSON 格式，供 TodoWrite）
+uv run scripts/get_pending_cards.py --stage pending --format json
+
+# 3. 更新卡片狀態（代理人完成後）
+uv run scripts/update_card_progress.py --id 59 --stage completed --quiet
+
+# 4. 新增待辦卡片（Extension-Review/Linking 產出）
+uv run scripts/add_pending_cards.py batch --from-json extension-cards.json
+
+# 5. 查看統計
+uv run scripts/manage_worklog_cards.py stats
+```
+
+詳細說明：`doc/worklog/README-CSV.md`
+
+---
+
 ## 階段 1：Draft（建立卡片）
 
 ### 使用代理人
@@ -97,16 +133,16 @@ ls doc/worklog/linking-cards-{prev}.md
 
 ### 執行步驟
 
-**步驟 1：確認工作清單完整性**
+**步驟 1：讀取工作清單並建立 Todo**
 
-**前置確認**：
-- ✅ 已完成前置步驟（版本規劃）
-- ✅ `worklog-{version}.md` 已建立
-- ✅ 卡片清單已包含來源標註
+使用 `get_pending_cards.py` 讀取待辦卡片：
 
-**建立 Todo List**：
+```bash
+# 讀取 Critical 優先級卡片（JSON 格式）
+uv run scripts/get_pending_cards.py --stage pending --priority Critical --format json > /tmp/cards.json
+```
 
-從 `worklog-{version}.md` 讀取卡片清單，為每張卡片建立一個 todo。
+從 JSON 為每張卡片建立一個 todo：
 
 範例：40 張卡片 → 建立 40 個 todo
 
@@ -114,11 +150,21 @@ ls doc/worklog/linking-cards-{prev}.md
 
 使用 Task 工具一次啟動 5-10 個 create-card 代理人。
 
-**步驟 3：更新 Todo**
+**重要**：傳遞卡片 ID 給代理人，以便完成後更新 CSV。
 
-每個代理人完成後，標記對應的 todo 為 `completed`。
+**步驟 3：代理人自動更新 CSV**
 
-**步驟 4：繼續處理**
+每個代理人完成卡片建立後，會自動執行：
+
+```bash
+uv run scripts/update_card_progress.py --id {card_id} --stage completed --quiet
+```
+
+**步驟 4：更新 Todo**
+
+標記對應的 todo 為 `completed`。
+
+**步驟 5：繼續處理**
 
 當第一批完成後，繼續啟動下一批代理人，直到所有 40 個 todo 完成。
 
@@ -146,15 +192,25 @@ ls doc/worklog/linking-cards-{prev}.md
 
 ### 使用代理人
 
-待確認（可能是專門的 extension-review 代理人）
+`create-extension-cards`（`.claude/agents/create-extension-cards.md`）
 
 ### 執行步驟
 
-**步驟 1：更新卡片 Stage**
+**步驟 1：更新所有卡片為 extension-review 階段**
 
-將所有卡片的 `stage` 從 `draft` 更新為 `extension-review`。
+```bash
+# 批次更新所有 draft 卡片為 extension-review
+uv run scripts/get_pending_cards.py --stage draft --format json | \
+  jq -r '.[].id' | \
+  xargs -I {} uv run scripts/update_card_progress.py --id {} --stage extension-review
+```
 
 **步驟 2：建立 Todo List**
+
+```bash
+# 讀取所有 extension-review 階段卡片
+uv run scripts/get_pending_cards.py --stage extension-review --format json > /tmp/review-cards.json
+```
 
 為每張卡片建立一個檢查 todo（40 張卡片 → 40 個檢查 todo）。
 
@@ -162,19 +218,48 @@ ls doc/worklog/linking-cards-{prev}.md
 
 一次啟動多個代理人檢查卡片。
 
-**步驟 4：記錄延伸需求**
+**步驟 4：代理人整理延伸需求為 JSON**
 
-每個代理人將識別的延伸需求記錄到 `extension-cards-{version}.md`。
+每個代理人識別延伸需求後，整理成 JSON 格式：
 
-**步驟 5：更新卡片 Stage**
+```json
+[
+  {
+    "category": "verb-ru",
+    "number": "001_001",
+    "japanese": "食べる（敬語）",
+    "chinese": "吃（敬語用法）",
+    "jlpt": "n4",
+    "priority": "High",
+    "source": "v1.0.6-extension-review",
+    "note": "從 001_taberu 識別"
+  }
+]
+```
 
-檢查完成後，將卡片的 `stage` 更新為 `linking`。
+**步驟 5：批次新增延伸需求到 CSV**
+
+```bash
+# 從所有代理人產出的 JSON 新增到 CSV
+uv run scripts/add_pending_cards.py batch --from-json /tmp/extension-cards-v1.0.6.json
+```
+
+**步驟 6：更新卡片 Stage**
+
+檢查完成後，批次更新為 linking 階段：
+
+```bash
+uv run scripts/get_pending_cards.py --stage extension-review --format json | \
+  jq -r '.[].id' | \
+  xargs -I {} uv run scripts/update_card_progress.py --id {} --stage linking
+```
 
 ### 完成標準
 
 - ✅ 所有檢查 todo 完成
 - ✅ 所有卡片 `stage: linking`
-- ✅ `extension-cards-{version}.md` 已建立
+- ✅ 延伸需求已新增到 CSV（使用 `add_pending_cards.py`）
+- ✅ 可使用 `manage_worklog_cards.py stats` 查看新增的卡片數
 
 ---
 
@@ -182,11 +267,16 @@ ls doc/worklog/linking-cards-{prev}.md
 
 ### 使用代理人
 
-`build-card-links`（待確認路徑）
+`build-card-links`（`.claude/agents/build-card-links.md`）
 
 ### 執行步驟
 
 **步驟 1：建立 Todo List**
+
+```bash
+# 讀取所有 linking 階段卡片
+uv run scripts/get_pending_cards.py --stage linking --format json > /tmp/linking-cards.json
+```
 
 為每張卡片建立一個連結 todo（40 張卡片 → 40 個連結 todo）。
 
@@ -200,20 +290,52 @@ ls doc/worklog/linking-cards-{prev}.md
 - 標準 Markdown 連結（Related Links 區塊）
 - 腳註標註（Footnotes）
 
-**步驟 4：識別遺漏卡片**
+**步驟 4：識別遺漏卡片並建立草稿**
 
-如果發現 Critical 缺口，立即建立草稿。
+如果發現缺口，代理人會：
+1. 建立草稿卡片（基本 YAML frontmatter）
+2. 整理成 JSON 格式
 
-**步驟 5：更新卡片 Stage**
+```json
+[
+  {
+    "category": "verb-u",
+    "number": "017",
+    "japanese": "いただく",
+    "chinese": "吃／收到（謙讓語）",
+    "jlpt": "n4",
+    "priority": "High",
+    "source": "v1.0.6-linking",
+    "note": "從 001_taberu 連結時建立草稿",
+    "stage": "draft"
+  }
+]
+```
 
-連結完成後，將卡片的 `stage` 更新為 `completed`。
+**步驟 5：批次新增缺口卡片到 CSV**
+
+```bash
+# 新增草稿卡片和待建立卡片
+uv run scripts/add_pending_cards.py batch --from-json /tmp/linking-gap-cards.json
+```
+
+**步驟 6：更新卡片 Stage**
+
+連結完成後，批次更新為 completed：
+
+```bash
+uv run scripts/get_pending_cards.py --stage linking --format json | \
+  jq -r '.[].id' | \
+  xargs -I {} uv run scripts/update_card_progress.py --id {} --stage completed
+```
 
 ### 完成標準
 
 - ✅ 所有連結 todo 完成
 - ✅ 所有卡片 `stage: completed`
 - ✅ 所有卡片包含連結和腳註
-- ✅ `linking-cards-{version}.md` 已建立
+- ✅ 缺口卡片已新增到 CSV（使用 `add_pending_cards.py`）
+- ✅ 可使用 `get_pending_cards.py --stage draft` 查看草稿卡片
 
 ---
 

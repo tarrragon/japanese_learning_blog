@@ -831,3 +831,143 @@ uv run scripts/update-index.py verb-ru
 已更新基本卡片的連結區塊。
 索引檔案已使用 update-index.py 更新。
 ```
+
+---
+
+## 新增待辦卡片到工作清單
+
+**重要**：Extension-Review 階段完成後，必須將識別的延伸需求新增到 CSV 工作清單。
+
+### 使用 add_pending_cards.py 腳本
+
+**場景 1：單張新增**
+```bash
+uv run scripts/add_pending_cards.py add \
+    --category verb-ru \
+    --number "001_001" \
+    --japanese "食べる（敬語）" \
+    --chinese "吃（敬語用法）" \
+    --jlpt n4 \
+    --priority High \
+    --source "v1.0.6-extension-review" \
+    --note "從 001_taberu 識別的敬語延伸需求"
+```
+
+**場景 2：批次新增（推薦）**
+
+先建立 JSON 檔案（如 `/tmp/extension-cards.json`）：
+
+```json
+[
+  {
+    "category": "verb-ru",
+    "number": "001_001",
+    "japanese": "食べる（敬語）",
+    "chinese": "吃（敬語用法）",
+    "jlpt": "n4",
+    "priority": "High",
+    "source": "v1.0.6-extension-review",
+    "note": "從 001_taberu 識別的敬語延伸需求"
+  },
+  {
+    "category": "verb-ru",
+    "number": "001_003",
+    "japanese": "食べる（語域）",
+    "chinese": "吃（語域差異）",
+    "jlpt": "n4",
+    "priority": "Medium",
+    "source": "v1.0.6-extension-review",
+    "note": "從 001_taberu 識別的語域延伸需求"
+  }
+]
+```
+
+然後批次新增：
+
+```bash
+# 從檔案新增
+uv run scripts/add_pending_cards.py batch --from-json /tmp/extension-cards.json
+
+# 或從 stdin 新增
+cat /tmp/extension-cards.json | uv run scripts/add_pending_cards.py batch --from-json -
+```
+
+### 優先級設定建議
+
+根據延伸卡片類型設定優先級：
+
+| 延伸類型 | 預設優先級 | 理由 |
+|---------|-----------|------|
+| keigo（敬語） | **High** | 日語溝通核心，影響禮貌度 |
+| comparison（同義詞辨析） | **High** | 避免誤用，提升準確度 |
+| register（語域） | **Medium** | 理解社會語境 |
+| nuance（語氣） | **Medium** | 提升表達細膩度 |
+| connotation（褒貶義） | **Medium** | 避免冒犯 |
+| implication（暗喻） | **Low** | 進階理解 |
+
+### JSON 欄位說明
+
+| 欄位 | 必填 | 說明 | 範例 |
+|------|------|------|------|
+| category | ✅ | 分類 | verb-ru, noun, grammar |
+| number | ✅ | 編號（3位數） | 001, 025, 001_001 |
+| japanese | ✅ | 日文詞彙 | 食べる（敬語） |
+| chinese | ✅ | 中文翻譯 | 吃（敬語用法） |
+| jlpt | ✅ | JLPT 等級 | n5, n4, n3, concept |
+| priority | ✅ | 優先級 | Critical, High, Medium, Low |
+| source | ❌ | 來源 | v1.0.6-extension-review |
+| note | ❌ | 備註 | 從 001_taberu 識別 |
+| stage | ❌ | 階段（預設 pending） | pending |
+
+---
+
+## 工作流程總結
+
+Extension-Review 代理人的完整工作流程：
+
+1. **接收基本卡片** - 讀取並分析基本卡片
+2. **評估延伸需求** - 根據 6 個面向評估是否需要延伸卡片
+3. **決定是否建立** - 判斷建立標準是否符合
+4. **建立 JSON 清單** - 將需要建立的延伸卡片整理成 JSON
+5. **新增到 CSV** - 使用 `add_pending_cards.py` 批次新增
+6. **驗證結果** - 使用 `manage_worklog_cards.py stats` 查看更新後統計
+
+### 範例輸出報告
+
+```markdown
+## Extension-Review 完成報告
+
+### 分析來源
+- 基本卡片：verb-ru/001_taberu.md
+
+### 識別的延伸需求（3 張）
+
+1. ✅ **敬語用法** (High) - 有明確的尊敬語和謙讓語形式
+2. ✅ **語域差異** (Medium) - 有粗俗/口語/正式的用法差異
+3. ✅ **同義詞辨析** (High) - 與「召し上がる」等同義詞的辨析
+
+### 未建立的卡片（3 張）
+
+1. ❌ **語氣** - 語氣變化不改變基本語義
+2. ❌ **褒貶義** - 本身是中性詞
+3. ❌ **暗喻** - 沒有常用的比喻義
+
+### 新增到工作清單
+
+✅ 已執行：
+```bash
+uv run scripts/add_pending_cards.py batch --from-json /tmp/extension-cards.json
+```
+
+✅ 新增結果：
+- 成功新增 3 張卡片到 CSV
+- 新卡片 ID: 265, 266, 267
+
+✅ 更新後統計：
+```bash
+uv run scripts/manage_worklog_cards.py stats
+```
+- 總卡片數：267（+3）
+- 待建立：209（+3）
+```
+

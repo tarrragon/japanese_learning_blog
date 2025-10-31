@@ -183,28 +183,58 @@ uv run scripts/manage_worklog_cards.py validate
 
 ### 3. 工作流程整合
 
-**新的建卡流程**：
+**新的建卡流程（使用 CSV 腳本）**：
 
-1. **查看待建立卡片**（使用腳本）
+#### 階段 1：Draft（建立卡片）
+
+1. **查看待建立卡片**
    ```bash
-   uv run scripts/manage_worklog_cards.py list --stage pending --priority Critical --limit 10
+   # 文字格式（人類閱讀）
+   uv run scripts/get_pending_cards.py --stage pending --priority Critical --limit 10
+
+   # JSON 格式（供 TodoWrite）
+   uv run scripts/get_pending_cards.py --stage pending --priority Critical --format json
    ```
 
-2. **標記批次開始**（可選）
+2. **create-card 代理人建立卡片**
+   - 代理人完成後會自動執行：
    ```bash
-   uv run scripts/manage_worklog_cards.py batch-update --ids 59-68 --stage draft --batch 1
+   uv run scripts/update_card_progress.py --id {card_id} --stage completed --quiet
    ```
 
-3. **使用 create-card 代理人建立卡片**
-
-4. **建立完成後更新狀態**
-   ```bash
-   uv run scripts/manage_worklog_cards.py update --id 59 --stage completed --batch 1
-   ```
-
-5. **查看進度**
+3. **查看進度**
    ```bash
    uv run scripts/manage_worklog_cards.py stats
+   ```
+
+#### 階段 2：Extension-Review（檢查延伸需求）
+
+1. **Extension-Review 代理人識別延伸需求**
+   - 代理人將延伸需求整理成 JSON 格式
+
+2. **批次新增延伸需求到 CSV**
+   ```bash
+   uv run scripts/add_pending_cards.py batch --from-json /tmp/extension-cards.json
+   ```
+
+3. **查看新增的卡片**
+   ```bash
+   uv run scripts/manage_worklog_cards.py stats
+   ```
+
+#### 階段 3：Linking（建立連結）
+
+1. **Linking 代理人建立連結並識別缺口**
+   - 代理人建立草稿卡片並整理成 JSON 格式
+
+2. **批次新增缺口卡片到 CSV**
+   ```bash
+   uv run scripts/add_pending_cards.py batch --from-json /tmp/linking-cards.json
+   ```
+
+3. **查看草稿卡片**
+   ```bash
+   uv run scripts/get_pending_cards.py --stage draft --format text
    ```
 
 ---
@@ -237,27 +267,48 @@ uv run scripts/manage_worklog_cards.py validate
 ✅ **已完成**：
 1. ✅ 整合所有來源文件的延伸需求
 2. ✅ 建立 cards-1.0.6.csv（264 張卡片）
-3. ✅ 開發 manage_worklog_cards.py 管理腳本
+3. ✅ 開發四個 CSV 管理腳本：
+   - `get_pending_cards.py` - 讀取待辦卡片清單
+   - `add_pending_cards.py` - 新增待辦卡片
+   - `update_card_progress.py` - 更新卡片進度
+   - `manage_worklog_cards.py` - 查詢統計與驗證
 4. ✅ 檢查並移除重複卡片
 5. ✅ 簡化 worklog 為 CSV + Markdown 混合方案
+6. ✅ 更新三個代理人文檔（create-card, create-extension-cards, build-card-links）
+7. ✅ 更新執行流程文檔（doc/execution-workflow.md）
 
 ⏭️ **下一步**：
-1. 選擇執行方案（建議方案 D：按優先級）
-2. 開始建立 Critical 優先級卡片（66 張）
-3. 使用 `create-card` 代理人逐張建立
-4. 使用管理腳本追蹤進度
-5. 每完成一批更新 CSV 狀態
+1. 使用 `get_pending_cards.py` 讀取 Critical 優先級卡片（66 張）
+2. 為每張卡片建立 Todo
+3. 使用 `create-card` 代理人平行建立卡片
+4. 代理人完成後自動呼叫 `update_card_progress.py` 更新狀態
+5. 使用 `manage_worklog_cards.py stats` 追蹤進度
 
 ---
 
 ## 📚 相關文檔
 
+### 數據檔案
 - **完整卡片清單**：`doc/worklog/cards-1.0.6.csv`
 - **v1.0.4 延伸需求**：`doc/worklog/extension-review-1.0.4.md`
 - **v1.0.5 延伸需求**：`doc/worklog/extension-review-1.0.5.md`
 - **v1.0.4 Linking**：`doc/worklog/linking-cards-1.0.4.md`
-- **管理腳本**：`scripts/manage_worklog_cards.py`
-- **提取腳本**：`scripts/extract_cards_to_csv.py`
+
+### CSV 管理腳本
+- **讀取清單**：`scripts/get_pending_cards.py`
+- **新增卡片**：`scripts/add_pending_cards.py`
+- **更新進度**：`scripts/update_card_progress.py`
+- **查詢統計**：`scripts/manage_worklog_cards.py`
+- **提取工具**：`scripts/extract_cards_to_csv.py`
+
+### 文檔指南
+- **CSV 使用指南**：`doc/worklog/README-CSV.md`
+- **執行流程指南**：`doc/execution-workflow.md`
+
+### 代理人
+- **建立卡片**：`.claude/agents/create-card.md`
+- **Extension-Review**：`.claude/agents/create-extension-cards.md`
+- **Linking**：`.claude/agents/build-card-links.md`
 
 ---
 
