@@ -5,7 +5,7 @@
 # ///
 
 """
-取得指定分類的下一個可用編號
+取得指定分類的下一個可用編號（支援並發執行）
 
 用途：新增卡片時自動取得編號，避免手動查找
 執行：uv run scripts/get-next-number.py <category> [選項]
@@ -18,6 +18,7 @@
   --format            格式化輸出為完整檔名 (如: 026_taberu.md)
   --json              以 JSON 格式輸出
   --update-index      自動更新 index.md 的最後編號（需配合其他腳本使用）
+  --batch COUNT       批次分配多個連續編號（回傳起始編號）
 
 範例：
   uv run scripts/get-next-number.py verb-ru
@@ -28,17 +29,56 @@
 
   uv run scripts/get-next-number.py verb-ru --extension 001
   # 輸出: 001_001 (第一個延伸卡片)
+
+  uv run scripts/get-next-number.py verb-ru --batch 5
+  # 輸出: 026 (並保留 026-030 共 5 個編號)
 """
 
 import json
 import sys
 import re
+import fcntl
+import time
 from pathlib import Path
 from typing import Optional
 
 # 專案根目錄
 PROJECT_ROOT = Path(__file__).parent.parent
 ZETTELKASTEN_DIR = PROJECT_ROOT / "zettelkasten"
+LOCK_DIR = PROJECT_ROOT / ".locks"
+
+# 確保 lock 目錄存在
+LOCK_DIR.mkdir(exist_ok=True)
+
+
+class FileLock:
+    """檔案鎖管理器（支援並發控制）"""
+
+    def __init__(self, lock_file: Path, timeout: float = 10.0):
+        self.lock_file = lock_file
+        self.timeout = timeout
+        self.lock_fd = None
+
+    def __enter__(self):
+        """取得鎖"""
+        self.lock_file.parent.mkdir(parents=True, exist_ok=True)
+        self.lock_fd = open(self.lock_file, 'w')
+
+        start_time = time.time()
+        while True:
+            try:
+                fcntl.flock(self.lock_fd.fileno(), fcntl.LOCK_EX | fcntl.LOCK_NB)
+                return self
+            except BlockingIOError:
+                if time.time() - start_time > self.timeout:
+                    raise TimeoutError(f"無法在 {self.timeout} 秒內取得鎖: {self.lock_file}")
+                time.sleep(0.1)
+
+    def __exit__(self, exc_type, exc_val, exc_tb):
+        """釋放鎖"""
+        if self.lock_fd:
+            fcntl.flock(self.lock_fd.fileno(), fcntl.LOCK_UN)
+            self.lock_fd.close()
 
 
 def get_last_number_from_index(category_path: Path) -> Optional[int]:
@@ -82,14 +122,21 @@ def get_max_number_from_files(category_path: Path) -> int:
     return max_number
 
 
-def get_next_number(category: str) -> dict:
+def get_next_number(category: str, batch_size: int = 1, use_lock: bool = True) -> dict:
     """
-    取得下一個可用編號
+    取得下一個可用編號（支援批次分配和並發控制）
+
+    Args:
+        category: 分類名稱
+        batch_size: 批次分配數量（預設 1）
+        use_lock: 是否使用檔案鎖（預設 True）
 
     Returns:
         {
             "category": 分類名稱,
-            "next_number": 下一個編號,
+            "next_number": 下一個編號（批次時為起始編號）,
+            "batch_size": 批次大小,
+            "allocated_range": "026-030" (批次時顯示範圍),
             "from_index": 是否從 index.md 讀取,
             "from_files": 是否從檔案掃描取得,
             "warning": 警告訊息（如果有不一致）
@@ -104,47 +151,65 @@ def get_next_number(category: str) -> dict:
             "next_number": None,
         }
 
-    # 從 index.md 讀取
-    index_number = get_last_number_from_index(category_path)
+    # 使用檔案鎖保護並發存取
+    lock_file = LOCK_DIR / f"{category}.lock"
 
-    # 從檔案掃描
-    file_number = get_max_number_from_files(category_path)
+    def _get_number():
+        # 從 index.md 讀取
+        index_number = get_last_number_from_index(category_path)
 
-    result = {
-        "category": category,
-        "index_last_number": index_number,
-        "files_max_number": file_number,
-    }
+        # 從檔案掃描
+        file_number = get_max_number_from_files(category_path)
 
-    # 決定下一個編號
-    if index_number is not None and file_number is not None:
-        # 兩者都有，取較大值
-        next_number = max(index_number, file_number) + 1
+        result = {
+            "category": category,
+            "index_last_number": index_number,
+            "files_max_number": file_number,
+            "batch_size": batch_size,
+        }
 
-        # 檢查是否一致
-        if index_number != file_number:
-            result["warning"] = (
-                f"⚠️  index.md 記錄 ({index_number:03d}) 與實際檔案 ({file_number:03d}) 不一致"
-            )
+        # 決定下一個編號
+        if index_number is not None and file_number is not None:
+            # 兩者都有，取較大值
+            next_number = max(index_number, file_number) + 1
 
-    elif index_number is not None:
-        # 只有 index.md
-        next_number = index_number + 1
-        result["from_index"] = True
+            # 檢查是否一致
+            if index_number != file_number:
+                result["warning"] = (
+                    f"⚠️  index.md 記錄 ({index_number:03d}) 與實際檔案 ({file_number:03d}) 不一致"
+                )
 
-    elif file_number > 0:
-        # 只有檔案
-        next_number = file_number + 1
-        result["from_files"] = True
-        result["warning"] = "⚠️  index.md 未記錄最後編號，從檔案掃描取得"
+        elif index_number is not None:
+            # 只有 index.md
+            next_number = index_number + 1
+            result["from_index"] = True
 
+        elif file_number > 0:
+            # 只有檔案
+            next_number = file_number + 1
+            result["from_files"] = True
+            result["warning"] = "⚠️  index.md 未記錄最後編號，從檔案掃描取得"
+
+        else:
+            # 都沒有，這是第一張卡片
+            next_number = 1
+
+        result["next_number"] = next_number
+
+        # 批次分配時，顯示範圍
+        if batch_size > 1:
+            end_number = next_number + batch_size - 1
+            result["allocated_range"] = f"{next_number:03d}-{end_number:03d}"
+            result["end_number"] = end_number
+
+        return result
+
+    # 使用檔案鎖
+    if use_lock:
+        with FileLock(lock_file, timeout=10.0):
+            return _get_number()
     else:
-        # 都沒有，這是第一張卡片
-        next_number = 1
-
-    result["next_number"] = next_number
-
-    return result
+        return _get_number()
 
 
 def get_next_extension_number(category: str, base_number: str) -> dict:
@@ -218,11 +283,21 @@ def main():
         if ext_idx + 1 < len(args):
             extension_base = args[ext_idx + 1]
 
+    batch_size = 1
+    if "--batch" in args:
+        batch_idx = args.index("--batch")
+        if batch_idx + 1 < len(args):
+            try:
+                batch_size = int(args[batch_idx + 1])
+            except ValueError:
+                print("❌ --batch 參數必須是整數", file=sys.stderr)
+                sys.exit(1)
+
     # 取得編號
     if extension_base:
         result = get_next_extension_number(category, extension_base)
     else:
-        result = get_next_number(category)
+        result = get_next_number(category, batch_size=batch_size, use_lock=True)
 
     # 輸出
     if "error" in result:
@@ -235,6 +310,10 @@ def main():
         # 顯示警告（如果有）
         if "warning" in result:
             print(result["warning"], file=sys.stderr)
+
+        # 批次分配時顯示範圍
+        if batch_size > 1 and "allocated_range" in result:
+            print(f"📦 批次分配 {batch_size} 個編號: {result['allocated_range']}", file=sys.stderr)
 
         # 輸出編號
         if extension_base:

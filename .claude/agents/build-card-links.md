@@ -1682,11 +1682,11 @@ uv run scripts/add_pending_cards.py batch --from-json /tmp/linking-cards.json
 如果在 Linking 階段建立了草稿卡片，應該在工作清單中標記它們：
 
 ```bash
-# 查詢所有草稿階段的卡片
-uv run scripts/get_pending_cards.py --stage draft --format text
+# 查詢所有待建立的卡片（包含草稿卡片）
+uv run scripts/get_pending_cards.py --stage pending --format text
 
 # 輸出範例：
-# ID: 268 | verb-u | verb-u/017_itadaku.md | いただく | 吃／收到（謙讓語） | JLPT: n4 | High | draft
+# ID: 268 | verb-u | verb-u/017_itadaku.md | いただく | 吃／收到（謙讓語） | JLPT: n4 | High | pending
 # ID: 269 | verb-u | verb-u/018_kuu.md | 食う | 吃（粗俗） | JLPT: n3 | Medium | draft
 ```
 
@@ -1758,11 +1758,11 @@ uv run scripts/manage_worklog_cards.py stats
 
 ### 草稿卡片的處理流程
 
-1. **Linking 代理人**：建立草稿卡片（基本 YAML frontmatter）
-2. **新增到 CSV**：使用 `add_pending_cards.py`，設定 `stage: "draft"`
-3. **主線程**：使用 `get_pending_cards.py --stage draft` 查詢草稿卡片
+1. **build-card-links 代理人**：建立草稿卡片（基本 YAML frontmatter），設定 `stage: "pending"`
+2. **新增到 CSV**：使用 `add_pending_cards.py`，設定 `stage: "pending"`
+3. **主線程**：使用 `get_pending_cards.py --stage pending` 查詢草稿卡片
 4. **create-card 代理人**：接收草稿卡片，補充完整內容
-5. **更新進度**：使用 `update_card_progress.py --stage completed`
+5. **更新進度**：使用 `update_card_progress.py --stage draft`（階段 1 完成）
 
 ### 草稿卡片與新建卡片的差異
 

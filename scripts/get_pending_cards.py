@@ -87,8 +87,16 @@ class PendingCardReader:
         lines = [f"📋 找到 {len(cards)} 張卡片\n"]
 
         for card in cards:
+            # 顯示預分配編號（如果有）
+            number_info = card.get('allocated_number', card.get('number', ''))
+            if card.get('allocated_number'):
+                number_display = f"#{number_info}✓"  # ✓ 表示已分配
+            else:
+                number_display = f"#{number_info if number_info else '???'}"
+
             line = (
                 f"ID: {card['id']:>3} | "
+                f"{number_display:6} | "
                 f"{card['category']:12} | "
                 f"{card['path']:40} | "
                 f"{card['japanese']:15} | "
@@ -102,7 +110,7 @@ class PendingCardReader:
         return '\n'.join(lines)
 
     def format_json(self, cards: List[Dict]) -> str:
-        """格式化為 JSON（供 TodoWrite 使用）"""
+        """格式化為 JSON（供 TodoWrite 和代理人使用）"""
         # 簡化卡片資訊，只保留 Todo 所需欄位
         todo_cards = []
 
@@ -110,6 +118,8 @@ class PendingCardReader:
             todo_card = {
                 'id': int(card['id']),
                 'category': card['category'],
+                'number': card.get('number', ''),
+                'allocated_number': card.get('allocated_number', ''),  # 新增預分配編號
                 'path': card['path'],
                 'japanese': card['japanese'],
                 'chinese': card['chinese'],

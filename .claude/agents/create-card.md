@@ -81,19 +81,48 @@ uv run scripts/list-tags.py --type domain
 uv run scripts/list-tags.py --type jlpt
 ```
 
-**步驟 2.3：取得下一個編號**
+**步驟 2.3：取得編號**
+
+有兩種方式取得編號：
+
+**方式 A：使用預分配編號（推薦，支援並發）**
 ```bash
-# 基本卡片
+# 從傳入的卡片資訊中讀取 allocated_number
+# 如果 allocated_number 存在且非空，直接使用
+# 範例 JSON 輸入：
+# {
+#   "id": 124,
+#   "category": "concept",
+#   "allocated_number": "025",  ← 已預先分配
+#   "path": "concept/025_pragmatics.md",
+#   "japanese": "語用学",
+#   ...
+# }
+```
+
+**方式 B：即時取得編號（單張卡片）**
+```bash
+# 如果 allocated_number 不存在或為空，才呼叫此腳本
 uv run scripts/get-next-number.py {category}
 
-# 輸出範例：012
-# 新卡片將是：{category}/012_{name}.md
+# 輸出範例：025
+# 新卡片將是：{category}/025_{name}.md
 ```
 
 **重要**：
-- ✅ **必須**使用 `get-next-number.py` 取得編號
+- ✅ **優先**使用 `allocated_number`（如果存在）
+- ✅ 若無 `allocated_number`，才使用 `get-next-number.py`
 - ✅ 確認所有 tags 都存在於 meta 系統中
 - ❌ **禁止**手動猜測編號
+
+**執行邏輯**：
+```python
+# 偽代碼
+if card['allocated_number']:
+    number = card['allocated_number']  # 使用預分配編號
+else:
+    number = get_next_number(category)  # 即時取得編號
+```
 
 ### 3. 建立卡片內容
 
@@ -1171,7 +1200,7 @@ uv run scripts/update-index.py verb-u
 
 ### 5. 完成後更新卡片進度
 
-**重要**：每張卡片建立完成後，必須呼叫 `update_card_progress.py` 更新 CSV 狀態為 `draft`。
+**重要**：每張卡片建立完成後，必須呼叫 `update_card_progress.py` 更新 CSV 狀態。
 
 ```bash
 # 更新卡片狀態為 draft（Draft 階段完成）
@@ -1180,7 +1209,7 @@ uv run scripts/update_card_progress.py --id {card_id} --stage draft --quiet
 
 **說明**：
 - `{card_id}` 是卡片在 CSV 中的 ID（可從工作清單或 JSON 中取得）
-- `--stage draft` 標記卡片已完成 Draft 階段
+- `--stage draft` 標記 Draft 階段完成（從 pending → draft）
 - `--quiet` 減少輸出干擾
 
 **範例**：
@@ -1189,9 +1218,26 @@ uv run scripts/update_card_progress.py --id {card_id} --stage draft --quiet
 uv run scripts/update_card_progress.py --id 59 --stage draft --quiet
 ```
 
-**階段說明**：
-- create-card 代理人只負責 **Draft 階段**（建立卡片內容）
-- 後續的 Extension-Review、Linking、Completed 階段由其他代理人或流程處理
+**階段流程說明**：
+- create-card 代理人負責 **階段 1: Content Creation**（建立卡片內容）
+- 完成後狀態：`pending` → `draft`
+- 後續階段：Extension Review → Link Building → Final Verification（由其他代理人處理）
+
+**重要**：
+- ✅ 執行 `--stage draft`（正確的狀態轉換）
+- ❌ 不要執行 `--stage extension-review`（會跳過 draft 狀態，報錯 Exit code 1）
+- ❌ 不要執行 `--stage completed`（會跳過所有中間狀態，報錯 Exit code 1）
+
+**狀態轉換規則**（嚴格遵守）：
+```
+pending → draft → extension-review → linking → completed
+         ↑ 階段 1 只能做這一步
+```
+
+**術語說明**：
+- **階段（Phase）**：工作流程步驟（如「階段 1: Content Creation」）
+- **狀態（Stage）**：CSV 中的標記（如 `draft`）
+- 完成「階段 1」後，狀態變為 `draft`（不是 `extension-review`）
 - 不要嘗試跳過階段直接更新為 `completed`，這會違反階段轉換規則
 
 **階段轉換規則**：
