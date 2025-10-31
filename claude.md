@@ -312,13 +312,53 @@ japanese_learning_blog/
 
 ### 代理人使用原則
 
-**`/create-zettel` 代理人必須**：
+專案中有兩種卡片建立場景，對應不同的代理人：
+
+#### 場景 A：從文章拆解建立卡片
+
+**使用代理人**：`/create-zettel`（Slash Command）
+
+**觸發時機**：使用者提供日文文章，希望從文章中提取學習內容
+
+**工作流程**：
+1. 分析文章內容、主題、領域
+2. 識別值得建卡的詞彙、文法、概念
+3. 批次建立 5-15 張卡片
+4. 建立卡片間的連結
+5. 更新索引
+
+**適用情境**：學習新文章、拓展新領域
+
+#### 場景 B：根據系統需求建立卡片
+
+**使用代理人**：`create-card`（Agent，`.claude/agents/create-card.md`）
+
+**觸發時機**：Extension-Review 階段識別出系統缺口，需要補充特定卡片
+
+**工作流程**：
+1. 讀取需求清單（如 `worklog-{version}.md` 的卡片清單）
+2. 確認卡片規格（日文、JLPT、標籤等）
+3. 逐張建立卡片（一次一張）
+4. 使用維護工具（`get-next-number.py`、`update-index.py`）
+5. 經過四階段循環（Draft → Extension-Review → Linking → Completed）
+
+**適用情境**：版本循環的 Draft 階段、系統化補充缺口
+
+#### 代理人必須遵守的原則
+
+**`/create-zettel` 代理人**：
 1. 使用 `list-categories.py` 確認分類存在
 2. 使用 `list-tags.py` 查詢可用 tags
 3. 使用 `get-next-number.py` 取得編號
 4. 建立卡片後執行 `update-index.py`
 
-**`build-card-links` 子代理人建議**：
+**`create-card` 代理人**：
+1. 每張卡片是獨立的 todo 任務
+2. 禁止批次處理卡片
+3. 必須使用維護工具取得編號
+4. 深入思考每張卡片的內容
+
+**`build-card-links` 子代理人**：
 1. 使用 `list-tags.py` 查找相關主題
 2. 優先使用 Glob + YAML 搜尋
 3. 建立新卡片後更新索引
@@ -388,12 +428,24 @@ japanese_learning_blog/
 
 ### 代理人設計原則
 
-`/create-zettel` 代理人應該：
-- 具備深厚的日文語言學知識
+#### `/create-zettel` 代理人（從文章拆解）
+
+應該具備：
+- 深厚的日文語言學知識
 - 能夠識別詞彙、文法、概念的細微差異
 - 理解不同領域的專業術語
 - 能夠建立有意義的連結
 - 保持卡片的原子化（一卡一概念）
+
+#### `create-card` 代理人（系統化建卡）
+
+應該具備：
+- 接收明確的卡片規格
+- 深入思考每張卡片的核心概念
+- 以日文為思考核心撰寫解釋
+- 提供自然、真實的例句（3-5 個）
+- 禁止批次處理，確保每張卡片的品質
+- 整合維護工具（get-next-number.py、update-index.py）
 
 ### 工具開發指南
 
