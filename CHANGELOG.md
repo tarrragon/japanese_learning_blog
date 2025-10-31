@@ -7,6 +7,76 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.5] - 2025-10-30
+
+### Added
+
+#### Meta 系統維護 - Tag 定義卡片建立（139 張）
+
+本版本專注於完善 Meta 系統的 Tag 定義，建立 139 張 Tag Meta 定義卡片，確保所有使用中的 tags 都有完整的定義和說明。
+
+**執行方式**：使用 12 個平行代理人同時處理不同分類，大幅提升建立效率。
+
+**建立的 Tag Meta 卡片**：
+
+1. **grammar** - 32 張（aspect, auxiliary_verb, causative, conditional 等文法相關標籤）
+2. **context** - 10 張（casual, family, formal, invitation, question, shopping 等情境標籤）
+3. **domain** - 4 張（commerce, linguistics, learning, transaction 等領域標籤）
+4. **pragmatics** - 12 張（agreement, confirmation, contrast, focus 等語用學標籤）
+5. **semantic** - 20 張（ability, desire, permission, necessity 等語義標籤）
+6. **verb-type** - 14 張（giving, receiving, movement, continuous 等動詞類型標籤）
+7. **particle** - 3 張（particle, particle_to, conjunction 等助詞標籤）
+8. **keigo** - 8 張（honorific, humble_form, sonkeigo, kenjougo 等敬語標籤）
+9. **position** - 6 張（destination, direction, location, origin 等位置標籤）
+10. **linguistic** - 8 張（basic_form, comparison, idiom, sentence_pattern 等語言學標籤）
+11. **misc** - 17 張（clothing, koto, mashou, time, thinking 等雜項標籤）
+12. **special** - 1 張（授受表現 - 特殊日文標籤）
+13. **別名卡片** - 7 張（context 和 domain 類別的簡寫別名）
+
+**每張 Tag Meta 卡片包含**：
+- 完整的三語解釋（日文、英文、繁體中文）
+- Tag 定義和使用場景說明
+- 典型詞彙和表達範例
+- 與其他 Tags 的關係說明
+- 使用指南和學習建議
+- 統計資訊區塊
+
+### Changed
+
+#### 修復工具
+- 新增 `scripts/fix-tag-meta-titles.py` - 修復 Tag Meta 卡片的 title 格式
+  - 處理路徑前綴問題（如 `keigo/honorific` → `honorific`）
+  - 支援特殊映射規則（如 `special/giving_receiving` → `授受表現`）
+  - 保留必要的前綴（context/, domain/, grammar/, jlpt/）
+
+#### 驗證結果
+- 執行 `verify-meta.py --verbose`：
+  - ✅ Categories: 完全一致（25/25）
+  - ⚠️ Tags: 輕微不一致（158 定義 vs 152 使用）
+  - 6 個預先定義但未使用的 tags（正常情況）
+
+### Documentation
+- 更新 `doc/worklog/worklog-1.0.5.md` - 記錄完整的執行過程和問題解決
+- 新增 `doc/worklog/extension-review-1.0.5.md` - Extension-Review 綜合報告
+
+### Extension-Review 結果
+- 使用 12 個平行代理人分析 138 張 Tag Meta 卡片
+- 識別出約 **200 張**延伸學習內容卡片需求：
+  - Critical: 60-70 張
+  - High: 80-90 張
+  - Medium: 40-50 張
+  - Low/Optional: 10-20 張
+- 主要發現：
+  - Conjunction 分類完全空白（0/11 接續詞）
+  - 授受表現缺少敬語形式
+  - Domain 核心詞彙待建立
+  - 系統性整合卡片不足
+
+### Notes
+- 這是一個維護性版本（PATCH），不涉及內容卡片的新增或修改
+- Tag 系統完整性大幅提升，為未來的卡片建立提供更好的基礎
+- Extension-Review 為後續 10 個版本（v1.0.6 - v1.1.5）提供明確的建立方向
+
 ## [1.0.4] - 2025-10-30
 
 ### Added

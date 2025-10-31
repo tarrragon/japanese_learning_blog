@@ -11,6 +11,9 @@ Tags 用於標記卡片的屬性，幫助分類和檢索。每個卡片可以有
 1. **context/** - 使用情境標籤
 2. **domain/** - 領域標籤
 3. **jlpt/** - JLPT 等級標籤
+4. **linguistic/** - 語言學特徵標籤
+5. **particle/** - 助詞相關標籤
+6. **special/** - 特殊文法標籤
 
 ## Context Tags（使用情境）
 
@@ -68,6 +71,45 @@ Tags 用於標記卡片的屬性，幫助分類和檢索。每個卡片可以有
 - [005 - n1](jlpt/005_n1.md) - JLPT N1（最高級）
 - [006 - none](jlpt/006_none.md) - 不在 JLPT 範圍（專業術語等）
 
+## Linguistic Tags（語言學特徵）
+
+**路徑**：`_meta/tags/linguistic/`
+**最後編號**：008
+**總 tags 數**：8
+
+### 已定義的 Linguistic Tags
+
+- [001 - basic_form](linguistic/001_basic_form.md) - 基本形式、辭書形
+- [002 - comparison](linguistic/002_comparison.md) - 比較表達、對照分析
+- [003 - concept](linguistic/003_concept.md) - 語言學概念、理論知識
+- [004 - idiom](linguistic/004_idiom.md) - 慣用語、成語
+- [005 - linguistic_theory](linguistic/005_linguistic_theory.md) - 語言學理論、深層分析
+- [006 - phrase](linguistic/006_phrase.md) - 片語、詞組
+- [007 - sentence_pattern](linguistic/007_sentence_pattern.md) - 句型、語法模式
+- [008 - sentence_structure](linguistic/008_sentence_structure.md) - 句子結構、句法分析
+
+## Particle Tags（助詞）
+
+**路徑**：`_meta/tags/particle/`
+**最後編號**：003
+**總 tags 數**：3
+
+### 已定義的 Particle Tags
+
+- [001 - particle](particle/001_particle.md) - 基本助詞標籤
+- [002 - particle_to](particle/002_particle_to.md) - 「と」助詞專用標籤
+- [003 - conjunction](particle/003_conjunction.md) - 接續詞標籤
+
+## Special Tags（特殊文法）
+
+**路徑**：`_meta/tags/special/`
+**最後編號**：001
+**總 tags 數**：1
+
+### 已定義的 Special Tags
+
+- [001 - giving_receiving](special/001_giving_receiving.md) - 授受表現
+
 ## Tag 使用統計
 
 ### Context Tags 使用次數
@@ -90,6 +132,9 @@ Tags 用於標記卡片的屬性，幫助分類和檢索。每個卡片可以有
 - n1: 1 次
 - none: 0 次
 
+### Special Tags 使用次數
+- giving_receiving: 0 次
+
 ## 新增 Tag 流程
 
 1. 確認是否真的需要新 tag（避免過度細分）
@@ -101,4 +146,14 @@ Tags 用於標記卡片的屬性，幫助分類和檢索。每個卡片可以有
 ---
 
 **建立日期**：2025-10-28
-**最後更新**：2025-10-28
+**最後更新**：2025-10-30
+
+---
+
+## 新增記錄
+
+### 2025-10-30
+- 新增 Special Tags 分類（特殊文法標籤）
+- 建立 `special/001_giving_receiving` - 授受表現卡片
+- 新增 Linguistic Tags 分類（語言學特徵標籤）
+- 建立 8 個 linguistic tags：basic_form, comparison, concept, idiom, linguistic_theory, phrase, sentence_pattern, sentence_structure
