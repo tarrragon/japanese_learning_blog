@@ -1,19 +1,23 @@
 #!/usr/bin/env python3
 """
-Worklog Cards Management Script
-管理 worklog 卡片清單的 CSV 檔案
+Worklog Cards Query Script
+查詢 worklog 卡片清單的 CSV 檔案
+
+注意：本腳本僅供查詢使用
+- 新增卡片：請使用 add_pending_cards.py
+- 更新進度：請使用 update_card_progress.py
+- 讀取清單：請使用 get_pending_cards.py
 
 Usage:
     uv run scripts/manage_worklog_cards.py list --stage pending
-    uv run scripts/manage_worklog_cards.py update --id 133 --stage draft
     uv run scripts/manage_worklog_cards.py stats
+    uv run scripts/manage_worklog_cards.py validate
 """
 
 import csv
 import argparse
 from pathlib import Path
-from datetime import datetime
-from typing import List, Dict, Optional
+from typing import Optional
 import sys
 
 class WorklogCardManager:
@@ -33,23 +37,6 @@ class WorklogCardManager:
             self.cards = list(reader)
         print(f"✅ 已載入 {len(self.cards)} 張卡片")
 
-    def save_cards(self):
-        """儲存到 CSV 檔案"""
-        if not self.cards:
-            print("❌ 沒有卡片可儲存")
-            return
-
-        fieldnames = [
-            'id', 'category', 'number', 'path', 'japanese', 'chinese',
-            'jlpt', 'source', 'priority', 'stage', 'note', 'created', 'updated', 'batch'
-        ]
-
-        with open(self.csv_path, 'w', encoding='utf-8', newline='') as f:
-            writer = csv.DictWriter(f, fieldnames=fieldnames)
-            writer.writeheader()
-            writer.writerows(self.cards)
-
-        print(f"✅ 已儲存 {len(self.cards)} 張卡片到 {self.csv_path}")
 
     def list_cards(self, stage: Optional[str] = None, priority: Optional[str] = None,
                    category: Optional[str] = None, batch: Optional[int] = None,
@@ -77,38 +64,6 @@ class WorklogCardManager:
                   f"{card['japanese']:15} | {card['chinese']:12} | "
                   f"JLPT: {card['jlpt']:4} | {card['priority']:8} | {card['stage']:15}")
 
-    def update_card(self, card_id: int, stage: Optional[str] = None,
-                    batch: Optional[int] = None):
-        """更新單張卡片"""
-        card_found = False
-
-        for card in self.cards:
-            if int(card['id']) == card_id:
-                if stage:
-                    card['stage'] = stage
-                if batch is not None:
-                    card['batch'] = str(batch)
-                card['updated'] = datetime.now().strftime('%Y-%m-%d')
-                card_found = True
-                print(f"✅ 已更新卡片 ID {card_id}: {card['path']}")
-                break
-
-        if not card_found:
-            print(f"❌ 找不到卡片 ID {card_id}")
-            return False
-
-        self.save_cards()
-        return True
-
-    def batch_update(self, card_ids: List[int], stage: str, batch: int):
-        """批次更新卡片"""
-        updated_count = 0
-
-        for card_id in card_ids:
-            if self.update_card(card_id, stage=stage, batch=batch):
-                updated_count += 1
-
-        print(f"\n✅ 批次更新完成：{updated_count}/{len(card_ids)} 張卡片")
 
     def generate_stats(self):
         """生成統計資訊"""
@@ -195,18 +150,6 @@ def main():
     list_parser.add_argument('--batch', type=int, help='篩選批次')
     list_parser.add_argument('--limit', type=int, help='限制數量')
 
-    # update 指令
-    update_parser = subparsers.add_parser('update', help='更新單張卡片')
-    update_parser.add_argument('--id', type=int, required=True, help='卡片 ID')
-    update_parser.add_argument('--stage', help='更新階段')
-    update_parser.add_argument('--batch', type=int, help='批次號碼')
-
-    # batch-update 指令
-    batch_parser = subparsers.add_parser('batch-update', help='批次更新')
-    batch_parser.add_argument('--ids', required=True, help='卡片 ID 範圍 (如: 61-70)')
-    batch_parser.add_argument('--stage', required=True, help='更新階段')
-    batch_parser.add_argument('--batch', type=int, required=True, help='批次號碼')
-
     # stats 指令
     subparsers.add_parser('stats', help='統計資訊')
 
@@ -225,16 +168,6 @@ def main():
             batch=args.batch,
             limit=args.limit
         )
-    elif args.command == 'update':
-        manager.update_card(args.id, stage=args.stage, batch=args.batch)
-    elif args.command == 'batch-update':
-        # 解析 ID 範圍
-        if '-' in args.ids:
-            start, end = map(int, args.ids.split('-'))
-            card_ids = list(range(start, end + 1))
-        else:
-            card_ids = [int(args.ids)]
-        manager.batch_update(card_ids, args.stage, args.batch)
     elif args.command == 'stats':
         manager.generate_stats()
     elif args.command == 'validate':

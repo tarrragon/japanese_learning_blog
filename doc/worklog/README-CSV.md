@@ -72,137 +72,225 @@ scripts/
 
 ## 🛠️ 管理腳本使用
 
+### 腳本概覽
+
+本專案提供四個 CSV 管理腳本，各司其職：
+
+| 腳本 | 用途 | 主要使用者 |
+|------|------|-----------|
+| **get_pending_cards.py** | 讀取待辦卡片清單（建立 Todo） | 主線程、代理人 |
+| **add_pending_cards.py** | 新增待辦卡片 | Extension-Review 代理人 |
+| **update_card_progress.py** | 更新卡片進度 | create-card 代理人 |
+| **manage_worklog_cards.py** | 查詢統計與驗證 | 人工查詢 |
+
 ### 安裝
 
 腳本使用專案的 Python 環境，通過 `uv run` 執行：
 
 ```bash
 # 無需額外安裝，直接使用
+uv run scripts/get_pending_cards.py --help
+uv run scripts/add_pending_cards.py --help
+uv run scripts/update_card_progress.py --help
 uv run scripts/manage_worklog_cards.py --help
-```
-
-### 常用指令
-
-#### 1. 查看統計資訊
-
-```bash
-uv run scripts/manage_worklog_cards.py stats
-```
-
-輸出範例：
-```
-📊 統計資訊
-============================================================
-總卡片數: 264
-
-按階段統計:
-  completed              58 ( 22.0%)
-  pending               206 ( 78.0%)
-
-按優先級統計:
-  Critical               66 ( 25.0%)
-  High                  152 ( 57.6%)
-  Medium                 35 ( 13.3%)
-  Low                     4 (  1.5%)
-```
-
-#### 2. 列出卡片
-
-```bash
-# 列出所有待建立卡片
-uv run scripts/manage_worklog_cards.py list --stage pending
-
-# 列出 Critical 優先級（前 10 張）
-uv run scripts/manage_worklog_cards.py list --priority Critical --stage pending --limit 10
-
-# 列出特定分類
-uv run scripts/manage_worklog_cards.py list --category noun --stage pending
-
-# 列出特定批次
-uv run scripts/manage_worklog_cards.py list --batch 1
-
-# 複合篩選
-uv run scripts/manage_worklog_cards.py list --category noun --priority Critical --stage pending
-```
-
-#### 3. 更新卡片狀態
-
-```bash
-# 開始建立卡片（標記為 draft）
-uv run scripts/manage_worklog_cards.py update --id 59 --stage draft --batch 1
-
-# 完成卡片（標記為 completed）
-uv run scripts/manage_worklog_cards.py update --id 59 --stage completed --batch 1
-
-# 只更新批次號碼
-uv run scripts/manage_worklog_cards.py update --id 59 --batch 1
-```
-
-#### 4. 批次更新
-
-```bash
-# 批次標記為 draft（開始執行）
-uv run scripts/manage_worklog_cards.py batch-update --ids 59-68 --stage draft --batch 1
-
-# 批次標記為 completed（完成）
-uv run scripts/manage_worklog_cards.py batch-update --ids 59-68 --stage completed --batch 1
-```
-
-#### 5. 驗證資料
-
-```bash
-# 驗證 CSV 格式和內容
-uv run scripts/manage_worklog_cards.py validate
 ```
 
 ---
 
-## 📋 工作流程範例
+## 📖 腳本使用指南
 
-### 情境：開始建立第一批 Critical 卡片
+### 1. 讀取待辦卡片清單（get_pending_cards.py）
 
-#### 步驟 1：查看待建立的 Critical 卡片
+**用途**：查詢待辦卡片清單，用於主線程建立 TodoWrite 任務
 
-```bash
-uv run scripts/manage_worklog_cards.py list --priority Critical --stage pending --limit 10
-```
-
-輸出：
-```
-📋 找到 10 張卡片
-ID:  59 | noun | noun/018_tango.md | 単語 | 單詞 | JLPT: n5 | Critical | pending
-ID:  60 | noun | noun/019_kanji.md | 漢字 | 漢字 | JLPT: n5 | Critical | pending
-...
-```
-
-#### 步驟 2：標記這批卡片開始執行
+#### 基本用法
 
 ```bash
-uv run scripts/manage_worklog_cards.py batch-update --ids 59-68 --stage draft --batch 1
+# 文字格式（預設，人類可讀）
+uv run scripts/get_pending_cards.py --stage pending --priority Critical --limit 10
+
+# JSON 格式（供程式解析，包含 TodoWrite 所需欄位）
+uv run scripts/get_pending_cards.py --stage pending --format json
 ```
 
-#### 步驟 3：使用 create-card 代理人建立卡片
+#### 篩選選項
 
 ```bash
-# 逐張使用代理人建立
-# （此處使用 create-card 代理人的具體流程）
+# 按階段篩選
+uv run scripts/get_pending_cards.py --stage pending
+
+# 按優先級篩選
+uv run scripts/get_pending_cards.py --priority Critical
+
+# 按分類篩選
+uv run scripts/get_pending_cards.py --category noun
+
+# 按 JLPT 等級篩選
+uv run scripts/get_pending_cards.py --jlpt n5
+
+# 複合篩選
+uv run scripts/get_pending_cards.py --stage pending --priority Critical --category noun --limit 5
 ```
 
-#### 步驟 4：完成後更新狀態
+#### JSON 輸出格式
 
-```bash
-# 單張完成
-uv run scripts/manage_worklog_cards.py update --id 59 --stage completed
+JSON 輸出包含 TodoWrite 所需的所有欄位：
 
-# 或批次完成
-uv run scripts/manage_worklog_cards.py batch-update --ids 59-68 --stage completed --batch 1
+```json
+[
+  {
+    "id": 59,
+    "category": "noun",
+    "path": "noun/018_tango.md",
+    "japanese": "単語",
+    "chinese": "單詞",
+    "priority": "Critical",
+    "stage": "pending",
+    "jlpt": "n5",
+    "content": "建立 noun/018_tango.md",
+    "activeForm": "建立 単語（單詞）卡片"
+  }
+]
 ```
 
-#### 步驟 5：查看進度
+---
+
+### 2. 新增待辦卡片（add_pending_cards.py）
+
+**用途**：新增待辦卡片到 CSV（供 Extension-Review 代理人使用）
+
+#### 單張新增
 
 ```bash
+uv run scripts/add_pending_cards.py add \
+    --category noun \
+    --number 025 \
+    --japanese 語彙 \
+    --chinese 詞彙 \
+    --jlpt n4 \
+    --source v1.0.6 \
+    --priority High
+```
+
+#### 批次新增（從 JSON 檔案）
+
+```bash
+# 從檔案讀取
+uv run scripts/add_pending_cards.py batch --from-json extension-cards.json
+
+# 從 stdin 讀取
+cat cards.json | uv run scripts/add_pending_cards.py batch --from-json -
+```
+
+#### JSON 格式範例
+
+```json
+[
+  {
+    "category": "noun",
+    "number": "025",
+    "japanese": "語彙",
+    "chinese": "詞彙",
+    "jlpt": "n4",
+    "priority": "High",
+    "source": "v1.0.6",
+    "note": "從 Extension-Review 識別"
+  }
+]
+```
+
+---
+
+### 3. 更新卡片進度（update_card_progress.py）
+
+**用途**：更新卡片階段和批次（供 create-card 代理人使用）
+
+#### 基本用法
+
+```bash
+# 更新單張卡片階段
+uv run scripts/update_card_progress.py --id 59 --stage draft
+
+# 更新階段並設定批次
+uv run scripts/update_card_progress.py --id 59 --stage completed --batch 1
+
+# 批次更新
+uv run scripts/update_card_progress.py --ids 59-68 --stage completed --batch 1
+```
+
+#### 安靜模式（減少代理人輸出干擾）
+
+```bash
+uv run scripts/update_card_progress.py --id 59 --stage draft --quiet
+```
+
+#### 階段轉換規則
+
+腳本會自動驗證階段轉換是否合法：
+
+```
+pending → draft
+draft → extension-review (或回退到 pending)
+extension-review → linking (或回退到 draft)
+linking → completed (或回退到 extension-review)
+completed → (無法轉換)
+```
+
+---
+
+### 4. 查詢統計與驗證（manage_worklog_cards.py）
+
+**用途**：人工查詢、統計和驗證（僅供查詢使用）
+
+#### 常用指令
+
+```bash
+# 查看統計資訊
+uv run scripts/manage_worklog_cards.py stats
+
+# 列出卡片
+uv run scripts/manage_worklog_cards.py list --stage pending --priority Critical --limit 10
+
+# 驗證 CSV 資料
+uv run scripts/manage_worklog_cards.py validate
+```
+
+**注意**：此腳本已移除 update 和 batch-update 功能，請使用 `update_card_progress.py` 更新卡片進度。
+
+---
+
+## 🔄 工作流程整合
+
+### 情境 1：主線程建立 Todo 任務
+
+```bash
+# 步驟 1：查詢待辦卡片（JSON 格式）
+uv run scripts/get_pending_cards.py --stage pending --priority Critical --limit 10 --format json > /tmp/cards.json
+
+# 步驟 2：在主線程中使用 JSON 建立 TodoWrite 任務
+# （代理人或主線程讀取 /tmp/cards.json 並建立對應的 todo）
+```
+
+### 情境 2：Extension-Review 代理人新增待辦卡片
+
+```bash
+# Extension-Review 代理人產出 JSON 格式的延伸需求
+# 範例：extension-cards-new.json
+
+# 批次新增到 CSV
+uv run scripts/add_pending_cards.py batch --from-json extension-cards-new.json
+
+# 查看更新後的統計
 uv run scripts/manage_worklog_cards.py stats
 ```
+
+### 情境 3：create-card 代理人完成卡片建立
+
+```bash
+# create-card 代理人在完成卡片建立後，呼叫更新腳本
+uv run scripts/update_card_progress.py --id 59 --stage completed --batch 1 --quiet
+```
+
 
 ---
 
@@ -314,26 +402,34 @@ uv run scripts/manage_worklog_cards.py stats
 
 ---
 
-## 📚 相關文檔
+## 📚 相關文檔與腳本
 
+### 文檔
 - **簡化版 Worklog**：`doc/worklog/worklog-1.0.6.md`
 - **完整版備份**：`doc/worklog/worklog-1.0.6-full-backup.md`
 - **CSV 檔案**：`doc/worklog/cards-1.0.6.csv`
-- **管理腳本**：`scripts/manage_worklog_cards.py`
-- **提取腳本**：`scripts/extract_cards_to_csv.py`
+
+### 腳本
+- **讀取清單**：`scripts/get_pending_cards.py` - 查詢待辦卡片清單（建立 Todo）
+- **新增卡片**：`scripts/add_pending_cards.py` - 新增待辦卡片（Extension-Review）
+- **更新進度**：`scripts/update_card_progress.py` - 更新卡片階段（create-card）
+- **查詢統計**：`scripts/manage_worklog_cards.py` - 統計與驗證（人工查詢）
+- **提取工具**：`scripts/extract_cards_to_csv.py` - 從 Markdown 提取 CSV（維護用）
 
 ---
 
 ## 💡 未來改進方向
 
-1. **自動化**：create-card 代理人完成後自動更新 CSV
+1. ~~**自動化**：create-card 代理人完成後自動更新 CSV~~ ✅ **已完成**（update_card_progress.py）
 2. **報告生成**：自動生成進度報告 Markdown
 3. **視覺化**：生成進度圖表
-4. **Extension-Review 整合**：直接產出 CSV 格式
+4. ~~**Extension-Review 整合**：直接產出 CSV 格式~~ ✅ **已完成**（add_pending_cards.py）
 5. **Web UI**：簡單的網頁介面管理卡片
+6. ~~**Todo 整合**：提供 JSON 格式供 TodoWrite 使用~~ ✅ **已完成**（get_pending_cards.py）
 
 ---
 
-**文檔版本**：v1.0
+**文檔版本**：v1.1
 **建立日期**：2025-10-31
+**更新日期**：2025-10-31（新增三個 CSV 管理腳本）
 **適用版本**：v1.0.6+

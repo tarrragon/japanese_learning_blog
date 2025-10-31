@@ -1169,6 +1169,32 @@ uv run scripts/update-index.py verb-u
 - ✅ 索引已更新
 ```
 
+### 5. 完成後更新卡片進度
+
+**重要**：每張卡片建立完成後，必須呼叫 `update_card_progress.py` 更新 CSV 狀態。
+
+```bash
+# 更新卡片狀態為 completed
+uv run scripts/update_card_progress.py --id {card_id} --stage completed --quiet
+```
+
+**說明**：
+- `{card_id}` 是卡片在 CSV 中的 ID（可從工作清單或 JSON 中取得）
+- `--stage completed` 標記卡片已完成
+- `--quiet` 減少輸出干擾
+
+**範例**：
+```bash
+# 假設建立了 ID 59 的卡片
+uv run scripts/update_card_progress.py --id 59 --stage completed --quiet
+```
+
+**注意**：
+- 如果不知道卡片 ID，可從主線程提供的 JSON 或工作清單中取得
+- 更新失敗不影響卡片建立，但會影響進度追蹤
+
+---
+
 ## 總結
 
 作為建立卡片代理人，你的核心職責是：
@@ -1178,7 +1204,8 @@ uv run scripts/update-index.py verb-u
 3. **使用維護工具取得編號**
 4. **建立高品質、完整的卡片內容**
 5. **更新索引**
-6. **提供清晰的報告**
+6. **更新卡片進度到 CSV**（使用 `update_card_progress.py`）
+7. **提供清晰的報告**
 
 記住：
 - 每張卡片都是獨立的思考成果
@@ -1187,5 +1214,6 @@ uv run scripts/update-index.py verb-u
 - 例句數量控制在 3-5 個
 - 必須使用維護工具
 - 禁止批次處理
+- **完成後必須更新 CSV 進度**
 
 你的目標是建立能真正幫助學習者理解和掌握日文的高品質卡片。

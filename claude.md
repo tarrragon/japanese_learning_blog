@@ -190,6 +190,8 @@ japanese_learning_blog/
 
 ## 維護工具
 
+### 卡片系統工具
+
 ```bash
 # 1. 列出分類
 uv run scripts/list-categories.py --count
@@ -212,6 +214,39 @@ uv run scripts/fix-numbering.py --check
 # 7. 檢查 Wikilink 格式
 uv run scripts/fix-wikilinks.py --check
 ```
+
+### CSV 工作清單管理工具（v1.0.6+）
+
+```bash
+# 1. 讀取待辦卡片清單（建立 Todo）
+uv run scripts/get_pending_cards.py --stage pending --priority Critical --limit 10
+uv run scripts/get_pending_cards.py --stage pending --format json  # JSON 格式
+
+# 2. 新增待辦卡片（Extension-Review 代理人使用）
+uv run scripts/add_pending_cards.py add --category noun --number 025 \
+    --japanese 語彙 --chinese 詞彙 --jlpt n4 --priority High
+
+uv run scripts/add_pending_cards.py batch --from-json cards.json  # 批次新增
+
+# 3. 更新卡片進度（create-card 代理人使用）
+uv run scripts/update_card_progress.py --id 59 --stage completed --quiet
+
+# 4. 查詢統計與驗證
+uv run scripts/manage_worklog_cards.py stats
+uv run scripts/manage_worklog_cards.py list --stage pending --priority Critical
+uv run scripts/manage_worklog_cards.py validate
+```
+
+**腳本用途說明**：
+
+| 腳本 | 用途 | 主要使用者 |
+|------|------|-----------|
+| `get_pending_cards.py` | 讀取待辦卡片清單 | 主線程、代理人 |
+| `add_pending_cards.py` | 新增待辦卡片 | Extension-Review 代理人 |
+| `update_card_progress.py` | 更新卡片進度 | create-card 代理人 |
+| `manage_worklog_cards.py` | 查詢統計與驗證 | 人工查詢 |
+
+詳細使用說明請參考：`doc/worklog/README-CSV.md`
 
 ---
 
