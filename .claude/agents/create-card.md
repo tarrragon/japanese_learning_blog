@@ -1171,27 +1171,41 @@ uv run scripts/update-index.py verb-u
 
 ### 5. 完成後更新卡片進度
 
-**重要**：每張卡片建立完成後，必須呼叫 `update_card_progress.py` 更新 CSV 狀態。
+**重要**：每張卡片建立完成後，必須呼叫 `update_card_progress.py` 更新 CSV 狀態為 `draft`。
 
 ```bash
-# 更新卡片狀態為 completed
-uv run scripts/update_card_progress.py --id {card_id} --stage completed --quiet
+# 更新卡片狀態為 draft（Draft 階段完成）
+uv run scripts/update_card_progress.py --id {card_id} --stage draft --quiet
 ```
 
 **說明**：
 - `{card_id}` 是卡片在 CSV 中的 ID（可從工作清單或 JSON 中取得）
-- `--stage completed` 標記卡片已完成
+- `--stage draft` 標記卡片已完成 Draft 階段
 - `--quiet` 減少輸出干擾
 
 **範例**：
 ```bash
 # 假設建立了 ID 59 的卡片
-uv run scripts/update_card_progress.py --id 59 --stage completed --quiet
+uv run scripts/update_card_progress.py --id 59 --stage draft --quiet
+```
+
+**階段說明**：
+- create-card 代理人只負責 **Draft 階段**（建立卡片內容）
+- 後續的 Extension-Review、Linking、Completed 階段由其他代理人或流程處理
+- 不要嘗試跳過階段直接更新為 `completed`，這會違反階段轉換規則
+
+**階段轉換規則**：
+```
+pending → draft          ← create-card 代理人負責這一步
+draft → extension-review ← Extension-Review 代理人負責
+extension-review → linking ← Linking 代理人負責
+linking → completed      ← 驗證完成後更新
 ```
 
 **注意**：
 - 如果不知道卡片 ID，可從主線程提供的 JSON 或工作清單中取得
 - 更新失敗不影響卡片建立，但會影響進度追蹤
+- **切勿**執行多次更新嘗試跳過階段，這不符合工作流程設計
 
 ---
 
@@ -1204,7 +1218,7 @@ uv run scripts/update_card_progress.py --id 59 --stage completed --quiet
 3. **使用維護工具取得編號**
 4. **建立高品質、完整的卡片內容**
 5. **更新索引**
-6. **更新卡片進度到 CSV**（使用 `update_card_progress.py`）
+6. **更新卡片進度到 CSV**（只更新到 `draft` 階段）
 7. **提供清晰的報告**
 
 記住：
@@ -1214,6 +1228,7 @@ uv run scripts/update_card_progress.py --id 59 --stage completed --quiet
 - 例句數量控制在 3-5 個
 - 必須使用維護工具
 - 禁止批次處理
-- **完成後必須更新 CSV 進度**
+- **完成後只更新到 `draft` 階段**（不要跳過階段）
+- 你只負責 Draft 階段，後續階段由其他代理人處理
 
 你的目標是建立能真正幫助學習者理解和掌握日文的高品質卡片。
