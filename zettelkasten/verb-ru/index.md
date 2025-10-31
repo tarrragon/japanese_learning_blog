@@ -1,11 +1,12 @@
 # る動詞（一段動詞）索引
 
-最後編號：016
-總卡片數：16
+最後編號：021
+總卡片數：24
 
 ## 卡片列表
 
 ### 依編號
+- [000 - ](verb-ru-018-頂く.md) 
 - [001 - 吃、食用](001_taberu.md) 
 - [002 - 調查、查詢、檢查](002_shiraberu.md) 
 - [003 - 見る - 看、觀看](003_miru.md) #basic #domain/perception
@@ -22,6 +23,13 @@
 - [014 - 持つ - 拿著、持有、擁有（五段動詞）](014_motsu.md) 
 - [015 - 諦める - 放棄、接受現實（文化概念：理性地接受無法改變的事）](015_akirameru.md) 
 - [016 - 差し上げる - 給予（謙讓語）](016_sashiageru.md) 
+- [017 - 記住、記憶](017_oboeru.md) #memory #learning #mental_action
+- [018 - ](018_差し上げる.md) 
+- [018 - 給予（尊敬語）](018_kudasaru.md) #verb #honorific #keigo
+- [019 - ](019-入れる.md) 
+- [019 - ](019-続ける.md) 
+- [020 - 放棄、死心、接受現實](020_akirameru.md) #verb #emotion #decision
+- [021 - 忘記](021_wasureru.md) #verb #cognition #basic
 
 ---
-最後更新: 2025-10-30 17:32:48
+最後更新: 2025-10-31 12:34:47

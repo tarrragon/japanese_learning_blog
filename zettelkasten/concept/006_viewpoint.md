@@ -3,12 +3,12 @@ title: concept/viewpoint
 description: 日語的視點（視角）概念 - 語言學核心理論
 type: concept
 jlpt: n4
-stage: draft
+stage: extension-review
 tags:
   - domain/cognition
   - domain/communication
 created: 2025-10-30
-updated: 2025-10-30
+updated: 2025-10-31
 ---
 
 ## 日文

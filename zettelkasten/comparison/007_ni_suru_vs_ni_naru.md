@@ -4,7 +4,7 @@ description: にする vs になる 對比（主動決定與自然變化）
 type: comparison
 subtype: grammar_comparison
 jlpt: n4
-stage: draft
+stage: extension-review
 tags:
   - context/formal
   - context/casual

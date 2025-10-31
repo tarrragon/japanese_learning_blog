@@ -1,11 +1,13 @@
 # 文法卡片索引
 
-最後編號：067
-總卡片數：67
+最後編號：071
+總卡片數：75
 
 ## 卡片列表
 
 ### 依編號
+- [000 - ](grammar-068-てあげる.md) 
+- [000 - ](grammar-069-てくださる.md) 
 - [001 - 日文動詞的て形變化及其用法](001_te_form.md) 
 - [002 - 表示兩個動作同時進行（一邊...一邊...）](002_nagara.md) 
 - [003 - 一段動詞（る動詞）- 規則動詞類型](003_ichidan_verb.md) #grammar #conjugation #basic
@@ -73,6 +75,12 @@
 - [065 - 〜たり〜たりする句型用於列舉多個動作或狀態的代表性例子，表示「做...做...等等」](065_tari-tari.md) 
 - [066 - 格助詞系統是日文中標記名詞文法功能的助詞體系，包含が、を、に、で、へ、と、から、まで等](066_case-particles.md) 
 - [067 - 他動詞與自動詞的對比和使用規則，是日文動詞分類和助詞選擇的核心概念](067_transitive-intransitive.md) 
+- [068 - 承蒙某人為我做某事（謙讓）](068_te_itadaku.md) #grammar #giving-receiving #benefactive
+- [069 - 方向助詞的比較與用法](069_he_ni_made.md) #grammar #particle #direction
+- [070 - ](070-ni-naru.md) 
+- [070 - 請求或命令的禮貌表達](070_te_kudasai.md) #grammar #request #te-form
+- [071 - 最好...、應該...（建議）](071_hou_ga_ii.md) #grammar #advice #suggestion
+- [071 - 決定做某事（主動決定）](071_koto_ni_suru.md) 
 
 ---
-最後更新: 2025-10-30 17:37:01
+最後更新: 2025-10-31 12:35:08

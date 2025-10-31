@@ -1,11 +1,13 @@
 # う動詞（五段動詞）索引
 
-最後編號：020
-總卡片數：20
+最後編號：025
+總卡片數：29
 
 ## 卡片列表
 
 ### 依編號
+- [000 - ](verb-u-022-取る.md) 
+- [000 - ](verb-u-022-消す.md) 
 - [001 - 上升、上漲、提高](001_agaru.md) 
 - [002 - 飲む - 喝](002_nomu.md) #basic #domain/daily_life
 - [003 - 読む - 讀、閱讀](003_yomu.md) #basic #learning
@@ -26,6 +28,13 @@
 - [018 - やる - 給、做、試](018_yaru.md) 
 - [019 - くださる - 給予（尊敬語）](019_kudasaru.md) 
 - [020 - いただく - 接受、收到（謙讓語）](020_itadaku.md) 
+- [021 - 學習](021_manabu.md) #education #learning #active_learning
+- [022 - 返回、回到](022_modoru.md) #verb #movement #basic
+- [022 - ](022_待つ.md) 
+- [023 - 着く - 到達、抵達](023_tsuku.md) #basic #domain/daily_life #verb
+- [024 - ](024-shiru.md) 
+- [024 - ](024-分かる.md) 
+- [025 - 居住、住](025_sumu.md) #verb #living #basic
 
 ---
-最後更新: 2025-10-30 17:28:44
+最後更新: 2025-10-31 12:38:05

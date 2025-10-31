@@ -1,0 +1,265 @@
+id,category,number,path,japanese,chinese,jlpt,source,priority,stage,note,created,updated,batch
+1,conjunction,001,conjunction/001_dakara.md,だから,所以,n5,v1.0.6,High,completed,,2025-10-31,2025-10-31,0
+2,conjunction,002,conjunction/002_demo.md,でも,但是,n5,v1.0.6,High,completed,,2025-10-31,2025-10-31,0
+3,conjunction,004,conjunction/004_sorede.md,それで,因此,n4,v1.0.6,High,completed,,2025-10-31,2025-10-31,0
+4,conjunction,003,conjunction/003_jaa.md,じゃあ,那麼,n5,v1.0.6,High,completed,,2025-10-31,2025-10-31,0
+5,conjunction,005,conjunction/005_soshite.md,そして,然後,n5,v1.0.6,High,completed,,2025-10-31,2025-10-31,0
+6,noun,009,noun/009_gakushuu.md,学習,學習,n4,v1.0.6,High,completed,,2025-10-31,2025-10-31,0
+7,noun,008,noun/008_bunpou.md,文法,文法,n4,v1.0.6,High,completed,,2025-10-31,2025-10-31,0
+8,noun,010,noun/010_goi.md,語彙,詞彙,n3,v1.0.6,High,completed,,2025-10-31,2025-10-31,0
+9,noun,011,noun/011_hatsuon.md,発音,發音,n4,v1.0.6,High,completed,,2025-10-31,2025-10-31,0
+10,noun,012,noun/012_shougyou.md,商業,商業,n3,v1.0.6,High,completed,,2025-10-31,2025-10-31,0
+11,noun,013,noun/013_torihiki.md,取引,交易,n3,v1.0.6,High,completed,,2025-10-31,2025-10-31,0
+12,noun,013,noun/013-keiyaku.md,契約,契約,n3,v1.0.6,High,completed,,2025-10-31,2025-10-31,0
+13,noun,013,noun/013-kokyaku.md,顧客,顧客,n3,v1.0.6,High,completed,,2025-10-31,2025-10-31,0
+14,noun,014,noun/014_houkou.md,方向,方向,n4,v1.0.6,High,completed,,2025-10-31,2025-10-31,0
+15,noun,015,noun/015_basho.md,場所,場所,n5,v1.0.6,High,completed,,2025-10-31,2025-10-31,0
+16,noun,015,noun/015_shuuten.md,終点,終點,n3,v1.0.6,High,completed,,2025-10-31,2025-10-31,0
+17,noun,016,noun/016_shikata.md,仕方,方法、辦法,n3,v1.0.6,High,completed,,2025-10-31,2025-10-31,0
+18,noun,017,"noun/017_nani.md, dare.md, doko.md",何、誰、どこ,什麼、誰、哪裡,n5,v1.0.6,High,completed,,2025-10-31,2025-10-31,0
+19,verb-ru,017,verb-ru/017_oboeru.md,覚える,記住,n5,v1.0.6,High,completed,,2025-10-31,2025-10-31,0
+20,verb-ru,018,verb-ru/018_sashiageru.md,差し上げる,給予（謙讓語）,n3,v1.0.6,High,completed,,2025-10-31,2025-10-31,0
+21,verb-ru,018,verb-ru/018_kudasaru.md,下さる,給予（尊敬語）,n3,v1.0.6,High,completed,,2025-10-31,2025-10-31,0
+22,verb-ru,018,verb-ru/018_itadaku.md,頂く,收到（謙讓語）,n3,v1.0.6,High,completed,,2025-10-31,2025-10-31,0
+23,verb-ru,019,verb-ru/019_ireru.md,入れる,放入,n5,v1.0.6,High,completed,,2025-10-31,2025-10-31,0
+24,verb-ru,019,verb-ru/019_tsuzukeru.md,続ける,繼續,n4,v1.0.6,High,completed,,2025-10-31,2025-10-31,0
+25,verb-ru,020,verb-ru/020_akirameru.md,諦める,放棄、接受,n3,v1.0.6,High,completed,,2025-10-31,2025-10-31,0
+26,verb-ru,021,verb-ru/021_wasureru.md,忘れる,忘記,n5,v1.0.6,High,completed,,2025-10-31,2025-10-31,0
+27,verb-u,021,verb-u/021_manabu.md,学ぶ,學習,n5,v1.0.6,High,completed,,2025-10-31,2025-10-31,0
+28,verb-u,022,verb-u/022_matsu.md,待つ,等待,n5,v1.0.6,High,completed,,2025-10-31,2025-10-31,0
+29,verb-u,022,verb-u/022_toru.md,取る,拿取,n5,v1.0.6,High,completed,,2025-10-31,2025-10-31,0
+30,verb-u,022,verb-u/022_kesu.md,消す,消除,n5,v1.0.6,High,completed,,2025-10-31,2025-10-31,0
+31,verb-u,022,verb-u/022_modoru.md,戻る,返回,n4,v1.0.6,High,completed,,2025-10-31,2025-10-31,0
+32,verb-u,023,verb-u/023_tsuku.md,着く,到達,n5,v1.0.6,High,completed,,2025-10-31,2025-10-31,0
+33,verb-u,024,verb-u/024_shiru.md,知る,知道,n5,v1.0.6,High,completed,,2025-10-31,2025-10-31,0
+34,verb-u,024,verb-u/024_wakaru.md,分かる,理解,n5,v1.0.6,High,completed,,2025-10-31,2025-10-31,0
+35,verb-u,025,verb-u/025_sumu.md,住む,居住,n5,v1.0.6,High,completed,,2025-10-31,2025-10-31,0
+36,verb-irr,007,verb-irr/007_irassharu.md,いらっしゃる,在（尊敬語）,n4,v1.0.6,High,completed,,2025-10-31,2025-10-31,0
+37,grammar,068,grammar/068_te-ageru.md,〜てあげる,為...做,n4,v1.0.6,High,completed,,2025-10-31,2025-10-31,0
+38,grammar,068,grammar/068_te-itadaku.md,〜ていただく,承蒙...做,n3,v1.0.6,High,completed,,2025-10-31,2025-10-31,0
+39,grammar,069,grammar/069_te-kudasaru.md,〜てくださる,給予...做,n3,v1.0.6,High,completed,,2025-10-31,2025-10-31,0
+40,grammar,069,grammar/069_he_ni_made.md,へ vs に vs まで,目的地助詞對比,n5,v1.0.6,High,completed,,2025-10-31,2025-10-31,0
+41,grammar,070,grammar/070_te-kudasai.md,〜てください,請...（請求句型）,n5,v1.0.6,High,completed,,2025-10-31,2025-10-31,0
+42,grammar,070,grammar/070_ni-naru.md,〜になる,變成（自然變化）,n4,v1.0.6,High,completed,,2025-10-31,2025-10-31,0
+43,grammar,071,grammar/071_koto_ni_suru.md,〜ことにする,決定做某事,n4,v1.0.6,High,completed,,2025-10-31,2025-10-31,0
+44,grammar,071,grammar/071_hou_ga_ii.md,〜ほうがいい,最好...（建議）,n4,v1.0.6,High,completed,,2025-10-31,2025-10-31,0
+45,comparison,008,comparison/008_te-morau_vs_te-kureru.md,〜てもらう vs 〜てくれる,授受視角對比,n4,v1.0.6,High,completed,,2025-10-31,2025-10-31,0
+46,comparison,007,comparison/007_ni_suru_vs_ni_naru.md,にする vs になる,主動決定 vs 自然變化,n4,v1.0.6,High,completed,,2025-10-31,2025-10-31,0
+47,contrast,001,contrast/001_gakushuu_vs_benkyou.md,学習 vs 勉強,學習辨析,n4,v1.0.6,High,completed,,2025-10-31,2025-10-31,0
+48,contrast,002,contrast/002_goi_vs_tango.md,語彙 vs 単語,詞彙辨析,n3,v1.0.6,High,completed,,2025-10-31,2025-10-31,0
+49,contrast,003,contrast/003_oboeru_vs_manabu.md,覚える vs 学ぶ,學習動詞對比,n5,v1.0.6,High,completed,,2025-10-31,2025-10-31,0
+50,concept,009,concept/009_language_acquisition.md,言語習得,語言習得概念,n2,v1.0.6,High,completed,,2025-10-31,2025-10-31,0
+51,concept,006,concept/006_viewpoint.md,視点,視點概念,n4,v1.0.6,High,completed,,2025-10-31,2025-10-31,0
+52,phrase,006,phrase/006_greeting.md,日常打招呼表達,打招呼,n5,v1.0.6,High,completed,,2025-10-31,2025-10-31,0
+53,phrase,006,phrase/006_dining.md,用餐相關表達,用餐表達,n5,v1.0.6,High,completed,,2025-10-31,2025-10-31,0
+54,phrase,006,phrase/006_shopping_basic.md,購物基本表達,購物表達,n5,v1.0.6,High,completed,,2025-10-31,2025-10-31,0
+55,phrase,006,phrase/006_invitation.md,邀約表達,邀約表達,n4,v1.0.6,High,completed,,2025-10-31,2025-10-31,0
+56,phrase,007,phrase/007_kousuru.md,こうする,這樣做,n5,v1.0.6,High,completed,,2025-10-31,2025-10-31,0
+57,phrase,007,phrase/007_doushiyou.md,どうしよう,怎麼辦,n5,v1.0.6,High,completed,,2025-10-31,2025-10-31,0
+58,phrase,008,phrase/008_yamu_wo_enai.md,やむを得ない,不得已,n3,v1.0.6,High,completed,,2025-10-31,2025-10-31,0
+59,noun,018,noun/018_tango.md,単語,單詞,n5,v1.0.5,Critical,completed,與 goi 對比,2025-10-31,2025-10-31,
+60,noun,019,noun/019_kanji.md,漢字,漢字,n5,v1.0.5,Critical,draft,Learning domain,2025-10-31,2025-10-31,
+61,noun,020,noun/020_choukai.md,聴解,聽力,n3,v1.0.5,High,pending,Learning domain,2025-10-31,2025-10-31,
+62,noun,021,noun/021_dokkai.md,読解,閱讀理解,n3,v1.0.5,High,pending,Learning domain,2025-10-31,2025-10-31,
+63,noun,022,noun/022_sakubun.md,作文,作文,n3,v1.0.5,High,pending,Learning domain,2025-10-31,2025-10-31,
+64,noun,023,noun/023_kaiwa.md,会話,會話,n4,v1.0.5,Critical,completed,Learning domain,2025-10-31,2025-10-31,
+65,noun,024,noun/024_hyougen.md,表現,表達,n4,v1.0.5,High,pending,Learning domain,2025-10-31,2025-10-31,
+66,noun,025,noun/025_imi.md,意味,意義,n4,v1.0.5,Critical,completed,Linguistics,2025-10-31,2025-10-31,
+67,noun,026,noun/026_kaigi.md,会議,會議,n3,v1.0.5,High,pending,Business domain,2025-10-31,2025-10-31,
+68,noun,027,noun/027_kikaku.md,企画,企劃,n3,v1.0.5,High,pending,Business domain,2025-10-31,2025-10-31,
+69,noun,028,noun/028_hanbai.md,販売,銷售,n3,v1.0.5,High,pending,Business domain,2025-10-31,2025-10-31,
+70,noun,029,noun/029_eigyou.md,営業,營業,n3,v1.0.5,High,pending,Business domain,2025-10-31,2025-10-31,
+71,noun,030,noun/030_jigyou.md,事業,事業,n3,v1.0.5,Medium,pending,Business domain,2025-10-31,2025-10-31,
+72,noun,031,noun/031_kaikei.md,会計,會計,n3,v1.0.5,Medium,pending,Business domain,2025-10-31,2025-10-31,
+73,noun,032,noun/032_mokutekichi.md,目的地,目的地,n4,v1.0.5,Critical,completed,Position domain,2025-10-31,2025-10-31,
+74,noun,033,noun/033_shuppatsuchi.md,出発地,出發地,n3,v1.0.5,High,pending,Position domain,2025-10-31,2025-10-31,
+75,noun,034,noun/034_kiten.md,起点,起點,n3,v1.0.5,High,pending,Position domain,2025-10-31,2025-10-31,
+76,noun,035,noun/035_ichi.md,位置,位置,n4,v1.0.5,Critical,completed,Position domain,2025-10-31,2025-10-31,
+77,noun,036,noun/036_tokoro.md,所,地方、場所,n4,v1.0.5,High,pending,Position domain,2025-10-31,2025-10-31,
+78,noun,037,noun/037_naka.md,中,中間、裡面,n5,v1.0.5,Critical,draft,Position domain,2025-10-31,2025-10-31,
+79,noun,038,noun/038_soto.md,外,外面,n5,v1.0.5,Critical,completed,Position domain,2025-10-31,2025-10-31,
+80,noun,039,noun/039_ue.md,上,上面,n5,v1.0.5,Critical,extension-review,Position domain,2025-10-31,2025-10-31,
+81,noun,040,noun/040_shita.md,下,下面,n5,v1.0.5,Critical,draft,Position domain,2025-10-31,2025-10-31,
+82,noun,041,noun/041_tonari.md,隣,旁邊,n5,v1.0.5,Critical,pending,Position domain,2025-10-31,2025-10-31,
+83,noun,042,noun/042_jikan.md,時間,時間,n5,v1.0.5,Critical,pending,Time domain,2025-10-31,2025-10-31,
+84,noun,043,noun/043_jikoku.md,時刻,時刻,n4,v1.0.5,High,pending,Time domain,2025-10-31,2025-10-31,
+85,noun,044,noun/044_ima.md,今,現在,n5,v1.0.5,Critical,pending,Time domain,2025-10-31,2025-10-31,
+86,noun,045,noun/045_kinou.md,昨日,昨天,n5,v1.0.5,Critical,pending,Time domain,2025-10-31,2025-10-31,
+87,noun,046,noun/046_ashita.md,明日,明天,n5,v1.0.5,Critical,pending,Time domain,2025-10-31,2025-10-31,
+88,noun,047,noun/047_kyou.md,今日,今天,n5,v1.0.5,Critical,pending,Time domain,2025-10-31,2025-10-31,
+89,noun,048,noun/048_mae.md,前,之前,n5,v1.0.5,Critical,pending,Time/Position,2025-10-31,2025-10-31,
+90,noun,049,noun/049_ato.md,後,之後,n5,v1.0.5,Critical,pending,Time/Position,2025-10-31,2025-10-31,
+91,noun,050,noun/050_hitsuyo.md,必要,必要,n4,v1.0.5,High,pending,需求表達,2025-10-31,2025-10-31,
+92,noun,051,noun/051_gimu.md,義務,義務,n3,v1.0.5,High,pending,規則相關,2025-10-31,2025-10-31,
+93,noun,052,noun/052_yakuwari.md,役割,角色,n3,v1.0.5,High,pending,Role domain,2025-10-31,2025-10-31,
+94,noun,053,noun/053_yakume.md,役目,職責,n3,v1.0.5,Medium,pending,Role domain,2025-10-31,2025-10-31,
+95,noun,054,noun/054_tachiba.md,立場,立場,n3,v1.0.5,Medium,pending,Role domain,2025-10-31,2025-10-31,
+96,noun,055,noun/055_iken.md,意見,意見,n4,v1.0.5,High,pending,Opinion,2025-10-31,2025-10-31,
+97,noun,056,noun/056_kangae.md,考え,想法,n4,v1.0.5,High,pending,Thinking,2025-10-31,2025-10-31,
+98,noun,057,noun/057_kimochi.md,気持ち,感受、心情,n4,v1.0.5,Critical,pending,Feeling,2025-10-31,2025-10-31,
+99,noun,058,noun/058_kibou.md,希望,希望,n4,v1.0.5,High,pending,Desire,2025-10-31,2025-10-31,
+100,noun,059,noun/059_nozomi.md,望み,願望,n3,v1.0.5,Medium,pending,Desire,2025-10-31,2025-10-31,
+101,noun,060,noun/060_riyuu.md,理由,理由,n4,v1.0.5,Critical,pending,Reason,2025-10-31,2025-10-31,
+102,noun,061,noun/061_houhou.md,方法,方法,n4,v1.0.5,Critical,pending,Method,2025-10-31,2025-10-31,
+103,noun,062,noun/062_itsu.md,いつ,何時,n5,v1.0.5,Critical,pending,疑問詞,2025-10-31,2025-10-31,
+104,noun,063,noun/063_naze.md,なぜ,為什麼,n4,v1.0.5,Critical,pending,疑問詞,2025-10-31,2025-10-31,
+105,noun,064,noun/064_dore.md,どれ,哪個,n5,v1.0.5,Critical,pending,疑問詞,2025-10-31,2025-10-31,
+106,noun,065,noun/065_dono.md,どの,哪個（連體詞）,n5,v1.0.5,Critical,pending,疑問詞,2025-10-31,2025-10-31,
+107,noun,066,noun/066_ikura.md,いくら,多少錢,n5,v1.0.5,Critical,pending,疑問詞,2025-10-31,2025-10-31,
+108,noun,067,noun/067_ikutsu.md,いくつ,幾個,n5,v1.0.5,Critical,pending,疑問詞,2025-10-31,2025-10-31,
+109,concept,010,concept/010_katsuyou.md,活用,活用,concept,v1.0.5,Critical,pending,核心概念,2025-10-31,2025-10-31,
+110,concept,011,concept/011_shugo.md,主語,主語,concept,v1.0.5,Critical,pending,句子成分,2025-10-31,2025-10-31,
+111,concept,012,concept/012_jutsugo.md,述語,述語,concept,v1.0.5,Critical,pending,句子成分,2025-10-31,2025-10-31,
+112,concept,013,concept/013_keigo_taikei.md,敬語体系,敬語體系,concept,v1.0.5,High,pending,敬語系統,2025-10-31,2025-10-31,
+113,concept,014,concept/014_doushi_ku.md,動詞句,動詞片語,concept,v1.0.5,High,pending,句法概念,2025-10-31,2025-10-31,
+114,concept,015,concept/015_onin_ron.md,音韻論,音韻論,concept,v1.0.5,Medium,pending,語言學,2025-10-31,2025-10-31,
+115,concept,016,concept/016_goi_ron.md,語彙論,詞彙學,concept,v1.0.5,Medium,pending,語言學,2025-10-31,2025-10-31,
+116,concept,017,concept/017_bunpou_ron.md,文法論,文法學,concept,v1.0.5,Medium,pending,語言學,2025-10-31,2025-10-31,
+117,concept,018,concept/018_keisei.md,形成,構詞法,concept,v1.0.5,Medium,pending,語言學,2025-10-31,2025-10-31,
+118,concept,019,concept/019_go_jun.md,語順,語序,concept,v1.0.5,High,pending,句法概念,2025-10-31,2025-10-31,
+119,concept,020,concept/020_bunrui.md,分類,分類系統,concept,v1.0.5,High,pending,系統概念,2025-10-31,2025-10-31,
+120,concept,021,concept/021_verb_types_system.md,動詞類型,動詞分類理論,concept,v1.0.5,High,pending,v1.0.4 延伸,2025-10-31,2025-10-31,
+121,concept,022,concept/022_animacy.md,生命性,生命性概念,concept,v1.0.5,High,pending,v1.0.4 延伸,2025-10-31,2025-10-31,
+122,concept,023,concept/023_aspect_theory.md,体理論,體理論,concept,v1.0.5,High,pending,v1.0.4 延伸,2025-10-31,2025-10-31,
+123,concept,024,concept/024_topic_prominent_language.md,主題優先語言,主題優先語言,concept,v1.0.5,Medium,pending,v1.0.4 延伸,2025-10-31,2025-10-31,
+124,concept,025,concept/025_pragmatics.md,語用学,語用學總論,concept,v1.0.5,High,pending,核心理論,2025-10-31,2025-10-31,
+125,concept,026,concept/026_information_flow.md,情報の流れ,資訊流動,concept,v1.0.5,Medium,pending,語用概念,2025-10-31,2025-10-31,
+126,concept,027,concept/027_nuance.md,ニュアンス,語感表達,concept,v1.0.5,Medium,pending,語用概念,2025-10-31,2025-10-31,
+127,concept,028,concept/028_agreement.md,同意,同意表達,concept,v1.0.5,Medium,pending,語用功能,2025-10-31,2025-10-31,
+128,concept,029,concept/029_confirmation.md,確認,確認表達,concept,v1.0.5,Medium,pending,語用功能,2025-10-31,2025-10-31,
+129,concept,030,concept/030_hypothesis.md,仮説,假設表達,concept,v1.0.5,Medium,pending,語用功能,2025-10-31,2025-10-31,
+130,concept,031,concept/031_opinion.md,意見,意見表達,concept,v1.0.5,Medium,pending,語用功能,2025-10-31,2025-10-31,
+131,concept,032,concept/032_uchi_soto.md,内・外,內外群體概念,concept,v1.0.5,High,pending,v1.0.4 延伸,2025-10-31,2025-10-31,
+132,concept,033,concept/033_benefactive_perspective.md,授受視角,授受視角概念,concept,v1.0.5,High,pending,v1.0.4 延伸,2025-10-31,2025-10-31,
+133,concept,034,concept/034_sonkeigo_concept.md,尊敬語,尊敬語概念,concept,v1.0.5,Medium,pending,Keigo 概念,2025-10-31,2025-10-31,
+134,concept,035,concept/035_kenjougo_concept.md,謙譲語,謙讓語概念,concept,v1.0.5,Medium,pending,Keigo 概念,2025-10-31,2025-10-31,
+135,concept,036,concept/036_teineigo_concept.md,丁寧語,丁寧語概念,concept,v1.0.5,Medium,pending,Keigo 概念,2025-10-31,2025-10-31,
+136,concept,037,concept/037_conditional_forms.md,条件形総覧,條件形總覽,concept,v1.0.5,High,pending,v1.0.4 延伸,2025-10-31,2025-10-31,
+137,concept,038,concept/038_given_new_information.md,既知・新情報,已知資訊與新資訊,concept,v1.0.5,Medium,pending,v1.0.4 延伸,2025-10-31,2025-10-31,
+138,concept,039,concept/039_obligation_expressions.md,義務表現,義務表達概念,concept,v1.0.5,High,pending,v1.0.4 延伸,2025-10-31,2025-10-31,
+139,concept,040,concept/040_teineitai_vs_futsutai.md,丁寧体・普通体,丁寧體 vs 普通體,concept,v1.0.5,High,pending,v1.0.4 延伸,2025-10-31,2025-10-31,
+140,concept,041,concept/041_verb_classification.md,動詞分類,動詞分類系統,concept,v1.0.5,High,pending,v1.0.4 延伸,2025-10-31,2025-10-31,
+141,concept,042,concept/042_doushi_base.md,動詞,動詞基本概念,concept,v1.0.5,Critical,pending,v1.0.4 延伸,2025-10-31,2025-10-31,
+142,concept,043,concept/043_word_formation.md,造語法,造語法,concept,v1.0.5,Medium,pending,v1.0.5 延伸,2025-10-31,2025-10-31,
+143,concept,044,concept/044_commercial_transaction.md,商取引,商業交易流程,concept,v1.0.5,Medium,pending,Business,2025-10-31,2025-10-31,
+144,concept,045,concept/045_context_tags.md,文脈タグ,標籤系統概念,concept,v1.0.5,Low,pending,Meta 系統,2025-10-31,2025-10-31,
+145,concept,046,concept/046_feeling_desire.md,感情・欲望,感情與欲望概念,concept,v1.0.5,Medium,pending,Semantic,2025-10-31,2025-10-31,
+146,concept,047,concept/047_polite_expression.md,丁寧表現,禮貌表達概念,concept,v1.0.5,Low,pending,Keigo 延伸,2025-10-31,2025-10-31,
+147,grammar,088,grammar/088_te_shimau.md,〜てしまう,完了、遺憾,n4,v1.0.4,High,pending,て形複合,2025-10-31,2025-10-31,
+148,grammar,089,grammar/089_te_aru.md,〜てある,結果狀態（已確認存在）,n4,unknown,-,pending,已存在 031,2025-10-31,2025-10-31,
+149,grammar,090,grammar/090_te_iru.md,〜ている,持續狀態（已確認存在）,n5,unknown,-,pending,已存在 049,2025-10-31,2025-10-31,
+150,grammar,091,grammar/091_te_oku.md,〜ておく,事先準備,n4,v1.0.4,High,pending,て形複合,2025-10-31,2025-10-31,
+151,grammar,092,grammar/092_te_miru.md,〜てみる,嘗試,n4,v1.0.4,High,pending,て形複合,2025-10-31,2025-10-31,
+152,grammar,093,grammar/093_ta_koto_ga_aru.md,〜たことがある,經驗表達（存在 020）,n4,v1.0.4,-,pending,已存在,2025-10-31,2025-10-31,
+153,grammar,094,grammar/094_ta_ato.md,〜た後で,...之後,n4,v1.0.4,High,pending,た形複合,2025-10-31,2025-10-31,
+154,grammar,095,grammar/095_ta_bakari.md,〜たばかり,剛剛...,n3,v1.0.4,High,pending,た形複合,2025-10-31,2025-10-31,
+155,grammar,096,grammar/096_ta_toki.md,〜た時,...的時候,n4,v1.0.4,High,pending,た形複合,2025-10-31,2025-10-31,
+156,grammar,097,grammar/097_mashita.md,ました,過去肯定,n5,v1.0.4,Critical,pending,ます形活用,2025-10-31,2025-10-31,
+157,grammar,098,grammar/098_masen.md,ません,現在否定,n5,v1.0.4,Critical,pending,ます形活用,2025-10-31,2025-10-31,
+158,grammar,099,grammar/099_masen_deshita.md,ませんでした,過去否定,n5,v1.0.4,Critical,pending,ます形活用,2025-10-31,2025-10-31,
+159,grammar,100,grammar/100_rentai_shushoku.md,連体修飾,連體修飾,n5,v1.0.4,Critical,pending,辭書形用法,2025-10-31,2025-10-31,
+160,grammar,101,grammar/101_tsumori_da.md,つもりだ,打算,n4,v1.0.4,High,pending,意志表達,2025-10-31,2025-10-31,
+161,grammar,102,grammar/102_dekiru.md,できる,する的可能形,n5,v1.0.4,Critical,pending,不規則可能,2025-10-31,2025-10-31,
+162,grammar,103,grammar/103_tara_jouken.md,たら条件形（已存在 030）,條件形,n4,unknown,-,pending,已存在,2025-10-31,2025-10-31,
+163,grammar,104,grammar/104_ba_jouken.md,ば条件形（已存在 047）,條件形,n4,unknown,-,pending,已存在,2025-10-31,2025-10-31,
+164,grammar,105,grammar/105_to_jouken.md,と条件形（已存在 052）,條件形,n4,unknown,-,pending,已存在,2025-10-31,2025-10-31,
+165,grammar,106,grammar/106_case_particles.md,格助詞系統,格助詞系統,n4,v1.0.4,Critical,pending,助詞整合,2025-10-31,2025-10-31,
+166,grammar,107,grammar/107_transitive_intransitive.md,他動詞與自動詞,他自動詞對比,n4,v1.0.4,Critical,pending,文法概念,2025-10-31,2025-10-31,
+167,grammar,108,grammar/108_jita_taiou.md,自他動詞対応,自他動詞對應,n4,v1.0.4,Critical,pending,動詞對,2025-10-31,2025-10-31,
+168,grammar,109,grammar/109_quotation_expression.md,引用表現,引用表達,n4,v1.0.4,High,pending,と的用法,2025-10-31,2025-10-31,
+169,grammar,110,grammar/110_conjunction_particles.md,並列助詞,並列助詞系統,n4,v1.0.4,High,pending,と、や等,2025-10-31,2025-10-31,
+170,grammar,111,grammar/111_aru_iru.md,ある/いる,存在表達,n5,v1.0.5,Critical,pending,存在動詞,2025-10-31,2025-10-31,
+171,grammar,112,grammar/112_movement_verbs.md,移動動詞,移動動詞與を,n4,v1.0.4,High,pending,を的用法,2025-10-31,2025-10-31,
+172,grammar,113,grammar/113_passive.md,受身形,被動形,n4,v1.0.4,High,pending,動詞活用,2025-10-31,2025-10-31,
+173,grammar,114,grammar/114_causative.md,使役形,使役形,n4,v1.0.5,High,pending,動詞活用,2025-10-31,2025-10-31,
+174,grammar,115,grammar/115_potential.md,可能形,可能形,n4,v1.0.5,High,pending,動詞活用,2025-10-31,2025-10-31,
+175,grammar,116,grammar/116_volitional.md,意向形,意向形,n4,v1.0.5,High,pending,動詞活用,2025-10-31,2025-10-31,
+176,grammar,117,grammar/117_imperative.md,命令形,命令形,n4,v1.0.5,High,pending,動詞活用,2025-10-31,2025-10-31,
+177,grammar,118,grammar/118_nakereba_naranai.md,〜なければならない,必須,n4,v1.0.5,Critical,pending,義務表達,2025-10-31,2025-10-31,
+178,grammar,119,grammar/119_te_wa_ikenai.md,〜てはいけない,禁止,n5,v1.0.5,Critical,pending,禁止表達,2025-10-31,2025-10-31,
+179,grammar,120,grammar/120_hou_ga_ii.md,〜ほうがいい（已存在 071）,最好,n4,unknown,-,pending,已存在,2025-10-31,2025-10-31,
+180,grammar,121,grammar/121_kara_node.md,から/ので,理由表達,n4,v1.0.5,Critical,pending,理由對比,2025-10-31,2025-10-31,
+181,grammar,122,grammar/122_tame_ni.md,〜ために,為了、因為,n4,v1.0.5,High,pending,理由表達,2025-10-31,2025-10-31,
+182,grammar,123,grammar/123_sou_da_appearance.md,〜そうだ（樣態）,看起來...,n4,v1.0.5,High,pending,樣態表達,2025-10-31,2025-10-31,
+183,grammar,124,grammar/124_sou_da_hearsay.md,〜そうだ（傳聞）,聽說...,n4,v1.0.5,High,pending,傳聞表達,2025-10-31,2025-10-31,
+184,grammar,125,grammar/125_you_ni_mieru.md,〜ように見える,看起來...,n4,v1.0.5,Medium,pending,外觀表達,2025-10-31,2025-10-31,
+185,grammar,126,grammar/126_rashii.md,〜らしい,好像、似乎,n4,v1.0.5,High,pending,推測表達,2025-10-31,2025-10-31,
+186,grammar,127,grammar/127_desu_form.md,です形,です形文法,n5,v1.0.5,High,pending,丁寧語,2025-10-31,2025-10-31,
+187,grammar,128,grammar/128_rareru_honorific.md,れる・られる,尊敬語用法,n4,v1.0.5,High,pending,敬語,2025-10-31,2025-10-31,
+188,grammar,129,grammar/129_basic_sentence_patterns.md,基本句型,日語基本句型,n5,v1.0.4,Critical,pending,句子結構,2025-10-31,2025-10-31,
+189,grammar,130,grammar/130_mokutekigo.md,目的語,賓語,concept,v1.0.4,High,pending,句子成分,2025-10-31,2025-10-31,
+190,grammar,131,grammar/131_tari_tari.md,〜たり〜たり,列舉,n4,v1.0.4,High,pending,た形用法,2025-10-31,2025-10-31,
+191,grammar,132,grammar/132_question_words.md,疑問詞系統,疑問詞系統,n5,v1.0.5,Critical,pending,疑問表達,2025-10-31,2025-10-31,
+192,grammar,133,grammar/133_polite_questions.md,丁寧な質問,禮貌提問,n4,v1.0.5,High,pending,疑問表達,2025-10-31,2025-10-31,
+193,grammar,134,grammar/134_question_particles.md,疑問助詞,疑問助詞,n5,v1.0.5,Medium,pending,か等,2025-10-31,2025-10-31,
+194,grammar,135,grammar/135_invitation_grammar.md,誘い方,邀約文法,n4,v1.0.5,High,pending,邀約表達,2025-10-31,2025-10-31,
+195,grammar,136,grammar/136_modal_expressions.md,モダリティ,語氣表達系統,n3,v1.0.5,High,pending,整合卡片,2025-10-31,2025-10-31,
+196,grammar,137,grammar/137_negation_system.md,否定体系,否定系統整合,n4,v1.0.5,High,pending,整合卡片,2025-10-31,2025-10-31,
+197,grammar,138,grammar/138_koto_nominalization.md,こと名詞化,こと名詞化,n4,misc-tags,High,pending,こと文法,2025-10-31,2025-10-31,
+198,grammar,139,grammar/139_koto_ga_dekiru.md,〜ことができる,能力表達,n5,misc-tags,Critical,pending,こと文法,2025-10-31,2025-10-31,
+199,grammar,140,grammar/140_koto_ni_naru.md,〜ことになる,決定/規定,n4,misc-tags,High,pending,こと文法,2025-10-31,2025-10-31,
+200,grammar,141,grammar/141_mashou_kei.md,ましょう形,ましょう形基礎,n5,misc-tags,Critical,pending,ます形活用,2025-10-31,2025-10-31,
+201,grammar,142,grammar/142_mashou_ka.md,〜ましょうか,提議,n5,misc-tags,High,pending,邀約表達,2025-10-31,2025-10-31,
+202,grammar,143,grammar/143_te_kara.md,〜てから,...之後,n5,misc-tags,Critical,pending,順序表達,2025-10-31,2025-10-31,
+203,grammar,144,grammar/144_mae_ni.md,〜前に,...之前,n5,misc-tags,Critical,pending,時間表達,2025-10-31,2025-10-31,
+204,grammar,145,grammar/145_ato_de.md,〜後で,...之後,n5,misc-tags,Critical,pending,時間表達,2025-10-31,2025-10-31,
+205,grammar,146,grammar/146_nagara.md,〜ながら,一邊...一邊...,n4,misc-tags,High,pending,同時動作,2025-10-31,2025-10-31,
+206,grammar,147,grammar/147_koto_ni_natte_iru.md,〜ことになっている,規定,n4,misc-tags,High,pending,規則表達,2025-10-31,2025-10-31,
+207,comparison,009,comparison/009_te_iru_vs_ta.md,〜ている vs 〜た,時態對比,n4,v1.0.4,High,pending,時態體態,2025-10-31,2025-10-31,
+208,comparison,010,comparison/010_ba_vs_to.md,ば vs と,條件形對比,n4,v1.0.4,High,pending,條件形,2025-10-31,2025-10-31,
+209,comparison,011,comparison/011_ba_vs_tara.md,ば vs たら,條件形對比,n4,v1.0.4,High,pending,條件形,2025-10-31,2025-10-31,
+210,comparison,012,comparison/012_conditional_comparison.md,四種條件形總對比,條件形總對比,n4,v1.0.4,Critical,pending,條件形,2025-10-31,2025-10-31,
+211,comparison,013,comparison/013_topic_vs_subject.md,主題 vs 主語,主題主語對比,n4,v1.0.4,High,pending,は vs が,2025-10-31,2025-10-31,
+212,contrast,004,contrast/004_ability_capacity.md,能力 vs 容量,能力容量對比,n4,v1.0.5,Critical,pending,語義對比,2025-10-31,2025-10-31,
+213,contrast,005,contrast/005_choice_decision.md,選択 vs 決定,選擇決定對比,n4,v1.0.5,Critical,pending,語義對比,2025-10-31,2025-10-31,
+214,contrast,006,contrast/006_desire_volitional.md,願望 vs 意志,願望意志對比,n4,v1.0.5,Critical,pending,語義對比,2025-10-31,2025-10-31,
+215,contrast,007,contrast/007_necessity_obligation.md,必要 vs 義務,必要義務對比,n4,v1.0.5,Critical,pending,語義對比,2025-10-31,2025-10-31,
+216,contrast,008,contrast/008_permission_prohibition.md,許可 vs 禁止,許可禁止對比,n4,v1.0.5,Critical,pending,語義對比,2025-10-31,2025-10-31,
+217,contrast,009,contrast/009_request_suggestion.md,請求 vs 建議,請求建議對比,n4,v1.0.5,High,pending,語義對比,2025-10-31,2025-10-31,
+218,contrast,010,contrast/010_shougyou_vs_bijinesu.md,商業 vs ビジネス,和語漢語對比,n3,v1.0.5,Low,pending,詞彙對比,2025-10-31,2025-10-31,
+219,comparison,014,comparison/014_wo_vs_de.md,を vs で,助詞對比,n5,v1.0.4,Medium,pending,助詞用法,2025-10-31,2025-10-31,
+220,comparison,015,comparison/015_wo_vs_ni.md,を vs に,助詞對比,n5,v1.0.4,Medium,pending,助詞用法,2025-10-31,2025-10-31,
+221,comparison,016,comparison/016_ageru_vs_kureru.md,あげる vs くれる,授受動詞對比,n4,v1.0.5,High,pending,授受表現,2025-10-31,2025-10-31,
+222,phrase,009,phrase/009_daily_routine.md,日常作息表達,日常作息,n5,v1.0.5,High,pending,Context tag,2025-10-31,2025-10-31,
+223,phrase,010,phrase/010_payment_expressions.md,支払い表現,付款表達,n4,v1.0.5,High,pending,Context tag,2025-10-31,2025-10-31,
+224,phrase,011,phrase/011_shop_clerk.md,店員用語,店員用語,n4,v1.0.5,Medium,pending,Context tag,2025-10-31,2025-10-31,
+225,phrase,012,phrase/012_dou_shimasu_ka.md,どうしますか,您要怎麼做,n5,v1.0.4,High,pending,禮貌疑問,2025-10-31,2025-10-31,
+226,phrase,013,phrase/013_tara_dou.md,〜たらどう,怎麼樣,n4,v1.0.4,High,pending,建議表達,2025-10-31,2025-10-31,
+227,phrase,014,phrase/014_yoku_iwareru.md,よく言われる,常說的話,n4,v1.0.5,Medium,pending,常用表達,2025-10-31,2025-10-31,
+228,phrase,015,phrase/015_to_iu_koto.md,というこ,也就是說,n4,v1.0.5,Medium,pending,說明表達,2025-10-31,2025-10-31,
+229,phrase,016,phrase/016_ki_ga_suru.md,気がする,感覺、覺得,n4,v1.0.5,High,pending,感受表達,2025-10-31,2025-10-31,
+230,phrase,017,phrase/017_tsumori_datta.md,つもりだった,本來打算,n4,v1.0.5,Medium,pending,意圖表達,2025-10-31,2025-10-31,
+231,phrase,018,phrase/018_shitai_to_omou.md,したいと思う,想要做,n5,v1.0.5,High,pending,願望表達,2025-10-31,2025-10-31,
+232,auxiliary,001,auxiliary/001_tai.md,〜たい（已列 132）,想要,n5,v1.0.5,Critical,pending,助動詞,2025-10-31,2025-10-31,
+233,auxiliary,002,auxiliary/002_nai.md,ない,否定助動詞,n5,v1.0.4,Critical,pending,助動詞,2025-10-31,2025-10-31,
+234,auxiliary,003,auxiliary/003_you.md,〜よう,樣態、推測,n4,v1.0.5,High,pending,助動詞,2025-10-31,2025-10-31,
+235,auxiliary,004,auxiliary/004_rashii.md,〜らしい,好像,n4,v1.0.5,High,pending,助動詞,2025-10-31,2025-10-31,
+236,auxiliary,005,auxiliary/005_mitai.md,〜みたい,好像,n4,v1.0.5,High,pending,助動詞,2025-10-31,2025-10-31,
+237,adverb,006,adverb/006_tokidoki.md,時々,有時,n5,v1.0.4,High,pending,頻率副詞,2025-10-31,2025-10-31,
+238,adverb,007,adverb/007_tamani.md,たまに,偶爾,n4,v1.0.4,High,pending,頻率副詞,2025-10-31,2025-10-31,
+239,adverb,008,adverb/008_dou.md,どう,怎麼,n5,v1.0.4,Critical,pending,疑問副詞,2025-10-31,2025-10-31,
+240,adverb,009,adverb/009_sou.md,そう,那樣,n5,v1.0.4,High,pending,指示副詞,2025-10-31,2025-10-31,
+241,adverb,010,adverb/010_itsumo.md,いつも,總是,n5,v1.0.5,Critical,pending,頻率副詞,2025-10-31,2025-10-31,
+242,adverb,011,adverb/011_yoku.md,よく,經常,n5,v1.0.5,Critical,pending,頻率副詞,2025-10-31,2025-10-31,
+243,adverb,012,adverb/012_amari.md,あまり,不太,n5,v1.0.5,High,pending,程度副詞,2025-10-31,2025-10-31,
+244,adverb,013,adverb/013_zenzen.md,全然,完全不,n5,v1.0.5,High,pending,程度副詞,2025-10-31,2025-10-31,
+245,adverb,014,adverb/014_totemo.md,とても,非常,n5,v1.0.5,Critical,pending,程度副詞,2025-10-31,2025-10-31,
+246,adverb,015,adverb/015_sukoshi.md,少し,一點,n5,v1.0.5,Critical,pending,程度副詞,2025-10-31,2025-10-31,
+247,adverb,016,adverb/016_motto.md,もっと,更加,n5,v1.0.5,High,pending,程度副詞,2025-10-31,2025-10-31,
+248,adverb,017,adverb/017_mazu.md,まず,首先,n4,misc-tags,Critical,pending,順序副詞,2025-10-31,2025-10-31,
+249,adverb,018,adverb/018_saigo_ni.md,最後に,最後,n4,misc-tags,High,pending,順序副詞,2025-10-31,2025-10-31,
+250,conjunction,012,conjunction/012_sorekara.md,それから,然後,n4,misc-tags,High,pending,順序連接,2025-10-31,2025-10-31,
+251,conjunction,013,conjunction/013_matawa.md,または,或者,n4,v1.0.5,Medium,pending,選擇連接,2025-10-31,2025-10-31,
+252,conjunction,014,conjunction/014_shitagatte.md,したがって,因此,n3,v1.0.5,Medium,pending,理由連接,2025-10-31,2025-10-31,
+253,conjunction,015,conjunction/015_sunawachi.md,すなわち,也就是說,n2,v1.0.5,Low,pending,說明連接,2025-10-31,2025-10-31,
+254,conjunction,016,conjunction/016_tadashi.md,ただし,但是,n3,v1.0.5,Medium,pending,例外連接,2025-10-31,2025-10-31,
+255,verb-irr,008,verb-irr/008_oru.md,おる,いる謙讓語,n4,v1.0.4,High,pending,敬語,2025-10-31,2025-10-31,
+256,verb-irr,009,verb-irr/009_kanjiru.md,感じる,感受,n4,misc-tags,High,pending,思考動詞,2025-10-31,2025-10-31,
+257,suffix,001,suffix/001_kata.md,〜方,...的方法,n4,misc-tags,High,pending,接尾詞,2025-10-31,2025-10-31,
+258,suffix,002,suffix/002_rashii.md,〜らしい,像...的,n4,v1.0.5,Medium,pending,接尾詞,2025-10-31,2025-10-31,
+259,prefix,001,prefix/001_o_go.md,お〜/ご〜,敬語接頭詞,n5,v1.0.5,High,pending,接頭詞,2025-10-31,2025-10-31,
+260,particle,019,particle/019_ya.md,や,並列（部分列舉）,n5,v1.0.4,Critical,pending,對比 と,2025-10-31,2025-10-31,
+261,particle,020,particle/020_kara_yori.md,から vs より,起點助詞對比,n4,v1.0.5,High,pending,助詞對比,2025-10-31,2025-10-31,
+262,particle,021,particle/021_de_means.md,で（手段）,手段の「で」,n5,misc-tags,Critical,pending,で的用法,2025-10-31,2025-10-31,
+263,grammar,148,grammar/148_zaruwoenai.md,〜ざるを得ない,不得不,n3,misc-tags,High,pending,諦念表達,2025-10-31,2025-10-31,
+264,grammar,149,grammar/149_ni_yotte.md,〜によって,根據、通過,n4,misc-tags,High,pending,手段方法,2025-10-31,2025-10-31,
