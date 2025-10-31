@@ -71,11 +71,39 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - 授受表現缺少敬語形式
   - Domain 核心詞彙待建立
   - 系統性整合卡片不足
+- 產出文檔：`doc/worklog/extension-review-1.0.5.md`
+
+### Linking 階段
+- **簡化處理**：由於 v1.0.5 是 Meta 系統維護版本，Tag Meta 卡片不是學習內容，採用簡化處理
+- **決策原因**：
+  - Tag Meta 卡片是系統定義卡片，主要用於規範 tag 使用
+  - Extension-Review 已識別 200+ 張學習內容卡片需求
+  - 資源應優先建立學習內容卡片，而非優化 Meta 系統連結
+- **識別新卡片**：0 張（Linking 階段不適用於 Meta 卡片）
+- 產出文檔：`doc/worklog/linking-cards-1.0.5.md`
+
+### 系統設計決策：Meta 卡片 vs 學習內容卡片
+- 確立**雙軌制設計原則**：
+  - **Meta 卡片**（`_meta/`）：系統定義和組織規範，不參與四階段循環
+  - **學習內容卡片**（`noun/`, `verb/`, `grammar/` 等）：實際教學材料，嚴格遵循四階段流程
+- 同一個日文詞彙可能需要兩張卡片：
+  - Meta 定義卡片：定義「如何分類」（如 `_meta/tags/grammar/grammar.md`）
+  - 學習內容卡片：教「如何使用這個詞」（如 `noun/bunpou.md` - 文法）
+
+### v1.0.6 規劃
+- 建立工作日誌：`doc/worklog/worklog-1.0.6.md`
+- 規劃建立 40 張 Critical 優先級學習內容卡片
+- 優先補充：Conjunction 分類（5 張）、Domain 核心詞彙（10 張）、授受表現敬語（6 張）
 
 ### Notes
-- 這是一個維護性版本（PATCH），不涉及內容卡片的新增或修改
+- 這是一個維護性版本（PATCH），專注於 Meta 系統完善
 - Tag 系統完整性大幅提升，為未來的卡片建立提供更好的基礎
 - Extension-Review 為後續 10 個版本（v1.0.6 - v1.1.5）提供明確的建立方向
+- 系統驗證通過：
+  - ✅ Categories: 25/25 完全一致
+  - ✅ 編號連續性：無問題
+  - ✅ Wikilink 格式：無遺留問題
+  - ⚠️ Tags: 158 定義 vs 153 使用（6 個預先定義，正常）
 
 ## [1.0.4] - 2025-10-30
 
