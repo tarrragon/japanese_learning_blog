@@ -46,21 +46,55 @@
    - 確認「版本目標聲明」清晰明確
    - 確認「Phase 1 卡片清單」已完整列出（表格形式）
 
-2. **[ ] 確認卡片來源的版本歸屬**
-   - 如果來源是 `extension-review-{prev}.md`，確認版本號為 `{prev}`（上一版本），不是 `{current}`
-   - 如果來源是 `linking-cards-{prev}.md`，確認版本號為 `{prev}`（上一版本），不是 `{current}`
-   - 理解：v1.0.X 的產出文檔 → v1.0.(X+1) 的輸入來源
+2. **[ ] 檢視並整合前一版本的延伸需求**（必須完成）
 
-3. **[ ] 確認 Draft 階段的卡片數量合理**
+   **步驟 2.1：讀取 Extension-Review 報告**
+   - 文件路徑：`doc/worklog/extension-cards-{prev}.md`
+   - 確認版本號為 `{prev}`（上一版本），不是 `{current}`
+   - 識別 Critical 和 High 優先級卡片
+   - 記錄需求數量和主要分類
+
+   **步驟 2.2：讀取 Linking 報告**
+   - 文件路徑：`doc/worklog/linking-cards-{prev}.md`
+   - 確認版本號為 `{prev}`（上一版本）
+   - 識別已建立的草稿卡片（需完成）
+   - 識別待建立的 Critical 卡片
+
+   **步驟 2.3：整合卡片來源**
+   - 合併兩份報告的需求
+   - 按優先級和 JLPT 等級排序
+   - 確定本版本處理數量（建議 20-40 張）
+
+   **重要**：每個版本都必須檢視前一版本的報告，這是版本循環的核心流程
+   - v1.0.X 的產出文檔 → v1.0.(X+1) 的輸入來源
+   - 不可跳過此步驟
+
+3. **[ ] 建立本版本的工作清單**（必須完成）
+
+   在 `doc/worklog/worklog-{version}.md` 中建立詳細的卡片清單表格：
+
+   **必須包含的欄位**：
+   - 編號
+   - 卡片路徑
+   - 日文
+   - 中文
+   - JLPT 等級
+   - Stage（初始為 pending）
+
+   **參考範例**：
+   - `doc/worklog/worklog-1.0.4.md`（完整的卡片來源說明）
+   - `doc/worklog/worklog-1.0.6.md`（包含來源標註）
+
+4. **[ ] 確認 Draft 階段的卡片數量合理**
    - 建議範圍：20-40 張內容卡片
    - 如果超過 50 張，考慮分批次處理
    - Tag Meta 卡片可以另計
 
-4. **[ ] 確認沒有遺漏上一版本的草稿卡片**
+5. **[ ] 確認沒有遺漏上一版本的草稿卡片**
    - 執行：`grep -r "stage: draft" zettelkasten/*/`
    - 確認所有草稿卡片都已列入本版本的工作清單
 
-5. **[ ] 確認版本分支已建立**
+6. **[ ] 確認版本分支已建立**
    - 執行：`git checkout -b feature/v{version}` 或 `git checkout feature/v{version}`
 
 ### 📋 檢查完成後再開始 Draft 階段
