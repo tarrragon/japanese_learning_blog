@@ -1,190 +1,152 @@
 ---
-title: noun/gimu
-description: 義務 - 法律、道德或社會規範要求必須履行的責任
-type: noun
-jlpt: n3
-stage: draft
-draft: true
-auto_generated: false
-needs_review: true
+title: 義務（ぎむ）
+description: 義務、責任、責務
 tags:
   - context/formal
-  - context/business
-  - context/academic
-created: 2025-10-31
-updated: 2025-10-31
+  - domain/learning
+  - jlpt/n3
+date: 2025-10-31
+stage: draft
+links: {}
 ---
 
 ## 日文
 
 義務（ぎむ）
 
-### 名詞情報
+**羅馬拼音**：gimu
 
-| 項目 | 內容 |
-|------|------|
-| 漢字 | 義務 |
-| 讀音 | ぎむ |
-| 詞性 | 名詞 |
-| JLPT | N3 |
-| 常用搭配 | を果たす、を負う、がある |
+**詞性**：名詞
 
 ## 日文解釋
 
-義務とは、法律、道徳、契約、または社会的規範によって、人が必ず果たさなければならない責任や役割のことを指す。この概念は、権利と対をなす重要な社会的概念である。
-
-法律的な義務としては、納税の義務、教育を受けさせる義務、勤労の義務などがある。これらは憲法や法律によって定められており、違反すると法的な制裁を受ける可能性がある。
-
-契約上の義務は、当事者間の合意に基づいて発生する。例えば、雇用契約における労働者の勤務義務や、売買契約における代金支払い義務などがある。これらの義務を履行しない場合、契約違反となり、損害賠償などの責任を負うことになる。
-
-道徳的・社会的な義務は、法律で強制されるものではないが、社会の構成員として期待される行動規範である。親が子供を養育する義務、高齢者を敬う義務、環境を保護する義務などがこれに該当する。
-
-義務の対義語は「権利」であり、両者は表裏一体の関係にある。権利を主張する前に義務を果たすことが重要だという考え方は、日本の社会文化において特に強調される傾向がある。
+「義務」とは、道德的、法律的、社會的に應當すべき行為や責任を指す。個人が社會に對して、あるいは法律に基づいて果たさなければならない、應當ある義務のことである。例えば、納税の義務、教育を受けさせる義務、親として子どもを養育する義務など、個人が避けられない責任や職責を指す。この言葉は、單なる一般的な責任だけでなく、法律や道德に基づいた「～しなければならない」という强制性を含んでいる點が特徴である。また「責務」（せきむ）や「責任」（せきにん）との違いは、「義務」は法律的・道德的に必ず履行しなければならない強い責任であるのに對し、一般的な責任を指す場合が多い點である。
 
 ## 英文解釋
 
-"Gimu" (義務) refers to an obligation or duty that one is required to fulfill by law, morality, contract, or social norms. It represents a responsibility or role that must be carried out.
-
-Legal obligations include constitutional duties such as paying taxes, providing education to children, and working. Contractual obligations arise from agreements between parties, such as an employee's duty to work or a buyer's duty to pay.
-
-Beyond legal requirements, moral and social obligations represent behavioral expectations in society, though they are not legally enforceable. The concept of "gimu" is often contrasted with "kenri" (rights), forming a complementary pair in Japanese social philosophy, where fulfilling one's duties is considered a prerequisite for claiming rights.
+"Gimu" refers to an obligation, duty, or responsibility that one is morally, legally, or socially bound to fulfill. It represents an action or responsibility that a person must perform as a requirement of society, law, or moral standards. Examples include tax obligations, the duty to educate children, and parental responsibilities for child support. Unlike general responsibilities, "gimu" carries a stronger sense of compulsion based on legal, social, or ethical foundations, emphasizing the "must do" nature of the obligation. The key distinction from similar terms like "sekimu" (職務上の責務) and "sekinin" (一般的な責任) is that "gimu" specifically denotes a mandatory obligation that cannot be avoided, with a legal or ethical foundation.
 
 ## 中文解釋
 
-「義務」指的是根據法律、道德、契約或社會規範，人們必須履行的責任或角色。這個概念與「權利」相對應，是重要的社會概念。
+「義務」指道德上、法律上或社會上應當履行的行為或責任。是指個人必須履行且無法避免的責任、職責或義務。例如納稅義務、受教育義務、父母撫養子女的義務等。這個詞特別強調基於法律、道德或社會規範的「必須」特性，帶有強制性的含義。「義務」與「責務」或「責任」的區別在於，「義務」是法律上或道德上必須履行的強制性責任，而一般的「責任」範圍更廣。「義務」經常在法律文件、教育文脈和正式場合使用，強調的是無法迴避的責任性質。
 
-法律上的義務包括納稅義務、讓子女接受教育的義務、勞動義務等，這些都是由憲法或法律規定的。契約上的義務則是基於當事人之間的協議而產生，例如勞動契約中勞工的工作義務、買賣契約中的付款義務等。
+## 例句
 
-道德和社會義務雖然不受法律強制，但是作為社會成員應該遵守的行為規範，例如父母撫養子女的義務、尊敬長輩的義務等。在日本社會文化中，特別強調在主張權利之前應先履行義務的觀念。
+**例句1**
+```
+親は子どもに教育を受けさせる義務がある。
+Parents have the obligation to provide education for their children.
+父母有義務讓孩子接受教育。
+```
+
+**例句2**
+```
+日本の國民は納税の義務を果たさなければならない。
+Japanese citizens must fulfill their tax obligations.
+日本國民必須履行納稅義務。
+```
+
+**例句3**
+```
+社會人として、他人の信頼を失わないようにする義務がある。
+As a member of society, we have a moral obligation not to betray others' trust.
+作為社會人士，我們有義務不辜負他人的信任。
+```
+
+**例句4**
+```
+環境保護は未來の世代に對する私たちの義務である。
+Environmental protection is our obligation to future generations.
+環保是我們對未來世代的義務。
+```
+
+**例句5**
+```
+弁護士は依頼人に忠實を盡くす義務を有している。
+Lawyers have an obligation to be faithful to their clients.
+律師有義務對委託人盡忠。
+```
 
 ## 核心用法
 
-### 用法 1：表達法定或契約上必須履行的責任
+### 用法 1：法律上や制度上の義務
 
-義務與「を果たす」（履行）、「を負う」（承擔）、「がある」（有...）等動詞搭配使用。
+法律や制度で定められた、履行しなければならない責任を指す。
 
-**例句 1**
-```
-国民には納税の義務がある。
-Citizens have the obligation to pay taxes.
-國民有納稅的義務。
-```
+- 【義務教育】：子どもが必ず受けるべき教育制度
+- 【納税義務】：國民の基本的な法的責任
+- 【報告義務】：特定の職業や立場に課せられた報告責任
 
-**例句 2**
-```
-親は子供を教育する義務を負っている。
-Parents bear the obligation to educate their children.
-父母負有教育子女的義務。
-```
+### 用法 2：道徳的・倫理的責任
 
-### 用法 2：在商務和法律文書中表達責任關係
+道德や倫理に基づいた、すべき責任を指す。
 
-常出現在契約、規章制度、法律文件等正式場合。
+- 親として子どもを育てる義務
+- 人間社會の一員として守るべき倫理的責任
+- 環境や社會に對する道德的責務
 
-**例句 3**
-```
-従業員は会社の機密情報を守る義務がある。
-Employees have an obligation to protect company confidential information.
-員工有保護公司機密資訊的義務。
-```
+### 用法 3：職務や立場に由來する責任
 
-**例句 4**
-```
-契約の当事者は互いに義務を履行しなければならない。
-Parties to a contract must fulfill their respective obligations.
-契約當事人必須履行各自的義務。
-```
+自分の職務や地位に基づいた、果たすべき責任を指す。
 
-### 用法 3：與權利對比使用
+- 弁護士の法的義務
+- 教師の教育義務
+- 會社員の職務上の責務
 
-強調權利與義務的平衡關係。
+## 常見搭配
 
-**例句 5**
-```
-権利を主張する前に、まず義務を果たすべきだ。
-Before claiming rights, one should first fulfill their obligations.
-在主張權利之前，應該先履行義務。
-```
-
-## 使用規則
-
-### 常見搭配
-
-**動詞搭配**：
-- 義務を果たす（履行義務）
-- 義務を負う（承擔義務）
-- 義務を怠る（怠慢義務）
-- 義務を違反する（違反義務）
-- 義務を免れる（免除義務）
-- 義務がある（有義務）
-
-**形容詞修飾**：
-- 法的義務（法律義務）
-- 道徳的義務（道德義務）
-- 契約上の義務（契約義務）
-- 社会的義務（社會義務）
-- 重大な義務（重大義務）
-
-### 注意事項
-
-1. **正式用語**：「義務」是較為正式的詞彙，多用於法律、商務、學術等正式場合。日常對話中較少使用。
-
-2. **與「責任」的區別**：「義務」強調必須做的事，通常有外部規範（法律、契約等）；「責任」則更廣泛，包含自發性的責任感。
-
-3. **日本文化特色**：在日本社會中，義務與權利的關係被視為不平等的，強調先盡義務後享權利的思想。
+| 搭配 | 意味 |
+|------|------|
+| 義務教育 | 子どもが必ず受けるべき教育制度 |
+| 義務感 | 義務をしなければならないという心理的感覚 |
+| 義務的 | 義務として、形式的にする様子 |
+| 義務づける | 義務として課す、責任を負わせる |
+| 義務を果たす | 責任を完了する、責任を遂行する |
+| 義務に反する | 義務に背く、責任を果たさない |
+| ～の義務 | ～する責任、～しなければならない |
+| 義務を負う | 責任を引き受ける、責任を持つ |
 
 ## 常見錯誤
 
-### 錯誤 1：在日常對話中過度使用「義務」
+### 錯誤 1：主語と述語の關係
 
-❌ 誤：明日は義務があるから行けない。
-✅ 正：明日は用事があるから行けない。
-說明：日常對話中表達「有事」時，使用「用事」比「義務」更自然。「義務」過於正式。
+❌ 誤：わたしは義務を果たさせている。
+✅ 正：わたしは義務を果たしている。
+說明：「果たす」は自分が義務を完了する意味なので、相手に強制することではない。
 
-### 錯誤 2：混淆「義務」與「責任」的使用場合
+### 錯誤 2：義務と責任の混淆
 
-❌ 誤：この問題は私の義務です。
-✅ 正：この問題は私の責任です。
-說明：承認過失或擔當時，使用「責任」比「義務」更適當。「義務」強調規定要做的事，而非承擔後果。
+❌ 誤：會社の一般的な責務として、新しいプロジェクトを始めることは義務です。
+✅ 正：會社の一般的な責務として、新しいプロジェクトを始めることが求められています。
+說明：「義務」は法律的・倫理的に必ず履行しなければならない強い責任。會社の一般的な責務の場合、「求められる」「期待される」などの表現がより自然。
 
-### 錯誤 3：不正確的動詞搭配
+### 錯誤 3：「義務がある」と「必要がある」の區別
 
-❌ 誤：義務をする
-✅ 正：義務を果たす / 義務を履行する
-說明：「義務」不能直接與「する」搭配，應使用「果たす」（履行）或「履行する」等專門動詞。
+❌ 誤：毎日会議に参加する必要がある。（重要な義務と思っている場合）
+✅ 正：毎日会議に参加する義務がある。（強い法的・倫理的責任がある場合）
+說明：法律的や倫理的に必須の場合は「義務がある」、單に実際的に必要な場合は「必要がある」を使う。
 
 ## 學習要點
 
-1. **正式用語**：「義務」主要用於法律、商務、學術等正式場合，日常對話中較少使用。
-
-2. **與權利的對應**：「義務」（gimu）與「権利」（kenri）是一對重要的社會概念，在日本文化中特別強調義務優先的思想。
-
-3. **動詞搭配固定**：記住常用的固定搭配：「義務を果たす」（履行義務）、「義務を負う」（承擔義務）、「義務がある」（有義務）。
-
-4. **種類區分**：理解不同類型的義務：法的義務（法律義務）、契約上的義務（契約義務）、道徳的義務（道德義務）、社会的義務（社會義務）。
-
-5. **文化理解**：在日本社會中，義務被視為個人對社會、組織或他人應盡的基本職責，是社會秩序的重要基礎。
+1. **法律的・倫理的含意**：「義務」は單なる「責任」ではなく、法律や道德に基づいた強制的な責任を指す特徴がある
+2. **～する義務がある**：「～しなければならない」という必須の行為を表現する重要な文法パターン
+3. **社會文脈での使用**：教育、税務、福祉など、社會制度や法律に關わる場面で頻繁に使用される
+4. **義務感との區別**：「義務」は客観的・制度的なもの、「義務感」は主観的・心理的なもの
+5. **類似詞彙との區別**：「責務」「責任」「義務」はニュアンスが異なり、文脈によって使い分ける必要がある
 
 ## 相關連結
 
-### 對比詞彙
-- [[noun/責任]] - 責任（較廣泛的責任概念）（待建立）
-- [[noun/権利]] - 權利（與義務相對的概念）（待建立）
-- [[noun/役割]] - 角色、職責（待建立）
+### 法律・制度用語
+- [[noun/046_sekinin.md]] - 責任（せきにん） - より廣い責任や職務（待建立）
+- [[noun/047_sekimu.md]] - 責務（せきむ） - 職務や役割に基づいた責任（待建立）
 
-### 相關動詞
-- [[verb-u/果たす]] - 履行、完成（待建立）
-- [[verb-u/負う]] - 承擔、背負（待建立）
-- [[verb-u/怠る]] - 怠慢、疏忽（待建立）
+### 類似概念
+- [[noun/052_kenri.md]] - 権利（けんり） - 義務の反対概念（待建立）
+- [[grammar/098_nakerebanaranai.md]] - ～なければならない - 義務を表現する文法（待建立）
 
-### 相關文法
-- [[grammar/べき]] - 表示應該做的事（待建立）
-- [[grammar/なければならない]] - 必須（表達義務）（待建立）
-
-### 延伸主題
-- [[concept/権利と義務]] - 權利與義務的關係（待建立）
-- [[context/法律用語]] - 法律用語（待建立）
-- [[context/contract]] - 契約相關用語（待建立）
+### 相關用語
+- [[noun/053_kyoikugimu.md]] - 義務教育（ぎむきょういく） - 制度としての教育義務（待建立）
+- [[grammar/099_gimudzukeru.md]] - 義務づける - 義務として課す表現（待建立）
 
 ---
 

@@ -10,6 +10,7 @@ auto_generated: false
 needs_review: true
 tags:
   - context/daily_life
+  - daily_life
   - jlpt/n5
 created: 2025-10-31
 updated: 2025-10-31

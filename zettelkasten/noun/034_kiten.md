@@ -8,8 +8,8 @@ draft: true
 auto_generated: false
 needs_review: true
 tags:
-  - location
-  - abstract
+  - context/formal
+  - domain/movement
   - jlpt/n3
 created: 2025-10-31
 updated: 2025-10-31

@@ -1,7 +1,8 @@
 ---
-title: 所（ところ）
+title: noun/tokoro
 description: 地方、場所、位置
 type: noun
+subtype: location
 jlpt: n4
 stage: draft
 draft: true
@@ -9,164 +10,182 @@ auto_generated: false
 needs_review: true
 tags:
   - context/daily_life
-  - domain/movement
+  - domain/daily_life
+  - position/location
   - jlpt/n4
 created: 2025-10-31
 updated: 2025-10-31
 ---
 
 ## 日文
-所（ところ）
 
-**羅馬拼音**：tokoro
+**所**（ところ）
 
-**詞性**：名詞
+### 名詞情報
+
+| 項目 | 內容 |
+|------|------|
+| 漢字 | 所 |
+| 讀音 | ところ |
+| 詞性 | 名詞 |
+| 類型 | 具體名詞（位置/場所） |
+| JLPT | N4 |
+| 常用搭配 | 静かなところ、いい所、このところ、あの辺り |
 
 ## 日文解釋
 
-「所」（ところ）は、場所や位置を表す基本的な名詞です。物理的な場所を指すこともあれば、抽象的な「立場」や「時点」を表すこともあります。日常会話で頻繁に使われ、「場所」（ばしょ）よりもやや口語的でカジュアルなニュアンスがあります。
+「所」は、特定の位置や場所を示す最も基本的な名詞の一つです。「ところ」という読み方の場合、物理的な位置から抽象的な状況まで、広い範囲を表現することができます。
 
-「所」は単独で使われるだけでなく、動詞と組み合わせて様々な文法表現を作ることができます。例えば、「〜するところ」（〜しようとしている）、「〜したところ」（〜したばかり）、「〜しているところ」（〜している最中）など、時間的な側面を表現する重要な文法パターンとしても機能します。
+具体的には、地理的な位置、場所、建物の内部の特定の区域など、様々な文脈で使用されます。日常会話では非常に頻繁に現れ、「ここ」「そこ」「あそこ」などの指示詞と組み合わせて、より具体的な場所を指し示します。
 
-また、「いいところ」（良いところ）のように形容詞と組み合わせて、場所の特徴や性質を表現したり、「困ったところ」（困った点）のように抽象的な意味で使われることも多いです。日本語学習者にとって、基本的な場所を表す語彙としてだけでなく、様々な文法表現の一部として理解することが重要です。
+また、「所」は単に場所を表すだけでなく、「その時点で」「その状況で」といった時間的な側面も持つことがあります。例えば「今この所は」で「今このところは」という意味になり、特定の時期や状況を指します。
+
+さらに「〜のところへ」「〜のところで」という前置き的な使い方もあり、目的地や行為の場所を表す際に重要な役割を果たしています。日本語学習者にとって、「ところ」の多様な用法を理解することは、自然な日本語表現の習得に不可欠です。
 
 ## 英文解釋
 
-"Tokoro" (所) is a fundamental noun meaning "place", "location", or "spot". It can refer to physical locations as well as abstract concepts like "point in time", "situation", or "aspect". Compared to "basho" (場所), which is more formal, "tokoro" tends to be more colloquial and commonly used in everyday conversation.
+"Tokoro" (所) is one of the most fundamental Japanese nouns for indicating a specific place, location, or position. The word encompasses a wide range of meanings, from physical locations and geographical areas to abstract situations and circumstances.
 
-Beyond its basic meaning as a place noun, "tokoro" plays a crucial role in various grammatical patterns that express temporal aspects. For example, "〜suru tokoro" indicates being about to do something, "〜shita tokoro" means just having done something, and "〜shite iru tokoro" expresses being in the middle of doing something.
+In everyday conversation, "tokoro" frequently appears and can be combined with demonstratives like "koko" (ここ - here), "soko" (そこ - there), and "asoko" (あそこ - over there) to indicate more specific locations. The word can refer to physical spaces, rooms within buildings, or regions.
 
-It can also combine with adjectives like "ii tokoro" (good point/place) or be used abstractly as in "komatta tokoro" (problematic aspect). Understanding "tokoro" is essential for Japanese learners not only as a basic location word but also as a key component in many grammatical expressions.
+Beyond physical location, "tokoro" can also express temporal aspects, as in "kono tokoro wa" (このところは - these days/recently), indicating a specific period or circumstance. The word also functions as a preposition marker in constructions like "〜no tokoro e" (to/toward a place) and "〜no tokoro de" (at/in a place), serving as an essential element in describing destinations and locations of actions.
+
+Understanding the diverse applications of "tokoro" is crucial for learners to produce natural Japanese expressions and grasp spatial and contextual relationships in communication.
 
 ## 中文解釋
 
-「所」（ところ）是表示「地方」、「場所」、「位置」的基本名詞。它既可以指物理上的場所，也可以表示抽象的「時間點」、「情況」或「方面」。與較正式的「場所」（ばしょ）相比，「所」更口語化，在日常會話中使用頻率很高。
+「所」（ところ）是日文中最基礎的表示位置、場所的名詞之一。這個詞彙涵蓋廣泛的含義，從具體的物理位置、地理區域，到抽象的狀況和情況都可以表示。
 
-除了作為基本的場所名詞外，「所」在日語文法中扮演重要角色，可以與動詞結合形成各種表達時間狀態的文法模式。例如：「〜するところ」（正要做某事）、「〜したところ」（剛做完某事）、「〜しているところ」（正在做某事的過程中）。
+在日常會話中，「所」出現頻率很高，常與「ここ」「そこ」「あそこ」等指示詞組合使用，用以指示更具體的位置。這個詞可以指代建築物內部的房間、地區，或者其他具體的空間。
 
-「所」也可以和形容詞結合，如「いいところ」（好的地方／優點），或用於抽象意義，如「困ったところ」（困擾的地方／問題點）。對日語學習者而言，理解「所」不僅要掌握其作為場所詞彙的基本意義，更要理解它在各種文法表達中的重要作用。
+除了表示物理位置外，「所」也具有時間方面的含義。例如「このところは」表示「最近」「最近一段時間」，用來指特定的時期或狀況。這個詞也能作為前置詞標記，在「〜のところへ」（到某個地方）和「〜のところで」（在某個地方）等構造中發揮重要作用。
+
+理解「所」的多種用法對日文學習者掌握自然的日文表達和理解空間關係至關重要。
 
 ## 核心用法
 
-### 用法 1：表示物理場所
+### 用法 1：表示具體的位置或地點
 
-指具體的地點、位置或場所。
+用於指代物理空間中的特定位置。
 
 **例句 1**
 ```
-ここはとても静かな所です。
-This is a very quiet place.
-這裡是一個很安靜的地方。
+静かなところで、本を読みたいです。
+I want to read a book in a quiet place.
+我想在安靜的地方讀書。
 ```
 
 **例句 2**
 ```
-あなたの住んでいる所はどこですか。
-Where is the place you live?
-你住的地方在哪裡？
+その所に駅があります。
+There is a station at that place.
+那個地方有一個車站。
 ```
 
-### 用法 2：表示時間點或狀態（〜するところ）
+### 用法 2：表示狀況或情況
 
-與動詞結合，表示動作即將發生、正在發生或剛剛完成。
+用於指代特定的時期、狀況或情境。
 
 **例句 3**
 ```
-今、ちょうど出かけるところです。
-I'm just about to go out now.
-我現在正要出門。
+このところ、天気がいいですね。
+The weather has been nice these days.
+最近天氣很好呢。
 ```
 
 **例句 4**
 ```
-さっき駅に着いたところです。
-I just arrived at the station a moment ago.
-我剛剛才到車站。
+彼が今働いているところは、どこですか。
+Where is the place he is working at now?
+他現在工作的地方是哪裡？
 ```
 
-### 用法 3：表示抽象的「方面」或「點」
+### 用法 3：與前置詞搭配表示方向或位置關係
 
-指事物的某個方面、特點或問題點。
+用於指示方向、目的地或行為發生的場所。
 
 **例句 5**
 ```
-彼のいいところは、いつも明るいことです。
-His good point is that he's always cheerful.
-他的優點是總是很開朗。
+駅のところへ行きましょう。
+Let's go to the place near the station.
+讓我們去車站的地方。
 ```
 
 ## 使用規則
 
-### 與「場所」的區別
+### 助詞搭配
 
-- **所（ところ）**：較口語、日常，使用範圍更廣（可表示抽象概念）
-- **場所（ばしょ）**：較正式、書面，主要指物理場所
+- **ところ + へ**：朝向某個地方
+  - 例：公園のところへ行く（去公園那邊）
+
+- **ところ + で**：在某個地方進行某項行為
+  - 例：図書館のところで待つ（在圖書館那邊等待）
+
+- **ところ + に**：在某個地方（位置關係）
+  - 例：川のところにいます（在河邊）
 
 ### 常見搭配
 
-- **住んでいる所**：居住的地方
-- **いい所**：好的地方／優點
-- **悪い所**：不好的地方／缺點
-- **〜する所**：正要做〜（文法表達）
-- **〜した所**：剛做完〜（文法表達）
-- **〜している所**：正在做〜（文法表達）
+- **いい所**：好地方
+- **静かなところ**：安靜的地方
+- **このところ**：最近、最近一段時間
+- **いろいろなところ**：各種各樣的地方
+- **どこのところ**：哪個地方
+- **某の所**：某個地方
 
-### 文法重點
+### 注意事項
 
-「所」經常與動詞結合形成時間相關的表達：
-- **動詞辞書形 + ところ**：正要做某事
-- **動詞た形 + ところ**：剛做完某事
-- **動詞て形 + いるところ**：正在做某事
+1. **多義性**：「所」既可表示具體位置，也可表示抽象狀況或時期
+2. **與「場所」的區別**：「所」較為口語和非正式，「場所」則更正式
+3. **時間含義**：「このところ」在表示時間時，不帶有強烈的時間限定感
 
 ## 常見錯誤
 
-### 錯誤 1：混淆「所」和「場所」的使用場景
+### 錯誤 1：與「場所」混淆
 
-❌ 誤：駐車場所はどこですか。（過於正式）
-✅ 正：駐車する所はどこですか。／駐車場はどこですか。
-說明：日常會話中詢問停車地點時，使用「所」更自然，或直接說「駐車場」。「場所」在這個語境中顯得過於正式。
+❌ 誤：この所はどこですか。
+✅ 正：この場所はどこですか。or このところはどこですか。
+說明：在正式場合詢問地點應使用「場所」；「このところ」用於表示時期時應單獨使用。
 
-### 錯誤 2：忽略「〜ところ」的時態變化
+### 錯誤 2：前置詞使用錯誤
 
-❌ 誤：今、勉強するところでした。（時態錯誤）
-✅ 正：今、勉強するところです。
-說明：「〜するところです」表示「正要做」，應該用現在式。「〜するところでした」則表示「本來要做（但沒做）」，意思完全不同。
+❌ 誤：公園に所へ行く。
+✅ 正：公園のところへ行く。
+說明：「〜のところへ」是固定搭配，不可寫成「〜に所」。
 
-### 錯誤 3：將「ところ」用於不適合的抽象語境
+### 錯誤 3：時間含義的誤用
 
-❌ 誤：この問題の所は難しいです。（不自然）
-✅ 正：この問題は難しいです。／この問題の難しい所はここです。
-說明：單純說問題難時，不需要加「所」。只有在指出問題的某個具體方面時才使用「〜の所」。
+❌ 誤：昨日このところ雨が降りました。
+✅ 正：このところ雨が降っています。
+說明：「このところ」用於現在或最近的狀況，不應與明確的過去時間結合使用。
 
 ## 學習要點
 
-1. **基本意義**：「所」主要表示「地方」、「場所」，是日常會話的常用詞
-2. **口語性質**：比「場所」更口語化，適合日常對話使用
-3. **文法功能**：與動詞結合可表達時間狀態（即將、正在、剛完成）
-4. **抽象用法**：可表示事物的「方面」、「特點」等抽象概念
-5. **搭配靈活**：可與形容詞、動詞等多種詞類搭配，形成豐富表達
+1. **基礎性詞彙**：「所」是表示位置的最基本詞彙，頻繁出現在日常對話中
+2. **多重含義**：既能表示具體位置，也能表示時期或狀況，需要根據文脈判斷
+3. **前置詞搭配**：掌握「〜のところへ」「〜のところで」等常用搭配
+4. **與相似詞的區別**：區分「所」「場所」「位置」等位置相關詞彙
+5. **時間用法**：理解「このところ」表示最近時期的特殊用法
 
 ## 相關連結
 
-### 同義詞・近義詞
-- [[場所]]（ばしょ）- 場所（更正式）（待建立）
-- [[位置]]（いち）- 位置（更強調定位）（待建立）
+### 同義詞
+- [[noun/basho|場所]] - 場所（更正式的表達）（待建立）
+- [[noun/ichiba|位置]] - 位置（待建立）
+
+### 相關位置詞
+- [[noun/yoko|横]] - 旁邊、側邊（待建立）
+- [[noun/shita|下]] - 下方（待建立）
+- [[noun/ue|上]] - 上方（待建立）
+
+### 指示詞
+- [[particle/koko|ここ]] - 這裡（待建立）
+- [[particle/soko|そこ]] - 那裡（待建立）
+- [[particle/asoko|あそこ]] - 那邊（待建立）
 
 ### 相關文法
-- [[〜するところ]]（正要做某事）（待建立）
-- [[〜したところ]]（剛做完某事）（待建立）
-- [[〜しているところ]]（正在做某事）（待建立）
-
-### 相關動詞
-- [[住む]]（すむ）- 居住（待建立）
-- [[行く]]（いく）- 去（待建立）
-- [[来る]]（くる）- 來（待建立）
-
-### 延伸概念
-- [[どこ]]（哪裡）（待建立）
-- [[ここ]]（這裡）（待建立）
-- [[そこ]]（那裡）（待建立）
-- [[あそこ]]（那裡，較遠）（待建立）
+- [[grammar/no_tokoro_de|〜のところで]] - 在…地方（待建立）
+- [[grammar/no_tokoro_e|〜のところへ]] - 到…地方（待建立）
 
 ---
 

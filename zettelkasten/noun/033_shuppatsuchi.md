@@ -1,16 +1,18 @@
 ---
 title: noun/shuppatsuchi
-description: 出發地、起點
+description: 出發地、起點、旅程或移動的起始地點
 type: noun
-subtype: compound
+subtype: location
 jlpt: n3
 stage: draft
 draft: true
 auto_generated: false
 needs_review: true
 tags:
-  - domain/movement
-  - context/daily_life
+  - context/formal
+  - context/business
+  - domain/travel
+  - domain/geography
   - jlpt/n3
 created: 2025-10-31
 updated: 2025-10-31

@@ -10,8 +10,8 @@ auto_generated: false
 needs_review: true
 tags:
   - context/business
-  - context/formal
   - domain/communication
+  - jlpt/n3
 created: 2025-10-31
 updated: 2025-10-31
 ---

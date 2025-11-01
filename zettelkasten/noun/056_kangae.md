@@ -4,13 +4,13 @@ description: 想法、意見、看法
 type: noun
 subtype: abstract
 jlpt: n4
-stage: extension-review
+stage: draft
 draft: true
 auto_generated: false
 needs_review: true
 tags:
-  - domain/cognition
-  - context/daily_life
+  - daily_life
+  - abstract_noun
   - jlpt/n4
 created: 2025-10-31
 updated: 2025-10-31
@@ -27,8 +27,9 @@ updated: 2025-10-31
 | 漢字 | 考え |
 | 讀音 | かんがえ |
 | 詞性 | 名詞 |
+| 詞類 | 普通名詞 |
 | JLPT | N4 |
-| 語源 | 動詞「考える」的名詞形 |
+| 派生來源 | 動詞「考える」的名詞形式 |
 
 ## 日文解釋
 
