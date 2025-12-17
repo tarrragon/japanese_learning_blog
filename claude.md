@@ -308,22 +308,44 @@ uv run scripts/update_card_progress.py --id {card_id} --stage completed --quiet
 
 ```
 japanese_learning_blog/
-├── CLAUDE.md                      # 專案說明（本文件）
-├── .claude/
-│   ├── agents/create-card.md     # 建立卡片代理人
-│   └── commands/create-zettel.md # 從文章拆解代理人
-├── doc/
-│   ├── worklog/worklog-{v}.md    # 工作日誌
-│   └── execution-workflow.md      # 執行流程指南
-├── scripts/                       # 維護工具
-└── zettelkasten/                  # 卡片系統
-    ├── _meta/                     # Meta 系統
-    ├── noun/                      # 名詞
-    ├── verb-ru/                   # る動詞
-    ├── verb-u/                    # う動詞
-    ├── grammar/                   # 文法
-    └── [其他 20+ 分類]
+├── CLAUDE.md                 # AI 代理人指南（本文件）
+├── README.md                 # 專案簡介（給使用者）
+├── CHANGELOG.md              # 版本變更紀錄
+│
+├── .claude/                  # Claude Code 配置
+│   ├── agents/               # 工作流程代理人定義
+│   ├── commands/             # Slash Commands 定義
+│   ├── templates/            # 卡片模板
+│   └── *.md                  # 格式規範、檢查清單
+│
+├── doc/                      # 專案文檔
+│   ├── worklog/              # 版本工作日誌與進度追蹤
+│   ├── specs/                # 版本規格文檔（v1.0.7+）
+│   └── hooks/                # 開發工具文檔
+│
+├── scripts/                  # Python 維護工具
+│
+├── zettelkasten/             # 知識卡片系統
+│   ├── _meta/                # Meta 系統（標籤、分類定義）
+│   └── {category}/           # 各分類卡片（noun, verb-ru, grammar...）
+│
+└── articles/                 # 學習文章存放
 ```
+
+### 目錄功能說明
+
+| 目錄 | 功能 | 主要內容 |
+|------|------|----------|
+| `.claude/` | Claude Code 配置 | 代理人、命令、模板、規範 |
+| `.claude/agents/` | 代理人定義 | create-card, build-card-links 等自動化流程 |
+| `.claude/commands/` | Slash Commands | /create-zettel, /analyze-article 等指令 |
+| `doc/worklog/` | 版本追蹤 | 工作日誌、CSV 卡片清單、階段報告 |
+| `doc/specs/` | 版本規格 | v1.0.7-v1.1.0 開發規格文檔 |
+| `doc/hooks/` | 開發指南 | Hook 開發、uv script 模式 |
+| `scripts/` | 維護工具 | 編號管理、索引更新、驗證腳本 |
+| `zettelkasten/` | 卡片系統 | 433+ 張學習卡片，27 個分類 |
+| `zettelkasten/_meta/` | Meta 系統 | 標籤定義、分類索引 |
+| `articles/` | 文章存放 | 待分析的日文學習文章 |
 
 ---
 

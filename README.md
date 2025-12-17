@@ -101,27 +101,45 @@ cat articles/example_01_daily_life.md
 
 ```
 japanese_learning_blog/
-├── README.md                          # 專案說明（本文件）
-├── claude.md                         # 專案運作說明（給 AI 看的）
-├── claude/
-│   └── commands/                      # Slash Commands 定義
-│       ├── analyze-article.md         # 文章分析命令
-│       ├── extract-vocab.md           # 詞彙提取命令
-│       ├── explain-grammar.md         # 文法解釋命令
-│       ├── generate-exercises.md      # 練習生成命令
-│       └── create-zettel.md           # Zettelkasten 卡片建立命令 ⭐
-├── articles/                          # 文章存放目錄
-│   ├── README.md                      # 文章目錄說明
-│   └── example_01_daily_life.md       # 範例文章
-└── zettelkasten/                      # Zettelkasten 卡片盒系統 ⭐
-    ├── index.md                       # 主索引
-    ├── noun/                          # 名詞卡片（已有2張範例）
-    ├── verb-ru/                       # る動詞卡片（已有1張範例）
-    ├── adj-na/                        # な形容詞卡片（已有1張範例）
-    ├── grammar/                       # 文法卡片（已有2張範例）
-    └── [其他 19 個分類資料夾...]     # 共 23 種卡片分類
-
+├── README.md                 # 專案說明（本文件）
+├── CLAUDE.md                 # AI 代理人指南
+├── CHANGELOG.md              # 版本變更紀錄
+│
+├── .claude/                  # Claude Code 配置
+│   ├── agents/               # 自動化代理人（建卡、連結、審查）
+│   ├── commands/             # Slash Commands（/create-zettel 等）
+│   ├── templates/            # 卡片模板
+│   └── *.md                  # 格式規範、檢查清單
+│
+├── doc/                      # 專案文檔
+│   ├── worklog/              # 版本工作日誌、CSV 進度追蹤
+│   ├── specs/                # 版本規格（v1.0.7+ 開發規劃）
+│   └── hooks/                # 開發工具文檔
+│
+├── scripts/                  # Python 維護工具（編號、索引、驗證）
+│
+├── zettelkasten/             # 知識卡片系統（433+ 張卡片）
+│   ├── _meta/                # Meta 系統（標籤、分類定義）
+│   ├── noun/                 # 名詞（73 張）
+│   ├── verb-ru/              # る動詞（25 張）
+│   ├── verb-u/               # う動詞（30 張）
+│   ├── grammar/              # 文法（136 張）
+│   ├── concept/              # 概念（52 張）
+│   └── [其他 20+ 分類]       # 共 27 種卡片分類
+│
+└── articles/                 # 學習文章存放
 ```
+
+### 目錄功能索引
+
+| 目錄 | 用途 | 說明 |
+|------|------|------|
+| `.claude/agents/` | 自動化流程 | 卡片建立、連結建立、延伸審查代理人 |
+| `.claude/commands/` | 使用者指令 | `/create-zettel`, `/analyze-article` 等 |
+| `doc/worklog/` | 版本管理 | 工作日誌、卡片清單 CSV、階段報告 |
+| `doc/specs/` | 開發規格 | v1.0.7-v1.1.0 功能規格文檔 |
+| `scripts/` | 維護腳本 | 編號分配、索引更新、格式驗證 |
+| `zettelkasten/` | 卡片內容 | 三語解釋、例句、相關連結 |
 
 ## 命令詳解
 
