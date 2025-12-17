@@ -7,11 +7,12 @@
 """
 檢查和修復卡片編號問題
 
-用途：檢測編號缺口和跳號，並提供修復方案
+用途：檢測編號缺口、跳號、以及檔名格式問題，並提供修復方案
 執行：uv run scripts/fix-numbering.py [選項]
 
 選項：
   --check             只檢查，不修復
+  --check-format      檢查檔名格式問題（不符合 ###_name.md 的檔案）
   --category NAME     只處理特定分類
   --fix              執行修復（重新編號）
   --dry-run          預覽修復結果，不實際執行
@@ -19,8 +20,19 @@
 功能：
   1. 檢測編號缺口（如 001, 002, 005 缺少 003, 004）
   2. 檢測編號跳號（如 017 直接跳到 022）
-  3. 提供重新編號方案
-  4. 支援延伸卡片的編號修復
+  3. 檢測檔名格式問題（不符合 ###_name.md 標準格式）
+  4. 提供重新編號方案
+  5. 支援延伸卡片的編號修復
+
+標準檔名格式：
+  - 基本卡片：###_name.md（如 001_taberu.md）
+  - 延伸卡片：###_name_###_extension.md
+  - 名稱使用小寫英文或羅馬拼音，用底線分隔
+
+不合格式範例：
+  - 013-顧客.md（用 - 而非 _）
+  - noun-015-場所.md（格式混亂）
+  - aspect.md（無編號）
 """
 
 import re
@@ -77,6 +89,143 @@ def parse_filename(filename: str) -> Optional[dict]:
         }
 
     return None
+
+
+def check_filename_format(category_path: Path) -> dict:
+    """
+    檢查分類中檔名格式不正確的檔案
+
+    Returns:
+        {
+            'category': 分類名稱,
+            'invalid_files': [
+                {
+                    'file': 檔案路徑,
+                    'filename': 檔名,
+                    'issue': 問題描述,
+                    'suggestion': 建議修正
+                },
+                ...
+            ],
+            'valid_count': 格式正確的檔案數,
+            'invalid_count': 格式不正確的檔案數,
+        }
+    """
+    category_name = category_path.name
+    files = [f for f in category_path.iterdir()
+             if f.is_file() and f.suffix == '.md'
+             and f.name not in ('index.md', '_index.md')]
+
+    invalid_files = []
+    valid_count = 0
+
+    # 標準格式：###_name.md 或 ###_name_###_extension.md
+    basic_pattern = re.compile(r'^(\d{3})_([a-z0-9_]+)\.md$')
+    ext_pattern = re.compile(r'^(\d{3})_([a-z0-9_]+)_(\d{3})_([a-z0-9_]+)\.md$')
+
+    for file in files:
+        filename = file.name
+
+        # 檢查是否符合標準格式
+        if basic_pattern.match(filename) or ext_pattern.match(filename):
+            valid_count += 1
+            continue
+
+        # 分析問題類型
+        issue = ""
+        suggestion = ""
+
+        if not re.match(r'^\d{3}', filename):
+            # 沒有編號前綴
+            if '-' in filename:
+                # 有 - 但格式錯誤
+                issue = "缺少標準編號前綴，使用了 - 而非 _"
+                # 嘗試提取可能的編號
+                match = re.search(r'(\d{2,3})', filename)
+                if match:
+                    num = match.group(1).zfill(3)
+                    name_part = re.sub(r'[\d-]+', '', filename).replace('.md', '').strip('-_')
+                    name_part = name_part.lower().replace('-', '_')
+                    suggestion = f"{num}_{name_part}.md"
+            else:
+                issue = "缺少編號前綴（###_）"
+                name_part = filename.replace('.md', '').lower().replace('-', '_')
+                suggestion = f"需要分配編號：###_{name_part}.md"
+        elif '-' in filename:
+            # 有編號但使用 - 而非 _
+            issue = "使用 - 作為分隔符，應使用 _"
+            fixed = filename.replace('-', '_')
+            suggestion = fixed
+        elif re.match(r'^\d{3}', filename) and not re.match(r'^\d{3}_', filename):
+            # 編號後沒有底線
+            issue = "編號後缺少底線分隔符"
+            suggestion = filename[:3] + '_' + filename[3:]
+        else:
+            # 其他格式問題（可能包含非 ASCII 字符）
+            issue = "檔名包含非標準字符（應使用小寫英文和底線）"
+            # 提取編號（如果有）
+            match = re.match(r'^(\d{3})', filename)
+            if match:
+                num = match.group(1)
+                suggestion = f"建議重新命名：{num}_<romaji>.md"
+            else:
+                suggestion = "需要重新命名為標準格式"
+
+        invalid_files.append({
+            'file': file,
+            'filename': filename,
+            'issue': issue,
+            'suggestion': suggestion,
+        })
+
+    return {
+        'category': category_name,
+        'invalid_files': invalid_files,
+        'valid_count': valid_count,
+        'invalid_count': len(invalid_files),
+    }
+
+
+def format_filename_report(results: list[dict]):
+    """格式化輸出檔名格式檢查報告"""
+    print("\n" + "=" * 80)
+    print("                    📋 檔名格式檢查報告")
+    print("=" * 80 + "\n")
+
+    total_invalid = sum(r['invalid_count'] for r in results)
+    total_valid = sum(r['valid_count'] for r in results)
+
+    print(f"格式正確：{total_valid} 個檔案")
+    print(f"格式異常：{total_invalid} 個檔案")
+    print()
+
+    if total_invalid == 0:
+        print("✅ 所有檔案的命名格式都正確！\n")
+        return
+
+    print("標準格式：###_name.md（如 001_taberu.md）")
+    print("         名稱使用小寫英文或羅馬拼音，用底線分隔\n")
+
+    for result in results:
+        if result['invalid_count'] == 0:
+            continue
+
+        print(f"❌ 【{result['category']}】{result['invalid_count']} 個異常")
+
+        for item in result['invalid_files']:
+            print(f"   - {item['filename']}")
+            print(f"     問題：{item['issue']}")
+            if item['suggestion']:
+                print(f"     建議：{item['suggestion']}")
+
+        print()
+
+    print("💡 修復建議：")
+    print("   1. 手動重新命名檔案為標準格式")
+    print("   2. 確保使用三位數編號（001, 002, ...）")
+    print("   3. 使用底線 _ 作為分隔符")
+    print("   4. 檔名使用小寫英文或羅馬拼音")
+    print()
 
 
 def check_category_numbering(category_path: Path) -> dict:
@@ -325,6 +474,7 @@ def main():
     args = sys.argv[1:]
 
     check_only = '--check' in args
+    check_format = '--check-format' in args
     do_fix = '--fix' in args
     dry_run = '--dry-run' in args
     show_all = '--all' in args
@@ -334,8 +484,6 @@ def main():
         cat_idx = args.index('--category')
         if cat_idx + 1 < len(args):
             category = args[cat_idx + 1]
-
-    print("\n🔍 開始檢查編號...")
 
     # 收集要檢查的分類
     categories = []
@@ -349,6 +497,23 @@ def main():
     else:
         categories = [d for d in ZETTELKASTEN_DIR.iterdir()
                      if d.is_dir() and d.name != '_meta']
+
+    # 如果是檔名格式檢查模式
+    if check_format:
+        print("\n🔍 開始檢查檔名格式...")
+
+        format_results = []
+        for cat_path in sorted(categories):
+            result = check_filename_format(cat_path)
+            format_results.append(result)
+
+        format_filename_report(format_results)
+
+        # 返回適當的 exit code
+        has_issues = any(r['invalid_count'] > 0 for r in format_results)
+        sys.exit(1 if has_issues else 0)
+
+    print("\n🔍 開始檢查編號...")
 
     # 檢查每個分類
     results = []

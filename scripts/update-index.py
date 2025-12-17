@@ -158,10 +158,13 @@ def generate_index_content(category: str, cards: list[dict], original_content: s
 
     # 卡片列表（依編號）
     for card in cards:
-        # 格式：- [001 - 描述](檔名) #tag1 #tag2
+        # 格式：- [001 - 描述](檔名/) #tag1 #tag2
+        # 注意：使用 / 結尾而非 .md，確保 Hugo 正確解析連結
         tags_str = " ".join(f"#{tag}" for tag in card["tags"][:3])  # 只顯示前3個tag
         desc = card["description"] or card["title"]
-        lines.append(f"- [{card['number']:03d} - {desc}]({card['filename']}) {tags_str}")
+        # 移除 .md 副檔名，改用 / 結尾（Hugo 友好格式）
+        link_path = card['filename'].replace('.md', '/')
+        lines.append(f"- [{card['number']:03d} - {desc}]({link_path}) {tags_str}")
 
     # 依主題分組（可選，未來擴展）
     # 這裡先保持簡單，只有依編號的列表
