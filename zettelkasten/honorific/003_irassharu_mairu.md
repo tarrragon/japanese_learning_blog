@@ -15,7 +15,9 @@ tags:
   - domain/movement
   - jlpt/n4
 created: 2025-10-28
-related_to: [005_keigo_system](../grammar/005_keigo_system.md), [009_iku](../verb-u/009_iku.md)
+related_to:
+  - ../grammar/005_keigo_system.md
+  - ../verb-u/009_iku.md
 ---
 ## 日文
 いらっしゃる・参る（いらっしゃる・まいる）

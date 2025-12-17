@@ -10,7 +10,12 @@ auto_generated: true
 needs_review: false
 tags: [irregular, jlpt/n5, basic]
 created: 2025-10-28
-related_to: [002_kuru](002_kuru.md), [003_iru](003_iru.md), [006_wa](../particle/006_wa.md), [007_ni](../particle/007_ni.md), [004_nasaru_itasu](../honorific/004_nasaru_itasu.md)
+related_to:
+  - 002_kuru.md
+  - 003_iru.md
+  - ../particle/006_wa.md
+  - ../particle/007_ni.md
+  - ../honorific/004_nasaru_itasu.md
 ---
 ## 日文
 する

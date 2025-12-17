@@ -15,7 +15,10 @@ tags:
   - potential
   - jlpt/n4
 created: 2025-10-28
-related_to: [003_ichidan_verb](003_ichidan_verb.md), [006_godan_verb](006_godan_verb.md), [010_dictionary_form](010_dictionary_form.md)
+related_to:
+  - 003_ichidan_verb.md
+  - 006_godan_verb.md
+  - 010_dictionary_form.md
 ---
 ## 日文
 可能形（かのうけい）

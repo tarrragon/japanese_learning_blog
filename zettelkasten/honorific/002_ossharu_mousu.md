@@ -15,7 +15,9 @@ tags:
   - domain/communication
   - jlpt/n4
 created: 2025-10-28
-related_to: [005_keigo_system](../grammar/005_keigo_system.md), [006_godan_verb](../grammar/006_godan_verb.md)
+related_to:
+  - ../grammar/005_keigo_system.md
+  - ../grammar/006_godan_verb.md
 ---
 ## 日文
 おっしゃる・申す（おっしゃる・もうす）

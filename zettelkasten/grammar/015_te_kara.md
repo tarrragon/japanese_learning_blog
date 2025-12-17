@@ -11,7 +11,10 @@ needs_review: false
 completed: 2025-10-28
 tags: [grammar, time, sequence, basic]
 created: 2025-10-28
-related_to: [001_te_form](001_te_form.md), [004_mae_ni](004_mae_ni.md), [014_ato_de](014_ato_de.md)
+related_to:
+  - 001_te_form.md
+  - 004_mae_ni.md
+  - 014_ato_de.md
 ---
 
 ## 日文

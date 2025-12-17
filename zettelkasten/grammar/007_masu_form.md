@@ -15,7 +15,9 @@ tags:
   - polite
   - basic
 created: 2025-10-28
-related_to: [003_ichidan_verb](003_ichidan_verb.md), [006_godan_verb](006_godan_verb.md)
+related_to:
+  - 003_ichidan_verb.md
+  - 006_godan_verb.md
 ---
 ## 日文
 ます形（ますけい）

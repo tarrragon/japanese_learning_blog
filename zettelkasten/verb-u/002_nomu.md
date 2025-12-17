@@ -11,7 +11,10 @@ needs_review: false
 completed: 2025-10-28
 tags: [basic, domain/daily_life]
 created: 2025-10-28
-related_to: [006_godan_verb](../grammar/006_godan_verb.md), [002_wo](../particle/002_wo.md), [001_taberu](../verb-ru/001_taberu.md)
+related_to:
+  - ../grammar/006_godan_verb.md
+  - ../particle/002_wo.md
+  - ../verb-ru/001_taberu.md
 ---
 ## 日文
 飲む（のむ）

@@ -8,7 +8,11 @@ stage: completed
 tags: [grammar, keigo, honorific, pragmatics, social]
 created: 2025-10-28
 updated: 2025-10-28
-related_to: [001_meshiagaru_itadaku](../honorific/001_meshiagaru_itadaku.md), [001_taberu](../verb-ru/001_taberu.md), [003_ichidan_verb](003_ichidan_verb.md), [006_godan_verb](006_godan_verb.md)
+related_to:
+  - ../honorific/001_meshiagaru_itadaku.md
+  - ../verb-ru/001_taberu.md
+  - 003_ichidan_verb.md
+  - 006_godan_verb.md
 ---
 
 ## 日文

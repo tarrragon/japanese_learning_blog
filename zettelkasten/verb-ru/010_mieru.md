@@ -13,7 +13,10 @@ tags:
   - potential
   - basic
 created: 2025-10-29
-related_to: [003_miru](003_miru.md), [003_ichidan_verb](../grammar/003_ichidan_verb.md), [001_ga](../particle/001_ga.md)
+related_to:
+  - 003_miru.md
+  - ../grammar/003_ichidan_verb.md
+  - ../particle/001_ga.md
 ---
 ## 日文
 見える（みえる）

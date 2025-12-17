@@ -1,0 +1,166 @@
+{{- define "main" }}
+
+<div class="home-container">
+  <header class="home-header">
+    <h1>{{ site.Title }}</h1>
+    <p class="home-subtitle">{{ site.Params.description }}</p>
+  </header>
+
+  <!-- 基本詞性 -->
+  <section class="category-section">
+    <h2 class="section-title">基本詞性</h2>
+    <p class="section-desc">表示人、事、物、動作、狀態、性質的基礎詞彙</p>
+    <div class="category-buttons">
+      <a class="category-btn" href="{{ "noun/" | relURL }}">
+        <span class="btn-title">名詞</span>
+        <span class="btn-desc">noun</span>
+      </a>
+      <a class="category-btn" href="{{ "verb-ru/" | relURL }}">
+        <span class="btn-title">一段動詞</span>
+        <span class="btn-desc">verb-ru</span>
+      </a>
+      <a class="category-btn" href="{{ "verb-u/" | relURL }}">
+        <span class="btn-title">五段動詞</span>
+        <span class="btn-desc">verb-u</span>
+      </a>
+      <a class="category-btn" href="{{ "verb-irr/" | relURL }}">
+        <span class="btn-title">不規則動詞</span>
+        <span class="btn-desc">verb-irr</span>
+      </a>
+      <a class="category-btn" href="{{ "adj-i/" | relURL }}">
+        <span class="btn-title">い形容詞</span>
+        <span class="btn-desc">adj-i</span>
+      </a>
+      <a class="category-btn" href="{{ "adj-na/" | relURL }}">
+        <span class="btn-title">な形容詞</span>
+        <span class="btn-desc">adj-na</span>
+      </a>
+      <a class="category-btn" href="{{ "adverb/" | relURL }}">
+        <span class="btn-title">副詞</span>
+        <span class="btn-desc">adverb</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- 功能詞類 -->
+  <section class="category-section">
+    <h2 class="section-title">功能詞類</h2>
+    <p class="section-desc">表示語法關係、輔助表達的功能性詞彙</p>
+    <div class="category-buttons">
+      <a class="category-btn" href="{{ "particle/" | relURL }}">
+        <span class="btn-title">助詞</span>
+        <span class="btn-desc">particle</span>
+      </a>
+      <a class="category-btn" href="{{ "auxiliary/" | relURL }}">
+        <span class="btn-title">助動詞</span>
+        <span class="btn-desc">auxiliary</span>
+      </a>
+      <a class="category-btn" href="{{ "conjunction/" | relURL }}">
+        <span class="btn-title">接續詞</span>
+        <span class="btn-desc">conjunction</span>
+      </a>
+      <a class="category-btn" href="{{ "rentaishi/" | relURL }}">
+        <span class="btn-title">連體詞</span>
+        <span class="btn-desc">rentaishi</span>
+      </a>
+      <a class="category-btn" href="{{ "counter/" | relURL }}">
+        <span class="btn-title">量詞</span>
+        <span class="btn-desc">counter</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- 構詞成分 -->
+  <section class="category-section">
+    <h2 class="section-title">構詞成分</h2>
+    <p class="section-desc">加在詞語前後的構詞成分</p>
+    <div class="category-buttons">
+      <a class="category-btn" href="{{ "prefix/" | relURL }}">
+        <span class="btn-title">接頭詞</span>
+        <span class="btn-desc">prefix</span>
+      </a>
+      <a class="category-btn" href="{{ "suffix/" | relURL }}">
+        <span class="btn-title">接尾詞</span>
+        <span class="btn-desc">suffix</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- 慣用表達 -->
+  <section class="category-section">
+    <h2 class="section-title">慣用表達</h2>
+    <p class="section-desc">固定搭配的表達方式</p>
+    <div class="category-buttons">
+      <a class="category-btn" href="{{ "idiom/" | relURL }}">
+        <span class="btn-title">慣用語</span>
+        <span class="btn-desc">idiom</span>
+      </a>
+      <a class="category-btn" href="{{ "proverb/" | relURL }}">
+        <span class="btn-title">諺語</span>
+        <span class="btn-desc">proverb</span>
+      </a>
+      <a class="category-btn" href="{{ "onomatopoeia/" | relURL }}">
+        <span class="btn-title">擬聲擬態詞</span>
+        <span class="btn-desc">onomatopoeia</span>
+      </a>
+      <a class="category-btn" href="{{ "phrase/" | relURL }}">
+        <span class="btn-title">常用短語</span>
+        <span class="btn-desc">phrase</span>
+      </a>
+      <a class="category-btn" href="{{ "honorific/" | relURL }}">
+        <span class="btn-title">敬語表達</span>
+        <span class="btn-desc">honorific</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- 概念與知識 -->
+  <section class="category-section">
+    <h2 class="section-title">概念與知識</h2>
+    <p class="section-desc">文法結構、抽象概念與對比說明</p>
+    <div class="category-buttons">
+      <a class="category-btn" href="{{ "grammar/" | relURL }}">
+        <span class="btn-title">文法</span>
+        <span class="btn-desc">grammar</span>
+      </a>
+      <a class="category-btn" href="{{ "concept/" | relURL }}">
+        <span class="btn-title">概念</span>
+        <span class="btn-desc">concept</span>
+      </a>
+      <a class="category-btn" href="{{ "contrast/" | relURL }}">
+        <span class="btn-title">對比</span>
+        <span class="btn-desc">contrast</span>
+      </a>
+      <a class="category-btn" href="{{ "context/" | relURL }}">
+        <span class="btn-title">情境</span>
+        <span class="btn-desc">context</span>
+      </a>
+      <a class="category-btn" href="{{ "comparison/" | relURL }}">
+        <span class="btn-title">比較</span>
+        <span class="btn-desc">comparison</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- 快速連結 -->
+  <section class="category-section quick-links">
+    <h2 class="section-title">快速連結</h2>
+    <div class="category-buttons">
+      <a class="category-btn accent" href="{{ "search/" | relURL }}">
+        <span class="btn-title">搜尋</span>
+        <span class="btn-desc">search</span>
+      </a>
+      <a class="category-btn accent" href="{{ "tags/" | relURL }}">
+        <span class="btn-title">標籤</span>
+        <span class="btn-desc">tags</span>
+      </a>
+      <a class="category-btn accent" href="{{ "_meta/categories/" | relURL }}">
+        <span class="btn-title">分類總覽</span>
+        <span class="btn-desc">categories</span>
+      </a>
+    </div>
+  </section>
+
+</div>
+
+{{- end }}

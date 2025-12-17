@@ -8,7 +8,8 @@ stage: completed
 tags: [grammar, conjugation, basic]
 created: 2025-10-28
 updated: 2025-10-28
-related_to: [001_taberu](../verb-ru/001_taberu.md)
+related_to:
+  - ../verb-ru/001_taberu.md
 ---
 ## 日文
 一段動詞（いちだんどうし）/ る動詞

@@ -18,7 +18,10 @@ tags:
   - basic
 created: 2025-10-30
 updated: 2025-10-30
-related_to: [004_kara](004_kara.md), [008_ni](008_ni.md), [007_wa](007_wa.md)
+related_to:
+  - 004_kara.md
+  - 008_ni.md
+  - 007_wa.md
 generated_cards: [../grammar/031_made_vs_madeni]
 generated_date: 2025-10-30
 ---

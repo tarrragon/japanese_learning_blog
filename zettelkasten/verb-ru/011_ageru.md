@@ -13,7 +13,10 @@ tags:
   - 授受表現
   - basic
 created: 2025-10-29
-related_to: [003_ichidan_verb](../grammar/003_ichidan_verb.md), [002_wo](../particle/002_wo.md), [007_ni](../particle/007_ni.md)
+related_to:
+  - ../grammar/003_ichidan_verb.md
+  - ../particle/002_wo.md
+  - ../particle/007_ni.md
 ---
 ## 日文
 上げる/あげる（あげる）

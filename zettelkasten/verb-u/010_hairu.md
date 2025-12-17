@@ -14,7 +14,10 @@ tags:
   - entering
   - basic
 created: 2025-10-29
-related_to: [006_godan_verb](../grammar/006_godan_verb.md), [007_ni](../particle/007_ni.md), [007_deru](../verb-ru/007_deru.md)
+related_to:
+  - ../grammar/006_godan_verb.md
+  - ../particle/007_ni.md
+  - ../verb-ru/007_deru.md
 ---
 ## 日文
 入る（はいる）

@@ -1,0 +1,250 @@
+/* 日文學習卡片盒 - 自訂樣式 */
+
+/* CJK 字體優化 */
+body {
+  font-family: "Noto Sans JP", "Noto Sans TC", "Hiragino Kaku Gothic Pro", "Meiryo", sans-serif;
+}
+
+/* 卡片標題樣式 */
+.post-title {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+/* 日文內容區塊 */
+.post-content h2 {
+  border-bottom: 2px solid var(--primary);
+  padding-bottom: 0.3rem;
+  margin-top: 1.5rem;
+}
+
+/* 例句區塊 */
+.post-content pre {
+  background-color: var(--code-bg);
+  padding: 1rem;
+  border-radius: 6px;
+  overflow-x: auto;
+}
+
+/* 腳註樣式 */
+.footnotes {
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--border);
+  font-size: 0.9rem;
+}
+
+/* 標籤樣式 */
+.post-tags a {
+  background-color: var(--tertiary);
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+  margin-right: 0.3rem;
+  font-size: 0.85rem;
+}
+
+/* JLPT 等級標籤顏色 */
+.post-tags a[href*="jlpt/n5"] { background-color: #4CAF50; color: white; }
+.post-tags a[href*="jlpt/n4"] { background-color: #2196F3; color: white; }
+.post-tags a[href*="jlpt/n3"] { background-color: #FF9800; color: white; }
+.post-tags a[href*="jlpt/n2"] { background-color: #9C27B0; color: white; }
+.post-tags a[href*="jlpt/n1"] { background-color: #F44336; color: white; }
+
+/* 檢視模式切換按鈕 */
+.view-toggle {
+  display: flex;
+  gap: 0.5rem;
+  margin: 1rem 0;
+  padding: 0.5rem;
+  background-color: var(--code-bg);
+  border-radius: 8px;
+  width: fit-content;
+}
+
+.toggle-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 6px;
+  background-color: transparent;
+  color: var(--secondary);
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: all 0.2s ease;
+}
+
+.toggle-btn:hover {
+  background-color: var(--border);
+}
+
+.toggle-btn.active {
+  background-color: var(--primary);
+  color: var(--theme);
+}
+
+.toggle-btn svg {
+  width: 16px;
+  height: 16px;
+}
+
+/* 索引列表樣式優化 */
+#index-view ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+#index-view li {
+  padding: 0.3rem 0;
+  border-bottom: 1px solid var(--border);
+}
+
+#index-view li:last-child {
+  border-bottom: none;
+}
+
+#index-view a {
+  color: var(--primary);
+  text-decoration: none;
+}
+
+#index-view a:hover {
+  text-decoration: underline;
+}
+
+/* ========== 首頁分類區塊樣式 ========== */
+
+.home-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.home-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.home-header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  color: var(--primary);
+}
+
+.home-subtitle {
+  font-size: 1.1rem;
+  color: var(--secondary);
+}
+
+/* 分類區塊 */
+.category-section {
+  margin-bottom: 2.5rem;
+}
+
+.section-title {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 0.3rem;
+  color: var(--primary);
+  border-left: 4px solid var(--primary);
+  padding-left: 0.8rem;
+}
+
+.section-desc {
+  font-size: 0.9rem;
+  color: var(--secondary);
+  margin-bottom: 1rem;
+  padding-left: 1.2rem;
+}
+
+/* 分類按鈕容器 */
+.category-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+}
+
+/* 分類按鈕 */
+.category-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 100px;
+  padding: 0.8rem 1.2rem;
+  background-color: var(--code-bg);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.category-btn:hover {
+  background-color: var(--border);
+  border-color: var(--primary);
+  transform: translateY(-2px);
+}
+
+.category-btn .btn-title {
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--primary);
+}
+
+.category-btn .btn-desc {
+  font-size: 0.75rem;
+  color: var(--secondary);
+  margin-top: 0.2rem;
+}
+
+/* 強調按鈕（快速連結） */
+.category-btn.accent {
+  background-color: var(--primary);
+  border-color: var(--primary);
+}
+
+.category-btn.accent .btn-title {
+  color: var(--theme);
+}
+
+.category-btn.accent .btn-desc {
+  color: var(--theme);
+  opacity: 0.8;
+}
+
+.category-btn.accent:hover {
+  opacity: 0.9;
+  background-color: var(--primary);
+}
+
+/* 快速連結區塊 */
+.quick-links {
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--border);
+}
+
+/* RWD 響應式 */
+@media (max-width: 600px) {
+  .home-header h1 {
+    font-size: 1.8rem;
+  }
+
+  .category-buttons {
+    gap: 0.5rem;
+  }
+
+  .category-btn {
+    min-width: 80px;
+    padding: 0.6rem 0.8rem;
+  }
+
+  .category-btn .btn-title {
+    font-size: 0.9rem;
+  }
+
+  .category-btn .btn-desc {
+    font-size: 0.7rem;
+  }
+}

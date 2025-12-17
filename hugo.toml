@@ -1,0 +1,109 @@
+# Hugo 配置 - 日文學習 Zettelkasten 系統
+# 網站基本設定
+baseURL = "https://mac-eric.github.io/japanese_learning_blog/"
+languageCode = "zh-TW"
+title = "日文學習卡片盒"
+theme = "PaperMod"
+
+# 內容目錄設定
+contentDir = "zettelkasten"
+
+# 啟用 CJK 字數統計
+hasCJKLanguage = true
+
+# 注意：不使用 relativeURLs，因為與子目錄 baseURL 衝突
+# 卡片間的 .md 連結會由 Hugo 自動處理
+
+# 啟用 emoji
+enableEmoji = true
+
+# 設定分類法（taxonomies）
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
+# 忽略 type 欄位與 Hugo 內建衝突
+[frontmatter]
+  date = ["date", "publishDate", "lastmod"]
+  lastmod = ["updated", "lastmod", "date"]
+
+# 輸出格式
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+  section = ["HTML", "RSS"]
+  page = ["HTML"]
+
+# Markdown 渲染設定
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true  # 允許 HTML 標籤
+    [markup.goldmark.extensions]
+      footnote = true  # 啟用腳註
+
+# PaperMod 主題參數
+[params]
+  # 網站描述
+  description = "結合 AI 輔助和 Zettelkasten 方法的日文學習系統"
+  author = "日文學習者"
+
+  # 首頁模式
+  defaultTheme = "auto"
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowWordCount = true
+  ShowToc = true
+  TocOpen = false
+
+  # 首頁設定 - Profile 模式
+  [params.profileMode]
+    enabled = true
+    title = "日文學習卡片盒"
+    subtitle = "結合 AI 輔助和 Zettelkasten 方法的日文學習系統"
+    imageUrl = ""
+    imageTitle = ""
+
+    [[params.profileMode.buttons]]
+      name = "詞彙卡片"
+      url = "noun/"
+
+    [[params.profileMode.buttons]]
+      name = "文法卡片"
+      url = "grammar/"
+
+    [[params.profileMode.buttons]]
+      name = "所有分類"
+      url = "_meta/categories/"
+
+  # 搜尋功能
+  [params.fuseOpts]
+    isCaseSensitive = false
+    shouldSort = true
+    location = 0
+    distance = 1000
+    threshold = 0.4
+    minMatchCharLength = 0
+    keys = ["title", "permalink", "summary", "content"]
+
+# 主選單
+[menu]
+  [[menu.main]]
+    identifier = "categories"
+    name = "分類"
+    url = "_meta/categories/"
+    weight = 10
+
+  [[menu.main]]
+    identifier = "tags"
+    name = "標籤"
+    url = "tags/"
+    weight = 20
+
+  [[menu.main]]
+    identifier = "search"
+    name = "搜尋"
+    url = "search/"
+    weight = 30

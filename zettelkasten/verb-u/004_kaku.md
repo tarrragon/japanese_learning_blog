@@ -11,7 +11,9 @@ needs_review: false
 completed: 2025-10-28
 tags: [basic, learning]
 created: 2025-10-28
-related_to: [006_godan_verb](../grammar/006_godan_verb.md), [002_wo](../particle/002_wo.md)
+related_to:
+  - ../grammar/006_godan_verb.md
+  - ../particle/002_wo.md
 ---
 ## 日文
 書く（かく）

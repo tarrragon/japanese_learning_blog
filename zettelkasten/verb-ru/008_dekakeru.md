@@ -11,7 +11,10 @@ needs_review: false
 completed: 2025-10-28
 tags: [basic, domain/movement, domain/daily_life]
 created: 2025-10-28
-related_to: [003_ichidan_verb](../grammar/003_ichidan_verb.md), [004_mae_ni](../grammar/004_mae_ni.md), [007_deru](007_deru.md)
+related_to:
+  - ../grammar/003_ichidan_verb.md
+  - ../grammar/004_mae_ni.md
+  - 007_deru.md
 ---
 ## 日文
 出かける（でかける）

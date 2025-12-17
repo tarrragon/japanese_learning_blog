@@ -15,7 +15,10 @@ tags:
   - origin
   - reason
 created: 2025-10-28
-related_to: [004_de](004_de.md), [005_to](005_to.md), [006_godan_verb](../grammar/006_godan_verb.md)
+related_to:
+  - 004_de.md
+  - 005_to.md
+  - ../grammar/006_godan_verb.md
 ---
 ## 日文
 から（kara）

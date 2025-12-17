@@ -16,7 +16,10 @@ tags:
   - kenjougo
   - jlpt/n4
 created: 2025-10-28
-related_to: [003_miru](../verb-ru/003_miru.md), [005_keigo_system](../grammar/005_keigo_system.md), [001_kudasaru_itadaku](001_kudasaru_itadaku.md)
+related_to:
+  - ../verb-ru/003_miru.md
+  - ../grammar/005_keigo_system.md
+  - 001_kudasaru_itadaku.md
 ---
 ## 日文
 ご覧になる・拝見する（見るの敬語）

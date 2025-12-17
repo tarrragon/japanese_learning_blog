@@ -11,7 +11,9 @@ needs_review: false
 completed: 2025-10-28
 tags: [basic, domain/daily_life]
 created: 2025-10-28
-related_to: [003_ichidan_verb](../grammar/003_ichidan_verb.md), [004_neru](004_neru.md)
+related_to:
+  - ../grammar/003_ichidan_verb.md
+  - 004_neru.md
 ---
 ## 日文
 起きる（おきる）

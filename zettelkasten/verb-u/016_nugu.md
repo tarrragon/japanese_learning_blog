@@ -14,7 +14,12 @@ tags:
   - basic
   - domain/daily_life
 created: 2025-10-29
-related_to: [006_godan_verb](../grammar/006_godan_verb.md), [002_wo](../particle/002_wo.md), [007_ni](../particle/007_ni.md), [006_kiru](../verb-ru/006_kiru.md), [015_haku](015_haku.md)
+related_to:
+  - ../grammar/006_godan_verb.md
+  - ../particle/002_wo.md
+  - ../particle/007_ni.md
+  - ../verb-ru/006_kiru.md
+  - 015_haku.md
 ---
 ## 日文
 脱ぐ（ぬぐ）

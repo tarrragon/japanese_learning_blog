@@ -15,7 +15,10 @@ tags:
   - causative
   - jlpt/n3
 created: 2025-10-28
-related_to: [003_ichidan_verb](003_ichidan_verb.md), [006_godan_verb](006_godan_verb.md), [012_passive_form](012_passive_form.md)
+related_to:
+  - 003_ichidan_verb.md
+  - 006_godan_verb.md
+  - 012_passive_form.md
 ---
 ## 日文
 使役形（しえきけい）/ 使役態（しえきたい）

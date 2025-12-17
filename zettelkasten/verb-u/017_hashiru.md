@@ -12,7 +12,10 @@ tags:
   - running
   - basic
 created: 2025-10-29
-related_to: [006_godan_verb](../grammar/006_godan_verb.md), [008_aruku](008_aruku.md), [002_wo](../particle/002_wo.md)
+related_to:
+  - ../grammar/006_godan_verb.md
+  - 008_aruku.md
+  - ../particle/002_wo.md
 ---
 ## 日文
 走る（はしる）

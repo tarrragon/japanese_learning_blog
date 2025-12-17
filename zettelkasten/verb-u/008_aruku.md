@@ -11,7 +11,10 @@ needs_review: false
 completed: 2025-10-28
 tags: [basic, domain/movement, domain/daily_life]
 created: 2025-10-28
-related_to: [006_godan_verb](../grammar/006_godan_verb.md), [002_wo](../particle/002_wo.md), [004_de](../particle/004_de.md)
+related_to:
+  - ../grammar/006_godan_verb.md
+  - ../particle/002_wo.md
+  - ../particle/004_de.md
 ---
 ## 日文
 歩く（あるく）

@@ -11,7 +11,9 @@ needs_review: false
 completed: 2025-10-31
 tags: [basic, domain/daily_life, verb, movement, arrival]
 created: 2025-10-31
-related_to: [006_godan_verb](../grammar/006_godan_verb.md), [002_ni](../particle/002_ni.md)
+related_to:
+  - ../grammar/006_godan_verb.md
+  - ../particle/002_ni.md
 ---
 ## 日文
 着く（つく）

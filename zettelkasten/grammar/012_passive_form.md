@@ -15,7 +15,10 @@ tags:
   - passive
   - jlpt/n3
 created: 2025-10-28
-related_to: [003_ichidan_verb](003_ichidan_verb.md), [006_godan_verb](006_godan_verb.md), [011_potential_form](011_potential_form.md)
+related_to:
+  - 003_ichidan_verb.md
+  - 006_godan_verb.md
+  - 011_potential_form.md
 ---
 ## 日文
 受身形（うけみけい）/ 受動態（じゅどうたい）

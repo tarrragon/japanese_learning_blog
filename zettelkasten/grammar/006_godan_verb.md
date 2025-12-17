@@ -8,7 +8,8 @@ stage: completed
 tags: [grammar, conjugation, basic]
 created: 2025-10-28
 updated: 2025-10-28
-related_to: [001_meshiagaru_itadaku](../honorific/001_meshiagaru_itadaku.md)
+related_to:
+  - ../honorific/001_meshiagaru_itadaku.md
 ---
 ## 日文
 五段動詞（ごだんどうし）/ う動詞

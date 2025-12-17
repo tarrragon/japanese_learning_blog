@@ -15,7 +15,10 @@ tags:
   - past
   - basic
 created: 2025-10-28
-related_to: [001_te_form](001_te_form.md), [003_ichidan_verb](003_ichidan_verb.md), [006_godan_verb](006_godan_verb.md)
+related_to:
+  - 001_te_form.md
+  - 003_ichidan_verb.md
+  - 006_godan_verb.md
 ---
 ## 日文
 た形（たけい）

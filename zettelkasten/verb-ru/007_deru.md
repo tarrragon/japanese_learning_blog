@@ -11,7 +11,10 @@ needs_review: false
 completed: 2025-10-28
 tags: [basic, domain/movement, domain/daily_life]
 created: 2025-10-28
-related_to: [003_ichidan_verb](../grammar/003_ichidan_verb.md), [002_wo](../particle/002_wo.md), [008_dekakeru](008_dekakeru.md)
+related_to:
+  - ../grammar/003_ichidan_verb.md
+  - ../particle/002_wo.md
+  - 008_dekakeru.md
 ---
 ## 日文
 出る（でる）
