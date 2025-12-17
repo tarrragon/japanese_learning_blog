@@ -168,22 +168,22 @@ I eat fish, but I don't eat meat.
 ## 相關連結
 
 ### 語言學概念
-- [[concept/001_gengo_rui_kei_ron.md]] - 語言類型論（待建立）
-- [[concept/002_subject_prominent_language.md]] - 主語優先語言（待建立）
-- [[concept/003_information_structure.md]] - 信息結構（待建立）
+- [001_gengo_rui_kei_ron.md](001_gengo_rui_kei_ron.md) - 語言類型論（待建立）
+- [002_subject_prominent_language.md](002_subject_prominent_language.md) - 主語優先語言（待建立）
+- [003_information_structure.md](003_information_structure.md) - 信息結構（待建立）
 
 ### 相關語法
-- [[particle/001_wa.md]] - 助詞「は」的用法（待建立）
-- [[particle/002_ga.md]] - 助詞「が」的用法（待建立）
-- [[grammar/001_zero_pronoun.md]] - 零代詞現象（待建立）
+- [001_wa.md](../particle/001_wa.md) - 助詞「は」的用法（待建立）
+- [002_ga.md](../particle/002_ga.md) - 助詞「が」的用法（待建立）
+- [001_zero_pronoun.md](../grammar/001_zero_pronoun.md) - 零代詞現象（待建立）
 
 ### 對比分析
-- [[comparison/001_wa_vs_ga.md]] - 「は」與「が」的對比（待建立）
-- [[extension/001_topic_subject_difference.md]] - 主題與主語的差異（待建立）
+- [001_wa_vs_ga.md](../comparison/001_wa_vs_ga.md) - 「は」與「が」的對比（待建立）
+- [001_topic_subject_difference.md](../extension/001_topic_subject_difference.md) - 主題與主語的差異（待建立）
 
 ### 語言對比
-- [[concept/004_subject_object_verb_order.md]] - SOV語序（待建立）
-- [[concept/005_pro_drop_language.md]] - 代詞脫落語言（待建立）
+- [004_subject_object_verb_order.md](004_subject_object_verb_order.md) - SOV語序（待建立）
+- [005_pro_drop_language.md](005_pro_drop_language.md) - 代詞脫落語言（待建立）
 
 ---
 

@@ -222,18 +222,18 @@ Oh no, I left my phone at home!
 ## 相關連結
 
 ### 相關文法
-- [[grammar/te_form]] - て形的基本用法和形成規則（待建立）
-- [[grammar/te_iru]] - 〜ている（状態継続）（待建立）
-- [[grammar/te_oku]] - 〜ておく（事前準備）（待建立）
-- [[grammar/te_miru]] - 〜てみる（嘗試）（待建立）
+- [te_form](te_form.md) - て形的基本用法和形成規則（待建立）
+- [te_iru](te_iru.md) - 〜ている（状態継続）（待建立）
+- [te_oku](te_oku.md) - 〜ておく（事前準備）（待建立）
+- [te_miru](te_miru.md) - 〜てみる（嘗試）（待建立）
 
 ### 補助動詞比較
-- [[comparison/te_auxiliary_verbs]] - て形補助動詞的比較（しまう vs おく vs みる vs いる）（待建立）
-- [[grammar/auxiliary_verbs]] - 補助動詞系統概論（待建立）
+- [te_auxiliary_verbs](../comparison/te_auxiliary_verbs.md) - て形補助動詞的比較（しまう vs おく vs みる vs いる）（待建立）
+- [auxiliary_verbs](auxiliary_verbs.md) - 補助動詞系統概論（待建立）
 
 ### 相關概念
-- [[concept/aspect]] - 動詞體態系統（完了相、進行相）（待建立）
-- [[concept/modality]] - 情態表達與說話者態度（待建立）
+- [aspect](../concept/aspect.md) - 動詞體態系統（完了相、進行相）（待建立）
+- [modality](../concept/modality.md) - 情態表達與說話者態度（待建立）
 
 ---
 

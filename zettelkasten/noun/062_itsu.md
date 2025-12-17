@@ -156,20 +156,20 @@ By when do we need to finish this project?
 ## 相關連結
 
 ### 疑問詞系列
-- [[noun/where|どこ]] - 詢問地點（待建立）
-- [[noun/who|誰（だれ）]] - 詢問人物（待建立）
-- [[noun/what|何（なに）]] - 詢問事物（待建立）
-- [[noun/why|なぜ]] - 詢問原因（待建立）
+- [どこ](where.md) - 詢問地點（待建立）
+- [誰（だれ）](who.md) - 詢問人物（待建立）
+- [何（なに）](what.md) - 詢問事物（待建立）
+- [なぜ](why.md) - 詢問原因（待建立）
 
 ### 時間相關
-- [[noun/tokoro|時（とき）]] - 時間、時刻（待建立）
-- [[noun/jikan|時間（じかん）]] - 時間、鐘點（待建立）
-- [[grammar/toki|〜とき]] - 當...的時候（文法）（待建立）
+- [時（とき）](tokoro.md) - 時間、時刻（待建立）
+- [時間（じかん）](jikan.md) - 時間、鐘點（待建立）
+- [〜とき](../grammar/toki.md) - 當...的時候（文法）（待建立）
 
 ### 複合表達
-- [[phrase/itsumo|いつも]] - 總是、經常（待建立）
-- [[phrase/itsuka|いつか]] - 總有一天、某天（待建立）
-- [[phrase/itsudemo|いつでも]] - 任何時候（待建立）
+- [いつも](../phrase/itsumo.md) - 總是、經常（待建立）
+- [いつか](../phrase/itsuka.md) - 總有一天、某天（待建立）
+- [いつでも](../phrase/itsudemo.md) - 任何時候（待建立）
 
 ---
 

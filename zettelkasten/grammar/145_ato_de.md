@@ -178,30 +178,30 @@ Please tell me your thoughts after watching this movie.
 ## 相關連結
 
 ### 相關文法
-- [[grammar/te_kara.md]] - 〜てから（待建立）
-- [[grammar/ato.md]] - 〜後（待建立）
-- [[grammar/mae_ni.md]] - 〜前に（待建立）
+- [te_kara.md](te_kara.md) - 〜てから（待建立）
+- [ato.md](ato.md) - 〜後（待建立）
+- [mae_ni.md](mae_ni.md) - 〜前に（待建立）
 
 ### 時間表達
-- [[grammar/toki.md]] - 〜時（待建立）
-- [[grammar/aida.md]] - 〜間（待建立）
+- [toki.md](toki.md) - 〜時（待建立）
+- [aida.md](aida.md) - 〜間（待建立）
 
 ### 相關名詞
-- [[noun/049_ato.md]] - 後（あと）
+- [049_ato.md](../noun/049_ato.md) - 後（あと）
 
 ---
 
 ## 註解
 
-[^time-expression]: **時間表達** - 表示時間順序、同時性或時間點的文法結構。詳見 [[concept/time-expressions.md]]（待建立）
+[^time-expression]: **時間表達** - 表示時間順序、同時性或時間點的文法結構。詳見 [time-expressions.md](../concept/time-expressions.md)（待建立）
 
-[^dictionary-form]: **辞書形** - 動詞的基本形態，也稱為「原形」或「基本形」。詳見 [[grammar/verb-forms.md]]（待建立）
+[^dictionary-form]: **辞書形** - 動詞的基本形態，也稱為「原形」或「基本形」。詳見 [verb-forms.md](verb-forms.md)（待建立）
 
-[^casual-context]: **日常會話** - 朋友、家人之間的非正式對話情境。詳見 [[context/casual-conversation.md]]（待建立）
+[^casual-context]: **日常會話** - 朋友、家人之間的非正式對話情境。詳見 [casual-conversation.md](../context/casual-conversation.md)（待建立）
 
-[^formal-writing]: **書面語** - 用於正式文書、報告、學術文章等的語言形式。詳見 [[concept/formal-writing.md]]（待建立）
+[^formal-writing]: **書面語** - 用於正式文書、報告、學術文章等的語言形式。詳見 [formal-writing.md](../concept/formal-writing.md)（待建立）
 
-[^te-kara]: **〜てから文法** - 表示「做完...之後」，強調緊接的時間順序。詳見 [[grammar/te_kara.md]]（待建立）
+[^te-kara]: **〜てから文法** - 表示「做完...之後」，強調緊接的時間順序。詳見 [te_kara.md](te_kara.md)（待建立）
 
 [^time-gap]: **時間間隔** - 兩個動作或事件之間的時間距離，可長可短。
 

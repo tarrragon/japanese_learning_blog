@@ -276,26 +276,26 @@ Please submit additional documents as necessary.
 ## 相關連結
 
 ### 同義詞與對比詞彙
-- [[noun/049_hitsushin.md]] - 必須（必須）：比必要更強的義務感和絕對性
-- [[noun/052_fuyou.md]] - 不要（不需要）：必要的反義詞，表示不必要或不需要
-- [[grammar/obligation_necessity.md]] - 義務與必要性的語義區別（待建立）
+- [049_hitsushin.md](049_hitsushin.md) - 必須（必須）：比必要更強的義務感和絕對性
+- [052_fuyou.md](052_fuyou.md) - 不要（不需要）：必要的反義詞，表示不必要或不需要
+- [obligation_necessity.md](../grammar/obligation_necessity.md) - 義務與必要性的語義區別（待建立）
 
 ### 相關文法與句型
-- [[grammar/na-adjectives.md]] - な形容詞的用法和活用（待建立）
-- [[grammar/particles-ni.md]] - 助詞「に」的用法和含義（待建立）
-- [[grammar/particles-ga.md]] - 助詞「が」在必要表達中的應用（待建立）
-- [[grammar/verb-necessity-structure.md]] - 「～する必要がある」的完整句型說明（待建立）
-- [[grammar/to_suru_pattern.md]] - 「とする」的多種用法：需求、假設、要求（待建立）
+- [na-adjectives.md](../grammar/na-adjectives.md) - な形容詞的用法和活用（待建立）
+- [particles-ni.md](../grammar/particles-ni.md) - 助詞「に」的用法和含義（待建立）
+- [particles-ga.md](../grammar/particles-ga.md) - 助詞「が」在必要表達中的應用（待建立）
+- [verb-necessity-structure.md](../grammar/verb-necessity-structure.md) - 「～する必要がある」的完整句型說明（待建立）
+- [to_suru_pattern.md](../grammar/to_suru_pattern.md) - 「とする」的多種用法：需求、假設、要求（待建立）
 
 ### 應用場景與表達
-- [[phrase/hitsuyou_ni_oujite.md]] - 「必要に應じて」：公文中的標準用語（待建立）
-- [[phrase/dousitemo_hitsuyou.md]] - 「どうしても必要」：強調絕對必要性（待建立）
-- [[business/requirement_documentation.md]] - 商務文件中的必要性表達（待建立）
-- [[academic/academic_necessity.md]] - 學術寫作中常用的必要性表達（待建立）
+- [hitsuyou_ni_oujite.md](../phrase/hitsuyou_ni_oujite.md) - 「必要に應じて」：公文中的標準用語（待建立）
+- [dousitemo_hitsuyou.md](../phrase/dousitemo_hitsuyou.md) - 「どうしても必要」：強調絕對必要性（待建立）
+- [requirement_documentation.md](../business/requirement_documentation.md) - 商務文件中的必要性表達（待建立）
+- [academic_necessity.md](../academic/academic_necessity.md) - 學術寫作中常用的必要性表達（待建立）
 
 ### 延伸學習
-- [[noun/047_jooken.md]] - 條件：與必要相關的概念，表達完成某事的先決條件
-- [[concept/abstract_nouns.md]] - 抽象名詞的特徵：「必要」作為抽象概念的語言特性（待建立）
+- [047_jooken.md](047_jooken.md) - 條件：與必要相關的概念，表達完成某事的先決條件
+- [abstract_nouns.md](../concept/abstract_nouns.md) - 抽象名詞的特徵：「必要」作為抽象概念的語言特性（待建立）
 
 ---
 

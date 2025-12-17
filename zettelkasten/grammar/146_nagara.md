@@ -201,36 +201,36 @@ Unfortunately, I can't go.
 ## 相關連結
 
 ### 相關文法
-- [[grammar/te_form.md]] - て形的基本用法（待建立）
-- [[grammar/aida_ni.md]] - 〜間に（表示期間內的動作）（待建立）
-- [[grammar/te_iru.md]] - 〜ている（持續狀態）（待建立）
+- [te_form.md](te_form.md) - て形的基本用法（待建立）
+- [aida_ni.md](aida_ni.md) - 〜間に（表示期間內的動作）（待建立）
+- [te_iru.md](te_iru.md) - 〜ている（持續狀態）（待建立）
 
 ### 對比文法
-- [[comparison/nagara_vs_aida.md]] - 「〜ながら」vs「〜間」的區別（待建立）
-- [[comparison/nagara_vs_tsutu.md]] - 「〜ながら」vs「〜つつ」的區別（待建立）
+- [nagara_vs_aida.md](../comparison/nagara_vs_aida.md) - 「〜ながら」vs「〜間」的區別（待建立）
+- [nagara_vs_tsutu.md](../comparison/nagara_vs_tsutu.md) - 「〜ながら」vs「〜つつ」的區別（待建立）
 
 ### 相關概念
-- [[concept/simultaneous_action.md]] - 同時動作的表達方式（待建立）
-- [[concept/main_sub_action.md]] - 主要動作與次要動作（待建立）
+- [simultaneous_action.md](../concept/simultaneous_action.md) - 同時動作的表達方式（待建立）
+- [main_sub_action.md](../concept/main_sub_action.md) - 主要動作與次要動作（待建立）
 
 ### 相關助詞
-- [[particle/te.md]] - て（接續助詞）（待建立）
+- [te.md](../particle/te.md) - て（接續助詞）（待建立）
 
 ---
 
 ## 註解
 
-[^setsuzoku-joshi]: **接續助詞** - 連接兩個句子或詞組的助詞，表示各種邏輯關係（順接、逆接、並列等）。詳見 [[particle/setsuzoku_joshi.md]]（待建立）
+[^setsuzoku-joshi]: **接續助詞** - 連接兩個句子或詞組的助詞，表示各種邏輯關係（順接、逆接、並列等）。詳見 [setsuzoku_joshi.md](../particle/setsuzoku_joshi.md)（待建立）
 
-[^masu-form]: **ます形** - 動詞的丁寧形，由動詞語幹加「ます」組成。是日語禮貌表達的基本形式。詳見 [[grammar/masu_form.md]]（待建立）
+[^masu-form]: **ます形** - 動詞的丁寧形，由動詞語幹加「ます」組成。是日語禮貌表達的基本形式。詳見 [masu_form.md](masu_form.md)（待建立）
 
-[^main-action]: **主要動作** - 在「〜ながら」結構中，後面句子表達的主要動作或焦點動作。決定整個句子的時態和語氣。詳見 [[concept/main_sub_action.md]]（待建立）
+[^main-action]: **主要動作** - 在「〜ながら」結構中，後面句子表達的主要動作或焦點動作。決定整個句子的時態和語氣。詳見 [main_sub_action.md](../concept/main_sub_action.md)（待建立）
 
-[^sub-action]: **次要動作** - 在「〜ながら」結構中，用「〜ながら」標記的伴隨動作或背景動作。通常是持續性的動作。詳見 [[concept/main_sub_action.md]]（待建立）
+[^sub-action]: **次要動作** - 在「〜ながら」結構中，用「〜ながら」標記的伴隨動作或背景動作。通常是持續性的動作。詳見 [main_sub_action.md](../concept/main_sub_action.md)（待建立）
 
-[^daily-conversation]: **日常會話** - 朋友、家人之間的非正式對話情境。詳見 [[context/casual_conversation.md]]（待建立）
+[^daily-conversation]: **日常會話** - 朋友、家人之間的非正式對話情境。詳見 [casual_conversation.md](../context/casual_conversation.md)（待建立）
 
-[^written-language]: **書面語** - 正式的書寫語言，與口語相對。文法完整，用詞較為正式。詳見 [[concept/written_language.md]]（待建立）
+[^written-language]: **書面語** - 正式的書寫語言，與口語相對。文法完整，用詞較為正式。詳見 [written_language.md](../concept/written_language.md)（待建立）
 
 ---
 

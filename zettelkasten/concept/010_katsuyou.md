@@ -220,35 +220,35 @@ I became able to speak Japanese. The potential auxiliary "reru" conjugates to co
 ## 相關連結
 
 ### 基礎概念
-- [[grammar/verb-classification]] - 動詞分類系統（五段・一段・変格）（待建立）
-- [[concept/gokan]] - 語幹の概念（待建立）
-- [[concept/gobi]] - 語尾の概念（待建立）
+- [verb-classification](../grammar/verb-classification.md) - 動詞分類系統（五段・一段・変格）（待建立）
+- [gokan](gokan.md) - 語幹の概念（待建立）
+- [gobi](gobi.md) - 語尾の概念（待建立）
 
 ### 活用形詳解
-- [[grammar/mizen-kei]] - 未然形の用法（待建立）
-- [[grammar/renyou-kei]] - 連用形の用法（待建立）
-- [[grammar/shuushi-kei]] - 終止形の用法（待建立）
-- [[grammar/rentai-kei]] - 連体形の用法（待建立）
-- [[grammar/katei-kei]] - 仮定形の用法（待建立）
-- [[grammar/meirei-kei]] - 命令形の用法（待建立）
+- [mizen-kei](../grammar/mizen-kei.md) - 未然形の用法（待建立）
+- [renyou-kei](../grammar/renyou-kei.md) - 連用形の用法（待建立）
+- [shuushi-kei](../grammar/shuushi-kei.md) - 終止形の用法（待建立）
+- [rentai-kei](../grammar/rentai-kei.md) - 連体形の用法（待建立）
+- [katei-kei](../grammar/katei-kei.md) - 仮定形の用法（待建立）
+- [meirei-kei](../grammar/meirei-kei.md) - 命令形の用法（待建立）
 
 ### 音便現象
-- [[grammar/onbin]] - 音便の種類と規則（待建立）
-- [[grammar/i-onbin]] - イ音便（待建立）
-- [[grammar/sokuon-bin]] - 促音便（待建立）
-- [[grammar/hatsuon-bin]] - 撥音便（待建立）
+- [onbin](../grammar/onbin.md) - 音便の種類と規則（待建立）
+- [i-onbin](../grammar/i-onbin.md) - イ音便（待建立）
+- [sokuon-bin](../grammar/sokuon-bin.md) - 促音便（待建立）
+- [hatsuon-bin](../grammar/hatsuon-bin.md) - 撥音便（待建立）
 
 ### 関連文法
-- [[grammar/te-form]] - て形の形成（待建立）
-- [[grammar/ta-form]] - た形の形成（待建立）
-- [[grammar/nai-form]] - ない形の形成（待建立）
+- [te-form](../grammar/te-form.md) - て形の形成（待建立）
+- [ta-form](../grammar/ta-form.md) - た形の形成（待建立）
+- [nai-form](../grammar/nai-form.md) - ない形の形成（待建立）
 
 ### 形容詞活用
-- [[grammar/i-adjective-conjugation]] - い形容詞の活用（待建立）
-- [[grammar/na-adjective-conjugation]] - な形容詞の活用（待建立）
+- [i-adjective-conjugation](../grammar/i-adjective-conjugation.md) - い形容詞の活用（待建立）
+- [na-adjective-conjugation](../grammar/na-adjective-conjugation.md) - な形容詞の活用（待建立）
 
 ### 助動詞活用
-- [[grammar/auxiliary-verb-conjugation]] - 助動詞の活用システム（待建立）
+- [auxiliary-verb-conjugation](../grammar/auxiliary-verb-conjugation.md) - 助動詞の活用システム（待建立）
 
 ---
 

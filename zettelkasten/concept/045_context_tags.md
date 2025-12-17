@@ -416,34 +416,34 @@ jlpt/
 ## 相關連結
 
 ### 知識管理概念
-- [[concept/zettelkasten]] - Zettelkasten 知識管理方法（待建立）
-- [[concept/metadata]] - 元資料概念（待建立）
-- [[concept/information_architecture]] - 資訊架構（待建立）
-- [[concept/controlled_vocabulary]] - 控制詞彙表（待建立）
+- [zettelkasten](zettelkasten.md) - Zettelkasten 知識管理方法（待建立）
+- [metadata](metadata.md) - 元資料概念（待建立）
+- [information_architecture](information_architecture.md) - 資訊架構（待建立）
+- [controlled_vocabulary](controlled_vocabulary.md) - 控制詞彙表（待建立）
 
 ### 分類與組織
-- [[concept/taxonomy]] - 分類學體系（待建立）
-- [[concept/ontology]] - 本體論（待建立）
-- [[concept/folksonomy]] - 民眾分類法（待建立）
-- [[concept/hierarchical_classification]] - 階層式分類（待建立）
+- [taxonomy](taxonomy.md) - 分類學體系（待建立）
+- [ontology](ontology.md) - 本體論（待建立）
+- [folksonomy](folksonomy.md) - 民眾分類法（待建立）
+- [hierarchical_classification](hierarchical_classification.md) - 階層式分類（待建立）
 
 ### 語言學相關
-- [[concept/025_pragmatics]] - 語用學
-- [[concept/high_context_language]] - 高語境語言（待建立）
-- [[concept/sociolinguistics]] - 社會語言學（待建立）
-- [[concept/register]] - 語域（待建立）
+- [025_pragmatics](025_pragmatics.md) - 語用學
+- [high_context_language](high_context_language.md) - 高語境語言（待建立）
+- [sociolinguistics](sociolinguistics.md) - 社會語言學（待建立）
+- [register](register.md) - 語域（待建立）
 
 ### 日語學習系統
-- [[concept/013_keigo_taikei]] - 敬語體系
-- [[concept/007_uchi_soto]] - 內與外（ウチ・ソト）
-- [[concept/009_language_acquisition]] - 語言習得
-- [[concept/jlpt_levels]] - JLPT 分級系統（待建立）
+- [013_keigo_taikei](013_keigo_taikei.md) - 敬語體系
+- [007_uchi_soto](007_uchi_soto.md) - 內與外（ウチ・ソト）
+- [009_language_acquisition](009_language_acquisition.md) - 語言習得
+- [jlpt_levels](jlpt_levels.md) - JLPT 分級系統（待建立）
 
 ### 實務應用
-- [[concept/search_optimization]] - 搜尋最佳化（待建立）
-- [[concept/information_retrieval]] - 資訊檢索（待建立）
-- [[concept/knowledge_graph]] - 知識圖譜（待建立）
-- [[concept/semantic_linking]] - 語義連結（待建立）
+- [search_optimization](search_optimization.md) - 搜尋最佳化（待建立）
+- [information_retrieval](information_retrieval.md) - 資訊檢索（待建立）
+- [knowledge_graph](knowledge_graph.md) - 知識圖譜（待建立）
+- [semantic_linking](semantic_linking.md) - 語義連結（待建立）
 
 ---
 

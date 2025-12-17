@@ -292,24 +292,24 @@ If you have time, please help me.
 ## 相關連結
 
 ### 條件形系列
-- [[../grammar/047_ba-jouken.md]] - ば條件形詳細說明（待建立）
-- [[../grammar/052_to-jouken.md]] - と條件形詳細說明（待建立）
-- [[../grammar/056_tara-jouken.md]] - たら條件形（待建立）
-- [[../grammar/054_nara.md]] - なら條件形（待建立）
+- [047_ba-jouken.md](../grammar/047_ba-jouken.md.md) - ば條件形詳細說明（待建立）
+- [052_to-jouken.md](../grammar/052_to-jouken.md.md) - と條件形詳細說明（待建立）
+- [056_tara-jouken.md](../grammar/056_tara-jouken.md.md) - たら條件形（待建立）
+- [054_nara.md](../grammar/054_nara.md.md) - なら條件形（待建立）
 
 ### 相關比較
-- [[005_conditional-comparison.md]] - 四種條件形總對比
-- [[../comparison/tara_vs_ba.md]] - たら vs ば 對比（待建立）
-- [[../comparison/to_vs_tara.md]] - と vs たら 對比（待建立）
+- [005_conditional-comparison.md](005_conditional-comparison.md.md) - 四種條件形總對比
+- [tara_vs_ba.md](../comparison/tara_vs_ba.md.md) - たら vs ば 對比（待建立）
+- [to_vs_tara.md](../comparison/to_vs_tara.md.md) - と vs たら 對比（待建立）
 
 ### 相關概念
-- [[../concept/037_conditional_forms.md]] - 條件形概念（待建立）
-- [[../concept/causality.md]] - 因果關係表達（待建立）
-- [[../concept/modality.md]] - 語氣和情態（待建立）
+- [037_conditional_forms.md](../concept/037_conditional_forms.md.md) - 條件形概念（待建立）
+- [causality.md](../concept/causality.md.md) - 因果關係表達（待建立）
+- [modality.md](../concept/modality.md.md) - 語氣和情態（待建立）
 
 ### 動詞形式
-- [[../grammar/041_jishokei.md]] - 辞書形（待建立）
-- [[../grammar/katei-kei.md]] - 假定形（待建立）
+- [041_jishokei.md](../grammar/041_jishokei.md.md) - 辞書形（待建立）
+- [katei-kei.md](../grammar/katei-kei.md.md) - 假定形（待建立）
 
 ---
 

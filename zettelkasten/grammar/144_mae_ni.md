@@ -193,43 +193,43 @@ I'll go home before 5 o'clock.
 ## 相關連結
 
 ### 相關文法
-- [[grammar/ato_de]] - 〜後で（之後）- 與「前に」相對的時間表達（待建立）
-- [[grammar/te_kara]] - 〜てから（做完...之後）- 表示完成後的時間點（待建立）
-- [[grammar/toki]] - 〜時（當...的時候）- 表示同時發生（待建立）
-- [[grammar/uchi_ni]] - 〜うちに（趁...）- 表示趁某狀態持續時（待建立）
+- [ato_de](ato_de.md) - 〜後で（之後）- 與「前に」相對的時間表達（待建立）
+- [te_kara](te_kara.md) - 〜てから（做完...之後）- 表示完成後的時間點（待建立）
+- [toki](toki.md) - 〜時（當...的時候）- 表示同時發生（待建立）
+- [uchi_ni](uchi_ni.md) - 〜うちに（趁...）- 表示趁某狀態持續時（待建立）
 
 ### 相關概念
-- [[concept/jikan_hyougen]] - 時間表現 - 日語時間表達的概念（待建立）
-- [[concept/jikanteki_junjo]] - 時間順序 - 動作先後關係的表達（待建立）
-- [[concept/juuzoku_setsu]] - 從屬子句 - 複句結構中的從屬關係（待建立）
+- [jikan_hyougen](../concept/jikan_hyougen.md) - 時間表現 - 日語時間表達的概念（待建立）
+- [jikanteki_junjo](../concept/jikanteki_junjo.md) - 時間順序 - 動作先後關係的表達（待建立）
+- [juuzoku_setsu](../concept/juuzoku_setsu.md) - 從屬子句 - 複句結構中的從屬關係（待建立）
 
 ### 相關名詞
-- [[noun/mae]] - 前 - 表示前方或之前的名詞（待建立）
-- [[noun/ato]] - 後 - 表示後方或之後的名詞（待建立）
+- [mae](../noun/mae.md) - 前 - 表示前方或之前的名詞（待建立）
+- [ato](../noun/ato.md) - 後 - 表示後方或之後的名詞（待建立）
 
 ---
 
 ## 註解
 
-[^jikan-hyougen]: **時間表現** - 表示時間點、時間段、時間順序等的語法結構。日語有豐富的時間表達方式，是基本語法的重要組成部分。詳見 [[concept/jikan_hyougen]]（待建立）
+[^jikan-hyougen]: **時間表現** - 表示時間點、時間段、時間順序等的語法結構。日語有豐富的時間表達方式，是基本語法的重要組成部分。詳見 [jikan_hyougen](../concept/jikan_hyougen.md)（待建立）
 
-[^shusetsu]: **主節（主句）** - 複句中語法上獨立、能單獨成句的部分。在「AしてからB」這樣的結構中，B是主節。詳見 [[concept/shusetsu]]（待建立）
+[^shusetsu]: **主節（主句）** - 複句中語法上獨立、能單獨成句的部分。在「AしてからB」這樣的結構中，B是主節。詳見 [shusetsu](../concept/shusetsu.md)（待建立）
 
-[^juuzokusetsu]: **從屬節（從屬子句）** - 複句中依附於主節、提供補充說明的部分。在「AしてからB」中，A是從屬節。詳見 [[concept/juuzoku_setsu]]（待建立）
+[^juuzokusetsu]: **從屬節（從屬子句）** - 複句中依附於主節、提供補充說明的部分。在「AしてからB」中，A是從屬節。詳見 [juuzoku_setsu](../concept/juuzoku_setsu.md)（待建立）
 
-[^doushi]: **動詞** - 表示動作、存在、狀態變化的詞類。日語動詞有三大類：一段動詞、五段動詞、不規則動詞。詳見 [[concept/verb_classification]]（待建立）
+[^doushi]: **動詞** - 表示動作、存在、狀態變化的詞類。日語動詞有三大類：一段動詞、五段動詞、不規則動詞。詳見 [verb_classification](../concept/verb_classification.md)（待建立）
 
-[^jishokei]: **辭書形（基本形）** - 動詞的基本形式，也是在字典中查詢的形式。如「食べる」「行く」「来る」等。詳見 [[grammar/verb_forms]]（待建立）
+[^jishokei]: **辭書形（基本形）** - 動詞的基本形式，也是在字典中查詢的形式。如「食べる」「行く」「来る」等。詳見 [verb_forms](verb_forms.md)（待建立）
 
-[^meishi]: **名詞** - 表示人、事物、場所、概念等的詞類。可以做主語、賓語，需要助詞連接其他成分。詳見 [[concept/meishi]]（待建立）
+[^meishi]: **名詞** - 表示人、事物、場所、概念等的詞類。可以做主語、賓語，需要助詞連接其他成分。詳見 [meishi](../concept/meishi.md)（待建立）
 
-[^casual]: **日常會話場景** - 朋友、家人之間的非正式對話，或輕鬆的日常交流情境。詳見 [[context/casual-conversation]]（待建立）
+[^casual]: **日常會話場景** - 朋友、家人之間的非正式對話，或輕鬆的日常交流情境。詳見 [casual-conversation](../context/casual-conversation.md)（待建立）
 
-[^formal]: **正式場合** - 商務、學術、公開演講等需要使用正式語言的情境。詳見 [[context/formal-context]]（待建立）
+[^formal]: **正式場合** - 商務、學術、公開演講等需要使用正式語言的情境。詳見 [formal-context](../context/formal-context.md)（待建立）
 
-[^jikanteki-junjo]: **時間順序** - 事件或動作發生的先後關係。日語通過「前に」「後で」「てから」等文法明確表示時間順序。詳見 [[concept/jikanteki_junjo]]（待建立）
+[^jikanteki-junjo]: **時間順序** - 事件或動作發生的先後關係。日語通過「前に」「後で」「てから」等文法明確表示時間順序。詳見 [jikanteki_junjo](../concept/jikanteki_junjo.md)（待建立）
 
-[^ato-de]: **〜後で** - 表示「在...之後」的時間表達，與「前に」相對。例：「食べた後で」（吃了之後）。詳見 [[grammar/ato_de]]（待建立）
+[^ato-de]: **〜後で** - 表示「在...之後」的時間表達，與「前に」相對。例：「食べた後で」（吃了之後）。詳見 [ato_de](ato_de.md)（待建立）
 
 ---
 

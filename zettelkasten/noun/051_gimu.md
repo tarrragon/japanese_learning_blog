@@ -137,16 +137,16 @@ Lawyers have an obligation to be faithful to their clients.
 ## 相關連結
 
 ### 法律・制度用語
-- [[noun/046_sekinin.md]] - 責任（せきにん） - より廣い責任や職務（待建立）
-- [[noun/047_sekimu.md]] - 責務（せきむ） - 職務や役割に基づいた責任（待建立）
+- [046_sekinin.md](046_sekinin.md) - 責任（せきにん） - より廣い責任や職務（待建立）
+- [047_sekimu.md](047_sekimu.md) - 責務（せきむ） - 職務や役割に基づいた責任（待建立）
 
 ### 類似概念
-- [[noun/052_kenri.md]] - 権利（けんり） - 義務の反対概念（待建立）
-- [[grammar/098_nakerebanaranai.md]] - ～なければならない - 義務を表現する文法（待建立）
+- [052_kenri.md](052_kenri.md) - 権利（けんり） - 義務の反対概念（待建立）
+- [098_nakerebanaranai.md](../grammar/098_nakerebanaranai.md) - ～なければならない - 義務を表現する文法（待建立）
 
 ### 相關用語
-- [[noun/053_kyoikugimu.md]] - 義務教育（ぎむきょういく） - 制度としての教育義務（待建立）
-- [[grammar/099_gimudzukeru.md]] - 義務づける - 義務として課す表現（待建立）
+- [053_kyoikugimu.md](053_kyoikugimu.md) - 義務教育（ぎむきょういく） - 制度としての教育義務（待建立）
+- [099_gimudzukeru.md](../grammar/099_gimudzukeru.md) - 義務づける - 義務として課す表現（待建立）
 
 ---
 

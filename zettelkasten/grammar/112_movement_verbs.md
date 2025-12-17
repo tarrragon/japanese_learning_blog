@@ -216,22 +216,22 @@ Leave home, pass through the park, and go to school.
 ## 相關連結
 
 ### 助詞相關
-- [[particle/011_wo.md]] - を助詞的完整用法（待建立）
-- [[particle/008_ni.md]] - に助詞：目的地標記（待建立）
-- [[grammar/066_case-particles.md]] - 格助詞系統總覽
+- [011_wo.md](../particle/011_wo.md) - を助詞的完整用法（待建立）
+- [008_ni.md](../particle/008_ni.md) - に助詞：目的地標記（待建立）
+- [066_case-particles.md](066_case-particles.md) - 格助詞系統總覽
 
 ### 動詞類型
-- [[verb-u/017_hashiru.md]] - 走る（跑步）：移動動詞範例
-- [[concept/041_verb_classification.md]] - 動詞分類系統（待建立）
-- [[grammar/067_transitive-intransitive.md]] - 自動詞與他動詞
+- [017_hashiru.md](../verb-u/017_hashiru.md) - 走る（跑步）：移動動詞範例
+- [041_verb_classification.md](../concept/041_verb_classification.md) - 動詞分類系統（待建立）
+- [067_transitive-intransitive.md](067_transitive-intransitive.md) - 自動詞與他動詞
 
 ### 相關文法
-- [[grammar/069_he_ni_made.md]] - へ・に・まで的比較
-- [[grammar/055_sonzai-basho.md]] - 存在與場所的表現
+- [069_he_ni_made.md](069_he_ni_made.md) - へ・に・まで的比較
+- [055_sonzai-basho.md](055_sonzai-basho.md) - 存在與場所的表現
 
 ### 延伸說明
-- [[extension/movement-verbs-particles.md]] - 移動動詞助詞搭配詳解（待建立）
-- [[extension/wo-special-usages.md]] - を助詞的特殊用法（待建立）
+- [movement-verbs-particles.md](../extension/movement-verbs-particles.md) - 移動動詞助詞搭配詳解（待建立）
+- [wo-special-usages.md](../extension/wo-special-usages.md) - を助詞的特殊用法（待建立）
 
 ---
 

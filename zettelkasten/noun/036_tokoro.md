@@ -170,22 +170,22 @@ Let's go to the place near the station.
 ## 相關連結
 
 ### 同義詞
-- [[noun/basho|場所]] - 場所（更正式的表達）（待建立）
-- [[noun/ichiba|位置]] - 位置（待建立）
+- [場所](basho.md) - 場所（更正式的表達）（待建立）
+- [位置](ichiba.md) - 位置（待建立）
 
 ### 相關位置詞
-- [[noun/yoko|横]] - 旁邊、側邊（待建立）
-- [[noun/shita|下]] - 下方（待建立）
-- [[noun/ue|上]] - 上方（待建立）
+- [横](yoko.md) - 旁邊、側邊（待建立）
+- [下](shita.md) - 下方（待建立）
+- [上](ue.md) - 上方（待建立）
 
 ### 指示詞
-- [[particle/koko|ここ]] - 這裡（待建立）
-- [[particle/soko|そこ]] - 那裡（待建立）
-- [[particle/asoko|あそこ]] - 那邊（待建立）
+- [ここ](../particle/koko.md) - 這裡（待建立）
+- [そこ](../particle/soko.md) - 那裡（待建立）
+- [あそこ](../particle/asoko.md) - 那邊（待建立）
 
 ### 相關文法
-- [[grammar/no_tokoro_de|〜のところで]] - 在…地方（待建立）
-- [[grammar/no_tokoro_e|〜のところへ]] - 到…地方（待建立）
+- [〜のところで](../grammar/no_tokoro_de.md) - 在…地方（待建立）
+- [〜のところへ](../grammar/no_tokoro_e.md) - 到…地方（待建立）
 
 ---
 

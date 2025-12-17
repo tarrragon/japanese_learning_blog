@@ -169,19 +169,19 @@ His teaching method is unique.
 ## 相關連結
 
 ### 同義詞
-- [[noun/shikata]] - やり方、做法（待建立）
-- [[noun/shudan]] - 手段（待建立）
-- [[noun/houhou]] - 手法、技法（待建立）
+- [shikata](shikata.md) - やり方、做法（待建立）
+- [shudan](shudan.md) - 手段（待建立）
+- [houhou](houhou.md) - 手法、技法（待建立）
 
 ### 相關概念
-- [[noun/tejun]] - 手順、步驟（待建立）
-- [[noun/katei]] - 過程、流程（待建立）
-- [[noun/approach]] - アプローチ、方法論（待建立）
+- [tejun](tejun.md) - 手順、步驟（待建立）
+- [katei](katei.md) - 過程、流程（待建立）
+- [approach](approach.md) - アプローチ、方法論（待建立）
 
 ### 常見搭配動詞
-- [[verb-u/sagasu]] - 探す、尋找（待建立）
-- [[verb-ru/mitsukeru]] - 見つける、找到（待建立）
-- [[verb-ru/oshieru]] - 教える、教導（待建立）
+- [sagasu](../verb-u/sagasu.md) - 探す、尋找（待建立）
+- [mitsukeru](../verb-ru/mitsukeru.md) - 見つける、找到（待建立）
+- [oshieru](../verb-ru/oshieru.md) - 教える、教導（待建立）
 
 ---
 

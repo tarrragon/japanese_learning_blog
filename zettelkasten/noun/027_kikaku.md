@@ -164,24 +164,24 @@ It took me a week to create the project proposal document.
 ## 相關連結
 
 ### 同義詞・類義詞
-- [[noun/keikaku]] - 計画（一般性的計畫）（待建立）
-- [[noun/housin]] - 方針（方針政策）（待建立）
-- [[noun/puran]] - プラン（計畫的外來語）（待建立）
+- [keikaku](keikaku.md) - 計画（一般性的計畫）（待建立）
+- [housin](housin.md) - 方針（方針政策）（待建立）
+- [puran](puran.md) - プラン（計畫的外來語）（待建立）
 
 ### 相關動詞
-- [[verb-ru/tateru]] - 立てる（制定、建立）（待建立）
-- [[verb-ru/neru]] - 練る（構思、琢磨）（待建立）
-- [[verb-ru/teishutsu_suru]] - 提出する（提交）（待建立）
+- [tateru](../verb-ru/tateru.md) - 立てる（制定、建立）（待建立）
+- [neru](../verb-ru/neru.md) - 練る（構思、琢磨）（待建立）
+- [teishutsu_suru](../verb-ru/teishutsu_suru.md) - 提出する（提交）（待建立）
 
 ### 相關名詞
-- [[noun/kikakusho]] - 企画書（企劃書）（待建立）
-- [[noun/purojekuto]] - プロジェクト（專案）（待建立）
-- [[noun/senryaku]] - 戦略（戰略）（待建立）
+- [kikakusho](kikakusho.md) - 企画書（企劃書）（待建立）
+- [purojekuto](purojekuto.md) - プロジェクト（專案）（待建立）
+- [senryaku](senryaku.md) - 戦略（戰略）（待建立）
 
 ### 商業相關詞彙
-- [[noun/kaigi]] - 会議（會議）（待建立）
-- [[noun/shougyou]] - 商業（商業）
-- [[noun/torihiki]] - 取引（交易）
+- [kaigi](kaigi.md) - 会議（會議）（待建立）
+- [shougyou](shougyou.md) - 商業（商業）
+- [torihiki](torihiki.md) - 取引（交易）
 
 ---
 

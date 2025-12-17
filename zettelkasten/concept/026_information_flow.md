@@ -165,25 +165,25 @@ Yesterday, I went to a newly opened Italian restaurant with my friends.
 ## 相關連結
 
 ### 助詞相關
-- [[particle/wa.md]] - 主題標記「は」（待建立）
-- [[particle/ga.md]] - 主語標記「が」（待建立）
-- [[comparison/wa_vs_ga.md]] - は和が的比較（待建立）
+- [wa.md](../particle/wa.md) - 主題標記「は」（待建立）
+- [ga.md](../particle/ga.md) - 主語標記「が」（待建立）
+- [wa_vs_ga.md](../comparison/wa_vs_ga.md) - は和が的比較（待建立）
 
 ### 語言學概念
-- [[concept/theme_comment.md]] - 主題與評論結構（待建立）
-- [[concept/common_ground.md]] - 共同基礎（待建立）
-- [[concept/focus.md]] - 焦點理論（待建立）
-- [[concept/given_new.md]] - 已知-新資訊原則（待建立）
+- [theme_comment.md](theme_comment.md) - 主題與評論結構（待建立）
+- [common_ground.md](common_ground.md) - 共同基礎（待建立）
+- [focus.md](focus.md) - 焦點理論（待建立）
+- [given_new.md](given_new.md) - 已知-新資訊原則（待建立）
 
 ### 語用學
-- [[concept/pragmatics.md]] - 語用學概論（待建立）
-- [[concept/discourse_structure.md]] - 語篇結構（待建立）
-- [[concept/context.md]] - 語境理論（待建立）
+- [pragmatics.md](pragmatics.md) - 語用學概論（待建立）
+- [discourse_structure.md](discourse_structure.md) - 語篇結構（待建立）
+- [context.md](context.md) - 語境理論（待建立）
 
 ### 文法應用
-- [[grammar/word_order.md]] - 語序規則（待建立）
-- [[grammar/ellipsis.md]] - 省略現象（待建立）
-- [[grammar/anaphora.md]] - 照應關係（待建立）
+- [word_order.md](../grammar/word_order.md) - 語序規則（待建立）
+- [ellipsis.md](../grammar/ellipsis.md) - 省略現象（待建立）
+- [anaphora.md](../grammar/anaphora.md) - 照應關係（待建立）
 
 ---
 

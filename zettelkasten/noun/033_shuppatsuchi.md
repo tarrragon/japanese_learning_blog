@@ -171,23 +171,23 @@ We recommend checking the weather information for your departure location in adv
 ## 相關連結
 
 ### 對應詞彙
-- [[noun/mokutekichi|目的地]] - 與出發地相對的目的地（待建立）
-- [[noun/shuten|終点]] - 終點、最後一站（待建立）
-- [[noun/houkou|方向]] - 行進的方向（待建立）
+- [目的地](mokutekichi.md) - 與出發地相對的目的地（待建立）
+- [終点](shuten.md) - 終點、最後一站（待建立）
+- [方向](houkou.md) - 行進的方向（待建立）
 
 ### 相關動詞
-- [[verb-u/shuppatsu-suru|出発する]] - 出發（待建立）
-- [[verb-u/tatsu|発つ]] - 出發、離開（待建立）
-- [[verb-u/deru|出る]] - 出去、離開（待建立）
+- [出発する](../verb-u/shuppatsu-suru.md) - 出發（待建立）
+- [発つ](../verb-u/tatsu.md) - 出發、離開（待建立）
+- [出る](../verb-u/deru.md) - 出去、離開（待建立）
 
 ### 相關名詞
-- [[noun/basho|場所]] - 場所、地方（待建立）
-- [[noun/chiten|地点]] - 地點（待建立）
-- [[noun/ichi|位置]] - 位置（待建立）
+- [場所](basho.md) - 場所、地方（待建立）
+- [地点](chiten.md) - 地點（待建立）
+- [位置](ichi.md) - 位置（待建立）
 
 ### 相關文法
-- [[grammar/kara|〜から]] - 表示起點的助詞（待建立）
-- [[grammar/made|〜まで]] - 表示終點的助詞（待建立）
+- [〜から](../grammar/kara.md) - 表示起點的助詞（待建立）
+- [〜まで](../grammar/made.md) - 表示終點的助詞（待建立）
 
 ---
 

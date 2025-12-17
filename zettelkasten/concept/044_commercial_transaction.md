@@ -209,19 +209,19 @@ Through years of commercial transactions, the trust between both companies has d
 ## 相關連結
 
 ### 基礎概念
-- [[concept/contract]] - 契約的基本概念（待建立）
-- [[concept/negotiation]] - 商務談判技巧（待建立）
-- [[concept/business_etiquette]] - 日本商務禮儀（待建立）
+- [contract](contract.md) - 契約的基本概念（待建立）
+- [negotiation](negotiation.md) - 商務談判技巧（待建立）
+- [business_etiquette](business_etiquette.md) - 日本商務禮儀（待建立）
 
 ### 實務應用
-- [[concept/payment_terms]] - 付款條件與方式（待建立）
-- [[concept/delivery_terms]] - 交貨條件與物流（待建立）
-- [[concept/quality_control]] - 品質管理與驗收（待建立）
+- [payment_terms](payment_terms.md) - 付款條件與方式（待建立）
+- [delivery_terms](delivery_terms.md) - 交貨條件與物流（待建立）
+- [quality_control](quality_control.md) - 品質管理與驗收（待建立）
 
 ### 相關詞彙
-- [[noun/keiyaku]] - 契約（待建立）
-- [[noun/shoudan]] - 商談（待建立）
-- [[noun/kessai]] - 決済（待建立）
+- [keiyaku](../noun/keiyaku.md) - 契約（待建立）
+- [shoudan](../noun/shoudan.md) - 商談（待建立）
+- [kessai](../noun/kessai.md) - 決済（待建立）
 
 ---
 

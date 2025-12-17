@@ -210,21 +210,21 @@ The manager opens the store at 9. When the store opens, customers come in.
 ## 相關連結
 
 ### 基礎概念
-- [[../concept/003_jidoushi.md]] - 自動詞概念詳解（待建立）
-- [[../concept/004_tadoushi.md]] - 他動詞概念詳解（待建立）
+- [003_jidoushi.md](../concept/003_jidoushi.md.md) - 自動詞概念詳解（待建立）
+- [004_tadoushi.md](../concept/004_tadoushi.md.md) - 他動詞概念詳解（待建立）
 
 ### 相關文法
-- [[064_jita_taiou.md]] - 自他動詞對應配對系統
-- [[067_transitive-intransitive.md]] - 他動詞與自動詞的對比和使用規則
-- [[066_case-particles.md]] - 格助詞系統
+- [064_jita_taiou.md](064_jita_taiou.md.md) - 自他動詞對應配對系統
+- [067_transitive-intransitive.md](067_transitive-intransitive.md.md) - 他動詞與自動詞的對比和使用規則
+- [066_case-particles.md](066_case-particles.md.md) - 格助詞系統
 
 ### 相關助詞
-- [[../particle/001_ga.md]] - 主格助詞が（待建立）
-- [[../particle/011_wo.md]] - 賓格助詞を（待建立）
+- [001_ga.md](../particle/001_ga.md.md) - 主格助詞が（待建立）
+- [011_wo.md](../particle/011_wo.md.md) - 賓格助詞を（待建立）
 
 ### 延伸文法
-- [[022_te_iru.md]] - ている形與自他動詞的結合
-- [[031_tearu.md]] - てある形（他動詞的結果狀態）
+- [022_te_iru.md](022_te_iru.md.md) - ている形與自他動詞的結合
+- [031_tearu.md](031_tearu.md.md) - てある形（他動詞的結果狀態）
 
 ---
 

@@ -398,38 +398,38 @@ Come quickly. I'm waiting.
 
 ## 註解
 
-[^polite-request]: **禮貌請求表達** - 日語中有多種禮貌的請求方式，如「〜てください」（請〜）、「〜ていただけますか」（能否請您〜）等。詳見 [[grammar/te_kudasai]]（待建立）
+[^polite-request]: **禮貌請求表達** - 日語中有多種禮貌的請求方式，如「〜てください」（請〜）、「〜ていただけますか」（能否請您〜）等。詳見 [te_kudasai](te_kudasai.md)（待建立）
 
-[^usage-context]: **使用情境** - 命令形的使用高度依賴社會情境，包括說話者與聽話者的關係、年齡、性別、場合等。詳見 [[concept/speech_level]]（待建立）
+[^usage-context]: **使用情境** - 命令形的使用高度依賴社會情境，包括說話者與聽話者的關係、年齡、性別、場合等。詳見 [speech_level](../concept/speech_level.md)（待建立）
 
-[^prohibition]: **禁止表達** - 日語中表達禁止的方式包括「〜な」（粗魯）、「〜ないでください」（禮貌）、「〜てはいけません」（正式）等。詳見 [[grammar/prohibition_forms]]（待建立）
+[^prohibition]: **禁止表達** - 日語中表達禁止的方式包括「〜な」（粗魯）、「〜ないでください」（禮貌）、「〜てはいけません」（正式）等。詳見 [prohibition_forms](prohibition_forms.md)（待建立）
 
-[^polite-alternatives]: **禮貌替代表現** - 除了命令形，日語有豐富的禮貌命令表達方式，適用於不同的社會場合和人際關係。詳見 [[grammar/request_expressions]]（待建立）
+[^polite-alternatives]: **禮貌替代表現** - 除了命令形，日語有豐富的禮貌命令表達方式，適用於不同的社會場合和人際關係。詳見 [request_expressions](request_expressions.md)（待建立）
 
-[^gender-language]: **性別語言差異** - 日語中存在明顯的男性用語和女性用語差異，反映了傳統的性別角色期待。詳見 [[concept/gender_language]]（待建立）
+[^gender-language]: **性別語言差異** - 日語中存在明顯的男性用語和女性用語差異，反映了傳統的性別角色期待。詳見 [gender_language](../concept/gender_language.md)（待建立）
 
 ---
 
 ## 相關連結
 
 ### 動詞基礎
-- [[grammar/003_ichidan_verb]] - 一段動詞的命令形變化
-- [[grammar/006_godan_verb]] - 五段動詞的命令形變化
-- [[grammar/010_dictionary_form]] - 從辭書形理解命令形
+- [003_ichidan_verb](003_ichidan_verb.md) - 一段動詞的命令形變化
+- [006_godan_verb](006_godan_verb.md) - 五段動詞的命令形變化
+- [010_dictionary_form](010_dictionary_form.md) - 從辭書形理解命令形
 
 ### 相關形式
-- [[grammar/063_te_kudasai]] - 禮貌的請求表達（推薦替代）
-- [[grammar/018_naide]] - 禁止表達的基礎
-- [[grammar/019_naide_kudasai]] - 禮貌的禁止表達
+- [063_te_kudasai](063_te_kudasai.md) - 禮貌的請求表達（推薦替代）
+- [018_naide](018_naide.md) - 禁止表達的基礎
+- [019_naide_kudasai](019_naide_kudasai.md) - 禮貌的禁止表達
 
 ### 相關概念
-- [[concept/speech_level]] - 日語敬語與語域系統（待建立）
-- [[concept/social_hierarchy]] - 日本社會階層與語言使用（待建立）
-- [[concept/gender_language]] - 日語中的性別語言差異（待建立）
+- [speech_level](../concept/speech_level.md) - 日語敬語與語域系統（待建立）
+- [social_hierarchy](../concept/social_hierarchy.md) - 日本社會階層與語言使用（待建立）
+- [gender_language](../concept/gender_language.md) - 日語中的性別語言差異（待建立）
 
 ### 比較卡片
-- [[comparison/imperative_vs_te_kudasai]] - 命令形與〜てください的比較（待建立）
-- [[comparison/imperative_vs_nasai]] - 命令形與〜なさい的比較（待建立）
+- [imperative_vs_te_kudasai](../comparison/imperative_vs_te_kudasai.md) - 命令形與〜てください的比較（待建立）
+- [imperative_vs_nasai](../comparison/imperative_vs_nasai.md) - 命令形與〜なさい的比較（待建立）
 
 ---
 

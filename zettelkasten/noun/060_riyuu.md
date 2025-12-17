@@ -169,22 +169,22 @@ There is no particular reason to refuse.
 ## 相關連結
 
 ### 類義詞
-- [[noun/wakeru|わけ]] - 理由、原因（較口語）（待建立）
-- [[noun/genin|原因]] - 原因（客觀因果）（待建立）
+- [わけ](wakeru.md) - 理由、原因（較口語）（待建立）
+- [原因](genin.md) - 原因（客觀因果）（待建立）
 
 ### 相關文法
-- [[grammar/kara|〜から]] - 表示理由的接續助詞（待建立）
-- [[grammar/node|〜ので]] - 表示理由的接續助詞（待建立）
-- [[grammar/tame_ni|〜ため（に）]] - 表示理由或目的（待建立）
+- [〜から](../grammar/kara.md) - 表示理由的接續助詞（待建立）
+- [〜ので](../grammar/node.md) - 表示理由的接續助詞（待建立）
+- [〜ため（に）](../grammar/tame_ni.md) - 表示理由或目的（待建立）
 
 ### 相關表達
-- [[noun/houhou|方法]] - 方法（與理由相對）
-- [[noun/mokuteki|目的]] - 目的（與理由相關）（待建立）
-- [[phrase/doushite|どうして]] - 為什麼（詢問理由）（待建立）
+- [方法](houhou.md) - 方法（與理由相對）
+- [目的](mokuteki.md) - 目的（與理由相關）（待建立）
+- [どうして](../phrase/doushite.md) - 為什麼（詢問理由）（待建立）
 
 ### 疑問詞
-- [[noun/naze|なぜ]] - 為什麼（待建立）
-- [[noun/doushite|どうして]] - 為什麼（待建立）
+- [なぜ](naze.md) - 為什麼（待建立）
+- [どうして](doushite.md) - 為什麼（待建立）
 
 ---
 

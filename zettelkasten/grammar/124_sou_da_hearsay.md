@@ -209,19 +209,19 @@ According to the teacher, the exam won't be difficult.
 ## 相關連結
 
 ### 對比文法
-- [[grammar/sou_da_appearance.md]] - 〜そうだ（樣態）- 看起來、好像（待建立）
-- [[grammar/you_da.md]] - 〜ようだ - 好像、似乎（待建立）
-- [[grammar/rashii.md]] - 〜らしい - 好像、聽說（待建立）
+- [sou_da_appearance.md](sou_da_appearance.md) - 〜そうだ（樣態）- 看起來、好像（待建立）
+- [you_da.md](you_da.md) - 〜ようだ - 好像、似乎（待建立）
+- [rashii.md](rashii.md) - 〜らしい - 好像、聽說（待建立）
 
 ### 相關表達
-- [[grammar/to_iu.md]] - 〜という - 叫做、據說（待建立）
-- [[grammar/to_iu_koto_da.md]] - 〜ということだ - 據說（正式）（待建立）
-- [[grammar/to_no_koto_da.md]] - 〜とのことだ - 聽說（正式）（待建立）
+- [to_iu.md](to_iu.md) - 〜という - 叫做、據說（待建立）
+- [to_iu_koto_da.md](to_iu_koto_da.md) - 〜ということだ - 據說（正式）（待建立）
+- [to_no_koto_da.md](to_no_koto_da.md) - 〜とのことだ - 聽說（正式）（待建立）
 
 ### 相關概念
-- [[concept/information_source.md]] - 資訊來源的標示（待建立）
-- [[concept/evidentiality.md]] - 證據性標記系統（待建立）
-- [[concept/plain_form.md]] - 普通形的使用（待建立）
+- [information_source.md](../concept/information_source.md) - 資訊來源的標示（待建立）
+- [evidentiality.md](../concept/evidentiality.md) - 證據性標記系統（待建立）
+- [plain_form.md](../concept/plain_form.md) - 普通形的使用（待建立）
 
 ---
 

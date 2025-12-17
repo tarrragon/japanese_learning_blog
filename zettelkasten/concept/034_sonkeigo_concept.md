@@ -530,30 +530,30 @@ Could I ask for your opinion? (respectful)
 ## 相關連結
 
 ### 敬語體系
-- [[concept/013_keigo_taikei|敬語體系]] - 敬語的整體理論框架
-- [[concept/kenjougo_concept|謙讓語概念]]（待建立） - 降低自己地位的敬語
-- [[concept/teineigo_concept|丁寧語概念]]（待建立） - 基本禮貌表達
+- [敬語體系](013_keigo_taikei.md) - 敬語的整體理論框架
+- [謙讓語概念](kenjougo_concept.md)（待建立） - 降低自己地位的敬語
+- [丁寧語概念](teineigo_concept.md)（待建立） - 基本禮貌表達
 
 ### 尊敬語文法形式
-- [[grammar/sonkeigo_reru_rareru|尊敬助動詞れる・られる]]（待建立） - 助動詞形式
-- [[grammar/o_ni_naru|お〜になる]]（待建立） - 和語尊敬構成
-- [[grammar/go_ni_naru|ご〜になる]]（待建立） - 漢語尊敬構成
+- [尊敬助動詞れる・られる](../grammar/sonkeigo_reru_rareru.md)（待建立） - 助動詞形式
+- [お〜になる](../grammar/o_ni_naru.md)（待建立） - 和語尊敬構成
+- [ご〜になる](../grammar/go_ni_naru.md)（待建立） - 漢語尊敬構成
 
 ### 特殊尊敬動詞
-- [[verb-u/irassharu|いらっしゃる]]（待建立） - 來・去・在的尊敬語
-- [[verb-u/ossharu|おっしゃる]]（待建立） - 說的尊敬語
-- [[verb-u/meshiagaru|召し上がる]]（待建立） - 吃・喝的尊敬語
-- [[verb-u/nasaru|なさる]]（待建立） - 做的尊敬語
-- [[verb-u/goran_ni_naru|ご覧になる]]（待建立） - 看的尊敬語
+- [いらっしゃる](../verb-u/irassharu.md)（待建立） - 來・去・在的尊敬語
+- [おっしゃる](../verb-u/ossharu.md)（待建立） - 說的尊敬語
+- [召し上がる](../verb-u/meshiagaru.md)（待建立） - 吃・喝的尊敬語
+- [なさる](../verb-u/nasaru.md)（待建立） - 做的尊敬語
+- [ご覧になる](../verb-u/goran_ni_naru.md)（待建立） - 看的尊敬語
 
 ### 社會語言學概念
-- [[concept/007_uchi-soto|內與外]] - 內外群體概念對敬語的影響
-- [[concept/006_viewpoint|視點理論]] - 視點與敬語選擇的關係
-- [[concept/social_hierarchy|社會階層]]（待建立） - 上下關係的語言表現
+- [內與外](007_uchi-soto.md) - 內外群體概念對敬語的影響
+- [視點理論](006_viewpoint.md) - 視點與敬語選擇的關係
+- [社會階層](social_hierarchy.md)（待建立） - 上下關係的語言表現
 
 ### 實用應用
-- [[extension/business_keigo|商務敬語]]（待建立） - 商務場合的敬語使用
-- [[extension/keigo_mistakes|敬語常見錯誤]]（待建立） - 學習者常犯錯誤分析
+- [商務敬語](../extension/business_keigo.md)（待建立） - 商務場合的敬語使用
+- [敬語常見錯誤](../extension/keigo_mistakes.md)（待建立） - 學習者常犯錯誤分析
 
 ---
 

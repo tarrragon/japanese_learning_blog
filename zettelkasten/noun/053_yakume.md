@@ -162,19 +162,19 @@ I believe a parent's role is to support their children so they can become indepe
 ## 相關連結
 
 ### 同義詞・類義詞
-- [[noun/sekinin]] - 責任（待建立）
-- [[noun/ninmu]] - 任務（待建立）
-- [[noun/yakuwari]] - 角色（待建立）
-- [[noun/shokuseki]] - 職責（待建立）
+- [sekinin](sekinin.md) - 責任（待建立）
+- [ninmu](ninmu.md) - 任務（待建立）
+- [yakuwari](yakuwari.md) - 角色（待建立）
+- [shokuseki](shokuseki.md) - 職責（待建立）
 
 ### 相關動詞
-- [[verb-u/hatasu]] - 完成、實現（待建立）
-- [[verb-ru/oeru]] - 結束、完成（待建立）
-- [[verb-u/tsuku]] - 就任、擔任（待建立）
+- [hatasu](../verb-u/hatasu.md) - 完成、實現（待建立）
+- [oeru](../verb-ru/oeru.md) - 結束、完成（待建立）
+- [tsuku](../verb-u/tsuku.md) - 就任、擔任（待建立）
 
 ### 相關概念
-- [[concept/responsibility]] - 責任概念（待建立）
-- [[concept/organizational_roles]] - 組織角色（待建立）
+- [responsibility](../concept/responsibility.md) - 責任概念（待建立）
+- [organizational_roles](../concept/organizational_roles.md) - 組織角色（待建立）
 
 ---
 

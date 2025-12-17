@@ -199,23 +199,23 @@ If you have a cold, you should rest today.
 ## 相關連結
 
 ### 類似文法
-- [[grammar/027_nakereba_naranai.md]] - 必須...（強制性義務）（待建立）
-- [[grammar/053_beki.md]] - 應該...（較強的義務感）
-- [[grammar/037_ni_suru.md]] - 決定...（主動選擇）
+- [027_nakereba_naranai.md](027_nakereba_naranai.md) - 必須...（強制性義務）（待建立）
+- [053_beki.md](053_beki.md) - 應該...（較強的義務感）
+- [037_ni_suru.md](037_ni_suru.md) - 決定...（主動選擇）
 
 ### 相關文法
-- [[grammar/009_ta_form.md]] - た形（動詞過去形）
-- [[grammar/008_nai_form.md]] - ない形（動詞否定形）
-- [[grammar/054_nara.md]] - なら（話題條件）
-- [[grammar/030_tara.md]] - たら（假設條件）
+- [009_ta_form.md](009_ta_form.md) - た形（動詞過去形）
+- [008_nai_form.md](008_nai_form.md) - ない形（動詞否定形）
+- [054_nara.md](054_nara.md) - なら（話題條件）
+- [030_tara.md](030_tara.md) - たら（假設條件）
 
 ### 對比辨析
-- [[comparison/beki_vs_hou_ga_ii.md]] - 「べきだ」vs「ほうがいい」的使用差異（待建立）
-- [[comparison/advice_expressions.md]] - 日語建議表達的禮貌程度比較（待建立）
+- [beki_vs_hou_ga_ii.md](../comparison/beki_vs_hou_ga_ii.md) - 「べきだ」vs「ほうがいい」的使用差異（待建立）
+- [advice_expressions.md](../comparison/advice_expressions.md) - 日語建議表達的禮貌程度比較（待建立）
 
 ### 延伸說明
-- [[concept/advice_politeness.md]] - 日語建議表達的禮貌體系（待建立）
-- [[concept/modal_expressions.md]] - 日語情態表達系統（待建立）
+- [advice_politeness.md](../concept/advice_politeness.md) - 日語建議表達的禮貌體系（待建立）
+- [modal_expressions.md](../concept/modal_expressions.md) - 日語情態表達系統（待建立）
 
 ---
 

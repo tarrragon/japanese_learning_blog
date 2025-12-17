@@ -233,21 +233,21 @@ Please let me explain one more time.
 ## 相關連結
 
 ### 相關文法
-- [[grammar/013_causative_form|使役形詳解]] - 更詳細的使役形說明（待建立）
-- [[grammar/113_passive|受身形]] - 被動態的文法形式
-- [[grammar/causative_passive|使役受身形]] - 使役與受身的組合（待建立）
+- [使役形詳解](013_causative_form.md) - 更詳細的使役形說明（待建立）
+- [受身形](113_passive.md) - 被動態的文法形式
+- [使役受身形](causative_passive.md) - 使役與受身的組合（待建立）
 
 ### 相關概念
-- [[concept/verb_classification|動詞分類]] - 理解一段動詞與五段動詞（待建立）
-- [[concept/honorific_system|敬語系統]] - 使役形在敬語中的應用（待建立）
+- [動詞分類](../concept/verb_classification.md) - 理解一段動詞與五段動詞（待建立）
+- [敬語系統](../concept/honorific_system.md) - 使役形在敬語中的應用（待建立）
 
 ### 相關動詞變化
-- [[grammar/potential|可能形]] - 表達能力的文法形式（待建立）
-- [[grammar/te_form|て形]] - 動詞的連接形式（待建立）
+- [可能形](potential.md) - 表達能力的文法形式（待建立）
+- [て形](te_form.md) - 動詞的連接形式（待建立）
 
 ### 延伸學習
-- [[comparison/causative_vs_potential|使役形與可能形的區別]] - 兩者的對比分析（待建立）
-- [[phrase/sasete_kudasai|させてください表達]] - 請求許可的常用句型（待建立）
+- [使役形與可能形的區別](../comparison/causative_vs_potential.md) - 兩者的對比分析（待建立）
+- [させてください表達](../phrase/sasete_kudasai.md) - 請求許可的常用句型（待建立）
 
 ---
 

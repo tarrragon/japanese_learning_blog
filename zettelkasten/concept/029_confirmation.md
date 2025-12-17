@@ -448,20 +448,20 @@ In other words, we're postponing the project start date by one month, is that ri
 ## 相關連結
 
 ### 溝通策略
-- [[concept/high-context-culture|高語境文化]]（待建立） - 日本高語境溝通特徵
-- [[concept/kikubari|気配り]]（待建立） - 日本的體貼文化
+- [高語境文化](high-context-culture.md)（待建立） - 日本高語境溝通特徵
+- [気配り](kikubari.md)（待建立） - 日本的體貼文化
 
 ### 語氣詞和助詞
-- [[particle/ne|終助詞「ね」]]（待建立） - 確認和尋求同意的語氣詞
-- [[particle/yone|終助詞「よね」]]（待建立） - 確認共同認知
+- [終助詞「ね」](../particle/ne.md)（待建立） - 確認和尋求同意的語氣詞
+- [終助詞「よね」](../particle/yone.md)（待建立） - 確認共同認知
 
 ### 商務溝通
-- [[business/business-email|商務郵件]]（待建立） - 書面確認的寫法
-- [[business/horenso|報連相]]（待建立） - 日本職場溝通原則
+- [商務郵件](../business/business-email.md)（待建立） - 書面確認的寫法
+- [報連相](../business/horenso.md)（待建立） - 日本職場溝通原則
 
 ### 疑問表達
-- [[grammar/question-forms|疑問形式]]（待建立） - 日語疑問句的構成
-- [[grammar/deshouka|～でしょうか]]（待建立） - 禮貌的推測疑問
+- [疑問形式](../grammar/question-forms.md)（待建立） - 日語疑問句的構成
+- [～でしょうか](../grammar/deshouka.md)（待建立） - 禮貌的推測疑問
 
 ---
 

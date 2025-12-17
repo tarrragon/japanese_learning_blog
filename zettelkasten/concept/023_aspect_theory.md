@@ -196,27 +196,27 @@ The train is stopped at the platform. (state resulting from stopping)
 ## 相關連結
 
 ### 基礎概念
-- [[grammar/tense_aspect_distinction]] - テンスと体の違い（待建立）
-- [[concept/aktionsart]] - 動詞の語彙的アスペクト（待建立）
-- [[concept/lexical_aspect]] - 語彙的アスペクトの分類体系（待建立）
+- [tense_aspect_distinction](../grammar/tense_aspect_distinction.md) - テンスと体の違い（待建立）
+- [aktionsart](aktionsart.md) - 動詞の語彙的アスペクト（待建立）
+- [lexical_aspect](lexical_aspect.md) - 語彙的アスペクトの分類体系（待建立）
 
 ### 文法形式
-- [[grammar/te_iru_form]] - 「〜ている」の体的用法（待建立）
-- [[grammar/ta_form_aspect]] - 「た形」の完成体用法（待建立）
-- [[grammar/te_aru_resultative]] - 「〜てある」の結果体（待建立）
+- [te_iru_form](../grammar/te_iru_form.md) - 「〜ている」の体的用法（待建立）
+- [ta_form_aspect](../grammar/ta_form_aspect.md) - 「た形」の完成体用法（待建立）
+- [te_aru_resultative](../grammar/te_aru_resultative.md) - 「〜てある」の結果体（待建立）
 
 ### 動詞分類
-- [[concept/verb_classification]] - 動詞の類型論的分類（待建立）
-- [[concept/achievement_verbs]] - 瞬間動詞（達成動詞）（待建立）
-- [[concept/activity_verbs]] - 継続動詞（活動動詞）（待建立）
+- [verb_classification](verb_classification.md) - 動詞の類型論的分類（待建立）
+- [achievement_verbs](achievement_verbs.md) - 瞬間動詞（達成動詞）（待建立）
+- [activity_verbs](activity_verbs.md) - 継続動詞（活動動詞）（待建立）
 
 ### 比較與對照
-- [[comparison/japanese_vs_english_aspect]] - 日英の体系の対照（待建立）
-- [[comparison/te_iru_vs_progressive]] - 「ている」と英語進行形（待建立）
+- [japanese_vs_english_aspect](../comparison/japanese_vs_english_aspect.md) - 日英の体系の対照（待建立）
+- [te_iru_vs_progressive](../comparison/te_iru_vs_progressive.md) - 「ている」と英語進行形（待建立）
 
 ### 延伸閱讀
-- [[concept/grammatical_categories]] - 文法カテゴリーの概要（待建立）
-- [[concept/temporal_expressions]] - 時間表現の体系（待建立）
+- [grammatical_categories](grammatical_categories.md) - 文法カテゴリーの概要（待建立）
+- [temporal_expressions](temporal_expressions.md) - 時間表現の体系（待建立）
 
 ---
 

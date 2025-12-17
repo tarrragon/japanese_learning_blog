@@ -187,22 +187,22 @@ I have time on the weekend, so let's go watch a movie.
 ## 相關連結
 
 ### 時間相關詞彙
-- [[noun/jikoku]] - 時刻（具體的時間點）（待建立）
-- [[noun/toki]] - 時、とき（時候、時機）（待建立）
-- [[noun/kikan]] - 期間（時間段、期限）（待建立）
+- [jikoku](jikoku.md) - 時刻（具體的時間點）（待建立）
+- [toki](toki.md) - 時、とき（時候、時機）（待建立）
+- [kikan](kikan.md) - 期間（時間段、期限）（待建立）
 
 ### 相關動詞
-- [[verb-u/kakaru]] - かかる（需要時間）（待建立）
-- [[verb-u/mamoru]] - 守る（遵守、守護）（待建立）
-- [[verb-ru/okureru]] - 遅れる（遲到）（待建立）
+- [kakaru](../verb-u/kakaru.md) - かかる（需要時間）（待建立）
+- [mamoru](../verb-u/mamoru.md) - 守る（遵守、守護）（待建立）
+- [okureru](../verb-ru/okureru.md) - 遅れる（遲到）（待建立）
 
 ### 相關文法
-- [[grammar/duration]] - 時間長度的表達方式（待建立）
-- [[grammar/time_expressions]] - 時間表達相關文法（待建立）
+- [duration](../grammar/duration.md) - 時間長度的表達方式（待建立）
+- [time_expressions](../grammar/time_expressions.md) - 時間表達相關文法（待建立）
 
 ### 相關概念
-- [[concept/punctuality]] - 日本的守時文化（待建立）
-- [[phrase/time_expressions]] - 時間相關慣用表達（待建立）
+- [punctuality](../concept/punctuality.md) - 日本的守時文化（待建立）
+- [time_expressions](../phrase/time_expressions.md) - 時間相關慣用表達（待建立）
 
 ---
 

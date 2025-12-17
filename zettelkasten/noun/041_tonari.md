@@ -141,17 +141,17 @@ Success and failure are two sides of the same coin.
 ## 相關連結
 
 ### 位置・空間表現
-- [[noun/035_mae.md]] - 前（前方の位置、前の部分）（待建立）
-- [[noun/036_tokoro.md]] - 所（場所、地方）（待建立）
-- [[noun/037_atari.md]] - 辺り（周辺、付近）（待建立）
+- [035_mae.md](035_mae.md) - 前（前方の位置、前の部分）（待建立）
+- [036_tokoro.md](036_tokoro.md) - 所（場所、地方）（待建立）
+- [037_atari.md](037_atari.md) - 辺り（周辺、付近）（待建立）
 
 ### 関連名詞
-- [[noun/001_asagohan.md]] - 朝ごはん（朝食）
-- [[noun/038_ie.md]] - 家（住宅）（待建立）
-- [[noun/039_heya.md]] - 部屋（房間）（待建立）
+- [001_asagohan.md](001_asagohan.md) - 朝ごはん（朝食）
+- [038_ie.md](038_ie.md) - 家（住宅）（待建立）
+- [039_heya.md](039_heya.md) - 部屋（房間）（待建立）
 
 ### 社会文化的含意
-- [[concept/018_nakama.md]] - 隍人と地域社会（待建立）
+- [018_nakama.md](../concept/018_nakama.md) - 隍人と地域社会（待建立）
 
 ---
 

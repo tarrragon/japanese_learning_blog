@@ -181,38 +181,38 @@ I'm sorry, I can't go today.
 ## 相關連結
 
 ### 動詞分類
-- [[zettelkasten/grammar/godan_verbs.md]] - 五段動詞的可能形變化（待建立）
-- [[zettelkasten/grammar/ichidan_verbs.md]] - 一段動詞的可能形變化（待建立）
-- [[zettelkasten/grammar/irregular_verbs.md]] - 不規則動詞的可能形（待建立）
+- [godan_verbs.md](zettelkasten/grammar/godan_verbs.md.md) - 五段動詞的可能形變化（待建立）
+- [ichidan_verbs.md](zettelkasten/grammar/ichidan_verbs.md.md) - 一段動詞的可能形變化（待建立）
+- [irregular_verbs.md](zettelkasten/grammar/irregular_verbs.md.md) - 不規則動詞的可能形（待建立）
 
 ### 相關文法
-- [[zettelkasten/grammar/koto_ga_dekiru.md]] - 「～ことができる」文法（待建立）
-- [[zettelkasten/grammar/passive_form.md]] - 受身形與可能形的區別（待建立）
-- [[zettelkasten/particle/ga.md]] - 助詞「が」的用法（待建立）
+- [koto_ga_dekiru.md](zettelkasten/grammar/koto_ga_dekiru.md.md) - 「～ことができる」文法（待建立）
+- [passive_form.md](zettelkasten/grammar/passive_form.md.md) - 受身形與可能形的區別（待建立）
+- [ga.md](zettelkasten/particle/ga.md.md) - 助詞「が」的用法（待建立）
 
 ### 比較辨析
-- [[zettelkasten/comparison/potential_vs_dekiru.md]] - 可能形 vs できる（待建立）
-- [[zettelkasten/comparison/potential_vs_passive.md]] - 可能形 vs 受身形（待建立）
+- [potential_vs_dekiru.md](zettelkasten/comparison/potential_vs_dekiru.md.md) - 可能形 vs できる（待建立）
+- [potential_vs_passive.md](zettelkasten/comparison/potential_vs_passive.md.md) - 可能形 vs 受身形（待建立）
 
 ---
 
 ## 註解
 
-[^conjugation]: **動詞活用** - 日語動詞根據時態、語氣、敬語等因素進行的形態變化。詳見 [[zettelkasten/concept/verb_conjugation.md]]（待建立）
+[^conjugation]: **動詞活用** - 日語動詞根據時態、語氣、敬語等因素進行的形態變化。詳見 [verb_conjugation.md](zettelkasten/concept/verb_conjugation.md.md)（待建立）
 
-[^jlpt-n4]: **JLPT N4** - 日本語能力試驗的第四級，要求掌握基本的動詞變化和常用文法。詳見 [[zettelkasten/concept/jlpt_levels.md]]（待建立）
+[^jlpt-n4]: **JLPT N4** - 日本語能力試驗的第四級，要求掌握基本的動詞變化和常用文法。詳見 [jlpt_levels.md](zettelkasten/concept/jlpt_levels.md.md)（待建立）
 
-[^daily-conversation]: **日常會話** - 朋友、家人之間的非正式對話情境。詳見 [[zettelkasten/context/daily_conversation.md]]（待建立）
+[^daily-conversation]: **日常會話** - 朋友、家人之間的非正式對話情境。詳見 [daily_conversation.md](zettelkasten/context/daily_conversation.md.md)（待建立）
 
-[^godan]: **五段動詞** - 語尾在あ、い、う、え、お五個段落變化的動詞，也稱為う動詞。詳見 [[zettelkasten/grammar/godan_verbs.md]]（待建立）
+[^godan]: **五段動詞** - 語尾在あ、い、う、え、お五個段落變化的動詞，也稱為う動詞。詳見 [godan_verbs.md](zettelkasten/grammar/godan_verbs.md.md)（待建立）
 
-[^ichidan]: **一段動詞** - 語幹不變，只變化「る」的動詞，也稱為る動詞。詳見 [[zettelkasten/grammar/ichidan_verbs.md]]（待建立）
+[^ichidan]: **一段動詞** - 語幹不變，只變化「る」的動詞，也稱為る動詞。詳見 [ichidan_verbs.md](zettelkasten/grammar/ichidan_verbs.md.md)（待建立）
 
-[^irregular]: **不規則動詞** - 不遵循一般變化規則的動詞，主要是「する」和「来る」。詳見 [[zettelkasten/grammar/irregular_verbs.md]]（待建立）
+[^irregular]: **不規則動詞** - 不遵循一般變化規則的動詞，主要是「する」和「来る」。詳見 [irregular_verbs.md](zettelkasten/grammar/irregular_verbs.md.md)（待建立）
 
-[^transitive]: **他動詞** - 需要賓語的動詞，動作有明確的對象。詳見 [[zettelkasten/concept/transitive_verbs.md]]（待建立）
+[^transitive]: **他動詞** - 需要賓語的動詞，動作有明確的對象。詳見 [transitive_verbs.md](zettelkasten/concept/transitive_verbs.md.md)（待建立）
 
-[^particle-ga]: **助詞「が」** - 主格助詞，在可能形中用於標示動作的對象。詳見 [[zettelkasten/particle/ga.md]]（待建立）
+[^particle-ga]: **助詞「が」** - 主格助詞，在可能形中用於標示動作的對象。詳見 [ga.md](zettelkasten/particle/ga.md.md)（待建立）
 
 ---
 

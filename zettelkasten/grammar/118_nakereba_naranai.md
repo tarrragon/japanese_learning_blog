@@ -210,66 +210,66 @@ I gotta sleep now. I have to wake up early tomorrow.
 ## 相關連結
 
 ### 同義文法
-- [[grammar/nakereba_naranai]] - 〜なければならない（待建立）
-- [[grammar/nakute_wa_naranai]] - 〜なくてはならない（待建立）
-- [[grammar/nakute_wa_ikenai]] - 〜なくてはいけない（待建立）
-- [[grammar/nai_to_ikenai]] - 〜ないといけない（待建立）
+- [nakereba_naranai](nakereba_naranai.md) - 〜なければならない（待建立）
+- [nakute_wa_naranai](nakute_wa_naranai.md) - 〜なくてはならない（待建立）
+- [nakute_wa_ikenai](nakute_wa_ikenai.md) - 〜なくてはいけない（待建立）
+- [nai_to_ikenai](nai_to_ikenai.md) - 〜ないといけない（待建立）
 
 ### 對比文法
-- [[grammar/nakute_mo_ii]] - 〜なくてもいい（不必）（待建立）
-- [[grammar/te_wa_ikenai]] - 〜てはいけない（禁止）（待建立）
-- [[grammar/beki]] - 〜べき（應該）（待建立）
+- [nakute_mo_ii](nakute_mo_ii.md) - 〜なくてもいい（不必）（待建立）
+- [te_wa_ikenai](te_wa_ikenai.md) - 〜てはいけない（禁止）（待建立）
+- [beki](beki.md) - 〜べき（應該）（待建立）
 
 ### 相關概念
-- [[concept/gimu]] - 義務概念（待建立）
-- [[concept/hitsuyousei]] - 必要性概念（待建立）
-- [[concept/shakai_kisoku]] - 社會規則（待建立）
+- [gimu](../concept/gimu.md) - 義務概念（待建立）
+- [hitsuyousei](../concept/hitsuyousei.md) - 必要性概念（待建立）
+- [shakai_kisoku](../concept/shakai_kisoku.md) - 社會規則（待建立）
 
 ### 動詞形式
-- [[grammar/nai_form]] - 動詞ない形（待建立）
-- [[grammar/conditional_forms]] - 條件形（待建立）
+- [nai_form](nai_form.md) - 動詞ない形（待建立）
+- [conditional_forms](conditional_forms.md) - 條件形（待建立）
 
 ---
 
 ## 註解
 
-[^hitsuyousei]: **必要性** - 某事物或行為不可或缺的性質。在日語中，表示必要性的文法形式有多種，程度和語感各不相同。詳見 [[concept/hitsuyousei]]（待建立）
+[^hitsuyousei]: **必要性** - 某事物或行為不可或缺的性質。在日語中，表示必要性的文法形式有多種，程度和語感各不相同。詳見 [hitsuyousei](../concept/hitsuyousei.md)（待建立）
 
-[^gimu]: **義務** - 必須履行的責任或職責。可能來自法律、道德、社會規範或個人承諾。詳見 [[concept/gimu]]（待建立）
+[^gimu]: **義務** - 必須履行的責任或職責。可能來自法律、道德、社會規範或個人承諾。詳見 [gimu](../concept/gimu.md)（待建立）
 
-[^bunpou-hyougen]: **文法表現** - 由多個文法要素組合而成的固定句型，用於表達特定的意義或功能。詳見 [[concept/grammar_pattern]]（待建立）
+[^bunpou-hyougen]: **文法表現** - 由多個文法要素組合而成的固定句型，用於表達特定的意義或功能。詳見 [grammar_pattern](../concept/grammar_pattern.md)（待建立）
 
-[^joukenkeL]: **條件形** - 日語動詞、形容詞的假定條件形式，表示「如果〜的話」。動詞ば形（如：行けば）和假定形（如：行ったら）都屬於條件形。詳見 [[grammar/conditional_forms]]（待建立）
+[^joukenkeL]: **條件形** - 日語動詞、形容詞的假定條件形式，表示「如果〜的話」。動詞ば形（如：行けば）和假定形（如：行ったら）都屬於條件形。詳見 [conditional_forms](conditional_forms.md)（待建立）
 
-[^hitei]: **否定** - 表示否定、不存在或不做某事的文法形式。日語的否定形式豐富，包括動詞ない形、形容詞的否定等。詳見 [[concept/negation]]（待建立）
+[^hitei]: **否定** - 表示否定、不存在或不做某事的文法形式。日語的否定形式豐富，包括動詞ない形、形容詞的否定等。詳見 [negation](../concept/negation.md)（待建立）
 
-[^shakai-kisoku]: **社會規則** - 社會成員普遍遵守的行為規範，包括法律、習俗、禮儀等。詳見 [[concept/shakai_kisoku]]（待建立）
+[^shakai-kisoku]: **社會規則** - 社會成員普遍遵守的行為規範，包括法律、習俗、禮儀等。詳見 [shakai_kisoku](../concept/shakai_kisoku.md)（待建立）
 
-[^houritsu]: **法律** - 國家制定的強制性規範，違反將受到處罰。日語中常用「法律」、「法令」、「規則」等詞。詳見 [[noun/houritsu]]（待建立）
+[^houritsu]: **法律** - 國家制定的強制性規範，違反將受到處罰。日語中常用「法律」、「法令」、「規則」等詞。詳見 [houritsu](../noun/houritsu.md)（待建立）
 
-[^yakusoku]: **約束** - 與他人達成的承諾或協議，是日本文化中非常重視的概念。破壞約束被視為失信的行為。詳見 [[noun/yakusoku]]（待建立）
+[^yakusoku]: **約束** - 與他人達成的承諾或協議，是日本文化中非常重視的概念。破壞約束被視為失信的行為。詳見 [yakusoku](../noun/yakusoku.md)（待建立）
 
-[^sekinin]: **責任** - 對某事負有義務或承擔後果的狀態。日本社會特別強調個人和集體責任。詳見 [[noun/sekinin]]（待建立）
+[^sekinin]: **責任** - 對某事負有義務或承擔後果的狀態。日本社會特別強調個人和集體責任。詳見 [sekinin](../noun/sekinin.md)（待建立）
 
-[^bunmyaku]: **文脈** - 語言使用的情境和背景，包括前後文、說話場合、人際關係等。理解文脈對正確使用日語極為重要。詳見 [[concept/bunmyaku]]（待建立）
+[^bunmyaku]: **文脈** - 語言使用的情境和背景，包括前後文、說話場合、人際關係等。理解文脈對正確使用日語極為重要。詳見 [bunmyaku](../concept/bunmyaku.md)（待建立）
 
-[^wasya]: **話者** - 說話的人、發話者。在語言學中，話者的身份、立場和意圖會影響語言選擇。詳見 [[concept/speaker]]（待建立）
+[^wasya]: **話者** - 說話的人、發話者。在語言學中，話者的身份、立場和意圖會影響語言選擇。詳見 [speaker](../concept/speaker.md)（待建立）
 
-[^sentaku-yochi]: **選擇的餘地** - 能夠在多個選項中做出選擇的自由。「〜なければならない」暗示沒有選擇，必須執行。詳見 [[concept/choice]]（待建立）
+[^sentaku-yochi]: **選擇的餘地** - 能夠在多個選項中做出選擇的自由。「〜なければならない」暗示沒有選擇，必須執行。詳見 [choice](../concept/choice.md)（待建立）
 
-[^seishiki-bamen]: **正式場合** - 需要使用禮貌語言和正式行為的情境，如商務會議、正式文書、對長輩說話等。詳見 [[context/formal]]（待建立）
+[^seishiki-bamen]: **正式場合** - 需要使用禮貌語言和正式行為的情境，如商務會議、正式文書、對長輩說話等。詳見 [formal](../context/formal.md)（待建立）
 
-[^teineikei]: **丁寧形** - 日語敬語系統的基礎層級，使用「です・ます」體，表示對聽者的基本尊重。詳見 [[grammar/teineigo]]（待建立）
+[^teineikei]: **丁寧形** - 日語敬語系統的基礎層級，使用「です・ます」體，表示對聽者的基本尊重。詳見 [teineigo](teineigo.md)（待建立）
 
-[^nichijou-kaiwa]: **日常會話** - 日常生活中的對話，通常在朋友、家人之間進行，語言較為隨意。詳見 [[context/daily_conversation]]（待建立）
+[^nichijou-kaiwa]: **日常會話** - 日常生活中的對話，通常在朋友、家人之間進行，語言較為隨意。詳見 [daily_conversation](../context/daily_conversation.md)（待建立）
 
-[^shukuyakukei]: **縮約形** - 口語中為了說話方便而省略或合併的形式，如「〜なければ」→「〜なきゃ」。詳見 [[grammar/contraction]]（待建立）
+[^shukuyakukei]: **縮約形** - 口語中為了說話方便而省略或合併的形式，如「〜なければ」→「〜なきゃ」。詳見 [contraction](contraction.md)（待建立）
 
-[^nai-kei]: **ない形** - 動詞的否定形式，也稱為否定形。是動詞活用的基本形式之一，許多文法接續都以ない形為基礎。詳見 [[grammar/nai_form]]（待建立）
+[^nai-kei]: **ない形** - 動詞的否定形式，也稱為否定形。是動詞活用的基本形式之一，許多文法接續都以ない形為基礎。詳見 [nai_form](nai_form.md)（待建立）
 
-[^katei-jouken]: **假定條件** - 假設某種情況或條件的表達方式，如「もし〜なら」、「〜ば」、「〜たら」等。詳見 [[grammar/hypothetical_condition]]（待建立）
+[^katei-jouken]: **假定條件** - 假設某種情況或條件的表達方式，如「もし〜なら」、「〜ば」、「〜たら」等。詳見 [hypothetical_condition](hypothetical_condition.md)（待建立）
 
-[^ronri-kouzou]: **邏輯結構** - 語言表達中的邏輯關係和組織方式。「〜なければならない」的邏輯是：不做→不行，因此必須做。詳見 [[concept/logical_structure]]（待建立）
+[^ronri-kouzou]: **邏輯結構** - 語言表達中的邏輯關係和組織方式。「〜なければならない」的邏輯是：不做→不行，因此必須做。詳見 [logical_structure](../concept/logical_structure.md)（待建立）
 
 ---
 

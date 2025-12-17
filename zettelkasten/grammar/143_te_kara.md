@@ -208,21 +208,21 @@ It's already been 5 years since I came to Japan.
 ## 相關連結
 
 ### 對比文法
-- [[grammar/ato_de|〜後で]] - 在...之後（待建立）
-- [[grammar/mae_ni|〜前に]] - 在...之前（待建立）
-- [[grammar/tara|〜たら]] - ...的話、...之後（待建立）
+- [〜後で](ato_de.md) - 在...之後（待建立）
+- [〜前に](mae_ni.md) - 在...之前（待建立）
+- [〜たら](tara.md) - ...的話、...之後（待建立）
 
 ### 相關動詞形
-- [[grammar/te_form|て形]] - 動詞て形變化規則（待建立）
-- [[grammar/ta_form|た形]] - 動詞過去形（待建立）
+- [て形](te_form.md) - 動詞て形變化規則（待建立）
+- [た形](ta_form.md) - 動詞過去形（待建立）
 
 ### 比較辨析
-- [[comparison/te_kara_vs_ato_de|〜てから vs 〜後で]] - 使用場合的區別（待建立）
-- [[comparison/kara_usages|から的多重用法]] - 時間 vs 原因的區分（待建立）
+- [〜てから vs 〜後で](../comparison/te_kara_vs_ato_de.md) - 使用場合的區別（待建立）
+- [から的多重用法](../comparison/kara_usages.md) - 時間 vs 原因的區分（待建立）
 
 ### 延伸學習
-- [[grammar/te_kara_dewa|〜てからでは]] - 進階用法（待建立）
-- [[concept/time_expressions|時間表達系統]] - 日語時間表達總覽（待建立）
+- [〜てからでは](te_kara_dewa.md) - 進階用法（待建立）
+- [時間表達系統](../concept/time_expressions.md) - 日語時間表達總覽（待建立）
 
 ---
 

@@ -165,23 +165,23 @@ After talking with various people, my thinking changed.
 ## 相關連結
 
 ### 相關動詞
-- [[verb-ru/kangaeru]] - 思考、考慮（動詞形）（待建立）
-- [[verb-ru/omou]] - 想、認為（待建立）
+- [kangaeru](../verb-ru/kangaeru.md) - 思考、考慮（動詞形）（待建立）
+- [omou](../verb-ru/omou.md) - 想、認為（待建立）
 
 ### 相關名詞
-- [[noun/iken]] - 意見（待建立）
-- [[noun/kenkai]] - 見解（待建立）
-- [[noun/kangaekata]] - 想法、思考方式（待建立）
-- [[noun/shiken]] - 私見（待建立）
-- [[noun/shoko]] - 所見（待建立）
+- [iken](iken.md) - 意見（待建立）
+- [kenkai](kenkai.md) - 見解（待建立）
+- [kangaekata](kangaekata.md) - 想法、思考方式（待建立）
+- [shiken](shiken.md) - 私見（待建立）
+- [shoko](shoko.md) - 所見（待建立）
 
 ### 相關文法
-- [[grammar/to_omou]] - 〜と思う（表達想法）（待建立）
-- [[grammar/to_kangaeru]] - 〜と考える（表達判斷）（待建立）
+- [to_omou](../grammar/to_omou.md) - 〜と思う（表達想法）（待建立）
+- [to_kangaeru](../grammar/to_kangaeru.md) - 〜と考える（表達判斷）（待建立）
 
 ### 延伸說明
-- [[concept/opinion_expression]] - 日文意見表達方式（待建立）
-- [[contrast/kangae_vs_iken]] - 考え vs 意見的區別（待建立）
+- [opinion_expression](../concept/opinion_expression.md) - 日文意見表達方式（待建立）
+- [kangae_vs_iken](../contrast/kangae_vs_iken.md) - 考え vs 意見的區別（待建立）
 
 ---
 

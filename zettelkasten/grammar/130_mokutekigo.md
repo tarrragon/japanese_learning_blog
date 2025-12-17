@@ -235,28 +235,28 @@ The teacher teaches grammar to students.
 ## 相關連結
 
 ### 助詞相關
-- [[../particle/wo.md]] - 格助詞「を」的詳細用法（待建立）
-- [[../particle/ga.md]] - 格助詞「が」與「を」的對比（待建立）
-- [[../particle/ni.md]] - 格助詞「に」在授受表現中的用法（待建立）
+- [wo.md](../particle/wo.md.md) - 格助詞「を」的詳細用法（待建立）
+- [ga.md](../particle/ga.md.md) - 格助詞「が」與「を」的對比（待建立）
+- [ni.md](../particle/ni.md.md) - 格助詞「に」在授受表現中的用法（待建立）
 
 ### 動詞分類
-- [[transitive_verb.md]] - 他動詞（需要目的語）（待建立）
-- [[intransitive_verb.md]] - 自動詞（不需要目的語）（待建立）
-- [[../concept/verb_pairs.md]] - 他動詞與自動詞的對應組（待建立）
+- [transitive_verb.md](transitive_verb.md.md) - 他動詞（需要目的語）（待建立）
+- [intransitive_verb.md](intransitive_verb.md.md) - 自動詞（不需要目的語）（待建立）
+- [verb_pairs.md](../concept/verb_pairs.md.md) - 他動詞與自動詞的對應組（待建立）
 
 ### 句子結構
-- [[../concept/shugo.md]] - 主語的概念與用法（待建立）
-- [[述語.md]] - 述語（謂語）的概念（待建立）
-- [[sov_word_order.md]] - 日文的 SOV 語序特徵（待建立）
+- [shugo.md](../concept/shugo.md.md) - 主語的概念與用法（待建立）
+- [述語.md](述語.md.md) - 述語（謂語）的概念（待建立）
+- [sov_word_order.md](sov_word_order.md.md) - 日文的 SOV 語序特徵（待建立）
 
 ### 文法現象
-- [[passive_voice.md]] - 受身文中目的語的轉換（待建立）
-- [[causative.md]] - 使役文中目的語的處理（待建立）
-- [[double_object.md]] - 二重目的語構文（待建立）
+- [passive_voice.md](passive_voice.md.md) - 受身文中目的語的轉換（待建立）
+- [causative.md](causative.md.md) - 使役文中目的語的處理（待建立）
+- [double_object.md](double_object.md.md) - 二重目的語構文（待建立）
 
 ### 對比說明
-- [[../comparison/wo_vs_ga.md]] - 「を」和「が」的使用區別（待建立）
-- [[../comparison/transitive_vs_intransitive.md]] - 他動詞與自動詞的完整對比（待建立）
+- [wo_vs_ga.md](../comparison/wo_vs_ga.md.md) - 「を」和「が」的使用區別（待建立）
+- [transitive_vs_intransitive.md](../comparison/transitive_vs_intransitive.md.md) - 他動詞與自動詞的完整對比（待建立）
 
 ---
 

@@ -224,21 +224,21 @@ It's dangerous, so please be careful.
 ## 相關連結
 
 ### 基礎概念
-- [[concept/subjective_objective]] - 主觀與客觀表達（待建立）
-- [[concept/politeness_levels]] - 禮貌程度（待建立）
+- [subjective_objective](../concept/subjective_objective.md) - 主觀與客觀表達（待建立）
+- [politeness_levels](../concept/politeness_levels.md) - 禮貌程度（待建立）
 
 ### 相關文法
-- [[grammar/te_form]] - て形（待建立）
-- [[grammar/conjunction_particles]] - 接続助詞總覽（待建立）
-- [[grammar/causative_passive]] - 使役和被動（待建立）
+- [te_form](te_form.md) - て形（待建立）
+- [conjunction_particles](conjunction_particles.md) - 接続助詞總覽（待建立）
+- [causative_passive](causative_passive.md) - 使役和被動（待建立）
 
 ### 比較辨析
-- [[comparison/kara_vs_node]] - から vs ので 詳細比較（待建立）
-- [[comparison/tame_vs_kara]] - ため vs から（待建立）
+- [kara_vs_node](../comparison/kara_vs_node.md) - から vs ので 詳細比較（待建立）
+- [tame_vs_kara](../comparison/tame_vs_kara.md) - ため vs から（待建立）
 
 ### 延伸說明
-- [[extension/command_request_forms]] - 命令和請求的表達方式（待建立）
-- [[extension/formal_expressions]] - 正式場合的表達（待建立）
+- [command_request_forms](../extension/command_request_forms.md) - 命令和請求的表達方式（待建立）
+- [formal_expressions](../extension/formal_expressions.md) - 正式場合的表達（待建立）
 
 ---
 

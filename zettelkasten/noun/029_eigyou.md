@@ -188,22 +188,22 @@ Tomorrow morning, I plan to make sales calls to new customers.
 ## 相關連結
 
 ### 相關商業詞彙
-- [[noun/shougyou]] - 商業（待建立）
-- [[noun/torihiki]] - 交易（待建立）
-- [[noun/keiyaku]] - 契約（待建立）
-- [[noun/kokyaku]] - 顧客（待建立）
+- [shougyou](shougyou.md) - 商業（待建立）
+- [torihiki](torihiki.md) - 交易（待建立）
+- [keiyaku](keiyaku.md) - 契約（待建立）
+- [kokyaku](kokyaku.md) - 顧客（待建立）
 
 ### 相關動詞
-- [[verb-u/keiei_suru]] - 經營（待建立）
-- [[verb-u/hanbaibai_suru]] - 販售（待建立）
-- [[verb-u/houmon_suru]] - 拜訪（待建立）
+- [keiei_suru](../verb-u/keiei_suru.md) - 經營（待建立）
+- [hanbaibai_suru](../verb-u/hanbaibai_suru.md) - 販售（待建立）
+- [houmon_suru](../verb-u/houmon_suru.md) - 拜訪（待建立）
 
 ### 相關文法
-- [[grammar/suru_verb]] - サ變動詞用法（待建立）
+- [suru_verb](../grammar/suru_verb.md) - サ變動詞用法（待建立）
 
 ### 對比辨析
-- [[comparison/eigyou_vs_keiei]] - 営業 vs 経営（待建立）
-- [[comparison/eigyou_vs_hanbai]] - 営業 vs 販売（待建立）
+- [eigyou_vs_keiei](../comparison/eigyou_vs_keiei.md) - 営業 vs 経営（待建立）
+- [eigyou_vs_hanbai](../comparison/eigyou_vs_hanbai.md) - 営業 vs 販売（待建立）
 
 ---
 

@@ -169,23 +169,23 @@ I started attending an English conversation school.
 ## 相關連結
 
 ### 相關名詞
-- [[noun/tango]] - 単語（詞彙）（待建立）
-- [[noun/goi]] - 語彙（詞彙表）（待建立）
-- [[noun/bunpou]] - 文法（文法）（待建立）
-- [[noun/hatsuon]] - 発音（發音）（待建立）
+- [tango](tango.md) - 単語（詞彙）（待建立）
+- [goi](goi.md) - 語彙（詞彙表）（待建立）
+- [bunpou](bunpou.md) - 文法（文法）（待建立）
+- [hatsuon](hatsuon.md) - 発音（發音）（待建立）
 
 ### 相關動詞
-- [[verb-u/hanasu]] - 話す（說話）（待建立）
-- [[verb-ru/kotaeru]] - 答える（回答）（待建立）
-- [[verb-u/kiku]] - 聞く（聽）（待建立）
+- [hanasu](../verb-u/hanasu.md) - 話す（說話）（待建立）
+- [kotaeru](../verb-ru/kotaeru.md) - 答える（回答）（待建立）
+- [kiku](../verb-u/kiku.md) - 聞く（聽）（待建立）
 
 ### 相關概念
-- [[concept/communication]] - コミュニケーション（溝通）（待建立）
-- [[concept/language_learning]] - 言語学習（語言學習）（待建立）
+- [communication](../concept/communication.md) - コミュニケーション（溝通）（待建立）
+- [language_learning](../concept/language_learning.md) - 言語学習（語言學習）（待建立）
 
 ### 對比辨析
-- [[comparison/kaiwa_vs_taiwa]] - 会話 vs 対話（會話 vs 對話）（待建立）
-- [[comparison/kaiwa_vs_hanashi]] - 会話 vs 話（會話 vs 話）（待建立）
+- [kaiwa_vs_taiwa](../comparison/kaiwa_vs_taiwa.md) - 会話 vs 対話（會話 vs 對話）（待建立）
+- [kaiwa_vs_hanashi](../comparison/kaiwa_vs_hanashi.md) - 会話 vs 話（會話 vs 話）（待建立）
 
 ---
 

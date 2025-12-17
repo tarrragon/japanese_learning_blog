@@ -214,18 +214,18 @@ Please give your answer after thinking it over carefully.
 ## 相關連結
 
 ### 對比文法
-- [[grammar/004_mae_ni.md]] - 〜前に（之前）：使用辞書形
-- [[grammar/015_te_kara.md]] - 〜てから（之後）：強調緊接順序
-- [[grammar/014_ato_de.md]] - 〜後で（基本形）：包含各種接續方式
+- [004_mae_ni.md](004_mae_ni.md) - 〜前に（之前）：使用辞書形
+- [015_te_kara.md](015_te_kara.md) - 〜てから（之後）：強調緊接順序
+- [014_ato_de.md](014_ato_de.md) - 〜後で（基本形）：包含各種接續方式
 
 ### 相關動詞形
-- [[grammar/009_ta_form.md]] - た形（過去形）：本文法必須使用
-- [[grammar/010_dictionary_form.md]] - 辞書形：「前に」使用
-- [[grammar/001_te_form.md]] - て形：「てから」使用
+- [009_ta_form.md](009_ta_form.md) - た形（過去形）：本文法必須使用
+- [010_dictionary_form.md](010_dictionary_form.md) - 辞書形：「前に」使用
+- [001_te_form.md](001_te_form.md) - て形：「てから」使用
 
 ### 時間表達系列
-- [[grammar/002_nagara.md]] - 〜ながら（一邊...一邊...）
-- [[grammar/030_tara.md]] - 〜たら（如果...就...）
+- [002_nagara.md](002_nagara.md) - 〜ながら（一邊...一邊...）
+- [030_tara.md](030_tara.md) - 〜たら（如果...就...）
 
 ---
 

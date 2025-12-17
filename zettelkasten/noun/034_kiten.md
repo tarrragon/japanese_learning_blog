@@ -158,17 +158,17 @@ We will advance new research starting from this theory.
 ## 相關連結
 
 ### 反義詞
-- [[noun/shuuten]] - 終點（待建立）
+- [shuuten](shuuten.md) - 終點（待建立）
 
 ### 近義詞
-- [[noun/shuppatsu]] - 出發（待建立）
-- [[noun/hajimari]] - 開始（待建立）
-- [[noun/shiten]] - 始點（待建立）
+- [shuppatsu](shuppatsu.md) - 出發（待建立）
+- [hajimari](hajimari.md) - 開始（待建立）
+- [shiten](shiten.md) - 始點（待建立）
 
 ### 相關概念
-- [[noun/kiten_vs_kiten]] - 起点 vs 基点 比較（待建立）
-- [[noun/houkou]] - 方向（已存在）
-- [[grammar/kara]] - から（從...）文法（待建立）
+- [kiten_vs_kiten](kiten_vs_kiten.md) - 起点 vs 基点 比較（待建立）
+- [houkou](houkou.md) - 方向（已存在）
+- [kara](../grammar/kara.md) - から（從...）文法（待建立）
 
 ---
 

@@ -167,25 +167,25 @@ To accurately comprehend classical texts, knowledge of grammar is essential.
 ## 相關連結
 
 ### 同義詞・類義詞
-- [[noun/理解]] - 理解（更廣泛的概念）（待建立）
-- [[noun/読書]] - 讀書（強調閱讀行為）（待建立）
+- [理解](理解.md) - 理解（更廣泛的概念）（待建立）
+- [読書](読書.md) - 讀書（強調閱讀行為）（待建立）
 
 ### 相關能力詞彙
-- [[noun/009_gakushuu]] - 学習（學習）
-- [[noun/010_goi]] - 語彙（詞彙）
-- [[noun/011_hatsuon]] - 発音（發音）
-- [[noun/008_bunpou]] - 文法（文法）
+- [009_gakushuu](009_gakushuu.md) - 学習（學習）
+- [010_goi](010_goi.md) - 語彙（詞彙）
+- [011_hatsuon](011_hatsuon.md) - 発音（發音）
+- [008_bunpou](008_bunpou.md) - 文法（文法）
 
 ### 相關測驗詞彙
-- [[noun/試験]] - 考試（待建立）
-- [[noun/問題]] - 問題（待建立）
-- [[noun/能力]] - 能力（待建立）
+- [試験](試験.md) - 考試（待建立）
+- [問題](問題.md) - 問題（待建立）
+- [能力](能力.md) - 能力（待建立）
 
 ### 教育領域相關
-- [[noun/018_tango]] - 単語（單詞）
-- [[noun/018_kanji]] - 漢字（漢字）
-- [[noun/018_kaiwa]] - 会話（會話）
-- [[noun/018_imi]] - 意味（意思）
+- [018_tango](018_tango.md) - 単語（單詞）
+- [018_kanji](018_kanji.md) - 漢字（漢字）
+- [018_kaiwa](018_kaiwa.md) - 会話（會話）
+- [018_imi](018_imi.md) - 意味（意思）
 
 ---
 

@@ -164,22 +164,22 @@ By classifying verbs into intransitive and transitive, it becomes easier to unde
 ## 相關連結
 
 ### 語言學概念
-- [[concept/001_hinshi.md]] - 品詞（詞性）（待建立）
-- [[concept/002_taxonomy.md]] - 分類學（待建立）
-- [[concept/003_categorization.md]] - 範疇化（待建立）
+- [001_hinshi.md](001_hinshi.md) - 品詞（詞性）（待建立）
+- [002_taxonomy.md](002_taxonomy.md) - 分類學（待建立）
+- [003_categorization.md](003_categorization.md) - 範疇化（待建立）
 
 ### 動詞分類
-- [[grammar/001_godan_verbs.md]] - 五段動詞（待建立）
-- [[grammar/002_ichidan_verbs.md]] - 一段動詞（待建立）
-- [[grammar/003_irregular_verbs.md]] - 不規則動詞（待建立）
+- [001_godan_verbs.md](../grammar/001_godan_verbs.md) - 五段動詞（待建立）
+- [002_ichidan_verbs.md](../grammar/002_ichidan_verbs.md) - 一段動詞（待建立）
+- [003_irregular_verbs.md](../grammar/003_irregular_verbs.md) - 不規則動詞（待建立）
 
 ### 認知概念
-- [[concept/004_cognition.md]] - 認知過程（待建立）
-- [[concept/005_knowledge_organization.md]] - 知識組織（待建立）
+- [004_cognition.md](004_cognition.md) - 認知過程（待建立）
+- [005_knowledge_organization.md](005_knowledge_organization.md) - 知識組織（待建立）
 
 ### 實務應用
-- [[extension/001_zettelkasten_classification.md]] - Zettelkasten 分類系統（待建立）
-- [[extension/002_information_architecture.md]] - 資訊架構（待建立）
+- [001_zettelkasten_classification.md](../extension/001_zettelkasten_classification.md) - Zettelkasten 分類系統（待建立）
+- [002_information_architecture.md](../extension/002_information_architecture.md) - 資訊架構（待建立）
 
 ---
 

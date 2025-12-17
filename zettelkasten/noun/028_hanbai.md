@@ -162,24 +162,24 @@ To work as a sales staff member, communication skills are necessary.
 ## 相關連結
 
 ### 同義詞・類義詞
-- [[verb-u/024_uru|売る]] - 賣（一般用語）（待建立）
-- [[noun/retail|小売り]] - 零售（待建立）
-- [[noun/wholesale|卸売り]] - 批發（待建立）
+- [売る](../verb-u/024_uru.md) - 賣（一般用語）（待建立）
+- [小売り](retail.md) - 零售（待建立）
+- [卸売り](wholesale.md) - 批發（待建立）
 
 ### 相關名詞
-- [[noun/012_shougyou|商業]] - 商業、貿易
-- [[noun/013_torihiki|取引]] - 交易
-- [[noun/customer|顧客]] - 顧客（待建立）
-- [[noun/product|製品]] - 產品（待建立）
+- [商業](012_shougyou.md) - 商業、貿易
+- [取引](013_torihiki.md) - 交易
+- [顧客](customer.md) - 顧客（待建立）
+- [製品](product.md) - 產品（待建立）
 
 ### 相關動詞
-- [[verb-u/purchase|購入する]] - 購買（待建立）
-- [[verb-u/distribute|流通する]] - 流通（待建立）
+- [購入する](../verb-u/purchase.md) - 購買（待建立）
+- [流通する](../verb-u/distribute.md) - 流通（待建立）
 
 ### 延伸概念
-- [[grammar/marketing|マーケティング]] - 行銷（待建立）
-- [[concept/sales_strategy|販売戦略]] - 銷售策略（待建立）
-- [[concept/distribution_channel|流通チャネル]] - 配銷通路（待建立）
+- [マーケティング](../grammar/marketing.md) - 行銷（待建立）
+- [販売戦略](../concept/sales_strategy.md) - 銷售策略（待建立）
+- [流通チャネル](../concept/distribution_channel.md) - 配銷通路（待建立）
 
 ---
 

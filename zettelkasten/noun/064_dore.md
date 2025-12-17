@@ -204,23 +204,23 @@ Please choose one from these three.
 ## 相關連結
 
 ### 同系列疑問詞
-- [[noun/nani]] - 何（なに／なん）- 什麼（待建立）
-- [[noun/doko]] - どこ - 哪裡（待建立）
-- [[noun/dare]] - 誰（だれ）- 誰（待建立）
-- [[noun/itsu]] - いつ - 什麼時候（待建立）
+- [nani](nani.md) - 何（なに／なん）- 什麼（待建立）
+- [doko](doko.md) - どこ - 哪裡（待建立）
+- [dare](dare.md) - 誰（だれ）- 誰（待建立）
+- [itsu](itsu.md) - いつ - 什麼時候（待建立）
 
 ### 選擇疑問詞
-- [[noun/dochira]] - どちら - 哪一個／哪一邊（兩個選項）（待建立）
-- [[noun/docchi]] - どっち - 哪個（隨意，兩個選項）（待建立）
+- [dochira](dochira.md) - どちら - 哪一個／哪一邊（兩個選項）（待建立）
+- [docchi](docchi.md) - どっち - 哪個（隨意，兩個選項）（待建立）
 
 ### こそあど系統
-- [[noun/kore]] - これ - 這個（待建立）
-- [[noun/sore]] - それ - 那個（待建立）
-- [[noun/are]] - あれ - 那個（待建立）
+- [kore](kore.md) - これ - 這個（待建立）
+- [sore](sore.md) - それ - 那個（待建立）
+- [are](are.md) - あれ - 那個（待建立）
 
 ### 相關文法
-- [[grammar/question_words]] - 疑問詞系統（待建立）
-- [[grammar/kosoad_system]] - こそあど指示詞系統（待建立）
+- [question_words](../grammar/question_words.md) - 疑問詞系統（待建立）
+- [kosoad_system](../grammar/kosoad_system.md) - こそあど指示詞系統（待建立）
 
 ---
 

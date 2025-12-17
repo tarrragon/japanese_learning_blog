@@ -207,22 +207,22 @@ He doesn't look like he'll keep his promise.
 
 ### 相關文法
 
-- [[grammar/you_da.md]] - 「〜ようだ」比喻・推測（待建立）
-- [[grammar/rashii.md]] - 「〜らしい」傳聞・推測（待建立）
-- [[grammar/sou_da_hearsay.md]] - 「〜そうだ」傳聞用法（待建立）
-- [[grammar/mitai.md]] - 「〜みたい」比喻・推測（待建立）
+- [you_da.md](you_da.md) - 「〜ようだ」比喻・推測（待建立）
+- [rashii.md](rashii.md) - 「〜らしい」傳聞・推測（待建立）
+- [sou_da_hearsay.md](sou_da_hearsay.md) - 「〜そうだ」傳聞用法（待建立）
+- [mitai.md](mitai.md) - 「〜みたい」比喻・推測（待建立）
 
 ### 相關概念
 
-- [[concept/subjective_judgment.md]] - 主観的判断（待建立）
-- [[concept/visual_perception.md]] - 視覚的知覚（待建立）
-- [[concept/inference_expressions.md]] - 推量表現（待建立）
+- [subjective_judgment.md](../concept/subjective_judgment.md) - 主観的判断（待建立）
+- [visual_perception.md](../concept/visual_perception.md) - 視覚的知覚（待建立）
+- [inference_expressions.md](../concept/inference_expressions.md) - 推量表現（待建立）
 
 ### 相關動詞接續
 
-- [[grammar/masu_form.md]] - ます形（待建立）
-- [[grammar/i_adjective_conjugation.md]] - い形容詞活用（待建立）
-- [[grammar/na_adjective_usage.md]] - な形容詞用法（待建立）
+- [masu_form.md](masu_form.md) - ます形（待建立）
+- [i_adjective_conjugation.md](i_adjective_conjugation.md) - い形容詞活用（待建立）
+- [na_adjective_usage.md](na_adjective_usage.md) - な形容詞用法（待建立）
 
 ---
 

@@ -233,21 +233,21 @@ Which one do you like best among these?
 ## 相關連結
 
 ### 基本疑問詞卡片
-- [[grammar/what_nani]] - 「何」的詳細用法（待建立）
-- [[grammar/who_dare]] - 「誰」的詳細用法（待建立）
-- [[grammar/where_doko]] - 「どこ」的詳細用法（待建立）
-- [[grammar/when_itsu]] - 「いつ」的詳細用法（待建立）
-- [[grammar/why_naze]] - 「なぜ」與「どうして」的比較（待建立）
-- [[grammar/how_dou]] - 「どう」的詳細用法（待建立）
+- [what_nani](what_nani.md) - 「何」的詳細用法（待建立）
+- [who_dare](who_dare.md) - 「誰」的詳細用法（待建立）
+- [where_doko](where_doko.md) - 「どこ」的詳細用法（待建立）
+- [when_itsu](when_itsu.md) - 「いつ」的詳細用法（待建立）
+- [why_naze](why_naze.md) - 「なぜ」與「どうして」的比較（待建立）
+- [how_dou](how_dou.md) - 「どう」的詳細用法（待建立）
 
 ### 相關文法
-- [[particle/ka]] - 疑問助詞「か」（待建立）
-- [[grammar/question_sentence]] - 疑問句的形成（待建立）
-- [[grammar/indefinite_pronouns]] - 不定代詞系統（待建立）
+- [ka](../particle/ka.md) - 疑問助詞「か」（待建立）
+- [question_sentence](question_sentence.md) - 疑問句的形成（待建立）
+- [indefinite_pronouns](indefinite_pronouns.md) - 不定代詞系統（待建立）
 
 ### 延伸說明
-- [[comparison/naze_vs_doushite]] - 「なぜ」與「どうして」的差異（待建立）
-- [[comparison/dou_vs_ikaga]] - 「どう」與「いかが」的差異（待建立）
+- [naze_vs_doushite](../comparison/naze_vs_doushite.md) - 「なぜ」與「どうして」的差異（待建立）
+- [dou_vs_ikaga](../comparison/dou_vs_ikaga.md) - 「どう」與「いかが」的差異（待建立）
 
 ---
 

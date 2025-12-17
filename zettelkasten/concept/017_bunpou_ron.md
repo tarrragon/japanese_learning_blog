@@ -175,23 +175,23 @@ Traditional grammar theory and cognitive grammar theory differ greatly in how th
 ## 相關連結
 
 ### 基礎概念
-- [[concept/morphology]] - 形態論（待建立）
-- [[concept/syntax]] - 統語論（待建立）
-- [[concept/pragmatics]] - 語用論（待建立）
+- [morphology](morphology.md) - 形態論（待建立）
+- [syntax](syntax.md) - 統語論（待建立）
+- [pragmatics](pragmatics.md) - 語用論（待建立）
 
 ### 理論框架
-- [[concept/generative_grammar]] - 生成文法（待建立）
-- [[concept/functional_grammar]] - 功能文法（待建立）
-- [[concept/cognitive_grammar]] - 認知文法（待建立）
+- [generative_grammar](generative_grammar.md) - 生成文法（待建立）
+- [functional_grammar](functional_grammar.md) - 功能文法（待建立）
+- [cognitive_grammar](cognitive_grammar.md) - 認知文法（待建立）
 
 ### 相關領域
-- [[concept/language_acquisition]] - 語言習得理論（待建立）
-- [[concept/linguistics]] - 語言學（待建立）
-- [[grammar/index]] - 文法卡片索引（待建立）
+- [language_acquisition](language_acquisition.md) - 語言習得理論（待建立）
+- [linguistics](linguistics.md) - 語言學（待建立）
+- [index](../grammar/index.md) - 文法卡片索引（待建立）
 
 ### 對比概念
-- [[contrast/prescriptive_vs_descriptive]] - 規範文法 vs 描述文法（待建立）
-- [[comparison/bunpou_vs_youhou]] - 文法 vs 用法（待建立）
+- [prescriptive_vs_descriptive](../contrast/prescriptive_vs_descriptive.md) - 規範文法 vs 描述文法（待建立）
+- [bunpou_vs_youhou](../comparison/bunpou_vs_youhou.md) - 文法 vs 用法（待建立）
 
 ---
 

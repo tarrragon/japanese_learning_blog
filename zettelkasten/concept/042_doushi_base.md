@@ -185,24 +185,24 @@ The cherry blossoms have become beautiful.
 ## 相關連結
 
 ### 動詞分類
-- [[verb-ru/index.md]] - 一段動詞（る動詞）總覽（待建立）
-- [[verb-u/index.md]] - 五段動詞（う動詞）總覽（待建立）
-- [[verb-irregular/index.md]] - 不規則動詞總覽（待建立）
+- [index.md](../verb-ru/index.md) - 一段動詞（る動詞）總覽（待建立）
+- [index.md](../verb-u/index.md) - 五段動詞（う動詞）總覽（待建立）
+- [index.md](../verb-irregular/index.md) - 不規則動詞總覽（待建立）
 
 ### 活用形式
-- [[grammar/verb_conjugation.md]] - 動詞活用形總覽（待建立）
-- [[grammar/masu_form.md]] - ます形的用法（待建立）
-- [[grammar/te_form.md]] - て形的用法（待建立）
+- [verb_conjugation.md](../grammar/verb_conjugation.md) - 動詞活用形總覽（待建立）
+- [masu_form.md](../grammar/masu_form.md) - ます形的用法（待建立）
+- [te_form.md](../grammar/te_form.md) - て形的用法（待建立）
 
 ### 自他動詞
-- [[concept/jidoushi.md]] - 自動詞的概念（待建立）
-- [[concept/tadoushi.md]] - 他動詞的概念（待建立）
-- [[comparison/jita_pairs.md]] - 自他動詞對比（待建立）
+- [jidoushi.md](jidoushi.md) - 自動詞的概念（待建立）
+- [tadoushi.md](tadoushi.md) - 他動詞的概念（待建立）
+- [jita_pairs.md](../comparison/jita_pairs.md) - 自他動詞對比（待建立）
 
 ### 基礎文法
-- [[grammar/sov_word_order.md]] - SOV 語序說明（待建立）
-- [[particle/ga.md]] - 助詞「が」的用法（待建立）
-- [[particle/wo.md]] - 助詞「を」的用法（待建立）
+- [sov_word_order.md](../grammar/sov_word_order.md) - SOV 語序說明（待建立）
+- [ga.md](../particle/ga.md) - 助詞「が」的用法（待建立）
+- [wo.md](../particle/wo.md) - 助詞「を」的用法（待建立）
 
 ---
 

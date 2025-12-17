@@ -343,32 +343,32 @@ When translating, accurately conveying the nuance of the original text is a very
 ## 相關連結
 
 ### 語言學基礎概念
-- [[concept/016_goi_ron]] - 語彙論（詞彙學）
-- [[concept/pragmatics]] - 語用學（待建立）
-- [[concept/semantics]] - 語義學（待建立）
-- [[concept/sociolinguistics]] - 社會語言學（待建立）
+- [016_goi_ron](016_goi_ron.md) - 語彙論（詞彙學）
+- [pragmatics](pragmatics.md) - 語用學（待建立）
+- [semantics](semantics.md) - 語義學（待建立）
+- [sociolinguistics](sociolinguistics.md) - 社會語言學（待建立）
 
 ### 日文語言特色
-- [[concept/007_uchi-soto]] - 内と外（內外意識）
-- [[concept/013_keigo_taikei]] - 敬語体系（敬語系統）
-- [[concept/honne-tatemae]] - 本音と建前（待建立）
-- [[concept/kuuki-wo-yomu]] - 空気を読む（待建立）
+- [007_uchi-soto](007_uchi-soto.md) - 内と外（內外意識）
+- [013_keigo_taikei](013_keigo_taikei.md) - 敬語体系（敬語系統）
+- [honne-tatemae](honne-tatemae.md) - 本音と建前（待建立）
+- [kuuki-wo-yomu](kuuki-wo-yomu.md) - 空気を読む（待建立）
 
 ### 語用與溝通
-- [[concept/indirect-expression]] - 間接表現（待建立）
-- [[concept/politeness-theory]] - ポライトネス理論（待建立）
-- [[concept/speech-acts]] - 発話行為論（待建立）
-- [[concept/implicature]] - 含意理論（待建立）
+- [indirect-expression](indirect-expression.md) - 間接表現（待建立）
+- [politeness-theory](politeness-theory.md) - ポライトネス理論（待建立）
+- [speech-acts](speech-acts.md) - 発話行為論（待建立）
+- [implicature](implicature.md) - 含意理論（待建立）
 
 ### 詞彙層次與語感
-- [[concept/wago-kango-gairaigo]] - 和語・漢語・外来語（待建立）
-- [[comparison/kotoba-vs-goi]] - 言葉 vs 語彙（待建立）
-- [[concept/register]] - 語域・文体（待建立）
+- [wago-kango-gairaigo](wago-kango-gairaigo.md) - 和語・漢語・外来語（待建立）
+- [kotoba-vs-goi](../comparison/kotoba-vs-goi.md) - 言葉 vs 語彙（待建立）
+- [register](register.md) - 語域・文体（待建立）
 
 ### 語言學習相關
-- [[concept/009_language_acquisition]] - 言語習得（語言習得）
-- [[concept/cultural-competence]] - 文化能力（待建立）
-- [[concept/pragmatic-competence]] - 語用能力（待建立）
+- [009_language_acquisition](009_language_acquisition.md) - 言語習得（語言習得）
+- [cultural-competence](cultural-competence.md) - 文化能力（待建立）
+- [pragmatic-competence](pragmatic-competence.md) - 語用能力（待建立）
 
 ---
 

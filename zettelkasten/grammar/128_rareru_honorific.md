@@ -207,52 +207,52 @@ I heard the president is going to America next week.
 ## 相關連結
 
 ### 敬語系統
-- [[../concept/035_kenjougo_concept.md]] - 謙讓語概念（待建立）
-- [[../concept/036_teineigo_concept.md]] - 丁寧語概念（待建立）
-- [[../honorific/001_sonkeigo_overview.md]] - 尊敬語總覽（待建立）
+- [035_kenjougo_concept.md](../concept/035_kenjougo_concept.md.md) - 謙讓語概念（待建立）
+- [036_teineigo_concept.md](../concept/036_teineigo_concept.md.md) - 丁寧語概念（待建立）
+- [001_sonkeigo_overview.md](../honorific/001_sonkeigo_overview.md.md) - 尊敬語總覽（待建立）
 
 ### 相關文法
-- [[../grammar/001_ukemi.md]] - 受身形（待建立）
-- [[../grammar/002_kanoukei.md]] - 可能形（待建立）
-- [[../grammar/003_o_ni_naru.md]] - お〜になる（待建立）
-- [[../auxiliary/001_reru_rareru.md]] - れる・られる助動詞總覽（待建立）
+- [001_ukemi.md](../grammar/001_ukemi.md.md) - 受身形（待建立）
+- [002_kanoukei.md](../grammar/002_kanoukei.md.md) - 可能形（待建立）
+- [003_o_ni_naru.md](../grammar/003_o_ni_naru.md.md) - お〜になる（待建立）
+- [001_reru_rareru.md](../auxiliary/001_reru_rareru.md.md) - れる・られる助動詞總覽（待建立）
 
 ### 相關概念
-- [[../concept/040_teineitai_vs_futsutai.md]] - 丁寧體與普通體（待建立）
-- [[../concept/047_polite_expression.md]] - 禮貌表達（待建立）
-- [[../context/business_conversation.md]] - 商務會話（待建立）
+- [040_teineitai_vs_futsutai.md](../concept/040_teineitai_vs_futsutai.md.md) - 丁寧體與普通體（待建立）
+- [047_polite_expression.md](../concept/047_polite_expression.md.md) - 禮貌表達（待建立）
+- [business_conversation.md](../context/business_conversation.md.md) - 商務會話（待建立）
 
 ### 動詞變化
-- [[../concept/041_verb_classification.md]] - 動詞分類（待建立）
-- [[../concept/042_doushi_base.md]] - 動詞活用基礎（待建立）
+- [041_verb_classification.md](../concept/041_verb_classification.md.md) - 動詞分類（待建立）
+- [042_doushi_base.md](../concept/042_doushi_base.md.md) - 動詞活用基礎（待建立）
 
 ---
 
 ## 註解
 
-[^jodoushi]: **助動詞** - 接續在用言或助動詞後面，增加文法意義的詞類。詳見 [[../auxiliary/overview.md]]（待建立）
+[^jodoushi]: **助動詞** - 接續在用言或助動詞後面，增加文法意義的詞類。詳見 [overview.md](../auxiliary/overview.md.md)（待建立）
 
-[^keigo-system]: **敬語體系** - 日語的敬語分為尊敬語、謙讓語、丁寧語三大類，是日本社會階層和禮儀文化的語言體現。詳見 [[../concept/keigo_system.md]]（待建立）
+[^keigo-system]: **敬語體系** - 日語的敬語分為尊敬語、謙讓語、丁寧語三大類，是日本社會階層和禮儀文化的語言體現。詳見 [keigo_system.md](../concept/keigo_system.md.md)（待建立）
 
-[^godan]: **五段動詞** - 語尾變化會經過五個段（あいうえお）的動詞，又稱「う動詞」。詳見 [[../concept/041_verb_classification.md]]（待建立）
+[^godan]: **五段動詞** - 語尾變化會經過五個段（あいうえお）的動詞，又稱「う動詞」。詳見 [041_verb_classification.md](../concept/041_verb_classification.md.md)（待建立）
 
-[^ichidan]: **一段動詞** - 語幹不變，只變化語尾「る」的動詞，分為上一段和下一段，又稱「る動詞」。詳見 [[../concept/041_verb_classification.md]]（待建立）
+[^ichidan]: **一段動詞** - 語幹不變，只變化語尾「る」的動詞，分為上一段和下一段，又稱「る動詞」。詳見 [041_verb_classification.md](../concept/041_verb_classification.md.md)（待建立）
 
-[^kanoukei]: **可能形** - 表達「能夠做某事」的動詞變化形式。形式與尊敬語相同，需由語境判斷。詳見 [[../grammar/002_kanoukei.md]]（待建立）
+[^kanoukei]: **可能形** - 表達「能夠做某事」的動詞變化形式。形式與尊敬語相同，需由語境判斷。詳見 [002_kanoukei.md](../grammar/002_kanoukei.md.md)（待建立）
 
-[^ukemi]: **受身形** - 表達被動意義的動詞變化形式。形式與尊敬語相同，需由主語和邏輯關係判斷。詳見 [[../grammar/001_ukemi.md]]（待建立）
+[^ukemi]: **受身形** - 表達被動意義的動詞變化形式。形式與尊敬語相同，需由主語和邏輯關係判斷。詳見 [001_ukemi.md](../grammar/001_ukemi.md.md)（待建立）
 
-[^context]: **文脈（上下文）** - 語言使用的情境脈絡，包括前後文、說話對象、場合等因素。日語是高語境語言，許多意義需從文脈推斷。詳見 [[../concept/038_given_new_information.md]]（待建立）
+[^context]: **文脈（上下文）** - 語言使用的情境脈絡，包括前後文、說話對象、場合等因素。日語是高語境語言，許多意義需從文脈推斷。詳見 [038_given_new_information.md](../concept/038_given_new_information.md.md)（待建立）
 
-[^business]: **ビジネス場面** - 商務環境，包括公司內部溝通、與客戶交涉等正式職場情境。在這些場合中，適當使用敬語是基本禮儀。詳見 [[../context/business_conversation.md]]（待建立）
+[^business]: **ビジネス場面** - 商務環境，包括公司內部溝通、與客戶交涉等正式職場情境。在這些場合中，適當使用敬語是基本禮儀。詳見 [business_conversation.md](../context/business_conversation.md.md)（待建立）
 
-[^meue]: **目上の人** - 地位、年齡、社會階層較高的人，如上司、長輩、客戶等。對目上的人必須使用尊敬語。詳見 [[../concept/social_hierarchy.md]]（待建立）
+[^meue]: **目上の人** - 地位、年齡、社會階層較高的人，如上司、長輩、客戶等。對目上的人必須使用尊敬語。詳見 [social_hierarchy.md](../concept/social_hierarchy.md.md)（待建立）
 
-[^shakaijin]: **社会人** - 已就業、有工作的成年人。在日本社會中，成為社會人意味著需要掌握商務禮儀和敬語使用。詳見 [[../concept/shakaijin.md]]（待建立）
+[^shakaijin]: **社会人** - 已就業、有工作的成年人。在日本社會中，成為社會人意味著需要掌握商務禮儀和敬語使用。詳見 [shakaijin.md](../concept/shakaijin.md.md)（待建立）
 
-[^communication]: **コミュニケーション能力** - 溝通交流的能力。在日本職場中，適當使用敬語被視為重要的溝通能力。詳見 [[../domain/communication]]（待建立）
+[^communication]: **コミュニケーション能力** - 溝通交流的能力。在日本職場中，適當使用敬語被視為重要的溝通能力。詳見 [communication](../domain/communication.md)（待建立）
 
-[^sonkeigo-pattern]: **尊敬語表現** - 日語中提高對方地位的表達方式，包括「れる・られる」、「お〜になる」、特殊尊敬語動詞等多種模式。詳見 [[../honorific/001_sonkeigo_overview.md]]（待建立）
+[^sonkeigo-pattern]: **尊敬語表現** - 日語中提高對方地位的表達方式，包括「れる・られる」、「お〜になる」、特殊尊敬語動詞等多種模式。詳見 [001_sonkeigo_overview.md](../honorific/001_sonkeigo_overview.md.md)（待建立）
 
 ---
 

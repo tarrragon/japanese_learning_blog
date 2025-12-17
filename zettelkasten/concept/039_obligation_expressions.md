@@ -201,23 +201,23 @@ You must not smoke here.
 ## 相關連結
 
 ### 基礎文法
-- [[grammar/nakereba_naranai.md]] - 〜なければならない的詳細用法（待建立）
-- [[grammar/beki.md]] - 〜べきだ的規範義務表達（待建立）
-- [[grammar/te_wa_ikenai.md]] - 〜てはいけない的禁止表達（待建立）
-- [[grammar/nakute_mo_ii.md]] - 〜なくてもいい的許可表達（待建立）
+- [nakereba_naranai.md](../grammar/nakereba_naranai.md) - 〜なければならない的詳細用法（待建立）
+- [beki.md](../grammar/beki.md) - 〜べきだ的規範義務表達（待建立）
+- [te_wa_ikenai.md](../grammar/te_wa_ikenai.md) - 〜てはいけない的禁止表達（待建立）
+- [nakute_mo_ii.md](../grammar/nakute_mo_ii.md) - 〜なくてもいい的許可表達（待建立）
 
 ### 相關概念
-- [[concept/permission_expressions.md]] - 許可表現系統（待建立）
-- [[concept/necessity_expressions.md]] - 必要性表現（待建立）
-- [[concept/prohibition_expressions.md]] - 禁止表現（待建立）
+- [permission_expressions.md](permission_expressions.md) - 許可表現系統（待建立）
+- [necessity_expressions.md](necessity_expressions.md) - 必要性表現（待建立）
+- [prohibition_expressions.md](prohibition_expressions.md) - 禁止表現（待建立）
 
 ### 進階文法
-- [[grammar/hou_ga_ii.md]] - 〜ほうがいい的建議表達（待建立）
-- [[grammar/hitsuyou_ga_aru.md]] - 〜必要がある的必要性表達（待建立）
+- [hou_ga_ii.md](../grammar/hou_ga_ii.md) - 〜ほうがいい的建議表達（待建立）
+- [hitsuyou_ga_aru.md](../grammar/hitsuyou_ga_aru.md) - 〜必要がある的必要性表達（待建立）
 
 ### 語用辨析
-- [[comparison/nakereba_vs_beki.md]] - 「なければならない」vs「べきだ」（待建立）
-- [[comparison/te_wa_ikenai_vs_beki_dewa_nai.md]] - 禁止表達的選擇（待建立）
+- [nakereba_vs_beki.md](../comparison/nakereba_vs_beki.md) - 「なければならない」vs「べきだ」（待建立）
+- [te_wa_ikenai_vs_beki_dewa_nai.md](../comparison/te_wa_ikenai_vs_beki_dewa_nai.md) - 禁止表達的選擇（待建立）
 
 ---
 

@@ -157,19 +157,19 @@ For some reason, she hasn't been energetic lately.
 ## 相關連結
 
 ### 同義詞
-- [[noun/doushite]] - どうして（較口語的「為什麼」）（待建立）
-- [[noun/nande]] - なんで（非常口語的「為什麼」）（待建立）
-- [[noun/005_riyuu]] - 理由（原因、理由）
+- [doushite](doushite.md) - どうして（較口語的「為什麼」）（待建立）
+- [nande](nande.md) - なんで（非常口語的「為什麼」）（待建立）
+- [005_riyuu](005_riyuu.md) - 理由（原因、理由）
 
 ### 相關疑問詞
-- [[noun/017-誰]] - 誰（誰）
-- [[noun/017-どこ]] - どこ（哪裡）
-- [[noun/noun-017-何]] - 何（什麼）
+- [017-誰](017-誰.md) - 誰（誰）
+- [017-どこ](017-どこ.md) - どこ（哪裡）
+- [noun-017-何](noun-017-何.md) - 何（什麼）
 
 ### 相關表達
-- [[grammar/kara]] - から（因為、所以）（待建立）
-- [[grammar/node]] - ので（因為）（待建立）
-- [[conjunction/dakara]] - だから（所以）
+- [kara](../grammar/kara.md) - から（因為、所以）（待建立）
+- [node](../grammar/node.md) - ので（因為）（待建立）
+- [dakara](../conjunction/dakara.md) - だから（所以）
 
 ---
 

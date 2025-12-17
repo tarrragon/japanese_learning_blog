@@ -180,18 +180,18 @@ B: 我昨天到的。
 ## 相關連結
 
 ### 時間名詞系列
-- [[noun/kyou]] - 今日（今天）（待建立）
-- [[noun/ashita]] - 明日（明天）（待建立）
-- [[noun/ototoi]] - 一昨日（前天）（待建立）
-- [[noun/asatte]] - 明後日（後天）（待建立）
+- [kyou](kyou.md) - 今日（今天）（待建立）
+- [ashita](ashita.md) - 明日（明天）（待建立）
+- [ototoi](ototoi.md) - 一昨日（前天）（待建立）
+- [asatte](asatte.md) - 明後日（後天）（待建立）
 
 ### 時間表達文法
-- [[grammar/toki]] - 〜とき（表示時間點）（待建立）
-- [[grammar/mae_ato]] - 〜前・〜後（之前、之後）（待建立）
+- [toki](../grammar/toki.md) - 〜とき（表示時間點）（待建立）
+- [mae_ato](../grammar/mae_ato.md) - 〜前・〜後（之前、之後）（待建立）
 
 ### 相關概念
-- [[concept/time_expression]] - 時間表達系統（待建立）
-- [[concept/tense]] - 時態概念（待建立）
+- [time_expression](../concept/time_expression.md) - 時間表達系統（待建立）
+- [tense](../concept/tense.md) - 時態概念（待建立）
 
 ---
 

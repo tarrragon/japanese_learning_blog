@@ -248,18 +248,18 @@ I'll think about this problem for a while.
 ## 相關連結
 
 ### 相關文法
-- [[grammar/te_aru|〜てある]] - 結果狀態的持續（待建立）
-- [[grammar/te_iru|〜ている]] - 動作進行或結果狀態（待建立）
-- [[comparison/te_oku_vs_te_aru|〜ておく vs 〜てある]] - 兩者的對比分析（待建立）
+- [〜てある](te_aru.md) - 結果狀態的持續（待建立）
+- [〜ている](te_iru.md) - 動作進行或結果狀態（待建立）
+- [〜ておく vs 〜てある](../comparison/te_oku_vs_te_aru.md) - 兩者的對比分析（待建立）
 
 ### 相關概念
-- [[concept/intentionality|意圖性表達]] - 理解日文中的意圖表達（待建立）
-- [[grammar/te_form|て形]] - 動詞て形的基礎（待建立）
+- [意圖性表達](../concept/intentionality.md) - 理解日文中的意圖表達（待建立）
+- [て形](te_form.md) - 動詞て形的基礎（待建立）
 
 ### 延伸學習
-- [[grammar/te_shimau|〜てしまう]] - 動作完了與遺憾（待建立）
-- [[grammar/te_miru|〜てみる]] - 嘗試做某事（待建立）
-- [[grammar/te_kudasai|〜てください]] - 禮貌的請求（待建立）
+- [〜てしまう](te_shimau.md) - 動作完了與遺憾（待建立）
+- [〜てみる](te_miru.md) - 嘗試做某事（待建立）
+- [〜てください](te_kudasai.md) - 禮貌的請求（待建立）
 
 ---
 

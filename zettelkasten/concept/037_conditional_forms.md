@@ -244,20 +244,20 @@ If you're going to Japan, I recommend Kyoto.
 ## 相關連結
 
 ### 基礎文法
-- [[grammar/conditional_to]] - と條件形詳解（待建立）
-- [[grammar/conditional_ba]] - ば條件形詳解（待建立）
-- [[grammar/conditional_tara]] - たら條件形詳解（待建立）
-- [[grammar/conditional_nara]] - なら條件形詳解（待建立）
+- [conditional_to](../grammar/conditional_to.md) - と條件形詳解（待建立）
+- [conditional_ba](../grammar/conditional_ba.md) - ば條件形詳解（待建立）
+- [conditional_tara](../grammar/conditional_tara.md) - たら條件形詳解（待建立）
+- [conditional_nara](../grammar/conditional_nara.md) - なら條件形詳解（待建立）
 
 ### 相關比較
-- [[comparison/tara_vs_to]] - たら與と的區別（待建立）
-- [[comparison/ba_vs_tara]] - ば與たら的區別（待建立）
-- [[comparison/nara_vs_tara]] - なら與たら的區別（待建立）
+- [tara_vs_to](../comparison/tara_vs_to.md) - たら與と的區別（待建立）
+- [ba_vs_tara](../comparison/ba_vs_tara.md) - ば與たら的區別（待建立）
+- [nara_vs_tara](../comparison/nara_vs_tara.md) - なら與たら的區別（待建立）
 
 ### 進階概念
-- [[concept/causality]] - 因果關係的表達（待建立）
-- [[concept/hypothetical]] - 假設性表達（待建立）
-- [[concept/pragmatics]] - 語用學概念（待建立）
+- [causality](causality.md) - 因果關係的表達（待建立）
+- [hypothetical](hypothetical.md) - 假設性表達（待建立）
+- [pragmatics](pragmatics.md) - 語用學概念（待建立）
 
 ---
 

@@ -174,23 +174,23 @@ We are collecting customer opinions regarding the development of new products.
 ## 相關連結
 
 ### 同義詞・類義詞
-- [[noun/kangae|考え]] - 想法、思考（待建立）
-- [[noun/kenkai|見解]] - 見解、觀點（待建立）
-- [[noun/shucho|主張]] - 主張、論點（待建立）
+- [考え](kangae.md) - 想法、思考（待建立）
+- [見解](kenkai.md) - 見解、觀點（待建立）
+- [主張](shucho.md) - 主張、論點（待建立）
 
 ### 相關動詞
-- [[verb-u/iu|言う]] - 說（已存在）
-- [[verb-ru/noberu|述べる]] - 陳述（待建立）
-- [[verb-u/kiku|聞く]] - 聽（待建立）
-- [[verb-ru/motomeru|求める]] - 徵求、要求（待建立）
+- [言う](../verb-u/iu.md) - 說（已存在）
+- [述べる](../verb-ru/noberu.md) - 陳述（待建立）
+- [聞く](../verb-u/kiku.md) - 聽（待建立）
+- [求める](../verb-ru/motomeru.md) - 徵求、要求（待建立）
 
 ### 相關文法
-- [[grammar/te-form|〜ていただく]] - 請讓我...（敬語表達）（待建立）
-- [[grammar/sasete-itadaku|〜させていただく]] - 允許我做...（待建立）
+- [〜ていただく](../grammar/te-form.md) - 請讓我...（敬語表達）（待建立）
+- [〜させていただく](../grammar/sasete-itadaku.md) - 允許我做...（待建立）
 
 ### 相關概念
-- [[concept/keigo-levels|敬語的層次]] - 了解何時使用「ご意見」（待建立）
-- [[concept/business-communication|商務溝通]] - 商務場合的意見表達（待建立）
+- [敬語的層次](../concept/keigo-levels.md) - 了解何時使用「ご意見」（待建立）
+- [商務溝通](../concept/business-communication.md) - 商務場合的意見表達（待建立）
 
 ---
 

@@ -218,25 +218,25 @@ The meaning of "te-iru" differs between punctual and durative verbs.
 ## 相關連結
 
 ### 基礎分類系統
-- [[concept/041_verb_classification]] - 動詞分類系統的實用指南（待建立）
-- [[concept/010_katsuyou]] - 動詞活用的基本概念（待建立）
-- [[concept/003_jidoushi]] - 自動詞概念（待建立）
-- [[concept/004_tadoushi]] - 他動詞概念（待建立）
+- [041_verb_classification](041_verb_classification.md) - 動詞分類系統的實用指南（待建立）
+- [010_katsuyou](010_katsuyou.md) - 動詞活用的基本概念（待建立）
+- [003_jidoushi](003_jidoushi.md) - 自動詞概念（待建立）
+- [004_tadoushi](004_tadoushi.md) - 他動詞概念（待建立）
 
 ### 理論延伸
-- [[concept/023_aspect_theory]] - 體貌理論（待建立）
-- [[concept/042_doushi_base]] - 動詞詞基理論（待建立）
-- [[concept/verb_semantics]] - 動詞語義學（待建立）
+- [023_aspect_theory](023_aspect_theory.md) - 體貌理論（待建立）
+- [042_doushi_base](042_doushi_base.md) - 動詞詞基理論（待建立）
+- [verb_semantics](verb_semantics.md) - 動詞語義學（待建立）
 
 ### 文法應用
-- [[grammar/causative_form]] - 使役形與動詞類型（待建立）
-- [[grammar/potential_form]] - 可能形與動詞類型（待建立）
-- [[grammar/te_aru]] - てある與他動詞（待建立）
-- [[grammar/te_iru]] - ている與動詞體貌（待建立）
+- [causative_form](../grammar/causative_form.md) - 使役形與動詞類型（待建立）
+- [potential_form](../grammar/potential_form.md) - 可能形與動詞類型（待建立）
+- [te_aru](../grammar/te_aru.md) - てある與他動詞（待建立）
+- [te_iru](../grammar/te_iru.md) - ている與動詞體貌（待建立）
 
 ### 教學資源
-- [[pedagogy/verb_learning_strategy]] - 動詞學習策略（待建立）
-- [[comparison/verb_classification_comparison]] - 不同語言的動詞分類對比（待建立）
+- [verb_learning_strategy](../pedagogy/verb_learning_strategy.md) - 動詞學習策略（待建立）
+- [verb_classification_comparison](../comparison/verb_classification_comparison.md) - 不同語言的動詞分類對比（待建立）
 
 ---
 

@@ -300,20 +300,20 @@ I have climbed Mt. Fuji before.
 ## 相關連結
 
 ### 相關文法
-- [[grammar/021_koto_ga_dekiru.md]] - 「ことができる」句型（待建立）
-- [[grammar/020_ta_koto_ga_aru.md]] - 「ことがある」經驗表達（待建立）
-- [[grammar/010_dictionary_form.md]] - 辭書形（名詞化的基礎）（待建立）
-- [[grammar/no_nominalization.md]] - 「の」名詞化對比（待建立）
+- [021_koto_ga_dekiru.md](021_koto_ga_dekiru.md) - 「ことができる」句型（待建立）
+- [020_ta_koto_ga_aru.md](020_ta_koto_ga_aru.md) - 「ことがある」經驗表達（待建立）
+- [010_dictionary_form.md](010_dictionary_form.md) - 辭書形（名詞化的基礎）（待建立）
+- [no_nominalization.md](no_nominalization.md) - 「の」名詞化對比（待建立）
 
 ### 延伸說明
-- [[concept/nominalization.md]] - 名詞化概念（待建立）
-- [[concept/formal_noun.md]] - 形式名詞（待建立）
-- [[comparison/koto_vs_no.md]] - こと與の的詳細比較（待建立）
+- [nominalization.md](../concept/nominalization.md) - 名詞化概念（待建立）
+- [formal_noun.md](../concept/formal_noun.md) - 形式名詞（待建立）
+- [koto_vs_no.md](../comparison/koto_vs_no.md) - こと與の的詳細比較（待建立）
 
 ### 相關句型
-- [[grammar/koto_ni_suru.md]] - 〜ことにする（決定）（待建立）
-- [[grammar/koto_ni_naru.md]] - 〜ことになる（被決定）（待建立）
-- [[grammar/koto_wa_nai.md]] - 〜ことはない（不需要）（待建立）
+- [koto_ni_suru.md](koto_ni_suru.md) - 〜ことにする（決定）（待建立）
+- [koto_ni_naru.md](koto_ni_naru.md) - 〜ことになる（被決定）（待建立）
+- [koto_wa_nai.md](koto_wa_nai.md) - 〜ことはない（不需要）（待建立）
 
 ---
 

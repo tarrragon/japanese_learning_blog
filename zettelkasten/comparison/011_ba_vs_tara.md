@@ -312,22 +312,22 @@ If you're free, want to go see a movie or something?
 ## 相關連結
 
 ### 基礎文法
-- [[grammar/conditional_ba]] - ば條件形詳解（待建立）
-- [[grammar/conditional_tara]] - たら條件形詳解（待建立）
+- [conditional_ba](../grammar/conditional_ba.md) - ば條件形詳解（待建立）
+- [conditional_tara](../grammar/conditional_tara.md) - たら條件形詳解（待建立）
 
 ### 相關比較
-- [[comparison/to_vs_tara]] - と與たら的區別（待建立）
-- [[comparison/nara_vs_tara]] - なら與たら的區別（待建立）
-- [[comparison/ba_vs_to]] - ば與と的區別（待建立）
+- [to_vs_tara](to_vs_tara.md) - と與たら的區別（待建立）
+- [nara_vs_tara](nara_vs_tara.md) - なら與たら的區別（待建立）
+- [ba_vs_to](ba_vs_to.md) - ば與と的區別（待建立）
 
 ### 概念卡片
-- [[concept/conditional_forms]] - 條件形總覽（待建立）
-- [[concept/hypothetical]] - 假設性表達（待建立）
-- [[concept/formality_levels]] - 日文的正式度層次（待建立）
+- [conditional_forms](../concept/conditional_forms.md) - 條件形總覽（待建立）
+- [hypothetical](../concept/hypothetical.md) - 假設性表達（待建立）
+- [formality_levels](../concept/formality_levels.md) - 日文的正式度層次（待建立）
 
 ### 延伸說明
-- [[extension/conditional_usage]] - 條件形的實際應用（待建立）
-- [[extension/spoken_vs_written]] - 口語與書面語的選擇（待建立）
+- [conditional_usage](../extension/conditional_usage.md) - 條件形的實際應用（待建立）
+- [spoken_vs_written](../extension/spoken_vs_written.md) - 口語與書面語的選擇（待建立）
 
 ---
 

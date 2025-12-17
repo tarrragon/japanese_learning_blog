@@ -358,21 +358,21 @@ Ms. Yamada got married last year.
 ## 相關連結
 
 ### 文法卡片
-- [[grammar/022_te_iru]] - 〜ている文法詳解（待建立）
-- [[grammar/001_te_form]] - て形的形成規則（待建立）
-- [[grammar/021_past_tense]] - 過去式文法（待建立）
+- [022_te_iru](../grammar/022_te_iru.md) - 〜ている文法詳解（待建立）
+- [001_te_form](../grammar/001_te_form.md) - て形的形成規則（待建立）
+- [021_past_tense](../grammar/021_past_tense.md) - 過去式文法（待建立）
 
 ### 動詞卡片
-- [[verb-irr/003_iru]] - いる（存在動詞）（待建立）
-- [[auxiliary/001_ta]] - た（過去助動詞）（待建立）
+- [003_iru](../verb-irr/003_iru.md) - いる（存在動詞）（待建立）
+- [001_ta](../auxiliary/001_ta.md) - た（過去助動詞）（待建立）
 
 ### 相關比較
-- [[comparison/004_te_iru_meanings]] - 〜ている的多重意義
-- [[comparison/010_ta_vs_mashita]] - た vs ました（待建立）
+- [004_te_iru_meanings](004_te_iru_meanings.md) - 〜ている的多重意義
+- [010_ta_vs_mashita](010_ta_vs_mashita.md) - た vs ました（待建立）
 
 ### 概念卡片
-- [[concept/023_aspect_theory]] - 時態與時貌理論
-- [[concept/041_verb_classification]] - 動詞分類系統
+- [023_aspect_theory](../concept/023_aspect_theory.md) - 時態與時貌理論
+- [041_verb_classification](../concept/041_verb_classification.md) - 動詞分類系統
 
 ---
 

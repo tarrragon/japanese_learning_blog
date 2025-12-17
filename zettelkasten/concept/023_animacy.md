@@ -415,31 +415,31 @@ The dog eats.
 ## 相關連結
 
 ### 語言學基礎概念
-- [[concept/linguistics]] - 語言學總論（待建立）
-- [[concept/cognitive_linguistics]] - 認知語言學（待建立）
-- [[concept/typology]] - 語言類型學（待建立）
+- [linguistics](linguistics.md) - 語言學總論（待建立）
+- [cognitive_linguistics](cognitive_linguistics.md) - 認知語言學（待建立）
+- [typology](typology.md) - 語言類型學（待建立）
 
 ### 日語文法相關
-- [[grammar/existence_verbs]] - 存在動詞（いる・ある）（待建立）
-- [[grammar/giving_receiving]] - 授受動詞（待建立）
-- [[concept/003_jidoushi]] - 自動詞概念
-- [[concept/004_tadoushi]] - 他動詞概念
-- [[grammar/transitive_intransitive_pairs]] - 自他動詞對（待建立）
+- [existence_verbs](../grammar/existence_verbs.md) - 存在動詞（いる・ある）（待建立）
+- [giving_receiving](../grammar/giving_receiving.md) - 授受動詞（待建立）
+- [003_jidoushi](003_jidoushi.md) - 自動詞概念
+- [004_tadoushi](004_tadoushi.md) - 他動詞概念
+- [transitive_intransitive_pairs](../grammar/transitive_intransitive_pairs.md) - 自他動詞對（待建立）
 
 ### 認知與語義
-- [[concept/agency]] - 施事性（待建立）
-- [[concept/intentionality]] - 意圖性（待建立）
-- [[concept/definiteness]] - 定指性（待建立）
-- [[concept/topicalization]] - 主題化（待建立）
+- [agency](agency.md) - 施事性（待建立）
+- [intentionality](intentionality.md) - 意圖性（待建立）
+- [definiteness](definiteness.md) - 定指性（待建立）
+- [topicalization](topicalization.md) - 主題化（待建立）
 
 ### 敬語系統
-- [[concept/013_keigo_taikei]] - 敬語體系
-- [[grammar/honorifics]] - 敬語文法（待建立）
+- [013_keigo_taikei](013_keigo_taikei.md) - 敬語體系
+- [honorifics](../grammar/honorifics.md) - 敬語文法（待建立）
 
 ### 對比學習
-- [[comparison/iru_vs_aru]] - いる vs ある（待建立）
-- [[comparison/ageru_vs_yaru]] - あげる vs やる（待建立）
-- [[comparison/animacy_across_languages]] - 跨語言生命性比較（待建立）
+- [iru_vs_aru](../comparison/iru_vs_aru.md) - いる vs ある（待建立）
+- [ageru_vs_yaru](../comparison/ageru_vs_yaru.md) - あげる vs やる（待建立）
+- [animacy_across_languages](../comparison/animacy_across_languages.md) - 跨語言生命性比較（待建立）
 
 ---
 

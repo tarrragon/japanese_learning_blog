@@ -303,20 +303,20 @@ The road is congested because there was an accident.
 ## 相關連結
 
 ### 目的表達文法
-- [[grammar/you_ni]] - 〜ように（目的表達，用於無意志動詞）（待建立）
-- [[grammar/tame]] - 〜ため（名詞形式，用於正式文章）（待建立）
+- [you_ni](you_ni.md) - 〜ように（目的表達，用於無意志動詞）（待建立）
+- [tame](tame.md) - 〜ため（名詞形式，用於正式文章）（待建立）
 
 ### 理由表達文法
-- [[grammar/node]] - 〜ので（理由表達，較禮貌）（待建立）
-- [[grammar/kara]] - 〜から（理由表達，口語）（待建立）
+- [node](node.md) - 〜ので（理由表達，較禮貌）（待建立）
+- [kara](kara.md) - 〜から（理由表達，口語）（待建立）
 
 ### 動詞變化
-- [[grammar/dictionary_form]] - 辭書形（目的用法接續）（待建立）
-- [[grammar/ta_form]] - た形（理由用法接續）（待建立）
+- [dictionary_form](dictionary_form.md) - 辭書形（目的用法接續）（待建立）
+- [ta_form](ta_form.md) - た形（理由用法接續）（待建立）
 
 ### 相關概念
-- [[concept/volitional_verb]] - 意志動詞與無意志動詞（待建立）
-- [[concept/formal_vs_casual]] - 正式語與口語的區別（待建立）
+- [volitional_verb](../concept/volitional_verb.md) - 意志動詞與無意志動詞（待建立）
+- [formal_vs_casual](../concept/formal_vs_casual.md) - 正式語與口語的區別（待建立）
 
 ---
 

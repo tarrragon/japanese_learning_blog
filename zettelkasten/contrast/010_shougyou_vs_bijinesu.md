@@ -328,22 +328,22 @@ A: 兩者意思相近但語感不同：
 ## 相關連結
 
 ### 相關名詞
-- [[zettelkasten/noun/shougyou.md]] - 商業（傳統商業活動）（待建立）
-- [[zettelkasten/noun/bijinesu.md]] - ビジネス（現代商務）（待建立）
+- [shougyou.md](zettelkasten/noun/shougyou.md.md) - 商業（傳統商業活動）（待建立）
+- [bijinesu.md](zettelkasten/noun/bijinesu.md.md) - ビジネス（現代商務）（待建立）
 
 ### 相關概念
-- [[zettelkasten/concept/wago_kango_gairaigo.md]] - 和語・漢語・外來語（待建立）
-- [[zettelkasten/concept/formality_levels.md]] - 語言正式程度（待建立）
-- [[zettelkasten/concept/loanword_adaptation.md]] - 外來語適應（待建立）
+- [wago_kango_gairaigo.md](zettelkasten/concept/wago_kango_gairaigo.md.md) - 和語・漢語・外來語（待建立）
+- [formality_levels.md](zettelkasten/concept/formality_levels.md.md) - 語言正式程度（待建立）
+- [loanword_adaptation.md](zettelkasten/concept/loanword_adaptation.md.md) - 外來語適應（待建立）
 
 ### 其他對比
-- [[zettelkasten/contrast/kaisha_vs_company.md]] - 会社 vs カンパニー（待建立）
-- [[zettelkasten/contrast/shigoto_vs_work.md]] - 仕事 vs ワーク（待建立）
-- [[zettelkasten/contrast/gakushuu_vs_benkyou.md]] - 学習 vs 勉強
+- [kaisha_vs_company.md](zettelkasten/contrast/kaisha_vs_company.md.md) - 会社 vs カンパニー（待建立）
+- [shigoto_vs_work.md](zettelkasten/contrast/shigoto_vs_work.md.md) - 仕事 vs ワーク（待建立）
+- [gakushuu_vs_benkyou.md](zettelkasten/contrast/gakushuu_vs_benkyou.md.md) - 学習 vs 勉強
 
 ### 相關詞彙領域
-- [[zettelkasten/domain/commerce.md]] - 商業領域詞彙（待建立）
-- [[zettelkasten/domain/business_terms.md]] - 商務術語（待建立）
+- [commerce.md](zettelkasten/domain/commerce.md.md) - 商業領域詞彙（待建立）
+- [business_terms.md](zettelkasten/domain/business_terms.md.md) - 商務術語（待建立）
 
 ---
 

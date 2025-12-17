@@ -171,27 +171,27 @@ No matter how much I think about it, I don't understand the answer.
 ## 相關連結
 
 ### 相關疑問詞
-- [[noun/017-どこ.md]] - 哪裡（地點疑問詞）（待建立）
-- [[noun/017-誰.md]] - 誰（人物疑問詞）（待建立）
-- [[noun/017-何.md]] - 什麼（事物疑問詞）（待建立）
-- [[interrogative/ikutsu.md]] - 幾個（數量疑問詞）（待建立）
-- [[interrogative/itsu.md]] - 什麼時候（時間疑問詞）（待建立）
+- [017-どこ.md](017-どこ.md) - 哪裡（地點疑問詞）（待建立）
+- [017-誰.md](017-誰.md) - 誰（人物疑問詞）（待建立）
+- [017-何.md](017-何.md) - 什麼（事物疑問詞）（待建立）
+- [ikutsu.md](../interrogative/ikutsu.md) - 幾個（數量疑問詞）（待建立）
+- [itsu.md](../interrogative/itsu.md) - 什麼時候（時間疑問詞）（待建立）
 
 ### 購物相關詞彙
-- [[noun/003_nedan.md]] - 價格、價錢
-- [[noun/kaimono.md]] - 購物（待建立）
-- [[noun/kaikei.md]] - 結帳、會計（待建立）
-- [[phrase/006_shopping_basic.md]] - 基本購物用語
+- [003_nedan.md](003_nedan.md) - 價格、價錢
+- [kaimono.md](kaimono.md) - 購物（待建立）
+- [kaikei.md](kaikei.md) - 結帳、會計（待建立）
+- [006_shopping_basic.md](../phrase/006_shopping_basic.md) - 基本購物用語
 
 ### 相關文法
-- [[grammar/te-form.md]] - て形（用於「いくら〜ても」）（待建立）
-- [[grammar/concession.md]] - 讓步表達（待建立）
-- [[particle/wa.md]] - 助詞「は」（待建立）
-- [[particle/de.md]] - 助詞「で」（表示價格）（待建立）
+- [te-form.md](../grammar/te-form.md) - て形（用於「いくら〜ても」）（待建立）
+- [concession.md](../grammar/concession.md) - 讓步表達（待建立）
+- [wa.md](../particle/wa.md) - 助詞「は」（待建立）
+- [de.md](../particle/de.md) - 助詞「で」（表示價格）（待建立）
 
 ### 延伸說明
-- [[phrase/shopping-conversation.md]] - 購物會話完整指南（待建立）
-- [[honorific/o-prefix.md]] - 尊敬語前綴「お」的用法（待建立）
+- [shopping-conversation.md](../phrase/shopping-conversation.md) - 購物會話完整指南（待建立）
+- [o-prefix.md](../honorific/o-prefix.md) - 尊敬語前綴「お」的用法（待建立）
 
 ---
 

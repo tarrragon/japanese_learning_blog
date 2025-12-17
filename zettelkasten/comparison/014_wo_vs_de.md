@@ -475,13 +475,13 @@ A: 不可以。一個名詞只能有一個格助詞。例如：
 - [001_ga_vs_wa](001_ga_vs_wa.md) - が vs は 助詞比較
 
 ### 相關概念
-- [[particle_system]] - 日語助詞系統概述（待建立）
-- [[transitive_verbs]] - 他動詞與賓語（待建立）
-- [[location_particles]] - 場所助詞總整理（待建立）
+- [particle_system](particle_system.md) - 日語助詞系統概述（待建立）
+- [transitive_verbs](transitive_verbs.md) - 他動詞與賓語（待建立）
+- [location_particles](location_particles.md) - 場所助詞總整理（待建立）
 
 ### 延伸說明
-- [[particle_combination]] - 助詞組合規則（待建立）
-- [[particle_order]] - 句子中助詞的順序（待建立）
+- [particle_combination](particle_combination.md) - 助詞組合規則（待建立）
+- [particle_order](particle_order.md) - 句子中助詞的順序（待建立）
 
 ---
 

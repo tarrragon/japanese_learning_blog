@@ -342,35 +342,35 @@ If you don't study, you can't pass.
 ## 相關連結
 
 ### 動詞否定相關
-- [[grammar/008_nai_form]] - ない形基本變化（待建立）
-- [[grammar/044_nai-kei]] - ない形詳細說明（待建立）
-- [[grammar/043_masu-kei]] - ます形與ません（待建立）
+- [008_nai_form](008_nai_form.md) - ない形基本變化（待建立）
+- [044_nai-kei](044_nai-kei.md) - ない形詳細說明（待建立）
+- [043_masu-kei](043_masu-kei.md) - ます形與ません（待建立）
 
 ### 延伸文法
-- [[grammar/027_nakereba_naranai]] - 義務表達（待建立）
-- [[grammar/028_nakutemo_ii]] - 不必要表達（待建立）
-- [[grammar/019_naide_kudasai]] - 禁止表達（待建立）
+- [027_nakereba_naranai](027_nakereba_naranai.md) - 義務表達（待建立）
+- [028_nakutemo_ii](028_nakutemo_ii.md) - 不必要表達（待建立）
+- [019_naide_kudasai](019_naide_kudasai.md) - 禁止表達（待建立）
 
 ### 相關概念
-- [[concept/040_teineitai_vs_futsutai]] - 丁寧体與普通体（待建立）
-- [[concept/041_verb_classification]] - 動詞分類（待建立）
-- [[concept/039_obligation_expressions]] - 義務表達概念（待建立）
+- [040_teineitai_vs_futsutai](../concept/040_teineitai_vs_futsutai.md) - 丁寧体與普通体（待建立）
+- [041_verb_classification](../concept/041_verb_classification.md) - 動詞分類（待建立）
+- [039_obligation_expressions](../concept/039_obligation_expressions.md) - 義務表達概念（待建立）
 
 ### 形容詞相關
-- [[adjective-i/001_takai]] - い形容詞範例（待建立）
-- [[adjective-na/001_shizuka]] - な形容詞範例（待建立）
+- [001_takai](../adjective-i/001_takai.md) - い形容詞範例（待建立）
+- [001_shizuka](../adjective-na/001_shizuka.md) - な形容詞範例（待建立）
 
 ---
 
 ## 註解
 
-[^futsutai]: **普通体** - 日文的非敬語形式，用於親密關係或書面語中。對比丁寧体（です・ます形式）。詳見 [[concept/040_teineitai_vs_futsutai]]（待建立）
+[^futsutai]: **普通体** - 日文的非敬語形式，用於親密關係或書面語中。對比丁寧体（です・ます形式）。詳見 [040_teineitai_vs_futsutai](../concept/040_teineitai_vs_futsutai.md)（待建立）
 
-[^teiitai]: **丁寧体** - 日文的禮貌形式，使用「です・ます」結尾，用於一般社交場合。詳見 [[concept/040_teineitai_vs_futsutai]]（待建立）
+[^teiitai]: **丁寧体** - 日文的禮貌形式，使用「です・ます」結尾，用於一般社交場合。詳見 [040_teineitai_vs_futsutai](../concept/040_teineitai_vs_futsutai.md)（待建立）
 
 [^kinshi]: **禁止** - 要求或命令對方不要做某事的語氣表達。在日文中常用「〜ないでください」等形式。
 
-[^gimu]: **義務** - 表示必須做某事的語氣，日文中用「〜なければならない」「〜なくてはならない」等形式。詳見 [[concept/039_obligation_expressions]]（待建立）
+[^gimu]: **義務** - 表示必須做某事的語氣，日文中用「〜なければならない」「〜なくてはならない」等形式。詳見 [039_obligation_expressions](../concept/039_obligation_expressions.md)（待建立）
 
 [^fuhitsuyou]: **不必要** - 表示不需要做某事、可以不做的語氣，用「〜なくてもいい」表達。
 

@@ -278,27 +278,27 @@ This paper explains the subtle differences between synonyms using a lexicologica
 ## 相關連結
 
 ### 語言學基礎概念
-- [[concept/linguistics]] - 語言學總論（待建立）
-- [[concept/semantics]] - 語義學（待建立）
-- [[concept/morphology]] - 形態學（待建立）
-- [[concept/pragmatics]] - 語用學（待建立）
+- [linguistics](linguistics.md) - 語言學總論（待建立）
+- [semantics](semantics.md) - 語義學（待建立）
+- [morphology](morphology.md) - 形態學（待建立）
+- [pragmatics](pragmatics.md) - 語用學（待建立）
 
 ### 詞彙相關概念
-- [[noun/010_goi]] - 語彙（詞彙）
-- [[noun/018_tango]] - 単語（單詞）
-- [[contrast/002_goi_vs_tango]] - 語彙 vs 単語
-- [[concept/word_formation]] - 構詞法（待建立）
+- [010_goi](../noun/010_goi.md) - 語彙（詞彙）
+- [018_tango](../noun/018_tango.md) - 単語（單詞）
+- [002_goi_vs_tango](../contrast/002_goi_vs_tango.md) - 語彙 vs 単語
+- [word_formation](word_formation.md) - 構詞法（待建立）
 
 ### 語言學習相關
-- [[concept/009_language_acquisition]] - 言語習得（語言習得）
-- [[noun/009_gakushuu]] - 学習（學習）
-- [[contrast/001_gakushuu_vs_benkyou]] - 学習 vs 勉強
-- [[contrast/003_oboeru_vs_manabu]] - 覚える vs 学ぶ
+- [009_language_acquisition](009_language_acquisition.md) - 言語習得（語言習得）
+- [009_gakushuu](../noun/009_gakushuu.md) - 学習（學習）
+- [001_gakushuu_vs_benkyou](../contrast/001_gakushuu_vs_benkyou.md) - 学習 vs 勉強
+- [003_oboeru_vs_manabu](../contrast/003_oboeru_vs_manabu.md) - 覚える vs 学ぶ
 
 ### 日文語彙特色
-- [[concept/wago_kango_gairaigo]] - 和語・漢語・外来語（待建立）
-- [[concept/kanji_system]] - 漢字體系（待建立）
-- [[concept/honorifics_system]] - 敬語體系（待建立）
+- [wago_kango_gairaigo](wago_kango_gairaigo.md) - 和語・漢語・外来語（待建立）
+- [kanji_system](kanji_system.md) - 漢字體系（待建立）
+- [honorifics_system](honorifics_system.md) - 敬語體系（待建立）
 
 ---
 

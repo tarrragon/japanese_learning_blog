@@ -284,23 +284,23 @@ I read a book yesterday.
 ## 相關連結
 
 ### 句型結構
-- [[concept/meishi_ku]] - 名詞句（名詞謂語句）（待建立）
-- [[concept/keiyoushi_ku]] - 形容詞句（形容詞謂語句）（待建立）
-- [[concept/sentence_types]] - 日語基本句型分類（待建立）
+- [meishi_ku](meishi_ku.md) - 名詞句（名詞謂語句）（待建立）
+- [keiyoushi_ku](keiyoushi_ku.md) - 形容詞句（形容詞謂語句）（待建立）
+- [sentence_types](sentence_types.md) - 日語基本句型分類（待建立）
 
 ### 動詞系統
-- [[concept/008_doushi]] - 動詞（基礎概念）
-- [[concept/005_doushi-bunrui]] - 動詞分類
-- [[grammar/verb_conjugation]] - 動詞活用系統（待建立）
+- [008_doushi](008_doushi.md) - 動詞（基礎概念）
+- [005_doushi-bunrui](005_doushi-bunrui.md) - 動詞分類
+- [verb_conjugation](../grammar/verb_conjugation.md) - 動詞活用系統（待建立）
 
 ### 語法特性
-- [[concept/subject_omission]] - 主語省略現象（待建立）
-- [[concept/sov_word_order]] - SOV 語序（待建立）
-- [[particle/case_marking]] - 助詞的格標記功能（待建立）
+- [subject_omission](subject_omission.md) - 主語省略現象（待建立）
+- [sov_word_order](sov_word_order.md) - SOV 語序（待建立）
+- [case_marking](../particle/case_marking.md) - 助詞的格標記功能（待建立）
 
 ### 語用學
-- [[concept/high_context_language]] - 高語境語言特性（待建立）
-- [[pragmatics/information_structure]] - 資訊結構（待建立）
+- [high_context_language](high_context_language.md) - 高語境語言特性（待建立）
+- [information_structure](../pragmatics/information_structure.md) - 資訊結構（待建立）
 
 ---
 

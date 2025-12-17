@@ -192,18 +192,18 @@ Thank you for your time today despite being busy.
 ## 相關連結
 
 ### 相關時間名詞
-- [[noun/048_kinou]] - 昨天（待建立）
-- [[noun/049_ashita]] - 明天（待建立）
-- [[noun/050_mainichi]] - 每天（待建立）
-- [[noun/051_kyou]] - 明天（待建立）
+- [048_kinou](048_kinou.md) - 昨天（待建立）
+- [049_ashita](049_ashita.md) - 明天（待建立）
+- [050_mainichi](050_mainichi.md) - 每天（待建立）
+- [051_kyou](051_kyou.md) - 明天（待建立）
 
 ### 相關文法
-- [[grammar/072_wa_particle]] - は助詞的用法（待建立）
-- [[grammar/073_time_expressions]] - 時間表達方式（待建立）
+- [072_wa_particle](../grammar/072_wa_particle.md) - は助詞的用法（待建立）
+- [073_time_expressions](../grammar/073_time_expressions.md) - 時間表達方式（待建立）
 
 ### 相關表達
-- [[phrase/009_kyou_wa]] - 今日は問候語（待建立）
-- [[phrase/010_weather_talk]] - 天氣話題表達（待建立）
+- [009_kyou_wa](../phrase/009_kyou_wa.md) - 今日は問候語（待建立）
+- [010_weather_talk](../phrase/010_weather_talk.md) - 天氣話題表達（待建立）
 
 ---
 

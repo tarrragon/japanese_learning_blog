@@ -200,30 +200,30 @@ The potential form construction differs by verb type: "taberu" → "taberareru,"
 
 ### 動詞分類
 
-- [[concept/ichidan_verbs]] - 一段動詞詳解（待建立）
-- [[concept/godan_verbs]] - 五段動詞詳解（待建立）
-- [[concept/irregular_verbs]] - 不規則動詞詳解（待建立）
+- [ichidan_verbs](ichidan_verbs.md) - 一段動詞詳解（待建立）
+- [godan_verbs](godan_verbs.md) - 五段動詞詳解（待建立）
+- [irregular_verbs](irregular_verbs.md) - 不規則動詞詳解（待建立）
 
 ### 活用形式
 
-- [[grammar/masu_form]] - ます形構成規則（待建立）
-- [[grammar/te_form]] - て形構成規則（待建立）
-- [[grammar/ta_form]] - た形構成規則（待建立）
-- [[grammar/potential_form]] - 可能形構成規則（待建立）
-- [[grammar/negative_form]] - 否定形構成規則（待建立）
+- [masu_form](../grammar/masu_form.md) - ます形構成規則（待建立）
+- [te_form](../grammar/te_form.md) - て形構成規則（待建立）
+- [ta_form](../grammar/ta_form.md) - た形構成規則（待建立）
+- [potential_form](../grammar/potential_form.md) - 可能形構成規則（待建立）
+- [negative_form](../grammar/negative_form.md) - 否定形構成規則（待建立）
 
 ### 音便規則
 
-- [[grammar/onbin_rules]] - 音便規則總覽（待建立）
-- [[grammar/i_onbin]] - イ音便（待建立）
-- [[grammar/sokuon_onbin]] - 促音便（待建立）
-- [[grammar/hatsuon_onbin]] - 撥音便（待建立）
+- [onbin_rules](../grammar/onbin_rules.md) - 音便規則總覽（待建立）
+- [i_onbin](../grammar/i_onbin.md) - イ音便（待建立）
+- [sokuon_onbin](../grammar/sokuon_onbin.md) - 促音便（待建立）
+- [hatsuon_onbin](../grammar/hatsuon_onbin.md) - 撥音便（待建立）
 
 ### 學習資源
 
-- [[extension/verb_conjugation_practice]] - 動詞活用練習（待建立）
-- [[extension/verb_type_exceptions]] - 動詞分類例外清單（待建立）
-- [[extension/colloquial_forms]] - 口語簡化形式（待建立）
+- [verb_conjugation_practice](../extension/verb_conjugation_practice.md) - 動詞活用練習（待建立）
+- [verb_type_exceptions](../extension/verb_type_exceptions.md) - 動詞分類例外清單（待建立）
+- [colloquial_forms](../extension/colloquial_forms.md) - 口語簡化形式（待建立）
 
 ---
 

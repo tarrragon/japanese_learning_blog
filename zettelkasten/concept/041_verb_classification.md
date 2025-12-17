@@ -210,23 +210,23 @@ My friend is coming from Japan tomorrow.
 ## 相關連結
 
 ### 動詞活用形
-- [[grammar/conjugation_nai_form]] - ない形（否定形）活用規則（待建立）
-- [[grammar/conjugation_masu_form]] - ます形（敬體形）活用規則（待建立）
-- [[grammar/conjugation_te_form]] - て形活用規則（待建立）
-- [[grammar/conjugation_ta_form]] - た形（過去形）活用規則（待建立）
+- [conjugation_nai_form](../grammar/conjugation_nai_form.md) - ない形（否定形）活用規則（待建立）
+- [conjugation_masu_form](../grammar/conjugation_masu_form.md) - ます形（敬體形）活用規則（待建立）
+- [conjugation_te_form](../grammar/conjugation_te_form.md) - て形活用規則（待建立）
+- [conjugation_ta_form](../grammar/conjugation_ta_form.md) - た形（過去形）活用規則（待建立）
 
 ### 動詞相關概念
-- [[concept/transitive_intransitive]] - 自動詞與他動詞的區別（待建立）
-- [[concept/verb_stem]] - 動詞詞幹的概念（待建立）
-- [[concept/auxiliary_verb]] - 助動詞系統（待建立）
+- [transitive_intransitive](transitive_intransitive.md) - 自動詞與他動詞的區別（待建立）
+- [verb_stem](verb_stem.md) - 動詞詞幹的概念（待建立）
+- [auxiliary_verb](auxiliary_verb.md) - 助動詞系統（待建立）
 
 ### 特殊動詞
-- [[verb-irr/suru]] - する（不規則動詞）（待建立）
-- [[verb-irr/kuru]] - 來る（不規則動詞）（待建立）
+- [suru](../verb-irr/suru.md) - する（不規則動詞）（待建立）
+- [kuru](../verb-irr/kuru.md) - 來る（不規則動詞）（待建立）
 
 ### 學習資源
-- [[concept/conjugation_strategy]] - 動詞活用學習策略（待建立）
-- [[comparison/godan_ichidan]] - 五段動詞與一段動詞的系統性對比（待建立）
+- [conjugation_strategy](conjugation_strategy.md) - 動詞活用學習策略（待建立）
+- [godan_ichidan](../comparison/godan_ichidan.md) - 五段動詞與一段動詞的系統性對比（待建立）
 
 ---
 

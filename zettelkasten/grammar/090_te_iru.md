@@ -221,18 +221,18 @@ I jog every morning.
 ## 相關連結
 
 ### 相關文法
-- [[grammar/te_form|て形]] - 〜ている的基礎形式（待建立）
-- [[grammar/te_aru|〜てある]] - 結果狀態的另一種表達（待建立）
-- [[grammar/te_oku|〜ておく]] - 事先準備的狀態（待建立）
+- [て形](te_form.md) - 〜ている的基礎形式（待建立）
+- [〜てある](te_aru.md) - 結果狀態的另一種表達（待建立）
+- [〜ておく](te_oku.md) - 事先準備的狀態（待建立）
 
 ### 相關概念
-- [[concept/progressive_aspect|進行相]] - 進行式的語言學概念（待建立）
-- [[concept/resultant_state|結果狀態]] - 結果狀態的語言學解釋（待建立）
-- [[concept/verb_classification|動詞分類]] - 動作動詞與狀態動詞的區別（待建立）
+- [進行相](../concept/progressive_aspect.md) - 進行式的語言學概念（待建立）
+- [結果狀態](../concept/resultant_state.md) - 結果狀態的語言學解釋（待建立）
+- [動詞分類](../concept/verb_classification.md) - 動作動詞與狀態動詞的區別（待建立）
 
 ### 比較辨析
-- [[comparison/te_iru_vs_te_aru|〜ている vs 〜てある]] - 兩者的詳細比較（待建立）
-- [[comparison/te_iru_progressive_vs_state|進行式 vs 狀態式]] - 同一句型的兩種意義（待建立）
+- [〜ている vs 〜てある](../comparison/te_iru_vs_te_aru.md) - 兩者的詳細比較（待建立）
+- [進行式 vs 狀態式](../comparison/te_iru_progressive_vs_state.md) - 同一句型的兩種意義（待建立）
 
 ---
 

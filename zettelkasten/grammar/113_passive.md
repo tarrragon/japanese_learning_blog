@@ -224,20 +224,20 @@ I had my wallet stolen at the station.
 ## 相關連結
 
 ### 動詞基礎
-- [[zettelkasten/grammar/003_ichidan_verb.md|一段動詞]] - 一段動詞的受身形變化（待建立）
-- [[zettelkasten/grammar/006_godan_verb.md|五段動詞]] - 五段動詞的受身形變化（待建立）
+- [一段動詞](zettelkasten/grammar/003_ichidan_verb.md.md) - 一段動詞的受身形變化（待建立）
+- [五段動詞](zettelkasten/grammar/006_godan_verb.md.md) - 五段動詞的受身形變化（待建立）
 
 ### 相關文法形式
-- [[zettelkasten/grammar/011_potential_form.md|可能形]] - 可能形與受身形的區別（待建立）
-- [[zettelkasten/grammar/013_causative_form.md|使役形]] - 使役形（概念相關）（待建立）
+- [可能形](zettelkasten/grammar/011_potential_form.md.md) - 可能形與受身形的區別（待建立）
+- [使役形](zettelkasten/grammar/013_causative_form.md.md) - 使役形（概念相關）（待建立）
 
 ### 相關助詞
-- [[zettelkasten/particle/001_ga.md|が助詞]] - 主語標記助詞（待建立）
-- [[zettelkasten/particle/002_ni.md|に助詞]] - 動作主標記助詞（待建立）
+- [が助詞](zettelkasten/particle/001_ga.md.md) - 主語標記助詞（待建立）
+- [に助詞](zettelkasten/particle/002_ni.md.md) - 動作主標記助詞（待建立）
 
 ### 延伸說明
-- [[zettelkasten/concept/passive_voice.md|被動語態概念]] - 被動語態的語言學概念（待建立）
-- [[zettelkasten/comparison/passive_vs_potential.md|受身形 vs 可能形]] - 形式相同的區別（待建立）
+- [被動語態概念](zettelkasten/concept/passive_voice.md.md) - 被動語態的語言學概念（待建立）
+- [受身形 vs 可能形](zettelkasten/comparison/passive_vs_potential.md.md) - 形式相同的區別（待建立）
 
 ---
 

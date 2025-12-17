@@ -221,23 +221,23 @@ Have you ever climbed Mt. Fuji?
 ## 相關連結
 
 ### 相關文法
-- [[grammar/072_te_aru.md]] - 〜てある（狀態存在）（待建立）
-- [[grammar/ta_form.md]] - 動詞た形（待建立）
-- [[grammar/koto_nominalization.md]] - こと的名詞化用法（待建立）
+- [072_te_aru.md](072_te_aru.md) - 〜てある（狀態存在）（待建立）
+- [ta_form.md](ta_form.md) - 動詞た形（待建立）
+- [koto_nominalization.md](koto_nominalization.md) - こと的名詞化用法（待建立）
 
 ### 相關概念
-- [[concept/020_sonzai.md]] - 存在概念
-- [[concept/keiken.md]] - 經驗概念（待建立）
-- [[concept/nominalization.md]] - 名詞化（待建立）
+- [020_sonzai.md](../concept/020_sonzai.md) - 存在概念
+- [keiken.md](../concept/keiken.md) - 經驗概念（待建立）
+- [nominalization.md](../concept/nominalization.md) - 名詞化（待建立）
 
 ### 對比文法
-- [[grammar/ta_form_narration.md]] - た形的敘述用法（待建立）
-- [[grammar/dictionary_form_koto_ga_aru.md]] - 習慣表達（待建立）
-- [[grammar/present_perfect.md]] - 現在完成時對比（待建立）
+- [ta_form_narration.md](ta_form_narration.md) - た形的敘述用法（待建立）
+- [dictionary_form_koto_ga_aru.md](dictionary_form_koto_ga_aru.md) - 習慣表達（待建立）
+- [present_perfect.md](present_perfect.md) - 現在完成時對比（待建立）
 
 ### 延伸說明
-- [[extension/experience_vs_habit.md]] - 經驗vs習慣表達的區別（待建立）
-- [[extension/time_expressions.md]] - 時間副詞的使用限制（待建立）
+- [experience_vs_habit.md](../extension/experience_vs_habit.md) - 經驗vs習慣表達的區別（待建立）
+- [time_expressions.md](../extension/time_expressions.md) - 時間副詞的使用限制（待建立）
 
 ---
 

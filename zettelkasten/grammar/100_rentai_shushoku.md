@@ -225,18 +225,18 @@ I will read tomorrow the book I bought yesterday.
 ## 相關連結
 
 ### 相關文法
-- [[grammar/041_jishokei|辞書形]] - 動詞的連體形基礎（待建立）
-- [[grammar/te_form|て形]] - 動詞連用修飾（待建立）
-- [[grammar/ta_form|た形]] - 過去式的連體修飾（待建立）
+- [辞書形](041_jishokei.md) - 動詞的連體形基礎（待建立）
+- [て形](te_form.md) - 動詞連用修飾（待建立）
+- [た形](ta_form.md) - 過去式的連體修飾（待建立）
 
 ### 相關概念
-- [[concept/left_branching|左分支結構]] - 日文語序特徵（待建立）
-- [[concept/adnominal_clause|連體節]] - 修飾節的句法分析（待建立）
-- [[concept/relative_clause|關係子句對比]] - 與英文的異同（待建立）
+- [左分支結構](../concept/left_branching.md) - 日文語序特徵（待建立）
+- [連體節](../concept/adnominal_clause.md) - 修飾節的句法分析（待建立）
+- [關係子句對比](../concept/relative_clause.md) - 與英文的異同（待建立）
 
 ### 延伸學習
-- [[comparison/japanese_vs_english_modification|日英修飾結構對比]] - 深入對比分析（待建立）
-- [[grammar/complex_sentences|複文構造]] - 複雜句型的建立（待建立）
+- [日英修飾結構對比](../comparison/japanese_vs_english_modification.md) - 深入對比分析（待建立）
+- [複文構造](complex_sentences.md) - 複雜句型的建立（待建立）
 
 ---
 

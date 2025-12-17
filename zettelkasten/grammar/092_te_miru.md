@@ -231,23 +231,23 @@ This dish is delicious. Please try it.
 ## 相關連結
 
 ### 相關文法
-- [[grammar/te_form]] - て形的基本用法和形成規則（待建立）
-- [[grammar/te_shimau]] - 〜てしまう（完了・遺憾）（待建立）
-- [[grammar/te_oku]] - 〜ておく（事前準備）（待建立）
-- [[grammar/te_iru]] - 〜ている（進行・状態）（待建立）
+- [te_form](te_form.md) - て形的基本用法和形成規則（待建立）
+- [te_shimau](te_shimau.md) - 〜てしまう（完了・遺憾）（待建立）
+- [te_oku](te_oku.md) - 〜ておく（事前準備）（待建立）
+- [te_iru](te_iru.md) - 〜ている（進行・状態）（待建立）
 
 ### 補助動詞比較
-- [[comparison/te_auxiliary_verbs]] - て形補助動詞的比較（みる vs しまう vs おく vs いる）（待建立）
-- [[grammar/auxiliary_verbs]] - 補助動詞系統概論（待建立）
+- [te_auxiliary_verbs](../comparison/te_auxiliary_verbs.md) - て形補助動詞的比較（みる vs しまう vs おく vs いる）（待建立）
+- [auxiliary_verbs](auxiliary_verbs.md) - 補助動詞系統概論（待建立）
 
 ### 相關概念
-- [[concept/volition]] - 意志性與動詞分類（待建立）
-- [[concept/experiential_aspect]] - 經驗體（嘗試・體驗）（待建立）
-- [[concept/polite_expression]] - 禮貌表達系統（待建立）
+- [volition](../concept/volition.md) - 意志性與動詞分類（待建立）
+- [experiential_aspect](../concept/experiential_aspect.md) - 經驗體（嘗試・體驗）（待建立）
+- [polite_expression](../concept/polite_expression.md) - 禮貌表達系統（待建立）
 
 ### 相關動詞
-- [[verb-ru/miru]] - 見る（本動詞）（待建立）
-- [[verb-u/tamasu]] - 試す（嘗試）（待建立）
+- [miru](../verb-ru/miru.md) - 見る（本動詞）（待建立）
+- [tamasu](../verb-u/tamasu.md) - 試す（嘗試）（待建立）
 
 ---
 

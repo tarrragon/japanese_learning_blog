@@ -228,21 +228,21 @@ I just bought this computer, so I don't know how to use it yet.
 ## 相關連結
 
 ### 相關文法
-- [[grammar/te_iru|〜ている]] - 動作進行或結果狀態（待建立）
-- [[grammar/ta_tokoro|〜たところ]] - 剛剛做完（待建立）
-- [[grammar/bakari|ばかり的其他用法]] - 「只有」、「大約」等意思（待建立）
+- [〜ている](te_iru.md) - 動作進行或結果狀態（待建立）
+- [〜たところ](ta_tokoro.md) - 剛剛做完（待建立）
+- [ばかり的其他用法](bakari.md) - 「只有」、「大約」等意思（待建立）
 
 ### 相關概念
-- [[concept/time_expression|時間表達]] - 日語中的時間概念（待建立）
-- [[concept/aspect_theory|體貌理論]] - 理解動作的完成狀態（待建立）
+- [時間表達](../concept/time_expression.md) - 日語中的時間概念（待建立）
+- [體貌理論](../concept/aspect_theory.md) - 理解動作的完成狀態（待建立）
 
 ### 對比辨析
-- [[comparison/ta_bakari_vs_ta_tokoro|〜たばかり vs 〜たところ]] - 兩者的細微差異（待建立）
-- [[comparison/ta_bakari_vs_te_kara|〜たばかり vs 〜てから]] - 時間表達的對比（待建立）
+- [〜たばかり vs 〜たところ](../comparison/ta_bakari_vs_ta_tokoro.md) - 兩者的細微差異（待建立）
+- [〜たばかり vs 〜てから](../comparison/ta_bakari_vs_te_kara.md) - 時間表達的對比（待建立）
 
 ### 延伸學習
-- [[grammar/bakari_de_naku|〜ばかりでなく]] - 不僅、不只（待建立）
-- [[grammar/ta_bakkari_ni|〜たばかりに]] - 只因為剛做了某事（待建立）
+- [〜ばかりでなく](bakari_de_naku.md) - 不僅、不只（待建立）
+- [〜たばかりに](ta_bakkari_ni.md) - 只因為剛做了某事（待建立）
 
 ---
 

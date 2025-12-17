@@ -323,31 +323,31 @@ Testing hypotheses derived from theory with empirical data is fundamental to the
 ## 相關連結
 
 ### 科學方法論
-- [[concept/scientific_method]] - 科學方法（待建立）
-- [[concept/empiricism]] - 經驗主義（待建立）
-- [[concept/falsifiability]] - 可否證性（待建立）
-- [[concept/verification]] - 驗證（待建立）
+- [scientific_method](scientific_method.md) - 科學方法（待建立）
+- [empiricism](empiricism.md) - 經驗主義（待建立）
+- [falsifiability](falsifiability.md) - 可否證性（待建立）
+- [verification](verification.md) - 驗證（待建立）
 
 ### 邏輯與推理
-- [[concept/deduction]] - 演繹推理（待建立）
-- [[concept/induction]] - 歸納推理（待建立）
-- [[concept/abduction]] - 溯因推理（待建立）
-- [[concept/009_language_acquisition]] - 言語習得（語言習得）
+- [deduction](deduction.md) - 演繹推理（待建立）
+- [induction](induction.md) - 歸納推理（待建立）
+- [abduction](abduction.md) - 溯因推理（待建立）
+- [009_language_acquisition](009_language_acquisition.md) - 言語習得（語言習得）
 
 ### 統計概念
-- [[concept/null_hypothesis]] - 虛無假設（待建立）
-- [[concept/statistical_significance]] - 統計顯著性（待建立）
-- [[concept/p_value]] - p 值（待建立）
-- [[concept/type_errors]] - 型一和型二錯誤（待建立）
+- [null_hypothesis](null_hypothesis.md) - 虛無假設（待建立）
+- [statistical_significance](statistical_significance.md) - 統計顯著性（待建立）
+- [p_value](p_value.md) - p 值（待建立）
+- [type_errors](type_errors.md) - 型一和型二錯誤（待建立）
 
 ### 認知與學習
-- [[concept/domain/cognition]] - 認知（待建立）
-- [[concept/critical_thinking]] - 批判性思考（待建立）
-- [[concept/inference]] - 推論（待建立）
+- [cognition](concept/domain/cognition.md) - 認知（待建立）
+- [critical_thinking](critical_thinking.md) - 批判性思考（待建立）
+- [inference](inference.md) - 推論（待建立）
 
 ### 對比辨析
-- [[comparison/hypothesis_vs_theory]] - 假設與理論的區別（待建立）
-- [[comparison/hypothesis_vs_prediction]] - 假設與預測的區別（待建立）
+- [hypothesis_vs_theory](../comparison/hypothesis_vs_theory.md) - 假設與理論的區別（待建立）
+- [hypothesis_vs_prediction](../comparison/hypothesis_vs_prediction.md) - 假設與預測的區別（待建立）
 
 ---
 

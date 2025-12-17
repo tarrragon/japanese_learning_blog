@@ -196,27 +196,27 @@ Someone closed the door.
 ## 相關連結
 
 ### 基礎概念
-- [[concept/verb_classification]] - 動詞分類系統（待建立）
-- [[concept/animacy]] - 有生性概念（待建立）
-- [[concept/agency]] - 動作者概念（待建立）
+- [verb_classification](../concept/verb_classification.md) - 動詞分類系統（待建立）
+- [animacy](../concept/animacy.md) - 有生性概念（待建立）
+- [agency](../concept/agency.md) - 動作者概念（待建立）
 
 ### 助詞相關
-- [[particle/ga]] - 主語助詞「が」（待建立）
-- [[particle/wo]] - 賓語助詞「を」（待建立）
+- [ga](../particle/ga.md) - 主語助詞「が」（待建立）
+- [wo](../particle/wo.md) - 賓語助詞「を」（待建立）
 
 ### 相關文法
-- [[grammar/te_iru]] - ている形的自他動詞用法差異（待建立）
-- [[grammar/te_aru]] - てある與自他動詞（待建立）
-- [[grammar/causative]] - 使役形與他動詞的關係（待建立）
+- [te_iru](te_iru.md) - ている形的自他動詞用法差異（待建立）
+- [te_aru](te_aru.md) - てある與自他動詞（待建立）
+- [causative](causative.md) - 使役形與他動詞的關係（待建立）
 
 ### 常見配對
-- [[verb-u/aku_akeru]] - 開く/開ける配對（待建立）
-- [[verb-u/hajimaru_hajimeru]] - 始まる/始める配對（待建立）
-- [[verb-ru/kimaru_kimeru]] - 決まる/決める配對（待建立）
+- [aku_akeru](../verb-u/aku_akeru.md) - 開く/開ける配對（待建立）
+- [hajimaru_hajimeru](../verb-u/hajimaru_hajimeru.md) - 始まる/始める配對（待建立）
+- [kimaru_kimeru](../verb-ru/kimaru_kimeru.md) - 決まる/決める配對（待建立）
 
 ### 延伸說明
-- [[extension/jita_pattern]] - 自他動詞配對模式詳解（待建立）
-- [[extension/jita_exceptions]] - 不規則自他動詞配對（待建立）
+- [jita_pattern](../extension/jita_pattern.md) - 自他動詞配對模式詳解（待建立）
+- [jita_exceptions](../extension/jita_exceptions.md) - 不規則自他動詞配對（待建立）
 
 ---
 

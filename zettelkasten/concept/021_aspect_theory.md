@@ -197,24 +197,24 @@ English "I am writing" and Japanese "kaite iru" both express progressive, but Ja
 ## 相關連結
 
 ### 基礎文法概念
-- [[grammar/te_iru_form]] - 「ている」形式的詳細用法（待建立）
-- [[grammar/ta_form]] - 「た」形式的用法和意義（待建立）
-- [[grammar/te_aru_form]] - 「てある」形式與體的關係（待建立）
+- [te_iru_form](../grammar/te_iru_form.md) - 「ている」形式的詳細用法（待建立）
+- [ta_form](../grammar/ta_form.md) - 「た」形式的用法和意義（待建立）
+- [te_aru_form](../grammar/te_aru_form.md) - 「てある」形式與體的關係（待建立）
 
 ### 動詞分類
-- [[concept/lexical_aspect]] - 詞彙體的分類與特徵（待建立）
-- [[concept/verb_types_temporal]] - 動詞的時間結構分類（待建立）
-- [[comparison/stative_vs_active_verbs]] - 狀態動詞vs活動動詞（待建立）
+- [lexical_aspect](lexical_aspect.md) - 詞彙體的分類與特徵（待建立）
+- [verb_types_temporal](verb_types_temporal.md) - 動詞的時間結構分類（待建立）
+- [stative_vs_active_verbs](../comparison/stative_vs_active_verbs.md) - 狀態動詞vs活動動詞（待建立）
 
 ### 相關語言學理論
-- [[concept/tense_theory]] - 時制理論與體理論的區別（待建立）
-- [[concept/aktionsart]] - 行為類型理論（待建立）
-- [[concept/grammaticalization]] - 體標記的文法化過程（待建立）
+- [tense_theory](tense_theory.md) - 時制理論與體理論的區別（待建立）
+- [aktionsart](aktionsart.md) - 行為類型理論（待建立）
+- [grammaticalization](grammaticalization.md) - 體標記的文法化過程（待建立）
 
 ### 教學應用
-- [[pedagogy/teaching_te_iru]] - 「ている」的教學策略（待建立）
-- [[extension/aspect_errors]] - 學習者常見的體錯誤分析（待建立）
-- [[comparison/aspect_en_vs_jp]] - 英日體系統對比（待建立）
+- [teaching_te_iru](../pedagogy/teaching_te_iru.md) - 「ている」的教學策略（待建立）
+- [aspect_errors](../extension/aspect_errors.md) - 學習者常見的體錯誤分析（待建立）
+- [aspect_en_vs_jp](../comparison/aspect_en_vs_jp.md) - 英日體系統對比（待建立）
 
 ---
 

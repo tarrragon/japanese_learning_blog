@@ -180,20 +180,20 @@ I hope it will be sunny tomorrow.
 ## 相關連結
 
 ### 時間詞彙
-- [[noun/kyou|今日（きょう）]] - 今天（待建立）
-- [[noun/asatte|明後日（あさって）]] - 後天（待建立）
-- [[noun/kinou|昨日（きのう）]] - 昨天（待建立）
-- [[noun/ototoi|一昨日（おととい）]] - 前天（待建立）
+- [今日（きょう）](kyou.md) - 今天（待建立）
+- [明後日（あさって）](asatte.md) - 後天（待建立）
+- [昨日（きのう）](kinou.md) - 昨天（待建立）
+- [一昨日（おととい）](ototoi.md) - 前天（待建立）
 
 ### 時段詞彙
-- [[noun/asa|朝（あさ）]] - 早上（待建立）
-- [[noun/gogo|午後（ごご）]] - 下午（待建立）
-- [[noun/yoru|夜（よる）]] - 晚上（待建立）
-- [[noun/hiru|昼（ひる）]] - 中午（待建立）
+- [朝（あさ）](asa.md) - 早上（待建立）
+- [午後（ごご）](gogo.md) - 下午（待建立）
+- [夜（よる）](yoru.md) - 晚上（待建立）
+- [昼（ひる）](hiru.md) - 中午（待建立）
 
 ### 相關文法
-- [[grammar/future_tense|未來時態表達]] - 日文的未來表達方式（待建立）
-- [[grammar/time_expressions|時間表達]] - 各種時間詞的用法（待建立）
+- [未來時態表達](../grammar/future_tense.md) - 日文的未來表達方式（待建立）
+- [時間表達](../grammar/time_expressions.md) - 各種時間詞的用法（待建立）
 
 ---
 

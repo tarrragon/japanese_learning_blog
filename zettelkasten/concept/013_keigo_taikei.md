@@ -368,24 +368,24 @@ Changes in the keigo system reflect changes in Japanese social values.
 ## 相關連結
 
 ### 實踐系統
-- [[grammar/005_keigo_system|敬語系統]]（待建立） - 敬語的實際使用和規則
+- [敬語系統](../grammar/005_keigo_system.md)（待建立） - 敬語的實際使用和規則
 
 ### 社會文化概念
-- [[concept/007_uchi-soto|內與外]]（待建立） - 內外群體概念
-- [[concept/006_viewpoint|視點理論]]（待建立） - 日語的視點概念
+- [內與外](007_uchi-soto.md)（待建立） - 內外群體概念
+- [視點理論](006_viewpoint.md)（待建立） - 日語的視點概念
 
 ### 具體敬語形式
-- [[honorific/001_meshiagaru_itadaku|召し上がる・いただく]]（待建立） - 敬語動詞範例
-- [[honorific/002_ossharu_mousu|おっしゃる・申す]]（待建立） - 言說類敬語動詞
-- [[honorific/003_irassharu_mairu|いらっしゃる・参る]]（待建立） - 移動類敬語動詞
+- [召し上がる・いただく](../honorific/001_meshiagaru_itadaku.md)（待建立） - 敬語動詞範例
+- [おっしゃる・申す](../honorific/002_ossharu_mousu.md)（待建立） - 言說類敬語動詞
+- [いらっしゃる・参る](../honorific/003_irassharu_mairu.md)（待建立） - 移動類敬語動詞
 
 ### 文法模式
-- [[grammar/025_o_go_ni_naru|お〜になる]]（待建立） - 尊敬語構成
-- [[grammar/026_o_go_suru|お〜する]]（待建立） - 謙讓語構成
+- [お〜になる](../grammar/025_o_go_ni_naru.md)（待建立） - 尊敬語構成
+- [お〜する](../grammar/026_o_go_suru.md)（待建立） - 謙讓語構成
 
 ### 語言學理論
-- [[concept/sociolinguistics|社會語言學]]（待建立） - 語言與社會的關係
-- [[concept/pragmatics|語用學]]（待建立） - 語境中的語言使用
+- [社會語言學](sociolinguistics.md)（待建立） - 語言與社會的關係
+- [語用學](pragmatics.md)（待建立） - 語境中的語言使用
 
 ---
 

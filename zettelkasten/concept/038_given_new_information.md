@@ -194,18 +194,18 @@ I went to the park yesterday (new). The park (now given/new topic) was very beau
 ## 相關連結
 
 ### 相關文法概念
-- [[grammar/wa_particle]] - 助詞「は」的話題標記功能（待建立）
-- [[grammar/ga_particle]] - 助詞「が」的主格與焦點功能（待建立）
-- [[concept/topic_comment]] - 主題-評述結構（待建立）
+- [wa_particle](../grammar/wa_particle.md) - 助詞「は」的話題標記功能（待建立）
+- [ga_particle](../grammar/ga_particle.md) - 助詞「が」的主格與焦點功能（待建立）
+- [topic_comment](topic_comment.md) - 主題-評述結構（待建立）
 
 ### 語用學概念
-- [[concept/information_structure]] - 資訊結構理論（待建立）
-- [[concept/discourse_coherence]] - 語篇連貫性（待建立）
-- [[concept/focus_structure]] - 焦點結構（待建立）
+- [information_structure](information_structure.md) - 資訊結構理論（待建立）
+- [discourse_coherence](discourse_coherence.md) - 語篇連貫性（待建立）
+- [focus_structure](focus_structure.md) - 焦點結構（待建立）
 
 ### 對比分析
-- [[comparison/wa_vs_ga]] - 「は」與「が」的使用區別（待建立）
-- [[comparison/japanese_vs_english_word_order]] - 日英語序對比（待建立）
+- [wa_vs_ga](../comparison/wa_vs_ga.md) - 「は」與「が」的使用區別（待建立）
+- [japanese_vs_english_word_order](../comparison/japanese_vs_english_word_order.md) - 日英語序對比（待建立）
 
 ---
 

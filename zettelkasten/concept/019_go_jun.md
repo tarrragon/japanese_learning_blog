@@ -178,18 +178,18 @@ As for Japanese word order, it differs from English.
 ## 相關連結
 
 ### 語言學概念
-- [[concept/joshi|助詞系統]] - 助詞如何標記語法功能（待建立）
-- [[concept/jujutsu_kouzou|述語結構]] - 述語的構成和類型（待建立）
-- [[concept/shushoku|修飾關係]] - 修飾語與被修飾語的關係（待建立）
+- [助詞系統](joshi.md) - 助詞如何標記語法功能（待建立）
+- [述語結構](jujutsu_kouzou.md) - 述語的構成和類型（待建立）
+- [修飾關係](shushoku.md) - 修飾語與被修飾語的關係（待建立）
 
 ### 比較語法
-- [[comparison/sov_vs_svo|SOV 與 SVO 語序比較]] - 日文與英文語序的差異（待建立）
-- [[comparison/japanese_vs_chinese_word_order|日文與中文語序比較]] - 兩種語言的異同（待建立）
+- [SOV 與 SVO 語序比較](../comparison/sov_vs_svo.md) - 日文與英文語序的差異（待建立）
+- [日文與中文語序比較](../comparison/japanese_vs_chinese_word_order.md) - 兩種語言的異同（待建立）
 
 ### 延伸概念
-- [[concept/jouhou_kouzou|訊息結構]] - 語序與訊息傳達的關係（待建立）
-- [[concept/dai_jutsu_kouzou|題述結構]] - 話題與評述的組織方式（待建立）
-- [[grammar/wa_vs_ga|「は」與「が」]] - 助詞選擇如何影響訊息結構（待建立）
+- [訊息結構](jouhou_kouzou.md) - 語序與訊息傳達的關係（待建立）
+- [題述結構](dai_jutsu_kouzou.md) - 話題與評述的組織方式（待建立）
+- [「は」與「が」](../grammar/wa_vs_ga.md) - 助詞選擇如何影響訊息結構（待建立）
 
 ---
 

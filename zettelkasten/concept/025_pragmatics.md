@@ -354,32 +354,32 @@ Problems in intercultural communication often arise from pragmatic differences.
 ## 相關連結
 
 ### 語言學基礎概念
-- [[concept/linguistics]] - 語言學總論（待建立）
-- [[concept/016_goi_ron]] - 語彙論（詞彙學）
-- [[concept/017_bunpou_ron]] - 文法論（文法學）
-- [[concept/semantics]] - 語義學（待建立）
+- [linguistics](linguistics.md) - 語言學總論（待建立）
+- [016_goi_ron](016_goi_ron.md) - 語彙論（詞彙學）
+- [017_bunpou_ron](017_bunpou_ron.md) - 文法論（文法學）
+- [semantics](semantics.md) - 語義學（待建立）
 
 ### 語用學相關理論
-- [[concept/speech_act_theory]] - 言語行為理論（待建立）
-- [[concept/implicature]] - 會話含義理論（待建立）
-- [[concept/politeness_theory]] - 禮貌理論（待建立）
-- [[concept/deixis]] - 指示語（待建立）
+- [speech_act_theory](speech_act_theory.md) - 言語行為理論（待建立）
+- [implicature](implicature.md) - 會話含義理論（待建立）
+- [politeness_theory](politeness_theory.md) - 禮貌理論（待建立）
+- [deixis](deixis.md) - 指示語（待建立）
 
 ### 日語語用學特色
-- [[concept/013_keigo_taikei]] - 敬語體系
-- [[concept/007_uchi_soto]] - 内と外（內外關係）
-- [[concept/high_context_culture]] - 高語境文化（待建立）
-- [[concept/ellipsis_japanese]] - 日語的省略現象（待建立）
+- [013_keigo_taikei](013_keigo_taikei.md) - 敬語體系
+- [007_uchi_soto](007_uchi_soto.md) - 内と外（內外關係）
+- [high_context_culture](high_context_culture.md) - 高語境文化（待建立）
+- [ellipsis_japanese](ellipsis_japanese.md) - 日語的省略現象（待建立）
 
 ### 應用領域
-- [[concept/009_language_acquisition]] - 言語習得（語言習得）
-- [[concept/pragmatic_competence]] - 語用能力（待建立）
-- [[concept/intercultural_communication]] - 跨文化溝通（待建立）
-- [[concept/pragmatic_failure]] - 語用失誤（待建立）
+- [009_language_acquisition](009_language_acquisition.md) - 言語習得（語言習得）
+- [pragmatic_competence](pragmatic_competence.md) - 語用能力（待建立）
+- [intercultural_communication](intercultural_communication.md) - 跨文化溝通（待建立）
+- [pragmatic_failure](pragmatic_failure.md) - 語用失誤（待建立）
 
 ### 對比研究
-- [[comparison/semantics_vs_pragmatics]] - 語義學與語用學（待建立）
-- [[comparison/pragmatics_across_cultures]] - 跨文化語用比較（待建立）
+- [semantics_vs_pragmatics](../comparison/semantics_vs_pragmatics.md) - 語義學與語用學（待建立）
+- [pragmatics_across_cultures](../comparison/pragmatics_across_cultures.md) - 跨文化語用比較（待建立）
 
 ---
 

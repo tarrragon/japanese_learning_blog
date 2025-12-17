@@ -308,37 +308,37 @@ Elephants have long trunks.
 ## 相關連結
 
 ### 基礎助詞
-- [[../particle/001_ga.md]] - が助詞（主語標記）（待建立）
-- [[../particle/007_wa.md]] - は助詞（主題標記）（待建立）
+- [001_ga.md](../particle/001_ga.md.md) - が助詞（主語標記）（待建立）
+- [007_wa.md](../particle/007_wa.md.md) - は助詞（主題標記）（待建立）
 
 ### 比較卡片
-- [[001_ga_vs_wa.md]] - が vs は 詳細比較
-- [[../comparison/topic_comment_structure.md]] - 主題評述結構（待建立）
+- [001_ga_vs_wa.md](001_ga_vs_wa.md.md) - が vs は 詳細比較
+- [topic_comment_structure.md](../comparison/topic_comment_structure.md.md) - 主題評述結構（待建立）
 
 ### 語言學概念
-- [[../concept/topic_prominent_language.md]] - 主題顯著語言（待建立）
-- [[../concept/subject_prominent_language.md]] - 主語顯著語言（待建立）
-- [[../concept/given_new_information.md]] - 已知-新資訊結構（待建立）
-- [[../concept/focus.md]] - 焦點理論（待建立）
+- [topic_prominent_language.md](../concept/topic_prominent_language.md.md) - 主題顯著語言（待建立）
+- [subject_prominent_language.md](../concept/subject_prominent_language.md.md) - 主語顯著語言（待建立）
+- [given_new_information.md](../concept/given_new_information.md.md) - 已知-新資訊結構（待建立）
+- [focus.md](../concept/focus.md.md) - 焦點理論（待建立）
 
 ### 延伸文法
-- [[../grammar/topic_comment_structure.md]] - 主題評述句型（待建立）
-- [[../grammar/double_subject.md]] - 雙重主語結構（待建立）
-- [[../grammar/zero_anaphora.md]] - 零代詞現象（待建立）
+- [topic_comment_structure.md](../grammar/topic_comment_structure.md.md) - 主題評述句型（待建立）
+- [double_subject.md](../grammar/double_subject.md.md) - 雙重主語結構（待建立）
+- [zero_anaphora.md](../grammar/zero_anaphora.md.md) - 零代詞現象（待建立）
 
 ---
 
 ## 註解
 
-[^topic-prominent]: **主題顯著語言** - 以主題為句子組織核心的語言類型，如日文、中文、韓文。主題-評述結構是這類語言的基本句型。詳見 [[../concept/topic_prominent_language.md]]（待建立）
+[^topic-prominent]: **主題顯著語言** - 以主題為句子組織核心的語言類型，如日文、中文、韓文。主題-評述結構是這類語言的基本句型。詳見 [topic_prominent_language.md](../concept/topic_prominent_language.md.md)（待建立）
 
-[^subject-prominent]: **主語顯著語言** - 以主語為句法核心的語言類型，如英文、法文、德文。主語-謂語結構是這類語言的基本句型。詳見 [[../concept/subject_prominent_language.md]]（待建立）
+[^subject-prominent]: **主語顯著語言** - 以主語為句法核心的語言類型，如英文、法文、德文。主語-謂語結構是這類語言的基本句型。詳見 [subject_prominent_language.md](../concept/subject_prominent_language.md.md)（待建立）
 
-[^given-information]: **已知資訊** - 談話中雙方共享的、已經提及的資訊。主題通常攜帶已知資訊，組織談話流程。詳見 [[../concept/given_new_information.md]]（待建立）
+[^given-information]: **已知資訊** - 談話中雙方共享的、已經提及的資訊。主題通常攜帶已知資訊，組織談話流程。詳見 [given_new_information.md](../concept/given_new_information.md.md)（待建立）
 
-[^new-information]: **新資訊** - 談話中首次引入的、對方不知道的資訊。主語通常攜帶新資訊，是句子的焦點。詳見 [[../concept/given_new_information.md]]（待建立）
+[^new-information]: **新資訊** - 談話中首次引入的、對方不知道的資訊。主語通常攜帶新資訊，是句子的焦點。詳見 [given_new_information.md](../concept/given_new_information.md.md)（待建立）
 
-[^focus]: **焦點** - 句子中攜帶新資訊、回答問題的部分。主語通常是焦點，主題則是背景。詳見 [[../concept/focus.md]]（待建立）
+[^focus]: **焦點** - 句子中攜帶新資訊、回答問題的部分。主語通常是焦點，主題則是背景。詳見 [focus.md](../concept/focus.md.md)（待建立）
 
 ---
 

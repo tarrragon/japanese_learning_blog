@@ -177,20 +177,20 @@ The food at this restaurant is apparently delicious.
 ## 相關連結
 
 ### 相關文法
-- [[grammar/youda.md]] - 〜ようだ（待建立）
-- [[grammar/souda_appearance.md]] - 〜そうだ（樣態）（待建立）
-- [[grammar/souda_hearsay.md]] - 〜そうだ（傳聞）（待建立）
-- [[grammar/kamoshirenai.md]] - 〜かもしれない（待建立）
+- [youda.md](youda.md) - 〜ようだ（待建立）
+- [souda_appearance.md](souda_appearance.md) - 〜そうだ（樣態）（待建立）
+- [souda_hearsay.md](souda_hearsay.md) - 〜そうだ（傳聞）（待建立）
+- [kamoshirenai.md](kamoshirenai.md) - 〜かもしれない（待建立）
 
 ### 相關概念
-- [[concept/modal_expressions.md]] - 推測表達方式（待建立）
-- [[concept/information_source.md]] - 資訊來源標記（待建立）
-- [[concept/evidentiality.md]] - 證據性（待建立）
+- [modal_expressions.md](../concept/modal_expressions.md) - 推測表達方式（待建立）
+- [information_source.md](../concept/information_source.md) - 資訊來源標記（待建立）
+- [evidentiality.md](../concept/evidentiality.md) - 證據性（待建立）
 
 ### 對比辨析
-- [[comparison/rashii_vs_youda.md]] - らしい vs ようだ（待建立）
-- [[comparison/rashii_vs_souda.md]] - らしい vs そうだ（待建立）
-- [[comparison/modal_expressions.md]] - 推測表達比較（待建立）
+- [rashii_vs_youda.md](../comparison/rashii_vs_youda.md) - らしい vs ようだ（待建立）
+- [rashii_vs_souda.md](../comparison/rashii_vs_souda.md) - らしい vs そうだ（待建立）
+- [modal_expressions.md](../comparison/modal_expressions.md) - 推測表達比較（待建立）
 
 ---
 

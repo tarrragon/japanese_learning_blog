@@ -444,38 +444,38 @@ If it's acceptable, I would like to be allowed to participate in that project.
 ## 相關連結
 
 ### 核心文法概念
-- [[grammar/tai-form]] - 〜たい形（欲望表達）（待建立）
-- [[grammar/tagaru]] - 〜たがる（第三人稱欲望）（待建立）
-- [[grammar/garu]] - 〜がる（感情動詞化）（待建立）
-- [[grammar/sou-da-appearance]] - 〜そうだ（様態）（待建立）
+- [tai-form](../grammar/tai-form.md) - 〜たい形（欲望表達）（待建立）
+- [tagaru](../grammar/tagaru.md) - 〜たがる（第三人稱欲望）（待建立）
+- [garu](../grammar/garu.md) - 〜がる（感情動詞化）（待建立）
+- [sou-da-appearance](../grammar/sou-da-appearance.md) - 〜そうだ（様態）（待建立）
 
 ### 語言學理論
-- [[concept/evidentiality]] - 証拠性（證據性）（待建立）
-- [[concept/epistemology]] - 認識論（待建立）
-- [[concept/person-restriction]] - 人称制限（人稱限制）（待建立）
-- [[concept/025_pragmatics]] - 語用学（語用學）
+- [evidentiality](evidentiality.md) - 証拠性（證據性）（待建立）
+- [epistemology](epistemology.md) - 認識論（待建立）
+- [person-restriction](person-restriction.md) - 人称制限（人稱限制）（待建立）
+- [025_pragmatics](025_pragmatics.md) - 語用学（語用學）
 
 ### 文化概念
-- [[concept/007_uchi-soto]] - 内と外（內外意識）
-- [[concept/honne-tatemae]] - 本音と建前（待建立）
-- [[concept/enryo]] - 遠慮（謙遜、客氣）（待建立）
-- [[concept/察し]] - 察し（察言觀色）（待建立）
+- [007_uchi-soto](007_uchi-soto.md) - 内と外（內外意識）
+- [honne-tatemae](honne-tatemae.md) - 本音と建前（待建立）
+- [enryo](enryo.md) - 遠慮（謙遜、客氣）（待建立）
+- [察し](察し.md) - 察し（察言觀色）（待建立）
 
 ### 相關感情詞彙
-- [[adjective-i/ureshii]] - 嬉しい（高興）（待建立）
-- [[adjective-i/kanashii]] - 悲しい（悲傷）（待建立）
-- [[adjective-i/sabishii]] - 寂しい（寂寞）（待建立）
-- [[verb-ru/yorokobu]] - 喜ぶ（高興、歡喜）（待建立）
+- [ureshii](../adjective-i/ureshii.md) - 嬉しい（高興）（待建立）
+- [kanashii](../adjective-i/kanashii.md) - 悲しい（悲傷）（待建立）
+- [sabishii](../adjective-i/sabishii.md) - 寂しい（寂寞）（待建立）
+- [yorokobu](../verb-ru/yorokobu.md) - 喜ぶ（高興、歡喜）（待建立）
 
 ### 敬語與禮貌表達
-- [[concept/013_keigo_taikei]] - 敬語体系（敬語系統）
-- [[concept/034_sonkeigo_concept]] - 尊敬語概念
-- [[concept/035_kenjougo_concept]] - 謙譲語概念
-- [[concept/politeness-strategies]] - 丁寧さストラテジー（禮貌策略）（待建立）
+- [013_keigo_taikei](013_keigo_taikei.md) - 敬語体系（敬語系統）
+- [034_sonkeigo_concept](034_sonkeigo_concept.md) - 尊敬語概念
+- [035_kenjougo_concept](035_kenjougo_concept.md) - 謙譲語概念
+- [politeness-strategies](politeness-strategies.md) - 丁寧さストラテジー（禮貌策略）（待建立）
 
 ### 對比分析
-- [[comparison/tai-vs-tagaru]] - 〜たい vs 〜たがる（待建立）
-- [[comparison/emotion-adjectives-person]] - 感情形容詞の人称による使い分け（待建立）
+- [tai-vs-tagaru](../comparison/tai-vs-tagaru.md) - 〜たい vs 〜たがる（待建立）
+- [emotion-adjectives-person](../comparison/emotion-adjectives-person.md) - 感情形容詞の人称による使い分け（待建立）
 
 ---
 

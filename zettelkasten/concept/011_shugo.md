@@ -155,22 +155,22 @@ When he said he would come, I had already gone home.
 ## 相關連結
 
 ### 基礎文法概念
-- [[concept/topic]] - 主題的概念與「は」的用法（待建立）
-- [[concept/predicate]] - 述語的概念與結構（待建立）
-- [[concept/object]] - 目的語的概念與助詞「を」（待建立）
+- [topic](topic.md) - 主題的概念與「は」的用法（待建立）
+- [predicate](predicate.md) - 述語的概念與結構（待建立）
+- [object](object.md) - 目的語的概念與助詞「を」（待建立）
 
 ### 相關助詞
-- [[particle/ga]] - 助詞「が」的詳細用法（待建立）
-- [[particle/wa]] - 助詞「は」的詳細用法（待建立）
+- [ga](../particle/ga.md) - 助詞「が」的詳細用法（待建立）
+- [wa](../particle/wa.md) - 助詞「は」的詳細用法（待建立）
 
 ### 延伸文法
-- [[grammar/ga_wa_comparison]] - 「が」與「は」的比較分析（待建立）
-- [[grammar/subject_omission]] - 主語省略的規則與模式（待建立）
-- [[grammar/complex_sentence_subjects]] - 複文中的主語識別（待建立）
+- [ga_wa_comparison](../grammar/ga_wa_comparison.md) - 「が」與「は」的比較分析（待建立）
+- [subject_omission](../grammar/subject_omission.md) - 主語省略的規則與模式（待建立）
+- [complex_sentence_subjects](../grammar/complex_sentence_subjects.md) - 複文中的主語識別（待建立）
 
 ### 進階概念
-- [[concept/zero_pronoun]] - 零代詞現象（待建立）
-- [[concept/topic_prominence]] - 主題優先語言特徵（待建立）
+- [zero_pronoun](zero_pronoun.md) - 零代詞現象（待建立）
+- [topic_prominence](topic_prominence.md) - 主題優先語言特徵（待建立）
 
 ---
 

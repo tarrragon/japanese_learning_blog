@@ -371,19 +371,19 @@ A: 「許容量」（きょようりょう）是允許的限度，更強調承�
 ## 相關連結
 
 ### 相關名詞
-- [[../noun/nouryoku.md]] - 能力（才能、技能）（待建立）
-- [[../noun/youryou.md]] - 容量（容積、容量）（待建立）
-- [[../noun/sainou.md]] - 才能（天賦）（待建立）
-- [[../noun/ginou.md]] - 技能（技術）（待建立）
+- [nouryoku.md](../noun/nouryoku.md.md) - 能力（才能、技能）（待建立）
+- [youryou.md](../noun/youryou.md.md) - 容量（容積、容量）（待建立）
+- [sainou.md](../noun/sainou.md.md) - 才能（天賦）（待建立）
+- [ginou.md](../noun/ginou.md.md) - 技能（技術）（待建立）
 
 ### 相關概念
-- [[../concept/ability_types.md]] - 能力的種類（待建立）
-- [[../concept/capacity_measurement.md]] - 容量的測量（待建立）
-- [[../concept/skill_development.md]] - 技能開發（待建立）
+- [ability_types.md](../concept/ability_types.md.md) - 能力的種類（待建立）
+- [capacity_measurement.md](../concept/capacity_measurement.md.md) - 容量的測量（待建立）
+- [skill_development.md](../concept/skill_development.md.md) - 技能開發（待建立）
 
 ### 其他對比
-- [[../contrast/nouryoku_vs_sainou.md]] - 能力 vs 才能（待建立）
-- [[../contrast/ginou_vs_waza.md]] - 技能 vs 技（待建立）
+- [nouryoku_vs_sainou.md](../contrast/nouryoku_vs_sainou.md.md) - 能力 vs 才能（待建立）
+- [ginou_vs_waza.md](../contrast/ginou_vs_waza.md.md) - 技能 vs 技（待建立）
 
 ---
 

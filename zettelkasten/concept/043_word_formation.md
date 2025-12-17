@@ -214,22 +214,22 @@ Adding the prefix "o-" adds politeness or respect.
 ## 相關連結
 
 ### 語言學基礎概念
-- [[concept/016_goi_ron.md]] - 語彙論（詞彙學理論基礎）
-- [[concept/018_keisei.md]] - 形成（構詞法的另一個角度）
-- [[concept/015_onin_ron.md]] - 音韻論（連濁等音韻現象的理論基礎）
+- [016_goi_ron.md](016_goi_ron.md) - 語彙論（詞彙學理論基礎）
+- [018_keisei.md](018_keisei.md) - 形成（構詞法的另一個角度）
+- [015_onin_ron.md](015_onin_ron.md) - 音韻論（連濁等音韻現象的理論基礎）
 
 ### 派生相關
-- [[prefix/001_o_go.md]] - お〜/ご〜（敬語接頭詞）
-- [[suffix/001_kata.md]] - 〜方（方法後綴）
-- [[suffix/002_rashii.md]] - 〜らしい（特徵後綴）
+- [001_o_go.md](../prefix/001_o_go.md) - お〜/ご〜（敬語接頭詞）
+- [001_kata.md](../suffix/001_kata.md) - 〜方（方法後綴）
+- [002_rashii.md](../suffix/002_rashii.md) - 〜らしい（特徵後綴）
 
 ### 詞彙類型
-- [[contrast/002_goi_vs_tango.md]] - 語彙 vs 単語（詞彙與單詞的區別）
-- [[noun/008_bunpou.md]] - 文法（語法系統）
+- [002_goi_vs_tango.md](../contrast/002_goi_vs_tango.md) - 語彙 vs 単語（詞彙與單詞的區別）
+- [008_bunpou.md](../noun/008_bunpou.md) - 文法（語法系統）
 
 ### 應用實例
-- [[verb-ru/017_oboeru.md]] - 覚える（記住，詞彙學習）
-- [[noun/010_goi.md]] - 語彙（詞彙）
+- [017_oboeru.md](../verb-ru/017_oboeru.md) - 覚える（記住，詞彙學習）
+- [010_goi.md](../noun/010_goi.md) - 語彙（詞彙）
 
 ---
 

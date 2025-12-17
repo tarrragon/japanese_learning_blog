@@ -356,23 +356,23 @@ A: 不行，「選択肢」是固定詞彙：
 ## 相關連結
 
 ### 相關名詞
-- [[zettelkasten/noun/sentaku.md]] - 選択（選擇）（待建立）
-- [[zettelkasten/noun/kettei.md]] - 決定（決定）（待建立）
-- [[zettelkasten/noun/sentakushi.md]] - 選択肢（選項）（待建立）
+- [sentaku.md](zettelkasten/noun/sentaku.md.md) - 選択（選擇）（待建立）
+- [kettei.md](zettelkasten/noun/kettei.md.md) - 決定（決定）（待建立）
+- [sentakushi.md](zettelkasten/noun/sentakushi.md.md) - 選択肢（選項）（待建立）
 
 ### 相關動詞
-- [[zettelkasten/verb-u/erabu.md]] - 選ぶ（選擇、挑選）（待建立）
-- [[zettelkasten/verb-ru/kimeru.md]] - 決める（決定、下決心）（待建立）
-- [[zettelkasten/verb-u/sadameru.md]] - 定める（制定、確立）（待建立）
+- [erabu.md](zettelkasten/verb-u/erabu.md.md) - 選ぶ（選擇、挑選）（待建立）
+- [kimeru.md](zettelkasten/verb-ru/kimeru.md.md) - 決める（決定、下決心）（待建立）
+- [sadameru.md](zettelkasten/verb-u/sadameru.md.md) - 定める（制定、確立）（待建立）
 
 ### 相關概念
-- [[zettelkasten/concept/decision_making.md]] - 意思決定過程（待建立）
-- [[zettelkasten/concept/free_will.md]] - 自由意志（待建立）
-- [[zettelkasten/concept/formality_in_decisions.md]] - 決策的正式性（待建立）
+- [decision_making.md](zettelkasten/concept/decision_making.md.md) - 意思決定過程（待建立）
+- [free_will.md](zettelkasten/concept/free_will.md.md) - 自由意志（待建立）
+- [formality_in_decisions.md](zettelkasten/concept/formality_in_decisions.md.md) - 決策的正式性（待建立）
 
 ### 其他對比
-- [[zettelkasten/contrast/erabu_vs_kimeru.md]] - 選ぶ vs 決める（待建立）
-- [[zettelkasten/contrast/handan_vs_kettei.md]] - 判断 vs 決定（待建立）
+- [erabu_vs_kimeru.md](zettelkasten/contrast/erabu_vs_kimeru.md.md) - 選ぶ vs 決める（待建立）
+- [handan_vs_kettei.md](zettelkasten/contrast/handan_vs_kettei.md.md) - 判断 vs 決定（待建立）
 
 ---
 

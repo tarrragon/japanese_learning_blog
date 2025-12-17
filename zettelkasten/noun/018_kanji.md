@@ -166,21 +166,21 @@ Please write your name in kanji.
 ## 相關連結
 
 ### 相關文字系統
-- [[noun/hiragana]] - 平假名（待建立）
-- [[noun/katakana]] - 片假名（待建立）
-- [[noun/romaji]] - 羅馬字（待建立）
+- [hiragana](hiragana.md) - 平假名（待建立）
+- [katakana](katakana.md) - 片假名（待建立）
+- [romaji](romaji.md) - 羅馬字（待建立）
 
 ### 相關學習概念
-- [[noun/onyomi]] - 音讀（待建立）
-- [[noun/kunyomi]] - 訓讀（待建立）
-- [[noun/kakijun]] - 筆順（待建立）
-- [[noun/jouyou-kanji]] - 常用漢字（待建立）
+- [onyomi](onyomi.md) - 音讀（待建立）
+- [kunyomi](kunyomi.md) - 訓讀（待建立）
+- [kakijun](kakijun.md) - 筆順（待建立）
+- [jouyou-kanji](jouyou-kanji.md) - 常用漢字（待建立）
 
 ### 相關動詞
-- [[verb-u/kaku]] - 書く（寫）（待建立）
-- [[verb-u/yomu]] - 読む（讀）（待建立）
-- [[verb-ru/oboeru]] - 覚える（記憶）
-- [[verb-u/narau]] - 習う（學習）（待建立）
+- [kaku](../verb-u/kaku.md) - 書く（寫）（待建立）
+- [yomu](../verb-u/yomu.md) - 読む（讀）（待建立）
+- [oboeru](../verb-ru/oboeru.md) - 覚える（記憶）
+- [narau](../verb-u/narau.md) - 習う（學習）（待建立）
 
 ---
 

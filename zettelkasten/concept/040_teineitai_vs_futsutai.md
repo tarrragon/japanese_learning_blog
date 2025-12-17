@@ -292,19 +292,19 @@ B：いいよ、行こう！
 ## 相關連結
 
 ### 相關概念
-- [[concept/keigo_system]] - 敬語系統（尊敬語、謙讓語、丁寧語）（待建立）
-- [[concept/pragmatics]] - 語用學概念（待建立）
-- [[concept/register]] - 語言語域理論（待建立）
+- [keigo_system](keigo_system.md) - 敬語系統（尊敬語、謙讓語、丁寧語）（待建立）
+- [pragmatics](pragmatics.md) - 語用學概念（待建立）
+- [register](register.md) - 語言語域理論（待建立）
 
 ### 相關文法
-- [[grammar/masu_form]] - ます形基礎（待建立）
-- [[grammar/desu_da]] - です・だ的用法（待建立）
-- [[grammar/polite_request]] - 禮貌請求表達（待建立）
+- [masu_form](../grammar/masu_form.md) - ます形基礎（待建立）
+- [desu_da](../grammar/desu_da.md) - です・だ的用法（待建立）
+- [polite_request](../grammar/polite_request.md) - 禮貌請求表達（待建立）
 
 ### 實踐應用
-- [[comparison/masu_vs_dictionary_form]] - ます形 vs 辭書形（待建立）
-- [[pragmatics/social_distance]] - 社交距離表達（待建立）
-- [[usage/formality_levels]] - 正式程度等級（待建立）
+- [masu_vs_dictionary_form](../comparison/masu_vs_dictionary_form.md) - ます形 vs 辭書形（待建立）
+- [social_distance](../pragmatics/social_distance.md) - 社交距離表達（待建立）
+- [formality_levels](../usage/formality_levels.md) - 正式程度等級（待建立）
 
 ---
 

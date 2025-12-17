@@ -1,7 +1,7 @@
 # 常用短語／句型索引
 
-最後編號：007
-總卡片數：12
+最後編號：018
+總卡片數：19
 
 ## 卡片列表
 
@@ -18,6 +18,13 @@
 - [006 - 購物基本表達 - 購物時的基本用語和詢問方式](006_shopping_basic.md) 
 - [007 - 怎麼辦、該怎麼處理](007_doushiyou.md) #phrase #question #concern
 - [007 - 這樣做、如此處理](007_kousuru.md) #phrase #demonstrative #action
+- [008 - ということ - 也就是說、意思是（用於解釋或確認前述內容）](008_to_iu_koto.md) #phrase #jlpt/n4 #context/formal
+- [009 - 日常作息表達 - 描述日常生活作息和習慣的表達方式](009_daily_routine.md) 
+- [011 - 店員用語 - 商店店員的標準服務用語](011_shop_clerk.md) 
+- [012 - どうしますか - 您要怎麼做（禮貌詢問）](012_dou_shimasu_ka.md) 
+- [013 - 〜たらどう - 怎麼樣、要不要（提建議）](013_tara_dou.md) #phrase #jlpt/n4 #suggestion
+- [017 - つもりだった - 本來打算、原本想要（表達未實現的意圖）](017_tsumori_datta.md) 
+- [018 - したいと思う - 想要做（表達願望的委婉說法）](018_shitai_to_omou.md) #phrase #jlpt/n5 #desire
 
 ---
-最後更新: 2025-10-31 12:34:33
+最後更新: 2025-12-17 15:17:34

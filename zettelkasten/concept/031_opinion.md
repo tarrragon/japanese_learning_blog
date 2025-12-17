@@ -358,33 +358,33 @@ I think this one is better. What do you think?
 ## 相關連結
 
 ### 語用學基礎
-- [[concept/025_pragmatics]] - 語用學總論
-- [[concept/politeness_theory]] - 禮貌理論（待建立）
-- [[concept/face_theory]] - 面子理論（待建立）
-- [[concept/high_context_culture]] - 高語境文化（待建立）
+- [025_pragmatics](025_pragmatics.md) - 語用學總論
+- [politeness_theory](politeness_theory.md) - 禮貌理論（待建立）
+- [face_theory](face_theory.md) - 面子理論（待建立）
+- [high_context_culture](high_context_culture.md) - 高語境文化（待建立）
 
 ### 日語文化概念
-- [[concept/013_keigo_taikei]] - 敬語體系
-- [[concept/007_uchi_soto]] - 內外關係
-- [[concept/wa_harmony]] - 和（和諧）的概念（待建立）
-- [[concept/sasshi_culture]] - 察し（體察）文化（待建立）
+- [013_keigo_taikei](013_keigo_taikei.md) - 敬語體系
+- [007_uchi_soto](007_uchi_soto.md) - 內外關係
+- [wa_harmony](wa_harmony.md) - 和（和諧）的概念（待建立）
+- [sasshi_culture](sasshi_culture.md) - 察し（體察）文化（待建立）
 
 ### 溝通策略
-- [[concept/hedging]] - 語言模糊化策略（待建立）
-- [[concept/indirect_speech]] - 間接言語行為（待建立）
-- [[concept/disagreement_strategies]] - 表達異議的策略（待建立）
-- [[concept/agreement_expression]] - 表達同意（待建立）
+- [hedging](hedging.md) - 語言模糊化策略（待建立）
+- [indirect_speech](indirect_speech.md) - 間接言語行為（待建立）
+- [disagreement_strategies](disagreement_strategies.md) - 表達異議的策略（待建立）
+- [agreement_expression](agreement_expression.md) - 表達同意（待建立）
 
 ### 相關語言行為
-- [[concept/request]] - 請求表達（待建立）
-- [[concept/refusal]] - 拒絕表達（待建立）
-- [[concept/suggestion]] - 建議表達（待建立）
-- [[concept/confirmation]] - 確認表達（待建立）
+- [request](request.md) - 請求表達（待建立）
+- [refusal](refusal.md) - 拒絕表達（待建立）
+- [suggestion](suggestion.md) - 建議表達（待建立）
+- [confirmation](confirmation.md) - 確認表達（待建立）
 
 ### 應用場合
-- [[context/business_communication]] - 商務溝通（待建立）
-- [[context/academic_discourse]] - 學術對話（待建立）
-- [[context/casual_conversation]] - 日常會話（待建立）
+- [business_communication](../context/business_communication.md) - 商務溝通（待建立）
+- [academic_discourse](../context/academic_discourse.md) - 學術對話（待建立）
+- [casual_conversation](../context/casual_conversation.md) - 日常會話（待建立）
 
 ---
 

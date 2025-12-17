@@ -283,23 +283,23 @@ Maybe next time.
 ## 相關連結
 
 ### 相關文法
-- [[grammar/116_volitional.md]] - 意向形（文法變化）（待建立）
-- [[grammar/mashou_form.md]] - ましょう形（待建立）
-- [[grammar/question_forms.md]] - 疑問形式（待建立）
-- [[grammar/polite_expressions.md]] - 禮貌表達（待建立）
+- [116_volitional.md](116_volitional.md) - 意向形（文法變化）（待建立）
+- [mashou_form.md](mashou_form.md) - ましょう形（待建立）
+- [question_forms.md](question_forms.md) - 疑問形式（待建立）
+- [polite_expressions.md](polite_expressions.md) - 禮貌表達（待建立）
 
 ### 相關概念
-- [[concept/social_hierarchy.md]] - 社會階層（待建立）
-- [[concept/politeness_levels.md]] - 丁寧度等級（待建立）
-- [[concept/indirect_communication.md]] - 間接溝通（待建立）
+- [social_hierarchy.md](../concept/social_hierarchy.md) - 社會階層（待建立）
+- [politeness_levels.md](../concept/politeness_levels.md) - 丁寧度等級（待建立）
+- [indirect_communication.md](../concept/indirect_communication.md) - 間接溝通（待建立）
 
 ### 回應表達
-- [[grammar/accepting_invitations.md]] - 接受邀請的表達（待建立）
-- [[grammar/declining_politely.md]] - 禮貌拒絕（待建立）
+- [accepting_invitations.md](accepting_invitations.md) - 接受邀請的表達（待建立）
+- [declining_politely.md](declining_politely.md) - 禮貌拒絕（待建立）
 
 ### 實用場景
-- [[practical/making_plans.md]] - 約定計畫（待建立）
-- [[practical/business_invitations.md]] - 商務邀請（待建立）
+- [making_plans.md](../practical/making_plans.md) - 約定計畫（待建立）
+- [business_invitations.md](../practical/business_invitations.md) - 商務邀請（待建立）
 
 ---
 

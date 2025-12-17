@@ -231,22 +231,22 @@ Nice to meet you. My name is Tanaka. Pleased to meet you.
 ## 相關連結
 
 ### 敬語系統
-- [[honorific/001_sonkeigo_concept.md]] - 尊敬語の概念と使用法（待建立）
-- [[honorific/002_kenjougo_concept.md]] - 謙譲語の概念と使用法（待建立）
-- [[honorific/003_bikago_concept.md]] - 美化語の概念と使用法（待建立）
+- [001_sonkeigo_concept.md](../honorific/001_sonkeigo_concept.md) - 尊敬語の概念と使用法（待建立）
+- [002_kenjougo_concept.md](../honorific/002_kenjougo_concept.md) - 謙譲語の概念と使用法（待建立）
+- [003_bikago_concept.md](../honorific/003_bikago_concept.md) - 美化語の概念と使用法（待建立）
 
 ### 基本形式
-- [[grammar/desu_masu_form.md]] - です・ます体の文法規則（待建立）
-- [[grammar/da_dearu_form.md]] - だ・である体との対比（待建立）
+- [desu_masu_form.md](../grammar/desu_masu_form.md) - です・ます体の文法規則（待建立）
+- [da_dearu_form.md](../grammar/da_dearu_form.md) - だ・である体との対比（待建立）
 
 ### 應用場景
-- [[pragmatics/business_japanese.md]] - ビジネス日本語における丁寧語（待建立）
-- [[pragmatics/formal_situations.md]] - 正式場面での言葉遣い（待建立）
-- [[comparison/teineigo_vs_futsutai.md]] - 丁寧語と普通体の使い分け（待建立）
+- [business_japanese.md](../pragmatics/business_japanese.md) - ビジネス日本語における丁寧語（待建立）
+- [formal_situations.md](../pragmatics/formal_situations.md) - 正式場面での言葉遣い（待建立）
+- [teineigo_vs_futsutai.md](../comparison/teineigo_vs_futsutai.md) - 丁寧語と普通体の使い分け（待建立）
 
 ### 文化背景
-- [[concept/uchi_soto.md]] - 内と外の概念（待建立）
-- [[concept/social_distance.md]] - 社会的距離と言語使用（待建立）
+- [uchi_soto.md](uchi_soto.md) - 内と外の概念（待建立）
+- [social_distance.md](social_distance.md) - 社会的距離と言語使用（待建立）
 
 ---
 

@@ -354,26 +354,26 @@ Is your father well?
 ## 相關連結
 
 ### 授受動詞系統
-- [[../verb-ru/011_ageru.md]] - あげる（從內到外）（待建立）
-- [[../verb-ru/013_kureru.md]] - くれる（從外到內）（待建立）
-- [[../verb-ru/012_morau.md]] - もらう（內接受外）（待建立）
+- [011_ageru.md](../verb-ru/011_ageru.md.md) - あげる（從內到外）（待建立）
+- [013_kureru.md](../verb-ru/013_kureru.md.md) - くれる（從外到內）（待建立）
+- [012_morau.md](../verb-ru/012_morau.md.md) - もらう（內接受外）（待建立）
 
 ### 敬語系統
-- [[../grammar/005_keigo_system.md]] - 敬語體系總覽（待建立）
-- [[013_keigo_taikei.md]] - 敬語體系概念
-- [[../grammar/sonkeigo.md]] - 尊敬語（待建立）
-- [[../grammar/kenjougo.md]] - 謙讓語（待建立）
+- [005_keigo_system.md](../grammar/005_keigo_system.md.md) - 敬語體系總覽（待建立）
+- [013_keigo_taikei.md](013_keigo_taikei.md.md) - 敬語體系概念
+- [sonkeigo.md](../grammar/sonkeigo.md.md) - 尊敬語（待建立）
+- [kenjougo.md](../grammar/kenjougo.md.md) - 謙讓語（待建立）
 
 ### 相關概念
-- [[006_viewpoint.md]] - 視點理論
-- [[025_pragmatics.md]] - 語用學
-- [[../concept/collectivism.md]] - 集體主義（待建立）
-- [[../concept/social-hierarchy.md]] - 社會階層（待建立）
+- [006_viewpoint.md](006_viewpoint.md.md) - 視點理論
+- [025_pragmatics.md](025_pragmatics.md.md) - 語用學
+- [collectivism.md](../concept/collectivism.md.md) - 集體主義（待建立）
+- [social-hierarchy.md](../concept/social-hierarchy.md.md) - 社會階層（待建立）
 
 ### 文化理解
-- [[../concept/group-consciousness.md]] - 集團意識（待建立）
-- [[../concept/social-etiquette.md]] - 社交禮儀（待建立）
-- [[../concept/wa-culture.md]] - 和的文化（待建立）
+- [group-consciousness.md](../concept/group-consciousness.md.md) - 集團意識（待建立）
+- [social-etiquette.md](../concept/social-etiquette.md.md) - 社交禮儀（待建立）
+- [wa-culture.md](../concept/wa-culture.md.md) - 和的文化（待建立）
 
 ---
 

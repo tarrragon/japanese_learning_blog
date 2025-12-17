@@ -222,33 +222,33 @@ I cannot swim.
 ## 相關連結
 
 ### 基礎動詞
-- [[verb-irr/001_suru|する]] - 做（基本形）（待建立）
-- [[grammar/potential_form|可能形總覽]] - 可能形文法規則（待建立）
+- [する](../verb-irr/001_suru.md) - 做（基本形）（待建立）
+- [可能形總覽](potential_form.md) - 可能形文法規則（待建立）
 
 ### 相關文法
-- [[particle/001_ga|が]] - 主格助詞（待建立）
-- [[particle/002_wo|を]] - 賓格助詞（待建立）
-- [[grammar/verb_conjugation|動詞活用]] - 動詞變化規則（待建立）
+- [が](../particle/001_ga.md) - 主格助詞（待建立）
+- [を](../particle/002_wo.md) - 賓格助詞（待建立）
+- [動詞活用](verb_conjugation.md) - 動詞變化規則（待建立）
 
 ### 對比說明
-- [[comparison/suru_vs_dekiru|する vs できる]] - 動作與可能的區別（待建立）
-- [[comparison/dekiru_vs_rareru|できる vs られる]] - 不同可能形的比較（待建立）
+- [する vs できる](../comparison/suru_vs_dekiru.md) - 動作與可能的區別（待建立）
+- [できる vs られる](../comparison/dekiru_vs_rareru.md) - 不同可能形的比較（待建立）
 
 ### 延伸用法
-- [[grammar/koto_ga_dekiru|ことができる]] - 更正式的可能表達（待建立）
-- [[grammar/potential_particles|可能形的助詞用法]] - 深入解析（待建立）
+- [ことができる](koto_ga_dekiru.md) - 更正式的可能表達（待建立）
+- [可能形的助詞用法](potential_particles.md) - 深入解析（待建立）
 
 ---
 
 ## 註解
 
-[^kanou-kei]: **可能形** - 表示能力或可能性的動詞形式。一般動詞的可能形是在動詞語幹後加「られる」（一段動詞）或「える」（五段動詞），但「する」的可能形是特殊的「できる」。詳見 [[grammar/potential_form|可能形]]（待建立）
+[^kanou-kei]: **可能形** - 表示能力或可能性的動詞形式。一般動詞的可能形是在動詞語幹後加「られる」（一段動詞）或「える」（五段動詞），但「する」的可能形是特殊的「できる」。詳見 [可能形](potential_form.md)（待建立）
 
-[^ichidan]: **一段動詞** - 語幹不變，只變化「る」的動詞類型。「できる」的活用：できる → できます、できて、できた、できない。詳見 [[grammar/verb_types/ichidan|一段動詞]]（待建立）
+[^ichidan]: **一段動詞** - 語幹不變，只變化「る」的動詞類型。「できる」的活用：できる → できます、できて、できた、できない。詳見 [一段動詞](grammar/verb_types/ichidan.md)（待建立）
 
-[^joshi-usage]: **助詞用法** - 日文助詞標示名詞與動詞的關係。「を」標示動作對象（勉強をする），「が」標示能力對象或主語（勉強ができる）。詳見 [[particle/overview|助詞總覽]]（待建立）
+[^joshi-usage]: **助詞用法** - 日文助詞標示名詞與動詞的關係。「を」標示動作對象（勉強をする），「が」標示能力對象或主語（勉強ができる）。詳見 [助詞總覽](../particle/overview.md)（待建立）
 
-[^grammar-rule]: **文法規則** - 日文可能形一般使用「が」而非「を」，這是因為可能形表達的是狀態（能夠～）而非動作（做～）。這個規則適用於所有可能形動詞。詳見 [[grammar/potential_particles|可能形助詞規則]]（待建立）
+[^grammar-rule]: **文法規則** - 日文可能形一般使用「が」而非「を」，這是因為可能形表達的是狀態（能夠～）而非動作（做～）。這個規則適用於所有可能形動詞。詳見 [可能形助詞規則](potential_particles.md)（待建立）
 
 ---
 

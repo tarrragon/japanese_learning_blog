@@ -195,25 +195,25 @@ Director, I have reviewed the materials, but I have one question.
 ## 相關連結
 
 ### 丁寧語系統
-- [[zettelkasten/concept/036_teineigo_concept.md]] - 丁寧語概念詳解
-- [[zettelkasten/grammar/desu_masu.md]] - です・ます體用法（待建立）
+- [036_teineigo_concept.md](zettelkasten/concept/036_teineigo_concept.md.md) - 丁寧語概念詳解
+- [desu_masu.md](zettelkasten/grammar/desu_masu.md.md) - です・ます體用法（待建立）
 
 ### 尊敬語系統
-- [[zettelkasten/honorific/sonkeigo_verbs.md]] - 尊敬語動詞（待建立）
-- [[zettelkasten/grammar/o_ni_naru.md]] - お〜になる形式（待建立）
+- [sonkeigo_verbs.md](zettelkasten/honorific/sonkeigo_verbs.md.md) - 尊敬語動詞（待建立）
+- [o_ni_naru.md](zettelkasten/grammar/o_ni_naru.md.md) - お〜になる形式（待建立）
 
 ### 謙讓語系統
-- [[zettelkasten/honorific/kenjogo_verbs.md]] - 謙讓語動詞（待建立）
-- [[zettelkasten/grammar/o_suru.md]] - お〜する形式（待建立）
+- [kenjogo_verbs.md](zettelkasten/honorific/kenjogo_verbs.md.md) - 謙讓語動詞（待建立）
+- [o_suru.md](zettelkasten/grammar/o_suru.md.md) - お〜する形式（待建立）
 
 ### 相關概念
-- [[zettelkasten/concept/uchi_soto.md]] - 內外概念（待建立）
-- [[zettelkasten/concept/keigo_system.md]] - 敬語體系（待建立）
-- [[zettelkasten/context/business_japanese.md]] - 商務日語（待建立）
+- [uchi_soto.md](zettelkasten/concept/uchi_soto.md.md) - 內外概念（待建立）
+- [keigo_system.md](zettelkasten/concept/keigo_system.md.md) - 敬語體系（待建立）
+- [business_japanese.md](zettelkasten/context/business_japanese.md.md) - 商務日語（待建立）
 
 ### 實際應用
-- [[zettelkasten/phrase/polite_requests.md]] - 禮貌請求表達（待建立）
-- [[zettelkasten/phrase/polite_refusal.md]] - 禮貌拒絕表達（待建立）
+- [polite_requests.md](zettelkasten/phrase/polite_requests.md.md) - 禮貌請求表達（待建立）
+- [polite_refusal.md](zettelkasten/phrase/polite_refusal.md.md) - 禮貌拒絕表達（待建立）
 
 ---
 

@@ -279,35 +279,35 @@ The sky is dark, so it looks like it will rain.
 ## 相關連結
 
 ### 認識モダリティ
-- [[grammar/darou|〜だろう]] - 推量表現（待建立）
-- [[grammar/kamoshirenai|〜かもしれない]] - 可能性の表現（待建立）
-- [[grammar/hazuda|〜はずだ]] - 確信の表現（待建立）
-- [[grammar/nichigainai|〜にちがいない]] - 強い確信（待建立）
+- [〜だろう](darou.md) - 推量表現（待建立）
+- [〜かもしれない](kamoshirenai.md) - 可能性の表現（待建立）
+- [〜はずだ](hazuda.md) - 確信の表現（待建立）
+- [〜にちがいない](nichigainai.md) - 強い確信（待建立）
 
 ### 義務モダリティ
-- [[grammar/nakereba_naranai|〜なければならない]] - 義務表現（待建立）
-- [[grammar/bekida|〜べきだ]] - 当為の表現（待建立）
-- [[grammar/ta_hou_ga_ii|〜たほうがいい]] - 助言表現（待建立）
+- [〜なければならない](nakereba_naranai.md) - 義務表現（待建立）
+- [〜べきだ](bekida.md) - 当為の表現（待建立）
+- [〜たほうがいい](ta_hou_ga_ii.md) - 助言表現（待建立）
 
 ### 意志モダリティ
-- [[grammar/tsumori|〜つもりだ]] - 意図の表現（待建立）
-- [[grammar/tai|〜たい]] - 願望の表現（待建立）
-- [[grammar/volitional|意志形（〜う・よう）]] - 意志表現（待建立）
+- [〜つもりだ](tsumori.md) - 意図の表現（待建立）
+- [〜たい](tai.md) - 願望の表現（待建立）
+- [意志形（〜う・よう）](volitional.md) - 意志表現（待建立）
 
 ### 証拠性モダリティ
-- [[grammar/souda_hearsay|〜そうだ（伝聞）]] - 伝聞表現（待建立）
-- [[grammar/rashii|〜らしい]] - 推定表現（待建立）
-- [[grammar/youda|〜ようだ]] - 様態表現（待建立）
+- [〜そうだ（伝聞）](souda_hearsay.md) - 伝聞表現（待建立）
+- [〜らしい](rashii.md) - 推定表現（待建立）
+- [〜ようだ](youda.md) - 様態表現（待建立）
 
 ### 関連概念
-- [[concept/proposition|命題]] - モダリティと対をなす概念（待建立）
-- [[concept/politeness_strategy|ポライトネス・ストラテジー]] - 丁寧度の調整（待建立）
-- [[concept/evidentiality|証拠性]] - 情報源の明示（待建立）
-- [[concept/epistemic_stance|認識的スタンス]] - 話し手の認識的立場（待建立）
+- [命題](../concept/proposition.md) - モダリティと対をなす概念（待建立）
+- [ポライトネス・ストラテジー](../concept/politeness_strategy.md) - 丁寧度の調整（待建立）
+- [証拠性](../concept/evidentiality.md) - 情報源の明示（待建立）
+- [認識的スタンス](../concept/epistemic_stance.md) - 話し手の認識的立場（待建立）
 
 ### 文法システム
-- [[grammar/keigo_system|敬語システム]] - 待遇表現の体系（待建立）
-- [[grammar/tense_aspect|テンス・アスペクト]] - 時制と相の体系（待建立）
+- [敬語システム](keigo_system.md) - 待遇表現の体系（待建立）
+- [テンス・アスペクト](tense_aspect.md) - 時制と相の体系（待建立）
 
 ---
 

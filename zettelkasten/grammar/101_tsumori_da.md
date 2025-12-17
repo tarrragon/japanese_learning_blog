@@ -168,17 +168,17 @@ I actually intended to contact you yesterday, but I forgot.
 ## 相關連結
 
 ### 相關文法
-- [[grammar/yotei_da.md]] - 予定だ（待建立）
-- [[grammar/you_to_omou.md]] - 〜ようと思う（待建立）
-- [[grammar/tai.md]] - 〜たい（待建立）
+- [yotei_da.md](yotei_da.md) - 予定だ（待建立）
+- [you_to_omou.md](you_to_omou.md) - 〜ようと思う（待建立）
+- [tai.md](tai.md) - 〜たい（待建立）
 
 ### 相關概念
-- [[concept/intention_expressions.md]] - 意圖表達方式（待建立）
-- [[concept/teineitai_vs_futsutai.md]] - 丁寧體與普通體
+- [intention_expressions.md](../concept/intention_expressions.md) - 意圖表達方式（待建立）
+- [teineitai_vs_futsutai.md](../concept/teineitai_vs_futsutai.md) - 丁寧體與普通體
 
 ### 對比辨析
-- [[comparison/tsumori_vs_yotei.md]] - つもりだ vs 予定だ（待建立）
-- [[comparison/tsumori_vs_you_to_omou.md]] - つもりだ vs 〜ようと思う（待建立）
+- [tsumori_vs_yotei.md](../comparison/tsumori_vs_yotei.md) - つもりだ vs 予定だ（待建立）
+- [tsumori_vs_you_to_omou.md](../comparison/tsumori_vs_you_to_omou.md) - つもりだ vs 〜ようと思う（待建立）
 
 ---
 

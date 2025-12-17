@@ -203,17 +203,17 @@ Tomorrow's schedule is written on the blackboard.
 ## 相關連結
 
 ### 相關文法
-- [[grammar/te_iru|〜ている]] - 動作進行或結果狀態（待建立）
-- [[grammar/te_oku|〜ておく]] - 事先準備、保持狀態（待建立）
-- [[comparison/te_aru_vs_te_iru|〜てある vs 〜ている]] - 兩者的對比分析（待建立）
+- [〜ている](te_iru.md) - 動作進行或結果狀態（待建立）
+- [〜ておく](te_oku.md) - 事先準備、保持狀態（待建立）
+- [〜てある vs 〜ている](../comparison/te_aru_vs_te_iru.md) - 兩者的對比分析（待建立）
 
 ### 相關概念
-- [[concept/transitive_intransitive|他動詞與自動詞]] - 理解動詞的及物性（待建立）
-- [[grammar/particle_ga|助詞「が」的用法]] - 理解為何用「が」（待建立）
+- [他動詞與自動詞](../concept/transitive_intransitive.md) - 理解動詞的及物性（待建立）
+- [助詞「が」的用法](particle_ga.md) - 理解為何用「が」（待建立）
 
 ### 延伸學習
-- [[grammar/te_shimau|〜てしまう]] - 動作完了與遺憾（待建立）
-- [[grammar/te_miru|〜てみる]] - 嘗試做某事（待建立）
+- [〜てしまう](te_shimau.md) - 動作完了與遺憾（待建立）
+- [〜てみる](te_miru.md) - 嘗試做某事（待建立）
 
 ---
 

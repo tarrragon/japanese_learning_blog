@@ -242,18 +242,18 @@ As for this book, I bought it yesterday.
 ## 相關連結
 
 ### 語言學概念
-- [[concept/subject_prominent_language]] - 主語優先語言（對比概念）（待建立）
-- [[concept/information_structure]] - 資訊結構（語用層面）（待建立）
-- [[concept/linguistic_typology]] - 語言類型論（研究框架）（待建立）
+- [subject_prominent_language](subject_prominent_language.md) - 主語優先語言（對比概念）（待建立）
+- [information_structure](information_structure.md) - 資訊結構（語用層面）（待建立）
+- [linguistic_typology](linguistic_typology.md) - 語言類型論（研究框架）（待建立）
 
 ### 相關文法
-- [[particle/wa_ga_distinction]] - は與が的區別（具體文法點）（待建立）
-- [[grammar/double_subject_construction]] - 雙主語結構（語法現象）（待建立）
-- [[grammar/ellipsis]] - 省略現象（語法特徵）（待建立）
+- [wa_ga_distinction](../particle/wa_ga_distinction.md) - は與が的區別（具體文法點）（待建立）
+- [double_subject_construction](../grammar/double_subject_construction.md) - 雙主語結構（語法現象）（待建立）
+- [ellipsis](../grammar/ellipsis.md) - 省略現象（語法特徵）（待建立）
 
 ### 延伸說明
-- [[concept/context_dependency]] - 文脈依賴性（語用特徵）（待建立）
-- [[concept/topic_comment_structure]] - 主題-評述結構（句法框架）（待建立）
+- [context_dependency](context_dependency.md) - 文脈依賴性（語用特徵）（待建立）
+- [topic_comment_structure](topic_comment_structure.md) - 主題-評述結構（句法框架）（待建立）
 
 ---
 

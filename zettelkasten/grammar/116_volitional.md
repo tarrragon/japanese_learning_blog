@@ -244,21 +244,21 @@ Shall we take a break?
 ## 相關連結
 
 ### 相關文法
-- [[grammar/017_mashou_form.md]] - ましょう形（意向形的丁寧體）（待建立）
-- [[grammar/016_tai_form.md]] - たい形（表達願望）（待建立）
-- [[grammar/101_tsumori_da.md]] - つもりだ（表達打算）（待建立）
+- [017_mashou_form.md](017_mashou_form.md) - ましょう形（意向形的丁寧體）（待建立）
+- [016_tai_form.md](016_tai_form.md) - たい形（表達願望）（待建立）
+- [101_tsumori_da.md](101_tsumori_da.md) - つもりだ（表達打算）（待建立）
 
 ### 動詞類型
-- [[grammar/003_ichidan_verb.md]] - 一段動詞（待建立）
-- [[grammar/006_godan_verb.md]] - 五段動詞（待建立）
+- [003_ichidan_verb.md](003_ichidan_verb.md) - 一段動詞（待建立）
+- [006_godan_verb.md](006_godan_verb.md) - 五段動詞（待建立）
 
 ### 相關表達
-- [[grammar/to_omou.md]] - 〜と思う（認為、打算）（待建立）
-- [[grammar/to_suru.md]] - 〜とする（試圖、假設）（待建立）
+- [to_omou.md](to_omou.md) - 〜と思う（認為、打算）（待建立）
+- [to_suru.md](to_suru.md) - 〜とする（試圖、假設）（待建立）
 
 ### 對比辨析
-- [[comparison/volitional_vs_tai.md]] - 意向形 vs たい形（待建立）
-- [[comparison/volitional_vs_tsumori.md]] - 意向形 vs つもり（待建立）
+- [volitional_vs_tai.md](../comparison/volitional_vs_tai.md) - 意向形 vs たい形（待建立）
+- [volitional_vs_tsumori.md](../comparison/volitional_vs_tsumori.md) - 意向形 vs つもり（待建立）
 
 ---
 

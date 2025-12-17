@@ -295,17 +295,17 @@ When I graduate, I plan to go on a trip.
 ## 相關連結
 
 ### 對比文法
-- [[grammar/004_mae_ni.md]] - 在...之前（待建立）
-- [[grammar/014_ato_de.md]] - 在...之後（待建立）
-- [[grammar/030_tara.md]] - 條件表達「如果...」（待建立）
+- [004_mae_ni.md](004_mae_ni.md) - 在...之前（待建立）
+- [014_ato_de.md](014_ato_de.md) - 在...之後（待建立）
+- [030_tara.md](030_tara.md) - 條件表達「如果...」（待建立）
 
 ### 相關動詞形
-- [[grammar/009_ta_form.md]] - た形（必須掌握）（待建立）
-- [[grammar/010_dictionary_form.md]] - 辭書形（對比用）（待建立）
+- [009_ta_form.md](009_ta_form.md) - た形（必須掌握）（待建立）
+- [010_dictionary_form.md](010_dictionary_form.md) - 辭書形（對比用）（待建立）
 
 ### 時間表達系列
-- [[grammar/015_te_kara.md]] - 做完...之後（待建立）
-- [[grammar/toki_expressions.md]] - 時間表達總整理（待建立）
+- [015_te_kara.md](015_te_kara.md) - 做完...之後（待建立）
+- [toki_expressions.md](toki_expressions.md) - 時間表達總整理（待建立）
 
 ---
 

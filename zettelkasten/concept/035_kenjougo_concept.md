@@ -675,34 +675,34 @@ Thank you for giving me your time despite being busy. (humble + benefactive)
 ## 相關連結
 
 ### 敬語體系
-- [[concept/013_keigo_taikei|敬語體系]] - 敬語的整體理論框架
-- [[concept/034_sonkeigo_concept|尊敬語概念]] - 提高對方地位的敬語
-- [[concept/teineigo_concept|丁寧語概念]](待建立) - 基本禮貌表達
+- [敬語體系](013_keigo_taikei.md) - 敬語的整體理論框架
+- [尊敬語概念](034_sonkeigo_concept.md) - 提高對方地位的敬語
+- [丁寧語概念](teineigo_concept.md)(待建立) - 基本禮貌表達
 
 ### 謙讓語文法形式
-- [[grammar/kenjougo_o_suru|お〜する]](待建立) - 和語謙讓構成
-- [[grammar/kenjougo_go_suru|ご〜する]](待建立) - 漢語謙讓構成
-- [[grammar/te_itadaku|〜ていただく]](待建立) - 受益表達的謙讓形式
-- [[grammar/sasete_itadaku|〜させていただく]](待建立) - 使役的謙讓表達
+- [お〜する](../grammar/kenjougo_o_suru.md)(待建立) - 和語謙讓構成
+- [ご〜する](../grammar/kenjougo_go_suru.md)(待建立) - 漢語謙讓構成
+- [〜ていただく](../grammar/te_itadaku.md)(待建立) - 受益表達的謙讓形式
+- [〜させていただく](../grammar/sasete_itadaku.md)(待建立) - 使役的謙讓表達
 
 ### 特殊謙讓動詞
-- [[verb-u/mairu|参る]](待建立) - 去・來的謙讓語
-- [[verb-u/mousu|申す]](待建立) - 說的謙讓語
-- [[verb-u/itasu|致す]](待建立) - 做的謙讓語
-- [[verb-ru/itadaku|いただく]](待建立) - 吃・喝・得到的謙讓語
-- [[verb-irregular/haiken_suru|拝見する]](待建立) - 看的謙讓語
-- [[verb-irregular/zonjiru|存じる]](待建立) - 知道的謙讓語
-- [[verb-u/ukagau|伺う]](待建立) - 訪問・聽・問的謙讓語
+- [参る](../verb-u/mairu.md)(待建立) - 去・來的謙讓語
+- [申す](../verb-u/mousu.md)(待建立) - 說的謙讓語
+- [致す](../verb-u/itasu.md)(待建立) - 做的謙讓語
+- [いただく](../verb-ru/itadaku.md)(待建立) - 吃・喝・得到的謙讓語
+- [拝見する](../verb-irregular/haiken_suru.md)(待建立) - 看的謙讓語
+- [存じる](../verb-irregular/zonjiru.md)(待建立) - 知道的謙讓語
+- [伺う](../verb-u/ukagau.md)(待建立) - 訪問・聽・問的謙讓語
 
 ### 社會語言學概念
-- [[concept/007_uchi-soto|內與外]] - 內外群體概念對敬語的影響
-- [[concept/006_viewpoint|視點理論]] - 視點與敬語選擇的關係
-- [[concept/benefactive|受益表達]](待建立) - 恩惠關係的語言表現
+- [內與外](007_uchi-soto.md) - 內外群體概念對敬語的影響
+- [視點理論](006_viewpoint.md) - 視點與敬語選擇的關係
+- [受益表達](benefactive.md)(待建立) - 恩惠關係的語言表現
 
 ### 實用應用
-- [[extension/business_keigo|商務敬語]](待建立) - 商務場合的敬語使用
-- [[extension/keigo_mistakes|敬語常見錯誤]](待建立) - 學習者常犯錯誤分析
-- [[extension/uchi_soto_keigo|內外區分與敬語]](待建立) - 內外關係的敬語實踐
+- [商務敬語](../extension/business_keigo.md)(待建立) - 商務場合的敬語使用
+- [敬語常見錯誤](../extension/keigo_mistakes.md)(待建立) - 學習者常犯錯誤分析
+- [內外區分與敬語](../extension/uchi_soto_keigo.md)(待建立) - 內外關係的敬語實踐
 
 ---
 

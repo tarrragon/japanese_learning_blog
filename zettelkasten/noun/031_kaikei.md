@@ -175,26 +175,26 @@ Excuse me, check please.
 ## 相關連結
 
 ### 同義詞・近義詞
-- [[簿記]] - 帳簿記錄、簿記（待建立）
-- [[財務]] - 財務、資金管理（待建立）
-- [[noun/029_zaiseikansa]] - 財務監查（待建立）
+- [簿記](簿記.md) - 帳簿記錄、簿記（待建立）
+- [財務](財務.md) - 財務、資金管理（待建立）
+- [029_zaiseikansa](029_zaiseikansa.md) - 財務監查（待建立）
 
 ### 相關詞彙（商業領域）
-- [[noun/030_jigyou]] - 事業（待建立）
-- [[noun/033_zeimu]] - 稅務（待建立）
-- [[noun/035_houkoku]] - 報告書（待建立）
-- [[会計基準]] - 會計準則（待建立）
-- [[財務諸表]] - 財務報表（待建立）
-- [[監査]] - 監查、審計（待建立）
+- [030_jigyou](030_jigyou.md) - 事業（待建立）
+- [033_zeimu](033_zeimu.md) - 稅務（待建立）
+- [035_houkoku](035_houkoku.md) - 報告書（待建立）
+- [会計基準](会計基準.md) - 會計準則（待建立）
+- [財務諸表](財務諸表.md) - 財務報表（待建立）
+- [監査](監査.md) - 監查、審計（待建立）
 
 ### 相關概念
-- [[concept/financial-management]] - 財務管理（待建立）
-- [[domain/finance]] - 金融領域（待建立）
-- [[domain/commerce]] - 商業領域（待建立）
+- [financial-management](../concept/financial-management.md) - 財務管理（待建立）
+- [finance](../domain/finance.md) - 金融領域（待建立）
+- [commerce](../domain/commerce.md) - 商業領域（待建立）
 
 ### 對比辨析
-- [[会計 vs 簿記]] - 會計 vs 簿記的區別（待建立）
-- [[財務会計 vs 管理会計]] - 財務會計 vs 管理會計（待建立）
+- [会計 vs 簿記](会計 vs 簿記.md) - 會計 vs 簿記的區別（待建立）
+- [財務会計 vs 管理会計](財務会計 vs 管理会計.md) - 財務會計 vs 管理會計（待建立）
 
 ## 註解
 

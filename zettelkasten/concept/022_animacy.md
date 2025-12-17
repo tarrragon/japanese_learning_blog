@@ -184,17 +184,17 @@ The door opened. (spontaneous)
 ## 相關連結
 
 ### 基礎概念
-- [[grammar/existential_verbs]] - 存在動詞「いる」和「ある」的詳細說明（待建立）
-- [[concept/transitivity]] - 自他動詞對的概念（待建立）
+- [existential_verbs](../grammar/existential_verbs.md) - 存在動詞「いる」和「ある」的詳細說明（待建立）
+- [transitivity](transitivity.md) - 自他動詞對的概念（待建立）
 
 ### 相關文法
-- [[grammar/giving_receiving]] - 授受動詞的完整體系（待建立）
-- [[grammar/honorific_system]] - 敬語體系與生命性的關係（待建立）
-- [[grammar/particle_wo_ga]] - 助詞「を」和「が」的選擇規則（待建立）
+- [giving_receiving](../grammar/giving_receiving.md) - 授受動詞的完整體系（待建立）
+- [honorific_system](../grammar/honorific_system.md) - 敬語體系與生命性的關係（待建立）
+- [particle_wo_ga](../grammar/particle_wo_ga.md) - 助詞「を」和「が」的選擇規則（待建立）
 
 ### 語言學概念
-- [[concept/volitionality]] - 意志性與生命性的關係（待建立）
-- [[concept/personification]] - 擬人化表達的特殊情況（待建立）
+- [volitionality](volitionality.md) - 意志性與生命性的關係（待建立）
+- [personification](personification.md) - 擬人化表達的特殊情況（待建立）
 
 ---
 

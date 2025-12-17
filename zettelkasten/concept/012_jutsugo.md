@@ -295,23 +295,23 @@ My father is a doctor.
 ## 相關連結
 
 ### 基礎文法概念
-- [[concept/shugo]] - 主語（與述語相對的句子成分）（待建立）
-- [[concept/bunpou-kozo]] - 文法結構（句子成分系統）（待建立）
-- [[concept/sov-gojun]] - SOV語序（日語的基本語序）（待建立）
+- [shugo](shugo.md) - 主語（與述語相對的句子成分）（待建立）
+- [bunpou-kozo](bunpou-kozo.md) - 文法結構（句子成分系統）（待建立）
+- [sov-gojun](sov-gojun.md) - SOV語序（日語的基本語序）（待建立）
 
 ### 述語類型
-- [[concept/doushi]] - 動詞（動詞述語的基礎）
-- [[concept/keiyoushi]] - 形容詞（形容詞述語的基礎）（待建立）
-- [[concept/meishi-jutsugo]] - 名詞述語（名詞作述語的規則）（待建立）
+- [doushi](doushi.md) - 動詞（動詞述語的基礎）
+- [keiyoushi](keiyoushi.md) - 形容詞（形容詞述語的基礎）（待建立）
+- [meishi-jutsugo](meishi-jutsugo.md) - 名詞述語（名詞作述語的規則）（待建立）
 
 ### 活用系統
-- [[concept/katsuyou]] - 活用（述語的變化形式）（待建立）
-- [[concept/jiseidou]] - 時態（述語的時間表達）（待建立）
-- [[concept/teinei-hyougen]] - 丁寧表達（述語的禮貌程度）（待建立）
+- [katsuyou](katsuyou.md) - 活用（述語的變化形式）（待建立）
+- [jiseidou](jiseidou.md) - 時態（述語的時間表達）（待建立）
+- [teinei-hyougen](teinei-hyougen.md) - 丁寧表達（述語的禮貌程度）（待建立）
 
 ### 相關文法
-- [[grammar/desu-da]] - です・だ（名詞述語的繫詞）（待建立）
-- [[grammar/masu-kei]] - ます形（丁寧體述語形式）（待建立）
+- [desu-da](../grammar/desu-da.md) - です・だ（名詞述語的繫詞）（待建立）
+- [masu-kei](../grammar/masu-kei.md) - ます形（丁寧體述語形式）（待建立）
 
 ---
 

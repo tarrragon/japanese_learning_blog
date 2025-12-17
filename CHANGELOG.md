@@ -7,6 +7,57 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.6] - 2025-12-17
+
+### Added
+
+#### 大規模學習內容卡片建立（220 張卡片完成）
+
+本版本完成了從 v1.0.4 和 v1.0.5 累積的延伸需求卡片建立，總計 220 張學習內容卡片進入 completed 狀態。
+
+**執行方式**：使用 44 個平行代理人同時建立卡片，大幅提升建立效率。
+
+**建立的學習內容卡片分類**：
+
+1. **grammar** - 68 張（文法表達、條件形、助動詞、複合表達等）
+2. **noun** - 63 張（Domain 詞彙、位置詞彙、時間詞彙、疑問詞等）
+3. **concept** - 40 張（語言學概念、語用概念、敬語概念等）
+4. **phrase** - 10 張（日常表達、情境短語、支付表達等）
+5. **contrast** - 10 張（語義對比、詞彙辨析）
+6. **comparison** - 9 張（條件形對比、助詞對比、授受對比等）
+7. **verb-u** - 9 張（N5-N4 基礎五段動詞）
+8. **verb-ru** - 8 張（N5-N4 基礎一段動詞）
+9. **conjunction** - 5 張（接續詞：だから、でも、じゃあ等）
+10. **verb-irr** - 1 張（不規則動詞補充）
+
+**每張學習內容卡片包含**：
+- 完整的三語解釋（日文、英文、繁體中文）
+- 4 個以上的實用例句
+- 腳註說明關鍵概念
+- 相關連結區塊
+
+### Changed
+
+#### CSV 工作流程系統（v1.0.6 新增）
+- 新增 `scripts/get_pending_cards.py` - 讀取待辦卡片清單
+- 新增 `scripts/add_pending_cards.py` - 新增待辦卡片
+- 新增 `scripts/update_card_progress.py` - 更新卡片進度
+- 新增 `scripts/manage_worklog_cards.py` - 查詢統計與驗證
+- 新增 `scripts/allocate_card_numbers.py` - 預先分配編號（支援並發）
+
+#### 連結格式修復
+- 執行 `fix-wikilinks.py --fix`：修正 155 個檔案、1843 個連結
+- 將所有 Wikilink 格式（`[[...]]`）轉換為標準 Markdown 連結（`[text](path.md)`）
+
+### Documentation
+- 更新 `doc/worklog/worklog-1.0.6.md` - 記錄完整的執行過程
+- 更新 `doc/worklog/README-CSV.md` - CSV 工作流程使用指南
+
+### Notes
+- 這是一個內容建立版本（PATCH），專注於學習內容卡片建立
+- 從 v1.0.4/v1.0.5 Extension-Review 識別的需求已大部分完成
+- 下一版本將繼續補充剩餘的延伸需求
+
 ## [1.0.5] - 2025-10-30
 
 ### Added

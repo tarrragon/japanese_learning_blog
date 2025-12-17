@@ -143,18 +143,18 @@ I have several questions.
 ## 相關連結
 
 ### 相關疑問詞
-- [[noun/017_nani.md]] - 什麼（待建立）
-- [[noun/017_dare.md]] - 誰（待建立）
-- [[noun/017_doko.md]] - 哪裡（待建立）
-- [[noun/018_itsu.md]] - 什麼時候（待建立）
+- [017_nani.md](017_nani.md) - 什麼（待建立）
+- [017_dare.md](017_dare.md) - 誰（待建立）
+- [017_doko.md](017_doko.md) - 哪裡（待建立）
+- [018_itsu.md](018_itsu.md) - 什麼時候（待建立）
 
 ### 相關數量表達
-- [[counter/001_number_system.md]] - 日文數量系統（待建立）
-- [[noun/kazukazu.md]] - 數數（待建立）
+- [001_number_system.md](../counter/001_number_system.md) - 日文數量系統（待建立）
+- [kazukazu.md](kazukazu.md) - 數數（待建立）
 
 ### 相關文法
-- [[grammar/question_words.md]] - 疑問詞用法（待建立）
-- [[particle/ka.md]] - 疑問助詞「か」（待建立）
+- [question_words.md](../grammar/question_words.md) - 疑問詞用法（待建立）
+- [ka.md](../particle/ka.md) - 疑問助詞「か」（待建立）
 
 ---
 

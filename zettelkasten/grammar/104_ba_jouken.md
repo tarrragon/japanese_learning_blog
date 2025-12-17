@@ -259,9 +259,9 @@ If you'd like, would you like to go together?
 - [た形](./045_ta-kei.md) - 動詞過去形
 
 ### 相關概念
-- [[concept/conditional_forms.md]] - 條件表達系統（待建立）
-- [[concept/logical_expression.md]] - 邏輯表達（待建立）
-- [[concept/universal_statement.md]] - 普遍性陳述（待建立）
+- [conditional_forms.md](../concept/conditional_forms.md) - 條件表達系統（待建立）
+- [logical_expression.md](../concept/logical_expression.md) - 邏輯表達（待建立）
+- [universal_statement.md](../concept/universal_statement.md) - 普遍性陳述（待建立）
 
 ---
 

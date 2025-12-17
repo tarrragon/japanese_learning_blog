@@ -189,21 +189,21 @@ The prices at this restaurant vary - sometimes expensive, sometimes cheap - it's
 ## 相關連結
 
 ### 動詞變化
-- [[grammar/ta_form]] - た形（過去式）變化規則（待建立）
-- [[grammar/te_form]] - て形變化規則（待建立）
+- [ta_form](ta_form.md) - た形（過去式）變化規則（待建立）
+- [te_form](te_form.md) - て形變化規則（待建立）
 
 ### 相關文法
-- [[grammar/tari_suru]] - 〜たりする（單一動作的反覆）（待建立）
-- [[grammar/shi]] - 〜し（另一種列舉方式）（待建立）
-- [[grammar/nari]] - 〜なり〜なり（文語的列舉表達）（待建立）
+- [tari_suru](tari_suru.md) - 〜たりする（單一動作的反覆）（待建立）
+- [shi](shi.md) - 〜し（另一種列舉方式）（待建立）
+- [nari](nari.md) - 〜なり〜なり（文語的列舉表達）（待建立）
 
 ### 對比辨析
-- [[comparison/tari_vs_te]] - 「〜たり」vs「〜て」的區別（待建立）
-- [[comparison/tari_vs_shi]] - 「〜たり」vs「〜し」的用法差異（待建立）
+- [tari_vs_te](../comparison/tari_vs_te.md) - 「〜たり」vs「〜て」的區別（待建立）
+- [tari_vs_shi](../comparison/tari_vs_shi.md) - 「〜たり」vs「〜し」的用法差異（待建立）
 
 ### 基礎概念
-- [[concept/enumeration]] - 列舉的概念（待建立）
-- [[concept/representative_examples]] - 代表性例示（待建立）
+- [enumeration](../concept/enumeration.md) - 列舉的概念（待建立）
+- [representative_examples](../concept/representative_examples.md) - 代表性例示（待建立）
 
 ---
 

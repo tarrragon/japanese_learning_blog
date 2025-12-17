@@ -184,18 +184,18 @@ This project doesn't look like it will succeed.
 ## 相關連結
 
 ### 相似表達
-- [[grammar/you_ni_mieru_vs_souda.md]] - 「〜ように見える」vs「〜そうだ」比較（待建立）
-- [[grammar/you_ni_omou.md]] - 「〜ように思う」的用法（待建立）
-- [[grammar/you_ni_kikoeru.md]] - 「〜ように聞こえる」聽覺表達（待建立）
+- [you_ni_mieru_vs_souda.md](you_ni_mieru_vs_souda.md) - 「〜ように見える」vs「〜そうだ」比較（待建立）
+- [you_ni_omou.md](you_ni_omou.md) - 「〜ように思う」的用法（待建立）
+- [you_ni_kikoeru.md](you_ni_kikoeru.md) - 「〜ように聞こえる」聽覺表達（待建立）
 
 ### 相關文法
-- [[grammar/you_ni.md]] - 「ように」的基本用法（待建立）
-- [[verb-ru/mieru.md]] - 動詞「見える」的解說（待建立）
-- [[grammar/推測表達.md]] - 推測文法總覽（待建立）
+- [you_ni.md](you_ni.md) - 「ように」的基本用法（待建立）
+- [mieru.md](../verb-ru/mieru.md) - 動詞「見える」的解說（待建立）
+- [推測表達.md](推測表達.md) - 推測文法總覽（待建立）
 
 ### 延伸說明
-- [[concept/subjective_judgment.md]] - 主觀判斷表達（待建立）
-- [[concept/perception_verbs.md]] - 知覺動詞概念（待建立）
+- [subjective_judgment.md](../concept/subjective_judgment.md) - 主觀判斷表達（待建立）
+- [perception_verbs.md](../concept/perception_verbs.md) - 知覺動詞概念（待建立）
 
 ---
 

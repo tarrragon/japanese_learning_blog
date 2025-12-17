@@ -278,25 +278,25 @@ When comparing the phonology of English and Japanese, the differences in syllabl
 ## 相關連結
 
 ### 語言學基礎概念
-- [[concept/linguistics]] - 語言學總論（待建立）
-- [[concept/phonetics]] - 音聲學（待建立）
-- [[concept/morphology]] - 形態論（待建立）
-- [[concept/syntax]] - 統語論（待建立）
+- [linguistics](linguistics.md) - 語言學總論（待建立）
+- [phonetics](phonetics.md) - 音聲學（待建立）
+- [morphology](morphology.md) - 形態論（待建立）
+- [syntax](syntax.md) - 統語論（待建立）
 
 ### 日語音韻論相關
-- [[concept/mora]] - モーラ（音拍）概念（待建立）
-- [[concept/pitch_accent]] - 日語音高重音（待建立）
-- [[concept/special_morae]] - 特殊音拍（ん、っ、長音）（待建立）
-- [[concept/rendaku]] - 連濁現象（待建立）
+- [mora](mora.md) - モーラ（音拍）概念（待建立）
+- [pitch_accent](pitch_accent.md) - 日語音高重音（待建立）
+- [special_morae](special_morae.md) - 特殊音拍（ん、っ、長音）（待建立）
+- [rendaku](rendaku.md) - 連濁現象（待建立）
 
 ### 語音學相關
-- [[concept/phoneme]] - 音素（待建立）
-- [[concept/allophone]] - 異音（待建立）
-- [[concept/syllable_structure]] - 音節結構（待建立）
+- [phoneme](phoneme.md) - 音素（待建立）
+- [allophone](allophone.md) - 異音（待建立）
+- [syllable_structure](syllable_structure.md) - 音節結構（待建立）
 
 ### 對比學習
-- [[comparison/phonology_vs_phonetics]] - 音韻論與音聲學的比較（待建立）
-- [[comparison/mora_vs_syllable]] - モーラ與音節的比較（待建立）
+- [phonology_vs_phonetics](../comparison/phonology_vs_phonetics.md) - 音韻論與音聲學的比較（待建立）
+- [mora_vs_syllable](../comparison/mora_vs_syllable.md) - モーラ與音節的比較（待建立）
 
 ---
 

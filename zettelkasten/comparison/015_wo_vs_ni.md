@@ -382,21 +382,21 @@ I study Japanese at the library.
 ## 相關連結
 
 ### 基礎助詞
-- [[../particle/wo.md]] - を助詞詳解（待建立）
-- [[../particle/ni.md]] - に助詞詳解（待建立）
+- [wo.md](../particle/wo.md.md) - を助詞詳解（待建立）
+- [ni.md](../particle/ni.md.md) - に助詞詳解（待建立）
 
 ### 相關文法
-- [[../grammar/transitive_verbs.md]] - 他動詞用法（待建立）
-- [[../grammar/motion_verbs.md]] - 移動動詞（待建立）
-- [[../grammar/giving_receiving.md]] - 授受表現（待建立）
+- [transitive_verbs.md](../grammar/transitive_verbs.md.md) - 他動詞用法（待建立）
+- [motion_verbs.md](../grammar/motion_verbs.md.md) - 移動動詞（待建立）
+- [giving_receiving.md](../grammar/giving_receiving.md.md) - 授受表現（待建立）
 
 ### 其他助詞對比
-- [[002_de_vs_ni_location.md]] - で vs に（地點）
-- [[../particle/de.md]] - で助詞（待建立）
+- [002_de_vs_ni_location.md](002_de_vs_ni_location.md.md) - で vs に（地點）
+- [de.md](../particle/de.md.md) - で助詞（待建立）
 
 ### 延伸說明
-- [[../grammar/particle_system.md]] - 日語助詞系統概覽（待建立）
-- [[../grammar/case_marking.md]] - 格標記系統（待建立）
+- [particle_system.md](../grammar/particle_system.md.md) - 日語助詞系統概覽（待建立）
+- [case_marking.md](../grammar/case_marking.md.md) - 格標記系統（待建立）
 
 ---
 

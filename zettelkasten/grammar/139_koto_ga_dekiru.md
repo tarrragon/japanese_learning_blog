@@ -192,17 +192,17 @@ You can borrow books at the library.
 ## 相關連結
 
 ### 相關文法
-- [[grammar/011_potential_form.md]] - 可能形（動詞可能形態）（待建立）
-- [[grammar/010_dictionary_form.md]] - 辞書形（動詞基本形）（待建立）
-- [[grammar/060_dekiru.md]] - できる（可能動詞）（待建立）
+- [011_potential_form.md](011_potential_form.md) - 可能形（動詞可能形態）（待建立）
+- [010_dictionary_form.md](010_dictionary_form.md) - 辞書形（動詞基本形）（待建立）
+- [060_dekiru.md](060_dekiru.md) - できる（可能動詞）（待建立）
 
 ### 相關概念
-- [[concept/ability_expressions.md]] - 能力表達方式的比較（待建立）
-- [[concept/formality_levels.md]] - 日文的正式程度層次（待建立）
+- [ability_expressions.md](../concept/ability_expressions.md) - 能力表達方式的比較（待建立）
+- [formality_levels.md](../concept/formality_levels.md) - 日文的正式程度層次（待建立）
 
 ### 對比辨析
-- [[comparison/dekiru_vs_koto_ga_dekiru.md]] - できる vs ことができる（待建立）
-- [[comparison/potential_form_vs_koto_ga_dekiru.md]] - 可能形 vs ことができる（待建立）
+- [dekiru_vs_koto_ga_dekiru.md](../comparison/dekiru_vs_koto_ga_dekiru.md) - できる vs ことができる（待建立）
+- [potential_form_vs_koto_ga_dekiru.md](../comparison/potential_form_vs_koto_ga_dekiru.md) - 可能形 vs ことができる（待建立）
 
 ---
 

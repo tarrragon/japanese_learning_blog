@@ -238,28 +238,28 @@ I received a book from my friend.
 ## 相關連結
 
 ### 授受動詞
-- [[verb-ru/001_ageru]] - あげる（給予）（待建立）
-- [[verb-ru/002_kureru]] - くれる（給我/我方）（待建立）
-- [[verb-u/001_morau]] - もらう（得到）（待建立）
+- [001_ageru](../verb-ru/001_ageru.md) - あげる（給予）（待建立）
+- [002_kureru](../verb-ru/002_kureru.md) - くれる（給我/我方）（待建立）
+- [001_morau](../verb-u/001_morau.md) - もらう（得到）（待建立）
 
 ### 敬語形式
-- [[verb-ru/003_sashiageru]] - さしあげる（あげる的謙讓語）（待建立）
-- [[verb-u/002_kudasaru]] - くださる（くれる的尊敬語）（待建立）
-- [[verb-u/003_itadaku]] - いただく（もらう的謙讓語）（待建立）
+- [003_sashiageru](../verb-ru/003_sashiageru.md) - さしあげる（あげる的謙讓語）（待建立）
+- [002_kudasaru](../verb-u/002_kudasaru.md) - くださる（くれる的尊敬語）（待建立）
+- [003_itadaku](../verb-u/003_itadaku.md) - いただく（もらう的謙讓語）（待建立）
 
 ### 相關概念
-- [[concept/001_uchi_soto]] - 內外關係（待建立）
-- [[concept/002_empathy]] - 共感視點（待建立）
-- [[concept/003_psychological_distance]] - 心理距離（待建立）
+- [001_uchi_soto](001_uchi_soto.md) - 內外關係（待建立）
+- [002_empathy](002_empathy.md) - 共感視點（待建立）
+- [003_psychological_distance](003_psychological_distance.md) - 心理距離（待建立）
 
 ### 文法相關
-- [[grammar/001_te_ageru]] - 〜てあげる（為某人做）（待建立）
-- [[grammar/002_te_kureru]] - 〜てくれる（為我做）（待建立）
-- [[grammar/003_te_morau]] - 〜てもらう（請某人做）（待建立）
+- [001_te_ageru](../grammar/001_te_ageru.md) - 〜てあげる（為某人做）（待建立）
+- [002_te_kureru](../grammar/002_te_kureru.md) - 〜てくれる（為我做）（待建立）
+- [003_te_morau](../grammar/003_te_morau.md) - 〜てもらう（請某人做）（待建立）
 
 ### 語用學概念
-- [[concept/004_pragmatics]] - 語用學基礎（待建立）
-- [[concept/005_politeness_theory]] - 禮貌理論（待建立）
+- [004_pragmatics](004_pragmatics.md) - 語用學基礎（待建立）
+- [005_politeness_theory](005_politeness_theory.md) - 禮貌理論（待建立）
 
 ---
 
@@ -269,11 +269,11 @@ I received a book from my friend.
 
 [^benefit]: **恩惠** - 廣義的利益或好處，可以是物品、行為或服務。在日文授受表達中，「恩惠」的概念不限於物質，也包括幫助、教導、照顧等抽象行為。
 
-[^pragmatics]: **語用論** - 研究語言在特定語境中如何使用的語言學分支。授受視角是典型的語用現象，語法正確不代表語用適當。詳見 [[concept/004_pragmatics]]（待建立）
+[^pragmatics]: **語用論** - 研究語言在特定語境中如何使用的語言學分支。授受視角是典型的語用現象，語法正確不代表語用適當。詳見 [004_pragmatics](004_pragmatics.md)（待建立）
 
-[^psychological-distance]: **心理距離** - 說話者感知到的與他人之間的親疏遠近。心理距離影響授受動詞的選擇，距離近時傾向使用くれる，距離遠時使用あげる。詳見 [[concept/003_psychological_distance]]（待建立）
+[^psychological-distance]: **心理距離** - 說話者感知到的與他人之間的親疏遠近。心理距離影響授受動詞的選擇，距離近時傾向使用くれる，距離遠時使用あげる。詳見 [003_psychological_distance](003_psychological_distance.md)（待建立）
 
-[^uchi-soto]: **內外關係** - 日本社會文化中區分「內集團」（ウチ）和「外集團」（ソト）的概念。內集團包括家人、親友等親近者，外集團是其他人。授受視角強烈受此概念影響。詳見 [[concept/001_uchi_soto]]（待建立）
+[^uchi-soto]: **內外關係** - 日本社會文化中區分「內集團」（ウチ）和「外集團」（ソト）的概念。內集團包括家人、親友等親近者，外集團是其他人。授受視角強烈受此概念影響。詳見 [001_uchi_soto](001_uchi_soto.md)（待建立）
 
 [^pragmatic-inappropriateness]: **語用不當** - 語法正確但不符合語境或社會規範的表達。例如「友達が私に本をあげた」語法無誤，但從語用角度應說「友達が私に本をくれた」。
 

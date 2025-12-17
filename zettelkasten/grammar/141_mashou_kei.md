@@ -225,18 +225,18 @@ Shall I help?
 ## 相關連結
 
 ### 動詞活用形
-- [[grammar/007_masu_form.md]] - ます形（ましょう形的基礎）（待建立）
-- [[grammar/016_tai_form.md]] - たい形（同樣從ます形派生）（待建立）
-- [[grammar/010_dictionary_form.md]] - 辞書形（待建立）
+- [007_masu_form.md](007_masu_form.md) - ます形（ましょう形的基礎）（待建立）
+- [016_tai_form.md](016_tai_form.md) - たい形（同樣從ます形派生）（待建立）
+- [010_dictionary_form.md](010_dictionary_form.md) - 辞書形（待建立）
 
 ### 相關文法
-- [[grammar/volitional_plain.md]] - 意向形普通體（〜う/〜よう）（待建立）
-- [[grammar/masenka.md]] - 〜ませんか（委婉邀請）（待建立）
-- [[grammar/063_te_kudasai.md]] - 〜てください（請求表達）（待建立）
+- [volitional_plain.md](volitional_plain.md) - 意向形普通體（〜う/〜よう）（待建立）
+- [masenka.md](masenka.md) - 〜ませんか（委婉邀請）（待建立）
+- [063_te_kudasai.md](063_te_kudasai.md) - 〜てください（請求表達）（待建立）
 
 ### 概念卡片
-- [[concept/polite_speech.md]] - 丁寧語系統（待建立）
-- [[concept/verb_conjugation.md]] - 動詞活用概論（待建立）
+- [polite_speech.md](../concept/polite_speech.md) - 丁寧語系統（待建立）
+- [verb_conjugation.md](../concept/verb_conjugation.md) - 動詞活用概論（待建立）
 
 ---
 
