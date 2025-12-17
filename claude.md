@@ -135,7 +135,7 @@ uv run scripts/update_card_progress.py --id {card_id} --stage linking --quiet
 # 1. 檢查編號連續性
 uv run scripts/fix-numbering.py --check
 
-# 2. 檢查 Wikilink 格式
+# 2. 檢查連結格式（修復殘留的舊 Wikilink 格式）
 uv run scripts/fix-wikilinks.py --check
 
 # 3. 驗證 Meta 系統
@@ -371,7 +371,7 @@ uv run scripts/verify-meta.py --verbose
 # 6. 檢查編號連續性
 uv run scripts/fix-numbering.py --check
 
-# 7. 檢查 Wikilink 格式
+# 7. 檢查連結格式（修復殘留的舊 Wikilink 格式）
 uv run scripts/fix-wikilinks.py --check
 ```
 

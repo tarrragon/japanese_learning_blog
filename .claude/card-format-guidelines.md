@@ -13,7 +13,7 @@
 
 ❌ **禁止格式**: `[[path|text]]` 或 `[[path]]`（Obsidian Wikilink）
 - 原因：在 GitHub、GitLab、VS Code 等標準 Markdown 渲染器中無法正常顯示
-- 本文檔使用「Wikilink」或「標準連結」術語僅指「雙向連結」的概念，而非指 Obsidian 的 `[[...]]` 格式
+- 本專案已完成從 Wikilink 到標準 Markdown 連結的轉換
 
 **腳註連結格式**：
 ```markdown
@@ -28,7 +28,7 @@
 
 1. [卡片基本結構](#卡片基本結構)
 2. [連結類型選擇](#連結類型選擇)
-3. [標準 Wikilink 連結](#標準-wikilink-連結)
+3. [標準連結](#標準連結standard-links)
 4. [腳註（Footnotes）](#腳註footnotes)
 5. [決策流程](#決策流程)
 6. [完整範例](#完整範例)

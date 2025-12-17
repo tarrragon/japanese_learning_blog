@@ -194,28 +194,28 @@ created: 2025-10-28
 ## 相關連結
 
 ### 同義詞・近義詞
-- [[verb-u/xxx_meshiagaru|召し上がる]] - 更禮貌的說法（尊敬語）
-- [[verb-ru/xxx_itadaku|いただく]] - 謙讓語
+- [召し上がる](../verb-u/xxx_meshiagaru.md) - 更禮貌的說法（尊敬語）
+- [いただく](xxx_itadaku.md) - 謙讓語
 
 ### 反義詞
-- [[verb-ru/xxx_nokosu|残す]] - 留下（不吃完）
+- [残す](xxx_nokosu.md) - 留下（不吃完）
 
 ### 語法相關
-- [[grammar/001_te_form|て形]] - 此動詞的て形變化
-- [[grammar/002_nagara|〜ながら]] - 一邊...一邊...（例句中使用）
+- [て形](../grammar/001_te_form.md) - 此動詞的て形變化
+- [〜ながら](../grammar/002_nagara.md) - 一邊...一邊...（例句中使用）
 
 ### 主題相關
-- [[noun/xxx_asagohan|朝ごはん]] - 早餐
-- [[noun/xxx_tabemono|食べ物]] - 食物
-- [[noun/xxx_shokuji|食事]] - 用餐
+- [朝ごはん](../noun/xxx_asagohan.md) - 早餐
+- [食べ物](../noun/xxx_tabemono.md) - 食物
+- [食事](../noun/xxx_shokuji.md) - 用餐
 
 ### 延伸說明
-- [[verb-ru/001_taberu_001_keigo|敬語用法]] - 此詞彙的敬語形式
-- [[verb-ru/001_taberu_003_register|語域差異]] - 正式與非正式用法
+- [敬語用法](001_taberu_001_keigo.md) - 此詞彙的敬語形式
+- [語域差異](001_taberu_003_register.md) - 正式與非正式用法
 
 ### 例句中使用
-- [[particle/001_wo|を]] - 助詞（賓語標記）
-- [[noun/xxx_mainichi|毎日]] - 每天
+- [を](../particle/001_wo.md) - 助詞（賓語標記）
+- [毎日](../noun/xxx_mainichi.md) - 每天
 ```
 
 ### 6. 雙向連結更新
@@ -230,11 +230,11 @@ created: 2025-10-28
 ```markdown
 # 在 食べる 卡片中
 ### 主題相關
-- [[noun/xxx_asagohan|朝ごはん]] - 早餐
+- [朝ごはん](../noun/xxx_asagohan.md) - 早餐
 
 # 在 朝ごはん 卡片中
 ### 動作相關
-- [[verb-ru/001_taberu|食べる]] - 吃（早餐）
+- [食べる](../verb-ru/001_taberu.md) - 吃（早餐）
 ```
 
 ### 7. 搜尋策略（高效兩步法）
@@ -533,7 +533,7 @@ jlpt: n4
 tags: [daily_life, formal, humble_form]
 draft: true
 created: 2025-10-28
-related_to: [[verb-ru/001_taberu]]
+related_to: verb-ru/001_taberu
 auto_generated: true
 needs_review: true
 ---
@@ -732,18 +732,18 @@ generated_date: 2025-10-28
 
 Markdown 支援兩種連結方式，應根據情境選擇合適的類型：
 
-#### 4.1 標準 Wikilink 連結 `[[card]]`
+#### 4.1 標準連結 `[text](path.md)`
 
 **格式**：
 ```markdown
 ## 相關連結
 
 ### 同義詞
-- [[verb-u/003_meshiagaru|召し上がる]] - 尊敬語
-- [[verb-ru/004_itadaku|いただく]] - 謙讓語
+- [召し上がる](../verb-u/003_meshiagaru.md) - 尊敬語
+- [いただく](004_itadaku.md) - 謙讓語
 
 ### 相關詞彙
-- [[noun/001_asagohan|朝ごはん]] - 早餐
+- [朝ごはん](../noun/001_asagohan.md) - 早餐
 ```
 
 **適用情境**：
@@ -779,9 +779,9 @@ Markdown 支援兩種連結方式，應根據情境選擇合適的類型：
 
 ## 註解
 
-[^ichidan]: **一段動詞**（[[grammar/verb-types/ichidan]]）- 語幹不變，只變化「る」的動詞類型。例：食べる → 食べます、食べて、食べた
+[^ichidan]: **一段動詞** - 語幹不變，只變化「る」的動詞類型。例：食べる → 食べます、食べて、食べた。詳見 [一段動詞](../grammar/verb-types/ichidan.md)
 
-[^casual]: **日常會話場景**（[[context/casual-conversation]]）- 非正式場合使用的表達方式
+[^casual]: **日常會話場景** - 非正式場合使用的表達方式。詳見 [日常會話](../context/casual-conversation.md)
 ```
 
 **適用情境**：
@@ -826,14 +826,14 @@ Markdown 支援兩種連結方式，應根據情境選擇合適的類型：
 要建立連結時
     ↓
 是否在「相關連結」區塊？
-    ├─ 是 → 使用標準連結 [[card]]
+    ├─ 是 → 使用標準連結 [text](path.md)
     └─ 否 ↓
         是否在解釋或例句的**文字內容中**？
             ├─ 是 ↓
             │   需要補充說明嗎？
             │   ├─ 是 → 使用腳註 [^note]
-            │   └─ 否 → 使用行內連結 [[card]]（較少見）
-            └─ 否 → 使用標準連結 [[card]]
+            │   └─ 否 → 使用行內連結 [text](path.md)（較少見）
+            └─ 否 → 使用標準連結 [text](path.md)
 ```
 
 #### 4.4 腳註編號規則
@@ -863,19 +863,19 @@ Markdown 支援兩種連結方式，應根據情境選擇合適的類型：
 每個腳註應包含：
 
 ```markdown
-[^tag]: **標題**（[[連結]]）- 簡短說明。額外補充資訊（可選）
+[^tag]: **標題** - 簡短說明。詳見 [卡片標題](../path/card.md)
 ```
 
 **範例**：
 
 ```markdown
-[^ichidan]: **一段動詞**（[[grammar/verb-types/ichidan]]）- 語幹不變，只變化「る」的動詞類型。例：食べる → 食べます、食べて、食べた
+[^ichidan]: **一段動詞** - 語幹不變，只變化「る」的動詞類型。例：食べる → 食べます、食べて、食べた。詳見 [一段動詞](../grammar/verb-types/ichidan.md)
 
-[^keigo-system]: **敬語系統**（[[grammar/keigo/overview]]）- 日語有三種敬語：尊敬語（提高對方）、謙讓語（降低自己）、丁寧語（禮貌表達）。參見 [[category/honorific]] 了解更多
+[^keigo-system]: **敬語系統** - 日語有三種敬語：尊敬語（提高對方）、謙讓語（降低自己）、丁寧語（禮貌表達）。詳見 [敬語總覽](../grammar/keigo/overview.md)
 
-[^business-context]: **商務場景**（[[context/business]]）- 職場、商務往來等正式場合。常用敬語和正式表達
+[^business-context]: **商務場景** - 職場、商務往來等正式場合。常用敬語和正式表達。詳見 [商務場景](../context/business.md)
 
-[^idiom-animal]: **動物相關慣用語**（[[idiom/neko-wo-kaburu]]）- 「猫をかぶる」字面意思是「戴上貓的面具」，實際意思是「裝乖、隱藏本性」。其他動物慣用語請參見 [[category/idiom-animals]]
+[^idiom-animal]: **動物相關慣用語** - 「猫をかぶる」字面意思是「戴上貓的面具」，實際意思是「裝乖、隱藏本性」。詳見 [猫をかぶる](../idiom/neko-wo-kaburu.md)
 ```
 
 **格式要素**：
@@ -894,7 +894,7 @@ Markdown 支援兩種連結方式，應根據情境選擇合適的類型：
 ✅ 好：
 「食べる」は一段動詞[^ichidan]です。
 
-[^ichidan]: **一段動詞**（[[grammar/verb-types/ichidan]]）- 語幹不變，只變化「る」的動詞類型
+[^ichidan]: **一段動詞** - 語幹不變，只變化「る」的動詞類型。詳見 [一段動詞](../grammar/verb-types/ichidan.md)
 ```
 
 **判斷標準**：
@@ -927,15 +927,15 @@ Markdown 支援兩種連結方式，應根據情境選擇合適的類型：
 
 ## 註解
 
-[^mainichi]: **頻率副詞「毎日」**（[[adverb/frequency/mainichi]]）- 表示每天、日常的頻率
+[^mainichi]: **頻率副詞「毎日」** - 表示每天、日常的頻率。詳見 [毎日](../adverb/frequency/mainichi.md)
 
-[^wo]: **賓語助詞「を」**（[[particle/001_wo]]）- 標示動作的直接賓語
+[^wo]: **賓語助詞「を」** - 標示動作的直接賓語。詳見 [を](../particle/001_wo.md)
 
-[^te-ni-iku]: **〜に行く文法**（[[grammar/purpose-ni-iku]]）- 表示「去做某事」的目的表達。格式：動詞ます形去掉ます + に行く
+[^te-ni-iku]: **〜に行く文法** - 表示「去做某事」的目的表達。格式：動詞ます形去掉ます + に行く。詳見 [〜に行く](../grammar/purpose-ni-iku.md)
 
-[^te-iru]: **〜ている文法**（[[grammar/te-iru]]）- 表示動作正在進行或狀態持續
+[^te-iru]: **〜ている文法** - 表示動作正在進行或狀態持續。詳見 [〜ている](../grammar/te-iru.md)
 
-[^irassharu]: **尊敬語動詞**（[[honorific/irassharu]]）- 「いる」的尊敬語，表示對方的存在或動作
+[^irassharu]: **尊敬語動詞** - 「いる」的尊敬語，表示對方的存在或動作。詳見 [いらっしゃる](../honorific/irassharu.md)
 ```
 
 **標註原則**：
@@ -989,7 +989,7 @@ Grep: "一段動詞" --type md -i
 Read: grammar/verb-types/ichidan.md (前 50 行)
 
 # 提取資訊並生成腳註定義
-[^ichidan]: **一段動詞**（[[grammar/verb-types/ichidan]]）- 語幹不變，只變化「る」的動詞類型。例：食べる → 食べます、食べて、食べた
+[^ichidan]: **一段動詞** - 語幹不變，只變化「る」的動詞類型。例：食べる → 食べます、食べて、食べた。詳見 [一段動詞](../grammar/verb-types/ichidan.md)
 ```
 
 **步驟六：插入腳註**
@@ -1009,9 +1009,9 @@ Read: grammar/verb-types/ichidan.md (前 50 行)
 
 ## 註解
 
-[^ichidan]: **一段動詞**（[[grammar/verb-types/ichidan]]）- 語幹不變，只變化「る」的動詞類型。例：食べる → 食べます、食べて、食べた
+[^ichidan]: **一段動詞** - 語幹不變，只變化「る」的動詞類型。例：食べる → 食べます、食べて、食べた。詳見 [一段動詞](../grammar/verb-types/ichidan.md)
 
-[^casual]: **日常會話場景**（[[context/casual-conversation]]）- 非正式場合使用的表達方式
+[^casual]: **日常會話場景** - 非正式場合使用的表達方式。詳見 [日常會話](../context/casual-conversation.md)
 
 ---
 
@@ -1061,11 +1061,11 @@ Read: grammar/verb-types/ichidan.md (前 50 行)
 ## 相關連結
 
 ### 同義詞
-- [[card1]]
-- [[card2]]
+- [card1](card1.md)
+- [card2](card2.md)
 
 ### 延伸說明
-- [[extension1]]
+- [extension1](extension1.md)
 ```
 
 ### 5. 連結建立流程（原「步驟三」和後續步驟）
@@ -1091,10 +1091,10 @@ Read: grammar/verb-types/ichidan.md (前 50 行)
 每個連結都應該有清楚的描述：
 ```markdown
 # 好的連結
-- [[verb-u/meshiagaru|召し上がる]] - 尊敬語，對長輩使用
+- [召し上がる](../verb-u/meshiagaru.md) - 尊敬語，對長輩使用
 
 # 不好的連結（沒有說明）
-- [[verb-u/meshiagaru|召し上がる]]
+- [召し上がる](../verb-u/meshiagaru.md)
 ```
 
 ### 9. 特殊情況處理
@@ -1174,47 +1174,47 @@ Read: grammar/verb-types/ichidan.md (前 50 行)
 ### 建立的連結
 
 #### 高優先級連結 (9)
-1. ✅ [[verb-u/003_meshiagaru|召し上がる]] - 同義詞（尊敬語）
+1. ✅ [召し上がる](../verb-u/003_meshiagaru.md) - 同義詞（尊敬語）
    - 類型：同義詞
    - 方向：雙向
    - 原因：明確的同義關係，常混淆
 
-2. ✅ [[verb-u/004_itadaku|いただく]] - 同義詞（謙讓語）
+2. ✅ [いただく](../verb-u/004_itadaku.md) - 同義詞（謙讓語）
    - 類型：同義詞
    - 方向：雙向
    - 原因：新建立的草稿卡片
 
-3. ✅ [[verb-u/005_kuu|食う]] - 同義詞（粗俗）
+3. ✅ [食う](../verb-u/005_kuu.md) - 同義詞（粗俗）
    - 類型：同義詞
    - 方向：雙向
    - 原因：新建立的草稿卡片
 
-4. ✅ [[verb-u/007_hakidasu|吐き出す]] - 反義詞
+4. ✅ [吐き出す](../verb-u/007_hakidasu.md) - 反義詞
    - 類型：反義詞
    - 方向：雙向
    - 原因：新建立的草稿卡片
 
-5. ✅ [[noun/001_asagohan|朝ごはん]] - 相關詞彙
+5. ✅ [朝ごはん](../noun/001_asagohan.md) - 相關詞彙
    - 類型：主題相關（飲食）
    - 方向：雙向
    - 原因：例句中使用
 
-6. ✅ [[noun/007_tabemono|食べ物]] - 相關詞彙
+6. ✅ [食べ物](../noun/007_tabemono.md) - 相關詞彙
    - 類型：主題相關（飲食）
    - 方向：雙向
    - 原因：related_words
 
-7. ✅ [[verb-u/006_nomu|飲む]] - 相關詞彙
+7. ✅ [飲む](../verb-u/006_nomu.md) - 相關詞彙
    - 類型：主題相關（飲食）
    - 方向：雙向
    - 原因：新建立的草稿卡片
 
-8. ✅ [[particle/001_wo|を]] - 語法相關
+8. ✅ [を](../particle/001_wo.md) - 語法相關
    - 類型：助詞
    - 方向：單向
    - 原因：例句中使用
 
-9. ✅ [[honorific/001_meshiagaru_itadaku|敬語用法]] - 延伸卡片
+9. ✅ [敬語用法](../honorific/001_meshiagaru_itadaku.md) - 延伸卡片
    - 類型：延伸說明
    - 方向：雙向
    - 原因：敬語延伸卡片
@@ -1223,7 +1223,7 @@ Read: grammar/verb-types/ichidan.md (前 50 行)
 ...
 
 #### 低優先級連結（建議但未建立）(2)
-1. ⚠️ [[{path}|{word}]]
+1. ⚠️ [{word}]({path}.md)
    - 原因：關聯性較弱，暫不建立
 
 ### 更新的卡片
@@ -1331,21 +1331,21 @@ Read: grammar/verb-types/ichidan.md (前 50 行)
 ## 相關連結
 
 ### 同義詞・敬語
-- [[verb-u/003_meshiagaru|召し上がる]] - 尊敬語
-- [[verb-ru/004_itadaku|いただく]] - 謙讓語
+- [召し上がる](../verb-u/003_meshiagaru.md) - 尊敬語
+- [いただく](../verb-ru/004_itadaku.md) - 謙讓語
 
 ### 相關詞彙（飲食）
-- [[noun/001_asagohan|朝ごはん]] - 早餐
-- [[noun/007_tabemono|食べ物]] - 食物
-- [[verb-ru/005_nomu|飲む]] - 喝
+- [朝ごはん](../noun/001_asagohan.md) - 早餐
+- [食べ物](../noun/007_tabemono.md) - 食物
+- [飲む](../verb-ru/005_nomu.md) - 喝
 
 ### 語法相關
-- [[particle/001_wo|を]] - 賓語助詞
-- [[grammar/001_te_form|て形]] - 動詞て形
+- [を](../particle/001_wo.md) - 賓語助詞
+- [て形](../grammar/001_te_form.md) - 動詞て形
 
 ### 延伸說明
-- [[verb-ru/001_taberu_001_keigo|敬語用法]]
-- [[verb-ru/001_taberu_003_register|語域差異]]
+- [敬語用法](../verb-ru/001_taberu_001_keigo.md)
+- [語域差異](../verb-ru/001_taberu_003_register.md)
 ```
 
 **雙向更新**：
@@ -1385,14 +1385,14 @@ Read: grammar/verb-types/ichidan.md (前 50 行)
 ## 相關連結
 
 ### 基本卡片
-← [[verb-ru/001_taberu|食べる]] - 基本形
+← [食べる](../verb-ru/001_taberu.md) - 基本形
 
 ### 同詞彙的其他延伸
-- [[verb-ru/001_taberu_003_register|語域差異]]
+- [語域差異](../verb-ru/001_taberu_003_register.md)
 
 ### 相關詞彙
-- [[verb-u/003_meshiagaru|召し上がる]] - 尊敬語形式
-- [[verb-ru/004_itadaku|いただく]] - 謙讓語形式
+- [召し上がる](../verb-u/003_meshiagaru.md) - 尊敬語形式
+- [いただく](../verb-ru/004_itadaku.md) - 謙讓語形式
 ```
 
 ## 注意事項

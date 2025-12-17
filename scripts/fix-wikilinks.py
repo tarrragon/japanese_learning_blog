@@ -5,25 +5,30 @@
 # ///
 
 """
-fix-wikilinks.py - 修正 Wikilink 格式為標準 Markdown 連結
+fix-wikilinks.py - 將舊的 Wikilink 格式轉換為標準 Markdown 連結
 
-這個腳本會掃描所有卡片，將 Obsidian/Wikilink 格式 [[path|text]] 或 [[path]]
-轉換為標準 Markdown 格式 [text](path.md)，並正確計算相對路徑。
+⚠️ 本專案現在使用標準 Markdown 連結格式 [text](path.md)
+   此腳本用於修復歷史遺留的 Obsidian/Wikilink 格式 [[path|text]] 或 [[path]]
+
+背景說明：
+- 本專案最初使用 Obsidian 的 Wikilink 格式
+- 現已全面轉換為標準 Markdown 連結格式，以提高跨平台兼容性
+- 此腳本用於檢測並修復任何殘留的舊格式
 
 使用方式：
-    # 檢測問題
+    # 檢測是否有殘留的舊格式
     uv run scripts/fix-wikilinks.py --check
 
-    # 預覽變更
+    # 預覽轉換結果
     uv run scripts/fix-wikilinks.py --dry-run
 
-    # 執行修正
+    # 執行轉換
     uv run scripts/fix-wikilinks.py --fix
 
-    # 只修正特定分類
+    # 只處理特定分類
     uv run scripts/fix-wikilinks.py --fix --category grammar
 
-    # 驗證修正結果
+    # 驗證轉換結果
     uv run scripts/fix-wikilinks.py --verify
 """
 

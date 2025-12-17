@@ -355,7 +355,7 @@ uv run scripts/verify-meta.py --verbose
 # 檢查編號連續性
 uv run scripts/fix-numbering.py --check
 
-# 檢查 Wikilink 格式
+# 檢查連結格式（修復殘留的舊 Wikilink 格式）
 uv run scripts/fix-wikilinks.py --check
 ```
 
