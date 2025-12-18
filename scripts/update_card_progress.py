@@ -24,6 +24,8 @@ from pathlib import Path
 from datetime import datetime
 from typing import List, Dict, Optional
 
+from csv_config import get_default_csv_path
+
 class CardProgressUpdater:
     """更新卡片進度"""
 
@@ -173,8 +175,8 @@ def parse_id_range(id_range: str) -> List[int]:
 
 def main():
     parser = argparse.ArgumentParser(description='更新卡片進度')
-    parser.add_argument('--csv', default='doc/worklog/cards-1.0.6.csv',
-                       help='CSV 檔案路徑（預設: doc/worklog/cards-1.0.6.csv）')
+    parser.add_argument('--csv', default=get_default_csv_path(),
+                       help='CSV 檔案路徑（預設: 自動偵測最新版本）')
     parser.add_argument('--quiet', action='store_true',
                        help='安靜模式（減少輸出）')
 

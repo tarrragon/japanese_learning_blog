@@ -30,6 +30,8 @@ import sys
 from pathlib import Path
 from typing import List, Dict, Optional
 
+from csv_config import get_default_csv_path
+
 class PendingCardReader:
     """讀取待辦卡片清單"""
 
@@ -152,8 +154,8 @@ class PendingCardReader:
 
 def main():
     parser = argparse.ArgumentParser(description='讀取待辦卡片清單')
-    parser.add_argument('--csv', default='doc/worklog/cards-1.0.6.csv',
-                       help='CSV 檔案路徑（預設: doc/worklog/cards-1.0.6.csv）')
+    parser.add_argument('--csv', default=get_default_csv_path(),
+                       help='CSV 檔案路徑（預設: 自動偵測最新版本）')
 
     # 篩選條件
     parser.add_argument('--stage', help='篩選階段（pending, draft, extension-review, linking, completed）')

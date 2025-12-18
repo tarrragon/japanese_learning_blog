@@ -30,6 +30,8 @@ from pathlib import Path
 from datetime import datetime
 from typing import List, Dict, Optional
 
+from csv_config import get_default_csv_path
+
 class PendingCardAdder:
     """新增待辦卡片到 CSV"""
 
@@ -183,8 +185,8 @@ class PendingCardAdder:
 
 def main():
     parser = argparse.ArgumentParser(description='新增待辦卡片到 worklog CSV')
-    parser.add_argument('--csv', default='doc/worklog/cards-1.0.6.csv',
-                       help='CSV 檔案路徑（預設: doc/worklog/cards-1.0.6.csv）')
+    parser.add_argument('--csv', default=get_default_csv_path(),
+                       help='CSV 檔案路徑（預設: 自動偵測最新版本）')
 
     subparsers = parser.add_subparsers(dest='command', help='指令')
 

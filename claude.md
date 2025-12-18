@@ -123,10 +123,13 @@ uv run scripts/update_card_progress.py --id {card_id} --stage linking --quiet
 
 ### 階段 4：Final Verification（最終驗證）
 
+**代理人**：`diagram-designer`（`.claude/agents/diagram-designer.md`）- 可選
+
 **執行內容**：
 - 執行系統驗證腳本
 - 檢查編號連續性
 - 檢查連結格式
+- **圖表審查**（可選，由代理人判斷）
 - 更新 CHANGELOG.md
 
 **狀態轉換**：`linking` → `completed`
@@ -146,6 +149,20 @@ uv run scripts/verify-meta.py --verbose
 uv run scripts/manage_worklog_cards.py stats
 ```
 
+**圖表審查（可選）**：
+
+使用 `diagram-designer` 代理人審查本版本新增的卡片，評估是否需要新增視覺化圖表：
+
+```
+請審查 {category} 分類的卡片，評估是否需要圖表
+```
+
+**注意**：
+- 圖表審查是**非必要**步驟，由代理人自行判斷
+- 適合加入圖表的情況：多選項判斷、狀態變化、人際互動、分類層級
+- 不需要圖表的情況：單一詞彙、簡單打招呼用語
+- 詳細設計原則請參考：`.claude/diagram-guidelines.md`
+
 **階段完成命令**：
 ```bash
 # 驗證通過後，更新為 completed 狀態
@@ -157,6 +174,7 @@ uv run scripts/update_card_progress.py --id {card_id} --stage completed --quiet
 - ✅ 編號連續無衝突
 - ✅ 連結格式正確
 - ✅ Meta 系統驗證通過
+- ⚪ 圖表審查完成（可選）
 
 **最後動作**：
 - 更新 CHANGELOG.md
@@ -197,7 +215,7 @@ uv run scripts/update_card_progress.py --id {card_id} --stage completed --quiet
 │  ④ linking（連結已建立）                                         │
 │     ↓                                                           │
 │     │ 【階段 4: Final Verification】                            │
-│     │ [人工驗證系統]                                            │
+│     │ [人工驗證 + diagram-designer 代理人（可選）]              │
 │     │ 命令：uv run scripts/update_card_progress.py             │
 │     │       --id {card_id} --stage completed                   │
 │     ↓                                                           │

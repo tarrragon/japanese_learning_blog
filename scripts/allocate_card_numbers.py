@@ -33,6 +33,8 @@ from pathlib import Path
 from collections import defaultdict
 from typing import List, Dict
 
+from csv_config import get_default_csv_path
+
 # 專案根目錄
 PROJECT_ROOT = Path(__file__).parent.parent
 
@@ -197,8 +199,8 @@ class CardNumberAllocator:
 
 def main():
     parser = argparse.ArgumentParser(description='為待建立卡片預先分配編號')
-    parser.add_argument('--csv', default='doc/worklog/cards-1.0.6.csv',
-                       help='CSV 檔案路徑（預設: doc/worklog/cards-1.0.6.csv）')
+    parser.add_argument('--csv', default=get_default_csv_path(),
+                       help='CSV 檔案路徑（預設: 自動偵測最新版本）')
 
     # 篩選條件
     parser.add_argument('--stage', default='pending',
