@@ -248,3 +248,185 @@ body {
     font-size: 0.7rem;
   }
 }
+
+/* ========== 側邊章節導航樣式 ========== */
+
+.toc-sidebar {
+  position: fixed;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  width: 260px;
+  max-height: 70vh;
+  overflow-y: auto;
+  padding: 1.2rem;
+  background: var(--code-bg);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  z-index: 100;
+  transition: all 0.3s ease;
+}
+
+.toc-sidebar:hover {
+  border-color: var(--primary);
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.15);
+}
+
+/* 側邊欄標題 */
+.toc-sidebar h3 {
+  margin: 0 0 0.8rem 0;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--primary);
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.5rem;
+}
+
+/* 列表樣式 */
+.toc-sidebar nav#TableOfContents ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.toc-sidebar nav#TableOfContents li {
+  margin: 0.2rem 0;
+}
+
+/* 連結樣式 */
+.toc-sidebar nav#TableOfContents a {
+  display: block;
+  padding: 0.3rem 0.5rem;
+  color: var(--secondary);
+  text-decoration: none;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+  font-size: 0.85rem;
+  line-height: 1.4;
+}
+
+.toc-sidebar nav#TableOfContents a:hover {
+  background: var(--border);
+  color: var(--primary);
+}
+
+/* 當前章節高亮 */
+.toc-sidebar nav#TableOfContents a.active {
+  background: var(--primary);
+  color: var(--theme);
+  font-weight: 500;
+}
+
+/* 不同層級的縮排 */
+.toc-sidebar nav#TableOfContents ul ul {
+  margin-left: 0.8rem;
+  border-left: 2px solid var(--border);
+  padding-left: 0.5rem;
+}
+
+.toc-sidebar nav#TableOfContents ul ul ul {
+  margin-left: 0.6rem;
+}
+
+/* 滾動條美化 */
+.toc-sidebar::-webkit-scrollbar {
+  width: 4px;
+}
+
+.toc-sidebar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.toc-sidebar::-webkit-scrollbar-thumb {
+  background: var(--border);
+  border-radius: 2px;
+}
+
+.toc-sidebar::-webkit-scrollbar-thumb:hover {
+  background: var(--secondary);
+}
+
+/* 確保標題有正確的錨點偏移 */
+.post-content h2,
+.post-content h3,
+.post-content h4 {
+  scroll-margin-top: 2rem;
+}
+
+/* ========== 側邊欄響應式設計 ========== */
+
+/* 大螢幕調整 */
+@media (max-width: 1400px) {
+  .toc-sidebar {
+    width: 220px;
+    right: 15px;
+  }
+}
+
+/* 中螢幕調整 */
+@media (max-width: 1200px) {
+  .toc-sidebar {
+    width: 200px;
+    padding: 1rem;
+    font-size: 0.9rem;
+  }
+
+  .toc-sidebar h3 {
+    font-size: 0.9rem;
+  }
+
+  .toc-sidebar nav#TableOfContents a {
+    font-size: 0.8rem;
+    padding: 0.25rem 0.4rem;
+  }
+}
+
+/* 平板版：縮小側邊欄 */
+@media (max-width: 1024px) {
+  .toc-sidebar {
+    width: 180px;
+    padding: 0.8rem;
+    right: 10px;
+    max-height: 60vh;
+  }
+
+  .toc-sidebar h3 {
+    font-size: 0.85rem;
+    margin-bottom: 0.6rem;
+  }
+
+  .toc-sidebar nav#TableOfContents a {
+    font-size: 0.75rem;
+    padding: 0.2rem 0.3rem;
+  }
+
+  .toc-sidebar nav#TableOfContents ul ul {
+    margin-left: 0.5rem;
+  }
+}
+
+/* 小平板：進一步縮小 */
+@media (max-width: 900px) {
+  .toc-sidebar {
+    width: 160px;
+    padding: 0.6rem;
+    right: 8px;
+    max-height: 50vh;
+  }
+
+  .toc-sidebar h3 {
+    font-size: 0.8rem;
+  }
+
+  .toc-sidebar nav#TableOfContents a {
+    font-size: 0.7rem;
+  }
+}
+
+/* 手機版：隱藏側邊欄 */
+@media (max-width: 768px) {
+  .toc-sidebar {
+    display: none;
+  }
+}

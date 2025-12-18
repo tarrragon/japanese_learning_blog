@@ -40,6 +40,10 @@ enableEmoji = true
       unsafe = true  # 允許 HTML 標籤
     [markup.goldmark.extensions]
       footnote = true  # 啟用腳註
+  [markup.tableOfContents]
+    startLevel = 2  # 從 H2 標題開始
+    endLevel = 4    # 到 H4 標題結束
+    ordered = false # 使用無序列表
 
 # PaperMod 主題參數
 [params]
