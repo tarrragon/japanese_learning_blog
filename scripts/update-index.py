@@ -18,6 +18,7 @@
   --dry-run          只顯示會進行的變更，不實際寫入
   --force            強制重建整個索引
   --card FILENAME    指定要添加的卡片檔名 (如: 026_taberu.md)
+  --include-drafts   包含 draft: true 的卡片（預設會過濾掉）
 
 功能：
   1. 掃描資料夾中的所有卡片
@@ -86,6 +87,10 @@ def extract_card_info(card_path: Path) -> dict:
         match = re.match(r"^(\d{3})", card_path.name)
         number = int(match.group(1)) if match else 0
 
+        # 檢查 draft 狀態
+        draft_value = yaml_data.get("draft", "false").lower()
+        is_draft = draft_value == "true"
+
         return {
             "filename": card_path.name,
             "number": number,
@@ -93,14 +98,21 @@ def extract_card_info(card_path: Path) -> dict:
             "description": yaml_data.get("description", ""),
             "tags": yaml_data.get("tags", []),
             "type": yaml_data.get("type", ""),
+            "draft": is_draft,
         }
     except Exception as e:
         print(f"⚠️  讀取 {card_path.name} 失敗: {e}", file=sys.stderr)
         return None
 
 
-def scan_cards(category_path: Path) -> list[dict]:
-    """掃描資料夾中的所有卡片"""
+def scan_cards(category_path: Path, include_drafts: bool = False) -> list[dict]:
+    """
+    掃描資料夾中的所有卡片
+
+    Args:
+        category_path: 分類資料夾路徑
+        include_drafts: 是否包含 draft: true 的卡片（預設不包含）
+    """
     cards = []
 
     for file in category_path.iterdir():
@@ -109,6 +121,10 @@ def scan_cards(category_path: Path) -> list[dict]:
 
         card_info = extract_card_info(file)
         if card_info:
+            # 過濾草稿卡片（除非明確要求包含）
+            if card_info.get("draft", False) and not include_drafts:
+                print(f"   跳過草稿: {card_info['filename']}")
+                continue
             cards.append(card_info)
 
     # 按編號排序
@@ -176,9 +192,16 @@ def generate_index_content(category: str, cards: list[dict], original_content: s
     return "\n".join(lines) + "\n"
 
 
-def update_index(category: str, dry_run: bool = False, force: bool = False, specific_card: Optional[str] = None) -> bool:
+def update_index(category: str, dry_run: bool = False, force: bool = False, specific_card: Optional[str] = None, include_drafts: bool = False) -> bool:
     """
     更新索引檔案
+
+    Args:
+        category: 分類名稱
+        dry_run: 是否只預覽變更
+        force: 是否強制重建
+        specific_card: 指定要添加的卡片
+        include_drafts: 是否包含草稿卡片
 
     Returns:
         是否成功更新
@@ -200,8 +223,8 @@ def update_index(category: str, dry_run: bool = False, force: bool = False, spec
     if index_path.exists() and not force:
         original_content = index_path.read_text(encoding="utf-8")
 
-    # 掃描卡片
-    cards = scan_cards(category_path)
+    # 掃描卡片（預設過濾草稿）
+    cards = scan_cards(category_path, include_drafts=include_drafts)
 
     if not cards:
         print(f"⚠️  分類「{category}」中沒有卡片", file=sys.stderr)
@@ -245,6 +268,7 @@ def main():
     # 解析選項
     dry_run = "--dry-run" in args
     force = "--force" in args
+    include_drafts = "--include-drafts" in args
 
     specific_card = None
     if "--card" in args:
@@ -253,7 +277,7 @@ def main():
             specific_card = args[card_idx + 1]
 
     # 執行更新
-    success = update_index(category, dry_run, force, specific_card)
+    success = update_index(category, dry_run, force, specific_card, include_drafts)
 
     sys.exit(0 if success else 1)
 
