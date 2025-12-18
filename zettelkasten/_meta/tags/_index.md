@@ -110,30 +110,6 @@ Tags 用於標記卡片的屬性，幫助分類和檢索。每個卡片可以有
 
 - [001 - giving_receiving](special/001_giving_receiving/) - 授受表現
 
-## Tag 使用統計
-
-### Context Tags 使用次數
-- business: 1 次
-- casual: 9 次
-- family: 4 次
-- formal: 8 次
-- academic: 1 次
-- social: 1 次
-
-### Domain Tags 使用次數
-- economics: 2 次
-- daily_life: 6 次
-
-### JLPT Tags 使用次數
-- n5: 3 次
-- n4: 3 次
-- n3: 6 次
-- n2: 0 次
-- n1: 1 次
-- none: 0 次
-
-### Special Tags 使用次數
-- giving_receiving: 0 次
 
 ## 新增 Tag 流程
 
@@ -146,14 +122,6 @@ Tags 用於標記卡片的屬性，幫助分類和檢索。每個卡片可以有
 ---
 
 **建立日期**：2025-10-28
-**最後更新**：2025-10-30
+**最後更新**：2025-12-18
 
 ---
-
-## 新增記錄
-
-### 2025-10-30
-- 新增 Special Tags 分類（特殊文法標籤）
-- 建立 `special/001_giving_receiving` - 授受表現卡片
-- 新增 Linguistic Tags 分類（語言學特徵標籤）
-- 建立 8 個 linguistic tags：basic_form, comparison, concept, idiom, linguistic_theory, phrase, sentence_pattern, sentence_structure
