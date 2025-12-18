@@ -129,30 +129,30 @@ export class TypingSession {
    * @private
    */
   #handleComplete(character, buffer) {
-    // 發出 RomajiMatched 事件
+    // 1. 先發出 RomajiMatched 事件（顯示完成的羅馬字）
     this.#emit('RomajiMatched', {
       romaji: buffer.value,
       isPartial: false,
     });
 
-    // 發出 CharacterCompleted 事件
+    // 2. 推進到下一個字元並重置 buffer
+    //    （這樣 UI 可以在事件處理中取得正確的下一個字元）
+    this.#question = this.#question.advance();
+    this.#inputBuffer = new InputBuffer();
+
+    // 3. 發出 CharacterCompleted 事件
+    //    此時 getCurrentCharacter() 已經是下一個字元
     this.#emit('CharacterCompleted', {
-      character,
+      character,  // 剛完成的字元（供 UI 顯示用）
       duration: Date.now() - this.#startTime.getTime(),
     });
 
-    // 發出 SpeechRequested 事件
+    // 4. 發出 SpeechRequested 事件（朗讀剛完成的字元）
     this.#emit('SpeechRequested', {
       text: character.kana,
     });
 
-    // 推進到下一個字元
-    this.#question = this.#question.advance();
-
-    // 重置 buffer
-    this.#inputBuffer = new InputBuffer();
-
-    // 檢查是否完成整個題目
+    // 5. 檢查是否完成整個題目
     if (this.#question.isCompleted()) {
       this.#handleSessionComplete();
     }
