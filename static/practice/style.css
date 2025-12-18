@@ -97,6 +97,9 @@ body {
 .practice-display {
   text-align: center;
   margin-bottom: 3rem;
+  width: 100%;
+  max-width: 800px;
+  padding: 0 2rem;
 }
 
 .practice-title {
@@ -107,12 +110,45 @@ body {
   letter-spacing: 0.1em;
 }
 
+/* 日文文字容器 - 支援長文字滾動 */
+.practice-text-wrapper {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding: 0 1rem;
+}
+
+/* 左右漸層遮罩 */
+.practice-text-wrapper::before,
+.practice-text-wrapper::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 3rem;
+  z-index: 10;
+  pointer-events: none;
+}
+
+.practice-text-wrapper::before {
+  left: 0;
+  background: linear-gradient(to right, var(--color-bg), transparent);
+}
+
+.practice-text-wrapper::after {
+  right: 0;
+  background: linear-gradient(to left, var(--color-bg), transparent);
+}
+
 /* 日文文字 */
 .practice-text {
-  font-size: 3rem;
-  letter-spacing: 0.3em;
+  font-size: 2.5rem;
+  letter-spacing: 0.2em;
   margin-bottom: 1rem;
   line-height: 1.6;
+  white-space: nowrap;
+  display: inline-block;
+  transition: transform 0.3s ease-out;
 }
 
 /* 分隔線 */
@@ -123,12 +159,44 @@ body {
   margin: 1.5rem auto;
 }
 
+/* 羅馬拼音容器 */
+.practice-romaji-wrapper {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding: 0 1rem;
+}
+
+.practice-romaji-wrapper::before,
+.practice-romaji-wrapper::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 3rem;
+  z-index: 10;
+  pointer-events: none;
+}
+
+.practice-romaji-wrapper::before {
+  left: 0;
+  background: linear-gradient(to right, var(--color-bg), transparent);
+}
+
+.practice-romaji-wrapper::after {
+  right: 0;
+  background: linear-gradient(to left, var(--color-bg), transparent);
+}
+
 /* 羅馬拼音 */
 .practice-romaji {
   font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
-  font-size: 1.5rem;
-  letter-spacing: 0.5em;
+  font-size: 1.2rem;
+  letter-spacing: 0.3em;
   line-height: 1.8;
+  white-space: nowrap;
+  display: inline-block;
+  transition: transform 0.3s ease-out;
 }
 
 /* --- 文字狀態樣式 --- */
@@ -412,4 +480,191 @@ body {
   background: var(--color-key-hover) !important;
   transform: scale(0.92);
   transition: transform 0.05s ease;
+}
+
+/* ===================================
+   v1.1.0 新增樣式 - 題庫整合
+   =================================== */
+
+/* --- 控制面板 --- */
+.practice-controls {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 1rem 1.5rem;
+  background: rgba(31, 41, 55, 0.5);
+  border-radius: 12px;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.control-group {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.control-group label {
+  color: #9CA3AF;
+  font-size: 0.9rem;
+}
+
+.control-group select {
+  padding: 0.5rem 1rem;
+  font-size: 0.95rem;
+  background: #374151;
+  color: #fff;
+  border: 1px solid #4B5563;
+  border-radius: 6px;
+  cursor: pointer;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.control-group select:hover {
+  border-color: #6B7280;
+}
+
+.control-group select:focus {
+  border-color: var(--color-pending);
+}
+
+.control-btn {
+  padding: 0.5rem 1.25rem;
+  font-size: 0.95rem;
+  background: var(--color-pending);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.1s;
+}
+
+.control-btn:hover {
+  background: #2563EB;
+}
+
+.control-btn:active {
+  transform: scale(0.98);
+}
+
+.control-btn.secondary {
+  background: #4B5563;
+}
+
+.control-btn.secondary:hover {
+  background: #6B7280;
+}
+
+/* --- 載入和錯誤狀態 --- */
+.loading {
+  color: #9CA3AF;
+  font-size: 1.5rem;
+  animation: loadingPulse 1.5s infinite;
+}
+
+@keyframes loadingPulse {
+  0%, 100% { opacity: 0.5; }
+  50% { opacity: 1; }
+}
+
+.error-message {
+  text-align: center;
+  color: #EF4444;
+}
+
+.error-message p {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+.error-message button {
+  padding: 0.75rem 1.5rem;
+  background: var(--color-pending);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+/* --- 結果面板增強 --- */
+.source-link {
+  display: block;
+  margin: 1.5rem 0;
+  padding: 0.75rem 1rem;
+  background: rgba(59, 130, 246, 0.1);
+  border: 1px solid rgba(59, 130, 246, 0.3);
+  border-radius: 8px;
+  color: var(--color-pending);
+  text-decoration: none;
+  font-size: 0.95rem;
+  transition: background 0.2s, border-color 0.2s;
+}
+
+.source-link:hover {
+  background: rgba(59, 130, 246, 0.2);
+  border-color: var(--color-pending);
+}
+
+.result-actions {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.next-btn {
+  padding: 1rem 2rem;
+  font-size: 1.1rem;
+  background: var(--color-pending);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.1s;
+}
+
+.next-btn:hover {
+  background: #2563EB;
+}
+
+.next-btn:active {
+  transform: scale(0.98);
+}
+
+/* --- 長文字處理 --- */
+.practice-text {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  max-width: 100%;
+}
+
+/* 減少長題目的字體大小 */
+.practice-text.long-text {
+  font-size: 2rem;
+  letter-spacing: 0.15em;
+}
+
+/* --- 響應式調整 --- */
+@media (max-width: 768px) {
+  .practice-controls {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .control-group {
+    justify-content: center;
+  }
+
+  .result-stats {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .result-actions {
+    flex-direction: column;
+  }
 }
