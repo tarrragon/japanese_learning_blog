@@ -4,7 +4,7 @@ description: 表示典型特質、像...應有的樣子
 type: suffix
 subtype: adjective_forming
 jlpt: n4
-stage: draft
+stage: completed
 draft: false
 auto_generated: false
 needs_review: true

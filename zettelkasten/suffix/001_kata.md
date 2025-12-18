@@ -4,7 +4,7 @@ description: 表示「方法」、「方式」的接尾詞
 type: suffix
 subtype: nominal
 jlpt: n4
-stage: draft
+stage: completed
 draft: false
 auto_generated: false
 needs_review: true
