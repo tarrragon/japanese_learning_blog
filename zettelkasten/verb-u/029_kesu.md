@@ -7,6 +7,7 @@ tags: [verb-u, action, basic]
 date: 2025-10-31
 ---
 
+<!--more-->
 ## 用例
 
 ### 例文1

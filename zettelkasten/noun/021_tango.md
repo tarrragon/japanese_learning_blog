@@ -7,6 +7,7 @@ tags: [noun, language_learning, vocabulary]
 date: 2025-10-31
 ---
 
+<!--more-->
 ## Examples
 
 ### Example 1

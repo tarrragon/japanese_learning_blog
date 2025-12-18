@@ -7,6 +7,7 @@ tags: [noun, business, formal]
 date: 2025-10-31
 ---
 
+<!--more-->
 ## 例句
 
 1. **会社と新しい契約を結んだ。**
