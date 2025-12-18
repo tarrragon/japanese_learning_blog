@@ -145,6 +145,23 @@ When combined with the te-form[^te-form] of verbs, these expressions can indicat
 
 授受表現的使用與日語「內與外」[^uchi-soto]的概念密切相關。以說話者的立場為中心，判斷恩惠的方向是向內（くれる・もらう）還是向外（あげる・やる）。
 
+### 授受表現方向圖
+
+```mermaid
+sequenceDiagram
+    participant 私 as 私（說話者）
+    participant 友達 as 友達
+
+    Note over 私,友達: あげる系（向外給予）
+    私->>友達: 本をあげる
+
+    Note over 私,友達: くれる系（向內接受）
+    友達->>私: プレゼントをくれる
+
+    Note over 私,友達: もらう系（主動接受）
+    私-->>友達: 辞書をもらう
+```
+
 ### て形複合表現
 
 與動詞的て形[^te-form]結合，可以表達行為的授受：
