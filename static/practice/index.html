@@ -28,15 +28,19 @@
       <h1 class="practice-title">日文輸入練習</h1>
 
       <!-- 日文文字（由 JS 動態渲染） -->
-      <div class="practice-text" id="practice-text">
-        <span class="char char-pending">載入中...</span>
+      <div class="practice-text-wrapper">
+        <div class="practice-text" id="practice-text">
+          <span class="char char-pending">載入中...</span>
+        </div>
       </div>
 
       <!-- 分隔線 -->
       <div class="divider"></div>
 
       <!-- 羅馬拼音（由 JS 動態渲染） -->
-      <div class="practice-romaji" id="practice-romaji"></div>
+      <div class="practice-romaji-wrapper">
+        <div class="practice-romaji" id="practice-romaji"></div>
+      </div>
 
       <!-- 輸入緩衝區顯示 -->
       <div class="buffer-display" id="buffer-display"></div>

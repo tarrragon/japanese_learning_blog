@@ -1,11 +1,16 @@
 /**
  * 日文輸入練習 - 主入口
+ *
+ * 支援兩種模式：
+ * 1. 題庫模式：從 /data/questions.json 載入卡片解釋作為題目
+ * 2. 傳統模式：使用預設假名練習題目
  */
 import { PracticeController } from './ui/PracticeController.js';
 import { KeyboardRenderer } from './ui/KeyboardRenderer.js';
+import { QuestionLoader } from './services/QuestionLoader.js';
 
 /**
- * 練習題目列表
+ * 傳統練習題目（假名）
  */
 const PRACTICE_TEXTS = [
   'あいうえお',
@@ -35,7 +40,18 @@ const PRACTICE_TEXTS = [
 ];
 
 /**
- * 隨機選擇練習文字
+ * 應用程式狀態
+ */
+let questionLoader = null;
+let currentController = null;
+let keyboardRenderer = null;
+let elements = {};
+let currentFilters = {
+  jlpt: 'all',
+};
+
+/**
+ * 隨機選擇傳統練習文字
  */
 function getRandomText() {
   const index = Math.floor(Math.random() * PRACTICE_TEXTS.length);
@@ -43,9 +59,153 @@ function getRandomText() {
 }
 
 /**
+ * 顯示載入中狀態
+ */
+function showLoading() {
+  const textContainer = elements.textContainer;
+  if (textContainer) {
+    textContainer.innerHTML = '<span class="loading">載入題庫中...</span>';
+  }
+}
+
+/**
+ * 顯示錯誤狀態
+ */
+function showError(message) {
+  const textContainer = elements.textContainer;
+  if (textContainer) {
+    textContainer.innerHTML = `
+      <div class="error-message">
+        <p>${message}</p>
+        <button onclick="location.reload()">重新載入</button>
+      </div>
+    `;
+  }
+}
+
+/**
+ * 建立控制面板
+ */
+function createControlPanel() {
+  const container = document.querySelector('.practice-container');
+  if (!container) return;
+
+  // 檢查是否已存在
+  if (document.getElementById('practice-controls')) return;
+
+  const controlPanel = document.createElement('div');
+  controlPanel.id = 'practice-controls';
+  controlPanel.className = 'practice-controls';
+  controlPanel.innerHTML = `
+    <div class="control-group">
+      <label for="jlpt-filter">JLPT 等級：</label>
+      <select id="jlpt-filter">
+        <option value="all">全部</option>
+        <option value="n5">N5</option>
+        <option value="n4">N4</option>
+        <option value="n3">N3</option>
+        <option value="n2">N2</option>
+        <option value="n1">N1</option>
+      </select>
+    </div>
+    <div class="control-group">
+      <button id="btn-next" class="control-btn">下一題</button>
+      <button id="btn-kana-mode" class="control-btn secondary">假名模式</button>
+    </div>
+  `;
+
+  // 插入到練習區域上方
+  const practiceArea = container.querySelector('.practice-area') || container.firstChild;
+  container.insertBefore(controlPanel, practiceArea);
+
+  // 綁定事件
+  const jlptFilter = document.getElementById('jlpt-filter');
+  if (jlptFilter) {
+    // 恢復儲存的篩選條件
+    const savedJlpt = localStorage.getItem('practice-jlpt-filter');
+    if (savedJlpt) {
+      jlptFilter.value = savedJlpt;
+      currentFilters.jlpt = savedJlpt;
+    }
+
+    jlptFilter.addEventListener('change', (e) => {
+      currentFilters.jlpt = e.target.value;
+      localStorage.setItem('practice-jlpt-filter', e.target.value);
+      loadNextQuestion();
+    });
+  }
+
+  const nextBtn = document.getElementById('btn-next');
+  if (nextBtn) {
+    nextBtn.addEventListener('click', loadNextQuestion);
+  }
+
+  const kanaModeBtn = document.getElementById('btn-kana-mode');
+  if (kanaModeBtn) {
+    kanaModeBtn.addEventListener('click', () => {
+      startKanaMode();
+    });
+  }
+}
+
+/**
+ * 載入下一題
+ */
+async function loadNextQuestion() {
+  if (!questionLoader || !questionLoader.isLoaded()) {
+    console.error('題庫尚未載入');
+    return;
+  }
+
+  // 隱藏結果面板
+  if (elements.resultContainer) {
+    elements.resultContainer.style.display = 'none';
+  }
+
+  // 隨機選取題目
+  const questionData = questionLoader.getRandomQuestion(currentFilters);
+
+  if (!questionData) {
+    showError('找不到符合條件的題目');
+    return;
+  }
+
+  // 建立新的控制器
+  currentController = new PracticeController({
+    questionData,
+    elements,
+    keyboardRenderer,
+    onNextQuestion: loadNextQuestion,
+  });
+
+  console.log('載入題目:', questionData.id, questionData.text.substring(0, 30) + '...');
+}
+
+/**
+ * 啟動假名模式
+ */
+function startKanaMode() {
+  // 隱藏結果面板
+  if (elements.resultContainer) {
+    elements.resultContainer.style.display = 'none';
+  }
+
+  const practiceText = getRandomText();
+
+  currentController = new PracticeController({
+    text: practiceText,
+    elements,
+    keyboardRenderer,
+    onNextQuestion: startKanaMode,
+  });
+
+  console.log('假名模式:', practiceText);
+}
+
+/**
  * 初始化應用程式
  */
-function init() {
+async function init() {
   // 取得 DOM 元素
   const textContainer = document.getElementById('practice-text');
   const romajiContainer = document.getElementById('practice-romaji');
@@ -75,27 +235,61 @@ function init() {
     romajiContainer.parentNode?.insertBefore(bufferDisplay, romajiContainer.nextSibling);
   }
 
+  // 儲存元素參照
+  elements = {
+    textContainer,
+    romajiContainer,
+    resultContainer,
+    bufferDisplay,
+  };
+
   // 建立鍵盤渲染器
-  const keyboardRenderer = new KeyboardRenderer(keyboardContainer);
+  keyboardRenderer = new KeyboardRenderer(keyboardContainer);
 
-  // 取得練習文字（可從 URL 參數或隨機選擇）
+  // 建立控制面板
+  createControlPanel();
+
+  // 檢查 URL 參數
   const urlParams = new URLSearchParams(window.location.search);
-  const practiceText = urlParams.get('text') || getRandomText();
+  const textParam = urlParams.get('text');
+  const modeParam = urlParams.get('mode');
 
-  // 建立控制器
-  const controller = new PracticeController({
-    text: practiceText,
-    elements: {
-      textContainer,
-      romajiContainer,
-      resultContainer,
-      bufferDisplay,
-    },
-    keyboardRenderer,
-  });
+  if (textParam) {
+    // 直接使用 URL 指定的文字
+    currentController = new PracticeController({
+      text: textParam,
+      elements,
+      keyboardRenderer,
+    });
+    console.log('URL 模式:', textParam);
+    return;
+  }
 
-  // 顯示當前練習文字（debug 用）
-  console.log('練習文字:', practiceText);
+  if (modeParam === 'kana') {
+    // 假名模式
+    startKanaMode();
+    return;
+  }
+
+  // 預設：題庫模式
+  showLoading();
+
+  try {
+    questionLoader = new QuestionLoader();
+    await questionLoader.load();
+
+    console.log('題庫載入完成:', questionLoader.getStats());
+
+    // 載入第一題
+    loadNextQuestion();
+  } catch (error) {
+    console.error('題庫載入失敗:', error);
+    // 降級到假名模式
+    showError('題庫載入失敗，切換到假名模式');
+    setTimeout(() => {
+      startKanaMode();
+    }, 2000);
+  }
 }
 
 // 頁面載入後初始化

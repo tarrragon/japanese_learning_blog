@@ -210,6 +210,72 @@ export class Question {
   }
 
   /**
+   * 從題庫資料建立題目
+   * @param {Object} data - 題庫中的題目資料
+   * @param {string} data.id - 題目 ID
+   * @param {string} data.text - 題目文字
+   * @param {Array} data.characters - 字元陣列
+   * @param {Object} data.source - 來源資訊
+   * @param {Object} data.metadata - 元資料
+   * @returns {Question}
+   */
+  static fromQuestionData(data) {
+    const characters = data.characters.map((charData, index) => {
+      // 使用題庫提供的 kana 和 romaji
+      const char = new Character(
+        charData.kana,
+        CharacterState.PENDING,
+        charData.romaji
+      );
+      // 第一個字元設為 CURRENT
+      return index === 0 ? char.setCurrent() : char;
+    });
+
+    // 建立題目實例
+    const question = new Question(data.text, characters, 0);
+
+    // 附加額外資訊
+    question._id = data.id;
+    question._displayCharacters = data.characters; // 保留 display 資訊
+    question._source = data.source;
+    question._metadata = data.metadata;
+
+    return question;
+  }
+
+  /**
+   * 取得題目 ID（題庫題目專用）
+   * @returns {string|undefined}
+   */
+  get id() {
+    return this._id;
+  }
+
+  /**
+   * 取得顯示用字元（題庫題目專用）
+   * @returns {Array|undefined}
+   */
+  get displayCharacters() {
+    return this._displayCharacters;
+  }
+
+  /**
+   * 取得來源資訊（題庫題目專用）
+   * @returns {Object|undefined}
+   */
+  get source() {
+    return this._source;
+  }
+
+  /**
+   * 取得元資料（題庫題目專用）
+   * @returns {Object|undefined}
+   */
+  get metadata() {
+    return this._metadata;
+  }
+
+  /**
    * 取得原始文字
    * @returns {string}
    */

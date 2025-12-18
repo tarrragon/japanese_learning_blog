@@ -22,3 +22,9 @@ venv/
 
 # 日誌
 *.log
+
+# 並發鎖定檔
+.locks/
+
+# 建置時產生的題庫（由 CI 產生）
+static/data/
