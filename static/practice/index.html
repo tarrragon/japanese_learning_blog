@@ -27,35 +27,19 @@
     <section class="practice-display">
       <h1 class="practice-title">日文輸入練習</h1>
 
-      <!-- 日文文字 -->
+      <!-- 日文文字（由 JS 動態渲染） -->
       <div class="practice-text" id="practice-text">
-        <span class="char char-completed">朝</span>
-        <span class="char char-completed">ご</span>
-        <span class="char char-completed">は</span>
-        <span class="char char-current">ん</span>
-        <span class="char char-pending">を</span>
-        <span class="char char-pending">食</span>
-        <span class="char char-pending">べ</span>
-        <span class="char char-pending">ま</span>
-        <span class="char char-pending">す</span>
+        <span class="char char-pending">載入中...</span>
       </div>
 
       <!-- 分隔線 -->
       <div class="divider"></div>
 
-      <!-- 羅馬拼音 -->
-      <div class="practice-romaji" id="practice-romaji">
-        <span class="romaji romaji-completed">a</span>
-        <span class="romaji romaji-completed">sa</span>
-        <span class="romaji romaji-completed">go</span>
-        <span class="romaji romaji-completed">ha</span>
-        <span class="romaji romaji-current">n</span>
-        <span class="romaji romaji-pending">wo</span>
-        <span class="romaji romaji-pending">ta</span>
-        <span class="romaji romaji-pending">be</span>
-        <span class="romaji romaji-pending">ma</span>
-        <span class="romaji romaji-pending">su</span>
-      </div>
+      <!-- 羅馬拼音（由 JS 動態渲染） -->
+      <div class="practice-romaji" id="practice-romaji"></div>
+
+      <!-- 輸入緩衝區顯示 -->
+      <div class="buffer-display" id="buffer-display"></div>
     </section>
 
     <!-- 虛擬鍵盤 -->
@@ -92,7 +76,7 @@
         <div class="key" data-key="c">C</div>
         <div class="key" data-key="v">V</div>
         <div class="key" data-key="b">B</div>
-        <div class="key" data-key="n" class="key-target">N</div>
+        <div class="key" data-key="n">N</div>
         <div class="key" data-key="m">M</div>
       </div>
     </section>
@@ -101,6 +85,12 @@
     <footer class="practice-footer">
       <p class="hint">使用實體鍵盤輸入羅馬拼音</p>
     </footer>
+
+    <!-- 結果顯示區（初始隱藏） -->
+    <div class="result-container" id="result-container" style="display: none;"></div>
   </main>
+
+  <!-- 載入練習邏輯 -->
+  <script src="js/practice.js"></script>
 </body>
 </html>

@@ -1,6 +1,6 @@
 /* ===================================
    日文輸入練習頁面樣式
-   v1.0.8 - 靜態 UI
+   v1.0.9 - 完整互動
    =================================== */
 
 /* --- 基礎設定 --- */
@@ -279,4 +279,137 @@ body {
   .mobile-notice {
     display: flex;
   }
+}
+
+/* ===================================
+   v1.0.9 新增樣式
+   =================================== */
+
+/* --- 輸入緩衝區顯示 --- */
+.buffer-display {
+  font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
+  font-size: 1.2rem;
+  color: var(--color-current);
+  min-height: 1.5em;
+  margin-top: 0.5rem;
+  opacity: 0.8;
+}
+
+/* --- 閃爍效果 --- */
+@keyframes flash-success {
+  0% { opacity: 1; }
+  50% { opacity: 0.5; }
+  100% { opacity: 1; }
+}
+
+@keyframes flash-error {
+  0% { transform: translateX(0); }
+  25% { transform: translateX(-5px); }
+  50% { transform: translateX(5px); }
+  75% { transform: translateX(-5px); }
+  100% { transform: translateX(0); }
+}
+
+.flash-success {
+  animation: flash-success 0.2s ease;
+}
+
+.flash-error {
+  animation: flash-error 0.2s ease;
+}
+
+.flash-error .char-current,
+.flash-error .romaji-current {
+  color: #EF4444 !important;
+  text-shadow: 0 0 10px rgba(239, 68, 68, 0.5) !important;
+}
+
+/* --- 結果顯示區 --- */
+.result-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.9);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+}
+
+.result-box {
+  background: #1F2937;
+  padding: 3rem 4rem;
+  border-radius: 16px;
+  text-align: center;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+}
+
+.result-box h2 {
+  font-size: 2rem;
+  color: var(--color-current);
+  margin-bottom: 2rem;
+}
+
+.result-stats {
+  display: flex;
+  gap: 3rem;
+  margin-bottom: 2rem;
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.stat-value {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+.stat-label {
+  font-size: 0.9rem;
+  color: #9CA3AF;
+  margin-top: 0.5rem;
+}
+
+.retry-btn {
+  padding: 1rem 2rem;
+  font-size: 1.1rem;
+  background: var(--color-current);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.1s;
+}
+
+.retry-btn:hover {
+  background: #059669;
+}
+
+.retry-btn:active {
+  transform: scale(0.98);
+}
+
+/* --- 按鍵效果增強 --- */
+.key-target {
+  border: 2px solid var(--color-current);
+  box-shadow: 0 0 12px rgba(16, 185, 129, 0.4);
+  animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+  0% { box-shadow: 0 0 12px rgba(16, 185, 129, 0.4); }
+  50% { box-shadow: 0 0 20px rgba(16, 185, 129, 0.6); }
+  100% { box-shadow: 0 0 12px rgba(16, 185, 129, 0.4); }
+}
+
+.key-pressed {
+  background: var(--color-key-hover) !important;
+  transform: scale(0.92);
+  transition: transform 0.05s ease;
 }
