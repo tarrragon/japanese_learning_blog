@@ -129,7 +129,8 @@ uv run scripts/manage_worklog_cards.py stats
 
 ### 使用代理人
 
-`create-card`（`.claude/agents/create-card.md`）
+**結構代理人**：`card-structure-handler`（`.claude/agents/card-structure-handler.md`）
+**內容代理人**：`build-card-content`（`.claude/agents/build-card-content.md`）
 
 ### 執行步驟
 
@@ -148,7 +149,7 @@ uv run scripts/get_pending_cards.py --stage pending --priority Critical --format
 
 **步驟 2：啟動平行代理人**
 
-使用 Task 工具一次啟動 5-10 個 create-card 代理人。
+使用 Task 工具一次啟動 5-10 個 card-structure-handler + build-card-content 代理人。
 
 **重要**：傳遞卡片 ID 給代理人，以便完成後更新 CSV。
 

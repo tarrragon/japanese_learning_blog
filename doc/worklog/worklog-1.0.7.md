@@ -184,25 +184,29 @@ date: 2024-12-18
 **不負責**：
 - 卡片內容（三語解釋、例句、使用規則）
 
-#### 2. 更新 create-card 代理人
+#### 2. 重命名 create-card 代理人為 build-card-content
 
-**修改檔案**：`.claude/agents/create-card.md`
+**修改檔案**：`.claude/agents/create-card.md` → `.claude/agents/build-card-content.md`
 
 **新職責**：
-- 接收已有 YAML frontmatter 的卡片
+- 接收已有 YAML frontmatter 的卡片（由 card-structure-handler 建立）
 - 專注於填充內容（三語解釋、例句、使用規則等）
 - 不再負責建立檔案和 YAML frontmatter
+- 保留現有的 title、description、tags（不修改）
 
-#### 3. 修復 351 張卡片的 title
+#### 3. 修復 378 張卡片的 title
 
-**方法**：使用腳本批次提取正確標題
+**方法**：使用 `card-structure-handler` 代理人平行修復（漸進式策略）
+
+**策略**：
+1. 少量測試（5-10 張）→ 驗證代理人正確性
+2. 小批量驗證（30-50 張）→ 確認並發無問題
+3. 大規模平行修復（剩餘 ~320 張）
 
 **標題來源**：
-- 詞彙卡（noun, verb-ru, verb-u 等）：從 `## 日文` 後的內容提取
-- 比較卡（comparison）：從 `description` 欄位提取（如 `が vs は`）
-- 概念卡（concept）：從 `## 日文` 或標題內容提取
-
-**修復腳本**：`scripts/fix-card-titles.py`
+- 詞彙卡（noun, verb-ru, verb-u 等）：從 `## 日文` 後的內容提取日文和讀音
+- 比較卡（comparison）：從內容提取比較項目（如 `いる vs ある`）
+- 概念卡（concept）：從 `## 日文` 或描述中提取概念名稱
 
 ---
 
@@ -211,15 +215,14 @@ date: 2024-12-18
 ### 立即任務
 
 - [x] 建立此工作日誌：`doc/worklog/worklog-1.0.7.md`
-- [ ] 建立修復腳本：`scripts/fix-card-titles.py`
-- [ ] 執行腳本修復 351 張卡片的 title 欄位
+- [x] 建立卡片結構代理人：`.claude/agents/card-structure-handler.md`
+- [x] 重命名 create-card → build-card-content 並更新職責
+- [x] 更新 CLAUDE.md 和相關文檔
+- [ ] 漸進式修復 378 張卡片的 title 欄位
 - [ ] 驗證 Hugo 建置和搜尋功能
 
 ### 後續任務
 
-- [ ] 建立卡片結構代理人：`.claude/agents/init-card-structure.md`
-- [ ] 更新 create-card 代理人職責
-- [ ] 更新 CLAUDE.md 文檔（兩步驟卡片建立流程）
 - [ ] 更新 `.claude/card-format-guidelines.md`（title 格式規範）
 
 ---
@@ -229,7 +232,8 @@ date: 2024-12-18
 | 檔案路徑 | 說明 |
 |---------|------|
 | `doc/specs/v1.0.7-hugo-setup.md` | 版本規格文檔 |
-| `.claude/agents/create-card.md` | 現有卡片建立代理人 |
+| `.claude/agents/card-structure-handler.md` | 卡片結構處理代理人（新增） |
+| `.claude/agents/build-card-content.md` | 卡片內容填充代理人（原 create-card） |
 | `scripts/update-index.py` | 索引更新腳本（已修正） |
 | `scripts/fix-numbering.py` | 編號修復腳本（已優化） |
 

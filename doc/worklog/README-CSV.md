@@ -80,7 +80,7 @@ scripts/
 |------|------|-----------|
 | **get_pending_cards.py** | 讀取待辦卡片清單（建立 Todo） | 主線程、代理人 |
 | **add_pending_cards.py** | 新增待辦卡片 | Extension-Review 代理人 |
-| **update_card_progress.py** | 更新卡片進度 | create-card 代理人 |
+| **update_card_progress.py** | 更新卡片進度 | build-card-content 代理人 |
 | **manage_worklog_cards.py** | 查詢統計與驗證 | 人工查詢 |
 
 ### 安裝
@@ -203,7 +203,7 @@ cat cards.json | uv run scripts/add_pending_cards.py batch --from-json -
 
 ### 3. 更新卡片進度（update_card_progress.py）
 
-**用途**：更新卡片階段和批次（供 create-card 代理人使用）
+**用途**：更新卡片階段和批次（供 build-card-content 代理人使用）
 
 #### 基本用法
 
@@ -284,11 +284,11 @@ uv run scripts/add_pending_cards.py batch --from-json extension-cards-new.json
 uv run scripts/manage_worklog_cards.py stats
 ```
 
-### 情境 3：create-card 代理人完成卡片建立
+### 情境 3：build-card-content 代理人完成卡片建立
 
 ```bash
-# create-card 代理人在完成卡片建立後，呼叫更新腳本
-uv run scripts/update_card_progress.py --id 59 --stage completed --batch 1 --quiet
+# build-card-content 代理人在完成卡片建立後，呼叫更新腳本
+uv run scripts/update_card_progress.py --id 59 --stage draft --batch 1 --quiet
 ```
 
 
@@ -412,7 +412,7 @@ uv run scripts/manage_worklog_cards.py stats
 ### 腳本
 - **讀取清單**：`scripts/get_pending_cards.py` - 查詢待辦卡片清單（建立 Todo）
 - **新增卡片**：`scripts/add_pending_cards.py` - 新增待辦卡片（Extension-Review）
-- **更新進度**：`scripts/update_card_progress.py` - 更新卡片階段（create-card）
+- **更新進度**：`scripts/update_card_progress.py` - 更新卡片階段（build-card-content）
 - **查詢統計**：`scripts/manage_worklog_cards.py` - 統計與驗證（人工查詢）
 - **提取工具**：`scripts/extract_cards_to_csv.py` - 從 Markdown 提取 CSV（維護用）
 
@@ -420,7 +420,7 @@ uv run scripts/manage_worklog_cards.py stats
 
 ## 💡 未來改進方向
 
-1. ~~**自動化**：create-card 代理人完成後自動更新 CSV~~ ✅ **已完成**（update_card_progress.py）
+1. ~~**自動化**：build-card-content 代理人完成後自動更新 CSV~~ ✅ **已完成**（update_card_progress.py）
 2. **報告生成**：自動生成進度報告 Markdown
 3. **視覺化**：生成進度圖表
 4. ~~**Extension-Review 整合**：直接產出 CSV 格式~~ ✅ **已完成**（add_pending_cards.py）

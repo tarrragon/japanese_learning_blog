@@ -45,11 +45,12 @@
 2. 從延伸需求中篩選 Critical/High 優先級卡片
 3. 建立本版本工作清單：`doc/worklog/worklog-{version}.md`
 
-**代理人**：`create-card`（`.claude/agents/create-card.md`）
+**結構代理人**：`card-structure-handler`（`.claude/agents/card-structure-handler.md`）
+**內容代理人**：`build-card-content`（`.claude/agents/build-card-content.md`）
 
 **執行內容**：
-- 建立卡片檔案（三語解釋、例句、用法）
-- 使用 `get-next-number.py {category}` 取得編號
+- card-structure-handler 建立卡片檔案結構（YAML、檔名、基本區塊）
+- build-card-content 填充卡片內容（三語解釋、例句、用法）
 - 使用 `update-index.py {category}` 更新索引
 
 **狀態轉換**：`pending` → `draft`
@@ -69,7 +70,7 @@ uv run scripts/update_card_progress.py --id {card_id} --stage draft --quiet
 - ✅ `get-next-number.py` 已支援並發（使用檔案鎖機制）
 - ✅ 推薦使用 `allocate_card_numbers.py` 預先分配編號
 - ✅ 代理人優先使用 `allocated_number` 欄位
-- ✅ 支援平行執行多個 create-card 代理人
+- ✅ 支援平行執行多個 card-structure-handler 和 build-card-content 代理人
 
 ---
 
@@ -175,7 +176,7 @@ uv run scripts/update_card_progress.py --id {card_id} --stage completed --quiet
 │  ① pending（待處理）                                             │
 │     ↓                                                           │
 │     │ 【階段 1: Content Creation】                              │
-│     │ [create-card 代理人建立卡片內容]                           │
+│     │ [card-structure-handler + build-card-content 代理人]      │
 │     │ 命令：uv run scripts/update_card_progress.py             │
 │     │       --id {card_id} --stage draft                       │
 │     ↓                                                           │
@@ -337,7 +338,7 @@ japanese_learning_blog/
 | 目錄 | 功能 | 主要內容 |
 |------|------|----------|
 | `.claude/` | Claude Code 配置 | 代理人、命令、模板、規範 |
-| `.claude/agents/` | 代理人定義 | create-card, build-card-links 等自動化流程 |
+| `.claude/agents/` | 代理人定義 | card-structure-handler, build-card-content, build-card-links 等自動化流程 |
 | `.claude/commands/` | Slash Commands | /create-zettel, /analyze-article 等指令 |
 | `doc/worklog/` | 版本追蹤 | 工作日誌、CSV 卡片清單、階段報告 |
 | `doc/specs/` | 版本規格 | v1.0.7-v1.1.0 開發規格文檔 |
@@ -358,13 +359,14 @@ japanese_learning_blog/
 - **適用**：學習新文章、拓展新領域
 
 ### 場景 B：系統需求補充
-- **代理人**：`create-card`（`.claude/agents/create-card.md`）
+- **結構代理人**：`card-structure-handler`（`.claude/agents/card-structure-handler.md`）
+- **內容代理人**：`build-card-content`（`.claude/agents/build-card-content.md`）
 - **觸發**：前一版本的 Extension-Review 和 Linking 階段識別缺口
 - **流程**：
   1. 檢視 `doc/worklog/extension-cards-{prev}.md` 和 `linking-cards-{prev}.md`
   2. 篩選 Critical/High 優先級卡片
   3. 建立本版本工作清單（`worklog-{version}.md`）
-  4. 逐張建立卡片 → 四階段循環
+  4. card-structure-handler 建立卡片結構 → build-card-content 填充內容 → 四階段循環
 - **適用**：版本循環 Draft 階段
 
 ---
@@ -447,7 +449,7 @@ uv run scripts/add_pending_cards.py add --category noun --number 025 \
 
 uv run scripts/add_pending_cards.py batch --from-json cards.json  # 批次新增
 
-# 3. 更新卡片進度（create-card 代理人使用）
+# 3. 更新卡片進度（build-card-content 代理人使用）
 uv run scripts/update_card_progress.py --id 59 --stage completed --quiet
 
 # 4. 查詢統計與驗證
@@ -462,7 +464,7 @@ uv run scripts/manage_worklog_cards.py validate
 |------|------|-----------|
 | `get_pending_cards.py` | 讀取待辦卡片清單 | 主線程、代理人 |
 | `add_pending_cards.py` | 新增待辦卡片 | Extension-Review 代理人 |
-| `update_card_progress.py` | 更新卡片進度 | create-card 代理人 |
+| `update_card_progress.py` | 更新卡片進度 | build-card-content 代理人 |
 | `manage_worklog_cards.py` | 查詢統計與驗證 | 人工查詢 |
 
 詳細使用說明請參考：`doc/worklog/README-CSV.md`
@@ -545,7 +547,7 @@ uv run scripts/manage_worklog_cards.py validate
 | 工作日誌 | 版本工作日誌 | `doc/worklog/worklog-{version}.md` | 記錄整個版本的進度、卡片清單、階段狀態 |
 | 版本依賴 | 版本間依賴關係 | - | v{X} 的延伸需求報告 → v{X+1} 的輸入來源 |
 | 版本規劃 | Content Creation 前置步驟 | - | 階段 1 前的準備工作，檢視前版本報告並建立工作清單 |
-| 代理人 | Agent | `.claude/agents/*.md` | 專門處理特定任務的自動化工作流程（如 create-card） |
+| 代理人 | Agent | `.claude/agents/*.md` | 專門處理特定任務的自動化工作流程（如 card-structure-handler, build-card-content） |
 
 **使用原則**：
 - 文檔中應使用標準名稱，避免混用同義詞

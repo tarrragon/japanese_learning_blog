@@ -196,10 +196,10 @@ uv run scripts/manage_worklog_cards.py validate
    uv run scripts/get_pending_cards.py --stage pending --priority Critical --format json
    ```
 
-2. **create-card 代理人建立卡片**
+2. **card-structure-handler + build-card-content 代理人建立卡片**
    - 代理人完成後會自動執行：
    ```bash
-   uv run scripts/update_card_progress.py --id {card_id} --stage completed --quiet
+   uv run scripts/update_card_progress.py --id {card_id} --stage draft --quiet
    ```
 
 3. **查看進度**
@@ -274,13 +274,13 @@ uv run scripts/manage_worklog_cards.py validate
    - `manage_worklog_cards.py` - 查詢統計與驗證
 4. ✅ 檢查並移除重複卡片
 5. ✅ 簡化 worklog 為 CSV + Markdown 混合方案
-6. ✅ 更新三個代理人文檔（create-card, create-extension-cards, build-card-links）
+6. ✅ 更新三個代理人文檔（build-card-content, create-extension-cards, build-card-links）
 7. ✅ 更新執行流程文檔（doc/execution-workflow.md）
 
 ⏭️ **下一步**：
 1. 使用 `get_pending_cards.py` 讀取 Critical 優先級卡片（66 張）
 2. 為每張卡片建立 Todo
-3. 使用 `create-card` 代理人平行建立卡片
+3. 使用 `card-structure-handler` + `build-card-content` 代理人平行建立卡片
 4. 代理人完成後自動呼叫 `update_card_progress.py` 更新狀態
 5. 使用 `manage_worklog_cards.py stats` 追蹤進度
 
@@ -306,7 +306,8 @@ uv run scripts/manage_worklog_cards.py validate
 - **執行流程指南**：`doc/execution-workflow.md`
 
 ### 代理人
-- **建立卡片**：`.claude/agents/create-card.md`
+- **卡片結構**：`.claude/agents/card-structure-handler.md`
+- **卡片內容**：`.claude/agents/build-card-content.md`
 - **Extension-Review**：`.claude/agents/create-extension-cards.md`
 - **Linking**：`.claude/agents/build-card-links.md`
 

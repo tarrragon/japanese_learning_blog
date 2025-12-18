@@ -222,7 +222,7 @@
 - [ ] 確認卡片編號已正確分配（使用 `get-next-number.py`）
 
 **執行中：**
-- [ ] 使用 `create-card` 代理人或手動建立每張卡片
+- [ ] 使用 `card-structure-handler` 建立卡片結構，`build-card-content` 填充內容
 - [ ] 確保卡片 YAML 包含：
   - `stage: draft`
   - `auto_generated: true`（如由代理人建立）
