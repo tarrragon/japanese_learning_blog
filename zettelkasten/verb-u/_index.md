@@ -1,13 +1,11 @@
-# う動詞（五段動詞）索引
+# Verb U 索引
 
-最後編號：025
+最後編號：029
 總卡片數：29
 
 ## 卡片列表
 
 ### 依編號
-- [000 - ](verb-u-022-取る/) 
-- [000 - ](verb-u-022-消す/) 
 - [001 - 上升、上漲、提高](001_agaru/) 
 - [002 - 飲む - 喝](002_nomu/) #basic #domain/daily_life
 - [003 - 読む - 讀、閱讀](003_yomu/) #basic #learning
@@ -30,11 +28,13 @@
 - [020 - いただく - 接受、收到（謙讓語）](020_itadaku/) 
 - [021 - 學習](021_manabu/) #education #learning #active_learning
 - [022 - 返回、回到](022_modoru/) #verb #movement #basic
-- [022 - ](022_待つ/) 
-- [023 - 着く - 到達、抵達](023_tsuku/) #basic #domain/daily_life #verb
-- [024 - ](024-shiru/) 
-- [024 - ](024-分かる/) 
+- [023 - "等待、等候"](023_matsu/) #verb-u #action #basic
+- [024 - 着く - 到達、抵達](024_tsuku/) #basic #domain/daily_life #verb
 - [025 - 居住、住](025_sumu/) #verb #living #basic
+- [026 - "知道、了解"](026_shiru/) #verb-u #cognition #basic
+- [027 - "明白、理解"](027_wakaru/) #verb-u #cognition #basic
+- [028 - "拿、取得、獲得。表示用手拿取物品，或是取得、獲得某物的基本動詞。"](028_toru/) #verb-u
+- [029 - "關閉、熄滅、消除"](029_kesu/) #verb-u #action #basic
 
 ---
-最後更新: 2025-10-31 12:38:05
+最後更新: 2025-12-18 10:35:39

@@ -1,6 +1,6 @@
-# 接續詞索引
+# Conjunction 索引
 
-最後編號：015
+最後編號：009
 總卡片數：9
 
 ## 卡片列表
@@ -12,9 +12,9 @@
 - [004 - 因此、所以](004_sorede/) #consequence #logical_connection #formal
 - [005 - そして - 順序連接詞、添加資訊](005_soshite/) 
 - [006 - 因此、所以（正式邏輯推論用語）](006_shitagatte/) 
-- [012 - 然後、之後（時間或順序連接詞）](012_sorekara/) 
-- [013 - 或者、或是（正式選擇連接詞）](013_matawa/) #disjunctive #choice #formal_speech
-- [015 - 也就是說、即](015_sunawachi/) 
+- [007 - 然後、之後（時間或順序連接詞）](007_sorekara/) 
+- [008 - 或者、或是（正式選擇連接詞）](008_matawa/) #disjunctive #choice #formal_speech
+- [009 - 也就是說、即](009_sunawachi/) 
 
 ---
-最後更新: 2025-12-17 15:16:35
+最後更新: 2025-12-18 10:35:37

@@ -104,7 +104,7 @@ def scan_cards(category_path: Path) -> list[dict]:
     cards = []
 
     for file in category_path.iterdir():
-        if not file.is_file() or file.suffix != ".md" or file.name == "index.md":
+        if not file.is_file() or file.suffix != ".md" or file.name in ("index.md", "_index.md"):
             continue
 
         card_info = extract_card_info(file)
@@ -193,7 +193,7 @@ def update_index(category: str, dry_run: bool = False, force: bool = False, spec
         print(f"❌ 分類「{category}」不存在", file=sys.stderr)
         return False
 
-    index_path = category_path / "index.md"
+    index_path = category_path / "_index.md"
 
     # 讀取原內容（如果存在）
     original_content = ""

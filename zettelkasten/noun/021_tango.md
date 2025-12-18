@@ -7,6 +7,8 @@ tags: [noun, language_learning, vocabulary]
 date: 2025-10-31
 ---
 
+單字、詞彙。語言的最小有意義單位，用於構成句子的基本元素。
+
 <!--more-->
 ## Examples
 
