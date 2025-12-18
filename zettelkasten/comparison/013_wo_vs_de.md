@@ -1,5 +1,3 @@
-# を vs で 用法比較
-
 ---
 title: comparison/wo_vs_de
 description: を vs で 用法比較 - 賓語標記 vs 動作場所／手段

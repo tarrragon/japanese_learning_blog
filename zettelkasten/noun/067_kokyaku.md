@@ -1,3 +1,12 @@
+---
+title: "顧客（こきゃく）"
+description: "顧客、客戶。購買商品或服務的人。這是商業場合中常用的禮貌用語，指光顧商店或使用公司服務的人。"
+type: noun
+jlpt: n3
+tags: [noun]
+date: 2025-10-31
+---
+
 # 顧客（こきゃく）
 
 **Tags:** `#business` `#customer` `#service` `#jlpt-n3`

@@ -25,12 +25,12 @@
 - [016 - 差し上げる - 給予（謙讓語）](016_sashiageru/) 
 - [017 - 記住、記憶](017_oboeru/) #memory #learning #mental_action
 - [018 - 給予（尊敬語）](018_kudasaru/) #verb #honorific #keigo
-- [019 - ](019_sashiageru/) 
+- [019 - "謙讓語動詞，為他人做某事的禮貌表達"](019_sashiageru/) #verb-ru #honorific #giving_receiving
 - [020 - 放棄、死心、接受現實](020_akirameru/) #verb #emotion #decision
 - [021 - 忘記](021_wasureru/) #verb #cognition #basic
-- [022 - ](022_ireru/) 
-- [023 - ](023_tsuzukeru/) 
-- [024 - ](024_itadaku/) 
+- [022 - "放入、加入、裝入。將物品或人移動到某個容器或空間之中。"](022_ireru/) #verb-ru
+- [023 - "繼續、持續。不中斷地進行某事，維持相同的狀態或行為。"](023_tsuzukeru/) #verb-ru
+- [024 - "「頂く」是謙讓語動詞，是「もらう（收到）」的謙遜表達。用於從對方那裡接受某物或恩惠時，常用於商務場合"](024_itadaku/) #verb-ru
 
 ---
-最後更新: 2025-12-17 17:54:02
+最後更新: 2025-12-18 09:52:03

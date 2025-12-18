@@ -1,27 +1,10 @@
-# 待つ
-
-## 基本資訊
-
-- **類型**：verb-u
-- **羅馬拼音**：matsu
-- **JLPT 級別**：N5
-
 ---
-
-## 詞義解釋
-
-### 日文解釋
-
-時間が経つまでその場にとどまる。人や物事が来るまでその状態を保つ。何かが起こるまで行動を控える。
-
-### 中文解釋
-
-等待；等候。停留在某處直到某人或某事到來。在某事發生前保持某種狀態而不行動。
-
-### 英文解釋
-
-To wait; to await. To remain in a place or state until someone arrives or something happens. To refrain from action until a particular event occurs.
-
+title: "待つ（まつ）"
+description: "等待、等候"
+type: verb-u
+jlpt: n4
+tags: [verb-u, action, basic]
+date: 2025-10-31
 ---
 
 ## 例句

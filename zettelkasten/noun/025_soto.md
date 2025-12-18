@@ -1,23 +1,10 @@
-# 外（そと）
-
-## Metadata
-- **JLPT Level**: N5
-- **Category**: noun
-- **Tags**: #location #position #direction #basic
-
 ---
-
-## 意味
-
-### 日本語
-建物や場所の内部ではなく、その境界線の向こう側の空間。内側と対照的な概念。
-
-### 中文
-外面、外部、室外。指建築物或空間內部的相對面，邊界之外的空間。
-
-### English
-Outside; the exterior or external area beyond the boundaries of a building or enclosed space, as opposed to the inside.
-
+title: "外（そと）"
+description: "外面、外部"
+type: noun
+jlpt: n4
+tags: [noun, location, direction]
+date: 2025-10-31
 ---
 
 ## 例文

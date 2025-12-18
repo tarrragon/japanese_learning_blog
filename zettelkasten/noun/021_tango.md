@@ -1,23 +1,10 @@
-# 単語（たんご）
-
-## Metadata
-- **Category**: noun
-- **JLPT Level**: N5
-- **Tags**: #language_learning #vocabulary #basic
-
 ---
-
-## Explanation
-
-### 日本語
-単語（たんご）とは、言語を構成する最小の意味単位のことです。一つ一つの単語が独立した意味を持ち、それらを組み合わせて文章を作ります。語彙学習の基本単位であり、言語習得において最も重要な要素の一つです。
-
-### 中文解釋
-單詞是構成語言的最小意義單位。每個單詞都具有獨立的意義，透過組合這些單詞來構成句子。單詞是詞彙學習的基本單位，也是語言習得中最重要的要素之一。
-
-### English
-A "tango" (単語) is the smallest meaningful unit that constitutes a language. Each word carries its own independent meaning, and sentences are formed by combining these words. It is the fundamental unit of vocabulary learning and one of the most essential elements in language acquisition.
-
+title: "単語（たんご）"
+description: "單字、詞彙"
+type: noun
+jlpt: n4
+tags: [noun, language_learning, vocabulary]
+date: 2025-10-31
 ---
 
 ## Examples

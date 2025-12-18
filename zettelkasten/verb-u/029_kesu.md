@@ -1,32 +1,10 @@
-# 消す
-
-- **よみ**：けす
-- **JLPT**：n5
-- **Tags**：verb, action, basic
-- **Stage**：extension-review
-
 ---
-
-## 意味
-
-### 日本語
-
-1. 明かりや火を止めること
-2. 書いたものや記録を取り除くこと
-3. 音や電気製品の動作を停止させること
-
-### 繁體中文
-
-1. 熄滅、關掉（燈、火等）
-2. 擦掉、刪除（文字、記錄等）
-3. 關閉、停止（聲音、電器等）
-
-### English
-
-1. to turn off (lights, fire, etc.)
-2. to erase, delete (writing, records, etc.)
-3. to switch off, stop (sound, electrical appliances, etc.)
-
+title: "消す（けす）"
+description: "關閉、熄滅、消除"
+type: verb-u
+jlpt: n4
+tags: [verb-u, action, basic]
+date: 2025-10-31
 ---
 
 ## 用例

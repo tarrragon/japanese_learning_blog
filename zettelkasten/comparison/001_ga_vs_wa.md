@@ -1,5 +1,3 @@
-# が vs は 詳細比較
-
 ---
 title: comparison/ga_vs_wa
 description: が vs は 詳細比較 - 日語學習最大難點

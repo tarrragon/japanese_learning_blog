@@ -1,5 +1,3 @@
-# 必要 vs 義務 詳細比較
-
 ---
 title: contrast/necessity_obligation
 description: 必要 vs 義務 詳細比較 - 必要性與義務的語義辨析

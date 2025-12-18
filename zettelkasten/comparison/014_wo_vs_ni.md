@@ -1,5 +1,3 @@
-# を vs に 詳細比較
-
 ---
 title: comparison/wo_vs_ni
 description: を vs に 詳細比較 - 直接賓語與間接賓語的區別

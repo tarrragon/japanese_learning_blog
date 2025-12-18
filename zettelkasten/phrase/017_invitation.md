@@ -1,3 +1,12 @@
+---
+title: "邀約表達"
+description: "用於邀請他人、接受邀約或婉拒邀約的常用表達方式。這些表達在社交場合中非常重要，能夠展現禮貌和社交技巧"
+type: phrase
+jlpt: n4
+tags: [phrase]
+date: 2025-10-31
+---
+
 # 邀約表達
 
 ## Metadata

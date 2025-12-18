@@ -1,12 +1,10 @@
-# 〜てくださる
-
-## Metadata
-- **Number**: 069
-- **Category**: grammar
-- **JLPT Level**: n3
-- **Tags**: #grammar #giving-receiving #benefactive #te-form #honorific
-- **Stage**: extension-review
-
+---
+title: "〜てくださる"
+description: "表示尊敬的授受表達，用於描述地位較高者為說話者做某事"
+type: grammar
+jlpt: n4
+tags: [grammar, giving_receiving, te_form, honorific]
+date: 2025-10-31
 ---
 
 ## 日文解釋

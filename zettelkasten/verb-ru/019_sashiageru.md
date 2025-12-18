@@ -1,27 +1,10 @@
-# 差し上げる
-
-**發音**：さしあげる (sashiageru)
-
-**JLPT**：N3
-
-**標籤**：#verb #humble #keigo #giving
-
 ---
-
-## 解釋
-
-### 日文解釋
-
-「差し上げる」は「あげる」「やる」の謙譲語で、目上の人や敬意を払うべき相手に物を与える際に使用する表現である。自分の行為をへりくだって表現することで、相手への敬意を示す。主に改まった場面やビジネスシーンで使われる。
-
-### 英文解釋
-
-"Sashiageru" is the humble form of "ageru" (to give), used when giving something to someone of higher status or to whom respect should be shown. By lowering oneself through this expression, the speaker demonstrates respect toward the recipient. It is primarily used in formal situations and business contexts.
-
-### 中文解釋
-
-「差し上げる」是「あげる」(給予)的謙讓語，用於向地位較高或需表示敬意的對象給予物品時。透過謙遜地表達自己的行為，向對方展現敬意。主要用於正式場合或商務場景。
-
+title: "差し上げる"
+description: "謙讓語動詞，為他人做某事的禮貌表達"
+type: verb-ru
+jlpt: n4
+tags: [verb-ru, honorific, giving_receiving]
+date: 2025-10-31
 ---
 
 ## 例句

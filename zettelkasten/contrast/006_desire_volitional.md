@@ -1,5 +1,3 @@
-# 願望 vs 意志 詳細比較
-
 ---
 title: contrast/006_desire_volitional
 description: 願望 vs 意志 詳細比較 - たい形與意向形的對比分析

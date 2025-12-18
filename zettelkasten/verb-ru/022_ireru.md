@@ -1,3 +1,12 @@
+---
+title: "入れる"
+description: "放入、加入、裝入。將物品或人移動到某個容器或空間之中。"
+type: verb-ru
+jlpt: n4
+tags: [verb-ru]
+date: 2025-10-31
+---
+
 # 入れる
 
 ## 基本資訊

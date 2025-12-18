@@ -1,24 +1,10 @@
-# やむを得ない
-
-## 基本資訊
-
-- **類型**：phrase
-- **JLPT**：n3
-- **標籤**：#phrase #resignation #necessity #formal
-
 ---
-
-## 核心解釋
-
-### 日文
-止むを得ない状況で、他に選択肢がなく、仕方なく何かをしなければならないという意味。望ましくないが、状況や事情により避けられない場合に使う表現。
-
-### 繁體中文
-表示在不得已的情況下，沒有其他選擇，不得不做某事的意思。雖然不理想，但由於情況或事由而無法避免時使用的表達方式。
-
-### 英文
-Expresses that something is unavoidable or inevitable, meaning there are no other options and one must reluctantly do something. Used when something is undesirable but cannot be avoided due to circumstances.
-
+title: "やむを得ない"
+description: "無可奈何、不得已的表達"
+type: phrase
+jlpt: n4
+tags: [phrase, expression, resignation]
+date: 2025-10-31
 ---
 
 ## 例句

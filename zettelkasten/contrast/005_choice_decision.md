@@ -1,5 +1,3 @@
-# 選択 vs 決定 詳細比較
-
 ---
 title: contrast/choice_decision
 description: 選択 vs 決定 詳細比較 - 選擇與決定的詞彙辨析

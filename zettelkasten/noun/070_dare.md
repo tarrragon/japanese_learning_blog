@@ -1,3 +1,12 @@
+---
+title: "誰"
+description: "用於詢問「誰」的疑問詞。當想知道某個人是誰、或者想詢問不特定人物時使用。可以用於各種場合，從日常對話"
+type: noun
+jlpt: n5
+tags: [noun]
+date: 2025-10-31
+---
+
 # 誰
 
 ## Metadata

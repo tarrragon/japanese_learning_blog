@@ -1,5 +1,3 @@
-# 学習 vs 勉強 詳細比較
-
 ---
 title: contrast/gakushuu_vs_benkyou
 description: 学習 vs 勉強 詳細比較 - 學習相關詞彙辨析

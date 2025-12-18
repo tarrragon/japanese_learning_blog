@@ -1,12 +1,10 @@
-# 〜てあげる
-
-## Metadata
-- Type: grammar
-- ID: grammar-068
-- JLPT: n4
-- Tags: #grammar #giving-receiving #benefactive #te-form
-- Stage: extension-review
-
+---
+title: "〜てあげる"
+description: "表示為某人做某事的授受表達"
+type: grammar
+jlpt: n4
+tags: [grammar, giving_receiving, te_form]
+date: 2025-10-31
 ---
 
 ## 說明

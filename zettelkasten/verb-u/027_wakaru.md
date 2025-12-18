@@ -1,21 +1,10 @@
-# 分かる
-
-**類型**：verb-u
-**JLPT**：n5
-
 ---
-
-## 釋義
-
-### 日文解釋
-理解する、明瞭になる。物事の意味や理由が認識できる状態。
-
-### 中文解釋
-理解、明白、懂得。指對事物的意義或道理能夠認識清楚的狀態。
-
-### 英文解釋
-To understand, to comprehend, to know. Indicates the state of being able to recognize the meaning or reason of something.
-
+title: "分かる（わかる）"
+description: "明白、理解"
+type: verb-u
+jlpt: n4
+tags: [verb-u, cognition, basic]
+date: 2025-10-31
 ---
 
 ## 例句

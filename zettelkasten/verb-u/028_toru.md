@@ -1,3 +1,12 @@
+---
+title: "取る（とる）"
+description: "拿、取得、獲得。表示用手拿取物品，或是取得、獲得某物的基本動詞。"
+type: verb-u
+jlpt: n5
+tags: [verb-u]
+date: 2025-10-31
+---
+
 # 取る（とる）
 
 ## Meta

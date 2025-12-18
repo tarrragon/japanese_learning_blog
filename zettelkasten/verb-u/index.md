@@ -29,13 +29,13 @@
 - [020 - いただく - 接受、收到（謙讓語）](020_itadaku/) 
 - [021 - 學習](021_manabu/) #education #learning #active_learning
 - [022 - 返回、回到](022_modoru/) #verb #movement #basic
-- [023 - ](023_matsu/) 
+- [023 - "等待、等候"](023_matsu/) #verb-u #action #basic
 - [024 - 着く - 到達、抵達](024_tsuku/) #basic #domain/daily_life #verb
 - [025 - 居住、住](025_sumu/) #verb #living #basic
-- [026 - ](026_shiru/) 
-- [027 - ](027_wakaru/) 
-- [028 - ](028_toru/) 
-- [029 - ](029_kesu/) 
+- [026 - "知道、了解"](026_shiru/) #verb-u #cognition #basic
+- [027 - "明白、理解"](027_wakaru/) #verb-u #cognition #basic
+- [028 - "拿、取得、獲得。表示用手拿取物品，或是取得、獲得某物的基本動詞。"](028_toru/) #verb-u
+- [029 - "關閉、熄滅、消除"](029_kesu/) #verb-u #action #basic
 
 ---
-最後更新: 2025-12-17 17:54:02
+最後更新: 2025-12-18 09:52:03

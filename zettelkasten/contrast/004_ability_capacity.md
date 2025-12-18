@@ -1,5 +1,3 @@
-# 能力 vs 容量 詳細比較
-
 ---
 title: contrast/ability_capacity
 description: 能力 vs 容量 詳細比較 - 能力與容量的辨析

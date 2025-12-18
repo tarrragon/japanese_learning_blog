@@ -1,3 +1,12 @@
+---
+title: "続ける"
+description: "繼續、持續。不中斷地進行某事，維持相同的狀態或行為。"
+type: verb-ru
+jlpt: n4
+tags: [verb-ru]
+date: 2025-10-31
+---
+
 # 続ける
 
 ## 概要

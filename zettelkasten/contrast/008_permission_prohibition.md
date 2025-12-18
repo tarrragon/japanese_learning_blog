@@ -1,5 +1,3 @@
-# 許可 vs 禁止 詳細比較
-
 ---
 title: contrast/permission_prohibition
 description: 許可 vs 禁止 詳細比較 - 許可與禁止表達辨析

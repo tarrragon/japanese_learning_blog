@@ -1,24 +1,10 @@
-# 契約（けいやく）
-
-## 基本資訊
-
-- **詞性**：名詞
-- **JLPT 級別**：N3
-- **標籤**：#business #contract #legal #agreement
-
 ---
-
-## 解釋
-
-### 中文
-合約、協議。指兩方或多方之間經過協商達成的具有法律約束力的書面或口頭約定。在商業和法律場合中常用，是正式的承諾或約束關係。
-
-### 英文
-Contract, agreement. A legally binding arrangement between two or more parties, either written or verbal, reached through negotiation. Commonly used in business and legal contexts, representing a formal commitment or binding relationship.
-
-### 日文
-二者以上の間で合意された、法的拘束力を持つ書面または口頭での取り決め。ビジネスや法律の場面でよく使われ、正式な約束や拘束関係を表す。
-
+title: "契約（けいやく）"
+description: "合約、協議"
+type: noun
+jlpt: n4
+tags: [noun, business, formal]
+date: 2025-10-31
 ---
 
 ## 例句

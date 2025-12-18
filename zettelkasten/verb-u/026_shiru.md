@@ -1,22 +1,10 @@
-# 知る（しる）
-
-**類型**：verb-u
-**JLPT**：N5
-**標籤**：`verb` `cognition` `basic`
-
 ---
-
-## 定義
-
-### 日文解釋
-情報や事実を理解して、心の中に持つこと。経験や学習を通じて認識すること。
-
-### 中文解釋
-知道、認識、了解。透過經驗或學習獲得資訊或事實的理解。
-
-### 英文解釋
-To know, to be aware of, to become acquainted with. To understand information or facts through experience or learning.
-
+title: "知る（しる）"
+description: "知道、了解"
+type: verb-u
+jlpt: n4
+tags: [verb-u, cognition, basic]
+date: 2025-10-31
 ---
 
 ## 文法資訊

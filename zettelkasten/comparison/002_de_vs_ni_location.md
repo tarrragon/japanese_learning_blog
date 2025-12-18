@@ -1,5 +1,3 @@
-# で vs に 場所用法比較
-
 ---
 title: comparison/de_vs_ni_location
 description: で vs に 場所用法比較 - 動作場所 vs 存在場所/目的地
