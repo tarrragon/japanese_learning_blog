@@ -4,6 +4,7 @@ import {
   isExactMatch,
   isSokuonPattern,
   getSokuonRomajiOptions,
+  isPunctuation as checkPunctuation,
 } from './RomajiMap.js';
 
 /**
@@ -105,5 +106,13 @@ export class Character {
    */
   isPartialMatch(input) {
     return isPartialMatch(input, this.#romaji);
+  }
+
+  /**
+   * 檢查此字元是否為標點符號
+   * @returns {boolean}
+   */
+  isPunctuation() {
+    return checkPunctuation(this.#kana);
   }
 }
