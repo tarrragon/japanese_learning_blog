@@ -118,6 +118,20 @@ japanese_learning_blog/
 │
 ├── scripts/                  # Python 維護工具（編號、索引、驗證）
 │
+├── src/                      # 日文輸入練習原始碼
+│   ├── domain/               # Domain 層（核心邏輯）
+│   ├── services/             # 應用服務
+│   ├── ui/                   # UI 控制器
+│   └── main.js               # 入口點
+│
+├── tests/                    # 測試檔案
+│   ├── domain/               # Domain 層測試
+│   └── integration/          # 整合測試
+│
+├── static/practice/          # 日文輸入練習靜態頁面
+│   ├── index.html            # 練習頁面
+│   └── js/practice.js        # 打包後的 JS
+│
 ├── zettelkasten/             # 知識卡片系統（433+ 張卡片）
 │   ├── _meta/                # Meta 系統（標籤、分類定義）
 │   ├── noun/                 # 名詞（73 張）
@@ -139,6 +153,9 @@ japanese_learning_blog/
 | `doc/worklog/` | 版本管理 | 工作日誌、卡片清單 CSV、階段報告 |
 | `doc/specs/` | 開發規格 | v1.0.7-v1.1.0 功能規格文檔 |
 | `scripts/` | 維護腳本 | 編號分配、索引更新、格式驗證 |
+| `src/` | 練習功能原始碼 | Domain 層、UI 層、服務層 |
+| `tests/` | 測試檔案 | Domain 測試、整合測試 |
+| `static/practice/` | 練習靜態頁面 | HTML、CSS、打包後的 JS |
 | `zettelkasten/` | 卡片內容 | 三語解釋、例句、相關連結 |
 
 ## 命令詳解
@@ -213,6 +230,26 @@ japanese_learning_blog/
 /generate-exercises
 ```
 然後貼上你的日文文章。
+
+### 日文輸入練習 ⭐ 新功能
+
+互動式羅馬字輸入練習系統，支援：
+- 平假名、片假名完整對應
+- 拗音、促音正確處理
+- 多種輸入方式（如 `si`/`shi` 皆可輸入「し」）
+- 即時視覺回饋與語音朗讀
+- 虛擬鍵盤提示
+
+**使用方式**：
+```bash
+# 啟動本地伺服器後
+hugo server
+
+# 開啟瀏覽器
+http://localhost:1313/practice/
+```
+
+---
 
 ### `/create-zettel` - Zettelkasten 卡片建立 ⭐
 

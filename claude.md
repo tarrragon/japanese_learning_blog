@@ -489,6 +489,94 @@ uv run scripts/manage_worklog_cards.py validate
 
 ---
 
+## 日文輸入練習功能（v1.0.9+）
+
+### 功能概述
+
+日文羅馬字輸入練習系統，位於 `static/practice/` 目錄。
+
+### 目錄結構
+
+```
+src/                          # 原始碼（開發時編輯）
+├── domain/                   # Domain 層（核心邏輯）
+│   ├── Character.js          # 字元 Value Object
+│   ├── Question.js           # 題目 Entity
+│   ├── InputBuffer.js        # 輸入緩衝區
+│   ├── TypingSession.js      # Session Aggregate Root
+│   └── RomajiMap.js          # 羅馬字對應表
+├── services/                 # 應用服務
+│   └── SpeechService.js      # 語音合成服務
+├── ui/                       # UI 層
+│   ├── PracticeController.js # 練習控制器
+│   └── KeyboardRenderer.js   # 鍵盤渲染器
+└── main.js                   # 入口點
+
+static/practice/              # 靜態網頁（HUGO 發布）
+├── index.html                # 練習頁面
+├── style.css                 # 樣式
+└── js/
+    └── practice.js           # 打包後的 JS（由 bun build 產生）
+
+tests/                        # 測試檔案
+├── domain/                   # Domain 層測試
+└── integration/              # 整合測試
+```
+
+### 開發流程
+
+#### 1. 啟動本地開發環境
+
+使用 HUGO 啟動本地伺服器：
+
+```bash
+hugo server
+```
+
+然後在瀏覽器開啟：`http://localhost:1313/practice/`
+
+#### 2. 修改程式碼
+
+編輯 `src/` 目錄下的原始碼。
+
+#### 3. 執行測試
+
+```bash
+bun test                      # 執行所有測試
+bun test tests/domain         # 僅測試 Domain 層
+bun test tests/integration    # 僅測試整合流程
+```
+
+#### 4. 重新打包（重要！）
+
+**⚠️ 修改 `src/` 目錄後必須重新打包，否則變更不會生效！**
+
+```bash
+bun build src/main.js --outfile static/practice/js/practice.js --minify
+```
+
+#### 5. 測試打包結果
+
+重新整理瀏覽器頁面（建議使用強制刷新 `Cmd+Shift+R`）驗證變更。
+
+### 常見問題
+
+| 問題 | 原因 | 解決方案 |
+|------|------|----------|
+| 修改後沒有效果 | 沒有重新打包 | 執行 `bun build` 命令 |
+| 瀏覽器顯示舊版本 | 瀏覽器快取 | 強制刷新 `Cmd+Shift+R` |
+| 測試通過但功能異常 | 打包版本與原始碼不同步 | 重新打包後再測試 |
+
+### 打包提醒清單
+
+修改以下檔案後**必須重新打包**：
+- `src/domain/*.js` - 核心邏輯
+- `src/services/*.js` - 應用服務
+- `src/ui/*.js` - UI 控制器
+- `src/main.js` - 入口點
+
+---
+
 ## 連結格式規範
 
 **唯一正確格式**：`[text](path.md)`
