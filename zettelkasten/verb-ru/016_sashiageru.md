@@ -1,5 +1,5 @@
 ---
-title: verb-ru/sashiageru
+title: 差し上げる
 description: 差し上げる - 給予（謙讓語）
 type: verb
 subtype: ru_verb

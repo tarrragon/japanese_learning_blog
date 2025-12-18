@@ -1,5 +1,5 @@
 ---
-title: grammar/aspect
+title: 文法体態
 description: 文法體態系統的綜合標記
 type: tag
 category: grammar

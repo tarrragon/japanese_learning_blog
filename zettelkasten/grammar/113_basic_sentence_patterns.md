@@ -1,5 +1,5 @@
 ---
-title: grammar/basic_sentence_patterns
+title: "基本句型（きほんぶんけい）"
 description: 日語基本句型（名詞句、形容詞句、動詞句）
 type: grammar
 subtype: structure

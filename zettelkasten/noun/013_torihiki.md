@@ -1,5 +1,5 @@
 ---
-title: noun/013_torihiki
+title: 取引(とりひき)
 description: 交易、買賣
 type: noun
 jlpt: n3

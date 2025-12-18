@@ -1,5 +1,5 @@
 ---
-title: grammar/ta-kei
+title: た形
 description: 日文動詞た形，表示過去、完了、經驗的基本動詞形式
 type: grammar
 jlpt: n5

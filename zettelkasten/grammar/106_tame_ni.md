@@ -1,5 +1,5 @@
 ---
-title: grammar/tame_ni
+title: "〜ために"
 description: 〜ために - 表示「為了」（目的）或「因為」（原因）的文法
 type: grammar
 subtype: purpose_reason

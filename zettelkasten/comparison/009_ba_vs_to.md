@@ -1,5 +1,5 @@
 ---
-title: comparison/ba_vs_to
+title: ば vs と
 description: ば條件形與と條件形的對比分析
 type: comparison
 subtype: grammar_comparison

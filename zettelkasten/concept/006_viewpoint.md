@@ -1,5 +1,5 @@
 ---
-title: concept/viewpoint
+title: 視点
 description: 日語的視點（視角）概念 - 語言學核心理論
 type: concept
 jlpt: n4

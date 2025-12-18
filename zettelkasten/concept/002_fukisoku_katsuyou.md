@@ -1,5 +1,5 @@
 ---
-title: concept/fukisoku-katsuyou
+title: 不規則活用
 description: 日文中する、来る、ある等不規則動詞的特殊活用規則，是初學者必須掌握的基礎文法
 type: concept
 jlpt: n5

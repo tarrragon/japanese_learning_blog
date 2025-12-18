@@ -1,5 +1,5 @@
 ---
-title: grammar/te_kara
+title: 〜てから
 description: 〜てから - 表示「做完...之後」的時間順序文法（強調緊接順序）
 type: grammar
 subtype: time_expression

@@ -1,5 +1,5 @@
 ---
-title: grammar/contrast_focus
+title: 對比與焦點
 description: 對比與焦點 - は的對比功能與焦點理論
 type: grammar
 subtype: linguistic_theory

@@ -1,5 +1,5 @@
 ---
-title: grammar/093_ta_koto_ga_aru
+title: "〜たことがある"
 description: 經驗表達（曾經做過某事）
 type: grammar
 subtype: pattern

@@ -1,5 +1,5 @@
 ---
-title: concept/aspect_theory
+title: 体理論（たいりろん）
 description: 日文動詞的體系統：描述動作的時間結構和進行狀態的語法概念
 type: concept
 subtype: linguistic_theory

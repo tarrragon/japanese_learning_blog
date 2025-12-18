@@ -1,5 +1,5 @@
 ---
-title: grammar/you_ni_mieru
+title: "〜ように見える"
 description: 表達「看起來...」的判斷文法
 type: grammar
 subtype: pattern

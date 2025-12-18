@@ -1,5 +1,5 @@
 ---
-title: noun/jikoku
+title: 時刻（じこく）
 description: 表示具體的時間點或特定時刻
 type: noun
 subtype: time

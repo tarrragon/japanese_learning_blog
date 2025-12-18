@@ -1,5 +1,5 @@
 ---
-title: noun/itsu
+title: いつ
 description: 疑問詞，詢問時間「何時、什麼時候」
 type: noun
 subtype: interrogative

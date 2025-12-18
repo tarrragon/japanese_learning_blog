@@ -1,5 +1,5 @@
 ---
-title: grammar/question_particles
+title: "疑問助詞（ぎもんじょし）"
 description: 疑問助詞系統用於構成疑問句，包括か、の等助詞，表達疑問、確認、反問等語氣
 type: grammar
 subtype: particle

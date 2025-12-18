@@ -1,5 +1,5 @@
 ---
-title: grammar/ta_toki
+title: "〜た時"
 description: 〜た時 - 表示「...的時候」的時間文法
 type: grammar
 subtype: time_expression

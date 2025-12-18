@@ -1,5 +1,5 @@
 ---
-title: phrase/dou_shiyou
+title: どうしよう
 description: どうしよう - 怎麼辦才好（表達焦慮、困惑）
 type: phrase
 jlpt: n5

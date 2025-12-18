@@ -1,5 +1,5 @@
 ---
-title: contrast/request_suggestion
+title: 請求 vs 建議
 description: 請求 vs 建議 詳細比較 - 請求與建議的語義辨析
 type: contrast
 comparison_items: [request, suggestion]

@@ -1,5 +1,5 @@
 ---
-title: noun/dono
+title: どの
 description: 哪個（連體詞，必須修飾名詞）
 type: noun
 subtype: interrogative

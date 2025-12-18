@@ -1,5 +1,5 @@
 ---
-title: grammar/passive
+title: "受身形（うけみけい）"
 description: 受身形的基本概念與應用
 type: grammar
 subtype: conjugation

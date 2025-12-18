@@ -1,5 +1,5 @@
 ---
-title: phrase/dou_suru
+title: どうする
 description: どうする - 怎麼做、怎麼辦（詢問處理方式或計劃）
 type: phrase
 jlpt: n5

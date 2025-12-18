@@ -1,5 +1,5 @@
 ---
-title: grammar/dekiru
+title: "できる"
 description: する的可能形，表示能力或可能性
 type: grammar
 subtype: potential_form

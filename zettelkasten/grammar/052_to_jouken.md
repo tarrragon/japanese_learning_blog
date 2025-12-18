@@ -1,5 +1,5 @@
 ---
-title: grammar/to-jouken
+title: と條件形
 description: と條件形（自然條件/恆常關係）
 type: grammar
 subtype: conditional

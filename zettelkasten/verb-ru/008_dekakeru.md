@@ -1,5 +1,5 @@
 ---
-title: verb-ru/dekakeru
+title: "出かける（でかける）"
 description: 出かける - 外出、出門
 type: verb
 subtype: ichidan

@@ -1,5 +1,5 @@
 ---
-title: noun/tonari
+title: 隣（となり）
 description: 旁邊、隔壁、鄰近的地方
 type: noun
 subtype: place

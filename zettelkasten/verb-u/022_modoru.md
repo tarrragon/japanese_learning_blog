@@ -1,5 +1,5 @@
 ---
-title: verb-u/022_modoru
+title: 戻る（もどる）
 description: 返回、回到
 type: verb
 subtype: godan

@@ -1,5 +1,5 @@
 ---
-title: grammar/068_te_itadaku
+title: "〜ていただく"
 description: 承蒙某人為我做某事（謙讓）
 type: grammar
 jlpt: n3

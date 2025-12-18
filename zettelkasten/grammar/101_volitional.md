@@ -1,5 +1,5 @@
 ---
-title: grammar/volitional
+title: "意向形（いこうけい）"
 description: 意向形（普通形）- 表達意志、建議和推測的動詞變化
 type: grammar
 subtype: conjugation

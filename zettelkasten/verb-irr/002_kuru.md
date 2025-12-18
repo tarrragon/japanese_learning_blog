@@ -1,5 +1,5 @@
 ---
-title: verb-irr/kuru
+title: "来る（くる）"
 description: 来る - 来、到来（第二個最常用的不規則動詞）
 type: verb
 subtype: irregular

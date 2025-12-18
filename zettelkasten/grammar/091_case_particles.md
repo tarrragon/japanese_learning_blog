@@ -1,5 +1,5 @@
 ---
-title: grammar/106_case_particles
+title: "格助詞（かくじょし）"
 description: 格助詞系統 - 日文中標記名詞文法功能的核心助詞體系
 type: grammar
 subtype: particle-system

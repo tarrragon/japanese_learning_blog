@@ -1,5 +1,5 @@
 ---
-title: concept/onin_ron
+title: 音韻論（おんいんろん）
 description: 音韻論（音韻論）- 語言學研究語音系統和規則的學科
 type: concept
 jlpt: concept

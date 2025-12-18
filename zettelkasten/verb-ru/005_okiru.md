@@ -1,5 +1,5 @@
 ---
-title: verb-ru/okiru
+title: 起きる（おきる）
 description: 起きる - 起床、醒來
 type: verb
 subtype: ichidan

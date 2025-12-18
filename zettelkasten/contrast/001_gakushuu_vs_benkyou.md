@@ -1,5 +1,5 @@
 ---
-title: contrast/gakushuu_vs_benkyou
+title: 学習 vs 勉強
 description: 学習 vs 勉強 詳細比較 - 學習相關詞彙辨析
 type: contrast
 comparison_items: [noun/gakushuu, noun/benkyou]

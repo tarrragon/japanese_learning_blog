@@ -1,5 +1,5 @@
 ---
-title: domain/communication
+title: "コミュニケーション分野"
 description: 溝通交流相關的詞彙和概念
 type: domain_tag
 created: 2025-10-29

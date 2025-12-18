@@ -1,5 +1,5 @@
 ---
-title: phrase/shouganai
+title: しょうがない / 仕方がない
 description: しょうがない / 仕方がない - 沒辦法、無可奈何
 type: phrase
 jlpt: n3

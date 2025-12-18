@@ -1,5 +1,5 @@
 ---
-title: comparison/wo_vs_de
+title: を vs で
 description: を vs で 用法比較 - 賓語標記 vs 動作場所／手段
 type: comparison
 comparison_items: [particle/wo, particle/de]

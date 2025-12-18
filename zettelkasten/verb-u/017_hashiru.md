@@ -1,5 +1,5 @@
 ---
-title: verb-u/hashiru
+title: 走る（はしる）
 description: 走る - 跑、奔跑
 type: verb
 subtype: u_verb

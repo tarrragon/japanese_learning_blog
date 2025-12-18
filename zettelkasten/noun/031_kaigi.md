@@ -1,5 +1,5 @@
 ---
-title: noun/kaigi
+title: 会議(かいぎ)
 description: 會議 - 為了討論、決策或報告而召集人員的正式聚會
 type: noun
 subtype: business_noun

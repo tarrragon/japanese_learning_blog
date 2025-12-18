@@ -1,5 +1,5 @@
 ---
-title: particle/made
+title: まで
 description: まで - 終點助詞（直到、到...為止）
 type: particle
 subtype: endpoint

@@ -1,5 +1,5 @@
 ---
-title: noun/shuppatsuchi
+title: 出発地（しゅっぱつち）
 description: 出發地、起點、旅程或移動的起始地點
 type: noun
 subtype: location

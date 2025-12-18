@@ -1,5 +1,5 @@
 ---
-title: grammar/koto_ni_natte_iru
+title: 〜ことになっている
 description: 表示已確立的規定或慣例
 type: grammar
 subtype: pattern

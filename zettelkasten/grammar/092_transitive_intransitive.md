@@ -1,5 +1,5 @@
 ---
-title: grammar/transitive_intransitive
+title: "他動詞と自動詞（たどうしとじどうし）"
 description: 他動詞與自動詞的完整解析 - 從概念到實踐的全方位指南
 type: grammar
 subtype: verb_classification

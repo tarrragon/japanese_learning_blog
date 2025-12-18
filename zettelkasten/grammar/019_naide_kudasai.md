@@ -1,5 +1,5 @@
 ---
-title: grammar/naide_kudasai
+title: "〜ないでください"
 description: ないでください - 禮貌的否定請求（請不要做某事）
 type: grammar
 subtype: request

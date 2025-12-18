@@ -1,5 +1,5 @@
 ---
-title: grammar/desu_form
+title: "です形（ですけい）"
 description: です形 - 名詞和形容詞的禮貌形式
 type: grammar
 subtype: copula

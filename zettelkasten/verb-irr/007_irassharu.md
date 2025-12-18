@@ -1,5 +1,5 @@
 ---
-title: verb-irr/007_irassharu
+title: いらっしゃる
 description: 在、來、去的尊敬語
 type: verb
 subtype: irregular

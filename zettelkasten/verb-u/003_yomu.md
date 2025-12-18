@@ -1,5 +1,5 @@
 ---
-title: verb-u/yomu
+title: 読む（よむ）
 description: 読む - 讀、閱讀
 type: verb
 subtype: godan

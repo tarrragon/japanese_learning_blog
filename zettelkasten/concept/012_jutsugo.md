@@ -1,5 +1,5 @@
 ---
-title: concept/jutsugo
+title: 述語
 description: 日語句子結構中的述語概念 - 語言學核心理論
 type: concept
 jlpt: concept

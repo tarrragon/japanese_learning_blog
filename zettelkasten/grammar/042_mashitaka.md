@@ -1,5 +1,5 @@
 ---
-title: grammar/mashitaka
+title: 〜ましたか
 description: 過去疑問形〜ましたか，用於禮貌地詢問過去發生的事情或行為
 type: grammar
 jlpt: N5

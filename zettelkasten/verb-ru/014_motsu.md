@@ -1,5 +1,5 @@
 ---
-title: verb-ru/motsu
+title: 持つ（もつ）
 description: 持つ - 拿著、持有、擁有（五段動詞）
 type: verb
 subtype: godan

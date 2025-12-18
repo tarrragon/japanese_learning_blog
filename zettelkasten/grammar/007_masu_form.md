@@ -1,5 +1,5 @@
 ---
-title: grammar/masu_form
+title: ます形
 description: ます形 - 日語禮貌形動詞變化
 type: grammar
 subtype: verb_conjugation

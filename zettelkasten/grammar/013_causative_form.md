@@ -1,5 +1,5 @@
 ---
-title: grammar/causative_form
+title: "使役形"
 description: 使役形 - 日語動詞使役態
 type: grammar
 subtype: verb_conjugation

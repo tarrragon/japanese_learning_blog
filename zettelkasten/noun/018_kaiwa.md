@@ -1,5 +1,5 @@
 ---
-title: noun/kaiwa
+title: 会話(かいわ)
 description: 會話、對話、交談
 type: noun
 jlpt: n4

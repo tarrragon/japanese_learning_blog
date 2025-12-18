@@ -1,5 +1,5 @@
 ---
-title: noun/009_gakushuu
+title: 学習(がくしゅう)
 description: 學習（學習過程、學術性的學習）
 type: noun
 jlpt: n4

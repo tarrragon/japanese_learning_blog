@@ -1,5 +1,5 @@
 ---
-title: contrast/ability_capacity
+title: 能力 vs 容量
 description: 能力 vs 容量 詳細比較 - 能力與容量的辨析
 type: contrast
 comparison_items: [noun/nouryoku, noun/youryou]

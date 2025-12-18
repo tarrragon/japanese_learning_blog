@@ -1,5 +1,5 @@
 ---
-title: verb-u/nomu
+title: 飲む（のむ）
 description: 飲む - 喝
 type: verb
 subtype: godan

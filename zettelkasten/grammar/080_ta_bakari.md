@@ -1,5 +1,5 @@
 ---
-title: grammar/ta_bakari
+title: "〜たばかり"
 description: 表示動作剛剛完成，強調時間的接近性
 type: grammar
 subtype: pattern

@@ -1,5 +1,5 @@
 ---
-title: conjunction/001_dakara
+title: "だから"
 description: 所以、因此（口語因果連接詞）
 type: conjunction
 jlpt: n5

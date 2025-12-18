@@ -1,5 +1,5 @@
 ---
-title: grammar/transitive-intransitive
+title: 他動詞と自動詞
 description: 他動詞與自動詞的對比和使用規則，是日文動詞分類和助詞選擇的核心概念
 type: grammar
 jlpt: n4

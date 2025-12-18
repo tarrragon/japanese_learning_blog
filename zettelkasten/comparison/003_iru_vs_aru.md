@@ -1,5 +1,5 @@
 ---
-title: comparison/iru_vs_aru
+title: いる vs ある
 description: いる vs ある - 存在動詞的生命性區分（有生命 vs 無生命）
 type: comparison
 subtype: verb_pair

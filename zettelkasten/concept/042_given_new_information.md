@@ -1,5 +1,5 @@
 ---
-title: concept/given_new_information
+title: 既知・新情報（きち・しんじょうほう）
 description: 日文中既知資訊與新資訊的排序原則
 type: concept
 subtype: information_structure

@@ -1,5 +1,5 @@
 ---
-title: phrase/shopping_basic
+title: 購物基本表達
 description: 購物基本表達 - 購物時的基本用語和詢問方式
 type: phrase
 jlpt: n5

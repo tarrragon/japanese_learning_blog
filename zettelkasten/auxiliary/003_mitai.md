@@ -1,5 +1,5 @@
 ---
-title: auxiliary/mitai
+title: 〜みたい
 description: 助動詞「みたい」，表示推測、比況或例示，是日常會話中常用的表達方式
 type: auxiliary
 jlpt: n4

@@ -1,5 +1,5 @@
 ---
-title: concept/nuance
+title: ニュアンス
 description: 語感表達 - 語言中的細微意義差異和語感
 type: concept
 jlpt: concept

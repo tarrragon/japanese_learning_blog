@@ -1,5 +1,5 @@
 ---
-title: contrast/003_oboeru_vs_manabu
+title: "覚える vs 学ぶ"
 description: 覚える vs 学ぶ - 學習動詞對比
 type: contrast
 jlpt: n5

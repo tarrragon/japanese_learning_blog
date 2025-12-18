@@ -1,5 +1,5 @@
 ---
-title: grammar/verb-classification
+title: 動詞分類系統
 description: 動詞分類系統的文法標記
 type: tag
 category: grammar

@@ -1,5 +1,5 @@
 ---
-title: grammar/nakereba_naranai
+title: "〜なければならない"
 description: 表示義務和必須性的文法句型
 type: grammar
 subtype: pattern

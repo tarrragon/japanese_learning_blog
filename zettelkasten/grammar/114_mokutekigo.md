@@ -1,5 +1,5 @@
 ---
-title: grammar/mokutekigo
+title: "目的語（もくてきご）"
 description: 賓語（目的語）- 動作的直接對象
 type: grammar
 subtype: sentence-structure

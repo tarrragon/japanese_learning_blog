@@ -1,5 +1,5 @@
 ---
-title: conjunction/sorede
+title: "それで"
 description: 因此、所以
 type: conjunction
 subtype: conjunctive_adverb

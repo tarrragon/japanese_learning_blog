@@ -1,5 +1,5 @@
 ---
-title: honorific/ossharu_mousu
+title: おっしゃる・申す
 description: おっしゃる・申す - 「言う」的敬語形式
 type: honorific
 subtype: verb_pair

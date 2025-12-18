@@ -1,5 +1,5 @@
 ---
-title: grammar/rareru_honorific
+title: "れる・られる（尊敬語用法）"
 description: れる・られる的尊敬語用法
 type: grammar
 subtype: honorific

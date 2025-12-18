@@ -1,5 +1,5 @@
 ---
-title: grammar/rashii
+title: "〜らしい"
 description: 表達推測、傳聞或典型特質的助動詞
 type: grammar
 subtype: modal

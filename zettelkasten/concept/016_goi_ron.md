@@ -1,5 +1,5 @@
 ---
-title: concept/goi_ron
+title: 語彙論（ごいろん）
 description: 語彙論（詞彙學）- 研究詞彙系統的語言學分支
 type: concept
 jlpt: concept

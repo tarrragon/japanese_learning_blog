@@ -1,5 +1,5 @@
 ---
-title: grammar/tara-jouken
+title: たら条件形
 description: たら條件形（假定條件/完成條件）
 type: grammar
 subtype: conditional

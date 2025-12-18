@@ -1,5 +1,5 @@
 ---
-title: noun/kiten
+title: 起点（きてん）
 description: 起點，開始的地方或時間點
 type: noun
 jlpt: n3

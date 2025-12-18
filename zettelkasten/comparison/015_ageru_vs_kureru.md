@@ -1,5 +1,5 @@
 ---
-title: comparison/ageru_vs_kureru
+title: あげる vs くれる
 description: あげる vs くれる - 授受動詞方向性對比
 type: comparison
 comparison_items: [ageru, kureru]

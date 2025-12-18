@@ -1,5 +1,5 @@
 ---
-title: domain/perception
+title: "知覚・感覚分野"
 description: 感知和知覺相關的詞彙和概念
 type: domain_tag
 created: 2025-10-29

@@ -1,5 +1,5 @@
 ---
-title: grammar/keigo_system
+title: "敬語システム"
 description: 敬語系統 - 日語的尊敬、謙讓、丁寧語三大系統
 type: grammar
 subtype: pragmatics

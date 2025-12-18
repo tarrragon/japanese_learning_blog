@@ -1,5 +1,5 @@
 ---
-title: concept/opinion
+title: 意見（いけん）
 description: 意見表達 - 表達個人觀點和看法的語言行為
 type: concept
 jlpt: concept

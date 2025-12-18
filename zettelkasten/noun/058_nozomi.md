@@ -1,5 +1,5 @@
 ---
-title: noun/059_nozomi
+title: 望み（のぞみ）
 description: 願望、希望、期待
 type: noun
 jlpt: n3

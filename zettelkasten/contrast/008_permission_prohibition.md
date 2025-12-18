@@ -1,5 +1,5 @@
 ---
-title: contrast/permission_prohibition
+title: 許可 vs 禁止
 description: 許可 vs 禁止 詳細比較 - 許可與禁止表達辨析
 type: contrast
 comparison_items: [permission, prohibition]

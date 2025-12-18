@@ -1,5 +1,5 @@
 ---
-title: concept/benefactive_perspective
+title: 授受視角（じゅじゅしかく）
 description: 日文授受動詞的視角選擇概念
 type: concept
 subtype: pragmatics

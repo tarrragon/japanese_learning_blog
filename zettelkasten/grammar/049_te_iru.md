@@ -1,5 +1,5 @@
 ---
-title: grammar/te-iru
+title: 〜ている
 description: 〜ている形 - 日文的進行式與狀態表達（進行、結果、習慣、職業四大用法）
 type: grammar
 subtype: verb_form

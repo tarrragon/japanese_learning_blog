@@ -1,5 +1,5 @@
 ---
-title: noun/riyuu
+title: 理由（りゆう）
 description: 理由、原因
 type: noun
 subtype: abstract

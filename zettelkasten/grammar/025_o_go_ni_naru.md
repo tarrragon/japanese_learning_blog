@@ -1,5 +1,5 @@
 ---
-title: grammar/o_go_ni_naru
+title: "お/ご〜になる"
 description: お/ご～になる - 尊敬語形成模式
 type: grammar
 subtype: honorific_pattern

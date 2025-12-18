@@ -1,5 +1,5 @@
 ---
-title: grammar/tearu
+title: 〜てある
 description: てある - 結果狀態（有意圖的準備狀態）
 type: grammar
 grammar_type: resultative_state

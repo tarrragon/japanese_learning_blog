@@ -1,5 +1,5 @@
 ---
-title: noun/ashita
+title: 明日（あした）
 description: 明天、次日
 type: noun
 subtype: time

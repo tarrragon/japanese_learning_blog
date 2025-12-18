@@ -1,5 +1,5 @@
 ---
-title: noun/011_hatsuon
+title: 発音(はつおん)
 description: 發音
 type: noun
 jlpt: n4

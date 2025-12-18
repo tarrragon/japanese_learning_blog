@@ -1,5 +1,5 @@
 ---
-title: phrase/tara_dou
+title: 〜たらどう
 description: 〜たらどう - 怎麼樣、要不要（提建議）
 type: phrase
 jlpt: n4

@@ -1,5 +1,5 @@
 ---
-title: grammar/to_jouken
+title: "と条件形（参照052）"
 description: と條件形（參照 052）
 type: grammar
 subtype: conditional

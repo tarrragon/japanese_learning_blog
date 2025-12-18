@@ -1,5 +1,5 @@
 ---
-title: particle/kara
+title: から
 description: から - 起點助詞、原因助詞
 type: particle
 subtype: case_marker

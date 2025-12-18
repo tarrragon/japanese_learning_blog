@@ -1,5 +1,5 @@
 ---
-title: concept/topic_prominent_language
+title: 主題優先語言（トピック卓越言語）
 description: 主題優先語言的語言學概念，解釋日文如何以主題為中心組織句子
 type: concept
 subtype: linguistic_typology

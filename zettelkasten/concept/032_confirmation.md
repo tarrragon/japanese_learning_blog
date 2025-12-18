@@ -1,5 +1,5 @@
 ---
-title: concept/confirmation
+title: 確認（かくにん）
 description: 確認表達 - 日語中確認訊息與核實理解的語言機制
 type: concept
 jlpt: n3

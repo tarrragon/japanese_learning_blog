@@ -1,5 +1,5 @@
 ---
-title: comparison/wo_vs_ni
+title: を vs に
 description: を vs に 詳細比較 - 直接賓語與間接賓語的區別
 type: comparison
 comparison_items: [particle/wo, particle/ni]

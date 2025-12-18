@@ -1,5 +1,5 @@
 ---
-title: grammar/quotation_expression
+title: "引用表現（いんようひょうげん）"
 description: 引用表達的文法模式
 type: grammar
 subtype: pattern

@@ -1,5 +1,5 @@
 ---
-title: grammar/tai_form
+title: "〜たい形"
 description: たい形 - 想要做某事的表達方式
 type: grammar
 subtype: conjugation

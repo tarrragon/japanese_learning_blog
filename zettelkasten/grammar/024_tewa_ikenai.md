@@ -1,5 +1,5 @@
 ---
-title: grammar/tewa_ikenai
+title: "〜てはいけない"
 description: てはいけない - 禁止的表達方式（不可以做某事）
 type: grammar
 subtype: prohibition

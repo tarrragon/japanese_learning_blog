@@ -1,5 +1,5 @@
 ---
-title: phrase/sou_suru
+title: そうする
 description: そうする - 那樣做（表示同意或確認）
 type: phrase
 jlpt: n5

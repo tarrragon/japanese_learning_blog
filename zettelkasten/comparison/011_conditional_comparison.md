@@ -1,5 +1,5 @@
 ---
-title: comparison/conditional_comparison
+title: と vs たら vs ば vs なら
 description: 四種條件形總對比（と・たら・ば・なら）
 type: comparison
 subtype: grammar_comparison

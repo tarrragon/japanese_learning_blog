@@ -1,5 +1,5 @@
 ---
-title: grammar/modal_expressions
+title: モダリティ
 description: 日語的語氣表達系統，用於表示說話者的態度、判斷和心理狀態
 type: grammar
 subtype: system

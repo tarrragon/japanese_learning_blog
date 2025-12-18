@@ -1,5 +1,5 @@
 ---
-title: grammar/nai-kei
+title: ない形
 description: 動詞的否定形式，用於表示否定、禁止、義務等各種文法結構的基礎形態
 type: grammar
 jlpt: N5

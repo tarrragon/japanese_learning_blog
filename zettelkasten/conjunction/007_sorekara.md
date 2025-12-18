@@ -1,5 +1,5 @@
 ---
-title: conjunction/012_sorekara
+title: "それから"
 description: 然後、之後（時間或順序連接詞）
 type: conjunction
 jlpt: n4

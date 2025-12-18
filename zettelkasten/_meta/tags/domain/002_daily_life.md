@@ -1,5 +1,5 @@
 ---
-title: domain/daily_life
+title: "日常生活"
 description: 日常生活領域的詞彙和概念
 type: domain_tag
 created: 2025-10-28

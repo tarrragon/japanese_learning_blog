@@ -1,5 +1,5 @@
 ---
-title: grammar/nagara
+title: 〜ながら
 description: 一邊...一邊...（表示同時進行兩個動作）
 type: grammar
 subtype: pattern

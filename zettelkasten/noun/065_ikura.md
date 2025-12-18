@@ -1,5 +1,5 @@
 ---
-title: noun/ikura
+title: いくら
 description: 多少錢（詢問價格的疑問詞）
 type: noun
 subtype: interrogative

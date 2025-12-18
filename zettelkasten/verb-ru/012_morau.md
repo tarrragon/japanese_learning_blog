@@ -1,5 +1,5 @@
 ---
-title: verb-ru/morau
+title: "もらう（もらう）"
 description: もらう - 得到、收到、接受
 type: verb
 subtype: ru_verb

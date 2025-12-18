@@ -1,5 +1,5 @@
 ---
-title: verb-irr/suru
+title: する
 description: する - 做、進行（最常用的不規則動詞）
 type: verb
 subtype: irregular

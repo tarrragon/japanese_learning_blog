@@ -1,5 +1,5 @@
 ---
-title: noun/dore
+title: どれ
 description: 不定數選項中選擇哪一個的疑問詞
 type: noun
 subtype: interrogative

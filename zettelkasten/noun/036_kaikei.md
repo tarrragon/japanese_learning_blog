@@ -1,5 +1,5 @@
 ---
-title: noun/031_kaikei
+title: 会計(かいけい)
 description: 會計、帳簿、會計部門
 type: noun
 jlpt: n3

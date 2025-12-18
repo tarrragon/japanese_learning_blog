@@ -1,5 +1,5 @@
 ---
-title: comparison/ga_vs_wa
+title: が vs は
 description: が vs は 詳細比較 - 日語學習最大難點
 type: comparison
 comparison_items: [particle/ga, particle/wa]

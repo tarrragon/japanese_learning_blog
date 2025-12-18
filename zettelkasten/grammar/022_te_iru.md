@@ -1,5 +1,5 @@
 ---
-title: grammar/te_iru
+title: "〜ている"
 description: 〜ている - 進行式、持續狀態的表達方式
 type: grammar
 subtype: aspect

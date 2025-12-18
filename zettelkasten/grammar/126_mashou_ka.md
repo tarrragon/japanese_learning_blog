@@ -1,5 +1,5 @@
 ---
-title: grammar/mashou_ka
+title: 〜ましょうか
 description: 表示提議、建議或邀請的文法句型
 type: grammar
 subtype: pattern

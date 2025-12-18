@@ -1,5 +1,5 @@
 ---
-title: grammar/dictionary_form
+title: 辞書形
 description: 辞書形 - 日語動詞基本形・原形
 type: grammar
 subtype: verb_conjugation

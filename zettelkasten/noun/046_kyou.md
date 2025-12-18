@@ -1,5 +1,5 @@
 ---
-title: noun/kyou
+title: 今日（きょう）
 description: 今天、今日
 type: noun
 subtype: time

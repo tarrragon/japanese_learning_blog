@@ -1,5 +1,5 @@
 ---
-title: concept/verb_types_system
+title: 動詞類型（どうしるいけい）
 description: 日文動詞類型的理論體系與分類原理
 type: concept
 subtype: linguistic_theory

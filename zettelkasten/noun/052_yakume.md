@@ -1,5 +1,5 @@
 ---
-title: noun/yakume
+title: 役目（やくめ）
 description: 職責、任務、角色
 type: noun
 jlpt: n3

@@ -1,5 +1,5 @@
 ---
-title: context/business
+title: "ビジネスシーン"
 description: 商務場合使用的詞彙和表達
 type: context_tag
 created: 2025-10-28

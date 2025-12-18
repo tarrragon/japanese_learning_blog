@@ -1,5 +1,5 @@
 ---
-title: grammar/te-morau
+title: 〜てもらう
 description: 請求或接受他人做某事（受益者視角）
 type: grammar
 subtype: benefactive

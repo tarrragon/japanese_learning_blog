@@ -1,5 +1,5 @@
 ---
-title: context/daily_life
+title: 日常生活の文脈
 description: 日常生活情境中使用的詞彙和表達
 type: context_tag
 created: 2025-10-30

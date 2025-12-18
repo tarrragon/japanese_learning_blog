@@ -1,5 +1,5 @@
 ---
-title: verb-u/yaru
+title: やる
 description: やる - 給、做、試
 type: verb
 subtype: godan_u

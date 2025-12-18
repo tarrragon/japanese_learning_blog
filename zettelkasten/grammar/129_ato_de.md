@@ -1,5 +1,5 @@
 ---
-title: grammar/ato_de
+title: 〜後で
 description: 表示在某動作或事件結束後進行另一個動作
 type: grammar
 subtype: pattern

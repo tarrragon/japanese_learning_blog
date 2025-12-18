@@ -1,5 +1,5 @@
 ---
-title: concept/teineigo
+title: 丁寧語（ていねいご）
 description: 日文敬語系統中的丁寧語概念
 type: concept
 subtype: honorific_system

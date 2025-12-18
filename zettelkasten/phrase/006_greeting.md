@@ -1,5 +1,5 @@
 ---
-title: phrase/greeting
+title: 日常の挨拶表現（にちじょうのあいさつひょうげん）
 description: 日常打招呼表達 - 常用的日常問候語和打招呼方式
 type: phrase
 jlpt: n5

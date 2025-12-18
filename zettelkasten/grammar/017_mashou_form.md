@@ -1,5 +1,5 @@
 ---
-title: grammar/mashou_form
+title: "〜ましょう形"
 description: ましょう形 - 建議、邀請、意向的表達方式
 type: grammar
 subtype: conjugation

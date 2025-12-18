@@ -1,5 +1,5 @@
 ---
-title: conjunction/001_demo
+title: "でも"
 description: 但是、可是（口語逆接連接詞）
 type: conjunction
 subtype: adversative

@@ -1,5 +1,5 @@
 ---
-title: comparison/ba_vs_tara
+title: ば vs たら
 description: ば條件形與たら條件形的對比辨析
 type: comparison
 comparison_items: [ば, たら]

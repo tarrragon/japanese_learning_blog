@@ -1,5 +1,5 @@
 ---
-title: verb-u/omou
+title: "思う（おもう）"
 description: 思う - 想、覺得、認為
 type: verb
 subtype: u_verb

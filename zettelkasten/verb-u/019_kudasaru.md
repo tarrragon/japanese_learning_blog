@@ -1,5 +1,5 @@
 ---
-title: verb-u/kudasaru
+title: くださる
 description: くださる - 給予（尊敬語）
 type: verb
 subtype: u_verb

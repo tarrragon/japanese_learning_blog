@@ -1,5 +1,5 @@
 ---
-title: concept/topic_prominent_language
+title: 主題優先語言（しゅだいゆうせんげんご）
 description: 主題優先語言的語言類型學概念
 type: concept
 subtype: linguistics

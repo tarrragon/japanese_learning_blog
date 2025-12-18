@@ -1,5 +1,5 @@
 ---
-title: grammar/te-kudasai
+title: 〜てください
 description: 〜てください是日文中禮貌請求的基本句型，用於請求對方做某事
 type: grammar
 jlpt: n5

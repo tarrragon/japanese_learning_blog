@@ -1,5 +1,5 @@
 ---
-title: concept/information_flow
+title: 情報の流れ（じょうほうのながれ）
 description: 資訊在溝通中的傳遞方向和結構
 type: concept
 subtype: linguistic_concept

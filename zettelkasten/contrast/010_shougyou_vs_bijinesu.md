@@ -1,5 +1,5 @@
 ---
-title: contrast/shougyou_vs_bijinesu
+title: 商業 vs ビジネス
 description: 商業 vs ビジネス 詳細比較 - 和語漢語與外來語的語感差異
 type: contrast
 comparison_items: [noun/shougyou, noun/bijinesu]

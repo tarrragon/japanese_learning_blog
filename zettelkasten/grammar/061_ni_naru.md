@@ -1,5 +1,5 @@
 ---
-title: grammar/ni-naru
+title: 〜になる
 description: ～になる（自然變化/結果狀態）
 type: grammar
 subtype: change_pattern

@@ -1,5 +1,5 @@
 ---
-title: grammar/godan_verb
+title: 五段動詞
 description: 五段動詞（う動詞）- 變化複雜的動詞類型
 type: grammar
 subtype: verb_conjugation

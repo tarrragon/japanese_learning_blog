@@ -1,5 +1,5 @@
 ---
-title: grammar/jishokei
+title: 辞書形
 description: 動詞的辞書形（基本形），是字典查詢用的形式，也是普通體的基礎。所有動詞在字典中都以此形式呈現，表示未完成的動作或狀態。
 type: grammar
 jlpt: N5

@@ -1,5 +1,5 @@
 ---
-title: grammar/mashou_kei
+title: ましょう形
 description: ましょう形（意向形丁寧體）- 動詞活用形式的基礎
 type: grammar
 subtype: conjugation

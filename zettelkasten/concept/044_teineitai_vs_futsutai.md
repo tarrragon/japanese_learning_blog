@@ -1,5 +1,5 @@
 ---
-title: concept/teineitai_vs_futsutai
+title: 丁寧体と普通体
 description: 丁寧體與普通體的區別和使用情境
 type: concept
 subtype: register

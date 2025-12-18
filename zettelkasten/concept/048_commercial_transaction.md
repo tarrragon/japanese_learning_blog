@@ -1,5 +1,5 @@
 ---
-title: concept/commercial_transaction
+title: "商取引"
 description: 商業交易流程的基本概念與實務
 type: concept
 subtype: business_process

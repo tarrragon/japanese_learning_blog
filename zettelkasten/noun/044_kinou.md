@@ -1,5 +1,5 @@
 ---
-title: noun/kinou
+title: 昨日（きのう）
 description: 昨天、昨日
 type: noun
 subtype: temporal

@@ -1,5 +1,5 @@
 ---
-title: phrase/007_kousuru
+title: こうする
 description: 這樣做、如此處理
 type: phrase
 jlpt: n4

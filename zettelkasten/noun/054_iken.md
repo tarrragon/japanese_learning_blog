@@ -1,5 +1,5 @@
 ---
-title: noun/iken
+title: 意見（いけん）
 description: 意見 - 個人的看法或主張
 type: noun
 jlpt: n4

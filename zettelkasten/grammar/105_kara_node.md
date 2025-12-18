@@ -1,5 +1,5 @@
 ---
-title: grammar/kara_node
+title: "から・ので"
 description: 表達理由和原因的文法模式
 type: grammar
 subtype: conjunction

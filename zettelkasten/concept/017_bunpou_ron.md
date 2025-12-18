@@ -1,5 +1,5 @@
 ---
-title: concept/bunpou_ron
+title: 文法論（ぶんぽうろん）
 description: 文法論 - 研究語言文法結構的理論體系
 type: concept
 subtype: linguistics

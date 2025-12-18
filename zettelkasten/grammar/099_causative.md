@@ -1,5 +1,5 @@
 ---
-title: grammar/causative
+title: "使役形（しえきけい）"
 description: 使役形 - 表示讓某人做某事或給予許可的文法形式
 type: grammar
 subtype: conjugation

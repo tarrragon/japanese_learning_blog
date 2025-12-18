@@ -1,5 +1,5 @@
 ---
-title: contrast/necessity_obligation
+title: 必要 vs 義務
 description: 必要 vs 義務 詳細比較 - 必要性與義務的語義辨析
 type: contrast
 comparison_items: [noun/hitsuyo, noun/gimu]

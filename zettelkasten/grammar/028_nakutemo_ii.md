@@ -1,5 +1,5 @@
 ---
-title: grammar/nakutemo_ii
+title: なくてもいい
 description: なくてもいい - 不必、不用
 type: grammar
 grammar_type: permission

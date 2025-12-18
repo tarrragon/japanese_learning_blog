@@ -1,5 +1,5 @@
 ---
-title: verb-u/025_sumu
+title: 住む（すむ）
 description: 居住、住
 type: verb
 subtype: godan-u

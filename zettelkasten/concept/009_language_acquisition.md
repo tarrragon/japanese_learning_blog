@@ -1,5 +1,5 @@
 ---
-title: concept/language_acquisition
+title: 言語習得
 description: 言語習得（語言習得）- 語言學習理論核心概念
 type: concept
 jlpt: n2

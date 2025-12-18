@@ -1,5 +1,5 @@
 ---
-title: grammar/beki
+title: べき
 description: 應該、義務建議（表達義務、應然、道德規範的助動詞）
 type: grammar
 jlpt: n3

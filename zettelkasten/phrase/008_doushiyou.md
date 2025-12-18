@@ -1,5 +1,5 @@
 ---
-title: phrase/007_doushiyou
+title: どうしよう（doushiyou）
 description: 怎麼辦、該怎麼處理
 type: phrase
 jlpt: n4

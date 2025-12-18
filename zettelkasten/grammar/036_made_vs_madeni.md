@@ -1,5 +1,5 @@
 ---
-title: grammar/made_vs_madeni
+title: まで vs までに
 description: まで vs までに - 持續性 vs 期限的重要區別
 type: grammar
 subtype: comparison

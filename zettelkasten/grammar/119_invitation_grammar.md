@@ -1,5 +1,5 @@
 ---
-title: grammar/invitation_grammar
+title: 誘い方
 description: 邀約文法 - 邀請他人、提出建議的各種表達方式
 type: grammar
 subtype: pattern

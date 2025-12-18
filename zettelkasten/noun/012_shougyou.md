@@ -1,5 +1,5 @@
 ---
-title: noun/011_shougyou
+title: 商業(しょうぎょう)
 description: 商業
 type: noun
 jlpt: n3

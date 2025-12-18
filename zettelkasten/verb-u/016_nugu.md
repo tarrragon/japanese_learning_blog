@@ -1,5 +1,5 @@
 ---
-title: verb-u/nugu
+title: 脱ぐ（ぬぐ）
 description: 脱ぐ - 脫（衣服、鞋子）
 type: verb
 subtype: godan

@@ -1,5 +1,5 @@
 ---
-title: grammar/to_shite
+title: ～として
 description: ～として - 作為...（表達身份、角色、立場、資格）
 type: grammar
 subtype: role_pattern

@@ -1,5 +1,5 @@
 ---
-title: verb-u/aruku
+title: 歩く(あるく)
 description: 歩く - 走路、步行
 type: verb
 subtype: godan

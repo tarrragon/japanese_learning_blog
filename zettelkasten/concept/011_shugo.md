@@ -1,5 +1,5 @@
 ---
-title: concept/shugo
+title: 主語
 description: 日文句子中的主語概念與特性
 type: concept
 subtype: grammar_concept

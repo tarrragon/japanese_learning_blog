@@ -1,5 +1,5 @@
 ---
-title: domain/economics
+title: "経済学"
 description: 經濟學領域的詞彙和概念
 type: domain_tag
 created: 2025-10-28

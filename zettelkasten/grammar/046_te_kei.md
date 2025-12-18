@@ -1,5 +1,5 @@
 ---
-title: grammar/te-kei
+title: て形
 description: 日語動詞最重要的活用形之一，用於連接句子、表達請求、進行狀態等多種文法功能
 type: grammar
 jlpt: N5

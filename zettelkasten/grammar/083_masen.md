@@ -1,5 +1,5 @@
 ---
-title: grammar/masen
+title: "〜ません"
 description: ます形的現在否定形式，用於禮貌地表達不做某事
 type: grammar
 subtype: verb_conjugation

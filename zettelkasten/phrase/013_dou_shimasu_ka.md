@@ -1,5 +1,5 @@
 ---
-title: phrase/dou_shimasu_ka
+title: どうしますか
 description: どうしますか - 您要怎麼做（禮貌詢問）
 type: phrase
 jlpt: n5

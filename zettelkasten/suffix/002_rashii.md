@@ -1,5 +1,5 @@
 ---
-title: suffix/002_rashii
+title: 〜らしい
 description: 表示典型特質、像...應有的樣子
 type: suffix
 subtype: adjective_forming

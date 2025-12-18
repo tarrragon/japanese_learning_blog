@@ -1,5 +1,5 @@
 ---
-title: grammar/nara
+title: なら
 description: なら - 話題條件/建議前提（基於對方提出的話題或情況）
 type: grammar
 subtype: conditional

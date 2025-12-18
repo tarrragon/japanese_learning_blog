@@ -1,5 +1,5 @@
 ---
-title: verb-u/021_manabu
+title: 学ぶ（まなぶ）
 description: 學習
 type: verb
 subtype: godan

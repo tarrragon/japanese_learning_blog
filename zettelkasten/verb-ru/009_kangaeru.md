@@ -1,5 +1,5 @@
 ---
-title: verb-ru/kangaeru
+title: 考える（かんがえる）
 description: 考える - 思考、考慮
 type: verb
 subtype: ichidan

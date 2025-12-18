@@ -1,5 +1,5 @@
 ---
-title: grammar/sonzai-basho
+title: 存在與場所表達
 description: 存在與場所表達 - いる/ある的使用與場所句型
 type: grammar
 subtype: sentence_pattern

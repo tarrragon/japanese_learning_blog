@@ -1,5 +1,5 @@
 ---
-title: verb-u/tsuku
+title: 着く（つく）
 description: 着く - 到達、抵達
 type: verb
 subtype: godan

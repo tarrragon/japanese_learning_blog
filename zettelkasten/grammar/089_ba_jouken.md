@@ -1,5 +1,5 @@
 ---
-title: grammar/104_ba_jouken
+title: "ば条件形（仮定条件）"
 description: ば条件形 - 假定條件的進階用法與細節
 type: grammar
 subtype: conditional

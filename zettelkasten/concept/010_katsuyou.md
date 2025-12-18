@@ -1,5 +1,5 @@
 ---
-title: concept/katsuyou
+title: 活用
 description: 活用 - 動詞、形容詞、助動詞等根據語法功能而改變形式的變化系統
 type: concept
 subtype: linguistic_theory

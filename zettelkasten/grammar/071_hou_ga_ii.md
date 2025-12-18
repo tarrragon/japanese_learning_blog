@@ -1,5 +1,5 @@
 ---
-title: grammar/071_hou_ga_ii
+title: "〜ほうがいい"
 description: 最好...、應該...（建議）
 type: grammar
 jlpt: n4

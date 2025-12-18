@@ -1,5 +1,5 @@
 ---
-title: verb-u/itadaku
+title: いただく
 description: いただく - 接受、收到（謙讓語）
 type: verb
 subtype: u_verb

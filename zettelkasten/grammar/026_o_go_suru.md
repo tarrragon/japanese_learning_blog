@@ -1,5 +1,5 @@
 ---
-title: grammar/o_go_suru
+title: "お/ご〜する"
 description: お/ご～する - 謙讓語形成模式
 type: grammar
 subtype: honorific_pattern

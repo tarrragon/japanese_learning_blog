@@ -1,5 +1,5 @@
 ---
-title: phrase/to_iu_koto
+title: ということ
 description: ということ - 也就是說、意思是（用於解釋或確認前述內容）
 type: phrase
 jlpt: n4

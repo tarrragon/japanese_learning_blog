@@ -1,5 +1,5 @@
 ---
-title: grammar/jita_taiou
+title: 自他動詞対応
 description: 自他動詞對應 - 日文動詞配對系統與轉換規律
 type: grammar
 jlpt: n4

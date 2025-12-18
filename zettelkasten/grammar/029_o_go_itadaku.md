@@ -1,5 +1,5 @@
 ---
-title: grammar/o_go_itadaku
+title: お/ご～いただく
 description: お/ご～いただく - 更謙遜的謙讓語表達
 type: grammar
 subtype: honorific_pattern

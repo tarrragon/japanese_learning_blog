@@ -1,5 +1,5 @@
 ---
-title: honorific/nasaru_itasu
+title: なさる・いたす
 description: なさる・いたす - 「する」的敬語形式
 type: honorific
 subtype: verb_pair

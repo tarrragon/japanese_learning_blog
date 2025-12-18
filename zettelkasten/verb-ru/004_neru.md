@@ -1,5 +1,5 @@
 ---
-title: verb-ru/neru
+title: "寝る（ねる）"
 description: 寝る - 睡覺、就寢
 type: verb
 subtype: ichidan

@@ -1,5 +1,5 @@
 ---
-title: grammar/koto_ga_dekiru
+title: ことができる
 description: ことができる - 能力的表達方式（會做、能做某事）
 type: grammar
 subtype: ability

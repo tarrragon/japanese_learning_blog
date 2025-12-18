@@ -1,5 +1,5 @@
 ---
-title: domain/transaction
+title: 取引
 description: 交易流程領域的詞彙和概念
 type: domain_tag
 created: 2025-10-30

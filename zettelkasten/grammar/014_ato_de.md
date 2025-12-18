@@ -1,5 +1,5 @@
 ---
-title: grammar/ato_de
+title: "〜後で"
 description: 〜後で - 表示「在...之後」的時間文法
 type: grammar
 subtype: time_expression

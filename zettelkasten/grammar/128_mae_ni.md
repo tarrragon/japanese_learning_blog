@@ -1,5 +1,5 @@
 ---
-title: grammar/mae_ni
+title: "〜前に（まえに）"
 description: 表示某動作或事件發生之前的時間點
 type: grammar
 subtype: temporal

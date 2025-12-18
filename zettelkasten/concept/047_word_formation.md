@@ -1,5 +1,5 @@
 ---
-title: concept/word_formation
+title: "造語法"
 description: 日語造語法的基本概念與規則
 type: concept
 subtype: linguistic_theory

@@ -1,5 +1,5 @@
 ---
-title: noun/kanji
+title: 漢字(かんじ)
 description: 漢字，日文書寫系統中使用的中國文字
 type: noun
 subtype: linguistic_term

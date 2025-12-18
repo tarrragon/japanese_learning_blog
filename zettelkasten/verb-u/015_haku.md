@@ -1,5 +1,5 @@
 ---
-title: verb-u/haku
+title: "履く（はく）"
 description: 履く - 穿（褲子、鞋子、襪子）
 type: verb
 subtype: u_verb

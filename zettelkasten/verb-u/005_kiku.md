@@ -1,5 +1,5 @@
 ---
-title: verb-u/kiku
+title: 聞く（きく）
 description: 聞く - 聽、問
 type: verb
 subtype: godan

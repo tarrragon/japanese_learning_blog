@@ -1,5 +1,5 @@
 ---
-title: verb-ru/021_wasureru
+title: 忘れる（わすれる）
 description: 忘記
 type: verb
 subtype: ichidan

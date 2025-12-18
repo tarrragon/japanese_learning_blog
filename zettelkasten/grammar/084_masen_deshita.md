@@ -1,5 +1,5 @@
 ---
-title: grammar/masen_deshita
+title: "〜ませんでした"
 description: ませんでした形是丁寧體的過去否定形式，用於禮貌地表達過去沒有做某事
 type: grammar
 subtype: verb_conjugation

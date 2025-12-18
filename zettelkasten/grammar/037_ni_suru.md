@@ -1,5 +1,5 @@
 ---
-title: grammar/ni_suru
+title: ～にする
 description: ～にする - 決定、選擇（表達做出選擇和改變狀態）
 type: grammar
 subtype: decision_pattern

@@ -1,5 +1,5 @@
 ---
-title: conjunction/soshite
+title: そして
 description: そして - 順序連接詞、添加資訊
 type: conjunction
 subtype: sequential

@@ -1,5 +1,5 @@
 ---
-title: grammar/120_hou_ga_ii
+title: "〜ほうがいい"
 description: 最好...、應該...（建議的表達方式）
 type: grammar
 subtype: pattern

@@ -1,5 +1,5 @@
 ---
-title: noun/tachiba
+title: 立場（たちば）
 description: 立場 - position, stance, standpoint
 type: noun
 jlpt: n3

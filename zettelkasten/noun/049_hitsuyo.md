@@ -1,5 +1,5 @@
 ---
-title: noun/hitsuyo
+title: 必要（ひつよう）
 description: 必要性、必需品，表示不可或缺的事物或狀態
 type: noun
 jlpt: n4

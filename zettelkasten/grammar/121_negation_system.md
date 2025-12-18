@@ -1,5 +1,5 @@
 ---
-title: grammar/negation_system
+title: 否定体系
 description: 否定系統整合 - 動詞、形容詞、名詞的否定表達完整體系
 type: grammar
 subtype: system

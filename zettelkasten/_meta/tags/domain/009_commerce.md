@@ -1,5 +1,5 @@
 ---
-title: domain/commerce
+title: 商業
 description: 商業貿易領域的詞彙和概念
 type: domain_tag
 created: 2025-10-30

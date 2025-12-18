@@ -1,5 +1,5 @@
 ---
-title: concept/doushi_base
+title: "動詞"
 description: 動詞的基本概念與分類系統
 type: concept
 subtype: grammar_foundation

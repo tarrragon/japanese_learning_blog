@@ -1,5 +1,5 @@
 ---
-title: grammar/topic_comment_structure
+title: 主題評述構造
 description: 主題評述結構 - 日語句子的基本組織方式，以「主題」為出發點進行陳述
 type: grammar
 subtype: sentence_structure

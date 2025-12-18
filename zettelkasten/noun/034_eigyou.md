@@ -1,5 +1,5 @@
 ---
-title: noun/eigyou
+title: 営業(えいぎょう)
 description: 營業、業務活動、銷售業務
 type: noun
 subtype: business_activity

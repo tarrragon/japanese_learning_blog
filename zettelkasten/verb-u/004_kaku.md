@@ -1,5 +1,5 @@
 ---
-title: verb-u/kaku
+title: 書く（かく）
 description: 書く - 寫、書寫
 type: verb
 subtype: godan

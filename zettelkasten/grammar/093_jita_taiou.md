@@ -1,5 +1,5 @@
 ---
-title: grammar/jita_taiou
+title: "自他動詞対応（じたどうしたいおう）"
 description: 自動詞與他動詞的對應關係及使用規則
 type: grammar
 subtype: verb_classification

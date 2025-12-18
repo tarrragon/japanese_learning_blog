@@ -1,5 +1,5 @@
 ---
-title: context/casual
+title: "日常会話の場面"
 description: 日常、朋友間使用的隨意表達
 type: context_tag
 created: 2025-10-28

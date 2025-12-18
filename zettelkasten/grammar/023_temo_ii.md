@@ -1,5 +1,5 @@
 ---
-title: grammar/temo_ii
+title: "〜てもいい"
 description: てもいい - 許可的表達方式（可以做某事）
 type: grammar
 subtype: permission

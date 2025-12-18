@@ -1,5 +1,5 @@
 ---
-title: verb-irr/kanjiru
+title: 感じる（かんじる）
 description: 感受、感覺、察覺
 type: verb
 subtype: ichidan

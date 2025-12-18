@@ -1,5 +1,5 @@
 ---
-title: grammar/te-kureru
+title: 〜てくれる
 description: 〜てくれる（他人為我方做某事）
 type: grammar
 subtype: auxiliary_verb

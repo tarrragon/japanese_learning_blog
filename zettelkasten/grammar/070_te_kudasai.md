@@ -1,5 +1,5 @@
 ---
-title: grammar/070_te_kudasai
+title: "〜てください"
 description: 請求或命令的禮貌表達
 type: grammar
 jlpt: n5

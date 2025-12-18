@@ -1,5 +1,5 @@
 ---
-title: grammar/ta_ato
+title: "〜た後で"
 description: 〜た後で - 動詞た形接續的「之後」表達
 type: grammar
 subtype: time_expression

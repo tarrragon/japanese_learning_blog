@@ -1,5 +1,5 @@
 ---
-title: domain/finance
+title: "金融"
 description: 財經金融領域的詞彙和概念
 type: domain_tag
 created: 2025-10-28

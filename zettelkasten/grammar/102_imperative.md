@@ -1,5 +1,5 @@
 ---
-title: grammar/imperative
+title: "命令形（めいれいけい）"
 description: 命令形 - 日語動詞命令態
 type: grammar
 subtype: verb_conjugation

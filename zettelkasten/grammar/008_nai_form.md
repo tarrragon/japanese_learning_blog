@@ -1,5 +1,5 @@
 ---
-title: grammar/nai_form
+title: "ない形"
 description: ない形 - 日語否定形動詞變化
 type: grammar
 subtype: verb_conjugation

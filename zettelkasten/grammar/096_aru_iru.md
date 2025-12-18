@@ -1,5 +1,5 @@
 ---
-title: grammar/aru_iru
+title: "ある/いる（存在表達）"
 description: 存在表達 - ある/いる的基本句型與用法
 type: grammar
 subtype: existence_pattern

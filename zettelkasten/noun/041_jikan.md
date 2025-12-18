@@ -1,5 +1,5 @@
 ---
-title: noun/jikan
+title: 時間（じかん）
 description: 時間 - 表示時間概念的基礎名詞
 type: noun
 subtype: temporal

@@ -1,5 +1,5 @@
 ---
-title: conjunction/006_shitagatte
+title: "したがって"
 description: 因此、所以（正式邏輯推論用語）
 type: conjunction
 subtype: conjunctive_adverb

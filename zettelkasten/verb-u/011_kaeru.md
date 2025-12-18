@@ -1,5 +1,5 @@
 ---
-title: verb-u/kaeru
+title: 帰る（かえる）
 description: 帰る - 回去、回家
 type: verb
 subtype: u_verb

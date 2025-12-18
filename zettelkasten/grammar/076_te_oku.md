@@ -1,5 +1,5 @@
 ---
-title: grammar/te_oku
+title: "〜ておく"
 description: 表示事先準備或保持狀態的文法句型
 type: grammar
 subtype: pattern

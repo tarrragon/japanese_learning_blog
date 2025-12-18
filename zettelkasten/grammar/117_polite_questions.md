@@ -1,5 +1,5 @@
 ---
-title: grammar/polite_questions
+title: "丁寧な質問（ていねいなしつもん）"
 description: 丁寧な質問 - 禮貌提問的語法結構和使用方式
 type: grammar
 subtype: pattern

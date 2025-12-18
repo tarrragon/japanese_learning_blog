@@ -1,5 +1,5 @@
 ---
-title: comparison/te_iru_vs_ta
+title: 〜ている vs 〜た
 description: 〜ている vs 〜た - 時態對比（持續狀態 vs 完成動作）
 type: comparison
 subtype: tense_aspect

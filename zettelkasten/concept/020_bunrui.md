@@ -1,5 +1,5 @@
 ---
-title: concept/bunrui
+title: 分類（ぶんるい）
 description: 分類系統的概念與應用
 type: concept
 subtype: cognitive_framework

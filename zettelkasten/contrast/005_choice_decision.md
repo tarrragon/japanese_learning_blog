@@ -1,5 +1,5 @@
 ---
-title: contrast/choice_decision
+title: 選択 vs 決定
 description: 選択 vs 決定 詳細比較 - 選擇與決定的詞彙辨析
 type: contrast
 comparison_items: [noun/sentaku, noun/kettei]

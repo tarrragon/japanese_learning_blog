@@ -1,5 +1,5 @@
 ---
-title: noun/008_bunpou
+title: 文法(ぶんぽう)
 description: 文法
 type: noun
 jlpt: n4

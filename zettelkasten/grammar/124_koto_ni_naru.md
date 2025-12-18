@@ -1,5 +1,5 @@
 ---
-title: grammar/koto_ni_naru
+title: 〜ことになる
 description: 表示決定或規定（非個人意志）
 type: grammar
 subtype: pattern

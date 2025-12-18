@@ -1,5 +1,5 @@
 ---
-title: grammar/ba-jouken
+title: ば条件形
 description: ば條件形 - 假定條件表達方式
 type: grammar
 subtype: conditional

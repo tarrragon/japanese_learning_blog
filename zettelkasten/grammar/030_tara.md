@@ -1,5 +1,5 @@
 ---
-title: grammar/tara
+title: たら
 description: たら - 條件、假設（如果...的話）
 type: grammar
 grammar_type: conditional_form

@@ -1,5 +1,5 @@
 ---
-title: concept/jidoushi
+title: 自動詞
 description: 自動詞（不需要賓語的動詞，描述狀態變化或自發動作）
 type: concept
 jlpt: n4

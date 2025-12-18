@@ -1,5 +1,5 @@
 ---
-title: grammar/potential
+title: "可能形（かのうけい）"
 description: 可能形 - 表達能力和可能性的動詞變化形式
 type: grammar
 subtype: conjugation

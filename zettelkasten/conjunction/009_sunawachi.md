@@ -1,5 +1,5 @@
 ---
-title: conjunction/015_sunawachi
+title: "すなわち"
 description: 也就是說、即
 type: conjunction
 jlpt: n2

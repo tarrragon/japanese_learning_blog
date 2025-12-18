@@ -1,5 +1,5 @@
 ---
-title: verb-u/hanasu
+title: 話す(はなす)
 description: 話す - 說話、交談
 type: verb
 subtype: godan

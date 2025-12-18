@@ -1,5 +1,5 @@
 ---
-title: verb-ru/kiru
+title: "着る（きる）"
 description: 着る - 穿（衣服）
 type: verb
 subtype: ichidan

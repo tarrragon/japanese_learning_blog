@@ -1,5 +1,5 @@
 ---
-title: grammar/koto-ni-suru
+title: 〜ことにする
 description: ～ことにする（決定做某事）
 type: grammar
 subtype: decision_pattern

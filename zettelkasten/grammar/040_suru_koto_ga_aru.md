@@ -1,5 +1,5 @@
 ---
-title: grammar/suru_koto_ga_aru
+title: することがある
 description: することがある - 有時會做、偶爾做（表示習慣性的偶爾發生）
 type: grammar
 subtype: frequency_pattern

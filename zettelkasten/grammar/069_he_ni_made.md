@@ -1,5 +1,5 @@
 ---
-title: grammar/069_he_ni_made
+title: "へ vs に vs まで"
 description: 方向助詞的比較與用法
 type: grammar
 subtype: particle

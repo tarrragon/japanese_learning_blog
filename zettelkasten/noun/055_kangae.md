@@ -1,5 +1,5 @@
 ---
-title: noun/kangae
+title: 考え（かんがえ）
 description: 想法、意見、看法
 type: noun
 subtype: abstract

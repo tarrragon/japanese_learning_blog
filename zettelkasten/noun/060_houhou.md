@@ -1,5 +1,5 @@
 ---
-title: noun/houhou
+title: 方法（ほうほう）
 description: 方法、做事的方式或手段
 type: noun
 subtype: abstract

@@ -1,5 +1,5 @@
 ---
-title: verb-u/hairu
+title: 入る（はいる）
 description: 入る - 進入、加入
 type: verb
 subtype: u_verb

@@ -1,5 +1,5 @@
 ---
-title: grammar/te-ageru
+title: 〜てあげる
 description: 為他人做某事（給予者視角）
 type: grammar
 subtype: benefactive

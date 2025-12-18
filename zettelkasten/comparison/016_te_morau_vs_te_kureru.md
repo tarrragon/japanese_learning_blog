@@ -1,5 +1,5 @@
 ---
-title: comparison/te-morau_vs_te-kureru
+title: 〜てもらう vs 〜てくれる
 description: 〜てもらう vs 〜てくれる - 授受動詞視角對比分析
 type: comparison
 subtype: grammar_comparison

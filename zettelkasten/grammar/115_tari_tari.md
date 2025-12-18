@@ -1,5 +1,5 @@
 ---
-title: grammar/tari_tari
+title: "〜たり〜たり（する）"
 description: 列舉多個動作或狀態，表示「做...做...」
 type: grammar
 subtype: pattern

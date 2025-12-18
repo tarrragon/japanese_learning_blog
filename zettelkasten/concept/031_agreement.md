@@ -1,5 +1,5 @@
 ---
-title: concept/028_agreement
+title: 同意（どうい）
 description: 同意表達的語言概念與溝通策略
 type: concept
 subtype: pragmatics

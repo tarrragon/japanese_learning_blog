@@ -1,5 +1,5 @@
 ---
-title: phrase/shop_clerk
+title: 店員用語
 description: 店員用語 - 商店店員的標準服務用語
 type: phrase
 jlpt: n4

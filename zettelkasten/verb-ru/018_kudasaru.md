@@ -1,5 +1,5 @@
 ---
-title: verb-ru/018_kudasaru
+title: 下さる（くださる）
 description: 給予（尊敬語）
 type: verb
 subtype: ichidan

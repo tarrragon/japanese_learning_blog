@@ -1,5 +1,5 @@
 ---
-title: context/family
+title: "家族との会話"
 description: 家庭內部使用的詞彙和表達
 type: context_tag
 created: 2025-10-28

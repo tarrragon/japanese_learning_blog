@@ -1,5 +1,5 @@
 ---
-title: noun/022_sakubun
+title: 作文(さくぶん)
 description: 作文（文章創作、寫作作業）
 type: noun
 jlpt: n3

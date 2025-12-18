@@ -1,5 +1,5 @@
 ---
-title: domain/learning
+title: 学習
 description: 學習領域的詞彙和概念
 type: domain_tag
 created: 2025-10-30

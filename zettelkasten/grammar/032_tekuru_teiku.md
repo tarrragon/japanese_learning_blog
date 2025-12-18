@@ -1,5 +1,5 @@
 ---
-title: grammar/tekuru_teiku
+title: てくる・ていく
 description: てくる・ていく - 方向補助動詞（來去方向）
 type: grammar
 grammar_type: auxiliary_verb_pattern

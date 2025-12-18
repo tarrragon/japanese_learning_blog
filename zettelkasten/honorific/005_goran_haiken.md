@@ -1,5 +1,5 @@
 ---
-title: honorific/goran_haiken
+title: ご覧になる・拝見する
 description: ご覧になる・拝見する - 看的敬語
 type: honorific
 subtype: verb_pair

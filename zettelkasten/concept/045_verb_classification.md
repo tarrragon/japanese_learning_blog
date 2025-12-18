@@ -1,5 +1,5 @@
 ---
-title: concept/verb_classification
+title: 動詞分類（どうしぶんるい）
 description: 日文動詞分類系統的完整介紹
 type: concept
 subtype: verb_system

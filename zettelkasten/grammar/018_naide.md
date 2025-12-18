@@ -1,5 +1,5 @@
 ---
-title: grammar/naide
+title: "〜ないで"
 description: ないで - 不做某動作就做另一動作的表達方式
 type: grammar
 subtype: sequential_action

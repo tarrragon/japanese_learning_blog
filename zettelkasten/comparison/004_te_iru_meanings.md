@@ -1,5 +1,5 @@
 ---
-title: comparison/te_iru_meanings
+title: 〜ている的多重意義
 description: 〜ている的多重意義 - 進行、結果狀態、習慣、職業的完整解析
 type: comparison
 subtype: grammar_pattern

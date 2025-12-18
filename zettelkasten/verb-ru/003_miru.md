@@ -1,5 +1,5 @@
 ---
-title: verb-ru/miru
+title: 見る（みる）
 description: 見る - 看、觀看
 type: verb
 subtype: ichidan

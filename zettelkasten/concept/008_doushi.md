@@ -1,5 +1,5 @@
 ---
-title: concept/doushi
+title: 動詞
 description: 動詞（どうし）- 日語動詞基本概念
 type: concept
 jlpt: n5

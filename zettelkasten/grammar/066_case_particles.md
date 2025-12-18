@@ -1,5 +1,5 @@
 ---
-title: grammar/case-particles
+title: 格助詞
 description: 格助詞系統是日文中標記名詞文法功能的助詞體系，包含が、を、に、で、へ、と、から、まで等
 type: grammar
 jlpt: n4

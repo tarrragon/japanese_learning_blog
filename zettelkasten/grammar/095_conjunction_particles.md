@@ -1,5 +1,5 @@
 ---
-title: grammar/conjunction_particles
+title: "並列助詞（へいれつじょし）"
 description: 並列助詞系統用於連接名詞、動詞、形容詞等句子成分，表達並列、列舉、添加等關係
 type: grammar
 subtype: particle

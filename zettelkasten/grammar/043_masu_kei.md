@@ -1,5 +1,5 @@
 ---
-title: grammar/masu-kei
+title: ます形
 description: ます形は日本語の丁寧体における基本的な動詞活用形式で、初学者が最初に学ぶ礼儀正しい表現方法です
 type: grammar
 jlpt: N5

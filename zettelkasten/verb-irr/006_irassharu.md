@@ -1,5 +1,5 @@
 ---
-title: verb-irr/irassharu
+title: いらっしゃる
 description: いらっしゃる - 尊敬語動詞（いる・行く・来る的尊敬語）
 type: verb
 subtype: irregular

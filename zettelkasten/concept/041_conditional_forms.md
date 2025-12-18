@@ -1,5 +1,5 @@
 ---
-title: concept/conditional_forms
+title: 条件形総覧
 description: 日文條件形的完整總覽與比較
 type: concept
 subtype: grammar_system

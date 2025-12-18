@@ -1,5 +1,5 @@
 ---
-title: noun/019_ichi
+title: 位置(いち)
 description: 位置
 type: noun
 jlpt: n4

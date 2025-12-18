@@ -1,5 +1,5 @@
 ---
-title: verb-ru/017_oboeru
+title: 覚える（おぼえる）
 description: 記住、記憶
 type: verb
 subtype: ichidan

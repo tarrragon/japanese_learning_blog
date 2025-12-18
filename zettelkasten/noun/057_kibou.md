@@ -1,5 +1,5 @@
 ---
-title: noun/kibou
+title: 希望（きぼう）
 description: 希望、願望、期待
 type: noun
 jlpt: n4

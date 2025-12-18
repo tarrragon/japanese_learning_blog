@@ -1,5 +1,5 @@
 ---
-title: noun/kimochi
+title: "気持ち（きもち）"
 description: 感受、心情、情緒
 type: noun
 subtype: abstract

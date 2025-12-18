@@ -1,5 +1,5 @@
 ---
-title: jlpt/none
+title: "専門用語・特殊語彙"
 description: 不在 JLPT 範圍的專業術語和詞彙
 type: jlpt_tag
 created: 2025-10-28

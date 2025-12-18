@@ -1,5 +1,5 @@
 ---
-title: domain/medical
+title: "医療分野"
 description: 醫療健康領域的詞彙和概念
 type: domain_tag
 created: 2025-10-29

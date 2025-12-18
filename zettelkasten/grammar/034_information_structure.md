@@ -1,5 +1,5 @@
 ---
-title: grammar/information_structure
+title: 情報構造
 description: 資訊結構理論 - 舊資訊與新資訊的標記系統
 type: grammar
 subtype: linguistic_theory

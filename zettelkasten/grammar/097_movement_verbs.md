@@ -1,5 +1,5 @@
 ---
-title: grammar/movement_verbs
+title: "移動動詞とを助詞の特殊用法"
 description: 移動動詞與を助詞的特殊用法：表示經過路徑、離開起點
 type: grammar
 subtype: particle-usage

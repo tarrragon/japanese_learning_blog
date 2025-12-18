@@ -1,5 +1,5 @@
 ---
-title: phrase/shitai_to_omou
+title: したいと思う
 description: したいと思う - 想要做（表達願望的委婉說法）
 type: phrase
 jlpt: n5

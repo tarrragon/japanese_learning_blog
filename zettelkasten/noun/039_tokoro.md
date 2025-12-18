@@ -1,5 +1,5 @@
 ---
-title: noun/tokoro
+title: 所（ところ）
 description: 地方、場所、位置
 type: noun
 subtype: location

@@ -1,5 +1,5 @@
 ---
-title: verb-ru/020_akirameru
+title: 諦める（あきらめる）
 description: 放棄、死心、接受現實
 type: verb
 subtype: ichidan

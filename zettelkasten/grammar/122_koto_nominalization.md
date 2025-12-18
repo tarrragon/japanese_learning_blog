@@ -1,5 +1,5 @@
 ---
-title: grammar/koto_nominalization
+title: こと名詞化
 description: こと名詞化 - 動詞や形容詞を名詞化する基本文法
 type: grammar
 subtype: nominalization

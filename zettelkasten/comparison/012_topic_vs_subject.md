@@ -1,5 +1,5 @@
 ---
-title: comparison/topic_vs_subject
+title: 主題 vs 主語
 description: 主題與主語的語言學區別 - 理解日文句子結構的關鍵
 type: comparison
 comparison_items: [topic, subject]

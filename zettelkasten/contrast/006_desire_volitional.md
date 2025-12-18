@@ -1,5 +1,5 @@
 ---
-title: contrast/006_desire_volitional
+title: たい形 vs 意向形
 description: 願望 vs 意志 詳細比較 - たい形與意向形的對比分析
 type: contrast
 comparison_items: [grammar/016_tai_form, grammar/116_volitional]

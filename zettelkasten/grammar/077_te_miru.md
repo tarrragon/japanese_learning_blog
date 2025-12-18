@@ -1,5 +1,5 @@
 ---
-title: grammar/te_miru
+title: "〜てみる"
 description: 表示嘗試做某事的文法形式
 type: grammar
 subtype: auxiliary_verb

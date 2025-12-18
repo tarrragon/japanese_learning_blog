@@ -1,5 +1,5 @@
 ---
-title: verb-ru/mieru
+title: "見える（みえる）"
 description: 見える - 看得見、可見、似乎
 type: verb
 subtype: ru_verb

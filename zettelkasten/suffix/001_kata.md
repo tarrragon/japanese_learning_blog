@@ -1,5 +1,5 @@
 ---
-title: suffix/001_kata
+title: 〜方
 description: 表示「方法」、「方式」的接尾詞
 type: suffix
 subtype: nominal

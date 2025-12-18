@@ -1,5 +1,5 @@
 ---
-title: grammar/te_aru
+title: "〜てある"
 description: 表示動作完成後的結果狀態持續存在
 type: grammar
 subtype: pattern

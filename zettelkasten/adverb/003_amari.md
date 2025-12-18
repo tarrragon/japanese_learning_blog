@@ -1,5 +1,5 @@
 ---
-title: adverb/012_amari
+title: "あまり"
 description: 不太、不怎麼（用於否定句）
 type: adverb
 subtype: degree

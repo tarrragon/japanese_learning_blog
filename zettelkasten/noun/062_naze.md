@@ -1,5 +1,5 @@
 ---
-title: noun/naze
+title: なぜ
 description: 為什麼（疑問詞）
 type: noun
 subtype: interrogative

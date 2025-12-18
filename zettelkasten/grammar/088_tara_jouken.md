@@ -1,5 +1,5 @@
 ---
-title: grammar/103_tara_jouken
+title: "たら条件形（たらじょうけんけい）"
 description: たら条件形，表示假定條件或時間順序
 type: grammar
 subtype: conditional

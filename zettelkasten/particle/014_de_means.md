@@ -1,5 +1,5 @@
 ---
-title: particle/de_means
+title: で（手段）
 description: で（手段）- 手段・方法を表す助詞
 type: particle
 subtype: case_marker

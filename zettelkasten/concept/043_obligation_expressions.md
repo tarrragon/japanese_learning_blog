@@ -1,5 +1,5 @@
 ---
-title: concept/obligation_expressions
+title: 義務表現（ぎむひょうげん）
 description: 義務表達的概念和語法體系
 type: concept
 subtype: grammar_system

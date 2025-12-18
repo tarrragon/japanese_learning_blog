@@ -1,5 +1,5 @@
 ---
-title: grammar/ta_form
+title: た形
 description: た形 - 日語過去形・完了形動詞變化
 type: grammar
 subtype: verb_conjugation

@@ -1,5 +1,5 @@
 ---
-title: domain/movement
+title: "移動・運動分野"
 description: 移動和運動相關的詞彙和概念
 type: domain_tag
 created: 2025-10-29

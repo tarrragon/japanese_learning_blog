@@ -1,5 +1,5 @@
 ---
-title: concept/hypothesis
+title: 仮説（かせつ）
 description: 仮説 - 科學研究和推理中的假設性陳述
 type: concept
 jlpt: concept

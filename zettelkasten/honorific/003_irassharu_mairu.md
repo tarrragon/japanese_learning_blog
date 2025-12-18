@@ -1,5 +1,5 @@
 ---
-title: honorific/irassharu_mairu
+title: いらっしゃる・参る
 description: いらっしゃる・参る - 「行く・来る・いる」的敬語形式
 type: honorific
 subtype: verb_pair

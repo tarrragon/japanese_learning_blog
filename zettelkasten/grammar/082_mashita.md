@@ -1,5 +1,5 @@
 ---
-title: grammar/mashita
+title: "〜ました"
 description: ました形は丁寧体における過去・完了の表現形式で、礼儀正しく過去の出来事を述べる際に使用します
 type: grammar
 subtype: verb_conjugation

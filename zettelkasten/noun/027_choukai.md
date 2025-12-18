@@ -1,5 +1,5 @@
 ---
-title: noun/020_choukai
+title: 聴解(ちょうかい)
 description: 聽力理解（語言學習中的聽力能力）
 type: noun
 jlpt: n3

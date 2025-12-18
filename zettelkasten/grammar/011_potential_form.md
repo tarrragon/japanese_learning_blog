@@ -1,5 +1,5 @@
 ---
-title: grammar/potential_form
+title: "可能形"
 description: 可能形 - 日語動詞可能態
 type: grammar
 subtype: verb_conjugation

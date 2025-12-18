@@ -1,5 +1,5 @@
 ---
-title: phrase/kou_suru
+title: こうする
 description: こうする - 這樣做（指示詞系列近稱）
 type: phrase
 jlpt: n5

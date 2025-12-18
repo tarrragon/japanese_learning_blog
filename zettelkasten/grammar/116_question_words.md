@@ -1,5 +1,5 @@
 ---
-title: grammar/132_question_words
+title: "疑問詞（ぎもんし）"
 description: 日文疑問詞系統的完整說明
 type: grammar
 subtype: question_system

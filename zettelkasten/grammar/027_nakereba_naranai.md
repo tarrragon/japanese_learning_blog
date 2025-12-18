@@ -1,5 +1,5 @@
 ---
-title: grammar/nakereba_naranai
+title: "〜なければならない"
 description: なければならない - 必須、一定要
 type: grammar
 subtype: obligation

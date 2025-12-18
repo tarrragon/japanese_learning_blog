@@ -1,5 +1,5 @@
 ---
-title: grammar/tsumori_da
+title: "〜つもりだ"
 description: 表達打算、計劃或意圖的文法
 type: grammar
 subtype: intention

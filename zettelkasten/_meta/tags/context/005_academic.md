@@ -1,5 +1,5 @@
 ---
-title: context/academic
+title: "学術的な場面"
 description: 學術環境使用的詞彙和表達
 type: context_tag
 created: 2025-10-28

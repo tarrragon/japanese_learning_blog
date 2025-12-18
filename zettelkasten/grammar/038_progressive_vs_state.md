@@ -1,5 +1,5 @@
 ---
-title: grammar/progressive_vs_state
+title: 進行形 vs 狀態形
 description: 進行形 vs 狀態形 - 〜ている的兩大核心意義區別
 type: grammar
 subtype: aspect

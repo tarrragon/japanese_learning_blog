@@ -1,5 +1,5 @@
 ---
-title: phrase/tsumori_datta
+title: つもりだった
 description: つもりだった - 本來打算、原本想要（表達未實現的意圖）
 type: phrase
 jlpt: n4

@@ -1,5 +1,5 @@
 ---
-title: particle/020_kara_yori
+title: から・より
 description: から vs より - 起點助詞對比
 type: particle
 subtype: comparison

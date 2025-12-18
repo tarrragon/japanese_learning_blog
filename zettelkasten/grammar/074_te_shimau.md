@@ -1,5 +1,5 @@
 ---
-title: grammar/te_shimau
+title: "〜てしまう"
 description: 表示動作完了或帶有遺憾、後悔語氣的文法形式
 type: grammar
 subtype: auxiliary_verb

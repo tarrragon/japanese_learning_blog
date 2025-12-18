@@ -1,5 +1,5 @@
 ---
-title: concept/004_tadoushi
+title: 他動詞
 description: 日文中需要賓語的動詞，動作及於對象，與自動詞形成對比
 type: concept
 jlpt: n4

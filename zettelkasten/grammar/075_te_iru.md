@@ -1,5 +1,5 @@
 ---
-title: grammar/te_iru
+title: "〜ている"
 description: 持續狀態（已確認存在）
 type: grammar
 subtype: aspect

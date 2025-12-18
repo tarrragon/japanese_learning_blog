@@ -1,5 +1,5 @@
 ---
-title: concept/kenjougo_concept
+title: 謙譲語（けんじょうご）
 description: 謙讓語概念 - 降低自己或內部人士地位以表達敬意的語言形式
 type: concept
 jlpt: n3

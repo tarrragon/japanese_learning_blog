@@ -1,5 +1,5 @@
 ---
-title: concept/go_jun
+title: 語順（ごじゅん）
 description: 語順 - 句子中詞語的排列順序
 type: concept
 subtype: linguistics

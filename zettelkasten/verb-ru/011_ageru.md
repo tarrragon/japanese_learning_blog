@@ -1,5 +1,5 @@
 ---
-title: verb-ru/ageru
+title: 上げる/あげる（あげる）
 description: 上げる/あげる - 舉起、給予
 type: verb
 subtype: ru_verb

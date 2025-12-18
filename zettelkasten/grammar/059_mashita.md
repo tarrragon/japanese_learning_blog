@@ -1,5 +1,5 @@
 ---
-title: grammar/mashita
+title: ました
 description: ました是ます形的過去肯定形式，用於禮貌地表達過去完成的動作或狀態
 type: grammar
 jlpt: n5

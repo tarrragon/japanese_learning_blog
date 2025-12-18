@@ -1,5 +1,5 @@
 ---
-title: auxiliary/rashii
+title: 〜らしい
 description: 助動詞「らしい」，表示推測、傳聞、以及典型特徵，是日文表達不確定資訊的重要文法
 type: auxiliary
 jlpt: n4

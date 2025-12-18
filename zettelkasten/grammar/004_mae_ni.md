@@ -1,5 +1,5 @@
 ---
-title: grammar/mae_ni
+title: 〜前に
 description: 〜前に - 表示「在...之前」的時間文法
 type: grammar
 subtype: time_expression

@@ -1,5 +1,5 @@
 ---
-title: grammar/sou_da_hearsay
+title: "〜そうだ（傳聞）"
 description: 傳聞表達「〜そうだ」- 表示從他人處聽說的資訊
 type: grammar
 subtype: pattern

@@ -1,5 +1,5 @@
 ---
-title: grammar/ta_koto_ga_aru
+title: "〜たことがある"
 description: たことがある - 經驗的表達方式（曾經做過某事）
 type: grammar
 subtype: experience

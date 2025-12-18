@@ -1,5 +1,5 @@
 ---
-title: verb-ru/deru
+title: 出る（でる）
 description: 出る - 出去、離開、出現
 type: verb
 subtype: ichidan

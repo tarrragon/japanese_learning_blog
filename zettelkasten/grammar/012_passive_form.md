@@ -1,5 +1,5 @@
 ---
-title: grammar/passive_form
+title: "受身形"
 description: 受身形 - 日語動詞被動態
 type: grammar
 subtype: verb_conjugation

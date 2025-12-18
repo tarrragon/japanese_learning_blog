@@ -1,5 +1,5 @@
 ---
-title: concept/sonkeigo_concept
+title: 尊敬語（そんけいご）
 description: 尊敬語概念 - 提高對方或第三者地位的敬語形式
 type: concept
 jlpt: n3

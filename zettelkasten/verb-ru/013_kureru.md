@@ -1,5 +1,5 @@
 ---
-title: verb-ru/kureru
+title: くれる
 description: くれる - 給我、為我（給予）
 type: verb
 subtype: ru_verb

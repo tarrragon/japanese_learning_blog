@@ -1,5 +1,5 @@
 ---
-title: grammar/zaruwoenai
+title: 〜ざるを得ない
 description: 〜ざるを得ない - 不得不、只好
 type: grammar
 subtype: obligation

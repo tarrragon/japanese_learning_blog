@@ -1,5 +1,5 @@
 ---
-title: noun/kikaku
+title: 企画(きかく)
 description: 企劃、計畫、方案
 type: noun
 jlpt: n3

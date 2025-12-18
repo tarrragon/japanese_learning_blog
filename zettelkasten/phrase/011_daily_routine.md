@@ -1,5 +1,5 @@
 ---
-title: phrase/009_daily_routine
+title: 日常作息表達
 description: 日常作息表達 - 描述日常生活作息和習慣的表達方式
 type: phrase
 jlpt: n5

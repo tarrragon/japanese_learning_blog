@@ -1,5 +1,5 @@
 ---
-title: grammar/juju-hyougen
+title: 授受表現
 description: 授受表現 - 日語的給予與接受動詞系統
 type: grammar
 subtype: verb-patterns

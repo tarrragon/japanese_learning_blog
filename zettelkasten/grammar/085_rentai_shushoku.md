@@ -1,5 +1,5 @@
 ---
-title: grammar/rentai_shushoku
+title: "連体修飾"
 description: 連體修飾的進階運用與實際應用
 type: grammar
 subtype: structure

@@ -1,5 +1,5 @@
 ---
-title: concept/uchi-soto
+title: 内と外
 description: 內與外（ウチとソト）- 日本社會的內外群體概念
 type: concept
 jlpt: n3
