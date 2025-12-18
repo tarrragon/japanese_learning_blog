@@ -1,4 +1,10 @@
-import { getRomajiOptions, isPartialMatch, isExactMatch } from './RomajiMap.js';
+import {
+  getRomajiOptions,
+  isPartialMatch,
+  isExactMatch,
+  isSokuonPattern,
+  getSokuonRomajiOptions,
+} from './RomajiMap.js';
 
 /**
  * Character 狀態列舉
@@ -27,7 +33,19 @@ export class Character {
    */
   constructor(kana, state = CharacterState.PENDING, romajiOverride = null) {
     this.#kana = kana;
-    this.#romaji = romajiOverride || getRomajiOptions(kana);
+
+    // 決定羅馬字選項的優先順序：
+    // 1. romajiOverride（如「ん」的特殊處理）
+    // 2. 促音模式（如「った」、「っか」）
+    // 3. 一般假名對應
+    if (romajiOverride) {
+      this.#romaji = romajiOverride;
+    } else if (isSokuonPattern(kana)) {
+      this.#romaji = getSokuonRomajiOptions(kana);
+    } else {
+      this.#romaji = getRomajiOptions(kana);
+    }
+
     this.#state = state;
   }
 

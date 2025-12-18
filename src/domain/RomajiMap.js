@@ -85,6 +85,40 @@ export const ROMAJI_MAP = {
   '、': [','], '。': ['.'], '？': ['?'], '！': ['!'],
   '「': ['['], '」': [']'],
   'ー': ['-'],
+
+  // ===== 外來語片假名 =====
+
+  // ティ/ディ 系列（ti/di 音）
+  'ティ': ['thi', 'texi', 'teli'],
+  'ディ': ['dhi', 'dexi', 'deli'],
+
+  // ファ行（fa/fi/fe/fo 音）
+  'ファ': ['fa', 'huxa', 'hula'],
+  'フィ': ['fi', 'huxi', 'huli'],
+  'フェ': ['fe', 'huxe', 'hule'],
+  'フォ': ['fo', 'huxo', 'hulo'],
+
+  // ウィ/ウェ/ウォ
+  'ウィ': ['wi', 'uxi', 'uli'],
+  'ウェ': ['we', 'uxe', 'ule'],
+  'ウォ': ['wo', 'uxo', 'ulo'],
+
+  // ヴ系列（v 音，外來語）
+  'ヴァ': ['va', 'vuxa'],
+  'ヴィ': ['vi', 'vuxi'],
+  'ヴ': ['vu'],
+  'ヴェ': ['ve', 'vuxe'],
+  'ヴォ': ['vo', 'vuxo'],
+
+  // ===== 古典假名 =====
+
+  // ゐ/ヰ (wi) - 歷史假名，現代已合併為 い
+  'ゐ': ['wi'],
+  'ヰ': ['wi'],
+
+  // ゑ/ヱ (we) - 歷史假名，現代已合併為 え
+  'ゑ': ['we'],
+  'ヱ': ['we'],
 };
 
 /**
@@ -114,4 +148,92 @@ export function isPartialMatch(input, romajiOptions) {
  */
 export function isExactMatch(input, romajiOptions) {
   return romajiOptions.includes(input);
+}
+
+/**
+ * 促音字元
+ */
+export const SOKUON = ['っ', 'ッ'];
+
+/**
+ * 檢查是否為促音字元
+ * @param {string} char - 字元
+ * @returns {boolean}
+ */
+export function isSokuon(char) {
+  return SOKUON.includes(char);
+}
+
+/**
+ * 從羅馬字提取前導子音
+ * @param {string} romaji - 羅馬字
+ * @returns {string|null} - 子音或 null（如果是母音開頭）
+ */
+function getLeadingConsonant(romaji) {
+  // 特殊處理複合子音
+  if (romaji.startsWith('ch')) return 'c';
+  if (romaji.startsWith('sh')) return 's';
+  if (romaji.startsWith('ts')) return 't';
+  if (romaji.startsWith('th')) return 't';
+  if (romaji.startsWith('dh')) return 'd';
+
+  const first = romaji[0];
+  const vowels = ['a', 'i', 'u', 'e', 'o'];
+
+  return vowels.includes(first) ? null : first;
+}
+
+/**
+ * 檢查假名是否為促音模式（促音 + 後續假名）
+ * @param {string} kana - 假名字串
+ * @returns {boolean}
+ */
+export function isSokuonPattern(kana) {
+  return kana.length >= 2 && SOKUON.includes(kana[0]);
+}
+
+/**
+ * 生成促音 + 假名組合的羅馬字選項
+ *
+ * 例如：
+ * - 'った' → ['tta', 'xtuta', 'ltuta', ...]
+ * - 'っか' → ['kka', 'xtuka', 'ltuka', ...]
+ * - 'っしょ' → ['ssho', 'ssyo', 'xtusho', ...]
+ *
+ * @param {string} sokuonKana - 促音 + 後續假名（如 'った', 'っか'）
+ * @returns {string[]} - 可接受的羅馬字選項陣列
+ */
+export function getSokuonRomajiOptions(sokuonKana) {
+  if (!isSokuonPattern(sokuonKana)) {
+    return [];
+  }
+
+  const following = sokuonKana.slice(1);
+  const baseRomaji = getRomajiOptions(following);
+
+  if (baseRomaji.length === 0) {
+    return [];
+  }
+
+  const options = [];
+
+  // 方式 1：子音重複（主要使用者期望）
+  // 例如：ka → kka, ta → tta, sho → ssho
+  for (const romaji of baseRomaji) {
+    const consonant = getLeadingConsonant(romaji);
+    if (consonant) {
+      options.push(consonant + romaji);
+    }
+  }
+
+  // 方式 2：傳統 xtu/ltu 輸入（向後相容）
+  // 例如：ka → xtuka, ta → xtuta
+  const smallTsuOptions = ['xtu', 'ltu'];
+  for (const tsu of smallTsuOptions) {
+    for (const romaji of baseRomaji) {
+      options.push(tsu + romaji);
+    }
+  }
+
+  return options;
 }

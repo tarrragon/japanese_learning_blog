@@ -1,10 +1,11 @@
 import { Character, CharacterState } from './Character.js';
-import { ROMAJI_MAP } from './RomajiMap.js';
+import { ROMAJI_MAP, isSokuon, getRomajiOptions } from './RomajiMap.js';
 
 /**
  * 拗音列表（需要視為單一字元的組合）
  */
 const YOUON_LIST = [
+  // 平假名拗音
   'きゃ', 'きゅ', 'きょ',
   'しゃ', 'しゅ', 'しょ',
   'ちゃ', 'ちゅ', 'ちょ',
@@ -16,7 +17,8 @@ const YOUON_LIST = [
   'じゃ', 'じゅ', 'じょ',
   'びゃ', 'びゅ', 'びょ',
   'ぴゃ', 'ぴゅ', 'ぴょ',
-  // 片假名
+
+  // 片假名拗音
   'キャ', 'キュ', 'キョ',
   'シャ', 'シュ', 'ショ',
   'チャ', 'チュ', 'チョ',
@@ -28,10 +30,53 @@ const YOUON_LIST = [
   'ジャ', 'ジュ', 'ジョ',
   'ビャ', 'ビュ', 'ビョ',
   'ピャ', 'ピュ', 'ピョ',
+
+  // 外來語片假名組合
+  'ティ', 'ディ',
+  'ファ', 'フィ', 'フェ', 'フォ',
+  'ウィ', 'ウェ', 'ウォ',
+  'ヴァ', 'ヴィ', 'ヴェ', 'ヴォ',
 ];
 
 /**
- * 將文字拆解為字元陣列（處理拗音）
+ * 取得下一個輸入單位（考慮拗音）
+ * @param {string} text - 原始文字
+ * @param {number} startIndex - 起始索引
+ * @returns {string|null} - 下一個輸入單位
+ */
+function getNextUnit(text, startIndex) {
+  if (startIndex >= text.length) {
+    return null;
+  }
+
+  // 先檢查是否為拗音（兩個字元的組合）
+  if (startIndex + 1 < text.length) {
+    const twoChars = text.slice(startIndex, startIndex + 2);
+    if (YOUON_LIST.includes(twoChars) || ROMAJI_MAP[twoChars]) {
+      return twoChars;
+    }
+  }
+
+  // 單一字元
+  return text[startIndex];
+}
+
+/**
+ * 檢查假名是否可以與促音合併（有子音開頭的羅馬字）
+ * @param {string} kana - 假名
+ * @returns {boolean}
+ */
+function canMergeWithSokuon(kana) {
+  const romaji = getRomajiOptions(kana);
+  if (romaji.length === 0) return false;
+
+  // 檢查是否有任何羅馬字以子音開頭
+  const vowels = ['a', 'i', 'u', 'e', 'o'];
+  return romaji.some(r => !vowels.includes(r[0]));
+}
+
+/**
+ * 將文字拆解為字元陣列（處理拗音和促音合併）
  * @param {string} text - 原始文字
  * @returns {string[]} - 字元陣列
  */
@@ -40,7 +85,18 @@ function parseText(text) {
   let i = 0;
 
   while (i < text.length) {
-    // 檢查是否為拗音（兩個字元的組合）
+    // 1. 檢查是否為促音 + 後續可合併假名
+    if (isSokuon(text[i]) && i + 1 < text.length) {
+      const nextUnit = getNextUnit(text, i + 1);
+      if (nextUnit && canMergeWithSokuon(nextUnit)) {
+        // 合併促音與後續假名
+        result.push(text[i] + nextUnit);
+        i += 1 + nextUnit.length;
+        continue;
+      }
+    }
+
+    // 2. 檢查是否為拗音（兩個字元的組合）
     if (i + 1 < text.length) {
       const twoChars = text.slice(i, i + 2);
       if (YOUON_LIST.includes(twoChars) || ROMAJI_MAP[twoChars]) {
@@ -50,7 +106,7 @@ function parseText(text) {
       }
     }
 
-    // 單一字元
+    // 3. 單一字元
     result.push(text[i]);
     i += 1;
   }
@@ -59,13 +115,29 @@ function parseText(text) {
 }
 
 /**
- * 檢查假名是否以 n 開頭（用於判斷「ん」是否需要 nn）
+ * 需要「ん」消歧義的後續假名
+ *
+ * 當「ん」後面跟著這些假名時，必須使用 nn 或 n' 來避免歧義：
+ * 1. n 開頭假名（な行）- 避免 'na' 被誤解為 な
+ * 2. 母音開頭假名 - 避免 'na' 等被誤解
+ * 3. y 開頭假名（や行）- 避免 'nya' 被誤解為 にゃ
  */
-const N_START_KANA = [
+const REQUIRES_NN_BEFORE = [
+  // n 開頭假名（な行）
   'な', 'に', 'ぬ', 'ね', 'の',
   'にゃ', 'にゅ', 'にょ',
+
+  // 母音開頭假名
+  'あ', 'い', 'う', 'え', 'お',
+
+  // y 開頭假名（や行）
+  'や', 'ゆ', 'よ',
+
+  // 片假名版本
   'ナ', 'ニ', 'ヌ', 'ネ', 'ノ',
   'ニャ', 'ニュ', 'ニョ',
+  'ア', 'イ', 'ウ', 'エ', 'オ',
+  'ヤ', 'ユ', 'ヨ',
 ];
 
 /**
@@ -76,10 +148,10 @@ function isN(kana) {
 }
 
 /**
- * 檢查假名是否以 n 開頭
+ * 檢查假名是否需要前面的「ん」使用 nn 消歧義
  */
-function startsWithN(kana) {
-  return N_START_KANA.includes(kana);
+function requiresNNBefore(kana) {
+  return REQUIRES_NN_BEFORE.includes(kana);
 }
 
 /**
@@ -114,11 +186,18 @@ export class Question {
     const characters = kanaList.map((kana, index, arr) => {
       let romajiOverride = null;
 
-      // 特殊處理：「ん」後面跟著 n 開頭的假名時，必須使用 nn
-      if (isN(kana) && index < arr.length - 1) {
-        const nextKana = arr[index + 1];
-        if (startsWithN(nextKana)) {
-          romajiOverride = ['nn']; // 強制使用 nn
+      // 特殊處理：「ん」的消歧義
+      if (isN(kana)) {
+        if (index === arr.length - 1) {
+          // 情況 1：字尾的「ん」- 接受 n 或 nn（無歧義）
+          romajiOverride = ['n', 'nn'];
+        } else {
+          const nextKana = arr[index + 1];
+          if (requiresNNBefore(nextKana)) {
+            // 情況 2：後面跟著需要消歧義的假名 - 必須使用 nn 或 n'
+            romajiOverride = ['nn', "n'"];
+          }
+          // 情況 3：後面跟著其他子音 - 使用預設 ['n', 'nn']（無歧義）
         }
       }
 
