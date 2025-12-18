@@ -128,6 +128,18 @@ For example, "doa ga aku" (the door opens - intransitive) and "doa wo akeru" (op
 
 ## 自動詞與他動詞的區別
 
+```mermaid
+flowchart TD
+    A["要用哪個動詞？"] --> B{"誰做的？"}
+    B -->|"自然發生<br/>沒有人去做"| C["自動詞<br/>ドアが開く<br/>（門開了）"]
+    B -->|"有人去做<br/>故意的動作"| D["他動詞<br/>ドアを開ける<br/>（打開門）"]
+
+    style A fill:#607D8B,color:white
+    style B fill:#795548,color:white
+    style C fill:#4CAF50,color:white
+    style D fill:#2196F3,color:white
+```
+
 | 項目 | 自動詞 | 他動詞 |
 |------|--------|--------|
 | **主語助詞** | が | が |

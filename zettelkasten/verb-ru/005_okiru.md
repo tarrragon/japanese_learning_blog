@@ -307,6 +307,21 @@ One of the most basic verbs in daily life. It expresses waking up from sleep or 
 
 ### 起きる vs 起こる vs 起こす
 
+```mermaid
+flowchart LR
+    subgraph 自動詞["自動詞（自己發生）"]
+        A["起きる<br/>（起床/發生）"]
+        B["起こる<br/>（事情發生）"]
+    end
+    subgraph 他動詞["他動詞（有人去做）"]
+        C["起こす<br/>（叫醒別人）"]
+    end
+
+    style A fill:#4CAF50,color:white
+    style B fill:#2196F3,color:white
+    style C fill:#FF9800,color:white
+```
+
 | 動詞 | 自他 | 意思 | 例句 |
 |------|------|------|------|
 | **起きる** | 自動詞 | 起床、發生 | 朝起きる、事故が起きる |

@@ -85,6 +85,18 @@ generated_date: 2025-10-30
 
 這是學習者最容易混淆的重點：
 
+```mermaid
+flowchart TD
+    A["要用 まで 還是 までに？"] --> B{"動作特性？"}
+    B -->|"持續到某時間"| C["まで<br/>9時まで働く<br/>（工作到9點）"]
+    B -->|"在某時間前完成"| D["までに<br/>9時までに終わる<br/>（9點前完成）"]
+
+    style A fill:#607D8B,color:white
+    style B fill:#795548,color:white
+    style C fill:#4CAF50,color:white
+    style D fill:#2196F3,color:white
+```
+
 #### まで（持續到某時間點）
 
 表示動作或狀態**持續**到某個時間點，強調「持續性」。
