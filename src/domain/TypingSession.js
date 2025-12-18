@@ -135,13 +135,7 @@ export class TypingSession {
       isPartial: false,
     });
 
-    // 先推進到下一個字元（讓 UI 可以正確顯示下一個提示）
-    this.#question = this.#question.advance();
-
-    // 重置 buffer
-    this.#inputBuffer = new InputBuffer();
-
-    // 發出 CharacterCompleted 事件（此時 question 已更新）
+    // 發出 CharacterCompleted 事件
     this.#emit('CharacterCompleted', {
       character,
       duration: Date.now() - this.#startTime.getTime(),
@@ -151,6 +145,12 @@ export class TypingSession {
     this.#emit('SpeechRequested', {
       text: character.kana,
     });
+
+    // 推進到下一個字元
+    this.#question = this.#question.advance();
+
+    // 重置 buffer
+    this.#inputBuffer = new InputBuffer();
 
     // 檢查是否完成整個題目
     if (this.#question.isCompleted()) {
