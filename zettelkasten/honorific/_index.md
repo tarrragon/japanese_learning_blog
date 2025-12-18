@@ -1,7 +1,7 @@
 # Honorific 索引
 
-最後編號：006
-總卡片數：6
+最後編號：009
+總卡片數：9
 
 ## 卡片列表
 
@@ -12,6 +12,9 @@
 - [004 - なさる・いたす - 「する」的敬語形式](004_nasaru_itasu/) 
 - [005 - ご覧になる・拝見する - 看的敬語](005_goran_haiken/) 
 - [006 - おる - 謙讓語的「いる」（在、存在）](006_oru/) 
+- [007 - "敬語表達：いただきます"](007_itadakimasu/) #"honorific" #"teineigo" #"daily_life"
+- [008 - "敬語表達：ごちそうさま"](008_gochisousama/) #"honorific" #"teineigo" #"daily_life"
+- [009 - "敬語表達：失礼します"](009_shitsurei_shimasu/) #"honorific" #"teineigo" #"daily_life"
 
 ---
-最後更新: 2025-12-18 10:35:38
+最後更新: 2025-12-18 14:37:53

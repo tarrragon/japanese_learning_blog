@@ -1,0 +1,282 @@
+/* ===================================
+   日文輸入練習頁面樣式
+   v1.0.8 - 靜態 UI
+   =================================== */
+
+/* --- 基礎設定 --- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: 'Noto Sans JP', 'Hiragino Kaku Gothic Pro', 'Meiryo', sans-serif;
+  background-color: #111;
+  color: #fff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* --- 顏色變數 --- */
+:root {
+  --color-pending: #3B82F6;   /* 藍色 - 未輸入 */
+  --color-current: #10B981;   /* 綠色 - 當前目標 */
+  --color-completed: #6B7280; /* 灰色 - 已輸入 */
+  --color-bg: #111;
+  --color-key-bg: #333;
+  --color-key-hover: #444;
+}
+
+/* --- 頂部導航 --- */
+.top-nav {
+  padding: 1rem 2rem;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.back-link {
+  color: #9CA3AF;
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: color 0.2s;
+}
+
+.back-link:hover {
+  color: #fff;
+}
+
+/* --- 行動裝置提示 --- */
+.mobile-notice {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  text-align: center;
+  padding: 2rem;
+}
+
+.mobile-notice p {
+  font-size: 1.2rem;
+  color: #9CA3AF;
+  margin-bottom: 2rem;
+}
+
+.back-btn {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background: var(--color-pending);
+  color: #fff;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background 0.2s;
+}
+
+.back-btn:hover {
+  background: #2563EB;
+}
+
+/* --- 主要練習區域 --- */
+.practice-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* --- 題目顯示區 --- */
+.practice-display {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.practice-title {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #6B7280;
+  margin-bottom: 2rem;
+  letter-spacing: 0.1em;
+}
+
+/* 日文文字 */
+.practice-text {
+  font-size: 3rem;
+  letter-spacing: 0.3em;
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+/* 分隔線 */
+.divider {
+  width: 60%;
+  height: 1px;
+  background: #333;
+  margin: 1.5rem auto;
+}
+
+/* 羅馬拼音 */
+.practice-romaji {
+  font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
+  font-size: 1.5rem;
+  letter-spacing: 0.5em;
+  line-height: 1.8;
+}
+
+/* --- 文字狀態樣式 --- */
+.char-pending,
+.romaji-pending {
+  color: var(--color-pending);
+}
+
+.char-current,
+.romaji-current {
+  color: var(--color-current);
+  font-weight: 700;
+  text-shadow: 0 0 10px rgba(16, 185, 129, 0.5);
+}
+
+.char-completed,
+.romaji-completed {
+  color: var(--color-completed);
+}
+
+/* --- 虛擬鍵盤 --- */
+.keyboard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 2rem;
+}
+
+.keyboard-row {
+  display: flex;
+  gap: 6px;
+}
+
+/* 第二排偏移 */
+.keyboard-row:nth-child(2) {
+  margin-left: 24px;
+}
+
+/* 第三排偏移 */
+.keyboard-row:nth-child(3) {
+  margin-left: 48px;
+}
+
+/* 按鍵基本樣式 */
+.key {
+  width: 52px;
+  height: 52px;
+  background: var(--color-key-bg);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: default;
+  transition: all 0.15s ease;
+  user-select: none;
+}
+
+.key:hover {
+  background: var(--color-key-hover);
+}
+
+/* 目標按鍵 */
+.key-target {
+  border: 2px solid var(--color-current);
+  box-shadow: 0 0 12px rgba(16, 185, 129, 0.4);
+}
+
+/* 按下狀態（預留給 v1.0.9） */
+.key-pressed {
+  background: var(--color-key-hover);
+  transform: scale(0.95);
+}
+
+/* --- 說明文字 --- */
+.practice-footer {
+  text-align: center;
+}
+
+.hint {
+  color: #6B7280;
+  font-size: 0.9rem;
+}
+
+/* ===================================
+   響應式設計
+   =================================== */
+
+/* 平板 */
+@media (max-width: 1024px) {
+  .practice-text {
+    font-size: 2.5rem;
+    letter-spacing: 0.2em;
+  }
+
+  .practice-romaji {
+    font-size: 1.25rem;
+    letter-spacing: 0.4em;
+  }
+
+  .key {
+    width: 46px;
+    height: 46px;
+    font-size: 1rem;
+  }
+}
+
+/* 小螢幕桌面 */
+@media (max-width: 768px) {
+  .practice-text {
+    font-size: 2rem;
+  }
+
+  .practice-romaji {
+    font-size: 1.1rem;
+    letter-spacing: 0.3em;
+  }
+
+  .key {
+    width: 40px;
+    height: 40px;
+    font-size: 0.9rem;
+  }
+
+  .keyboard-row:nth-child(2) {
+    margin-left: 16px;
+  }
+
+  .keyboard-row:nth-child(3) {
+    margin-left: 32px;
+  }
+}
+
+/* 行動裝置：隱藏練習區，顯示提示 */
+@media (max-width: 600px) {
+  .top-nav {
+    display: none;
+  }
+
+  .practice-container {
+    display: none;
+  }
+
+  .mobile-notice {
+    display: flex;
+  }
+}

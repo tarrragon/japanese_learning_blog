@@ -72,53 +72,6 @@
 - [022 - contrast](022_contrast/) - 對比
 - [023 - context](023_context/) - 情境
 
-### 依卡片數量（由多至少）
-1. noun - 7 張
-2. verb-ru - 2 張
-3. grammar - 2 張
-4. verb-u - 1 張
-5. adj-na - 1 張
-6. particle - 1 張
-7. concept - 1 張
-8. verb-irr - 0 張
-9. adj-i - 0 張
-10. adverb - 0 張
-11. auxiliary - 0 張
-12. conjunction - 0 張
-13. counter - 0 張
-14. rentaishi - 0 張
-15. prefix - 0 張
-16. suffix - 0 張
-17. idiom - 0 張
-18. proverb - 0 張
-19. onomatopoeia - 0 張
-20. phrase - 0 張
-21. honorific - 0 張
-22. contrast - 0 張
-23. context - 0 張
-
-## 使用統計
-
-### 總體情況
-- **總卡片數**：15 張
-- **已使用 categories**：7 種
-- **未使用 categories**：16 種
-- **使用率**：30.4%
-
-### 詞類分布
-- **實詞**（名詞、動詞、形容詞）：11 張（73.3%）
-- **虛詞**（助詞）：1 張（6.7%）
-- **文法與概念**：3 張（20%）
-- **其他**：0 張
-
-### 需要補充的 Categories
-優先補充以下類型以豐富系統：
-1. **形容詞**（adj-i）- 日語基本詞類
-2. **副詞**（adverb）- 常用修飾詞
-3. **慣用語**（idiom）- 提升表達豐富性
-4. **擬聲擬態詞**（onomatopoeia）- 日語特色詞彙
-5. **敬語**（honorific）- 日本文化重要元素
-6. **對比卡片**（contrast）- 幫助區分相似詞
 
 ## Category 命名規範
 
@@ -154,26 +107,6 @@
 - `grammar` + `jlpt/n5` + `context/formal`
 - `concept` + `jlpt/n1` + `domain/economics`
 
-## 系統擴展建議
-
-### 短期目標（補充基本詞類）
-1. 增加 い形容詞卡片（adj-i）
-2. 增加副詞卡片（adverb）
-3. 增加不規則動詞卡片（verb-irr）
-4. 增加接續詞卡片（conjunction）
-
-### 中期目標（豐富表達方式）
-1. 增加慣用語卡片（idiom）
-2. 增加擬聲擬態詞卡片（onomatopoeia）
-3. 增加敬語表達卡片（honorific）
-4. 增加常用短語卡片（phrase）
-
-### 長期目標（深化學習系統）
-1. 建立對比卡片系統（contrast）
-2. 建立情境用語說明（context）
-3. 補充構詞成分（prefix, suffix）
-4. 收錄諺語和成語（proverb）
-
 ## 維護指南
 
 ### 新增 Category 的標準
@@ -192,4 +125,4 @@
 ---
 
 **建立日期**：2025-10-28
-**最後更新**：2025-10-28
+**最後更新**：2025-12-18

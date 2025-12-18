@@ -1,7 +1,7 @@
 # Conjunction 索引
 
-最後編號：009
-總卡片數：9
+最後編號：012
+總卡片數：12
 
 ## 卡片列表
 
@@ -15,6 +15,9 @@
 - [007 - 然後、之後（時間或順序連接詞）](007_sorekara/) 
 - [008 - 或者、或是（正式選擇連接詞）](008_matawa/) #disjunctive #choice #formal_speech
 - [009 - 也就是說、即](009_sunawachi/) 
+- [010 - 但是、然而（正式逆接連接詞）](010_shikashi/) #adversative #contrast #formal
+- [011 - 或者（選擇性連接詞）](011_matawa/) #disjunctive #choice #formal
+- [012 - 因為（理由性連接詞）](012_nazenara/) #causal #reason #formal
 
 ---
-最後更新: 2025-12-18 10:35:37
+最後更新: 2025-12-18 14:37:53

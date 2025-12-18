@@ -177,23 +177,23 @@ Safety issues have been discovered. Accordingly, we have decided to recall the p
 ## 相關連結
 
 ### 同義詞・類似表達
-- [[conjunction/001_dakara.md]] - 所以（口語，最常用）
-- [[conjunction/004_sorede.md]] - 因此（一般正式度）
-- [[conjunction/sonotame.md]] - 因此（書面語）（待建立）
-- [[conjunction/yotte.md]] - 因此（正式）（待建立）
+- [001_dakara.md](001_dakara.md) - 所以（口語，最常用）
+- [004_sorede.md](004_sorede.md) - 因此（一般正式度）
+- [sonotame.md](sonotame.md) - 因此（書面語）（待建立）
+- [yotte.md](yotte.md) - 因此（正式）（待建立）
 
 ### 相關文法
-- [[grammar/kara.md]] - から（理由助詞）（待建立）
-- [[grammar/node.md]] - ので（原因接續）（待建立）
-- [[grammar/causal-expressions.md]] - 因果關係表達總覽（待建立）
+- [kara.md](../grammar/kara.md) - から（理由助詞）（待建立）
+- [node.md](../grammar/node.md) - ので（原因接續）（待建立）
+- [causal-expressions.md](../grammar/causal-expressions.md) - 因果關係表達總覽（待建立）
 
 ### 比較卡片
-- [[comparison/dakara_vs_sorede_vs_shitagatte.md]] - 三種因果連接詞比較（待建立）
-- [[comparison/formal_vs_casual_conjunctions.md]] - 正式與口語連接詞對比（待建立）
+- [dakara_vs_sorede_vs_shitagatte.md](../comparison/dakara_vs_sorede_vs_shitagatte.md) - 三種因果連接詞比較（待建立）
+- [formal_vs_casual_conjunctions.md](../comparison/formal_vs_casual_conjunctions.md) - 正式與口語連接詞對比（待建立）
 
 ### 延伸說明
-- [[concept/logical-reasoning.md]] - 邏輯推論概念（待建立）
-- [[concept/register-formality.md]] - 語域與正式度（待建立）
+- [logical-reasoning.md](../concept/logical-reasoning.md) - 邏輯推論概念（待建立）
+- [register-formality.md](../concept/register-formality.md) - 語域與正式度（待建立）
 
 ---
 

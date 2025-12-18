@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>日文輸入練習 | 日文學習卡片盒</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- 返回首頁連結 -->
+  <nav class="top-nav">
+    <a href="../" class="back-link">← 返回卡片盒</a>
+  </nav>
+
+  <!-- 行動裝置提示 -->
+  <div class="mobile-notice">
+    <p>請使用桌面瀏覽器搭配實體鍵盤進行練習</p>
+    <a href="../" class="back-btn">返回卡片盒</a>
+  </div>
+
+  <!-- 主要練習區域 -->
+  <main class="practice-container">
+    <!-- 題目顯示區 -->
+    <section class="practice-display">
+      <h1 class="practice-title">日文輸入練習</h1>
+
+      <!-- 日文文字 -->
+      <div class="practice-text" id="practice-text">
+        <span class="char char-completed">朝</span>
+        <span class="char char-completed">ご</span>
+        <span class="char char-completed">は</span>
+        <span class="char char-current">ん</span>
+        <span class="char char-pending">を</span>
+        <span class="char char-pending">食</span>
+        <span class="char char-pending">べ</span>
+        <span class="char char-pending">ま</span>
+        <span class="char char-pending">す</span>
+      </div>
+
+      <!-- 分隔線 -->
+      <div class="divider"></div>
+
+      <!-- 羅馬拼音 -->
+      <div class="practice-romaji" id="practice-romaji">
+        <span class="romaji romaji-completed">a</span>
+        <span class="romaji romaji-completed">sa</span>
+        <span class="romaji romaji-completed">go</span>
+        <span class="romaji romaji-completed">ha</span>
+        <span class="romaji romaji-current">n</span>
+        <span class="romaji romaji-pending">wo</span>
+        <span class="romaji romaji-pending">ta</span>
+        <span class="romaji romaji-pending">be</span>
+        <span class="romaji romaji-pending">ma</span>
+        <span class="romaji romaji-pending">su</span>
+      </div>
+    </section>
+
+    <!-- 虛擬鍵盤 -->
+    <section class="keyboard" id="keyboard">
+      <!-- 第一排 -->
+      <div class="keyboard-row">
+        <div class="key" data-key="q">Q</div>
+        <div class="key" data-key="w">W</div>
+        <div class="key" data-key="e">E</div>
+        <div class="key" data-key="r">R</div>
+        <div class="key" data-key="t">T</div>
+        <div class="key" data-key="y">Y</div>
+        <div class="key" data-key="u">U</div>
+        <div class="key" data-key="i">I</div>
+        <div class="key" data-key="o">O</div>
+        <div class="key" data-key="p">P</div>
+      </div>
+      <!-- 第二排 -->
+      <div class="keyboard-row">
+        <div class="key" data-key="a">A</div>
+        <div class="key" data-key="s">S</div>
+        <div class="key" data-key="d">D</div>
+        <div class="key" data-key="f">F</div>
+        <div class="key" data-key="g">G</div>
+        <div class="key" data-key="h">H</div>
+        <div class="key" data-key="j">J</div>
+        <div class="key" data-key="k">K</div>
+        <div class="key" data-key="l">L</div>
+      </div>
+      <!-- 第三排 -->
+      <div class="keyboard-row">
+        <div class="key" data-key="z">Z</div>
+        <div class="key" data-key="x">X</div>
+        <div class="key" data-key="c">C</div>
+        <div class="key" data-key="v">V</div>
+        <div class="key" data-key="b">B</div>
+        <div class="key" data-key="n" class="key-target">N</div>
+        <div class="key" data-key="m">M</div>
+      </div>
+    </section>
+
+    <!-- 說明文字 -->
+    <footer class="practice-footer">
+      <p class="hint">使用實體鍵盤輸入羅馬拼音</p>
+    </footer>
+  </main>
+</body>
+</html>

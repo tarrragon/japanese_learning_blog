@@ -20,6 +20,8 @@ from pathlib import Path
 from typing import Optional
 import sys
 
+from csv_config import get_default_csv_path
+
 class WorklogCardManager:
     """管理 worklog 卡片的 CSV 檔案"""
 
@@ -137,7 +139,7 @@ class WorklogCardManager:
 
 def main():
     parser = argparse.ArgumentParser(description='管理 worklog 卡片 CSV')
-    parser.add_argument('--csv', default='doc/worklog/cards-1.0.6.csv',
+    parser.add_argument('--csv', default=get_default_csv_path(),
                         help='CSV 檔案路徑')
 
     subparsers = parser.add_subparsers(dest='command', help='指令')
