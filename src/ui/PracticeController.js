@@ -108,9 +108,16 @@ export class PracticeController {
    * @private
    */
   #setupKeyboardListener() {
-    // 移除舊的全域監聽器（避免重複註冊）
+    // 移除舊的全域監聯器（避免重複註冊）
     if (globalKeyboardHandler) {
       document.removeEventListener('keydown', globalKeyboardHandler);
+    }
+
+    // 移除手機模式的 class（如果之前是 direct 模式）
+    document.body.classList.remove('mode-direct');
+    const container = document.querySelector('.practice-container');
+    if (container) {
+      container.classList.remove('mode-direct');
     }
 
     // 創建新的處理器
@@ -164,11 +171,14 @@ export class PracticeController {
       keyboard.style.display = 'none';
     }
 
-    // 在練習容器加上 mode-direct class
+    // 在練習容器和 body 加上 mode-direct class
     const container = document.querySelector('.practice-container');
     if (container) {
       container.classList.add('mode-direct');
     }
+
+    // 在 body 上也加上 class，讓 CSS 選擇器可以隱藏 mobile-notice
+    document.body.classList.add('mode-direct');
 
     // 設定輸入事件監聽
     this.#mobileInputElement.addEventListener('input', (e) => {
