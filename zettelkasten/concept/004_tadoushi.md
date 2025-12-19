@@ -38,6 +38,37 @@ A transitive verb (tadoushi) is a verb where the action extends from the subject
 
 他動詞是指動作從主語延伸到另一個對象（賓語）的動詞[^transitive-concept]。他動詞必須要有賓語[^object]，該賓語通常用助詞「を」[^wo-particle]來標示。例如：「開門」（ドアを開ける）、「讀書」（本を読む）、「寫信」（手紙を書く）等，都表示主語有意識地[^intentional]對對象施加動作。在日文中，許多動詞都有自動詞[^intransitive]與他動詞的配對（例：開く/開ける、閉まる/閉める、消える/消す），準確理解這個區別是學習日文的重要關鍵。
 
+## 圖解
+
+```mermaid
+flowchart TD
+    A["他動詞<br/>（需要賓語的動詞）"] --> B{"核心特徵"}
+    B --> C["必須用「を」<br/>標示賓語"]
+    B --> D["主動執行<br/>的動作"]
+
+    A --> E["常見配對"]
+    E --> F["開ける→開く<br/>（我開門→門開了）"]
+    E --> G["閉める→閉まる<br/>（我關窗→窗關了）"]
+    E --> H["消す→消える<br/>（我關燈→燈滅了）"]
+    E --> I["壊す→壊れる<br/>（我弄壞→它壞了）"]
+
+    style A fill:#4CAF50,color:white
+    style B fill:#795548,color:white
+    style C fill:#2196F3,color:white
+    style D fill:#FF9800,color:white
+    style F fill:#9C27B0,color:white
+    style G fill:#9C27B0,color:white
+    style H fill:#9C27B0,color:white
+    style I fill:#9C27B0,color:white
+```
+
+**圖表說明**：
+- 綠色：他動詞主概念
+- 棕色：判斷節點（核心特徵）
+- 藍色：文法特徵（を助詞）
+- 橘色：語義特徵（主動性）
+- 紫色：常見動詞配對（他動詞→自動詞）
+
 ## 他動詞的核心特徵
 
 ### 1. 必須有賓語（を格）

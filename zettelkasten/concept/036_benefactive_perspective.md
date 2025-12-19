@@ -7,7 +7,7 @@ jlpt: n3
 stage: draft
 draft: false
 auto_generated: false
-needs_review: true
+needs_review: false
 tags:
   - domain/linguistics
   - domain/communication
@@ -58,6 +58,35 @@ The choice of perspective becomes even more complex when combined with honorific
 くれる的使用特別重要。くれる表達受益者的視角：「對方為我（或我的內集團）做某事」。相對地，あげる代表給予者的視角：「我為對方做某事」。もらう表示主動接收：「我從對方那裡得到某物」。
 
 這種視角選擇與敬語[^keigo]和謙讓語[^kenjougo]結合時變得更加複雜，成為微妙表達社會距離[^social-distance]和上下關係[^hierarchy]的手段。
+
+## 圖解
+
+### 授受動詞的視角與方向
+
+以下圖表展示三種授受動詞的給予方向和視角差異：
+
+```mermaid
+sequenceDiagram
+    participant 我
+    participant 朋友
+
+    Note over 我,朋友: 視角 1：我給別人（あげる）
+    我->>朋友: あげる<br/>私は友達に本をあげた<br/>（我給朋友一本書）
+
+    Note over 我,朋友: 視角 2：別人給我（くれる）
+    朋友->>我: くれる<br/>友達が私に本をくれた<br/>（朋友給我一本書）
+
+    Note over 我,朋友: 視角 3：我主動接收（もらう）
+    我-->>朋友: もらう（接收方向）<br/>私は友達に本をもらった<br/>（我從朋友那得到一本書）
+```
+
+**圖表說明**：
+
+- **實線箭頭（→）**：表示實際的給予方向
+- **虛線箭頭（--→）**：表示もらう的接收視角，強調主動性
+- **あげる**：從我（給予者）到對方的視角
+- **くれる**：從對方到我（受益者）的視角，強調感激
+- **もらう**：從我（接收者）的視角，強調主動接收行為
 
 ## 核心用法
 

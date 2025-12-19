@@ -59,6 +59,28 @@ Choosing the appropriate style is crucial in Japanese communication. Using the w
 
 選擇適當的語體在日語溝通中極為重要。使用錯誤的語域可能被認為過於疏遠或不恰當地親密。學習者通常先掌握禮貌體，然後隨著關係發展逐漸使用常體。
 
+## 圖解
+
+```mermaid
+flowchart LR
+    subgraph polite["丁寧体（禮貌體）"]
+        A1["使用 ます・です 結尾"]
+        A2["例：食べます<br/>（我吃）"]
+        A3["例：学生です<br/>（是學生）"]
+        A4["用於：正式場合<br/>長輩、陌生人"]
+    end
+
+    subgraph plain["普通体（常體）"]
+        B1["使用 る・だ 結尾"]
+        B2["例：食べる<br/>（吃）"]
+        B3["例：学生だ<br/>（是學生）"]
+        B4["用於：親密關係<br/>家人、朋友"]
+    end
+
+    style polite fill:#2196F3,color:white
+    style plain fill:#4CAF50,color:white
+```
+
 ## 核心用法
 
 ### 用法 1：丁寧體（正式場合）

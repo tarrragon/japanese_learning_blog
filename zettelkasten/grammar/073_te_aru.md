@@ -85,6 +85,40 @@ This pattern is commonly used in written language and formal descriptions to obj
 
 這個句型常用於書面語和正式說明中，客觀描述已準備好的狀態。在日常對話中，「〜ている」更為常見。
 
+## 圖解
+
+```mermaid
+flowchart LR
+    subgraph ている["〜ている（單純描述狀態）"]
+        A1["窓が開いている<br/>（窗戶開著）"]
+        A2["說明：描述窗戶現在<br/>是開著的狀態"]
+        A3["自動詞：開く"]
+        A1 --> A2
+        A2 --> A3
+    end
+
+    subgraph てある["〜てある（強調準備和意圖）"]
+        B1["窓が開けてある<br/>（窗戶已被打開）"]
+        B2["說明：有人為了某個目的<br/>刻意打開的"]
+        B3["他動詞：開ける"]
+        B1 --> B2
+        B2 --> B3
+    end
+
+    style ている fill:#4CAF50,color:white
+    style てある fill:#FF9800,color:white
+    style A1 fill:#4CAF50,color:white
+    style A2 fill:#E8F5E9,color:black
+    style A3 fill:#E8F5E9,color:black
+    style B1 fill:#FF9800,color:white
+    style B2 fill:#FFF3E0,color:black
+    style B3 fill:#FFF3E0,color:black
+```
+
+**圖解說明**：
+- **左側（綠色）**：「〜ている」用自動詞「開く」，只描述窗戶開著的狀態，不強調誰打開的或為什麼打開
+- **右側（橘色）**：「〜てある」用他動詞「開ける」，強調有人刻意打開窗戶，並且這個狀態是為了某個目的而準備的
+
 ## 核心用法
 
 ### 用法 1：描述已完成的準備狀態

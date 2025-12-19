@@ -8,17 +8,43 @@ stage: draft
 draft: false
 auto_generated: false
 needs_review: true
+has_diagram: true
 tags:
   - comparison
   - particle
   - jlpt/n5
 created: 2025-11-03
-updated: 2025-11-03
+updated: 2025-12-19
 ---
 
 ## 概述
 
 「を」和「で」是日語中最基礎且最常用的兩個助詞，但它們的功能截然不同。「を」主要標示動作的直接賓語和移動的經過點，而「で」則表示動作發生的場所、手段、方法等。理解這兩個助詞的區別對於建立正確的日語句子結構至關重要。
+
+## 圖解
+
+### を vs で 功能分類圖
+
+```mermaid
+flowchart TD
+    A["這個詞是？"] --> B{"什麼作用？"}
+    B -->|"動作的對象"| C["を<br/>本を読む<br/>（讀書）"]
+    B -->|"移動的路徑"| D["を<br/>道を歩く<br/>（走路）"]
+    B -->|"動作的地點"| E["で<br/>図書館で勉強する<br/>（在圖書館學習）"]
+    B -->|"使用的工具"| F["で<br/>ペンで書く<br/>（用筆寫）"]
+
+    style A fill:#607D8B,color:white
+    style B fill:#795548,color:white
+    style C fill:#4CAF50,color:white
+    style D fill:#4CAF50,color:white
+    style E fill:#2196F3,color:white
+    style F fill:#2196F3,color:white
+```
+
+**圖表說明**：
+- 綠色節點：を 的兩種用法（動作對象、移動路徑）
+- 藍色節點：で 的兩種用法（動作地點、使用工具）
+- 判斷方法：問自己「這個詞在句子裡是什麼作用？」
 
 ## 核心區別表
 

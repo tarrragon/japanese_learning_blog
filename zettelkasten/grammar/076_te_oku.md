@@ -107,6 +107,26 @@ In business contexts, the polite form "〜ておきます" is frequently used to
 
 在商務場合，禮貌形式「〜ておきます」常用於傳達計劃和準備事項，是重要的表達方式。
 
+## 圖解
+
+```mermaid
+flowchart TD
+    A["〜ておく<br/>（事先做好/保持狀態）"] --> B{"什麼目的？"}
+
+    B -->|"為未來準備"| C["買っておく<br/>旅行の前に必要なものを買っておいた<br/>（旅行前先買好需要的東西）"]
+    B -->|"為未來準備"| D["準備しておく<br/>明日のために資料を準備しておく<br/>（為明天準備好資料）"]
+
+    B -->|"保持狀態"| E["開けておく<br/>窓を開けておいてください<br/>（請把窗戶開著）"]
+    B -->|"放置不管"| F["考えておく<br/>この問題はしばらく考えておく<br/>（這個問題先想一想）"]
+
+    style A fill:#607D8B,color:white
+    style B fill:#795548,color:white
+    style C fill:#4CAF50,color:white
+    style D fill:#4CAF50,color:white
+    style E fill:#FF9800,color:white
+    style F fill:#FF9800,color:white
+```
+
 ## 核心用法
 
 ### 用法 1：為未來事件做準備

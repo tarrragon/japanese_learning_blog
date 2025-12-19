@@ -279,6 +279,28 @@ I sit on a chair.
 
 **說明**：「住む」和「座る」雖然看似動作，但強調的是「存在於某處的狀態」，因此使用「に」。
 
+## 圖解
+
+```mermaid
+flowchart TD
+    A["要用「で」還是「に」？"] --> B{"看動詞類型"}
+
+    B -->|"存在動詞"| C["に<br/>ある・いる<br/>図書館に本がある<br/>（圖書館有書）"]
+
+    B -->|"移動動詞"| D["に<br/>行く・来る・帰る<br/>学校に行く<br/>（去學校）"]
+
+    B -->|"狀態動詞"| E["に<br/>住む・座る・泊まる<br/>東京に住む<br/>（住在東京）"]
+
+    B -->|"動作動詞"| F["で<br/>食べる・勉強する・遊ぶ<br/>図書館で勉強する<br/>（在圖書館學習）"]
+
+    style A fill:#607D8B,color:white
+    style B fill:#795548,color:white
+    style C fill:#4CAF50,color:white
+    style D fill:#2196F3,color:white
+    style E fill:#FF9800,color:white
+    style F fill:#9C27B0,color:white
+```
+
 ## 判斷流程圖
 
 ```

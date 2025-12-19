@@ -60,6 +60,37 @@ For example, "doa ga aku" (the door opens - intransitive) and "doa wo akeru" (op
 
 例如，「ドアが開く」（門開了 - 自動詞）與「ドアを開ける」（打開門 - 他動詞[^tadoushi]）構成動詞對[^verb-pair]。
 
+## 圖解
+
+### 自動詞的三種類型
+
+```mermaid
+flowchart TD
+    A["自動詞<br/>（動作自然發生）"] --> B["狀態變化<br/>東西怎麼了？"]
+    A --> C["移動<br/>去哪裡？"]
+    A --> D["開始結束<br/>什麼時候？"]
+
+    B --> B1["開く<br/>（門開了）"]
+    B --> B2["壊れる<br/>（壞了）"]
+
+    C --> C1["行く<br/>（去）"]
+    C --> C2["落ちる<br/>（掉下來）"]
+
+    D --> D1["始まる<br/>（開始了）"]
+    D --> D2["終わる<br/>（結束了）"]
+
+    style A fill:#607D8B,color:white
+    style B fill:#4CAF50,color:white
+    style C fill:#2196F3,color:white
+    style D fill:#FF9800,color:white
+    style B1 fill:#4CAF50,color:white
+    style B2 fill:#4CAF50,color:white
+    style C1 fill:#2196F3,color:white
+    style C2 fill:#2196F3,color:white
+    style D1 fill:#FF9800,color:white
+    style D2 fill:#FF9800,color:white
+```
+
 ## 常見自動詞類型
 
 ### 1. 狀態變化動詞

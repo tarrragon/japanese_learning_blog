@@ -376,6 +376,66 @@ Generally, use "o" for native Japanese words and "go" for Sino-Japanese words:
 - Sino-Japanese: "go-setsumei suru," "go-annai suru"
 - Exception: "o-denwa suru" ("denwa" is Sino-Japanese but uses "o")
 
+## 圖解
+
+### 謙讓語形成方式
+
+```mermaid
+flowchart TD
+    A["謙讓語<br/>（降低自己提高對方）"] --> B{"形成方式"}
+
+    B --> C["特殊動詞<br/>完全替換"]
+    B --> D["お〜する<br/>和語動詞"]
+    B --> E["ご〜する<br/>漢語動詞"]
+    B --> F["〜ていただく<br/>接受恩惠"]
+
+    C --> C1["行く → 参る<br/>（我去 → 我前往）"]
+    C --> C2["言う → 申す<br/>（我說 → 我說明）"]
+
+    D --> D1["お送りする<br/>（我送達）"]
+    D --> D2["お待ちする<br/>（我等候）"]
+
+    E --> E1["ご説明する<br/>（我說明）"]
+    E --> E2["ご案内する<br/>（我引導）"]
+
+    F --> F1["教えていただく<br/>（承蒙教導）"]
+    F --> F2["見ていただく<br/>（請您過目）"]
+
+    style A fill:#2196F3,color:white
+    style B fill:#795548,color:white
+    style C fill:#4CAF50,color:white
+    style D fill:#4CAF50,color:white
+    style E fill:#4CAF50,color:white
+    style F fill:#4CAF50,color:white
+    style C1 fill:#00BCD4,color:white
+    style C2 fill:#00BCD4,color:white
+    style D1 fill:#00BCD4,color:white
+    style D2 fill:#00BCD4,color:white
+    style E1 fill:#00BCD4,color:white
+    style E2 fill:#00BCD4,color:white
+    style F1 fill:#00BCD4,color:white
+    style F2 fill:#00BCD4,color:white
+```
+
+### 謙讓語使用場景
+
+```mermaid
+flowchart TD
+    A["要用謙讓語嗎？"] --> B{"誰的動作？"}
+
+    B -->|"我自己"| C["用謙讓語<br/>私が参ります<br/>（我前往）"]
+    B -->|"對方"| D["用尊敬語<br/>先生がいらっしゃる<br/>（老師來臨）"]
+    B -->|"我的上司<br/>（對外部人說）"| E["用謙讓語<br/>部長が申しました<br/>（部長說過）"]
+    B -->|"我的上司<br/>（對內部人說）"| F["用尊敬語<br/>部長がおっしゃいました<br/>（部長說過）"]
+
+    style A fill:#607D8B,color:white
+    style B fill:#795548,color:white
+    style C fill:#2196F3,color:white
+    style D fill:#4CAF50,color:white
+    style E fill:#2196F3,color:white
+    style F fill:#4CAF50,color:white
+```
+
 ## 中文解釋
 
 「謙讓語」(けんじょうご)是日語敬語體系三大支柱之一,是一種通過降低說話者自身或內群體的動作或狀態,從而相對提高對方或第三者,以表達敬意的語言形式。謙讓語是與尊敬語相對應的重要文法類別,可以說是將日本社會的「謙遜」精神語言化的表現。

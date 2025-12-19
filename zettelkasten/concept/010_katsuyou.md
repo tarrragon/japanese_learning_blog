@@ -94,6 +94,37 @@ Understanding conjugation is essential for constructing grammatically correct se
 
 活用不只是形式上的變化，它使日語能夠表達時態、體貌、語氣、禮貌程度等多種語法意義。掌握活用系統是學習日語的基礎，雖然初學時可能覺得複雜，但其規律性很強，只要理解基本模式，就能準確預測和運用。
 
+## 圖解
+
+### 六種基本活用形（以「書く」為例）
+
+```mermaid
+flowchart TD
+    A["書く<br/>（原形：寫）"] --> B["未然形：書か<br/>接否定「ない」<br/>書かない（不寫）"]
+    A --> C["連用形：書き<br/>接禮貌「ます」<br/>書きます（寫、禮貌）"]
+    A --> D["終止形：書く<br/>文末結束<br/>本を書く。（寫書）"]
+    A --> E["連體形：書く<br/>修飾名詞<br/>書く人（寫的人）"]
+    A --> F["假定形：書け<br/>接條件「ば」<br/>書けば（如果寫的話）"]
+    A --> G["命令形：書け<br/>命令指示<br/>書け！（寫！）"]
+
+    style A fill:#4CAF50,color:white
+    style B fill:#f44336,color:white
+    style C fill:#2196F3,color:white
+    style D fill:#9C27B0,color:white
+    style E fill:#FF9800,color:white
+    style F fill:#795548,color:white
+    style G fill:#607D8B,color:white
+```
+
+**說明**：
+- **綠色**：原形（基本形）
+- **紅色**：未然形（接否定）
+- **藍色**：連用形（接禮貌形）
+- **紫色**：終止形（文末）
+- **橘色**：連體形（修飾名詞）
+- **棕色**：假定形（條件）
+- **灰色**：命令形（命令）
+
 ## 核心用法
 
 ### 用法 1：動詞活用（基本變化）

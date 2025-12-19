@@ -49,6 +49,36 @@ Understanding these distinctions is crucial for accurate Japanese comprehension 
 
 ---
 
+## 圖解
+
+```mermaid
+flowchart TD
+    A["聽到「〜ている」"] --> B{"檢查線索"}
+
+    B -->|"有職業詞彙<br/>（働く、会社等）"| C["職業/身分<br/>銀行で働いています<br/>（在銀行工作）"]
+
+    B -->|"有頻率副詞<br/>（毎日、よく等）"| D["習慣/反復<br/>毎朝ジョギングしています<br/>（每天早上慢跑）"]
+
+    B -->|"瞬間/移動動詞<br/>（開く、行く等）"| E["結果狀態<br/>窓が開いています<br/>（窗戶開著）"]
+
+    B -->|"動作動詞 + 今"| F["進行中<br/>今、勉強しています<br/>（現在正在學習）"]
+
+    style A fill:#607D8B,color:white
+    style B fill:#795548,color:white
+    style C fill:#9C27B0,color:white
+    style D fill:#FF9800,color:white
+    style E fill:#2196F3,color:white
+    style F fill:#4CAF50,color:white
+```
+
+**判斷四步驟**：
+1. 職業相關詞彙（如：働く、仕事、会社）→ 職業/身分（紫色）
+2. 頻率副詞（如：毎日、いつも、よく）→ 習慣/反復（橘色）
+3. 瞬間/移動/狀態變化動詞 → 結果狀態（藍色）
+4. 動作動詞 + 「今」或當下情境 → 進行中（綠色）
+
+---
+
 ## 四種主要意義詳解
 
 ### 1. 動作進行中（Progressive Action）

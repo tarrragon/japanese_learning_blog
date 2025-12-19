@@ -36,6 +36,56 @@ updated: 2025-11-03
 | **主觀建議** | ✓ 適合 | ✗ 不適合 |
 | **客觀事實** | △ 可用但不自然 | ✓ 最適合 |
 
+## 圖解
+
+### 如何選擇ば或と？
+
+```mermaid
+flowchart TD
+    A["要表達條件關係<br/>（如果...就...）"] --> B{"前面條件成立時<br/>後面一定會發生嗎？"}
+
+    B -->|"一定會發生<br/>（自然規律、習慣）"| C["用と<br/>春になると桜が咲く<br/>（春天一到櫻花就開）"]
+
+    B -->|"不一定發生<br/>（假設、建議）"| D{"後面需要用<br/>命令或請求嗎？"}
+
+    D -->|"需要<br/>（してください等）"| E["用ば<br/>時間があれば手伝ってください<br/>（有時間請幫忙）"]
+
+    D -->|"不需要"| F{"是正式場合<br/>或書面語嗎？"}
+
+    F -->|"是<br/>（報告、演講）"| G["用ば<br/>努力すれば成功します<br/>（努力就會成功）"]
+
+    F -->|"否<br/>（日常對話）"| H["と和ば都可以<br/>視強調客觀或假設而定"]
+
+    style A fill:#607D8B,color:white
+    style B fill:#795548,color:white
+    style C fill:#4CAF50,color:white
+    style D fill:#795548,color:white
+    style E fill:#2196F3,color:white
+    style F fill:#795548,color:white
+    style G fill:#2196F3,color:white
+    style H fill:#FF9800,color:white
+```
+
+### 關鍵差異視覺化
+
+```mermaid
+flowchart LR
+    subgraph TO["と（客觀必然）"]
+        T1["特點：前面成立→後面一定發生"]
+        T2["例句：<br/>ボタンを押すと電源が入る<br/>（按按鈕電源就會開）"]
+        T3["限制：❌不能接命令請求"]
+    end
+
+    subgraph BA["ば（假設條件）"]
+        B1["特點：假如前面成立→後面可能發生"]
+        B2["例句：<br/>練習すれば上手になる<br/>（練習的話會進步）"]
+        B3["限制：❌不能用過去式"]
+    end
+
+    style TO fill:#4CAF50,color:white
+    style BA fill:#2196F3,color:white
+```
+
 ## ば條件形
 
 ### 日文解釋

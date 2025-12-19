@@ -370,6 +370,44 @@ If it's spring, the cherry blossoms are beautiful.
 
 ---
 
+## 圖解
+
+### 四種條件形選擇流程圖
+
+```mermaid
+flowchart TD
+    START["要表達條件，用哪個？"] --> Q1{"是客觀必然的<br/>自然規律嗎？"}
+
+    Q1 -->|"是"| TO["と<br/>春になると花が咲く<br/>（春天一到花就開）"]
+
+    Q1 -->|"不是"| Q2{"在回應對方<br/>的話題嗎？"}
+
+    Q2 -->|"是"| NARA["なら<br/>東京に行くなら浅草がおすすめ<br/>（要去東京的話推薦淺草）"]
+
+    Q2 -->|"不是"| Q3{"需要正式語氣<br/>或比例關係嗎？"}
+
+    Q3 -->|"是"| BA["ば<br/>練習すればするほど上手になる<br/>（越練習越進步）"]
+
+    Q3 -->|"不是"| TARA["たら<br/>時間があったら手伝ってください<br/>（有時間的話請幫忙）"]
+
+    style START fill:#607D8B,color:white
+    style Q1 fill:#795548,color:white
+    style Q2 fill:#795548,color:white
+    style Q3 fill:#795548,color:white
+    style TO fill:#4CAF50,color:white
+    style TARA fill:#FF9800,color:white
+    style BA fill:#2196F3,color:white
+    style NARA fill:#9C27B0,color:white
+```
+
+**圖表說明**：
+- **綠色（と）**：客觀必然關係，自然法則
+- **橘色（たら）**：最萬用，不確定時的安全選擇
+- **藍色（ば）**：正式語氣，書面化表達
+- **紫色（なら）**：基於對方話題的條件
+
+---
+
 ## 註解
 
 [^shizen-genshou]: **自然現象** - 不受人類意志影響的客觀規律，如季節變化、天氣現象等。詳見相關概念卡片（待建立）

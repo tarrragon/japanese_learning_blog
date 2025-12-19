@@ -190,6 +190,40 @@ You must not smoke here.
 ✅ 正：もっと野菜を食べたほうがいいですよ。
 說明：給予健康建議時，使用「たほうがいい」比「なければならない」更自然、更友善。
 
+## 圖解
+
+義務表達的強度層級：
+
+```mermaid
+flowchart TD
+    A["要表達「必須做某事」"] --> B{"義務有多強？"}
+    B -->|"必須！<br/>（外部規則）"| C["〜なければならない<br/>学校に行かなければならない<br/>（必須去上學）"]
+    B -->|"應該！<br/>（道德規範）"| D["〜べきだ<br/>正直であるべきです<br/>（應該誠實）"]
+    B -->|"最好～<br/>（建議）"| E["〜ほうがいい<br/>野菜を食べたほうがいい<br/>（最好吃蔬菜）"]
+
+    style A fill:#607D8B,color:white
+    style B fill:#795548,color:white
+    style C fill:#f44336,color:white
+    style D fill:#FF9800,color:white
+    style E fill:#4CAF50,color:white
+```
+
+禁止表達的選擇：
+
+```mermaid
+flowchart TD
+    A["要表達「不可以做某事」"] --> B{"禁止程度？"}
+    B -->|"絕對禁止！<br/>（規則）"| C["〜てはいけない<br/>煙草を吸ってはいけません<br/>（禁止吸菸）"]
+    B -->|"不應該<br/>（勸阻）"| D["〜べきではない<br/>嘘をつくべきではない<br/>（不應該說謊）"]
+    B -->|"不必<br/>（免除義務）"| E["〜なくてもいい<br/>行かなくてもいい<br/>（不去也可以）"]
+
+    style A fill:#607D8B,color:white
+    style B fill:#795548,color:white
+    style C fill:#f44336,color:white
+    style D fill:#FF9800,color:white
+    style E fill:#4CAF50,color:white
+```
+
 ## 學習要點
 
 1. **義務強度梯度**：掌握從強制到建議的義務表現梯度，依情境選擇適當形式

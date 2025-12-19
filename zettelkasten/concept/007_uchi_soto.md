@@ -209,6 +209,57 @@ This concept originates from Japan historically being a collectivist society. In
 5. **語用重要性**：不理解會導致嚴重的語用錯誤
 6. **實際應用**：正確使用是流利日語和文化適應的關鍵
 
+## 圖解
+
+### 內外關係的層次結構
+
+```mermaid
+flowchart TD
+    A["內と外<br/>（內外關係）"] --> B["層次 1：家庭<br/>最核心的ウチ"]
+    A --> C["層次 2：公司/學校<br/>情境性的ウチ"]
+    A --> D["層次 3：外部<br/>ソト"]
+
+    B --> B1["稱呼：父、母、兄、姉<br/>（謙遜形）"]
+    B --> B2["對外說：私の父<br/>（我父親）"]
+
+    C --> C1["內部：山田部長様<br/>（敬稱）"]
+    C --> C2["對外說：部長の山田が参ります<br/>（謙讓語）"]
+
+    D --> D1["稱呼：お父さん、お母さん<br/>（尊敬形）"]
+    D --> D2["使用：尊敬語、丁寧語<br/>（保持距離）"]
+
+    style A fill:#795548,color:white
+    style B fill:#4CAF50,color:white
+    style C fill:#2196F3,color:white
+    style D fill:#FF9800,color:white
+    style B1 fill:#E8F5E9,stroke:#4CAF50
+    style B2 fill:#E8F5E9,stroke:#4CAF50
+    style C1 fill:#E3F2FD,stroke:#2196F3
+    style C2 fill:#E3F2FD,stroke:#2196F3
+    style D1 fill:#FFF3E0,stroke:#FF9800
+    style D2 fill:#FFF3E0,stroke:#FF9800
+```
+
+### 授受表現的方向
+
+```mermaid
+sequenceDiagram
+    participant ウチ as ウチ（我/我們）
+    participant ソト as ソト（他人）
+
+    Note over ウチ,ソト: ウチ → ソト
+    ウチ->>ソト: あげる<br/>（我給他人）
+    Note right of ソト: 例：本をあげる
+
+    Note over ウチ,ソト: ソト → ウチ
+    ソト->>ウチ: くれる<br/>（他人給我）
+    Note left of ウチ: 例：本をくれる
+
+    Note over ウチ,ソト: ウチ ← ソト
+    ウチ-->>ソト: もらう<br/>（我收到）
+    Note left of ウチ: 例：本をもらう
+```
+
 ---
 
 ## 相關連結

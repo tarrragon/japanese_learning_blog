@@ -228,6 +228,55 @@ Nice to meet you. My name is Tanaka. Pleased to meet you.
 
 5. **文化的背景**：丁寧語の使用は日本の社会文化と密接に関連しており、言語だけでなく文化理解も重要である。
 
+## 圖解
+
+### 丁寧語的基本結構
+
+```mermaid
+flowchart TD
+    A["丁寧語<br/>（禮貌說法）"] --> B["動詞"]
+    A --> C["形容詞"]
+    A --> D["名詞"]
+
+    B --> B1["行きます<br/>（去）"]
+    B --> B2["食べます<br/>（吃）"]
+
+    C --> C1["美しいです<br/>（美麗）"]
+    C --> C2["きれいです<br/>（漂亮）"]
+
+    D --> D1["学生です<br/>（是學生）"]
+    D --> D2["先生です<br/>（是老師）"]
+
+    style A fill:#2196F3,color:white
+    style B fill:#2196F3,color:white
+    style C fill:#2196F3,color:white
+    style D fill:#2196F3,color:white
+    style B1 fill:#4CAF50,color:white
+    style B2 fill:#4CAF50,color:white
+    style C1 fill:#4CAF50,color:white
+    style C2 fill:#4CAF50,color:white
+    style D1 fill:#4CAF50,color:white
+    style D2 fill:#4CAF50,color:white
+```
+
+### 丁寧語的變化形式
+
+```mermaid
+flowchart TD
+    A["行く<br/>（去）"] --> B["行きます<br/>肯定・現在"]
+    A --> C["行きません<br/>否定・現在"]
+    A --> D["行きました<br/>肯定・過去"]
+    A --> E["行きませんでした<br/>否定・過去"]
+    A --> F["行きますか<br/>疑問"]
+
+    style A fill:#4CAF50,color:white
+    style B fill:#2196F3,color:white
+    style C fill:#f44336,color:white
+    style D fill:#9C27B0,color:white
+    style E fill:#f44336,color:white
+    style F fill:#607D8B,color:white
+```
+
 ## 相關連結
 
 ### 敬語系統

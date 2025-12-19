@@ -91,6 +91,34 @@ When making polite requests or suggestions, forms like "〜てみてください
 
 在提出禮貌請求或建議時，會使用「〜てみてください」(請試試看)、「〜てみませんか」(要不要試試看)等形式。這些表達比直接命令更柔和，展現對對方自主性的尊重。
 
+## 圖解
+
+### 時制階梯圖
+
+```mermaid
+flowchart TD
+    A["食べてみる<br/>（試著吃吃看）<br/>將會嘗試"] --> B["食べてみます<br/>禮貌說法"]
+    A --> C["食べてみた<br/>（試吃了）<br/>過去嘗試"]
+    A --> D["食べてみている<br/>（正在試吃）<br/>嘗試進行中"]
+    A --> E["食べてみたい<br/>（想試試看）<br/>想要嘗試"]
+    A --> F["食べてみたことがある<br/>（曾經試過）<br/>過去經驗"]
+
+    style A fill:#4CAF50,color:white
+    style B fill:#2196F3,color:white
+    style C fill:#9C27B0,color:white
+    style D fill:#FF9800,color:white
+    style E fill:#00BCD4,color:white
+    style F fill:#607D8B,color:white
+```
+
+**圖表說明**：
+- **綠色**：基本形式（將會嘗試）
+- **藍色**：禮貌形式（正式場合）
+- **紫色**：過去形式（已完成的嘗試）
+- **橘色**：進行形式（持續進行的嘗試）
+- **青色**：希望形式（想要嘗試）
+- **灰色**：經驗形式（過去的經驗）
+
 ## 核心用法
 
 ### 用法 1：嘗試新事物（初次體驗）

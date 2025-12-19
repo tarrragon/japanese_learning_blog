@@ -53,6 +53,25 @@ updated: 2025-10-31
 買ってしまった → 買っちゃった
 ```
 
+## 圖解
+
+```mermaid
+flowchart TD
+    A["〜てしまう<br/>（完全...了）"] --> B{"什麼情況？"}
+    B -->|"動作完全結束"| C["完了・完成<br/>宿題を全部やってしまった<br/>（作業全部做完了）"]
+    B -->|"不好的事發生"| D["遺憾・後悔<br/>財布を落としてしまった<br/>（把錢包弄丟了）"]
+
+    C --> E["口語：〜ちゃう/じゃう<br/>食べちゃった<br/>（吃完了）"]
+    D --> F["口語：〜ちゃう/じゃう<br/>忘れちゃった<br/>（忘記了，糟糕！）"]
+
+    style A fill:#607D8B,color:white
+    style B fill:#795548,color:white
+    style C fill:#4CAF50,color:white
+    style D fill:#f44336,color:white
+    style E fill:#4CAF50,color:white
+    style F fill:#f44336,color:white
+```
+
 ## 日文解釋
 
 「〜てしまう」は、動詞の後に付いて、動作の完了や話し手の心的態度を表す補助動詞である。主に二つの用法がある。

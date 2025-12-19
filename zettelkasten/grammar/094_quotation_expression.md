@@ -92,6 +92,36 @@ In formal contexts[^formal-context], polite forms[^polite-form] such as "〜と�
 
 在正式場合[^formal-context]中，會使用「〜とのことです」「〜と伺っております」等禮貌形式[^polite-form]，在商務[^business-context]和公文[^official-document]中頻繁出現。
 
+## 圖解
+
+### 引用表達的三種類型
+
+```mermaid
+flowchart TD
+    A["怎麼引用別人說的話？"] --> B{"引用類型選擇"}
+    B -->|"原話不變"| C["直接引用<br/>〜と言う<br/>先生は「行きます」と言った<br/>（老師說「我去」）"]
+    B -->|"轉述內容"| D["間接引用<br/>〜と言う/思う<br/>先生は行くと言った<br/>（老師說他會去）"]
+    B -->|"聽說的事"| E["傳聞表現<br/>〜そうだ<br/>明日は雨だそうだ<br/>（聽說明天會下雨）"]
+
+    C --> F["特點：用「 」引號<br/>保持原話形式"]
+    D --> G["特點：不用引號<br/>調整時態人稱"]
+    E --> H["特點：不明示來源<br/>用辞書形+そうだ"]
+
+    style A fill:#607D8B,color:white
+    style B fill:#795548,color:white
+    style C fill:#4CAF50,color:white
+    style D fill:#2196F3,color:white
+    style E fill:#FF9800,color:white
+    style F fill:#4CAF50,color:white
+    style G fill:#2196F3,color:white
+    style H fill:#FF9800,color:white
+```
+
+**圖表說明**：
+- **綠色**：直接引用 - 用引號保持原話
+- **藍色**：間接引用 - 轉述並調整時態
+- **橘色**：傳聞表現 - 表達聽說的資訊
+
 ## 核心用法
 
 ### 用法 1：直接引用（〜と言う）

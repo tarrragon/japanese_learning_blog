@@ -28,6 +28,39 @@ Doushi bunrui (verb classification) is the systematic organization of Japanese v
 
 ---
 
+## 圖解
+
+### 動詞分類系統
+
+```mermaid
+flowchart TD
+    A["日文動詞<br/>（どうし）"] --> B["五段動詞<br/>（う動詞）"]
+    A --> C["一段動詞<br/>（る動詞）"]
+    A --> D["不規則動詞"]
+
+    B --> B1["書く（かく）<br/>寫"]
+    B --> B2["話す（はなす）<br/>說"]
+
+    C --> C1["食べる（たべる）<br/>吃"]
+    C --> C2["見る（みる）<br/>看"]
+
+    D --> D1["する<br/>做"]
+    D --> D2["来る（くる）<br/>來"]
+
+    style A fill:#607D8B,color:white
+    style B fill:#4CAF50,color:white
+    style C fill:#2196F3,color:white
+    style D fill:#FF9800,color:white
+    style B1 fill:#4CAF50,color:white
+    style B2 fill:#4CAF50,color:white
+    style C1 fill:#2196F3,color:white
+    style C2 fill:#2196F3,color:white
+    style D1 fill:#FF9800,color:white
+    style D2 fill:#FF9800,color:white
+```
+
+---
+
 ## 分類一：活用類型（Conjugation Type）
 
 ### 1. 五段動詞（Godan Verbs / う動詞）

@@ -176,6 +176,45 @@ Viewpoint selection is closely related to the "uchi-soto" (inside-outside) conce
    Tanaka-san gave me a book.
    田中先生給了我一本書。
 
+## 圖解
+
+### 視點系統：說話者中心的授受表現
+
+```mermaid
+sequenceDiagram
+    participant 內 as 內（我）<br/>ウチ
+    participant 外 as 外（對方）<br/>ソト
+
+    Note over 內,外: 情境1：我給對方東西
+    內->>外: あげる<br/>（我給對方本）<br/>視點：內→外
+
+    Note over 內,外: 情境2：對方給我東西
+    外->>內: くれる<br/>（對方給我本）<br/>視點：外→內
+
+    Note over 內,外: 情境3：我收到東西
+    內-->>外: もらう<br/>（我從對方那收到本）<br/>視點：內←外
+
+    Note over 內,外: 情境4：移動動詞
+    內->>外: 行く（去）<br/>（我去學校）
+    外->>內: 來る（來）<br/>（朋友來我家）
+```
+
+### 視點判斷流程
+
+```mermaid
+flowchart TD
+    A["要表達給予或接受？"] --> B{"誰是說話者視角？"}
+    B -->|"我給別人"| C["あげる<br/>私は田中さんに本をあげた<br/>（我給了田中先生書）"]
+    B -->|"別人給我"| D["くれる<br/>田中さんは私に本をくれた<br/>（田中先生給了我書）"]
+    B -->|"我收到"| E["もらう<br/>私は田中さんに本をもらった<br/>（我從田中先生那收到書）"]
+
+    style A fill:#607D8B,color:white
+    style B fill:#795548,color:white
+    style C fill:#4CAF50,color:white
+    style D fill:#2196F3,color:white
+    style E fill:#FF9800,color:white
+```
+
 ## 學習要點
 
 1. **說話者中心**：日語視點以說話者為中心

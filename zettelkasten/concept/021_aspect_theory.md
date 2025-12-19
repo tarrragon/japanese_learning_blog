@@ -63,6 +63,55 @@ The theory also proves valuable in cross-linguistic analysis. While English prog
 
 該理論在跨語言比較中也很有價值。儘管英語進行式（-ing）和日語「ている形」表面上相似，但它們在語義範圍和使用條件上有顯著差異。通過體理論的框架分析這些差異，能夠實現更深層的語言理解。
 
+---
+
+## 圖解
+
+### 體理論核心對比
+
+```mermaid
+flowchart TD
+    A["體理論<br/>（動作的時間結構）"] --> B["完了体<br/>（動作已完成）"]
+    A --> C["継続体<br/>（動作進行中）"]
+
+    B --> B1["食べた<br/>吃了（完成）"]
+
+    C --> C1["食べている<br/>正在吃（進行）"]
+    C --> C2["窓が開いている<br/>窗戶開著（結果狀態）"]
+    C --> C3["毎日走っている<br/>每天跑步（習慣）"]
+    C --> C4["京都に行っている<br/>去過京都（經驗）"]
+
+    style A fill:#607D8B,color:white
+    style B fill:#9C27B0,color:white
+    style C fill:#FF9800,color:white
+    style B1 fill:#9C27B0,color:white
+    style C1 fill:#FF9800,color:white
+    style C2 fill:#FF9800,color:white
+    style C3 fill:#FF9800,color:white
+    style C4 fill:#FF9800,color:white
+```
+
+### 「ている」的四種意義
+
+```mermaid
+flowchart TD
+    Q["ている形的意思？"] --> D{"動詞類型和語境"}
+
+    D -->|"活動動詞 + 現在時刻"| P["進行中<br/>雨が降っている<br/>（雨正在下）"]
+    D -->|"瞬間動詞 + 狀態描述"| R["結果狀態<br/>結婚している<br/>（已婚狀態）"]
+    D -->|"重複性動作"| H["習慣<br/>毎朝走っている<br/>（每天早上跑步）"]
+    D -->|"過去經驗持續"| E["經驗<br/>日本に住んでいる<br/>（曾在日本住過）"]
+
+    style Q fill:#607D8B,color:white
+    style D fill:#795548,color:white
+    style P fill:#4CAF50,color:white
+    style R fill:#2196F3,color:white
+    style H fill:#FF9800,color:white
+    style E fill:#9C27B0,color:white
+```
+
+---
+
 ## 核心用法
 
 ### 用法 1：分析動詞的時間結構類型

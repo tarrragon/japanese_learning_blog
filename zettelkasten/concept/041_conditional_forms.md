@@ -66,6 +66,28 @@ Understanding these distinctions enables speakers to express subtle nuances and 
 
 理解這些區別能幫助說話者表達微妙的語義差異，實現更精確、更自然的日文溝通。
 
+## 圖解
+
+```mermaid
+flowchart TD
+    A["如何選擇條件形？"] --> B{"是自然法則<br/>或習慣？"}
+    B -->|"是"| C["と<br/>春になると桜が咲く<br/>（春天一到櫻花就開）"]
+    B -->|"否"| D{"是回應對方<br/>或基於話題？"}
+    D -->|"是"| E["なら<br/>明日なら大丈夫<br/>（如果是明天就沒問題）"]
+    D -->|"否"| F{"需要正式<br/>書面語氣？"}
+    F -->|"是"| G["ば<br/>努力すれば成功する<br/>（努力就會成功）"]
+    F -->|"否"| H["たら<br/>暇だったら来て<br/>（有空就來）"]
+
+    style A fill:#607D8B,color:white
+    style B fill:#795548,color:white
+    style C fill:#4CAF50,color:white
+    style D fill:#795548,color:white
+    style E fill:#9C27B0,color:white
+    style F fill:#795548,color:white
+    style G fill:#2196F3,color:white
+    style H fill:#FF9800,color:white
+```
+
 ## 四種條件形比較表
 
 | 特徵 | と | ば | たら | なら |
