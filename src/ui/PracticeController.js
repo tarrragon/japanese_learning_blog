@@ -120,6 +120,16 @@ export class PracticeController {
       container.classList.remove('mode-direct');
     }
 
+    // 重置 UI 元素的 inline style（恢復 CSS 控制）
+    const inputSection = document.getElementById('mobile-input-section');
+    if (inputSection) {
+      inputSection.style.display = 'none';
+    }
+    const keyboard = document.getElementById('keyboard');
+    if (keyboard) {
+      keyboard.style.display = '';  // 清除 inline style，讓 CSS 控制
+    }
+
     // 創建新的處理器
     this.#keyboardHandler = (e) => {
       // 忽略修飾鍵和特殊鍵

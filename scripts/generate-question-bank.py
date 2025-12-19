@@ -415,7 +415,7 @@ class QuestionGenerator:
                 # 漢字區塊：使用完整讀音
                 kanji_text = segment['text']
                 kana_reading = segment['kana']
-                romaji = self.build_romaji_for_kana(kana_reading)
+                romaji = self.build_romaji_for_kana(kana_reading, display=kanji_text)
 
                 # 如果只有一個漢字，直接使用
                 if len(kanji_text) == 1:
@@ -488,22 +488,32 @@ class QuestionGenerator:
                 kanji_text = orig[kanji_start:i]
 
                 # 找出對應的假名讀音
-                # 方法：找到下一個假名錨點
+                # 方法：找到下一個假名序列作為錨點
                 if i < len(orig):
-                    # 找下一個原文中的假名
-                    next_kana_in_orig = None
-                    for c in orig[i:]:
-                        if self.is_kana(c):
-                            next_kana_in_orig = c
-                            break
+                    # 找下一個原文中的連續假名序列
+                    kana_seq_start = i
+                    kana_seq_end = i
+                    while kana_seq_end < len(orig) and (self.is_kana(orig[kana_seq_end]) or orig[kana_seq_end] in ROMAJI_MAP):
+                        kana_seq_end += 1
+                    next_kana_seq = orig[kana_seq_start:kana_seq_end] if kana_seq_start < kana_seq_end else None
 
-                    if next_kana_in_orig and next_kana_in_orig in hira[hira_pos:]:
-                        # 找到錨點，確定漢字讀音的範圍
-                        anchor_in_hira = hira.find(next_kana_in_orig, hira_pos)
-                        kana_reading = hira[hira_pos:anchor_in_hira]
-                        hira_pos = anchor_in_hira
+                    if next_kana_seq:
+                        # 在假名讀音中找到這個序列的位置
+                        anchor_in_hira = hira.find(next_kana_seq, hira_pos)
+                        if anchor_in_hira != -1 and anchor_in_hira > hira_pos:
+                            # 找到有效錨點，漢字讀音是錨點之前的部分
+                            kana_reading = hira[hira_pos:anchor_in_hira]
+                            hira_pos = anchor_in_hira
+                        else:
+                            # 錨點無效（在開頭或找不到），估算漢字讀音長度
+                            # 假設剩餘假名讀音減去原文剩餘假名的長度就是漢字讀音
+                            remaining_hira = len(hira) - hira_pos
+                            remaining_kana_in_orig = sum(1 for c in orig[i:] if self.is_kana(c))
+                            kanji_kana_len = max(1, remaining_hira - remaining_kana_in_orig)
+                            kana_reading = hira[hira_pos:hira_pos + kanji_kana_len]
+                            hira_pos += kanji_kana_len
                     else:
-                        # 沒有錨點，使用剩餘全部
+                        # 沒有後續假名，使用剩餘全部
                         kana_reading = hira[hira_pos:]
                         hira_pos = len(hira)
                 else:
@@ -529,12 +539,16 @@ class QuestionGenerator:
 
         return segments
 
-    def build_romaji_for_kana(self, kana: str) -> list[str]:
+    def build_romaji_for_kana(self, kana: str, display: str = '') -> list[str]:
         """為假名字串建立羅馬字選項
 
         回傳所有可能的羅馬字組合（最多保留前 4 個）
+        如果無法轉換，使用 display 字元作為備用
         """
         if not kana:
+            # 當假名為空時，使用 display 作為備用（可能是非日文字元）
+            if display:
+                return [display]
             return []
 
         # 單字元直接查表
