@@ -52,6 +52,12 @@ jobs:
       - name: Generate Question Bank
         run: uv run scripts/generate-question-bank.py
 
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v2
+
+      - name: Build Practice JS
+        run: bun build src/main.js --outfile static/practice/js/practice.js --minify
+
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v4
