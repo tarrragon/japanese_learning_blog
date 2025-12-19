@@ -50,7 +50,7 @@ jobs:
         run: pip install uv
 
       - name: Generate Question Bank
-        run: uv run scripts/generate-question-bank.py
+        run: uv run scripts/generate-question-bank.py --split
 
       - name: Setup Bun
         uses: oven-sh/setup-bun@v2

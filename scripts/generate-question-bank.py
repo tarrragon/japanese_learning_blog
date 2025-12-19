@@ -701,6 +701,138 @@ class QuestionGenerator:
 
         return len(questions)
 
+    def generate_split(self, zettelkasten_dir: Path, output_dir: Path, init_count: int = 30) -> int:
+        """產生分割題庫（漸進式載入用）
+
+        Args:
+            zettelkasten_dir: Zettelkasten 目錄路徑
+            output_dir: 輸出目錄路徑
+            init_count: 初始包的題目數量（預設 30）
+
+        Returns:
+            總題目數量
+        """
+        # 掃描卡片
+        cards = self.scan_cards(zettelkasten_dir)
+
+        # 產生題目
+        questions = []
+        for card in cards:
+            question = self.process_card(card)
+            if question:
+                questions.append(question)
+                self.log(f"✓ {question.id}: {question.text[:30]}...")
+
+        # 按 JLPT 分組
+        by_jlpt: dict[str, list[Question]] = {}
+        for q in questions:
+            jlpt = q.source['jlpt']
+            if jlpt not in by_jlpt:
+                by_jlpt[jlpt] = []
+            by_jlpt[jlpt].append(q)
+
+        # 排序每個等級的題目（按難度：easy < medium < hard）
+        difficulty_order = {'easy': 0, 'medium': 1, 'hard': 2}
+        for jlpt in by_jlpt:
+            by_jlpt[jlpt].sort(key=lambda q: difficulty_order.get(q.metadata['difficulty'], 1))
+
+        # 建立初始包（從 N5 取最簡單的題目）
+        init_questions = []
+        if 'n5' in by_jlpt:
+            init_questions = by_jlpt['n5'][:init_count]
+
+        # 產生時間戳
+        generated = datetime.now(timezone.utc).isoformat().replace('+00:00', 'Z')
+
+        # 確保輸出目錄存在
+        output_dir.mkdir(parents=True, exist_ok=True)
+
+        # 1. 輸出索引檔
+        index = {
+            'version': '1.2.0',
+            'generated': generated,
+            'bundles': {
+                'init': {
+                    'path': 'questions-init.json',
+                    'count': len(init_questions),
+                    'jlpt': ['n5'],
+                    'description': 'Initial bundle for fast startup',
+                },
+            },
+            'stats': self.calculate_stats(questions),
+        }
+
+        # 為每個 JLPT 等級添加 bundle 資訊
+        for jlpt in sorted(by_jlpt.keys()):
+            index['bundles'][jlpt] = {
+                'path': f'questions-{jlpt}.json',
+                'count': len(by_jlpt[jlpt]),
+            }
+
+        with open(output_dir / 'questions-index.json', 'w', encoding='utf-8') as f:
+            json.dump(index, f, ensure_ascii=False, indent=2)
+        print(f"✅ 索引檔: questions-index.json")
+
+        # 2. 輸出初始包
+        init_output = {
+            'version': '1.2.0',
+            'generated': generated,
+            'bundle': 'init',
+            'questions': [self._question_to_dict(q) for q in init_questions],
+        }
+        with open(output_dir / 'questions-init.json', 'w', encoding='utf-8') as f:
+            json.dump(init_output, f, ensure_ascii=False, separators=(',', ':'))
+        init_size = (output_dir / 'questions-init.json').stat().st_size / 1024
+        print(f"✅ 初始包: questions-init.json ({len(init_questions)} 題, {init_size:.1f} KB)")
+
+        # 3. 輸出各 JLPT 等級的題庫
+        for jlpt in sorted(by_jlpt.keys()):
+            jlpt_questions = by_jlpt[jlpt]
+            jlpt_output = {
+                'version': '1.2.0',
+                'generated': generated,
+                'bundle': jlpt,
+                'questions': [self._question_to_dict(q) for q in jlpt_questions],
+            }
+            output_file = output_dir / f'questions-{jlpt}.json'
+            with open(output_file, 'w', encoding='utf-8') as f:
+                json.dump(jlpt_output, f, ensure_ascii=False, separators=(',', ':'))
+            file_size = output_file.stat().st_size / 1024
+            print(f"✅ {jlpt.upper()} 題庫: questions-{jlpt}.json ({len(jlpt_questions)} 題, {file_size:.1f} KB)")
+
+        # 4. 同時輸出完整題庫（向後相容）
+        full_output = {
+            'version': '1.1.0',
+            'generated': generated,
+            'questions': [self._question_to_dict(q) for q in questions],
+            'stats': self.calculate_stats(questions),
+        }
+        with open(output_dir / 'questions.json', 'w', encoding='utf-8') as f:
+            json.dump(full_output, f, ensure_ascii=False, separators=(',', ':'))
+        full_size = (output_dir / 'questions.json').stat().st_size / 1024
+        print(f"✅ 完整題庫: questions.json ({len(questions)} 題, {full_size:.1f} KB)")
+
+        # 輸出統計
+        print(f"\n📊 統計:")
+        print(f"   總題數: {len(questions)}")
+        print(f"   按 JLPT: {dict(sorted({k: len(v) for k, v in by_jlpt.items()}.items()))}")
+        print(f"   初始包: {len(init_questions)} 題 ({init_size:.1f} KB)")
+
+        if self.warnings:
+            print(f"\n⚠️  {len(self.warnings)} 個警告")
+
+        return len(questions)
+
+    def _question_to_dict(self, q: Question) -> dict:
+        """將 Question 轉換為字典"""
+        return {
+            'id': q.id,
+            'text': q.text,
+            'characters': q.characters,
+            'source': q.source,
+            'metadata': q.metadata,
+        }
+
 
 def main():
     parser = argparse.ArgumentParser(description='產生日文輸入練習題庫')
@@ -710,9 +842,25 @@ def main():
         help='輸出檔案路徑（預設：static/data/questions.json）'
     )
     parser.add_argument(
+        '--output-dir',
+        default='static/data',
+        help='分割輸出目錄（配合 --split 使用，預設：static/data）'
+    )
+    parser.add_argument(
         '--zettelkasten', '-z',
         default='zettelkasten',
         help='Zettelkasten 目錄路徑（預設：zettelkasten）'
+    )
+    parser.add_argument(
+        '--split',
+        action='store_true',
+        help='產生分割題庫（漸進式載入用）'
+    )
+    parser.add_argument(
+        '--init-count',
+        type=int,
+        default=30,
+        help='初始包的題目數量（預設：30）'
     )
     parser.add_argument(
         '--verbose', '-v',
@@ -722,10 +870,20 @@ def main():
     args = parser.parse_args()
 
     generator = QuestionGenerator(verbose=args.verbose)
-    generator.generate(
-        zettelkasten_dir=Path(args.zettelkasten),
-        output_path=Path(args.output),
-    )
+
+    if args.split:
+        # 分割模式：產生多個檔案
+        generator.generate_split(
+            zettelkasten_dir=Path(args.zettelkasten),
+            output_dir=Path(args.output_dir),
+            init_count=args.init_count,
+        )
+    else:
+        # 傳統模式：產生單一檔案
+        generator.generate(
+            zettelkasten_dir=Path(args.zettelkasten),
+            output_path=Path(args.output),
+        )
 
 
 if __name__ == '__main__':

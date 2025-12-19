@@ -1,7 +1,7 @@
 /**
  * QuestionLoader - 題目載入服務
  *
- * 從靜態 JSON 檔案載入題庫，提供隨機選取和篩選功能
+ * 從靜態 JSON 檔案載入題庫，支援漸進式載入和篩選功能
  */
 
 /**
@@ -43,6 +43,22 @@
  * @property {Object} stats - 統計資訊
  */
 
+/**
+ * @typedef {Object} BundleInfo
+ * @property {string} path - 檔案路徑
+ * @property {number} count - 題目數量
+ * @property {string[]} [jlpt] - 包含的 JLPT 等級
+ * @property {string} [description] - 描述
+ */
+
+/**
+ * @typedef {Object} QuestionIndex
+ * @property {string} version - 版本
+ * @property {string} generated - 產生時間
+ * @property {Object.<string, BundleInfo>} bundles - 分包資訊
+ * @property {Object} stats - 統計資訊
+ */
+
 export class QuestionLoader {
   /**
    * @param {string} [dataUrl] - 題庫檔案路徑（預設自動偵測）
@@ -50,31 +66,193 @@ export class QuestionLoader {
   constructor(dataUrl) {
     // 自動偵測 baseURL（支援子目錄部署如 GitHub Pages）
     if (!dataUrl) {
-      // 從當前頁面 URL 推斷根路徑
-      // 例如：/japanese_learning_blog/practice/ → /japanese_learning_blog/
       const pathname = window.location.pathname;
-      // 找到 /practice/ 或類似的頁面路徑，取其父目錄
       const match = pathname.match(/^(.*?)\/[^\/]+\/?$/);
       const basePath = match ? match[1] : '';
       dataUrl = `${basePath}/data/questions.json`;
     }
     this.dataUrl = dataUrl;
+    this.basePath = this.dataUrl.replace(/\/[^\/]+$/, '');
+
     /** @type {QuestionBank|null} */
     this.questionBank = null;
+    /** @type {QuestionIndex|null} */
+    this.index = null;
+    /** @type {Set<string>} */
+    this.loadedBundles = new Set();
+    /** @type {Map<string, Promise<void>>} */
+    this.loadingPromises = new Map();
     /** @type {Set<string>} */
     this.recentIds = new Set();
     this.maxRecentHistory = 10;
+    /** @type {boolean} */
+    this.useProgressiveLoading = false;
   }
 
   /**
-   * 載入題庫
+   * 載入索引檔
+   * @returns {Promise<QuestionIndex|null>}
+   */
+  async loadIndex() {
+    if (this.index) {
+      return this.index;
+    }
+
+    const indexUrl = `${this.basePath}/questions-index.json`;
+
+    try {
+      const response = await fetch(indexUrl);
+      if (!response.ok) {
+        return null;
+      }
+      this.index = await response.json();
+      console.log(`索引檔載入完成: ${Object.keys(this.index.bundles).length} 個分包`);
+      return this.index;
+    } catch (error) {
+      console.log('索引檔不存在，使用傳統載入模式');
+      return null;
+    }
+  }
+
+  /**
+   * 載入初始分包（快速啟動）
    * @returns {Promise<QuestionBank>}
    */
-  async load() {
-    if (this.questionBank) {
+  async loadInitial() {
+    // 嘗試載入索引
+    const index = await this.loadIndex();
+
+    if (index) {
+      // 使用漸進式載入
+      this.useProgressiveLoading = true;
+
+      // 初始化 questionBank
+      this.questionBank = {
+        version: index.version,
+        generated: index.generated,
+        questions: [],
+        stats: index.stats,
+      };
+
+      // 載入初始包
+      await this.loadBundle('init');
+      console.log(`初始載入完成: ${this.questionBank.questions.length} 題`);
+
       return this.questionBank;
     }
 
+    // 回退到傳統模式
+    return this.loadLegacy();
+  }
+
+  /**
+   * 載入指定分包
+   * @param {string} bundleKey - 分包名稱 (init, n5, n4, n3, n2)
+   * @returns {Promise<void>}
+   */
+  async loadBundle(bundleKey) {
+    // 已載入則跳過
+    if (this.loadedBundles.has(bundleKey)) {
+      return;
+    }
+
+    // 正在載入則等待
+    if (this.loadingPromises.has(bundleKey)) {
+      return this.loadingPromises.get(bundleKey);
+    }
+
+    if (!this.index) {
+      throw new Error('索引檔尚未載入');
+    }
+
+    const bundleInfo = this.index.bundles[bundleKey];
+    if (!bundleInfo) {
+      console.warn(`分包不存在: ${bundleKey}`);
+      return;
+    }
+
+    const bundleUrl = `${this.basePath}/${bundleInfo.path}`;
+
+    const promise = (async () => {
+      try {
+        const response = await fetch(bundleUrl);
+        if (!response.ok) {
+          throw new Error(`載入分包失敗: ${response.status}`);
+        }
+
+        const data = await response.json();
+        this.mergeQuestions(data.questions);
+        this.loadedBundles.add(bundleKey);
+        console.log(`分包載入完成: ${bundleKey} (${data.questions.length} 題)`);
+      } catch (error) {
+        console.error(`載入分包 ${bundleKey} 失敗:`, error);
+        throw error;
+      } finally {
+        this.loadingPromises.delete(bundleKey);
+      }
+    })();
+
+    this.loadingPromises.set(bundleKey, promise);
+    return promise;
+  }
+
+  /**
+   * 合併題目（去重）
+   * @param {Question[]} newQuestions
+   */
+  mergeQuestions(newQuestions) {
+    if (!this.questionBank) {
+      return;
+    }
+
+    const existingIds = new Set(this.questionBank.questions.map(q => q.id));
+    const uniqueNew = newQuestions.filter(q => !existingIds.has(q.id));
+    this.questionBank.questions.push(...uniqueNew);
+  }
+
+  /**
+   * 背景載入剩餘分包
+   * @param {string[]} priority - 優先載入順序
+   */
+  async loadInBackground(priority) {
+    for (const level of priority) {
+      if (!this.loadedBundles.has(level) && this.index?.bundles[level]) {
+        try {
+          await this.loadBundle(level);
+        } catch (error) {
+          console.warn(`背景載入 ${level} 失敗，稍後重試`);
+        }
+      }
+    }
+  }
+
+  /**
+   * 檢查指定等級是否已載入
+   * @param {string} jlpt - JLPT 等級
+   * @returns {boolean}
+   */
+  isLevelLoaded(jlpt) {
+    return this.loadedBundles.has(jlpt);
+  }
+
+  /**
+   * 取得載入狀態
+   * @returns {{loadedBundles: string[], totalQuestions: number, isFullyLoaded: boolean}}
+   */
+  getLoadingStatus() {
+    const bundleCount = this.index ? Object.keys(this.index.bundles).length : 1;
+    return {
+      loadedBundles: [...this.loadedBundles],
+      totalQuestions: this.questionBank?.questions.length || 0,
+      isFullyLoaded: this.loadedBundles.size >= bundleCount,
+    };
+  }
+
+  /**
+   * 傳統載入（完整檔案）
+   * @returns {Promise<QuestionBank>}
+   */
+  async loadLegacy() {
     try {
       const response = await fetch(this.dataUrl);
 
@@ -83,13 +261,27 @@ export class QuestionLoader {
       }
 
       this.questionBank = await response.json();
-      console.log(`題庫載入完成: ${this.questionBank.questions.length} 題`);
+      this.loadedBundles.add('legacy');
+      console.log(`題庫載入完成（傳統模式）: ${this.questionBank.questions.length} 題`);
 
       return this.questionBank;
     } catch (error) {
       console.error('題庫載入錯誤:', error);
       throw error;
     }
+  }
+
+  /**
+   * 載入題庫（自動選擇模式）
+   * @returns {Promise<QuestionBank>}
+   */
+  async load() {
+    if (this.questionBank) {
+      return this.questionBank;
+    }
+
+    // 嘗試漸進式載入
+    return this.loadInitial();
   }
 
   /**

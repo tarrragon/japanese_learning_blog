@@ -149,6 +149,20 @@ function createControlPanel() {
 }
 
 /**
+ * 取得載入優先級
+ * @param {string} savedFilter - 使用者偏好的 JLPT 等級
+ * @returns {string[]}
+ */
+function getLoadingPriority(savedFilter) {
+  const levels = ['n5', 'n4', 'n3', 'n2', 'n1'];
+  if (!savedFilter || savedFilter === 'all') {
+    return levels;
+  }
+  // 優先載入使用者選擇的等級
+  return [savedFilter, ...levels.filter(l => l !== savedFilter)];
+}
+
+/**
  * 載入下一題
  */
 async function loadNextQuestion() {
@@ -163,7 +177,20 @@ async function loadNextQuestion() {
   }
 
   // 隨機選取題目
-  const questionData = questionLoader.getRandomQuestion(currentFilters);
+  let questionData = questionLoader.getRandomQuestion(currentFilters);
+
+  // 如果找不到題目，嘗試按需載入對應等級
+  if (!questionData && currentFilters.jlpt !== 'all') {
+    if (questionLoader.useProgressiveLoading && !questionLoader.isLevelLoaded(currentFilters.jlpt)) {
+      showLoading();
+      try {
+        await questionLoader.loadBundle(currentFilters.jlpt);
+        questionData = questionLoader.getRandomQuestion(currentFilters);
+      } catch (error) {
+        console.error('按需載入失敗:', error);
+      }
+    }
+  }
 
   if (!questionData) {
     showError('找不到符合條件的題目');
@@ -278,10 +305,19 @@ async function init() {
     questionLoader = new QuestionLoader();
     await questionLoader.load();
 
-    console.log('題庫載入完成:', questionLoader.getStats());
+    console.log('題庫載入完成:', questionLoader.getLoadingStatus());
 
     // 載入第一題
     loadNextQuestion();
+
+    // 背景載入剩餘分包
+    if (questionLoader.useProgressiveLoading) {
+      const savedJlpt = localStorage.getItem('practice-jlpt-filter');
+      const priority = getLoadingPriority(savedJlpt);
+      questionLoader.loadInBackground(priority).then(() => {
+        console.log('背景載入完成:', questionLoader.getLoadingStatus());
+      });
+    }
   } catch (error) {
     console.error('題庫載入失敗:', error);
     // 降級到假名模式
