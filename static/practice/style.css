@@ -721,17 +721,12 @@ body {
   display: block;
 }
 
-/* 直接輸入模式下隱藏羅馬拼音提示 */
-.mode-direct .practice-romaji-wrapper {
-  display: none;
-}
-
-/* 直接輸入模式下隱藏緩衝區顯示 */
+/* 直接輸入模式下隱藏緩衝區顯示（因為不需要顯示部分羅馬字輸入） */
 .mode-direct .buffer-display {
   display: none;
 }
 
-/* 直接輸入模式下隱藏鍵盤提示 */
+/* 直接輸入模式下隱藏鍵盤提示文字 */
 .mode-direct .practice-footer .hint {
   display: none;
 }
