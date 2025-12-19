@@ -7,6 +7,102 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.1.1] - 2025-12-19
+
+### Added
+
+#### 視覺化圖表系統 - 34 張卡片新增 Mermaid 圖表
+
+本版本大規模擴展視覺化學習資源，為三個分類共 34 張卡片新增 Mermaid 圖表。
+
+**Grammar 分類（5 張）**：
+- 073_te_aru：〜ている vs 〜てある 對比圖
+- 074_te_shimau：完成/遺憾 雙重意義分支圖
+- 076_te_oku：準備/放置 意義對比圖
+- 077_te_miru：時制階梯圖
+- 094_quotation_expression：引用類型選擇流程圖
+
+**Comparison 分類（7 張）**：
+- 002_de_vs_ni_location：場所用法決策樹
+- 004_te_iru_meanings：語義分類判斷圖
+- 009_ba_vs_to：ば/と 決策樹 + 對比圖
+- 010_ba_vs_tara：ば/たら 語氣選擇圖
+- 011_conditional_comparison：四種條件形決策樹
+- 013_wo_vs_de：を/で 功能分類圖
+- 015_ageru_vs_kureru：授受方向 sequenceDiagram
+
+**Concept 分類（14 張）**：
+- 003_jidoushi, 004_tadoushi：自他動詞特徵圖
+- 005_doushi_bunrui：動詞三分類層級圖
+- 006_viewpoint：視點系統 sequenceDiagram
+- 007_uchi_soto：內外關係層次圖
+- 010_katsuyou：六種活用形放射圖
+- 021_aspect_theory：體理論對比圖
+- 036_benefactive_perspective：授受視點圖
+- 037, 038, 040：敬語三類概念結構圖
+- 041_conditional_forms：條件形決策樹
+- 043_obligation_expressions：義務/禁止表達層級圖
+- 044_teineitai_vs_futsutai：丁寧體/普通體對比圖
+
+**先前已完成的 8 張高優先級圖表**：
+- grammar/091_case_particles：格助詞選擇流程圖
+- grammar/092_transitive_intransitive：自他動詞判斷樹
+- grammar/096_aru_iru：生命性判斷樹
+- grammar/075_te_iru：〜ている語義分支圖
+- comparison/001_ga_vs_wa：決策流程圖
+- comparison/005_conditional_comparison：條件形選擇流程圖
+- concept/013_keigo_taikei：敬語三元階層圖
+- concept/022_verb_types_system：動詞三維分類圖
+
+**圖表設計規範**（遵循 `.claude/diagram-guidelines.md`）：
+- 自解釋性：節點包含日文 + 中文
+- 國小生友善：簡單詞彙、節點數 ≤ 7
+- 顏色語義：綠=基本、藍=正式、紅=否定、橘=進行、紫=過去
+- 具體範例：每個節點有例句
+
+### Fixed
+
+#### 草稿卡片清理 - 194 張卡片狀態修復
+
+修復 v1.0.6 遺留的草稿卡片問題，確保題庫連結正常運作。
+
+**問題背景**：
+- 題庫包含 `draft: true` 的草稿卡片
+- Hugo 不發布草稿卡片，導致 165 個連結返回 404
+- 題庫題目數從 271 題降至 106 題
+
+**修復內容**：
+- 審計 194 張草稿卡片（164 complete, 27 partial, 2 inconsistent, 1 redirect）
+- 刪除 1 張重複的 redirect 卡片（grammar/090_to_jouken.md）
+- 批次移除 191 張完整卡片的 `draft: true` 標記
+- 修復 2 張狀態不一致的卡片
+
+**修復結果**：
+- 題庫題目數：106 → 271 題（+155.7%）
+- 草稿卡片數：194 → 0 張
+- 404 連結：165 → 0 個
+
+### Documentation
+
+- 新增 `doc/worklog/worklog-1.1.1.md` - 版本工作日誌
+- 新增 `doc/worklog/diagram-assessment-summary.md` - 圖表需求評估報告
+- 新增 `.claude/diagram-guidelines.md` - 圖表設計規範
+
+### Statistics
+
+- **新增圖表**：34 張卡片（871 行程式碼）
+- **修復卡片**：194 張（draft: true → false）
+- **題庫擴展**：106 → 271 題（+155.7%）
+- **處理時間**：2025-12-19
+- **代理人數量**：26 個平行代理人（圖表建立）
+
+### Highlights
+
+1. **視覺化學習系統** - 首次大規模引入 Mermaid 圖表，提升學習體驗
+2. **草稿卡片清理** - 解決 v1.0.6 遺留問題，題庫容量增加 155%
+3. **設計規範建立** - 制定 `diagram-guidelines.md`，確保圖表品質一致性
+4. **平行處理效率** - 使用 26 個代理人同時處理，大幅提升效率
+
 ## [1.0.8] - 2025-12-18
 
 ### Added
