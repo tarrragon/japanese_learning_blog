@@ -4,7 +4,7 @@ description: 役割 - 角色、職責、功能
 type: noun
 jlpt: n3
 stage: draft
-draft: true
+draft: false
 auto_generated: false
 needs_review: true
 tags:

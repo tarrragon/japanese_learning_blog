@@ -4,7 +4,7 @@ description: したいと思う - 想要做（表達願望的委婉說法）
 type: phrase
 jlpt: n5
 stage: pending
-draft: true
+draft: false
 auto_generated: false
 needs_review: false
 tags: [phrase, jlpt/n5, desire, polite, intention, tai-form]

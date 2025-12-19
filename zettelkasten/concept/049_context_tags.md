@@ -4,7 +4,7 @@ description: 標籤系統概念 - 知識管理系統中用於分類和檢索的�
 type: concept
 jlpt: concept
 stage: draft
-draft: true
+draft: false
 auto_generated: false
 needs_review: true
 tags:

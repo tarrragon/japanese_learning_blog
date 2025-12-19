@@ -4,7 +4,7 @@ description: 意見表達 - 表達個人觀點和看法的語言行為
 type: concept
 jlpt: concept
 stage: draft
-draft: true
+draft: false
 auto_generated: false
 needs_review: true
 tags:

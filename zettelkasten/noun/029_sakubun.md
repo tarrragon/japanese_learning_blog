@@ -4,7 +4,7 @@ description: 作文（文章創作、寫作作業）
 type: noun
 jlpt: n3
 stage: draft
-draft: true
+draft: false
 auto_generated: false
 needs_review: true
 tags:

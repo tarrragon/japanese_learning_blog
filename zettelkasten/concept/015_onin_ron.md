@@ -4,7 +4,7 @@ description: 音韻論（音韻論）- 語言學研究語音系統和規則的�
 type: concept
 jlpt: concept
 stage: draft
-draft: true
+draft: false
 auto_generated: false
 needs_review: true
 tags:

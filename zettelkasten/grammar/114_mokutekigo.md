@@ -5,7 +5,7 @@ type: grammar
 subtype: sentence-structure
 jlpt: concept
 stage: draft
-draft: true
+draft: false
 auto_generated: false
 needs_review: true
 tags:

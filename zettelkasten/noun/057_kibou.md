@@ -4,7 +4,7 @@ description: 希望、願望、期待
 type: noun
 jlpt: n4
 stage: draft
-draft: true
+draft: false
 auto_generated: false
 needs_review: true
 tags:

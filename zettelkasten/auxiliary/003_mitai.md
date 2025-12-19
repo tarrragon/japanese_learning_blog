@@ -4,7 +4,7 @@ description: 助動詞「みたい」，表示推測、比況或例示，是日�
 type: auxiliary
 jlpt: n4
 stage: draft
-draft: true
+draft: false
 auto_generated: false
 needs_review: true
 tags:

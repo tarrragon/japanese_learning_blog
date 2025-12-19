@@ -4,7 +4,7 @@ description: 聽力理解（語言學習中的聽力能力）
 type: noun
 jlpt: n3
 stage: draft
-draft: true
+draft: false
 auto_generated: false
 needs_review: true
 tags:

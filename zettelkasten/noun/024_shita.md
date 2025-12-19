@@ -4,7 +4,7 @@ description: 下面、下方、底部
 type: noun
 jlpt: n5
 stage: draft
-draft: true
+draft: false
 auto_generated: false
 needs_review: true
 tags:

@@ -4,7 +4,7 @@ description: 助動詞「らしい」，表示推測、傳聞、以及典型特�
 type: auxiliary
 jlpt: n4
 stage: draft
-draft: true
+draft: false
 auto_generated: false
 needs_review: true
 tags:

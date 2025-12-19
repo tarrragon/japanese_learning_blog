@@ -4,7 +4,7 @@ description: 生命性（有生性）- 語言學中區分有生命與無生命�
 type: concept
 jlpt: concept
 stage: draft
-draft: true
+draft: false
 auto_generated: false
 needs_review: true
 tags:

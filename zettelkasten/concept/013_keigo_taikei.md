@@ -4,7 +4,7 @@ description: 敬語体系 - 日語敬語的理論框架與社會語言學基礎
 type: concept
 jlpt: n3
 stage: draft
-draft: true
+draft: false
 auto_generated: false
 needs_review: true
 tags:

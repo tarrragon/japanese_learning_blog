@@ -5,7 +5,7 @@ type: noun
 subtype: location
 jlpt: n3
 stage: draft
-draft: true
+draft: false
 auto_generated: false
 needs_review: true
 tags:

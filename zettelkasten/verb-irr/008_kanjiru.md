@@ -5,7 +5,7 @@ type: verb
 subtype: ichidan
 jlpt: n4
 stage: draft
-draft: true
+draft: false
 auto_generated: false
 needs_review: true
 tags:

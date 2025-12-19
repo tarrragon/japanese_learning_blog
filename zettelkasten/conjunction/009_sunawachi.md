@@ -4,7 +4,7 @@ description: 也就是說、即
 type: conjunction
 jlpt: n2
 stage: draft
-draft: true
+draft: false
 auto_generated: false
 needs_review: true
 tags:

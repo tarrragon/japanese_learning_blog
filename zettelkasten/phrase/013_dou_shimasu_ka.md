@@ -4,7 +4,7 @@ description: どうしますか - 您要怎麼做（禮貌詢問）
 type: phrase
 jlpt: n5
 stage: draft
-draft: true
+draft: false
 auto_generated: false
 needs_review: true
 tags:

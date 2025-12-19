@@ -4,7 +4,7 @@ description: 形成（構詞法）- 日語詞彙形成的語言學理論
 type: concept
 jlpt: concept
 stage: draft
-draft: true
+draft: false
 auto_generated: false
 needs_review: true
 tags:

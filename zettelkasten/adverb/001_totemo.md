@@ -4,7 +4,7 @@ description: 非常、很、十分
 type: adverb
 jlpt: n5
 stage: draft
-draft: true
+draft: false
 auto_generated: false
 needs_review: true
 tags:

@@ -6,7 +6,7 @@ subtype: grammar_comparison
 comparison_items: [ば, と]
 jlpt: n4
 stage: draft
-draft: true
+draft: false
 auto_generated: false
 needs_review: true
 tags:

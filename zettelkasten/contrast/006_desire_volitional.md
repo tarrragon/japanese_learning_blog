@@ -5,7 +5,7 @@ type: contrast
 comparison_items: [grammar/016_tai_form, grammar/116_volitional]
 jlpt: n4
 stage: draft
-draft: true
+draft: false
 auto_generated: false
 needs_review: true
 tags:

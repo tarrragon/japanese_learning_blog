@@ -5,7 +5,7 @@ type: grammar
 subtype: conditional
 jlpt: n4
 stage: completed
-draft: true
+draft: false
 auto_generated: false
 needs_review: true
 tags:

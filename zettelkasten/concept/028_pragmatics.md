@@ -4,7 +4,7 @@ description: 語用學總論 - 研究語言在實際使用中意義的語言學�
 type: concept
 jlpt: concept
 stage: draft
-draft: true
+draft: false
 auto_generated: false
 needs_review: true
 tags:

@@ -4,7 +4,7 @@ description: 事業、商業活動
 type: noun
 jlpt: n3
 stage: draft
-draft: true
+draft: false
 auto_generated: false
 needs_review: true
 tags:

@@ -4,7 +4,7 @@ description: 表現：透過語言、文字、藝術等形式將思想或感情�
 type: noun
 jlpt: n4
 stage: draft
-draft: true
+draft: false
 auto_generated: false
 needs_review: true
 tags:

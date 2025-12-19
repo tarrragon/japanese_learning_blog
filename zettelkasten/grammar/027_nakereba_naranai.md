@@ -5,7 +5,7 @@ type: grammar
 subtype: obligation
 jlpt: n4
 stage: draft
-draft: true
+draft: false
 auto_generated: true
 needs_review: true
 tags:

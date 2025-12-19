@@ -4,7 +4,7 @@ description: 日語句子結構中的述語概念 - 語言學核心理論
 type: concept
 jlpt: concept
 stage: draft
-draft: true
+draft: false
 auto_generated: false
 needs_review: true
 tags:

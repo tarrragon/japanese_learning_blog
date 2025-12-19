@@ -4,7 +4,7 @@ description: 會計、帳簿、會計部門
 type: noun
 jlpt: n3
 stage: draft
-draft: true
+draft: false
 auto_generated: false
 needs_review: true
 tags:

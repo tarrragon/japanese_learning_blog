@@ -4,7 +4,7 @@ description: ということ - 也就是說、意思是（用於解釋或確認�
 type: phrase
 jlpt: n4
 stage: draft
-draft: true
+draft: false
 auto_generated: false
 needs_review: true
 tags: [phrase, jlpt/n4, context/formal, context/daily_life, explanation]

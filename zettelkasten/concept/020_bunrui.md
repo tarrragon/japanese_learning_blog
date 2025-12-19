@@ -5,7 +5,7 @@ type: concept
 subtype: cognitive_framework
 jlpt: none
 stage: draft
-draft: true
+draft: false
 auto_generated: false
 needs_review: true
 tags:

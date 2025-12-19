@@ -4,7 +4,7 @@ description: 語彙論（詞彙學）- 研究詞彙系統的語言學分支
 type: concept
 jlpt: concept
 stage: draft
-draft: true
+draft: false
 auto_generated: false
 needs_review: true
 tags:

@@ -4,7 +4,7 @@ description: 會話、對話、交談
 type: noun
 jlpt: n4
 stage: draft
-draft: true
+draft: false
 auto_generated: false
 needs_review: true
 tags:

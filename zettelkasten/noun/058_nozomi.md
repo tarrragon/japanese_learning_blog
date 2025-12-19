@@ -8,7 +8,7 @@ related_words: [kibou, yume, mokuteki, negai]
 created: 2025-10-31
 updated: 2025-10-31
 stage: extension-review
-draft: true
+draft: false
 auto_generated: false
 needs_review: true
 ---

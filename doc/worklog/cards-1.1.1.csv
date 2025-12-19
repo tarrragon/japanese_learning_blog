@@ -1,0 +1,28 @@
+id,category,number,japanese,chinese,english,jlpt,priority,stage,allocated_number,notes
+1,grammar,082,ました形,,Past polite form,n5,High,pending,082,缺少: 日文解釋, 英文解釋, 中文解釋
+2,phrase,022,すみません,對不起/不好意思,Sorry/Excuse me,n5,High,pending,022,缺少: 日文解釋, 英文解釋
+3,phrase,020,お願いします,拜託/請求,Please,n5,High,pending,020,缺少: 日文解釋, 英文解釋
+4,phrase,013,どうしますか,怎麼辦,What shall we do,n4,High,pending,013,缺少: 日文解釋, 英文解釋
+5,phrase,021,ありがとうございます,謝謝,Thank you,n5,High,pending,021,缺少: 日文解釋, 英文解釋
+6,contrast,007,必要性vs義務,,Necessity vs Obligation,n3,High,pending,007,缺少: 日文解釋, 英文解釋, 中文解釋
+7,contrast,008,許可vs禁止,,Permission vs Prohibition,n3,High,pending,008,缺少: 日文解釋, 英文解釋, 中文解釋
+8,contrast,010,商業vs ビジネス,,Commercial vs Business,n2,High,pending,010,缺少: 日文解釋, 英文解釋, 中文解釋
+9,contrast,004,能力vs容量,,Ability vs Capacity,n3,High,pending,004,缺少: 日文解釋, 英文解釋, 中文解釋
+10,contrast,009,請求vs建議,,Request vs Suggestion,n3,High,pending,009,缺少: 日文解釋, 英文解釋, 中文解釋
+11,contrast,005,選擇vs決定,,Choice vs Decision,n3,High,pending,005,缺少: 日文解釋, 英文解釋, 中文解釋
+12,contrast,006,願望vs意志,,Desire vs Volitional,n3,High,pending,006,缺少: 日文解釋, 英文解釋, 中文解釋
+13,comparison,010,ば vs たら,,ba vs tara conditionals,n4,High,pending,010,缺少: 日文解釋, 英文解釋, 中文解釋
+14,comparison,001,が vs は,,ga vs wa particles,n4,High,pending,001,缺少: 日文解釋, 英文解釋, 中文解釋
+15,comparison,009,ば vs と,,ba vs to conditionals,n4,High,pending,009,缺少: 日文解釋, 英文解釋, 中文解釋
+16,comparison,011,條件形比較,,Conditional comparison,n4,High,pending,011,缺少: 日文解釋, 英文解釋, 中文解釋
+17,comparison,014,を vs に,,wo vs ni particles,n4,High,pending,014,缺少: 日文解釋, 英文解釋, 中文解釋
+18,comparison,008,ている vs た,,te iru vs ta aspects,n4,High,pending,008,缺少: 日文解釋, 英文解釋, 中文解釋
+19,comparison,012,主題 vs 主語,,Topic vs Subject,n3,High,pending,012,缺少: 日文解釋, 英文解釋, 中文解釋
+20,comparison,015,あげる vs くれる,,ageru vs kureru giving,n4,High,pending,015,缺少: 日文解釋, 英文解釋, 中文解釋
+21,comparison,002,で vs に (場所),,de vs ni location,n4,High,pending,002,缺少: 日文解釋, 英文解釋, 中文解釋
+22,comparison,013,を vs で,,wo vs de particles,n4,High,pending,013,缺少: 日文解釋, 英文解釋, 中文解釋
+23,adverb,006,すぐ,馬上,Immediately,n4,Medium,pending,006,缺少: 例句
+24,adverb,005,とても,非常,Very,n5,Medium,pending,005,缺少: 例句
+25,adverb,007,まだ,還/尚未,Still/Not yet,n4,Medium,pending,007,缺少: 例句
+26,particle,014,で (手段),,De means particle,n4,High,pending,014,缺少: 日文解釋, 英文解釋
+27,particle,013,から・より,,Kara/Yori comparison,n4,High,pending,013,缺少: 日文解釋, 英文解釋, 中文解釋

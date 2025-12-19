@@ -4,7 +4,7 @@ description: 確認表達 - 日語中確認訊息與核實理解的語言機制
 type: concept
 jlpt: n3
 stage: draft
-draft: true
+draft: false
 auto_generated: false
 needs_review: true
 tags:

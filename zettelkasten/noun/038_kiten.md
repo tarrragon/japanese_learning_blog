@@ -4,7 +4,7 @@ description: 起點，開始的地方或時間點
 type: noun
 jlpt: n3
 stage: draft
-draft: true
+draft: false
 auto_generated: false
 needs_review: true
 tags:

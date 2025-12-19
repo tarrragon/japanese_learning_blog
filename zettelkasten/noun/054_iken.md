@@ -4,7 +4,7 @@ description: 意見 - 個人的看法或主張
 type: noun
 jlpt: n4
 stage: draft
-draft: true
+draft: false
 auto_generated: false
 needs_review: true
 tags:

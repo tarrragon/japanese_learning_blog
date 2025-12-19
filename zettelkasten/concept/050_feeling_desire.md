@@ -4,7 +4,7 @@ description: 感情與欲望表達 - 日文中情感和欲望的語言學表現
 type: concept
 jlpt: concept
 stage: draft
-draft: true
+draft: false
 auto_generated: false
 needs_review: true
 tags:

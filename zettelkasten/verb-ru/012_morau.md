@@ -5,7 +5,7 @@ type: verb
 subtype: ru_verb
 jlpt: n5
 stage: draft
-draft: true
+draft: false
 auto_generated: false
 needs_review: true
 tags:

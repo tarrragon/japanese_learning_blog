@@ -4,7 +4,7 @@ description: 謙讓語概念 - 降低自己或內部人士地位以表達敬意�
 type: concept
 jlpt: n3
 stage: draft
-draft: true
+draft: false
 auto_generated: false
 needs_review: true
 tags:

@@ -4,7 +4,7 @@ description: 尊敬語概念 - 提高對方或第三者地位的敬語形式
 type: concept
 jlpt: n3
 stage: draft
-draft: true
+draft: false
 auto_generated: false
 needs_review: true
 tags:

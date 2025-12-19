@@ -4,7 +4,7 @@ description: 還、尚未、仍然
 type: adverb
 jlpt: n5
 stage: pending
-draft: true
+draft: false
 auto_generated: false
 needs_review: true
 tags:

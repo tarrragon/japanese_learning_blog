@@ -4,7 +4,7 @@ description: 語感表達 - 語言中的細微意義差異和語感
 type: concept
 jlpt: concept
 stage: draft
-draft: true
+draft: false
 auto_generated: false
 needs_review: true
 tags:
