@@ -75,6 +75,101 @@ Understanding the case particle system is essential for grasping Japanese syntac
 
 ---
 
+## 格助詞選擇流程圖
+
+以下流程圖幫助你根據動詞類型和使用情境選擇正確的格助詞：
+
+```mermaid
+%%{init: {'theme':'base', 'themeVariables': { 'primaryColor':'#4CAF50','primaryTextColor':'#fff','primaryBorderColor':'#2E7D32','lineColor':'#757575','secondaryColor':'#2196F3','tertiaryColor':'#FF9800','noteBkgColor':'#FFF9C4'}}}%%
+flowchart TD
+    Start["開始：我要用哪個助詞？"]
+
+    Start --> Q1{"句子裡的動詞<br/>是什麼類型？"}
+
+    %% 存在動詞分支
+    Q1 -->|"存在動詞<br/>ある/いる<br/>（有、在）"| Particle_Ni_Exist["使用「に」<br/>標記存在地點"]
+    Particle_Ni_Exist --> Ex_Exist["例：机の上に本がある<br/>（桌上有書）<br/>例：公園に猫がいる<br/>（公園裡有貓）"]
+
+    %% 移動動詞分支
+    Q1 -->|"移動動詞<br/>行く/来る/帰る<br/>（去、來、回）"| Q2{"想強調什麼？"}
+    Q2 -->|"強調到達目的地"| Particle_Ni_Move["使用「に」<br/>標記目的地"]
+    Q2 -->|"強調移動方向"| Particle_E["使用「へ」<br/>標記方向"]
+    Particle_Ni_Move --> Ex_Ni_Move["例：学校に行く<br/>（去學校）<br/>例：大阪に出張する<br/>（出差去大阪）"]
+    Particle_E --> Ex_E["例：東京へ向かう<br/>（朝東京前進）"]
+
+    %% 他動詞分支
+    Q1 -->|"他動詞<br/>読む/食べる/見る<br/>（讀、吃、看）"| Particle_Wo["使用「を」<br/>標記直接賓語"]
+    Particle_Wo --> Ex_Wo["例：本を読む<br/>（讀書）<br/>例：コーヒーを飲む<br/>（喝咖啡）"]
+
+    %% 動作動詞分支
+    Q1 -->|"動作動詞<br/>勉強する/働く/遊ぶ<br/>（學習、工作、玩）"| Q3{"需要說明什麼？"}
+    Q3 -->|"動作發生的場所"| Particle_De_Place["使用「で」<br/>標記動作場所"]
+    Q3 -->|"動作使用的手段"| Particle_De_Means["使用「で」<br/>標記手段/工具"]
+    Q3 -->|"一起做的對象"| Particle_To["使用「と」<br/>標記共同對象"]
+
+    Particle_De_Place --> Ex_De_Place["例：図書館で勉強する<br/>（在圖書館學習）<br/>例：会議室で打ち合わせをする<br/>（在會議室開會）"]
+    Particle_De_Means --> Ex_De_Means["例：電車で行く<br/>（搭電車去）<br/>例：ペンで書く<br/>（用筆寫）"]
+    Particle_To --> Ex_To["例：友達と遊ぶ<br/>（和朋友玩）"]
+
+    %% 授受動詞分支
+    Q1 -->|"授受動詞<br/>あげる/もらう/くれる<br/>（給、得到）"| Particle_Combo["使用組合：<br/>對象を + 對方に"]
+    Particle_Combo --> Ex_Combo["例：部長に報告書を提出する<br/>（向部長提交報告）<br/>例：友達にプレゼントをあげる<br/>（給朋友禮物）"]
+
+    %% 樣式定義
+    classDef startStyle fill:#4CAF50,stroke:#2E7D32,stroke-width:3px,color:#fff
+    classDef questionStyle fill:#FFF9C4,stroke:#F57F17,stroke-width:2px,color:#000
+    classDef particleNi fill:#2196F3,stroke:#1565C0,stroke-width:2px,color:#fff
+    classDef particleE fill:#00BCD4,stroke:#006064,stroke-width:2px,color:#fff
+    classDef particleWo fill:#9C27B0,stroke:#4A148C,stroke-width:2px,color:#fff
+    classDef particleDe fill:#FF9800,stroke:#E65100,stroke-width:2px,color:#fff
+    classDef particleTo fill:#FF5722,stroke:#BF360C,stroke-width:2px,color:#fff
+    classDef particleCombo fill:#607D8B,stroke:#263238,stroke-width:2px,color:#fff
+    classDef exampleStyle fill:#E8F5E9,stroke:#4CAF50,stroke-width:1px,color:#000,stroke-dasharray: 5 5
+
+    class Start startStyle
+    class Q1,Q2,Q3 questionStyle
+    class Particle_Ni_Exist,Particle_Ni_Move particleNi
+    class Particle_E particleE
+    class Particle_Wo particleWo
+    class Particle_De_Place,Particle_De_Means particleDe
+    class Particle_To particleTo
+    class Particle_Combo particleCombo
+    class Ex_Exist,Ex_Ni_Move,Ex_E,Ex_Wo,Ex_De_Place,Ex_De_Means,Ex_To,Ex_Combo exampleStyle
+```
+
+### 圖表顏色說明
+
+| 顏色 | 代表含義 |
+|------|---------|
+| 🟢 綠色 | 起始點 |
+| 🟡 黃色 | 判斷節點（需要思考的問題） |
+| 🔵 藍色 | 「に」助詞（目的地/存在地點） |
+| 🟦 淺藍 | 「へ」助詞（移動方向） |
+| 🟣 紫色 | 「を」助詞（直接賓語） |
+| 🟠 橘色 | 「で」助詞（場所/手段） |
+| 🔴 紅色 | 「と」助詞（共同對象） |
+| ⚫ 灰色 | 組合用法（多個助詞） |
+| 🟩 淺綠虛線框 | 具體例句 |
+
+### 使用方法
+
+1. **從起始點開始**：確認你要描述的動作或狀態
+2. **判斷動詞類型**：這是什麼類型的動詞？
+3. **回答具體問題**：根據情境回答圖表中的問題
+4. **找到對應助詞**：順著路徑找到應該使用的助詞
+5. **參考例句**：每個助詞都有具體例句可以參考
+
+### 快速判斷口訣
+
+- **有、在** → 用「に」（存在地點）
+- **去、來、回** → 用「に」或「へ」（目的地/方向）
+- **讀、吃、看** → 用「を」（直接賓語）
+- **在哪做事** → 用「で」（動作場所）
+- **用什麼做** → 用「で」（手段工具）
+- **跟誰一起** → 用「と」（共同對象）
+
+---
+
 ## 核心用法
 
 ### 用法 1：主格助詞「が」- 標記主語與述語主體

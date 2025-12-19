@@ -129,6 +129,51 @@ The manager opens the store at 9. When the store opens, customers come in.
 
 **注意**：他動詞句中，動作主用「が」或「は」標記，被動作的對象用「を」標記。
 
+### 判斷樹圖示
+
+```mermaid
+flowchart TD
+    Start["如何判斷自動詞還是他動詞？"] --> Method1["方法 1：看助詞"]
+    Start --> Method2["方法 2：看意圖"]
+
+    Method1 --> Particle{"動詞前的助詞是？"}
+    Particle -->|"を"| Trans1["他動詞<br/>ドアを開ける<br/>（我打開門）"]
+    Particle -->|"が"| Intrans1["自動詞<br/>ドアが開く<br/>（門開了）"]
+
+    Method2 --> Intent{"是否有人故意做？"}
+    Intent -->|"有意圖的動作"| Trans2["他動詞<br/>電気をつける<br/>（開燈）"]
+    Intent -->|"自然發生"| Intrans2["自動詞<br/>電気がつく<br/>（燈亮了）"]
+
+    Trans1 --> TransChar["特徵：<br/>・明確的動作主<br/>・需要 を 標記對象<br/>・強調「誰做的」"]
+    Trans2 --> TransChar
+
+    Intrans1 --> IntransChar["特徵：<br/>・主語用 が 標記<br/>・不需要賓語<br/>・強調「發生了什麼」"]
+    Intrans2 --> IntransChar
+
+    style Trans1 fill:#2196F3,color:white,stroke:#1976D2,stroke-width:2px
+    style Trans2 fill:#2196F3,color:white,stroke:#1976D2,stroke-width:2px
+    style TransChar fill:#2196F3,color:white,stroke:#1976D2,stroke-width:2px
+
+    style Intrans1 fill:#4CAF50,color:white,stroke:#388E3C,stroke-width:2px
+    style Intrans2 fill:#4CAF50,color:white,stroke:#388E3C,stroke-width:2px
+    style IntransChar fill:#4CAF50,color:white,stroke:#388E3C,stroke-width:2px
+
+    style Start fill:#607D8B,color:white,stroke:#455A64,stroke-width:2px
+    style Method1 fill:#607D8B,color:white,stroke:#455A64,stroke-width:2px
+    style Method2 fill:#607D8B,color:white,stroke:#455A64,stroke-width:2px
+    style Particle fill:#607D8B,color:white,stroke:#455A64,stroke-width:2px
+    style Intent fill:#607D8B,color:white,stroke:#455A64,stroke-width:2px
+```
+
+**圖表說明**：
+- 藍色節點：他動詞（有人主動做）
+- 綠色節點：自動詞（自然發生）
+- 灰色節點：判斷條件
+
+**使用方式**：
+1. 先看動詞前的助詞：「を」→他動詞，「が」→自動詞（最快速的方法）
+2. 如果助詞不明確，看意圖：有人故意做的動作→他動詞，自然發生的變化→自動詞
+
 ### 規則 2：意圖性判斷
 
 **他動詞**通常表示：

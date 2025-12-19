@@ -30,6 +30,37 @@ updated: 2025-10-30
 | **ば** | 假定形 + ば | 假定條件、一般條件 | 建議、規則、比例關係 |
 | **なら** | 辞書形/名詞 + なら | 話題條件、前提 | 基於已知資訊的建議 |
 
+### 視覺化：條件形選擇流程圖
+
+```mermaid
+flowchart TD
+    START["要用哪個條件形？"] --> Q1{"是客觀必然<br/>的因果關係嗎？"}
+
+    Q1 -->|"是<br/>自然法則、習慣"| TO["と<br/>春になると花が咲く<br/>(春天一到花就開)"]
+    Q1 -->|"否"| Q2{"是基於對方<br/>的話題嗎？"}
+
+    Q2 -->|"是<br/>回應對方提到的"| NARA["なら<br/>東京に行くなら浅草がおすすめ<br/>(要去東京的話推薦淺草)"]
+    Q2 -->|"否"| Q3{"需要正式<br/>書面語氣嗎？"}
+
+    Q3 -->|"是<br/>一般規則、建議"| BA["ば<br/>勉強すれば合格できる<br/>(用功就能合格)"]
+    Q3 -->|"否<br/>一般口語"| TARA["たら<br/>暇だったら遊びに来て<br/>(有空的話來玩)"]
+
+    style TO fill:#4CAF50,color:white,stroke:#2E7D32,stroke-width:2px
+    style TARA fill:#FF9800,color:white,stroke:#E65100,stroke-width:2px
+    style BA fill:#2196F3,color:white,stroke:#1565C0,stroke-width:2px
+    style NARA fill:#9C27B0,color:white,stroke:#6A1B9A,stroke-width:2px
+    style START fill:#607D8B,color:white,stroke:#37474F,stroke-width:2px
+    style Q1 fill:#ECEFF1,stroke:#455A64,stroke-width:2px
+    style Q2 fill:#ECEFF1,stroke:#455A64,stroke-width:2px
+    style Q3 fill:#ECEFF1,stroke:#455A64,stroke-width:2px
+```
+
+**圖表說明**：
+- 綠色（と）：客觀必然的因果關係
+- 藍色（ば）：正式書面的條件表達
+- 橘色（たら）：最萬用的口語條件形
+- 紫色（なら）：基於話題的條件建議
+
 ## 日文解釋
 
 日本語には四つの主要な条件形（と、たら、ば、なら）があり、それぞれ異なる用法と語感を持っています。これらの違いを理解することは、日本語学習において重要なポイントです。

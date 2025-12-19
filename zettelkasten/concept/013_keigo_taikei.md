@@ -319,6 +319,51 @@ Changes in the keigo system reflect changes in Japanese social values.
 
 這三者不是相互排斥的，而可以組合使用。
 
+#### 敬語選擇決策圖
+
+```mermaid
+flowchart TD
+    Start["要用哪種敬語？"] --> Q1{"誰的動作？"}
+
+    Q1 -->|"對方/上級的動作"| Sonkeigo["尊敬語<br/>召し上がる・いらっしゃる<br/>お〜になる<br/>（抬高對方地位）"]
+    Q1 -->|"自己/下級的動作"| Kenjougo["謙讓語<br/>いただく・参る<br/>お〜する<br/>（降低自己地位）"]
+    Q1 -->|"一般陳述"| Teineigo["丁寧語<br/>です・ます<br/>ございます<br/>（基本禮貌）"]
+
+    Start2["對外說話時<br/>內外關係"] --> Q2{"說的是誰？"}
+
+    Q2 -->|"自己公司的人<br/>（包括社長）"| UchiKenjou["謙讓語<br/>社長は出かけております<br/>（對外時降低內部）"]
+    Q2 -->|"對方公司的人"| SotoSonkei["尊敬語<br/>社長様はいらっしゃいますか<br/>（抬高外部）"]
+
+    Context["場面因素"] --> Power["權力關係<br/>Power"]
+    Context --> Distance["距離關係<br/>Distance"]
+    Context --> Formality["正式程度<br/>Formality"]
+
+    Power --> Final["綜合判斷<br/>選擇適切敬語"]
+    Distance --> Final
+    Formality --> Final
+
+    style Sonkeigo fill:#FFD700,stroke:#DAA520,color:#000
+    style SotoSonkei fill:#FFD700,stroke:#DAA520,color:#000
+    style Kenjougo fill:#4CAF50,stroke:#388E3C,color:#fff
+    style UchiKenjou fill:#4CAF50,stroke:#388E3C,color:#fff
+    style Teineigo fill:#2196F3,stroke:#1976D2,color:#fff
+    style Final fill:#9C27B0,stroke:#7B1FA2,color:#fff
+
+    style Q1 fill:#FFF9C4,stroke:#F57F17
+    style Q2 fill:#FFF9C4,stroke:#F57F17
+```
+
+**圖表說明**：
+- **金色（#FFD700）**：尊敬語 - 提高對方地位
+- **綠色（#4CAF50）**：謙讓語 - 降低自己地位
+- **藍色（#2196F3）**：丁寧語 - 基本禮貌
+- **紫色（#9C27B0）**：綜合判斷 - 需考慮多重因素
+
+**關鍵決策點**：
+1. **上半部**：基於「誰的動作」選擇敬語類型
+2. **中間部**：內外關係（ウチ・ソト）的特殊規則
+3. **下半部**：場面因素的綜合考量
+
 ### 框架 2：社會變數理論
 
 敬語的選擇受以下社會變數影響：

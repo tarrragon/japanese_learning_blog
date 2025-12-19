@@ -170,6 +170,29 @@ This company has many excellent employees.
 - 能 → いる
 - 不能 → ある
 
+**視覺化判斷樹**：
+
+```mermaid
+flowchart TD
+    A["用「ある」還是「いる」？"] --> B{"它能自己走動嗎？"}
+    B -->|"能"| C["いる<br/>猫がいる<br/>（有貓）"]
+    B -->|"不能"| D["ある<br/>本がある<br/>（有書）"]
+
+    C --> C1["人、動物、昆蟲"]
+    D --> D1["物品、植物、概念"]
+
+    E["⚠️ 特別注意！"] --> F["植物<br/>雖然是生物<br/>但不能自己走"]
+    F --> G["ある<br/>花がある<br/>（有花）"]
+
+    style C fill:#4CAF50,color:white,stroke:#2E7D32,stroke-width:2px
+    style C1 fill:#66BB6A,color:white,stroke:#2E7D32,stroke-width:1px
+    style D fill:#2196F3,color:white,stroke:#1565C0,stroke-width:2px
+    style D1 fill:#42A5F5,color:white,stroke:#1565C0,stroke-width:1px
+    style G fill:#2196F3,color:white,stroke:#1565C0,stroke-width:2px
+    style E fill:#FF9800,color:white,stroke:#E65100,stroke-width:2px
+    style F fill:#FFB74D,color:white,stroke:#E65100,stroke-width:1px
+```
+
 ### 規則 2：助詞的使用
 
 **に（場所標示）**

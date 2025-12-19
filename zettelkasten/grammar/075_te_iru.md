@@ -87,7 +87,60 @@ Native Japanese speakers naturally distinguish between these two meanings based 
 
 使用哪個意義主要取決於**動詞的性質**。像「吃」「跑」「讀」等表示持續動作的動詞通常表達進行意義，而像「知道」「住」「擁有」等表示瞬間變化或狀態的動詞通常表達結果狀態。
 
-日文母語者會根據上下文和動詞類型自然判斷是哪個意義。對學習者來說，理解這兩個意義的區別，是掌握自然日文表達的關鍵。
+日文母語者會根據上下文和動詞類型自然判斷是哪個意義。對學習者來說,理解這兩個意義的區別，是掌握自然日文表達的關鍵。
+
+## 視覺化圖表
+
+### 〜ている 語義分支圖
+
+下圖展示如何根據動詞類型判斷〜ている的意義：
+
+```mermaid
+flowchart TD
+    Start["〜ている<br/>是什麼意思？"] --> VerbType{"動詞類型？"}
+
+    VerbType -->|"持續動作動詞<br/>食べる、走る、読む"| Progressive["進行式<br/>正在..."]
+    VerbType -->|"瞬間動詞<br/>知る、結婚する、住む"| Resultant["結果狀態<br/>...著 / 已經..."]
+
+    Progressive --> Ex1["例：ご飯を食べている<br/>→ 正在吃飯"]
+    Progressive --> Ex2["例：雨が降っている<br/>→ 正在下雨"]
+
+    Resultant --> Ex3["例：結婚している<br/>→ 已經結婚了"]
+    Resultant --> Ex4["例：東京に住んでいる<br/>→ 住在東京"]
+
+    Special["特殊動詞"] --> Shiru["知る<br/>瞬間動詞"]
+    Special --> Iku["行く/来る<br/>移動動詞"]
+
+    Shiru --> SEx["知っている<br/>✅ 知道（狀態）<br/>❌ 正在知道（不自然）"]
+
+    Iku --> IEx["行っている<br/>→ 去了（人在那裡）<br/>不是「正在去的路上」"]
+
+    style Progressive fill:#FF9800,color:white
+    style Resultant fill:#9C27B0,color:white
+    style Ex1 fill:#FFE0B2
+    style Ex2 fill:#FFE0B2
+    style Ex3 fill:#E1BEE7
+    style Ex4 fill:#E1BEE7
+    style SEx fill:#f44336,color:white
+    style IEx fill:#f44336,color:white
+    style Special fill:#607D8B,color:white
+
+    classDef questionBox fill:#E3F2FD,stroke:#1976D2,stroke-width:2px
+    class Start,VerbType questionBox
+```
+
+**圖表說明**：
+- **橘色區塊**：進行式意義（正在...）
+- **紫色區塊**：結果狀態意義（...著 / 已經...）
+- **紅色區塊**：特殊用法（需特別注意）
+- **灰色區塊**：特殊動詞類別
+- **淺色區塊**：具體例句
+
+**判斷流程**：
+1. 先看動詞類型（持續動作 vs 瞬間動作）
+2. 持續動作動詞 → 進行式（正在...）
+3. 瞬間動詞 → 結果狀態（...著）
+4. 特殊動詞需個別記憶（知る、行く/来る）
 
 ## 核心用法
 

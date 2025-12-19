@@ -339,35 +339,44 @@ Elephants have long trunks.
 
 ## 判斷流程圖
 
+```mermaid
+flowchart TD
+    Start["用「が」還是「は」？"] --> Q1{"是對比嗎？<br/>（A...但B...）"}
+
+    Q1 -->|"是"| UseWA1["使用「は」<br/><br/>夏は好きですが、<br/>冬は好きじゃない<br/><i>（喜歡夏天，但不喜歡冬天）</i>"]
+
+    Q1 -->|"否"| Q2{"回答「誰」或<br/>「什麼」問題？"}
+
+    Q2 -->|"是"| UseGA1["使用「が」<br/><br/>Q: 誰が来ましたか<br/>A: 田中さんが来ました<br/><i>（田中來了）</i>"]
+
+    Q2 -->|"否"| Q3{"是存在句嗎？<br/>（〜がある/いる）"}
+
+    Q3 -->|"是"| UseGA2["使用「が」<br/><br/>テーブルの上に<br/>本があります<br/><i>（桌上有書）</i>"]
+
+    Q3 -->|"否"| Q4{"首次提及？<br/>（新資訊）"}
+
+    Q4 -->|"是"| UseGA3["使用「が」<br/><br/>男の子がいます<br/><i>（有一個男孩）</i>"]
+
+    Q4 -->|"否"| UseWA2["使用「は」<br/><br/>その男の子は<br/>学生です<br/><i>（那男孩是學生）</i>"]
+
+    style Start fill:#9E9E9E,color:white,stroke:#616161,stroke-width:2px
+    style Q1 fill:#607D8B,color:white,stroke:#455A64,stroke-width:2px
+    style Q2 fill:#607D8B,color:white,stroke:#455A64,stroke-width:2px
+    style Q3 fill:#607D8B,color:white,stroke:#455A64,stroke-width:2px
+    style Q4 fill:#607D8B,color:white,stroke:#455A64,stroke-width:2px
+
+    style UseGA1 fill:#4CAF50,color:white,stroke:#388E3C,stroke-width:3px
+    style UseGA2 fill:#4CAF50,color:white,stroke:#388E3C,stroke-width:3px
+    style UseGA3 fill:#4CAF50,color:white,stroke:#388E3C,stroke-width:3px
+
+    style UseWA1 fill:#2196F3,color:white,stroke:#1976D2,stroke-width:3px
+    style UseWA2 fill:#2196F3,color:white,stroke:#1976D2,stroke-width:3px
 ```
-┌─────────────────────────┐
-│ 需要標記主語/主題？      │
-└─────────┬───────────────┘
-          │
-          ▼
-    是否是對比？
-          │
-    ┌─────┴─────┐
-    │             │
-   是            否
-    │             │
-    ▼             ▼
-  使用「は」   是否回答 wh- 問題？
-                │
-          ┌─────┴─────┐
-          │             │
-         是            否
-          │             │
-          ▼             ▼
-        使用「が」   是否首次提及？
-                        │
-                  ┌─────┴─────┐
-                  │             │
-                 是            否
-                  │             │
-                  ▼             ▼
-                使用「が」   使用「は」
-```
+
+**圖表說明**：
+- 🟢 綠色方框：使用「が」（新資訊、焦點）
+- 🔵 藍色方框：使用「は」（主題、對比）
+- ⚫ 灰色方框：判斷節點（決策點）
 
 ## 學習要點
 
