@@ -85,6 +85,7 @@ export const ROMAJI_MAP = {
   '、': [','], '。': ['.'], '？': ['?'], '！': ['!'],
   '「': ['['], '」': [']'],
   'ー': ['-'],
+  '〜': ['~'],
 
   // ===== 外來語片假名 =====
 
@@ -154,6 +155,20 @@ export function isExactMatch(input, romajiOptions) {
  * 促音字元
  */
 export const SOKUON = ['っ', 'ッ'];
+
+/**
+ * 標點符號列表
+ */
+export const PUNCTUATION = ['、', '。', '？', '！', '「', '」', 'ー', '〜'];
+
+/**
+ * 檢查是否為標點符號
+ * @param {string} kana - 字元
+ * @returns {boolean}
+ */
+export function isPunctuation(kana) {
+  return PUNCTUATION.includes(kana);
+}
 
 /**
  * 檢查是否為促音字元

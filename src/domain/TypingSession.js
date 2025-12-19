@@ -30,6 +30,33 @@ export class TypingSession {
     this.#handlers = new Map();
     this.#totalKeystrokes = 0;
     this.#mistakes = 0;
+
+    // 跳過開頭的標點符號
+    this.#skipPunctuation();
+  }
+
+  /**
+   * 跳過連續的標點符號
+   * @private
+   * @returns {import('./Character.js').Character[]} - 被跳過的標點符號字元
+   */
+  #skipPunctuation() {
+    const skippedChars = [];
+
+    while (!this.#question.isCompleted()) {
+      const currentChar = this.#question.getCurrentCharacter();
+      if (!currentChar || !currentChar.isPunctuation()) {
+        break;
+      }
+
+      // 保存被跳過的字元
+      skippedChars.push(currentChar);
+
+      // 推進到下一個字元
+      this.#question = this.#question.advance();
+    }
+
+    return skippedChars;
   }
 
   /**
@@ -152,7 +179,19 @@ export class TypingSession {
       text: character.kana,
     });
 
-    // 5. 檢查是否完成整個題目
+    // 5. 跳過後續的標點符號
+    const skippedChars = this.#skipPunctuation();
+
+    // 為每個被跳過的標點符號發出事件（讓 UI 更新顯示）
+    for (const skippedChar of skippedChars) {
+      this.#emit('CharacterCompleted', {
+        character: skippedChar,
+        duration: Date.now() - this.#startTime.getTime(),
+        skipped: true,  // 標記為跳過
+      });
+    }
+
+    // 6. 檢查是否完成整個題目
     if (this.#question.isCompleted()) {
       this.#handleSessionComplete();
     }

@@ -251,4 +251,98 @@ describe('TypingSession', () => {
       expect(hint).toBe('ka');
     });
   });
+
+  describe('跳過標點符號', () => {
+    it('建立時應自動跳過開頭的標點符號', () => {
+      // Given: 一個以標點符號開頭的題目
+      const question = Question.fromText('「あ」');
+      const session = new TypingSession(question);
+
+      // When: 取得當前字元
+      const current = session.getCurrentCharacter();
+
+      // Then: 應跳過開頭的「，當前字元應為「あ」
+      expect(current.kana).toBe('あ');
+    });
+
+    it('完成字元後應自動跳過後續的標點符號', () => {
+      // Given: 一個包含標點符號的題目
+      const question = Question.fromText('あ。い');
+      const session = new TypingSession(question);
+
+      // When: 完成「あ」
+      session.handleKeyPress('a');
+
+      // Then: 應自動跳過「。」，當前字元應為「い」
+      const current = session.getCurrentCharacter();
+      expect(current.kana).toBe('い');
+    });
+
+    it('應自動跳過連續的標點符號', () => {
+      // Given: 一個包含連續標點符號的題目
+      const question = Question.fromText('あ。」い');
+      const session = new TypingSession(question);
+
+      // When: 完成「あ」
+      session.handleKeyPress('a');
+
+      // Then: 應自動跳過「。」和「」」，當前字元應為「い」
+      const current = session.getCurrentCharacter();
+      expect(current.kana).toBe('い');
+    });
+
+    it('跳過標點符號時應觸發 CharacterCompleted 事件', () => {
+      // Given: 一個包含標點符號的題目
+      const question = Question.fromText('あ。い');
+      const session = new TypingSession(question);
+      const handler = mock(() => {});
+      session.on('CharacterCompleted', handler);
+
+      // When: 完成「あ」
+      session.handleKeyPress('a');
+
+      // Then: 應觸發兩次 CharacterCompleted 事件（あ 和 。）
+      expect(handler).toHaveBeenCalledTimes(2);
+      // 第一次是「あ」
+      expect(handler.mock.calls[0][0].character.kana).toBe('あ');
+      // 第二次是被跳過的「。」，帶有 skipped 標記
+      expect(handler.mock.calls[1][0].character.kana).toBe('。');
+      expect(handler.mock.calls[1][0].skipped).toBe(true);
+    });
+
+    it('只有標點符號的題目應立即完成', () => {
+      // Given: 一個只有標點符號的題目
+      const question = Question.fromText('。');
+      const session = new TypingSession(question);
+
+      // Then: 應已完成
+      expect(session.question.isCompleted()).toBe(true);
+    });
+
+    it('應跳過波浪符', () => {
+      // Given: 一個包含波浪符的題目
+      const question = Question.fromText('あ〜い');
+      const session = new TypingSession(question);
+
+      // When: 完成「あ」
+      session.handleKeyPress('a');
+
+      // Then: 應自動跳過「〜」，當前字元應為「い」
+      const current = session.getCurrentCharacter();
+      expect(current.kana).toBe('い');
+    });
+
+    it('應跳過長音符號', () => {
+      // Given: 一個包含長音符號的題目
+      const question = Question.fromText('あーい');
+      const session = new TypingSession(question);
+
+      // When: 完成「あ」
+      session.handleKeyPress('a');
+
+      // Then: 應自動跳過「ー」，當前字元應為「い」
+      const current = session.getCurrentCharacter();
+      expect(current.kana).toBe('い');
+    });
+  });
 });
