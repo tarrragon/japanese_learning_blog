@@ -731,6 +731,11 @@ body {
   display: none;
 }
 
+/* --- 隱藏羅馬拼音提示 --- */
+.hide-romaji-hint .practice-romaji-wrapper {
+  display: none;
+}
+
 /* --- 手機模式下的響應式調整 --- */
 @media (max-width: 600px) {
   /* 直接輸入模式下允許在手機上使用 */

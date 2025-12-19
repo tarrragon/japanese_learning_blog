@@ -50,6 +50,7 @@ let currentFilters = {
   jlpt: 'all',
 };
 let currentInputMode = 'romaji'; // 'romaji' | 'direct'
+let showRomajiHint = true; // 是否顯示羅馬拼音提示
 
 /**
  * 隨機選擇傳統練習文字
@@ -98,6 +99,7 @@ function createControlPanel() {
   controlPanel.id = 'practice-controls';
   controlPanel.className = 'practice-controls';
   const inputModeText = currentInputMode === 'romaji' ? '手機模式' : '鍵盤模式';
+  const hintBtnText = showRomajiHint ? '隱藏提示' : '顯示提示';
   controlPanel.innerHTML = `
     <div class="control-group">
       <label for="jlpt-filter">JLPT 等級：</label>
@@ -114,6 +116,7 @@ function createControlPanel() {
       <button id="btn-next" class="control-btn">下一題</button>
       <button id="btn-kana-mode" class="control-btn secondary">假名模式</button>
       <button id="btn-toggle-input" class="control-btn secondary">${inputModeText}</button>
+      <button id="btn-toggle-hint" class="control-btn secondary">${hintBtnText}</button>
     </div>
   `;
 
@@ -156,6 +159,13 @@ function createControlPanel() {
       toggleInputMode();
     });
   }
+
+  const toggleHintBtn = document.getElementById('btn-toggle-hint');
+  if (toggleHintBtn) {
+    toggleHintBtn.addEventListener('click', () => {
+      toggleRomajiHint();
+    });
+  }
 }
 
 /**
@@ -184,6 +194,32 @@ function toggleInputMode() {
 
   // 重新載入當前題目
   loadNextQuestion();
+}
+
+/**
+ * 切換羅馬拼音提示顯示
+ */
+function toggleRomajiHint() {
+  showRomajiHint = !showRomajiHint;
+
+  // 儲存偏好
+  localStorage.setItem('practice-show-hint', showRomajiHint ? 'true' : 'false');
+
+  // 更新按鈕文字
+  const btn = document.getElementById('btn-toggle-hint');
+  if (btn) {
+    btn.textContent = showRomajiHint ? '隱藏提示' : '顯示提示';
+  }
+
+  // 切換羅馬拼音顯示
+  const container = document.querySelector('.practice-container');
+  if (container) {
+    if (showRomajiHint) {
+      container.classList.remove('hide-romaji-hint');
+    } else {
+      container.classList.add('hide-romaji-hint');
+    }
+  }
 }
 
 /**
@@ -329,8 +365,22 @@ async function init() {
     }
   }
 
+  // 設定羅馬拼音提示顯示（從 localStorage 讀取，預設顯示）
+  const savedShowHint = localStorage.getItem('practice-show-hint');
+  if (savedShowHint === 'false') {
+    showRomajiHint = false;
+  }
+
   // 建立控制面板
   createControlPanel();
+
+  // 應用提示顯示設定
+  if (!showRomajiHint) {
+    const container = document.querySelector('.practice-container');
+    if (container) {
+      container.classList.add('hide-romaji-hint');
+    }
+  }
 
   if (textParam) {
     // 直接使用 URL 指定的文字
