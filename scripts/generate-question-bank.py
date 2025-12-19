@@ -246,6 +246,11 @@ class QuestionGenerator:
         if not frontmatter:
             return None
 
+        # 跳過草稿卡片（Hugo 不會發布 draft: true 的卡片）
+        if frontmatter.get('draft', False):
+            self.log(f"跳過草稿: {card_path.name}")
+            return None
+
         # 提取編號
         match = re.match(r'^(\d+)_', card_path.stem)
         number = match.group(1) if match else '000'
