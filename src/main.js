@@ -49,6 +49,7 @@ let elements = {};
 let currentFilters = {
   jlpt: 'all',
 };
+let currentInputMode = 'romaji'; // 'romaji' | 'direct'
 
 /**
  * 隨機選擇傳統練習文字
@@ -96,6 +97,7 @@ function createControlPanel() {
   const controlPanel = document.createElement('div');
   controlPanel.id = 'practice-controls';
   controlPanel.className = 'practice-controls';
+  const inputModeText = currentInputMode === 'romaji' ? '手機模式' : '鍵盤模式';
   controlPanel.innerHTML = `
     <div class="control-group">
       <label for="jlpt-filter">JLPT 等級：</label>
@@ -111,6 +113,7 @@ function createControlPanel() {
     <div class="control-group">
       <button id="btn-next" class="control-btn">下一題</button>
       <button id="btn-kana-mode" class="control-btn secondary">假名模式</button>
+      <button id="btn-toggle-input" class="control-btn secondary">${inputModeText}</button>
     </div>
   `;
 
@@ -146,6 +149,41 @@ function createControlPanel() {
       startKanaMode();
     });
   }
+
+  const toggleInputBtn = document.getElementById('btn-toggle-input');
+  if (toggleInputBtn) {
+    toggleInputBtn.addEventListener('click', () => {
+      toggleInputMode();
+    });
+  }
+}
+
+/**
+ * 切換輸入模式
+ */
+function toggleInputMode() {
+  currentInputMode = currentInputMode === 'romaji' ? 'direct' : 'romaji';
+
+  // 儲存偏好
+  localStorage.setItem('practice-input-mode', currentInputMode);
+
+  // 更新 URL 參數
+  const url = new URL(window.location);
+  if (currentInputMode === 'direct') {
+    url.searchParams.set('input', 'direct');
+  } else {
+    url.searchParams.delete('input');
+  }
+  window.history.replaceState({}, '', url);
+
+  // 更新按鈕文字
+  const btn = document.getElementById('btn-toggle-input');
+  if (btn) {
+    btn.textContent = currentInputMode === 'romaji' ? '手機模式' : '鍵盤模式';
+  }
+
+  // 重新載入當前題目
+  loadNextQuestion();
 }
 
 /**
@@ -203,6 +241,7 @@ async function loadNextQuestion() {
     elements,
     keyboardRenderer,
     onNextQuestion: loadNextQuestion,
+    inputMode: currentInputMode,
   });
 
   console.log('載入題目:', questionData.id, questionData.text.substring(0, 30) + '...');
@@ -224,6 +263,7 @@ function startKanaMode() {
     elements,
     keyboardRenderer,
     onNextQuestion: startKanaMode,
+    inputMode: currentInputMode,
   });
 
   console.log('假名模式:', practiceText);
@@ -273,13 +313,24 @@ async function init() {
   // 建立鍵盤渲染器
   keyboardRenderer = new KeyboardRenderer(keyboardContainer);
 
-  // 建立控制面板
-  createControlPanel();
-
   // 檢查 URL 參數
   const urlParams = new URLSearchParams(window.location.search);
   const textParam = urlParams.get('text');
   const modeParam = urlParams.get('mode');
+  const inputParam = urlParams.get('input');
+
+  // 設定輸入模式（優先級：URL 參數 > localStorage > 預設值）
+  if (inputParam === 'direct' || inputParam === 'mobile') {
+    currentInputMode = 'direct';
+  } else {
+    const savedInputMode = localStorage.getItem('practice-input-mode');
+    if (savedInputMode === 'direct') {
+      currentInputMode = 'direct';
+    }
+  }
+
+  // 建立控制面板
+  createControlPanel();
 
   if (textParam) {
     // 直接使用 URL 指定的文字
@@ -287,6 +338,7 @@ async function init() {
       text: textParam,
       elements,
       keyboardRenderer,
+      inputMode: currentInputMode,
     });
     console.log('URL 模式:', textParam);
     return;

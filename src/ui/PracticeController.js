@@ -18,6 +18,8 @@ export class PracticeController {
   #onNextQuestion;  // 下一題回調
   #keyboardHandler;  // 當前實例的鍵盤處理器
   #basePath;  // 網站根路徑（支援子目錄部署）
+  #inputMode;  // 輸入模式：'romaji' | 'direct'
+  #mobileInputElement;  // 手機輸入框元素
 
   /**
    * @param {Object} options - 配置選項
@@ -26,6 +28,7 @@ export class PracticeController {
    * @param {Object} options.elements - DOM 元素
    * @param {KeyboardRenderer} options.keyboardRenderer - 鍵盤渲染器
    * @param {Function} [options.onNextQuestion] - 下一題回調
+   * @param {string} [options.inputMode] - 輸入模式：'romaji' | 'direct'
    */
   constructor(options) {
     // 支援兩種初始化方式
@@ -47,6 +50,7 @@ export class PracticeController {
     this.#elements = options.elements;
     this.#keyboardRenderer = options.keyboardRenderer;
     this.#onNextQuestion = options.onNextQuestion || null;
+    this.#inputMode = options.inputMode || 'romaji';
 
     // 自動偵測 base path（支援 GitHub Pages 子目錄部署）
     // 例如：/japanese_learning_blog/practice/ → /japanese_learning_blog
@@ -55,7 +59,14 @@ export class PracticeController {
     this.#basePath = match ? match[1] : '';
 
     this.#setupEventHandlers();
-    this.#setupKeyboardListener();
+
+    // 根據輸入模式設定不同的監聽器
+    if (this.#inputMode === 'direct') {
+      this.#setupDirectInputMode();
+    } else {
+      this.#setupKeyboardListener();
+    }
+
     this.#render();
   }
 
@@ -118,9 +129,81 @@ export class PracticeController {
       this.#session.handleKeyPress(key);
     };
 
-    // 註冊新的監聽器
+    // 註冊新的監聯器
     document.addEventListener('keydown', this.#keyboardHandler);
     globalKeyboardHandler = this.#keyboardHandler;
+  }
+
+  /**
+   * 設定直接輸入模式（手機模式）
+   * @private
+   */
+  #setupDirectInputMode() {
+    // 移除鍵盤監聽器（如果有的話）
+    if (globalKeyboardHandler) {
+      document.removeEventListener('keydown', globalKeyboardHandler);
+      globalKeyboardHandler = null;
+    }
+
+    // 取得輸入框元素
+    this.#mobileInputElement = document.getElementById('mobile-kana-input');
+    if (!this.#mobileInputElement) {
+      console.warn('Mobile input element not found');
+      return;
+    }
+
+    // 顯示輸入框區塊
+    const inputSection = document.getElementById('mobile-input-section');
+    if (inputSection) {
+      inputSection.style.display = 'block';
+    }
+
+    // 隱藏虛擬鍵盤
+    const keyboard = document.getElementById('keyboard');
+    if (keyboard) {
+      keyboard.style.display = 'none';
+    }
+
+    // 在練習容器加上 mode-direct class
+    const container = document.querySelector('.practice-container');
+    if (container) {
+      container.classList.add('mode-direct');
+    }
+
+    // 設定輸入事件監聽
+    this.#mobileInputElement.addEventListener('input', (e) => {
+      this.#handleDirectInput(e);
+    });
+
+    // 處理 IME 組合結束事件（確保輸入完成後處理）
+    this.#mobileInputElement.addEventListener('compositionend', (e) => {
+      // compositionend 事件在 IME 輸入完成後觸發
+      // input 事件已經處理過了，這裡只需確保處理
+      this.#handleDirectInput(e);
+    });
+
+    // 自動 focus 到輸入框
+    setTimeout(() => {
+      this.#mobileInputElement.focus();
+    }, 100);
+  }
+
+  /**
+   * 處理直接輸入
+   * @private
+   */
+  #handleDirectInput(e) {
+    const value = this.#mobileInputElement.value;
+    if (!value) return;
+
+    const result = this.#session.handleDirectInput(value);
+
+    if (result.matchedCount > 0) {
+      // 成功匹配：只清除已消耗的部分
+      this.#mobileInputElement.value = value.substring(result.consumedLength);
+      this.#render();
+    }
+    // 失敗：保留輸入框內容，讓用戶修正
   }
 
   /**

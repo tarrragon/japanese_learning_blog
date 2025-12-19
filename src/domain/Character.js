@@ -115,4 +115,13 @@ export class Character {
   isPunctuation() {
     return checkPunctuation(this.#kana);
   }
+
+  /**
+   * 檢查輸入是否與此字元的假名完全匹配（用於直接輸入模式）
+   * @param {string} input - 使用者輸入的假名
+   * @returns {boolean}
+   */
+  matchesKana(input) {
+    return this.#kana === input;
+  }
 }

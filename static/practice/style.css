@@ -668,3 +668,94 @@ body {
     flex-direction: column;
   }
 }
+
+/* ===================================
+   v1.2 手機輸入模式樣式
+   =================================== */
+
+/* --- 手機輸入區塊 --- */
+.mobile-input-section {
+  width: 100%;
+  max-width: 400px;
+  margin: 2rem auto;
+  text-align: center;
+}
+
+.mobile-kana-input {
+  width: 100%;
+  padding: 1rem 1.5rem;
+  font-size: 1.5rem;
+  font-family: 'Noto Sans JP', sans-serif;
+  background: #1F2937;
+  color: #fff;
+  border: 2px solid var(--color-pending);
+  border-radius: 12px;
+  outline: none;
+  text-align: center;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.mobile-kana-input:focus {
+  border-color: var(--color-current);
+  box-shadow: 0 0 20px rgba(16, 185, 129, 0.3);
+}
+
+.mobile-kana-input::placeholder {
+  color: #6B7280;
+}
+
+.mobile-input-hint {
+  margin-top: 0.75rem;
+  font-size: 0.9rem;
+  color: #9CA3AF;
+}
+
+/* --- 模式切換時的顯示控制 --- */
+/* 直接輸入模式下隱藏虛擬鍵盤 */
+.mode-direct .keyboard {
+  display: none;
+}
+
+/* 直接輸入模式下顯示輸入框 */
+.mode-direct .mobile-input-section {
+  display: block;
+}
+
+/* 直接輸入模式下隱藏羅馬拼音提示 */
+.mode-direct .practice-romaji-wrapper {
+  display: none;
+}
+
+/* 直接輸入模式下隱藏緩衝區顯示 */
+.mode-direct .buffer-display {
+  display: none;
+}
+
+/* 直接輸入模式下隱藏鍵盤提示 */
+.mode-direct .practice-footer .hint {
+  display: none;
+}
+
+/* --- 手機模式下的響應式調整 --- */
+@media (max-width: 600px) {
+  /* 直接輸入模式下允許在手機上使用 */
+  .mode-direct.practice-container {
+    display: flex;
+  }
+
+  .mode-direct + .mobile-notice,
+  body.mode-direct .mobile-notice {
+    display: none;
+  }
+
+  /* 手機上的輸入框調整 */
+  .mobile-input-section {
+    max-width: 100%;
+    padding: 0 1rem;
+  }
+
+  .mobile-kana-input {
+    font-size: 1.25rem;
+    padding: 0.875rem 1.25rem;
+  }
+}

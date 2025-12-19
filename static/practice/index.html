@@ -46,7 +46,7 @@
       <div class="buffer-display" id="buffer-display"></div>
     </section>
 
-    <!-- 虛擬鍵盤 -->
+    <!-- 虛擬鍵盤（羅馬字模式） -->
     <section class="keyboard" id="keyboard">
       <!-- 第一排 -->
       <div class="keyboard-row">
@@ -83,6 +83,20 @@
         <div class="key" data-key="n">N</div>
         <div class="key" data-key="m">M</div>
       </div>
+    </section>
+
+    <!-- 手機輸入框（直接輸入模式，初始隱藏） -->
+    <section class="mobile-input-section" id="mobile-input-section" style="display: none;">
+      <input type="text"
+             id="mobile-kana-input"
+             class="mobile-kana-input"
+             placeholder="ここに入力"
+             autocomplete="off"
+             autocapitalize="off"
+             autocorrect="off"
+             spellcheck="false"
+             inputmode="text">
+      <p class="mobile-input-hint">日本語入力で直接かなを入力</p>
     </section>
 
     <!-- 說明文字 -->

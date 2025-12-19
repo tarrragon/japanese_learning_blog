@@ -275,4 +275,83 @@ export class TypingSession {
   getProgress() {
     return this.#question.getProgress();
   }
+
+  /**
+   * 處理直接假名輸入（手機模式）
+   *
+   * 支援批次輸入：使用者可能一次輸入多個假名（如「かきく」）
+   * 會逐字比對並推進，遇到錯誤時停止
+   *
+   * @param {string} input - 使用者輸入的假名字串
+   * @returns {{ matchedCount: number, consumedLength: number }}
+   *   - matchedCount: 成功匹配的字元數量
+   *   - consumedLength: 已消耗的輸入字元長度
+   */
+  handleDirectInput(input) {
+    if (!input || this.#question.isCompleted()) {
+      return { matchedCount: 0, consumedLength: 0 };
+    }
+
+    let matchedCount = 0;
+    let consumedLength = 0;
+
+    // 逐字比對
+    while (consumedLength < input.length && !this.#question.isCompleted()) {
+      const currentChar = this.#question.getCurrentCharacter();
+      if (!currentChar) {
+        break;
+      }
+
+      const expectedKana = currentChar.kana;
+
+      // 檢查輸入是否以期望的假名開頭
+      if (input.substring(consumedLength).startsWith(expectedKana)) {
+        // 匹配成功
+        this.#totalKeystrokes++;
+
+        // 推進到下一個字元
+        this.#question = this.#question.advance();
+
+        // 發出 CharacterCompleted 事件
+        this.#emit('CharacterCompleted', {
+          character: currentChar,
+          duration: Date.now() - this.#startTime.getTime(),
+        });
+
+        // 發出 SpeechRequested 事件（朗讀）
+        this.#emit('SpeechRequested', {
+          text: currentChar.kana,
+        });
+
+        // 跳過後續的標點符號
+        const skippedChars = this.#skipPunctuation();
+        for (const skippedChar of skippedChars) {
+          this.#emit('CharacterCompleted', {
+            character: skippedChar,
+            duration: Date.now() - this.#startTime.getTime(),
+            skipped: true,
+          });
+        }
+
+        matchedCount++;
+        consumedLength += expectedKana.length;
+      } else {
+        // 不匹配，停止處理
+        this.#totalKeystrokes++; // 錯誤的輸入也計入總按鍵數
+        this.#mistakes++;
+        this.#emit('CharacterMistaken', {
+          expected: currentChar.kana,
+          actual: input.substring(consumedLength, consumedLength + 1),
+        });
+        break;
+      }
+    }
+
+    // 檢查是否完成整個題目
+    if (this.#question.isCompleted()) {
+      this.#handleSessionComplete();
+    }
+
+    return { matchedCount, consumedLength };
+  }
 }
