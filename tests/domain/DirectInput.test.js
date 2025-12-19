@@ -345,3 +345,155 @@ describe('Character.matchesKana', () => {
     expect(char.matchesKana('し')).toBe(false);
   });
 });
+
+describe('Character.display 屬性', () => {
+  it('沒有提供 display 時應等於 kana', () => {
+    // Given: 一個只有 kana 的字元
+    const char = new Character('あ');
+
+    // Then: display 應等於 kana
+    expect(char.display).toBe('あ');
+    expect(char.kana).toBe('あ');
+  });
+
+  it('提供 display 時應保存漢字', () => {
+    // Given: 一個有漢字 display 的字元
+    const char = new Character('あい', undefined, null, '相');
+
+    // Then: display 應為漢字
+    expect(char.display).toBe('相');
+    expect(char.kana).toBe('あい');
+  });
+
+  it('matchesDisplay 應匹配 display', () => {
+    // Given: 一個有漢字 display 的字元
+    const char = new Character('あい', undefined, null, '相');
+
+    // Then
+    expect(char.matchesDisplay('相')).toBe(true);
+    expect(char.matchesDisplay('あい')).toBe(false);
+  });
+
+  it('setCurrent 應保留 display', () => {
+    // Given: 一個有漢字 display 的字元
+    const char = new Character('あい', undefined, null, '相');
+
+    // When: 設定為當前
+    const currentChar = char.setCurrent();
+
+    // Then: display 應被保留
+    expect(currentChar.display).toBe('相');
+  });
+
+  it('setCompleted 應保留 display', () => {
+    // Given: 一個有漢字 display 的字元
+    const char = new Character('あい', undefined, null, '相');
+
+    // When: 設定為完成
+    const completedChar = char.setCompleted();
+
+    // Then: display 應被保留
+    expect(completedChar.display).toBe('相');
+  });
+});
+
+describe('漢字輸入匹配（使用 Question.fromQuestionData）', () => {
+  // 模擬題庫資料
+  const createQuestionData = (text, characters) => ({
+    id: 'test-001',
+    text,
+    characters,
+    source: { path: '/test/', title: 'Test' },
+    metadata: { characterCount: characters.length },
+  });
+
+  it('應接受漢字輸入', () => {
+    // Given: 一個包含漢字的題目（相手 = あいて）
+    const questionData = createQuestionData('相手', [
+      { display: '相', kana: 'あい', romaji: ['ai'] },
+      { display: '手', kana: 'て', romaji: ['te'] },
+    ]);
+    const question = Question.fromQuestionData(questionData);
+    const session = new TypingSession(question);
+
+    // When: 使用者輸入漢字「相手」
+    const result = session.handleDirectInput('相手');
+
+    // Then: 應匹配成功
+    expect(result.matchedCount).toBe(2);
+    expect(session.question.isCompleted()).toBe(true);
+  });
+
+  it('應同時接受假名輸入', () => {
+    // Given: 一個包含漢字的題目
+    const questionData = createQuestionData('相手', [
+      { display: '相', kana: 'あい', romaji: ['ai'] },
+      { display: '手', kana: 'て', romaji: ['te'] },
+    ]);
+    const question = Question.fromQuestionData(questionData);
+    const session = new TypingSession(question);
+
+    // When: 使用者輸入假名「あいて」
+    const result = session.handleDirectInput('あいて');
+
+    // Then: 應匹配成功
+    expect(result.matchedCount).toBe(2);
+    expect(session.question.isCompleted()).toBe(true);
+  });
+
+  it('應支援漢字和假名混合輸入', () => {
+    // Given: 一個包含漢字的題目
+    const questionData = createQuestionData('相手', [
+      { display: '相', kana: 'あい', romaji: ['ai'] },
+      { display: '手', kana: 'て', romaji: ['te'] },
+    ]);
+    const question = Question.fromQuestionData(questionData);
+    const session = new TypingSession(question);
+
+    // When: 使用者混合輸入「相て」（漢字+假名）
+    const result = session.handleDirectInput('相て');
+
+    // Then: 應匹配成功
+    expect(result.matchedCount).toBe(2);
+  });
+
+  it('錯誤的漢字不應匹配', () => {
+    // Given: 一個包含漢字的題目
+    const questionData = createQuestionData('相手', [
+      { display: '相', kana: 'あい', romaji: ['ai'] },
+      { display: '手', kana: 'て', romaji: ['te'] },
+    ]);
+    const question = Question.fromQuestionData(questionData);
+    const session = new TypingSession(question);
+
+    // When: 使用者輸入錯誤的漢字「味方」
+    const result = session.handleDirectInput('味方');
+
+    // Then: 不應匹配
+    expect(result.matchedCount).toBe(0);
+  });
+
+  it('部分漢字輸入後應能繼續', () => {
+    // Given: 一個包含漢字的題目
+    const questionData = createQuestionData('相手', [
+      { display: '相', kana: 'あい', romaji: ['ai'] },
+      { display: '手', kana: 'て', romaji: ['te'] },
+    ]);
+    const question = Question.fromQuestionData(questionData);
+    const session = new TypingSession(question);
+
+    // When: 使用者先輸入「相」
+    const result1 = session.handleDirectInput('相');
+
+    // Then: 應匹配第一個字元
+    expect(result1.matchedCount).toBe(1);
+    expect(session.getCurrentCharacter().display).toBe('手');
+
+    // When: 再輸入「手」
+    const result2 = session.handleDirectInput('手');
+
+    // Then: 應完成
+    expect(result2.matchedCount).toBe(1);
+    expect(session.question.isCompleted()).toBe(true);
+  });
+});

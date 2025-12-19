@@ -26,14 +26,17 @@ export class Character {
   #kana;
   #romaji;
   #state;
+  #display;  // 顯示用的文字（可能是漢字，預設等於 kana）
 
   /**
    * @param {string} kana - 假名字元
    * @param {string} state - 狀態（預設 PENDING）
    * @param {string[]|null} romajiOverride - 覆蓋的羅馬字選項（用於「ん」的特殊處理）
+   * @param {string|null} display - 顯示用的文字（漢字或假名，預設等於 kana）
    */
-  constructor(kana, state = CharacterState.PENDING, romajiOverride = null) {
+  constructor(kana, state = CharacterState.PENDING, romajiOverride = null, display = null) {
     this.#kana = kana;
+    this.#display = display || kana;  // 預設等於 kana
 
     // 決定羅馬字選項的優先順序：
     // 1. romajiOverride（如「ん」的特殊處理）
@@ -75,11 +78,19 @@ export class Character {
   }
 
   /**
+   * 取得顯示用的文字（可能是漢字）
+   * @returns {string}
+   */
+  get display() {
+    return this.#display;
+  }
+
+  /**
    * 設定為當前目標（返回新實例）
    * @returns {Character}
    */
   setCurrent() {
-    return new Character(this.#kana, CharacterState.CURRENT, this.#romaji);
+    return new Character(this.#kana, CharacterState.CURRENT, this.#romaji, this.#display);
   }
 
   /**
@@ -87,7 +98,7 @@ export class Character {
    * @returns {Character}
    */
   setCompleted() {
-    return new Character(this.#kana, CharacterState.COMPLETED, this.#romaji);
+    return new Character(this.#kana, CharacterState.COMPLETED, this.#romaji, this.#display);
   }
 
   /**
@@ -123,5 +134,14 @@ export class Character {
    */
   matchesKana(input) {
     return this.#kana === input;
+  }
+
+  /**
+   * 檢查輸入是否與此字元的顯示文字完全匹配（用於漢字輸入）
+   * @param {string} input - 使用者輸入的文字（可能是漢字）
+   * @returns {boolean}
+   */
+  matchesDisplay(input) {
+    return this.#display === input;
   }
 }

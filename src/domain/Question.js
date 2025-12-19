@@ -221,11 +221,12 @@ export class Question {
    */
   static fromQuestionData(data) {
     const characters = data.characters.map((charData, index) => {
-      // 使用題庫提供的 kana 和 romaji
+      // 使用題庫提供的 kana、romaji 和 display
       const char = new Character(
         charData.kana,
         CharacterState.PENDING,
-        charData.romaji
+        charData.romaji,
+        charData.display  // 傳入顯示用的文字（可能是漢字）
       );
       // 第一個字元設為 CURRENT
       return index === 0 ? char.setCurrent() : char;

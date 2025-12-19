@@ -277,12 +277,13 @@ export class TypingSession {
   }
 
   /**
-   * 處理直接假名輸入（手機模式）
+   * 處理直接輸入（手機模式）
    *
-   * 支援批次輸入：使用者可能一次輸入多個假名（如「かきく」）
+   * 支援批次輸入：使用者可能一次輸入多個字元
+   * 同時支援漢字輸入（如「相手」）和假名輸入（如「あいて」）
    * 會逐字比對並推進，遇到錯誤時停止
    *
-   * @param {string} input - 使用者輸入的假名字串
+   * @param {string} input - 使用者輸入的字串（可能是漢字或假名）
    * @returns {{ matchedCount: number, consumedLength: number }}
    *   - matchedCount: 成功匹配的字元數量
    *   - consumedLength: 已消耗的輸入字元長度
@@ -303,9 +304,24 @@ export class TypingSession {
       }
 
       const expectedKana = currentChar.kana;
+      const expectedDisplay = currentChar.display;
+      const remainingInput = input.substring(consumedLength);
 
-      // 檢查輸入是否以期望的假名開頭
-      if (input.substring(consumedLength).startsWith(expectedKana)) {
+      // 嘗試匹配：先試 display（漢字），再試 kana（假名）
+      let matched = false;
+      let matchLength = 0;
+
+      if (remainingInput.startsWith(expectedDisplay)) {
+        // 匹配 display（漢字輸入）
+        matched = true;
+        matchLength = expectedDisplay.length;
+      } else if (remainingInput.startsWith(expectedKana)) {
+        // 匹配 kana（假名輸入）
+        matched = true;
+        matchLength = expectedKana.length;
+      }
+
+      if (matched) {
         // 匹配成功
         this.#totalKeystrokes++;
 
@@ -334,14 +350,14 @@ export class TypingSession {
         }
 
         matchedCount++;
-        consumedLength += expectedKana.length;
+        consumedLength += matchLength;
       } else {
         // 不匹配，停止處理
         this.#totalKeystrokes++; // 錯誤的輸入也計入總按鍵數
         this.#mistakes++;
         this.#emit('CharacterMistaken', {
           expected: currentChar.kana,
-          actual: input.substring(consumedLength, consumedLength + 1),
+          actual: remainingInput.substring(0, 1),
         });
         break;
       }
