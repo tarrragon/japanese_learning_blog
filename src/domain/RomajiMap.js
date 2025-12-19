@@ -162,7 +162,7 @@ export const SOKUON = ['っ', 'ッ'];
  * - 〜 (U+301C) WAVE DASH
  * - ～ (U+FF5E) FULLWIDTH TILDE
  */
-export const PUNCTUATION = ['、', '。', '？', '！', '「', '」', 'ー', '〜', '～'];
+export const PUNCTUATION = ['、', '。', '？', '！', '「', '」', 'ー', '〜', '～', '*'];
 
 /**
  * 檢查是否為標點符號
