@@ -145,20 +145,18 @@ describe('handleDirectInput（直接假名輸入）', () => {
       expect(session.getCurrentCharacter().kana).toBe('う');
     });
 
-    it('遇到錯誤時應觸發 CharacterMistaken 事件', () => {
+    it('不匹配時不應觸發 CharacterMistaken 事件（手機模式容錯）', () => {
       // Given: 一個題目和事件處理器
       const question = Question.fromText('あいう');
       const session = new TypingSession(question);
       const handler = mock(() => {});
       session.on('CharacterMistaken', handler);
 
-      // When: 使用者輸入「あいえ」
+      // When: 使用者輸入「あいえ」（最後一個不匹配）
       session.handleDirectInput('あいえ');
 
-      // Then: 應觸發 CharacterMistaken 事件
-      expect(handler).toHaveBeenCalledTimes(1);
-      expect(handler.mock.calls[0][0].expected).toBe('う');
-      expect(handler.mock.calls[0][0].actual).toBe('え');
+      // Then: 不應觸發 CharacterMistaken 事件（手機模式下不判定錯誤）
+      expect(handler).toHaveBeenCalledTimes(0);
     });
   });
 

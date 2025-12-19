@@ -107,7 +107,7 @@ describe('DirectInputFlow 整合測試（手機輸入模式）', () => {
   });
 
   describe('錯誤處理流程', () => {
-    it('錯誤後可以繼續正確輸入', () => {
+    it('不匹配後可以繼續正確輸入', () => {
       // Given: 一個題目
       const question = Question.fromText('あいう');
       const session = new TypingSession(question);
@@ -115,12 +115,12 @@ describe('DirectInputFlow 整合測試（手機輸入模式）', () => {
       const mistakes = [];
       session.on('CharacterMistaken', (e) => mistakes.push(e));
 
-      // When: 輸入「あいえ」（最後一個錯誤）
+      // When: 輸入「あいえ」（最後一個不匹配）
       const result1 = session.handleDirectInput('あいえ');
 
-      // Then: 應匹配 2 個，錯誤 1 次
+      // Then: 應匹配 2 個，不計錯誤（手機模式容錯）
       expect(result1.matchedCount).toBe(2);
-      expect(mistakes.length).toBe(1);
+      expect(mistakes.length).toBe(0);
 
       // When: 繼續正確輸入
       const result2 = session.handleDirectInput('う');
@@ -213,7 +213,7 @@ describe('DirectInputFlow 整合測試（手機輸入模式）', () => {
       expect(stats.totalKeystrokes).toBe(3);
     });
 
-    it('應正確計算錯誤數', () => {
+    it('手機模式下不計錯誤', () => {
       // Given: 一個題目
       const question = Question.fromText('あいう');
       const session = new TypingSession(question);
@@ -221,15 +221,15 @@ describe('DirectInputFlow 整合測試（手機輸入模式）', () => {
       let stats;
       session.on('SessionCompleted', (e) => stats = e);
 
-      // When: 輸入「あいえ」（錯誤），再輸入「う」
+      // When: 輸入「あいえ」（不匹配），再輸入「う」
       session.handleDirectInput('あいえ');
       session.handleDirectInput('う');
 
-      // Then: 錯誤數應為 1
-      expect(stats.mistakes).toBe(1);
+      // Then: 錯誤數應為 0（手機模式不計錯誤）
+      expect(stats.mistakes).toBe(0);
     });
 
-    it('應正確計算準確率', () => {
+    it('手機模式下準確率應為 100%', () => {
       // Given: 一個題目
       const question = Question.fromText('あい');
       const session = new TypingSession(question);
@@ -237,14 +237,14 @@ describe('DirectInputFlow 整合測試（手機輸入模式）', () => {
       let stats;
       session.on('SessionCompleted', (e) => stats = e);
 
-      // When: 先輸入「あえ」（1對1錯），再輸入「い」
+      // When: 先輸入「あえ」（不匹配），再輸入「い」
       session.handleDirectInput('あえ');
       session.handleDirectInput('い');
 
-      // Then: 總按鍵 3 次，錯誤 1 次，準確率 2/3
-      expect(stats.totalKeystrokes).toBe(3);
-      expect(stats.mistakes).toBe(1);
-      expect(stats.accuracy).toBeCloseTo(2 / 3);
+      // Then: 只計算成功匹配的按鍵，錯誤為 0，準確率 100%
+      expect(stats.totalKeystrokes).toBe(2);
+      expect(stats.mistakes).toBe(0);
+      expect(stats.accuracy).toBe(1);
     });
   });
 

@@ -352,13 +352,8 @@ export class TypingSession {
         matchedCount++;
         consumedLength += matchLength;
       } else {
-        // 不匹配，停止處理
-        this.#totalKeystrokes++; // 錯誤的輸入也計入總按鍵數
-        this.#mistakes++;
-        this.#emit('CharacterMistaken', {
-          expected: currentChar.kana,
-          actual: remainingInput.substring(0, 1),
-        });
+        // 不匹配：直接跳出，不判定錯誤
+        // 手機模式下用戶可能正在使用 IME 輸入漢字，中間狀態不應被視為錯誤
         break;
       }
     }
