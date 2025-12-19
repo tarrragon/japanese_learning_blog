@@ -17,6 +17,7 @@ export class PracticeController {
   #questionData;  // 題庫資料（用於顯示漢字和來源連結）
   #onNextQuestion;  // 下一題回調
   #keyboardHandler;  // 當前實例的鍵盤處理器
+  #basePath;  // 網站根路徑（支援子目錄部署）
 
   /**
    * @param {Object} options - 配置選項
@@ -46,6 +47,12 @@ export class PracticeController {
     this.#elements = options.elements;
     this.#keyboardRenderer = options.keyboardRenderer;
     this.#onNextQuestion = options.onNextQuestion || null;
+
+    // 自動偵測 base path（支援 GitHub Pages 子目錄部署）
+    // 例如：/japanese_learning_blog/practice/ → /japanese_learning_blog
+    const pathname = typeof window !== 'undefined' ? window.location.pathname : '';
+    const match = pathname.match(/^(.*?)\/[^\/]+\/?$/);
+    this.#basePath = match ? match[1] : '';
 
     this.#setupEventHandlers();
     this.#setupKeyboardListener();
@@ -300,8 +307,10 @@ export class PracticeController {
     let sourceLink = '';
     if (this.#questionData?.source) {
       const source = this.#questionData.source;
+      // 使用 basePath 拼接完整路徑（支援子目錄部署）
+      const fullPath = this.#basePath + source.path;
       sourceLink = `
-        <a href="${source.path}" class="source-link" target="_blank">
+        <a href="${fullPath}" class="source-link" target="_blank">
           查看來源卡片：${source.title} →
         </a>
       `;
