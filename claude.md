@@ -600,7 +600,7 @@ bun test tests/integration    # 僅測試整合流程
 **⚠️ 修改 `src/` 目錄後必須重新打包，否則變更不會生效！**
 
 ```bash
-bun build src/main.js --outfile static/practice/js/practice.js --minify
+bun build src/main.js --outfile static/practice/js/practice.js --minify --format=iife
 ```
 
 #### 5. 測試打包結果

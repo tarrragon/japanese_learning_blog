@@ -56,7 +56,7 @@ jobs:
         uses: oven-sh/setup-bun@v2
 
       - name: Build Practice JS
-        run: bun build src/main.js --outfile static/practice/js/practice.js --minify
+        run: bun build src/main.js --outfile static/practice/js/practice.js --minify --format=iife
 
       - name: Setup Pages
         id: pages
