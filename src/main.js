@@ -38,7 +38,7 @@ function createControlPanel(appInstance) {
 
   const controlPanel = document.createElement('div');
   controlPanel.id = 'practice-controls';
-  controlPanel.className = 'practice-controls';
+  controlPanel.className = 'practice-controls' + (state.practiceMode === 'kana' ? ' controls-centered' : '');
   controlPanel.innerHTML = `
     <div class="control-group" id="jlpt-filter-group" style="display: ${jlptDisplayStyle}">
       <label for="jlpt-filter">JLPT 等級：</label>
@@ -101,10 +101,14 @@ function bindControlPanelEvents(appInstance) {
       appInstance.switchPracticeMode(newMode);
       togglePracticeBtn.textContent = newMode === 'question' ? '假名模式' : '題庫模式';
 
-      // 假名模式不需要 JLPT 選單
+      // 假名模式不需要 JLPT 選單，並調整按鈕置中
       const jlptGroup = document.getElementById('jlpt-filter-group');
+      const controls = document.getElementById('practice-controls');
       if (jlptGroup) {
         jlptGroup.style.display = newMode === 'kana' ? 'none' : '';
+      }
+      if (controls) {
+        controls.classList.toggle('controls-centered', newMode === 'kana');
       }
     });
   }
