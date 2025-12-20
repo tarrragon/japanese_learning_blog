@@ -607,6 +607,33 @@ bun build src/main.js --outfile static/practice/js/practice.js --minify --format
 
 重新整理瀏覽器頁面（建議使用強制刷新 `Cmd+Shift+R`）驗證變更。
 
+### 打包格式技術選型
+
+**當前選擇**：`--format=iife`（立即執行函數表達式）
+
+**背景**：v2.0 重構後採用模組化開發（`src/*.js` 使用 ES module 語法），需要打包成瀏覽器可執行的單一檔案。
+
+**可選方案比較**：
+
+| 方案 | 做法 | 優點 | 缺點 |
+|------|------|------|------|
+| IIFE | `--format=iife` | 兼容性最好、無 CORS 限制、不需改 HTML | 無法使用 top-level await 等 ESM 特性 |
+| ES Module | HTML 加 `type="module"` | 支援 ESM 特性、可動態 import | 舊瀏覽器不支援、本地開發需 CORS |
+
+**選擇 IIFE 的理由**：
+1. 練習功能不需要 ESM 特性（如 top-level await、動態 import）
+2. 兼容性優先，支援更多瀏覽器
+3. 避免本地開發的 CORS 問題
+4. 減少變動點（不需修改 HTML）
+
+**日後若需切換為 ESM**：
+1. 移除 `--format=iife` 參數（bun build 預設輸出 ESM）
+2. 修改 `static/practice/index.html`：
+   ```html
+   <script type="module" src="js/practice.js"></script>
+   ```
+3. 注意：本地開發需透過 HTTP server（如 `hugo server`）存取，不能直接開啟 HTML 檔案
+
 ### 常見問題
 
 | 問題 | 原因 | 解決方案 |
