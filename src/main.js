@@ -51,6 +51,7 @@ let currentFilters = {
 };
 let currentInputMode = 'romaji'; // 'romaji' | 'direct'
 let showRomajiHint = true; // 是否顯示羅馬拼音提示
+let currentPracticeMode = 'question'; // 'question' | 'kana' - 題庫模式或假名模式
 
 /**
  * 隨機選擇傳統練習文字
@@ -100,6 +101,7 @@ function createControlPanel() {
   controlPanel.className = 'practice-controls';
   const inputModeText = currentInputMode === 'romaji' ? '手機模式' : '鍵盤模式';
   const hintBtnText = showRomajiHint ? '隱藏提示' : '顯示提示';
+  const practiceModeText = currentPracticeMode === 'question' ? '假名模式' : '題庫模式';
   controlPanel.innerHTML = `
     <div class="control-group">
       <label for="jlpt-filter">JLPT 等級：</label>
@@ -114,7 +116,7 @@ function createControlPanel() {
     </div>
     <div class="control-group">
       <button id="btn-next" class="control-btn">下一題</button>
-      <button id="btn-kana-mode" class="control-btn secondary">假名模式</button>
+      <button id="btn-toggle-practice" class="control-btn secondary">${practiceModeText}</button>
       <button id="btn-toggle-input" class="control-btn secondary">${inputModeText}</button>
       <button id="btn-toggle-hint" class="control-btn secondary">${hintBtnText}</button>
     </div>
@@ -143,13 +145,19 @@ function createControlPanel() {
 
   const nextBtn = document.getElementById('btn-next');
   if (nextBtn) {
-    nextBtn.addEventListener('click', loadNextQuestion);
+    nextBtn.addEventListener('click', () => {
+      if (currentPracticeMode === 'kana') {
+        startKanaMode();
+      } else {
+        loadNextQuestion();
+      }
+    });
   }
 
-  const kanaModeBtn = document.getElementById('btn-kana-mode');
-  if (kanaModeBtn) {
-    kanaModeBtn.addEventListener('click', () => {
-      startKanaMode();
+  const togglePracticeBtn = document.getElementById('btn-toggle-practice');
+  if (togglePracticeBtn) {
+    togglePracticeBtn.addEventListener('click', () => {
+      togglePracticeMode();
     });
   }
 
@@ -165,6 +173,29 @@ function createControlPanel() {
     toggleHintBtn.addEventListener('click', () => {
       toggleRomajiHint();
     });
+  }
+}
+
+/**
+ * 切換練習模式（題庫 / 假名）
+ */
+function togglePracticeMode() {
+  if (currentPracticeMode === 'question') {
+    // 切換到假名模式
+    startKanaMode();
+  } else {
+    // 切換到題庫模式
+    startQuestionMode();
+  }
+}
+
+/**
+ * 更新練習模式按鈕文字
+ */
+function updatePracticeModeButton() {
+  const btn = document.getElementById('btn-toggle-practice');
+  if (btn) {
+    btn.textContent = currentPracticeMode === 'question' ? '假名模式' : '題庫模式';
   }
 }
 
@@ -192,8 +223,12 @@ function toggleInputMode() {
     btn.textContent = currentInputMode === 'romaji' ? '手機模式' : '鍵盤模式';
   }
 
-  // 重新載入當前題目
-  loadNextQuestion();
+  // 根據當前練習模式重新載入
+  if (currentPracticeMode === 'kana') {
+    startKanaMode();
+  } else {
+    loadNextQuestion();
+  }
 }
 
 /**
@@ -287,6 +322,10 @@ async function loadNextQuestion() {
  * 啟動假名模式
  */
 function startKanaMode() {
+  // 更新模式狀態
+  currentPracticeMode = 'kana';
+  updatePracticeModeButton();
+
   // 隱藏結果面板
   if (elements.resultContainer) {
     elements.resultContainer.style.display = 'none';
@@ -303,6 +342,32 @@ function startKanaMode() {
   });
 
   console.log('假名模式:', practiceText);
+}
+
+/**
+ * 啟動題庫模式
+ */
+async function startQuestionMode() {
+  // 更新模式狀態
+  currentPracticeMode = 'question';
+  updatePracticeModeButton();
+
+  // 如果題庫尚未載入，先載入
+  if (!questionLoader || !questionLoader.isLoaded()) {
+    showLoading();
+    try {
+      questionLoader = new QuestionLoader();
+      await questionLoader.load();
+      console.log('題庫載入完成:', questionLoader.getLoadingStatus());
+    } catch (error) {
+      console.error('題庫載入失敗:', error);
+      showError('題庫載入失敗');
+      return;
+    }
+  }
+
+  // 載入題目
+  loadNextQuestion();
 }
 
 /**

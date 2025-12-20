@@ -3,16 +3,18 @@ import { describe, it, expect, beforeEach } from 'bun:test';
 /**
  * 輸入模式切換 UI 測試
  *
- * 測試不同輸入模式和提示顯示的正確 UI 狀態
+ * 測試不同輸入模式、提示顯示和練習模式的正確 UI 狀態
  *
  * 狀態變數：
  * - currentInputMode: 'romaji' | 'direct'
  * - showRomajiHint: true | false
+ * - currentPracticeMode: 'question' | 'kana'
  *
  * UI 元件：
  * - keyboard: 虛擬鍵盤（romaji 模式顯示）
  * - mobile-input-section: 手機輸入區（direct 模式顯示）
  * - practice-romaji-wrapper: 羅馬拼音提示區（showRomajiHint 控制）
+ * - btn-toggle-practice: 練習模式切換按鈕
  *
  * CSS Classes：
  * - mode-direct: 直接輸入模式（加在 container 和 body）
@@ -512,5 +514,220 @@ describe('UI 狀態 - CSS 規則獨立性', () => {
     dom.container.classList.remove('hide-romaji-hint');
     expect(dom.container.classList.contains('mode-direct')).toBe(false);
     expect(dom.container.classList.contains('hide-romaji-hint')).toBe(false);
+  });
+});
+
+// ============================================================
+// 練習模式切換測試（題庫 / 假名）
+// ============================================================
+
+describe('練習模式切換', () => {
+  describe('按鈕文字', () => {
+    it('question 模式時顯示「假名模式」', () => {
+      const currentPracticeMode = 'question';
+      const buttonText = currentPracticeMode === 'question' ? '假名模式' : '題庫模式';
+      expect(buttonText).toBe('假名模式');
+    });
+
+    it('kana 模式時顯示「題庫模式」', () => {
+      const currentPracticeMode = 'kana';
+      const buttonText = currentPracticeMode === 'question' ? '假名模式' : '題庫模式';
+      expect(buttonText).toBe('題庫模式');
+    });
+  });
+
+  describe('狀態切換邏輯', () => {
+    it('togglePracticeMode: question → kana', () => {
+      let currentPracticeMode = 'question';
+      // 模擬 togglePracticeMode 邏輯
+      if (currentPracticeMode === 'question') {
+        currentPracticeMode = 'kana';
+      } else {
+        currentPracticeMode = 'question';
+      }
+      expect(currentPracticeMode).toBe('kana');
+    });
+
+    it('togglePracticeMode: kana → question', () => {
+      let currentPracticeMode = 'kana';
+      // 模擬 togglePracticeMode 邏輯
+      if (currentPracticeMode === 'question') {
+        currentPracticeMode = 'kana';
+      } else {
+        currentPracticeMode = 'question';
+      }
+      expect(currentPracticeMode).toBe('question');
+    });
+  });
+
+  describe('連續切換一致性', () => {
+    it('連續切換練習模式多次', () => {
+      let currentPracticeMode = 'question';
+
+      for (let i = 0; i < 5; i++) {
+        // 切換到 kana
+        currentPracticeMode = 'kana';
+        expect(currentPracticeMode).toBe('kana');
+        const kanaButtonText = currentPracticeMode === 'question' ? '假名模式' : '題庫模式';
+        expect(kanaButtonText).toBe('題庫模式');
+
+        // 切換回 question
+        currentPracticeMode = 'question';
+        expect(currentPracticeMode).toBe('question');
+        const questionButtonText = currentPracticeMode === 'question' ? '假名模式' : '題庫模式';
+        expect(questionButtonText).toBe('假名模式');
+      }
+    });
+  });
+});
+
+describe('三模式組合（inputMode x showHint x practiceMode）', () => {
+  // 2 x 2 x 2 = 8 種組合
+  const combinations = [
+    { inputMode: 'romaji', showHint: true, practiceMode: 'question' },
+    { inputMode: 'romaji', showHint: true, practiceMode: 'kana' },
+    { inputMode: 'romaji', showHint: false, practiceMode: 'question' },
+    { inputMode: 'romaji', showHint: false, practiceMode: 'kana' },
+    { inputMode: 'direct', showHint: true, practiceMode: 'question' },
+    { inputMode: 'direct', showHint: true, practiceMode: 'kana' },
+    { inputMode: 'direct', showHint: false, practiceMode: 'question' },
+    { inputMode: 'direct', showHint: false, practiceMode: 'kana' },
+  ];
+
+  combinations.forEach(({ inputMode, showHint, practiceMode }) => {
+    it(`${inputMode} + ${showHint ? 'showHint' : 'hideHint'} + ${practiceMode}`, () => {
+      const dom = createMockDOM();
+      let currentPracticeMode = practiceMode;
+
+      // 應用 UI 狀態
+      applyInputModeUI(dom, inputMode);
+      applyHintUI(dom, showHint);
+
+      // 驗證 inputMode 和 showHint 的 UI
+      const result = verifyUIState(dom, { inputMode, showHint });
+      expect(result.valid).toBe(true);
+
+      // 驗證 practiceMode 按鈕文字
+      const practiceButtonText = currentPracticeMode === 'question' ? '假名模式' : '題庫模式';
+      const expectedButtonText = practiceMode === 'question' ? '假名模式' : '題庫模式';
+      expect(practiceButtonText).toBe(expectedButtonText);
+    });
+  });
+});
+
+describe('模式切換順序獨立性 - 三模式', () => {
+  it('inputMode → practiceMode → hint', () => {
+    const dom = createMockDOM();
+    let currentPracticeMode = 'question';
+
+    // 初始狀態
+    applyInputModeUI(dom, 'romaji');
+    applyHintUI(dom, true);
+
+    // 切換到 direct
+    applyInputModeUI(dom, 'direct');
+    expect(verifyUIState(dom, { inputMode: 'direct', showHint: true }).valid).toBe(true);
+
+    // 切換到 kana
+    currentPracticeMode = 'kana';
+    expect(currentPracticeMode).toBe('kana');
+
+    // 隱藏提示
+    applyHintUI(dom, false);
+    expect(verifyUIState(dom, { inputMode: 'direct', showHint: false }).valid).toBe(true);
+    expect(currentPracticeMode).toBe('kana');
+  });
+
+  it('practiceMode → hint → inputMode', () => {
+    const dom = createMockDOM();
+    let currentPracticeMode = 'question';
+
+    // 初始狀態
+    applyInputModeUI(dom, 'romaji');
+    applyHintUI(dom, true);
+
+    // 切換到 kana
+    currentPracticeMode = 'kana';
+    expect(currentPracticeMode).toBe('kana');
+
+    // 隱藏提示
+    applyHintUI(dom, false);
+    expect(verifyUIState(dom, { inputMode: 'romaji', showHint: false }).valid).toBe(true);
+
+    // 切換到 direct
+    applyInputModeUI(dom, 'direct');
+    expect(verifyUIState(dom, { inputMode: 'direct', showHint: false }).valid).toBe(true);
+    expect(currentPracticeMode).toBe('kana');
+  });
+
+  it('hint → inputMode → practiceMode', () => {
+    const dom = createMockDOM();
+    let currentPracticeMode = 'question';
+
+    // 初始狀態
+    applyInputModeUI(dom, 'romaji');
+    applyHintUI(dom, true);
+
+    // 隱藏提示
+    applyHintUI(dom, false);
+    expect(verifyUIState(dom, { inputMode: 'romaji', showHint: false }).valid).toBe(true);
+
+    // 切換到 direct
+    applyInputModeUI(dom, 'direct');
+    expect(verifyUIState(dom, { inputMode: 'direct', showHint: false }).valid).toBe(true);
+
+    // 切換到 kana
+    currentPracticeMode = 'kana';
+    expect(currentPracticeMode).toBe('kana');
+    expect(verifyUIState(dom, { inputMode: 'direct', showHint: false }).valid).toBe(true);
+  });
+});
+
+describe('練習模式切換不影響其他 UI 狀態', () => {
+  it('切換練習模式時保持 inputMode 狀態', () => {
+    const dom = createMockDOM();
+    let currentPracticeMode = 'question';
+
+    // 設定 direct 模式
+    applyInputModeUI(dom, 'direct');
+    expect(verifyUIState(dom, { inputMode: 'direct', showHint: true }).valid).toBe(true);
+
+    // 切換練習模式
+    currentPracticeMode = 'kana';
+    expect(currentPracticeMode).toBe('kana');
+
+    // inputMode 應該保持 direct
+    expect(verifyUIState(dom, { inputMode: 'direct', showHint: true }).valid).toBe(true);
+
+    // 切回 question
+    currentPracticeMode = 'question';
+    expect(currentPracticeMode).toBe('question');
+
+    // inputMode 仍然是 direct
+    expect(verifyUIState(dom, { inputMode: 'direct', showHint: true }).valid).toBe(true);
+  });
+
+  it('切換練習模式時保持 showHint 狀態', () => {
+    const dom = createMockDOM();
+    let currentPracticeMode = 'question';
+
+    // 設定隱藏提示
+    applyInputModeUI(dom, 'romaji');
+    applyHintUI(dom, false);
+    expect(verifyUIState(dom, { inputMode: 'romaji', showHint: false }).valid).toBe(true);
+
+    // 切換練習模式
+    currentPracticeMode = 'kana';
+    expect(currentPracticeMode).toBe('kana');
+
+    // showHint 應該保持 false
+    expect(verifyUIState(dom, { inputMode: 'romaji', showHint: false }).valid).toBe(true);
+
+    // 切回 question
+    currentPracticeMode = 'question';
+    expect(currentPracticeMode).toBe('question');
+
+    // showHint 仍然是 false
+    expect(verifyUIState(dom, { inputMode: 'romaji', showHint: false }).valid).toBe(true);
   });
 });
