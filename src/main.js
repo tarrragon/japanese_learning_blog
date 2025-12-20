@@ -33,12 +33,14 @@ function createControlPanel(appInstance) {
   const inputModeText = state.inputMode === 'romaji' ? '手機模式' : '鍵盤模式';
   const hintBtnText = state.uiSettings.showRomajiHint ? '隱藏提示' : '顯示提示';
   const practiceModeText = state.practiceMode === 'question' ? '假名模式' : '題庫模式';
+  // 假名模式不需要 JLPT 選單
+  const jlptDisplayStyle = state.practiceMode === 'kana' ? 'none' : '';
 
   const controlPanel = document.createElement('div');
   controlPanel.id = 'practice-controls';
   controlPanel.className = 'practice-controls';
   controlPanel.innerHTML = `
-    <div class="control-group">
+    <div class="control-group" id="jlpt-filter-group" style="display: ${jlptDisplayStyle}">
       <label for="jlpt-filter">JLPT 等級：</label>
       <select id="jlpt-filter">
         <option value="all">全部</option>
@@ -98,6 +100,12 @@ function bindControlPanelEvents(appInstance) {
       const newMode = state.practiceMode === 'question' ? 'kana' : 'question';
       appInstance.switchPracticeMode(newMode);
       togglePracticeBtn.textContent = newMode === 'question' ? '假名模式' : '題庫模式';
+
+      // 假名模式不需要 JLPT 選單
+      const jlptGroup = document.getElementById('jlpt-filter-group');
+      if (jlptGroup) {
+        jlptGroup.style.display = newMode === 'kana' ? 'none' : '';
+      }
     });
   }
 
