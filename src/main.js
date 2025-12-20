@@ -1,107 +1,42 @@
 /**
  * 日文輸入練習 - 主入口
  *
- * 支援兩種模式：
+ * v2.0 重構版本：使用 App.js 作為核心控制器
+ *
+ * 支援兩種練習模式：
  * 1. 題庫模式：從 /data/questions.json 載入卡片解釋作為題目
- * 2. 傳統模式：使用預設假名練習題目
+ * 2. 假名模式：使用預設假名練習題目
+ *
+ * 支援兩種輸入模式：
+ * 1. romaji：實體鍵盤輸入羅馬字
+ * 2. direct：手機輸入（日文 IME）
  */
-import { PracticeController } from './ui/PracticeController.js';
-import { KeyboardRenderer } from './ui/KeyboardRenderer.js';
-import { QuestionLoader } from './services/QuestionLoader.js';
 
-/**
- * 傳統練習題目（假名）
- */
-const PRACTICE_TEXTS = [
-  'あいうえお',
-  'かきくけこ',
-  'さしすせそ',
-  'たちつてと',
-  'なにぬねの',
-  'はひふへほ',
-  'まみむめも',
-  'やゆよ',
-  'らりるれろ',
-  'わをん',
-  'がぎぐげご',
-  'ざじずぜぞ',
-  'だぢづでど',
-  'ばびぶべぼ',
-  'ぱぴぷぺぽ',
-  'きゃきゅきょ',
-  'しゃしゅしょ',
-  'ちゃちゅちょ',
-  'こんにちは',
-  'ありがとう',
-  'おはよう',
-  'さようなら',
-  'いただきます',
-  'ごちそうさま',
-];
+import { App } from './App.js';
+import { modeRegistry } from './modes/ModeRegistry.js';
 
-/**
- * 應用程式狀態
- */
-let questionLoader = null;
-let currentController = null;
-let keyboardRenderer = null;
-let elements = {};
-let currentFilters = {
-  jlpt: 'all',
-};
-let currentInputMode = 'romaji'; // 'romaji' | 'direct'
-let showRomajiHint = true; // 是否顯示羅馬拼音提示
-let currentPracticeMode = 'question'; // 'question' | 'kana' - 題庫模式或假名模式
-
-/**
- * 隨機選擇傳統練習文字
- */
-function getRandomText() {
-  const index = Math.floor(Math.random() * PRACTICE_TEXTS.length);
-  return PRACTICE_TEXTS[index];
-}
-
-/**
- * 顯示載入中狀態
- */
-function showLoading() {
-  const textContainer = elements.textContainer;
-  if (textContainer) {
-    textContainer.innerHTML = '<span class="loading">載入題庫中...</span>';
-  }
-}
-
-/**
- * 顯示錯誤狀態
- */
-function showError(message) {
-  const textContainer = elements.textContainer;
-  if (textContainer) {
-    textContainer.innerHTML = `
-      <div class="error-message">
-        <p>${message}</p>
-        <button onclick="location.reload()">重新載入</button>
-      </div>
-    `;
-  }
-}
+// 應用程式實例
+let app = null;
 
 /**
  * 建立控制面板
+ * @param {App} appInstance - 應用程式實例
  */
-function createControlPanel() {
+function createControlPanel(appInstance) {
   const container = document.querySelector('.practice-container');
   if (!container) return;
 
   // 檢查是否已存在
   if (document.getElementById('practice-controls')) return;
 
+  const state = appInstance.getState();
+  const inputModeText = state.inputMode === 'romaji' ? '手機模式' : '鍵盤模式';
+  const hintBtnText = state.uiSettings.showRomajiHint ? '隱藏提示' : '顯示提示';
+  const practiceModeText = state.practiceMode === 'question' ? '假名模式' : '題庫模式';
+
   const controlPanel = document.createElement('div');
   controlPanel.id = 'practice-controls';
   controlPanel.className = 'practice-controls';
-  const inputModeText = currentInputMode === 'romaji' ? '手機模式' : '鍵盤模式';
-  const hintBtnText = showRomajiHint ? '隱藏提示' : '顯示提示';
-  const practiceModeText = currentPracticeMode === 'question' ? '假名模式' : '題庫模式';
   controlPanel.innerHTML = `
     <div class="control-group">
       <label for="jlpt-filter">JLPT 等級：</label>
@@ -127,247 +62,91 @@ function createControlPanel() {
   container.insertBefore(controlPanel, practiceArea);
 
   // 綁定事件
+  bindControlPanelEvents(appInstance);
+}
+
+/**
+ * 綁定控制面板事件
+ * @param {App} appInstance
+ */
+function bindControlPanelEvents(appInstance) {
+  // JLPT 篩選
   const jlptFilter = document.getElementById('jlpt-filter');
   if (jlptFilter) {
     // 恢復儲存的篩選條件
-    const savedJlpt = localStorage.getItem('practice-jlpt-filter');
-    if (savedJlpt) {
-      jlptFilter.value = savedJlpt;
-      currentFilters.jlpt = savedJlpt;
-    }
+    const state = appInstance.getState();
+    jlptFilter.value = state.filters.jlpt;
 
     jlptFilter.addEventListener('change', (e) => {
-      currentFilters.jlpt = e.target.value;
-      localStorage.setItem('practice-jlpt-filter', e.target.value);
-      loadNextQuestion();
+      appInstance.setFilter('jlpt', e.target.value);
     });
   }
 
+  // 下一題按鈕
   const nextBtn = document.getElementById('btn-next');
   if (nextBtn) {
     nextBtn.addEventListener('click', () => {
-      if (currentPracticeMode === 'kana') {
-        startKanaMode();
-      } else {
-        loadNextQuestion();
-      }
+      appInstance.loadNextQuestion();
     });
   }
 
+  // 練習模式切換按鈕
   const togglePracticeBtn = document.getElementById('btn-toggle-practice');
   if (togglePracticeBtn) {
     togglePracticeBtn.addEventListener('click', () => {
-      togglePracticeMode();
+      const state = appInstance.getState();
+      const newMode = state.practiceMode === 'question' ? 'kana' : 'question';
+      appInstance.switchPracticeMode(newMode);
+      togglePracticeBtn.textContent = newMode === 'question' ? '假名模式' : '題庫模式';
     });
   }
 
+  // 輸入模式切換按鈕
   const toggleInputBtn = document.getElementById('btn-toggle-input');
   if (toggleInputBtn) {
     toggleInputBtn.addEventListener('click', () => {
-      toggleInputMode();
+      const state = appInstance.getState();
+      const newMode = state.inputMode === 'romaji' ? 'direct' : 'romaji';
+      appInstance.switchInputMode(newMode);
+      toggleInputBtn.textContent = newMode === 'romaji' ? '手機模式' : '鍵盤模式';
     });
   }
 
+  // 提示顯示切換按鈕
   const toggleHintBtn = document.getElementById('btn-toggle-hint');
   if (toggleHintBtn) {
     toggleHintBtn.addEventListener('click', () => {
-      toggleRomajiHint();
+      appInstance.toggleRomajiHint();
+      const state = appInstance.getState();
+      toggleHintBtn.textContent = state.uiSettings.showRomajiHint ? '隱藏提示' : '顯示提示';
     });
   }
 }
 
 /**
- * 切換練習模式（題庫 / 假名）
+ * 顯示載入中狀態
+ * @param {HTMLElement} textContainer
  */
-function togglePracticeMode() {
-  if (currentPracticeMode === 'question') {
-    // 切換到假名模式
-    startKanaMode();
-  } else {
-    // 切換到題庫模式
-    startQuestionMode();
+function showLoading(textContainer) {
+  if (textContainer) {
+    textContainer.innerHTML = '<span class="loading">載入題庫中...</span>';
   }
 }
 
 /**
- * 更新練習模式按鈕文字
+ * 顯示錯誤狀態
+ * @param {HTMLElement} textContainer
+ * @param {string} message
  */
-function updatePracticeModeButton() {
-  const btn = document.getElementById('btn-toggle-practice');
-  if (btn) {
-    btn.textContent = currentPracticeMode === 'question' ? '假名模式' : '題庫模式';
+function showError(textContainer, message) {
+  if (textContainer) {
+    textContainer.innerHTML = `
+      <div class="error-message">
+        <p>${message}</p>
+        <button onclick="location.reload()">重新載入</button>
+      </div>
+    `;
   }
-}
-
-/**
- * 切換輸入模式
- */
-function toggleInputMode() {
-  currentInputMode = currentInputMode === 'romaji' ? 'direct' : 'romaji';
-
-  // 儲存偏好
-  localStorage.setItem('practice-input-mode', currentInputMode);
-
-  // 更新 URL 參數
-  const url = new URL(window.location);
-  if (currentInputMode === 'direct') {
-    url.searchParams.set('input', 'direct');
-  } else {
-    url.searchParams.delete('input');
-  }
-  window.history.replaceState({}, '', url);
-
-  // 更新按鈕文字
-  const btn = document.getElementById('btn-toggle-input');
-  if (btn) {
-    btn.textContent = currentInputMode === 'romaji' ? '手機模式' : '鍵盤模式';
-  }
-
-  // 根據當前練習模式重新載入
-  if (currentPracticeMode === 'kana') {
-    startKanaMode();
-  } else {
-    loadNextQuestion();
-  }
-}
-
-/**
- * 切換羅馬拼音提示顯示
- */
-function toggleRomajiHint() {
-  showRomajiHint = !showRomajiHint;
-
-  // 儲存偏好
-  localStorage.setItem('practice-show-hint', showRomajiHint ? 'true' : 'false');
-
-  // 更新按鈕文字
-  const btn = document.getElementById('btn-toggle-hint');
-  if (btn) {
-    btn.textContent = showRomajiHint ? '隱藏提示' : '顯示提示';
-  }
-
-  // 切換羅馬拼音顯示
-  const container = document.querySelector('.practice-container');
-  if (container) {
-    if (showRomajiHint) {
-      container.classList.remove('hide-romaji-hint');
-    } else {
-      container.classList.add('hide-romaji-hint');
-    }
-  }
-}
-
-/**
- * 取得載入優先級
- * @param {string} savedFilter - 使用者偏好的 JLPT 等級
- * @returns {string[]}
- */
-function getLoadingPriority(savedFilter) {
-  const levels = ['n5', 'n4', 'n3', 'n2', 'n1'];
-  if (!savedFilter || savedFilter === 'all') {
-    return levels;
-  }
-  // 優先載入使用者選擇的等級
-  return [savedFilter, ...levels.filter(l => l !== savedFilter)];
-}
-
-/**
- * 載入下一題
- */
-async function loadNextQuestion() {
-  if (!questionLoader || !questionLoader.isLoaded()) {
-    console.error('題庫尚未載入');
-    return;
-  }
-
-  // 隱藏結果面板
-  if (elements.resultContainer) {
-    elements.resultContainer.style.display = 'none';
-  }
-
-  // 隨機選取題目
-  let questionData = questionLoader.getRandomQuestion(currentFilters);
-
-  // 如果找不到題目，嘗試按需載入對應等級
-  if (!questionData && currentFilters.jlpt !== 'all') {
-    if (questionLoader.useProgressiveLoading && !questionLoader.isLevelLoaded(currentFilters.jlpt)) {
-      showLoading();
-      try {
-        await questionLoader.loadBundle(currentFilters.jlpt);
-        questionData = questionLoader.getRandomQuestion(currentFilters);
-      } catch (error) {
-        console.error('按需載入失敗:', error);
-      }
-    }
-  }
-
-  if (!questionData) {
-    showError('找不到符合條件的題目');
-    return;
-  }
-
-  // 建立新的控制器
-  currentController = new PracticeController({
-    questionData,
-    elements,
-    keyboardRenderer,
-    onNextQuestion: loadNextQuestion,
-    inputMode: currentInputMode,
-  });
-
-  console.log('載入題目:', questionData.id, questionData.text.substring(0, 30) + '...');
-}
-
-/**
- * 啟動假名模式
- */
-function startKanaMode() {
-  // 更新模式狀態
-  currentPracticeMode = 'kana';
-  updatePracticeModeButton();
-
-  // 隱藏結果面板
-  if (elements.resultContainer) {
-    elements.resultContainer.style.display = 'none';
-  }
-
-  const practiceText = getRandomText();
-
-  currentController = new PracticeController({
-    text: practiceText,
-    elements,
-    keyboardRenderer,
-    onNextQuestion: startKanaMode,
-    inputMode: currentInputMode,
-  });
-
-  console.log('假名模式:', practiceText);
-}
-
-/**
- * 啟動題庫模式
- */
-async function startQuestionMode() {
-  // 更新模式狀態
-  currentPracticeMode = 'question';
-  updatePracticeModeButton();
-
-  // 如果題庫尚未載入，先載入
-  if (!questionLoader || !questionLoader.isLoaded()) {
-    showLoading();
-    try {
-      questionLoader = new QuestionLoader();
-      await questionLoader.load();
-      console.log('題庫載入完成:', questionLoader.getLoadingStatus());
-    } catch (error) {
-      console.error('題庫載入失敗:', error);
-      showError('題庫載入失敗');
-      return;
-    }
-  }
-
-  // 載入題目
-  loadNextQuestion();
 }
 
 /**
@@ -378,6 +157,7 @@ async function init() {
   const textContainer = document.getElementById('practice-text');
   const romajiContainer = document.getElementById('practice-romaji');
   const keyboardContainer = document.getElementById('keyboard');
+  const container = document.querySelector('.practice-container');
 
   if (!textContainer || !romajiContainer || !keyboardContainer) {
     console.error('找不到必要的 DOM 元素');
@@ -391,7 +171,7 @@ async function init() {
     resultContainer.id = 'result-container';
     resultContainer.className = 'result-container';
     resultContainer.style.display = 'none';
-    document.querySelector('.practice-container')?.appendChild(resultContainer);
+    container?.appendChild(resultContainer);
   }
 
   // 建立緩衝區顯示（如果不存在）
@@ -403,101 +183,50 @@ async function init() {
     romajiContainer.parentNode?.insertBefore(bufferDisplay, romajiContainer.nextSibling);
   }
 
-  // 儲存元素參照
-  elements = {
-    textContainer,
-    romajiContainer,
-    resultContainer,
-    bufferDisplay,
-  };
+  // 取得手機輸入框
+  const mobileInputElement = document.getElementById('mobile-kana-input');
 
-  // 建立鍵盤渲染器
-  keyboardRenderer = new KeyboardRenderer(keyboardContainer);
-
-  // 檢查 URL 參數
-  const urlParams = new URLSearchParams(window.location.search);
-  const textParam = urlParams.get('text');
-  const modeParam = urlParams.get('mode');
-  const inputParam = urlParams.get('input');
-
-  // 設定輸入模式（優先級：URL 參數 > localStorage > 預設值）
-  if (inputParam === 'direct' || inputParam === 'mobile') {
-    currentInputMode = 'direct';
-  } else {
-    const savedInputMode = localStorage.getItem('practice-input-mode');
-    if (savedInputMode === 'direct') {
-      currentInputMode = 'direct';
-    }
-  }
-
-  // 設定羅馬拼音提示顯示（從 localStorage 讀取，預設顯示）
-  const savedShowHint = localStorage.getItem('practice-show-hint');
-  if (savedShowHint === 'false') {
-    showRomajiHint = false;
-  }
-
-  // 建立控制面板
-  createControlPanel();
-
-  // 應用提示顯示設定
-  if (!showRomajiHint) {
-    const container = document.querySelector('.practice-container');
-    if (container) {
-      container.classList.add('hide-romaji-hint');
-    }
-  }
-
-  if (textParam) {
-    // 直接使用 URL 指定的文字
-    currentController = new PracticeController({
-      text: textParam,
-      elements,
-      keyboardRenderer,
-      inputMode: currentInputMode,
-    });
-    console.log('URL 模式:', textParam);
-    return;
-  }
-
-  if (modeParam === 'kana') {
-    // 假名模式
-    startKanaMode();
-    return;
-  }
-
-  // 預設：題庫模式
-  showLoading();
+  // 顯示載入中
+  showLoading(textContainer);
 
   try {
-    questionLoader = new QuestionLoader();
-    await questionLoader.load();
+    // 建立 App 實例
+    app = new App({
+      container,
+      textContainer,
+      romajiContainer,
+      resultContainer,
+      bufferDisplay,
+      keyboardContainer,
+      mobileInputElement,
+    });
 
-    console.log('題庫載入完成:', questionLoader.getLoadingStatus());
+    // 建立控制面板
+    createControlPanel(app);
 
-    // 載入第一題
-    loadNextQuestion();
+    // 初始化應用程式
+    await app.initialize();
 
-    // 背景載入剩餘分包
-    if (questionLoader.useProgressiveLoading) {
-      const savedJlpt = localStorage.getItem('practice-jlpt-filter');
-      const priority = getLoadingPriority(savedJlpt);
-      questionLoader.loadInBackground(priority).then(() => {
-        console.log('背景載入完成:', questionLoader.getLoadingStatus());
-      });
-    }
+    console.log('應用程式初始化完成');
   } catch (error) {
-    console.error('題庫載入失敗:', error);
-    // 降級到假名模式
-    showError('題庫載入失敗，切換到假名模式');
-    setTimeout(() => {
-      startKanaMode();
-    }, 2000);
+    console.error('應用程式初始化失敗:', error);
+    showError(textContainer, '應用程式初始化失敗');
+  }
+
+  // 暴露到全域（用於除錯）
+  if (typeof window !== 'undefined') {
+    window.__app = app;
   }
 }
 
 // 頁面載入後初始化
-if (document.readyState === 'loading') {
-  document.addEventListener('DOMContentLoaded', init);
-} else {
-  init();
+if (typeof document !== 'undefined') {
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', init);
+  } else {
+    init();
+  }
 }
+
+// 匯出（用於測試）
+export { app, init };
