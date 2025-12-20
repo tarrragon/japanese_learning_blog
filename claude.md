@@ -489,28 +489,61 @@ uv run scripts/manage_worklog_cards.py validate
 
 ---
 
-## 日文輸入練習功能（v1.0.9+）
+## 日文輸入練習功能（v1.0.9+，v2.0 重構）
 
 ### 功能概述
 
 日文羅馬字輸入練習系統，位於 `static/practice/` 目錄。
 
+v2.0 重構後採用模組化架構，支援擴展新的練習模式和輸入方式。
+
 ### 目錄結構
 
 ```
 src/                          # 原始碼（開發時編輯）
-├── domain/                   # Domain 層（核心邏輯）
+├── domain/                   # Domain 層（核心邏輯，不變）
 │   ├── Character.js          # 字元 Value Object
 │   ├── Question.js           # 題目 Entity
 │   ├── InputBuffer.js        # 輸入緩衝區
 │   ├── TypingSession.js      # Session Aggregate Root
 │   └── RomajiMap.js          # 羅馬字對應表
+│
+├── store/                    # 狀態管理（v2.0 新增）
+│   ├── Store.js              # 輕量級 Flux 風格 Store
+│   ├── AppState.js           # 應用程式狀態定義
+│   ├── actions.js            # Action Types 和 Creators
+│   └── reducer.js            # 狀態更新邏輯
+│
+├── modes/                    # 練習模式（v2.0 新增）
+│   ├── PracticeMode.js       # 抽象基類
+│   ├── QuestionMode.js       # 題庫模式
+│   ├── KanaMode.js           # 假名模式
+│   └── ModeRegistry.js       # 模式註冊表
+│
+├── input/                    # 輸入處理（v2.0 新增）
+│   ├── InputHandler.js       # 抽象基類
+│   ├── RomajiInputHandler.js # 鍵盤輸入（羅馬字）
+│   ├── DirectInputHandler.js # 手機輸入（日文 IME）
+│   └── InputHandlerFactory.js# 工廠模式
+│
+├── renderers/                # 渲染器（v2.0 新增）
+│   ├── TextRenderer.js       # 題目文字渲染
+│   ├── RomajiRenderer.js     # 羅馬拼音渲染
+│   └── ResultRenderer.js     # 結果顯示
+│
+├── effects/                  # 視覺效果（v2.0 新增）
+│   └── FlashEffect.js        # 成功/錯誤閃爍
+│
 ├── services/                 # 應用服務
-│   └── SpeechService.js      # 語音合成服務
-├── ui/                       # UI 層
-│   ├── PracticeController.js # 練習控制器
-│   └── KeyboardRenderer.js   # 鍵盤渲染器
-└── main.js                   # 入口點
+│   ├── SpeechService.js      # 語音合成服務
+│   ├── QuestionLoader.js     # 題庫載入服務
+│   └── PersistenceService.js # localStorage 持久化（v2.0 新增）
+│
+├── ui/                       # UI 層（保留）
+│   └── KeyboardRenderer.js   # 虛擬鍵盤渲染
+│
+├── App.js                    # 應用主控制器（v2.0 新增）
+└── main.js                   # 入口點（v2.0 簡化）
 
 static/practice/              # 靜態網頁（HUGO 發布）
 ├── index.html                # 練習頁面
@@ -518,10 +551,25 @@ static/practice/              # 靜態網頁（HUGO 發布）
 └── js/
     └── practice.js           # 打包後的 JS（由 bun build 產生）
 
-tests/                        # 測試檔案
+tests/                        # 測試檔案（392 個測試）
 ├── domain/                   # Domain 層測試
-└── integration/              # 整合測試
+├── integration/              # 整合測試
+├── ui/                       # UI 測試
+├── store/                    # Store 測試（v2.0 新增）
+├── modes/                    # Modes 測試（v2.0 新增）
+├── input/                    # Input 測試（v2.0 新增）
+└── renderers/                # Renderers 測試（v2.0 新增）
 ```
+
+### 架構說明（v2.0）
+
+| 模組 | 職責 | 擴展方式 |
+|------|------|----------|
+| `store/` | 集中管理應用狀態 | 新增 Action Types |
+| `modes/` | 練習模式抽象 | 繼承 PracticeMode，註冊到 ModeRegistry |
+| `input/` | 輸入處理抽象 | 繼承 InputHandler，加入 Factory |
+| `renderers/` | UI 渲染分離 | 新增獨立 Renderer |
+| `App.js` | 整合所有模組 | 統一入口 |
 
 ### 開發流程
 
@@ -571,8 +619,14 @@ bun build src/main.js --outfile static/practice/js/practice.js --minify
 
 修改以下檔案後**必須重新打包**：
 - `src/domain/*.js` - 核心邏輯
+- `src/store/*.js` - 狀態管理
+- `src/modes/*.js` - 練習模式
+- `src/input/*.js` - 輸入處理
+- `src/renderers/*.js` - 渲染器
+- `src/effects/*.js` - 視覺效果
 - `src/services/*.js` - 應用服務
 - `src/ui/*.js` - UI 控制器
+- `src/App.js` - 應用主控制器
 - `src/main.js` - 入口點
 
 ---
