@@ -7,6 +7,68 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.2.0] - 2025-12-22
+
+### Added
+
+#### macOS Dictionary Skill 系統
+
+建立 Claude Code Skill 系統，整合 macOS 內建字典到卡片生成流程。
+
+**Skill 功能**：
+- 查詢 スーパー大辞林（日→日）：讀音、詞性、日文定義
+- 查詢 ウィズダム和英辭典（日→英）：英文翻譯
+- 查詢 國語辭典（中→中）：注音、解釋
+- 查詢 譯典通英漢雙向字典（英↔中）：翻譯
+
+**整合到卡片流程**：
+1. card-structure-handler 建立卡片時自動查詢字典
+2. 字典資料存入 YAML `dictionary` 區塊
+3. build-card-content 使用字典資料作為權威來源
+
+**Skill 架構**：
+- `.claude/skills/macos-dictionary/SKILL.md` - Skill 主文件
+- `.claude/skills/macos-dictionary/references/output-format.md` - 輸出格式規範
+- `.claude/skills/macos-dictionary/references/cjk-handling.md` - 中日漢字處理
+
+**支援腳本**：
+- `scripts/lookup-dictionary.py` - 多語字典查詢 CLI
+
+### Changed
+
+#### 卡片生成流程更新
+
+**card-structure-handler 代理人**：
+- 新增步驟 3.5：查詢字典
+- 新增 YAML `dictionary` 區塊格式
+- 優先使用字典讀音生成 title
+
+**build-card-content 代理人**：
+- 新增步驟 2.4：讀取字典資料
+- 日文解釋以字典定義為基礎
+- 字典資料作為權威來源，減少 AI 幻覺
+
+### Documentation
+
+- 新增 `doc/macos-dictionary-services.md` - DictionaryServices API 技術文檔
+- 更新 `.claude/agents/card-structure-handler.md` - 字典查詢流程
+- 更新 `.claude/agents/build-card-content.md` - 字典資料使用
+- 更新 `CLAUDE.md` - 字典整合說明
+
+### Statistics
+
+- **Skill 檔案**：3 個（SKILL.md + 2 個 references）
+- **腳本更新**：1 個（lookup-dictionary.py）
+- **代理人更新**：2 個（card-structure-handler, build-card-content）
+- **處理時間**：2025-12-22
+
+### Highlights
+
+1. **權威資料來源** - 使用 macOS 內建字典，減少 AI 幻覺風險
+2. **自動化整合** - 卡片建立流程自動查詢字典
+3. **多語支援** - 同時查詢日日、日英、中中、英中字典
+4. **Skill 系統** - 首次建立可重用的 Claude Code Skill
+
 ## [1.1.1] - 2025-12-19
 
 ### Added
