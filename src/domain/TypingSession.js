@@ -83,12 +83,24 @@ export class TypingSession {
    * 註冊事件處理器
    * @param {string} eventType - 事件類型
    * @param {Function} handler - 處理函數
+   * @returns {Function} 取消訂閱函數
    */
   on(eventType, handler) {
     if (!this.#handlers.has(eventType)) {
       this.#handlers.set(eventType, []);
     }
     this.#handlers.get(eventType).push(handler);
+
+    // 返回 unsubscribe 函數
+    return () => {
+      const handlers = this.#handlers.get(eventType);
+      if (handlers) {
+        const index = handlers.indexOf(handler);
+        if (index > -1) {
+          handlers.splice(index, 1);
+        }
+      }
+    };
   }
 
   /**
