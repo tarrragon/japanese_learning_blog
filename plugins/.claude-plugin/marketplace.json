@@ -1,0 +1,17 @@
+{
+  "name": "japanese-learning-tools",
+  "description": "A collection of Claude Code plugins for Japanese language learning, including dictionary lookup, vocabulary extraction, grammar analysis, and more.",
+  "owner": {
+    "name": "Japanese Learning Blog",
+    "url": "https://github.com/tarrragon/japanese-learning-tools"
+  },
+  "plugins": [
+    {
+      "name": "macos-dictionary-plugin",
+      "source": "./macos-dictionary-plugin",
+      "description": "macOS Dictionary integration for Japanese learning (macOS only) - lookup readings, parts of speech, and definitions from built-in Japanese dictionaries",
+      "version": "1.0.0",
+      "platform": "macos"
+    }
+  ]
+}

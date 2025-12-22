@@ -1,0 +1,26 @@
+{
+  "name": "macos-dictionary-plugin",
+  "description": "macOS Dictionary integration for Japanese learning - provides authoritative readings, parts of speech, and definitions from built-in Japanese dictionaries (Super Daijirin, Wisdom J-E)",
+  "version": "1.0.0",
+  "author": "Japanese Learning Blog",
+  "license": "MIT",
+  "platform": "macos",
+  "keywords": [
+    "japanese",
+    "dictionary",
+    "macos",
+    "learning",
+    "jlpt"
+  ],
+  "requirements": {
+    "os": "macOS 10.15+",
+    "python": ">=3.10",
+    "dependencies": [
+      "pyobjc-framework-DictionaryServices"
+    ],
+    "macos_dictionaries": [
+      "スーパー大辞林 (Super Daijirin)",
+      "ウィズダム和英辞典 (Wisdom Japanese-English)"
+    ]
+  }
+}
