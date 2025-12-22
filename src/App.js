@@ -18,6 +18,7 @@ import { KeyboardRenderer } from './ui/KeyboardRenderer.js';
 import { QuestionLoader } from './services/QuestionLoader.js';
 import { SpeechService } from './services/SpeechService.js';
 import { PersistenceService } from './services/PersistenceService.js';
+import { SessionEventTypes } from './domain/EventTypes.js';
 
 export class App {
   #store;
@@ -293,23 +294,28 @@ export class App {
       mode.setupSessionListeners(session);
     }
 
-    // 設定額外事件監聽
-    session.on('CharacterCompleted', () => {
+    // 設定 UI 相關事件監聽
+    // CHARACTER_MISTAKEN 在 PracticeMode 中提供擴展點，這裡只處理 UI 效果
+    session.on(SessionEventTypes.CHARACTER_COMPLETED, () => {
       this.#flashEffect.flashSuccess();
       this.#render();
     });
 
-    session.on('CharacterMistaken', () => {
+    session.on(SessionEventTypes.CHARACTER_MISTAKEN, () => {
       this.#flashEffect.flashError();
     });
 
-    session.on('RomajiMatched', (e) => {
+    session.on(SessionEventTypes.ROMAJI_MATCHED, (e) => {
       this.#updateBufferDisplay(e.romaji);
     });
 
-    session.on('SessionCompleted', (e) => {
-      this.#store.dispatch(actions.completeSession(e));
-    });
+    // 若無 mode（URL text 模式），需由 App 處理 SESSION_COMPLETED
+    // 有 mode 時，由 PracticeMode.setupSessionListeners() 處理
+    if (!mode) {
+      session.on(SessionEventTypes.SESSION_COMPLETED, (e) => {
+        this.#store.dispatch(actions.completeSession(e));
+      });
+    }
 
     // 啟動輸入處理
     this.#switchInputHandler(this.#store.getState().inputMode);

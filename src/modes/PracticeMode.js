@@ -6,6 +6,7 @@
  */
 
 import { TypingSession } from '../domain/TypingSession.js';
+import { SessionEventTypes } from '../domain/EventTypes.js';
 import { actions } from '../store/actions.js';
 
 export class PracticeMode {
@@ -97,15 +98,15 @@ export class PracticeMode {
    * @param {import('../domain/TypingSession.js').TypingSession} session
    */
   setupSessionListeners(session) {
-    session.on('SpeechRequested', (e) => {
+    session.on(SessionEventTypes.SPEECH_REQUESTED, (e) => {
       this.speechService?.speak(e.text);
     });
 
-    session.on('SessionCompleted', (e) => {
+    session.on(SessionEventTypes.SESSION_COMPLETED, (e) => {
       this.onSessionCompleted(e);
     });
 
-    session.on('CharacterMistaken', (e) => {
+    session.on(SessionEventTypes.CHARACTER_MISTAKEN, (e) => {
       this.onCharacterMistaken(e);
     });
   }

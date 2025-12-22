@@ -1,5 +1,6 @@
 import { Question } from '../domain/Question.js';
 import { TypingSession } from '../domain/TypingSession.js';
+import { SessionEventTypes } from '../domain/EventTypes.js';
 import { SpeechService } from '../services/SpeechService.js';
 import { i18n } from '../i18n/index.js';
 
@@ -77,29 +78,29 @@ export class PracticeController {
    */
   #setupEventHandlers() {
     // 部分匹配 - 更新緩衝區顯示
-    this.#session.on('RomajiMatched', (event) => {
+    this.#session.on(SessionEventTypes.ROMAJI_MATCHED, (event) => {
       this.#updateBufferDisplay(event.romaji);
     });
 
     // 字元完成 - 更新顯示、朗讀
-    this.#session.on('CharacterCompleted', (event) => {
+    this.#session.on(SessionEventTypes.CHARACTER_COMPLETED, (event) => {
       this.#render();
       this.#flashSuccess();
     });
 
     // 朗讀請求
-    this.#session.on('SpeechRequested', (event) => {
+    this.#session.on(SessionEventTypes.SPEECH_REQUESTED, (event) => {
       this.#speechService.speak(event.text);
     });
 
     // 輸入錯誤 - 顯示錯誤效果
-    this.#session.on('CharacterMistaken', (event) => {
+    this.#session.on(SessionEventTypes.CHARACTER_MISTAKEN, (event) => {
       this.#flashError();
       this.#updateBufferDisplay('');
     });
 
     // 完成整個題目
-    this.#session.on('SessionCompleted', (event) => {
+    this.#session.on(SessionEventTypes.SESSION_COMPLETED, (event) => {
       this.#showResult(event);
     });
   }
