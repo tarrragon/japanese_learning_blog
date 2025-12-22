@@ -321,6 +321,23 @@ uv run scripts/update_card_progress.py --id {card_id} --stage completed --quiet
 
 參考：`doc/execution-workflow.md`
 
+### 代理人回報規範
+
+**靜默成功原則**：
+- ✅ 成功：**完全不輸出任何文字**（不要說「完成」「成功」「已建立」等）
+- ❌ 失敗：只輸出錯誤格式：`❌ {id} {path} 失敗\n原因：{說明}`
+- 進度追蹤完全依賴 CSV 和驗證腳本
+- 主線程只需處理失敗案例
+
+**標準 Prompt 模板**：`.claude/templates/task-prompt-silent.md`
+
+**違規行為**：
+- 輸出「任務完成」「成功建立」等確認訊息
+- 輸出詳細的卡片內容摘要
+- 輸出統計資訊（字數、例句數等）
+
+**原因**：違規輸出會佔用主線程 context，降低並行效率。
+
 ---
 
 ## 目錄結構
