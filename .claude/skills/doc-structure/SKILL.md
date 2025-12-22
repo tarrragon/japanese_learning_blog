@@ -45,6 +45,24 @@ CLAUDE.md（根）─ 專案規範 + 頂層目錄索引
    - Python：[templates/header-py.txt](templates/header-py.txt)
 3. 填入兩個必要欄位：設計目的、職責
 
+## 驗證工具
+
+### 連結驗證
+
+驗證所有 README.md 的內部連結是否有效：
+
+```bash
+uv run .claude/skills/doc-structure/scripts/validate-readme-links.py
+```
+
+### 結構檢查
+
+檢查預期的 README.md 是否存在：
+
+```bash
+uv run .claude/skills/doc-structure/scripts/check-doc-structure.py
+```
+
 ## 參考文檔
 
 - [README 格式標準](references/readme-format.md)
