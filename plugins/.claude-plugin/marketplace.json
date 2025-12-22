@@ -10,7 +10,7 @@
       "name": "macos-dictionary-plugin",
       "source": "./macos-dictionary-plugin",
       "description": "macOS Dictionary integration for Japanese learning (macOS only) - lookup readings, parts of speech, and definitions from built-in Japanese dictionaries",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "platform": "macos"
     }
   ]

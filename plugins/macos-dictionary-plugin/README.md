@@ -141,6 +141,39 @@ The skill provides structured responses with:
 ### Empty Results
 - Run: `uv pip install pyobjc-framework-DictionaryServices`
 
+## Plugin Structure
+
+```
+macos-dictionary-plugin/
+├── README.md
+├── scripts/
+│   └── lookup-dictionary.py    # Dictionary query script
+└── skills/
+    └── macos-dictionary/
+        ├── SKILL.md            # Core skill instructions
+        ├── references/
+        │   ├── output-format.md    # Response format specification
+        │   └── cjk-handling.md     # CJK character handling guide
+        └── scripts/
+            └── README.md       # Script location reference
+```
+
+## Changelog
+
+### v1.1.0 (2024-12-22)
+
+- **Refactored**: Applied skill-creator best practices
+- **Improved**: Progressive disclosure with references/ directory
+- **Reduced**: SKILL.md from 495 lines to 92 lines
+- **Added**: Dedicated format specification (output-format.md)
+- **Added**: CJK handling guide (cjk-handling.md)
+
+### v1.0.0 (2024-12-22)
+
+- Initial release
+- Japanese dictionary lookup support
+- Multi-language support (Japanese, English, Traditional Chinese)
+
 ## License
 
 MIT
