@@ -1,33 +1,31 @@
-id,category,number,japanese,chinese,english,jlpt,priority,stage,allocated_number,notes
-1,grammar,082,ました形,,Past polite form,n5,High,pending,082,缺少: 日文解釋, 英文解釋, 中文解釋
-2,phrase,022,すみません,對不起/不好意思,Sorry/Excuse me,n5,High,pending,022,缺少: 日文解釋, 英文解釋
-3,phrase,020,お願いします,拜託/請求,Please,n5,High,pending,020,缺少: 日文解釋, 英文解釋
-4,phrase,013,どうしますか,怎麼辦,What shall we do,n4,High,pending,013,缺少: 日文解釋, 英文解釋
-5,phrase,021,ありがとうございます,謝謝,Thank you,n5,High,pending,021,缺少: 日文解釋, 英文解釋
-6,contrast,007,必要性vs義務,,Necessity vs Obligation,n3,High,pending,007,缺少: 日文解釋, 英文解釋, 中文解釋
-7,contrast,008,許可vs禁止,,Permission vs Prohibition,n3,High,pending,008,缺少: 日文解釋, 英文解釋, 中文解釋
-8,contrast,010,商業vs ビジネス,,Commercial vs Business,n2,High,pending,010,缺少: 日文解釋, 英文解釋, 中文解釋
-9,contrast,004,能力vs容量,,Ability vs Capacity,n3,High,pending,004,缺少: 日文解釋, 英文解釋, 中文解釋
-10,contrast,009,請求vs建議,,Request vs Suggestion,n3,High,pending,009,缺少: 日文解釋, 英文解釋, 中文解釋
-11,contrast,005,選擇vs決定,,Choice vs Decision,n3,High,pending,005,缺少: 日文解釋, 英文解釋, 中文解釋
-12,contrast,006,願望vs意志,,Desire vs Volitional,n3,High,pending,006,缺少: 日文解釋, 英文解釋, 中文解釋
-13,comparison,010,ば vs たら,,ba vs tara conditionals,n4,High,pending,010,缺少: 日文解釋, 英文解釋, 中文解釋
-14,comparison,001,が vs は,,ga vs wa particles,n4,High,pending,001,缺少: 日文解釋, 英文解釋, 中文解釋
-15,comparison,009,ば vs と,,ba vs to conditionals,n4,High,pending,009,缺少: 日文解釋, 英文解釋, 中文解釋
-16,comparison,011,條件形比較,,Conditional comparison,n4,High,pending,011,缺少: 日文解釋, 英文解釋, 中文解釋
-17,comparison,014,を vs に,,wo vs ni particles,n4,High,pending,014,缺少: 日文解釋, 英文解釋, 中文解釋
-18,comparison,008,ている vs た,,te iru vs ta aspects,n4,High,pending,008,缺少: 日文解釋, 英文解釋, 中文解釋
-19,comparison,012,主題 vs 主語,,Topic vs Subject,n3,High,pending,012,缺少: 日文解釋, 英文解釋, 中文解釋
-20,comparison,015,あげる vs くれる,,ageru vs kureru giving,n4,High,pending,015,缺少: 日文解釋, 英文解釋, 中文解釋
-21,comparison,002,で vs に (場所),,de vs ni location,n4,High,pending,002,缺少: 日文解釋, 英文解釋, 中文解釋
-22,comparison,013,を vs で,,wo vs de particles,n4,High,pending,013,缺少: 日文解釋, 英文解釋, 中文解釋
-23,adverb,006,すぐ,馬上,Immediately,n4,Medium,pending,006,缺少: 例句
-24,adverb,005,とても,非常,Very,n5,Medium,pending,005,缺少: 例句
-25,adverb,007,まだ,還/尚未,Still/Not yet,n4,Medium,pending,007,缺少: 例句
-26,particle,014,で (手段),,De means particle,n4,High,pending,014,缺少: 日文解釋, 英文解釋
-27,particle,013,から・より,,Kara/Yori comparison,n4,High,pending,013,缺少: 日文解釋, 英文解釋, 中文解釋
-28,verb-u,030,学ぶ,學習,to learn,n4,High,pending,030,來自 linking-1.0.8 連結缺口
-29,verb-u,031,習う,學習/練習,to learn/practice,n5,High,pending,031,來自 linking-1.0.8 連結缺口
-30,adj-i,004,低い,低的,low,n5,High,pending,004,來自 linking-1.0.8 高い反義詞
-31,adverb,008,もう,已經,already,n5,High,pending,008,來自 linking-1.0.8 まだ對比詞
-32,adj-na,002,大変,辛苦/非常,terrible/very,n4,High,pending,002,來自 linking-1.0.8 とても同義詞
+id,category,number,path,japanese,chinese,jlpt,source,priority,stage,note,created,updated,batch
+1,comparison,001,comparison/001_sumimasen_vs_gomennasai.md,すみません vs ごめんなさい,道歉表達比較,n5,ext-1.0.8,Critical,draft,道歉表達比較,2025-12-22,2025-12-22,
+2,comparison,002,comparison/002_totemo_vs_taihen.md,とても vs 大変,程度副詞比較,n4,ext-1.0.8,Critical,draft,程度副詞比較,2025-12-22,2025-12-22,
+3,comparison,003,comparison/003_shikashi_vs_demo.md,しかし vs でも,逆接接續詞比較,n4,ext-1.0.8,Critical,draft,逆接接續詞比較,2025-12-22,2025-12-22,
+4,comparison,004,comparison/004_dokidoki_vs_wakuwaku.md,ドキドキ vs ワクワク,情緒擬態詞比較,n4,ext-1.0.8,Critical,draft,情緒擬態詞比較,2025-12-22,2025-12-22,
+5,comparison,005,comparison/005_ookii_vs_ookina.md,大きい vs 大きな,大小形容詞比較,n5,ext-1.0.8,Critical,draft,大小形容詞比較,2025-12-22,2025-12-22,
+6,comparison,006,comparison/006_benkyousuru_vs_manabu.md,勉強する vs 学ぶ,學習動詞比較,n4,ext-1.0.8,Critical,draft,學習動詞比較,2025-12-22,2025-12-22,
+7,keigo,001,keigo/001_itadaku.md,いただく,謙讓語系統,n4,ext-1.0.8,Critical,draft,謙讓語系統,2025-12-22,2025-12-22,
+8,keigo,002,keigo/002_onegai_keigo.md,お願いの敬語,請求敬語系統,n4,ext-1.0.8,Critical,draft,請求敬語系統,2025-12-22,2025-12-22,
+9,comparison,007,comparison/007_shitsureishimasu_vs_sumimasen.md,失礼します vs すみません,禮貌表達比較,n4,ext-1.0.8,Critical,draft,禮貌表達比較,2025-12-22,2025-12-22,
+10,keigo,003,keigo/003_dousuru_keigo.md,どうするの敬語,動詞敬語形式,n4,ext-1.0.8,Critical,draft,動詞敬語形式,2025-12-22,2025-12-22,
+11,verb-u,030,verb-u/030_manabu.md,学ぶ,學習,n4,link-1.0.8,Critical,draft,勉強する同義詞,2025-12-22,2025-12-22,
+12,verb-u,031,verb-u/031_narau.md,習う,學習/練習,n5,link-1.0.8,Critical,draft,勉強する同義詞,2025-12-22,2025-12-22,
+13,adj-i,004,adj-i/004_hikui.md,低い,低的,n5,link-1.0.8,Critical,draft,高い反義詞,2025-12-22,2025-12-22,
+14,adverb,008,adverb/008_mou.md,もう,已經,n5,link-1.0.8,Critical,draft,まだ對比詞,2025-12-22,2025-12-22,
+15,adj-na,002,adj-na/002_taihen.md,大変,非常/辛苦,n4,link-1.0.8,Critical,draft,とても同義詞,2025-12-22,2025-12-22,
+16,comparison,008,comparison/008_chiisai_vs_chiisana.md,小さい vs 小さな,小形容詞比較,n5,ext-1.0.8,High,draft,小形容詞比較,2025-12-22,2025-12-22,
+17,comparison,009,comparison/009_takai_nedan.md,高い（高度）vs 高い（價格）,高形容詞比較,n5,ext-1.0.8,High,draft,高形容詞比較,2025-12-22,2025-12-22,
+18,comparison,010,comparison/010_sugu_vs_tadachini.md,すぐ vs 直ちに,時間副詞比較,n4,ext-1.0.8,High,draft,時間副詞比較,2025-12-22,2025-12-22,
+19,comparison,011,comparison/011_mada_vs_madamada.md,まだ vs まだまだ,持續副詞比較,n4,ext-1.0.8,High,draft,持續副詞比較,2025-12-22,2025-12-22,
+20,comparison,012,comparison/012_undousuru_vs_sports.md,運動する vs スポーツをする,運動表達比較,n5,ext-1.0.8,High,draft,運動表達比較,2025-12-22,2025-12-22,
+21,comparison,013,comparison/013_soujisuru_vs_katadukeru.md,掃除する vs 片付ける,清潔動詞比較,n5,ext-1.0.8,High,draft,清潔動詞比較,2025-12-22,2025-12-22,
+22,comparison,014,comparison/014_shitagatte_vs_dakara.md,したがって vs だから,因果接續詞比較,n4,ext-1.0.8,High,draft,因果接續詞比較,2025-12-22,2025-12-22,
+23,comparison,015,comparison/015_mataha_vs_aruiha.md,または vs あるいは,選擇接續詞比較,n4,ext-1.0.8,High,draft,選擇接續詞比較,2025-12-22,2025-12-22,
+24,comparison,016,comparison/016_nazenara_vs_datte.md,なぜなら vs だって,理由接續詞比較,n4,ext-1.0.8,High,draft,理由接續詞比較,2025-12-22,2025-12-22,
+25,comparison,017,comparison/017_isseki_vs_ikkyo.md,一石二鳥 vs 一挙両得,成語比較,n3,ext-1.0.8,High,draft,成語比較,2025-12-22,2025-12-22,
+26,comparison,018,comparison/018_pikapika_vs_kirakira.md,ピカピカ vs キラキラ,光澤擬態詞比較,n4,ext-1.0.8,High,draft,光澤擬態詞比較,2025-12-22,2025-12-22,
+27,conjunction,003,conjunction/003_demo.md,でも,但是（口語）,n5,link-1.0.8,High,draft,しかし口語形式,2025-12-22,2025-12-22,
+28,conjunction,004,conjunction/004_keredomo.md,けれども,雖然/但是,n4,link-1.0.8,High,draft,逆接接續詞,2025-12-22,2025-12-22,
+29,conjunction,005,conjunction/005_dakara.md,だから,所以（口語）,n5,link-1.0.8,High,draft,因果接續詞,2025-12-22,2025-12-22,
+30,phrase,023,phrase/023_gomennasai.md,ごめんなさい,對不起,n5,link-1.0.8,High,draft,道歉表達,2025-12-22,2025-12-22,
