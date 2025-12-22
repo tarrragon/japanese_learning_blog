@@ -70,10 +70,12 @@ class CardProgressUpdater:
 
     def save_cards(self):
         """儲存到 CSV 檔案"""
-        fieldnames = [
-            'id', 'category', 'number', 'path', 'japanese', 'chinese',
-            'jlpt', 'source', 'priority', 'stage', 'note', 'created', 'updated', 'batch'
-        ]
+        # 動態取得欄位名稱（從第一筆資料）
+        if not self.cards:
+            self._error("❌ 沒有卡片資料可儲存")
+            return
+
+        fieldnames = list(self.cards[0].keys())
 
         with open(self.csv_path, 'w', encoding='utf-8', newline='') as f:
             writer = csv.DictWriter(f, fieldnames=fieldnames)
@@ -129,7 +131,10 @@ class CardProgressUpdater:
         # 更新時間
         card['updated'] = datetime.now().strftime('%Y-%m-%d')
 
-        self._print(f"✅ 已更新卡片 ID {card_id}: {card['path']}")
+        # 構建檔案路徑（如果沒有 path 欄位）
+        card_path = card.get('path', f"{card['category']}/{card['number']}_{card['japanese']}.md")
+
+        self._print(f"✅ 已更新卡片 ID {card_id}: {card_path}")
         if stage:
             self._print(f"   階段: {stage}")
         if batch is not None:
