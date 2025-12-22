@@ -96,16 +96,21 @@ class PendingCardReader:
             else:
                 number_display = f"#{number_info if number_info else '???'}"
 
+            # 動態生成 path（CSV 不含此欄位）
+            category = card.get('category', '')
+            number = card.get('allocated_number') or card.get('number', '')
+            japanese = card.get('japanese', '')
+            path = f"zettelkasten/{category}/{number}_{japanese}.md" if category and number else ""
+
             line = (
                 f"ID: {card['id']:>3} | "
                 f"{number_display:6} | "
                 f"{card['category']:12} | "
-                f"{card['path']:40} | "
-                f"{card['japanese']:15} | "
-                f"{card['chinese']:10} | "
-                f"JLPT: {card['jlpt']:7} | "
-                f"{card['priority']:8} | "
-                f"{card['stage']}"
+                f"{japanese:15} | "
+                f"{card.get('chinese', ''):10} | "
+                f"JLPT: {card.get('jlpt', ''):7} | "
+                f"{card.get('priority', ''):8} | "
+                f"{card.get('stage', '')}"
             )
             lines.append(line)
 
@@ -117,20 +122,26 @@ class PendingCardReader:
         todo_cards = []
 
         for card in cards:
+            # 動態生成 path（CSV 不含此欄位）
+            category = card.get('category', '')
+            number = card.get('allocated_number') or card.get('number', '')
+            japanese = card.get('japanese', '')
+            path = f"zettelkasten/{category}/{number}_{japanese}.md" if category and number else ""
+
             todo_card = {
                 'id': int(card['id']),
-                'category': card['category'],
+                'category': category,
                 'number': card.get('number', ''),
-                'allocated_number': card.get('allocated_number', ''),  # 新增預分配編號
-                'path': card['path'],
-                'japanese': card['japanese'],
-                'chinese': card['chinese'],
-                'priority': card['priority'],
-                'stage': card['stage'],
-                'jlpt': card['jlpt'],
+                'allocated_number': card.get('allocated_number', ''),
+                'path': path,
+                'japanese': japanese,
+                'chinese': card.get('chinese', ''),
+                'priority': card.get('priority', ''),
+                'stage': card.get('stage', ''),
+                'jlpt': card.get('jlpt', ''),
                 # TodoWrite 可以使用的描述
-                'content': f"建立 {card['path']}",
-                'activeForm': f"建立 {card['japanese']}（{card['chinese']}）卡片"
+                'content': f"建立 {path}",
+                'activeForm': f"建立 {japanese}（{card.get('chinese', '')}）卡片"
             }
             todo_cards.append(todo_card)
 
