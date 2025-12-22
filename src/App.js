@@ -7,7 +7,7 @@
 import { Store } from './store/Store.js';
 import { appReducer } from './store/reducer.js';
 import { initialState } from './store/AppState.js';
-import { actions } from './store/actions.js';
+import { actions, ActionTypes } from './store/actions.js';
 import { modeRegistry } from './modes/ModeRegistry.js';
 import { InputHandlerFactory } from './input/InputHandlerFactory.js';
 import { TextRenderer } from './renderers/TextRenderer.js';
@@ -19,6 +19,8 @@ import { QuestionLoader } from './services/QuestionLoader.js';
 import { SpeechService } from './services/SpeechService.js';
 import { PersistenceService } from './services/PersistenceService.js';
 import { SessionEventTypes } from './domain/EventTypes.js';
+import { SessionStoreAdapter } from './adapters/SessionStoreAdapter.js';
+import { createEffectMiddleware } from './store/middleware/effectMiddleware.js';
 
 export class App {
   #store;
@@ -27,7 +29,9 @@ export class App {
   #inputHandler = null;
   #inputHandlerFactory;
   #currentSession = null;
+  #sessionAdapter = null;
   #flashEffect;
+  #speechService;
   #persistence;
   #keyboardRenderer;
   #questionLoader;
@@ -50,14 +54,14 @@ export class App {
 
     // 建立服務
     this.#questionLoader = new QuestionLoader();
-    const speechService = new SpeechService();
+    this.#speechService = new SpeechService();
     this.#persistence = new PersistenceService();
 
     // 設定模式依賴
     modeRegistry.setDependencies({
       store: this.#store,
       questionLoader: this.#questionLoader,
-      speechService,
+      speechService: this.#speechService,
     });
 
     // 建立渲染器
@@ -77,6 +81,13 @@ export class App {
 
     // 訂閱狀態變化
     this.#subscribeToStore();
+
+    // 訂閱副作用中介層
+    const effectMiddleware = createEffectMiddleware({
+      speechService: this.#speechService,
+      flashEffect: this.#flashEffect,
+    });
+    this.#store.subscribe(effectMiddleware);
   }
 
   /**
@@ -122,14 +133,21 @@ export class App {
    */
   #handleStateChange(state, action) {
     switch (action.type) {
-      case 'COMPLETE_SESSION':
+      case ActionTypes.COMPLETE_SESSION:
         this.#showResult(state.result, state.currentQuestion);
         break;
-      case 'TOGGLE_ROMAJI_HINT':
+      case ActionTypes.TOGGLE_ROMAJI_HINT:
         this.#updateHintVisibility(state.uiSettings.showRomajiHint);
         break;
-      case 'TOGGLE_KEYBOARD':
+      case ActionTypes.TOGGLE_KEYBOARD:
         this.#updateKeyboardVisibility(state.uiSettings.showKeyboard);
+        break;
+      // Session 即時事件（透過 SessionStoreAdapter 轉發）
+      case ActionTypes.ROMAJI_MATCH:
+        this.#updateBufferDisplay(state.session.inputBuffer);
+        break;
+      case ActionTypes.CHARACTER_COMPLETE:
+        this.#render();
         break;
     }
   }
@@ -309,25 +327,14 @@ export class App {
     const session = mode ? mode.createSession(question) : this.#createDefaultSession(question);
     this.#currentSession = session;
 
-    // 設定事件監聽
+    // 建立 Session-Store 橋接器
+    // 將 Session 事件轉發到 Store，由 Store 訂閱者統一處理
+    this.#sessionAdapter = new SessionStoreAdapter(session, this.#store);
+
+    // 設定模式特定的事件監聽
     if (mode) {
       mode.setupSessionListeners(session);
     }
-
-    // 設定 UI 相關事件監聽
-    // CHARACTER_MISTAKEN 在 PracticeMode 中提供擴展點，這裡只處理 UI 效果
-    session.on(SessionEventTypes.CHARACTER_COMPLETED, () => {
-      this.#flashEffect.flashSuccess();
-      this.#render();
-    });
-
-    session.on(SessionEventTypes.CHARACTER_MISTAKEN, () => {
-      this.#flashEffect.flashError();
-    });
-
-    session.on(SessionEventTypes.ROMAJI_MATCHED, (e) => {
-      this.#updateBufferDisplay(e.romaji);
-    });
 
     // 若無 mode（URL text 模式），需由 App 處理 SESSION_COMPLETED
     // 有 mode 時，由 PracticeMode.setupSessionListeners() 處理
@@ -362,6 +369,10 @@ export class App {
     if (this.#inputHandler) {
       this.#inputHandler.dispose();
       this.#inputHandler = null;
+    }
+    if (this.#sessionAdapter) {
+      this.#sessionAdapter.dispose();
+      this.#sessionAdapter = null;
     }
     this.#currentSession = null;
   }
