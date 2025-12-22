@@ -1,16 +1,12 @@
 import { InputBuffer, MatchType } from './InputBuffer.js';
+import { SessionEventTypes } from './EventTypes.js';
 
 /**
  * TypingSession Aggregate Root
  * 管理整個輸入練習的狀態和事件
  *
- * 事件類型：
- * - KeyPressed: 使用者按下任意鍵
- * - RomajiMatched: 輸入匹配部分羅馬字
- * - CharacterCompleted: 完成一個假名
- * - CharacterMistaken: 輸入錯誤
- * - SpeechRequested: 需要朗讀
- * - SessionCompleted: 完成整個題目
+ * 事件類型定義於 EventTypes.js
+ * @see SessionEventTypes
  */
 export class TypingSession {
   #question;
@@ -87,12 +83,24 @@ export class TypingSession {
    * 註冊事件處理器
    * @param {string} eventType - 事件類型
    * @param {Function} handler - 處理函數
+   * @returns {Function} 取消訂閱函數
    */
   on(eventType, handler) {
     if (!this.#handlers.has(eventType)) {
       this.#handlers.set(eventType, []);
     }
     this.#handlers.get(eventType).push(handler);
+
+    // 返回 unsubscribe 函數
+    return () => {
+      const handlers = this.#handlers.get(eventType);
+      if (handlers) {
+        const index = handlers.indexOf(handler);
+        if (index > -1) {
+          handlers.splice(index, 1);
+        }
+      }
+    };
   }
 
   /**
@@ -121,7 +129,7 @@ export class TypingSession {
     this.#totalKeystrokes++;
 
     // 發出 KeyPressed 事件
-    this.#emit('KeyPressed', {
+    this.#emit(SessionEventTypes.KEY_PRESSED, {
       key,
       timestamp: Date.now(),
     });
@@ -157,7 +165,7 @@ export class TypingSession {
    */
   #handleComplete(character, buffer) {
     // 1. 先發出 RomajiMatched 事件（顯示完成的羅馬字）
-    this.#emit('RomajiMatched', {
+    this.#emit(SessionEventTypes.ROMAJI_MATCHED, {
       romaji: buffer.value,
       isPartial: false,
     });
@@ -169,13 +177,13 @@ export class TypingSession {
 
     // 3. 發出 CharacterCompleted 事件
     //    此時 getCurrentCharacter() 已經是下一個字元
-    this.#emit('CharacterCompleted', {
+    this.#emit(SessionEventTypes.CHARACTER_COMPLETED, {
       character,  // 剛完成的字元（供 UI 顯示用）
       duration: Date.now() - this.#startTime.getTime(),
     });
 
     // 4. 發出 SpeechRequested 事件（朗讀剛完成的字元）
-    this.#emit('SpeechRequested', {
+    this.#emit(SessionEventTypes.SPEECH_REQUESTED, {
       text: character.kana,
     });
 
@@ -184,7 +192,7 @@ export class TypingSession {
 
     // 為每個被跳過的標點符號發出事件（讓 UI 更新顯示）
     for (const skippedChar of skippedChars) {
-      this.#emit('CharacterCompleted', {
+      this.#emit(SessionEventTypes.CHARACTER_COMPLETED, {
         character: skippedChar,
         duration: Date.now() - this.#startTime.getTime(),
         skipped: true,  // 標記為跳過
@@ -205,7 +213,7 @@ export class TypingSession {
     this.#inputBuffer = buffer;
 
     // 發出 RomajiMatched 事件
-    this.#emit('RomajiMatched', {
+    this.#emit(SessionEventTypes.ROMAJI_MATCHED, {
       romaji: buffer.value,
       isPartial: true,
     });
@@ -219,7 +227,7 @@ export class TypingSession {
     this.#mistakes++;
 
     // 發出 CharacterMistaken 事件
-    this.#emit('CharacterMistaken', {
+    this.#emit(SessionEventTypes.CHARACTER_MISTAKEN, {
       expected: character.romaji,
       actual: key,
     });
@@ -240,7 +248,7 @@ export class TypingSession {
       ? correctKeystrokes / this.#totalKeystrokes
       : 1;
 
-    this.#emit('SessionCompleted', {
+    this.#emit(SessionEventTypes.SESSION_COMPLETED, {
       totalTime,
       accuracy,
       totalKeystrokes: this.#totalKeystrokes,
@@ -329,20 +337,20 @@ export class TypingSession {
         this.#question = this.#question.advance();
 
         // 發出 CharacterCompleted 事件
-        this.#emit('CharacterCompleted', {
+        this.#emit(SessionEventTypes.CHARACTER_COMPLETED, {
           character: currentChar,
           duration: Date.now() - this.#startTime.getTime(),
         });
 
         // 發出 SpeechRequested 事件（朗讀）
-        this.#emit('SpeechRequested', {
+        this.#emit(SessionEventTypes.SPEECH_REQUESTED, {
           text: currentChar.kana,
         });
 
         // 跳過後續的標點符號
         const skippedChars = this.#skipPunctuation();
         for (const skippedChar of skippedChars) {
-          this.#emit('CharacterCompleted', {
+          this.#emit(SessionEventTypes.CHARACTER_COMPLETED, {
             character: skippedChar,
             duration: Date.now() - this.#startTime.getTime(),
             skipped: true,

@@ -10,10 +10,16 @@
  * 支援兩種輸入模式：
  * 1. romaji：實體鍵盤輸入羅馬字
  * 2. direct：手機輸入（日文 IME）
+ *
+ * 支援三種語言：
+ * 1. zh-TW：繁體中文
+ * 2. en：英文
+ * 3. ja：日文
  */
 
 import { App } from './App.js';
 import { modeRegistry } from './modes/ModeRegistry.js';
+import { i18n } from './i18n/index.js';
 
 // 應用程式實例
 let app = null;
@@ -30,20 +36,34 @@ function createControlPanel(appInstance) {
   if (document.getElementById('practice-controls')) return;
 
   const state = appInstance.getState();
-  const inputModeText = state.inputMode === 'romaji' ? '手機模式' : '鍵盤模式';
-  const hintBtnText = state.uiSettings.showRomajiHint ? '隱藏提示' : '顯示提示';
-  const practiceModeText = state.practiceMode === 'question' ? '假名模式' : '題庫模式';
+  // Bug 修復：按鈕顯示「切換後的目標模式」
+  const inputModeText = state.inputMode === 'romaji'
+    ? i18n.t('mobileMode')
+    : i18n.t('keyboardMode');
+  const hintBtnText = state.uiSettings.showRomajiHint
+    ? i18n.t('hideHint')
+    : i18n.t('showHint');
+  const practiceModeText = state.practiceMode === 'question'
+    ? i18n.t('kanaMode')
+    : i18n.t('questionMode');
   // 假名模式不需要 JLPT 選單
   const jlptDisplayStyle = state.practiceMode === 'kana' ? 'none' : '';
+
+  // 取得當前語言選項
+  const currentLang = i18n.getLanguage();
+  const langOptions = i18n.getSupportedLanguages().map(lang => {
+    const selected = lang === currentLang ? 'selected' : '';
+    return `<option value="${lang}" ${selected}>${i18n.getLanguageName(lang)}</option>`;
+  }).join('');
 
   const controlPanel = document.createElement('div');
   controlPanel.id = 'practice-controls';
   controlPanel.className = 'practice-controls' + (state.practiceMode === 'kana' ? ' controls-centered' : '');
   controlPanel.innerHTML = `
     <div class="control-group" id="jlpt-filter-group" style="display: ${jlptDisplayStyle}">
-      <label for="jlpt-filter">JLPT 等級：</label>
+      <label for="jlpt-filter">${i18n.t('jlptLabel')}</label>
       <select id="jlpt-filter">
-        <option value="all">全部</option>
+        <option value="all">${i18n.t('jlptAll')}</option>
         <option value="n5">N5</option>
         <option value="n4">N4</option>
         <option value="n3">N3</option>
@@ -52,10 +72,11 @@ function createControlPanel(appInstance) {
       </select>
     </div>
     <div class="control-group">
-      <button id="btn-next" class="control-btn">下一題</button>
+      <button id="btn-next" class="control-btn">${i18n.t('nextQuestion')}</button>
       <button id="btn-toggle-practice" class="control-btn secondary">${practiceModeText}</button>
       <button id="btn-toggle-input" class="control-btn secondary">${inputModeText}</button>
       <button id="btn-toggle-hint" class="control-btn secondary">${hintBtnText}</button>
+      <select id="lang-selector" class="lang-selector">${langOptions}</select>
     </div>
   `;
 
@@ -99,7 +120,9 @@ function bindControlPanelEvents(appInstance) {
       const state = appInstance.getState();
       const newMode = state.practiceMode === 'question' ? 'kana' : 'question';
       appInstance.switchPracticeMode(newMode);
-      togglePracticeBtn.textContent = newMode === 'question' ? '假名模式' : '題庫模式';
+      togglePracticeBtn.textContent = newMode === 'question'
+        ? i18n.t('kanaMode')
+        : i18n.t('questionMode');
 
       // 假名模式不需要 JLPT 選單，並調整按鈕置中
       const jlptGroup = document.getElementById('jlpt-filter-group');
@@ -120,7 +143,9 @@ function bindControlPanelEvents(appInstance) {
       const state = appInstance.getState();
       const newMode = state.inputMode === 'romaji' ? 'direct' : 'romaji';
       appInstance.switchInputMode(newMode);
-      toggleInputBtn.textContent = newMode === 'romaji' ? '手機模式' : '鍵盤模式';
+      toggleInputBtn.textContent = newMode === 'romaji'
+        ? i18n.t('mobileMode')
+        : i18n.t('keyboardMode');
     });
   }
 
@@ -130,9 +155,73 @@ function bindControlPanelEvents(appInstance) {
     toggleHintBtn.addEventListener('click', () => {
       appInstance.toggleRomajiHint();
       const state = appInstance.getState();
-      toggleHintBtn.textContent = state.uiSettings.showRomajiHint ? '隱藏提示' : '顯示提示';
+      toggleHintBtn.textContent = state.uiSettings.showRomajiHint
+        ? i18n.t('hideHint')
+        : i18n.t('showHint');
     });
   }
+
+  // 語言切換選單
+  const langSelector = document.getElementById('lang-selector');
+  if (langSelector) {
+    langSelector.addEventListener('change', (e) => {
+      i18n.setLanguage(e.target.value);
+      // 重新載入頁面以應用新語言
+      location.reload();
+    });
+  }
+}
+
+/**
+ * 更新 HTML 中的靜態文字
+ * 根據當前語言設定更新頁面上的文字
+ */
+function updateStaticTexts() {
+  // 頁面標題
+  document.title = `${i18n.t('pageTitle')} | ${i18n.t('siteName')}`;
+
+  // 返回連結
+  const backLink = document.querySelector('.back-link');
+  if (backLink) {
+    backLink.textContent = i18n.t('backToCards');
+  }
+
+  // 行動裝置提示
+  const mobileNotice = document.querySelector('.mobile-notice p');
+  if (mobileNotice) {
+    mobileNotice.textContent = i18n.t('mobileNotice');
+  }
+
+  const backBtn = document.querySelector('.mobile-notice .back-btn');
+  if (backBtn) {
+    backBtn.textContent = i18n.t('backButton');
+  }
+
+  // 練習標題
+  const practiceTitle = document.querySelector('.practice-title');
+  if (practiceTitle) {
+    practiceTitle.textContent = i18n.t('pageTitle');
+  }
+
+  // 手機輸入框
+  const mobileInput = document.getElementById('mobile-kana-input');
+  if (mobileInput) {
+    mobileInput.placeholder = i18n.t('mobileInputPlaceholder');
+  }
+
+  const mobileInputHint = document.querySelector('.mobile-input-hint');
+  if (mobileInputHint) {
+    mobileInputHint.textContent = i18n.t('mobileInputHint');
+  }
+
+  // 頁腳提示
+  const footerHint = document.querySelector('.practice-footer .hint');
+  if (footerHint) {
+    footerHint.textContent = i18n.t('inputHint');
+  }
+
+  // 更新 HTML lang 屬性
+  document.documentElement.lang = i18n.getLanguage();
 }
 
 /**
@@ -141,7 +230,7 @@ function bindControlPanelEvents(appInstance) {
  */
 function showLoading(textContainer) {
   if (textContainer) {
-    textContainer.innerHTML = '<span class="loading">載入題庫中...</span>';
+    textContainer.innerHTML = `<span class="loading">${i18n.t('loadingQuestions')}</span>`;
   }
 }
 
@@ -155,7 +244,7 @@ function showError(textContainer, message) {
     textContainer.innerHTML = `
       <div class="error-message">
         <p>${message}</p>
-        <button onclick="location.reload()">重新載入</button>
+        <button onclick="location.reload()">${i18n.t('reload')}</button>
       </div>
     `;
   }
@@ -165,6 +254,9 @@ function showError(textContainer, message) {
  * 初始化應用程式
  */
 async function init() {
+  // 更新靜態文字（根據語言設定）
+  updateStaticTexts();
+
   // 取得 DOM 元素
   const textContainer = document.getElementById('practice-text');
   const romajiContainer = document.getElementById('practice-romaji');
@@ -213,16 +305,17 @@ async function init() {
       mobileInputElement,
     });
 
-    // 建立控制面板
-    createControlPanel(app);
-
-    // 初始化應用程式
+    // 初始化應用程式（這裡會恢復 localStorage 和 URL 參數的設定）
     await app.initialize();
+
+    // Bug 修復：控制面板必須在 initialize 之後建立
+    // 這樣才能正確讀取恢復後的 inputMode 狀態
+    createControlPanel(app);
 
     console.log('應用程式初始化完成');
   } catch (error) {
     console.error('應用程式初始化失敗:', error);
-    showError(textContainer, '應用程式初始化失敗');
+    showError(textContainer, i18n.t('initFailed'));
   }
 
   // 暴露到全域（用於除錯）

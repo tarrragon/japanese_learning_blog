@@ -28,6 +28,15 @@
  */
 
 /**
+ * @typedef {Object} SessionState - Session 即時狀態
+ * @property {string} inputBuffer - 當前輸入緩衝區
+ * @property {number} currentIndex - 當前字元索引
+ * @property {number} keystrokes - 總按鍵數
+ * @property {number} mistakes - 錯誤數
+ * @property {number|null} startTime - Session 開始時間戳
+ */
+
+/**
  * @typedef {Object} AppState - 應用程式狀態
  * @property {PracticeMode} practiceMode - 練習模式
  * @property {InputMode} inputMode - 輸入模式
@@ -37,6 +46,7 @@
  * @property {Object|null} currentQuestion - 當前題目資料
  * @property {Object|null} result - 練習結果
  * @property {string|null} error - 錯誤訊息
+ * @property {SessionState} session - Session 即時狀態
  */
 
 /**
@@ -57,6 +67,15 @@ export const initialState = {
   currentQuestion: null,
   result: null,
   error: null,
+
+  // Session 即時狀態（對應 TypingSession 內部狀態）
+  session: {
+    inputBuffer: '',
+    currentIndex: 0,
+    keystrokes: 0,
+    mistakes: 0,
+    startTime: null,
+  },
 };
 
 /**

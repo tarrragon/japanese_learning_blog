@@ -7,7 +7,7 @@
 import { Store } from './store/Store.js';
 import { appReducer } from './store/reducer.js';
 import { initialState } from './store/AppState.js';
-import { actions } from './store/actions.js';
+import { actions, ActionTypes } from './store/actions.js';
 import { modeRegistry } from './modes/ModeRegistry.js';
 import { InputHandlerFactory } from './input/InputHandlerFactory.js';
 import { TextRenderer } from './renderers/TextRenderer.js';
@@ -18,6 +18,9 @@ import { KeyboardRenderer } from './ui/KeyboardRenderer.js';
 import { QuestionLoader } from './services/QuestionLoader.js';
 import { SpeechService } from './services/SpeechService.js';
 import { PersistenceService } from './services/PersistenceService.js';
+import { SessionEventTypes } from './domain/EventTypes.js';
+import { SessionStoreAdapter } from './adapters/SessionStoreAdapter.js';
+import { createEffectMiddleware } from './store/middleware/effectMiddleware.js';
 
 export class App {
   #store;
@@ -26,7 +29,9 @@ export class App {
   #inputHandler = null;
   #inputHandlerFactory;
   #currentSession = null;
+  #sessionAdapter = null;
   #flashEffect;
+  #speechService;
   #persistence;
   #keyboardRenderer;
   #questionLoader;
@@ -49,14 +54,14 @@ export class App {
 
     // 建立服務
     this.#questionLoader = new QuestionLoader();
-    const speechService = new SpeechService();
+    this.#speechService = new SpeechService();
     this.#persistence = new PersistenceService();
 
     // 設定模式依賴
     modeRegistry.setDependencies({
       store: this.#store,
       questionLoader: this.#questionLoader,
-      speechService,
+      speechService: this.#speechService,
     });
 
     // 建立渲染器
@@ -76,6 +81,13 @@ export class App {
 
     // 訂閱狀態變化
     this.#subscribeToStore();
+
+    // 訂閱副作用中介層
+    const effectMiddleware = createEffectMiddleware({
+      speechService: this.#speechService,
+      flashEffect: this.#flashEffect,
+    });
+    this.#store.subscribe(effectMiddleware);
   }
 
   /**
@@ -121,11 +133,21 @@ export class App {
    */
   #handleStateChange(state, action) {
     switch (action.type) {
-      case 'COMPLETE_SESSION':
+      case ActionTypes.COMPLETE_SESSION:
         this.#showResult(state.result, state.currentQuestion);
         break;
-      case 'TOGGLE_ROMAJI_HINT':
+      case ActionTypes.TOGGLE_ROMAJI_HINT:
         this.#updateHintVisibility(state.uiSettings.showRomajiHint);
+        break;
+      case ActionTypes.TOGGLE_KEYBOARD:
+        this.#updateKeyboardVisibility(state.uiSettings.showKeyboard);
+        break;
+      // Session 即時事件（透過 SessionStoreAdapter 轉發）
+      case ActionTypes.ROMAJI_MATCH:
+        this.#updateBufferDisplay(state.session.inputBuffer);
+        break;
+      case ActionTypes.CHARACTER_COMPLETE:
+        this.#render();
         break;
     }
   }
@@ -145,6 +167,9 @@ export class App {
       }
       if (savedSettings.showRomajiHint === false) {
         this.#store.dispatch(actions.toggleRomajiHint());
+      }
+      if (savedSettings.showKeyboard === false) {
+        this.#store.dispatch(actions.toggleKeyboard());
       }
     }
 
@@ -252,6 +277,20 @@ export class App {
   }
 
   /**
+   * 切換虛擬鍵盤顯示
+   * 注意：在 direct 輸入模式下，此功能無效（鍵盤強制隱藏）
+   */
+  toggleKeyboard() {
+    const state = this.#store.getState();
+    // 只在 romaji 模式下切換才有意義
+    if (state.inputMode === 'romaji') {
+      this.#store.dispatch(actions.toggleKeyboard());
+      const newState = this.#store.getState();
+      this.#persistence.save({ showKeyboard: newState.uiSettings.showKeyboard });
+    }
+  }
+
+  /**
    * 載入下一題
    */
   async loadNextQuestion() {
@@ -288,28 +327,22 @@ export class App {
     const session = mode ? mode.createSession(question) : this.#createDefaultSession(question);
     this.#currentSession = session;
 
-    // 設定事件監聽
+    // 建立 Session-Store 橋接器
+    // 將 Session 事件轉發到 Store，由 Store 訂閱者統一處理
+    this.#sessionAdapter = new SessionStoreAdapter(session, this.#store);
+
+    // 設定模式特定的事件監聽
     if (mode) {
       mode.setupSessionListeners(session);
     }
 
-    // 設定額外事件監聽
-    session.on('CharacterCompleted', () => {
-      this.#flashEffect.flashSuccess();
-      this.#render();
-    });
-
-    session.on('CharacterMistaken', () => {
-      this.#flashEffect.flashError();
-    });
-
-    session.on('RomajiMatched', (e) => {
-      this.#updateBufferDisplay(e.romaji);
-    });
-
-    session.on('SessionCompleted', (e) => {
-      this.#store.dispatch(actions.completeSession(e));
-    });
+    // 若無 mode（URL text 模式），需由 App 處理 SESSION_COMPLETED
+    // 有 mode 時，由 PracticeMode.setupSessionListeners() 處理
+    if (!mode) {
+      session.on(SessionEventTypes.SESSION_COMPLETED, (e) => {
+        this.#store.dispatch(actions.completeSession(e));
+      });
+    }
 
     // 啟動輸入處理
     this.#switchInputHandler(this.#store.getState().inputMode);
@@ -336,6 +369,10 @@ export class App {
     if (this.#inputHandler) {
       this.#inputHandler.dispose();
       this.#inputHandler = null;
+    }
+    if (this.#sessionAdapter) {
+      this.#sessionAdapter.dispose();
+      this.#sessionAdapter = null;
     }
     this.#currentSession = null;
   }
@@ -372,18 +409,32 @@ export class App {
     const inputSection = typeof document !== 'undefined'
       ? document.getElementById('mobile-input-section')
       : null;
-    const keyboard = this.#elements.keyboardContainer;
 
     if (mode === 'direct') {
       container?.classList.add('mode-direct');
       body?.classList.add('mode-direct');
       if (inputSection) inputSection.style.display = 'block';
-      if (keyboard) keyboard.style.display = 'none';
+      // direct 模式強制隱藏鍵盤
+      this.#updateKeyboardVisibility(false);
     } else {
       container?.classList.remove('mode-direct');
       body?.classList.remove('mode-direct');
       if (inputSection) inputSection.style.display = 'none';
-      if (keyboard) keyboard.style.display = '';
+      // romaji 模式根據 showKeyboard 設定決定
+      const state = this.#store.getState();
+      this.#updateKeyboardVisibility(state.uiSettings.showKeyboard);
+    }
+  }
+
+  /**
+   * 更新鍵盤顯示狀態
+   * @param {boolean} show
+   * @private
+   */
+  #updateKeyboardVisibility(show) {
+    const keyboard = this.#elements.keyboardContainer;
+    if (keyboard) {
+      keyboard.style.display = show ? '' : 'none';
     }
   }
 
