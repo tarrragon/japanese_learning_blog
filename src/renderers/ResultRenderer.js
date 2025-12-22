@@ -4,6 +4,8 @@
  * 負責顯示練習完成後的結果統計
  */
 
+import { i18n } from '../i18n/index.js';
+
 export class ResultRenderer {
   #container;
   #basePath;
@@ -46,37 +48,37 @@ export class ResultRenderer {
       const fullPath = this.#basePath + questionData.source.path;
       sourceLink = `
         <a href="${fullPath}" class="source-link" target="_blank">
-          查看來源卡片：${questionData.source.title} →
+          ${i18n.t('viewSourceCard')}${questionData.source.title} →
         </a>
       `;
     }
 
     // 下一題按鈕
     const nextButton = this.#onNextQuestion
-      ? `<button class="next-btn" id="next-question-btn">下一題</button>`
+      ? `<button class="next-btn" id="next-question-btn">${i18n.t('nextQuestion')}</button>`
       : '';
 
     this.#container.innerHTML = `
       <div class="result-box">
-        <h2>完成！</h2>
+        <h2>${i18n.t('complete')}</h2>
         <div class="result-stats">
           <div class="stat">
             <span class="stat-value">${accuracy}%</span>
-            <span class="stat-label">準確率</span>
+            <span class="stat-label">${i18n.t('accuracy')}</span>
           </div>
           <div class="stat">
             <span class="stat-value">${timeInSeconds}s</span>
-            <span class="stat-label">時間</span>
+            <span class="stat-label">${i18n.t('time')}</span>
           </div>
           <div class="stat">
             <span class="stat-value">${stats.totalKeystrokes}</span>
-            <span class="stat-label">按鍵數</span>
+            <span class="stat-label">${i18n.t('keystrokes')}</span>
           </div>
         </div>
         ${sourceLink}
         <div class="result-actions">
           ${nextButton}
-          <button class="retry-btn" onclick="location.reload()">重新開始</button>
+          <button class="retry-btn" onclick="location.reload()">${i18n.t('retry')}</button>
         </div>
       </div>
     `;
