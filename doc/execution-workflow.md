@@ -169,6 +169,28 @@ uv run scripts/update_card_progress.py --id {card_id} --stage completed --quiet
 
 當第一批完成後，繼續啟動下一批代理人，直到所有 40 個 todo 完成。
 
+### 字典查詢整合（v1.0.x+）
+
+在建立卡片結構時，`card-structure-handler` 會自動查詢 macOS 字典：
+
+```bash
+# 代理人內部執行
+uv run scripts/lookup-dictionary.py {japanese}
+```
+
+**查詢結果**：
+- 讀音（假名）
+- 詞性（動詞、名詞等）
+- 日文定義（字典原文）
+- 英文翻譯（如有和英字典）
+
+**使用方式**：
+- 字典資料存入 YAML `dictionary` 區塊
+- `build-card-content` 使用字典定義作為日文解釋的基礎
+- 減少 AI 幻覺風險，提高內容準確性
+
+**詳細說明**：`doc/macos-dictionary-services.md`
+
 ### 代理人輸入格式
 
 ```

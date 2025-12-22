@@ -49,8 +49,9 @@
 1. 確認分類存在（list-categories.py）
 2. 確認 tags 存在（list-tags.py）
 3. 取得編號（get-next-number.py 或使用 allocated_number）
-4. 生成 title（根據類別規則）
-5. 建立檔案（YAML + 區塊結構）
+3.5 查詢字典（lookup-dictionary.py）← 新增！
+4. 生成 title（使用字典讀音，或根據類別規則）
+5. 建立檔案（YAML + 區塊結構 + dictionary 區塊）
 6. 更新索引（update-index.py）
 ```
 
@@ -222,16 +223,29 @@ needs_review: true
 tags:
   - {tag1}
   - {tag2}
+# 字典資料區塊（新增！）
+dictionary:
+  sources:
+    daijirin: true      # スーパー大辞林
+    waei: false         # ウィズダム和英
+  reading: "たべる"
+  pos: "動詞"
+  pos_details: "一段動詞（下一段）"
+  definition_ja: "食物を口に入れ，かんで飲み込む。"
+  definition_en: null   # 和英字典查詢結果（如有）
+  lookup_date: {YYYY-MM-DD}
 created: {YYYY-MM-DD}
 updated: {YYYY-MM-DD}
 ---
 ```
 
+> **注意**：`dictionary` 區塊由 `lookup-dictionary.py` 腳本結果填充。如果字典查詢失敗，此區塊可省略或標記 `sources.daijirin: false`。
+
 ### 欄位說明
 
 | 欄位 | 必需 | 說明 |
 |------|------|------|
-| `title` | ✅ | 日文標題（根據類別規則生成） |
+| `title` | ✅ | 日文標題（根據類別規則生成，優先使用字典讀音） |
 | `description` | ✅ | 簡短中文說明 |
 | `type` | ✅ | 主類型（noun, verb, grammar 等） |
 | `subtype` | 推薦 | 細分類型（ichidan, godan 等） |
@@ -241,8 +255,22 @@ updated: {YYYY-MM-DD}
 | `auto_generated` | ✅ | 設為 `false` |
 | `needs_review` | ✅ | 固定為 `true` |
 | `tags` | ✅ | 至少 1-3 個標籤 |
+| `dictionary` | 推薦 | 字典查詢結果（如有） |
 | `created` | ✅ | 建立日期 |
 | `updated` | ✅ | 最後更新日期 |
+
+### dictionary 區塊欄位
+
+| 欄位 | 說明 |
+|------|------|
+| `sources.daijirin` | 是否從スーパー大辞林獲取資料 |
+| `sources.waei` | 是否從ウィズダム和英獲取資料 |
+| `reading` | 讀音（假名） |
+| `pos` | 詞性（動詞、名詞、形容詞等） |
+| `pos_details` | 詳細詞性（一段動詞、五段動詞等） |
+| `definition_ja` | 日文定義（字典原文） |
+| `definition_en` | 英文翻譯（和英字典，如有） |
+| `lookup_date` | 查詢日期 |
 
 ---
 
@@ -407,6 +435,42 @@ else:
 uv run scripts/get-next-number.py {category}
 # 輸出：025
 ```
+
+### 步驟 3.5：查詢字典（新增！）
+
+**目的**：從 macOS 內建字典獲取權威資料（讀音、詞性、定義）
+
+```bash
+uv run scripts/lookup-dictionary.py {japanese}
+```
+
+**範例輸出**：
+```json
+{
+  "query": "食べる",
+  "found": true,
+  "sources": {
+    "daijirin": true,
+    "waei": false
+  },
+  "data": {
+    "reading": "たべる",
+    "kanji": "食べる",
+    "pos": "動詞",
+    "pos_details": "一段動詞（下一段）",
+    "definition_ja": "食物を口に入れ，かんで飲み込む。"
+  }
+}
+```
+
+**使用字典資料**：
+- `reading` → 用於生成 title
+- `pos` / `pos_details` → 用於動詞情報表格
+- `definition_ja` → 存入 YAML `dictionary` 區塊供 build-card-content 使用
+
+**Fallback 處理**：
+- 字典查不到 → 使用輸入的 reading 或 AI 推斷
+- 非 macOS 環境 → 跳過字典查詢
 
 ### 步驟 4：生成 title
 
