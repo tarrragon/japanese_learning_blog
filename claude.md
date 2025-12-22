@@ -57,7 +57,6 @@
 
 **階段完成命令**：
 ```bash
-# 卡片內容建立完成後，更新為 draft 狀態
 uv run scripts/update_card_progress.py --id {card_id} --stage draft --quiet
 ```
 
@@ -87,7 +86,6 @@ uv run scripts/update_card_progress.py --id {card_id} --stage draft --quiet
 
 **階段完成命令**：
 ```bash
-# Extension Review 完成後，更新為 extension-review 狀態
 uv run scripts/update_card_progress.py --id {card_id} --stage extension-review --quiet
 ```
 
@@ -111,7 +109,6 @@ uv run scripts/update_card_progress.py --id {card_id} --stage extension-review -
 
 **階段完成命令**：
 ```bash
-# Link Building 完成後，更新為 linking 狀態
 uv run scripts/update_card_progress.py --id {card_id} --stage linking --quiet
 ```
 
@@ -154,27 +151,8 @@ uv run scripts/fix-wikilinks.py --verify
 uv run scripts/manage_worklog_cards.py stats
 ```
 
-**注意**：
-- 編號和連結問題會自動修復
-- Meta 缺口僅檢查，記錄到延伸需求報告供下一版本處理
-
-**圖表審查（可選）**：
-
-使用 `diagram-designer` 代理人審查本版本新增的卡片，評估是否需要新增視覺化圖表：
-
-```
-請審查 {category} 分類的卡片，評估是否需要圖表
-```
-
-**注意**：
-- 圖表審查是**非必要**步驟，由代理人自行判斷
-- 適合加入圖表的情況：多選項判斷、狀態變化、人際互動、分類層級
-- 不需要圖表的情況：單一詞彙、簡單打招呼用語
-- 詳細設計原則請參考：`.claude/diagram-guidelines.md`
-
 **階段完成命令**：
 ```bash
-# 驗證通過後，更新為 completed 狀態
 uv run scripts/update_card_progress.py --id {card_id} --stage completed --quiet
 ```
 
@@ -204,29 +182,21 @@ uv run scripts/update_card_progress.py --id {card_id} --stage completed --quiet
 │     ↓                                                           │
 │     │ 【階段 1: Content Creation】                              │
 │     │ [card-structure-handler + build-card-content 代理人]      │
-│     │ 命令：uv run scripts/update_card_progress.py             │
-│     │       --id {card_id} --stage draft                       │
 │     ↓                                                           │
 │  ② draft（內容已建立）                                           │
 │     ↓                                                           │
 │     │ 【階段 2: Extension Review】                              │
 │     │ [create-extension-cards 代理人檢查延伸需求]               │
-│     │ 命令：uv run scripts/update_card_progress.py             │
-│     │       --id {card_id} --stage extension-review            │
 │     ↓                                                           │
 │  ③ extension-review（延伸需求已審查）                            │
 │     ↓                                                           │
 │     │ 【階段 3: Link Building】                                 │
 │     │ [build-card-links 代理人建立連結]                         │
-│     │ 命令：uv run scripts/update_card_progress.py             │
-│     │       --id {card_id} --stage linking                     │
 │     ↓                                                           │
 │  ④ linking（連結已建立）                                         │
 │     ↓                                                           │
 │     │ 【階段 4: Final Verification】                            │
 │     │ [人工驗證 + diagram-designer 代理人（可選）]              │
-│     │ 命令：uv run scripts/update_card_progress.py             │
-│     │       --id {card_id} --stage completed                   │
 │     ↓                                                           │
 │  ⑤ completed（已完成）                                           │
 │                                                                 │
@@ -284,16 +254,8 @@ uv run scripts/update_card_progress.py --id {card_id} --stage completed --quiet
 │   ↓                                             │
 │ Draft（60 張卡片）                               │
 │   ↓                                             │
-│ Extension-Review                                │
-│   └→ 產出：extension-cards-1.0.6.md（新需求）   │
-│   ↓                                             │
-│ Linking                                         │
-│   └→ 產出：linking-cards-1.0.6.md（新需求）     │
-│   ↓                                             │
-│ Completed                                       │
+│ Extension-Review → Linking → Completed          │
 └─────────────────────────────────────────────────┘
-            ↓（繼續循環）
-         v1.0.7...
 ```
 
 **關鍵規則**：
@@ -326,72 +288,29 @@ uv run scripts/update_card_progress.py --id {card_id} --stage completed --quiet
 3. 使用腳本批次處理卡片內容
 4. 評估工時或延後處理
 
-### 詳細執行指南
-
-參考：`doc/execution-workflow.md`
-
 ### 代理人回報規範
 
 **靜默成功原則**：
-- ✅ 成功：**完全不輸出任何文字**（不要說「完成」「成功」「已建立」等）
+- ✅ 成功：**完全不輸出任何文字**
 - ❌ 失敗：只輸出錯誤格式：`❌ {id} {path} 失敗\n原因：{說明}`
 - 進度追蹤完全依賴 CSV 和驗證腳本
-- 主線程只需處理失敗案例
 
-**標準 Prompt 模板**：`.claude/templates/task-prompt-silent.md`
-
-**違規行為**：
-- 輸出「任務完成」「成功建立」等確認訊息
-- 輸出詳細的卡片內容摘要
-- 輸出統計資訊（字數、例句數等）
-
-**原因**：違規輸出會佔用主線程 context，降低並行效率。
+**詳細執行指南**：[doc/execution-workflow.md](doc/execution-workflow.md)
 
 ---
 
-## 目錄結構
+## 頂層目錄索引
 
-```
-japanese_learning_blog/
-├── CLAUDE.md                 # AI 代理人指南（本文件）
-├── README.md                 # 專案簡介（給使用者）
-├── CHANGELOG.md              # 版本變更紀錄
-│
-├── .claude/                  # Claude Code 配置
-│   ├── agents/               # 工作流程代理人定義
-│   ├── commands/             # Slash Commands 定義
-│   ├── templates/            # 卡片模板
-│   └── *.md                  # 格式規範、檢查清單
-│
-├── doc/                      # 專案文檔
-│   ├── worklog/              # 版本工作日誌與進度追蹤
-│   ├── specs/                # 版本規格文檔（v1.0.7+）
-│   └── hooks/                # 開發工具文檔
-│
-├── scripts/                  # Python 維護工具
-│
-├── zettelkasten/             # 知識卡片系統
-│   ├── _meta/                # Meta 系統（標籤、分類定義）
-│   └── {category}/           # 各分類卡片（noun, verb-ru, grammar...）
-│
-└── articles/                 # 學習文章存放
-```
-
-### 目錄功能說明
-
-| 目錄 | 功能 | 主要內容 |
-|------|------|----------|
-| `.claude/` | Claude Code 配置 | 代理人、命令、模板、規範 |
-| `.claude/agents/` | 代理人定義 | card-structure-handler, build-card-content, build-card-links 等自動化流程 |
-| `.claude/commands/` | Slash Commands | /create-zettel, /analyze-article 等指令 |
-| `doc/worklog/` | 版本追蹤 | 工作日誌、CSV 卡片清單、階段報告 |
-| `doc/specs/` | 版本規格 | v1.0.7-v1.1.0 開發規格文檔 |
-| `doc/hooks/` | 開發指南 | Hook 開發、uv script 模式 |
-| `doc/macos-dictionary-services.md` | 字典技術文檔 | macOS DictionaryServices API 整合指南 |
-| `scripts/` | 維護工具 | 編號管理、索引更新、驗證腳本、字典查詢 |
-| `zettelkasten/` | 卡片系統 | 433+ 張學習卡片，27 個分類 |
-| `zettelkasten/_meta/` | Meta 系統 | 標籤定義、分類索引 |
-| `articles/` | 文章存放 | 待分析的日文學習文章 |
+| 目錄 | 設計意義 | 詳細說明 |
+|------|---------|---------|
+| `src/` | 日文輸入練習系統原始碼 | [src/README.md](src/README.md) |
+| `scripts/` | Python 維護工具 | [scripts/README.md](scripts/README.md) |
+| `.claude/` | Claude Code 配置 | [.claude/README.md](.claude/README.md) |
+| `zettelkasten/` | 知識卡片系統 | [zettelkasten/README.md](zettelkasten/README.md) |
+| `doc/` | 專案文檔 | [doc/README.md](doc/README.md) |
+| `tests/` | 測試架構 | [tests/README.md](tests/README.md) |
+| `static/practice/` | 靜態網頁 | [static/practice/README.md](static/practice/README.md) |
+| `articles/` | 學習文章存放 | [articles/README.md](articles/README.md) |
 
 ---
 
@@ -404,8 +323,8 @@ japanese_learning_blog/
 - **適用**：學習新文章、拓展新領域
 
 ### 場景 B：系統需求補充
-- **結構代理人**：`card-structure-handler`（`.claude/agents/card-structure-handler.md`）
-- **內容代理人**：`build-card-content`（`.claude/agents/build-card-content.md`）
+- **結構代理人**：`card-structure-handler`
+- **內容代理人**：`build-card-content`
 - **觸發**：前一版本的 Extension-Review 和 Linking 階段識別缺口
 - **流程**：
   1. 檢視 `doc/worklog/extension-cards-{prev}.md` 和 `linking-cards-{prev}.md`
@@ -416,354 +335,26 @@ japanese_learning_blog/
 
 ---
 
-## 維護工具
-
-### 卡片系統工具
-
-```bash
-# 1. 列出分類
-uv run scripts/list-categories.py --count
-
-# 2. 列出可用 tags
-uv run scripts/list-tags.py
-
-# 3. 取得下一個編號（支援並發和批次分配）
-uv run scripts/get-next-number.py {category}              # 單個編號
-uv run scripts/get-next-number.py {category} --batch 5    # 批次分配 5 個編號
-
-# 4. 更新索引（必須使用）
-uv run scripts/update-index.py {category}
-
-# 5. 驗證 Meta 系統
-uv run scripts/verify-meta.py --verbose
-
-# 6. 檢查編號連續性
-uv run scripts/fix-numbering.py --check
-
-# 7. 檢查連結格式（修復殘留的舊 Wikilink 格式）
-uv run scripts/fix-wikilinks.py --check
-
-# 8. 查詢 macOS 字典（僅限 macOS，v1.0.10+）
-uv run scripts/lookup-dictionary.py 食べる              # JSON 格式輸出
-uv run scripts/lookup-dictionary.py 勉強 --raw          # 原始字典文字
-```
-
-### macOS 字典整合（v1.0.10+）
-
-使用 macOS 內建的 DictionaryServices API 查詢日文字典，提供權威的讀音、詞性和定義資料。
-
-**支援的字典**：
-- **スーパー大辞林**（三省堂）→ 讀音、詞性、日文定義
-- **ウィズダム和英辞典**（三省堂）→ 英文翻譯
-
-**整合流程**：
-1. `card-structure-handler` 建立卡片時查詢字典
-2. 字典資料存入 YAML 的 `dictionary` 區塊
-3. `build-card-content` 使用字典資料作為權威來源
-
-**資料分工**：
-| 來源 | 提供的資料 |
-|------|-----------|
-| 字典 | 讀音、詞性、日文定義、英文翻譯（如有） |
-| AI | 中文翻譯、擴充解釋、例句設計、學習要點 |
-
-**技術文檔**：`doc/macos-dictionary-services.md`
-
-### 編號管理工具（v1.0.6+）
-
-```bash
-# 預先分配編號（支援並發建立卡片）
-uv run scripts/allocate_card_numbers.py                   # 為所有 pending 卡片分配編號
-uv run scripts/allocate_card_numbers.py --limit 10        # 只分配前 10 張
-uv run scripts/allocate_card_numbers.py --category noun   # 只分配特定分類
-uv run scripts/allocate_card_numbers.py --dry-run         # 乾跑模式（不實際更新）
-```
-
-**編號分配流程**：
-
-1. **傳統方式**（序列執行）：
-   ```bash
-   # 代理人在建立卡片時即時呼叫
-   uv run scripts/get-next-number.py concept
-   # 輸出: 025
-   ```
-   - ❌ 不支援並發（會產生編號衝突）
-   - ✅ 適合單張卡片建立
-
-2. **新方式**（支援並發）：
-   ```bash
-   # 步驟 1：預先分配編號
-   uv run scripts/allocate_card_numbers.py --limit 10
-   # 輸出: 為 10 張卡片分配編號 025-034
-
-   # 步驟 2：查看已分配編號的卡片
-   uv run scripts/get_pending_cards.py --stage pending --limit 10
-   # 輸出: ID: 124 | #025✓ | concept | ...
-
-   # 步驟 3：並發建立卡片（代理人讀取 allocated_number）
-   # 多個代理人可同時執行，不會衝突
-   ```
-   - ✅ 支援並發（使用檔案鎖）
-   - ✅ 適合批次建立卡片
-
-### CSV 工作清單管理工具（v1.0.6+）
-
-```bash
-# 1. 讀取待辦卡片清單（建立 Todo）
-uv run scripts/get_pending_cards.py --stage pending --priority Critical --limit 10
-uv run scripts/get_pending_cards.py --stage pending --format json  # JSON 格式
-
-# 2. 新增待辦卡片（Extension-Review 代理人使用）
-uv run scripts/add_pending_cards.py add --category noun --number 025 \
-    --japanese 語彙 --chinese 詞彙 --jlpt n4 --priority High
-
-uv run scripts/add_pending_cards.py batch --from-json cards.json  # 批次新增
-
-# 3. 更新卡片進度（build-card-content 代理人使用）
-uv run scripts/update_card_progress.py --id 59 --stage completed --quiet
-
-# 4. 查詢統計與驗證
-uv run scripts/manage_worklog_cards.py stats
-uv run scripts/manage_worklog_cards.py list --stage pending --priority Critical
-uv run scripts/manage_worklog_cards.py validate
-```
-
-**腳本用途說明**：
-
-| 腳本 | 用途 | 主要使用者 |
-|------|------|-----------|
-| `get_pending_cards.py` | 讀取待辦卡片清單 | 主線程、代理人 |
-| `add_pending_cards.py` | 新增待辦卡片 | Extension-Review 代理人 |
-| `update_card_progress.py` | 更新卡片進度 | build-card-content 代理人 |
-| `manage_worklog_cards.py` | 查詢統計與驗證 | 人工查詢 |
-| `lookup-dictionary.py` | 查詢 macOS 字典 | card-structure-handler 代理人 |
-
-詳細使用說明請參考：`doc/worklog/README-CSV.md`
-
----
-
-## 日文輸入練習功能（v1.0.9+，v2.0 重構）
-
-### 功能概述
-
-日文羅馬字輸入練習系統，位於 `static/practice/` 目錄。
-
-v2.0 重構後採用模組化架構，支援擴展新的練習模式和輸入方式。
-
-### 目錄結構
-
-```
-src/                          # 原始碼（開發時編輯）
-├── domain/                   # Domain 層（核心邏輯，不變）
-│   ├── Character.js          # 字元 Value Object
-│   ├── Question.js           # 題目 Entity
-│   ├── InputBuffer.js        # 輸入緩衝區
-│   ├── TypingSession.js      # Session Aggregate Root
-│   ├── EventTypes.js         # 事件類型常數
-│   └── RomajiMap.js          # 羅馬字對應表
-│
-├── store/                    # 狀態管理（v2.0 新增）
-│   ├── index.js              # 模組索引
-│   ├── Store.js              # 輕量級 Flux 風格 Store
-│   ├── AppState.js           # 應用程式狀態定義
-│   ├── actions.js            # Action Types 和 Creators
-│   ├── reducer.js            # 狀態更新邏輯
-│   └── middleware/           # 中介層（v2.1 新增）
-│       ├── index.js          # Middleware 索引
-│       └── effectMiddleware.js # 副作用處理（閃爍、語音）
-│
-├── adapters/                 # 橋接器（v2.1 新增）
-│   ├── index.js              # Adapter 索引
-│   └── SessionStoreAdapter.js # Session 事件 → Store 橋接
-│
-├── modes/                    # 練習模式（v2.0 新增）
-│   ├── PracticeMode.js       # 抽象基類
-│   ├── QuestionMode.js       # 題庫模式
-│   ├── KanaMode.js           # 假名模式
-│   └── ModeRegistry.js       # 模式註冊表
-│
-├── input/                    # 輸入處理（v2.0 新增）
-│   ├── InputHandler.js       # 抽象基類
-│   ├── RomajiInputHandler.js # 鍵盤輸入（羅馬字）
-│   ├── DirectInputHandler.js # 手機輸入（日文 IME）
-│   └── InputHandlerFactory.js# 工廠模式
-│
-├── renderers/                # 渲染器（v2.0 新增）
-│   ├── TextRenderer.js       # 題目文字渲染
-│   ├── RomajiRenderer.js     # 羅馬拼音渲染
-│   └── ResultRenderer.js     # 結果顯示
-│
-├── effects/                  # 視覺效果（v2.0 新增）
-│   └── FlashEffect.js        # 成功/錯誤閃爍
-│
-├── services/                 # 應用服務
-│   ├── SpeechService.js      # 語音合成服務
-│   ├── QuestionLoader.js     # 題庫載入服務
-│   └── PersistenceService.js # localStorage 持久化（v2.0 新增）
-│
-├── i18n/                     # 國際化（v2.0 新增）
-│   ├── index.js              # i18n 索引
-│   └── I18nService.js        # 多語系服務（zh-TW, en, ja）
-│
-├── ui/                       # UI 層（保留）
-│   └── KeyboardRenderer.js   # 虛擬鍵盤渲染
-│
-├── App.js                    # 應用主控制器（v2.0 新增）
-└── main.js                   # 入口點（v2.0 簡化）
-
-static/practice/              # 靜態網頁（HUGO 發布）
-├── index.html                # 練習頁面
-├── style.css                 # 樣式
-└── js/
-    └── practice.js           # 打包後的 JS（由 bun build 產生）
-
-tests/                        # 測試檔案（536 個測試）
-├── helpers/                  # 環境模擬工具（v2.2 新增）
-│   ├── browserEnv.js         # 瀏覽器環境模擬
-│   ├── domMock.js            # DOM 元素工廠
-│   └── storageMock.js        # localStorage 模擬
-│
-├── unit/                     # 單元測試（純邏輯）
-│   ├── domain/               # Domain 層（Character, Question, Session...）
-│   ├── services/             # 服務層（SpeechService, PersistenceService）
-│   ├── store/                # 狀態管理（Store, reducer, middleware）
-│   ├── modes/                # 練習模式
-│   └── input/                # 輸入處理
-│
-├── integration/              # 整合測試（模組間互動）
-│   ├── typing/               # 打字流程（TypingFlow, DirectInputFlow）
-│   ├── store/                # Session-Store 流程
-│   └── adapters/             # 橋接器測試
-│
-├── environment/              # 環境適應測試（v2.2 新增）
-│   └── services/             # 服務在瀏覽器/Node 環境的行為
-│
-├── app/                      # App 層整合測試（v2.2 新增）
-│
-├── ui/                       # UI 元件測試
-├── renderers/                # 渲染器測試
-└── i18n/                     # 國際化測試
-```
-
-### 架構說明（v2.1）
-
-| 模組 | 職責 | 擴展方式 |
-|------|------|----------|
-| `store/` | 集中管理應用狀態 | 新增 Action Types |
-| `store/middleware/` | 處理副作用（閃爍、語音） | 新增 middleware 函數 |
-| `adapters/` | 事件系統橋接 | 新增 Adapter 類別 |
-| `modes/` | 練習模式抽象 | 繼承 PracticeMode，註冊到 ModeRegistry |
-| `input/` | 輸入處理抽象 | 繼承 InputHandler，加入 Factory |
-| `renderers/` | UI 渲染分離 | 新增獨立 Renderer |
-| `i18n/` | 國際化支援 | 新增翻譯鍵值 |
-| `App.js` | 整合所有模組 | 統一入口 |
-
-### 資料流架構（v2.1）
-
-```
-使用者輸入 → TypingSession → SessionStoreAdapter → Store
-                                                     ↓
-                              ┌────────────────────────────────────┐
-                              │           Subscribers              │
-                              │  ├─ App.js（UI 更新/渲染）          │
-                              │  └─ effectMiddleware（閃爍效果）    │
-                              └────────────────────────────────────┘
-```
-
-**關鍵元件**：
-- **SessionStoreAdapter**：將 Session 事件（KEY_PRESSED, CHARACTER_COMPLETED 等）轉發為 Store actions
-- **effectMiddleware**：訂閱 Store，處理副作用（閃爍成功/錯誤）
-- **App.js**：訂閱 Store，處理 UI 更新（渲染、Buffer 顯示）
-
-### 開發流程
-
-#### 1. 啟動本地開發環境
-
-使用 HUGO 啟動本地伺服器：
-
-```bash
-hugo server
-```
-
-然後在瀏覽器開啟：`http://localhost:1313/practice/`
-
-#### 2. 修改程式碼
-
-編輯 `src/` 目錄下的原始碼。
-
-#### 3. 執行測試
-
-```bash
-bun test                      # 執行所有測試（536 個）
-bun test tests/unit           # 單元測試
-bun test tests/integration    # 整合測試
-bun test tests/environment    # 環境適應測試
-bun test tests/app            # App 層測試
-```
-
-#### 4. 重新打包（重要！）
-
-**⚠️ 修改 `src/` 目錄後必須重新打包，否則變更不會生效！**
-
-```bash
-bun build src/main.js --outfile static/practice/js/practice.js --minify --format=iife
-```
-
-#### 5. 測試打包結果
-
-重新整理瀏覽器頁面（建議使用強制刷新 `Cmd+Shift+R`）驗證變更。
-
-### 打包格式技術選型
-
-**當前選擇**：`--format=iife`（立即執行函數表達式）
-
-**背景**：v2.0 重構後採用模組化開發（`src/*.js` 使用 ES module 語法），需要打包成瀏覽器可執行的單一檔案。
-
-**可選方案比較**：
-
-| 方案 | 做法 | 優點 | 缺點 |
-|------|------|------|------|
-| IIFE | `--format=iife` | 兼容性最好、無 CORS 限制、不需改 HTML | 無法使用 top-level await 等 ESM 特性 |
-| ES Module | HTML 加 `type="module"` | 支援 ESM 特性、可動態 import | 舊瀏覽器不支援、本地開發需 CORS |
-
-**選擇 IIFE 的理由**：
-1. 練習功能不需要 ESM 特性（如 top-level await、動態 import）
-2. 兼容性優先，支援更多瀏覽器
-3. 避免本地開發的 CORS 問題
-4. 減少變動點（不需修改 HTML）
-
-**日後若需切換為 ESM**：
-1. 移除 `--format=iife` 參數（bun build 預設輸出 ESM）
-2. 修改 `static/practice/index.html`：
-   ```html
-   <script type="module" src="js/practice.js"></script>
-   ```
-3. 注意：本地開發需透過 HTTP server（如 `hugo server`）存取，不能直接開啟 HTML 檔案
-
-### 常見問題
-
-| 問題 | 原因 | 解決方案 |
-|------|------|----------|
-| 修改後沒有效果 | 沒有重新打包 | 執行 `bun build` 命令 |
-| 瀏覽器顯示舊版本 | 瀏覽器快取 | 強制刷新 `Cmd+Shift+R` |
-| 測試通過但功能異常 | 打包版本與原始碼不同步 | 重新打包後再測試 |
-
-### 打包提醒清單
-
-修改以下檔案後**必須重新打包**：
-- `src/domain/*.js` - 核心邏輯
-- `src/store/*.js` - 狀態管理
-- `src/store/middleware/*.js` - 中介層
-- `src/adapters/*.js` - 橋接器
-- `src/modes/*.js` - 練習模式
-- `src/input/*.js` - 輸入處理
-- `src/renderers/*.js` - 渲染器
-- `src/effects/*.js` - 視覺效果
-- `src/services/*.js` - 應用服務
-- `src/i18n/*.js` - 國際化
-- `src/ui/*.js` - UI 控制器
-- `src/App.js` - 應用主控制器
-- `src/main.js` - 入口點
+## 維護工具清單
+
+| 工具 | 功能 |
+|------|------|
+| `list-categories.py` | 列出所有分類 |
+| `list-tags.py` | 列出可用 tags |
+| `get-next-number.py` | 取得下一編號（支援並發） |
+| `allocate_card_numbers.py` | 預先分配編號 |
+| `update-index.py` | 更新分類索引 |
+| `verify-meta.py` | 驗證 Meta 系統 |
+| `fix-numbering.py` | 檢查/修復編號連續性 |
+| `fix-wikilinks.py` | 檢查/修復連結格式 |
+| `lookup-dictionary.py` | 查詢 macOS 字典 |
+| `get_pending_cards.py` | 讀取待辦卡片清單 |
+| `add_pending_cards.py` | 新增待辦卡片 |
+| `update_card_progress.py` | 更新卡片進度 |
+| `manage_worklog_cards.py` | 查詢統計與驗證 |
+
+**詳細使用說明**：[scripts/README.md](scripts/README.md)
+**CSV 工具說明**：[doc/worklog/README-CSV.md](doc/worklog/README-CSV.md)
 
 ---
 
@@ -775,82 +366,13 @@ bun build src/main.js --outfile static/practice/js/practice.js --minify --format
 
 ---
 
-## 重要文檔
-
-### 規範文檔
-- `.claude/card-format-guidelines.md` - 卡片格式規範
-- `.claude/version-cycle-checklist.md` - 版本循環檢查清單
-
-### 執行文檔
-- `doc/execution-workflow.md` - 執行流程詳細指南
-- `doc/worklog/worklog-{version}.md` - 各版本工作日誌
-
-### 工具文檔
-- `doc/hooks/03-uv-single-file-pattern.md` - 維護工具開發指南
-
----
-
-## Slash Commands
-
-**文章分析系列**：
-- `/analyze-article` - 全面分析文章
-- `/extract-vocab` - 提取關鍵詞彙
-- `/explain-grammar` - 深入解析文法
-- `/generate-exercises` - 生成練習題
-
-**Zettelkasten 系列**：
-- `/create-zettel` - 從文章建立卡片
-
----
-
 ## 術語表
 
-為確保文檔一致性，以下是本專案的標準術語：
+詳細術語定義請參考：[doc/terminology.md](doc/terminology.md)
 
-### 核心概念
-
-| 術語 | 英文 | 定義 | 說明 |
-|------|------|------|------|
-| **階段（Phase）** | Phase | 工作流程的步驟 | 四個階段：Content Creation, Extension Review, Link Building, Final Verification |
-| **狀態（Stage）** | Stage | CSV 中的標記 | 五個狀態：pending, draft, extension-review, linking, completed |
-| **狀態轉換** | Stage Transition | 從一個狀態到另一個狀態 | 必須遵守轉換規則，不可跳過中間狀態 |
-
-### 階段與狀態對應
-
-| 階段名稱 | 起始狀態 | 結束狀態 | 說明 |
-|---------|---------|---------|------|
-| 階段 1: Content Creation | `pending` | `draft` | 建立卡片內容（三語解釋、例句） |
-| 階段 2: Extension Review | `draft` | `extension-review` | 檢查並記錄延伸需求 |
-| 階段 3: Link Building | `extension-review` | `linking` | 建立標準連結和腳註 |
-| 階段 4: Final Verification | `linking` | `completed` | 驗證並發布 |
-
-### 五個狀態的含義
-
-| 狀態 | 中文 | 含義 |
-|------|------|------|
-| `pending` | 待處理 | 卡片需求已識別，尚未開始建立內容 |
-| `draft` | 草稿 | 卡片內容已建立，等待審查延伸需求 |
-| `extension-review` | 延伸審查 | 延伸需求已審查，等待建立連結 |
-| `linking` | 連結中 | 連結已建立，等待最終驗證 |
-| `completed` | 已完成 | 卡片已完成所有階段，可發布 |
-
-### 文件與報告
-
-| 術語 | 標準名稱 | 文件路徑格式 | 說明 |
-|------|---------|------------|------|
-| Extension-Review 報告 | 延伸需求報告 | `doc/worklog/extension-cards-{version}.md` | Extension Review 階段產出，記錄從 draft 卡片識別的延伸需求 |
-| Linking 報告 | 連結階段需求報告 | `doc/worklog/linking-cards-{version}.md` | Link Building 階段產出，記錄建立連結時發現的缺口和草稿卡片 |
-| 工作日誌 | 版本工作日誌 | `doc/worklog/worklog-{version}.md` | 記錄整個版本的進度、卡片清單、階段狀態 |
-| 版本依賴 | 版本間依賴關係 | - | v{X} 的延伸需求報告 → v{X+1} 的輸入來源 |
-| 版本規劃 | Content Creation 前置步驟 | - | 階段 1 前的準備工作，檢視前版本報告並建立工作清單 |
-| 代理人 | Agent | `.claude/agents/*.md` | 專門處理特定任務的自動化工作流程（如 card-structure-handler, build-card-content） |
-
-**使用原則**：
-- 文檔中應使用標準名稱，避免混用同義詞
-- **階段（Phase）** 與 **狀態（Stage）** 是不同層次的概念，不可混淆
-- 完成「階段 1: Content Creation」後，狀態變為 `draft`（不是 `extension-review`）
-- 文件路徑必須使用標準格式，確保版本號一致性
-- 版本號格式：`{version}` 表示當前版本，`{prev}` 表示前一版本
+核心概念速查：
+- **階段（Phase）**：工作流程的步驟（Content Creation → Extension Review → Link Building → Final Verification）
+- **狀態（Stage）**：CSV 中的標記（pending → draft → extension-review → linking → completed）
 
 ---
 
