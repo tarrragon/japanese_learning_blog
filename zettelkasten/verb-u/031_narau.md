@@ -211,8 +211,9 @@ To learn or study something from someone, especially skills or arts under a teac
 ## 相關連結
 
 ### 同義詞・相關動詞
-- [学ぶ](../verb-u/021_manabu.md) - 學習（更廣泛的學習概念）
-- 勉強する（待建立） - 學習、用功（學業性學習）
+- [学ぶ](../verb-u/030_manabu.md) - 學習（更廣泛的學習概念）[^learning]
+- [勉強する](../verb-irr/001_benkyousuru.md) - 學習、用功（學業性學習）
+- [學習動詞系統](../comparison/020_learning_verbs.md) - 勉強する/学ぶ/習う/研究する 詳細比較
 - 教わる（待建立） - 被教導（習う的被動形式）
 
 ### 對比詞
@@ -227,6 +228,8 @@ To learn or study something from someone, especially skills or arts under a teac
 ### 相關文法
 - を（待建立） - 賓語助詞
 - に（待建立） - 對象助詞
+
+[^learning]: 「習う」強調在老師指導下學習具體技能，「学ぶ」涵蓋更廣義的學習，「勉強する」則側重於學科學習。詳細比較請參考「學習動詞系統」比較卡片。
 
 ---
 

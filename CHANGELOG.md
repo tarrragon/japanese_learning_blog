@@ -7,6 +7,52 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.3.2] - 2025-12-22
+
+### Added
+
+#### 完成 32 張延伸卡片的四階段循環
+
+本版本完成 v1.3.1 識別的 32 張延伸卡片，完整執行四階段工作流程。
+
+**卡片分布**：
+
+| 分類 | 數量 | 內容 |
+|------|------|------|
+| comparison | 4 張 | 程度副詞、學習動詞、低い vs 安い、もう vs まだ |
+| keigo | 5 張 | くださる、敬語系統、商務禮貌、授受表現、クッション言葉 |
+| phrase | 4 張 | すみません、失礼します、申し訳ございません、ごめん |
+| register | 4 張 | 道歉語域、接續詞語域、時間副詞語域、因果接續詞語域 |
+| grammar | 3 張 | 連體詞、〜ていただく、けれども縮約形 |
+| nuance | 3 張 | まだ多重意義、大変雙重用法、もう多重意義 |
+| onomatopoeia | 4 張 | ドキドキ、ワクワク、ピカピカ、キラキラ |
+| other | 5 張 | しかし、勉強する、高い、すぐ、まだ |
+
+**階段執行紀錄**：
+
+| 階段 | 產出 |
+|------|------|
+| Extension Review | 識別 28 張延伸需求 |
+| Link Building | 建立約 150+ 個雙向連結，80+ 個腳註 |
+| Final Verification | 編號修復 197 檔案，連結驗證通過 |
+
+### Fixed
+
+- 修復 4 個分類的編號間隔（comparison, conjunction, grammar, verb-irr）
+- 共重新編號 197 個檔案
+
+### Documentation
+
+- `doc/worklog/extension-cards-1.3.2.md` - Extension Review 報告
+- `doc/worklog/linking-cards-1.3.2.md` - Link Building 報告
+
+### Statistics
+
+- **完成卡片**：32 張（v1.3.2）+ 30 張（v1.3.1）= 62 張總完成
+- **建立連結**：約 150+ 個雙向連結
+- **新增腳註**：約 80+ 個
+- **識別缺口**：Critical 5 張（いらっしゃる、おっしゃる等）、High 7 張
+
 ## [1.3.1] - 2025-12-22
 
 ### Added

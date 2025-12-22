@@ -1,142 +1,146 @@
 ---
-title: 擬聲擬態詞：ドキドキ
-description: 心跳加速（緊張或興奮）
-type: onomatopoeia
-jlpt: n4
-stage: draft
+id: "001"
+title: "ドキドキ"
+category: "onomatopoeia"
 tags:
-  - onomatopoeia
-  - gitaigo
-  - jlpt/n4
-  - emotion/nervous
-  - emotion/excited
-date: 2025-12-18
-updated: 2025-12-18
+  - emotion
+  - feeling
+  - physical_sensation
+jlpt: n4
+created: 2025-12-22
+updated: 2025-12-22
 ---
 
-## 日文
-ドキドキ
+## 基本資料
 
-**羅馬拼音**：dokidoki
+**日文**：ドキドキ
 
-**詞性**：擬態詞（gitaigo）
+**讀音**：どきどき
 
-## 日文解釋
+**詞性**：副詞、サ変動詞
 
-心臓が速く強く打つ様子を表す擬態語。緊張や不安、期待、恋愛感情などで胸が高鳴る心理状態を描写する。心臓の鼓動音を直接的に表現するのではなく、その感覚や心理的な興奮状態を表す。主に感情的な場面で使われ、日常会話で非常によく用いられる表現。
+**JLPT 等級**：N4
 
-## 英文解釋
+## 字典資料
 
-**Equivalent**: heart-pounding, heart-thumping, palpitating
-
-A mimetic word (gitaigo) that describes the feeling of one's heart beating fast and hard. It expresses psychological states of nervousness, anxiety, anticipation, or romantic excitement. Unlike onomatopoeia that directly imitates sound, this word captures the sensation and emotional experience of a racing heartbeat. Commonly used in everyday conversation to describe emotionally charged situations.
+（字典未收錄此擬聲語，以下為標準用法）
 
 ## 中文解釋
 
-**擬態詞（gitaigo）**
+心跳加速；心臟怦怦跳；忐忑不安
 
-描述心臟快速強烈跳動的感覺。表達緊張、不安、期待或戀愛情感等心理狀態下的心跳加速感受。這個詞不是直接模擬心跳聲音，而是捕捉那種心跳加速的感覺和情緒體驗。在日常對話中非常常用，用來描述情緒激動的場面。
+表示因緊張、興奮、期待、害怕、戀愛等情緒而引起的心跳加速感。是描繪心臟跳動狀態的擬態語。
 
-**使用場景**：
-- 緊張情境（面試、考試、發表）
-- 期待興奮（約會前、重要時刻）
-- 運動後心跳加速
-- 驚嚇或害怕的反應
+## 英文解釋
 
-## ドキドキ vs ワクワク 比較圖
+heart pounding; heart throbbing; nervous excitement
 
-```mermaid
-flowchart TD
-    A["心跳加速感<br/>どちらを使う？"] --> B{"情感類型？"}
+An onomatopoeia describing the sensation of a racing heartbeat caused by nervousness, excitement, anticipation, fear, or romantic feelings. It mimics the sound and feeling of a pounding heart.
 
-    B -->|"正面或負面<br/>緊張、不安、期待"| C["ドキドキ<br/>心跳加速"]
-    B -->|"純粹正面<br/>期待、興奮"| D["ワクワク<br/>心情雀躍"]
+## 日文解釋
 
-    C --> E["可能有壓力<br/>面試、告白、害怕"]
-    D --> F["輕鬆快樂<br/>旅行、禮物、新體驗"]
+心臓が速く強く鳴る様子を表す擬態語。緊張や期待、恋愛感情などによって心臓の鼓動が高まる状態を描写する。
 
-    style A fill:#607D8B,color:white
-    style B fill:#795548,color:white
-    style C fill:#E91E63,color:white
-    style D fill:#FFC107,color:white
-    style E fill:#F48FB1,color:white
-    style F fill:#FFE082,color:white
-```
+## 用法說明
 
-**關鍵區別**：
-- **ドキドキ**：情感範圍廣，可正面可負面
-- **ワクワク**：只有正面期待的情緒
+### 使用情境
+
+1. **緊張場面**：面試、考試、發表前
+2. **期待時刻**：等待結果、約會前
+3. **戀愛情感**：見到喜歡的人、告白時
+4. **驚嚇恐懼**：可怕的情境、驚險時刻
+5. **興奮激動**：重要時刻、刺激體驗
+
+### 常見搭配
+
+- ドキドキする（心跳加速）
+- ドキドキしながら（一邊心跳加速一邊...）
+- 胸がドキドキする（胸口怦怦跳）
+- ドキドキが止まらない（心跳停不下來）
+- ドキドキハラハラ（既緊張又擔心）
+
+### 使用注意
+
+1. **生理反應**：主要描述心跳的生理感受，不僅是情緒
+2. **正負兼用**：可表達正面情緒（期待、戀愛）或負面情緒（緊張、害怕）
+3. **重疊形式**：ドキドキ是已經重疊的形式，表示持續的心跳
+4. **動詞化**：ドキドキする是常見用法
+5. **強度表現**：可用「すごくドキドキ」「ドキドキが激しい」等表示程度
 
 ## 例句
 
-### 例句 1
-**日文**：明日の試験のことを考えると、ドキドキして眠れない。
+1. 明日は大事な面接だから、今からドキドキしている。
+   - 中文：因為明天有重要的面試，現在就開始緊張了。
+   - 英文：I'm already nervous because I have an important interview tomorrow.
 
-**羅馬拼音**：Ashita no shiken no koto o kangaeru to, dokidoki shite nemurenai.
+2. 彼女に告白する時、胸がドキドキして言葉が出なかった。
+   - 中文：向她告白時，心跳得厲害，說不出話來。
+   - 英文：When I confessed to her, my heart was pounding so hard I couldn't speak.
 
-**英文**：When I think about tomorrow's exam, my heart pounds and I can't sleep.
+3. 試験の結果を見る前、ドキドキしながら封筒を開けた。
+   - 中文：看考試結果前，心跳加速地打開信封。
+   - 英文：I opened the envelope with my heart pounding before looking at the exam results.
 
-**中文**：一想到明天的考試，就緊張得心跳加速，睡不著覺。
+4. 初めてのデートで、会う前からドキドキが止まらなかった。
+   - 中文：第一次約會，見面前就一直心跳不停。
+   - 英文：On my first date, my heart wouldn't stop racing even before we met.
 
----
+5. ホラー映画を見ている時、ドキドキハラハラして怖かった。
+   - 中文：看恐怖電影時，又緊張又害怕。
+   - 英文：While watching the horror movie, I was nervous and scared with my heart pounding.
 
-### 例句 2
-**日文**：好きな人に告白する前、ドキドキが止まらなかった。
+## 相關詞彙與比較
 
-**羅馬拼音**：Suki na hito ni kokuhaku suru mae, dokidoki ga tomaranakatta.
+### 類似表現
 
-**英文**：Before confessing to my crush, my heart wouldn't stop pounding.
+- **ワクワク**（わくわく）：期待興奮（強調愉快的期待感，較正面）
+- **ハラハラ**（はらはら）：提心吊膽（強調擔心、不安）
+- **ソワソワ**（そわそわ）：坐立不安（外在行為的不安）
+- **ウキウキ**（うきうき）：雀躍開心（純粹的喜悅）
 
-**中文**：在向喜歡的人告白之前，心跳一直停不下來。
+### ドキドキ vs ワクワク
 
----
+| 項目 | ドキドキ | ワクワク |
+|------|---------|---------|
+| 核心感受 | 心跳加速（生理） | 興奮期待（心理） |
+| 情緒色彩 | 正負皆可 | 主要為正面 |
+| 使用場景 | 緊張、戀愛、恐懼 | 期待、愉快的期待 |
+| 例句 | 試験前にドキドキする | 旅行が楽しみでワクワクする |
 
-### 例句 3
-**日文**：初めての海外旅行で、空港に着いた時からドキドキしていた。
+### 關聯概念
 
-**羅馬拼音**：Hajimete no kaigai ryokō de, kūkō ni tsuita toki kara dokidoki shite ita.
+- **心臓の鼓動**（しんぞうのこどう）：心臟的跳動
+- **緊張**（きんちょう）：緊張
+- **不安**（ふあん）：不安
+- **期待**（きたい）：期待
+- **恋**（こい）：戀愛
 
-**英文**：On my first overseas trip, my heart was pounding from the moment I arrived at the airport.
+## 延伸學習
 
-**中文**：第一次出國旅行，從到達機場那刻起就興奮得心跳加速。
+### 其他心理狀態的擬態語
 
----
+- **イライラ**：焦躁不安
+- **モヤモヤ**：心裡悶悶的
+- **ムカムカ**：反胃、生氣
+- **ウズウズ**：躍躍欲試
 
-### 例句 4
-**日文**：面接の結果を待っている間、ずっとドキドキしている。
+### 文化背景
 
-**羅馬拼音**：Mensetsu no kekka o matte iru aida, zutto dokidoki shite iru.
+在日本文化中，ドキドキ常出現在少女漫畫、戀愛劇中描繪心動時刻。也是描述初戀、告白等場景的經典用語。
 
-**英文**：While waiting for the interview results, my heart keeps pounding.
+## 連結
 
-**中文**：在等待面試結果的期間，一直緊張得心跳不已。
+### 對比與比較
+- [ワクワク](002_wakuwaku.md) - 興奮期待（強調愉快的期待感）[^1]
+- [ドキドキ vs ワクワク](../comparison/004_dokidoki_vs_wakuwaku.md) - 詳細比較分析
 
----
+### 相關情緒概念
+- [緊張（きんちょう）](../noun/待建立.md) - 相關情緒
+- [恋（こい）](../noun/待建立.md) - 戀愛情感
 
-## 註解
+### 其他擬態語
+- [ハラハラ](../onomatopoeia/待建立.md) - 提心吊膽（強調擔心、不安）
+- [ソワソワ](../onomatopoeia/待建立.md) - 坐立不安
+- [ウキウキ](../onomatopoeia/待建立.md) - 雀躍開心
 
-### 擬態詞 vs 擬聲詞
-
-**ドキドキ**是擬態詞（gitaigo），表達的是心跳加速的**感覺和心理狀態**，而非直接模擬心跳的聲音。雖然日文中「どきん」可以表示心跳的聲音（擬聲詞），但「ドキドキ」更側重於描述情緒激動時的內心感受。
-
-### 語感與用法
-
-- **重複形式**：「ドキドキ」採用重複結構，強化持續性和強度
-- **動詞形**：常與「する」搭配使用：「ドキドキする」（心跳加速）
-- **情感色彩**：可以是正面（期待、興奮）或負面（緊張、不安）
-- **搭配詞**：
-  - ドキドキが止まらない（心跳停不下來）
-  - ドキドキ感（心跳加速的感覺）
-  - 胸がドキドキする（胸口怦怦跳）
-
-### 相似表現
-
-- **わくわく**：更偏向期待和興奮的正面情緒
-- **そわそわ**：坐立不安，較為焦慮
-- **はらはら**：擔心緊張，觀看時的心情
-
----
-
-## 相關連結
-
-（待補充）
+[^1]: ドキドキ是生理反應（心跳加速），可表達正負面情緒；ワクワク是心理狀態（期待興奮），主要為正面情緒。詳見[比較卡片](../comparison/004_dokidoki_vs_wakuwaku.md)。

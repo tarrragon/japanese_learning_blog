@@ -1,41 +1,24 @@
 ---
-title: 擬聲擬態詞：ワクワク
-description: 興奮期待
-type: onomatopoeia
-jlpt: n4
-stage: draft
+id: "002"
+title: "ワクワク"
+title_en: "wakuwaku"
+category: "onomatopoeia"
 tags:
-  - onomatopoeia
-  - gitaigo
-  - jlpt/n4
-  - emotion/excited
-  - emotion/anticipation
-date: 2025-12-18
-updated: 2025-12-18
+  - "jlpt-n4"
+  - "emotion"
+  - "positive"
+  - "gitaigo"
+created: 2025-12-18
+updated: 2025-12-22
+status: "draft"
+dictionary: null
 ---
 
-## 日文
-ワクワク
-
-**羅馬拼音**：wakuwaku
-
-**詞性**：擬態詞（gitaigo）
-
-## 日文解釋
-
-楽しみで期待に胸が膨らむ様子を表す擬態語。これから起こる嬉しいことやワクワクする出来事を待つ時の、心が躍るような感覚を描写する。ポジティブな感情を表現し、子供から大人まで幅広く使われる。「ドキドキ」と異なり、不安や緊張ではなく純粋な期待感と喜びを表す。
-
-## 英文解釋
-
-**Equivalent**: excited, thrilled, eager with anticipation
-
-A mimetic word (gitaigo) that describes a feeling of excitement and eager anticipation. It captures the sensation of one's heart swelling with joy when looking forward to something pleasant or exciting. This expression conveys purely positive emotions, unlike "dokidoki" which can include nervousness or anxiety. Widely used by people of all ages to express enthusiastic anticipation.
+# ワクワク
 
 ## 中文解釋
 
-**擬態詞（gitaigo）**
-
-描述對即將發生的美好事物充滿期待、興奮雀躍的心情。表達內心因期待而膨脹的喜悅感受。這是一個純粹正面的情緒表達，與「ドキドキ」（可能包含緊張不安）不同，「ワクワク」只傳達期待和興奮的正面情感。從兒童到成人都廣泛使用。
+形容期待某事發生時內心興奮、雀躍的狀態。這是一種充滿期待感的正面情緒，常用於描述對即將到來的美好事物的期待心情。
 
 **使用場景**：
 - 期待愉快的活動（旅行、慶典、聚會）
@@ -43,97 +26,111 @@ A mimetic word (gitaigo) that describes a feeling of excitement and eager antici
 - 收到禮物或驚喜前
 - 計劃有趣的事情時
 
+## 英文解釋
+
+Describes a state of excitement and anticipation when looking forward to something. It expresses a positive emotion filled with eager expectation for something pleasant that is about to happen.
+
+## 日文解釋
+
+これから起こることに対して期待して、心が弾む様子を表す擬態語。楽しみなことが待っている時の、わくわくする気持ちを表現する。ポジティブな感情を表し、子供から大人まで幅広く使われる。「ドキドキ」と異なり、不安や緊張ではなく純粋な期待感と喜びを表す。
+
+## 用法
+
+### 基本用法
+
+1. **副詞用法**
+   - ワクワクする - 感到興奮期待
+   - ワクワクしながら - 一邊興奮期待地
+   - ワクワクした気持ち - 興奮期待的心情
+
+2. **重疊強調**
+   - ワクワクドキドキ - 既期待又緊張
+   - ワクワクワクワク - 非常興奮期待（加強語氣）
+
+### 與「ドキドキ」的區別
+
+| 詞彙 | 情緒性質 | 主要用途 |
+|------|---------|---------|
+| ワクワク | 純粹期待、興奮 | 對美好事物的期待 |
+| ドキドキ | 緊張、心跳加速 | 緊張、不安、戀愛心動 |
+
+ワクワク強調「期待感」，是積極正面的情緒；ドキドキ強調「心跳加速」，可能包含緊張或不安成分。
+
 ## 例句
 
 ### 例句 1
+
 **日文**：明日の遠足が楽しみで、ワクワクして眠れない。
 
 **羅馬拼音**：Ashita no ensoku ga tanoshimi de, wakuwaku shite nemurenai.
 
-**英文**：I'm so excited about tomorrow's field trip that I can't sleep.
+**中文翻譯**：因為期待明天的遠足，興奮得睡不著覺。
 
-**中文**：對明天的遠足充滿期待，興奮得睡不著覺。
-
----
+**英文翻譯**：I'm so excited about tomorrow's field trip that I can't sleep.
 
 ### 例句 2
-**日文**：新しいプロジェクトが始まると思うと、ワクワクする。
 
-**羅馬拼音**：Atarashii purojekuto ga hajimaru to omou to, wakuwaku suru.
+**日文**：新しいプロジェクトが始まると思うと、ワクワクしてくる。
 
-**英文**：I get excited when I think about the new project starting.
+**羅馬拼音**：Atarashii purojekuto ga hajimaru to omou to, wakuwaku shite kuru.
 
-**中文**：一想到新專案要開始，就感到興奮期待。
+**中文翻譯**：一想到新專案即將開始，就感到興奮期待。
 
----
+**英文翻譯**：I get excited when I think about the new project starting.
 
 ### 例句 3
-**日文**：子供たちはクリスマスプレゼントを待って、ワクワクしている。
 
-**羅馬拼音**：Kodomo-tachi wa kurisumasu purezento o matte, wakuwaku shite iru.
+**日文**：子供たちはクリスマスプレゼントをワクワクしながら待っている。
 
-**英文**：The children are excited, waiting for their Christmas presents.
+**羅馬拼音**：Kodomo-tachi wa kurisumasu purezento wo wakuwaku shinagara matte iru.
 
-**中文**：孩子們等待聖誕禮物，興奮不已。
+**中文翻譯**：孩子們興奮地期待著聖誕禮物。
 
----
+**英文翻譯**：The children are excitedly waiting for their Christmas presents.
 
 ### 例句 4
-**日文**：初めての海外出張で、ワクワク感が止まらない。
 
-**羅馬拼音**：Hajimete no kaigai shucchō de, wakuwaku-kan ga tomaranai.
+**日文**：初めての海外旅行にワクワクが止まらない。
 
-**英文**：For my first overseas business trip, I can't stop feeling excited.
+**羅馬拼音**：Hajimete no kaigai ryokō ni wakuwaku ga tomaranai.
 
-**中文**：第一次出國出差，興奮期待的感覺停不下來。
+**中文翻譯**：對第一次出國旅行感到無比興奮期待。
 
----
+**英文翻譯**：I can't contain my excitement about my first overseas trip.
 
 ### 例句 5
-**日文**：週末のキャンプを計画しながら、みんなでワクワクしていた。
 
-**羅馬拼音**：Shūmatsu no kyanpu o keikaku shinagara, minna de wakuwaku shite ita.
+**日文**：彼女はワクワクした表情で、箱を開けた。
 
-**英文**：While planning the weekend camping trip, we were all excited together.
+**羅馬拼音**：Kanojo wa wakuwaku shita hyōjō de, hako wo aketa.
 
-**中文**：在計劃週末露營時，大家一起興奮期待著。
+**中文翻譯**：她帶著興奮期待的表情打開了盒子。
 
----
+**英文翻譯**：She opened the box with an excited expression.
 
-## 註解
+## 學習要點
 
-### 擬態詞特性
+1. **情緒性質**：ワクワク表達純粹的期待和興奮，是正面積極的情緒
+2. **使用時機**：主要用於期待美好事物發生時，而非緊張或不安的情況
+3. **搭配動詞**：常與「する」「させる」「しながら」等搭配使用
+4. **語感差異**：比「楽しみ」更強調內心的雀躍感和動態感
+5. **書寫形式**：通常使用片假名，偶爾也寫作「わくわく」（平假名）
+6. **擬態詞特性**：描述內心感受和心理狀態，而非具體的聲音或外在動作
 
-**ワクワク**是擬態詞（gitaigo），描述的是期待興奮的**內心感受和心理狀態**，而非具體的聲音或外在動作。它捕捉了那種因期待美好事物而產生的心情雀躍感。
+## 相關詞彙
 
-### 語感與用法
+### 對比與比較
+- [ドキドキ](001_dokidoki.md) - 心跳加速、緊張（強調生理反應）[^1]
+- [ドキドキ vs ワクワク](../comparison/004_dokidoki_vs_wakuwaku.md) - 詳細比較分析
 
-- **重複形式**：「ワクワク」採用重複結構，強調持續的興奮期待感
-- **動詞形**：常與「する」搭配：「ワクワクする」（感到興奮期待）
-- **情感色彩**：純粹正面，表達喜悅和期待
-- **年齡適用**：從兒童到成人都可使用，不分年齡層
-- **搭配詞**：
-  - ワクワク感（興奮期待的感覺）
-  - ワクワクが止まらない（興奮停不下來）
-  - ワクワクドキドキ（既興奮又緊張）
+### 類似表現
+- ウキウキ - 心情愉快、雀躍（純粹喜悅）
+- 楽しみ（たのしみ）- 期待、盼望（名詞形式）
+- 期待（きたい）- 期待（漢語詞，較正式）
 
-### ワクワク vs ドキドキ
+[^1]: ワクワク強調「期待感」，是積極正面的情緒；ドキドキ強調「心跳加速」，可能包含緊張或不安成分。詳見[比較卡片](../comparison/004_dokidoki_vs_wakuwaku.md)。
 
-| 特性 | ワクワク | ドキドキ |
-|------|---------|---------|
-| **情感色彩** | 純粹正面（期待、興奮） | 正面或負面（緊張、不安、期待） |
-| **心理狀態** | 愉快的期待感 | 心跳加速的緊張感 |
-| **使用場景** | 期待有趣的事物 | 緊張、害怕、戀愛等情境 |
-| **語感** | 輕鬆、快樂 | 較為強烈、可能有壓力 |
+## 參考資料
 
-### 相似表現
-
-- **楽しみ（たのしみ）**：名詞，表示「期待」
-- **うきうき**：心情愉快雀躍
-- **そわそわ**：坐立不安（較負面）
-
----
-
-## 相關連結
-
-（待補充）
+- JLPT N4 擬態語
+- 日本語表現文型辭典

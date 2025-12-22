@@ -96,3 +96,6 @@ Compared to "shikashi" (しかし), "demo" is more casual[^casual] and natural i
 ### 延伸說明
 - [逆接連接詞的使用場景](../extension/conjunction-usage-contexts.md) - 何時使用哪個逆接詞
 - [でも vs しかし vs けど](../extension/comparison/demo-shikashi-kedo.md) - 三者的語感差異
+- [接続詞の語域](../register/002_conjunction_register.md) - 接續詞的語域階層系統[^register]
+
+[^register]: 「でも」屬於接續詞語域的最低級（最口語），理解整體語域階層有助於在不同場合選擇適當的接續詞。

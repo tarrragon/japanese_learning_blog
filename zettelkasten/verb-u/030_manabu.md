@@ -79,9 +79,12 @@ to learn, to study (emphasizes acquiring knowledge or skills through practice, e
 
 ## 相關連結
 
-- [勉強する](../../verb-ru/001_benkyousuru.md) - 一般性的學習
-- [教える](../../verb-ru/002_oshieru.md) - 教導（學習的相對動作）
+- [勉強する](../verb-irr/001_benkyousuru.md) - 一般性的學習[^compare]
 - [習う](../verb-u/031_narau.md) - 向人學習、拜師學習
+- [學習動詞系統](../comparison/020_learning_verbs.md) - 勉強する/学ぶ/習う/研究する 詳細比較
+- [教える](../verb-ru/002_oshieru.md) - 教導（學習的相對動作）
+
+[^compare]: 「学ぶ」強調通過實踐、經驗或觀察來習得知識，「勉強する」則是一般性的學習或讀書。詳細比較請參考「學習動詞系統」比較卡片。
 
 ---
 
