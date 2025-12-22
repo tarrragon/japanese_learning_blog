@@ -1,11 +1,14 @@
 # Noun 索引
 
-最後編號：072
-總卡片數：72
+最後編號：180
+總卡片數：184
 
 ## 卡片列表
 
 ### 依編號
+- [000 - ](noun-073-財政/) 
+- [000 - ](75_defure/) 
+- [000 - "デフレーション"](75_defureshon/) 
 - [001 - 早餐，一天中的第一餐](001_asagohan/) 
 - [002 - 健康、身心處於良好狀態](002_kenkou/) 
 - [003 - 價格、價錢](003_nedan/) 
@@ -78,6 +81,115 @@
 - [070 - "用於詢問「誰」的疑問詞。當想知道某個人是誰、或者想詢問不特定人物時使用。可以用於各種場合，從日常對話"](070_dare/) #noun
 - [071 - "場所、地方、地點。指某個空間或位置，可以是具體的實體空間，也可以是抽象的情境或場合。日常生活中非常常"](071_basho/) #noun
 - [072 - "表示疑問的代名詞，用於詢問事物或事情。意思是「什麼」。根據語境不同，讀音會是「なに」或「なん」。"](072_nani/) #noun
+- [073 - "貿易"](073-貿易/) #"domain/経済学" #"domain/商業"
+- [073 - ](073_bukka/) 
+- [074 - ](074_juyou/) 
+- [075 - ](075_kabushiki/) 
+- [076 - ](076_koyou/) 
+- [077 - ](077_kyoukyuu/) 
+- [078 - ](078_shihon/) 
+- [079 - "市場"](079_shijou/) #"domain/経済学"
+- [080 - ](080_shouken/) 
+- [081 - "投資"](081_toushi/) #"domain/経済学" #"domain/金融"
+- [082 - ](082_zeikin/) 
+- [083 - "バブル"](083_baburu/) #"domain/経済学"
+- [084 - "不況"](084_fukyou/) #"domain/経済学"
+- [085 - ](085_infure/) 
+- [086 - "インフレーション"](086_infureshon/) #"domain/経済学"
+- [087 - ](087_keiki/) 
+- [088 - 経済成長](088_keizaiseichou/) 
+- [089 - 経済政策](089_keizaiseisaku/) 
+- [090 - ](090_koukyou/) 
+- [091 - "株価"](091_kabuka/) 
+- [092 - "株式会社"](092_kabushikigaisha/) #"domain/経済学" #"domain/金融"
+- [093 - "株式市場"](093_kabushikishijou/) #"domain/経済学" #"domain/金融"
+- [094 - "金利"](094_kinri/) #"domain/経済学" #"domain/金融"
+- [095 - ](095_rishi/) 
+- [096 - "失業"](096_shitsugyou/) 
+- [097 - ](097_shitsugyouritsu/) 
+- [098 - "消費"](098_shouhi/) 
+- [099 - 証券会社](099_shoukengaisha/) 
+- [100 - "証券市場"](100_shoukenshijou/) #"domain/経済学" #"domain/金融"
+- [101 - ](101_endaka/) 
+- [102 - "円安"](102_enyasu/) #"domain/経済学" #"domain/金融"
+- [103 - "負債"](103_fusai/) 
+- [104 - "配当"](104_haitou/) 
+- [105 - ](105_kawase/) 
+- [106 - ](106_kawasereto/) 
+- [107 - "#077 国債（こくさい）"](107_kokusai/) 
+- [108 - "資産"](108_shisan/) #"domain/経済学" #"domain/金融" #"JLPT/N2"
+- [109 - 預金](109_yokin/) 
+- [110 - ](110_yuushi/) 
+- [111 - ](111_gappei/) #"domain/経済学" #"domain/商業"
+- [112 - 貨幣](112_kahei/) 
+- [113 - "給与"](113_kyuuyo/) #"domain/経済学"
+- [114 - "利益"](114_rieki/) 
+- [115 - 収益](115_shuueki/) 
+- [116 - "倒産"](116_tousan/) 
+- [117 - ](117_tsuuka/) 
+- [118 - "売上"](118_uriage/) 
+- [119 - ](119_uriagedaka/) 
+- [120 - "予算"](120_yosan/) #"domain/経済学"
+- [121 - ](121_bukkashisuu/) 
+- [122 - "賃金"](122_chingin/) 
+- [123 - 関税](123_kanzei/) 
+- [124 - ](124_keiei/) 
+- [125 - ](125_kigyou/) 
+- [126 - ](126_sainyuu/) 
+- [127 - ](127_saishutsu/) #"domain/経済学"
+- [128 - ](128_shotokuzei/) 
+- [129 - "消費税"](129_shouhizei/) #"domain/経済学"
+- [130 - ](130_zaiseiaakaji/) 
+- [131 - "貿易赤字"](131_bouekiakaji/) #"domain/経済学" #"domain/商業"
+- [132 - 貿易黒字](132_bouekikuroji/) 
+- [133 - 貿易収支](133_bouekishuushi/) 
+- [134 - ](134_chuuouginkou/) 
+- [135 - "保護貿易"](135_hogoboueki/) #"domain/経済学" #"domain/商業"
+- [136 - ](136_jiyuuboueki/) 
+- [137 - ](137_kokusaishuushi/) 
+- [138 - ](138_nihonginkou/) 
+- [139 - ](139_yunyuu/) 
+- [140 - "輸出"](140_yushutsu/) #"domain/経済学" #"domain/商業"
+- [141 - 株価指数](141_kabukashisuu/) 
+- [142 - "景気循環"](142_keikijunkan/) 
+- [143 - "経済恐慌"](143_keizaikyoukou/) 
+- [144 - ](144_keizaiseichouritsu/) 
+- [145 - ](145_keizaiseisai/) 
+- [146 - ](146_keizaitaikoku/) 
+- [147 - "証券取引所"](147_shoukentorihikijo/) 
+- [148 - 損失](148_sonshitsu/) 
+- [149 - "預金口座"](149_yokinkouza/) #"domain/経済学" #"domain/金融"
+- [150 - ](150_yokintsuuchou/) 
+- [151 - ](151_houjinzei/) 
+- [152 - ](152_kanzeidoumei/) 
+- [153 - "関税障壁"](153_kanzeishouheki/) 
+- [154 - "経済協力"](154_keizaikyouryoku/) #"domain/経済学"
+- [155 - ""](155_keizaitoukei/) #"domain/経済学"
+- [156 - "国家予算"](156_kokkayosan/) #"domain/経済学"
+- [157 - "雇用調整"](157_koyouchousei/) 
+- [158 - ](158_koyouhoken/) 
+- [159 - "給与所得"](159_kyuuyoshotoku/) 
+- [160 - ](160_shouhishabukkashisuu/) 
+- [161 - "景気動向指数"](161_keikidoukoushisuu/) #"domain/経済学"
+- [162 - ](162_keikishihyou/) 
+- [163 - ](163_keizaiburokku/) 
+- [164 - ](164_keizaikaihatsu/) 
+- [165 - "経済圏"](165_keizaiken/) #"domain/経済学"
+- [166 - ](166_keizaikyouryokukaihatukikou/) 
+- [167 - ](167_keizainanmin/) #"domain/経済学"
+- [168 - ](168_keizaisangyoushou/) 
+- [169 - 経済水域](169_keizaisuiiki/) #"domain/経済学"
+- [170 - ](170_keizaitokubetsuku/) 
+- [171 - 経済団体連合会](171_keizaidantairengouka/) 
+- [172 - "経済動学"](172_keizaidougaku/) #"domain/経済学"
+- [173 - "経済同友会"](173_keizaidouyuukai/) #"domain/経済学"
+- [174 - ](174_keizaigensoku/) 
+- [175 - ](175_keizaihakusho/) 
+- [176 - 経済人](176_keizaijin/) 
+- [177 - ](177_keizaikikakuchou/) #"domain/経済学" #"domain/政治" #"historical"
+- [178 - 経済静学](178_keizaiseigaku/) 
+- [179 - ](179_keizaishi/) 
+- [180 - ](180_keizaizaiseihakusho/) 
 
 ---
-最後更新: 2025-12-18 10:35:38
+最後更新: 2025-12-22 18:00:50
