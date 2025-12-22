@@ -69,7 +69,7 @@ Debt; liability. The state of owing money or goods borrowed from others with an 
    - 負債比率（負債比率）
    - 債務超過（資不抵債）
 4. **相關概念**：
-   - [資産](待建立)：與負債相對的會計概念
+   - [資産](108_shisan.md)：與負債相對的會計概念
    - [貸借対照表](待建立)：記載負債的財務報表
    - [債務](待建立)：更廣義的債務概念
 

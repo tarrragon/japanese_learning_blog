@@ -53,10 +53,10 @@ Deflation; an economic phenomenon where prices continuously decline and the valu
 
 ## 関連用語
 
-- [インフレーション](待建立) - 物価が上昇する現象
+- [インフレーション](086_infureshon.md) - 物価が上昇する現象
 - [金融政策](待建立) - 中央銀行の経済調整手段
 - [デフレスパイラル](待建立) - 物価下落と景気悪化の悪循環
-- [消費者物価指数](待建立) - 物価変動の指標
+- [消費者物価指数](160_shouhishabukkashisuu.md) - 物価変動の指標
 
 ## 補足
 

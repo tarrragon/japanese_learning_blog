@@ -62,6 +62,6 @@ An economic white paper is an analytical report on economic conditions published
 
 ## 関連リンク
 
-- [経済政策](待建立) - 経済白書が扱う主要テーマ
+- [経済政策](089_keizaiseisaku.md) - 経済白書が扱う主要テーマ
 - [景気動向](待建立) - 白書で分析される重要指標
 - [財政政策](待建立) - 白書に記載される政策内容

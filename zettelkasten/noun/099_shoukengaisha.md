@@ -70,7 +70,7 @@ A securities company is a financial institution that intermediates the buying an
 
 ## 関連カード
 
-- [証券](待建立) - 有価証券の総称
+- [証券](080_shouken.md) - 有価証券の総称
 - [株式](../noun/013_kabuしき.md) - 証券会社が扱う主要商品
 - [投資家](待建立) - 証券会社の顧客
 - [金融機関](待建立) - 証券会社を含む broader category

@@ -92,10 +92,10 @@ The act of sending goods, technology, or services produced in one's country to f
 ## 関連語彙
 
 - [輸入](../../noun/079_yunyuu.md) - 輸入（進口）
-- [貿易](待建立) - 貿易（trade）
+- [貿易](073-貿易.md) - 貿易（trade）
 - [国際貿易](待建立) - 国際貿易（international trade）
-- [貿易収支](待建立) - 貿易收支（trade balance）
-- [関税](待建立) - 関税（customs duty, tariff）
+- [貿易収支](133_bouekishuushi.md) - 貿易收支（trade balance）
+- [関税](123_kanzei.md) - 関税（customs duty, tariff）
 
 ## 文法ノート
 

@@ -70,7 +70,7 @@ A composite statistical indicator that comprehensively shows the overall economi
 ### 関連表現
 
 - [経済指標](待建立) - 経済状況を数値で示す指標
-- [景気循環](待建立) - 経済活動の周期的な変動
+- [景気循環](142_keikijunkan.md) - 経済活動の周期的な変動
 - [GDP](待建立) - 国内総生産
 
 ## 注釈
@@ -84,7 +84,7 @@ A composite statistical indicator that comprehensively shows the overall economi
 ## リンク
 
 - [経済指標](待建立)
-- [景気循環](待建立)
+- [景気循環](142_keikijunkan.md)
 - [GDP](待建立)
 - [インフレーション](../noun/077_infureeshon.md)
 - [デフレーション](../noun/078_defureeshon.md)

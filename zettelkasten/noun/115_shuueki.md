@@ -80,7 +80,7 @@ Revenue, income, or earnings generated from business activities or investments. 
 
 ## 關聯卡片
 
-- [利益](待建立) - 收益扣除費用後的淨利
-- [売上](待建立) - 商品或服務的銷售額
+- [利益](114_rieki.md) - 收益扣除費用後的淨利
+- [売上](118_uriage.md) - 商品或服務的銷售額
 - [費用](待建立) - 經營活動所產生的支出
-- [投資](待建立) - 為獲得收益而投入資金
+- [投資](081_toushi.md) - 為獲得收益而投入資金

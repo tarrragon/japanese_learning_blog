@@ -92,7 +92,7 @@ A tax imposed on imported or exported goods. Collected at customs when goods cro
 
 2. **搭配動詞**：関税をかける（徵收關稅）、関税を引き上げる（提高關稅）、関税を撤廃する（撤銷關稅）
 
-3. **相關詞彙**：[税関](待建立)（海關）、[輸入税](待建立)（進口稅）、[自由貿易](待建立)（自由貿易）
+3. **相關詞彙**：[税関](待建立)（海關）、[輸入税](待建立)（進口稅）、[自由貿易](136_jiyuuboueki.md)（自由貿易）
 
 4. **經濟學概念**：関税是貿易政策的重要工具，也是國際經濟學中保護主義與自由貿易爭論的核心議題
 
@@ -100,7 +100,7 @@ A tax imposed on imported or exported goods. Collected at customs when goods cro
 
 ## 關聯概念
 
-- [貿易](待建立)
-- [税金](待建立)
+- [貿易](073-貿易.md)
+- [税金](082_zeikin.md)
 - [保護主義](待建立)
 - [自由貿易協定](待建立)

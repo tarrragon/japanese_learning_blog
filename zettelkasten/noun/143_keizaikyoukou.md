@@ -67,9 +67,9 @@ A severe economic crisis characterized by a sharp decline in economic activity, 
 
 ### 相關詞彙
 
-- [不況](待建立) - 經濟衰退
+- [不況](084_fukyou.md) - 經濟衰退
 - [金融危機](待建立) - 金融危機
-- [デフレーション](待建立) - 通貨緊縮
+- [デフレーション](75_defureshon.md) - 通貨緊縮
 - [恐慌](待建立) - 恐慌
 
 ### 學習要點

@@ -52,13 +52,13 @@ Consumer Price Index (CPI). An economic indicator that comprehensively measures 
 
 - 經濟學的基本指標之一
 - 常縮寫為CPI（Consumer Price Index）
-- 與[生活費](待建立)、[インフレーション](待建立)等概念密切相關
+- 與[生活費](待建立)、[インフレーション](086_infureshon.md)等概念密切相關
 - 通常與GDP平減指數等其他物價指標一同使用
 - 用於評估經濟政策效果和調整工資
 
 ## 相關詞彙
 
-- [物価](待建立) - 物價
+- [物価](073_bukka.md) - 物價
 - [指数](待建立) - 指數
-- [インフレ](待建立) - 通貨膨脹
-- [デフレ](待建立) - 通貨緊縮
+- [インフレ](085_infure.md) - 通貨膨脹
+- [デフレ](75_defure.md) - 通貨緊縮
