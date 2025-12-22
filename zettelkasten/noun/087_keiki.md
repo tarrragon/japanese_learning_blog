@@ -73,15 +73,15 @@ Business conditions; economic climate. Refers to the overall state of economic a
 
 ## 相關詞彙
 
-- [経済](待建立) - 經濟
-- [不況](待建立) - 不景氣；蕭條
-- [好況](待建立) - 景氣繁榮
-- [市場](待建立) - 市場
-- [消費](待建立) - 消費
-- [投資](待建立) - 投資
-- [失業](待建立) - 失業
-- [インフレ](待建立) - 通貨膨脹
-- [デフレ](待建立) - 通貨緊縮
+- [経済](../concept/concept-052-経済.md) - 經濟
+- [不況](084_fukyou.md) - 不景氣；蕭條
+- [好況](090_koukyou.md) - 景氣繁榮
+- [市場](079_shijou.md) - 市場
+- [消費](098_shouhi.md) - 消費
+- [投資](081_toushi.md) - 投資
+- [失業](096_shitsugyou.md) - 失業
+- [インフレ](085_infure.md) - 通貨膨脹
+- [デフレ](75_defure.md) - 通貨緊縮
 
 ## 註解
 

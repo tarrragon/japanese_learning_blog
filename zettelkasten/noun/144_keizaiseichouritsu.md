@@ -57,9 +57,9 @@ Economic growth rate; the rate at which an economy's size changes over a specifi
 
 ### 関連語彙
 - [GDP](待建立) - 国内総生産
-- [景気](待建立) - 経済状況
-- [デフレ](待建立) - デフレーション
-- [インフレ](待建立) - インフレーション
+- [景気](087_keiki.md) - 経済状況
+- [デフレ](75_defure.md) - デフレーション
+- [インフレ](085_infure.md) - インフレーション
 - [実質成長率](待建立) - 物価変動を除いた成長率
 - [名目成長率](待建立) - 物価変動を含む成長率
 

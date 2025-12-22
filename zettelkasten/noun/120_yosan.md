@@ -71,7 +71,7 @@ Budget; funds or expenses planned and allocated in advance. In economics, it ref
 - [実績](待建立) - jisseki - 實際業績；實際支出
 
 ### 相關詞彙
-- [財政](待建立) - zaisei - 財政
+- [財政](noun-073-財政.md) - zaisei - 財政
 - [支出](待建立) - shishutsu - 支出
 - [収入](待建立) - shūnyū - 收入
 - [経費](待建立) - keihi - 經費

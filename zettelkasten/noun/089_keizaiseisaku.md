@@ -58,8 +58,8 @@ Policies implemented by governments and central banks aimed at achieving economi
 - [財政政策](待建立) - fiscal policy
 - [金融政策](待建立) - monetary policy
 - [経済成長](../noun/061_keizaiseichou.md) - economic growth
-- [景気](待建立) - economic conditions
-- [インフレーション](待建立) - inflation
+- [景気](087_keiki.md) - economic conditions
+- [インフレーション](086_infureshon.md) - inflation
 
 ## 学習メモ
 

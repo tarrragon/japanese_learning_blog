@@ -70,11 +70,11 @@ Property or resources owned by an individual or company that has economic value.
 
 ## 関連
 
-- [負債](待建立) - 債務、需償還的義務
-- [資本](待建立) - 資本、淨資產
+- [負債](103_fusai.md) - 債務、需償還的義務
+- [資本](078_shihon.md) - 資本、淨資產
 - [財産](待建立) - 財產、財富
-- [投資](待建立) - 投資活動
-- [経営](待建立) - 經營管理
+- [投資](081_toushi.md) - 投資活動
+- [経営](124_keiei.md) - 經營管理
 
 ---
 

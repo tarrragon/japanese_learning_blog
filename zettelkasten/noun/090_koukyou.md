@@ -118,7 +118,7 @@ Boom, prosperity. A state of economic vitality characterized by strong business 
 | 詞彙 | 讀音 | 意義 | 關係 |
 |------|------|------|------|
 | [不況](../noun/074_fukyou.md) | ふきょう | 不景氣、蕭條 | 反義詞 |
-| [景気](待建立) | けいき | 景氣 | 上位概念 |
+| [景気](087_keiki.md) | けいき | 景氣 | 上位概念 |
 | [好景気](待建立) | こうけいき | 景氣繁榮 | 同義詞 |
 | [繁栄](待建立) | はんえい | 繁榮昌盛 | 相關詞 |
 
@@ -129,7 +129,7 @@ Boom, prosperity. A state of economic vitality characterized by strong business 
 ## 相關卡片
 
 - [不況](../noun/074_fukyou.md) - 對義詞，經濟蕭條
-- [景気循環](待建立) - 經濟景氣循環概念
+- [景気循環](142_keikijunkan.md) - 經濟景氣循環概念
 - [バブル経済](待建立) - 泡沫經濟現象
 
 ## 參考資料

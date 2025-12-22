@@ -83,8 +83,8 @@ Keidanren supports the international expansion of Japanese companies through exc
 2. **政治的影響力**：日本の経済政策に大きな影響を与える組織として、政治経済ニュースでよく取り上げられる
 
 3. **関連用語**：
-   - [経済学](待建立) - 経済学
-   - [企業](待建立) - 企業
+   - [経済学](073-経済学.md) - 経済学
+   - [企業](125_kigyou.md) - 企業
    - [労使関係](待建立) - 勞資關係
    - [春闘](待建立) - 春鬥
    - [政策提言](待建立) - 政策建言
@@ -96,7 +96,7 @@ Keidanren supports the international expansion of Japanese companies through exc
 
 ## 相關卡片
 
-- [経済学](待建立)
-- [企業](待建立)
+- [経済学](073-経済学.md)
+- [企業](125_kigyou.md)
 - [政策](待建立)
 - [組織](待建立)

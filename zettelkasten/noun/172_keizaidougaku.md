@@ -47,10 +47,10 @@ Economic dynamics is a branch of economics that analyzes the changes and adjustm
 
 ## Related Concepts
 
-- [経済静学](待建立) - 静態經濟學，分析特定時點的均衡狀態
+- [経済静学](178_keizaiseigaku.md) - 静態經濟學，分析特定時點的均衡狀態
 - [動的最適化](待建立) - 動態最適化，跨期決策理論
 - [成長理論](待建立) - 經濟成長理論
-- [景気循環](待建立) - 景氣循環理論
+- [景気循環](142_keikijunkan.md) - 景氣循環理論
 - [一般均衡理論](待建立) - 一般均衡理論
 
 ## Notes

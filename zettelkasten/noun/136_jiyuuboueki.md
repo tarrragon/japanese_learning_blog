@@ -46,8 +46,8 @@ Free trade; international trade without government-imposed restrictions such as 
 
 ## 相關詞彙
 
-- [保護貿易](待建立) - 保護主義貿易政策
-- [関税](待建立) - 進口商品稅
+- [保護貿易](135_hogoboueki.md) - 保護主義貿易政策
+- [関税](123_kanzei.md) - 進口商品稅
 - [貿易協定](待建立) - 貿易協定
 - [WTO（世界貿易機関）](待建立) - 世界貿易組織
 - [比較優位](待建立) - 比較優勢

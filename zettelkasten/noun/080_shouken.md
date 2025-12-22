@@ -95,9 +95,9 @@ A certificate representing property rights; commonly refers to securities such a
 - 投資教育や金融リテラシー教育
 
 ## 関連項目
-- [証券取引所](待建立) - 証券が取引される市場
-- [株式](待建立) - 企業の所有権を表す証券
+- [証券取引所](147_shoukentorihikijo.md) - 証券が取引される市場
+- [株式](075_kabushiki.md) - 企業の所有権を表す証券
 - [債券](待建立) - 借入金を表す証券
 - [有価証券](待建立) - 財産的価値のある証券
 - [金融市場](待建立) - 証券が取引される場
-- [投資](待建立) - 証券購入の目的
+- [投資](081_toushi.md) - 証券購入の目的

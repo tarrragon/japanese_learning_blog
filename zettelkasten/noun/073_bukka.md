@@ -78,8 +78,8 @@ Price level; a comprehensive indicator showing the overall level of prices for g
 
 ## 相關連結
 
-- [インフレーション](待建立) - 通貨膨脹
-- [デフレーション](待建立) - 通貨緊縮
-- [消費者物価指数](待建立) - 消費者物價指數
+- [インフレーション](086_infureshon.md) - 通貨膨脹
+- [デフレーション](75_defureshon.md) - 通貨緊縮
+- [消費者物価指数](160_shouhishabukkashisuu.md) - 消費者物價指數
 - [金融政策](待建立) - 貨幣政策
 - [経済指標](待建立) - 經濟指標

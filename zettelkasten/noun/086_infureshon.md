@@ -80,7 +80,7 @@ A sustained increase in the general price level of goods and services, resulting
 
 ## 相關連結
 
-- 對比詞：[デフレーション](待建立)
+- 對比詞：[デフレーション](75_defureshon.md)
 - 相關概念：[経済（經濟）](待建立)
 - 相關概念：[物価（物價）](待建立)
 - 相關概念：[金融政策（貨幣政策）](待建立)

@@ -73,10 +73,10 @@ As the trade surplus continues, the government is considering measures to promot
 
 ## 関連語彙（Related Vocabulary）
 
-- [貿易赤字](待建立) - 貿易赤字 - trade deficit
+- [貿易赤字](131_bouekiakaji.md) - 貿易赤字 - trade deficit
 - [経常収支](待建立) - 經常帳收支 - current account balance
 - [外貨準備](待建立) - 外匯儲備 - foreign exchange reserves
-- [為替レート](待建立) - 匯率 - exchange rate
+- [為替レート](106_kawasereto.md) - 匯率 - exchange rate
 - [輸出入](待建立) - 進出口 - import and export
 
 ## 注意点（Notes）

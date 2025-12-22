@@ -77,10 +77,10 @@ Stock market; the marketplace where shares of publicly held companies are issued
 
 ## 📝 関連語彙
 
-- [証券取引所](待建立) - 證券交易所 - securities exchange
-- [株式](待建立) - 股票 - stock/share
+- [証券取引所](147_shoukentorihikijo.md) - 證券交易所 - securities exchange
+- [株式](075_kabushiki.md) - 股票 - stock/share
 - [投資家](待建立) - 投資人 - investor
-- [株価](待建立) - 股價 - stock price
+- [株価](091_kabuka.md) - 股價 - stock price
 - [金融市場](待建立) - 金融市場 - financial market
 
 ## 🔍 補充說明

@@ -114,7 +114,7 @@ Tax is money that the government (national or local) collects from citizens and 
 - [納税者](待建立) - 納稅人
 - [税率](待建立) - 稅率
 - [控除](待建立) - 扣除
-- [財政](待建立) - 財政
+- [財政](noun-073-財政.md) - 財政
 - [公共財](待建立) - 公共財
 - [租税負担](待建立) - 稅負
 - [税制改革](待建立) - 稅制改革
