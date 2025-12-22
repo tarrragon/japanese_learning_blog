@@ -128,6 +128,9 @@ export class App {
       case 'TOGGLE_ROMAJI_HINT':
         this.#updateHintVisibility(state.uiSettings.showRomajiHint);
         break;
+      case 'TOGGLE_KEYBOARD':
+        this.#updateKeyboardVisibility(state.uiSettings.showKeyboard);
+        break;
     }
   }
 
@@ -146,6 +149,9 @@ export class App {
       }
       if (savedSettings.showRomajiHint === false) {
         this.#store.dispatch(actions.toggleRomajiHint());
+      }
+      if (savedSettings.showKeyboard === false) {
+        this.#store.dispatch(actions.toggleKeyboard());
       }
     }
 
@@ -250,6 +256,20 @@ export class App {
     this.#store.dispatch(actions.toggleRomajiHint());
     const state = this.#store.getState();
     this.#persistence.save({ showRomajiHint: state.uiSettings.showRomajiHint });
+  }
+
+  /**
+   * 切換虛擬鍵盤顯示
+   * 注意：在 direct 輸入模式下，此功能無效（鍵盤強制隱藏）
+   */
+  toggleKeyboard() {
+    const state = this.#store.getState();
+    // 只在 romaji 模式下切換才有意義
+    if (state.inputMode === 'romaji') {
+      this.#store.dispatch(actions.toggleKeyboard());
+      const newState = this.#store.getState();
+      this.#persistence.save({ showKeyboard: newState.uiSettings.showKeyboard });
+    }
   }
 
   /**
@@ -378,18 +398,32 @@ export class App {
     const inputSection = typeof document !== 'undefined'
       ? document.getElementById('mobile-input-section')
       : null;
-    const keyboard = this.#elements.keyboardContainer;
 
     if (mode === 'direct') {
       container?.classList.add('mode-direct');
       body?.classList.add('mode-direct');
       if (inputSection) inputSection.style.display = 'block';
-      if (keyboard) keyboard.style.display = 'none';
+      // direct 模式強制隱藏鍵盤
+      this.#updateKeyboardVisibility(false);
     } else {
       container?.classList.remove('mode-direct');
       body?.classList.remove('mode-direct');
       if (inputSection) inputSection.style.display = 'none';
-      if (keyboard) keyboard.style.display = '';
+      // romaji 模式根據 showKeyboard 設定決定
+      const state = this.#store.getState();
+      this.#updateKeyboardVisibility(state.uiSettings.showKeyboard);
+    }
+  }
+
+  /**
+   * 更新鍵盤顯示狀態
+   * @param {boolean} show
+   * @private
+   */
+  #updateKeyboardVisibility(show) {
+    const keyboard = this.#elements.keyboardContainer;
+    if (keyboard) {
+      keyboard.style.display = show ? '' : 'none';
     }
   }
 

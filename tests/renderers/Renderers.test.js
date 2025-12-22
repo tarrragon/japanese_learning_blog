@@ -3,7 +3,7 @@ import { TextRenderer } from '../../src/renderers/TextRenderer.js';
 import { RomajiRenderer } from '../../src/renderers/RomajiRenderer.js';
 import { ResultRenderer } from '../../src/renderers/ResultRenderer.js';
 import { FlashEffect } from '../../src/effects/FlashEffect.js';
-import { i18n } from '../../src/i18n/index.js';
+import { i18n, Languages } from '../../src/i18n/index.js';
 
 // Mock DOM Element
 function createMockElement() {
@@ -159,7 +159,7 @@ describe('ResultRenderer', () => {
     mockContainer = createMockElement();
     renderer = new ResultRenderer(mockContainer, '/base');
     // 設定語言為中文以確保測試一致性
-    i18n.setLanguage('zh-TW');
+    i18n.setLanguage(Languages.ZH_TW);
   });
 
   describe('render', () => {

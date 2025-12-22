@@ -1,5 +1,6 @@
 import { describe, it, expect, beforeEach, afterEach } from 'bun:test';
 import { translations } from '../../src/i18n/translations.js';
+import { Languages } from '../../src/i18n/I18nService.js';
 
 // 模擬 localStorage
 class MockLocalStorage {
@@ -30,7 +31,7 @@ async function createFreshI18nService() {
 
 describe('translations', () => {
   describe('語言完整性', () => {
-    const supportedLanguages = ['zh-TW', 'en', 'ja'];
+    const supportedLanguages = Object.values(Languages);
 
     it('應該包含所有支援的語言', () => {
       supportedLanguages.forEach(lang => {
@@ -39,7 +40,7 @@ describe('translations', () => {
     });
 
     it('所有語言應該有相同的翻譯鍵值', () => {
-      const zhKeys = Object.keys(translations['zh-TW']).sort();
+      const zhKeys = Object.keys(translations[Languages.ZH_TW]).sort();
 
       supportedLanguages.forEach(lang => {
         const langKeys = Object.keys(translations[lang]).sort();
@@ -81,9 +82,9 @@ describe('translations', () => {
 
     it('應該包含所有必要的翻譯鍵值', () => {
       requiredKeys.forEach(key => {
-        expect(translations['zh-TW'][key]).toBeDefined();
-        expect(translations['en'][key]).toBeDefined();
-        expect(translations['ja'][key]).toBeDefined();
+        expect(translations[Languages.ZH_TW][key]).toBeDefined();
+        expect(translations[Languages.EN][key]).toBeDefined();
+        expect(translations[Languages.JA][key]).toBeDefined();
       });
     });
   });
@@ -113,7 +114,7 @@ describe('I18nService', () => {
     it('應該回傳當前語言', async () => {
       const i18n = await createFreshI18nService();
       const lang = i18n.getLanguage();
-      expect(['zh-TW', 'en', 'ja']).toContain(lang);
+      expect(Object.values(Languages)).toContain(lang);
     });
   });
 
@@ -121,18 +122,18 @@ describe('I18nService', () => {
     it('應該回傳支援的語言列表', async () => {
       const i18n = await createFreshI18nService();
       const languages = i18n.getSupportedLanguages();
-      expect(languages).toContain('zh-TW');
-      expect(languages).toContain('en');
-      expect(languages).toContain('ja');
+      expect(languages).toContain(Languages.ZH_TW);
+      expect(languages).toContain(Languages.EN);
+      expect(languages).toContain(Languages.JA);
     });
   });
 
   describe('getLanguageName', () => {
     it('應該回傳語言的本地名稱', async () => {
       const i18n = await createFreshI18nService();
-      expect(i18n.getLanguageName('zh-TW')).toBe('繁體中文');
-      expect(i18n.getLanguageName('en')).toBe('English');
-      expect(i18n.getLanguageName('ja')).toBe('日本語');
+      expect(i18n.getLanguageName(Languages.ZH_TW)).toBe('繁體中文');
+      expect(i18n.getLanguageName(Languages.EN)).toBe('English');
+      expect(i18n.getLanguageName(Languages.JA)).toBe('日本語');
     });
 
     it('未知語言應該回傳語言代碼', async () => {
@@ -145,19 +146,19 @@ describe('I18nService', () => {
     it('應該回傳正確的翻譯', async () => {
       const i18n = await createFreshI18nService();
       // 設定為中文
-      i18n.setLanguage('zh-TW');
+      i18n.setLanguage(Languages.ZH_TW);
       expect(i18n.t('nextQuestion')).toBe('下一題');
     });
 
     it('英文翻譯應該正確', async () => {
       const i18n = await createFreshI18nService();
-      i18n.setLanguage('en');
+      i18n.setLanguage(Languages.EN);
       expect(i18n.t('nextQuestion')).toBe('Next');
     });
 
     it('日文翻譯應該正確', async () => {
       const i18n = await createFreshI18nService();
-      i18n.setLanguage('ja');
+      i18n.setLanguage(Languages.JA);
       expect(i18n.t('nextQuestion')).toBe('次へ');
     });
 
@@ -170,14 +171,14 @@ describe('I18nService', () => {
   describe('setLanguage', () => {
     it('應該能夠設定語言', async () => {
       const i18n = await createFreshI18nService();
-      i18n.setLanguage('en');
-      expect(i18n.getLanguage()).toBe('en');
+      i18n.setLanguage(Languages.EN);
+      expect(i18n.getLanguage()).toBe(Languages.EN);
     });
 
     it('應該儲存到 localStorage', async () => {
       const i18n = await createFreshI18nService();
-      i18n.setLanguage('ja');
-      expect(mockLocalStorage.getItem('practice_language')).toBe('ja');
+      i18n.setLanguage(Languages.JA);
+      expect(mockLocalStorage.getItem('practice_language')).toBe(Languages.JA);
     });
 
     it('不支援的語言不應該改變當前語言', async () => {
@@ -189,14 +190,14 @@ describe('I18nService', () => {
   });
 
   describe('subscribe', () => {
-    it('應該在語言變更時通知監聽器', async () => {
+    it('應該在語言變更時通知監聯器', async () => {
       const i18n = await createFreshI18nService();
       let notifiedLang = null;
       i18n.subscribe((lang) => {
         notifiedLang = lang;
       });
-      i18n.setLanguage('ja');
-      expect(notifiedLang).toBe('ja');
+      i18n.setLanguage(Languages.JA);
+      expect(notifiedLang).toBe(Languages.JA);
     });
 
     it('應該能夠取消訂閱', async () => {
@@ -206,11 +207,11 @@ describe('I18nService', () => {
         callCount++;
       });
 
-      i18n.setLanguage('en');
+      i18n.setLanguage(Languages.EN);
       expect(callCount).toBe(1);
 
       unsubscribe();
-      i18n.setLanguage('ja');
+      i18n.setLanguage(Languages.JA);
       expect(callCount).toBe(1); // 不應該增加
     });
   });

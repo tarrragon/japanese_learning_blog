@@ -1697,9 +1697,14 @@ var translations = {
 };
 
 // src/i18n/I18nService.js
+var Languages = {
+  ZH_TW: "zh-TW",
+  EN: "en",
+  JA: "ja"
+};
 var STORAGE_KEY = "practice_language";
-var SUPPORTED_LANGUAGES = ["zh-TW", "en", "ja"];
-var DEFAULT_LANGUAGE = "zh-TW";
+var SUPPORTED_LANGUAGES = Object.values(Languages);
+var DEFAULT_LANGUAGE = Languages.ZH_TW;
 
 class I18nService {
   #currentLanguage;
@@ -1789,9 +1794,9 @@ class I18nService {
   }
   getLanguageName(lang) {
     const names = {
-      "zh-TW": "繁體中文",
-      en: "English",
-      ja: "日本語"
+      [Languages.ZH_TW]: "繁體中文",
+      [Languages.EN]: "English",
+      [Languages.JA]: "日本語"
     };
     return names[lang] || lang;
   }
@@ -2343,6 +2348,9 @@ class App {
       case "TOGGLE_ROMAJI_HINT":
         this.#updateHintVisibility(state.uiSettings.showRomajiHint);
         break;
+      case "TOGGLE_KEYBOARD":
+        this.#updateKeyboardVisibility(state.uiSettings.showKeyboard);
+        break;
     }
   }
   async initialize() {
@@ -2356,6 +2364,9 @@ class App {
       }
       if (savedSettings.showRomajiHint === false) {
         this.#store.dispatch(actions.toggleRomajiHint());
+      }
+      if (savedSettings.showKeyboard === false) {
+        this.#store.dispatch(actions.toggleKeyboard());
       }
     }
     const urlParams = this.#getUrlParams();
@@ -2412,6 +2423,14 @@ class App {
     this.#store.dispatch(actions.toggleRomajiHint());
     const state = this.#store.getState();
     this.#persistence.save({ showRomajiHint: state.uiSettings.showRomajiHint });
+  }
+  toggleKeyboard() {
+    const state = this.#store.getState();
+    if (state.inputMode === "romaji") {
+      this.#store.dispatch(actions.toggleKeyboard());
+      const newState = this.#store.getState();
+      this.#persistence.save({ showKeyboard: newState.uiSettings.showKeyboard });
+    }
   }
   async loadNextQuestion() {
     const mode = modeRegistry.getCurrentMode();
@@ -2478,21 +2497,25 @@ class App {
     const container = this.#elements.container;
     const body = typeof document !== "undefined" ? document.body : null;
     const inputSection = typeof document !== "undefined" ? document.getElementById("mobile-input-section") : null;
-    const keyboard = this.#elements.keyboardContainer;
     if (mode === "direct") {
       container?.classList.add("mode-direct");
       body?.classList.add("mode-direct");
       if (inputSection)
         inputSection.style.display = "block";
-      if (keyboard)
-        keyboard.style.display = "none";
+      this.#updateKeyboardVisibility(false);
     } else {
       container?.classList.remove("mode-direct");
       body?.classList.remove("mode-direct");
       if (inputSection)
         inputSection.style.display = "none";
-      if (keyboard)
-        keyboard.style.display = "";
+      const state = this.#store.getState();
+      this.#updateKeyboardVisibility(state.uiSettings.showKeyboard);
+    }
+  }
+  #updateKeyboardVisibility(show) {
+    const keyboard = this.#elements.keyboardContainer;
+    if (keyboard) {
+      keyboard.style.display = show ? "" : "none";
     }
   }
   #updateHintVisibility(show) {

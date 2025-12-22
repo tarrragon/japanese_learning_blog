@@ -9,9 +9,18 @@
 
 import { translations } from './translations.js';
 
+/**
+ * 支援的語言代碼常量
+ */
+export const Languages = {
+  ZH_TW: 'zh-TW',
+  EN: 'en',
+  JA: 'ja',
+};
+
 const STORAGE_KEY = 'practice_language';
-const SUPPORTED_LANGUAGES = ['zh-TW', 'en', 'ja'];
-const DEFAULT_LANGUAGE = 'zh-TW';
+const SUPPORTED_LANGUAGES = Object.values(Languages);
+const DEFAULT_LANGUAGE = Languages.ZH_TW;
 
 class I18nService {
   #currentLanguage;
@@ -167,9 +176,9 @@ class I18nService {
    */
   getLanguageName(lang) {
     const names = {
-      'zh-TW': '繁體中文',
-      'en': 'English',
-      'ja': '日本語',
+      [Languages.ZH_TW]: '繁體中文',
+      [Languages.EN]: 'English',
+      [Languages.JA]: '日本語',
     };
     return names[lang] || lang;
   }
