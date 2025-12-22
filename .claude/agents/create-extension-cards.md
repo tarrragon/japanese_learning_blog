@@ -781,56 +781,21 @@ uv run scripts/update-index.py verb-ru
 - ✅ 建立延伸卡片後立即執行 `update-index.py`
 - ✅ 每張延伸卡片獨立處理
 
-## 回報格式
+## 輸出規範
 
-完成任務後，提供清晰的報告：
+**成功**：不回報（靜默完成）
 
+**失敗**：
 ```
-✅ 完成延伸卡片分析
-
-基本卡片：verb-ru/001_taberu.md
-詞彙：食べる
-
-## 維護工具使用記錄（新增）
-
-### 確認分類
-✅ 執行：uv run scripts/list-categories.py
-確認分類存在：verb-ru
-
-### 查詢可用 Tags
-✅ 執行：uv run scripts/list-tags.py --type domain
-✅ 執行：uv run scripts/list-tags.py --type context
-確認可用 tags：daily_life, formal, business, pragmatics
-
-### 取得延伸卡片編號
-✅ 執行：uv run scripts/get-next-number.py verb-ru --extension 001
-取得延伸編號：
-  - 001_taberu_001_keigo
-  - 001_taberu_002_nuance (跳過，不建立)
-  - 001_taberu_003_register
-  - 001_taberu_004_connotation (跳過，不建立)
-  - 001_taberu_005_implication (跳過，不建立)
-  - 001_taberu_006_comparison
-
-### 更新索引
-✅ 執行：uv run scripts/update-index.py verb-ru
-索引已更新：verb-ru/index.md
-
-## 延伸卡片建立結果
-
-建立了 3 張延伸卡片：
-1. ✅ verb-ru/001_taberu_001_keigo.md (敬語用法) - Priority: High
-2. ✅ verb-ru/001_taberu_003_register.md (語域差異) - Priority: Medium
-3. ✅ verb-ru/001_taberu_006_comparison.md (同義詞辨析) - Priority: Medium
-
-未建立的延伸卡片（含理由）：
-1. ❌ nuance (語氣) - 語氣變化不改變基本語義
-2. ❌ connotation (褒貶義) - 本身是中性詞
-3. ❌ implication (暗喻) - 沒有常用的比喻義
-
-已更新基本卡片的連結區塊。
-索引檔案已使用 update-index.py 更新。
+❌ {id} {path} 失敗
+原因：{簡短說明}
+建議：{人工檢查 / 重試 / 跳過}
 ```
+
+**原則**：
+- 成功的任務不需要回報，CSV 已記錄進度
+- 只有失敗才需要通知主線程
+- 減少 context 佔用，提升執行效率
 
 ---
 

@@ -7,6 +7,33 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.3.0] - 2025-12-22
+
+### Changed
+
+#### 代理人回報機制優化
+
+**靜默成功原則**：
+- 成功的任務不再回報，大幅減少 context 佔用
+- 只有失敗時才回報原因和建議
+- 進度追蹤完全依賴 CSV 和驗證腳本
+
+**修改的代理人**：
+- `build-card-content.md` - 輸出規範簡化
+- `card-structure-handler.md` - 輸出規範簡化
+- `build-card-links.md` - 輸出規範簡化
+- `create-extension-cards.md` - 輸出規範簡化
+
+**預期效果**：
+| 場景 | 修改前 | 修改後 |
+|------|--------|--------|
+| 10 張卡片全成功 | ~500 行 context | 0 行 |
+| 10 張卡片 1 失敗 | ~500 行 context | ~3 行 |
+
+### Documentation
+
+- `CLAUDE.md` 新增「代理人回報規範」段落
+
 ## [1.2.1] - 2025-12-22
 
 ### Added
