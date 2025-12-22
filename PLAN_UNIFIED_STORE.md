@@ -303,4 +303,51 @@ commit 8: refactor: 移除 PracticeMode 直接事件監聽
 
 ---
 
-**請確認此計畫後，我將開始實作。**
+## 實作完成報告
+
+### 已完成項目
+
+1. ✅ **階段 1：新增 Session Actions** - `src/store/actions.js`
+   - 新增 KEY_PRESS, ROMAJI_MATCH, CHARACTER_COMPLETE, CHARACTER_MISTAKE, SPEECH_REQUEST
+
+2. ✅ **階段 2：擴展 AppState** - `src/store/AppState.js`
+   - 新增 session 狀態結構（inputBuffer, currentIndex, keystrokes, mistakes, startTime）
+
+3. ✅ **階段 3：擴展 Reducer** - `src/store/reducer.js`
+   - 處理所有新增的 Session actions
+
+4. ✅ **階段 4：新增整合測試** - `tests/integration/SessionStoreFlow.test.js`
+   - 13 個測試案例驗證 Session → Store 流程
+
+5. ✅ **階段 5：建立 SessionStoreAdapter** - `src/adapters/SessionStoreAdapter.js`
+   - 將 TypingSession 事件轉發到 Store
+   - 包含 10 個單元測試
+
+6. ✅ **階段 6：建立 EffectMiddleware** - `src/store/middleware/effectMiddleware.js`
+   - 處理 CHARACTER_COMPLETE（閃爍成功）和 CHARACTER_MISTAKE（閃爍錯誤）
+   - 包含 6 個單元測試
+
+7. ✅ **階段 7：更新 App.js** - `src/App.js`
+   - 整合 SessionStoreAdapter 和 effectMiddleware
+   - 使用 ActionTypes 常量
+   - 新增 ROMAJI_MATCH 和 CHARACTER_COMPLETE 的 Store 訂閱處理
+
+8. ✅ **階段 8：移除舊監聽器** - `src/App.js`
+   - 移除 CHARACTER_COMPLETED, CHARACTER_MISTAKEN, ROMAJI_MATCHED 直接事件監聽
+
+### 設計決策
+
+**語音處理（Hybrid 方案）**：
+- SPEECH_REQUEST 不改變 Store 狀態
+- Store 不會為不變的狀態通知訂閱者
+- 因此保留 PracticeMode 的 SPEECH_REQUESTED 直接監聽器
+- effectMiddleware 中的 SPEECH_REQUEST 處理保留備用
+
+### 測試結果
+
+- 469 個測試全部通過
+- 新增 29 個測試（13 + 10 + 6）
+
+### 額外變更
+
+- `TypingSession.on()` 現在返回 unsubscribe 函數，支援清理
