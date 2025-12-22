@@ -1,24 +1,35 @@
 ---
 name: macos-dictionary
 description: |
-  查詢 macOS 內建日文字典（スーパー大辞林、ウィズダム英和・和英辞典）。
-  使用時機：當用戶詢問日文單字的讀音、詞性、定義，或英文詞彙的日文翻譯時。
-  關鍵字：查字典、怎麼唸、什麼意思、日文定義、詞性、用日文解釋、英翻日。
+  查詢 macOS 內建字典（日文、中文、英文）。
+  使用時機：當用戶詢問日文單字的讀音、詞性、定義，英文詞彙的中日文翻譯，或中文詞彙的英文翻譯時。
+  關鍵字：查字典、怎麼唸、什麼意思、日文定義、詞性、用日文解釋、英翻日、英翻中、中翻英。
 ---
 
-# macOS 日文字典查詢
+# macOS 多語字典查詢
 
 ## 功能說明
 
-使用 macOS 內建的 DictionaryServices API 查詢日文字典，提供權威的讀音、詞性和定義資料。
+使用 macOS 內建的 DictionaryServices API 查詢多語字典，提供權威的讀音、詞性和定義資料。
 
 ## 支援的字典與查詢方向
+
+### 日文字典
 
 | 字典 | 出版社 | 查詢方向 | 提供資料 |
 |------|--------|----------|----------|
 | スーパー大辞林 | 三省堂 | 日文 → 日文 | 讀音、詞性、日文定義 |
 | ウィズダム和英辞典 | 三省堂 | 日文 → 英文 | 英文翻譯、例句 |
 | ウィズダム英和辞典 | 三省堂 | 英文 → 日文 | 日文翻譯、用法說明 |
+
+### 中文字典（繁體）
+
+| 字典 | 類型 | 查詢方向 | 提供資料 |
+|------|------|----------|----------|
+| 國語辭典 | 繁體中文 | 中文 → 中文 | 注音、解釋、例句 |
+| 譯典通英漢雙向字典 | 英漢/漢英 | 英文 ↔ 中文 | 翻譯、同義詞、例句 |
+
+**注意**：僅支援**繁體中文**，簡體字（如「国债」）查不到。
 
 ### 查詢方向範例
 
@@ -27,6 +38,8 @@ description: |
 | 「食べる 怎麼唸？」 | 日文詞彙 | スーパー大辞林 |
 | 「食べる 的英文？」 | 日文詞彙 | ウィズダム和英 |
 | 「national debt 的日文？」 | 英文詞彙 | ウィズダム英和 |
+| 「computer 的中文？」 | 英文詞彙 | 譯典通英漢 |
+| 「經濟 是什麼意思？」 | 中文詞彙 | 國語辭典 |
 
 ## 使用方式
 
@@ -38,24 +51,33 @@ uv run scripts/lookup-dictionary.py <詞彙>
 
 # 日文詞彙查詢
 uv run scripts/lookup-dictionary.py 食べる
-uv run scripts/lookup-dictionary.py 勉強
 uv run scripts/lookup-dictionary.py 美しい
 
-# 英文詞彙查詢（獲得日文翻譯）
-uv run scripts/lookup-dictionary.py "national debt"
-uv run scripts/lookup-dictionary.py economy
-uv run scripts/lookup-dictionary.py inflation
+# 英文詞彙查詢
+uv run scripts/lookup-dictionary.py "national debt"    # 英文 → 日文
+uv run scripts/lookup-dictionary.py computer           # 英文 → 中文
+
+# 中文詞彙查詢（繁體）
+uv run scripts/lookup-dictionary.py 經濟               # 中文解釋
+uv run scripts/lookup-dictionary.py 電腦               # 中文解釋
 
 # 原始字典文字（查看完整內容）
 uv run scripts/lookup-dictionary.py 食べる --raw
-uv run scripts/lookup-dictionary.py economy --raw
+uv run scripts/lookup-dictionary.py computer --raw
+uv run scripts/lookup-dictionary.py 民主 --raw
 ```
 
-### 英文查詢注意事項
+### 查詢注意事項
 
-- 英文查詢返回 ウィズダム英和辞典 的完整條目
-- 使用 `--raw` 查看原始結果，從中找到需要的日文翻譯
+**英文查詢**：
+- 可能同時返回日文（ウィズダム英和）和中文（譯典通）結果
+- 使用 `--raw` 查看完整內容
 - 複合詞需用引號包圍：`"national debt"`
+
+**中文查詢**：
+- 僅支援**繁體中文**
+- 返回國語辭典結果（含注音、倉頡碼）
+- 簡體字查不到（如「国债」→ 需改用「國債」）
 
 ## 輸出格式
 
@@ -171,7 +193,7 @@ uv run scripts/lookup-dictionary.py べんきょう --raw
 英文：eat; have a meal
 ```
 
-### 英文詞彙查詢
+### 英文詞彙查詢（英翻日）
 
 當用戶詢問英文詞彙的日文翻譯時：
 
@@ -180,6 +202,31 @@ uv run scripts/lookup-dictionary.py べんきょう --raw
 日文翻譯：国家負債、国債
 美式用法：public debt
 備註：通常用單數形
+```
+
+### 英文詞彙查詢（英翻中）
+
+當用戶詢問英文詞彙的中文翻譯時：
+
+```
+【computer】
+中文翻譯：電腦、電子計算機
+詞性：名詞（可數）
+同義詞：calculator, microcomputer, laptop
+```
+
+### 中文詞彙查詢
+
+當用戶詢問中文詞彙的解釋時：
+
+```
+【經濟】ㄐㄧㄥ ㄐㄧˋ
+注音：ㄐㄧㄥ ㄐㄧˋ
+拼音：jīng jì
+解釋：
+① 關於財貨的生產、分配、消費等事項
+② 節約，以較少耗費獲得較大成果
+③ 經世濟民，治理國家
 ```
 
 ## 技術文檔
