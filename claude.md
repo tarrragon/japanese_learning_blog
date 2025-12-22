@@ -559,13 +559,22 @@ src/                          # 原始碼（開發時編輯）
 │   ├── Question.js           # 題目 Entity
 │   ├── InputBuffer.js        # 輸入緩衝區
 │   ├── TypingSession.js      # Session Aggregate Root
+│   ├── EventTypes.js         # 事件類型常數
 │   └── RomajiMap.js          # 羅馬字對應表
 │
 ├── store/                    # 狀態管理（v2.0 新增）
+│   ├── index.js              # 模組索引
 │   ├── Store.js              # 輕量級 Flux 風格 Store
 │   ├── AppState.js           # 應用程式狀態定義
 │   ├── actions.js            # Action Types 和 Creators
-│   └── reducer.js            # 狀態更新邏輯
+│   ├── reducer.js            # 狀態更新邏輯
+│   └── middleware/           # 中介層（v2.1 新增）
+│       ├── index.js          # Middleware 索引
+│       └── effectMiddleware.js # 副作用處理（閃爍、語音）
+│
+├── adapters/                 # 橋接器（v2.1 新增）
+│   ├── index.js              # Adapter 索引
+│   └── SessionStoreAdapter.js # Session 事件 → Store 橋接
 │
 ├── modes/                    # 練習模式（v2.0 新增）
 │   ├── PracticeMode.js       # 抽象基類
@@ -592,6 +601,10 @@ src/                          # 原始碼（開發時編輯）
 │   ├── QuestionLoader.js     # 題庫載入服務
 │   └── PersistenceService.js # localStorage 持久化（v2.0 新增）
 │
+├── i18n/                     # 國際化（v2.0 新增）
+│   ├── index.js              # i18n 索引
+│   └── I18nService.js        # 多語系服務（zh-TW, en, ja）
+│
 ├── ui/                       # UI 層（保留）
 │   └── KeyboardRenderer.js   # 虛擬鍵盤渲染
 │
@@ -604,25 +617,48 @@ static/practice/              # 靜態網頁（HUGO 發布）
 └── js/
     └── practice.js           # 打包後的 JS（由 bun build 產生）
 
-tests/                        # 測試檔案（392 個測試）
+tests/                        # 測試檔案（469 個測試）
 ├── domain/                   # Domain 層測試
-├── integration/              # 整合測試
+├── integration/              # 整合測試（Session-Store 流程）
+├── adapters/                 # Adapter 測試
 ├── ui/                       # UI 測試
-├── store/                    # Store 測試（v2.0 新增）
-├── modes/                    # Modes 測試（v2.0 新增）
-├── input/                    # Input 測試（v2.0 新增）
-└── renderers/                # Renderers 測試（v2.0 新增）
+├── store/                    # Store 測試
+│   └── middleware/           # Middleware 測試
+├── modes/                    # Modes 測試
+├── input/                    # Input 測試
+├── i18n/                     # i18n 測試
+└── renderers/                # Renderers 測試
 ```
 
-### 架構說明（v2.0）
+### 架構說明（v2.1）
 
 | 模組 | 職責 | 擴展方式 |
 |------|------|----------|
 | `store/` | 集中管理應用狀態 | 新增 Action Types |
+| `store/middleware/` | 處理副作用（閃爍、語音） | 新增 middleware 函數 |
+| `adapters/` | 事件系統橋接 | 新增 Adapter 類別 |
 | `modes/` | 練習模式抽象 | 繼承 PracticeMode，註冊到 ModeRegistry |
 | `input/` | 輸入處理抽象 | 繼承 InputHandler，加入 Factory |
 | `renderers/` | UI 渲染分離 | 新增獨立 Renderer |
+| `i18n/` | 國際化支援 | 新增翻譯鍵值 |
 | `App.js` | 整合所有模組 | 統一入口 |
+
+### 資料流架構（v2.1）
+
+```
+使用者輸入 → TypingSession → SessionStoreAdapter → Store
+                                                     ↓
+                              ┌────────────────────────────────────┐
+                              │           Subscribers              │
+                              │  ├─ App.js（UI 更新/渲染）          │
+                              │  └─ effectMiddleware（閃爍效果）    │
+                              └────────────────────────────────────┘
+```
+
+**關鍵元件**：
+- **SessionStoreAdapter**：將 Session 事件（KEY_PRESSED, CHARACTER_COMPLETED 等）轉發為 Store actions
+- **effectMiddleware**：訂閱 Store，處理副作用（閃爍成功/錯誤）
+- **App.js**：訂閱 Store，處理 UI 更新（渲染、Buffer 顯示）
 
 ### 開發流程
 
@@ -700,11 +736,14 @@ bun build src/main.js --outfile static/practice/js/practice.js --minify --format
 修改以下檔案後**必須重新打包**：
 - `src/domain/*.js` - 核心邏輯
 - `src/store/*.js` - 狀態管理
+- `src/store/middleware/*.js` - 中介層
+- `src/adapters/*.js` - 橋接器
 - `src/modes/*.js` - 練習模式
 - `src/input/*.js` - 輸入處理
 - `src/renderers/*.js` - 渲染器
 - `src/effects/*.js` - 視覺效果
 - `src/services/*.js` - 應用服務
+- `src/i18n/*.js` - 國際化
 - `src/ui/*.js` - UI 控制器
 - `src/App.js` - 應用主控制器
 - `src/main.js` - 入口點

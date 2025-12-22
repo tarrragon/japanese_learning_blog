@@ -125,24 +125,30 @@ japanese_learning_blog/
 │
 ├── scripts/                  # Python 維護工具（編號、索引、驗證）
 │
-├── src/                      # 日文輸入練習原始碼（v2.0 模組化架構）
+├── src/                      # 日文輸入練習原始碼（v2.1 模組化架構）
 │   ├── domain/               # Domain 層（核心邏輯）
 │   ├── store/                # 狀態管理（Store, Actions, Reducer）
+│   │   └── middleware/       # 中介層（副作用處理）
+│   ├── adapters/             # 橋接器（Session → Store）
 │   ├── modes/                # 練習模式（題庫、假名、可擴展）
 │   ├── input/                # 輸入處理（鍵盤、手機）
 │   ├── renderers/            # 渲染器（文字、結果）
 │   ├── effects/              # 視覺效果
 │   ├── services/             # 應用服務
+│   ├── i18n/                 # 國際化（zh-TW, en, ja）
 │   ├── ui/                   # UI 控制器
 │   ├── App.js                # 應用主控制器
 │   └── main.js               # 入口點
 │
-├── tests/                    # 測試檔案（392 個測試）
+├── tests/                    # 測試檔案（469 個測試）
 │   ├── domain/               # Domain 層測試
-│   ├── integration/          # 整合測試
+│   ├── integration/          # 整合測試（Session-Store 流程）
+│   ├── adapters/             # Adapter 測試
 │   ├── store/                # Store 測試
+│   │   └── middleware/       # Middleware 測試
 │   ├── modes/                # Modes 測試
 │   ├── input/                # Input 測試
+│   ├── i18n/                 # i18n 測試
 │   └── renderers/            # Renderers 測試
 │
 ├── static/practice/          # 日文輸入練習靜態頁面
@@ -171,11 +177,13 @@ japanese_learning_blog/
 | `doc/specs/` | 開發規格 | v1.0.7-v1.1.0 功能規格文檔 |
 | `doc/macos-dictionary-services.md` | 字典技術文檔 | macOS DictionaryServices API 整合指南 |
 | `scripts/` | 維護腳本 | 編號分配、索引更新、格式驗證、字典查詢 |
-| `src/` | 練習功能原始碼 | v2.0 模組化架構（Store、Modes、Input、Renderers） |
-| `src/store/` | 狀態管理 | Flux 風格 Store、Actions、Reducer |
+| `src/` | 練習功能原始碼 | v2.1 模組化架構（Store、Modes、Input、Renderers、Adapters） |
+| `src/store/` | 狀態管理 | Flux 風格 Store、Actions、Reducer、Middleware |
+| `src/adapters/` | 橋接器 | Session 事件到 Store 的轉發器 |
 | `src/modes/` | 練習模式 | 題庫模式、假名模式、可擴展設計 |
 | `src/input/` | 輸入處理 | 鍵盤輸入、手機輸入、工廠模式 |
-| `tests/` | 測試檔案 | 392 個測試（Domain、Store、Modes、Input、Renderers） |
+| `src/i18n/` | 國際化 | 多語系支援（zh-TW, en, ja） |
+| `tests/` | 測試檔案 | 469 個測試（Domain、Store、Modes、Input、Renderers、Adapters） |
 | `static/practice/` | 練習靜態頁面 | HTML、CSS、打包後的 JS |
 | `zettelkasten/` | 卡片內容 | 三語解釋、例句、相關連結 |
 
