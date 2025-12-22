@@ -358,11 +358,11 @@ A: 在特定語境下（如「だから言ったでしょう」），「だか�
 
 ### 基礎接續詞
 - [conjunction/shitagatte](../conjunction/shitagatte.md) - したがって接續詞（正式因果）（待建立）
-- [conjunction/dakara](../conjunction/dakara.md) - だから接續詞（非正式因果）（待建立）
+- [だから](../conjunction/001_dakara.md) - 所以、因此（口語因果連接詞）
 
 ### 相關對比
 - [soredewa_vs_jaa](soredewa_vs_jaa.md) - それでは vs じゃあ（正式度對比）（待建立）
-- [shikashi_vs_demo](003_shikashi_vs_demo.md) - しかし vs でも（轉折接續詞）
+- [しかし vs でも](003_shikashi_vs_demo.md) - 轉折接續詞的正式度對比
 
 ### 相關文法
 - [formal_vs_informal_speech](../grammar/formal_vs_informal_speech.md) - 正式語 vs 非正式語（待建立）

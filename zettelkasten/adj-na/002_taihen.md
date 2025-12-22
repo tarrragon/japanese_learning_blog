@@ -124,4 +124,4 @@ Describes situations that are challenging, laborious, or grave.
 - [#intensity](../_meta/tags/intensity.md) - 程度強調相關詞彙
 - [#na-adjective](../_meta/tags/na-adjective.md) - 形容動詞語法
 - [とても](../adverb/001_totemo.md) - 類似的程度副詞
-- [すごい](../adj-i/003_sugoi.md) - 口語化的強調表達
+- すごい（待建立） - 口語化的強調表達

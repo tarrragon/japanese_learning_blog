@@ -12,7 +12,7 @@ aliases:
   - excuse me vs sorry
   - 對不起的表達
 related:
-  - zettelkasten/comparison/002_arigatou_vs_doumo.md
+  - zettelkasten/comparison/007_shitsureishimasu_vs_sumimasen.md
 ---
 
 ## すみません vs ごめんなさい

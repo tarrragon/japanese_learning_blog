@@ -159,7 +159,7 @@ Both **とても** and **大変** are adverbs expressing degree, but they differ
 
 ## 相關卡片
 
-- [程度副詞總覽](待建立)
+- [とても - 程度副詞](../adverb/005_totemo.md)
 - [大変的多義用法](待建立)
 - [副詞的否定用法](待建立)
 - [正式道歉表達](待建立)

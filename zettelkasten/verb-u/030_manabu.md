@@ -81,7 +81,7 @@ to learn, to study (emphasizes acquiring knowledge or skills through practice, e
 
 - [勉強する](../../verb-ru/001_benkyousuru.md) - 一般性的學習
 - [教える](../../verb-ru/002_oshieru.md) - 教導（學習的相對動作）
-- [習う](../../verb-u/031_narau.md) - 向人學習、拜師學習（待建立）
+- [習う](../verb-u/031_narau.md) - 向人學習、拜師學習
 
 ---
 

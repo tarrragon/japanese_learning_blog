@@ -134,20 +134,29 @@ uv run scripts/update_card_progress.py --id {card_id} --stage linking --quiet
 
 **狀態轉換**：`linking` → `completed`
 
-**驗證命令**：
+**驗證與修復命令**：
+
 ```bash
-# 1. 檢查編號連續性
+# 第 1 步：檢查問題
 uv run scripts/fix-numbering.py --check
-
-# 2. 檢查連結格式（修復殘留的舊 Wikilink 格式）
 uv run scripts/fix-wikilinks.py --check
-
-# 3. 驗證 Meta 系統
 uv run scripts/verify-meta.py --verbose
 
-# 4. 查看完成統計
+# 第 2 步：自動修復（如有問題）
+uv run scripts/fix-numbering.py --fix
+uv run scripts/fix-wikilinks.py --fix
+
+# 第 3 步：驗證修復結果
+uv run scripts/fix-numbering.py --check
+uv run scripts/fix-wikilinks.py --verify
+
+# 第 4 步：查看完成統計
 uv run scripts/manage_worklog_cards.py stats
 ```
+
+**注意**：
+- 編號和連結問題會自動修復
+- Meta 缺口僅檢查，記錄到延伸需求報告供下一版本處理
 
 **圖表審查（可選）**：
 
@@ -171,9 +180,9 @@ uv run scripts/update_card_progress.py --id {card_id} --stage completed --quiet
 
 **完成條件**：
 - ✅ 所有卡片狀態為 `completed`
-- ✅ 編號連續無衝突
-- ✅ 連結格式正確
-- ✅ Meta 系統驗證通過
+- ✅ 編號連續無衝突（自動修復後驗證）
+- ✅ 連結格式正確（自動修復後驗證）
+- ⚪ Meta 系統驗證（僅檢查，缺口記錄到下一版本）
 - ⚪ 圖表審查完成（可選）
 
 **最後動作**：

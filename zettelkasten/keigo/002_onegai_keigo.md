@@ -101,6 +101,7 @@ The request honorific system (onegai no keigo) encompasses various polite expres
 3. **クッション言葉**：「恐れ入りますが」「お手数ですが」などを前置きすると丁寧さが増す
 
 ## 參考連結
-- [zettelkasten/keigo/001_keigo_overview.md](zettelkasten/keigo/001_keigo_overview.md)
-- [zettelkasten/grammar-n4/待建立-te-kudasai-form.md](zettelkasten/grammar-n4/待建立-te-kudasai-form.md)
-- [zettelkasten/grammar-n3/待建立-itadaku-usage.md](zettelkasten/grammar-n3/待建立-itadaku-usage.md)
+- [敬語系統](../grammar/005_keigo_system.md)
+- [〜てください](../grammar/070_te_kudasai.md)
+- [〜ていただく](../grammar/068_te_itadaku.md)
+- [いただく](../keigo/001_itadaku.md)

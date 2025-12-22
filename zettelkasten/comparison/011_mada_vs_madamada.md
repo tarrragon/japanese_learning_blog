@@ -230,7 +230,7 @@ jlpt: n4
 
 ## 相關連結（Related Links）
 
-- [もう](../adverb/012_mou.md) - 「まだ」的對比詞
+- [もう](../adverb/008_mou.md) - 「まだ」的對比詞
 - [まだ～ていない](../grammar/015_mada_te_inai.md) - 「まだ」與否定形的組合
 - [程度副詞](../concept/016_degree_adverbs.md) - 程度副詞的系統分類
 

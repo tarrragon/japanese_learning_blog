@@ -278,9 +278,11 @@ mastery_level: 0
 
 ## 相關連結
 
-- [comparison_001](comparison_001_arigatou_vs_sumimasen.md) - ありがとう vs すみません
-- [greeting_001](../greeting/001_ohayou_gozaimasu.md) - おはようございます（待建立）
-- [greeting_002](../greeting/002_konnichiwa.md) - こんにちは（待建立）
+- [すみません vs ごめんなさい](../comparison/001_sumimasen_vs_gomennasai.md)
+- [すみません（phrase）](../phrase/022_すみません.md)
+- [失礼します（honorific）](../honorific/009_shitsurei_shimasu.md)
+- [greeting_001](待建立) - おはようございます
+- [greeting_002](待建立) - こんにちは
 
 ## 參考資料
 

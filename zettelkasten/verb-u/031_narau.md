@@ -211,7 +211,7 @@ To learn or study something from someone, especially skills or arts under a teac
 ## 相關連結
 
 ### 同義詞・相關動詞
-- [学ぶ](021_manabu.md) - 學習（更廣泛的學習概念）
+- [学ぶ](../verb-u/021_manabu.md) - 學習（更廣泛的學習概念）
 - 勉強する（待建立） - 學習、用功（學業性學習）
 - 教わる（待建立） - 被教導（習う的被動形式）
 

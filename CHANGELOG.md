@@ -7,6 +7,47 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.3.1] - 2025-12-22
+
+### Added
+
+#### 完成 30 張延伸卡片的四階段循環
+
+本版本完成 v1.1.1 建立的 30 張延伸卡片，完整執行四階段工作流程。
+
+**卡片分布**：
+
+| 分類 | 數量 | 內容 |
+|------|------|------|
+| comparison | 18 張 | 詞彙對比、使用情境比較 |
+| keigo | 3 張 | 敬語表達（いただく、お願い敬語、どうする敬語） |
+| verb-u | 2 張 | 学ぶ、習う |
+| adj-i | 1 張 | 低い |
+| adj-na | 1 張 | 大変 |
+| adverb | 1 張 | もう |
+| conjunction | 3 張 | でも、けれども、だから |
+| phrase | 1 張 | ごめんなさい |
+
+**階段執行紀錄**：
+
+| 階段 | 產出 |
+|------|------|
+| Extension Review | 識別 42 張延伸需求，新增 32 張到 pending |
+| Link Building | 替換約 27 個連結，識別約 50 個連結缺口 |
+| Final Verification | 編號/連結驗證通過 |
+
+### Documentation
+
+- `doc/worklog/extension-cards-1.3.1.md` - Extension Review 報告
+- `doc/worklog/linking-cards-1.3.1.md` - Link Building 報告
+
+### Statistics
+
+- **完成卡片**：30 張
+- **新增 pending**：32 張（供下一版本使用）
+- **替換連結**：約 27 個
+- **連結缺口**：約 50 個（待建立標記）
+
 ## [1.3.0] - 2025-12-22
 
 ### Changed

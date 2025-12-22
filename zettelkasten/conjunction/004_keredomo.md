@@ -82,10 +82,10 @@ The word conveys the meaning "despite~" or "but~," introducing content that is c
 ## 相關連結
 
 ### 同義詞・類似表現
-- [でも](002_demo.md) - 口語的「但是」
-- [しかし](待建立) - 正式的「但是」
-- [けど](待建立) - 口語簡化形「不過」
-- [だが](待建立) - 男性化、強硬的「然而」
+- [でも](003_demo.md) - 口語的「但是」
+- [しかし](010_shikashi.md) - 正式的「但是」
+- [けど](待建立) - 口語簡化形「不過」（待建立）
+- [だが](待建立) - 男性化、強硬的「然而」（待建立）
 
 ### 相關文法
 - [逆接表現](../grammar/adversative-expressions.md) - 逆接連接詞總覽
@@ -95,7 +95,7 @@ The word conveys the meaning "despite~" or "but~," introducing content that is c
 ### JLPT N4 接續詞
 - [だから](001_dakara.md) - 所以、因此
 - [それで](004_sorede.md) - 因此、所以
-- [しかし](待建立) - 但是、然而
+- [しかし](010_shikashi.md) - 但是、然而
 
 ### 延伸說明
 - [逆接連接詞的使用場景](../extension/conjunction-usage-contexts.md) - 何時使用哪個逆接詞

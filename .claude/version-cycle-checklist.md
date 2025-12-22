@@ -612,6 +612,29 @@
 - [ ] 確認所有 Draft 階段的卡片 `stage: completed`
 - [ ] 確認所有卡片 `needs_review: false`
 - [ ] 確認所有卡片有 `completed: YYYY-MM-DD`
+
+**自動修復步驟**：
+- [ ] 檢查並修復編號問題
+  ```bash
+  uv run scripts/fix-numbering.py --check
+  uv run scripts/fix-numbering.py --fix  # 如有問題
+  ```
+- [ ] 檢查並修復連結格式
+  ```bash
+  uv run scripts/fix-wikilinks.py --check
+  uv run scripts/fix-wikilinks.py --fix  # 如有問題
+  uv run scripts/fix-wikilinks.py --verify
+  ```
+- [ ] 驗證 Meta 系統（僅檢查，缺口記錄到下一版本）
+  ```bash
+  uv run scripts/verify-meta.py --verbose
+  ```
+- [ ] 查看完成統計
+  ```bash
+  uv run scripts/manage_worklog_cards.py stats
+  ```
+
+**文檔更新：**
 - [ ] 更新 CHANGELOG.md，新增本版本條目
 - [ ] 建立完成總結文檔（可選）
 - [ ] 更新工作日誌的「階段 4」和整體狀態

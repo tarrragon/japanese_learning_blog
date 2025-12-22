@@ -199,7 +199,8 @@ Both **大きい** and **大きな** mean "big/large," but they differ grammatic
 
 ## 相關卡片
 
-- [小さい vs 小さな](zettelkasten/comparison/008_chiisai_vs_chiisana.md)
+- [小さい vs 小さな](../comparison/008_chiisai_vs_chiisana.md)
+- [大きい](../adj-i/001_大きい.md)
 - [イ形容詞總覽](待建立)
 - [連体詞的用法](待建立)
 - [形容詞的活用](待建立)

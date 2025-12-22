@@ -118,9 +118,9 @@ To learn; to acquire knowledge or skills. Encompasses natural learning through e
 
 ## 相關卡片
 
-- [動詞する](../verb-suru/002_benkyousuru.md) - 勉強する的詳細用法
-- [五段動詞](../verb-godan/001_manabu.md) - 学ぶ的活用形式（待建立）
-- [學習相關動詞](../concept/025_learning_verbs.md) - 其他學習動詞比較（待建立）
+- [動詞する](待建立) - 勉強する的詳細用法
+- [五段動詞](待建立) - 学ぶ的活用形式
+- [學習相關動詞](待建立) - 其他學習動詞比較
 
 ---
 
