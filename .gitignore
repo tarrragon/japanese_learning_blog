@@ -28,3 +28,6 @@ venv/
 
 # 建置時產生的題庫（由 CI 產生）
 static/data/
+
+# Skill 打包檔案（手動發布用，不需版控）
+*.skill
