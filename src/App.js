@@ -4,23 +4,39 @@
  * 整合所有模組，統一管理應用程式生命週期
  */
 
-import { Store } from './store/Store.js';
-import { appReducer } from './store/reducer.js';
-import { initialState } from './store/AppState.js';
-import { actions, ActionTypes } from './store/actions.js';
+// Store 模組
+import {
+  Store,
+  appReducer,
+  initialState,
+  actions,
+  ActionTypes,
+  createEffectMiddleware,
+} from './store/index.js';
+
+// 橋接器
+import { SessionStoreAdapter } from './adapters/index.js';
+
+// 練習模式
 import { modeRegistry } from './modes/ModeRegistry.js';
+
+// 輸入處理
 import { InputHandlerFactory } from './input/InputHandlerFactory.js';
+
+// 渲染器
 import { TextRenderer } from './renderers/TextRenderer.js';
 import { RomajiRenderer } from './renderers/RomajiRenderer.js';
 import { ResultRenderer } from './renderers/ResultRenderer.js';
+
+// 效果與服務
 import { FlashEffect } from './effects/FlashEffect.js';
 import { KeyboardRenderer } from './ui/KeyboardRenderer.js';
 import { QuestionLoader } from './services/QuestionLoader.js';
 import { SpeechService } from './services/SpeechService.js';
 import { PersistenceService } from './services/PersistenceService.js';
+
+// Domain
 import { SessionEventTypes } from './domain/EventTypes.js';
-import { SessionStoreAdapter } from './adapters/SessionStoreAdapter.js';
-import { createEffectMiddleware } from './store/middleware/effectMiddleware.js';
 
 export class App {
   #store;
