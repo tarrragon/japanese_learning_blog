@@ -7,6 +7,51 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.2.1] - 2025-12-22
+
+### Added
+
+#### 字典整合測試版本 - 8 張卡片
+
+測試 macOS Dictionary Skill 整合到卡片建立流程，驗證字典查詢功能。
+
+**新增卡片**：
+
+| 分類 | 卡片 | JLPT |
+|------|------|------|
+| verb-u | 学ぶ（まなぶ）、習う（ならう） | N4, N5 |
+| adj-i | 低い（ひくい） | N5 |
+| adj-na | 大変（たいへん） | N4 |
+| adverb | もう | N5 |
+
+**補充 dictionary 區塊**：
+- とても、すぐ、まだ（已存在的副詞卡片）
+
+### Verified
+
+#### 字典整合驗證成功
+
+- **字典查詢成功率**：8/8（100%）
+- **YAML dictionary 區塊**：所有卡片都正確包含
+- **日文解釋引用字典**：添加 [^dict] 腳註
+
+**驗證的流程**：
+1. `lookup-dictionary.py` 正確查詢 macOS 字典
+2. 字典資料正確解析（reading, pos, definition_ja）
+3. `build-card-content` 代理人成功使用字典資料
+
+### Documentation
+
+- `doc/worklog/worklog-1.2.1.md` - 版本工作日誌
+- `doc/worklog/consolidated-requirements-1.2.md` - 合併延伸需求報告
+
+### Statistics
+
+- **新增卡片**：5 張
+- **更新卡片**：3 張（添加 dictionary 區塊）
+- **字典查詢**：8 次（100% 成功）
+- **並行代理人**：5 個
+
 ## [1.2.0] - 2025-12-22
 
 ### Added

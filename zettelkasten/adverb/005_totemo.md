@@ -11,8 +11,18 @@ tags:
   - adverb
   - degree
   - jlpt/n5
+dictionary:
+  sources:
+    daijirin: true
+    waei: false
+  reading: "とても"
+  pos: "副詞"
+  pos_details: "連語"
+  definition_ja: "程度が非常に高いさま。"
+  definition_en: null
+  lookup_date: 2025-12-22
 created: 2025-12-18
-updated: 2025-12-18
+updated: 2025-12-22
 ---
 
 ## 日文

@@ -26,3 +26,8 @@ id,category,number,japanese,chinese,english,jlpt,priority,stage,allocated_number
 25,adverb,007,まだ,還/尚未,Still/Not yet,n4,Medium,pending,007,缺少: 例句
 26,particle,014,で (手段),,De means particle,n4,High,pending,014,缺少: 日文解釋, 英文解釋
 27,particle,013,から・より,,Kara/Yori comparison,n4,High,pending,013,缺少: 日文解釋, 英文解釋, 中文解釋
+28,verb-u,030,学ぶ,學習,to learn,n4,High,pending,030,來自 linking-1.0.8 連結缺口
+29,verb-u,031,習う,學習/練習,to learn/practice,n5,High,pending,031,來自 linking-1.0.8 連結缺口
+30,adj-i,004,低い,低的,low,n5,High,pending,004,來自 linking-1.0.8 高い反義詞
+31,adverb,008,もう,已經,already,n5,High,pending,008,來自 linking-1.0.8 まだ對比詞
+32,adj-na,002,大変,辛苦/非常,terrible/very,n4,High,pending,002,來自 linking-1.0.8 とても同義詞

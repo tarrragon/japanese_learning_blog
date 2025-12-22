@@ -11,8 +11,19 @@ tags:
   - adverb
   - time
   - jlpt/n5
+dictionary:
+  sources:
+    daijirin: true
+    waei: false
+  reading: "まだ"
+  kanji: "未だ"
+  pos: "副詞"
+  pos_details: "副"
+  definition_ja: "ある状態・段階・程度に至っていないさま。"
+  definition_en: null
+  lookup_date: 2025-12-22
 created: 2025-12-18
-updated: 2025-12-18
+updated: 2025-12-22
 ---
 
 ## 日文
