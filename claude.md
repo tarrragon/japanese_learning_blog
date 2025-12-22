@@ -617,17 +617,32 @@ static/practice/              # 靜態網頁（HUGO 發布）
 └── js/
     └── practice.js           # 打包後的 JS（由 bun build 產生）
 
-tests/                        # 測試檔案（469 個測試）
-├── domain/                   # Domain 層測試
-├── integration/              # 整合測試（Session-Store 流程）
-├── adapters/                 # Adapter 測試
-├── ui/                       # UI 測試
-├── store/                    # Store 測試
-│   └── middleware/           # Middleware 測試
-├── modes/                    # Modes 測試
-├── input/                    # Input 測試
-├── i18n/                     # i18n 測試
-└── renderers/                # Renderers 測試
+tests/                        # 測試檔案（536 個測試）
+├── helpers/                  # 環境模擬工具（v2.2 新增）
+│   ├── browserEnv.js         # 瀏覽器環境模擬
+│   ├── domMock.js            # DOM 元素工廠
+│   └── storageMock.js        # localStorage 模擬
+│
+├── unit/                     # 單元測試（純邏輯）
+│   ├── domain/               # Domain 層（Character, Question, Session...）
+│   ├── services/             # 服務層（SpeechService, PersistenceService）
+│   ├── store/                # 狀態管理（Store, reducer, middleware）
+│   ├── modes/                # 練習模式
+│   └── input/                # 輸入處理
+│
+├── integration/              # 整合測試（模組間互動）
+│   ├── typing/               # 打字流程（TypingFlow, DirectInputFlow）
+│   ├── store/                # Session-Store 流程
+│   └── adapters/             # 橋接器測試
+│
+├── environment/              # 環境適應測試（v2.2 新增）
+│   └── services/             # 服務在瀏覽器/Node 環境的行為
+│
+├── app/                      # App 層整合測試（v2.2 新增）
+│
+├── ui/                       # UI 元件測試
+├── renderers/                # 渲染器測試
+└── i18n/                     # 國際化測試
 ```
 
 ### 架構說明（v2.1）
@@ -679,9 +694,11 @@ hugo server
 #### 3. 執行測試
 
 ```bash
-bun test                      # 執行所有測試
-bun test tests/domain         # 僅測試 Domain 層
-bun test tests/integration    # 僅測試整合流程
+bun test                      # 執行所有測試（536 個）
+bun test tests/unit           # 單元測試
+bun test tests/integration    # 整合測試
+bun test tests/environment    # 環境適應測試
+bun test tests/app            # App 層測試
 ```
 
 #### 4. 重新打包（重要！）
@@ -837,4 +854,4 @@ bun build src/main.js --outfile static/practice/js/practice.js --minify --format
 
 ---
 
-**最後更新：2025-12-22**
+**最後更新：2025-12-23**

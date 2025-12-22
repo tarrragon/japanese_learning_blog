@@ -7,6 +7,34 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.2.0] - 2025-12-23
+
+### Fixed
+
+- **SpeechService 語音朗讀修復**：修正 `SpeechService` 在瀏覽器環境中無法朗讀的問題
+  - 原因：構造函數缺少 fallback 到 `window.speechSynthesis` 的邏輯
+  - 修復：`src/services/SpeechService.js:22-24`
+
+### Added
+
+- **測試架構重構**：新增 67 個測試（469 → 536）
+  - `tests/helpers/` - 環境模擬工具（browserEnv, domMock, storageMock）
+  - `tests/environment/` - 環境適應測試（測試服務在瀏覽器/Node 環境的行為）
+  - `tests/app/` - App 層整合測試
+
+### Changed
+
+- **測試目錄重組**：
+  - `tests/domain/` → `tests/unit/domain/`
+  - `tests/store/` → `tests/unit/store/`
+  - `tests/services/` → `tests/unit/services/`
+  - `tests/integration/` → `tests/integration/{typing,store,adapters}/`
+
+### Documentation
+
+- 更新 `CLAUDE.md` 測試相關文檔
+- 新增 `tests/README.md` 測試架構說明
+
 ## [1.3.2] - 2025-12-22
 
 ### Added

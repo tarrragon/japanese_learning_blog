@@ -19,7 +19,9 @@ export class SpeechService {
     this.#lang = options.lang || 'ja-JP';
     this.#rate = options.rate || 1.0;
     // 允許注入 mock，或使用全域的 speechSynthesis
-    this.#speechSynthesis = options.speechSynthesis;
+    this.#speechSynthesis =
+      options.speechSynthesis ||
+      (typeof window !== 'undefined' ? window.speechSynthesis : undefined);
   }
 
   /**
