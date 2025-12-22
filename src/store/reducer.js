@@ -195,7 +195,61 @@ export function appReducer(state, action) {
         currentQuestion: null,
         result: null,
         error: null,
+        session: {
+          inputBuffer: '',
+          currentIndex: 0,
+          keystrokes: 0,
+          mistakes: 0,
+          startTime: null,
+        },
       };
+
+    // ─────────────────────────────────────────────────────────
+    // Session 即時事件
+    // ─────────────────────────────────────────────────────────
+
+    case ActionTypes.KEY_PRESS:
+      return {
+        ...state,
+        session: {
+          ...state.session,
+          keystrokes: state.session.keystrokes + 1,
+          startTime: state.session.startTime ?? action.payload.timestamp,
+        },
+      };
+
+    case ActionTypes.ROMAJI_MATCH:
+      return {
+        ...state,
+        session: {
+          ...state.session,
+          inputBuffer: action.payload.romaji,
+        },
+      };
+
+    case ActionTypes.CHARACTER_COMPLETE:
+      return {
+        ...state,
+        session: {
+          ...state.session,
+          inputBuffer: '',
+          currentIndex: state.session.currentIndex + 1,
+        },
+      };
+
+    case ActionTypes.CHARACTER_MISTAKE:
+      return {
+        ...state,
+        session: {
+          ...state.session,
+          inputBuffer: '',
+          mistakes: state.session.mistakes + 1,
+        },
+      };
+
+    case ActionTypes.SPEECH_REQUEST:
+      // 純狀態操作：不變更狀態，由 middleware 處理副作用
+      return state;
 
     // ─────────────────────────────────────────────────────────
     // 未知 Action：返回原狀態

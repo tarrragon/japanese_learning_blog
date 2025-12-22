@@ -92,6 +92,20 @@ export const ActionTypes = {
   // ─────────────────────────────────────────────────────────
   /** 重置 Session 狀態 */
   RESET_SESSION: 'RESET_SESSION',
+
+  // ─────────────────────────────────────────────────────────
+  // Session 即時事件（對應 TypingSession 事件）
+  // ─────────────────────────────────────────────────────────
+  /** 使用者按下按鍵 */
+  KEY_PRESS: 'KEY_PRESS',
+  /** 羅馬拼音匹配（部分或完整） */
+  ROMAJI_MATCH: 'ROMAJI_MATCH',
+  /** 完成一個假名字元 */
+  CHARACTER_COMPLETE: 'CHARACTER_COMPLETE',
+  /** 輸入錯誤 */
+  CHARACTER_MISTAKE: 'CHARACTER_MISTAKE',
+  /** 請求語音朗讀 */
+  SPEECH_REQUEST: 'SPEECH_REQUEST',
 };
 
 /**
@@ -237,5 +251,79 @@ export const actions = {
    */
   resetSession: () => ({
     type: ActionTypes.RESET_SESSION,
+  }),
+
+  // ─────────────────────────────────────────────────────────
+  // Session 即時事件 Action Creators
+  // ─────────────────────────────────────────────────────────
+
+  /**
+   * 按鍵按下
+   *
+   * 記錄使用者按下的每個按鍵，用於統計和追蹤。
+   *
+   * @param {string} key - 按下的按鍵
+   * @returns {Object} Action 物件
+   */
+  keyPress: (key) => ({
+    type: ActionTypes.KEY_PRESS,
+    payload: { key, timestamp: Date.now() },
+  }),
+
+  /**
+   * 羅馬拼音匹配
+   *
+   * 當輸入與預期羅馬字部分或完整匹配時觸發。
+   *
+   * @param {string} romaji - 目前的羅馬拼音輸入
+   * @param {boolean} isPartial - 是否為部分匹配
+   * @returns {Object} Action 物件
+   */
+  romajiMatch: (romaji, isPartial) => ({
+    type: ActionTypes.ROMAJI_MATCH,
+    payload: { romaji, isPartial },
+  }),
+
+  /**
+   * 字元完成
+   *
+   * 當成功完成一個假名字元的輸入時觸發。
+   *
+   * @param {Object} character - 完成的字元資料
+   * @param {string} character.kana - 假名
+   * @param {number} duration - 輸入耗時（毫秒）
+   * @returns {Object} Action 物件
+   */
+  characterComplete: (character, duration) => ({
+    type: ActionTypes.CHARACTER_COMPLETE,
+    payload: { character, duration },
+  }),
+
+  /**
+   * 字元輸入錯誤
+   *
+   * 當輸入與預期不符時觸發。
+   *
+   * @param {string[]} expected - 預期的可接受輸入
+   * @param {string} actual - 實際輸入
+   * @returns {Object} Action 物件
+   */
+  characterMistake: (expected, actual) => ({
+    type: ActionTypes.CHARACTER_MISTAKE,
+    payload: { expected, actual },
+  }),
+
+  /**
+   * 語音朗讀請求
+   *
+   * 請求朗讀指定文字。此 Action 由 middleware 處理，
+   * 不會改變 Store 狀態。
+   *
+   * @param {string} text - 要朗讀的文字
+   * @returns {Object} Action 物件
+   */
+  speechRequest: (text) => ({
+    type: ActionTypes.SPEECH_REQUEST,
+    payload: { text },
   }),
 };
