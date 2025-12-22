@@ -28,6 +28,13 @@
 - Tag 系統（情境、領域、JLPT 等級）
 - 漸進式知識累積
 
+### 📖 macOS 字典整合（v1.0.10+）
+- 整合 macOS 內建字典 API（DictionaryServices）
+- 自動查詢スーパー大辞林（讀音、詞性、日文定義）
+- 自動查詢ウィズダム和英辞典（英文翻譯）
+- 字典資料作為權威來源，減少 AI 幻覺
+- 僅限 macOS 環境使用
+
 ## 安裝使用
 
 ### 系統要求
@@ -162,7 +169,8 @@ japanese_learning_blog/
 | `.claude/commands/` | 使用者指令 | `/create-zettel`, `/analyze-article` 等 |
 | `doc/worklog/` | 版本管理 | 工作日誌、卡片清單 CSV、階段報告 |
 | `doc/specs/` | 開發規格 | v1.0.7-v1.1.0 功能規格文檔 |
-| `scripts/` | 維護腳本 | 編號分配、索引更新、格式驗證 |
+| `doc/macos-dictionary-services.md` | 字典技術文檔 | macOS DictionaryServices API 整合指南 |
+| `scripts/` | 維護腳本 | 編號分配、索引更新、格式驗證、字典查詢 |
 | `src/` | 練習功能原始碼 | v2.0 模組化架構（Store、Modes、Input、Renderers） |
 | `src/store/` | 狀態管理 | Flux 風格 Store、Actions、Reducer |
 | `src/modes/` | 練習模式 | 題庫模式、假名模式、可擴展設計 |

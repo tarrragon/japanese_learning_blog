@@ -361,7 +361,8 @@ japanese_learning_blog/
 | `doc/worklog/` | 版本追蹤 | 工作日誌、CSV 卡片清單、階段報告 |
 | `doc/specs/` | 版本規格 | v1.0.7-v1.1.0 開發規格文檔 |
 | `doc/hooks/` | 開發指南 | Hook 開發、uv script 模式 |
-| `scripts/` | 維護工具 | 編號管理、索引更新、驗證腳本 |
+| `doc/macos-dictionary-services.md` | 字典技術文檔 | macOS DictionaryServices API 整合指南 |
+| `scripts/` | 維護工具 | 編號管理、索引更新、驗證腳本、字典查詢 |
 | `zettelkasten/` | 卡片系統 | 433+ 張學習卡片，27 個分類 |
 | `zettelkasten/_meta/` | Meta 系統 | 標籤定義、分類索引 |
 | `articles/` | 文章存放 | 待分析的日文學習文章 |
@@ -415,7 +416,32 @@ uv run scripts/fix-numbering.py --check
 
 # 7. 檢查連結格式（修復殘留的舊 Wikilink 格式）
 uv run scripts/fix-wikilinks.py --check
+
+# 8. 查詢 macOS 字典（僅限 macOS，v1.0.10+）
+uv run scripts/lookup-dictionary.py 食べる              # JSON 格式輸出
+uv run scripts/lookup-dictionary.py 勉強 --raw          # 原始字典文字
 ```
+
+### macOS 字典整合（v1.0.10+）
+
+使用 macOS 內建的 DictionaryServices API 查詢日文字典，提供權威的讀音、詞性和定義資料。
+
+**支援的字典**：
+- **スーパー大辞林**（三省堂）→ 讀音、詞性、日文定義
+- **ウィズダム和英辞典**（三省堂）→ 英文翻譯
+
+**整合流程**：
+1. `card-structure-handler` 建立卡片時查詢字典
+2. 字典資料存入 YAML 的 `dictionary` 區塊
+3. `build-card-content` 使用字典資料作為權威來源
+
+**資料分工**：
+| 來源 | 提供的資料 |
+|------|-----------|
+| 字典 | 讀音、詞性、日文定義、英文翻譯（如有） |
+| AI | 中文翻譯、擴充解釋、例句設計、學習要點 |
+
+**技術文檔**：`doc/macos-dictionary-services.md`
 
 ### 編號管理工具（v1.0.6+）
 
@@ -484,6 +510,7 @@ uv run scripts/manage_worklog_cards.py validate
 | `add_pending_cards.py` | 新增待辦卡片 | Extension-Review 代理人 |
 | `update_card_progress.py` | 更新卡片進度 | build-card-content 代理人 |
 | `manage_worklog_cards.py` | 查詢統計與驗證 | 人工查詢 |
+| `lookup-dictionary.py` | 查詢 macOS 字典 | card-structure-handler 代理人 |
 
 詳細使用說明請參考：`doc/worklog/README-CSV.md`
 
@@ -745,4 +772,4 @@ bun build src/main.js --outfile static/practice/js/practice.js --minify --format
 
 ---
 
-**最後更新：2025-10-31**
+**最後更新：2025-12-22**
