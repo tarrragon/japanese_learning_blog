@@ -43,7 +43,15 @@ def extract_internal_links(file_path: Path) -> List[Tuple[int, str, str]]:
     content = file_path.read_text(encoding='utf-8')
     lines = content.split('\n')
 
+    in_code_block = False
     for line_num, line in enumerate(lines, start=1):
+        # 跳過程式碼區塊內的連結
+        if line.strip().startswith('```'):
+            in_code_block = not in_code_block
+            continue
+        if in_code_block:
+            continue
+
         for match in md_link_pattern.finditer(line):
             link_text = match.group(1)
             link_path = match.group(2)

@@ -62,11 +62,6 @@
 - 效能優化檢查清單
 - 最終檢查清單確保品質
 
-### 專案實作
-
-- **[專案 Hook 實作總結](./project-hooks-summary.md)** - 本專案已實作的 5 個 Hook 說明
-- **[Hook 系統架構](./hook-architecture.md)** - 完整的 Hook 系統設計
-
 ---
 
 ## 🎯 快速開始
@@ -176,7 +171,7 @@ INPUT=$(cat)  # 讀取 JSON 輸入
 | Hook 4 | 獨立腳本 | 階段完成 5 項驗證 | ✅ |
 | Hook 5 | Stop Hook | 代理人回報追蹤 | ✅ |
 
-詳細說明請參考 [專案 Hook 實作總結](./project-hooks-summary.md)
+詳細說明請參考 [Hook 範例集](./04-hook-examples.md)
 
 ---
 
