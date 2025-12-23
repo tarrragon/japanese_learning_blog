@@ -7,6 +7,35 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- **doc-structure skill**：文檔結構管理工具
+  - 層級聚攏結構模式（hierarchical aggregation pattern）
+  - README 三欄位標準（設計意義、索引、參考）
+  - 檔案註解兩欄位標準（設計目的、職責）
+  - 驗證腳本：`validate-readme-links.py`、`check-doc-structure.py`
+  - 模板：`readme-top.md`、`readme-sub.md`、`header-js.txt`、`header-py.txt`
+
+- **doc-structure-plugin**：發布到 marketplace
+  - 安裝方式：`/plugin install doc-structure-plugin@japanese-learning-tools`
+  - 版本：1.0.1
+
+### Changed
+
+- **CLAUDE.md 重構**：從 857 行精簡為 379 行（56% 減少）
+  - 詳細內容移至各目錄 README
+  - 保留：語言規範、四階段工作流程、執行原則、連結格式
+
+### Documentation
+
+- 新增 15 個 README 文件（層級聚攏結構）
+  - `src/README.md` - 日文輸入練習系統架構
+  - `.claude/README.md` - Claude Code 配置中心
+  - `zettelkasten/README.md` - 卡片系統架構
+  - `doc/README.md` - 專案文檔導覽
+  - `doc/terminology.md` - 術語表
+  - `src/{domain,store,adapters,modes,input,renderers,effects,services,i18n,ui}/README.md`
+
 ## [2.2.0] - 2025-12-23
 
 ### Fixed
