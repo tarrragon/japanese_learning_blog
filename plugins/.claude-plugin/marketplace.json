@@ -16,7 +16,7 @@
       "name": "doc-structure-plugin",
       "source": "./doc-structure-plugin",
       "description": "Documentation structure management - standardize README formats and file header comments using hierarchical aggregation pattern",
-      "version": "1.0.0"
+      "version": "1.0.1"
     }
   ]
 }
