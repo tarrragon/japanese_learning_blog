@@ -1,18 +1,18 @@
 {
   "name": "doc-structure-plugin",
-  "description": "Documentation structure management tool - standardize README formats and file header comments using hierarchical aggregation pattern",
   "version": "1.0.0",
-  "author": "Japanese Learning Blog",
+  "description": "Documentation structure management tool - standardize README formats and file header comments using hierarchical aggregation pattern",
+  "author": {
+    "name": "Japanese Learning Blog",
+    "url": "https://github.com/tarrragon/japanese_learning_blog"
+  },
+  "repository": "https://github.com/tarrragon/japanese_learning_blog",
   "license": "MIT",
-  "platform": "all",
   "keywords": [
     "documentation",
     "readme",
     "structure",
     "validation",
     "templates"
-  ],
-  "requirements": {
-    "python": ">=3.10"
-  }
+  ]
 }

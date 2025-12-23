@@ -10,15 +10,13 @@
       "name": "macos-dictionary-plugin",
       "source": "./macos-dictionary-plugin",
       "description": "macOS Dictionary integration for Japanese learning (macOS only) - lookup readings, parts of speech, and definitions from built-in Japanese dictionaries",
-      "version": "1.1.0",
-      "platform": "macos"
+      "version": "1.1.0"
     },
     {
       "name": "doc-structure-plugin",
       "source": "./doc-structure-plugin",
       "description": "Documentation structure management - standardize README formats and file header comments using hierarchical aggregation pattern",
-      "version": "1.0.0",
-      "platform": "all"
+      "version": "1.0.0"
     }
   ]
 }
