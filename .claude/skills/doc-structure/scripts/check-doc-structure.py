@@ -146,9 +146,12 @@ def count_readmes(root: Path) -> int:
 
 
 def main():
-    # 找出專案根目錄
-    script_path = Path(__file__).resolve()
-    project_root = script_path.parents[4]  # .claude/skills/doc-structure/scripts -> root
+    import argparse
+    parser = argparse.ArgumentParser(description='檢查專案文檔結構完整性')
+    parser.add_argument('path', nargs='?', default='.', help='專案根目錄（預設為當前目錄）')
+    args = parser.parse_args()
+
+    project_root = Path(args.path).resolve()
 
     readme_count = count_readmes(project_root)
     missing_dirs = find_dirs_needing_readme(project_root)

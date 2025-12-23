@@ -78,9 +78,12 @@ def validate_link(base_file: Path, link_path: str) -> bool:
 
 
 def main():
-    # 找出專案根目錄
-    script_path = Path(__file__).resolve()
-    project_root = script_path.parents[4]  # .claude/skills/doc-structure/scripts -> root
+    import argparse
+    parser = argparse.ArgumentParser(description='驗證 README 內部連結有效性')
+    parser.add_argument('path', nargs='?', default='.', help='專案根目錄（預設為當前目錄）')
+    args = parser.parse_args()
+
+    project_root = Path(args.path).resolve()
 
     readme_files = find_readme_files(project_root)
 

@@ -60,7 +60,11 @@ CLAUDE.md（根）─ 專案規範 + 頂層目錄索引
 驗證所有 README.md 的內部連結是否有效：
 
 ```bash
-uv run .claude/skills/doc-structure/scripts/validate-readme-links.py
+# 使用當前目錄
+uv run validate-readme-links.py
+
+# 指定專案路徑
+uv run validate-readme-links.py /path/to/project
 ```
 
 ### 結構檢查
@@ -68,7 +72,11 @@ uv run .claude/skills/doc-structure/scripts/validate-readme-links.py
 檢查預期的 README.md 是否存在：
 
 ```bash
-uv run .claude/skills/doc-structure/scripts/check-doc-structure.py
+# 使用當前目錄
+uv run check-doc-structure.py
+
+# 指定專案路徑
+uv run check-doc-structure.py /path/to/project
 ```
 
 ## 參考文檔

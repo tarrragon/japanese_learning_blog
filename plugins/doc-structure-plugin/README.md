@@ -31,11 +31,14 @@ Use templates:
 ### Validation
 
 ```bash
-# Validate README links
-uv run skills/doc-structure/scripts/validate-readme-links.py
+# Validate README links (run from project root)
+uv run validate-readme-links.py .
+
+# Or specify path
+uv run validate-readme-links.py /path/to/project
 
 # Check structure completeness
-uv run skills/doc-structure/scripts/check-doc-structure.py
+uv run check-doc-structure.py .
 ```
 
 ## Core Principles
