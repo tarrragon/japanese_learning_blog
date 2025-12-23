@@ -7,6 +7,7 @@ A collection of Claude Code plugins for Japanese language learning.
 | Plugin | Description | Platform |
 |--------|-------------|----------|
 | [macos-dictionary-plugin](./macos-dictionary-plugin/) | macOS Dictionary integration for Japanese word lookup | macOS only |
+| [doc-structure-plugin](./doc-structure-plugin/) | Documentation structure management with hierarchical aggregation pattern | All |
 
 ## Installation
 
