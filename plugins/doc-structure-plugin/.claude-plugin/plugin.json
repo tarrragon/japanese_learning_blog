@@ -1,6 +1,6 @@
 {
   "name": "doc-structure-plugin",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Documentation structure management tool - standardize README formats and file header comments using hierarchical aggregation pattern",
   "author": {
     "name": "Japanese Learning Blog",
