@@ -44,6 +44,33 @@
 
 ---
 
+## 語言支援總覽
+
+| 語言/格式 | 註解類型 | 語法 | 模板 |
+|-----------|---------|------|------|
+| JavaScript/TypeScript | JSDoc 區塊 | `/** */` | [header-js.txt](../templates/header-js.txt) |
+| Python | Docstring | `"""` | [header-py.txt](../templates/header-py.txt) |
+| Dart | DartDoc | `///` 或 `/** */` | [header-dart.txt](../templates/header-dart.txt) |
+| Go | 區塊註解 | `/* */` | [header-go.txt](../templates/header-go.txt) |
+| HTML | HTML 註解 | `<!-- -->` | [header-html.txt](../templates/header-html.txt) |
+| PHP | PHPDoc | `/** */` | [header-php.txt](../templates/header-php.txt) |
+| Java | Javadoc | `/** */` | [header-java.txt](../templates/header-java.txt) |
+| C# (.NET) | XML 文檔 | `///` 或 `/** */` | [header-csharp.txt](../templates/header-csharp.txt) |
+| YAML | 行註解 | `#` | [header-yaml.txt](../templates/header-yaml.txt) |
+| Shell/Bash | 行註解 | `#` | [header-shell.txt](../templates/header-shell.txt) |
+| **JSON** | ❌ 不支援 | - | 跳過，由 README 說明 |
+| **Markdown** | ❌ 不適用 | - | 使用 YAML front matter |
+
+### 不支援註解的格式
+
+以下格式**不需要**添加檔案註解：
+
+- **JSON**：標準 JSON 不支援註解，由所在目錄的 README.md 說明
+- **Markdown**：本身就是文檔，使用 YAML front matter 描述 metadata
+- **純資料檔案**（CSV, XML 資料）：由 README 說明用途
+
+---
+
 ## 禁止包含
 
 | 禁止內容 | 原因 | 替代方案 |
@@ -56,7 +83,11 @@
 
 ---
 
-## JavaScript 格式
+## 各語言格式規範
+
+### JavaScript / TypeScript
+
+使用 JSDoc 區塊註解 `/** */`：
 
 ```javascript
 /**
@@ -75,28 +106,11 @@
  */
 ```
 
-**範例**：
-```javascript
-/**
- * @file TypingSession.js
- * @description
- *   Position: Domain 層的 Aggregate Root，協調打字練習的完整生命週期
- *   Input:
- *     - EventEmitter（事件發送機制）
- *     - Question 實體（題目資料）
- *   Output:
- *     - TypingSession 類別
- *     - 領域事件（questionComplete, sessionComplete）
- *   職責：
- *     - 管理題目佇列和當前題目狀態
- *     - 處理使用者輸入並發送領域事件
- *     - 維護練習統計（正確率、完成數）
- */
-```
-
 ---
 
-## Python 格式
+### Python
+
+使用 Docstring `"""`：
 
 ```python
 """
@@ -118,26 +132,220 @@ Output:
 """
 ```
 
-**範例**：
-```python
-"""
-update_card_progress.py
+---
 
-Position: scripts/ 目錄的狀態管理工具，追蹤卡片在四階段工作流程中的狀態轉換
+### Dart
+
+使用 DartDoc `///` 或區塊 `/** */`：
+
+```dart
+/// {檔案名稱}
+///
+/// Position: {在系統架構中的定位}
+///
+/// Input:
+///   - {依賴 1}
+///   - {依賴 2}
+///
+/// Output:
+///   - {輸出 1}
+///   - {輸出 2}
+///
+/// 職責：
+///   - {職責 1}
+///   - {職責 2}
+```
+
+---
+
+### Go
+
+使用區塊註解 `/* */`（Go 沒有檔案級 doc comment 慣例，放在 package 宣告前）：
+
+```go
+/*
+{檔案名稱}
+
+Position: {在系統架構中的定位}
 
 Input:
-  - csv_config 模組（CSV 路徑配置）
-  - 命令列參數（argparse）
+  - {依賴 1}
+  - {依賴 2}
 
 Output:
-  - CLI 介面（--id, --stage, --quiet）
-  - 標準輸出（狀態變更確認）
+  - {輸出 1}
+  - {輸出 2}
 
 職責：
-  - 驗證狀態轉換的合法性（不允許跳躍）
-  - 更新 CSV 工作清單中的卡片狀態
-  - 輸出狀態變更的確認訊息
-"""
+  - {職責 1}
+  - {職責 2}
+*/
+package main
+```
+
+---
+
+### HTML
+
+使用 HTML 註解 `<!-- -->`：
+
+```html
+<!--
+  {檔案名稱}
+
+  Position: {在系統架構中的定位}
+
+  Input:
+    - {依賴 1}
+    - {依賴 2}
+
+  Output:
+    - {輸出 1}
+    - {輸出 2}
+
+  職責：
+    - {職責 1}
+    - {職責 2}
+-->
+<!DOCTYPE html>
+```
+
+---
+
+### PHP
+
+使用 PHPDoc `/** */`：
+
+```php
+<?php
+/**
+ * {檔案名稱}
+ *
+ * Position: {在系統架構中的定位}
+ *
+ * Input:
+ *   - {依賴 1}
+ *   - {依賴 2}
+ *
+ * Output:
+ *   - {輸出 1}
+ *   - {輸出 2}
+ *
+ * 職責：
+ *   - {職責 1}
+ *   - {職責 2}
+ */
+```
+
+---
+
+### Java
+
+使用 Javadoc `/** */`：
+
+```java
+/**
+ * {檔案名稱}
+ *
+ * <p>Position: {在系統架構中的定位}</p>
+ *
+ * <p>Input:</p>
+ * <ul>
+ *   <li>{依賴 1}</li>
+ *   <li>{依賴 2}</li>
+ * </ul>
+ *
+ * <p>Output:</p>
+ * <ul>
+ *   <li>{輸出 1}</li>
+ *   <li>{輸出 2}</li>
+ * </ul>
+ *
+ * <p>職責：</p>
+ * <ul>
+ *   <li>{職責 1}</li>
+ *   <li>{職責 2}</li>
+ * </ul>
+ */
+package com.example;
+```
+
+---
+
+### C# (.NET)
+
+使用 XML 文檔註解 `///` 或區塊 `/** */`：
+
+```csharp
+/// <summary>
+/// {檔案名稱}
+/// </summary>
+/// <remarks>
+/// Position: {在系統架構中的定位}
+///
+/// Input:
+///   - {依賴 1}
+///   - {依賴 2}
+///
+/// Output:
+///   - {輸出 1}
+///   - {輸出 2}
+///
+/// 職責：
+///   - {職責 1}
+///   - {職責 2}
+/// </remarks>
+namespace Example
+{
+```
+
+---
+
+### YAML
+
+使用行註解 `#`：
+
+```yaml
+# {檔案名稱}
+#
+# Position: {在系統架構中的定位}
+#
+# Input:
+#   - {依賴 1}
+#   - {依賴 2}
+#
+# Output:
+#   - {輸出 1}
+#   - {輸出 2}
+#
+# 職責：
+#   - {職責 1}
+#   - {職責 2}
+```
+
+---
+
+### Shell / Bash
+
+使用行註解 `#`（放在 shebang 後）：
+
+```bash
+#!/bin/bash
+# {檔案名稱}
+#
+# Position: {在系統架構中的定位}
+#
+# Input:
+#   - {依賴 1}
+#   - {依賴 2}
+#
+# Output:
+#   - {輸出 1}
+#   - {輸出 2}
+#
+# 職責：
+#   - {職責 1}
+#   - {職責 2}
 ```
 
 ---

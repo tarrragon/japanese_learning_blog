@@ -47,11 +47,24 @@ CLAUDE.md（根）─ 專案規範 + 頂層目錄索引
 
 ### 添加檔案註解
 
-1. 確定檔案類型（JS or Python）
-2. 讀取對應模板：
-   - JavaScript：[templates/header-js.txt](templates/header-js.txt)
-   - Python：[templates/header-py.txt](templates/header-py.txt)
-3. 填入四個必要欄位：
+1. 確定檔案類型，選擇對應模板：
+
+   | 語言 | 模板 |
+   |------|------|
+   | JavaScript/TypeScript | [header-js.txt](templates/header-js.txt) |
+   | Python | [header-py.txt](templates/header-py.txt) |
+   | Dart | [header-dart.txt](templates/header-dart.txt) |
+   | Go | [header-go.txt](templates/header-go.txt) |
+   | HTML | [header-html.txt](templates/header-html.txt) |
+   | PHP | [header-php.txt](templates/header-php.txt) |
+   | Java | [header-java.txt](templates/header-java.txt) |
+   | C# (.NET) | [header-csharp.txt](templates/header-csharp.txt) |
+   | YAML | [header-yaml.txt](templates/header-yaml.txt) |
+   | Shell/Bash | [header-shell.txt](templates/header-shell.txt) |
+
+   **不支援註解的格式**：JSON、Markdown、純資料檔案 → 由 README 說明
+
+2. 填入四個必要欄位：
    - **Position**：功能定位（在系統架構中的位置和角色）
    - **Input**：外部依賴（依賴哪些模組或服務）
    - **Output**：對外提供（導出的介面、類別或函數）
