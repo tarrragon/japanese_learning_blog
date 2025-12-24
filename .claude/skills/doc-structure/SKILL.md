@@ -26,7 +26,7 @@ CLAUDE.md（根）─ 專案規範 + 頂層目錄索引
     │       │
     │       └── {subdir}/README.md（下層）─ 設計意義 + 索引 + 參考
     │               │
-    │               └── {file}.js ─ 檔案頂部註解（設計目的 + 職責）
+    │               └── {file}.js ─ 檔案頂部註解（Position + Input + Output + 職責）
 ```
 
 **三個原則**：
@@ -51,7 +51,11 @@ CLAUDE.md（根）─ 專案規範 + 頂層目錄索引
 2. 讀取對應模板：
    - JavaScript：[templates/header-js.txt](templates/header-js.txt)
    - Python：[templates/header-py.txt](templates/header-py.txt)
-3. 填入兩個必要欄位：設計目的、職責
+3. 填入四個必要欄位：
+   - **Position**：功能定位（在系統架構中的位置和角色）
+   - **Input**：外部依賴（依賴哪些模組或服務）
+   - **Output**：對外提供（導出的介面、類別或函數）
+   - **職責**：做什麼（1-3 項主要職責）
 
 ## 驗證工具
 
