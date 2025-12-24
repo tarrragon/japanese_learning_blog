@@ -68,6 +68,7 @@
 - **JSON**：標準 JSON 不支援註解，由所在目錄的 README.md 說明
 - **Markdown**：本身就是文檔，使用 YAML front matter 描述 metadata
 - **純資料檔案**（CSV, XML 資料）：由 README 說明用途
+- **名稱包含 `log` 的檔案**（不區分大小寫）：日誌檔案、changelog 等自動排除
 
 ---
 

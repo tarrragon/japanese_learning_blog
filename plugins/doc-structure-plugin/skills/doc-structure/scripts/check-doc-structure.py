@@ -82,6 +82,10 @@ def should_check_dir(dir_path: Path, root: Path) -> bool:
     if dir_path.name in SKIP_PATTERNS:
         return False
 
+    # 排除包含 log 的目錄（不區分大小寫）
+    if 'log' in dir_path.name.lower():
+        return False
+
     # zettelkasten 分類使用 index.md，不需要 README
     if 'zettelkasten' in dir_path.parts:
         # 只檢查 zettelkasten 根目錄
