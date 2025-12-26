@@ -1,14 +1,51 @@
 # Concept 索引
 
-最後編號：051
-總卡片數：54
+最後編號：069
+總卡片數：119
 
 ## 卡片列表
 
 ### 依編號
+- [000 - "句型分類"](56_sentence_types/) 
+- [000 - "和"](63_group_harmony/) 
+- [000 - "焦點與強調"](56_focus/) 
+- [000 - "主題化"](56_topicalization/) 
+- [000 - "条件形"](68_conditional_forms/) #"conditionals" #"grammar" #"verb_forms"
+- [000 - "主要動作與附帶動作"](56_main_sub_action/) 
+- [000 - ](56_syntax/) 
+- [000 - ](56_information_structure/) 
+- [000 - ](67_predicate_types/) 
 - [000 - 効用最大化](concept-052-効用最大化/) 
+- [000 - "舊資訊與新資訊"](56_given_new_information/) 
+- [000 - "述語"](56_predicate/) 
+- [000 - "丁寧表達"](56_polite_expression/) 
+- [000 - ](56_business/) 
+- [000 - ](68_discovery_expression/) 
+- [000 - "接続詞の概念"](65_setsuzokushi_gainen/) 
+- [000 - "動詞活用"](56_verb_conjugation/) #grammar #verb #conjugation
+- [000 - ](66_gender_language/) 
+- [000 - "敬語系統"](56_keigo_system/) 
+- [000 - "高語境文化"](57_high_context_culture/) 
 - [000 - 行動経済学](concept-054-行動経済学/) 
+- [000 - "搭配"](56_collocation/) #"語彙" #"慣用表現" #"語彙選擇"
+- [000 - ](67_adjective_types/) 
 - [000 - 合理性](concept-053-合理性/) 
+- [000 - 文の構造](67_sentence_structure/) 
+- [000 - "主題優先語言"](56_topic_prominent_language/) 
+- [000 - ](60_kenjougo_gainen/) 
+- [000 - "仮定条件"](68_hypothetical_condition/) 
+- [000 - "日常會話"](59_nichijou_kaiwa/) #"口語" #"會話" #"日常溝通"
+- [000 - "社會語境"](56_social_context/) #語用論 #敬語 #人際關係
+- [000 - ](66_speech_level/) 
+- [000 - "書面語"](56_written_language/) 
+- [000 - ](56_daily_conversation/) 
+- [000 - 日常会話](67_daily_conversation2/) 
+- [000 - "社會語言學"](61_shakai_gengogaku/) 
+- [000 - "語順"](56_word_order/) 
+- [000 - "助動詞"](67_auxiliary_verb/) 
+- [000 - "商務場合"](56_bijinesu_baai/) #ビジネス #敬語 #場面
+- [000 - ](68_agglutinative_language/) 
+- [000 - "正式語體"](56_formal/) 
 - [001 - 物價上漲、通貨膨脹的概念](001_bukka_joushou/) 
 - [002 - 日文中する、来る、ある等不規則動詞的特殊活用規則，是初學者必須掌握的基礎文法](002_fukisoku_katsuyou/) 
 - [003 - 自動詞（不需要賓語的動詞，描述狀態變化或自發動作）](003_jidoushi/) 
@@ -60,6 +97,34 @@
 - [049 - 標籤系統概念 - 知識管理系統中用於分類和檢索的元資料標記](049_context_tags/) 
 - [050 - 感情與欲望表達 - 日文中情感和欲望的語言學表現](050_feeling_desire/) 
 - [051 - 日文禮貌表達的整體概念，涵蓋丁寧語、敬語和謙讓語](051_polite_expression/) 
+- [055 - "日常会話"](055_casual_conversation/) 
+- [055 - "動詞分類"](055_verb_classification/) 
+- [056 - "社會距離"](056_social_distance/) #社會語言學 #人際關係 #敬語
+- [057 - "視点理論"](057_shiten_riron/) 
+- [058 - ](058_hourensou/) 
+- [058 - ](058_aizuchi/) 
+- [059 - ](059_jouhou_kouzou_riron/) 
+- [060 - 社會階層](060_shakai_kaisou/) 
+- [060 - ](060_uchi_soto/) #"社會語言學" #"日本文化" #"對人關係"
+- [060 - "丁寧語概念"](060_teineigo_gainen/) #"敬語" #"丁寧語" #"文法"
+- [061 - "商務郵件"](061_bijinesu_mail/) 
+- [061 - "語用學"](061_goyougaku/) #"grammar" #"semantics" #"communication"
+- [061 - "以心伝心"](061_ishin_denshin/) #四字熟語 #コミュニケーション #文化
+- [061 - ](061_kuuki_wo_yomu/) 
+- [062 - ](062_hierarchy/) 
+- [063 - 主語優先語言的語言學概念，日文屬於主題優先語言而非主語優先語言](063_subject_prominent/) 
+- [063 - ](063_jlpt_levels/) 
+- [063 - 不規則動詞（ふきそくどうし）](063_irregular_verbs/) 
+- [063 - ](063_business_communication/) 
+- [063 - "五段動詞"](063_godan_verbs/) 
+- [063 - "一段動詞（Ichidan Verbs）"](063_ichidan_verbs/) 
+- [066 - 動詞の形 - 日本語動詞のさまざまな形態的変化形式の総称](066_verb_forms/) 
+- [067 - "書面語・フォーマルな文章"](067_formal_writing/) 
+- [068 - "予定"](068_volitional_expression/) 
+- [068 - ](068_temporal_sequence/) 
+- [068 - 確定條件](068_definite_condition/) 
+- [068 - 口語](068_spoken_language/) #language-register #spoken-language #casual
+- [069 - "丁寧語"](069_teineigo_concept/) #keigo #polite-language #です-ます
 
 ---
-最後更新: 2025-12-23 17:48:52
+最後更新: 2025-12-26 14:23:25

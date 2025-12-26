@@ -1,7 +1,7 @@
 # Noun 索引
 
-最後編號：224
-總卡片數：272
+最後編號：235
+總卡片數：313
 
 ## 卡片列表
 
@@ -278,6 +278,47 @@
 - [222 - ](222_money/) 
 - [223 - ](223_kachi_shakudo/) 
 - [224 - ](224_koukan_shudan/) 
+- [225 - ](225_kyoukyuu/) 
+- [225 - ](225_shihon/) 
+- [225 - "市場（しじょう）"](225_shijou/) 
+- [225 - "経済活動（けいざいかつどう）"](225_keizai_katsudou/) 
+- [226 - "おもてなし - 熱情款待的精神"](226_kikubari/) 
+- [227 - "円安（えんやす）"](227_enyasu/) 
+- [227 - "輸出（ゆしゅつ）"](227_yushutsu/) #"business" #"economics" #"trade"
+- [227 - "円高（えんだか）"](227_endaka/) #"economics" #"finance" #"currency"
+- [227 - ](227_kawase/) 
+- [227 - "中央銀行（ちゅうおうぎんこう）"](227_chuuou_ginkou/) #"economic" #"finance" #"institution"
+- [228 - "消費者（しょうひしゃ）"](228_shouhisha/) #"economics" #"business" #"society"
+- [228 - "利益（りえき）"](228_rieki/) #"business" #"economics" #"finance"
+- [229 - "確定申告"](229_kakutei_shinkoku/) #"tax" #"finance" #"legal"
+- [229 - ](229_shinyou/) 
+- [229 - ](229_shotoku_koujo/) 
+- [229 - "金融市場"](229_kinyuu_shijou/) #"経済" #"金融" #"市場"
+- [229 - "控除"](229_koujo/) #"financial" #"accounting" #"tax"
+- [229 - ](229_setsubi_toushi/) #"business" #"economics" #"finance"
+- [229 - ](229_bunpai/) 
+- [229 - "資金調達"](229_shikin_choutatsu/) #"経済" #"ビジネス" #"finance"
+- [229 - ](229_juutaku_loan/) #"finance" #"real-estate" #"loan"
+- [229 - "税額控除"](229_zeigaku_koujo/) #"tax" #"finance" #"economics"
+- [230 - ](230_toumeise/) 
+- [231 - ](231_seisan/) 
+- [232 - ](232_toushika/) 
+- [232 - ](232_chishiki/) 
+- [232 - ](232_zaimu_shohyou/) 
+- [232 - ](232_shiharai/) 
+- [232 - ](232_saikensha/) 
+- [232 - "帳簿"](232_choubo/) 
+- [232 - ](232_keieisha/) 
+- [234 - ](234_kettei_sakusei/) 
+- [234 - ](234_keiei_kanri/) 
+- [234 - "給付"](234_kyuufu/) 
+- [234 - ](234_hieiri/) 
+- [234 - ](234_kotei_shihon/) 
+- [234 - ](234_eiri_katsudou/) 
+- [234 - "公共事業"](234_koukyou_jigyou/) #"economy" #"infrastructure" #"government"
+- [234 - "割当"](234_wariate/) #"N1" #"business" #"management"
+- [234 - ](234_zaimu_jouhou/) 
+- [235 - 財務人員、財務專業人士，指負責企業或組織財務管理和會計工作的專業人員](235_zaimu_jinzai/) 
 
 ---
-最後更新: 2025-12-23 17:48:52
+最後更新: 2025-12-26 14:30:00
