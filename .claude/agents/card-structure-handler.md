@@ -401,6 +401,34 @@ uv run scripts/allocate_card_numbers.py --category noun --limit 10
 uv run scripts/update-index.py {category}
 ```
 
+### CSV 進度工具
+
+#### Active CSV 機制
+
+系統使用 Active CSV 機制統一管理當前工作的 CSV 檔案。
+
+```bash
+# 設定 Active CSV（通常由主控制器執行）
+uv run scripts/set_active_csv.py cards-pending-links-1.4.0.csv
+
+# 查看當前設定
+uv run scripts/set_active_csv.py --show
+
+# 列出所有可用 CSV
+uv run scripts/set_active_csv.py --list
+```
+
+設定後，所有進度更新命令自動使用正確的 CSV。
+
+#### 禁止的操作
+
+**絕對禁止直接修改 CSV**：
+- ❌ 不使用 `sed -i` 修改 CSV
+- ❌ 不使用 `awk` 修改 CSV
+- ❌ 不使用 Python 直接寫入 CSV
+
+**原因**：直接修改會繞過驗證邏輯，可能導致資料不一致。所有 CSV 操作必須透過標準腳本。
+
 ---
 
 ## 工作流程：模式 A 詳細步驟

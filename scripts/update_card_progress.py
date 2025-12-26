@@ -128,13 +128,19 @@ class CardProgressUpdater:
         if batch is not None:
             card['batch'] = str(batch)
 
-        # 更新時間
-        card['updated'] = datetime.now().strftime('%Y-%m-%d')
+        # 更新時間（如果有 updated 欄位）
+        if 'updated' in card:
+            card['updated'] = datetime.now().strftime('%Y-%m-%d')
 
-        # 構建檔案路徑（如果沒有 path 欄位）
-        card_path = card.get('path', f"{card['category']}/{card['number']}_{card['japanese']}.md")
+        # 構建顯示用的卡片識別資訊
+        if 'path' in card:
+            card_info = card['path']
+        elif 'number' in card and 'japanese' in card:
+            card_info = f"{card['category']}/{card['number']}_{card['japanese']}.md"
+        else:
+            card_info = f"{card.get('category', '?')}/{card.get('japanese', '?')}"
 
-        self._print(f"✅ 已更新卡片 ID {card_id}: {card_path}")
+        self._print(f"✅ 已更新卡片 ID {card_id}: {card_info}")
         if stage:
             self._print(f"   階段: {stage}")
         if batch is not None:

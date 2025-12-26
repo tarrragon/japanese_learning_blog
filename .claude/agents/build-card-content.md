@@ -1079,11 +1079,34 @@ The department head is eating a lunch box in the meeting room.
 
 ### 進度更新工具
 
+#### Active CSV 機制
+
+**重要**：系統使用 Active CSV 機制統一管理當前工作的 CSV 檔案。
+
+```bash
+# 批次工作開始前設定 Active CSV（通常由主控制器執行）
+uv run scripts/set_active_csv.py cards-pending-links-1.4.0.csv
+
+# 查看當前設定
+uv run scripts/set_active_csv.py --show
+```
+
+設定後，所有進度更新命令自動使用正確的 CSV。
+
 #### update_card_progress.py
 ```bash
-# 更新卡片進度為 draft
+# 更新卡片進度為 draft（自動使用 Active CSV）
 uv run scripts/update_card_progress.py --id {card_id} --stage draft --quiet
 ```
+
+#### 禁止的操作
+
+**絕對禁止直接修改 CSV**：
+- ❌ 不使用 `sed -i` 修改 CSV
+- ❌ 不使用 `awk` 修改 CSV
+- ❌ 不使用 Python 直接寫入 CSV
+
+**原因**：直接修改會繞過驗證邏輯，可能導致資料不一致。所有 CSV 操作必須透過標準腳本。
 
 ## 範例：填充一張動詞卡片內容
 

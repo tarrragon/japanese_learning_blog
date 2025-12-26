@@ -352,9 +352,34 @@ uv run scripts/update_card_progress.py --id {card_id} --stage completed --quiet
 | `add_pending_cards.py` | 新增待辦卡片 |
 | `update_card_progress.py` | 更新卡片進度 |
 | `manage_worklog_cards.py` | 查詢統計與驗證 |
+| `set_active_csv.py` | 設定/查看 Active CSV |
 
 **詳細使用說明**：[scripts/README.md](scripts/README.md)
 **CSV 工具說明**：[doc/worklog/README-CSV.md](doc/worklog/README-CSV.md)
+
+### Active CSV 機制
+
+系統使用 Active CSV 機制統一管理當前工作的 CSV 檔案，確保代理人使用正確的 CSV。
+
+```bash
+# 設定當前工作的 CSV
+uv run scripts/set_active_csv.py cards-pending-links-1.4.0.csv
+
+# 查看當前設定
+uv run scripts/set_active_csv.py --show
+
+# 列出所有可用 CSV
+uv run scripts/set_active_csv.py --list
+
+# 清除設定（回到自動偵測）
+uv run scripts/set_active_csv.py --clear
+```
+
+設定後，`update_card_progress.py` 等腳本自動使用正確的 CSV，代理人無需手動指定。
+
+**禁止操作**：
+- ❌ 不使用 `sed` 直接修改 CSV
+- ❌ 所有 CSV 操作必須透過標準腳本
 
 ---
 

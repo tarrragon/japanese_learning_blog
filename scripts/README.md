@@ -240,6 +240,47 @@ uv run scripts/verify-meta.py --json
 
 ---
 
+### 6. set_active_csv.py - Active CSV 管理
+
+**用途**：設定、查看或清除當前工作的 CSV 檔案，統一代理人操作流程
+
+**執行方式**：
+```bash
+# 設定當前工作的 CSV
+uv run scripts/set_active_csv.py cards-pending-links-1.4.0.csv
+
+# 查看當前設定
+uv run scripts/set_active_csv.py --show
+
+# 列出所有可用 CSV 檔案
+uv run scripts/set_active_csv.py --list
+
+# 清除設定（回到自動偵測）
+uv run scripts/set_active_csv.py --clear
+```
+
+**輸出範例**：
+```
+📋 可用的 CSV 檔案：
+
+  * cards-pending-links-1.4.0.csv [ACTIVE]
+      總計: 396, 待處理: 146, 草稿: 249, 完成: 1
+
+    cards-1.1.1.csv
+      總計: 62, 待處理: 0, 草稿: 0, 完成: 62
+```
+
+**工作原理**：
+- 設定後建立 `doc/worklog/.active-csv` 標記檔案
+- `update_card_progress.py` 等腳本優先使用 Active CSV
+- 代理人無需手動指定 `--csv` 參數
+
+**注意事項**：
+- ❌ 禁止使用 `sed` 直接修改 CSV
+- ❌ 所有 CSV 操作必須透過標準腳本
+
+---
+
 ## 🔧 技術細節
 
 ### UV 單檔模式
