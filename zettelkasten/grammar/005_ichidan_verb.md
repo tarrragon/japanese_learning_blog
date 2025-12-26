@@ -2,14 +2,35 @@
 title: 一段動詞
 description: 一段動詞（る動詞）- 規則動詞類型
 type: grammar
-subtype: verb_conjugation
 jlpt: n5
 stage: completed
-tags: [grammar, conjugation, basic]
+tags:
+  - grammar
+  - conjugation
+  - basic
 created: 2025-10-28
 updated: 2025-10-28
-related_to:
-  - ../verb-ru/001_taberu.md
+
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "completed"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 4
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 15
+  pending: 0
+  verified_date: 2025-12-26
 ---
 ## 日文
 一段動詞（いちだんどうし）/ る動詞

@@ -1,18 +1,34 @@
 ---
-id: noun-084
-category: noun
-japanese: 経済白書
-reading: けいざいはくしょ
-romaji: keizaihakusho
-chinese: 經濟白皮書
-english: Economic White Paper
 jlpt: N1
+stage: draft
 tags:
   - "domain/経済学"
-stage: draft
-card_type: vocabulary
----
+created: 2025-12-26
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "draft"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: false
+  chinese: false
+  examples_count: 0
+  pending_links:
+    - "景気動向"
+    - "財政政策"
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 1
+  pending: 2
+  verified_date: 2025-12-26
+---
 # 経済白書（けいざいはくしょ）
 
 ## 解釈

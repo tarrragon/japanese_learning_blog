@@ -1,18 +1,38 @@
 ---
-id: '075'
 title: 経済成長
-aliases:
-  - 経済成長
-  - economic growth
-  - 經濟成長
-category: noun
+jlpt: n2
+stage: pending
 tags:
   - domain/経済学
-jlpt: n2
 created: 2025-12-22
 updated: 2025-12-22
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links:
+    - "GDP（国内総生産）"
+    - "実質成長率"
+    - "名目成長率"
+    - "持続可能な成長"
+    - "潜在成長率"
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 0
+  pending: 5
+  verified_date: 2025-12-26
+---
 # 経済成長（けいざいせいちょう）
 
 ## 日本語の説明

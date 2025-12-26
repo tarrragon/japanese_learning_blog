@@ -1,14 +1,34 @@
 ---
 title: "敬語表達：失礼します"
-japanese: "失礼します"
-chinese: "打擾了；告辭"
-english: "Excuse me / I'm leaving now"
-grammar_type: "honorific"
-jlpt_level: "N4"
-tags: ["honorific", "teineigo", "daily_life"]
-related_cards: []
----
+stage: pending
+tags:
+  - "honorific"
+  - "teineigo"
+  - "daily_life"
+created: 2025-12-26
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 0
+  pending: 0
+  verified_date: 2025-12-26
+---
 ## 概要
 
 「失礼します」是日本商務和日常場合中極為重要的禮貌用語，用於進入他人空間時表達歉意，或離開時表示告辭。這是展現日本人對他人空間和時間尊重的典型表達。

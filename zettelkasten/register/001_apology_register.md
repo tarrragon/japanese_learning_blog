@@ -1,21 +1,39 @@
 ---
 title: 道歉表達語域
 description: 從口語到正式的道歉語言層次
+stage: pending
 tags:
   - context/politeness
   - context/social
   - jlpt/n4
   - register/apology
-date: 2025-12-22
-links:
-  ごめん: ../phrase/027_gomen.md
-  ごめんなさい: ../phrase/023_gomennasai.md
-  すみません: ../phrase/024_sumimasen.md
-  申し訳ございません: ../phrase/026_moushiwakegozaimasen.md
-  失礼します: ../phrase/025_shitsureishimasu.md
-  商務禮貌表達: ../keigo/006_business_politeness.md
----
+created: 2025-12-22
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 5
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 0
+  pending: 0
+  verified_date: 2025-12-26
+
+# 連結
+links:
+---
 ## 日文
 道歉表達語域（しゃざいひょうげんごいき）
 

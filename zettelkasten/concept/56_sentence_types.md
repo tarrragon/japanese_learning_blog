@@ -1,14 +1,36 @@
 ---
 title: "句型分類"
-date: 2025-12-24
 type: concept
 jlpt: n4
+stage: pending
 tags:
   - grammar
   - syntax
   - sentence-structure
----
+created: 2025-12-24
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 0
+  pending: 0
+  verified_date: 2025-12-26
+---
 ## 中文解釋
 
 日語的句型依照表達功能可分為四大類：**陳述句**（平述事實）、**疑問句**（提出問題）、**命令句**（下達指令）和**感嘆句**（表達情感）。每種句型都有其專屬的結尾形式和語氣助詞，正確使用能讓表達更準確自然。

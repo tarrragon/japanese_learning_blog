@@ -4,18 +4,34 @@ description: 動詞的辞書形（基本形），是字典查詢用的形式，�
 type: grammar
 jlpt: N5
 stage: completed
-created: 2025-10-30
-updated: 2025-10-30
 tags:
   - jlpt/n5
   - verb_conjugation
   - basic_form
-related_grammar:
-  - masu-form
-  - verb-types
-  - plain-form
----
+created: 2025-10-30
+updated: 2025-10-30
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "completed"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: false
+  chinese: false
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 16
+  pending: 0
+  verified_date: 2025-12-26
+---
 # 辞書形（Dictionary Form）
 
 ## 定義

@@ -1,9 +1,5 @@
 ---
-id: verb-ru-028
-aliases:
-  - 尋ねる
-  - たずねる
-  - tazuneru
+stage: pending
 tags:
   - japanese
   - verb
@@ -11,8 +7,35 @@ tags:
   - ru-verb
   - visit
   - inquire
----
+created: 2025-12-26
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: false
+  chinese: false
+  examples_count: 0
+  pending_links:
+    - "訪れる"
+    - "訪問する"
+    - "質問する"
+    - "問う"
+    - "一段動詞"
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 5
+  pending: 6
+  verified_date: 2025-12-26
+---
 # 尋ねる（たずねる）
 
 ## 基本情報

@@ -2,15 +2,39 @@
 title: 授受表現
 description: 授受表現 - 日語的給予與接受動詞系統
 type: grammar
-subtype: verb-patterns
 jlpt: n5
 stage: completed
-tags: [grammar, verb, pragmatics, social, context/business, context/family]
+tags:
+  - grammar
+  - verb
+  - pragmatics
+  - social
+  - context/business
+  - context/family
 created: 2025-10-30
 updated: 2025-10-30
-related_words: [ageru, kureru, morau, yaru, sashiageru, kudasaru, itadaku]
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "completed"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 19
+  pending: 0
+  verified_date: 2025-12-26
+---
 ## 日文
 授受表現（じゅじゅひょうげん）
 

@@ -1,15 +1,34 @@
 ---
-id: noun-077
 title: 物的資本
-reading: ぶってきしほん
-part_of_speech: noun
+stage: pending
 tags:
   - domain/経済学
   - concept/capital
   - category/physical-assets
 created: 2025-12-23
----
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 4
+  pending: 0
+  verified_date: 2025-12-26
+---
 # 物的資本（ぶってきしほん）
 
 ## 中文解釋

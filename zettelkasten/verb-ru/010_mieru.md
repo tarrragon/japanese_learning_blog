@@ -2,10 +2,8 @@
 title: "見える（みえる）"
 description: 見える - 看得見、可見、似乎
 type: verb
-subtype: ru_verb
 jlpt: n4
 stage: completed
-draft: false
 tags:
   - jlpt/n4
   - domain/perception
@@ -13,10 +11,28 @@ tags:
   - potential
   - basic
 created: 2025-10-29
-related_to:
-  - 003_miru.md
-  - ../grammar/003_ichidan_verb.md
-  - ../particle/001_ga.md
+updated: 2025-12-26
+
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "completed"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 22
+  pending: 0
+  verified_date: 2025-12-26
 ---
 ## 日文
 見える（みえる）

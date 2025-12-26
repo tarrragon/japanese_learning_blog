@@ -1,15 +1,37 @@
 ---
-id: 228
 title: "消費者（しょうひしゃ）"
-japanese: "消費者"
-romaji: "shouhisha"
-hiragana: "しょうひしゃ"
-category: "noun"
-tags: ["economics", "business", "society"]
-status: "draft"
-created_at: "2025-12-26"
----
+stage: pending
+tags:
+  - "economics"
+  - "business"
+  - "society"
+created: 2025-12-26
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links:
+    - "需要"
+    - "供給"
+    - "市場"
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 1
+  pending: 3
+  verified_date: 2025-12-26
+---
 # 消費者（しょうひしゃ）
 
 ## 中文解釋

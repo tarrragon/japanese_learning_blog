@@ -1,18 +1,38 @@
 ---
 title: 主語優先言語（しゅごゆうせんげんご）
 description: 主語優先語言的語言學概念，日文屬於主題優先語言而非主語優先語言
+stage: pending
 tags:
   - context/academic
   - domain/linguistics
   - jlpt/n1
-date: 2025-12-26
-links:
-  は: ../particle/001_wa.md
-  が: ../particle/002_ga.md
-  主題: 待建立
-  文法構造: 待建立
----
+created: 2025-12-26
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 3
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 0
+  pending: 0
+  verified_date: 2025-12-26
+
+# 連結
+links:
+---
 ## 日文
 主語優先言語（しゅごゆうせんげんご）
 

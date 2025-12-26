@@ -2,21 +2,36 @@
 title: ば vs と
 description: ば條件形與と條件形的對比分析
 type: comparison
-subtype: grammar_comparison
-comparison_items: [ば, と]
 jlpt: n4
 stage: draft
-draft: false
-auto_generated: false
-needs_review: true
 tags:
   - context/formal
   - context/casual
   - domain/communication
 created: 2025-11-03
 updated: 2025-11-03
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "draft"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 12
+  pending: 0
+  verified_date: 2025-12-26
+---
 ## 概述
 
 「ば」條件形和「と」條件形是日語中兩種重要的條件表達方式，雖然都表示「如果...」的意思，但在語意、用法和使用場景上有顯著差異。「と」強調客觀必然的因果關係，而「ば」則表達一般性的假定條件。理解這兩者的區別，對於精確表達條件關係至關重要。

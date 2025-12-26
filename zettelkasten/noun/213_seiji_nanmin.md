@@ -1,15 +1,39 @@
 ---
-japanese: 政治難民
-romaji: seiji nanmin
-chinese: 政治難民
-english: political refugee
 jlpt: n2
+stage: pending
 tags:
   - domain/社会学
   - domain/政治学
   - concept/migration
----
+created: 2025-12-26
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links:
+    - "難民"
+    - "経済難民"
+    - "亡命"
+    - "人権"
+    - "国際法"
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 0
+  pending: 6
+  verified_date: 2025-12-26
+---
 # 政治難民（せいじなんみん）
 
 ## 日文解釋

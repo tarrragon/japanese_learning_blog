@@ -1,17 +1,34 @@
 ---
-id: "025"
 title: "失礼します"
-title_en: "shitsureishimasu"
-category: "phrase"
-jlpt_level: "n4"
+stage: pending
 tags:
   - "greeting"
   - "business"
   - "politeness"
-created_date: "2025-12-22"
-last_modified: "2025-12-22"
----
+created: 2025-12-26
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 7
+  pending: 0
+  verified_date: 2025-12-26
+---
 # 失礼します
 
 ## 字典資料

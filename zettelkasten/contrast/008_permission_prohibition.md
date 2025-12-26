@@ -2,20 +2,36 @@
 title: 許可 vs 禁止
 description: 許可 vs 禁止 詳細比較 - 許可與禁止表達辨析
 type: contrast
-comparison_items: [permission, prohibition]
 jlpt: n4
 stage: draft
-draft: false
-auto_generated: false
-needs_review: true
 tags:
   - vocabulary_distinction
   - context/formal
   - domain/communication
 created: 2025-11-03
 updated: 2025-11-03
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "draft"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 11
+  pending: 0
+  verified_date: 2025-12-26
+---
 ## 概述
 
 「許可」和「禁止」是日文中表達允許與禁止的核心概念。「許可」表示給予同意、准許某行為或活動，強調正式的批准過程；「禁止」則表示明確不允許、制止某行為，帶有強制性的命令意味。這對相反概念在法律、規則、日常溝通中都扮演重要角色，理解其用法和表達方式對於正確傳達意圖至關重要。

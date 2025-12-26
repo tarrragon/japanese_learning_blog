@@ -4,23 +4,33 @@ description: "供需法則"
 type: concept
 jlpt: n1
 stage: pending
-draft: true
-auto_generated: false
-needs_review: true
 tags:
   - domain/経済学
   - concept/principle
-dictionary:
-  reading: きょうきゅうとじゅようのほうそく
-  kanji: 供給と需要の法則
-  pos: 名詞
-  pos_details: 名
-  definition_ja: 市場において、供給量と需要量の相互作用により価格が決定されるという経済学の基本原理。
-  source: economics
 created: 2025-12-23
 updated: 2025-12-23
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 6
+  pending: 0
+  verified_date: 2025-12-26
+---
 # 供給と需要の法則（きょうきゅうとじゅようのほうそく）
 
 ## 日本語の説明

@@ -2,19 +2,37 @@
 title: なくてもいい
 description: なくてもいい - 不必、不用
 type: grammar
-grammar_type: permission
 jlpt: n4
 stage: completed
-tags: [permission, optional, grammar_pattern, casual]
-related_grammar: [temo_ii, nakereba_naranai, tewa_ikenai]
+tags:
+  - permission
+  - optional
+  - grammar_pattern
+  - casual
 created: 2025-10-30
 updated: 2025-10-30
-draft: false
-auto_generated: true
-needs_review: false
-completed: 2025-10-30
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "completed"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 3
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 10
+  pending: 0
+  verified_date: 2025-12-26
+---
 ## 日文
 
 **なくてもいい**

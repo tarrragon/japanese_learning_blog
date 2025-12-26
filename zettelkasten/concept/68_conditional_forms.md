@@ -1,16 +1,38 @@
 ---
-id: "68"
 title: "条件形"
-japanese: "じょうけんけい"
-category: "concept"
-source: "meta_system"
-difficulty: 2
-last_updated: "2025-12-26"
-progress: "content_created"
-tags: ["conditionals", "grammar", "verb_forms"]
+stage: pending
+tags:
+  - "conditionals"
+  - "grammar"
+  - "verb_forms"
 created: "2025-12-26"
----
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: false
+  chinese: false
+  examples_count: 0
+  pending_links:
+    - "仮定表現"
+    - "順接条件と逆接条件"
+    - "条件節と主節の時制"
+    - "慣用的条件表現"
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 2
+  pending: 4
+  verified_date: 2025-12-26
+---
 # 条件形（じょうけんけい）
 
 ## 📖 日文解釈

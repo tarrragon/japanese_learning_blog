@@ -1,16 +1,37 @@
 ---
-id: 061
 title: "以心伝心"
-category: concept
-tags: [四字熟語, コミュニケーション, 文化]
+stage: pending
+tags:
+  - 四字熟語
+  - コミュニケーション
+  - 文化
 created: 2025-12-26
-status: draft
-related:
-  - "[察する文化](待建立)"
-  - "[空気を読む](待建立)"
-  - "[言外の意](待建立)"
----
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links:
+    - "察する文化"
+    - "空気を読む"
+    - "言外の意"
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 0
+  pending: 3
+  verified_date: 2025-12-26
+---
 # 以心伝心
 
 ## 日本語の説明

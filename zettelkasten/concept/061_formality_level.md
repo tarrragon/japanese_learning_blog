@@ -4,17 +4,34 @@ description: "日語表達的正式程度分級系統"
 type: concept
 jlpt: none
 stage: pending
-draft: true
-auto_generated: false
-needs_review: true
 tags:
   - linguistics
   - pragmatics
   - social_context
 created: 2025-12-26
 updated: 2025-12-26
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 0
+  pending: 0
+  verified_date: 2025-12-26
+---
 日語根據社交場合、對話者關係、話題性質等因素，有明確的正式度分級系統。理解並掌握不同正式度層次是日語學習的關鍵。
 
 <!--more-->

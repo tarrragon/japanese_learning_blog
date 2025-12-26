@@ -2,12 +2,8 @@
 title: あげる vs くれる
 description: あげる vs くれる - 授受動詞方向性對比
 type: comparison
-comparison_items: [ageru, kureru]
 jlpt: n4
 stage: draft
-draft: false
-auto_generated: false
-needs_review: true
 tags:
   - comparison
   - 授受表現
@@ -16,8 +12,28 @@ tags:
   - jlpt/n4
 created: 2025-12-17
 updated: 2025-12-17
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "draft"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 14
+  pending: 0
+  verified_date: 2025-12-26
+---
 ## 概述
 
 「あげる」和「くれる」都是日語授受表現系統中的核心動詞，兩者都表示「給予」的動作，但在方向性和視角上有著根本的區別。這個對比是日語學習者必須掌握的重要概念，因為它反映了日語特有的「內與外」（ウチ・ソト）的社會文化觀念。

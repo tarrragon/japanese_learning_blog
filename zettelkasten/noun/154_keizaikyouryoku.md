@@ -1,15 +1,38 @@
 ---
-id: "082"
 title: "経済協力"
-title_en: "keizaikyouryoku"
-category: "noun"
-tags: ["domain/経済学"]
 jlpt: "n2"
-date: 2025-12-22
-status: "draft"
-dictionary: {}
----
+stage: pending
+tags:
+  - "domain/経済学"
+created: 2025-12-22
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links:
+    - "開発援助"
+    - "技術移転"
+    - "ODA"
+    - "経済連携"
+    - "国際協力"
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 0
+  pending: 5
+  verified_date: 2025-12-26
+---
 # 経済協力（けいざいきょうりょく）
 
 ## 日本語の解釈

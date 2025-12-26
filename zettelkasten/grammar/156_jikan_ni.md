@@ -1,16 +1,40 @@
 ---
 title: "時間+に"
-japanese: "じかん+に"
 type: "grammar"
-subtype: "particle"
 jlpt: "n5"
 stage: "draft"
+tags:
+  - "助詞"
+  - "時間表現"
+  - "N5文法"
 created: "2025-12-26"
 updated: "2025-12-26"
-tags: ["助詞", "時間表現", "N5文法"]
-related_cards: []
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: ""draft""
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links:
+    - "助詞「に」（場所）"
+    - "時間詞彙"
+    - "助詞「で」（時間）"
+    - "相對時間詞"
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 0
+  pending: 4
+  verified_date: 2025-12-26
+---
 # 時間+に
 
 ## 中文解釋

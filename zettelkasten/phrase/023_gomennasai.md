@@ -1,23 +1,35 @@
 ---
-id: phrase-023
 title: "ごめんなさい（御免なさい）"
-slug: gomennasai
-date: 2025-12-22
-modified: 2025-12-22
-status: active
+stage: pending
 tags:
   - phrase
   - jlpt-n5
   - polite
   - apology
-jlpt_level: n5
-dictionary:
-  reading: ごめんなさい
-  kanji: 御免なさい
-  pos_details: 連語
-  definition_ja: 許しを請うたり，謝罪したりするときに言う語。
----
+created: 2025-12-22
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 5
+  pending: 0
+  verified_date: 2025-12-26
+---
 # ごめんなさい（御免なさい）
 
 ## 基本資訊

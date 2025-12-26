@@ -4,13 +4,37 @@ description: 〜たらどう - 怎麼樣、要不要（提建議）
 type: phrase
 jlpt: n4
 stage: draft
-tags: [phrase, jlpt/n4, suggestion, advice, conditional, daily_life]
+tags:
+  - phrase
+  - jlpt/n4
+  - suggestion
+  - advice
+  - conditional
+  - daily_life
 created: 2025-12-17
 updated: 2025-12-17
-base_card: grammar/conditional-tara
-related_words: [dou_suru, dou_desuka, mashou_ka]
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "draft"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 10
+  pending: 0
+  verified_date: 2025-12-26
+---
 ## 日文
 
 〜たらどう（〜たらどうですか）

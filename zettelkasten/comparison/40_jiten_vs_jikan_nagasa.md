@@ -1,19 +1,34 @@
 ---
-id: "40"
 title: "時点 vs 時間の長さ"
-japanese: "時点 vs 時間の長さ"
-category: comparison
+stage: pending
 tags:
   - 時間表現
   - 概念對比
   - 時間軸
 created: 2025-12-26
 updated: 2025-12-26
-aliases:
-  - 時点と時間の違い
-  - point in time vs duration
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: false
+  chinese: false
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 0
+  pending: 0
+  verified_date: 2025-12-26
+---
 # 時点 vs 時間の長さ
 
 ## 核心區別

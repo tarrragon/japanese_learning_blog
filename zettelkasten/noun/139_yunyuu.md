@@ -1,18 +1,33 @@
 ---
-id: noun-080
-category: noun
-japanese: 輸入
-reading: ゆにゅう
 jlpt: N3
+stage: pending
 tags:
   - domain/経済学
   - domain/商業
-related_cards:
-  - "[輸出](../noun/待建立_yushutsu.md)"
-  - "[貿易](../noun/待建立_boueki.md)"
-  - "[関税](../noun/待建立_kanzei.md)"
----
+created: 2025-12-26
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: false
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 6
+  pending: 0
+  verified_date: 2025-12-26
+---
 # 輸入（ゆにゅう）
 
 ## 解釋

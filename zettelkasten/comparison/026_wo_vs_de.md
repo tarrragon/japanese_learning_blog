@@ -2,21 +2,36 @@
 title: を vs で
 description: を vs で 用法比較 - 賓語標記 vs 動作場所／手段
 type: comparison
-comparison_items: [particle/wo, particle/de]
 jlpt: n5
 stage: draft
-draft: false
-auto_generated: false
-needs_review: true
-has_diagram: true
 tags:
   - comparison
   - particle
   - jlpt/n5
 created: 2025-11-03
 updated: 2025-12-19
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "draft"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 10
+  pending: 0
+  verified_date: 2025-12-26
+---
 ## 概述
 
 「を」和「で」是日語中最基礎且最常用的兩個助詞，但它們的功能截然不同。「を」主要標示動作的直接賓語和移動的經過點，而「で」則表示動作發生的場所、手段、方法等。理解這兩個助詞的區別對於建立正確的日語句子結構至關重要。

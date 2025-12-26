@@ -1,18 +1,36 @@
 ---
-id: "081"
 title: "証券取引所"
-title_en: "shoukentorihikijo"
-category: "noun"
+jlpt: "n1"
+stage: pending
 tags:
   - "domain/経済学"
   - "domain/金融"
-learned: false
-jlpt: "n1"
 created: "2025-12-22"
 updated: "2025-12-22"
-dictionary: null
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links:
+    - "債券"
+    - "上場"
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 3
+  pending: 2
+  verified_date: 2025-12-26
+---
 # 証券取引所（しょうけんとりひきじょ）
 
 ## 解釋

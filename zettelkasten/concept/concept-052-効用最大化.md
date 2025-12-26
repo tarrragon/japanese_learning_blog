@@ -1,10 +1,6 @@
 ---
-id: concept-052
 title: 効用最大化
-reading: こうようさいだいか
-card_type: concept
-category: economics
-difficulty: N2-N1
+stage: pending
 tags:
   - 効用
   - 経済人
@@ -12,8 +8,31 @@ tags:
   - 意思決定
 created: 2025-12-23
 updated: 2025-12-23
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links:
+    - "合理性"
+    - "効用"
+    - "限界効用"
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 1
+  pending: 3
+  verified_date: 2025-12-26
+---
 ## 単語情報
 
 **効用最大化（こうようさいだいか）**

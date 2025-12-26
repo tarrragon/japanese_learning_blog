@@ -4,23 +4,34 @@ description: "商業、生意、業務"
 type: noun
 jlpt: n2
 stage: pending
-draft: true
-auto_generated: false
-needs_review: true
 tags:
   - business
   - workplace
   - jlpt/n2
-dictionary:
-  sources:
-    daijirin: false
-    waei: false
-  reading: "ビジネス"
-  lookup_date: 2025-12-26
 created: 2025-12-26
 updated: 2025-12-26
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 0
+  pending: 0
+  verified_date: 2025-12-26
+---
 ビジネスは現代社会における重要な概念で、商業活動や業務全般を指します。
 
 <!--more-->

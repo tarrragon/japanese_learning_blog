@@ -2,16 +2,36 @@
 title: "でも"
 description: 但是、可是（口語逆接連接詞）
 type: conjunction
-subtype: adversative
 jlpt: n5
-tags: [adversative, contrast, casual_speech]
-related_words: [でも、しかし、けど、だが]
-synonyms: []
-created: 2025-10-31
 stage: extension-review
-extensions: {}
----
+tags:
+  - adversative
+  - contrast
+  - casual_speech
+created: 2025-10-31
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "extension-review"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 20
+  pending: 0
+  verified_date: 2025-12-26
+---
 ## 日文
 でも（demo）
 

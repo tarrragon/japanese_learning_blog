@@ -1,17 +1,36 @@
 ---
 title: "丁寧表達"
-date: 2025-12-26
+type: concept
+jlpt: n4
+stage: pending
 tags:
   - concept
   - politeness
   - register
-type: concept
-jlpt: n4
-aliases:
-  - 丁寧語
-  - polite expression
----
+created: 2025-12-26
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 5
+  pending: 0
+  verified_date: 2025-12-26
+---
 ## 中文解釋
 
 丁寧表達是日語中用於表示禮貌的語言形式，主要透過「です・ます」體來實現。這是日常會話、商務場合、正式場合中最基本且最常用的禮貌表達方式。

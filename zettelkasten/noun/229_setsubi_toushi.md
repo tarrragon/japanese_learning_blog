@@ -1,9 +1,34 @@
 ---
-id: "229"
 type: "noun"
-tags: ["business", "economics", "finance"]
----
+stage: pending
+tags:
+  - "business"
+  - "economics"
+  - "finance"
+created: 2025-12-26
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 0
+  pending: 0
+  verified_date: 2025-12-26
+---
 # 設備投資（せつびとうし）
 
 ## 三語解釋

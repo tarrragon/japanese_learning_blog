@@ -1,16 +1,39 @@
 ---
-id: G147
 title: "なければならない"
 type: grammar
 jlpt: n4
-created_date: 2025-12-26
-updated_date: 2025-12-26
+stage: pending
 tags:
   - 義務表達
   - 動詞變化
   - N4文法
----
+created: 2025-12-26
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links:
+    - "なくてはいけない"
+    - "べきだ"
+    - "ないといけない"
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 0
+  pending: 3
+  verified_date: 2025-12-26
+---
 ## 概要
 
 「なければならない」是用來表達「必須～」「不得不～」的義務或必要性的文法形式。這是日語中最基本的義務表達之一，相當於英文的 "must" 或 "have to"。

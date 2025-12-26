@@ -2,13 +2,36 @@
 title: 忘れる（わすれる）
 description: 忘記
 type: verb
-subtype: ichidan
 jlpt: n5
-tags: [verb, cognition, basic]
 stage: extension-review
+tags:
+  - verb
+  - cognition
+  - basic
 created: 2025-10-31
----
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "extension-review"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 16
+  pending: 0
+  verified_date: 2025-12-26
+---
 ## 日文
 忘れる（わすれる）
 

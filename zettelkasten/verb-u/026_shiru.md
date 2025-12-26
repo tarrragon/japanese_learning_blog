@@ -3,10 +3,35 @@ title: "知る（しる）"
 description: "知道、了解"
 type: verb-u
 jlpt: n4
-tags: [verb-u, cognition, basic]
-date: 2025-10-31
----
+stage: pending
+tags:
+  - verb-u
+  - cognition
+  - basic
+created: 2025-10-31
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: false
+  chinese: false
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 0
+  pending: 0
+  verified_date: 2025-12-26
+---
 ## 文法資訊
 
 **動詞類型**：う動詞（五段動詞）

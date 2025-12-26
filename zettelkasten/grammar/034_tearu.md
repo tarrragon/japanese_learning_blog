@@ -2,7 +2,6 @@
 title: 〜てある
 description: てある - 結果狀態（有意圖的準備狀態）
 type: grammar
-grammar_type: resultative_state
 jlpt: n4
 stage: completed
 tags:
@@ -10,17 +9,28 @@ tags:
   - domain/daily_life
 created: 2025-10-30
 updated: 2025-10-30
-draft: false
-auto_generated: false
-needs_review: false
-completed: 2025-10-30
-related_grammar:
-  - teiru
-  - transitive_intransitive
-applies_to:
-  - transitive_verb
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "completed"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 5
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 10
+  pending: 0
+  verified_date: 2025-12-26
+---
 ## 日文
 
 **〜てある**

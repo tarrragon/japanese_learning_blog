@@ -1,19 +1,35 @@
 ---
 title: "〜ている vs 〜てある"
-japanese: "〜ている vs 〜てある"
-category: comparison
 type: comparison
 jlpt: n4
+stage: pending
 tags:
   - 文法
   - 状態表現
-related_cards:
-  - zettelkasten/grammar/06_teiru.md
-  - zettelkasten/grammar/07_tearu.md
-created_at: 2025-12-26
-updated_at: 2025-12-26
----
+created: 2025-12-26
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 0
+  pending: 0
+  verified_date: 2025-12-26
+---
 ## 中文解釋
 
 比較「〜ている」和「〜てある」的用法差異。兩者都能表示狀態，但有重要的區別：

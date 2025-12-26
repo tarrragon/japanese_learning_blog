@@ -1,19 +1,34 @@
 ---
-id: 067
 title: "書面語・フォーマルな文章"
-japanese: "書き言葉（フォーマル）"
-category: concept
+stage: pending
 tags:
   - 文体
   - レジスター
   - 書き言葉
-related_cards:
-  - "../../concept/026_written_language.md"
-  - "../../concept/029_formal.md"
-  - "../../concept/015_casual-conversation.md"
-  - "../../concept/028_teineitai_vs_futsutai.md"
----
+created: 2025-12-26
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 4
+  pending: 0
+  verified_date: 2025-12-26
+---
 ## 中文解釋
 
 書面語（フォーマル）是指用於正式文書、學術論文、商務報告等場合的書寫風格。特徵包括：

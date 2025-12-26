@@ -9,17 +9,33 @@ tags:
   - context/family
   - domain/daily_life
   - jlpt/n5
-date: 2025-10-27
+created: 2025-10-27
 updated: 2025-10-28
-links:
-  朝ごはん: ../noun/001_asagohan.md
-  て形文法: ../grammar/001_te_form.md
-extensions:
-  敬語形式: ../honorific/001_meshiagaru_itadaku.md
-generated_cards: [../particle/002_wo, ../grammar/003_ichidan_verb, ../grammar/004_mae_ni]
-generated_date: 2025-10-28
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "completed"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 3
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 14
+  pending: 0
+  verified_date: 2025-12-26
+
+# 連結
+links:
+---
 ## 日文
 食べる（たべる）
 

@@ -2,12 +2,8 @@
 title: 主題 vs 主語
 description: 主題與主語的語言學區別 - 理解日文句子結構的關鍵
 type: comparison
-comparison_items: [topic, subject]
 jlpt: n4
 stage: draft
-draft: false
-auto_generated: false
-needs_review: true
 tags:
   - comparison
   - grammar_core
@@ -15,8 +11,28 @@ tags:
   - context/academic
 created: 2025-11-03
 updated: 2025-11-03
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "draft"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 16
+  pending: 0
+  verified_date: 2025-12-26
+---
 ## 概述
 
 「主題（Topic）」和「主語（Subject）」是語言學中兩個不同層次的概念。日文是典型的主題顯著語言（topic-prominent language），這與主語顯著語言（subject-prominent language）如英文有根本性的差異。理解這個區別是掌握日文句子結構和助詞使用的關鍵。

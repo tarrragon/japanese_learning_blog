@@ -4,22 +4,32 @@ description: "經濟"
 type: concept
 jlpt: n3
 stage: pending
-draft: true
-auto_generated: false
-needs_review: true
 tags:
   - domain/経済学
-dictionary:
-  reading: けいざい
-  kanji: 経済
-  pos: 名詞
-  pos_details: 名
-  definition_ja: 物資の生産・流通・交換・分配とその消費・蓄積の全過程，およびその中で営まれる社会的諸関係の総体。
-  source: daijirin
 created: 2025-12-22
 updated: 2025-12-22
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 5
+  pending: 0
+  verified_date: 2025-12-26
+---
 # 経済（けいざい）
 
 ## 日本語の説明

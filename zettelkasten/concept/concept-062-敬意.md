@@ -4,23 +4,33 @@ description: "尊敬、尊重"
 type: concept
 jlpt: n3
 stage: pending
-draft: true
-auto_generated: false
-needs_review: true
 tags:
   - domain/語用論
   - domain/社会言語学
-dictionary:
-  reading: けいい
-  kanji: 敬意
-  pos: 名詞
-  pos_details: 名
-  definition_ja: 他人を尊び、うやまう気持ち。
-  source: daijirin
 created: 2025-12-26
 updated: 2025-12-26
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 6
+  pending: 0
+  verified_date: 2025-12-26
+---
 # 敬意（けいい）
 
 ## 日本語の説明

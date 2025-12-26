@@ -4,26 +4,34 @@ description: "表示原因、理由的接續助詞，較から委婉、客觀，
 type: grammar
 jlpt: n4
 stage: draft
-draft: true
 tags:
   - cause_reason
   - conjunction
   - formal_expression
-related:
-  - path: "待建立"
-    relation: "contrast"
-    note: "から - 較主觀、直接的原因表達"
-  - path: "待建立"
-    relation: "prerequisite"
-    note: "普通形 - ので前接普通形"
-  - path: "待建立"
-    relation: "related"
-    note: "ため（に） - 表示原因、目的的表達"
-  - path: "待建立"
-    relation: "usage"
-    note: "敬語表達 - ので常用於禮貌表達"
----
+created: 2025-12-26
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "draft"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: true
+  chinese: false
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 0
+  pending: 0
+  verified_date: 2025-12-26
+---
 # ので
 
 ## 解釋

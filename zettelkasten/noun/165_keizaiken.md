@@ -1,16 +1,33 @@
 ---
-id: "083"
 title: "経済圏"
-title_en: "keizaiken"
-category: "noun"
 jlpt: "n2"
-tags: ["domain/経済学"]
-related_cards: []
+stage: pending
+tags:
+  - "domain/経済学"
 created: "2025-12-22"
 updated: "2025-12-22"
-dictionary: {}
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 0
+  pending: 0
+  verified_date: 2025-12-26
+---
 # 経済圏（けいざいけん）
 
 ## 日本語の説明

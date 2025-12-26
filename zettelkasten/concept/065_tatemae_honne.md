@@ -1,18 +1,36 @@
 ---
 title: 建前と本音（たてまえとほんね）
 description: 日本文化中表面話語與真實心意的概念
+stage: draft
 tags:
   - context/formal
   - context/culture
   - domain/sociology
   - jlpt/n2
-date: 2025-12-26
-stage: draft
-draft: true
-auto_generated: false
-needs_review: true
----
+created: 2025-12-26
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "draft"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 0
+  pending: 0
+  verified_date: 2025-12-26
+---
 建前と本音は日本文化における重要な概念で、社会的な調和を保つための独特なコミュニケーションスタイルを表しています。
 
 <!--more-->

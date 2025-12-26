@@ -1,15 +1,36 @@
 ---
-category: noun
-number: "181"
 jlpt: n1
+stage: pending
 tags:
   - domain/経済学
   - domain/政治
-status: draft
 created: 2025-12-23
 updated: 2025-12-23
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links:
+    - "市場経済"
+    - "社会主義"
+    - "自由主義"
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 2
+  pending: 3
+  verified_date: 2025-12-26
+---
 # 資本主義（しほんしゅぎ）
 
 ## 定義

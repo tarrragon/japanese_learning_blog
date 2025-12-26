@@ -1,20 +1,34 @@
 ---
-id: concept-068
-aliases:
-  - 発見表現
-  - discovery expression
-  - expressions of discovery
+stage: pending
 tags:
   - grammar
   - 発見
   - 気づき
   - 実現
-category: concept
 created: 2025-12-26
-last_modified: 2025-12-26
-status: active
----
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: false
+  chinese: false
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 7
+  pending: 0
+  verified_date: 2025-12-26
+---
 # 発見表現（Discovery Expression）
 
 ## 定義

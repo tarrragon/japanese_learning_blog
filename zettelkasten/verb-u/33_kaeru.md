@@ -1,17 +1,40 @@
 ---
 title: "帰る（かえる）"
 type: verb
-subtype: godan
-hiragana: かえる
-romaji: kaeru
 jlpt: n5
 stage: draft
 tags:
   - 移動
   - 日常
 created: 2025-12-24
----
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "draft"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: false
+  chinese: true
+  examples_count: 0
+  pending_links:
+    - "戻る（もどる）"
+    - "行く（いく）"
+    - "来る（くる）"
+    - "家（いえ）"
+    - "視点（してん）"
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 0
+  pending: 5
+  verified_date: 2025-12-26
+---
 # 帰る（かえる）
 
 ## 基本資訊

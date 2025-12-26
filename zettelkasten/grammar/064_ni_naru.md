@@ -2,7 +2,6 @@
 title: 〜になる
 description: ～になる（自然變化/結果狀態）
 type: grammar
-subtype: change_pattern
 jlpt: n4
 stage: draft
 tags:
@@ -11,8 +10,28 @@ tags:
   - domain/daily_life
 created: 2025-10-30
 updated: 2025-10-30
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "draft"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 6
+  pending: 0
+  verified_date: 2025-12-26
+---
 ## 日文
 
 ～になる

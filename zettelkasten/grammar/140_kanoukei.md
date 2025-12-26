@@ -1,16 +1,40 @@
 ---
 title: "可能形"
-japanese: "かのうけい"
 type: "grammar"
-subtype: "conjugation"
 jlpt: "n4"
 stage: "draft"
+tags:
+  - "動詞變化"
+  - "可能表現"
+  - "N4文法"
 created: "2025-12-24"
 updated: "2025-12-24"
-tags: ["動詞變化", "可能表現", "N4文法"]
-related_cards: []
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: ""draft""
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links:
+    - "～ことができる"
+    - "五段動詞"
+    - "一段動詞"
+    - "助詞「が」"
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 0
+  pending: 4
+  verified_date: 2025-12-26
+---
 # 可能形
 
 ## 中文解釋

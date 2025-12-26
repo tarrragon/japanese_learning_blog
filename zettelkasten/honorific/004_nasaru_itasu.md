@@ -2,22 +2,36 @@
 title: なさる・いたす
 description: なさる・いたす - 「する」的敬語形式
 type: honorific
-subtype: verb_pair
 jlpt: n4
 stage: completed
-draft: false
-auto_generated: true
-needs_review: false
-completed: 2025-10-28
 tags:
   - honorific
   - keigo
   - action
   - jlpt/n4
 created: 2025-10-28
-related_to:
-  - ../grammar/005_keigo_system.md
-  - ../grammar/006_godan_verb.md
+updated: 2025-12-26
+
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "completed"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 15
+  pending: 0
+  verified_date: 2025-12-26
 ---
 ## 日文
 なさる・いたす（なさる・いたす）

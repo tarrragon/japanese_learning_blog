@@ -1,12 +1,39 @@
 ---
 title: "中央銀行（ちゅうおうぎんこう）"
-japanese: "中央銀行"
-romaji: "chuuou ginkou"
-category: "noun"
-tags: ["economic", "finance", "institution"]
-related_cards: []
----
+stage: pending
+tags:
+  - "economic"
+  - "finance"
+  - "institution"
+created: 2025-12-26
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links:
+    - "金融政策"
+    - "日本銀行"
+    - "金利"
+    - "通貨供給"
+    - "物価安定"
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 0
+  pending: 5
+  verified_date: 2025-12-26
+---
 # 中央銀行（ちゅうおうぎんこう）
 
 ## 意味

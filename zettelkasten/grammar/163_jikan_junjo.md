@@ -2,20 +2,36 @@
 title: "時間順序表達"
 description: "表達事件時間順序的文法句型"
 type: grammar
-subtype: pattern
 jlpt: n4
 stage: draft
-draft: true
-auto_generated: false
-needs_review: true
 tags:
   - grammar
   - time_expression
   - jlpt/n4
 created: 2025-12-26
 updated: 2025-12-26
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "draft"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 0
+  pending: 0
+  verified_date: 2025-12-26
+---
 表達事件發生的先後順序，是日文敘事和說明中的重要文法概念。
 
 <!--more-->

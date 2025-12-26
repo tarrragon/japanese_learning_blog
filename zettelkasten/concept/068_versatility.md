@@ -4,17 +4,34 @@ description: "語言單位的多功能性概念"
 type: concept
 jlpt: none
 stage: draft
-draft: true
-auto_generated: false
-needs_review: true
 tags:
   - linguistics
   - grammar_concept
   - language_structure
 created: 2025-12-26
 updated: 2025-12-26
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "draft"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 0
+  pending: 0
+  verified_date: 2025-12-26
+---
 日文的語言單位（如助詞、動詞等）常具有多重功能和用法，這種「一詞多用」的特性稱為多機能性。
 
 <!--more-->

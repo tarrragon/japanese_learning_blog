@@ -2,20 +2,36 @@
 title: 能力 vs 容量
 description: 能力 vs 容量 詳細比較 - 能力與容量的辨析
 type: contrast
-comparison_items: [noun/nouryoku, noun/youryou]
 jlpt: n4
 stage: draft
-draft: false
-auto_generated: false
-needs_review: true
 tags:
   - vocabulary_distinction
   - domain/cognition
   - context/academic
 created: 2025-11-03
 updated: 2025-11-03
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "draft"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 9
+  pending: 0
+  verified_date: 2025-12-26
+---
 ## 概述
 
 「能力」和「容量」在中文都可譯為「能力」或「容量」，但在日文中有明確的使用區別。「能力」指的是做某事的力量或才能，強調主動的行為能力；「容量」則指容器或系統能夠容納的量，強調被動的承載限度。理解這兩個詞的差異，有助於準確表達不同類型的「能力」概念。

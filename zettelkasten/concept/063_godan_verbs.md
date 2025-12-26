@@ -1,8 +1,6 @@
 ---
-id: "063"
 title: "五段動詞"
-title_en: "Godan Verbs"
-category: "concept"
+stage: pending
 tags:
   - grammar
   - verbs
@@ -10,16 +8,28 @@ tags:
   - fundamentals
 created: 2025-12-26
 updated: 2025-12-26
-aliases:
-  - "う動詞"
-  - "u-verbs"
-  - "consonant-stem verbs"
-related:
-  - "[一段動詞](../concept/064_ichidan_verbs.md)"
-  - "[不規則動詞](../concept/065_irregular_verbs.md)"
-  - "[動詞活用](../concept/066_verb_conjugation.md)"
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 3
+  pending: 0
+  verified_date: 2025-12-26
+---
 ## 日本語の説明
 
 五段動詞（ごだんどうし）は、日本語の動詞の分類の一つで、語幹の最後の音が「あ・い・う・え・お」の五つの段を移動して活用する動詞です。英語では「u-verbs」または「consonant-stem verbs」と呼ばれます。

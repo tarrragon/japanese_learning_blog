@@ -2,20 +2,36 @@
 title: "商取引"
 description: 商業交易流程的基本概念與實務
 type: concept
-subtype: business_process
 jlpt: none
 stage: draft
-draft: false
-auto_generated: false
-needs_review: true
 tags:
   - context/business
   - domain/commerce
   - domain/transaction
 created: 2025-10-31
 updated: 2025-10-31
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "draft"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 9
+  pending: 0
+  verified_date: 2025-12-26
+---
 ## 日文
 
 商取引（しょうとりひき）

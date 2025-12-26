@@ -4,9 +4,6 @@ description: 確認表達 - 日語中確認訊息與核實理解的語言機制
 type: concept
 jlpt: n3
 stage: draft
-draft: false
-auto_generated: false
-needs_review: true
 tags:
   - domain/communication
   - context/daily_life
@@ -14,8 +11,28 @@ tags:
   - context/formal
 created: 2025-10-31
 updated: 2025-10-31
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "draft"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 8
+  pending: 0
+  verified_date: 2025-12-26
+---
 ## 日文
 
 確認（かくにん）

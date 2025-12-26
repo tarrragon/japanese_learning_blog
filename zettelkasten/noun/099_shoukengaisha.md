@@ -1,16 +1,37 @@
 ---
-id: 076
 title: 証券会社
-title_romaji: shoukengaisha
-category: noun
+jlpt: n2
+stage: pending
 tags:
   - domain/経済学
   - domain/金融
-jlpt: n2
 created: 2025-12-22
-status: draft
----
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links:
+    - "投資家"
+    - "金融機関"
+    - "IPO（新規公開株）"
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 2
+  pending: 3
+  verified_date: 2025-12-26
+---
 # 証券会社（しょうけんがいしゃ）
 
 ## 定義

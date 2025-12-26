@@ -2,20 +2,36 @@
 title: 情報の流れ（じょうほうのながれ）
 description: 資訊在溝通中的傳遞方向和結構
 type: concept
-subtype: linguistic_concept
 jlpt: concept
 stage: draft
-draft: false
-auto_generated: false
-needs_review: true
 tags:
   - domain/communication
   - domain/linguistics
   - context/academic
 created: 2025-10-31
 updated: 2025-10-31
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "draft"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 13
+  pending: 0
+  verified_date: 2025-12-26
+---
 ## 日文
 
 情報の流れ（じょうほうのながれ）

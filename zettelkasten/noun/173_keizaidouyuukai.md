@@ -1,16 +1,39 @@
 ---
-id: "084"
 title: "経済同友会"
 type: "word"
-category: "noun"
-romaji: "keizai dōyūkai"
 jlpt: "n1"
-tags: ["domain/経済学"]
-status: "draft"
+stage: pending
+tags:
+  - "domain/経済学"
 created: 2025-12-22
-dictionary: {}
----
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links:
+    - "経団連"
+    - "日本商工会議所"
+    - "政策提言"
+    - "規制改革"
+    - "経済団体"
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 0
+  pending: 5
+  verified_date: 2025-12-26
+---
 # 経済同友会（けいざいどうゆうかい）
 
 ## 日本語の説明

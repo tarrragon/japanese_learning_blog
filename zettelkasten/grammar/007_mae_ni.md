@@ -2,16 +2,36 @@
 title: 〜前に
 description: 〜前に - 表示「在...之前」的時間文法
 type: grammar
-subtype: time_expression
 jlpt: n5
 stage: completed
-tags: [grammar, time, sequence]
+tags:
+  - grammar
+  - time
+  - sequence
 created: 2025-10-28
 updated: 2025-10-28
-related_to:
-  - ../verb-ru/001_taberu.md
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "completed"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 5
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 12
+  pending: 0
+  verified_date: 2025-12-26
+---
 ## 日文
 〜前に（〜まえに）
 

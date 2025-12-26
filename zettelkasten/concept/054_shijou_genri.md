@@ -4,16 +4,33 @@ description: 市場原理，市場經濟中供需關係自動調節的基本原�
 type: concept
 jlpt: none
 stage: pending
-draft: true
-auto_generated: false
-needs_review: true
 tags:
   - domain/経済学
   - concept/theory
 created: 2025-12-23
 updated: 2025-12-23
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 5
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 0
+  pending: 0
+  verified_date: 2025-12-26
+---
 市場經濟中，價格、供給、需求透過市場機制自動調節達到均衡的基本原則。
 
 <!--more-->

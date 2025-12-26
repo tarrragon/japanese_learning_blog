@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 """
 Update Card Progress Script
-更新卡片進度（供代理人呼叫）
+更新卡片進度（供代理人呼叫）- v1.5.0 版本支援 YAML 更新
 
 Usage:
-    # 更新單張卡片
+    # 更新單張卡片（同時更新 CSV 和 YAML）
     uv run scripts/update_card_progress.py --id 59 --stage draft
 
     # 更新單張卡片並設定批次
@@ -15,19 +15,32 @@ Usage:
 
     # 安靜模式（減少輸出）
     uv run scripts/update_card_progress.py --id 59 --stage draft --quiet
+
+    # 只更新 YAML（跳過 CSV）
+    uv run scripts/update_card_progress.py --id 59 --stage draft --yaml-only
+
+v1.5.0 變更：
+    - 同時更新 CSV 和卡片 YAML frontmatter
+    - YAML 成為單一事實來源
+    - 支援 --yaml-only 選項
 """
 
 import csv
 import argparse
 import sys
+import re
 from pathlib import Path
-from datetime import datetime
+from datetime import datetime, date
 from typing import List, Dict, Optional
 
 from csv_config import get_default_csv_path
 
+# 專案根目錄
+PROJECT_ROOT = Path(__file__).parent.parent
+ZETTELKASTEN_DIR = PROJECT_ROOT / "zettelkasten"
+
 class CardProgressUpdater:
-    """更新卡片進度"""
+    """更新卡片進度（支援 CSV 和 YAML 同步更新）"""
 
     VALID_STAGES = ['pending', 'draft', 'extension-review', 'linking', 'completed']
 
@@ -40,16 +53,17 @@ class CardProgressUpdater:
         'completed': []  # 完成後不可轉換
     }
 
-    def __init__(self, csv_path: str, quiet: bool = False):
-        self.csv_path = Path(csv_path)
+    def __init__(self, csv_path: str, quiet: bool = False, yaml_only: bool = False):
+        self.csv_path = Path(csv_path) if csv_path else None
         self.cards = []
         self.quiet = quiet
+        self.yaml_only = yaml_only
 
-        if not self.csv_path.exists():
-            self._error(f"CSV 檔案不存在: {csv_path}")
-            sys.exit(1)
-
-        self.load_cards()
+        if not yaml_only:
+            if not self.csv_path or not self.csv_path.exists():
+                self._error(f"CSV 檔案不存在: {csv_path}")
+                sys.exit(1)
+            self.load_cards()
 
     def _print(self, msg: str):
         """輸出訊息（除非 quiet 模式）"""
@@ -146,7 +160,66 @@ class CardProgressUpdater:
         if batch is not None:
             self._print(f"   批次: {batch}")
 
+        # v1.5.0: 同步更新 YAML frontmatter
+        if stage and 'path' in card:
+            yaml_updated = self.update_yaml_stage(card['path'], stage)
+            if yaml_updated:
+                self._print(f"   YAML: 已同步更新")
+
         return True
+
+    def update_yaml_stage(self, card_path: str, new_stage: str) -> bool:
+        """更新卡片 YAML frontmatter 中的 stage 欄位"""
+        # 建立完整路徑
+        if card_path.startswith('zettelkasten/'):
+            full_path = PROJECT_ROOT / card_path
+        else:
+            full_path = ZETTELKASTEN_DIR / card_path
+
+        if not full_path.exists():
+            self._print(f"   ⚠️ 卡片檔案不存在: {full_path}")
+            return False
+
+        try:
+            content = full_path.read_text(encoding='utf-8')
+
+            # 更新 stage 欄位
+            content = re.sub(
+                r'^(stage:\s*)(\S+)',
+                f'\\g<1>{new_stage}',
+                content,
+                count=1,
+                flags=re.MULTILINE
+            )
+
+            # 更新 updated 日期
+            today = date.today().isoformat()
+            content = re.sub(
+                r'^(updated:\s*)(\S+)',
+                f'\\g<1>{today}',
+                content,
+                count=1,
+                flags=re.MULTILINE
+            )
+
+            # 新增 version_history 條目（如果需要）
+            if 'version_history:' in content:
+                # 檢查是否已有今天的記錄
+                if f'date: {today}' not in content:
+                    # 在 version_history: 後添加新條目
+                    content = re.sub(
+                        r'(version_history:\n)',
+                        f'\\g<1>  - version: "1.5.0"\n    stage: "{new_stage}"\n    date: {today}\n',
+                        content,
+                        count=1
+                    )
+
+            full_path.write_text(content, encoding='utf-8')
+            return True
+
+        except Exception as e:
+            self._error(f"   ❌ YAML 更新失敗: {e}")
+            return False
 
     def batch_update(self, card_ids: List[int], stage: str, batch: Optional[int] = None) -> int:
         """批次更新卡片，回傳成功更新的數量"""
@@ -185,11 +258,13 @@ def parse_id_range(id_range: str) -> List[int]:
     return card_ids
 
 def main():
-    parser = argparse.ArgumentParser(description='更新卡片進度')
+    parser = argparse.ArgumentParser(description='更新卡片進度（v1.5.0 支援 YAML 同步）')
     parser.add_argument('--csv', default=get_default_csv_path(),
                        help='CSV 檔案路徑（預設: 自動偵測最新版本）')
     parser.add_argument('--quiet', action='store_true',
                        help='安靜模式（減少輸出）')
+    parser.add_argument('--yaml-only', action='store_true',
+                       help='只更新 YAML（跳過 CSV）')
 
     # 卡片選擇（互斥）
     card_group = parser.add_mutually_exclusive_group(required=True)
@@ -208,7 +283,11 @@ def main():
         parser.error("必須指定 --stage 或 --batch 至少一個")
 
     # 建立更新器
-    updater = CardProgressUpdater(args.csv, quiet=args.quiet)
+    updater = CardProgressUpdater(
+        args.csv,
+        quiet=args.quiet,
+        yaml_only=getattr(args, 'yaml_only', False)
+    )
 
     # 單張或批次更新
     if args.id:

@@ -1,19 +1,37 @@
 ---
-id: "079"
 title: "消費税"
-title_en: "consumption tax"
-title_cn: "消費稅"
-category: "noun"
-jlpt_level: "N3"
-hiragana: "しょうひぜい"
-romaji: "shouhizei"
-tags: ["domain/経済学"]
-difficulty: 5
-created_date: "2025-12-22"
-related_cards: []
-dictionary: {}
----
+stage: pending
+tags:
+  - "domain/経済学"
+created: 2025-12-26
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: false
+  examples_count: 0
+  pending_links:
+    - "所得税（しょとくぜい）"
+    - "法人税（ほうじんぜい）"
+    - "間接税（かんせつぜい）"
+    - "直接税（ちょくせつぜい）"
+    - "免税（めんぜい）"
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 0
+  pending: 5
+  verified_date: 2025-12-26
+---
 # 消費税（しょうひぜい）
 
 ## 詳細說明

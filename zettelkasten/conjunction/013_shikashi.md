@@ -2,16 +2,36 @@
 title: "しかし"
 description: 但是、然而（正式逆接連接詞）
 type: conjunction
-subtype: adversative
 jlpt: n4
-tags: [adversative, contrast, formal]
-related_words: [しかし、でも、けれども、だが]
-synonyms: []
-created: 2025-12-18
 stage: draft
-extensions: {}
----
+tags:
+  - adversative
+  - contrast
+  - formal
+created: 2025-12-18
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "draft"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 2
+  pending: 0
+  verified_date: 2025-12-26
+---
 ## 日文
 しかし（shikashi）
 

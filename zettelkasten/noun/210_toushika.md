@@ -1,15 +1,38 @@
 ---
-japanese: 投資家
-romaji: toushika
-chinese: 投資者
-english: investor
 jlpt: n2
+stage: pending
 tags:
   - domain/経済学
   - domain/金融
   - concept/role
----
+created: 2025-12-26
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links:
+    - "証券会社"
+    - "株式"
+    - "債券"
+    - "投資"
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 1
+  pending: 4
+  verified_date: 2025-12-26
+---
 # 投資家(とうしか)
 
 ## 日文解釋

@@ -2,7 +2,6 @@
 title: 引用文法
 description: 引用文法（と引用）是日文中用來轉述他人話語、思考或表達內容的文法結構
 type: grammar
-subtype: quotation
 jlpt: n4
 stage: draft
 tags:
@@ -11,8 +10,28 @@ tags:
   - domain/communication
 created: 2025-12-26
 updated: 2025-12-26
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "draft"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 8
+  pending: 0
+  verified_date: 2025-12-26
+---
 ## 日文
 
 引用文法

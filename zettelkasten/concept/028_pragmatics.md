@@ -4,17 +4,34 @@ description: 語用學總論 - 研究語言在實際使用中意義的語言學�
 type: concept
 jlpt: concept
 stage: draft
-draft: false
-auto_generated: false
-needs_review: true
 tags:
   - domain/linguistics
   - context/academic
   - domain/communication
 created: 2025-10-31
 updated: 2025-10-31
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "draft"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 18
+  pending: 0
+  verified_date: 2025-12-26
+---
 ## 日文
 
 語用学（ごようがく）

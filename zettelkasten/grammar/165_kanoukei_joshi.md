@@ -1,11 +1,34 @@
 ---
-id: "165"
 title: "可能形助詞規則"
-japanese: "可能形の助詞の変化"
-category: "grammar"
-tags: ["可能形", "助詞", "を→が"]
----
+stage: pending
+tags:
+  - "可能形"
+  - "助詞"
+  - "を→が"
+created: 2025-12-26
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 3
+  pending: 0
+  verified_date: 2025-12-26
+---
 # 可能形助詞規則
 
 ## 中文解釋

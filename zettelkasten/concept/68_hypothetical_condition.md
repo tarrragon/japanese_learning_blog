@@ -1,21 +1,39 @@
 ---
-id: 68
 title: "仮定条件"
-japanese: "仮定条件"
-english: "hypothetical condition"
-traditional_chinese: "假定條件"
+stage: pending
 tags:
   - grammar
   - conditional
   - sentence-pattern
-category: concept
-backlinks:
-  - "[~/zettelkasten/grammar/25_tara-form.md](~/zettelkasten/grammar/25_tara-form.md)"
-  - "[~/zettelkasten/grammar/26_ba-form.md](~/zettelkasten/grammar/26_ba-form.md)"
-  - "[~/zettelkasten/grammar/27_to-conditional.md](~/zettelkasten/grammar/27_to-conditional.md)"
-  - "[~/zettelkasten/grammar/28_nara-conditional.md](~/zettelkasten/grammar/28_nara-conditional.md)"
----
+created: 2025-12-26
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: true
+  chinese: false
+  examples_count: 0
+  pending_links:
+    - "条件節"
+    - "仮定法"
+    - "因果関係"
+    - "時間的順序性"
+    - "モダリティ"
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 8
+  pending: 7
+  verified_date: 2025-12-26
+---
 # 仮定条件（かていじょうけん）
 
 ## 日本語での説明

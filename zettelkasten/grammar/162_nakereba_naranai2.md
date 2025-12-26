@@ -2,12 +2,8 @@
 title: "〜なければならない"
 description: "Obligation, Must, Have to"
 type: grammar
-subtype: pattern
 jlpt: n4
 stage: draft
-draft: true
-auto_generated: false
-needs_review: true
 tags:
   - obligation
   - necessity
@@ -15,16 +11,28 @@ tags:
   - jlpt/n4
 created: 2025-12-26
 updated: 2025-12-26
-dictionary:
-  sources:
-    daijirin: true
-    waei: false
-  reading: "なければなら"
-  pos_details: "連語"
-  definition_ja: "〔が形容詞の仮定形の場合〕ないというわけにはいかない。"
-  lookup_date: "2025-12-26"
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "draft"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 8
+  pending: 0
+  verified_date: 2025-12-26
+---
 ## 日文
 
 〜なければならない

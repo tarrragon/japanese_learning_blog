@@ -2,14 +2,36 @@
 title: "移動動詞"
 type: grammar
 jlpt: n5
+stage: pending
 tags:
   - 動詞
   - 移動
   - 方向性
   - 視點
 created: 2025-12-26
----
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 6
+  pending: 0
+  verified_date: 2025-12-26
+---
 # 移動動詞
 
 ## 日文解釋（Japanese Explanation）

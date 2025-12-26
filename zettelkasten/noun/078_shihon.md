@@ -1,15 +1,36 @@
 ---
-category: noun
-number: "074"
 jlpt: n2
+stage: pending
 tags:
   - domain/経済学
   - domain/金融
-status: draft
 created: 2025-12-22
 updated: 2025-12-22
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links:
+    - "労働"
+    - "生産性"
+    - "市場経済"
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 2
+  pending: 3
+  verified_date: 2025-12-26
+---
 # 資本（しほん）
 
 ## 定義

@@ -1,14 +1,37 @@
 ---
-japanese: 納税者
-romaji: nouziesha
-chinese: 納稅者
-english: taxpayer
 jlpt: n2
+stage: pending
 tags:
   - domain/経済学
   - concept/fiscal-policy
----
+created: 2025-12-26
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links:
+    - "税金"
+    - "確定申告"
+    - "所得税"
+    - "法人税"
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 1
+  pending: 4
+  verified_date: 2025-12-26
+---
 # 納税者（のうぜいしゃ）
 
 ## 日文解釋

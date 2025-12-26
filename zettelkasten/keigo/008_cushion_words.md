@@ -1,22 +1,34 @@
 ---
-id: keigo-008
 title: "クッション言葉"
-title_en: "Cushion Words"
-title_zh: "緩衝語"
-jlpt_level: "N3"
-category: "keigo"
+stage: pending
 tags:
   - business-japanese
   - politeness
   - communication-skills
-related_cards:
-  - "[敬語の基本](../keigo/001_keigo_basics.md)"
-  - "[依頼の敬語](../keigo/003_request_keigo.md)"
-  - "[断りの敬語](../keigo/006_refusal_keigo.md)"
 created: 2025-12-22
 updated: 2025-12-22
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 13
+  pending: 0
+  verified_date: 2025-12-26
+---
 # クッション言葉
 
 ## 定義

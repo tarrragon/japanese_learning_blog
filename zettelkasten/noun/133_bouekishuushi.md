@@ -1,17 +1,36 @@
 ---
-id: 080_bouekishuushi
 title: 貿易収支
-category: noun
+jlpt: n2
+stage: pending
 tags:
   - domain/経済学
   - domain/商業
-jlpt: n2
-dictionary:
-  found: false
-  sources: {}
-  data: {}
----
+created: 2025-12-26
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: true
+  chinese: false
+  examples_count: 0
+  pending_links:
+    - "経常収支"
+    - "財政収支"
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 4
+  pending: 2
+  verified_date: 2025-12-26
+---
 # 貿易収支
 
 ## 基本情報

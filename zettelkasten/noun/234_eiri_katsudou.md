@@ -1,18 +1,34 @@
 ---
-id: noun-234
-aliases:
-  - 営利活動
-  - for-profit activities
+stage: pending
 tags:
   - 詞性-名詞
   - JLPT-N1
   - 主題-經濟學
   - 主題-商業
-category: noun
-source_article: articles/20250104_社團法人.md
 created: 2025-12-26
----
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 6
+  pending: 0
+  verified_date: 2025-12-26
+---
 # 営利活動（えいりかつどう）
 
 ## 日文解釋

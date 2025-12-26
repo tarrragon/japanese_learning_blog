@@ -1,20 +1,32 @@
 ---
-id: "078"
 title: "給与"
-category: "noun"
-jlpt_level: "n2"
-tags: ["domain/経済学"]
+stage: pending
+tags:
+  - "domain/経済学"
 created: "2025-12-22"
 updated: "2025-12-22"
-status: "draft"
-dictionary:
-  reading: "きゅうよ"
-  kanji: "給与"
-  pos: "名詞"
-  pos_details: "名"
-  definition_ja: "公務員や会社員の給料や賞与など，勤務に対する対価の総称。"
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 5
+  pending: 0
+  verified_date: 2025-12-26
+---
 # 給与（きゅうよ）
 
 ## 基本情報

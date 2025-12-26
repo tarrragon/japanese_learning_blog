@@ -2,20 +2,36 @@
 title: 商業 vs ビジネス
 description: 商業 vs ビジネス 詳細比較 - 和語漢語與外來語的語感差異
 type: contrast
-comparison_items: [noun/shougyou, noun/bijinesu]
 jlpt: n3
 stage: draft
-draft: false
-auto_generated: false
-needs_review: true
 tags:
   - domain/commerce
   - vocabulary_distinction
   - formality_levels
 created: 2025-11-03
 updated: 2025-11-03
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "draft"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 10
+  pending: 0
+  verified_date: 2025-12-26
+---
 ## 概述
 
 「商業」和「ビジネス」都表示「商業、生意」的意思，但在使用場合、語感和含義範圍上有明顯差異。「商業」源自漢語，較為正式、傳統，常用於法律、學術等正式場合；「ビジネス」源自英語 "business"，較為現代、國際化，廣泛用於商務交流和職場對話。理解兩者的區別，有助於在不同情境下選擇恰當的表達。

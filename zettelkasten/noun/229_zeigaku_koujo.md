@@ -1,17 +1,34 @@
 ---
-id: "229"
 title: "税額控除"
-japanese: "税額控除"
-romaji: "zeigaku koujo"
-category: "noun"
-tags: ["tax", "finance", "economics"]
-status: "active"
-source: "worklog-1.4.0"
-related_cards: []
-created_at: 2025-12-26
-updated_at: 2025-12-26
----
+stage: pending
+tags:
+  - "tax"
+  - "finance"
+  - "economics"
+created: 2025-12-26
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 0
+  pending: 0
+  verified_date: 2025-12-26
+---
 # 税額控除
 
 ## 基本資訊

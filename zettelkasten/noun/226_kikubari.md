@@ -1,25 +1,36 @@
 ---
-id: "226"
 title: "気配り（きくばり）"
-date: 2025-12-26
+description: "おもてなし - 熱情款待的精神"
+stage: pending
 tags:
   - 日本文化
   - 人間関係
   - 配慮
   - おもてなし
-category: noun
-related_cards:
-  - id: "225"
-    path: "../noun/225_omoiyari.md"
-    description: "思いやり - 體貼的內在動機"
-  - path: "待建立"
-    description: "配慮 - 正式場合的考慮"
-  - path: "待建立"
-    description: "心遣い - 細心的關注"
-  - path: "待建立"
-    description: "おもてなし - 熱情款待的精神"
----
+created: 2025-12-26
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 0
+  pending: 0
+  verified_date: 2025-12-26
+---
 # 気配り（きくばり）
 
 ## 基本資訊

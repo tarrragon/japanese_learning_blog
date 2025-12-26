@@ -3,10 +3,33 @@ title: "場所"
 description: "場所、地方、地點。指某個空間或位置，可以是具體的實體空間，也可以是抽象的情境或場合。日常生活中非常常"
 type: noun
 jlpt: n4
-tags: [noun]
-date: 2025-10-31
----
+stage: pending
+tags:
+  - noun
+created: 2025-10-31
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 0
+  pending: 0
+  verified_date: 2025-12-26
+---
 # 場所
 
 ## 基本資訊

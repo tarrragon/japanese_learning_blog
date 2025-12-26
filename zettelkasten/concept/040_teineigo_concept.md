@@ -2,20 +2,36 @@
 title: 丁寧語（ていねいご）
 description: 日文敬語系統中的丁寧語概念
 type: concept
-subtype: honorific_system
 jlpt: none
 stage: draft
-draft: false
-auto_generated: false
-needs_review: true
 tags:
   - context/formal
   - domain/linguistics
   - domain/communication
 created: 2025-10-31
 updated: 2025-10-31
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "draft"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 10
+  pending: 0
+  verified_date: 2025-12-26
+---
 ## 日文
 
 丁寧語（ていねいご）

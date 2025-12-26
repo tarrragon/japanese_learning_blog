@@ -1,20 +1,36 @@
 ---
-id: comparison-001
 title: "すみません vs ごめんなさい"
-date: 2025-12-22
+jlpt: n5
+stage: pending
 tags:
   - 比較
   - 禮貌
   - 道歉
   - 日常會話
-jlpt: n5
-aliases:
-  - excuse me vs sorry
-  - 對不起的表達
-related:
-  - zettelkasten/comparison/007_shitsureishimasu_vs_sumimasen.md
----
+created: 2025-12-22
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 0
+  pending: 0
+  verified_date: 2025-12-26
+---
 ## すみません vs ごめんなさい
 
 ### 日本語

@@ -4,17 +4,34 @@ description: 財務人員、財務專業人士，指負責企業或組織財務�
 type: noun
 jlpt: n1
 stage: draft
-draft: false
-auto_generated: false
-needs_review: true
 tags:
   - context/business
   - context/formal
   - occupation
 created: 2025-12-26
 updated: 2025-12-26
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "draft"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 10
+  pending: 0
+  verified_date: 2025-12-26
+---
 ## 日文
 
 財務人員（ざいむじんいん）

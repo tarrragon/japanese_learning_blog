@@ -1,16 +1,32 @@
 ---
-id: v-irr-015
 title: "する"
 type: verb
-subtype: irregular
 jlpt: n5
-kanji: "為る"
-related_tags:
-  - サ変動詞
-  - 不規則動詞
 stage: draft
----
+created: 2025-12-26
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "draft"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: false
+  chinese: false
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 0
+  pending: 0
+  verified_date: 2025-12-26
+---
 # する（為る）
 
 ## 解釋

@@ -2,14 +2,35 @@
 title: "それで"
 description: 因此、所以
 type: conjunction
-subtype: conjunctive_adverb
 jlpt: n4
 stage: extension-review
-draft: false
-auto_generated: true
-needs_review: false
-tags: [consequence, logical_connection, formal]
+tags:
+  - consequence
+  - logical_connection
+  - formal
 created: 2025-10-31
+updated: 2025-12-26
+
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "extension-review"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 7
+  pending: 0
+  verified_date: 2025-12-26
 ---
 ## 日文
 それで（sorede）

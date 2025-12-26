@@ -1,21 +1,34 @@
 ---
-id: 063
 title: 不規則動詞（ふきそくどうし）
-japanese: 不規則動詞
-category: concept
+stage: pending
 tags:
   - verb-conjugation
   - grammar-basics
   - irregular-patterns
-difficulty: 3
-related_cards:
-  - "[godan_verbs](../concept/003_godan_verbs.md)"
-  - "[ichidan_verbs](../concept/004_ichidan_verbs.md)"
-  - "[来る](../verb/001_come.md)"
-  - "[する](../verb/002_do.md)"
-last_update: 2025-12-26
----
+created: 2025-12-26
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 9
+  pending: 0
+  verified_date: 2025-12-26
+---
 ## 日本語
 
 日本語の不規則動詞は、五段動詞・一段動詞の規則的な活用パターンに従わない動詞である。標準的な不規則動詞は「来る（くる）」と「する」の二つのみである。これらは独自の活用形を持ち、学習者は個別に覚える必要がある。

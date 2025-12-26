@@ -1,11 +1,40 @@
 ---
-id: "040"
-aliases: ["いらっしゃる・参る", "尊敬語vs謙讓語移動動詞"]
-tags: ["comparison", "keigo", "movement-verbs", "sonkeigo", "kenjougo"]
-source: "extension-cards-1.4.0"
-context: "敬語系統中移動動詞的對比"
----
+stage: pending
+tags:
+  - "comparison"
+  - "keigo"
+  - "movement-verbs"
+  - "sonkeigo"
+  - "kenjougo"
+created: 2025-12-26
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: false
+  chinese: false
+  examples_count: 0
+  pending_links:
+    - "おっしゃる・申す"
+    - "召し上がる・いただく"
+    - "尊敬語概念"
+    - "謙讓語概念"
+    - "ウチ・ソト理論"
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 2
+  pending: 8
+  verified_date: 2025-12-26
+---
 # いらっしゃる vs 参る
 
 ## 概要

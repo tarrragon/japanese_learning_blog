@@ -2,21 +2,37 @@
 title: 學習動詞系統
 description: 勉強する/学ぶ/習う/研究する 詳細比較 - 日語學習動詞的細微差異
 type: comparison
-comparison_items: [verb-suru/benkyou_suru, verb-ru/manabu, verb-u/narau, verb-suru/kenkyuu_suru]
 jlpt: n4
 stage: draft
-draft: false
-auto_generated: false
-needs_review: false
 tags:
   - comparison
   - verb
   - n4
   - learning
-date: 2025-12-22
+created: 2025-12-22
 updated: 2025-12-22
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "draft"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 6
+  pending: 0
+  verified_date: 2025-12-26
+---
 ## 概述
 
 日語中表達「學習」概念的動詞有多個，每個都有其獨特的語義焦點和使用場景。本卡片比較四個最常用的學習動詞：勉強する、学ぶ、習う、研究する，幫助學習者理解它們之間的細微差異。

@@ -1,10 +1,38 @@
 ---
 title: "時間の長さと継続"
-date: 2025-12-26
-tags: [時間表現, 助詞, 副詞, 継続性]
-aliases: [時間的長さ, 時間の継続, 時間表現]
----
+stage: pending
+tags:
+  - 時間表現
+  - 助詞
+  - 副詞
+  - 継続性
+created: 2025-12-26
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links:
+    - "時間副詞的用法"
+    - "補助動詞しまう的用法"
+    - "助詞から和まで的用法"
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 3
+  pending: 3
+  verified_date: 2025-12-26
+---
 ## 中文解釋
 
 時間的長度與持續性表達方式，包含時間長短的描述和動作持續狀態的表現方法。

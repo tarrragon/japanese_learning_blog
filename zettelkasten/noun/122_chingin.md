@@ -1,16 +1,32 @@
 ---
-id: "079"
 title: "賃金"
-title_en: "wages"
-title_zh: "工資"
-category: "noun"
-jlpt_level: "n2"
+stage: pending
 tags:
   - "domain/経済学"
-last_updated: "2025-12-22"
-related_cards: []
----
+created: 2025-12-26
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 0
+  pending: 0
+  verified_date: 2025-12-26
+---
 # 賃金（ちんぎん）
 
 ## 核心釋義

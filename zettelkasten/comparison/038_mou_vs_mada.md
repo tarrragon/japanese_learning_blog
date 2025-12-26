@@ -1,25 +1,35 @@
 ---
-id: comparison-022
 title: "もう vs まだ - 時間副詞比較"
-japanese: "もう vs まだ"
-english: "already/anymore vs still/yet"
-traditional_chinese: "已經 vs 還"
-category: comparison
-jlpt_level: n5
+stage: pending
 tags:
   - adverb
   - time-expression
   - state-change
   - negation
-related_cards:
-  - adverb/008_mou.md
-  - adverb/010_mada.md
-  - comparison/011_mada_vs_madamada.md
-  - grammar/015_mada_te_inai.md
 created: 2025-12-22
 updated: 2025-12-22
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: true
+  chinese: false
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 3
+  pending: 0
+  verified_date: 2025-12-26
+---
 ## 日本語での説明
 
 **もう**と**まだ**は時間的な対立概念を表す副詞で、状態の変化と継続を区別する重要な表現である。

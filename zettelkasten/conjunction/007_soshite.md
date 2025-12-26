@@ -2,20 +2,36 @@
 title: そして
 description: そして - 順序連接詞、添加資訊
 type: conjunction
-subtype: sequential
 jlpt: n5
 stage: extension-review
-draft: false
-auto_generated: true
-needs_review: false
 tags:
   - sequential
   - addition
   - narrative
 created: 2025-10-31
-related_to: []
----
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "extension-review"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 9
+  pending: 0
+  verified_date: 2025-12-26
+---
 ## 日文
 そして（soshite）
 

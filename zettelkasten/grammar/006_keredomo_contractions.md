@@ -1,24 +1,36 @@
 ---
-id: grammar-003
 title: けれども縮約形
-japanese: けれども縮約形
-chinese: けど/けれど
-english: Contractions of keredomo
-category: grammar
 jlpt: n4
+stage: pending
 tags:
   - 接続詞
   - 縮約形
   - 語域
   - 話題転換
-related_cards:
-  - "[逆接の接続詞](../concept/016_conjunctions.md)"
-  - "[話し言葉と書き言葉](../concept/014_spoken_vs_written.md)"
-  - "[敬体と常体](../concept/009_formal_vs_casual.md)"
 created: 2025-12-22
 updated: 2025-12-22
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: false
+  chinese: false
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 7
+  pending: 0
+  verified_date: 2025-12-26
+---
 # けれども縮約形
 
 ## 概要

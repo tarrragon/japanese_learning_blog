@@ -1,26 +1,33 @@
 ---
-card_id: concept-068
-title_ja: 時間順序
-title_en: Temporal Sequence
-title_zh: 時間順序
-category: concept
+stage: pending
 tags:
   - 文法
   - 時間表現
   - 前後關係
 created: 2025-12-26
 updated: 2025-12-26
-aliases:
-  - temporal sequence
-  - chronological order
-  - 時間の順序
-related_cards:
-  - 066_time_expressions
-  - 待建立
-  - 待建立
-difficulty: 1
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 1
+  pending: 0
+  verified_date: 2025-12-26
+---
 # 時間順序（Temporal Sequence）
 
 ## 概念說明

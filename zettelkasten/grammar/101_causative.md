@@ -2,12 +2,8 @@
 title: "使役形（しえきけい）"
 description: 使役形 - 表示讓某人做某事或給予許可的文法形式
 type: grammar
-subtype: conjugation
 jlpt: n4
 stage: draft
-draft: false
-auto_generated: false
-needs_review: true
 tags:
   - causative
   - verb_conjugation
@@ -15,8 +11,28 @@ tags:
   - grammar_pattern
 created: 2025-10-31
 updated: 2025-10-31
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "draft"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 9
+  pending: 0
+  verified_date: 2025-12-26
+---
 ## 日文
 
 使役形（しえきけい）

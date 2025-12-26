@@ -2,12 +2,8 @@
 title: "ある/いる（存在表達）"
 description: 存在表達 - ある/いる的基本句型與用法
 type: grammar
-subtype: existence_pattern
 jlpt: n5
 stage: draft
-draft: false
-auto_generated: false
-needs_review: true
 tags:
   - existence
   - basic
@@ -15,8 +11,28 @@ tags:
   - jlpt/n5
 created: 2025-10-31
 updated: 2025-10-31
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "draft"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 13
+  pending: 0
+  verified_date: 2025-12-26
+---
 ## 日文
 
 **ある/いる**（存在表達）

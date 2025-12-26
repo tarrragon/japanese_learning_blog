@@ -1,18 +1,38 @@
 ---
 title: 接続詞の語域（せつぞくしのごいき）
 description: 口語到正式的層次
+stage: pending
 tags:
   - register/formality
   - context/conjunction
   - jlpt/n4
-date: 2025-12-22
-links:
-  でも: ../conjunction/002_demo.md
-  しかし: ../conjunction/006_shikashi.md
-  けど: 待建立
-  しかしながら: 待建立
----
+created: 2025-12-22
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 5
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 1
+  pending: 0
+  verified_date: 2025-12-26
+
+# 連結
+links:
+---
 ## 日文
 接続詞の語域（せつぞくしのごいき）
 

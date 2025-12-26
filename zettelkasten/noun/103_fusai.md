@@ -1,17 +1,35 @@
 ---
-id: "077"
 title: "負債"
-title_en: "fusai"
-category: "noun"
-jlpt_level: "n2"
+stage: pending
 tags:
   - "domain/経済学"
   - "domain/金融"
-timestamp: "2025-12-22T00:00:00+08:00"
-status: "draft"
-dictionary: null
----
+created: 2025-12-26
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links:
+    - "貸借対照表"
+    - "債務"
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 1
+  pending: 2
+  verified_date: 2025-12-26
+---
 # 負債（ふさい）
 
 ## 解釋

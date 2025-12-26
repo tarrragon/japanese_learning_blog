@@ -1,18 +1,38 @@
 ---
-id: n229
-japanese: 信用
-romaji: shinyou
-category: noun
+stage: draft
 tags:
   - concept
   - business
   - society
   - trust
-progress:
-  stage: draft
-  version: "1.4.0"
----
+created: 2025-12-26
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "draft"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: false
+  chinese: false
+  examples_count: 0
+  pending_links:
+    - "信頼"
+    - "評判"
+    - "約束"
+    - "取引"
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 0
+  pending: 4
+  verified_date: 2025-12-26
+---
 # 信用（しんよう）
 
 ## 解釋

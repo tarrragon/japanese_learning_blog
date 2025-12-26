@@ -1,16 +1,39 @@
 ---
-id: "166"
 title: "不定代詞"
-kanji: "不定代名詞"
-kana: "ふていだいめいし"
-category: "grammar"
-tags: ["代詞", "疑問詞", "文法", "基礎語法"]
+stage: pending
+tags:
+  - "代詞"
+  - "疑問詞"
+  - "文法"
+  - "基礎語法"
 created: 2025-12-26
 updated: 2025-12-26
-status: "draft"
-priority: "Low"
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: false
+  chinese: true
+  examples_count: 0
+  pending_links:
+    - "疑問詞"
+    - "助詞「か」"
+    - "助詞「も」"
+    - "否定表現"
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 0
+  pending: 4
+  verified_date: 2025-12-26
+---
 # 不定代詞（不定代名詞）
 
 ## 定義

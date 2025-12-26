@@ -4,17 +4,34 @@ description: "稅務申報"
 type: noun
 jlpt: n1
 stage: draft
-draft: true
-auto_generated: false
-needs_review: true
 tags:
   - business
   - legal
   - finance
 created: 2025-12-26
 updated: 2025-12-26
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "draft"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 0
+  pending: 0
+  verified_date: 2025-12-26
+---
 税務申告（ぜいむしんこく）は、納税者が税務当局に所得や財産などの情報を報告し、納めるべき税額を確定する手続きです。
 
 <!--more-->

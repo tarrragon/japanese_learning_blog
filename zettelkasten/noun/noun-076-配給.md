@@ -1,15 +1,34 @@
 ---
-id: noun-076
 title: 配給
-reading: はいきゅう
-part_of_speech: noun
+stage: pending
 tags:
   - domain/経済学
   - action/distribution
   - concept/rationing
 created: 2025-12-23
----
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 4
+  pending: 0
+  verified_date: 2025-12-26
+---
 # 配給（はいきゅう）
 
 ## 中文解釋

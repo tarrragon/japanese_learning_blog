@@ -1,14 +1,35 @@
 ---
-id: noun-081
-category: noun
-japanese: 経済成長率
-reading: けいざいせいちょうりつ
 jlpt: n1
+stage: pending
 tags:
   - domain/経済学
-dictionary: null
----
+created: 2025-12-26
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links:
+    - "GDP"
+    - "実質成長率"
+    - "名目成長率"
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 3
+  pending: 3
+  verified_date: 2025-12-26
+---
 # 経済成長率
 
 ## 日文解釋

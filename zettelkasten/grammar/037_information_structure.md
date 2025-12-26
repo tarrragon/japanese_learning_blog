@@ -2,7 +2,6 @@
 title: 情報構造
 description: 資訊結構理論 - 舊資訊與新資訊的標記系統
 type: grammar
-subtype: linguistic_theory
 jlpt: n2
 stage: completed
 tags:
@@ -12,8 +11,28 @@ tags:
   - context/academic
 created: 2025-10-30
 updated: 2025-10-30
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "completed"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 13
+  pending: 0
+  verified_date: 2025-12-26
+---
 ## 日文
 情報構造（じょうほうこうぞう）
 

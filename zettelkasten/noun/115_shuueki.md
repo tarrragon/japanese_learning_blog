@@ -1,24 +1,35 @@
 ---
-id: 58
-category: noun
-number: "078"
-filename: 078_shuueki.md
 title: 収益
-japanese: 収益
-romaji: shuueki
-hiragana: しゅうえき
-chinese: 收益
-english: revenue, income, earnings
 jlpt: n2
+stage: pending
 tags:
   - domain/経済学
   - domain/商業
-status: draft
 created: 2025-12-22
-last_reviewed: 2025-12-22
-dictionary: {}
----
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links:
+    - "費用"
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 3
+  pending: 1
+  verified_date: 2025-12-26
+---
 # 収益
 
 ## 日文解釋

@@ -1,17 +1,32 @@
 ---
-id: "082"
 title: "給与所得"
-japanese: "給与所得"
-reading: "きゅうよしょとく"
-category: "noun"
-jlpt_level: "n2"
-related_cards:
-  - "待建立"
-dictionary: {}
+stage: pending
 tags:
   - "domain/経済学"
----
+created: 2025-12-26
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 0
+  pending: 0
+  verified_date: 2025-12-26
+---
 # 給与所得
 
 ## 日文解釋（Japanese Explanation）

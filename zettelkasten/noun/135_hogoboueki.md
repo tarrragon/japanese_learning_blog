@@ -1,23 +1,35 @@
 ---
-id: "080"
 title: "保護貿易"
-kana: "ほごぼうえき"
-english: "protectionism, protective trade"
-chinese: "保護貿易"
 type: "noun"
-category: "noun"
 jlpt: "n2"
-tags: ["domain/経済学", "domain/商業"]
-dictionary:
-  query: "保護貿易"
-  found: false
-  sources:
-    daijirin: false
-    waei: false
-  data: {}
-related_cards: []
----
+stage: pending
+tags:
+  - "domain/経済学"
+  - "domain/商業"
+created: 2025-12-26
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 0
+  pending: 0
+  verified_date: 2025-12-26
+---
 ## 日文解釋
 
 自国の産業を外国からの競争から守るために、輸入品に関税をかけたり、輸入量を制限したりする貿易政策。自由貿易の対義語として用いられる。国内産業の保護や雇用の確保を目的とするが、貿易相手国との関係悪化や消費者の選択肢減少などの問題も伴う。

@@ -1,14 +1,37 @@
 ---
-japanese: 課税
-romaji: kazei
-chinese: 課稅
-english: taxation
 jlpt: n2
+stage: pending
 tags:
   - domain/経済学
   - concept/fiscal-policy
----
+created: 2025-12-26
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links:
+    - "税金"
+    - "所得税"
+    - "消費税"
+    - "財政政策"
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 1
+  pending: 4
+  verified_date: 2025-12-26
+---
 # 課税（かぜい）
 
 ## 日文解釋

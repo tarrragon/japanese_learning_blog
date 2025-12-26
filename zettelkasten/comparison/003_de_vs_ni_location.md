@@ -2,21 +2,37 @@
 title: で vs に
 description: で vs に 場所用法比較 - 動作場所 vs 存在場所/目的地
 type: comparison
-comparison_items: [particle/de, particle/ni]
 jlpt: n5
 stage: draft
-draft: false
-auto_generated: false
-needs_review: true
 tags:
   - comparison
   - particle
   - n5
   - location
-date: 2025-10-29
+created: 2025-10-29
 updated: 2025-10-29
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "draft"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 10
+  pending: 0
+  verified_date: 2025-12-26
+---
 ## 概述
 
 「で」和「に」在表示場所時的區別是 N5 學習者最常遇到的困惑之一。核心區別在於：**「で」表示動作發生的場所，「に」表示存在的場所或移動的目的地**。理解這個區別對於正確使用日語場所表達至關重要。

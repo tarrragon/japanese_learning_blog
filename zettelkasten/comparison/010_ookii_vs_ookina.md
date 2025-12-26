@@ -1,8 +1,6 @@
 ---
-card_id: comparison_005
 title: "大きい vs 大きな"
-category: comparison
-jlpt_level: n5
+stage: pending
 tags:
   - i-adjective
   - na-adjective
@@ -11,24 +9,31 @@ tags:
   - grammar
 created: 2025-12-22
 updated: 2025-12-22
-related_cards:
-  - adjective-i/ookii
-  - adjective-na/ookina
-  - grammar/adjective_types
-status: active
-dictionary:
-  ookii:
-    reading: "おおきい"
-    kanji: "大きい"
-    pos: "形容詞"
-    definition_ja: "（物の形の）容積・面積・身長などが他のものより上回っている。"
-  ookina:
-    reading: "おおきな"
-    kanji: "大きな"
-    pos: "形動"
-    definition_ja: "大きい。"
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links:
+    - "イ形容詞總覽"
+    - "連体詞的用法"
+    - "形容詞的活用"
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 2
+  pending: 3
+  verified_date: 2025-12-26
+---
 # 大きい vs 大きな
 
 ## 基本資訊

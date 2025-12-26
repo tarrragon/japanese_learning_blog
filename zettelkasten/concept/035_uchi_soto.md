@@ -2,12 +2,8 @@
 title: 内・外（うち・そと）
 description: 內外群體概念 - 日本社會的內外意識與人際關係
 type: concept
-subtype: social_cognition
 jlpt: concept
 stage: draft
-draft: false
-auto_generated: false
-needs_review: true
 tags:
   - domain/cognition
   - domain/communication
@@ -15,8 +11,28 @@ tags:
   - context/business
 created: 2025-10-31
 updated: 2025-10-31
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "draft"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 14
+  pending: 0
+  verified_date: 2025-12-26
+---
 ## 日文
 
 内・外（うち・そと）

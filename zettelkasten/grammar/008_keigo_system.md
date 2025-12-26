@@ -2,19 +2,38 @@
 title: "敬語システム"
 description: 敬語系統 - 日語的尊敬、謙讓、丁寧語三大系統
 type: grammar
-subtype: pragmatics
 jlpt: n4
 stage: completed
-tags: [grammar, keigo, honorific, pragmatics, social]
+tags:
+  - grammar
+  - keigo
+  - honorific
+  - pragmatics
+  - social
 created: 2025-10-28
 updated: 2025-10-28
-related_to:
-  - ../honorific/001_meshiagaru_itadaku.md
-  - ../verb-ru/001_taberu.md
-  - 003_ichidan_verb.md
-  - 006_godan_verb.md
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "completed"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 4
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 26
+  pending: 0
+  verified_date: 2025-12-26
+---
 ## 日文
 敬語（けいご）システム
 

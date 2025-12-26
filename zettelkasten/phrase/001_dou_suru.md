@@ -4,16 +4,37 @@ description: どうする - 怎麼做、怎麼辦（詢問處理方式或計劃�
 type: phrase
 jlpt: n5
 stage: completed
-draft: false
-auto_generated: false
-needs_review: false
-tags: [phrase, jlpt/n5, question, casual, daily_life, context/casual]
+tags:
+  - phrase
+  - jlpt/n5
+  - question
+  - casual
+  - daily_life
+  - context/casual
 created: 2025-10-30
 updated: 2025-10-30
-base_card: verb-irr/001_suru
-related_phrases: [dou_shiyou, dou_shimasu_ka, kou_suru, sou_suru]
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "completed"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 13
+  pending: 0
+  verified_date: 2025-12-26
+---
 ## 日文
 
 どうする

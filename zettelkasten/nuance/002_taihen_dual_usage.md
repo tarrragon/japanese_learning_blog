@@ -1,24 +1,41 @@
 ---
-id: nuance-002
 title: "大変的雙重用法"
-japanese: "大変の二つの使い方"
-category: nuance
+jlpt: n4
+stage: pending
 tags:
   - 副詞
   - な形容詞
   - 程度表現
   - 多義語
-jlpt: n4
-difficulty: intermediate
-related_grammar:
-  - とても
-  - すごく
-  - 大きな
-  - 小さな
 created: 2025-12-22
 updated: 2025-12-22
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links:
+    - "とても vs すごく vs 大変（程度副詞比較）"
+    - "大きな vs 大きい（連體詞 vs い形容詞）"
+    - "副詞的種類和用法"
+    - "日文的程度表現"
+    - "困難・問題的表達方式"
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 1
+  pending: 5
+  verified_date: 2025-12-26
+---
 ## 卡片內容
 
 ### 日文解釋

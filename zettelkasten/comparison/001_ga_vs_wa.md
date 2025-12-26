@@ -2,21 +2,37 @@
 title: が vs は
 description: が vs は 詳細比較 - 日語學習最大難點
 type: comparison
-comparison_items: [particle/ga, particle/wa]
 jlpt: n5
 stage: draft
-draft: false
-auto_generated: false
-needs_review: true
 tags:
   - comparison
   - particle
   - n5
   - grammar_core
-date: 2025-10-29
+created: 2025-10-29
 updated: 2025-10-29
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "draft"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 5
+  pending: 0
+  verified_date: 2025-12-26
+---
 ## 概述
 
 「が」和「は」的區別是日語學習者公認的最大難點之一。這兩個助詞在某些情境下可以互換，但在大多數情況下有著明確的語義和語用差異。本卡片將詳細比較這兩個助詞的核心區別、使用情境和常見陷阱。

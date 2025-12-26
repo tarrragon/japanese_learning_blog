@@ -2,20 +2,37 @@
 title: たら
 description: たら - 條件、假設（如果...的話）
 type: grammar
-grammar_type: conditional_form
 jlpt: n4
 stage: completed
-tags: [conditional, hypothesis, grammar_pattern, basic]
+tags:
+  - conditional
+  - hypothesis
+  - grammar_pattern
+  - basic
 created: 2025-10-30
 updated: 2025-10-30
-applies_to: [verb, adj-i, adj-na, noun]
-related_grammar: [to_conditional, ba_form, nara]
-draft: false
-auto_generated: true
-needs_review: false
-completed: 2025-10-30
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "completed"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 8
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 8
+  pending: 0
+  verified_date: 2025-12-26
+---
 ## 日文
 
 **たら条件形**（たらじょうけんけい）

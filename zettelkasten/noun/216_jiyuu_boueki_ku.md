@@ -4,16 +4,33 @@ description: 自由貿易區，實施特殊貿易政策的經濟特區
 type: noun
 jlpt: none
 stage: pending
-draft: true
-auto_generated: false
-needs_review: true
 tags:
   - domain/経済学
   - domain/貿易
 created: 2025-12-23
 updated: 2025-12-23
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 5
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 0
+  pending: 0
+  verified_date: 2025-12-26
+---
 指在特定區域內實施關稅減免、簡化通關手續等優惠政策，以促進國際貿易和經濟發展的經濟特區。
 
 <!--more-->

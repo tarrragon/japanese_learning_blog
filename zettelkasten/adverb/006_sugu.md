@@ -4,27 +4,34 @@ description: 馬上、立刻、很快
 type: adverb
 jlpt: n5
 stage: pending
-draft: false
-auto_generated: false
-needs_review: true
 tags:
   - adverb
   - time
   - jlpt/n5
-dictionary:
-  sources:
-    daijirin: true
-    waei: false
-  reading: "すぐ"
-  pos: "副詞"
-  pos_details: "副"
-  definition_ja: "時間をおかずに。即座に。たちまち。"
-  definition_en: null
-  lookup_date: 2025-12-22
 created: 2025-12-18
 updated: 2025-12-22
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 4
+  pending: 0
+  verified_date: 2025-12-26
+---
 ## 日文
 すぐ
 

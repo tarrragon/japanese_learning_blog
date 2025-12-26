@@ -1,14 +1,36 @@
 ---
 title: "起こす（おこす）"
-date: 2025-12-24
 type: verb
 jlpt: n4
+stage: pending
 tags:
   - 五段動詞
   - 他動詞
   - u-verb
----
+created: 2025-12-24
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 5
+  pending: 0
+  verified_date: 2025-12-26
+---
 # 起こす（おこす）
 
 ## 中文解釋

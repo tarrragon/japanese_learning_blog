@@ -1,23 +1,34 @@
 ---
-id: noun_079
-category: noun
 title: 関税
-reading: かんぜい
-roma: kanzei
-main_tags:
-  - domain/経済学
-  - domain/商業
-sub_tags:
-  - jlpt/n2
-semantic_tags:
-  - 貿易
-  - 税金
-  - 政策
-study_progress: 0
-created_date: 2025-12-22
-source: system-extension
----
+stage: pending
+created: 2025-12-26
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links:
+    - "税関"
+    - "輸入税"
+    - "保護主義"
+    - "自由貿易協定"
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 3
+  pending: 4
+  verified_date: 2025-12-26
+---
 # 関税
 
 ## 三語解釋

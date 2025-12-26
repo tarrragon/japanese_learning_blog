@@ -3,10 +3,35 @@ title: "〜てあげる"
 description: "表示為某人做某事的授受表達"
 type: grammar
 jlpt: n4
-tags: [grammar, giving_receiving, te_form]
-date: 2025-10-31
----
+stage: pending
+tags:
+  - grammar
+  - giving_receiving
+  - te_form
+created: 2025-10-31
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 0
+  pending: 0
+  verified_date: 2025-12-26
+---
 ## 說明
 
 ### 日文解釋

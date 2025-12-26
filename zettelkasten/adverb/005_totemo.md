@@ -4,27 +4,34 @@ description: 非常、很、十分
 type: adverb
 jlpt: n5
 stage: pending
-draft: false
-auto_generated: false
-needs_review: true
 tags:
   - adverb
   - degree
   - jlpt/n5
-dictionary:
-  sources:
-    daijirin: true
-    waei: false
-  reading: "とても"
-  pos: "副詞"
-  pos_details: "連語"
-  definition_ja: "程度が非常に高いさま。"
-  definition_en: null
-  lookup_date: 2025-12-22
 created: 2025-12-18
 updated: 2025-12-22
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 7
+  pending: 0
+  verified_date: 2025-12-26
+---
 ## 日文
 とても
 

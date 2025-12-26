@@ -1,18 +1,39 @@
 ---
 title: 上がる的多義性與特殊用法
 description: 「上がる」的多種含義 - 上升、緊張、完成、進屋等
+stage: pending
 tags:
   - context
   - nuance
   - jlpt/n3
   - jlpt/n2
-date: 2025-10-28
-links:
-  上がる基本卡片: ../verb-u/001_agaru.md
-extension_of: ../verb-u/001_agaru.md
-extension_type: nuance
----
+created: 2025-10-28
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 5
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 0
+  pending: 0
+  verified_date: 2025-12-26
+
+# 連結
+links:
+---
 ## 日文
 上がる（あがる）の多義性
 

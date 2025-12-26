@@ -1,14 +1,34 @@
 ---
-japanese: 国際収支
-reading: こくさいしゅうし
-romanization: kokusaishuushi
-category: noun
-jlpt_level: n2
+stage: pending
 tags:
   - domain/経済学
-dictionary: {}
----
+created: 2025-12-26
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links:
+    - "経常収支"
+    - "資本収支"
+    - "外貨準備"
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 2
+  pending: 3
+  verified_date: 2025-12-26
+---
 # 国際収支（こくさいしゅうし）
 
 ## 中文解釋

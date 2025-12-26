@@ -3,10 +3,35 @@ title: "差し上げる"
 description: "謙讓語動詞，為他人做某事的禮貌表達"
 type: verb-ru
 jlpt: n4
-tags: [verb-ru, honorific, giving_receiving]
-date: 2025-10-31
----
+stage: pending
+tags:
+  - verb-ru
+  - honorific
+  - giving_receiving
+created: 2025-10-31
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: false
+  chinese: false
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 0
+  pending: 0
+  verified_date: 2025-12-26
+---
 ## 例句
 
 ### 例句 1

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Get Pending Cards Script
-讀取待辦卡片清單（用於建立 Todo 任務）
+讀取待辦卡片清單（用於建立 Todo 任務）- v1.5.0 支援 YAML 回退
 
 Usage:
     # 文字格式（預設）
@@ -13,6 +13,9 @@ Usage:
     # 篩選特定分類
     uv run scripts/get_pending_cards.py --category noun --stage pending --limit 20
 
+    # 從 YAML 掃描（v1.5.0 新增）
+    uv run scripts/get_pending_cards.py --stage pending --from-yaml
+
     # 複合篩選
     uv run scripts/get_pending_cards.py \
         --stage pending \
@@ -21,35 +24,104 @@ Usage:
         --jlpt n5 \
         --limit 5 \
         --format json
+
+v1.5.0 變更：
+    - 新增 --from-yaml 選項，直接從卡片 YAML 讀取 stage
+    - 當 CSV 不可用時自動回退到 YAML 掃描
 """
 
 import csv
 import json
 import argparse
 import sys
+import re
 from pathlib import Path
 from typing import List, Dict, Optional
 
 from csv_config import get_default_csv_path
 
+# 專案根目錄
+PROJECT_ROOT = Path(__file__).parent.parent
+ZETTELKASTEN_DIR = PROJECT_ROOT / "zettelkasten"
+EXCLUDE_DIRS = {"_meta", ".DS_Store"}
+
 class PendingCardReader:
-    """讀取待辦卡片清單"""
+    """讀取待辦卡片清單（支援 CSV 和 YAML 雙來源）"""
 
-    def __init__(self, csv_path: str):
-        self.csv_path = Path(csv_path)
+    def __init__(self, csv_path: str = None, from_yaml: bool = False):
+        self.csv_path = Path(csv_path) if csv_path else None
         self.cards = []
+        self.from_yaml = from_yaml
 
-        if not self.csv_path.exists():
-            print(f"❌ CSV 檔案不存在: {csv_path}", file=sys.stderr)
-            sys.exit(1)
-
-        self.load_cards()
+        if from_yaml:
+            self.load_cards_from_yaml()
+        elif self.csv_path and self.csv_path.exists():
+            self.load_cards()
+        else:
+            print(f"⚠️ CSV 不可用，自動切換到 YAML 掃描模式", file=sys.stderr)
+            self.from_yaml = True
+            self.load_cards_from_yaml()
 
     def load_cards(self):
         """載入 CSV 檔案"""
         with open(self.csv_path, 'r', encoding='utf-8') as f:
             reader = csv.DictReader(f)
             self.cards = list(reader)
+
+    def parse_yaml_frontmatter(self, content: str) -> dict:
+        """解析 YAML frontmatter"""
+        yaml_match = re.search(r'^---\s*\n(.*?)\n---\s*\n', content, re.DOTALL)
+        if not yaml_match:
+            return {}
+
+        yaml_content = yaml_match.group(1)
+        data = {}
+
+        for line in yaml_content.split("\n"):
+            if ":" in line and not line.startswith("-") and not line.startswith(" "):
+                parts = line.split(":", 1)
+                key = parts[0].strip()
+                value = parts[1].strip() if len(parts) > 1 else ""
+                data[key] = value
+
+        return data
+
+    def load_cards_from_yaml(self):
+        """從 YAML frontmatter 掃描卡片"""
+        if not ZETTELKASTEN_DIR.exists():
+            return
+
+        card_id = 0
+        for category_dir in sorted(ZETTELKASTEN_DIR.iterdir()):
+            if not category_dir.is_dir() or category_dir.name in EXCLUDE_DIRS:
+                continue
+
+            for card_file in sorted(category_dir.iterdir()):
+                if not card_file.is_file() or card_file.suffix != ".md":
+                    continue
+                if card_file.name in ["index.md", "_index.md"]:
+                    continue
+
+                try:
+                    content = card_file.read_text(encoding="utf-8")
+                    yaml_data = self.parse_yaml_frontmatter(content)
+
+                    card_id += 1
+                    card = {
+                        'id': str(card_id),
+                        'category': category_dir.name,
+                        'path': str(card_file.relative_to(PROJECT_ROOT)),
+                        'japanese': yaml_data.get('title', card_file.stem),
+                        'chinese': yaml_data.get('description', ''),
+                        'stage': yaml_data.get('stage', 'pending'),
+                        'jlpt': yaml_data.get('jlpt', ''),
+                        'priority': '',  # YAML 中可能沒有此欄位
+                        'number': card_file.stem.split('_')[0] if '_' in card_file.stem else '',
+                    }
+                    self.cards.append(card)
+
+                except Exception as e:
+                    print(f"⚠️ 無法解析 {card_file}: {e}", file=sys.stderr)
 
     def filter_cards(self,
                     stage: Optional[str] = None,
@@ -164,9 +236,11 @@ class PendingCardReader:
             return self.format_text(cards)
 
 def main():
-    parser = argparse.ArgumentParser(description='讀取待辦卡片清單')
+    parser = argparse.ArgumentParser(description='讀取待辦卡片清單（v1.5.0 支援 YAML）')
     parser.add_argument('--csv', default=get_default_csv_path(),
                        help='CSV 檔案路徑（預設: 自動偵測最新版本）')
+    parser.add_argument('--from-yaml', action='store_true',
+                       help='從 YAML frontmatter 掃描卡片（v1.5.0 新增）')
 
     # 篩選條件
     parser.add_argument('--stage', help='篩選階段（pending, draft, extension-review, linking, completed）')
@@ -183,7 +257,10 @@ def main():
     args = parser.parse_args()
 
     # 建立讀取器
-    reader = PendingCardReader(args.csv)
+    reader = PendingCardReader(
+        csv_path=args.csv,
+        from_yaml=getattr(args, 'from_yaml', False)
+    )
 
     # 取得並輸出卡片清單
     output = reader.get_cards(

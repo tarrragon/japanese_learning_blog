@@ -1,23 +1,37 @@
 ---
-id: "232"
 title: "帳簿"
-title_en: "Ledger / Account Book"
-title_zh: "帳簿"
-keywords:
-  - "帳簿"
-  - "ちょうぼ"
-category: "noun"
+stage: pending
 tags:
   - "business"
   - "accounting"
   - "formal"
 created: 2025-12-26
 updated: 2025-12-26
-related_cards: []
-difficulty: 1
-progress: 0
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: false
+  chinese: false
+  examples_count: 0
+  pending_links:
+    - "會計系統"
+    - "稅務申報"
+    - "監查"
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 0
+  pending: 3
+  verified_date: 2025-12-26
+---
 # 帳簿（ちょうぼ）
 
 ## 基本資訊

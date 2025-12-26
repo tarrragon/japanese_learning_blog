@@ -2,20 +2,36 @@
 title: "格框架（かくわくぐみ）"
 description: "描述動詞所需格助詞與語意角色的結構框架"
 type: concept
-subtype: linguistics
 jlpt: none
 stage: draft
-draft: true
-auto_generated: false
-needs_review: true
 tags:
   - linguistics
   - grammar_theory
   - syntax
 created: 2025-12-26
 updated: 2025-12-26
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "draft"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 0
+  pending: 0
+  verified_date: 2025-12-26
+---
 語言學中用於描述動詞與其論元（argument）之間語法與語意關係的理論框架。
 
 <!--more-->

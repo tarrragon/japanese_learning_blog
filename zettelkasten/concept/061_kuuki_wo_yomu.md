@@ -1,18 +1,33 @@
 ---
-id: 335
-japanese: 空気を読む
-romaji: kuuki wo yomu
-category: concept
+stage: pending
 tags:
   - 社會互動
   - 語用學
   - 文化概念
-meaning:
-  zh: 察言觀色、讀空氣、看氣氛
-  en: to read the atmosphere/room; to sense the mood
-  ja: 場の雰囲気や状況を察知し、適切に行動すること
----
+created: 2025-12-26
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: false
+  chinese: false
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 6
+  pending: 0
+  verified_date: 2025-12-26
+---
 ## 解釋
 
 「空気を読む」是日本文化中極為重要的社交概念，字面意思是「讀取空氣」，實際意義是能夠察覺場合的氣氛、他人的情緒與期待，並據此做出適當的反應與行為。這個能力在日本社會中被視為成熟社交技能的重要指標。

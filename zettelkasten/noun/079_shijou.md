@@ -1,16 +1,32 @@
 ---
-id: "074"
 title: "市場"
-japanese: "市場"
-reading: "しじょう"
-part_of_speech: "名詞"
-jlpt_level: "N3"
-tags: ["domain/経済学"]
-progress:
-  card_created: 2025-12-22
-  stage: "draft"
----
+stage: "draft"
+tags:
+  - "domain/経済学"
+created: 2025-12-26
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: ""draft""
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 8
+  pending: 0
+  verified_date: 2025-12-26
+---
 ## 解釈
 
 ### 日本語

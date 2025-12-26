@@ -1,12 +1,34 @@
 ---
-id: "153"
 title: "〜てくる・〜ていく"
-japanese: "〜てくる・〜ていく"
-category: "grammar"
-tags: ["方向補語", "複合動詞", "移動方向"]
+stage: pending
+tags:
+  - "方向補語"
+  - "複合動詞"
+  - "移動方向"
 created: 2025-12-26
----
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: false
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 4
+  pending: 0
+  verified_date: 2025-12-26
+---
 # 〜てくる・〜ていく
 
 ## 解釋

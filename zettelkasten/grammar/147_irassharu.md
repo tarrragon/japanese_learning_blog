@@ -1,16 +1,36 @@
 ---
 title: "いらっしゃる"
 type: grammar
-subtype: honorific
 jlpt: n4
+stage: pending
 tags:
   - 尊敬語
   - 五段動詞
   - 敬語体系
 created: 2025-12-26
 updated: 2025-12-26
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: true
+  chinese: false
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 1
+  pending: 0
+  verified_date: 2025-12-26
+---
 # いらっしゃる
 
 ## 解釋

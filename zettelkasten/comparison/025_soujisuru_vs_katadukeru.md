@@ -1,18 +1,36 @@
 ---
-id: comp-013
 title: "掃除する vs 片付ける"
-title_zh: "清潔動詞比較"
-created: 2025-12-22
-category: comparison
+jlpt: n5
+stage: pending
 tags:
   - comparison
   - verb
   - daily-life
   - cleaning
-jlpt: n5
-status: in-progress
----
+created: 2025-12-22
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 0
+  pending: 0
+  verified_date: 2025-12-26
+---
 ## 中文標題
 清潔動詞比較：掃除する vs 片付ける
 

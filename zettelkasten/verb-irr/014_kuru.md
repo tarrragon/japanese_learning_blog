@@ -2,17 +2,42 @@
 title: "来る（くる）"
 description: "カ行変格活用動詞。話し手や特定の場所に向かって移動することを表す。「行く」と対比される基本的な移動動詞。"
 type: verb
-subtype: irregular
 jlpt: n5
 stage: draft
-draft: true
 tags:
   - motion
   - basic
   - irregular-verb
   - ka-irregular
----
+created: 2025-12-26
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "draft"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: true
+  chinese: false
+  examples_count: 0
+  pending_links:
+    - "行く"
+    - "帰る"
+    - "着く"
+    - "て形 + 来る"
+    - "ます形"
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 0
+  pending: 10
+  verified_date: 2025-12-26
+---
 # 来る（くる）
 
 ## 解釋

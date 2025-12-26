@@ -1,12 +1,29 @@
 ---
-id: 178
-japanese: 語体
-category: concept
-status: active
-priority: Low
-date: 2025-12-26
----
+stage: pending
+created: 2025-12-26
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 11
+  pending: 0
+  verified_date: 2025-12-26
+---
 # 語体（Speech Level）
 
 ## 概要

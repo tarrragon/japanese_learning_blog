@@ -1,18 +1,39 @@
 ---
-id: concept-67
 title: 文の構造
-title_en: Sentence Structure
-title_zh: 句子結構
-category: concept
+stage: pending
 tags:
   - 文法基礎
   - 句子分析
   - 語順
 created: 2025-12-26
-status: active
-frequency: 0
----
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links:
+    - "助詞の体系"
+    - "品詞の分類"
+    - "主語と述語"
+    - "修飾語と被修飾語"
+    - "複文と単文"
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 0
+  pending: 8
+  verified_date: 2025-12-26
+---
 # 文の構造（Sentence Structure / 句子結構）
 
 ## 基本說明

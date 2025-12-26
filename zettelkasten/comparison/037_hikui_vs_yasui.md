@@ -1,9 +1,6 @@
 ---
-id: "021"
 title: "低い vs 安い"
-title_en: "hikui vs yasui"
-category: "comparison"
-jlpt_level: "n5"
+stage: pending
 tags:
   - i-adjective
   - comparison
@@ -11,8 +8,28 @@ tags:
   - height
 created: 2025-12-22
 updated: 2025-12-22
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 2
+  pending: 0
+  verified_date: 2025-12-26
+---
 # 低い vs 安い
 
 ## 中文解釋

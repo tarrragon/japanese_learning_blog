@@ -1,17 +1,38 @@
 ---
-id: concept-68
-aliases:
-  - 膠著語
-  - agglutinative language
-  - こうちゃくご
+stage: pending
 tags:
   - linguistics
   - language-typology
   - japanese-grammar
 created: 2025-12-26
 updated: 2025-12-26
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links:
+    - "語幹與接辭"
+    - "屈折語"
+    - "孤立語"
+    - "複綜語"
+    - "動詞活用"
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 0
+  pending: 6
+  verified_date: 2025-12-26
+---
 # 膠著語
 
 ## 日文解釋

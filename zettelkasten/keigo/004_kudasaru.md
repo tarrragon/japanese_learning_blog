@@ -1,22 +1,35 @@
 ---
-id: keigo-004
 title: くださる
-japanese: 下さる
-category: keigo
 jlpt: n4
+stage: pending
 tags:
   - keigo
   - sonkeigo
   - giving-receiving
 created: 2025-12-22
-dictionary:
-  reading: くださる
-  kanji: 下さる
-  pos: 動詞
-  pos_details: 五段動詞
-  definition_ja: の尊敬語。
----
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 8
+  pending: 0
+  verified_date: 2025-12-26
+---
 ## 解釋
 
 ### 日文

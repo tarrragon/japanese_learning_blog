@@ -1,24 +1,36 @@
 ---
-id: 042_butsuri_vs_chuushou_shoyuu
 title: 物理擁有 vs 抽象擁有
-created: 2025-12-26
-updated: 2025-12-26
+stage: pending
 tags:
   - 所有
   - ある
   - いる
   - 持つ
   - 抽象概念
-category: comparison
-status: draft
-related:
-  - ../verb/待建立_motsu.md
-  - ../comparison/005_iru_vs_aru.md
-  - ../grammar/待建立_possession.md
-references:
-  - 日本語文法辞典（2018）
----
+created: 2025-12-26
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 0
+  pending: 0
+  verified_date: 2025-12-26
+---
 # 物理擁有 vs 抽象擁有
 
 ## 中文解釋

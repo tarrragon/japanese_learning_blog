@@ -1,12 +1,39 @@
 ---
 title: "見える（みえる）"
 type: verb
-category: verb-ru
 jlpt: n4
-tags: [perception, visibility]
+stage: pending
+tags:
+  - perception
+  - visibility
 created: 2025-12-24
----
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links:
+    - "見る"
+    - "目"
+    - "視力"
+    - "見かける"
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 0
+  pending: 4
+  verified_date: 2025-12-26
+---
 # 見える（みえる）
 
 ## 日本語の意味

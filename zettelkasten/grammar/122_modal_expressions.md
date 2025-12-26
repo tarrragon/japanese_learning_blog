@@ -2,20 +2,36 @@
 title: モダリティ
 description: 日語的語氣表達系統，用於表示說話者的態度、判斷和心理狀態
 type: grammar
-subtype: system
 jlpt: n3
 stage: draft
-draft: false
-auto_generated: false
-needs_review: true
 tags:
   - grammar_system
   - domain/linguistics
   - context/formal
 created: 2025-11-03
 updated: 2025-11-03
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "draft"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 19
+  pending: 0
+  verified_date: 2025-12-26
+---
 ## 日文
 
 モダリティ（Modality）

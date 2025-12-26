@@ -1,25 +1,37 @@
 ---
-id: noun-083
-category: noun
-japanese: 経済特別区
-reading: けいざいとくべつく
-chinese: 經濟特區
-english: Special Economic Zone (SEZ)
 jlpt: n1
+stage: pending
 tags:
   - domain/経済学
   - concept/制度
   - concept/政策
-links:
-  - zettelkasten/noun/081_keizaikaihatsu.md
-  - zettelkasten/noun/082_keizaiseichou.md
-progress:
-  status: draft
-  created: 2025-12-22
-  updated: 2025-12-22
-dictionary: null
----
+created: 2025-12-22
+updated: 2025-12-22
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: true
+  chinese: false
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 0
+  pending: 0
+  verified_date: 2025-12-26
+
+# 連結
+links:
+---
 ## 解釋
 
 ### 日文

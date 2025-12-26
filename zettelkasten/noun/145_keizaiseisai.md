@@ -1,17 +1,38 @@
 ---
-id: "081"
 type: noun
-japanese: 経済制裁
-romaji: keizaiseisai
 jlpt: N2
+stage: pending
 tags:
   - "domain/経済学"
 created: 2025-12-22
-dictionary:
-  reading: けいざいせいさい
-  kanji: 経済制裁
----
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links:
+    - "経済封鎖"
+    - "貿易制限"
+    - "資産凍結"
+    - "国際法"
+    - "外交政策"
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 0
+  pending: 6
+  verified_date: 2025-12-26
+---
 # 経済制裁（けいざいせいさい）
 
 ## 概要

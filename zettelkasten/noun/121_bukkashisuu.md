@@ -1,24 +1,32 @@
 ---
-id: noun-079
-category: noun
-japanese: 物価指数
-reading: ぶっかしすう
-base_form: 物価指数
 jlpt: n2
+stage: pending
 tags:
   - domain/経済学
-related_cards:
-  - "[物価](../noun/015_bukka.md)" # 前置概念：物價
-  - "[インフレーション](../noun/034_infureeshon.md)" # 相關概念：通貨膨脹
-  - "[デフレーション](../noun/035_defureeshon.md)" # 相關概念：通貨緊縮
-  - "[消費者物価指数](../noun/080_shouhishabulkkashisuu.md)" # 延伸概念：消費者物價指數
-  - "[卸売物価指数](../noun/081_oroshiuribulkkashisuu.md)" # 延伸概念：躉售物價指數
-dictionary:
-  reading: ぶっかしすう
-  kanji: 物価指数
-  definitions: null
----
+created: 2025-12-26
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: false
+  chinese: false
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 10
+  pending: 0
+  verified_date: 2025-12-26
+---
 # 物価指数（ぶっかしすう）
 
 ## 三語解釋

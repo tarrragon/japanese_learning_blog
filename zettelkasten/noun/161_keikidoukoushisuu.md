@@ -1,18 +1,35 @@
 ---
-id: "083"
 title: "景気動向指数"
-category: "noun"
-tags: ["domain/経済学"]
 jlpt: "n1"
-dictionary:
-  reading: "けいきどうこうしすう"
-  kanji: "景気動向指数"
-  sources:
-    daijirin: false
-    waei: false
+stage: pending
+tags:
+  - "domain/経済学"
 created: 2025-12-22
----
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: true
+  chinese: false
+  examples_count: 0
+  pending_links:
+    - "経済指標"
+    - "GDP"
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 4
+  pending: 2
+  verified_date: 2025-12-26
+---
 # 景気動向指数
 
 ## 基本情報

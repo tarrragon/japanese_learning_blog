@@ -1,11 +1,35 @@
 ---
-id: 028
 title: 聞こえる（きこえる）
-category: verb-ru
-tags: [ru-verb, ichidan, perception, hearing]
+stage: pending
+tags:
+  - ru-verb
+  - ichidan
+  - perception
+  - hearing
 created: 2025-12-26
----
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 0
+  pending: 0
+  verified_date: 2025-12-26
+---
 # 聞こえる（きこえる）
 
 ## 基本資訊

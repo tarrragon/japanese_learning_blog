@@ -1,15 +1,35 @@
 ---
-id: "165"
 title: "因果関係表現"
-title_en: "Causal Expression"
-title_zh: "因果關係表達"
-category: "grammar"
-tags: ["grammar", "因果", "論理", "文法"]
-source: ""
+stage: pending
+tags:
+  - "grammar"
+  - "因果"
+  - "論理"
+  - "文法"
 created: 2025-12-26
 updated: 2025-12-26
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: false
+  chinese: false
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 1
+  pending: 0
+  verified_date: 2025-12-26
+---
 # 因果関係表現
 
 ## 定義

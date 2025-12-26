@@ -2,22 +2,38 @@
 title: たい形 vs 意向形
 description: 願望 vs 意志 詳細比較 - たい形與意向形的對比分析
 type: contrast
-comparison_items: [grammar/016_tai_form, grammar/116_volitional]
 jlpt: n4
 stage: draft
-draft: false
-auto_generated: false
-needs_review: true
 tags:
   - grammar
   - comparison
   - desire
   - volitional
   - jlpt/n4
-date: 2025-11-03
+created: 2025-11-03
 updated: 2025-11-03
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "draft"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 11
+  pending: 0
+  verified_date: 2025-12-26
+---
 ## 概述
 
 「たい形」和「意向形」都是表達與行動意圖相關的日文文法，但在語意、使用情境和語用功能上有明確的差異。「たい形」表達說話者的主觀願望或欲求，強調「想做」的感受；「意向形」則表達說話者的意志或決心，強調「要做」的決定，也常用於提出建議或邀請。理解這兩種形式的區別，有助於在不同情境下準確表達內心的意圖與態度。

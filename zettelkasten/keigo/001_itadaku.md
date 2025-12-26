@@ -1,16 +1,40 @@
 ---
-id: keigo_001
 title: いただく
-reading: itadaku
 jlpt: n4
-category: keigo
+stage: pending
 tags:
   - 謙讓語
   - 授受動詞
   - 敬語基礎
 created: 2025-12-22
----
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links:
+    - "申し上げる（謙讓語：說）"
+    - "伺う（謙讓語：訪問/詢問）"
+    - "謙讓語的分類（謙讓語 I 類與 II 類）"
+    - "商務敬語的階梯理論"
+    - "〜ていただけますか（禮貌請求）"
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 5
+  pending: 6
+  verified_date: 2025-12-26
+---
 ## 基本資訊
 
 ### 中文解釋

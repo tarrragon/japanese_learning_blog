@@ -1,19 +1,32 @@
 ---
-id: "081"
 title: "景気循環"
-translation:
-  ja: "けいきじゅんかん"
-  en: "business cycle"
-  zh: "景氣循環"
+stage: pending
 tags:
   - "domain/経済学"
-jlpt_level: "n2"
-related_cards: []
-difficulty: "intermediate"
-progress: "draft"
-last_updated: "2025-12-22"
----
+created: 2025-12-26
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: true
+  chinese: false
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 0
+  pending: 0
+  verified_date: 2025-12-26
+---
 # 景気循環（けいきじゅんかん）
 
 ## 定義

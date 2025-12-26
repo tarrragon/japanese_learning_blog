@@ -1,21 +1,39 @@
 ---
-id: "41"
 title: "おっしゃる vs 申す"
 description: "「言う」的敬語形式對比：尊敬語「おっしゃる」vs 謙讓語「申す」"
-category: comparison
+stage: pending
 tags:
   - 敬語
   - 謙讓語
   - 尊敬語
   - 動詞變化
-related_cards:
-  - "../../verbs/68_ossharu.md"
-  - "../../verbs/69_mousu.md"
-  - "../../grammar/59_sonkeigo_kenjougo_teineigo.md"
-created_at: 2025-12-26
-updated_at: 2025-12-26
----
+created: 2025-12-26
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: false
+  chinese: false
+  examples_count: 0
+  pending_links:
+    - "いらっしゃる vs 参る"
+    - "召し上がる vs いただく"
+    - "ご覧になる vs 拝見する"
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 3
+  pending: 3
+  verified_date: 2025-12-26
+---
 # おっしゃる vs 申す
 
 **中文解釋**：「言う」的敬語形式對比：尊敬語「おっしゃる」用於抬高說話對象，謙讓語「申す」用於降低自己或己方人員的地位。

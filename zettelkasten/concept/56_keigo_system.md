@@ -1,13 +1,35 @@
 ---
 title: "敬語系統"
-date: 2025-12-26
 type: concept
 jlpt: n3
+stage: pending
 tags:
   - 語法
   - 敬語
----
+created: 2025-12-26
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 0
+  pending: 0
+  verified_date: 2025-12-26
+---
 ## 中文解釋
 
 敬語系統是日語中用於表達尊敬、謙遜和禮貌的語法體系，主要分為三大類：

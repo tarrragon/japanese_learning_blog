@@ -1,17 +1,35 @@
 ---
 title: "主要動作與附帶動作"
-japanese: "主要動作と付帯動作"
 type: concept
 jlpt: n4
-category: concept
+stage: pending
 tags:
   - 動詞接續
   - 同時動作
-related:
-  - ../../grammar/04_nagara.md
-  - ../../grammar/02_te_form.md
----
+created: 2025-12-26
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 2
+  pending: 0
+  verified_date: 2025-12-26
+---
 ## 中文解釋
 
 主要動作與附帶動作是日文語法中重要的概念，用於描述同時進行的兩個動作之間的關係。**主要動作**是說話者想要強調的核心動作，而**附帶動作**則是伴隨主要動作同時發生的次要動作。

@@ -1,15 +1,34 @@
 ---
-id: "081"
 title: "預金口座"
-japanese: "預金口座"
-reading: "よきんこうざ"
-category: "noun"
-tags: ["domain/経済学", "domain/金融"]
 jlpt: "n3"
-origin_card_id: 43
-progress_stage: "draft"
----
+stage: pending
+tags:
+  - "domain/経済学"
+  - "domain/金融"
+created: 2025-12-26
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: false
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 5
+  pending: 0
+  verified_date: 2025-12-26
+---
 # 預金口座（よきんこうざ）
 
 ## 解釋

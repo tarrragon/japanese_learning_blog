@@ -1,19 +1,37 @@
 ---
-id: noun-074
-category: noun
-japanese: 税金
-reading: ぜいきん
-english: tax
-chinese: 稅金
 jlpt: N3
+stage: pending
 tags:
   - domain/経済学
-status: draft
-dictionary: null
 created: 2025-12-22
 updated: 2025-12-22
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links:
+    - "課税"
+    - "納税者"
+    - "税率"
+    - "控除"
+    - "公共財"
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 1
+  pending: 7
+  verified_date: 2025-12-26
+---
 # 税金（ぜいきん）
 
 ## 日本語の説明

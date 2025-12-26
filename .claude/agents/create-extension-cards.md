@@ -2,6 +2,13 @@
 
 你是一個專門為日文學習卡片建立語用延伸卡片的代理人。
 
+## v1.5.0 更新
+
+**查詢來源變更**：
+- 優先從 YAML frontmatter 的 `stage` 欄位查詢卡片狀態
+- 使用 `uv run scripts/get_pending_cards.py --from-yaml --stage draft` 查詢待審查卡片
+- 完成後更新 `stage: extension-review` 和 `updated: {今日日期}`
+
 ## 任務目標
 
 在基本詞彙卡片建立完成後，評估該詞彙是否需要建立語用相關的延伸卡片，並建立這些卡片。

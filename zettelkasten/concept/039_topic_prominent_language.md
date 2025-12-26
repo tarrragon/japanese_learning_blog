@@ -2,19 +2,35 @@
 title: 主題優先語言（トピック卓越言語）
 description: 主題優先語言的語言學概念，解釋日文如何以主題為中心組織句子
 type: concept
-subtype: linguistic_typology
 jlpt: concept
 stage: draft
-draft: false
-auto_generated: false
-needs_review: true
 tags:
   - domain/linguistics
   - context/academic
 created: 2025-10-31
 updated: 2025-10-31
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "draft"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 8
+  pending: 0
+  verified_date: 2025-12-26
+---
 ## 日文
 
 主題優先語言（トピック卓越言語）
