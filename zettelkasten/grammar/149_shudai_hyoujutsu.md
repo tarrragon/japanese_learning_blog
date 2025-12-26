@@ -1,12 +1,37 @@
 ---
 title: "主題評述結構"
-tags: [grammar, syntax, topic-comment, sentence-structure]
 type: grammar
 jlpt: n3
+stage: pending
+tags:
+  - grammar
+  - syntax
+  - topic-comment
+  - sentence-structure
 created: 2025-12-26
-status: active
----
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 0
+  pending: 0
+  verified_date: 2025-12-26
+---
 # 主題評述結構
 
 ## 日語解釋

@@ -1,16 +1,39 @@
 ---
-id: n230
-aliases:
-  - 透明性
-category: noun
+stage: draft
 tags:
   - N1
   - business
   - abstract_concept
   - formal
-stage: draft
----
+created: 2025-12-26
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "draft"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: false
+  chinese: false
+  examples_count: 0
+  pending_links:
+    - "不透明"
+    - "説明責任"
+    - "情報公開"
+    - "信頼性"
+    - "ガバナンス"
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 0
+  pending: 5
+  verified_date: 2025-12-26
+---
 # 透明性（とうめいせい）
 
 ## 📝 基本資訊

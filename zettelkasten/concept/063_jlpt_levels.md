@@ -1,13 +1,38 @@
 ---
-id: 063
-category: concept
+stage: pending
 tags:
   - japanese-proficiency-test
   - language-assessment
   - learning-framework
 created: 2025-12-26
----
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links:
+    - "日語學習框架"
+    - "詞彙分級系統"
+    - "文法體系"
+    - "語言能力評估"
+    - "學習里程碑"
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 0
+  pending: 5
+  verified_date: 2025-12-26
+---
 # JLPT等級（Japanese Language Proficiency Test Levels）
 
 ## 中文解釋

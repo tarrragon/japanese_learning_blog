@@ -2,33 +2,37 @@
 title: なぜなら vs だって
 description: なぜなら vs だって 理由接續詞比較
 type: comparison
-comparison_items: [conjunction-reason/nazenara, conjunction-reason/datte]
 jlpt: n4
 stage: draft
-draft: false
-auto_generated: false
-needs_review: false
 tags:
   - comparison
   - conjunction
   - reason
   - n4
-date: 2025-12-22
+created: 2025-12-22
 updated: 2025-12-22
 
-dictionary:
-  nazenara:
-    reading: なぜなら
-    kanji: 〈何故〉 なら
-    pos: 接続
-    source: daijirin
-  datte:
-    reading: だって
-    pos: 接続
-    definition_ja: 相手の言葉に反対したり，相手の反対を予想したりして，そうなった事情を説明する時に用いる。
-    source: daijirin
----
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "draft"
+    date: 2025-12-26
 
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 7
+  pending: 0
+  verified_date: 2025-12-26
+---
 ## 概述
 
 「なぜなら」和「だって」都是用來表達理由的接續詞，但它們的使用場合、語氣正式度和語用功能有明顯差異。「なぜなら」偏向書面語，用於邏輯性的說明；「だって」則是口語表達，常帶有辯解或主觀情緒。本卡片將詳細比較這兩個理由接續詞的核心區別、使用情境和常見陷阱。

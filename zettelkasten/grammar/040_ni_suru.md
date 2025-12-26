@@ -2,16 +2,39 @@
 title: ～にする
 description: ～にする - 決定、選擇（表達做出選擇和改變狀態）
 type: grammar
-subtype: decision_pattern
 jlpt: n4
 stage: completed
-tags: [grammar, jlpt/n4, decision, choice, context/formal, context/casual]
+tags:
+  - grammar
+  - jlpt/n4
+  - decision
+  - choice
+  - context/formal
+  - context/casual
 created: 2025-10-30
 updated: 2025-10-30
-base_card: verb-irr/001_suru
-related_patterns: [ni_naru, koto_ni_suru]
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "completed"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 5
+  pending: 0
+  verified_date: 2025-12-26
+---
 ## 日文
 
 ### 核心意義

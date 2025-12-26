@@ -1,19 +1,39 @@
 ---
 title: 物価上昇（ぶっかじょうしょう）
 description: 物價上漲、通貨膨脹的概念
+stage: pending
 tags:
   - context/formal
   - context/academic
   - domain/economics
   - jlpt/n1
-date: 2025-10-27
-links:
-  値段: ../noun/003_nedan.md
-  上がる: ../verb-u/001_agaru.md
-  理由: ../noun/005_riyuu.md
-  食べ物: ../noun/007_tabemono.md
----
+created: 2025-10-27
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 3
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 0
+  pending: 0
+  verified_date: 2025-12-26
+
+# 連結
+links:
+---
 ## 日文
 物価上昇（ぶっかじょうしょう）
 

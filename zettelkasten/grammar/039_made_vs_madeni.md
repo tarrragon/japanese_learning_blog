@@ -2,7 +2,6 @@
 title: まで vs までに
 description: まで vs までに - 持續性 vs 期限的重要區別
 type: grammar
-subtype: comparison
 jlpt: n5
 stage: completed
 tags:
@@ -13,14 +12,28 @@ tags:
   - particle
 created: 2025-10-30
 updated: 2025-10-30
-base_card: particle/009_made
-related_words:
-  - までに
-  - まで
-  - に
-  - から
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "completed"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 9
+  pending: 0
+  verified_date: 2025-12-26
+---
 # まで vs までに - Until vs By
 
 ## 日文

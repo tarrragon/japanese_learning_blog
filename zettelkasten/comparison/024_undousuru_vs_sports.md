@@ -1,21 +1,35 @@
 ---
-id: comparison-012
 title: "運動する vs スポーツをする"
-japanese: "運動する vs スポーツをする"
 type: comparison
-category: comparison
-difficulty: beginner
-jlpt_level: n5
-related_cards:
-  - verb-ru-005_undousuru
+stage: pending
 tags:
   - verb-comparison
   - health
   - sports
-status: draft
 created: 2025-12-22
----
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 0
+  pending: 0
+  verified_date: 2025-12-26
+---
 # 運動する vs スポーツをする
 
 ## 三語對照

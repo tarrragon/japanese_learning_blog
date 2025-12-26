@@ -1,22 +1,34 @@
 ---
-id: "003"
 title: "時間副詞語域"
-japanese: "時間副詞語域"
-english: "Time Adverb Register"
-chinese: "口語到正式"
-category: "register"
-jlpt_level: "n4"
+stage: pending
 tags:
   - register
   - time-adverb
   - formality
-related_cards:
-  - ../adverb/009_sugu.md
-  - ../adverb/_index.md
 created: 2025-12-22
 updated: 2025-12-22
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 0
+  pending: 0
+  verified_date: 2025-12-26
+---
 # 時間副詞語域
 
 ## 日文解釋

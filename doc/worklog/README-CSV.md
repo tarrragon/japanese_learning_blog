@@ -4,6 +4,30 @@
 
 從 v1.0.6 開始，我們採用 **CSV + Markdown 混合方案**來管理待建立卡片清單，以提升效率和節省 token。
 
+## 🆕 v1.5.0 重大更新
+
+**架構轉型：YAML 驅動模式**
+
+v1.5.0 開始，**YAML frontmatter 成為卡片狀態的單一事實來源**：
+
+| 變更 | Before (v1.4.0) | After (v1.5.0) |
+|------|-----------------|----------------|
+| 事實來源 | CSV | YAML frontmatter |
+| CSV 用途 | 即時進度追蹤 | 版本規劃快照 |
+| 更新方式 | 只改 CSV | CSV + YAML 同步 |
+
+**新增功能**：
+- `--from-yaml`：從 YAML 掃描卡片（`get_pending_cards.py`）
+- `--yaml-only`：只更新 YAML（`update_card_progress.py`）
+- 同時建立卡片檔案（`add_pending_cards.py`）
+
+**新增 YAML 欄位**：
+```yaml
+version_history:      # 版本歷史
+content_verification: # 內容驗證狀態
+link_status:          # 連結統計
+```
+
 ## 🎯 方案優勢
 
 ### Token 節省
@@ -429,7 +453,7 @@ uv run scripts/manage_worklog_cards.py stats
 
 ---
 
-**文檔版本**：v1.1
+**文檔版本**：v1.2
 **建立日期**：2025-10-31
-**更新日期**：2025-10-31（新增三個 CSV 管理腳本）
-**適用版本**：v1.0.6+
+**更新日期**：2025-12-26（v1.5.0 YAML 驅動架構）
+**適用版本**：v1.0.6+ (v1.5.0 新增 YAML 同步功能)

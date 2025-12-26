@@ -2,20 +2,36 @@
 title: "から・ので"
 description: 表達理由和原因的文法模式
 type: grammar
-subtype: conjunction
 jlpt: n4
 stage: draft
-draft: false
-auto_generated: false
-needs_review: true
 tags:
   - context/daily_life
   - context/formal
   - domain/communication
 created: 2025-11-03
 updated: 2025-11-03
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "draft"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 9
+  pending: 0
+  verified_date: 2025-12-26
+---
 ## 日文
 
 から・ので

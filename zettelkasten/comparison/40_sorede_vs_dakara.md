@@ -1,16 +1,33 @@
 ---
-card_id: comparison-40
-japanese: それで vs だから
-category: comparison
+stage: pending
 tags:
   - 連接詞
   - 因果關係
   - 語氣差異
-sources:
-  - comparison
-  - pending
----
+created: 2025-12-26
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: false
+  chinese: false
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 0
+  pending: 0
+  verified_date: 2025-12-26
+---
 # それで vs だから
 
 ## 核心區別

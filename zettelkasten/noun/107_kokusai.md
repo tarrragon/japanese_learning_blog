@@ -1,19 +1,34 @@
 ---
 title: "#077 国債（こくさい）"
-japanese: 国債
-romaji: kokusai
-pronounce: こくさい
 jlpt: n2
-reibun_count: 5
+stage: pending
 tags:
   - domain/経済学
   - domain/金融
-aliases:
-  - 国債
-  - government bond
-  - sovereign bond
----
+created: 2025-12-26
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 5
+  pending: 0
+  verified_date: 2025-12-26
+---
 # #077 国債（こくさい）
 
 ## 1. 辞書形・基本形

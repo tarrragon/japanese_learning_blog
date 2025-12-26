@@ -2,33 +2,37 @@
 title: したがって vs だから
 description: したがって vs だから 詳細比較 - 因果關係接續詞的正式度與使用情境
 type: comparison
-comparison_items: [conjunction/shitagatte, conjunction/dakara]
 jlpt: n4
 stage: draft
-draft: false
-auto_generated: false
-needs_review: true
 tags:
   - comparison
   - conjunction
   - n4
   - formality
-date: 2025-12-22
+created: 2025-12-22
 updated: 2025-12-22
-dictionary:
-  - query: したがって
-    reading: したがって
-    kanji: 従って
-    pos: 接続
-    definition_ja: 前に述べたことからの必然的な結果として以下のことが起こることを表す。
-    source: daijirin
-  - query: だから
-    reading: だから
-    pos: 接続
-    definition_ja: それゆえ。
-    source: daijirin
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "draft"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 6
+  pending: 0
+  verified_date: 2025-12-26
+---
 ## 概述
 
 「したがって」和「だから」都是表達因果關係的接續詞，意思都是「因此、所以」。但兩者在正式度、語氣強度、使用場合上有明顯差異。「したがって」屬於書面語和正式場合用語，語氣客觀嚴謹；「だから」則是口語常用詞，語氣直接隨意。選擇錯誤會導致語域不當，影響表達效果。

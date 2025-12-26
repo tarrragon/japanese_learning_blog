@@ -3,10 +3,36 @@ title: "〜てくださる"
 description: "表示尊敬的授受表達，用於描述地位較高者為說話者做某事"
 type: grammar
 jlpt: n4
-tags: [grammar, giving_receiving, te_form, honorific]
-date: 2025-10-31
----
+stage: pending
+tags:
+  - grammar
+  - giving_receiving
+  - te_form
+  - honorific
+created: 2025-10-31
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 0
+  pending: 0
+  verified_date: 2025-12-26
+---
 ## 日文解釋
 
 動詞のて形に「くださる」を接続して、目上の人や尊敬すべき人が話し手（またはその身内）のために何かをしてくれることを表す尊敬表現。「〜てくれる」の尊敬語として使われ、恩恵を受ける側が話し手であることを示す。

@@ -2,12 +2,8 @@
 title: 請求 vs 建議
 description: 請求 vs 建議 詳細比較 - 請求與建議的語義辨析
 type: contrast
-comparison_items: [request, suggestion]
 jlpt: n4
 stage: draft
-draft: false
-auto_generated: false
-needs_review: true
 tags:
   - vocabulary_distinction
   - context/formal
@@ -15,8 +11,28 @@ tags:
   - domain/communication
 created: 2025-11-03
 updated: 2025-11-03
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "draft"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 14
+  pending: 0
+  verified_date: 2025-12-26
+---
 ## 概述
 
 「請求」(せいきゅう)と「建議」(けんぎ)は、どちらも相手に何かを求める行為を表すが、その性質と強制力において明確な違いがある。「請求」は相手に何かを要求する行為で、正当な権利に基づいた強い要求を示す。一方、「建議」は相手に提案や意見を述べる行為で、相手の判断を尊重する柔軟な提案を意味する。この二つの使い分けを理解することは、ビジネスや日常のコミュニケーションにおいて適切な表現を選ぶために重要である。

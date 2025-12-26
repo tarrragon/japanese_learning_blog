@@ -1,22 +1,36 @@
 ---
 title: "舊資訊與新資訊"
-date: 2025-12-24
 type: concept
-category: concept
+jlpt: n3
+stage: pending
 tags:
   - information-structure
   - は
   - が
-jlpt: n3
-related:
-  - "../../particle/13_は.md"
-  - "../../particle/14_が.md"
-  - "../../particle/58_も.md"
-  - "../55_topic.md"
-  - "../52_focus.md"
-difficulty: 5
----
+created: 2025-12-24
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: false
+  examples_count: 3
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 0
+  pending: 0
+  verified_date: 2025-12-26
+---
 # 舊資訊與新資訊（Given-New Information）
 
 ## 核心概念

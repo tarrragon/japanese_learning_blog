@@ -2,12 +2,8 @@
 title: 授受視角（じゅじゅしかく）
 description: 日文授受動詞的視角選擇概念
 type: concept
-subtype: pragmatics
 jlpt: n3
 stage: draft
-draft: false
-auto_generated: false
-needs_review: false
 tags:
   - domain/linguistics
   - domain/communication
@@ -15,8 +11,28 @@ tags:
   - context/casual
 created: 2025-10-31
 updated: 2025-10-31
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "draft"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 17
+  pending: 0
+  verified_date: 2025-12-26
+---
 ## 日文
 
 授受視角（じゅじゅしかく）

@@ -1,16 +1,34 @@
 ---
-id: "076"
 title: "証券市場"
-title_en: "shoukenshijou"
-category: "noun"
-tags: ["domain/経済学", "domain/金融"]
 jlpt: "n2"
-date_created: "2025-12-22"
-date_modified: "2025-12-22"
-status: "draft"
-related_cards: []
----
+stage: pending
+tags:
+  - "domain/経済学"
+  - "domain/金融"
+created: 2025-12-26
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 0
+  pending: 0
+  verified_date: 2025-12-26
+---
 # 証券市場（しょうけんしじょう）
 
 ## 概要

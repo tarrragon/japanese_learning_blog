@@ -2,12 +2,8 @@
 title: ば条件形
 description: ば條件形 - 假定條件表達方式
 type: grammar
-subtype: conditional
 jlpt: n4
 stage: completed
-draft: false
-auto_generated: false
-needs_review: true
 tags:
   - context/formal
   - context/casual
@@ -15,8 +11,28 @@ tags:
   - jlpt/n4
 created: 2025-10-30
 updated: 2025-10-30
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "completed"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 17
+  pending: 0
+  verified_date: 2025-12-26
+---
 ## 日文
 
 ば条件形（仮定条件）

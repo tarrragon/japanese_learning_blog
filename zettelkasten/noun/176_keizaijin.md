@@ -1,19 +1,33 @@
 ---
-id: noun_084_keizaijin
 title: 経済人
-category: noun
-japanese: 経済人
-hiragana: けいざいじん
-romaji: keizaijin
 jlpt: N1
-date: 2025-12-22
+stage: pending
 tags:
   - domain/経済学
-status: draft
-origin: worklog_id_102
-dictionary: null
----
+created: 2025-12-22
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 4
+  pending: 0
+  verified_date: 2025-12-26
+---
 # 経済人
 
 ## 日文解釋

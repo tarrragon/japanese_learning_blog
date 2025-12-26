@@ -1,16 +1,35 @@
 ---
+stage: pending
 tags:
   - concept
   - social-structure
   - keigo
   - japanese-culture
-aliases:
-  - 階層
-  - hierarchy
-  - 社会階層
-  - social hierarchy
----
+created: 2025-12-26
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links:
+    - "尊敬語概念"
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 6
+  pending: 1
+  verified_date: 2025-12-26
+---
 # 階層（hierarchy）
 
 ## 定義

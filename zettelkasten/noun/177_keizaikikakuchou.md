@@ -1,20 +1,37 @@
 ---
-id: noun-084
-japanese: 経済企画庁
-reading: けいざいきかくちょう
-romanization: keizaikikakuchou
-chinese: 經濟企劃廳
-english: Economic Planning Agency
 type: noun
 jlpt: n1
-tags: ["domain/経済学", "domain/政治", "historical"]
+stage: pending
+tags:
+  - "domain/経済学"
+  - "domain/政治"
+  - "historical"
+created: 2025-12-26
+updated: 2025-12-26
 
-dictionary:
-  reading: けいざいきかくちょう
-  kanji: 経済企画庁
-  note: "かつての日本の中央省庁の一つ（2001年廃止）"
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links:
+    - "内閣府"
+    - "経済計画"
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 2
+  pending: 2
+  verified_date: 2025-12-26
 ---
-
 # 経済企画庁（けいざいきかくちょう）
 
 ## 日本語説明

@@ -1,10 +1,6 @@
 ---
-id: "181"
 title: 内閣府
-reading: ないかくふ
-card_type: noun
-category: organization
-difficulty: N2
+stage: pending
 tags:
   - 政府機関
   - 政治
@@ -12,8 +8,28 @@ tags:
   - 経済
 created: 2025-12-23
 updated: 2025-12-23
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 1
+  pending: 0
+  verified_date: 2025-12-26
+---
 ## 単語情報
 
 **内閣府（ないかくふ）**

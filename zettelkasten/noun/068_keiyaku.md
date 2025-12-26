@@ -3,10 +3,35 @@ title: "契約（けいやく）"
 description: "合約、協議"
 type: noun
 jlpt: n4
-tags: [noun, business, formal]
-date: 2025-10-31
----
+stage: pending
+tags:
+  - noun
+  - business
+  - formal
+created: 2025-10-31
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: false
+  chinese: false
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 0
+  pending: 0
+  verified_date: 2025-12-26
+---
 合約、協議。指兩方或多方之間經過協商達成的具有法律效力的約定。
 
 <!--more-->

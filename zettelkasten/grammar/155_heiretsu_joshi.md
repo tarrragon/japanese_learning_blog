@@ -1,20 +1,34 @@
 ---
 title: "並列助詞"
-created: 2025-12-26
-updated: 2025-12-26
-category: grammar
+stage: pending
 tags:
   - 助詞
   - 並列
   - N5
-aliases:
-  - 並列助詞
-  - へいれつじょし
-related:
-  - "（待建立：格助詞）"
-  - "（待建立：接続助詞）"
----
+created: 2025-12-26
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: false
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 0
+  pending: 0
+  verified_date: 2025-12-26
+---
 # 並列助詞
 
 ## 日文解釋

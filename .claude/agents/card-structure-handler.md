@@ -236,6 +236,25 @@ dictionary:
   lookup_date: {YYYY-MM-DD}
 created: {YYYY-MM-DD}
 updated: {YYYY-MM-DD}
+
+# v1.5.0 新增欄位
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: {YYYY-MM-DD}
+
+content_verification:
+  japanese: false
+  english: false
+  chinese: false
+  examples_count: 0
+  pending_links: []
+
+link_status:
+  incoming: 0
+  outgoing: 0
+  pending: 0
+  verified_date: {YYYY-MM-DD}
 ---
 ```
 

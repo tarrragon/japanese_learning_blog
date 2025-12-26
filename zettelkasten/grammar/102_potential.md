@@ -2,12 +2,8 @@
 title: "可能形（かのうけい）"
 description: 可能形 - 表達能力和可能性的動詞變化形式
 type: grammar
-subtype: conjugation
 jlpt: n4
 stage: draft
-draft: false
-auto_generated: false
-needs_review: true
 tags:
   - grammar
   - conjugation
@@ -15,8 +11,28 @@ tags:
   - jlpt/n4
 created: 2025-10-31
 updated: 2025-10-31
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "draft"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 16
+  pending: 0
+  verified_date: 2025-12-26
+---
 ## 日文
 
 可能形（かのうけい）

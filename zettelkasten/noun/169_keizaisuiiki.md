@@ -1,9 +1,38 @@
 ---
 title: 経済水域
 jlpt: n1
-tags: ["domain/経済学"]
----
+stage: pending
+tags:
+  - "domain/経済学"
+created: 2025-12-26
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links:
+    - "領海"
+    - "公海"
+    - "排他的経済水域"
+    - "海洋法条約"
+    - "天然資源"
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 0
+  pending: 5
+  verified_date: 2025-12-26
+---
 # 経済水域
 
 ## 基本資訊

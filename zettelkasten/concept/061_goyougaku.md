@@ -1,15 +1,39 @@
 ---
-id: "318"
 title: "語用學"
-japanese: "語用学"
-romaji: "goyougaku"
-category: "concept"
-tags: ["grammar", "semantics", "communication"]
-related_verbs: []
-related_nouns: []
-related_adjectives: []
----
+stage: pending
+tags:
+  - "grammar"
+  - "semantics"
+  - "communication"
+created: 2025-12-26
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links:
+    - "意味論（語義學）"
+    - "語境（Context）"
+    - "發話行為理論（Speech Act Theory）"
+    - "會話含意理論（Conversational Implicature）"
+    - "指示語（Deixis）"
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 1
+  pending: 5
+  verified_date: 2025-12-26
+---
 # 語用學（ごようがく）
 
 ## 中文解釋

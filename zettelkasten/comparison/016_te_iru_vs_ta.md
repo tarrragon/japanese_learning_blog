@@ -2,25 +2,38 @@
 title: 〜ている vs 〜た
 description: 〜ている vs 〜た - 時態對比（持續狀態 vs 完成動作）
 type: comparison
-subtype: tense_aspect
 jlpt: n4
 stage: draft
-draft: false
-auto_generated: false
-needs_review: true
 tags:
   - jlpt/n4
   - grammar
   - tense
   - aspect
   - context/daily_life
-comparison_items:
-  - 〜ている
-  - 〜た
 created: 2025-11-03
 updated: 2025-11-03
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "draft"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 9
+  pending: 0
+  verified_date: 2025-12-26
+---
 # 〜ている vs 〜た - 時態與狀態對比
 
 ## 概述

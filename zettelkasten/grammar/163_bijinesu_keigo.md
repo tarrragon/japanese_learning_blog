@@ -2,12 +2,8 @@
 title: "ビジネス敬語"
 description: "商務敬語 - 職場與商務場合的正式敬語表達"
 type: grammar
-subtype: pragmatics
 jlpt: n3
 stage: pending
-draft: true
-auto_generated: false
-needs_review: true
 tags:
   - grammar
   - keigo
@@ -16,8 +12,28 @@ tags:
   - social
 created: 2025-12-26
 updated: 2025-12-26
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 1
+  pending: 0
+  verified_date: 2025-12-26
+---
 職場與商務場合的正式敬語表達系統，結合敬語三大系統（尊敬語、謙讓語、丁寧語）與商務溝通文化。
 
 <!--more-->

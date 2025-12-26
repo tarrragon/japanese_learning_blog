@@ -1,13 +1,41 @@
 ---
-id: "229"
 title: "確定申告"
-japanese: "確定申告"
-romanization: "kakutei shinkoku"
-category: "noun"
-tags: ["tax", "finance", "legal", "government", "business"]
-audio: ""
----
+stage: pending
+tags:
+  - "tax"
+  - "finance"
+  - "legal"
+  - "government"
+  - "business"
+created: 2025-12-26
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: false
+  chinese: true
+  examples_count: 0
+  pending_links:
+    - "税金"
+    - "所得"
+    - "控除"
+    - "納税"
+    - "税務署"
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 0
+  pending: 5
+  verified_date: 2025-12-26
+---
 ## 解釋
 
 ### 日文

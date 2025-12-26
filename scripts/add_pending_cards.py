@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 """
 Add Pending Cards Script
-新增待辦卡片到 worklog CSV
+新增待辦卡片到 worklog CSV - v1.5.0 同時建立卡片檔案
 
 Usage:
-    # 單張新增
+    # 單張新增（同時建立卡片檔案）
     uv run scripts/add_pending_cards.py add \
         --category noun \
         --number 025 \
@@ -14,12 +14,23 @@ Usage:
         --source v1.0.6 \
         --priority High
 
+    # 只新增到 CSV（不建立卡片檔案）
+    uv run scripts/add_pending_cards.py add \
+        --category noun \
+        --number 025 \
+        --japanese 語彙 \
+        --chinese 詞彙 \
+        --jlpt n4 \
+        --priority High \
+        --csv-only
+
     # 批次新增（從 JSON 檔案）
     uv run scripts/add_pending_cards.py batch \
         --from-json extension-cards.json
 
-    # 批次新增（從 stdin）
-    cat cards.json | uv run scripts/add_pending_cards.py batch --from-json -
+v1.5.0 變更：
+    - 新增卡片時同時建立 YAML frontmatter 檔案
+    - 新增 --csv-only 選項（只更新 CSV，不建立卡片）
 """
 
 import csv
@@ -27,22 +38,94 @@ import json
 import argparse
 import sys
 from pathlib import Path
-from datetime import datetime
+from datetime import datetime, date
 from typing import List, Dict, Optional
 
 from csv_config import get_default_csv_path
 
+# 專案根目錄
+PROJECT_ROOT = Path(__file__).parent.parent
+ZETTELKASTEN_DIR = PROJECT_ROOT / "zettelkasten"
+
 class PendingCardAdder:
-    """新增待辦卡片到 CSV"""
+    """新增待辦卡片到 CSV（v1.5.0 同時建立卡片檔案）"""
 
     VALID_STAGES = ['pending', 'draft', 'extension-review', 'linking', 'completed']
     VALID_PRIORITIES = ['Critical', 'High', 'Medium', 'Low']
     VALID_JLPT = ['n5', 'n4', 'n3', 'n2', 'n1', 'concept', 'phrase']
 
-    def __init__(self, csv_path: str):
+    # v1.5.0 卡片模板
+    CARD_TEMPLATE = '''---
+title: {title}
+description: {chinese}
+type: {category}
+jlpt: {jlpt}
+stage: {stage}
+tags:
+  - jlpt/{jlpt}
+created: {today}
+updated: {today}
+
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "{stage}"
+    date: {today}
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: false
+  chinese: false
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 0
+  pending: 0
+  verified_date: {today}
+---
+
+## 日文
+
+{japanese}
+
+## 日文解釋
+
+（待填寫）
+
+## 英文解釋
+
+（待填寫）
+
+## 中文解釋
+
+{chinese}
+
+## 例句
+
+（待填寫）
+
+---
+
+## 註解
+
+（待填寫）
+
+---
+
+## 相關連結
+
+（待填寫）
+'''
+
+    def __init__(self, csv_path: str, csv_only: bool = False):
         self.csv_path = Path(csv_path)
         self.cards = []
         self.max_id = 0
+        self.csv_only = csv_only
 
         if self.csv_path.exists():
             self.load_cards()
@@ -146,12 +229,57 @@ class PendingCardAdder:
                 print(f"   - {error}")
             return False
 
-        # 新增
+        # 新增到 CSV
         self.cards.append(new_card)
         self.max_id += 1
 
         print(f"✅ 已新增卡片 ID {new_card['id']}: {path}")
+
+        # v1.5.0: 同時建立卡片檔案
+        if not self.csv_only:
+            file_created = self.create_card_file(new_card)
+            if file_created:
+                print(f"   📄 已建立卡片檔案")
+
         return True
+
+    def create_card_file(self, card: Dict) -> bool:
+        """建立卡片 markdown 檔案"""
+        category = card['category']
+        path = card['path']
+
+        # 建立完整路徑
+        full_path = ZETTELKASTEN_DIR / path
+
+        # 確保分類目錄存在
+        category_dir = full_path.parent
+        if not category_dir.exists():
+            category_dir.mkdir(parents=True, exist_ok=True)
+            print(f"   📁 已建立分類目錄: {category_dir.name}")
+
+        # 如果檔案已存在，跳過
+        if full_path.exists():
+            print(f"   ⚠️ 檔案已存在，跳過建立")
+            return False
+
+        # 使用模板建立檔案
+        today = date.today().isoformat()
+        content = self.CARD_TEMPLATE.format(
+            title=card['japanese'],
+            chinese=card['chinese'],
+            category=card['category'],
+            jlpt=card['jlpt'],
+            stage=card.get('stage', 'pending'),
+            today=today,
+            japanese=card['japanese']
+        )
+
+        try:
+            full_path.write_text(content, encoding='utf-8')
+            return True
+        except Exception as e:
+            print(f"   ❌ 建立檔案失敗: {e}")
+            return False
 
     def add_batch_cards(self, cards_data: List[Dict]) -> int:
         """批次新增卡片，回傳成功新增的數量"""
@@ -184,14 +312,16 @@ class PendingCardAdder:
         return success_count
 
 def main():
-    parser = argparse.ArgumentParser(description='新增待辦卡片到 worklog CSV')
+    parser = argparse.ArgumentParser(description='新增待辦卡片到 worklog CSV（v1.5.0 同時建立卡片）')
     parser.add_argument('--csv', default=get_default_csv_path(),
                        help='CSV 檔案路徑（預設: 自動偵測最新版本）')
+    parser.add_argument('--csv-only', action='store_true',
+                       help='只新增到 CSV，不建立卡片檔案')
 
     subparsers = parser.add_subparsers(dest='command', help='指令')
 
     # 單張新增
-    add_parser = subparsers.add_parser('add', help='新增單張卡片')
+    add_parser = subparsers.add_parser('add', help='新增單張卡片（同時建立卡片檔案）')
     add_parser.add_argument('--category', required=True, help='分類（如 noun, verb-ru）')
     add_parser.add_argument('--number', required=True, help='編號（3 位數字，如 025）')
     add_parser.add_argument('--japanese', required=True, help='日文詞彙/概念')
@@ -217,7 +347,10 @@ def main():
         return 1
 
     # 初始化管理器
-    adder = PendingCardAdder(args.csv)
+    adder = PendingCardAdder(
+        args.csv,
+        csv_only=getattr(args, 'csv_only', False)
+    )
 
     if args.command == 'add':
         # 單張新增

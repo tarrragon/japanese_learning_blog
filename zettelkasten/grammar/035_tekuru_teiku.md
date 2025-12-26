@@ -2,7 +2,6 @@
 title: てくる・ていく
 description: てくる・ていく - 方向補助動詞（來去方向）
 type: grammar
-grammar_type: auxiliary_verb_pattern
 jlpt: n4
 stage: completed
 tags:
@@ -11,21 +10,30 @@ tags:
   - movement
   - grammar_pattern
   - aspect
-related_grammar:
-  - te_form
-  - kuru
-  - iku
-  - aspect
-applies_to:
-  - verb
 created: 2025-10-30
 updated: 2025-10-30
-draft: false
-auto_generated: true
-needs_review: false
-completed: 2025-10-30
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "completed"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 10
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 8
+  pending: 0
+  verified_date: 2025-12-26
+---
 ## 日文
 
 ### てくる（~te kuru）

@@ -2,16 +2,36 @@
 title: "または"
 description: 或者、或是（正式選擇連接詞）
 type: conjunction
-subtype: disjunctive
 jlpt: n4
-tags: [disjunctive, choice, formal_speech]
-related_words: [それとも、あるいは、もしくは、または]
-synonyms: []
-created: 2025-12-17
 stage: draft
-extensions: {}
----
+tags:
+  - disjunctive
+  - choice
+  - formal_speech
+created: 2025-12-17
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "draft"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 19
+  pending: 0
+  verified_date: 2025-12-26
+---
 ## 日文
 または（mata wa）
 

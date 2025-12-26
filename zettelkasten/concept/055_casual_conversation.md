@@ -3,8 +3,35 @@ title: "日常会話"
 type: concept
 jlpt: n4
 stage: draft
----
+created: 2025-12-26
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "draft"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links:
+    - "普通形"
+    - "終助詞"
+    - "丁寧語"
+    - "縮約形"
+    - "語域"
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 0
+  pending: 6
+  verified_date: 2025-12-26
+---
 # 日常会話
 
 ## 中文解釋

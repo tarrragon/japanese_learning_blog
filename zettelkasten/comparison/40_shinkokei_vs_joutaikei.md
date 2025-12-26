@@ -1,20 +1,39 @@
 ---
-id: "40"
 title: "進行形 vs 状態形の区別"
 description: "「ている」の進行的用法と状態的用法の区別、及び動詞種類との関連性"
-category: "comparison"
-tags: ["grammar", "verb", "aspect"]
+stage: pending
+tags:
+  - "grammar"
+  - "verb"
+  - "aspect"
 created: "2025-12-26"
 updated: "2025-12-26"
-version: "1.4.0"
-status: "draft"
-related:
-  - "[動作動詞](待建立)"
-  - "[状態動詞](待建立)"
-  - "[アスペクト](待建立)"
-  - "[瞬間動詞](待建立)"
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links:
+    - "動作動詞"
+    - "状態動詞"
+    - "アスペクト"
+    - "瞬間動詞"
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 0
+  pending: 4
+  verified_date: 2025-12-26
+---
 # 進行形 vs 状態形の区別
 
 ## 中文解釋

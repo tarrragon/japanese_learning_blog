@@ -2,20 +2,36 @@
 title: "助詞システム（じょしシステム）"
 description: "日文助詞系統的整體架構與分類"
 type: concept
-subtype: grammar_system
 jlpt: none
 stage: draft
-draft: true
-auto_generated: false
-needs_review: true
 tags:
   - grammar_system
   - particles
   - language_structure
 created: 2025-12-26
 updated: 2025-12-26
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "draft"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 0
+  pending: 0
+  verified_date: 2025-12-26
+---
 日文助詞系統是日文語法的核心骨幹，透過理解助詞的分類與功能，可以深入掌握日文的句子結構邏輯。
 
 <!--more-->

@@ -1,20 +1,40 @@
 ---
-id: "160"
 title: "関西弁の特徴"
-japanese: "かんさいべんのとくちょう"
-category: "grammar"
-created_date: "2025-12-26"
+stage: pending
 tags:
   - grammar
   - 方言
   - 関西弁
   - 地域言語
-aliases:
-  - 関西方言
-  - 関西弁
-  - Kansai dialect
----
+created: 2025-12-26
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links:
+    - "標準語"
+    - "東京方言"
+    - "大阪方言"
+    - "京都方言"
+    - "方言音調"
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 0
+  pending: 7
+  verified_date: 2025-12-26
+---
 # 関西弁の特徴
 
 ## 中文解釋

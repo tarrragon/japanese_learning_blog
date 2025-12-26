@@ -1,22 +1,33 @@
 ---
-id: noun-074
-category: noun
-japanese: 株式
-reading: かぶしき
-english: stock, share, equity
-chinese: 股票
 jlpt: n2
+stage: pending
 tags:
   - domain/経済学
   - domain/金融
-related:
-  - 株主（株式の保有者）
-  - 投資（株式投資の概念）
-  - 配当（株式からの収益）
-  - 証券取引所（株式が取引される場所）
-  - 上場（株式公開の概念）
----
+created: 2025-12-26
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 3
+  pending: 0
+  verified_date: 2025-12-26
+---
 # 株式
 
 ## 日文解釋

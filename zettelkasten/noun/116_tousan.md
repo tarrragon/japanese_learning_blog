@@ -1,27 +1,34 @@
 ---
-id: "078"
 title: "倒産"
-reading: "とうさん"
 type: "noun"
-category: "noun"
-jlpt_level: "n2"
+stage: pending
 tags:
   - "domain/経済学"
   - "domain/商業"
-created_at: 2025-12-22
-dictionary:
-  query: "倒産"
-  found: true
-  sources:
-    daijirin: true
-    waei: false
-  data:
-    reading: "とうさん"
-    kanji: "倒産"
-    pos: "名詞"
-    pos_details: "名"
----
+created: 2025-12-26
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 5
+  pending: 0
+  verified_date: 2025-12-26
+---
 # 倒産（とうさん）
 
 ## 日本語の解説

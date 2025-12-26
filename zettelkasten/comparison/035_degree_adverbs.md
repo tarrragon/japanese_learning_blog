@@ -2,21 +2,37 @@
 title: 程度副詞比較
 description: とても・非常に・すごく・めちゃ - 日語程度副詞的語域和強度差異
 type: comparison
-comparison_items: []
 jlpt: n4
 stage: draft
-draft: false
-auto_generated: false
-needs_review: true
 tags:
   - comparison
   - adverb
   - n4
   - formality
-date: 2025-12-22
+created: 2025-12-22
 updated: 2025-12-22
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "draft"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 7
+  pending: 0
+  verified_date: 2025-12-26
+---
 ## 概述
 
 日語中表達「非常」「很」的程度副詞種類繁多，從正式書面語到口語俚語都有不同的選擇。本卡片比較四個常用程度副詞：とても（標準）、非常に（正式）、すごく（口語）、めちゃ（俚語），幫助學習者根據場合選擇適當的表達方式。

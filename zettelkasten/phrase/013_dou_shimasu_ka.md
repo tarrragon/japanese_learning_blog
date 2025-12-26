@@ -4,9 +4,6 @@ description: どうしますか - 您要怎麼做（禮貌詢問）
 type: phrase
 jlpt: n5
 stage: draft
-draft: false
-auto_generated: false
-needs_review: true
 tags:
   - phrase
   - jlpt/n5
@@ -17,10 +14,28 @@ tags:
   - question_form
 created: 2025-12-17
 updated: 2025-12-17
-base_card: verb-irr/001_suru
-related_phrases: [dou_suru, dou_shiyou, kou_suru, sou_suru]
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "draft"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 11
+  pending: 0
+  verified_date: 2025-12-26
+---
 ## 日文
 
 どうしますか

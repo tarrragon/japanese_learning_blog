@@ -2,13 +2,8 @@
 title: から・より
 description: から vs より - 起點助詞對比
 type: particle
-subtype: comparison
 jlpt: n4
 stage: draft
-draft: false
-auto_generated: false
-needs_review: true
-comparison_items: [kara, yori]
 tags:
   - comparison
   - particle
@@ -16,8 +11,28 @@ tags:
   - context/casual
 created: 2025-12-17
 updated: 2025-12-17
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "draft"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 9
+  pending: 0
+  verified_date: 2025-12-26
+---
 ## 日文
 
 から vs より（起点を表す助詞の比較）

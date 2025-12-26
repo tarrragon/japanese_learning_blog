@@ -1,18 +1,35 @@
 ---
 title: "書面語"
-japanese: "書き言葉"
-english: "Written Language"
 type: concept
 jlpt: n3
-category: concept
-related_words:
-  - '[口語](../../concept/9_colloquial_language.md)'
-  - '[フォーマル](../../adjective/19_formal.md)'
+stage: pending
 tags:
   - 語用
   - 文体
----
+created: 2025-12-26
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 4
+  pending: 0
+  verified_date: 2025-12-26
+---
 ## 中文解釋
 
 「書面語」（書き言葉，かきことば）是指用於書寫的語言形式。相較於口語，書面語具有更正式、嚴謹的特徵，常見於書籍、報紙、公文、學術論文等書面文件中。書面語使用完整的文法結構，避免口語化的省略與縮約，並且傾向使用較正式的詞彙與表達方式。

@@ -2,7 +2,6 @@
 title: なら
 description: なら - 話題條件/建議前提（基於對方提出的話題或情況）
 type: grammar
-subtype: conditional
 jlpt: n4
 stage: completed
 tags:
@@ -13,10 +12,28 @@ tags:
   - jlpt/n4
 created: 2025-10-30
 updated: 2025-10-30
-applies_to: [verb, adj-i, adj-na, noun]
-related_grammar: [tara, ba-jouken, to-jouken]
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "completed"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 6
+  pending: 0
+  verified_date: 2025-12-26
+---
 ## 日文
 
 なら（話題条件）

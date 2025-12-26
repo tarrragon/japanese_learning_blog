@@ -2,13 +2,8 @@
 title: と vs たら vs ば vs なら
 description: 四種條件形總對比（と・たら・ば・なら）
 type: comparison
-subtype: grammar_comparison
-comparison_items: [grammar/to-jouken, grammar/tara, grammar/ba-jouken, grammar/nara]
 jlpt: n4
 stage: draft
-draft: false
-auto_generated: false
-needs_review: true
 tags:
   - context/formal
   - context/casual
@@ -16,8 +11,28 @@ tags:
   - jlpt/n4
 created: 2025-11-03
 updated: 2025-11-03
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "draft"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 10
+  pending: 0
+  verified_date: 2025-12-26
+---
 ## 日文
 
 日本語の四大条件形総対比

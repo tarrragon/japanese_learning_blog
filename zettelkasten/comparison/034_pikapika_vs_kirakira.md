@@ -1,14 +1,40 @@
 ---
 title: "ピカピカ vs キラキラ"
-date: 2025-12-22
+jlpt: n4
+stage: pending
 tags:
   - mimetics
   - adverb
   - onomatopoeia
   - visual-effect
-jlpt: n4
----
+created: 2025-12-22
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: false
+  chinese: false
+  examples_count: 0
+  pending_links:
+    - "擬態語系統"
+    - "光的表現"
+    - "清潔相關詞彙"
+    - "視覺效果擬態語"
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 0
+  pending: 4
+  verified_date: 2025-12-26
+---
 # ピカピカ vs キラキラ
 
 ## 比較主題

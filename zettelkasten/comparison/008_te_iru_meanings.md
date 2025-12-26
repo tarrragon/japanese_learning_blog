@@ -2,7 +2,6 @@
 title: 〜ている的多重意義
 description: 〜ている的多重意義 - 進行、結果狀態、習慣、職業的完整解析
 type: comparison
-subtype: grammar_pattern
 jlpt: n5
 stage: draft
 tags:
@@ -14,15 +13,28 @@ tags:
   - domain/linguistics
 created: 2025-10-30
 updated: 2025-10-30
-related_grammar:
-  - grammar/022_te_iru
-  - verb-irr/003_iru
-related_concepts:
-  - verb_classification
-  - aspect_system
-  - tense_vs_aspect
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "draft"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 8
+  pending: 0
+  verified_date: 2025-12-26
+---
 ## 日文
 
 **〜ている形の多義性**

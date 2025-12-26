@@ -1,17 +1,36 @@
 ---
-id: keigo-003
 title: "どうするの敬語"
-japanese: "どうするの敬語"
-date: 2025-12-22
+stage: pending
 tags:
   - keigo
   - verb
   - honorific
   - jlpt-n4
-jlpt_level: n4
-category: keigo
----
+created: 2025-12-22
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: true
+  chinese: false
+  examples_count: 0
+  pending_links:
+    - "ます形"
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 4
+  pending: 1
+  verified_date: 2025-12-26
+---
 # どうするの敬語
 
 ## 定義

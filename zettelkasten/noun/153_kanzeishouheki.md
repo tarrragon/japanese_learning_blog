@@ -1,18 +1,36 @@
 ---
-id: "082"
 title: "関税障壁"
-title_reading: "かんぜいしょうへき"
-category: "noun"
+stage: pending
 tags:
   - domain/経済学
   - domain/商業
-jlpt_level: "n1"
-created_at: "2025-12-22"
-updated_at: "2025-12-22"
-version: "1.3.2"
-status: "draft"
----
+created: 2025-12-26
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: true
+  chinese: false
+  examples_count: 0
+  pending_links:
+    - "貿易障壁"
+    - "自由貿易協定"
+    - "非関税障壁"
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 2
+  pending: 3
+  verified_date: 2025-12-26
+---
 # 関税障壁
 
 ## 基本情報

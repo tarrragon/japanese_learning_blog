@@ -1,14 +1,38 @@
 ---
-japanese: 現金
-romaji: genkin
-chinese: 現金
-english: cash
 jlpt: n3
+stage: pending
 tags:
   - domain/経済学
   - concept/money
----
+created: 2025-12-26
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links:
+    - "貨幣"
+    - "銀行預金"
+    - "電子マネー"
+    - "決済"
+    - "キャッシュレス"
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 0
+  pending: 5
+  verified_date: 2025-12-26
+---
 # 現金（げんきん）
 
 ## 日文解釋

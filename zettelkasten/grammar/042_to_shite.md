@@ -2,19 +2,39 @@
 title: ～として
 description: ～として - 作為...（表達身份、角色、立場、資格）
 type: grammar
-subtype: role_pattern
 jlpt: n3
 stage: completed
-draft: false
-auto_generated: false
-needs_review: false
-tags: [grammar, jlpt/n3, role, capacity, particle_to, context/formal]
+tags:
+  - grammar
+  - jlpt/n3
+  - role
+  - capacity
+  - particle_to
+  - context/formal
 created: 2025-10-30
 updated: 2025-10-30
-base_card: verb-irr/001_suru
-related_words: [として, に, で]
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "completed"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 8
+  pending: 0
+  verified_date: 2025-12-26
+---
 ## 日文
 
 ### 文法形式

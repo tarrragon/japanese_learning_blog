@@ -1,18 +1,35 @@
 ---
-id: comparison-017
 title: 一石二鳥 vs 一挙両得
-japanese: 一石二鳥 vs 一挙両得
-romaji: isseki nichō vs ikkyo ryōtoku
-category: comparison
+jlpt: n3
+stage: pending
 tags:
   - idiom
   - four-character-idiom
   - similarity
-jlpt: n3
 created: 2025-12-22
-dictionary: null
----
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 0
+  pending: 0
+  verified_date: 2025-12-26
+---
 ## 日本語の説明
 
 **一石二鳥（いっせきにちょう）** と **一挙両得（いっきょりょうとく）** は、どちらも「一つの行動で二つの利益を得る」という意味の四字熟語です。

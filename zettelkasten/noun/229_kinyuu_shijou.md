@@ -1,17 +1,40 @@
 ---
-id: "229"
 title: "金融市場"
-japanese: "きんゆうしじょう"
-category: "noun"
-created_date: "2025-12-26"
-tags: ["経済", "金融", "市場", "N1"]
-references:
-  - "201_kigyou.md"
-  - "226_shouken.md"
-  - "227_kabushiki.md"
-  - "228_fusai.md"
----
+stage: pending
+tags:
+  - "経済"
+  - "金融"
+  - "市場"
+  - "N1"
+created: 2025-12-26
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: false
+  chinese: false
+  examples_count: 0
+  pending_links:
+    - "市場経済"
+    - "需要と供給"
+    - "中央銀行"
+    - "金融政策"
+    - "金融商品"
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 4
+  pending: 6
+  verified_date: 2025-12-26
+---
 # 金融市場（きんゆうしじょう）
 
 ## 基本解釋

@@ -1,22 +1,34 @@
 ---
-japanese: ましょう形
-category: grammar
+stage: pending
 tags:
   - verb-conjugation
   - proposal
   - invitation
   - polite-speech
-related_cards:
-  - zettelkasten/grammar/088_ishikei.md
-  - zettelkasten/grammar/089_mashou.md
-  - zettelkasten/grammar/002_masu_kei.md
-  - zettelkasten/grammar/143_tai_kei.md
-  - zettelkasten/grammar/226_masenka.md
-references:
-  - 『みんなの日本語 初級 I』第 13 課
-  - 『日本語文法辞典』
----
+created: 2025-12-26
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 5
+  pending: 0
+  verified_date: 2025-12-26
+---
 # ましょう形
 
 ## 基本資訊

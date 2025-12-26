@@ -2,7 +2,6 @@
 title: いただく
 description: いただく - 接受、收到（謙讓語）
 type: verb
-subtype: u_verb
 jlpt: n4
 stage: draft
 tags:
@@ -11,10 +10,28 @@ tags:
   - domain/communication
 created: 2025-10-30
 updated: 2025-10-30
-synonyms: [morau]
-related_words: [morau, kudasaru, ageru, sashiageru]
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "draft"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 7
+  pending: 0
+  verified_date: 2025-12-26
+---
 ## 日文
 
 いただく（頂く）

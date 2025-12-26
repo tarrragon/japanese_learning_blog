@@ -4,17 +4,36 @@ description: "あげる/もらう/くれる的敬語形式與視點轉換"
 type: keigo
 jlpt: n4
 stage: pending
-draft: true
-auto_generated: false
-needs_review: true
 tags:
   - 授受動詞
   - 敬語系統
   - 視點表現
 created: 2025-12-22
 updated: 2025-12-22
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links:
+    - "差し上げる（謙讓語：給予）"
+    - "〜て差し上げる"
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 9
+  pending: 2
+  verified_date: 2025-12-26
+---
 日文授受表現的完整系統，包含普通形式（あげる/もらう/くれる）與敬語形式（差し上げる/いただく/くださる）的視點轉換與使用規範。
 
 <!--more-->

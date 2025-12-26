@@ -1,14 +1,37 @@
 ---
-id: 39
 title: "受身形 vs 可能形（一段動詞）"
 type: comparison
-category: comparison
-tags: [jlpt-n4, grammar, ichidan-verbs, passive-form, potential-form]
+stage: pending
+tags:
+  - jlpt-n4
+  - grammar
+  - ichidan-verbs
+  - passive-form
+  - potential-form
 created: 2025-12-24
 updated: 2025-12-24
-aliases: [受身形と可能形の違い, passive vs potential ichidan]
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: false
+  chinese: false
+  examples_count: 6
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 5
+  pending: 0
+  verified_date: 2025-12-26
+---
 ## 核心區別
 
 | 比較項目 | 受身形（Passive） | 可能形（Potential） |

@@ -1,19 +1,42 @@
 ---
-id: "140"
 title: "お/ご～する"
-japanese: "お/ご～する"
 type: grammar
-subtype: humble
 jlpt: n3
+stage: draft
 tags:
   - 敬語
   - 謙讓語
   - honorific
   - humble_speech
 created: 2025-12-24
-stage: draft
----
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "draft"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links:
+    - "お/ご～になる"
+    - "お/ご～ください"
+    - "いただく"
+    - "申し上げる"
+    - "伺う"
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 0
+  pending: 8
+  verified_date: 2025-12-26
+---
 # お/ご～する
 
 ## 中文解釋

@@ -2,12 +2,8 @@
 title: 活用
 description: 活用 - 動詞、形容詞、助動詞等根據語法功能而改變形式的變化系統
 type: concept
-subtype: linguistic_theory
 jlpt: concept
 stage: draft
-draft: false
-auto_generated: false
-needs_review: true
 tags:
   - concept
   - grammar
@@ -16,8 +12,28 @@ tags:
   - domain/linguistics
 created: 2025-10-31
 updated: 2025-10-31
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "draft"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 19
+  pending: 0
+  verified_date: 2025-12-26
+---
 ## 日文
 
 活用（かつよう）

@@ -1,15 +1,35 @@
 ---
-id: "077"
 title: "資産"
-date: 2025-12-22
-tags: ["domain/経済学", "domain/金融", "JLPT/N2"]
-status: "draft"
-origin: "v1.3.2"
-dictionary:
-  sources: []
-  readings: []
----
+stage: pending
+tags:
+  - "domain/経済学"
+  - "domain/金融"
+  - "JLPT/N2"
+created: 2025-12-22
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links:
+    - "財産"
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 4
+  pending: 1
+  verified_date: 2025-12-26
+---
 # 資産（しさん）
 
 ## 日文解釈

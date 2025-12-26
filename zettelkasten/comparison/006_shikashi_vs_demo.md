@@ -1,9 +1,7 @@
 ---
-id: comparison-003
 title: "しかし vs でも"
 type: comparison
-category: comparison
-jlpt_level: n4
+stage: pending
 tags:
   - comparison
   - grammar
@@ -11,11 +9,32 @@ tags:
   - adversative
 created: 2025-12-22
 updated: 2025-12-22
-status: active
-japanese_term: "しかし vs でも"
-chinese_term: "逆接接續詞比較"
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links:
+    - "逆接接続詞"
+    - "けれども"
+    - "文語と口語"
+    - "接続詞の種類"
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 0
+  pending: 4
+  verified_date: 2025-12-26
+---
 # しかし vs でも
 
 ## 日文解釋

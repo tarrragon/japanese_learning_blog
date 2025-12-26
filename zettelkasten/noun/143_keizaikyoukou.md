@@ -1,17 +1,34 @@
 ---
-id: "081"
 title: "経済恐慌"
-title_en: "keizaikyōkō"
-category: "noun"
-jlpt_level: "n1"
-date_created: "2025-12-22"
-date_modified: "2025-12-22"
-status: "draft"
+stage: pending
 tags:
   - "domain/経済学"
-dictionary: {}
----
+created: 2025-12-26
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links:
+    - "金融危機"
+    - "恐慌"
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 2
+  pending: 2
+  verified_date: 2025-12-26
+---
 # 経済恐慌
 
 ## 基本資訊

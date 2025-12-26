@@ -1,16 +1,40 @@
 ---
 title: 日語基本句型
-date: 2025-12-26
+stage: pending
 tags:
   - grammar
   - sentence-structure
   - sov-order
   - predicate
-card_id: 155
-category: grammar
-status: draft
----
+created: 2025-12-26
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links:
+    - "動詞分類"
+    - "助詞系統"
+    - "形容詞活用"
+    - "です・だ"
+    - "主語標記：は vs が"
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 0
+  pending: 5
+  verified_date: 2025-12-26
+---
 ## 中文
 
 日語的基本句型遵循「主語（S）-賓語（O）-述語（V）」的語序結構，與中文的 SVO 語序不同。述語位於句尾，是句子的核心成分，決定句子的時態、肯定/否定、敬體/常體等語法特徵。

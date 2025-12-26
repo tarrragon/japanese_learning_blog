@@ -1,19 +1,36 @@
 ---
-id: adj-i-005
 title: 高い (takai)
-japanese: 高い
-category: adj-i
-tags: [i-adjective, n5, daily-use, polysemy]
-created: 2025-12-22
 jlpt: n5
-dictionary:
-  reading: たかい
-  kanji: 高い
-  pos: 形容詞
-  pos_details: 形
-  definition_ja: 空間的に基準面よりかなり上にある。
----
+stage: pending
+tags:
+  - i-adjective
+  - n5
+  - daily-use
+  - polysemy
+created: 2025-12-22
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 6
+  pending: 0
+  verified_date: 2025-12-26
+---
 # 高い (takai)
 
 ## 解釋

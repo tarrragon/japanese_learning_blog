@@ -1,20 +1,35 @@
 ---
-id: 159
 title: "〜と思う"
-category: grammar
-tags: [opinion, judgment, subjective-expression, verb-attachment]
-difficulty: beginner
+stage: pending
+tags:
+  - opinion
+  - judgment
+  - subjective-expression
+  - verb-attachment
 created: 2025-12-26
 updated: 2025-12-26
-references:
-  - "【待建立】〜と思います（丁寧形）"
-  - "【待建立】〜と思われる（推量形）"
-  - "【待建立】〜と考える（考慮形）"
-related:
-  - "【待建立】〜だろう（推測）"
-  - "【待建立】〜かもしれない（可能性）"
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: false
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 0
+  pending: 0
+  verified_date: 2025-12-26
+---
 # 〜と思う
 
 ## 解釋

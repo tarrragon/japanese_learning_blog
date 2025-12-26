@@ -1,14 +1,38 @@
 ---
-japanese: 税収
-romaji: zeishuu
-chinese: 稅收
-english: tax revenue
 jlpt: n2
+stage: pending
 tags:
   - domain/経済学
   - concept/public-finance
----
+created: 2025-12-26
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links:
+    - "歳入"
+    - "財政"
+    - "税金"
+    - "消費税"
+    - "国債"
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 0
+  pending: 6
+  verified_date: 2025-12-26
+---
 # 税収（ぜいしゅう）
 
 ## 日文解釋

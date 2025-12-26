@@ -1,12 +1,42 @@
 ---
 title: "ましょう"
-date: 2025-12-24
 type: grammar
 jlpt: n5
-tags: [勧誘表現, 提案, 動詞活用, 丁寧語]
-aliases: []
----
+stage: pending
+tags:
+  - 勧誘表現
+  - 提案
+  - 動詞活用
+  - 丁寧語
+created: 2025-12-24
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links:
+    - "動詞活用"
+    - "ます形"
+    - "ませんか"
+    - "意志形"
+    - "勧誘表現"
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 0
+  pending: 5
+  verified_date: 2025-12-26
+---
 ## 中文解釋
 
 「ましょう」是日語中表示勸誘、提議的文法形式，用於禮貌地邀請對方一起做某事。它是動詞ます形的意志形，常譯為「我們一起…吧」、「讓我們…吧」。語氣委婉、友好，適用於正式場合或對長輩、上司使用。

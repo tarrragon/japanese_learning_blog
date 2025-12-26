@@ -1,19 +1,35 @@
 ---
-id: 150
 title: "そのため"
-japanese: "そのため"
-category: "grammar"
 jlpt: "n3"
-tags: ["接続詞", "因果関係", "書き言葉"]
-audio: ""
-related_cards:
-  - "[だから](../grammar/007_dakara.md)"
-  - "[それで](../grammar/008_sorede.md)"
-  - "[したがって](../grammar/【待建立】.md)"
+stage: pending
+tags:
+  - "接続詞"
+  - "因果関係"
+  - "書き言葉"
 created: "2025-12-26"
 updated: "2025-12-26"
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: false
+  chinese: false
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 6
+  pending: 0
+  verified_date: 2025-12-26
+---
 ## 説明 (Japanese)
 
 **そのため**は書き言葉で使われる接続詞で、前文の理由から当然の結果や結論を導く表現です。「その」は前文の内容を指し、「ため」は理由・原因を表します。話し言葉の「だから」「それで」に比べて、よりフォーマルで客観的な印象を与えます。

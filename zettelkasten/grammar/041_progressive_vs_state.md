@@ -2,7 +2,6 @@
 title: 進行形 vs 狀態形
 description: 進行形 vs 狀態形 - 〜ている的兩大核心意義區別
 type: grammar
-subtype: aspect
 jlpt: n5
 stage: completed
 tags:
@@ -11,13 +10,28 @@ tags:
   - grammar/verb-classification
 created: 2025-10-30
 updated: 2025-10-30
-related_grammar:
-  - te_iru
-  - verb_types
-  - resultant_state
-  - progressive_aspect
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "completed"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: true
+  chinese: true
+  examples_count: 12
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 12
+  pending: 0
+  verified_date: 2025-12-26
+---
 ## 日文
 
 **進行形と結果状態の区別**

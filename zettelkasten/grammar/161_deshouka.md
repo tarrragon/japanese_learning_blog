@@ -2,20 +2,36 @@
 title: "～でしょうか"
 description: "詢問或確認的禮貌表現"
 type: grammar
-subtype: pattern
 jlpt: n4
 stage: draft
-draft: true
-auto_generated: false
-needs_review: true
 tags:
   - question
   - polite
   - uncertainty
 created: 2025-12-26
 updated: 2025-12-26
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "draft"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 0
+  pending: 0
+  verified_date: 2025-12-26
+---
 詢問或確認某事的禮貌疑問表現，比「～ですか」更委婉。
 
 <!--more-->

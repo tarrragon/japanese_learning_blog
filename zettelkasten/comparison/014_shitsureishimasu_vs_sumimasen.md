@@ -1,24 +1,37 @@
 ---
-card_id: comparison_007
 title: "失礼します vs すみません"
-created: 2025-12-22
-updated: 2025-12-22
+stage: pending
 tags:
   - comparison
   - politeness
   - business-japanese
   - daily-expression
-category: comparison
-jlpt_level: n4
-related_cards:
-  - comparison_001
-  - greeting_001
-  - greeting_002
-backlinks: []
-difficulty: intermediate
-mastery_level: 0
----
+created: 2025-12-22
+updated: 2025-12-22
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: true
+  chinese: true
+  examples_count: 5
+  pending_links:
+    - "greeting_001"
+    - "greeting_002"
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 3
+  pending: 2
+  verified_date: 2025-12-26
+---
 # 失礼します vs すみません
 
 ## 三語對照

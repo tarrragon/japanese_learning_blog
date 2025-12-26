@@ -1,18 +1,39 @@
 ---
 title: "意志形"
 type: grammar
-category: grammar
 jlpt: n4
-tags: [動詞活用, 意志表現, 勧誘表現]
-related:
-  - "[命令形](084_meirei_kei.md)"
-  - "[可能形](087_kanou_kei.md)"
-  - "[受身形](待建立)"
-  - "[使役形](待建立)"
-  - "[〜つもり](086_tsumori.md)"
-  - "[〜ましょう](待建立)"
----
+stage: pending
+tags:
+  - 動詞活用
+  - 意志表現
+  - 勧誘表現
+created: 2025-12-26
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links:
+    - "受身形"
+    - "使役形"
+    - "〜ましょう"
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 6
+  pending: 3
+  verified_date: 2025-12-26
+---
 # 意志形
 
 ## 中文解釋

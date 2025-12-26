@@ -2,20 +2,36 @@
 title: ば vs たら
 description: ば條件形與たら條件形的對比辨析
 type: comparison
-comparison_items: [ば, たら]
 jlpt: n4
 stage: draft
-draft: false
-auto_generated: false
-needs_review: true
 tags:
   - comparison
   - domain/linguistics
   - context/formal
 created: 2025-10-31
 updated: 2025-10-31
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "draft"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 10
+  pending: 0
+  verified_date: 2025-12-26
+---
 ## 概述
 
 「ば」和「たら」都是日文中表達條件的重要形式，但它們在語義、語用和使用場景上有明顯差異。「ば」偏向假設性和邏輯推論，帶有正式或書面的語氣；而「たら」則更加靈活口語，可表達假設、發現和時間先後等多種意義，是日常會話中的首選。

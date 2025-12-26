@@ -1,18 +1,33 @@
 ---
-id: noun-076
-category: noun
-japanese: 利子
-romaji: rishi
-chinese: 利息
-english: interest
 jlpt: n3
+stage: pending
 tags:
   - domain/経済学
   - domain/金融
-related_cards: []
 created: 2025-12-22
----
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 0
+  pending: 0
+  verified_date: 2025-12-26
+---
 # 利子（りし）
 
 ## 定義

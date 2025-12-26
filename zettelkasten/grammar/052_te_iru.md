@@ -2,7 +2,6 @@
 title: 〜ている
 description: 〜ている形 - 日文的進行式與狀態表達（進行、結果、習慣、職業四大用法）
 type: grammar
-subtype: verb_form
 jlpt: n5
 stage: completed
 tags:
@@ -12,16 +11,28 @@ tags:
   - context/formal
 created: 2025-10-30
 updated: 2025-10-30
-related_words:
-  - te_form
-  - iru
-  - verb_conjugation
-related_grammar:
-  - te_form
-  - verb_types
-  - aspect_system
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "completed"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 13
+  pending: 0
+  verified_date: 2025-12-26
+---
 ## 日文
 
 **〜ている**（て形 + いる）

@@ -11,9 +11,28 @@ tags:
   - jlpt/n4
 created: 2025-12-17
 updated: 2025-12-17
-related_words: [tsumori, yotei, hazu]
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "draft"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 10
+  pending: 0
+  verified_date: 2025-12-26
+---
 ## 日文
 
 つもりだった

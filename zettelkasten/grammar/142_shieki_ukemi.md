@@ -1,17 +1,36 @@
 ---
-id: 142
 title: "使役受身"
 type: grammar
-category: grammar
+jlpt: n3
+stage: pending
 tags:
   - verb-form
   - n3
   - causative-passive
-jlpt: n3
-related:
-  - 待建立
----
+created: 2025-12-26
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: false
+  chinese: false
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 0
+  pending: 0
+  verified_date: 2025-12-26
+---
 ## 解釋（日文）
 
 使役受身は、使役形と受身形を組み合わせた文法形式である。「誰かに何かをさせられる」という意味を表し、話し手が望まないことを強制的にさせられる状況を示す。使役形に受身の「れる・られる」を接続することで形成される。

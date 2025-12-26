@@ -1,23 +1,36 @@
 ---
 title: "對比與焦點"
-japanese: "対比と焦点"
 type: grammar
 jlpt: n3
-category: grammar
-created: 2025-12-26
-updated: 2025-12-26
-aliases: ["contrast and focus", "は vs が"]
-related:
-  - "[助詞「は」](../../particles/001_wa.md)"
-  - "[助詞「が」](../../particles/002_ga.md)"
-  - "[主題標記](../../grammar/待建立.md)"
-  - "[舊訊息與新訊息](../../grammar/待建立.md)"
+stage: pending
 tags:
   - particle-usage
   - information-structure
   - は-が-distinction
----
+created: 2025-12-26
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 4
+  pending: 0
+  verified_date: 2025-12-26
+---
 # 對比與焦點
 
 ## 中文解釋

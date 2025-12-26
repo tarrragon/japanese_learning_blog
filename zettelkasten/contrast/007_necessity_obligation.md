@@ -2,20 +2,36 @@
 title: 必要 vs 義務
 description: 必要 vs 義務 詳細比較 - 必要性與義務的語義辨析
 type: contrast
-comparison_items: [noun/hitsuyo, noun/gimu]
 jlpt: n4
 stage: draft
-draft: false
-auto_generated: false
-needs_review: true
 tags:
   - vocabulary_distinction
   - context/formal
   - context/business
 created: 2025-11-03
 updated: 2025-11-03
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "draft"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 11
+  pending: 0
+  verified_date: 2025-12-26
+---
 ## 概述
 
 「必要」和「義務」都涉及「必須做某事」的概念,但在語義、使用情境和強制程度上有明確差異。「必要」強調客觀的需求性,表示為達成目標所不可或缺的條件;「義務」則強調道德、法律或社會上的強制性責任,帶有「應當履行」的義務感。理解這兩個詞的區別,有助於在不同情境下準確表達需求與責任的性質。

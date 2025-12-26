@@ -1,15 +1,38 @@
 ---
 title: 義務（ぎむ）
 description: 義務、責任、責務
+stage: draft
 tags:
   - context/formal
   - domain/learning
   - jlpt/n3
-date: 2025-10-31
-stage: draft
-links: {}
----
+created: 2025-10-31
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "draft"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 5
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 6
+  pending: 0
+  verified_date: 2025-12-26
+
+# 連結
+links:
+---
 ## 日文
 
 義務（ぎむ）

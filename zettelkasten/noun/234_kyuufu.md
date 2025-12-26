@@ -1,16 +1,39 @@
 ---
-id: noun-234
 title: "給付"
-japanese: "給付"
-reading: "きゅうふ"
-category: "noun"
+stage: pending
 tags:
   - "N1"
   - "経済"
   - "法律"
 created: 2025-12-26
----
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links:
+    - "支払い"
+    - "支給"
+    - "交付"
+    - "支出"
+    - "受給"
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 0
+  pending: 5
+  verified_date: 2025-12-26
+---
 # 給付（きゅうふ）
 
 ## 中文解釋

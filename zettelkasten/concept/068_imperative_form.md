@@ -2,12 +2,8 @@
 title: 命令形（めいれいけい）
 description: 動詞的命令形態，用於表達命令、指示或強烈要求
 type: concept
-subtype: grammar_concept
 jlpt: n4
 stage: draft
-draft: true
-auto_generated: false
-needs_review: true
 tags:
   - grammar_structure
   - verb_conjugation
@@ -15,8 +11,28 @@ tags:
   - jlpt/n4
 created: 2025-12-26
 updated: 2025-12-26
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "draft"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 0
+  pending: 0
+  verified_date: 2025-12-26
+---
 動詞命令形是日文文法中的重要概念，用於表達直接命令、指示或強烈要求。
 
 <!--more-->

@@ -2,12 +2,8 @@
 title: "〜ました"
 description: ました形は丁寧体における過去・完了の表現形式で、礼儀正しく過去の出来事を述べる際に使用します
 type: grammar
-subtype: verb_conjugation
 jlpt: n5
 stage: draft
-draft: false
-auto_generated: false
-needs_review: true
 tags:
   - jlpt/n5
   - verb_conjugation
@@ -16,8 +12,28 @@ tags:
   - context/daily_life
 created: 2025-10-31
 updated: 2025-10-31
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "draft"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: true
+  chinese: false
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 18
+  pending: 0
+  verified_date: 2025-12-26
+---
 # ました（Mashita / Polite Past Form）
 
 ## 定義

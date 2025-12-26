@@ -2,12 +2,8 @@
 title: "〜たことがある"
 description: たことがある - 經驗的表達方式（曾經做過某事）
 type: grammar
-subtype: experience
 jlpt: n5
 stage: completed
-draft: false
-auto_generated: false
-needs_review: false
 tags:
   - grammar
   - jlpt/n5
@@ -15,6 +11,29 @@ tags:
   - ta-form
   - past-experience
   - basic
+created: 2025-12-26
+updated: 2025-12-26
+
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "completed"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 14
+  pending: 0
+  verified_date: 2025-12-26
 ---
 # たことがある - Experience Pattern (Have Done Something)
 

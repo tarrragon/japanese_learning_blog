@@ -2,13 +2,36 @@
 title: 学ぶ（まなぶ）
 description: 學習
 type: verb
-subtype: godan
 jlpt: n5
-tags: [education, learning, active_learning]
-created: 2025-10-31
 stage: extension-review
----
+tags:
+  - education
+  - learning
+  - active_learning
+created: 2025-10-31
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "extension-review"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 11
+  pending: 0
+  verified_date: 2025-12-26
+---
 ## 日文
 学ぶ（まなぶ）
 

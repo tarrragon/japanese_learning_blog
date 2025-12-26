@@ -1,18 +1,35 @@
 ---
-id: 159
 title: "〜なくて"
-japanese: "〜なくて"
-translation_zh_tw: "否定て形"
-translation_en: "Negative Te-form"
-category: "grammar"
-created_at: 2025-12-26
-last_reviewed: 2025-12-26
-tags: ["negative", "conjugation", "N5"]
-priority: "LOW"
-status: "active"
-link_count: 0
----
+stage: pending
+tags:
+  - "negative"
+  - "conjugation"
+  - "N5"
+created: 2025-12-26
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: true
+  chinese: false
+  examples_count: 0
+  pending_links:
+    - "待建立"
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 0
+  pending: 1
+  verified_date: 2025-12-26
+---
 # 〜なくて
 
 ## 繁體中文解釋

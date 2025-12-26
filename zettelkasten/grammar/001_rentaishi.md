@@ -1,23 +1,39 @@
 ---
 title: 連体詞
 description: 只能修飾名詞、不能單獨使用的品詞
+type: linguistics
+stage: pending
 tags:
   - context/formal
   - context/casual
   - jlpt/n4
-date: 2025-12-22
-links:
-  形容詞: ../extension/concept/026_keiyoushi.md
-  名詞修飾: 056_rentai_shushoku.md
-extensions:
-  - title: 連体詞 vs. い形容詞（修飾功能對比）
-    path: ../extension/comparison/待建立
-    type: comparison
-  - title: 連体詞的歴史演変
-    path: ../extension/linguistics/待建立
-    type: linguistics
----
+created: 2025-12-22
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 5
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 5
+  pending: 0
+  verified_date: 2025-12-26
+
+# 連結
+links:
+---
 ## 日文
 連体詞（れんたいし）
 

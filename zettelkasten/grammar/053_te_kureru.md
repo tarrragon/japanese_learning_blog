@@ -2,7 +2,6 @@
 title: 〜てくれる
 description: 〜てくれる（他人為我方做某事）
 type: grammar
-subtype: auxiliary_verb
 jlpt: n5
 stage: completed
 tags:
@@ -11,8 +10,28 @@ tags:
   - family
 created: 2025-10-30
 updated: 2025-10-30
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "completed"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 13
+  pending: 0
+  verified_date: 2025-12-26
+---
 ## 日文
 
 〜てくれる（〜てくださる）

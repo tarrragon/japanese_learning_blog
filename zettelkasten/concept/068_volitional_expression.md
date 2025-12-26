@@ -1,28 +1,34 @@
 ---
-id: 068
-title: "意志表達"
-category: concept
+title: "予定"
+stage: pending
 tags:
   - 文法
   - 意志
   - 表現形式
-related_cards:
-  - id: "027"
-    title: "意向形"
-    path: "../grammar/027_volitional_form.md"
-    relation: "基礎文法"
-  - id: "074"
-    title: "つもり"
-    path: "../grammar/074_tsumori.md"
-    relation: "意志表現"
-  - id: "076"
-    title: "予定"
-    path: "../grammar/076_yotei.md"
-    relation: "相關概念"
 created: 2025-12-26
 updated: 2025-12-26
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 3
+  pending: 0
+  verified_date: 2025-12-26
+---
 # 意志表達（Volitional Expression）
 
 ## 概念說明

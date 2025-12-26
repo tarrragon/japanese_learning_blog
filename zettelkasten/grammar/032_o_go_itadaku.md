@@ -2,24 +2,38 @@
 title: お/ご～いただく
 description: お/ご～いただく - 更謙遜的謙讓語表達
 type: grammar
-subtype: honorific_pattern
 jlpt: n4
 stage: completed
-draft: false
-auto_generated: false
-needs_review: false
-completed: 2025-10-30
 tags:
   - jlpt/n4
   - honorific
   - keigo
   - humble_form
   - formal
-related_grammar: [o_go_suru, o_go_ni_naru, keigo_system]
 created: 2025-10-30
 updated: 2025-10-30
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "completed"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 5
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 9
+  pending: 0
+  verified_date: 2025-12-26
+---
 ## 日文
 
 お/ご～いただく（お/ご～いただく）

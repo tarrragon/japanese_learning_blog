@@ -126,6 +126,14 @@ tags: [daily_life]          # 保留
 # 更新以下欄位
 stage: draft                # pending → draft
 updated: {今日日期}         # 更新日期
+
+# v1.5.0 新增：更新 content_verification
+content_verification:
+  japanese: true            # 填充後改為 true
+  english: true             # 填充後改為 true
+  chinese: true             # 填充後改為 true
+  examples_count: 3         # 實際例句數量
+  pending_links: []         # 待建立連結列表
 ```
 
 **步驟 2.4：讀取字典資料（新增！）**

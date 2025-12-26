@@ -1,13 +1,35 @@
 ---
 title: "他動詞與自動詞"
 type: grammar
-status: active
-created: 2025-12-26
-tags: [verb, jlpt-n4]
 jlpt: n4
-aliases: [transitive-intransitive, 他自動詞]
----
+stage: pending
+tags:
+  - verb
+  - jlpt-n4
+created: 2025-12-26
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 2
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 8
+  pending: 0
+  verified_date: 2025-12-26
+---
 ## 概念
 
 ### 日文解釋

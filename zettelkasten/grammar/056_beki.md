@@ -4,12 +4,34 @@ description: 應該、義務建議（表達義務、應然、道德規範的助�
 type: grammar
 jlpt: n3
 stage: completed
-tags: [grammar, modal, formal]
-related_words: [hou_ga_ii, nakereba_naranai, beku]
+tags:
+  - grammar
+  - modal
+  - formal
 created: 2025-10-30
 updated: 2025-10-30
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "completed"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 6
+  pending: 0
+  verified_date: 2025-12-26
+---
 ## 日文
 べき
 

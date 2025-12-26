@@ -1,23 +1,32 @@
 ---
-id: noun-074
-category: noun
-japanese: 供給
-romaji: kyoukyuu
-hiragana: きょうきゅう
-chinese: 供給
-english: supply
 jlpt: N2
+stage: pending
 tags:
   - domain/経済学
-dictionary:
-  found: false
-  sources: {}
-  data: {}
-status: draft
 created: 2025-12-22
 updated: 2025-12-22
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 6
+  pending: 0
+  verified_date: 2025-12-26
+---
 # 供給（きょうきゅう）
 
 ## 1. 基本解釋

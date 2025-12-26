@@ -2,7 +2,6 @@
 title: いる vs ある
 description: いる vs ある - 存在動詞的生命性區分（有生命 vs 無生命）
 type: comparison
-subtype: verb_pair
 jlpt: n5
 stage: draft
 tags:
@@ -13,20 +12,28 @@ tags:
   - critical
 created: 2025-10-30
 updated: 2025-10-30
-comparison_items:
-  - いる
-  - ある
-compared_cards:
-  - verb-irr/003_iru
-  - verb-irr/004_aru
-related_words:
-  - 存在
-  - 生命性
-  - 有生命
-  - 無生命
-  - animacy
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "draft"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 17
+  pending: 0
+  verified_date: 2025-12-26
+---
 # いる vs ある - 存在動詞的生命性區分
 
 ## 日文

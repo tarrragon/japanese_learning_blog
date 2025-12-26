@@ -2,13 +2,8 @@
 title: まで
 description: まで - 終點助詞（直到、到...為止）
 type: particle
-subtype: endpoint
 jlpt: n5
 stage: completed
-draft: false
-auto_generated: true
-needs_review: false
-completed: 2025-10-30
 tags:
   - grammar
   - jlpt/n5
@@ -18,12 +13,27 @@ tags:
   - basic
 created: 2025-10-30
 updated: 2025-10-30
-related_to:
-  - 004_kara.md
-  - 008_ni.md
-  - 007_wa.md
-generated_cards: [../grammar/031_made_vs_madeni]
-generated_date: 2025-10-30
+
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "completed"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 19
+  pending: 0
+  verified_date: 2025-12-26
 ---
 # まで - Until/To/Up To Particle
 

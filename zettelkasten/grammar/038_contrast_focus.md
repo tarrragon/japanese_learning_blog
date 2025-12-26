@@ -2,15 +2,39 @@
 title: 對比與焦點
 description: 對比與焦點 - は的對比功能與焦點理論
 type: grammar
-subtype: linguistic_theory
 jlpt: n2
 stage: completed
-tags: [grammar, linguistic_theory, contrast, focus, topic_marking, information_structure]
+tags:
+  - grammar
+  - linguistic_theory
+  - contrast
+  - focus
+  - topic_marking
+  - information_structure
 created: 2025-10-30
 updated: 2025-10-30
-generated_by: particle/007_wa
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "completed"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 7
+  pending: 0
+  verified_date: 2025-12-26
+---
 ## 日文
 対比と焦点（たいひとしょうてん）
 

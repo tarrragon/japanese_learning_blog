@@ -2,18 +2,37 @@
 title: 着く（つく）
 description: 着く - 到達、抵達
 type: verb
-subtype: godan
 jlpt: n5
 stage: extension-review
-draft: false
-auto_generated: true
-needs_review: false
-completed: 2025-10-31
-tags: [basic, domain/daily_life, verb, movement, arrival]
+tags:
+  - basic
+  - domain/daily_life
+  - verb
+  - movement
+  - arrival
 created: 2025-10-31
-related_to:
-  - ../grammar/006_godan_verb.md
-  - ../particle/002_ni.md
+updated: 2025-12-26
+
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "extension-review"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 11
+  pending: 0
+  verified_date: 2025-12-26
 ---
 ## 日文
 着く（つく）

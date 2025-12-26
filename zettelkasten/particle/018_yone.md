@@ -1,19 +1,35 @@
 ---
 title: "よね"
 type: particle
-category: particle
-created: 2025-12-26
-updated: 2025-12-26
+stage: pending
 tags:
   - 終助詞
   - 確認
   - 共感
-related:
-  - "[ね](017_ne.md)"
-  - "[よ](016_yo.md)"
-  - "【待建立】でしょう"
----
+created: 2025-12-26
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: false
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 2
+  pending: 0
+  verified_date: 2025-12-26
+---
 ## 概要
 
 「よね」是「よ」和「ね」的組合終助詞，用於在向對方傳達資訊的同時，尋求對方的確認或共鳴。

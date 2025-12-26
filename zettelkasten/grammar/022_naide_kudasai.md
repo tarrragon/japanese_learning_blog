@@ -2,12 +2,8 @@
 title: "〜ないでください"
 description: ないでください - 禮貌的否定請求（請不要做某事）
 type: grammar
-subtype: request
 jlpt: n5
 stage: completed
-draft: false
-auto_generated: false
-needs_review: false
 tags:
   - grammar
   - jlpt/n5
@@ -16,6 +12,29 @@ tags:
   - nai-form
   - polite
   - basic
+created: 2025-12-26
+updated: 2025-12-26
+
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "completed"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 13
+  pending: 0
+  verified_date: 2025-12-26
 ---
 # ないでください - Negative Request Pattern
 

@@ -2,20 +2,36 @@
 title: "〜前に（まえに）"
 description: 表示某動作或事件發生之前的時間點
 type: grammar
-subtype: temporal
 jlpt: n5
 stage: draft
-draft: false
-auto_generated: false
-needs_review: true
 tags:
   - context/daily_life
   - domain/communication
   - jlpt/n5
 created: 2025-11-03
 updated: 2025-11-03
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "draft"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 19
+  pending: 0
+  verified_date: 2025-12-26
+---
 ## 日文
 
 〜前に（〜まえに）

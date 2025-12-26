@@ -1,29 +1,36 @@
 ---
-id: "026"
 title: "申し訳ございません"
-japanese: "申し訳ございません"
-reading: "もうしわけございません"
 type: "phrase"
-category: "phrase"
-jlpt_level: "n3"
+stage: pending
 tags:
   - phrase
   - keigo
   - apology
   - formal-expressions
-related_cards:
-  - "phrase/008_sumimasen.md"
-  - "phrase/012_gomennasai.md"
 created: 2025-12-22
 updated: 2025-12-22
-dictionary:
-  reading: "もうしわけ"
-  kanji: "申し訳"
-  pos: "名詞"
-  pos_details: "名"
-  definition_ja: "自分のとった行動について相手に理由を説明すること。"
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 6
+  pending: 0
+  verified_date: 2025-12-26
+---
 # 申し訳ございません
 
 ## 中文解釋

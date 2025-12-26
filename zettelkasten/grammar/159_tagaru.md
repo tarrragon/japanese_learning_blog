@@ -1,13 +1,35 @@
 ---
 title: "〜たがる"
-created: 2025-12-26
+stage: pending
 tags:
   - grammar
   - auxiliary-verb
   - third-person
   - desire
----
+created: 2025-12-26
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 0
+  pending: 0
+  verified_date: 2025-12-26
+---
 ## 中文解釋
 
 「〜たがる」用於表達第三人稱的願望或欲求。接在動詞ます形後，構成「〜たがる」，表示「（他人）想要做某事」。這個文法形式將第一人稱的「〜たい」轉換為觀察他人欲望的表達方式，強調從外部觀察到的跡象或行為。

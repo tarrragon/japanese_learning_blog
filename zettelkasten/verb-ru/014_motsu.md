@@ -2,24 +2,36 @@
 title: 持つ（もつ）
 description: 持つ - 拿著、持有、擁有（五段動詞）
 type: verb
-subtype: godan
 jlpt: n5
 stage: completed
-draft: false
-auto_generated: false
-needs_review: false
 tags:
   - jlpt/n5
   - context/daily_life
   - domain/daily_life
-related_words:
-  - 持っている（擁有狀態）
-  - 所有する（正式的擁有）
-  - 握る（緊握）
 created: 2025-10-30
 updated: 2025-10-30
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "completed"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 12
+  pending: 0
+  verified_date: 2025-12-26
+---
 # 持つ（もつ）
 
 ## 動詞情報

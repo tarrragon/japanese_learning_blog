@@ -2,12 +2,8 @@
 title: "〜ないで"
 description: ないで - 不做某動作就做另一動作的表達方式
 type: grammar
-subtype: sequential_action
 jlpt: n5
 stage: completed
-draft: false
-auto_generated: false
-needs_review: false
 tags:
   - grammar
   - jlpt/n5
@@ -15,6 +11,29 @@ tags:
   - sequence
   - negative-action
   - basic
+created: 2025-12-26
+updated: 2025-12-26
+
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "completed"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 14
+  pending: 0
+  verified_date: 2025-12-26
 ---
 # ないで - Without Doing / Not Doing Pattern
 

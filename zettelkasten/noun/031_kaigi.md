@@ -2,20 +2,36 @@
 title: 会議(かいぎ)
 description: 會議 - 為了討論、決策或報告而召集人員的正式聚會
 type: noun
-subtype: business_noun
 jlpt: n3
 stage: draft
-draft: false
-auto_generated: false
-needs_review: true
 tags:
   - context/business
   - domain/communication
   - jlpt/n3
 created: 2025-10-31
 updated: 2025-10-31
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "draft"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 13
+  pending: 0
+  verified_date: 2025-12-26
+---
 ## 日文
 
 会議（かいぎ）

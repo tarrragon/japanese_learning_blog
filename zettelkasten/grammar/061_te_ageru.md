@@ -2,7 +2,6 @@
 title: 〜てあげる
 description: 為他人做某事（給予者視角）
 type: grammar
-subtype: benefactive
 jlpt: n4
 stage: draft
 tags:
@@ -12,8 +11,28 @@ tags:
   - domain/communication
 created: 2025-10-30
 updated: 2025-10-30
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "draft"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 8
+  pending: 0
+  verified_date: 2025-12-26
+---
 ## 日文
 
 〜てあげる（〜て上げる）

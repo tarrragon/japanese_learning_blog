@@ -2,16 +2,36 @@
 title: "なぜなら"
 description: 因為（理由性連接詞）
 type: conjunction
-subtype: causal
 jlpt: n3
-tags: [causal, reason, formal]
-related_words: [なぜなら、だから、ので、ため]
-synonyms: []
-created: 2025-12-18
 stage: draft
-extensions: {}
----
+tags:
+  - causal
+  - reason
+  - formal
+created: 2025-12-18
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "draft"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 2
+  pending: 0
+  verified_date: 2025-12-26
+---
 ## 日文
 なぜなら（nazenara）
 

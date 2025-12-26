@@ -1,22 +1,36 @@
 ---
-id: 56
 title: "正式語體"
-japanese: "正式語体"
 type: concept
-category: concept
 jlpt: n4
+stage: pending
 tags:
   - 語体
   - 敬語
   - 書面語
-related:
-  - "[丁寧語](../grammar/待建立.md)"
-  - "[敬語系統](待建立.md)"
-  - "[書面語](待建立.md)"
-  - "[普通語体](待建立.md)"
-  - "[場面に応じた言葉遣い](待建立.md)"
----
+created: 2025-12-26
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 5
+  pending: 0
+  verified_date: 2025-12-26
+---
 ## 中文解釋
 
 正式語體是日語中用於正式場合的說話方式，主要特徵包括使用丁寧語（です・ます形式）、敬語系統以及書面語表達。正式語體適用於商務場合、正式演講、書面文件、與上級或不熟悉的人交流等情境，體現了日語中重視禮貌和身份關係的文化特點。

@@ -1,15 +1,38 @@
 ---
-japanese: 金融機関
-romaji: kinyukikan
-chinese: 金融機構
-english: financial institution
 jlpt: n2
+stage: pending
 tags:
   - domain/経済学
   - domain/金融
   - concept/organization
----
+created: 2025-12-26
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links:
+    - "証券会社"
+    - "銀行"
+    - "融資"
+    - "金融庁"
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 1
+  pending: 4
+  verified_date: 2025-12-26
+---
 # 金融機関(きんゆうきかん)
 
 ## 日文解釋

@@ -1,20 +1,39 @@
 ---
 title: 〜ながら
 description: 表示兩個動作同時進行（一邊...一邊...）
+type: comparison
+stage: pending
 tags:
   - context/casual
   - context/formal
   - jlpt/n4
-date: 2025-10-27
-links:
-  食べる: ../verb-ru/001_taberu.md
-  て形: 001_te_form.md
-extensions:
-  - title: 〜ながら vs. 〜て（動作連接的對比）
-    path: ../extension/comparison/001_nagara_vs_te.md
-    type: comparison
----
+created: 2025-10-27
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 3
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 0
+  pending: 0
+  verified_date: 2025-12-26
+
+# 連結
+links:
+---
 ## 日文
 〜ながら
 

@@ -9,17 +9,33 @@ tags:
   - context/formal
   - jlpt/n4
   - jlpt/n3
-date: 2025-10-28
+created: 2025-10-28
 updated: 2025-10-28
-links:
-  食べる: ../verb-ru/001_taberu.md
-  敬語系統: ./_meta/categories/019_honorific.md
-extension_of: ../verb-ru/001_taberu.md
-extension_type: keigo
-generated_cards: [../grammar/005_keigo_system, ../grammar/006_godan_verb]
-generated_date: 2025-10-28
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "completed"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 6
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 15
+  pending: 0
+  verified_date: 2025-12-26
+
+# 連結
+links:
+---
 ## 日文
 召し上がる（めしあがる）・いただく
 

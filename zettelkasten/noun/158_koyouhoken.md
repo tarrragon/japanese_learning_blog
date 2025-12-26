@@ -1,31 +1,32 @@
 ---
-id: noun-082
-aliases:
-  - 雇用保険
-  - こようほけん
-  - koyouhoken
+stage: pending
 tags:
   - level/n2
   - domain/経済学
-related:
-  - type: 関連
-    id: noun-068
-    path: ./068_shitsugyou.md
-    comment: 失業時の保障
-  - type: 関連
-    id: noun-071
-    path: ./071_shakaihoken.md
-    comment: 社会保険の一種
-  - type: 関連
-    id: noun-072
-    path: ./072_roudousha.md
-    comment: 労働者が加入する制度
-  - type: 関連
-    id: noun-074
-    path: ./074_kyuuyo.md
-    comment: 給与から保険料を控除
----
+created: 2025-12-26
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 4
+  pending: 0
+  verified_date: 2025-12-26
+---
 # 雇用保険
 
 ## 基本情報

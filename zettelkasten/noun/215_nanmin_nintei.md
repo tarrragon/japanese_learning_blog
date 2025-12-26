@@ -4,16 +4,33 @@ description: 難民認定，確認某人是否符合難民資格的法律程序
 type: noun
 jlpt: none
 stage: pending
-draft: true
-auto_generated: false
-needs_review: true
 tags:
   - domain/経済学
   - domain/法律
 created: 2025-12-23
 updated: 2025-12-23
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 5
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 0
+  pending: 0
+  verified_date: 2025-12-26
+---
 指政府依據國際法和本國法律，審查申請者是否符合難民資格的正式認定程序。
 
 <!--more-->

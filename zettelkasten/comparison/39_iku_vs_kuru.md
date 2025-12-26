@@ -1,22 +1,41 @@
 ---
 title: "行く vs 来る 詳細比較"
-card_id: 348
 type: comparison
-category: comparison
 jlpt: n5
-date: 2025-12-26
+stage: pending
 tags:
   - grammar
   - verb
   - direction
   - perspective
-status: draft
-related_cards:
-  - "[行く](../verbs/17_iku.md)"
-  - "[来る](../verbs/18_kuru.md)"
-  - "[行く・来る 文法パターン](【待建立】)"
----
+created: 2025-12-26
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: false
+  chinese: false
+  examples_count: 0
+  pending_links:
+    - "行く・来る 文法パターン"
+    - "方向を表す助詞"
+    - "移動動詞の活用"
+    - "視点と敬語"
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 2
+  pending: 4
+  verified_date: 2025-12-26
+---
 ## 核心區別
 
 | 観点 | 行く | 来る |

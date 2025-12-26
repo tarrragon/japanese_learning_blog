@@ -1,11 +1,39 @@
 ---
 title: "搭配"
 type: "concept"
-date: "2025-12-26"
 jlpt: "n3"
-tags: ["語彙", "慣用表現", "語彙選擇"]
----
+stage: pending
+tags:
+  - "語彙"
+  - "慣用表現"
+  - "語彙選擇"
+created: "2025-12-26"
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links:
+    - "慣用表現"
+    - "自然表現"
+    - "母語干擾"
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 2
+  pending: 3
+  verified_date: 2025-12-26
+---
 ## 中文解釋
 
 搭配（Collocation）是指在一種語言中，某些詞語習慣性地一起使用的組合關係。這些組合不一定有邏輯規律，而是通過長期使用形成的約定俗成。學習搭配可以讓表達更自然、更符合母語者的習慣。

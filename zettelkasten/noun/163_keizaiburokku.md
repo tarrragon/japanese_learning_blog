@@ -1,16 +1,35 @@
 ---
-id: "083"
-aliases:
-  - 経済ブロック
-  - keizaiburokku
-  - economic bloc
-category: noun
+jlpt: n1
+stage: pending
 tags:
   - domain/経済学
-jlpt: n1
-last_updated: 2025-12-22
----
+created: 2025-12-26
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: true
+  chinese: false
+  examples_count: 0
+  pending_links:
+    - "自由貿易協定"
+    - "地域経済統合"
+    - "多国間協定"
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 2
+  pending: 3
+  verified_date: 2025-12-26
+---
 # 経済ブロック
 
 ## Dictionary

@@ -1,20 +1,40 @@
 ---
-id: noun-084
 title: 経済団体連合会
-kana: けいざいだんたいれんごうかい
-romaji: keizaidantairengokai
 jlpt: N1
-category: noun
-japanese: 経済団体連合会
-aliases: []
+stage: pending
 tags:
   - domain/経済学
   - 専門用語
   - 組織名
 created: 2025-12-22
 updated: 2025-12-22
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links:
+    - "労使関係"
+    - "春闘"
+    - "政策提言"
+    - "政策"
+    - "組織"
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 4
+  pending: 5
+  verified_date: 2025-12-26
+---
 # 経済団体連合会（けいざいだんたいれんごうかい）
 
 ## 日文解釋

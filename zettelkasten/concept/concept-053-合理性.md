@@ -1,10 +1,6 @@
 ---
-id: concept-053
 title: 合理性
-reading: ごうりせい
-card_type: concept
-category: philosophy
-difficulty: N2-N1
+stage: pending
 tags:
   - 経済学
   - 意思決定
@@ -12,8 +8,29 @@ tags:
   - 理性
 created: 2025-12-23
 updated: 2025-12-23
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links:
+    - "限定合理性"
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 2
+  pending: 1
+  verified_date: 2025-12-26
+---
 ## 単語情報
 
 **合理性（ごうりせい）**

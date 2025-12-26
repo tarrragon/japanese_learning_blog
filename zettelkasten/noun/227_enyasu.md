@@ -1,16 +1,40 @@
 ---
 title: "円安（えんやす）"
-date: 2025-12-26
+stage: pending
 tags:
   - noun
   - economy
   - finance
   - currency
-aliases:
-  - えんやす
-  - yen depreciation
----
+created: 2025-12-26
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links:
+    - "円高"
+    - "為替レート"
+    - "輸出"
+    - "輸入"
+    - "貿易収支"
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 0
+  pending: 8
+  verified_date: 2025-12-26
+---
 ## 日本語の意味
 
 外国為替市場において、円の価値が他の通貨に対して相対的に下がること。円の交換レートが低くなり、同じ額の円でより少ない外貨しか購入できない状態を指す。

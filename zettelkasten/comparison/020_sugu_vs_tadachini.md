@@ -1,23 +1,35 @@
 ---
-id: comparison-010
 title: "すぐ vs 直ちに - 時間副詞比較"
-japanese: "すぐ vs 直ちに"
-english: "soon/immediately vs immediately/at once"
-traditional_chinese: "馬上 vs 立刻"
-category: comparison
-jlpt_level: n4
+stage: pending
 tags:
   - adverb
   - time-expression
   - formality
   - nuance
-related_cards:
-  - ../adverb/005_sugu.md
-  - ../grammar/015_time_expressions.md
 created: 2025-12-22
 updated: 2025-12-22
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: true
+  chinese: false
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 0
+  pending: 0
+  verified_date: 2025-12-26
+---
 ## 日本語での説明
 
 **すぐ**と**直ちに（ただちに）**はどちらも「時間的に間を置かずに」という意味を持つ時間副詞だが、使用場面と格式度が大きく異なる。

@@ -3,14 +3,35 @@ title: 語彙 vs. 単語（詞彙辨析）
 description: goi和tango在語言學概念上的區別與使用選擇
 type: contrast
 jlpt: n3
+stage: extension-review
 tags:
   - vocabulary_distinction
   - linguistics
   - academic_terminology
-stage: extension-review
-date: 2025-10-31
----
+created: 2025-10-31
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "extension-review"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 10
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 4
+  pending: 0
+  verified_date: 2025-12-26
+---
 ## 對比主題
 語彙（ごい）vs. 単語（たんご）
 

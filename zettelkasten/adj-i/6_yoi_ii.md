@@ -1,19 +1,34 @@
 ---
-id: 6
 title: 良い／いい（よい／いい）
-category: adj-i
+stage: pending
 tags:
   - 基礎い形容詞
   - 評価
   - 常用語彙
-related_cards: []
-progress:
-  draft_completed: false
-  examples_added: false
-  links_verified: false
-  diagrams_added: false
----
+created: 2025-12-26
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 0
+  pending: 0
+  verified_date: 2025-12-26
+---
 # 良い／いい（よい／いい）
 
 ## 日本語の説明

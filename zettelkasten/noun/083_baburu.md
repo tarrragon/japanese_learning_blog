@@ -1,17 +1,37 @@
 ---
-id: "075"
 title: "バブル"
-japanese: "バブル"
-reading: "baburu"
-category: "noun"
-source: "CSV worklog"
-created_date: "2025-12-22"
-updated_date: "2025-12-22"
-jlpt_level: "n2"
-tags: ["domain/経済学"]
-status: "draft"
----
+stage: pending
+tags:
+  - "domain/経済学"
+created: 2025-12-26
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links:
+    - "崩壊"
+    - "不動産"
+    - "経済学の基本概念"
+    - "日本のバブル経済"
+    - "資産価格の変動"
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 3
+  pending: 5
+  verified_date: 2025-12-26
+---
 # バブル
 
 ## 基本資訊

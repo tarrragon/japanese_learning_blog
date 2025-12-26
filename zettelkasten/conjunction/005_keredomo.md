@@ -2,20 +2,38 @@
 title: "けれども"
 description: 雖然、但是（中性逆接連接詞）
 type: conjunction
-subtype: adversative
 jlpt: n4
-tags: [adversative, contrast, neutral_tone]
-related_words: [けれども、しかし、でも、けど]
-synonyms: []
-created: 2025-12-22
 stage: pending
-extensions: {}
-dictionary:
-  reading: けれども
-  pos_details: 接続
-  definition_ja: 上に述べたことやそれから予想されることと反対，不釣り合い，不調和なことを以下に述べることを示す。
----
+tags:
+  - adversative
+  - contrast
+  - neutral_tone
+created: 2025-12-22
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links:
+    - "けど"
+    - "だが"
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 18
+  pending: 2
+  verified_date: 2025-12-26
+---
 ## 日文
 けれども（keredomo）
 

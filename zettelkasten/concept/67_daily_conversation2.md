@@ -1,17 +1,34 @@
 ---
-id: c67
 title: 日常会話
-title_en: Daily Conversation
-title_zh: 日常會話
-category: concept
+stage: draft
 tags:
   - communication
   - social-interaction
   - language-use
 created: 2025-12-26
-stage: draft
----
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "draft"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: false
+  chinese: false
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 8
+  pending: 0
+  verified_date: 2025-12-26
+---
 ## 三語解釋
 
 **日本語**: 日常会話（にちじょうかいわ）とは、日常生活の中で交わされる普通の会話のこと。挨拶、天気の話題、近況報告など、特別な専門知識を必要としない、日々の生活に密着したコミュニケーションを指す。

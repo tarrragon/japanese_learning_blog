@@ -1,13 +1,41 @@
 ---
 title: "社會距離"
 type: concept
+jlpt: n3
+stage: pending
+tags:
+  - 社會語言學
+  - 人際關係
+  - 敬語
+  - 待遇表現
 created: 2025-12-26
 updated: 2025-12-26
-aliases: [社会的距離, social distance, 親疏關係]
-tags: [社會語言學, 人際關係, 敬語, 待遇表現]
-jlpt: n3
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: true
+  chinese: false
+  examples_count: 0
+  pending_links:
+    - "待遇表現"
+    - "敬語系統"
+    - "ウチとソト"
+    - "上下關係"
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 0
+  pending: 4
+  verified_date: 2025-12-26
+---
 # 社會距離
 
 ## 定義

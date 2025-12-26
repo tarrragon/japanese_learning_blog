@@ -1,16 +1,37 @@
 ---
 title: 貿易黒字
-category: noun
-number: "080"
 jlpt: n2
+stage: draft
 tags:
   - domain/経済学
   - domain/商業
-stage: draft
-created_at: 2025-12-22
-updated_at: 2025-12-22
----
+created: 2025-12-26
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "draft"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links:
+    - "経常収支"
+    - "外貨準備"
+    - "輸出入"
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 2
+  pending: 3
+  verified_date: 2025-12-26
+---
 # 貿易黒字（ぼうえきくろじ）
 
 ## 辞書情報（Dictionary）

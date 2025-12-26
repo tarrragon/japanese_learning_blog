@@ -2,20 +2,36 @@
 title: 今日（きょう）
 description: 今天、今日
 type: noun
-subtype: time
 jlpt: n5
 stage: draft
-draft: false
-auto_generated: false
-needs_review: true
 tags:
   - context/daily_life
   - domain/daily_life
   - jlpt/n5
 created: 2025-10-31
 updated: 2025-10-31
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "draft"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 8
+  pending: 0
+  verified_date: 2025-12-26
+---
 ## 日文
 
 今日（きょう）

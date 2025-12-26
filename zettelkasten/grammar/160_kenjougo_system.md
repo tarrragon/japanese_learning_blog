@@ -1,24 +1,40 @@
 ---
-id: "160"
 title: "謙讓語系統"
-japanese: "謙讓語（けんじょうご）"
-category: "grammar"
-tags: [敬語, 謙讓語, 文法體系, ビジネス日本語]
-difficulty: 8
-created_date: 2025-12-26
-updated_date: 2025-12-26
-related_cards:
-  - "[尊敬語系統](【待建立】)"
-  - "[丁寧語系統](【待建立】)"
-  - "[美化語](【待建立】)"
-  - "[敬語の使い分け](【待建立】)"
-references:
-  - source: "『敬語の指針』文化庁"
-    note: "敬語体系の公式指針"
-  - source: "『ビジネス敬語の基本とコツ』"
-    note: "実用的な謙讓語の使用例"
----
+stage: pending
+tags:
+  - 敬語
+  - 謙讓語
+  - 文法體系
+  - ビジネス日本語
+created: 2025-12-26
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: false
+  chinese: false
+  examples_count: 0
+  pending_links:
+    - "尊敬語系統"
+    - "丁寧語系統"
+    - "美化語"
+    - "敬語の使い分け"
+    - "尊敬語システム"
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 0
+  pending: 7
+  verified_date: 2025-12-26
+---
 ## 概要
 
 **謙讓語（けんじょうご）**：自分の動作をへりくだって述べることで、相手や話題の人物に対して敬意を表す敬語の一種。

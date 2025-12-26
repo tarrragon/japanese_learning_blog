@@ -2,20 +2,36 @@
 title: 学習 vs 勉強
 description: 学習 vs 勉強 詳細比較 - 學習相關詞彙辨析
 type: contrast
-comparison_items: [noun/gakushuu, noun/benkyou]
 jlpt: n4
 stage: extension-review
-draft: false
-auto_generated: false
-needs_review: false
 tags:
   - vocabulary_distinction
   - education
   - formality_levels
-date: 2025-10-31
+created: 2025-10-31
 updated: 2025-10-31
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "extension-review"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 8
+  pending: 0
+  verified_date: 2025-12-26
+---
 ## 概述
 
 「学習」和「勉強」都是表示「學習」的詞彙，但在使用場合、語感和含義上有明確的差異。「学習」較為正式、系統性，強調習得知識或技能的過程；「勉強」則較為通用、口語化，可指一般的讀書學習活動。理解這兩個詞的區別，有助於在不同情境下選擇適當的表達方式。

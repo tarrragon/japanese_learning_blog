@@ -1,15 +1,37 @@
 ---
-id: "228"
 title: "利益（りえき）"
-japanese: "利益"
-romaji: "rieki"
-pronunciation: "りえき"
-category: "noun"
-tags: ["business", "economics", "finance"]
-last_updated: "2025-12-26"
-status: "draft"
----
+stage: pending
+tags:
+  - "business"
+  - "economics"
+  - "finance"
+created: 2025-12-26
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links:
+    - "利益追求の本質"
+    - "収益と利益の違い"
+    - "利益相反"
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 0
+  pending: 3
+  verified_date: 2025-12-26
+---
 # 利益（りえき）
 
 ## 中文解釋

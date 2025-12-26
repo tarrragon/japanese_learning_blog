@@ -1,19 +1,34 @@
 ---
-id: C063
 title: "一段動詞（Ichidan Verbs）"
-category: concept
+stage: pending
 tags:
   - 動詞分類
   - 活用規則
   - 文法基礎
 created: 2025-12-26
 updated: 2025-12-26
-aliases:
-  - 一段動詞
-  - る動詞
-  - Ichidan verbs
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 18
+  pending: 0
+  verified_date: 2025-12-26
+---
 ## 中文
 
 **一段動詞**（日文：一段動詞、いちだんどうし）是日文動詞分類中的一個主要類別，因其活用時只涉及一個段（い段或え段）而得名。也稱為「る動詞」，因為原形都以「る」結尾。

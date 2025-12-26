@@ -2,7 +2,6 @@
 title: 〜てもらう vs 〜てくれる
 description: 〜てもらう vs 〜てくれる - 授受動詞視角對比分析
 type: comparison
-subtype: grammar_comparison
 jlpt: n4
 stage: extension-review
 tags:
@@ -14,8 +13,28 @@ tags:
   - domain/daily_life
 created: 2025-10-31
 updated: 2025-10-31
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "extension-review"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 0
+  pending: 0
+  verified_date: 2025-12-26
+---
 ## 日文
 
 〜てもらう vs 〜てくれる：視点と主体性の対比

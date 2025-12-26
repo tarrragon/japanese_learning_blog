@@ -1,11 +1,35 @@
 ---
 title: "引用表現"
-date: 2025-12-26
-tags: [grammar, quotation, と言う, という]
-aliases: [quotation-expressions, 引述表達]
-category: grammar
----
+stage: pending
+tags:
+  - grammar
+  - quotation
+  - と言う
+  - という
+created: 2025-12-26
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 4
+  pending: 0
+  verified_date: 2025-12-26
+---
 ## 中文解釋
 
 **引用表現**是日語中用來引述或轉述他人說話、想法或文字內容的語法結構。最基本的形式是「〜と言う」（〜to iu），意為「說〜」或「叫做〜」。引用表現可分為**直接引用**（原話引述）和**間接引用**（轉述大意），在日常對話和書面語中都廣泛使用。

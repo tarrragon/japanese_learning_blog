@@ -1,9 +1,7 @@
 ---
-id: comparison-015
 title: "または vs あるいは"
 type: comparison
-category: comparison
-jlpt_level: n4
+stage: pending
 tags:
   - comparison
   - grammar
@@ -11,22 +9,32 @@ tags:
   - choice
 created: 2025-12-22
 updated: 2025-12-22
-status: active
-japanese_term: "または vs あるいは"
-chinese_term: "選擇接續詞比較"
-dictionary:
-  - term: "または"
-    reading: "または"
-    kanji: "又は"
-    pos: "接続"
-    definition_ja: "法律文などでは，選択される語句に段階がある場合，大きい段階に「または」を，小さい段階に「もしくは」を用いる。 →もしくは"
-  - term: "あるいは"
-    reading: "あるいは"
-    kanji: "或いは"
-    pos: "接続"
-    definition_ja: "その推測も全くは否定できないという気持ちを表す。"
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links:
+    - "もしくは"
+    - "それとも"
+    - "接続詞の種類"
+    - "法律文書の日本語"
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 0
+  pending: 4
+  verified_date: 2025-12-26
+---
 # または vs あるいは
 
 ## 日文解釋

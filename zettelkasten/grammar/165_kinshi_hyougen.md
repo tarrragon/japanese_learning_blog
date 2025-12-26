@@ -1,17 +1,39 @@
 ---
-id: "165"
 title: "禁止表達"
-japanese: "禁止表現"
-category: "grammar"
+jlpt: N5
+stage: pending
 tags:
   - grammar
   - prohibition
   - negative-imperative
 created: 2025-12-26
-status: draft
-jlpt: N5
----
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links:
+    - "ない形"
+    - "命令形"
+    - "請求表達"
+    - "日常會話"
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 2
+  pending: 4
+  verified_date: 2025-12-26
+---
 # 禁止表達（kinshi hyougen）
 
 ## 日文解釋

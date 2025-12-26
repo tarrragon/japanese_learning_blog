@@ -1,27 +1,38 @@
 ---
-id: adj-i-004
 title: 低い
-category: adj-i
+stage: pending
 tags:
   - jlpt-n5
   - basic-adjective
   - physical-description
   - dimension
-dictionary:
-  sources:
-    daijirin: true
-    waei: false
-  reading: "ひくい"
-  kanji: "低い"
-  pos: "形容詞"
-  pos_details: "形"
-  definition_ja: "空間的に基準面よりかなり下にある。"
-  definition_en: null
-  lookup_date: 2025-12-22
 created: 2025-12-22
 updated: 2025-12-22
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links:
+    - "短い"
+    - "小さい"
+    - "安い"
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 1
+  pending: 3
+  verified_date: 2025-12-26
+---
 # 低い
 
 ## 基本資訊

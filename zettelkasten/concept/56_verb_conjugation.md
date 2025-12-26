@@ -1,13 +1,36 @@
 ---
-id: 56
 title: "動詞活用"
 type: concept
-japanese: "どうしかつよう"
-category: concept
 jlpt: n5
-tags: [grammar, verb, conjugation]
----
+stage: pending
+tags:
+  - grammar
+  - verb
+  - conjugation
+created: 2025-12-26
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: false
+  chinese: false
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 8
+  pending: 0
+  verified_date: 2025-12-26
+---
 # 動詞活用（どうしかつよう）
 
 **中文解釋**：

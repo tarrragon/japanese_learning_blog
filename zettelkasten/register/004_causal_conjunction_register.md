@@ -1,23 +1,37 @@
 ---
-id: register-004
 title: "因果接續詞的語域階層"
-japanese: "因果接続詞の語域階層"
-category: register
+stage: pending
 tags:
   - conjunction
   - formality
   - register
-jlpt_level: n4
-links:
-  だから: 待建立
-  ですから: 待建立
-  したがって: 待建立
-  よって: 待建立
-  接續詞總覽: 待建立
 created: 2025-12-22
 updated: 2025-12-22
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 0
+  pending: 0
+  verified_date: 2025-12-26
+
+# 連結
+links:
+---
 # 因果接續詞的語域階層
 
 ## 中文解釋

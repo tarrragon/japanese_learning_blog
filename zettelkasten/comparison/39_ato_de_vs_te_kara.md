@@ -1,14 +1,40 @@
 ---
 title: "後で vs てから"
-japanese: "後で vs てから"
 type: comparison
-category: comparison
 jlpt: 4
-keywords: ["temporal", "sequence", "completion"]
-tags: ["time", "sequence", "grammar"]
 stage: draft
----
+tags:
+  - "time"
+  - "sequence"
+  - "grammar"
+created: 2025-12-26
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "draft"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: false
+  chinese: false
+  examples_count: 0
+  pending_links:
+    - "時間表現"
+    - "て形文法"
+    - "接續助詞"
+    - "動作完成表現"
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 0
+  pending: 4
+  verified_date: 2025-12-26
+---
 # 後で vs てから
 
 ## 核心區別

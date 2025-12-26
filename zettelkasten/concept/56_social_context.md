@@ -1,12 +1,41 @@
 ---
-id: 56
 title: "社會語境"
 type: concept
 jlpt: n3
-tags: [語用論, 敬語, 人際關係]
+stage: pending
+tags:
+  - 語用論
+  - 敬語
+  - 人際關係
 created: 2025-12-26
----
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links:
+    - "丁寧語"
+    - "尊敬語"
+    - "謙讓語"
+    - "ウチとソト"
+    - "上下関係"
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 0
+  pending: 5
+  verified_date: 2025-12-26
+---
 # 社會語境
 
 ## 中文解釋

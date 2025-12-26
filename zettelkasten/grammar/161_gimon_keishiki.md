@@ -1,21 +1,39 @@
 ---
 title: 疑問形式
 description: 日文的疑問句構造與語尾助詞「か」的運用
+type: related
+stage: pending
 tags:
   - context/formal
   - context/casual
   - jlpt/n5
-date: 2025-12-26
-links:
-  か: ../concept/ka.md
-  終助詞「ね」: 321_shuu_joshi_ne.md
-  終助詞「よね」: 322_shuu_joshi_yone.md
-extensions:
-  - title: 疑問詞系統
-    path: ../grammar/209_futeigo_daimeishi.md
-    type: related
----
+created: 2025-12-26
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 3
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 5
+  pending: 0
+  verified_date: 2025-12-26
+
+# 連結
+links:
+---
 ## 日文
 疑問形式（ぎもんけいしき）
 

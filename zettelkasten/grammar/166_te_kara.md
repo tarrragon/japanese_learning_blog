@@ -1,17 +1,40 @@
 ---
-id: 166
 title: "〜てから"
 type: grammar
-category: grammar
+stage: pending
 tags:
   - grammar
   - te-form
   - sequence
   - time
 created: 2025-12-26
-status: active
----
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links:
+    - "〜前に"
+    - "〜後で"
+    - "〜たら"
+    - "時間表現"
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 1
+  pending: 4
+  verified_date: 2025-12-26
+---
 # 〜てから
 
 ## 中文解釋

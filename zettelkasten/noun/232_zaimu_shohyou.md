@@ -1,24 +1,34 @@
 ---
-id: "232"
-category: "noun"
-japanese: "財務諸表"
-romaji: "zaimu shohyou"
-jlpt_level: "N1"
-common_level: "business"
-created_date: "2025-12-26"
-last_updated: "2025-12-26"
+stage: pending
 tags:
   - "business"
   - "finance"
   - "accounting"
   - "economics"
-related_cards:
-  - "119"
-  - "197"
-  - "待建立"
-  - "待建立"
----
+created: 2025-12-26
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 2
+  pending: 0
+  verified_date: 2025-12-26
+---
 # 財務諸表
 
 ## 概要

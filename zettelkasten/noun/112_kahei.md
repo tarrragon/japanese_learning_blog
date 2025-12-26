@@ -1,18 +1,38 @@
 ---
-id: '078'
 title: 貨幣
-category: noun
-japanese: 貨幣
-reading: かへい
-status: draft
+jlpt: n2
+stage: pending
 tags:
   - domain/経済学
   - domain/金融
-jlpt: n2
 created: 2025-12-22
 updated: 2025-12-22
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links:
+    - "現金"
+    - "マネー"
+    - "として"
+    - "により"
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 4
+  pending: 4
+  verified_date: 2025-12-26
+---
 ## 定義・解釈
 
 ### 日文解釋

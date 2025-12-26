@@ -2,20 +2,36 @@
 title: "です形（ですけい）"
 description: です形 - 名詞和形容詞的禮貌形式
 type: grammar
-subtype: copula
 jlpt: n5
 stage: draft
-draft: false
-auto_generated: false
-needs_review: true
 tags:
   - context/formal
   - context/daily_life
   - jlpt/n5
 created: 2025-11-03
 updated: 2025-11-03
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "draft"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 22
+  pending: 0
+  verified_date: 2025-12-26
+---
 ## 日文
 
 です形（ですけい）

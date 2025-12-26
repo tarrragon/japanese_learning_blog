@@ -1,17 +1,32 @@
 ---
 title: "た形"
-japanese: "た形"
 type: "grammar"
-category: "grammar"
 jlpt: "n5"
-card_id: 142
+stage: pending
 created: 2025-12-24
-status: active
-parent_cards: []
-child_cards: []
-related_cards: []
----
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 0
+  pending: 0
+  verified_date: 2025-12-26
+---
 # た形
 
 ## 中文解釋

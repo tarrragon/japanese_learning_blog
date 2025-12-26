@@ -1,18 +1,32 @@
 ---
-id: noun_084
-category: noun
-japanese: 経済史
-romaji: keizaishi
 jlpt: n1
+stage: draft
 tags:
   - "domain/経済学"
-related_cards: []
-progress:
-  stage: draft
-  reviewed: false
-  difficulty: 0
----
+created: 2025-12-26
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "draft"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: true
+  chinese: false
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 0
+  pending: 0
+  verified_date: 2025-12-26
+---
 # 経済史
 
 ## 解釋

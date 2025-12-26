@@ -1,21 +1,35 @@
 ---
-id: 147
 title: "疑問文"
-japanese: "疑問文"
 type: "grammar"
-date_created: "2025-12-26"
-date_modified: "2025-12-26"
-related_cards:
-  - "080_noun_modification"
-  - "081_sentence_structure"
+stage: "draft"
 tags:
   - "jlpt-n5"
   - "grammar"
   - "sentence-pattern"
-jlpt_level: "n5"
-stage: "draft"
----
+created: 2025-12-26
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: ""draft""
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: false
+  chinese: false
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 2
+  pending: 0
+  verified_date: 2025-12-26
+---
 ## 疑問文
 
 ### 基本資訊

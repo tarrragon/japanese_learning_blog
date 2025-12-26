@@ -1,30 +1,35 @@
 ---
-id: "006"
 title: "しかし"
-japanese: "しかし"
-romaji: "shikashi"
-chinese: "但是（書面語）"
-english: "however, but (formal)"
-category: "conjunction"
 jlpt: "n4"
+stage: pending
 tags:
   - "逆接"
   - "書面語"
   - "正式表現"
-dictionary:
-  found: false
-  sources:
-    daijirin: false
-    waei: false
-  data: {}
-related:
-  - "[でも（口語的「但是」）](../particle/demo.md)"
-  - "[けれども（轉折接續）](../conjunction/keredomo.md)"
-  - "[ところが（意外轉折）](../conjunction/tokoroga.md)"
 created: 2025-12-22
-modified: 2025-12-22
----
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 6
+  pending: 0
+  verified_date: 2025-12-26
+---
 ## 中文解釋
 
 「しかし」是書面語的逆接接續詞，表示「但是、然而」，用於連接前後兩個對比或矛盾的句子。相較於口語的「でも」，「しかし」更正式、更常見於書面文章、新聞報導或正式演講中。它強調前後文的轉折關係，語氣較為嚴肅。

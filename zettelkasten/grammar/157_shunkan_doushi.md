@@ -1,13 +1,38 @@
 ---
-id: 157
 title: "瞬間動詞"
-japanese: "瞬間動詞"
-pinyin: "shunkan doushi"
-category: "grammar"
-sub_category: ""
-tags: ["動詞分類", "アスペクト", "ている"]
----
+stage: pending
+tags:
+  - "動詞分類"
+  - "アスペクト"
+  - "ている"
+created: 2025-12-26
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: true
+  chinese: false
+  examples_count: 0
+  pending_links:
+    - "継続動詞"
+    - "ている"
+    - "アスペクト"
+    - "状態動詞"
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 0
+  pending: 4
+  verified_date: 2025-12-26
+---
 ## 繁體中文解釋
 
 瞬間動詞（しゅんかんどうし）指動作在一瞬間完成、不具持續性的動詞，例如「死ぬ」、「着く」、「始まる」等。這類動詞的特點是動作發生後立即進入結果狀態，與「継続動詞」（持續動詞）相對。

@@ -1,22 +1,34 @@
 ---
-id: noun-074
-category: noun
-japanese: 雇用
-reading: こよう
 jlpt: N2
+stage: draft
 tags:
   - domain/経済学
   - 労働市場
   - 企業活動
-date_created: 2025-12-22
-dictionary:
-  reading: こよう
-  kanji: 雇用・雇傭
-  pos: 名詞
-  definition_ja: 仕事をさせる目的で，有償で，人を雇うこと。
-stage: draft
----
+created: 2025-12-26
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "draft"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 4
+  pending: 0
+  verified_date: 2025-12-26
+---
 # 雇用
 
 ## 三語解釋

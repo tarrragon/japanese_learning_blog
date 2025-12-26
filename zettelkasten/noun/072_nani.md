@@ -3,10 +3,33 @@ title: "何"
 description: "表示疑問的代名詞，用於詢問事物或事情。意思是「什麼」。根據語境不同，讀音會是「なに」或「なん」。"
 type: noun
 jlpt: n4
-tags: [noun]
-date: 2025-10-31
----
+stage: pending
+tags:
+  - noun
+created: 2025-10-31
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 0
+  pending: 0
+  verified_date: 2025-12-26
+---
 # 何
 
 ## 基本資訊

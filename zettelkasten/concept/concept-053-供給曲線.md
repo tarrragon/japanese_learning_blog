@@ -4,23 +4,33 @@ description: "供給曲線"
 type: concept
 jlpt: n1
 stage: pending
-draft: true
-auto_generated: false
-needs_review: true
 tags:
   - domain/経済学
   - concept/theory
-dictionary:
-  reading: きょうきゅうきょくせん
-  kanji: 供給曲線
-  pos: 名詞
-  pos_details: 名
-  definition_ja: 価格と供給量の関係を図示したもので、通常は右上がりの曲線として表される。
-  source: economics
 created: 2025-12-23
 updated: 2025-12-23
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 5
+  pending: 0
+  verified_date: 2025-12-26
+---
 # 供給曲線（きょうきゅうきょくせん）
 
 ## 日本語の説明

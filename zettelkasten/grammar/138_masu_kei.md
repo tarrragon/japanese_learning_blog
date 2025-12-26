@@ -4,12 +4,38 @@ description: "動詞的丁寧形（禮貌形），日語基本句型的核心結
 type: grammar
 jlpt: n5
 stage: draft
-draft: true
 tags:
   - verb_conjugation
   - politeness
----
+created: 2025-12-26
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "draft"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links:
+    - "一段動詞"
+    - "五段動詞"
+    - "不規則動詞"
+    - "普通形"
+    - "て形"
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 0
+  pending: 10
+  verified_date: 2025-12-26
+---
 # ます形
 
 ## 日本語

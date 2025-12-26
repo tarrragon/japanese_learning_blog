@@ -1,18 +1,34 @@
 ---
-id: 157
 title: "〜たら（條件）"
-japanese: "〜たら"
-category: "grammar"
-tags: ["condition", "hypothesis", "temporal"]
-audio_support: true
-related_cards:
-  - "【待建立】〜ば（條件）"
-  - "【待建立】〜と（條件）"
-  - "【待建立】〜なら（條件）"
-created_at: "2025-12-26"
-updated_at: "2025-12-26"
----
+stage: pending
+tags:
+  - "condition"
+  - "hypothesis"
+  - "temporal"
+created: 2025-12-26
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 0
+  pending: 0
+  verified_date: 2025-12-26
+---
 ## 中文解釋
 
 「〜たら」是日文中表示條件或假設的文法形式，意思是「如果〜的話」。它可以用來表達假設條件、時間先後關係，以及發現某種情況時的反應。使用時將動詞、形容詞或名詞的過去式連接「ら」。

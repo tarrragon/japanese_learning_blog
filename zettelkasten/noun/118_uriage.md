@@ -1,20 +1,37 @@
 ---
-id: "noun_078"
 title: "売上"
-romaji: "uriage"
-category: "noun"
 type: "basic"
-kanji: "売上"
-hiragana: "うりあげ"
 jlpt: "n3"
+stage: pending
 tags:
   - "domain/経済学"
   - "domain/商業"
 created: "2025-12-22"
 updated: "2025-12-22"
-version: "1.3.2"
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: true
+  chinese: false
+  examples_count: 0
+  pending_links:
+    - "収入"
+    - "営業"
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 3
+  pending: 2
+  verified_date: 2025-12-26
+---
 ## 三語解釋
 
 ### Japanese

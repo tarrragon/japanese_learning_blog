@@ -1,13 +1,38 @@
 ---
-card_id: adj-i-006
 title: "悪い（わるい）"
-category: adj-i
-tags: [i-adjective, basic-vocabulary, negative-evaluation]
+stage: pending
+tags:
+  - i-adjective
+  - basic-vocabulary
+  - negative-evaluation
 created: 2025-12-26
 updated: 2025-12-26
-aliases: [わるい, 悪い]
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links:
+    - "いい"
+    - "悪化（あっか）"
+    - "悪魔（あくま）"
+    - "悪質（あくしつ）"
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 1
+  pending: 4
+  verified_date: 2025-12-26
+---
 # 悪い（わるい）
 
 ## 基本資訊

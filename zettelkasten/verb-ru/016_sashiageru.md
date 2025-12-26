@@ -2,7 +2,6 @@
 title: 差し上げる
 description: 差し上げる - 給予（謙讓語）
 type: verb
-subtype: ru_verb
 jlpt: n3
 stage: draft
 tags:
@@ -11,10 +10,28 @@ tags:
   - domain/communication
 created: 2025-10-30
 updated: 2025-10-30
-synonyms: [ageru]
-related_words: [ageru, kureru, itadaku, kudasaru]
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "draft"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 7
+  pending: 0
+  verified_date: 2025-12-26
+---
 ## 日文
 
 差し上げる（さしあげる）

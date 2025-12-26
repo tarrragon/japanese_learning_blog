@@ -1,7 +1,6 @@
 ---
-id: verb-u-031
 title: 習う
-category: verb-u
+stage: pending
 tags:
   - verb
   - u-verb
@@ -9,20 +8,29 @@ tags:
   - education
   - learning
 created: 2025-12-22
-jlpt_level: n5
-dictionary:
-  sources:
-    daijirin: true
-    waei: false
-  reading: "ならう"
-  kanji: "習う"
-  pos: "動詞"
-  pos_details: "五段動詞"
-  definition_ja: "知識や技術を他人から教わる。"
-  definition_en: null
-  lookup_date: 2025-12-22
----
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 3
+  pending: 0
+  verified_date: 2025-12-26
+---
 # 習う
 
 ## 基本資訊

@@ -2,7 +2,6 @@
 title: 日本語の四大条件形比較
 description: 四種條件形總對比（と・たら・ば・なら）
 type: comparison
-subtype: grammar_comparison
 jlpt: n4
 stage: draft
 tags:
@@ -11,8 +10,28 @@ tags:
   - domain/communication
 created: 2025-10-30
 updated: 2025-10-30
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "draft"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 8
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 7
+  pending: 0
+  verified_date: 2025-12-26
+---
 ## 日文
 
 日本語の四大条件形比較

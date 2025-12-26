@@ -1,15 +1,32 @@
 ---
-japanese: 経済難民
-reading: けいざいなんみん
-chinese: 經濟難民
-english: economic refugee
 jlpt: n2
-tags: ["domain/経済学"]
-related: []
+stage: pending
+tags:
+  - "domain/経済学"
 created: 2025-12-22
-status: draft
----
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: true
+  chinese: false
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 0
+  pending: 0
+  verified_date: 2025-12-26
+---
 # 経済難民
 
 ## 発音

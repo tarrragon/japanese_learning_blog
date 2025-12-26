@@ -1,17 +1,41 @@
 ---
 title: "述語"
-japanese: "述語"
-romaji: "jutsugo"
 type: concept
 jlpt: n4
-created: 2025-12-26
-updated: 2025-12-26
+stage: pending
 tags:
   - concept
   - grammar
   - sentence_structure
----
+created: 2025-12-26
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links:
+    - "主語"
+    - "目的語"
+    - "補語"
+    - "時態"
+    - "て形"
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 1
+  pending: 9
+  verified_date: 2025-12-26
+---
 ## 中文解釋
 
 **述語**是句子中用來說明主語狀態、動作或性質的成分。在日文句子中，述語通常位於句尾，是句子的核心部分。述語可以由動詞、形容詞或名詞組成，決定了句子的時態、語氣和意義。

@@ -30,6 +30,27 @@
 - **MINOR**：新增或修改 slash command 或代理人
 - **PATCH**：卡片內容的新增、修改或修復
 
+### v1.5.0 架構更新
+
+**YAML 驅動模式**：卡片 YAML frontmatter 成為進度追蹤的單一事實來源。
+
+**新增 YAML 欄位**：
+```yaml
+version_history:       # 版本歷史追蹤
+content_verification:  # 內容完整性驗證
+link_status:           # 連結統計
+```
+
+**腳本更新**：
+- `update_card_progress.py`：同步更新 CSV 和 YAML
+- `get_pending_cards.py`：支援 `--from-yaml` 掃描
+- `add_pending_cards.py`：同時建立卡片檔案
+
+**新增工具**：
+- `detect_pending_links.py`：檢測待建立連結
+- `verify_content.py`：驗證內容完整性
+- `migrate_cards.py`：遷移卡片到 v1.5.0 格式
+
 ---
 
 ## 四階段工作流程

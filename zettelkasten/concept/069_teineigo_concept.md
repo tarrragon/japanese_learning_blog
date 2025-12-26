@@ -1,15 +1,39 @@
 ---
-id: 069
 title: "丁寧語"
-title_en: "Teineigo (Polite Language)"
-category: concept
-tags: [keigo, polite-language, です-ます, formal-speech]
+stage: pending
+tags:
+  - keigo
+  - polite-language
+  - です-ます
+  - formal-speech
 created: 2025-12-26
 updated: 2025-12-26
-aliases: [teineigo, polite language, です・ます体]
-status: draft
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: false
+  chinese: false
+  examples_count: 0
+  pending_links:
+    - "sonkeigo_concept.md"
+    - "kenjougo_concept.md"
+    - "keigo_system_concept.md"
+    - "formal_vs_casual_speech_concept.md"
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 0
+  pending: 4
+  verified_date: 2025-12-26
+---
 # 丁寧語（Teineigo）
 
 ## 定義

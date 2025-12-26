@@ -1,14 +1,34 @@
 ---
 title: "敬語表達：ごちそうさま"
-japanese: "ごちそうさま"
-chinese: "謝謝款待"
-english: "Thank you for the meal"
-grammar_type: "honorific"
-jlpt_level: "N5"
-tags: ["honorific", "teineigo", "daily_life"]
-related_cards: []
----
+stage: pending
+tags:
+  - "honorific"
+  - "teineigo"
+  - "daily_life"
+created: 2025-12-26
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 0
+  pending: 0
+  verified_date: 2025-12-26
+---
 ## 概要
 
 「ごちそうさま」是日本人在用餐結束後必說的感謝語，表達對準備食物者的謝意以及對美味餐點的感激。這是與「いただきます」成對的重要飲食禮儀。

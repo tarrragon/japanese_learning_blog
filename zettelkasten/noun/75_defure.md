@@ -1,21 +1,33 @@
 ---
-id: noun-075
-category: noun
-japanese: デフレ
-reading: defure
-chinese: 通貨緊縮（通縮）
-english: deflation
 jlpt: n2
+stage: pending
 tags:
   - domain/経済学
-status: draft
 created: 2025-12-22
 updated: 2025-12-22
-dictionary:
-  found: false
-  sources: {}
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: false
+  chinese: true
+  examples_count: 0
+  pending_links:
+    - "金融政策"
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 4
+  pending: 1
+  verified_date: 2025-12-26
+---
 # デフレ（deflation）
 
 ## 三語解釋

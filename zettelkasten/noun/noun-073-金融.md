@@ -4,20 +4,33 @@ description: "金融"
 type: noun
 jlpt: n2
 stage: pending
-draft: true
-auto_generated: false
-needs_review: true
 tags:
   - domain/経済学
   - domain/金融
-dictionary:
-  query: "金融"
-  found: false
-  note: "字典未收錄，使用 AI 輔助建立內容"
 created: 2025-12-22
 updated: 2025-12-22
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 11
+  pending: 0
+  verified_date: 2025-12-26
+---
 # 金融（きんゆう）
 
 ## 解釋

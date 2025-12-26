@@ -3,10 +3,33 @@ title: "〜になる"
 description: "「〜になる」表示狀態或性質的變化，用於描述自然發生的變化或隨時間改變的狀態。這是自動詞性質的表達，表"
 type: grammar
 jlpt: n4
-tags: [grammar]
-date: 2025-10-31
----
+stage: pending
+tags:
+  - grammar
+created: 2025-10-31
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: false
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 0
+  pending: 0
+  verified_date: 2025-12-26
+---
 # 〜になる
 
 ## 基本資訊

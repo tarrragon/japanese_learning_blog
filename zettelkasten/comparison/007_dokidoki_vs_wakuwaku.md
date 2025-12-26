@@ -1,15 +1,35 @@
 ---
-id: comparison-004
 title: "ドキドキ vs ワクワク"
-date: 2025-12-22
+jlpt: n4
+stage: pending
 tags:
   - onomatopoeia
   - emotion
   - comparison
-category: comparison
-jlpt: n4
----
+created: 2025-12-22
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 3
+  pending: 0
+  verified_date: 2025-12-26
+---
 # ドキドキ vs ワクワク
 
 ## 日本語の説明

@@ -1,14 +1,36 @@
 ---
-japanese: 自由貿易
-reading: じゆうぼうえき
-category: noun
 jlpt: N2
+stage: pending
 tags:
   - domain/経済学
   - domain/商業
-dictionary: null
----
+created: 2025-12-26
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: false
+  chinese: true
+  examples_count: 0
+  pending_links:
+    - "貿易協定"
+    - "WTO（世界貿易機関）"
+    - "比較優位"
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 2
+  pending: 3
+  verified_date: 2025-12-26
+---
 # 自由貿易（じゆうぼうえき）
 
 ## 解釋

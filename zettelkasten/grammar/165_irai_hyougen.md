@@ -1,17 +1,38 @@
 ---
-id: 165
 title: "依頼表現"
+stage: pending
+tags:
+  - grammar
+  - request
+  - politeness
+  - communication
 created: 2025-12-26
 updated: 2025-12-26
-tags: [grammar, request, politeness, communication]
-aliases: ["request expressions", "asking for favors"]
-status: draft
-related:
-  - "../../vocabulary/verbs/083_morau.md"
-  - "../../vocabulary/verbs/084_kureru.md"
-  - "../../vocabulary/verbs/085_ageru.md"
----
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links:
+    - "敬語系統"
+    - "謙譲語"
+    - "丁寧語"
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 3
+  pending: 3
+  verified_date: 2025-12-26
+---
 # 依頼表現（Request Expressions）
 
 ## 中文解釋

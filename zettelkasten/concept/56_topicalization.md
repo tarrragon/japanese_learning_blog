@@ -1,19 +1,37 @@
 ---
-id: 56
 title: "主題化"
-japanese_title: "主題化"
 type: concept
-category: concept
 jlpt: n3
+stage: pending
 tags:
   - grammar
   - は
   - topic
   - topicalization
-created_date: 2025-12-26
-version: 1.0.0
----
+created: 2025-12-26
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: true
+  chinese: true
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 5
+  pending: 0
+  verified_date: 2025-12-26
+---
 ## 中文解釋
 
 主題化（topicalization）是日語語法中一個核心概念，主要透過助詞「は」實現。它將句子中的某個成分提升為話題（topic），成為陳述的對象，而句子其餘部分則提供關於這個話題的訊息。

@@ -1,24 +1,32 @@
 ---
-id: noun-083
 type: vocabulary
-category: noun
-japanese: 景気指標
-hiragana: けいきしひょう
-romaji: keikishihyou
-word_type: 名詞
-jlpt_level: N2
+stage: pending
 tags:
   - domain/経済学
-status: draft
-created_at: 2025-12-22
-updated_at: 2025-12-22
-related_cards:
-  - ../noun/081_keikijunkan.md
-  - ../noun/079_keiki.md
-  - ../noun/082_keikihendou.md
-dictionary: null
----
+created: 2025-12-26
+updated: 2025-12-26
 
+# 版本歷史
+version_history:
+  - version: "1.5.0"
+    stage: "pending"
+    date: 2025-12-26
+
+# 內容驗證
+content_verification:
+  japanese: false
+  english: false
+  chinese: false
+  examples_count: 0
+  pending_links: []
+
+# 連結狀態
+link_status:
+  incoming: 0
+  outgoing: 3
+  pending: 0
+  verified_date: 2025-12-26
+---
 # 景気指標
 
 ## 1. 日本語の意味
