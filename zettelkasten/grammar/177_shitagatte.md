@@ -103,9 +103,9 @@ A formal conjunctive adverb used in written Japanese to introduce a logical conc
 - **ゆえに**：古風、文語的、より硬い
 
 ## 相關連結
-- [だから](待建立) - 口語因果接續詞
-- [そのため](待建立) - 原因理由接續詞
-- [接続詞](待建立) - 接續詞總覽
+- [だから](146_dakara.md) - 口語因果接續詞
+- [そのため](178_sonotame.md) - 原因理由接續詞
+- [接続詞](156_setsuzokushi.md) - 接續詞總覽
 - [書き言葉](待建立) - 書面語特徵
 
 ## 腳註

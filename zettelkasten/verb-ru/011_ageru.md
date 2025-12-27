@@ -630,5 +630,5 @@ Japanese giving-receiving expressions use three different verbs based on perspec
 - [た形](../grammar/009_ta_form.md) - あげた的用法
 
 ### 相關概念
-- [授受表現](../grammar/giving_receiving.md)（待建立） - 完整的授受表現說明
-- [さしあげる](../honorific/002_sashiageru.md)（待建立） - あげる的謙讓語
+- [授受表現](../grammar/giving_receiving.md) - 完整的授受表現說明
+- [さしあげる](../honorific/002_sashiageru.md) - あげる的謙讓語

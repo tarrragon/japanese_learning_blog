@@ -97,7 +97,7 @@ Adversative conjunction. Introduces a sentence that contradicts or contrasts wit
 
 - **語體對比**：[しかし](010_shikashi.md) - 書面語轉折連接詞
 - **中性替代**：[けれども](004_keredomo.md) - 中性轉折表達
-- **句中轉折**：[が](待建立) - 句中轉折助詞（待建立）
+- **句中轉折**：[が](../particle/001_ga.md) - 句中轉折助詞（待建立）
 
 ## 腳註
 

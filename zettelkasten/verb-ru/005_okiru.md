@@ -356,11 +356,11 @@ flowchart LR
 - [寝る](004_neru.md) - 對應動詞（睡覺）
 
 ### 相關文法
-- [ます形](../grammar/007_masu_form.md)（待建立） - 起きます的用法
+- [ます形](../grammar/007_masu_form.md) - 起きます的用法
 - [て形文法](../grammar/001_te_form.md) - 起きて的用法
 - [〜てから](../grammar/015_te_kara.md) - 起床後習慣表達
 
 ### 相關動詞
 - [寝る](004_neru.md) - 睡覺（對應動詞）
-- [起こす](../verb-u/018_okosu.md)（待建立） - 叫醒（他動詞）
-- [起こる](../verb-u/019_okoru.md)（待建立） - 發生
+- [起こす](../verb-u/018_okosu.md) - 叫醒（他動詞）
+- [起こる](../verb-u/019_okoru.md) - 發生

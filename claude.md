@@ -126,6 +126,18 @@ uv run scripts/update_card_progress.py --id {card_id} --stage extension-review -
 - 添加腳註說明
 - 建立雙向連結
 
+**連結替換命令**（批次處理待建立標記）：
+```bash
+# 一站式處理：替換連結 + 新增缺口到 CSV + 生成報告
+uv run scripts/replace_pending_links.py --fix --add-to-csv --report
+
+# 僅預覽變更
+uv run scripts/replace_pending_links.py --dry-run
+
+# 生成 JSON 格式缺口清單
+uv run scripts/replace_pending_links.py --fix --json > gaps.json
+```
+
 **狀態轉換**：`extension-review` → `linking`
 
 **階段完成命令**：
@@ -135,7 +147,8 @@ uv run scripts/update_card_progress.py --id {card_id} --stage linking --quiet
 
 **產出**：
 - 連結階段報告：`doc/worklog/linking-cards-{version}.md`
-- 草稿卡片（連結時發現的缺口）
+- 缺口報告：`doc/worklog/gap-report-{date}.md`
+- 缺口卡片自動新增到 Active CSV
 
 ---
 
@@ -368,6 +381,8 @@ uv run scripts/update_card_progress.py --id {card_id} --stage completed --quiet
 | `verify-meta.py` | 驗證 Meta 系統 |
 | `fix-numbering.py` | 檢查/修復編號連續性 |
 | `fix-wikilinks.py` | 檢查/修復連結格式 |
+| `replace_pending_links.py` | 替換待建立連結並新增缺口到 CSV |
+| `detect_pending_links.py` | 檢測待建立標記 |
 | `lookup-dictionary.py` | 查詢 macOS 字典 |
 | `get_pending_cards.py` | 讀取待辦卡片清單 |
 | `add_pending_cards.py` | 新增待辦卡片 |

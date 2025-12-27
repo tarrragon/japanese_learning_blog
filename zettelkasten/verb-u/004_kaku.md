@@ -376,7 +376,7 @@ A basic godan verb. It expresses the action of writing characters or text. An es
 - [を](../particle/002_wo.md) - 書く常用的助詞
 
 ### 相關文法
-- [ます形](../grammar/007_masu_form.md)（待建立） - 書きます的用法
+- [ます形](../grammar/007_masu_form.md) - 書きます的用法
 - [て形文法](../grammar/001_te_form.md) - 書いて的用法（く→いて）
 
 ### 相關動詞

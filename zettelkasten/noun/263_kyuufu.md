@@ -88,8 +88,8 @@ In economics and legal contexts, refers to the act of delivering money, goods, o
 
 ### 相關詞彙
 
-- [支払い](待建立)[^1]：支付（較日常的說法）
-- [支給](待建立)[^2]：發給、支給
+- [支払い](../grammar/264_shiharai.md)[^1]：支付（較日常的說法）
+- [支給](noun-075-支給.md)[^2]：發給、支給
 - [交付](待建立)[^3]：交付（較廣義）
 - [支出](待建立)[^4]：支出
 - [受給](待建立)[^5]：受領、領取（給付的接收方）

@@ -195,7 +195,7 @@ Methods for converting verbs into honorific forms. There are three types: **sonk
 - [敬語系統](../grammar/005_keigo_system.md) - 敬語を含む相手への配慮表現全般
 - [尊敬語概念](../concept/037_sonkeigo_concept.md)
 - [謙讓語概念](../concept/038_kenjougo_concept.md)
-- [ます形](待建立) - 丁寧語の基本形
+- [ます形](../concept/115_masu_form.md) - 丁寧語の基本形
 - [受身形](../grammar/012_passive_form.md) - 尊敬語として使われる形
 
 ---

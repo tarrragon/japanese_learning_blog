@@ -671,9 +671,9 @@ Making a decision.
 - [ない形 - Negative Form](008_nai_form.md)
 
 ### Related Expressions
-- [〜ませんか - Negative Invitation](021_masenka.md)（待建立）
-- [意向形（普通形）- Plain Volitional](025_volitional_plain.md)（待建立）
-- [〜てください - Please do](012_te_kudasai.md)（待建立）
+- [〜ませんか - Negative Invitation](021_masenka.md)
+- [意向形（普通形）- Plain Volitional](025_volitional_plain.md)
+- [〜てください - Please do](012_te_kudasai.md)
 
 ### Verbs Referenced
 - [する - to do](../verb-irr/001_suru.md) - Phase 1 irregular verb

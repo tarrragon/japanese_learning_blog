@@ -214,21 +214,21 @@ I'm sorry, I can't go today.
 
 ## 註解
 
-[^conjugation]: **動詞活用** - 日語動詞根據時態、語氣、敬語等因素進行的形態變化。詳見 [verb_conjugation.md](zettelkasten/concept/verb_conjugation.md.md)（待建立）
+[^conjugation]: **動詞活用** - 日語動詞根據時態、語氣、敬語等因素進行的形態變化。詳見 [verb_conjugation.md](zettelkasten/concept/verb_conjugation.md.md)
 
-[^jlpt-n4]: **JLPT N4** - 日本語能力試驗的第四級，要求掌握基本的動詞變化和常用文法。詳見 [jlpt_levels.md](zettelkasten/concept/jlpt_levels.md.md)（待建立）
+[^jlpt-n4]: **JLPT N4** - 日本語能力試驗的第四級，要求掌握基本的動詞變化和常用文法。詳見 [jlpt_levels.md](zettelkasten/concept/jlpt_levels.md.md)
 
-[^daily-conversation]: **日常會話** - 朋友、家人之間的非正式對話情境。詳見 [daily_conversation.md](zettelkasten/context/daily_conversation.md.md)（待建立）
+[^daily-conversation]: **日常會話** - 朋友、家人之間的非正式對話情境。詳見 [daily_conversation.md](zettelkasten/context/daily_conversation.md.md)
 
-[^godan]: **五段動詞** - 語尾在あ、い、う、え、お五個段落變化的動詞，也稱為う動詞。詳見 [godan_verbs.md](zettelkasten/grammar/godan_verbs.md.md)（待建立）
+[^godan]: **五段動詞** - 語尾在あ、い、う、え、お五個段落變化的動詞，也稱為う動詞。詳見 [godan_verbs.md](zettelkasten/grammar/godan_verbs.md.md)
 
-[^ichidan]: **一段動詞** - 語幹不變，只變化「る」的動詞，也稱為る動詞。詳見 [ichidan_verbs.md](zettelkasten/grammar/ichidan_verbs.md.md)（待建立）
+[^ichidan]: **一段動詞** - 語幹不變，只變化「る」的動詞，也稱為る動詞。詳見 [ichidan_verbs.md](zettelkasten/grammar/ichidan_verbs.md.md)
 
-[^irregular]: **不規則動詞** - 不遵循一般變化規則的動詞，主要是「する」和「来る」。詳見 [irregular_verbs.md](zettelkasten/grammar/irregular_verbs.md.md)（待建立）
+[^irregular]: **不規則動詞** - 不遵循一般變化規則的動詞，主要是「する」和「来る」。詳見 [irregular_verbs.md](zettelkasten/grammar/irregular_verbs.md.md)
 
-[^transitive]: **他動詞** - 需要賓語的動詞，動作有明確的對象。詳見 [transitive_verbs.md](zettelkasten/concept/transitive_verbs.md.md)（待建立）
+[^transitive]: **他動詞** - 需要賓語的動詞，動作有明確的對象。詳見 [transitive_verbs.md](zettelkasten/concept/transitive_verbs.md.md)
 
-[^particle-ga]: **助詞「が」** - 主格助詞，在可能形中用於標示動作的對象。詳見 [ga.md](zettelkasten/particle/ga.md.md)（待建立）
+[^particle-ga]: **助詞「が」** - 主格助詞，在可能形中用於標示動作的對象。詳見 [ga.md](zettelkasten/particle/ga.md.md)
 
 ---
 

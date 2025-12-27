@@ -192,7 +192,7 @@ Can also mean "since..." when expressing duration:
 | **使用場合** | 有明確先後關係 | 較一般的時間順序 |
 | **例句** | 手を洗ってから食べる | 食事の後で散歩する |
 
-→ 詳しくは[後で vs てから](../comparison/004_ato_de_vs_te_kara.md)（待建立）を参照
+→ 詳しくは[後で vs てから](../comparison/004_ato_de_vs_te_kara.md)を参照
 
 #### 實例對比
 
@@ -293,4 +293,4 @@ Can also mean "since..." when expressing duration:
 - [た形](009_ta_form.md) - 過去形（後で使用）
 
 ### 比較卡片
-- [後で vs てから](../comparison/004_ato_de_vs_te_kara.md)（待建立）- 使用區別
+- [後で vs てから](../comparison/004_ato_de_vs_te_kara.md)- 使用區別

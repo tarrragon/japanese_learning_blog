@@ -342,7 +342,7 @@ One of the most basic godan verbs in daily life. It expresses the action of cons
 - [を](../particle/002_wo.md) - 飲む常用的助詞
 
 ### 相關文法
-- [ます形](../grammar/007_masu_form.md)（待建立） - 飲みます的用法
+- [ます形](../grammar/007_masu_form.md) - 飲みます的用法
 - [て形文法](../grammar/001_te_form.md) - 飲んで的用法（む→んで）
 
 ### 相關動詞

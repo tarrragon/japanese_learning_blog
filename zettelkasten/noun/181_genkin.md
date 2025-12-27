@@ -112,7 +112,7 @@ Cash; physical currency in the form of banknotes and coins that exists as a tang
 
 ## 相關連結
 
-- [貨幣](待建立) - 貨幣的總體概念
+- [貨幣](112_kahei.md) - 貨幣的總體概念
 - [銀行預金](待建立) - 銀行存款
 - [電子マネー](待建立) - 電子貨幣
 - [決済](待建立) - 支付結算

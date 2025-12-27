@@ -336,5 +336,5 @@ Follow the same rules as te-form, changing the ending to「た」or「だ」:
 - [ます形](007_masu_form.md) - 禮貌形式
 - [〜後で](014_ato_de.md) - 時間順序（た形 + 後で）
 - [〜前に](004_mae_ni.md) - 與「後で」對比
-- [〜たことがある](024_ta_koto_ga_aru.md)（待建立）- 經驗表達
-- [〜たら](026_tara.md)（待建立）- 條件表達
+- [〜たことがある](024_ta_koto_ga_aru.md)- 經驗表達
+- [〜たら](026_tara.md)- 條件表達

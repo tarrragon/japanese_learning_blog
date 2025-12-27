@@ -108,8 +108,8 @@ Trust or confidence placed in someone or something; the social evaluation or rel
 
 - [信頼](待建立) - 相似概念：信賴、依靠
 - [評判](待建立) - 相關概念：評價、名聲
-- [約束](待建立) - 相關概念：承諾、約定
-- [取引](待建立) - 應用場景：商業交易
+- [約束](272_yakusoku.md) - 相關概念：承諾、約定
+- [取引](013_torihiki.md) - 應用場景：商業交易
 
 ## 腳註
 

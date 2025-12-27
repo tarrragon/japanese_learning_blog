@@ -104,6 +104,6 @@ Productivity; an indicator showing the ratio of output to input factors of produ
 
 - [労働](181_roudou.md) - 勞動，生產要素
 - [土地](182_tochi.md) - 土地，生產要素
-- [資本](待建立) - 資本，生產要素
+- [資本](227_shihon.md) - 資本，生產要素
 - [効率](待建立) - 效率
-- [経済成長](待建立) - 經濟成長
+- [経済成長](088_keizaiseichou.md) - 經濟成長

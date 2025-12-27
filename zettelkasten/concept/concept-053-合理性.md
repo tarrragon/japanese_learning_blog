@@ -92,7 +92,7 @@ Rationality: the quality of being logical and coherent. In economics, it refers 
 
 - [効用最大化](concept-052-効用最大化.md) - 合理性に基づく行動原理
 - [経済人](concept-042-経済人.md) - 完全な合理性を持つと仮定される主体
-- [限定合理性](待建立) - 現実の人間が持つ制約された合理性
+- [限定合理性](../noun/191-限定合理性.md) - 現実の人間が持つ制約された合理性
 - **理性** - 論理的に思考する能力
 
 ### 対義語

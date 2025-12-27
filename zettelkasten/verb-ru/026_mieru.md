@@ -89,7 +89,7 @@ To be visible; to be able to see; can see. Used as an intransitive verb to descr
 
 ## 関連語彙
 
-- [見る](【待建立】) - to look at; to watch
+- [見る](003_miru.md) - to look at; to watch
 - [目](【待建立】) - eye
 - [視力](【待建立】) - eyesight; vision
 - [見かける](【待建立】) - to happen to see; to catch sight of

@@ -211,7 +211,7 @@ It's important to have hope for the future.
 
 ### 延伸說明
 - [動作 vs 狀態](../concept/action-vs-state.md) - 持つ vs 持っている（待建立）
-- [物理擁有 vs 抽象擁有](../concept/concrete-vs-abstract-possession.md)（待建立）
+- [物理擁有 vs 抽象擁有](../concept/concrete-vs-abstract-possession.md)
 
 ---
 

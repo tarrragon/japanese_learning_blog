@@ -195,21 +195,21 @@ I read the newspaper every morning.
 
 ## 註解
 
-[^jutsubu]: **述部（じゅつぶ）** - 句子中說明主語動作、狀態或性質的部分，在日語中總是位於句末。相當於英文的 predicate。詳見 [predicate.md](../concept/predicate.md)（待建立）
+[^jutsubu]: **述部（じゅつぶ）** - 句子中說明主語動作、狀態或性質的部分，在日語中總是位於句末。相當於英文的 predicate。詳見 [predicate.md](../concept/predicate.md)
 
-[^teineigo]: **丁寧語（ていねいご）** - 日語敬語系統的一種，使用「です/ます」形式，用於表達禮貌。是最基本、最常用的禮貌表達方式。詳見 [polite_expression.md](../concept/polite_expression.md)（待建立）
+[^teineigo]: **丁寧語（ていねいご）** - 日語敬語系統的一種，使用「です/ます」形式，用於表達禮貌。是最基本、最常用的禮貌表達方式。詳見 [polite_expression.md](../concept/polite_expression.md)
 
-[^futsutai]: **普通體（ふつうたい）** - 日語的常體形式，使用「だ/である」或動詞原形，用於非正式場合或書面語。詳見 [teineitai_vs_futsutai.md](../concept/teineitai_vs_futsutai.md)（待建立）
+[^futsutai]: **普通體（ふつうたい）** - 日語的常體形式，使用「だ/である」或動詞原形，用於非正式場合或書面語。詳見 [teineitai_vs_futsutai.md](../concept/teineitai_vs_futsutai.md)
 
-[^i-keiyoushi]: **い形容詞** - 日語形容詞的一種，以「い」結尾（如「大きい」、「高い」），可以直接修飾名詞，有獨特的活用變化。詳見 [i_adjective.md](../adjective/i_adjective.md)（待建立）
+[^i-keiyoushi]: **い形容詞** - 日語形容詞的一種，以「い」結尾（如「大きい」、「高い」），可以直接修飾名詞，有獨特的活用變化。詳見 [i_adjective.md](../adjective/i_adjective.md)
 
-[^na-keiyoushi]: **な形容詞** - 日語形容詞的一種，修飾名詞時需要加「な」（如「きれいな」、「静かな」），結構類似名詞。詳見 [na_adjective.md](../adjective/na_adjective.md)（待建立）
+[^na-keiyoushi]: **な形容詞** - 日語形容詞的一種，修飾名詞時需要加「な」（如「きれいな」、「静かな」），結構類似名詞。詳見 [na_adjective.md](../adjective/na_adjective.md)
 
-[^wa-particle]: **助詞「は」** - 日語中標示主題的助詞，讀作「wa」。用於指出句子的主題或對比。詳見 [wa.md](../particle/wa.md)（待建立）
+[^wa-particle]: **助詞「は」** - 日語中標示主題的助詞，讀作「wa」。用於指出句子的主題或對比。詳見 [wa.md](../particle/wa.md)
 
-[^topic-prominent]: **主題顯著語言（Topic-Prominent Language）** - 日語的語言類型特徵，句子結構圍繞「主題-評論」而非「主語-謂語」組織。詳見 [topic_prominent_language.md](../concept/topic_prominent_language.md)（待建立）
+[^topic-prominent]: **主題顯著語言（Topic-Prominent Language）** - 日語的語言類型特徵，句子結構圍繞「主題-評論」而非「主語-謂語」組織。詳見 [topic_prominent_language.md](../concept/topic_prominent_language.md)
 
-[^wo-particle]: **助詞「を」** - 日語中標示賓語的助詞，讀作「o」。用於指出動詞的直接賓語。詳見 [wo.md](../particle/wo.md)（待建立）
+[^wo-particle]: **助詞「を」** - 日語中標示賓語的助詞，讀作「o」。用於指出動詞的直接賓語。詳見 [wo.md](../particle/wo.md)
 
 ---
 

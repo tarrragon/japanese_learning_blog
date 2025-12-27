@@ -68,10 +68,10 @@ link_status:
 
 ## 相關連結
 
-- [課税所得](../../pending/kazei_shotoku.md)（待建立）
-- [医療費控除](../../pending/iryouhi_koujo.md)（待建立）
-- [確定申告](../229_kakutei_shinkoku.md)（待建立）
-- [所得税](../../pending/shotokuzei.md)（待建立）
+- [課税所得](../../pending/kazei_shotoku.md)
+- [医療費控除](../../pending/iryouhi_koujo.md)
+- [確定申告](../229_kakutei_shinkoku.md)
+- [所得税](../../pending/shotokuzei.md)
 - [控除](../228_koujo.md)
 
 ## 補充說明

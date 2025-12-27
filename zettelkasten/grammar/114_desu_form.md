@@ -288,29 +288,29 @@ I am not Japanese.
 
 ## 註解
 
-[^teineigo]: **丁寧語（ていねいご）** - 日語敬語系統中的禮貌語，使用「です・ます」等形式表達禮貌，不涉及提高對方或降低自己的地位。詳見 [036_teineigo_concept.md](../concept/036_teineigo_concept.md)（待建立）
+[^teineigo]: **丁寧語（ていねいご）** - 日語敬語系統中的禮貌語，使用「です・ます」等形式表達禮貌，不涉及提高對方或降低自己的地位。詳見 [036_teineigo_concept.md](../concept/036_teineigo_concept.md)
 
-[^jodoushi]: **助動詞（じょどうし）** - 附加在動詞、形容詞或名詞後面，表達時態、否定、推測、使役等文法意義的詞類。詳見 [auxiliary_verb.md](../concept/auxiliary_verb.md)（待建立）
+[^jodoushi]: **助動詞（じょどうし）** - 附加在動詞、形容詞或名詞後面，表達時態、否定、推測、使役等文法意義的詞類。詳見 [auxiliary_verb.md](../concept/auxiliary_verb.md)
 
-[^noun-predicate]: **名詞述語（めいしじゅつご）** - 以名詞為核心的述語，表達判斷或分類關係，如「私は学生です」。詳見 [predicate_types.md](../concept/predicate_types.md)（待建立）
+[^noun-predicate]: **名詞述語（めいしじゅつご）** - 以名詞為核心的述語，表達判斷或分類關係，如「私は学生です」。詳見 [predicate_types.md](../concept/predicate_types.md)
 
-[^adjective]: **形容詞（けいようし）** - 描述性質、狀態的詞類，日文分為い形容詞和な形容詞兩種。詳見 [adjective_types.md](../concept/adjective_types.md)（待建立）
+[^adjective]: **形容詞（けいようし）** - 描述性質、狀態的詞類，日文分為い形容詞和な形容詞兩種。詳見 [adjective_types.md](../concept/adjective_types.md)
 
-[^predicate]: **述語（じゅつご）** - 句子中表達動作、狀態或判斷的部分，日文述語位於句尾。詳見 [sentence_structure.md](../concept/sentence_structure.md)（待建立）
+[^predicate]: **述語（じゅつご）** - 句子中表達動作、狀態或判斷的部分，日文述語位於句尾。詳見 [sentence_structure.md](../concept/sentence_structure.md)
 
-[^daily-conversation]: **日常會話（にちじょうかいわ）** - 日常生活中的對話，通常使用禮貌體（です・ます），但對親友可用普通體。詳見 [daily-conversation.md](../context/daily-conversation.md)（待建立）
+[^daily-conversation]: **日常會話（にちじょうかいわ）** - 日常生活中的對話，通常使用禮貌體（です・ます），但對親友可用普通體。詳見 [daily-conversation.md](../context/daily-conversation.md)
 
-[^business-context]: **ビジネス場面（ビジネスばめん）** - 商務、工作相關的正式場合，必須使用禮貌體和敬語。詳見 [business.md](../context/business.md)（待建立）
+[^business-context]: **ビジネス場面（ビジネスばめん）** - 商務、工作相關的正式場合，必須使用禮貌體和敬語。詳見 [business.md](../context/business.md)
 
-[^futsutai]: **普通體（ふつうたい）** - 日語的普通形式，使用「だ・である」等，對親友、家人或書面語使用。詳見 [040_teineitai_vs_futsutai.md](../concept/040_teineitai_vs_futsutai.md)（待建立）
+[^futsutai]: **普通體（ふつうたい）** - 日語的普通形式，使用「だ・である」等，對親友、家人或書面語使用。詳見 [040_teineitai_vs_futsutai.md](../concept/040_teineitai_vs_futsutai.md)
 
-[^masu-form]: **ます形（ますけい）** - 動詞的禮貌形式，與です形共同構成日文禮貌體系統。詳見 [007_masu_form.md](007_masu_form.md)（待建立）
+[^masu-form]: **ます形（ますけい）** - 動詞的禮貌形式，與です形共同構成日文禮貌體系統。詳見 [007_masu_form.md](007_masu_form.md)
 
-[^noun-sentence]: **名詞文（めいしぶん）** - 以名詞為述語的句子，如「私は学生です」。詳見 [sentence_types.md](../concept/sentence_types.md)（待建立）
+[^noun-sentence]: **名詞文（めいしぶん）** - 以名詞為述語的句子，如「私は学生です」。詳見 [sentence_types.md](../concept/sentence_types.md)
 
-[^adjective-sentence]: **形容詞文（けいようしぶん）** - 以形容詞為述語的句子，如「花がきれいです」。詳見 [sentence_types.md](../concept/sentence_types.md)（待建立）
+[^adjective-sentence]: **形容詞文（けいようしぶん）** - 以形容詞為述語的句子，如「花がきれいです」。詳見 [sentence_types.md](../concept/sentence_types.md)
 
-[^politeness-system]: **丁寧体システム（ていねいたいシステム）** - 日語的禮貌體系統，包括です・ます形以及敬語，根據對象和場合選擇合適的表達。詳見 [047_polite_expression.md](../concept/047_polite_expression.md)（待建立）
+[^politeness-system]: **丁寧体システム（ていねいたいシステム）** - 日語的禮貌體系統，包括です・ます形以及敬語，根據對象和場合選擇合適的表達。詳見 [047_polite_expression.md](../concept/047_polite_expression.md)
 
 ---
 

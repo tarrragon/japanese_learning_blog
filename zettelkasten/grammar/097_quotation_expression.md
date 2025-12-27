@@ -329,19 +329,19 @@ The president says the meeting will be postponed.
 
 ## 註解
 
-[^grammar-pattern]: **文法模式** - 具有特定結構和功能的文法表達方式。詳見 [grammar_pattern.md](../concept/grammar_pattern.md)（待建立）
+[^grammar-pattern]: **文法模式** - 具有特定結構和功能的文法表達方式。詳見 [grammar_pattern.md](../concept/grammar_pattern.md)
 
-[^particle-to]: **引用助詞「と」** - 用於標示引用內容的助詞，連接引用部分和引用動詞。詳見 [to_quotative.md](../particle/to_quotative.md)（待建立）
+[^particle-to]: **引用助詞「と」** - 用於標示引用內容的助詞，連接引用部分和引用動詞。詳見 [to_quotative.md](../particle/to_quotative.md)
 
 [^direct-quotation]: **直接引用** - 使用引號「 」，原封不動地引述說話者的原話。英文稱為 "direct quotation" 或 "direct speech"。
 
 [^indirect-quotation]: **間接引用** - 不使用引號，總結或轉述說話內容，調整時態和人稱。英文稱為 "indirect quotation" 或 "indirect speech"。
 
-[^tense]: **時態** - 動詞表示動作或狀態發生時間的文法範疇。日文主要有現在形和過去形。詳見 [tense.md](tense.md)（待建立）
+[^tense]: **時態** - 動詞表示動作或狀態發生時間的文法範疇。日文主要有現在形和過去形。詳見 [tense.md](tense.md)
 
 [^person]: **人稱** - 指示說話者、聽話者或第三者的文法範疇。日文的人稱主要透過代詞和語境表現。
 
-[^hearsay]: **傳聞表現** - 表示「聽說」「據說」的文法表現，如「〜そうだ」「〜という」，用於傳達間接獲得的資訊。詳見 [hearsay_expressions.md](hearsay_expressions.md)（待建立）
+[^hearsay]: **傳聞表現** - 表示「聽說」「據說」的文法表現，如「〜そうだ」「〜という」，用於傳達間接獲得的資訊。詳見 [hearsay_expressions.md](hearsay_expressions.md)
 
 [^information-source]: **資訊來源** - 說話者獲得資訊的途徑，可能是親眼所見、聽說、推測等。日文透過不同的表達方式標示資訊來源。
 
@@ -349,11 +349,11 @@ The president says the meeting will be postponed.
 
 [^responsibility]: **責任歸屬** - 說話者對所陳述內容承擔責任的程度。使用傳聞表現可以降低說話者的責任。
 
-[^formal-context]: **正式場合** - 商務會議、公開演講、公文等需要使用正式語言的情境。詳見 [formal.md](../context/formal.md)（待建立）
+[^formal-context]: **正式場合** - 商務會議、公開演講、公文等需要使用正式語言的情境。詳見 [formal.md](../context/formal.md)
 
-[^polite-form]: **禮貌形式** - 丁寧語、尊敬語、謙讓語等表示禮貌的語言形式。詳見 [politeness.md](../concept/politeness.md)（待建立）
+[^polite-form]: **禮貌形式** - 丁寧語、尊敬語、謙讓語等表示禮貌的語言形式。詳見 [politeness.md](../concept/politeness.md)
 
-[^business-context]: **商務場合** - 工作環境中的正式溝通情境，如會議、報告、商業信函等。詳見 [business.md](../context/business.md)（待建立）
+[^business-context]: **商務場合** - 工作環境中的正式溝通情境，如會議、報告、商業信函等。詳見 [business.md](../context/business.md)
 
 [^official-document]: **公文** - 政府機關、企業組織等發出的正式文書，使用高度正式的語言。
 

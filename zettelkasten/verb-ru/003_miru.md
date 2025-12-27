@@ -314,9 +314,9 @@ A basic verb of visual perception. It expresses the action of recognizing object
 ### 相關文法
 - [ます形](../grammar/007_masu_form.md) - 禮貌形變化
 - [て形文法](../grammar/001_te_form.md) - 見て的用法
-- [た形](../grammar/009_ta_form.md)（待建立） - 見た的用法
-- [ない形](../grammar/008_nai_form.md)（待建立） - 見ない的用法
-- [可能形](../grammar/011_potential_form.md)（待建立） - 見られる的用法
+- [た形](../grammar/009_ta_form.md) - 見た的用法
+- [ない形](../grammar/008_nai_form.md) - 見ない的用法
+- [可能形](../grammar/011_potential_form.md) - 見られる的用法
 
 ### 相關動詞
-- [見える](010_mieru.md)（待建立） - 看得見（自動詞）
+- [見える](010_mieru.md) - 看得見（自動詞）

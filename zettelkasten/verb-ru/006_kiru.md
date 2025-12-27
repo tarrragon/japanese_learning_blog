@@ -290,9 +290,9 @@ Used in specific expressions:
 - [を](../particle/002_wo.md) - を助詞（對象標記）
 
 ### 相關文法
-- [ます形](../grammar/007_masu_form.md)（待建立） - 着ます的用法
+- [ます形](../grammar/007_masu_form.md) - 着ます的用法
 - [て形文法](../grammar/001_te_form.md) - 着て的用法
 
 ### 相關動詞
-- [履く](../verb-u/015_haku.md)（待建立） - 穿（下半身衣物）
-- [脱ぐ](../verb-u/016_nugu.md)（待建立） - 脫（衣服）
+- [履く](../verb-u/015_haku.md) - 穿（下半身衣物）
+- [脱ぐ](../verb-u/016_nugu.md) - 脫（衣服）

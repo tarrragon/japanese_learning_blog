@@ -76,6 +76,6 @@ Optimal allocation of financial and physical capital is important.
 
 ## 相關詞彙
 - [物的資本](noun-077-物的資本.md) - 實物資本；物質資本
-- [資本](capital.md)（待建立）- 資本
-- [金融市場](financial-market.md)（待建立）- 金融市場
-- [資金調達](financing.md)（待建立）- 資金籌措
+- [資本](capital.md)- 資本
+- [金融市場](financial-market.md)- 金融市場
+- [資金調達](financing.md)- 資金籌措

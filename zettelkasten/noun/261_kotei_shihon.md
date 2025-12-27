@@ -51,7 +51,7 @@ Fixed capital; the capital that a business uses for long-term production activit
 - 経済学の教科書や論文
 - 企業の財務分析
 - 会計・簿記の専門文書
-- [ビジネス](待建立)場面
+- [ビジネス](256_bijinesu.md)場面
 
 ### 類義語・対比
 
@@ -75,7 +75,7 @@ Fixed capital; the capital that a business uses for long-term production activit
 
 - [經濟活動](../noun/236_keizai_katsudou.md) - 固定資本が使用される場面
 - [經營管理](待建立) - 固定資本の管理主体
-- [生産性](待建立) - 固定資本が影響する指標
+- [生産性](../concept/122_productivity.md) - 固定資本が影響する指標
 
 ---
 

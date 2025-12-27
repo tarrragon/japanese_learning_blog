@@ -121,7 +121,7 @@ Sales revenue. The total income obtained from selling goods or services. One of 
 
 - [利益](114_rieki.md) - profit
 - [収入](待建立) - income
-- [営業](待建立) - business operations
+- [営業](034_eigyou.md) - business operations
 - [経営](124_keiei.md) - management
 - [予算](120_yosan.md) - budget
 

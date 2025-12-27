@@ -244,27 +244,27 @@ The way to make this dish is very simple.
 
 ## 註解
 
-[^renyoukei]: **連用形** - 動詞活用形之一，也稱為「ます形去掉ます」的形式，用於連接其他詞彙或形成複合詞。詳見 [renyoukei.md](../concept/renyoukei.md)（待建立）
+[^renyoukei]: **連用形** - 動詞活用形之一，也稱為「ます形去掉ます」的形式，用於連接其他詞彙或形成複合詞。詳見 [renyoukei.md](../concept/renyoukei.md)
 
-[^meishi]: **名詞** - 表示人、事物、概念等的詞類，在句子中可作主語、賓語等成分。詳見 [meishi.md](../concept/meishi.md)（待建立）
+[^meishi]: **名詞** - 表示人、事物、概念等的詞類，在句子中可作主語、賓語等成分。詳見 [meishi.md](../concept/meishi.md)
 
-[^nichijou-kaiwa]: **日常會話** - 日常生活中朋友、家人之間的非正式對話。詳見 [casual-conversation.md](../context/casual-conversation.md)（待建立）
+[^nichijou-kaiwa]: **日常會話** - 日常生活中朋友、家人之間的非正式對話。詳見 [casual-conversation.md](../context/casual-conversation.md)
 
-[^setsumei-bun]: **說明文** - 用於解釋、說明事物或程序的文章或話語，常見於手冊、教學材料。詳見 [setsumei-bun.md](../concept/setsumei-bun.md)（待建立）
+[^setsumei-bun]: **說明文** - 用於解釋、說明事物或程序的文章或話語，常見於手冊、教學材料。詳見 [setsumei-bun.md](../concept/setsumei-bun.md)
 
-[^seisansei]: **生產性（語言學）** - 語言成分能夠廣泛地與其他成分結合形成新詞或新結構的能力。「〜方」可以加在幾乎所有動詞後，具有很高的生產性。詳見 [productivity.md](../concept/productivity.md)（待建立）
+[^seisansei]: **生產性（語言學）** - 語言成分能夠廣泛地與其他成分結合形成新詞或新結構的能力。「〜方」可以加在幾乎所有動詞後，具有很高的生產性。詳見 [productivity.md](../concept/productivity.md)
 
-[^mokutekigo]: **目的語（賓語）** - 句子中表示動作對象的成分，在日語中通常用助詞「を」標示。詳見 [mokutekigo.md](../concept/mokutekigo.md)（待建立）
+[^mokutekigo]: **目的語（賓語）** - 句子中表示動作對象的成分，在日語中通常用助詞「を」標示。詳見 [mokutekigo.md](../concept/mokutekigo.md)
 
-[^gakushuusha]: **學習者** - 正在學習某種知識或技能的人。此處指日語學習者。詳見 [gakushuusha.md](../noun/gakushuusha.md)（待建立）
+[^gakushuusha]: **學習者** - 正在學習某種知識或技能的人。此處指日語學習者。詳見 [gakushuusha.md](../noun/gakushuusha.md)
 
-[^nominal-suffix]: **Nominal Suffix** - A suffix that attaches to other words to form nouns. In this case, 〜方 creates nouns expressing methods or ways of doing things. See [nominal_suffix.md](../concept/nominal_suffix.md)（待建立）
+[^nominal-suffix]: **Nominal Suffix** - A suffix that attaches to other words to form nouns. In this case, 〜方 creates nouns expressing methods or ways of doing things. See [nominal_suffix.md](../concept/nominal_suffix.md)
 
-[^masu-form]: **ます-form** - The polite present/future form of Japanese verbs, also called the conjunctive form. When ます is removed, it leaves the verb stem (連用形) which can combine with various suffixes. See [masu-form.md](../grammar/masu-form.md)（待建立）
+[^masu-form]: **ます-form** - The polite present/future form of Japanese verbs, also called the conjunctive form. When ます is removed, it leaves the verb stem (連用形) which can combine with various suffixes. See [masu-form.md](../grammar/masu-form.md)
 
-[^casual]: **Casual Context** - Informal situations such as conversations between friends or family members. See [casual-conversation.md](../context/casual-conversation.md)（待建立）
+[^casual]: **Casual Context** - Informal situations such as conversations between friends or family members. See [casual-conversation.md](../context/casual-conversation.md)
 
-[^formal]: **Formal Context** - Situations requiring polite or formal language, such as business settings, official documents, or instructional materials. See [formal.md](../context/formal.md)（待建立）
+[^formal]: **Formal Context** - Situations requiring polite or formal language, such as business settings, official documents, or instructional materials. See [formal.md](../context/formal.md)
 
 ---
 

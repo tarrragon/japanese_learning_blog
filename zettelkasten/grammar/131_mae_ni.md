@@ -227,25 +227,25 @@ I'll go home before 5 o'clock.
 
 ## 註解
 
-[^jikan-hyougen]: **時間表現** - 表示時間點、時間段、時間順序等的語法結構。日語有豐富的時間表達方式，是基本語法的重要組成部分。詳見 [jikan_hyougen](../concept/jikan_hyougen.md)（待建立）
+[^jikan-hyougen]: **時間表現** - 表示時間點、時間段、時間順序等的語法結構。日語有豐富的時間表達方式，是基本語法的重要組成部分。詳見 [jikan_hyougen](../concept/jikan_hyougen.md)
 
-[^shusetsu]: **主節（主句）** - 複句中語法上獨立、能單獨成句的部分。在「AしてからB」這樣的結構中，B是主節。詳見 [shusetsu](../concept/shusetsu.md)（待建立）
+[^shusetsu]: **主節（主句）** - 複句中語法上獨立、能單獨成句的部分。在「AしてからB」這樣的結構中，B是主節。詳見 [shusetsu](../concept/shusetsu.md)
 
-[^juuzokusetsu]: **從屬節（從屬子句）** - 複句中依附於主節、提供補充說明的部分。在「AしてからB」中，A是從屬節。詳見 [juuzoku_setsu](../concept/juuzoku_setsu.md)（待建立）
+[^juuzokusetsu]: **從屬節（從屬子句）** - 複句中依附於主節、提供補充說明的部分。在「AしてからB」中，A是從屬節。詳見 [juuzoku_setsu](../concept/juuzoku_setsu.md)
 
-[^doushi]: **動詞** - 表示動作、存在、狀態變化的詞類。日語動詞有三大類：一段動詞、五段動詞、不規則動詞。詳見 [verb_classification](../concept/verb_classification.md)（待建立）
+[^doushi]: **動詞** - 表示動作、存在、狀態變化的詞類。日語動詞有三大類：一段動詞、五段動詞、不規則動詞。詳見 [verb_classification](../concept/verb_classification.md)
 
-[^jishokei]: **辭書形（基本形）** - 動詞的基本形式，也是在字典中查詢的形式。如「食べる」「行く」「来る」等。詳見 [verb_forms](verb_forms.md)（待建立）
+[^jishokei]: **辭書形（基本形）** - 動詞的基本形式，也是在字典中查詢的形式。如「食べる」「行く」「来る」等。詳見 [verb_forms](verb_forms.md)
 
-[^meishi]: **名詞** - 表示人、事物、場所、概念等的詞類。可以做主語、賓語，需要助詞連接其他成分。詳見 [meishi](../concept/meishi.md)（待建立）
+[^meishi]: **名詞** - 表示人、事物、場所、概念等的詞類。可以做主語、賓語，需要助詞連接其他成分。詳見 [meishi](../concept/meishi.md)
 
-[^casual]: **日常會話場景** - 朋友、家人之間的非正式對話，或輕鬆的日常交流情境。詳見 [casual-conversation](../context/casual-conversation.md)（待建立）
+[^casual]: **日常會話場景** - 朋友、家人之間的非正式對話，或輕鬆的日常交流情境。詳見 [casual-conversation](../context/casual-conversation.md)
 
-[^formal]: **正式場合** - 商務、學術、公開演講等需要使用正式語言的情境。詳見 [formal-context](../context/formal-context.md)（待建立）
+[^formal]: **正式場合** - 商務、學術、公開演講等需要使用正式語言的情境。詳見 [formal-context](../context/formal-context.md)
 
-[^jikanteki-junjo]: **時間順序** - 事件或動作發生的先後關係。日語通過「前に」「後で」「てから」等文法明確表示時間順序。詳見 [jikanteki_junjo](../concept/jikanteki_junjo.md)（待建立）
+[^jikanteki-junjo]: **時間順序** - 事件或動作發生的先後關係。日語通過「前に」「後で」「てから」等文法明確表示時間順序。詳見 [jikanteki_junjo](../concept/jikanteki_junjo.md)
 
-[^ato-de]: **〜後で** - 表示「在...之後」的時間表達，與「前に」相對。例：「食べた後で」（吃了之後）。詳見 [ato_de](ato_de.md)（待建立）
+[^ato-de]: **〜後で** - 表示「在...之後」的時間表達，與「前に」相對。例：「食べた後で」（吃了之後）。詳見 [ato_de](ato_de.md)
 
 ---
 

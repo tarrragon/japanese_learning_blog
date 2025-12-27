@@ -121,8 +121,8 @@ The rate at which one currency can be exchanged for another, determined by marke
 
 ## 相關連結
 
-- [為替](../noun/078_kawase.md)（待建立）- 外匯、匯兌的基本概念
-- [円高](../noun/079_endaka.md)（待建立）- 日圓升值現象
-- [円安](../noun/080_enyasu.md)（待建立）- 日圓貶值現象
-- [輸出](../verb-ru/041_yushutsu-suru.md)（待建立）- 出口貿易動作
-- [中央銀行](../noun/081_chuoginko.md)（待建立）- 負責貨幣政策的機構
+- [為替](../noun/078_kawase.md)- 外匯、匯兌的基本概念
+- [円高](../noun/079_endaka.md)- 日圓升值現象
+- [円安](../noun/080_enyasu.md)- 日圓貶值現象
+- [輸出](../verb-ru/041_yushutsu-suru.md)- 出口貿易動作
+- [中央銀行](../noun/081_chuoginko.md)- 負責貨幣政策的機構

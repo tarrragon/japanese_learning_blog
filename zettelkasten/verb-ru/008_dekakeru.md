@@ -430,11 +430,11 @@ Purpose unclear:
 - [で](../particle/004_de.md) - で助詞（交通手段）
 
 ### 相關文法
-- [ます形](../grammar/007_masu_form.md)（待建立） - 出かけます的用法
+- [ます形](../grammar/007_masu_form.md) - 出かけます的用法
 - [て形文法](../grammar/001_te_form.md) - 出かけて的用法
 - [〜前に](../grammar/004_mae_ni.md) - 出かける前に（出門前）
 
 ### 相關動詞
 - [出る](007_deru.md) - 出る（單純離開）
-- [来る](../verb-irr/002_kuru.md)（待建立） - 來
-- [帰る](../verb-u/011_kaeru.md)（待建立） - 回
+- [来る](../verb-irr/002_kuru.md) - 來
+- [帰る](../verb-u/011_kaeru.md) - 回

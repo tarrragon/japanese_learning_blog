@@ -173,17 +173,17 @@ I don't go out much on weekends.
 
 ## 註解
 
-[^degree-adverb]: **程度副詞** - 表示動作或狀態程度的副詞，如「とても」（很）、「少し」（稍微）、「あまり」（不太）等。詳見 [degree-adverbs](../concept/degree-adverbs.md)（待建立）
+[^degree-adverb]: **程度副詞** - 表示動作或狀態程度的副詞，如「とても」（很）、「少し」（稍微）、「あまり」（不太）等。詳見 [degree-adverbs](../concept/degree-adverbs.md)
 
-[^negation]: **否定表現** - 日語的否定形式，包括動詞ない形、形容詞くない形等。詳見 [negation-forms](../grammar/negation-forms.md)（待建立）
+[^negation]: **否定表現** - 日語的否定形式，包括動詞ない形、形容詞くない形等。詳見 [negation-forms](../grammar/negation-forms.md)
 
-[^daily-conversation]: **日常會話** - 朋友、家人、同事之間的非正式對話情境。詳見 [daily-conversation](../context/daily-conversation.md)（待建立）
+[^daily-conversation]: **日常會話** - 朋友、家人、同事之間的非正式對話情境。詳見 [daily-conversation](../context/daily-conversation.md)
 
-[^modest]: **控えめな表現（謙虛表達）** - 日本文化中重視的委婉、謙虛的表達方式，避免過於直接的否定。詳見 [modest-expression](../concept/modest-expression.md)（待建立）
+[^modest]: **控えめな表現（謙虛表達）** - 日本文化中重視的委婉、謙虛的表達方式，避免過於直接的否定。詳見 [modest-expression](../concept/modest-expression.md)
 
-[^nuance]: **ニュアンス（語氣）** - 詞語或表達所帶有的細微感情色彩和暗示意義。詳見 [nuance](../concept/nuance.md)（待建立）
+[^nuance]: **ニュアンス（語氣）** - 詞語或表達所帶有的細微感情色彩和暗示意義。詳見 [nuance](../concept/nuance.md)
 
-[^nai-form]: **ない形（否定形）** - 日語動詞和形容詞的否定變化形式。詳見 [nai-form](../grammar/nai-form.md)（待建立）
+[^nai-form]: **ない形（否定形）** - 日語動詞和形容詞的否定變化形式。詳見 [nai-form](../grammar/nai-form.md)
 
 ---
 

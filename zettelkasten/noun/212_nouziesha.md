@@ -105,6 +105,6 @@ Taxpayer; an individual or legal entity obligated to pay taxes based on law. As 
 
 - [課税](184_kazei.md) - 課稅
 - [税金](待建立) - 稅金
-- [確定申告](待建立) - 確定申報
+- [確定申告](239_kakutei_shinkoku.md) - 確定申報
 - [所得税](待建立) - 所得稅
 - [法人税](待建立) - 法人稅

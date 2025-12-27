@@ -176,9 +176,9 @@ Request expressions are Japanese phrases used to ask someone to do something. Th
 - [もらう（receiving）](../../vocabulary/verbs/083_morau.md)
 - [くれる（giving to me）](../../vocabulary/verbs/084_kureru.md)
 - [あげる（giving）](../../vocabulary/verbs/085_ageru.md)
-- [敬語系統](待建立)
-- [謙譲語](待建立)
-- [丁寧語](待建立)
+- [敬語系統](../concept/56_keigo_system.md)
+- [謙譲語](../concept/038_kenjougo_concept.md)
+- [丁寧語](../concept/040_teineigo_concept.md)
 
 ---
 

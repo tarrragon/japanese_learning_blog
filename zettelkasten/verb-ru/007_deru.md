@@ -415,7 +415,7 @@ Indicating origin:
 - [から](../particle/003_kara.md) - から助詞（起點）
 
 ### 相關文法
-- [ます形](../grammar/007_masu_form.md)（待建立） - 出ます的用法
+- [ます形](../grammar/007_masu_form.md) - 出ます的用法
 - [て形文法](../grammar/001_te_form.md) - 出て的用法
 
 ### 相關動詞

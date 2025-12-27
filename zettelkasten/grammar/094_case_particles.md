@@ -427,35 +427,35 @@ We will have a meeting in the conference room.
 
 ## 註解
 
-[^particle-concept]: **助詞（じょし）** - 日文中附加在實詞後方的功能詞，包括格助詞、副助詞、接續助詞、終助詞等類別。詳見 [particle-system.md](../concept/particle-system.md)（待建立）
+[^particle-concept]: **助詞（じょし）** - 日文中附加在實詞後方的功能詞，包括格助詞、副助詞、接續助詞、終助詞等類別。詳見 [particle-system.md](../concept/particle-system.md)
 
-[^agglutinative]: **膠著語（こうちゃくご）** - 語言類型學中的一種，通過添加詞綴（黏著成分）來表達文法功能，如日語、韓語、土耳其語。詳見 [agglutinative-language.md](../concept/agglutinative-language.md)（待建立）
+[^agglutinative]: **膠著語（こうちゃくご）** - 語言類型學中的一種，通過添加詞綴（黏著成分）來表達文法功能，如日語、韓語、土耳其語。詳見 [agglutinative-language.md](../concept/agglutinative-language.md)
 
-[^indo-european]: **印歐語族（いんおうごぞく）** - 包括英語、德語、法語、拉丁語等的語言家族，多數具有名詞格變化系統。詳見 [indo-european-languages.md](../concept/indo-european-languages.md)（待建立）
+[^indo-european]: **印歐語族（いんおうごぞく）** - 包括英語、德語、法語、拉丁語等的語言家族，多數具有名詞格變化系統。詳見 [indo-european-languages.md](../concept/indo-european-languages.md)
 
-[^nominative]: **主格（しゅかく）** - 標記句子主語的格，在日文中主要由助詞「が」標記。詳見 [nominative-case.md](../concept/nominative-case.md)（待建立）
+[^nominative]: **主格（しゅかく）** - 標記句子主語的格，在日文中主要由助詞「が」標記。詳見 [nominative-case.md](../concept/nominative-case.md)
 
-[^accusative]: **對格/賓格（たいかく/ひんかく）** - 標記直接賓語的格，在日文中由助詞「を」標記。詳見 [accusative-case.md](../concept/accusative-case.md)（待建立）
+[^accusative]: **對格/賓格（たいかく/ひんかく）** - 標記直接賓語的格，在日文中由助詞「を」標記。詳見 [accusative-case.md](../concept/accusative-case.md)
 
-[^dative]: **與格（よかく）** - 標記間接賓語或接受者的格，在日文中由助詞「に」標記。詳見 [dative-case.md](../concept/dative-case.md)（待建立）
+[^dative]: **與格（よかく）** - 標記間接賓語或接受者的格，在日文中由助詞「に」標記。詳見 [dative-case.md](../concept/dative-case.md)
 
-[^instrumental]: **具格/工具格（ぐかく）** - 標記動作手段或工具的格，在日文中由助詞「で」標記。詳見 [instrumental-case.md](../concept/instrumental-case.md)（待建立）
+[^instrumental]: **具格/工具格（ぐかく）** - 標記動作手段或工具的格，在日文中由助詞「で」標記。詳見 [instrumental-case.md](../concept/instrumental-case.md)
 
-[^allative]: **方向格/向格（ほうこうかく）** - 標記移動方向的格，在日文中由助詞「へ」標記。詳見 [allative-case.md](../concept/allative-case.md)（待建立）
+[^allative]: **方向格/向格（ほうこうかく）** - 標記移動方向的格，在日文中由助詞「へ」標記。詳見 [allative-case.md](../concept/allative-case.md)
 
-[^word-order]: **語順（ごじゅん）** - 詞語在句子中的排列順序。日文是 SOV 語序（主語-賓語-動詞），但因格助詞明確標記，語順相對靈活。詳見 [word-order.md](../concept/word-order.md)（待建立）
+[^word-order]: **語順（ごじゅん）** - 詞語在句子中的排列順序。日文是 SOV 語序（主語-賓語-動詞），但因格助詞明確標記，語順相對靈活。詳見 [word-order.md](../concept/word-order.md)
 
-[^topicalization]: **話題化（わだいか）** - 將某個成分提升為句子主題的語法操作，在日文中通常使用「は」標記。詳見 [topicalization.md](../concept/topicalization.md)（待建立）
+[^topicalization]: **話題化（わだいか）** - 將某個成分提升為句子主題的語法操作，在日文中通常使用「は」標記。詳見 [topicalization.md](../concept/topicalization.md)
 
-[^focus]: **焦點化（しょうてんか）** - 強調句子中某個特定成分的語法操作，在日文中常用格助詞或語序變化實現。詳見 [focus.md](../concept/focus.md)（待建立）
+[^focus]: **焦點化（しょうてんか）** - 強調句子中某個特定成分的語法操作，在日文中常用格助詞或語序變化實現。詳見 [focus.md](../concept/focus.md)
 
-[^information-structure]: **情報構造/訊息結構（じょうほうこうぞう）** - 句子中已知訊息與新訊息的組織方式，影響助詞選擇和語序。詳見 [information-structure.md](../concept/information-structure.md)（待建立）
+[^information-structure]: **情報構造/訊息結構（じょうほうこうぞう）** - 句子中已知訊息與新訊息的組織方式，影響助詞選擇和語序。詳見 [information-structure.md](../concept/information-structure.md)
 
-[^syntax]: **統語論/句法（とうごろん）** - 研究詞語組合成句子的規則和結構的語言學分支。詳見 [syntax.md](../concept/syntax.md)（待建立）
+[^syntax]: **統語論/句法（とうごろん）** - 研究詞語組合成句子的規則和結構的語言學分支。詳見 [syntax.md](../concept/syntax.md)
 
-[^collocation]: **共起關係/搭配（きょうきかんけい）** - 特定詞語習慣性地一起使用的現象，如特定動詞要求特定格助詞。詳見 [collocation.md](../concept/collocation.md)（待建立）
+[^collocation]: **共起關係/搭配（きょうきかんけい）** - 特定詞語習慣性地一起使用的現象，如特定動詞要求特定格助詞。詳見 [collocation.md](../concept/collocation.md)
 
-[^case-frame]: **格框架（かくわくぐみ）** - 動詞要求的論元結構和格助詞配置模式，是動詞語義和句法的重要特徵。詳見 [case-frame.md](../concept/case-frame.md)（待建立）
+[^case-frame]: **格框架（かくわくぐみ）** - 動詞要求的論元結構和格助詞配置模式，是動詞語義和句法的重要特徵。詳見 [case-frame.md](../concept/case-frame.md)
 
 ---
 

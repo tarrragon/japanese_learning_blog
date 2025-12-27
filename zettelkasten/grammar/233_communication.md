@@ -89,8 +89,8 @@ link_status:
 ## 相關連結
 - [敬語系統](163_keigo_system.md) - 日語溝通的重要組成部分
 - [商務溝通](../concept/063_business_communication.md) - 商務場合的溝通方式
-- [語用學](待建立) - 語言使用的社會層面
-- [社會語言學](待建立) - 語言與社會的關係
+- [語用學](../concept/067_goyougaku.md) - 語言使用的社會層面
+- [社會語言學](../concept/61_shakai_gengogaku.md) - 語言與社會的關係
 
 ## 參考來源
 - 日本語コミュニケーション学

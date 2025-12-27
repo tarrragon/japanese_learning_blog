@@ -170,8 +170,8 @@ Understanding the distinction between these forms is essential for proper Japane
 - [時間的順序性](待建立) - 前件と後件の時間関係
 
 ### 言語学的背景
-- [モダリティ](待建立) - 話し手の判断や態度
-- [従属節](待建立) - 主節に従属する節の構造
+- [モダリティ](../grammar/123_modal_expressions.md) - 話し手の判断や態度
+- [従属節](../grammar/248_juuzoku_setsu.md) - 主節に従属する節の構造
 - [アスペクト](待建立) - 動作の完了・継続の表現
 
 ---

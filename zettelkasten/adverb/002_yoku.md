@@ -194,12 +194,12 @@ Tanaka-san can speak English well.
 - ちゃんと（好好地） - 方式副詞（待建立）
 
 ### 文法相關
-- [連用形](../grammar/renyoukei.md)（待建立） - 形容詞轉副詞的文法規則
-- [副詞的位置](../grammar/adverb_position.md)（待建立） - 副詞在句子中的位置規則
+- [連用形](../grammar/renyoukei.md) - 形容詞轉副詞的文法規則
+- [副詞的位置](../grammar/adverb_position.md) - 副詞在句子中的位置規則
 
 ### 相關形容詞
-- [良い／いい](../adj-i/yoi.md)（待建立） - 源頭形容詞
-- [悪い](../adj-i/warui.md)（待建立） - 反義形容詞
+- [良い／いい](../adj-i/yoi.md) - 源頭形容詞
+- [悪い](../adj-i/warui.md) - 反義形容詞
 
 ---
 

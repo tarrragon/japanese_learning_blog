@@ -100,7 +100,7 @@ Stock market; the marketplace where shares of publicly held companies are issued
 - [株式](075_kabushiki.md) - 股票 - stock/share
 - [投資家](待建立) - 投資人 - investor
 - [株価](091_kabuka.md) - 股價 - stock price
-- [金融市場](待建立) - 金融市場 - financial market
+- [金融市場](240_kinyuu_shijou.md) - 金融市場 - financial market
 
 ## 🔍 補充說明
 

@@ -110,7 +110,7 @@ Investor; an individual or institution that invests funds in financial products 
 ## 相關連結
 
 - [金融機関](185_kinyukikan.md) - 金融機構
-- [証券会社](待建立) - 證券公司
+- [証券会社](099_shoukengaisha.md) - 證券公司
 - [株式](待建立) - 股票
 - [債券](待建立) - 債券
-- [投資](待建立) - 投資
+- [投資](081_toushi.md) - 投資

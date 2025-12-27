@@ -221,21 +221,21 @@ The "keigo system" is a Japanese linguistic framework for expressing respect and
 ### 敬語概念卡片
 - [謙讓語概念](../concept/038_kenjougo_concept.md)
 - [尊敬語概念](../concept/034_sonkeigo_concept.md)
-- [丁寧語概念](待建立)
+- [丁寧語概念](../concept/063_teineigo_gainen.md)
 - [謙讓語 I 類與 II 類的區別](待建立)
 
 ### 代表性敬語動詞
 - [いただく（謙讓語：接受）](001_itadaku.md)
 - [くださる（尊敬語：給予）](004_kudasaru.md)
-- [いらっしゃる（尊敬語：來/去/在）](待建立)
-- [おっしゃる（尊敬語：說）](待建立)
-- [召し上がる（尊敬語：吃/喝）](待建立)
+- [いらっしゃる（尊敬語：來/去/在）](../verb-irr/007_irassharu.md)
+- [おっしゃる（尊敬語：說）](../honorific/002_ossharu_mousu.md)
+- [召し上がる（尊敬語：吃/喝）](../honorific/001_meshiagaru_itadaku.md)
 - [伺う（謙讓語：拜訪/詢問）](待建立)
 - [申す（謙讓語：說）](待建立)
 
 ### 敬語文法形式
-- [お〜になる（尊敬語構成）](待建立)
-- [お〜する（謙讓語構成）](待建立)
+- [お〜になる（尊敬語構成）](../grammar/151_o_ni_naru.md)
+- [お〜する（謙讓語構成）](../grammar/214_o_suru.md)
 - [ご〜する（謙讓語構成）](待建立)
 - [れる・られる（尊敬語助動詞）](待建立)
 - [〜ていただく（謙讓請求）](../grammar/068_te_itadaku.md)

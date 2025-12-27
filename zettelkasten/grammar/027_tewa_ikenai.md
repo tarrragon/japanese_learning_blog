@@ -426,7 +426,7 @@ From strongest to weakest:
 - [て形 - Te-form](001_te_form.md) - Foundation for this pattern
 - [〜てもいい - Permission](039_temo_ii.md) - Opposite concept (permission)
 - [〜ないでください - Polite Negative Request](023_naide_kudasai.md) - Related prohibition pattern
-- [〜なければならない - Obligation](041_nakereba_naranai.md)（待建立）
+- [〜なければならない - Obligation](041_nakereba_naranai.md)
 
 ### Related Verbs (Common in Prohibitions)
 - [する - to do](../verb-irr/001_suru.md) - Irregular verb, frequently used in prohibitions
@@ -442,8 +442,8 @@ From strongest to weakest:
 - [に - Target/location marker](../particle/007_ni.md) - Common in prohibition contexts
 
 ### Cultural Context
-- [Japanese Social Rules and Etiquette](../culture/001_rules.md)（待建立）
-- [Politeness Levels in Japanese](../culture/002_politeness.md)（待建立）
+- [Japanese Social Rules and Etiquette](../culture/001_rules.md)
+- [Politeness Levels in Japanese](../culture/002_politeness.md)
 
 ---
 

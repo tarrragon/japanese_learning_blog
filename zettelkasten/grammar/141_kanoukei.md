@@ -139,7 +139,7 @@ English: Please contact me if you cannot come tomorrow.
 
 ## 關聯卡片
 
-- [～ことができる](待建立) - 另一種可能表現
-- [五段動詞](待建立) - 基本動詞類型
-- [一段動詞](待建立) - 基本動詞類型
+- [～ことができる](142_koto_ga_dekiru.md) - 另一種可能表現
+- [五段動詞](../concept/073_godan_verbs.md) - 基本動詞類型
+- [一段動詞](../concept/074_ichidan_verbs.md) - 基本動詞類型
 - [助詞「が」](待建立) - 可能形常用助詞

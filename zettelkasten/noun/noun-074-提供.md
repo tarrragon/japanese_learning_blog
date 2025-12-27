@@ -74,6 +74,6 @@ Medical institutions provide necessary healthcare services to local residents.
 - 常用搭配：情報提供（提供資訊）、資金提供（提供資金）、場所提供（提供場地）
 
 ## 相關詞彙
-- [供給](supply.md)（待建立）- 供給；供應
+- [供給](supply.md)- 供給；供應
 - [支給](noun-075-支給.md) - 發放；支付
 - [配給](noun-076-配給.md) - 配給；配發

@@ -721,13 +721,13 @@ Expresses past ongoing action.
 - [来る - to come](../verb-irr/002_kuru.md)
 
 ### Related Patterns
-- [〜てある - Preparatory State](041_te_aru.md)（待建立）
-- [〜ているところ - In the middle of](042_te_iru_tokoro.md)（待建立）
-- [〜ていた - Past Progressive](043_te_ita.md)（待建立）
+- [〜てある - Preparatory State](041_te_aru.md)
+- [〜ているところ - In the middle of](042_te_iru_tokoro.md)
+- [〜ていた - Past Progressive](043_te_ita.md)
 
 ### Verb Types
-- [動作動詞 vs 狀態動詞](../verb-basics/001_action_vs_state.md)（待建立）
-- [瞬間動詞](../verb-basics/002_instantaneous_verbs.md)（待建立）
+- [動作動詞 vs 狀態動詞](../verb-basics/001_action_vs_state.md)
+- [瞬間動詞](../verb-basics/002_instantaneous_verbs.md)
 
 ---
 

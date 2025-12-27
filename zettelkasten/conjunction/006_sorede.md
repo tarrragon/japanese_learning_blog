@@ -236,14 +236,14 @@ Used when presenting a conclusion drawn from previous statements:
 ## 相關連結
 
 ### 相關接續詞
-- [だから](002_dakara.md)（待建立） - 所以（較口語）
-- [そのため](003_sonotame.md)（待建立） - 因此（較正式）
-- [したがって](004_shitagatte.md)（待建立） - 因此（邏輯推論）
+- [だから](002_dakara.md) - 所以（較口語）
+- [そのため](003_sonotame.md) - 因此（較正式）
+- [したがって](004_shitagatte.md) - 因此（邏輯推論）
 
 ### 相關文法
-- [因果關係表達](../grammar/cause-effect.md)（待建立） - 因果關係文法總覽
-- [接續詞用法](../grammar/conjunctions.md)（待建立） - 接續詞完整說明
+- [因果關係表達](../grammar/cause-effect.md) - 因果關係文法總覽
+- [接續詞用法](../grammar/conjunctions.md) - 接續詞完整說明
 
 ### 比較卡片
-- [それで vs だから](../comparison/sorede_vs_dakara.md)（待建立） - 詳細比較
-- [因果接續詞比較](../comparison/causal_conjunctions.md)（待建立） - 多個因果接續詞比較
+- [それで vs だから](../comparison/sorede_vs_dakara.md) - 詳細比較
+- [因果接續詞比較](../comparison/causal_conjunctions.md) - 多個因果接續詞比較

@@ -217,37 +217,37 @@ Excuse me, check please.
 
 [^receipt-and-expenditure]: **金銭の収支** - 金錢的收入和支出、現金流。企業經營中所有的金錢流動都需要被記錄在會計系統中。
 
-[^management]: **経営管理** - 企業管理、營運管理。指引導和控制企業活動的過程。詳見 [經營管理](../concept/management.md)（待建立）
+[^management]: **経営管理** - 企業管理、營運管理。指引導和控制企業活動的過程。詳見 [經營管理](../concept/management.md)
 
-[^decision-making]: **意思決定** - 決策制定、做出決定。管理層基於會計資訊進行戰略和財務決策。詳見 [決策制定](../concept/decision-making.md)（待建立）
+[^decision-making]: **意思決定** - 決策制定、做出決定。管理層基於會計資訊進行戰略和財務決策。詳見 [決策制定](../concept/decision-making.md)
 
-[^financial-information]: **財務情報** - 財務資訊、財務數據。包括收入、支出、資產、負債等各種財務數據。詳見 [財務資訊](../noun/financial-information.md)（待建立）
+[^financial-information]: **財務情報** - 財務資訊、財務數據。包括收入、支出、資產、負債等各種財務數據。詳見 [財務資訊](../noun/financial-information.md)
 
-[^ledger]: **帳簿** - 帳冊、會計帳簿。記錄企業所有財務交易的詳細記錄。詳見 [帳簿](../noun/ledger.md)（待建立）
+[^ledger]: **帳簿** - 帳冊、會計帳簿。記錄企業所有財務交易的詳細記錄。詳見 [帳簿](../noun/ledger.md)
 
-[^tax-declaration]: **税務申告** - 稅務申報、納稅申報。企業或個人向稅務機關報告應納稅額的法定程序。詳見 [稅務申報](../noun/tax-declaration.md)（待建立）
+[^tax-declaration]: **税務申告** - 稅務申報、納稅申報。企業或個人向稅務機關報告應納稅額的法定程序。詳見 [稅務申報](../noun/tax-declaration.md)
 
-[^financial-statements]: **財務諸表** - 財務報表、會計報表。企業定期編製的反映財務狀況和經營成果的報告。詳見 [財務報表](../noun/financial-statements.md)（待建立）
+[^financial-statements]: **財務諸表** - 財務報表、會計報表。企業定期編製的反映財務狀況和經營成果的報告。詳見 [財務報表](../noun/financial-statements.md)
 
-[^payment]: **支払い** - 支付、付款。按照商品或服務的價值進行金錢交換。詳見 [支付](../noun/payment.md)（待建立）
+[^payment]: **支払い** - 支付、付款。按照商品或服務的價值進行金錢交換。詳見 [支付](../noun/payment.md)
 
-[^settlement]: **精算** - 精算、結算。交易完成後結清應付或應收的全部款項。詳見 [精算](../noun/settlement.md)（待建立）
+[^settlement]: **精算** - 精算、結算。交易完成後結清應付或應收的全部款項。詳見 [精算](../noun/settlement.md)
 
-[^business]: **ビジネス** - 商業、生意。進行商業活動和經濟交易。詳見 [ビジネス](../noun/business.md)（待建立）
+[^business]: **ビジネス** - 商業、生意。進行商業活動和經濟交易。詳見 [ビジネス](../noun/business.md)
 
-[^transparency]: **透明性** - 透明度、公開性。指企業財務信息的公開和可查性。詳見 [透明性](../concept/transparency.md)（待建立）
+[^transparency]: **透明性** - 透明度、公開性。指企業財務信息的公開和可查性。詳見 [透明性](../concept/transparency.md)
 
-[^trust]: **信用** - 信用、信任。利益相關者（投資者、債權人等）對企業的信任基礎。詳見 [信用](../concept/trust.md)（待建立）
+[^trust]: **信用** - 信用、信任。利益相關者（投資者、債權人等）對企業的信任基礎。詳見 [信用](../concept/trust.md)
 
-[^knowledge]: **知識** - 知識。對會計原理、方法和實踐的理解和掌握。詳見 [知識](../concept/knowledge.md)（待建立）
+[^knowledge]: **知識** - 知識。對會計原理、方法和實踐的理解和掌握。詳見 [知識](../concept/knowledge.md)
 
-[^manager]: **経営者** - 經營者、管理層。負責企業整體經營決策的人員。詳見 [經營者](../noun/manager.md)（待建立）
+[^manager]: **経営者** - 經營者、管理層。負責企業整體經營決策的人員。詳見 [經營者](../noun/manager.md)
 
-[^financial-officer]: **財務担当者** - 財務人員、會計人員。負責企業財務和會計工作的專業人員。詳見 [財務人員](../noun/financial-officer.md)（待建立）
+[^financial-officer]: **財務担当者** - 財務人員、會計人員。負責企業財務和會計工作的專業人員。詳見 [財務人員](../noun/financial-officer.md)
 
-[^investor]: **投資家** - 投資者。向企業投入資本並期望獲得回報的人或機構。詳見 [投資者](../noun/investor.md)（待建立）
+[^investor]: **投資家** - 投資者。向企業投入資本並期望獲得回報的人或機構。詳見 [投資者](../noun/investor.md)
 
-[^creditor]: **債権者** - 債權人。企業欠款的人或機構。詳見 [債權人](../noun/creditor.md)（待建立）
+[^creditor]: **債権者** - 債權人。企業欠款的人或機構。詳見 [債權人](../noun/creditor.md)
 
 ---
 

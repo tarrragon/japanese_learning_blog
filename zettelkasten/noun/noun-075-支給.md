@@ -77,4 +77,4 @@ Pensions are scheduled to be paid monthly.
 ## 相關詞彙
 - [提供](noun-074-提供.md) - 提供；供給
 - [配給](noun-076-配給.md) - 配給；配發
-- [給付](payment.md)（待建立）- 給付；支付
+- [給付](payment.md)- 給付；支付

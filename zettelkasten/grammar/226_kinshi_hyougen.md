@@ -133,9 +133,9 @@ Prohibition expressions are grammatical patterns used to convey "must not do ~" 
 
 ## 相關連結
 
-- [ない形](【待建立】) - 否定形式基礎
+- [ない形](011_nai_form.md) - 否定形式基礎
 - [て形](081_te_form.md) - て形活用
-- [命令形](【待建立】) - 命令表達
+- [命令形](../concept/085_imperative_form.md) - 命令表達
 - [請求表達](【待建立】) - 請求與禁止的對比
 - [敬語系統](047_keigo_system.md) - 禮貌表達體系
-- [日常會話](【待建立】) - 會話中的禁止用法
+- [日常會話](../concept/59_nichijou_kaiwa.md) - 會話中的禁止用法

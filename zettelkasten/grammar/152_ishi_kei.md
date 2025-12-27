@@ -179,8 +179,8 @@ The volitional form (意志形) is a verb conjugation used to express the speake
 - [命令形](084_meirei_kei.md)：直接命令的表達方式
 - [可能形](087_kanou_kei.md)：表達能力的動詞形式
 - [〜つもり](086_tsumori.md)：表達計畫和打算
-- [受身形](待建立)[^1]：被動語態的表達
-- [使役形](待建立)[^2]：使役語態的表達
+- [受身形](015_passive_form.md)[^1]：被動語態的表達
+- [使役形](102_causative.md)[^2]：使役語態的表達
 - [〜ましょう](待建立)[^3]：正式的勸誘表達
 
 ---

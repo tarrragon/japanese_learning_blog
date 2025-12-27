@@ -151,7 +151,7 @@ Both しかし and でも are adversative conjunctions expressing contrast or un
 ## 相關連結
 
 - [逆接接続詞](待建立) - 逆接接續詞總覽
-- [けれども](待建立) - 另一個逆接接續詞
+- [けれども](../conjunction/005_keredomo.md) - 另一個逆接接續詞
 - [文語と口語](待建立) - 書面語與口語的區別
 - [接続詞の種類](待建立) - 接續詞的分類
 

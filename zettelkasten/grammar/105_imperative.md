@@ -414,15 +414,15 @@ Come quickly. I'm waiting.
 
 ## 註解
 
-[^polite-request]: **禮貌請求表達** - 日語中有多種禮貌的請求方式，如「〜てください」（請〜）、「〜ていただけますか」（能否請您〜）等。詳見 [te_kudasai](te_kudasai.md)（待建立）
+[^polite-request]: **禮貌請求表達** - 日語中有多種禮貌的請求方式，如「〜てください」（請〜）、「〜ていただけますか」（能否請您〜）等。詳見 [te_kudasai](te_kudasai.md)
 
-[^usage-context]: **使用情境** - 命令形的使用高度依賴社會情境，包括說話者與聽話者的關係、年齡、性別、場合等。詳見 [speech_level](../concept/speech_level.md)（待建立）
+[^usage-context]: **使用情境** - 命令形的使用高度依賴社會情境，包括說話者與聽話者的關係、年齡、性別、場合等。詳見 [speech_level](../concept/speech_level.md)
 
-[^prohibition]: **禁止表達** - 日語中表達禁止的方式包括「〜な」（粗魯）、「〜ないでください」（禮貌）、「〜てはいけません」（正式）等。詳見 [prohibition_forms](prohibition_forms.md)（待建立）
+[^prohibition]: **禁止表達** - 日語中表達禁止的方式包括「〜な」（粗魯）、「〜ないでください」（禮貌）、「〜てはいけません」（正式）等。詳見 [prohibition_forms](prohibition_forms.md)
 
-[^polite-alternatives]: **禮貌替代表現** - 除了命令形，日語有豐富的禮貌命令表達方式，適用於不同的社會場合和人際關係。詳見 [request_expressions](request_expressions.md)（待建立）
+[^polite-alternatives]: **禮貌替代表現** - 除了命令形，日語有豐富的禮貌命令表達方式，適用於不同的社會場合和人際關係。詳見 [request_expressions](request_expressions.md)
 
-[^gender-language]: **性別語言差異** - 日語中存在明顯的男性用語和女性用語差異，反映了傳統的性別角色期待。詳見 [gender_language](../concept/gender_language.md)（待建立）
+[^gender-language]: **性別語言差異** - 日語中存在明顯的男性用語和女性用語差異，反映了傳統的性別角色期待。詳見 [gender_language](../concept/gender_language.md)
 
 ---
 

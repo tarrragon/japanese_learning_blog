@@ -76,6 +76,6 @@ Infrastructure development is an investment that increases the nation's physical
 
 ## 相關詞彙
 - [金融資本](noun-078-金融資本.md) - 金融資本；貨幣資本
-- [資本](capital.md)（待建立）- 資本
-- [固定資本](fixed-capital.md)（待建立）- 固定資本
-- [設備投資](capital-investment.md)（待建立）- 設備投資
+- [資本](capital.md)- 資本
+- [固定資本](fixed-capital.md)- 固定資本
+- [設備投資](capital-investment.md)- 設備投資

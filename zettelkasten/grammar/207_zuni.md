@@ -86,15 +86,15 @@ link_status:
 
 ## 參考連結
 
-- [動詞活用規則](../grammar/001_verbs_basic.md)（待建立）
+- [動詞活用規則](../grammar/001_verbs_basic.md)
 - [〜ないで](../grammar/158_naide.md)（口語版本）
-- [書き言葉と話し言葉](../grammar/002_written_spoken.md)（待建立）
+- [書き言葉と話し言葉](../grammar/002_written_spoken.md)
 
 ## 相關卡片
 
 - [〜ないで](../grammar/158_naide.md) - 口語版本
-- [〜ずとも](../grammar/160_zusutomo.md)（待建立） - 即使不做
-- [動詞ない形](../verb/005_nai_form.md)（待建立）
+- [〜ずとも](../grammar/160_zusutomo.md) - 即使不做
+- [動詞ない形](../verb/005_nai_form.md)
 
 ---
 

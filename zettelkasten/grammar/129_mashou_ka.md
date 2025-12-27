@@ -209,25 +209,25 @@ Shall I carry your luggage?
 
 ## 註解
 
-[^verb-conjugation]: **動詞變化** - 日文動詞根據時態、語氣、禮貌程度等進行變化的系統。詳見 [verb_conjugation.md](../concept/verb_conjugation.md)（待建立）
+[^verb-conjugation]: **動詞變化** - 日文動詞根據時態、語氣、禮貌程度等進行變化的系統。詳見 [verb_conjugation.md](../concept/verb_conjugation.md)
 
-[^teineigo]: **丁寧語** - 日文敬語系統中表示禮貌的基本形式，使用「です・ます」等結尾。詳見 [teineigo_concept.md](../concept/teineigo_concept.md)（待建立）
+[^teineigo]: **丁寧語** - 日文敬語系統中表示禮貌的基本形式，使用「です・ます」等結尾。詳見 [teineigo_concept.md](../concept/teineigo_concept.md)
 
-[^daily-conversation]: **日常會話** - 朋友、家人、同事之間的日常交流場景。詳見 [daily_conversation.md](../context/daily_conversation.md)（待建立）
+[^daily-conversation]: **日常會話** - 朋友、家人、同事之間的日常交流場景。詳見 [daily_conversation.md](../context/daily_conversation.md)
 
-[^social-context]: **社交場合** - 需要一定禮貌和體貌的社交情境。詳見 [social_context.md](../context/social_context.md)（待建立）
+[^social-context]: **社交場合** - 需要一定禮貌和體貌的社交情境。詳見 [social_context.md](../context/social_context.md)
 
-[^question-particle]: **疑問助詞「か」** - 用於構成疑問句的助詞，表示詢問或不確定。詳見 [ka.md](../particle/ka.md)（待建立）
+[^question-particle]: **疑問助詞「か」** - 用於構成疑問句的助詞，表示詢問或不確定。詳見 [ka.md](../particle/ka.md)
 
-[^ichidan]: **一段動詞** - 語幹不變，只變化「る」的動詞類型。詳見 [verb_classification.md](../concept/verb_classification.md)（待建立）
+[^ichidan]: **一段動詞** - 語幹不變，只變化「る」的動詞類型。詳見 [verb_classification.md](../concept/verb_classification.md)
 
-[^godan]: **五段動詞** - 語幹末音在五十音表上變化的動詞類型。詳見 [verb_classification.md](../concept/verb_classification.md)（待建立）
+[^godan]: **五段動詞** - 語幹末音在五十音表上變化的動詞類型。詳見 [verb_classification.md](../concept/verb_classification.md)
 
-[^irregular]: **不規則動詞** - 「する」和「来る」兩個特殊動詞。詳見 [verb_classification.md](../concept/verb_classification.md)（待建立）
+[^irregular]: **不規則動詞** - 「する」和「来る」兩個特殊動詞。詳見 [verb_classification.md](../concept/verb_classification.md)
 
-[^social-distance]: **社交距離** - 人際關係中的親疏遠近程度，影響語言表達的選擇。詳見 [social_distance.md](../concept/social_distance.md)（待建立）
+[^social-distance]: **社交距離** - 人際關係中的親疏遠近程度，影響語言表達的選擇。詳見 [social_distance.md](../concept/social_distance.md)
 
-[^futsutai]: **普通體** - 日文中非禮貌形式的表達方式，用於親密關係。詳見 [teineitai_vs_futsutai.md](../concept/teineitai_vs_futsutai.md)（待建立）
+[^futsutai]: **普通體** - 日文中非禮貌形式的表達方式，用於親密關係。詳見 [teineitai_vs_futsutai.md](../concept/teineitai_vs_futsutai.md)
 
 ---
 

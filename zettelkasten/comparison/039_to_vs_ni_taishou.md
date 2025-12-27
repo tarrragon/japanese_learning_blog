@@ -138,8 +138,8 @@ link_status:
 
 ## 相關文法
 
-- [格助詞「と」](../../grammar/001_kakujoshi_to.md)（待建立）
-- [格助詞「に」](../../grammar/002_kakujoshi_ni.md)（待建立）
+- [格助詞「と」](../../grammar/001_kakujoshi_to.md)
+- [格助詞「に」](../../grammar/002_kakujoshi_ni.md)
 - [に vs へ 方向用法比較](038_ni_vs_e_houkou.md)
 
 ## 語感提示
@@ -156,5 +156,5 @@ link_status:
 
 ## 參考資料
 
-- [JLPT N4 文法：と vs に 的對象用法](https://jlpt.jp)（待建立）
-- [日本語文法ハンドブック](https://example.com)（待建立）
+- [JLPT N4 文法：と vs に 的對象用法](https://jlpt.jp)
+- [日本語文法ハンドブック](https://example.com)

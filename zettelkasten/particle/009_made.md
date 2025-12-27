@@ -584,17 +584,17 @@ Time + までに + Completion Verb
 - [は - Topic Particle](006_wa.md) - Used with まで to form までは (limited range)
 
 ### Related Grammar
-- [まで vs までに 比較](005_made_madeni.md)（待建立）- Detailed comparison of まで and までに
-- [時間の長さと継続](../time-expressions/001_time_duration.md)（待建立）- Time duration and continuation expressions
-- [期限表現](../time-expressions/002_deadlines.md)（待建立）- Deadline expressions with までに
+- [まで vs までに 比較](005_made_madeni.md)- Detailed comparison of まで and までに
+- [時間の長さと継続](../time-expressions/001_time_duration.md)- Time duration and continuation expressions
+- [期限表現](../time-expressions/002_deadlines.md)- Deadline expressions with までに
 
 ### Verb Combinations
-- [までと動詞の組み合わせ](../verb-combo/001_made_verbs.md)（待建立）- Common verbs used with まで
-- [までに と動詞の組み合わせ](../verb-combo/002_madeni_verbs.md)（待建立）- Common verbs used with までに
+- [までと動詞の組み合わせ](../verb-combo/001_made_verbs.md)- Common verbs used with まで
+- [までに と動詞の組み合わせ](../verb-combo/002_madeni_verbs.md)- Common verbs used with までに
 
 ### Related Concepts
-- [時点 vs 時間の長さ](../concepts/time-point-vs-duration.md)（待建立）- Time point vs time duration
-- [継続動作 vs 完了動作](../concepts/continuous-vs-completion.md)（待建立）- Continuous vs completion actions
+- [時点 vs 時間の長さ](../concepts/time-point-vs-duration.md)- Time point vs time duration
+- [継続動作 vs 完了動作](../concepts/continuous-vs-completion.md)- Continuous vs completion actions
 
 ---
 
@@ -630,6 +630,6 @@ Time + までに + Completion Verb
   - 9時まで働く (work until 9) = continue working until 9
   - 9時までに終わる (finish by 9) = complete before 9
 
-  See: [まで vs までに 比較](../grammar/031_made_vs_madeni.md)（待建立）
+  See: [まで vs までに 比較](../grammar/031_made_vs_madeni.md)
 
 [^topic-particle]: **主題助詞（しゅだいじょし）Topic Particle** - The particle は (wa) marks the topic or theme of a sentence. When combined with まで to form までは, it emphasizes a limited range: "up to (but not beyond)". See: [は - Topic Particle](007_wa.md)

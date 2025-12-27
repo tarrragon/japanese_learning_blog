@@ -314,11 +314,11 @@ I received a book from my friend.
 
 [^benefit]: **恩惠** - 廣義的利益或好處，可以是物品、行為或服務。在日文授受表達中，「恩惠」的概念不限於物質，也包括幫助、教導、照顧等抽象行為。
 
-[^pragmatics]: **語用論** - 研究語言在特定語境中如何使用的語言學分支。授受視角是典型的語用現象，語法正確不代表語用適當。詳見 [004_pragmatics](004_pragmatics.md)（待建立）
+[^pragmatics]: **語用論** - 研究語言在特定語境中如何使用的語言學分支。授受視角是典型的語用現象，語法正確不代表語用適當。詳見 [004_pragmatics](004_pragmatics.md)
 
-[^psychological-distance]: **心理距離** - 說話者感知到的與他人之間的親疏遠近。心理距離影響授受動詞的選擇，距離近時傾向使用くれる，距離遠時使用あげる。詳見 [003_psychological_distance](003_psychological_distance.md)（待建立）
+[^psychological-distance]: **心理距離** - 說話者感知到的與他人之間的親疏遠近。心理距離影響授受動詞的選擇，距離近時傾向使用くれる，距離遠時使用あげる。詳見 [003_psychological_distance](003_psychological_distance.md)
 
-[^uchi-soto]: **內外關係** - 日本社會文化中區分「內集團」（ウチ）和「外集團」（ソト）的概念。內集團包括家人、親友等親近者，外集團是其他人。授受視角強烈受此概念影響。詳見 [001_uchi_soto](001_uchi_soto.md)（待建立）
+[^uchi-soto]: **內外關係** - 日本社會文化中區分「內集團」（ウチ）和「外集團」（ソト）的概念。內集團包括家人、親友等親近者，外集團是其他人。授受視角強烈受此概念影響。詳見 [001_uchi_soto](001_uchi_soto.md)
 
 [^pragmatic-inappropriateness]: **語用不當** - 語法正確但不符合語境或社會規範的表達。例如「友達が私に本をあげた」語法無誤，但從語用角度應說「友達が私に本をくれた」。
 

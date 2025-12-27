@@ -324,9 +324,9 @@ One of the most basic verbs in daily life. It expresses the action of sleeping. 
 - [起きる](005_okiru.md) - 對應動詞（起床）
 
 ### 相關文法
-- [ます形](../grammar/007_masu_form.md)（待建立） - 寝ます的用法
+- [ます形](../grammar/007_masu_form.md) - 寝ます的用法
 - [て形文法](../grammar/001_te_form.md) - 寝て的用法
-- [た形](../grammar/009_ta_form.md)（待建立） - 寝た的用法
+- [た形](../grammar/009_ta_form.md) - 寝た的用法
 - [〜てから](../grammar/015_te_kara.md) - 睡前習慣表達
 - [〜前に](../grammar/004_mae_ni.md) - 寝る前に（睡覺前）
 

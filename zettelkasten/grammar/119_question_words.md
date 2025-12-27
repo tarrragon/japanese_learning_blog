@@ -271,9 +271,9 @@ Which one do you like best among these?
 
 [^question-concept]: **疑問表達** - 用於詢問資訊的語言表達形式，是人類語言的普遍特徵。
 
-[^question-sentence]: **疑問文** - 用於提問的句子類型，日語中通常以助詞「か」或語氣上揚來標記。詳見 [疑問文](../grammar/question_sentence.md)（待建立）
+[^question-sentence]: **疑問文** - 用於提問的句子類型，日語中通常以助詞「か」或語氣上揚來標記。詳見 [疑問文](../grammar/question_sentence.md)
 
-[^indefinite]: **不定語** - 指涉不特定對象的詞語（如「某人」「某物」），日語通過「疑問詞 + か」形成。詳見 [不定代詞](../grammar/indefinite_pronouns.md)（待建立）
+[^indefinite]: **不定語** - 指涉不特定對象的詞語（如「某人」「某物」），日語通過「疑問詞 + か」形成。詳見 [不定代詞](../grammar/indefinite_pronouns.md)
 
 [^conversational-style]: **会話体** - 口語或對話體的表達方式，相對於書面語更為隨意和靈活。
 

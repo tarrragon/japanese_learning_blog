@@ -105,7 +105,7 @@ A grammatical pattern meaning "it's okay not to..." or "you don't have to...", u
 
 ### 對比表現
 - [てもいい](待建立)：肯定形式的許可「做也可以」
-- [なければならない](待建立)：表示義務「必須做」
+- [なければならない](165_nakereba_naranai.md)：表示義務「必須做」
 - [ないほうがいい](待建立)：建議「最好不做」
 
 ## 相關文章
@@ -118,4 +118,4 @@ A grammatical pattern meaning "it's okay not to..." or "you don't have to...", u
 - [動詞ない形](待建立)
 - [てもいい構文](待建立)
 - [許可表現](待建立)
-- [義務表現](待建立)
+- [義務表現](../concept/043_obligation_expressions.md)

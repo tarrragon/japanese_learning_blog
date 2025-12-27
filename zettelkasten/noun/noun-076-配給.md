@@ -77,5 +77,5 @@ Receive a fixed amount of goods with ration cards.
 ## 相關詞彙
 - [提供](noun-074-提供.md) - 提供；供給
 - [支給](noun-075-支給.md) - 發放；支付
-- [分配](distribution.md)（待建立）- 分配；分發
-- [割当](quota.md)（待建立）- 配額；分配額
+- [分配](distribution.md)- 分配；分發
+- [割当](quota.md)- 配額；分配額

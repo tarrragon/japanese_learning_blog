@@ -605,9 +605,9 @@ Don't use たい directly with superiors:
 - [〜ている - Progressive Form](038_te_iru.md)
 
 ### Related Expressions
-- [ほしい - Want (noun)](018_hoshii.md)（待建立）
-- [〜たがる - Third-person desire](019_tagaru.md)（待建立）
-- [〜と思う - I think](020_to_omou.md)（待建立）
+- [ほしい - Want (noun)](018_hoshii.md)
+- [〜たがる - Third-person desire](019_tagaru.md)
+- [〜と思う - I think](020_to_omou.md)
 - [〜ないで - Without doing](022_naide.md)
 - [〜ないでください - Please don't](023_naide_kudasai.md)
 

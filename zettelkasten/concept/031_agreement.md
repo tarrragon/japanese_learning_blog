@@ -297,39 +297,39 @@ B: 基本上同意，但能讓我確認一點嗎？
 
 ## 註解
 
-[^pragmatics]: **語用學** - 研究語言在實際使用情境中如何傳達意義的語言學分支，關注說話者意圖、聽者理解和情境因素。詳見 [pragmatics](pragmatics.md)（待建立）
+[^pragmatics]: **語用學** - 研究語言在實際使用情境中如何傳達意義的語言學分支，關注說話者意圖、聽者理解和情境因素。詳見 [pragmatics](pragmatics.md)
 
-[^communication-strategy]: **溝通策略** - 為達成有效溝通而採用的各種語言和非語言手段，包括直接/間接表達、禮貌策略、面子維護等。詳見 [communication_strategy](communication_strategy.md)（待建立）
+[^communication-strategy]: **溝通策略** - 為達成有效溝通而採用的各種語言和非語言手段，包括直接/間接表達、禮貌策略、面子維護等。詳見 [communication_strategy](communication_strategy.md)
 
-[^interpersonal-relationship]: **人際關係** - 在日本社會中，語言使用深受說話者與聽者之間的社會關係（親疏、上下、內外）影響。詳見 [interpersonal_relationship](interpersonal_relationship.md)（待建立）
+[^interpersonal-relationship]: **人際關係** - 在日本社會中，語言使用深受說話者與聽者之間的社會關係（親疏、上下、內外）影響。詳見 [interpersonal_relationship](interpersonal_relationship.md)
 
-[^formality-level]: **正式度層級** - 日語根據場合和對象的不同，有明顯的正式/非正式語域區分，影響詞彙、文法和敬語的選擇。詳見 [formality_level](formality_level.md)（待建立）
+[^formality-level]: **正式度層級** - 日語根據場合和對象的不同，有明顯的正式/非正式語域區分，影響詞彙、文法和敬語的選擇。詳見 [formality_level](formality_level.md)
 
-[^group-harmony]: **集體和諧（和）** - 日本文化強調群體和諧勝於個人意見，影響同意與反對的表達方式，傾向避免直接衝突。詳見 [group_harmony](group_harmony.md)（待建立）
+[^group-harmony]: **集體和諧（和）** - 日本文化強調群體和諧勝於個人意見，影響同意與反對的表達方式，傾向避免直接衝突。詳見 [group_harmony](group_harmony.md)
 
-[^explicit-agreement]: **明示同意** - 清楚明確地表達贊成或接受，如「賛成です」「はい」等直接表述。詳見 [explicit_agreement](explicit_agreement.md)（待建立）
+[^explicit-agreement]: **明示同意** - 清楚明確地表達贊成或接受，如「賛成です」「はい」等直接表述。詳見 [explicit_agreement](explicit_agreement.md)
 
-[^implicit-agreement]: **暗示同意** - 通過間接方式、語氣、非語言信號或沉默來暗示同意，而非直接說出，反映高語境溝通文化。詳見 [implicit_communication](implicit_communication.md)（待建立）
+[^implicit-agreement]: **暗示同意** - 通過間接方式、語氣、非語言信號或沉默來暗示同意，而非直接說出，反映高語境溝通文化。詳見 [implicit_communication](implicit_communication.md)
 
-[^ishin-denshin]: **以心傳心** - 日本文化中重視的「心靈相通」概念，認為親近的人無需明說即可理解彼此，影響間接溝通風格。詳見 [ishin_denshin](ishin_denshin.md)（待建立）
+[^ishin-denshin]: **以心傳心** - 日本文化中重視的「心靈相通」概念，認為親近的人無需明說即可理解彼此，影響間接溝通風格。詳見 [ishin_denshin](ishin_denshin.md)
 
-[^kuuki-wo-yomu]: **空氣を読む（察言觀色）** - 字面意思是「讀空氣」，指察覺當場氣氛、他人情緒和未明說的期待，是日本社會重要的社交技能。詳見 [kuuki_wo_yomu](kuuki_wo_yomu.md)（待建立）
+[^kuuki-wo-yomu]: **空氣を読む（察言觀色）** - 字面意思是「讀空氣」，指察覺當場氣氛、他人情緒和未明說的期待，是日本社會重要的社交技能。詳見 [kuuki_wo_yomu](kuuki_wo_yomu.md)
 
-[^aizuchi]: **相槌（回應詞）** - 日語對話中聽者頻繁使用的簡短回應（如「ええ」「はい」「そうですね」），表示在聽、理解或部分同意，是日語溝通的特色。詳見 [aizuchi](aizuchi.md)（待建立）
+[^aizuchi]: **相槌（回應詞）** - 日語對話中聽者頻繁使用的簡短回應（如「ええ」「はい」「そうですね」），表示在聽、理解或部分同意，是日語溝通的特色。詳見 [aizuchi](aizuchi.md)
 
-[^business-context]: **商務場合** - 工作環境中的正式溝通情境，要求使用適當敬語和禮貌表達，階層關係明顯。詳見 [business_communication](business_communication.md)（待建立）
+[^business-context]: **商務場合** - 工作環境中的正式溝通情境，要求使用適當敬語和禮貌表達，階層關係明顯。詳見 [business_communication](business_communication.md)
 
-[^polite-expression]: **敬語表達** - 使用尊敬語、謙讓語或丁寧語來顯示對聽者的尊重和場合的正式性。詳見 [keigo_overview](../grammar/keigo_overview.md)（待建立）
+[^polite-expression]: **敬語表達** - 使用尊敬語、謙讓語或丁寧語來顯示對聽者的尊重和場合的正式性。詳見 [keigo_overview](../grammar/keigo_overview.md)
 
-[^hierarchy]: **階層結構** - 日本社會和組織中明顯的上下關係，體現在語言使用、同意表達方式和決策過程中。詳見 [hierarchy](hierarchy.md)（待建立）
+[^hierarchy]: **階層結構** - 日本社會和組織中明顯的上下關係，體現在語言使用、同意表達方式和決策過程中。詳見 [hierarchy](hierarchy.md)
 
-[^respect]: **敬意** - 通過語言和行為表達對他人地位、年齡、專業的尊重，是日本社交禮儀的核心。詳見 [respect](respect.md)（待建立）
+[^respect]: **敬意** - 通過語言和行為表達對他人地位、年齡、專業的尊重，是日本社交禮儀的核心。詳見 [respect](respect.md)
 
-[^casual-context]: **非正式場合** - 朋友、家人間的輕鬆對話情境，可使用簡短、直接的表達，敬語使用減少或不使用。詳見 [casual_conversation](casual_conversation.md)（待建立）
+[^casual-context]: **非正式場合** - 朋友、家人間的輕鬆對話情境，可使用簡短、直接的表達，敬語使用減少或不使用。詳見 [casual_conversation](casual_conversation.md)
 
-[^tatemae]: **建前** - 日本文化中的「表面說法」或「公開立場」，與個人真實想法（本音）可能不同，用於維持社會和諧。詳見 [tatemae_honne](tatemae_honne.md)（待建立）
+[^tatemae]: **建前** - 日本文化中的「表面說法」或「公開立場」，與個人真實想法（本音）可能不同，用於維持社會和諧。詳見 [tatemae_honne](tatemae_honne.md)
 
-[^honne]: **本音** - 個人的真實想法、情感或意圖，通常只在親密關係中或私下表達，與公開的建前形成對比。詳見 [tatemae_honne](tatemae_honne.md)（待建立）
+[^honne]: **本音** - 個人的真實想法、情感或意圖，通常只在親密關係中或私下表達，與公開的建前形成對比。詳見 [tatemae_honne](tatemae_honne.md)
 
 ---
 

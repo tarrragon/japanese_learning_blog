@@ -87,7 +87,7 @@ Indicates a state where an action has been deliberately performed in advance and
 ## 関連文法
 
 - [〜ている](../grammar/156_te_iru.md)：結果状態の基本形
-- [〜ておく](待建立)：事前準備の動作を表す
+- [〜ておく](080_te_oku.md)：事前準備の動作を表す
 - [自動詞と他動詞](待建立)：動詞ペアの理解
 
 ---

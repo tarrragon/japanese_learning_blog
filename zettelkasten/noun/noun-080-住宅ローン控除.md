@@ -78,6 +78,6 @@ Significant tax reduction effects can be obtained through housing loan deduction
 
 ## 相關詞彙
 - [医療費控除](noun-079-医療費控除.md) - 醫療費扣除
-- [税額控除](tax-credit.md)（待建立）- 稅額扣除
-- [住宅ローン](mortgage.md)（待建立）- 住宅貸款
-- [確定申告](tax-filing.md)（待建立）- 報稅；確定申報
+- [税額控除](tax-credit.md)- 稅額扣除
+- [住宅ローン](mortgage.md)- 住宅貸款
+- [確定申告](tax-filing.md)- 報稅；確定申報

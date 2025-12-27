@@ -480,9 +480,9 @@ Vehicles:
 - [で](../particle/004_de.md) - で助詞（場所）
 
 ### 相關文法
-- [ます形](../grammar/007_masu_form.md)（待建立） - 歩きます的用法
+- [ます形](../grammar/007_masu_form.md) - 歩きます的用法
 - [て形文法](../grammar/001_te_form.md) - 歩いて的用法（く→いて）
 
 ### 相關動詞
 - [行く](009_iku.md) - 去
-- [走る](017_hashiru.md)（待建立） - 跑
+- [走る](017_hashiru.md) - 跑

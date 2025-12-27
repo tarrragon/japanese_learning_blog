@@ -105,11 +105,11 @@ Polite expression falls between plain form (casual speech) and honorific languag
 
 ## 相關連結
 
-- [です](../../verb/001_desu.md)（待建立）- 判斷助動詞
-- [ます](../../verb/002_masu.md)（待建立）- 動詞禮貌形式
-- [敬語](./057_keigo.md)（待建立）- 更高層次的敬語系統
-- [常體](./058_plain_form.md)（待建立）- 普通體表達
-- [語體](./059_speech_style.md)（待建立）- 語言風格概念
+- [です](../../verb/001_desu.md)- 判斷助動詞
+- [ます](../../verb/002_masu.md)- 動詞禮貌形式
+- [敬語](./057_keigo.md)- 更高層次的敬語系統
+- [常體](./058_plain_form.md)- 普通體表達
+- [語體](./059_speech_style.md)- 語言風格概念
 
 ---
 

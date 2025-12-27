@@ -104,5 +104,5 @@ Taxation; the act of government collecting taxes from citizens and businesses ba
 - [納税者](185_nouziesha.md) - 納稅者
 - [税金](待建立) - 稅金
 - [所得税](待建立) - 所得稅
-- [消費税](待建立) - 消費稅
+- [消費税](129_shouhizei.md) - 消費稅
 - [財政政策](待建立) - 財政政策

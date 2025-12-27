@@ -284,6 +284,6 @@ Change final syllable to い-row + ます
 - [て形文法](001_te_form.md) - て形是另一個重要基礎形式
 - [辭書形](010_dictionary_form.md) - 動詞基本形
 - [ない形](008_nai_form.md) - 否定形式
-- [たい形](016_tai_form.md)（待建立）- 表達願望
-- [ましょう形](017_mashou_form.md)（待建立）- 建議和邀請
-- [ながら形](018_nagara_form.md)（待建立）- 同時進行
+- [たい形](016_tai_form.md)- 表達願望
+- [ましょう形](017_mashou_form.md)- 建議和邀請
+- [ながら形](018_nagara_form.md)- 同時進行

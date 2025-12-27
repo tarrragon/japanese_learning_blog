@@ -92,11 +92,11 @@ link_status:
 
 ## 對應詞彙
 
-- **自動詞**：[起きる](/Users/mac-eric/project/japanese_learning_blog/zettelkasten/verb-ru/待建立.md)（待建立）
-- **類義詞**：[目覚めさせる](/Users/mac-eric/project/japanese_learning_blog/zettelkasten/verb-ru/待建立.md)（待建立）
-- **反義詞**：[寝かせる](/Users/mac-eric/project/japanese_learning_blog/zettelkasten/verb-ru/待建立.md)（待建立）
+- **自動詞**：[起きる](/Users/mac-eric/project/japanese_learning_blog/zettelkasten/verb-ru/待建立.md)
+- **類義詞**：[目覚めさせる](/Users/mac-eric/project/japanese_learning_blog/zettelkasten/verb-ru/待建立.md)
+- **反義詞**：[寝かせる](/Users/mac-eric/project/japanese_learning_blog/zettelkasten/verb-ru/待建立.md)
 
 ## 延伸學習
 
-- [自動詞與他動詞](/Users/mac-eric/project/japanese_learning_blog/zettelkasten/grammar/待建立.md)（待建立）
-- [五段動詞活用規則](/Users/mac-eric/project/japanese_learning_blog/zettelkasten/grammar/待建立.md)（待建立）
+- [自動詞與他動詞](/Users/mac-eric/project/japanese_learning_blog/zettelkasten/grammar/待建立.md)
+- [五段動詞活用規則](/Users/mac-eric/project/japanese_learning_blog/zettelkasten/grammar/待建立.md)

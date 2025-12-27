@@ -223,7 +223,7 @@ The study of how the Japanese sound system has changed throughout history. From 
 
 **方言差異**
 - 不同地區保留不同時期的語音特徵
-- 參見：[關西方言特徵](350_kansai_hougen.md)（待建立）
+- 參見：[關西方言特徵](350_kansai_hougen.md)
 
 ### 3. 歷史假名遣
 

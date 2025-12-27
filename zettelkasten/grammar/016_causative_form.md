@@ -152,7 +152,7 @@ link_status:
 
 ### 使役受身（させられる）
 
-**使役形 + [受身形](012_passive_form.md) = [使役受身](029_causative_passive.md)（待建立）**
+**使役形 + [受身形](012_passive_form.md) = [使役受身](029_causative_passive.md)**
 
 意味：強制的にさせられる（被迫做）
 
@@ -564,7 +564,7 @@ Examples:
 
 ### 相關形式
 - [受身形](012_passive_form.md) - 受身形（與使役受身相關）
-- [使役受身](029_causative_passive.md)（待建立）- させられる形
+- [使役受身](029_causative_passive.md)- させられる形
 - [可能形](011_potential_form.md) - 可能形（變化模式對比）
 
 ### 相關助詞

@@ -189,7 +189,7 @@ Number + time unit + ato
 - 例：手を洗ってから、食べます。
   （洗完手馬上吃 - 動作緊接）
 
-→ 詳しくは[後で vs てから](../comparison/004_ato_de_vs_te_kara.md)（待建立）を参照
+→ 詳しくは[後で vs てから](../comparison/004_ato_de_vs_te_kara.md)を参照
 
 ### 時態使用重點
 
@@ -268,4 +268,4 @@ Number + time unit + ato
 - [て形文法](001_te_form.md) - て形（てから使用）
 
 ### 比較卡片
-- [後で vs てから](../comparison/004_ato_de_vs_te_kara.md)（待建立）- 使用區別
+- [後で vs てから](../comparison/004_ato_de_vs_te_kara.md)- 使用區別

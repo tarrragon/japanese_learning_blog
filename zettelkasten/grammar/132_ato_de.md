@@ -209,15 +209,15 @@ Please tell me your thoughts after watching this movie.
 
 ## 註解
 
-[^time-expression]: **時間表達** - 表示時間順序、同時性或時間點的文法結構。詳見 [time-expressions.md](../concept/time-expressions.md)（待建立）
+[^time-expression]: **時間表達** - 表示時間順序、同時性或時間點的文法結構。詳見 [time-expressions.md](../concept/time-expressions.md)
 
-[^dictionary-form]: **辞書形** - 動詞的基本形態，也稱為「原形」或「基本形」。詳見 [verb-forms.md](verb-forms.md)（待建立）
+[^dictionary-form]: **辞書形** - 動詞的基本形態，也稱為「原形」或「基本形」。詳見 [verb-forms.md](verb-forms.md)
 
-[^casual-context]: **日常會話** - 朋友、家人之間的非正式對話情境。詳見 [casual-conversation.md](../context/casual-conversation.md)（待建立）
+[^casual-context]: **日常會話** - 朋友、家人之間的非正式對話情境。詳見 [casual-conversation.md](../context/casual-conversation.md)
 
-[^formal-writing]: **書面語** - 用於正式文書、報告、學術文章等的語言形式。詳見 [formal-writing.md](../concept/formal-writing.md)（待建立）
+[^formal-writing]: **書面語** - 用於正式文書、報告、學術文章等的語言形式。詳見 [formal-writing.md](../concept/formal-writing.md)
 
-[^te-kara]: **〜てから文法** - 表示「做完...之後」，強調緊接的時間順序。詳見 [te_kara.md](te_kara.md)（待建立）
+[^te-kara]: **〜てから文法** - 表示「做完...之後」，強調緊接的時間順序。詳見 [te_kara.md](te_kara.md)
 
 [^time-gap]: **時間間隔** - 兩個動作或事件之間的時間距離，可長可短。
 

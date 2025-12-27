@@ -428,16 +428,16 @@ Strongly receives previous content:
 ## 相關連結
 
 ### 相關接續詞
-- [それから](002_sorekara.md)（待建立）- 然後（時間順序）
-- [それで](003_sorede.md)（待建立）- 因此、所以（因果關係）
-- [でも](004_demo.md)（待建立）- 但是（逆接）
-- [しかし](005_shikashi.md)（待建立）- 但是（正式逆接）
-- [だから](006_dakara.md)（待建立）- 所以（原因結果）
+- [それから](002_sorekara.md)- 然後（時間順序）
+- [それで](003_sorede.md)- 因此、所以（因果關係）
+- [でも](004_demo.md)- 但是（逆接）
+- [しかし](005_shikashi.md)- 但是（正式逆接）
+- [だから](006_dakara.md)- 所以（原因結果）
 
 ### 相關文法
-- [て形](../grammar/001_te_form.md)（待建立）- 動詞て形（連接動作）
-- [接續詞](../grammar/conjunctions_overview.md)（待建立）- 接續詞總覽
+- [て形](../grammar/001_te_form.md)- 動詞て形（連接動作）
+- [接續詞](../grammar/conjunctions_overview.md)- 接續詞總覽
 
 ### 比較卡片
-- [そして vs それから](../comparison/soshite_vs_sorekara.md)（待建立）- 順序連接詞比較
-- [そして vs だから](../comparison/soshite_vs_dakara.md)（待建立）- 添加vs因果
+- [そして vs それから](../comparison/soshite_vs_sorekara.md)- 順序連接詞比較
+- [そして vs だから](../comparison/soshite_vs_dakara.md)- 添加vs因果

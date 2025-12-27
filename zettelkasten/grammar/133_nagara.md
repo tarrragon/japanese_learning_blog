@@ -236,17 +236,17 @@ Unfortunately, I can't go.
 
 ## 註解
 
-[^setsuzoku-joshi]: **接續助詞** - 連接兩個句子或詞組的助詞，表示各種邏輯關係（順接、逆接、並列等）。詳見 [setsuzoku_joshi.md](../particle/setsuzoku_joshi.md)（待建立）
+[^setsuzoku-joshi]: **接續助詞** - 連接兩個句子或詞組的助詞，表示各種邏輯關係（順接、逆接、並列等）。詳見 [setsuzoku_joshi.md](../particle/setsuzoku_joshi.md)
 
-[^masu-form]: **ます形** - 動詞的丁寧形，由動詞語幹加「ます」組成。是日語禮貌表達的基本形式。詳見 [masu_form.md](masu_form.md)（待建立）
+[^masu-form]: **ます形** - 動詞的丁寧形，由動詞語幹加「ます」組成。是日語禮貌表達的基本形式。詳見 [masu_form.md](masu_form.md)
 
-[^main-action]: **主要動作** - 在「〜ながら」結構中，後面句子表達的主要動作或焦點動作。決定整個句子的時態和語氣。詳見 [main_sub_action.md](../concept/main_sub_action.md)（待建立）
+[^main-action]: **主要動作** - 在「〜ながら」結構中，後面句子表達的主要動作或焦點動作。決定整個句子的時態和語氣。詳見 [main_sub_action.md](../concept/main_sub_action.md)
 
-[^sub-action]: **次要動作** - 在「〜ながら」結構中，用「〜ながら」標記的伴隨動作或背景動作。通常是持續性的動作。詳見 [main_sub_action.md](../concept/main_sub_action.md)（待建立）
+[^sub-action]: **次要動作** - 在「〜ながら」結構中，用「〜ながら」標記的伴隨動作或背景動作。通常是持續性的動作。詳見 [main_sub_action.md](../concept/main_sub_action.md)
 
-[^daily-conversation]: **日常會話** - 朋友、家人之間的非正式對話情境。詳見 [casual_conversation.md](../context/casual_conversation.md)（待建立）
+[^daily-conversation]: **日常會話** - 朋友、家人之間的非正式對話情境。詳見 [casual_conversation.md](../context/casual_conversation.md)
 
-[^written-language]: **書面語** - 正式的書寫語言，與口語相對。文法完整，用詞較為正式。詳見 [written_language.md](../concept/written_language.md)（待建立）
+[^written-language]: **書面語** - 正式的書寫語言，與口語相對。文法完整，用詞較為正式。詳見 [written_language.md](../concept/written_language.md)
 
 ---
 

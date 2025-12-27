@@ -217,27 +217,27 @@ When I opened the window, a cat came in.
 
 ## 註解
 
-[^conditional-form]: **條件表達** - 日文有四種主要的條件表達：と、ば、たら、なら，各有不同的使用情境和限制。詳見 [conditional_forms.md](../concept/conditional_forms.md)（待建立）
+[^conditional-form]: **條件表達** - 日文有四種主要的條件表達：と、ば、たら、なら，各有不同的使用情境和限制。詳見 [conditional_forms.md](../concept/conditional_forms.md)
 
-[^hypothetical]: **假定條件** - 表示假設的情況，可能發生也可能不發生的條件。詳見 [hypothetical_condition.md](../concept/hypothetical_condition.md)（待建立）
+[^hypothetical]: **假定條件** - 表示假設的情況，可能發生也可能不發生的條件。詳見 [hypothetical_condition.md](../concept/hypothetical_condition.md)
 
-[^temporal-sequence]: **時間順序** - 表示事件發生的先後順序，前項完成後才發生後項。詳見 [temporal_sequence.md](../concept/temporal_sequence.md)（待建立）
+[^temporal-sequence]: **時間順序** - 表示事件發生的先後順序，前項完成後才發生後項。詳見 [temporal_sequence.md](../concept/temporal_sequence.md)
 
-[^ta-form]: **た形** - 日文動詞和形容詞的過去式或完成形。詳見 [ta_form.md](ta_form.md)（待建立）
+[^ta-form]: **た形** - 日文動詞和形容詞的過去式或完成形。詳見 [ta_form.md](ta_form.md)
 
-[^definite-condition]: **確定條件** - 前項一旦實現，後項必然或通常會發生的條件。詳見 [definite_condition.md](../concept/definite_condition.md)（待建立）
+[^definite-condition]: **確定條件** - 前項一旦實現，後項必然或通常會發生的條件。詳見 [definite_condition.md](../concept/definite_condition.md)
 
-[^discovery]: **發現・氣づき** - 表示做了某事後發現意外的結果或狀況。詳見 [discovery_expression.md](../concept/discovery_expression.md)（待建立）
+[^discovery]: **發現・氣づき** - 表示做了某事後發現意外的結果或狀況。詳見 [discovery_expression.md](../concept/discovery_expression.md)
 
-[^spoken-language]: **話し言葉（口語）** - 日常對話中使用的語言形式。詳見 [spoken_language.md](../concept/spoken_language.md)（待建立）
+[^spoken-language]: **話し言葉（口語）** - 日常對話中使用的語言形式。詳見 [spoken_language.md](../concept/spoken_language.md)
 
-[^written-language]: **書き言葉（書面語）** - 正式文書或寫作中使用的語言形式。詳見 [written_language.md](../concept/written_language.md)（待建立）
+[^written-language]: **書き言葉（書面語）** - 正式文書或寫作中使用的語言形式。詳見 [written_language.md](../concept/written_language.md)
 
-[^versatility]: **汎用性（多功能性）** - 可以在多種情境和條件下使用的特性。詳見 [versatility.md](../concept/versatility.md)（待建立）
+[^versatility]: **汎用性（多功能性）** - 可以在多種情境和條件下使用的特性。詳見 [versatility.md](../concept/versatility.md)
 
-[^volitional-expression]: **意志表達** - 表示說話者意志、意圖、邀請的表達方式，如「〜ましょう」「〜たい」等。詳見 [volitional_expression.md](../concept/volitional_expression.md)（待建立）
+[^volitional-expression]: **意志表達** - 表示說話者意志、意圖、邀請的表達方式，如「〜ましょう」「〜たい」等。詳見 [volitional_expression.md](../concept/volitional_expression.md)
 
-[^imperative]: **命令形** - 表示命令、指示或強烈請求的動詞形式。詳見 [imperative_form.md](imperative_form.md)（待建立）
+[^imperative]: **命令形** - 表示命令、指示或強烈請求的動詞形式。詳見 [imperative_form.md](imperative_form.md)
 
 ---
 

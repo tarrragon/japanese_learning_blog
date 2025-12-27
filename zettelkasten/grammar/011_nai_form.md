@@ -310,6 +310,6 @@ Change final syllable to あ-row + ない
 - [ます形](007_masu_form.md) - 禮貌形式
 - [て形文法](001_te_form.md) - て形變化
 - [辭書形](010_dictionary_form.md) - 動詞基本形
-- [なければならない](020_nakereba_naranai.md)（待建立）- 必須表達
-- [なくてもいい](021_nakutemo_ii.md)（待建立）- 不必表達
-- [ないでください](023_naide_kudasai.md)（待建立）- 請求不要做
+- [なければならない](020_nakereba_naranai.md)- 必須表達
+- [なくてもいい](021_nakutemo_ii.md)- 不必表達
+- [ないでください](023_naide_kudasai.md)- 請求不要做

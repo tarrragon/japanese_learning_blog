@@ -471,8 +471,8 @@ In daily conversation, using ずに sounds overly formal or stiff.
 - [ない形 - Negative Form](008_nai_form.md) - Foundation for ないで pattern
 - [て形 - Te-form](001_te_form.md) - Positive equivalent for sequential actions
 - [〜ないでください - Negative Request](023_naide_kudasai.md) - Closely related negative request pattern
-- [〜なくて - Negative Te-form](045_nakute.md)（待建立）
-- [〜ずに - Without doing (formal)](046_zuni.md)（待建立）
+- [〜なくて - Negative Te-form](045_nakute.md)
+- [〜ずに - Without doing (formal)](046_zuni.md)
 
 [^nai-form]: ない形 is the base negative form that ないで builds upon. Master ない形 conjugation before using this pattern.
 

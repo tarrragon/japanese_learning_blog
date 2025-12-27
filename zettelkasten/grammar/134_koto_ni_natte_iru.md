@@ -230,25 +230,25 @@ In our family, it is established that we gather at our grandparents' house every
 
 [^rule]: **規則（Rule）** - 組織或社會中制定的行為準則，具有約束力。「ことになっている」常用於說明這類既定規則。
 
-[^custom]: **慣習（Custom）** - 長期形成的習慣性做法，雖非正式規定但大家都遵守。詳見 [慣習](../concept/custom.md)（待建立）
+[^custom]: **慣習（Custom）** - 長期形成的習慣性做法，雖非正式規定但大家都遵守。詳見 [慣習](../concept/custom.md)
 
-[^system]: **制度（System）** - 正式建立的組織體系或運作機制，如公司制度、教育制度等。詳見 [制度](../concept/system.md)（待建立）
+[^system]: **制度（System）** - 正式建立的組織體系或運作機制，如公司制度、教育制度等。詳見 [制度](../concept/system.md)
 
-[^grammar-pattern]: **文法句型** - 由多個詞彙組合而成的固定表達方式，具有特定的文法功能和語義。詳見 [文法句型](../concept/grammar_pattern.md)（待建立）
+[^grammar-pattern]: **文法句型** - 由多個詞彙組合而成的固定表達方式，具有特定的文法功能和語義。詳見 [文法句型](../concept/grammar_pattern.md)
 
-[^continuous-state]: **持續狀態** - 使用「ている」形表示某個狀態或結果持續存在。「ことになっている」表示規定持續有效的狀態。詳見 [持續狀態](../concept/continuous_state.md)（待建立）
+[^continuous-state]: **持續狀態** - 使用「ている」形表示某個狀態或結果持續存在。「ことになっている」表示規定持續有效的狀態。詳見 [持續狀態](../concept/continuous_state.md)
 
 [^personal-will]: **個人意志** - 個人的想法、願望或決定。「ことになっている」強調規定與個人意志無關。
 
-[^social-rule]: **社會規則** - 社會普遍認同和遵守的行為準則，如交通規則、公共禮儀等。詳見 [社會規則](../concept/social_rule.md)（待建立）
+[^social-rule]: **社會規則** - 社會普遍認同和遵守的行為準則，如交通規則、公共禮儀等。詳見 [社會規則](../concept/social_rule.md)
 
-[^organizational-regulation]: **組織規定** - 公司、學校等組織內部制定的規章制度。常用「ことになっている」來說明。詳見 [組織規定](../concept/organizational_regulation.md)（待建立）
+[^organizational-regulation]: **組織規定** - 公司、學校等組織內部制定的規章制度。常用「ことになっている」來說明。詳見 [組織規定](../concept/organizational_regulation.md)
 
 [^law]: **法律（Law）** - 國家制定的具有強制力的規範。「ことになっている」可用於說明法律規定。
 
 [^convention]: **慣例（Convention）** - 約定俗成的做法或傳統習慣，不一定有正式規定但普遍遵守。
 
-[^business-context]: **商務場合** - 工作環境中的正式溝通情境，包括規則說明、制度介紹等。詳見 [商務場合](../context/business.md)（待建立）
+[^business-context]: **商務場合** - 工作環境中的正式溝通情境，包括規則說明、制度介紹等。詳見 [商務場合](../context/business.md)
 
 [^company-rule]: **公司規定** - 企業內部制定的規章制度，如出勤規定、休假制度等。
 

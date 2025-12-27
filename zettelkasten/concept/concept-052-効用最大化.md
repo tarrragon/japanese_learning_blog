@@ -92,7 +92,7 @@ Utility maximization: the principle that consumers or producers act to achieve t
 
 ### 関連語
 
-- [合理性](待建立) - 効用最大化の前提となる意思決定の性質
+- [合理性](concept-053-合理性.md) - 効用最大化の前提となる意思決定の性質
 - [経済人](concept-042-経済人.md) - 効用最大化を行う理想的な主体
 - [効用](待建立) - 満足度や有用性を表す経済学の概念
 - [限界効用](待建立) - 追加的な消費から得られる効用の増分

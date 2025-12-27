@@ -100,7 +100,7 @@ link_status:
 
 #### 2. 文法接続
 様々な文法形式に接続：
-- [～ことができる](027_koto_ga_dekiru.md)（待建立）：食べることができる（能吃）
+- [～ことができる](027_koto_ga_dekiru.md)：食べることができる（能吃）
 - [～前に](004_mae_ni.md)：食べる前に（吃之前）
 - ～つもりだ：行くつもりだ（打算去）
 
@@ -252,7 +252,7 @@ Can express commands or intentions depending on context:
 
 #### 2. 文法接續
 連接各種文法句型：
-- [～ことができる](027_koto_ga_dekiru.md)（待建立）：食べることができる（能吃）
+- [～ことができる](027_koto_ga_dekiru.md)：食べることができる（能吃）
 - [～前に](004_mae_ni.md)：食べる前に（吃之前）
 - ～つもりだ：行くつもりだ（打算去）
 
@@ -344,4 +344,4 @@ Can express commands or intentions depending on context:
 ### 文法接續
 - [～前に](004_mae_ni.md) - ～前に（辭書形 + 前に）
 - [可能形](011_potential_form.md) - 可能形（從辭書形理解變化）
-- [～ことができる](027_koto_ga_dekiru.md)（待建立）- 能夠做某事
+- [～ことができる](027_koto_ga_dekiru.md)- 能夠做某事

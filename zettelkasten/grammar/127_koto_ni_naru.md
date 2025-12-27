@@ -229,11 +229,11 @@ Unfortunately, it has been decided that this event will be cancelled.
 
 [^external-factor]: **外部因素** - 指說話者無法控制的因素，如他人決定、組織政策、社會規則等。這是「ことになる」與「ことにする」最大的區別點。
 
-[^grammar-pattern]: **文法句型** - 由多個詞彙組合而成的固定表達方式，具有特定的文法功能和語義。詳見 [文法句型](../concept/grammar_pattern.md)（待建立）
+[^grammar-pattern]: **文法句型** - 由多個詞彙組合而成的固定表達方式，具有特定的文法功能和語義。詳見 [文法句型](../concept/grammar_pattern.md)
 
 [^speaker-will]: **說話者意志** - 指說話者個人的想法、願望或決定。「ことになる」表示與說話者意志無關的決定。
 
-[^business-context]: **商務場合** - 工作環境中的正式溝通情境，包括會議、報告、通知等。詳見 [商務場合](../context/business.md)（待建立）
+[^business-context]: **商務場合** - 工作環境中的正式溝通情境，包括會議、報告、通知等。詳見 [商務場合](../context/business.md)
 
 [^personnel-change]: **人事異動** - 指員工的職位調動、部門轉換、升遷等人事變動。在日本企業文化中，人事異動通常由組織決定，個人較少主動提出。
 
@@ -241,7 +241,7 @@ Unfortunately, it has been decided that this event will be cancelled.
 
 [^organizational-policy]: **組織方針** - 公司或組織制定的政策、規定或方向。這些決策通常來自高層，對員工而言屬於外部決定。
 
-[^contrast-koto-ni-suru]: **對比：ことにする** - 「ことにする」表示個人主動做出的決定，與「ことになる」的被動性形成對比。詳見 [對比辨析](../comparison/koto_ni_naru_vs_koto_ni_suru.md)（待建立）
+[^contrast-koto-ni-suru]: **對比：ことにする** - 「ことにする」表示個人主動做出的決定，與「ことになる」的被動性形成對比。詳見 [對比辨析](../comparison/koto_ni_naru_vs_koto_ni_suru.md)
 
 [^passive-nuance]: **被動語氣** - 語言表達中隱含的被動或受影響的感覺，暗示主體對事件的控制力較低。
 

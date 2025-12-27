@@ -144,9 +144,9 @@ The negative form of verbs. Uses the "〜ない" pattern to negate actions or st
 - [辞書形](101_jisho_kei.md) - 動詞的字典形
 - [て形](102_te_kei.md) - 動詞的て形
 - [た形](103_ta_kei.md) - 動詞的た形
-- [一段動詞](待建立) - 一段動詞的詳細說明
-- [五段動詞](待建立) - 五段動詞的詳細說明
-- [不規則動詞](待建立) - 不規則動詞的詳細說明
+- [一段動詞](../concept/074_ichidan_verbs.md) - 一段動詞的詳細說明
+- [五段動詞](../concept/073_godan_verbs.md) - 五段動詞的詳細說明
+- [不規則動詞](../concept/075_irregular_verbs.md) - 不規則動詞的詳細說明
 
 ---
 

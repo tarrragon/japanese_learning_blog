@@ -186,6 +186,6 @@ Nice to meet you. I'm Yamada. Nice to meet you.
 
 - [日常会話](concept/055_casual_conversation.md) - 日常會話的整體概念
 - [丁寧体と普通体](concept/044_teineitai_vs_futsutai.md) - 禮貌體與普通體的區別
-- [普通形](【待建立】) - 日常會話的基礎文法形式
+- [普通形](../grammar/215_ikou_kei.md) - 日常會話的基礎文法形式
 - [終助詞](【待建立】) - 表達語氣的助詞系統
-- [縮約形](【待建立】) - 口語中的縮略表達
+- [縮約形](../grammar/254_contraction.md) - 口語中的縮略表達

@@ -114,7 +114,7 @@ Financial institution; a collective term for organizations that provide financia
 ## 相關連結
 
 - [投資家](184_toushika.md) - 投資者
-- [証券会社](待建立) - 證券公司
-- [銀行](待建立) - 銀行
+- [証券会社](099_shoukengaisha.md) - 證券公司
+- [銀行](181-銀行.md) - 銀行
 - [融資](待建立) - 貸款
 - [金融庁](待建立) - 金融廳

@@ -388,21 +388,21 @@ Read a book.
 - [終助詞系統](./113_final_particles.md) - 終助詞系統（待建立）
 
 ### 個別重要助詞
-- [は - 主題標記](../particle/001_wa.md)（待建立）
+- [は - 主題標記](../particle/001_wa.md)
 - [が - 主格助詞](../particle/002_ga.md)
 - [に - 與格助詞](../particle/004_ni.md)
-- [を - 賓格助詞](../particle/011_wo.md)（待建立）
-- [で - 工具格助詞](../particle/005_de.md)（待建立）
+- [を - 賓格助詞](../particle/011_wo.md)
+- [で - 工具格助詞](../particle/005_de.md)
 
 ### 相關概念
-- [黏著語](../concept/157_agglutinative-language.md)（待建立）
-- [助詞體系](../concept/156_particle-system.md)（待建立）
+- [黏著語](../concept/157_agglutinative-language.md)
+- [助詞體系](../concept/156_particle-system.md)
 - [語序](../concept/164_word-order.md)
 - [資訊結構](../concept/166_information-structure.md)
 
 ### 對比辨析
-- [は vs が 詳細比較](../comparison/053_ga_vs_wa.md)（待建立）
-- [に vs で 場所用法比較](../comparison/051_de_vs_ni_place.md)（待建立）
+- [は vs が 詳細比較](../comparison/053_ga_vs_wa.md)
+- [に vs で 場所用法比較](../comparison/051_de_vs_ni_place.md)
 - [まで vs までに 比較](../comparison/052_made_vs_madeni.md)
 - [から vs ので 原因表達](./107_kara_node.md)
 

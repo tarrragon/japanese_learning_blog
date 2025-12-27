@@ -416,13 +416,13 @@ If you don't study, you can't pass.
 
 ## 註解
 
-[^futsutai]: **普通体** - 日文的非敬語形式，用於親密關係或書面語中。對比丁寧体（です・ます形式）。詳見 [040_teineitai_vs_futsutai](../concept/040_teineitai_vs_futsutai.md)（待建立）
+[^futsutai]: **普通体** - 日文的非敬語形式，用於親密關係或書面語中。對比丁寧体（です・ます形式）。詳見 [040_teineitai_vs_futsutai](../concept/040_teineitai_vs_futsutai.md)
 
-[^teiitai]: **丁寧体** - 日文的禮貌形式，使用「です・ます」結尾，用於一般社交場合。詳見 [040_teineitai_vs_futsutai](../concept/040_teineitai_vs_futsutai.md)（待建立）
+[^teiitai]: **丁寧体** - 日文的禮貌形式，使用「です・ます」結尾，用於一般社交場合。詳見 [040_teineitai_vs_futsutai](../concept/040_teineitai_vs_futsutai.md)
 
 [^kinshi]: **禁止** - 要求或命令對方不要做某事的語氣表達。在日文中常用「〜ないでください」等形式。
 
-[^gimu]: **義務** - 表示必須做某事的語氣，日文中用「〜なければならない」「〜なくてはならない」等形式。詳見 [039_obligation_expressions](../concept/039_obligation_expressions.md)（待建立）
+[^gimu]: **義務** - 表示必須做某事的語氣，日文中用「〜なければならない」「〜なくてはならない」等形式。詳見 [039_obligation_expressions](../concept/039_obligation_expressions.md)
 
 [^fuhitsuyou]: **不必要** - 表示不需要做某事、可以不做的語氣，用「〜なくてもいい」表達。
 

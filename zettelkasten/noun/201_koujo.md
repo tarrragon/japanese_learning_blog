@@ -106,6 +106,6 @@ Deduction; the subtraction of a specified amount from taxable income or amounts.
 
 - [税率](181_zeiritsu.md) - 稅率
 - [所得税](待建立) - 所得稅
-- [確定申告](待建立) - 確定申報
+- [確定申告](239_kakutei_shinkoku.md) - 確定申報
 - [年末調整](待建立) - 年末調整
 - [税金](待建立) - 稅金

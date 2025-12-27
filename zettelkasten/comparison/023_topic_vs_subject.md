@@ -346,15 +346,15 @@ Elephants have long trunks.
 
 ## 註解
 
-[^topic-prominent]: **主題顯著語言** - 以主題為句子組織核心的語言類型，如日文、中文、韓文。主題-評述結構是這類語言的基本句型。詳見 [topic_prominent_language.md](../concept/topic_prominent_language.md.md)（待建立）
+[^topic-prominent]: **主題顯著語言** - 以主題為句子組織核心的語言類型，如日文、中文、韓文。主題-評述結構是這類語言的基本句型。詳見 [topic_prominent_language.md](../concept/topic_prominent_language.md.md)
 
-[^subject-prominent]: **主語顯著語言** - 以主語為句法核心的語言類型，如英文、法文、德文。主語-謂語結構是這類語言的基本句型。詳見 [subject_prominent_language.md](../concept/subject_prominent_language.md.md)（待建立）
+[^subject-prominent]: **主語顯著語言** - 以主語為句法核心的語言類型，如英文、法文、德文。主語-謂語結構是這類語言的基本句型。詳見 [subject_prominent_language.md](../concept/subject_prominent_language.md.md)
 
-[^given-information]: **已知資訊** - 談話中雙方共享的、已經提及的資訊。主題通常攜帶已知資訊，組織談話流程。詳見 [given_new_information.md](../concept/given_new_information.md.md)（待建立）
+[^given-information]: **已知資訊** - 談話中雙方共享的、已經提及的資訊。主題通常攜帶已知資訊，組織談話流程。詳見 [given_new_information.md](../concept/given_new_information.md.md)
 
-[^new-information]: **新資訊** - 談話中首次引入的、對方不知道的資訊。主語通常攜帶新資訊，是句子的焦點。詳見 [given_new_information.md](../concept/given_new_information.md.md)（待建立）
+[^new-information]: **新資訊** - 談話中首次引入的、對方不知道的資訊。主語通常攜帶新資訊，是句子的焦點。詳見 [given_new_information.md](../concept/given_new_information.md.md)
 
-[^focus]: **焦點** - 句子中攜帶新資訊、回答問題的部分。主語通常是焦點，主題則是背景。詳見 [focus.md](../concept/focus.md.md)（待建立）
+[^focus]: **焦點** - 句子中攜帶新資訊、回答問題的部分。主語通常是焦點，主題則是背景。詳見 [focus.md](../concept/focus.md.md)
 
 ---
 

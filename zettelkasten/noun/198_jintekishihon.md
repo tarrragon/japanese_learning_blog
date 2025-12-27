@@ -143,7 +143,7 @@ Health is also an important element of human capital.
 
 - [資本](078_shihon.md) - 人的資本の基礎概念
 - [教育](待建立) - 人的資本形成の主要手段
-- [生産性](待建立) - 人的資本の効果
+- [生産性](../concept/122_productivity.md) - 人的資本の効果
 - [経済成長](088_keizaiseichou.md) - 人的資本と成長の関係
 - [所得](待建立) - 人的資本がもたらす収益
 

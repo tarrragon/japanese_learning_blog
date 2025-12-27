@@ -100,8 +100,8 @@ Labor; one of the three factors of production in economics, referring to human p
 
 ## 相關連結
 
-- [資本](待建立) - 資本，生產三要素之一
+- [資本](227_shihon.md) - 資本，生產三要素之一
 - [土地](182_tochi.md) - 土地，生產三要素之一
 - [生産性](183_seisansei.md) - 生產性
-- [賃金](待建立) - 工資
+- [賃金](122_chingin.md) - 工資
 - [雇用](待建立) - 就業

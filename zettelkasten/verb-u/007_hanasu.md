@@ -368,11 +368,11 @@ A basic godan verb. It expresses the action of communicating using words. An ess
 - [と](../particle/005_to.md) - と助詞（對象）
 
 ### 相關文法
-- [ます形](../grammar/007_masu_form.md)（待建立） - 話します的用法
+- [ます形](../grammar/007_masu_form.md) - 話します的用法
 - [て形文法](../grammar/001_te_form.md) - 話して的用法（す→して）
 
 ### 相關動詞
 - [聞く](005_kiku.md) - 聽（相關技能）
 - [読む](003_yomu.md) - 讀
 - [書く](004_kaku.md) - 寫
-- [言う](013_iu.md)（待建立） - 說（具體內容）
+- [言う](013_iu.md) - 說（具體內容）

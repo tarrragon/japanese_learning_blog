@@ -156,7 +156,7 @@ link_status:
 - 助詞が「に」
 - 魚**に**食べられる。（被魚吃）
 
-→ 詳しくは[受身形 vs 可能形（一段動詞）](../comparison/003_passive_vs_potential_ichidan.md)（待建立）を参照
+→ 詳しくは[受身形 vs 可能形（一段動詞）](../comparison/003_passive_vs_potential_ichidan.md)を参照
 
 ### 受身と能動の対比
 
@@ -540,4 +540,4 @@ Passive form:
 - [が](../particle/001_ga.md) - が助詞（受身句的主語標記）
 
 ### 比較卡片
-- [受身形 vs 可能形（一段動詞）](../comparison/003_passive_vs_potential_ichidan.md)（待建立）- 形式相同的區別
+- [受身形 vs 可能形（一段動詞）](../comparison/003_passive_vs_potential_ichidan.md)- 形式相同的區別

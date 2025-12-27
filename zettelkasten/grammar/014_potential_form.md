@@ -112,7 +112,7 @@ link_status:
 
 ### できると可能形
 
-#### [できる（～することができる）](027_koto_ga_dekiru.md)（待建立）
+#### [できる（～することができる）](027_koto_ga_dekiru.md)
 より明確に能力を強調：
 - 日本語を話すことができる。（能說日語）
 - 料理を作ることができる。（能做菜）
@@ -126,7 +126,7 @@ link_status:
 - できる：正式、強調能力
 - 可能形：日常、自然な表現
 
-→ 詳しくは[可能形 vs できる](../comparison/002_potential_vs_dekiru.md)（待建立）を参照
+→ 詳しくは[可能形 vs できる](../comparison/002_potential_vs_dekiru.md)を参照
 
 ## English
 Potential Form
@@ -409,5 +409,5 @@ More natural and Japanese-like:
 - [が](../particle/001_ga.md) - が助詞（可能形常用）
 
 ### 比較卡片
-- [可能形 vs できる](../comparison/002_potential_vs_dekiru.md)（待建立）- 使用區別
-- [～ことができる](027_koto_ga_dekiru.md)（待建立）- できる 的文法形式
+- [可能形 vs できる](../comparison/002_potential_vs_dekiru.md)- 使用區別
+- [～ことができる](027_koto_ga_dekiru.md)- できる 的文法形式

@@ -65,7 +65,7 @@ The core financial institution of a nation that conducts monetary policy, issues
 
 - [金融政策](待建立)[^1] - monetary policy（貨幣政策）
 - [日本銀行](待建立)[^2] - Bank of Japan（日本銀行）
-- [金利](待建立)[^3] - interest rate（利率）
+- [金利](094_kinri.md)[^3] - interest rate（利率）
 - [通貨供給](待建立)[^4] - money supply（貨幣供給）
 - [物価安定](待建立)[^5] - price stability（物價穩定）
 

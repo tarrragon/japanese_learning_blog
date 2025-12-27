@@ -123,7 +123,7 @@ Japanese basic sentence patterns follow the SOV (Subject-Object-Verb) word order
 - 修飾語（連體修飾、連用修飾）遵循「修飾語在前，被修飾語在後」的原則
 
 **相關卡片**：
-- [動詞分類](待建立) - 述語的核心類型
+- [動詞分類](../concept/056_verb_classification.md) - 述語的核心類型
 - [助詞系統](待建立) - 標記語法關係的工具
 - [形容詞活用](待建立) - 形容詞述語的變化
 - [です・だ](待建立) - 名詞述語和形容動詞述語的連接

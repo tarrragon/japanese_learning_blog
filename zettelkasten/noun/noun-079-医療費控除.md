@@ -77,6 +77,6 @@ Income tax may be refunded through medical expense deduction.
 
 ## 相關詞彙
 - [住宅ローン控除](noun-080-住宅ローン控除.md) - 房貸利息扣除
-- [所得控除](income-deduction.md)（待建立）- 所得扣除
-- [確定申告](tax-filing.md)（待建立）- 報稅；確定申報
-- [控除](deduction.md)（待建立）- 扣除
+- [所得控除](income-deduction.md)- 所得扣除
+- [確定申告](tax-filing.md)- 報稅；確定申報
+- [控除](deduction.md)- 扣除

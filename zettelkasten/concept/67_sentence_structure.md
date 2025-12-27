@@ -138,7 +138,7 @@ Japanese sentences typically follow a Subject-Object-Verb (SOV) word order, with
 
 - [テンス・アスペクト](待建立) - 時制と相の表現[^9]
 - [ヴォイス](待建立) - 態の変化と文構造[^10]
-- [モダリティ](待建立) - 話者の判断を表す表現[^11]
+- [モダリティ](../grammar/123_modal_expressions.md) - 話者の判断を表す表現[^11]
 
 ---
 

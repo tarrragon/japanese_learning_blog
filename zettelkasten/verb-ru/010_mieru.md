@@ -1086,7 +1086,7 @@ Remembering these patterns is important.
 ### 相關文法
 - [ます形](../grammar/007_masu_form.md) - 見えます的用法
 - [て形文法](../grammar/001_te_form.md) - 見えて的用法
-- [可能形](../grammar/011_potential_form.md)（待建立） - 與見られる的對比
+- [可能形](../grammar/011_potential_form.md) - 與見られる的對比
 
 ### 相關概念（待建立）
 - 自動詞 vs 他動詞 - 見える（自動詞）與見る（他動詞）的對比

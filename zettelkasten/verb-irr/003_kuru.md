@@ -510,7 +510,7 @@ This is one of the most important patterns in Japanese:
 - [たい形 - Want to](../grammar/016_tai_form.md)
 - [〜ている - Progressive/State](../grammar/038_te_iru.md)
 - [〜てもいい - Permission](../grammar/039_temo_ii.md)
-- [〜てくる・〜ていく](../grammar/016_te_kuru_iku.md)（待建立）
+- [〜てくる・〜ていく](../grammar/016_te_kuru_iku.md)
 
 ### Related Verbs
 - [行く - To Go](../verb-u/009_iku.md)
@@ -522,8 +522,8 @@ This is one of the most important patterns in Japanese:
 - [まで - Until/To](../particle/008_made.md)
 
 ### Comparisons
-- [行く vs 来る 詳細比較](../comparison/010_iku_vs_kuru.md)（待建立）
-- [来る vs 帰る 用法差異](../comparison/011_kuru_kaeru.md)（待建立）
+- [行く vs 来る 詳細比較](../comparison/010_iku_vs_kuru.md)
+- [来る vs 帰る 用法差異](../comparison/011_kuru_kaeru.md)
 
 ### Honorifics
 - [いらっしゃる・参る - 来る的敬語](../honorific/003_irassharu_mairu.md)

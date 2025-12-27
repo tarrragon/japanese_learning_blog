@@ -142,7 +142,7 @@ To learn; to acquire knowledge or skills. Encompasses natural learning through e
 ## 相關卡片
 
 - [動詞する](待建立) - 勉強する的詳細用法
-- [五段動詞](待建立) - 学ぶ的活用形式
+- [五段動詞](../concept/073_godan_verbs.md) - 学ぶ的活用形式
 - [學習相關動詞](待建立) - 其他學習動詞比較
 
 ---

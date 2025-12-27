@@ -94,7 +94,7 @@ A tax filing procedure in which individuals or corporations calculate their inco
 
 - [税金](待建立) - 相關：稅務體系
 - [所得](待建立) - 相關：申報對象
-- [控除](待建立) - 相關：減免項目
+- [控除](241_koujo.md) - 相關：減免項目
 - [納税](待建立) - 相關：繳納義務
 - [税務署](待建立) - 相關：受理機關
 

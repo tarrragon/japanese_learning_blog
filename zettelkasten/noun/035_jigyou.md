@@ -210,17 +210,17 @@ The government plans to allocate budget to public works projects in rural areas.
 
 ## 註解
 
-[^economic-activity]: **經濟活動** - 為獲取利潤或滿足需求而進行的生產、交換、分配、消費等活動。詳見 [經濟活動](../concept/economic-activity.md)（待建立）
+[^economic-activity]: **經濟活動** - 為獲取利潤或滿足需求而進行的生產、交換、分配、消費等活動。詳見 [經濟活動](../concept/economic-activity.md)
 
-[^profit]: **利益** - 企業經營活動中收入扣除成本後的盈餘。詳見 [利益](../noun/profit.md)（待建立）
+[^profit]: **利益** - 企業經營活動中收入扣除成本後的盈餘。詳見 [利益](../noun/profit.md)
 
-[^commercial-activity]: **營利活動** - 以獲取經濟利益為目的的商業行為。詳見 [營利活動](../concept/commercial-activity.md)（待建立）
+[^commercial-activity]: **營利活動** - 以獲取經濟利益為目的的商業行為。詳見 [營利活動](../concept/commercial-activity.md)
 
-[^nonprofit]: **非營利** - 不以獲取利潤為主要目的的組織或活動。詳見 [非營利](../concept/nonprofit.md)（待建立）
+[^nonprofit]: **非營利** - 不以獲取利潤為主要目的的組織或活動。詳見 [非營利](../concept/nonprofit.md)
 
-[^business]: **ビジネス** - 商業活動、生意的外來語表達，較口語化。詳見 [ビジネス](../noun/business.md)（待建立）
+[^business]: **ビジネス** - 商業活動、生意的外來語表達，較口語化。詳見 [ビジネス](../noun/business.md)
 
-[^public-works]: **公共事業** - 政府或地方自治體為公眾利益而進行的基礎建設或服務項目。詳見 [公共事業](../noun/public-works.md)（待建立）
+[^public-works]: **公共事業** - 政府或地方自治體為公眾利益而進行的基礎建設或服務項目。詳見 [公共事業](../noun/public-works.md)
 
 ---
 

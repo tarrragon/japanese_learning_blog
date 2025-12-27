@@ -101,7 +101,7 @@ The necessity of environmental protection has been increasing year by year.
 - 「必要性」: 名詞，用於抽象討論必要的程度或理由
 
 **與「義務」的差異**:
-- [義務](120_gimu.md)（待建立）: 表示必須履行的責任，強調外在約束力
+- [義務](120_gimu.md): 表示必須履行的責任，強調外在約束力
 - 「必要性」: 表示必須的程度，可能無強制約束力
 
 **與「重要性」的差異**:
@@ -134,7 +134,7 @@ The necessity of environmental protection has been increasing year by year.
 - [べき](056_beki.md) - 應該做某事
 
 **相關概念**:
-- [義務](120_gimu.md)（待建立） - 義務、責任
+- [義務](120_gimu.md) - 義務、責任
 - [条件形](050_ba_jouken.md) - 條件表達
 
 ## Footnotes

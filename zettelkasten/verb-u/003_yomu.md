@@ -356,7 +356,7 @@ A basic godan verb. It expresses the action of reading and understanding written
 - [を](../particle/002_wo.md) - 読む常用的助詞
 
 ### 相關文法
-- [ます形](../grammar/007_masu_form.md)（待建立） - 読みます的用法
+- [ます形](../grammar/007_masu_form.md) - 読みます的用法
 - [て形文法](../grammar/001_te_form.md) - 読んで的用法（む→んで）
 
 ### 相關動詞

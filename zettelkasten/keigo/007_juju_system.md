@@ -243,7 +243,7 @@ The giving and receiving expression system (juju hyōgen) is a Japanese linguist
 ### 個別動詞詳解
 - [いただく（謙讓語：接受）](001_itadaku.md) - 謙讓語代表，授受系統核心[^1]
 - [くださる（尊敬語：給予）](004_kudasaru.md) - 尊敬語代表，與いただく對應[^2]
-- [差し上げる（謙讓語：給予）](待建立)
+- [差し上げる（謙讓語：給予）](../verb-ru/016_sashiageru.md)
 
 ### 文法句型
 - [〜ていただく](../grammar/068_te_itadaku.md) - 謙讓請求表達[^3]

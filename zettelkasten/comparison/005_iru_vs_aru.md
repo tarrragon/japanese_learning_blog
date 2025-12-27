@@ -419,7 +419,7 @@ I have an appointment tomorrow.
 - [て形](../grammar/001_te_form.md) - 形成〜ている的基礎
 
 ### 其他比較卡片
-- [〜ている vs 〜てある](../comparison/004_te_iru_vs_te_aru.md)（待建立） - 狀態動詞的比較
+- [〜ている vs 〜てある](../comparison/004_te_iru_vs_te_aru.md) - 狀態動詞的比較
 
 ---
 

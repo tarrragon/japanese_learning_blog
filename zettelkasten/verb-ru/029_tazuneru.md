@@ -156,8 +156,8 @@ link_status:
 - [寝る](verb-ru-003_neru.md)：睡
 
 ### 相關概念
-- [一段動詞](待建立)：る動詞的文法說明
-- [動詞活用](待建立)：動詞變化規則
+- [一段動詞](../concept/074_ichidan_verbs.md)：る動詞的文法說明
+- [動詞活用](../concept/56_verb_conjugation.md)：動詞變化規則
 
 ## Meta 資訊
 - **建立日期**：2025-12-26

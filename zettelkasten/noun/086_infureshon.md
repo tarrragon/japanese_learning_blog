@@ -93,8 +93,8 @@ A sustained increase in the general price level of goods and services, resulting
 
 ### 用法
 - 通常簡稱為「インフレ」
-- 對比詞：[デフレーション（通貨緊縮）](待建立)
-- 相關概念：[物価（物價）](待建立)、[金利（利率）](待建立)
+- 對比詞：[デフレーション（通貨緊縮）](75_defureshon.md)
+- 相關概念：[物価（物價）](待建立)、[金利（利率）](094_kinri.md)
 
 ### 經濟學脈絡
 - 溫和的通貨膨脹（2-3%左右）通常被視為健康的經濟成長指標
@@ -104,6 +104,6 @@ A sustained increase in the general price level of goods and services, resulting
 ## 相關連結
 
 - 對比詞：[デフレーション](75_defureshon.md)
-- 相關概念：[経済（經濟）](待建立)
+- 相關概念：[経済（經濟）](../concept/concept-052-経済.md)
 - 相關概念：[物価（物價）](待建立)
 - 相關概念：[金融政策（貨幣政策）](待建立)

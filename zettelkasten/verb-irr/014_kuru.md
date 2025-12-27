@@ -160,20 +160,20 @@ To come; to arrive. An irregular verb indicating movement toward the speaker or 
 ## 相関連結
 
 ### 関連動詞
-- [行く](待建立)：対比動詞（去）
-- [帰る](待建立)：戻る動詞（回去）
-- [着く](待建立)：到着（到達）
+- [行く](../verb-u/009_iku.md)：対比動詞（去）
+- [帰る](../verb-u/011_kaeru.md)：戻る動詞（回去）
+- [着く](../verb-u/024_tsuku.md)：到着（到達）
 
 ### 関連文法
 - [て形 + 来る](待建立)：補助動詞用法
-- [ます形](待建立)：丁寧形
-- [可能形](待建立)：可能表現
+- [ます形](../concept/115_masu_form.md)：丁寧形
+- [可能形](../concept/104_kanoukei.md)：可能表現
 
 ### 関連概念
-- [不規則動詞](待建立)：活用の種類
+- [不規則動詞](../concept/075_irregular_verbs.md)：活用の種類
 - [カ行変格活用](待建立)：活用パターン
-- [移動動詞](待建立)：動詞の分類
-- [視点](待建立)：話者の視点
+- [移動動詞](../grammar/170_idou_doushi.md)：動詞の分類
+- [視点](../concept/006_viewpoint.md)：話者の視点
 
 ## 補充資料
 
