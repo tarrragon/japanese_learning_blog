@@ -217,6 +217,129 @@ ValueError: dict contains fields not in fieldnames: 'frequency', 'source_count'
 
 ---
 
+## v1.5.2：缺口卡片批次處理
+
+### 執行摘要
+
+| 指標 | 處理前 | 處理後 | 變化 |
+|------|--------|--------|------|
+| pending | 473 | 356 | -117 |
+| draft | 38 | 155 | +117 |
+| 新建檔案 | - | 116 | - |
+
+### 新建卡片分類
+
+- **concept**: 58 張（經濟術語、語言學概念）
+- **grammar**: 28 張（語法結構、助詞用法）
+- **noun**: 27 張（敬語、商務用語）
+- **adj-i**: 3 張（基礎形容詞）
+
+### 技術處理
+
+- 並發執行 117 個代理人
+- 編號衝突自動修復（`fix-numbering.py`）
+- 提交：`d7fdc77` feat(v1.5.2)
+
+---
+
+## 後續流程規劃
+
+### 當前狀態
+
+這 117 張新建卡片目前處於 **draft** 階段，尚未完成標準四階段流程：
+
+```
+① pending → ② draft ✅ 目前位置
+                ↓
+           ③ extension-review（待執行）
+                ↓
+           ④ linking（待執行）
+                ↓
+           ⑤ completed（待執行）
+```
+
+### 完整處理流程
+
+新建的 117 張卡片完成四階段流程後，需要執行以下步驟：
+
+#### 步驟 1：執行階段 2-4
+
+```bash
+# 階段 2：Extension Review
+# 使用 create-extension-cards 代理人檢查 155 張 draft 卡片
+
+# 階段 3：Link Building
+# 使用 build-card-links 代理人建立連結
+
+# 階段 4：Final Verification
+uv run scripts/fix-numbering.py --check
+uv run scripts/fix-wikilinks.py --check
+```
+
+#### 步驟 2：整合待建立連結
+
+新建的 117 張卡片內部可能包含新的「待建立」標記，需要與原有卡片的待建立連結整合：
+
+```bash
+# 掃描所有卡片的待建立標記，生成統一缺口清單
+uv run scripts/replace_pending_links.py --check --report
+
+# 預覽將要新增的缺口
+uv run scripts/replace_pending_links.py --dry-run --add-to-csv
+```
+
+#### 步驟 3：統整 Pending 清單
+
+將新發現的缺口與原有 356 張 pending 卡片合併：
+
+```bash
+# 一站式處理：替換連結 + 新增缺口到 CSV + 生成報告
+uv run scripts/replace_pending_links.py --fix --add-to-csv --report
+
+# 驗證合併結果
+uv run scripts/manage_worklog_cards.py stats
+```
+
+#### 步驟 4：更新連結
+
+執行連結替換，將新建卡片的路徑更新到引用它們的既有卡片中：
+
+```bash
+# 再次執行連結替換（新卡片已存在，可被索引）
+uv run scripts/replace_pending_links.py --fix --report
+
+# 驗證待建立標記減少
+grep -r "待建立" zettelkasten/ | wc -l
+```
+
+### 流程圖
+
+```
+┌─────────────────────────────────────────────────────────────────────┐
+│ v1.5.2 新建 117 張卡片                                               │
+│     ↓                                                               │
+│ 執行四階段流程（Extension Review → Link Building → Verification）    │
+│     ↓                                                               │
+│ 新卡片內發現新的「待建立」標記                                        │
+│     ↓                                                               │
+│ replace_pending_links.py --fix --add-to-csv                         │
+│     ↓                                                               │
+│ 新缺口加入 pending 清單（與原 356 張合併）                            │
+│     ↓                                                               │
+│ replace_pending_links.py --fix（更新所有連結）                       │
+│     ↓                                                               │
+│ 進入下一版本循環                                                     │
+└─────────────────────────────────────────────────────────────────────┘
+```
+
+### 預期結果
+
+1. 原有卡片中引用新卡片的「待建立」標記 → 轉為實際連結
+2. 新卡片中的「待建立」標記 → 加入統一 pending 清單
+3. 所有 pending 卡片形成統一工作清單，供下一版本處理
+
+---
+
 ## 相關文件
 
 - [replace_pending_links.py](../../scripts/replace_pending_links.py) - 連結替換腳本
