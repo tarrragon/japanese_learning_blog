@@ -2,7 +2,7 @@
 title: 日常會話語域
 description: 日常會話中的語言層次與表達選擇
 id: 66
-stage: draft
+stage: completed
 tags:
   - context/daily
   - context/casual
@@ -14,7 +14,7 @@ updated: 2025-12-27
 # 版本歷史
 version_history:
   - version: "1.5.0"
-    stage: "draft"
+    stage: "completed"
     date: 2025-12-27
 
 # 內容驗證

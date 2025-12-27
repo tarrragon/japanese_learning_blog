@@ -120,18 +120,18 @@ I will study from 3 to 5 o'clock.
 ## 相關連結
 
 ### 基礎概念
-- [[grammar/tense-system]] - 時態系統（待建立）
-- [[particle/kara]] - から助詞（待建立）
-- [[particle/made]] - まで助詞（待建立）
+- [tense-system](../grammar/tense-system.md) - 時態系統（待建立）
+- [kara](../particle/kara.md) - から助詞（待建立）
+- [made](../particle/made.md) - まで助詞（待建立）
 
 ### 相關詞彙
-- [[noun/kyou]] - 今日（待建立）
-- [[noun/kinou]] - 昨日（待建立）
-- [[noun/ashita]] - 明日（待建立）
+- [kyou](../noun/kyou.md) - 今日（待建立）
+- [kinou](../noun/kinou.md) - 昨日（待建立）
+- [ashita](../noun/ashita.md) - 明日（待建立）
 
 ### 延伸說明
-- [[grammar/te-iru]] - ている形態（待建立）
-- [[grammar/past-tense]] - 過去式（待建立）
+- [te-iru](../grammar/te-iru.md) - ている形態（待建立）
+- [past-tense](../grammar/past-tense.md) - 過去式（待建立）
 
 ---
 

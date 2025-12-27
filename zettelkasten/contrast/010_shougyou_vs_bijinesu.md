@@ -3,19 +3,19 @@ title: 商業 vs ビジネス
 description: 商業 vs ビジネス 詳細比較 - 和語漢語與外來語的語感差異
 type: contrast
 jlpt: n3
-stage: draft
+stage: completed
 tags:
   - domain/commerce
   - vocabulary_distinction
   - formality_levels
 created: 2025-11-03
-updated: 2025-11-03
+updated: 2025-12-27
 
 # 版本歷史
 version_history:
   - version: "1.5.0"
-    stage: "draft"
-    date: 2025-12-26
+    stage: "completed"
+    date: 2025-12-27
 
 # 內容驗證
 content_verification:
@@ -30,7 +30,7 @@ link_status:
   incoming: 0
   outgoing: 10
   pending: 0
-  verified_date: 2025-12-26
+  verified_date: 2025-12-27
 ---
 ## 概述
 

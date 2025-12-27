@@ -3,20 +3,20 @@ title: 擬聲擬態詞：キラキラ
 description: 閃爍
 type: onomatopoeia
 jlpt: n4
-stage: draft
+stage: completed
 tags:
   - onomatopoeia
   - gitaigo
   - jlpt/n4
   - visual/sparkling
 created: 2025-12-22
-updated: 2025-12-22
+updated: 2025-12-27
 
 # 版本歷史
 version_history:
   - version: "1.5.0"
-    stage: "draft"
-    date: 2025-12-26
+    stage: "completed"
+    date: 2025-12-27
 
 # 內容驗證
 content_verification:
@@ -33,7 +33,7 @@ link_status:
   incoming: 0
   outgoing: 3
   pending: 2
-  verified_date: 2025-12-26
+  verified_date: 2025-12-27
 ---
 ## 日文
 キラキラ

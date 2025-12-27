@@ -317,18 +317,18 @@ She is about to say something.
 ## 相關連結
 
 ### 動詞變化
-- [[grammar/010_masu_form]] - ます形（待建立）
-- [[grammar/005_ichidan_verb]] - 一段動詞（待建立）
-- [[grammar/009_godan_verb]] - 五段動詞（待建立）
+- [010_masu_form](010_masu_form.md) - ます形（待建立）
+- [005_ichidan_verb](005_ichidan_verb.md) - 一段動詞（待建立）
+- [009_godan_verb](009_godan_verb.md) - 五段動詞（待建立）
 
 ### 相關文法
-- [[grammar/volitional_polite]] - 〜ましょう（丁寧意向形）（待建立）
-- [[grammar/you_to_suru]] - 〜しようとする（待建立）
-- [[grammar/to_omou]] - 〜と思う（意向表達）（待建立）
+- [volitional_polite](volitional_polite.md) - 〜ましょう（丁寧意向形）（待建立）
+- [you_to_suru](you_to_suru.md) - 〜しようとする（待建立）
+- [to_omou](to_omou.md) - 〜と思う（意向表達）（待建立）
 
 ### 比較辨析
-- [[comparison/volitional_vs_mashou]] - 普通形意向形 vs ましょう（待建立）
-- [[comparison/volitional_vs_tai]] - 意向形 vs たい形（待建立）
+- [volitional_vs_mashou](../comparison/volitional_vs_mashou.md) - 普通形意向形 vs ましょう（待建立）
+- [volitional_vs_tai](../comparison/volitional_vs_tai.md) - 意向形 vs たい形（待建立）
 
 ---
 

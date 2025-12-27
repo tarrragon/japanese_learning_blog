@@ -3,19 +3,19 @@ title: 言語習得
 description: 言語習得（語言習得）- 語言學習理論核心概念
 type: concept
 jlpt: n2
-stage: extension-review
+stage: completed
 tags:
   - domain/linguistics
   - domain/learning_theory
   - context/academic
 created: 2025-10-31
-updated: 2025-10-31
+updated: 2025-12-27
 
 # 版本歷史
 version_history:
   - version: "1.5.0"
-    stage: "extension-review"
-    date: 2025-12-26
+    stage: "completed"
+    date: 2025-12-27
 
 # 內容驗證
 content_verification:
@@ -28,9 +28,9 @@ content_verification:
 # 連結狀態
 link_status:
   incoming: 0
-  outgoing: 9
+  outgoing: 5
   pending: 0
-  verified_date: 2025-12-26
+  verified_date: 2025-12-27
 ---
 ## 日文
 
@@ -220,19 +220,15 @@ Language acquisition involves the following elements:
 
 ## 相關連結
 
-### 相關概念
-- [語言學](linguistics.md) - 研究語言的學科（待建立）
-- [學習理論](learning-theory.md) - 學習過程的理論研究（待建立）
-
-### 對比詞彙
-- [言語學習](language-learning.md) - 與習得對比的有意識學習過程（待建立）
+### 核心語言學概念
 - [語彙](../noun/010_goi.md) - 語言的詞彙系統
+- [語彙論](016_goi_ron.md) - 詞彙學理論
+- [文法論](017_bunpou_ron.md) - 文法學理論
+- [音韻論](015_onin_ron.md) - 音韻學理論
 
-### 相關語言學概念
-- [第一語言](first-language.md) - 母語概念（待建立）
-- [第二語言](second-language.md) - 非母語的其他語言（待建立）
-- [批判期假說](critical-period-hypothesis.md) - 語言習得的關鍵期理論（待建立）
+### 學習相關概念
+- [語用學](028_pragmatics.md) - 語言使用的脈絡理論
 
-### 教學法相關
-- [自然教學法](natural-approach.md) - 基於習得理論的教學法（待建立）
-- [溝通式教學法](communicative-approach.md) - 強調交流的教學方法（待建立）
+### 說明
+
+本卡片涉及的延伸概念（語言學習、第一語言、第二語言、批判期假說、自然教學法、溝通式教學法）屬於專門的語言學習理論領域，目前系統尚未建立相關卡片。這些概念已記錄於延伸需求報告中，待後續版本補充。

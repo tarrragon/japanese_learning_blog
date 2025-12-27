@@ -3,19 +3,19 @@ title: 戻る（もどる）
 description: 返回、回到
 type: verb
 jlpt: n4
-stage: extension-review
+stage: completed
 tags:
   - verb
   - movement
   - basic
 created: 2025-10-31
-updated: 2025-12-26
+updated: 2025-12-27
 
 # 版本歷史
 version_history:
   - version: "1.5.0"
-    stage: "extension-review"
-    date: 2025-12-26
+    stage: "completed"
+    date: 2025-12-27
 
 # 內容驗證
 content_verification:
@@ -28,9 +28,9 @@ content_verification:
 # 連結狀態
 link_status:
   incoming: 0
-  outgoing: 0
+  outgoing: 10
   pending: 0
-  verified_date: 2025-12-26
+  verified_date: 2025-12-27
 ---
 ## 日文
 戻る(もどる)
@@ -109,14 +109,19 @@ link_status:
 
 ## 相關連結
 
-### 同義詞
-- (待補充)
+### 同義詞・相關動詞
+- [帰る](011_kaeru.md) - 回家、回去（強調回到「基地」如家、國家）
+- [行く](009_iku.md) - 去（離開方向）
+- [来る](../verb-irr/003_kuru.md) - 來（接近方向）
 
-### 相關詞彙
-- (待補充)
+### 動詞活用相關
+- [五段動詞](../grammar/009_godan_verb.md) - 五段動詞活用規則（戻る屬於る動詞）
+- [て形](../grammar/002_te_form.md) - て形變化（戻って）
+- [ている](../grammar/025_te_iru.md) - 持續狀態（戻っている）
 
-### 文法相關
-- (待補充)
+### 相關助詞
+- [に](../particle/008_ni.md) - 目的地助詞（戻る的目的地）
+- [から](../particle/004_kara.md) - 起點助詞
 
-### 延伸說明
-- (待補充)
+### 對比說明
+- 帰る vs 戻る：帰る強調回到「家」「國家」等基地；戻る較廣義，可用於返回任何原來的位置或狀態

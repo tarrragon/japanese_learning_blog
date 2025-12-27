@@ -178,11 +178,11 @@ It's too difficult for me
 - [格框架](concept/069_case_frame.md) - 格框架理論
 
 ### 語言學理論
-- [[concept/070_accusative_case.md]] - 對格（待建立）
-- [[concept/071_nominative_case.md]] - 主格（待建立）
+- [070_accusative_case.md](070_accusative_case.md) - 對格（待建立）
+- [071_nominative_case.md](071_nominative_case.md) - 主格（待建立）
 
 ### 助詞用法
-- [[particle/003_ni.md]] - に的用法（待建立）
+- [003_ni.md](../particle/003_ni.md) - に的用法（待建立）
 
 ---
 

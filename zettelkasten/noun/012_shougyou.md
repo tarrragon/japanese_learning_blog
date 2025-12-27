@@ -3,19 +3,22 @@ title: 商業(しょうぎょう)
 description: 商業
 type: noun
 jlpt: n3
-stage: extension-review
+stage: completed
 tags:
   - business
   - economics
   - formal
 created: 2025-10-31
-updated: 2025-12-26
+updated: 2025-12-27
 
 # 版本歷史
 version_history:
   - version: "1.5.0"
-    stage: "extension-review"
-    date: 2025-12-26
+    stage: "linking"
+    date: 2025-12-27
+  - version: "1.5.0"
+    stage: "completed"
+    date: 2025-12-27
 
 # 內容驗證
 content_verification:
@@ -27,10 +30,10 @@ content_verification:
 
 # 連結狀態
 link_status:
-  incoming: 0
+  incoming: 1
   outgoing: 10
   pending: 0
-  verified_date: 2025-12-26
+  verified_date: 2025-12-27
 ---
 ## 日文
 商業（しょうぎょう）

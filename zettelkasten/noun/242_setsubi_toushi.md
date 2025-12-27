@@ -77,17 +77,17 @@ Capital investment in AI technology promotes efficiency in manufacturing.
 
 ## 延伸主題
 
-- [[経済成長]] - Economic growth driven by capital investment
-- [[企業経営]] - Corporate management and investment strategies
-- [[財務分析]] - Financial analysis of capital expenditure
-- [[生産性向上]] - Productivity improvement through equipment upgrade
+- [経済成長](経済成長.md) - Economic growth driven by capital investment
+- [企業経営](企業経営.md) - Corporate management and investment strategies
+- [財務分析](財務分析.md) - Financial analysis of capital expenditure
+- [生産性向上](生産性向上.md) - Productivity improvement through equipment upgrade
 
 ## Meta 系統
-- **母卡片**：[[經濟學基礎概念]]
+- **母卡片**：[經濟學基礎概念](經濟學基礎概念.md)
 - **子卡片**：無
 - **衍生卡片**：無
 
 ## 關聯卡片
-- [[投資]] - General concept of investment
-- [[資産]] - Assets and capital management
-- [[製造業]] - Manufacturing industry context
+- [投資](投資.md) - General concept of investment
+- [資産](資産.md) - Assets and capital management
+- [製造業](製造業.md) - Manufacturing industry context

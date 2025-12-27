@@ -3,20 +3,20 @@ title: "〜ほうがいい"
 description: 最好...、應該...（建議）
 type: grammar
 jlpt: n4
-stage: extension-review
+stage: completed
 tags:
   - grammar
   - advice
   - suggestion
   - comparison
 created: 2025-10-31
-updated: 2025-12-26
+updated: 2025-12-27
 
 # 版本歷史
 version_history:
   - version: "1.5.0"
-    stage: "extension-review"
-    date: 2025-12-26
+    stage: "completed"
+    date: 2025-12-27
 
 # 內容驗證
 content_verification:
@@ -29,9 +29,9 @@ content_verification:
 # 連結狀態
 link_status:
   incoming: 0
-  outgoing: 0
+  outgoing: 7
   pending: 0
-  verified_date: 2025-12-26
+  verified_date: 2025-12-27
 ---
 ## 日文
 〜ほうがいい
@@ -143,16 +143,14 @@ This expression contains a comparative[^comparison] meaning, indicating that amo
 ## 相關連結
 
 ### 類似文法
-- (待補充) 〜べきだ - 應該...（較強的義務感）
-- (待補充) 〜たらどうですか - ...如何？（較委婉的建議）
-- (待補充) 〜ほうがましだ - ...還比較好（消極的選擇）
+- [〜べき](056_beki.md) - 應該...（較強的義務感）
+- [〜たら](033_tara.md) - 條件假設
+- [〜なければならない](030_nakereba_naranai.md) - 必須...（義務）
 
 ### 相關文法
-- (待補充) 動詞た形 - 動詞過去形
-- (待補充) 動詞ない形 - 動詞否定形
-- (待補充) 條件表現「なら」 - 假設條件
+- [動詞た形](012_ta_form.md) - 動詞過去形
+- [動詞ない形](011_nai_form.md) - 動詞否定形
+- [條件表現「なら」](057_nara.md) - 假設條件
 
 ### 延伸說明
-- (待補充) 日語建議表達的禮貌程度比較
-- (待補充) 「〜ほうがいい」與「〜べきだ」的使用差異
-- (待補充) 對上司給建議的適當表達方式
+- [依頼表現](165_irai_hyougen.md) - 請求表達方式的比較

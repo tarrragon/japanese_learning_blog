@@ -242,25 +242,25 @@ Excuse me, may I confirm one point?
 
 ### 基礎敬語系統
 - [敬語システム](008_keigo_system.md) - 敬語三大系統（尊敬語・謙讓語・丁寧語）（待建立）
-- [[concept/037_sonkeigo_concept.md]] - 尊敬語概念（待建立）
-- [[concept/謙讓語概念]] - 謙讓語概念（待建立）
-- [[concept/丁寧語概念]] - 丁寧語概念（待建立）
+- [037_sonkeigo_concept.md](../concept/037_sonkeigo_concept.md) - 尊敬語概念（待建立）
+- [謙讓語概念](../concept/謙讓語概念.md) - 謙讓語概念（待建立）
+- [丁寧語概念](../concept/丁寧語概念.md) - 丁寧語概念（待建立）
 
 ### 商務溝通相關
-- [[concept/56_business.md]] - 商務日語概念（待建立）
-- [[concept/063_business_communication.md]] - 商務溝通（待建立）
-- [[grammar/報連相]] - 報告・連絡・相談系統（待建立）
-- [[grammar/緩衝用語]] - クッション言葉（待建立）
+- [56_business.md](../concept/56_business.md) - 商務日語概念（待建立）
+- [063_business_communication.md](../concept/063_business_communication.md) - 商務溝通（待建立）
+- [報連相](報連相.md) - 報告・連絡・相談系統（待建立）
+- [緩衝用語](緩衝用語.md) - クッション言葉（待建立）
 
 ### 內外關係
-- [[grammar/內與外]] - ウチとソト的概念（待建立）
-- [[concept/視點理論]] - 日語的視點系統（待建立）
-- [[concept/社會語言學]] - 社會關係與語言（待建立）
+- [內與外](內與外.md) - ウチとソト的概念（待建立）
+- [視點理論](../concept/視點理論.md) - 日語的視點系統（待建立）
+- [社會語言學](../concept/社會語言學.md) - 社會關係與語言（待建立）
 
 ### 實用表達
-- [[grammar/メール敬語]] - 商務郵件敬語表達（待建立）
-- [[grammar/電話敬語]] - 商務電話敬語表達（待建立）
-- [[grammar/會議敬語]] - 會議場合敬語表達（待建立）
+- [メール敬語](メール敬語.md) - 商務郵件敬語表達（待建立）
+- [電話敬語](電話敬語.md) - 商務電話敬語表達（待建立）
+- [會議敬語](會議敬語.md) - 會議場合敬語表達（待建立）
 
 ---
 

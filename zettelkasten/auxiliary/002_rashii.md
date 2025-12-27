@@ -3,20 +3,20 @@ title: 〜らしい
 description: 助動詞「らしい」，表示推測、傳聞、以及典型特徵，是日文表達不確定資訊的重要文法
 type: auxiliary
 jlpt: n4
-stage: draft
+stage: completed
 tags:
   - jlpt/n4
   - grammar
   - context/casual
   - context/formal
 created: 2025-12-17
-updated: 2025-12-17
+updated: 2025-12-27
 
 # 版本歷史
 version_history:
   - version: "1.5.0"
-    stage: "draft"
-    date: 2025-12-26
+    stage: "completed"
+    date: 2025-12-27
 
 # 內容驗證
 content_verification:
@@ -31,7 +31,7 @@ link_status:
   incoming: 0
   outgoing: 11
   pending: 0
-  verified_date: 2025-12-26
+  verified_date: 2025-12-27
 ---
 # らしい（Rashii）
 

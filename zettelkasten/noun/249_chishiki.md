@@ -73,7 +73,7 @@ knowledge; information and understanding gained through learning, experience, or
 
 ## Metadata
 - ID: 232
-- Category: [[noun]]
+- Category: [noun](noun.md)
 - Tags: #學習 #教育 #認知
 - Aliases: ちしき, knowledge
 - Created: 2025-12-26

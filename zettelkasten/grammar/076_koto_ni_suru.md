@@ -1,7 +1,7 @@
 ---
 title: 〜ことにする
 description: 決定做某事（主動決定）
-stage: extension-review
+stage: completed
 tags:
   - grammar
   - decision
@@ -9,13 +9,13 @@ tags:
   - transitive
   - jlpt/n4
 created: 2025-10-31
-updated: 2025-12-26
+updated: 2025-12-27
 
 # 版本歷史
 version_history:
   - version: "1.5.0"
-    stage: "extension-review"
-    date: 2025-12-26
+    stage: "completed"
+    date: 2025-12-27
 
 # 內容驗證
 content_verification:
@@ -28,9 +28,9 @@ content_verification:
 # 連結狀態
 link_status:
   incoming: 0
-  outgoing: 0
+  outgoing: 6
   pending: 0
-  verified_date: 2025-12-26
+  verified_date: 2025-12-27
 
 # 連結
 links:
@@ -109,3 +109,17 @@ I make it a rule not to schedule anything on weekends.
 - 〜ことにした（過去式）
 - 〜ことにしよう（意向形）
 - 〜ことにしている（習慣性決定）
+
+## 相關連結
+
+### 相關文法
+- [〜ことになる](126_koto_ni_naru.md) - 決定做某事（被動、客觀決定）
+- [〜ようになる](064_ni_naru.md) - 變得...（狀態變化）
+- [〜にする](040_ni_suru.md) - 決定為...、選擇...
+
+### 動詞形式
+- [辞書形](013_dictionary_form.md) - 動詞原形（接續基礎）
+- [ない形](011_nai_form.md) - 動詞否定形
+
+### 對比辨析
+- [ことにする vs ことになる](../comparison/013_ni_suru_vs_ni_naru.md) - 主動與被動決定的區別

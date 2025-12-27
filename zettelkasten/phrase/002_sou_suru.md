@@ -3,7 +3,7 @@ title: そうする
 description: そうする - 那樣做（表示同意或確認）
 type: phrase
 jlpt: n5
-stage: draft
+stage: completed
 tags:
   - phrase
   - jlpt/n5
@@ -13,13 +13,13 @@ tags:
   - context/casual
   - context/business
 created: 2025-10-30
-updated: 2025-10-30
+updated: 2025-12-27
 
 # 版本歷史
 version_history:
   - version: "1.5.0"
-    stage: "draft"
-    date: 2025-12-26
+    stage: "completed"
+    date: 2025-12-27
 
 # 內容驗證
 content_verification:
@@ -34,7 +34,7 @@ link_status:
   incoming: 0
   outgoing: 3
   pending: 0
-  verified_date: 2025-12-26
+  verified_date: 2025-12-27
 ---
 ## 日文
 

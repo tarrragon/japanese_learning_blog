@@ -188,23 +188,23 @@ This is delicious, isn't it? (seeking agreement)
 ## 相關連結
 
 ### 格助詞
-- [[particle/001_ga.md]] - 主語標記「が」（待建立）
-- [[particle/002_wo.md]] - 受詞標記「を」（待建立）
-- [[particle/003_ni.md]] - 多功能助詞「に」（待建立）
-- [[particle/004_de.md]] - 場所與手段助詞「で」（待建立）
+- [001_ga.md](../particle/001_ga.md) - 主語標記「が」（待建立）
+- [002_wo.md](../particle/002_wo.md) - 受詞標記「を」（待建立）
+- [003_ni.md](../particle/003_ni.md) - 多功能助詞「に」（待建立）
+- [004_de.md](../particle/004_de.md) - 場所與手段助詞「で」（待建立）
 
 ### 副助詞
-- [[particle/005_wa.md]] - 主題標記「は」（待建立）
-- [[particle/006_mo.md]] - 添加助詞「も」（待建立）
-- [[comparison/001_ga_vs_wa.md]] - が vs は 的核心區別（待建立）
+- [005_wa.md](../particle/005_wa.md) - 主題標記「は」（待建立）
+- [006_mo.md](../particle/006_mo.md) - 添加助詞「も」（待建立）
+- [001_ga_vs_wa.md](../comparison/001_ga_vs_wa.md) - が vs は 的核心區別（待建立）
 
 ### 終助詞
-- [[particle/007_ne.md]] - 確認語氣「ね」（待建立）
-- [[particle/008_yo.md]] - 告知語氣「よ」（待建立）
+- [007_ne.md](../particle/007_ne.md) - 確認語氣「ね」（待建立）
+- [008_yo.md](../particle/008_yo.md) - 告知語氣「よ」（待建立）
 
 ### 系統性概念
-- [[concept/069_case_system.md]] - 格系統（待建立）
-- [[concept/070_sentence_structure.md]] - 日文句子結構（待建立）
+- [069_case_system.md](069_case_system.md) - 格系統（待建立）
+- [070_sentence_structure.md](070_sentence_structure.md) - 日文句子結構（待建立）
 
 ---
 

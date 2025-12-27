@@ -181,24 +181,24 @@ Brown 和 Levinson 的面子理論（Face Theory）解釋如何透過語言維�
 ## 相關連結
 
 ### 語言學基礎
-- [[concept/semantics]] - 語義論（對比）（待建立）
-- [[concept/syntax]] - 統語論（待建立）
-- [[concept/discourse_analysis]] - 話語分析（待建立）
+- [semantics](semantics.md) - 語義論（對比）（待建立）
+- [syntax](syntax.md) - 統語論（待建立）
+- [discourse_analysis](discourse_analysis.md) - 話語分析（待建立）
 
 ### 語用論理論
-- [[concept/speech_act_theory]] - 發話行為論（待建立）
-- [[concept/cooperative_principle]] - 合作原則（待建立）
-- [[concept/politeness_theory]] - 禮貌理論（待建立）
-- [[concept/face_theory]] - 面子理論（待建立）
+- [speech_act_theory](speech_act_theory.md) - 發話行為論（待建立）
+- [cooperative_principle](cooperative_principle.md) - 合作原則（待建立）
+- [politeness_theory](politeness_theory.md) - 禮貌理論（待建立）
+- [face_theory](face_theory.md) - 面子理論（待建立）
 
 ### 日語語用現象
-- [[grammar/honorifics_system]] - 敬語系統（待建立）
-- [[grammar/indirect_expressions]] - 間接表達（待建立）
-- [[particle/sentence_final_particles]] - 終助詞（待建立）
+- [honorifics_system](../grammar/honorifics_system.md) - 敬語系統（待建立）
+- [indirect_expressions](../grammar/indirect_expressions.md) - 間接表達（待建立）
+- [sentence_final_particles](../particle/sentence_final_particles.md) - 終助詞（待建立）
 
 ### 應用領域
-- [[concept/interlanguage_pragmatics]] - 語內語用論（待建立）
-- [[concept/crosscultural_pragmatics]] - 跨文化語用論（待建立）
+- [interlanguage_pragmatics](interlanguage_pragmatics.md) - 語內語用論（待建立）
+- [crosscultural_pragmatics](crosscultural_pragmatics.md) - 跨文化語用論（待建立）
 
 ---
 

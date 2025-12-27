@@ -174,18 +174,18 @@ It might rain tomorrow.
 ## 相關連結
 
 ### 基礎文法概念
-- [[grammar/basic_sentence_structure]] - 基本句子結構（待建立）
-- [[grammar/verb_conjugation]] - 動詞活用（待建立）
-- [[grammar/particle_usage]] - 助詞用法（待建立）
+- [basic_sentence_structure](basic_sentence_structure.md) - 基本句子結構（待建立）
+- [verb_conjugation](verb_conjugation.md) - 動詞活用（待建立）
+- [particle_usage](particle_usage.md) - 助詞用法（待建立）
 
 ### 進階句型
-- [[grammar/conditional_forms]] - 條件句型（待建立）
-- [[grammar/causative_passive]] - 使役被動句型（待建立）
-- [[grammar/honorific_patterns]] - 敬語句型（待建立）
+- [conditional_forms](conditional_forms.md) - 條件句型（待建立）
+- [causative_passive](causative_passive.md) - 使役被動句型（待建立）
+- [honorific_patterns](honorific_patterns.md) - 敬語句型（待建立）
 
 ### 相關概念
-- [[grammar/jlpt_grammar_levels]] - JLPT文法級別（待建立）
-- [[comparison/similar_grammar_patterns]] - 相似句型比較（待建立）
+- [jlpt_grammar_levels](jlpt_grammar_levels.md) - JLPT文法級別（待建立）
+- [similar_grammar_patterns](../comparison/similar_grammar_patterns.md) - 相似句型比較（待建立）
 
 ---
 

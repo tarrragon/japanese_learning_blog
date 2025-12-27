@@ -154,16 +154,16 @@ She turned off the room lights and went out.
 ## 相關連結
 
 ### 對比概念
-- [[concept/intransitive_verbs.md]] - 自動詞的概念與用法（待建立）
-- [[comparison/transitive_vs_intransitive.md]] - 他動詞與自動詞的詳細比較（待建立）
+- [intransitive_verbs.md](intransitive_verbs.md) - 自動詞的概念與用法（待建立）
+- [transitive_vs_intransitive.md](../comparison/transitive_vs_intransitive.md) - 他動詞與自動詞的詳細比較（待建立）
 
 ### 相關文法
-- [[grammar/passive_form.md]] - 被動態的形成與使用（待建立）
-- [[grammar/causative_form.md]] - 使役態的形成與使用（待建立）
-- [[grammar/particle_wo.md]] - 助詞「を」的用法（待建立）
+- [passive_form.md](../grammar/passive_form.md) - 被動態的形成與使用（待建立）
+- [causative_form.md](../grammar/causative_form.md) - 使役態的形成與使用（待建立）
+- [particle_wo.md](../grammar/particle_wo.md) - 助詞「を」的用法（待建立）
 
 ### 實例說明
-- [[concept/verb_pairs.md]] - 自他動詞配對一覽（待建立）
+- [verb_pairs.md](verb_pairs.md) - 自他動詞配對一覽（待建立）
 
 ---
 

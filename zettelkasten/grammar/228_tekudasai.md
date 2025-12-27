@@ -225,22 +225,22 @@ Please take care on your way home.
 ## 相關連結
 
 ### 基礎文法
-- [[grammar/te_form]] - て形的詳細說明（待建立）
-- [[grammar/naide_kudasai]] - 〜ないでください（請不要...）（待建立）
+- [te_form](te_form.md) - て形的詳細說明（待建立）
+- [naide_kudasai](naide_kudasai.md) - 〜ないでください（請不要...）（待建立）
 
 ### 請求表達階梯
-- [[grammar/imperative_form]] - 命令形（待建立）
-- [[grammar/te_kudasaimasenka]] - 〜てくださいませんか（能否請您...）（待建立）
-- [[grammar/te_itadakemasenka]] - 〜ていただけませんか（謙讓語請求）（待建立）
-- [[grammar/te_moraemasenka]] - 〜てもらえませんか（請求幫忙）（待建立）
+- [imperative_form](imperative_form.md) - 命令形（待建立）
+- [te_kudasaimasenka](te_kudasaimasenka.md) - 〜てくださいませんか（能否請您...）（待建立）
+- [te_itadakemasenka](te_itadakemasenka.md) - 〜ていただけませんか（謙讓語請求）（待建立）
+- [te_moraemasenka](te_moraemasenka.md) - 〜てもらえませんか（請求幫忙）（待建立）
 
 ### 敬語系統
 - [047_敬語系統](zettelkasten/grammar/047_keigo_system.md) - 日語敬語的完整體系
-- [[concept/politeness_levels]] - 日語禮貌等級（待建立）
+- [politeness_levels](../concept/politeness_levels.md) - 日語禮貌等級（待建立）
 
 ### 相關概念
-- [[concept/request_expressions]] - 請求表達總覽（待建立）
-- [[concept/speech_level]] - 語體等級（待建立）
+- [request_expressions](../concept/request_expressions.md) - 請求表達總覽（待建立）
+- [speech_level](../concept/speech_level.md) - 語體等級（待建立）
 
 ---
 

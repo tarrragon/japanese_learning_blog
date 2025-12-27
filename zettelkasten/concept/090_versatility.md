@@ -172,18 +172,18 @@ The window has been left open.
 ## 相關連結
 
 ### 助詞系統
-- [[particle/001_de.md]] - 助詞「で」的多功能用法（待建立）
-- [[particle/002_ni.md]] - 助詞「に」的多功能用法（待建立）
-- [[particle/003_ga.md]] - 助詞「が」的多重功能（待建立）
+- [001_de.md](../particle/001_de.md) - 助詞「で」的多功能用法（待建立）
+- [002_ni.md](../particle/002_ni.md) - 助詞「に」的多功能用法（待建立）
+- [003_ga.md](../particle/003_ga.md) - 助詞「が」的多重功能（待建立）
 
 ### 動詞多義性
-- [[verb-u/001_agaru.md]] - 「上がる」的多重意義（待建立）
-- [[concept/context_dependent_meaning.md]] - 語境依存意義（待建立）
+- [001_agaru.md](../verb-u/001_agaru.md) - 「上がる」的多重意義（待建立）
+- [context_dependent_meaning.md](context_dependent_meaning.md) - 語境依存意義（待建立）
 
 ### 語言學概念
-- [[concept/polysemy.md]] - 多義性（待建立）
-- [[concept/context.md]] - 語境（待建立）
-- [[concept/semantic_field.md]] - 語義場（待建立）
+- [polysemy.md](polysemy.md) - 多義性（待建立）
+- [context.md](context.md) - 語境（待建立）
+- [semantic_field.md](semantic_field.md) - 語義場（待建立）
 
 ---
 

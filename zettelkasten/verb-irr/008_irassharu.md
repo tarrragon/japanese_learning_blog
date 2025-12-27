@@ -3,20 +3,20 @@ title: いらっしゃる
 description: 在、來、去的尊敬語
 type: verb
 jlpt: n4
-stage: extension-review
+stage: completed
 tags:
   - verb
   - honorific
   - keigo
   - irregular
 created: 2025-10-31
-updated: 2025-12-26
+updated: 2025-12-27
 
 # 版本歷史
 version_history:
   - version: "1.5.0"
-    stage: "extension-review"
-    date: 2025-12-26
+    stage: "completed"
+    date: 2025-12-27
 
 # 內容驗證
 content_verification:
@@ -31,7 +31,7 @@ link_status:
   incoming: 0
   outgoing: 24
   pending: 0
-  verified_date: 2025-12-26
+  verified_date: 2025-12-27
 ---
 ## 日文
 いらっしゃる

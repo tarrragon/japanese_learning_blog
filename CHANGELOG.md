@@ -7,6 +7,37 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.5.0] - 2025-12-27
+
+### Added
+
+- **YAML 驅動架構**：卡片 YAML frontmatter 成為進度追蹤的單一事實來源
+  - 新增 `version_history`、`content_verification`、`link_status` 欄位
+  - 腳本支援 `--from-yaml` 掃描模式
+
+- **卡片處理**：完成四階段工作流程
+  - Extension Review：357 張卡片審查，識別 ~153 項延伸需求
+  - Link Building：80 張卡片建立 ~580 個連結
+  - Final Verification：80 張卡片進入 completed 狀態
+
+### Fixed
+
+- **編號連續性修復**：7 個分類的編號跳躍問題
+  - 重新編號 348 個檔案
+  - concept: 67 個、grammar: 218 個、noun: 50 個等
+
+- **Wikilink 格式修正**：23 個檔案，181 個連結
+  - 統一為標準 Markdown 連結格式
+
+### Documentation
+
+- `doc/worklog/extension-cards-1.5.0.md` - 延伸需求報告
+- `doc/worklog/linking-cards-1.5.0.md` - 連結建立報告
+
+---
+
+## [Previous Unreleased]
+
 ### Added
 
 - **doc-structure skill**：文檔結構管理工具

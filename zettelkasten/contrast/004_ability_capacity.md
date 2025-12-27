@@ -3,19 +3,19 @@ title: 能力 vs 容量
 description: 能力 vs 容量 詳細比較 - 能力與容量的辨析
 type: contrast
 jlpt: n4
-stage: draft
+stage: completed
 tags:
   - vocabulary_distinction
   - domain/cognition
   - context/academic
 created: 2025-11-03
-updated: 2025-11-03
+updated: 2025-12-27
 
 # 版本歷史
 version_history:
   - version: "1.5.0"
-    stage: "draft"
-    date: 2025-12-26
+    stage: "completed"
+    date: 2025-12-27
 
 # 內容驗證
 content_verification:
@@ -30,7 +30,7 @@ link_status:
   incoming: 0
   outgoing: 9
   pending: 0
-  verified_date: 2025-12-26
+  verified_date: 2025-12-27
 ---
 ## 概述
 

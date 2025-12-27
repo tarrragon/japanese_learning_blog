@@ -167,21 +167,21 @@ I have been to Japan before.
 ## 相關連結
 
 ### 基礎文法
-- [[grammar/te_form]] - て形（動詞て形）
-- [[concept/verb_conjugation]] - 動詞活用系統
-- [[concept/past_tense]] - 過去時態
+- [te_form](../grammar/te_form.md) - て形（動詞て形）
+- [verb_conjugation](verb_conjugation.md) - 動詞活用系統
+- [past_tense](past_tense.md) - 過去時態
 
 ### 相關句型
-- [[grammar/ta_koto_ga_aru]] - 〜たことがある（經驗表達）
-- [[grammar/tara]] - 〜たら（條件句型）
-- [[grammar/tari_tari]] - 〜たり〜たり（並列動作）
-- [[grammar/ta_bakari]] - 〜たばかり（剛剛完成）
+- [ta_koto_ga_aru](../grammar/ta_koto_ga_aru.md) - 〜たことがある（經驗表達）
+- [tara](../grammar/tara.md) - 〜たら（條件句型）
+- [tari_tari](../grammar/tari_tari.md) - 〜たり〜たり（並列動作）
+- [ta_bakari](../grammar/ta_bakari.md) - 〜たばかり（剛剛完成）
 
 ### 動詞類型
-- [[concept/ichidan_verb]] - 一段動詞
-- [[concept/godan_verb]] - 五段動詞
-- [[verb-irr/suru]] - する（不規則動詞）
-- [[verb-irr/kuru]] - 来る（不規則動詞）
+- [ichidan_verb](ichidan_verb.md) - 一段動詞
+- [godan_verb](godan_verb.md) - 五段動詞
+- [suru](../verb-irr/suru.md) - する（不規則動詞）
+- [kuru](../verb-irr/kuru.md) - 来る（不規則動詞）
 
 ---
 

@@ -3,19 +3,19 @@ title: 学ぶ（まなぶ）
 description: 學習
 type: verb
 jlpt: n5
-stage: extension-review
+stage: completed
 tags:
   - education
   - learning
   - active_learning
 created: 2025-10-31
-updated: 2025-12-26
+updated: 2025-12-27
 
 # 版本歷史
 version_history:
   - version: "1.5.0"
-    stage: "extension-review"
-    date: 2025-12-26
+    stage: "completed"
+    date: 2025-12-27
 
 # 內容驗證
 content_verification:
@@ -28,9 +28,9 @@ content_verification:
 # 連結狀態
 link_status:
   incoming: 0
-  outgoing: 11
+  outgoing: 12
   pending: 0
-  verified_date: 2025-12-26
+  verified_date: 2025-12-27
 ---
 ## 日文
 学ぶ（まなぶ）
@@ -116,20 +116,22 @@ link_status:
 ## 相關連結
 
 ### 同義詞・相關動詞
-- [勉強する](../verb-irregular/001_benkyou-suru.md) - 學習、用功（較正式、書面）
-- [習う](../verb-u/022_narau.md) - 學習、接受指導（強調從老師學習）
+- [勉強する](../verb-irr/001_benkyousuru.md) - 學習、用功（較正式、書面）
+- [習う](031_narau.md) - 學習、接受指導（強調從老師學習）
 
-### 相關詞彙（教育）
-- [学校](../noun/school/001_gakkou.md) - 學校
-- [勉強](../noun/002_benkyou.md) - 學習、功課
-- [先生](../noun/003_sensei.md) - 老師
-- [学生](../noun/004_gakusei.md) - 學生
+### 動詞活用相關
+- [五段動詞](../grammar/009_godan_verb.md) - 五段動詞活用規則（学ぶ屬於ぶ動詞）
+- [て形](../grammar/002_te_form.md) - て形變化（学んで）
 
 ### 文法相關
-- [を](../particle/001_wo.md) - 賓語助詞
-- [から](../particle/002_kara.md) - 起點助詞
-- [ながら](../grammar/002_nagara.md) - 同時進行文法
+- [を](../particle/003_wo.md) - 賓語助詞
+- [から](../particle/004_kara.md) - 起點助詞
+- [ながら](../grammar/003_nagara.md) - 同時進行文法
+
+### 相關移動動詞
+- [行く](009_iku.md) - 去（學習場所移動）
+- [来る](../verb-irr/003_kuru.md) - 來
 
 ### 延伸說明
-- [学ぶ vs 勉強する](../extension/comparison/002_manabu_vs_benkyou.md) - 語義差異
-- [五段動詞活用規則](../grammar/verb-types/godan.md) - 詳細說明
+- 学ぶ vs 勉強する - 語義差異（待建立）
+- 主動學習 vs 被動學習概念（待建立）

@@ -182,17 +182,17 @@ I will bring the documents (humble).
 ## 相關連結
 
 ### 敬語類型
-- [[honorific/001_sonkeigo]] - 尊敬語的使用方式（待建立）
-- [[honorific/002_kenjougo]] - 謙讓語的表達方式（待建立）
-- [[honorific/003_teineigo]] - 丁寧語的基本用法（待建立）
+- [001_sonkeigo](../honorific/001_sonkeigo.md) - 尊敬語的使用方式（待建立）
+- [002_kenjougo](../honorific/002_kenjougo.md) - 謙讓語的表達方式（待建立）
+- [003_teineigo](../honorific/003_teineigo.md) - 丁寧語的基本用法（待建立）
 
 ### 語用概念
-- [[concept/061_formality_level]] - 正式程度的判斷標準（待建立）
-- [[concept/065_social_hierarchy]] - 日本社會階層關係（待建立）
+- [061_formality_level](061_formality_level.md) - 正式程度的判斷標準（待建立）
+- [065_social_hierarchy](065_social_hierarchy.md) - 日本社會階層關係（待建立）
 
 ### 實際應用
-- [[context/001_business_honorifics]] - 商務場合的敬語使用（待建立）
-- [[context/002_service_language]] - 服務業的敬語表達（待建立）
+- [001_business_honorifics](../context/001_business_honorifics.md) - 商務場合的敬語使用（待建立）
+- [002_service_language](../context/002_service_language.md) - 服務業的敬語表達（待建立）
 
 ---
 

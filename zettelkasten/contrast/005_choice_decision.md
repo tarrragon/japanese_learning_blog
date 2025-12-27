@@ -3,19 +3,19 @@ title: 選択 vs 決定
 description: 選択 vs 決定 詳細比較 - 選擇與決定的詞彙辨析
 type: contrast
 jlpt: n4
-stage: draft
+stage: completed
 tags:
   - vocabulary_distinction
   - domain/cognition
   - context/formal
 created: 2025-11-03
-updated: 2025-11-03
+updated: 2025-12-27
 
 # 版本歷史
 version_history:
   - version: "1.5.0"
-    stage: "draft"
-    date: 2025-12-26
+    stage: "completed"
+    date: 2025-12-27
 
 # 內容驗證
 content_verification:
@@ -30,7 +30,7 @@ link_status:
   incoming: 0
   outgoing: 11
   pending: 0
-  verified_date: 2025-12-26
+  verified_date: 2025-12-27
 ---
 ## 概述
 

@@ -3,20 +3,20 @@ title: "へ vs に vs まで"
 description: 方向助詞的比較與用法
 type: grammar
 jlpt: n5
-stage: extension-review
+stage: completed
 tags:
   - grammar
   - particle
   - direction
   - comparison
 created: 2025-10-31
-updated: 2025-12-26
+updated: 2025-12-27
 
 # 版本歷史
 version_history:
   - version: "1.5.0"
-    stage: "extension-review"
-    date: 2025-12-26
+    stage: "completed"
+    date: 2025-12-27
 
 # 內容驗證
 content_verification:
@@ -29,9 +29,9 @@ content_verification:
 # 連結狀態
 link_status:
   incoming: 0
-  outgoing: 9
+  outgoing: 6
   pending: 0
-  verified_date: 2025-12-26
+  verified_date: 2025-12-27
 ---
 ## 日文
 へ vs に vs まで
@@ -190,14 +190,11 @@ link_status:
 ## 相關連結
 
 ### 相關助詞
-- [に](../particle/002_ni.md) - 表示目的地、時間、對象等的多功能助詞
-- [から](../particle/003_kara.md) - 表示起點、出發點的助詞
-- [まで](../particle/004_made.md) - 表示範圍終點的助詞
-- [へ](../particle/001_he.md) - 表示方向的助詞
+- [に](../particle/008_ni.md) - 表示目的地、時間、對象等的多功能助詞
+- [から](../particle/004_kara.md) - 表示起點、出發點的助詞
+- [まで](../particle/009_made.md) - 表示範圍終點的助詞
+- [へ](../particle/017_e.md) - 表示方向的助詞
 
 ### 文法相關
-- [移動動詞](../extension/movement-verbs.md) - 與方向助詞常搭配的移動動詞
-- [時間表現](../extension/time-expressions.md) - まで在時間表現中的用法
-
-### 延伸比較
-- [助詞比較系列](../extension/particle-comparisons.md) - 其他助詞的比較說明
+- [移動動詞](099_movement_verbs.md) - 與方向助詞常搭配的移動動詞
+- [格助詞](069_case_particles.md) - 格助詞系統

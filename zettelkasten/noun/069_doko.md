@@ -2,20 +2,23 @@
 title: "どこ"
 description: "哪裡（疑問詞）"
 jlpt: n5
-stage: extension-review
+stage: completed
 tags:
   - interrogative
   - question
   - place
   - basic
 created: 2025-12-26
-updated: 2025-12-26
+updated: 2025-12-27
 
 # 版本歷史
 version_history:
   - version: "1.5.0"
-    stage: "extension-review"
-    date: 2025-12-26
+    stage: "linking"
+    date: 2025-12-27
+  - version: "1.5.0"
+    stage: "completed"
+    date: 2025-12-27
 
 # 內容驗證
 content_verification:
@@ -28,9 +31,9 @@ content_verification:
 # 連結狀態
 link_status:
   incoming: 0
-  outgoing: 0
+  outgoing: 3
   pending: 0
-  verified_date: 2025-12-26
+  verified_date: 2025-12-27
 ---
 # どこ
 
@@ -76,12 +79,14 @@ Where shall we eat lunch?
 
 ---
 
-## 參考資料
+## 相關連結
 
-<!-- 此處將在 linking 階段補充標準連結 -->
+### 相關詞彙（疑問詞）
+- [いつ](061_itsu.md) - 何時
+- [なぜ](062_naze.md) - 為什麼
+- [どれ](063_dore.md) - 哪個（三者以上選擇）
 
----
-
-## 學習筆記
-
-<!-- 個人學習心得 -->
+### 相關詞彙（場所）
+- [場所](071_basho.md) - 地點、場所
+- [位置](022_ichi.md) - 位置
+- [方向](014_houkou.md) - 方向

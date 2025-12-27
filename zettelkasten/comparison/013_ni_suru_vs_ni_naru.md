@@ -3,19 +3,19 @@ title: にする vs になる
 description: にする vs になる 對比（主動決定與自然變化）
 type: comparison
 jlpt: n4
-stage: extension-review
+stage: completed
 tags:
   - context/formal
   - context/casual
   - domain/daily_life
 created: 2025-10-30
-updated: 2025-10-30
+updated: 2025-12-27
 
 # 版本歷史
 version_history:
   - version: "1.5.0"
-    stage: "extension-review"
-    date: 2025-12-26
+    stage: "completed"
+    date: 2025-12-27
 
 # 內容驗證
 content_verification:
@@ -28,9 +28,9 @@ content_verification:
 # 連結狀態
 link_status:
   incoming: 0
-  outgoing: 8
+  outgoing: 7
   pending: 0
-  verified_date: 2025-12-26
+  verified_date: 2025-12-27
 ---
 ## 日文
 
@@ -431,17 +431,15 @@ I'll have coffee.
 ## 相關連結
 
 ### 基本文法
-- [～にする](../grammar/037_ni_suru.md) - にする的詳細用法
-- [～になる](../grammar/057_ni-naru.md) - になる的詳細用法
+- [～にする](../grammar/040_ni_suru.md) - にする的詳細用法（主動決定、選擇）
+- [～になる](../grammar/064_ni_naru.md) - になる的詳細用法（自然變化、結果）
 
 ### 進階用法
-- [～ことにする](../grammar/058_koto-ni-suru.md) - 決定做某事
-- [～ことになる](../grammar/koto-ni-naru.md) - 結果決定（如有此卡片）
+- [～ことにする](../grammar/065_koto_ni_suru.md) - 決定做某事
 
 ### 相關動詞
-- [する](../verb-irr/001_suru.md) - 基礎動詞「做」
-- [なる](../verb-u/naru.md) - 動詞「成為」（如有此卡片）
+- [する](../verb-irr/002_suru.md) - 基礎動詞「做」
 
 ### 相關概念
-- [自動詞與他動詞](../concept/003_jidoushi.md) - 理解なる和する的動詞性質
-- [日語的主動性概念](../concept/agency.md) - 語言學概念（如有此卡片）
+- [自動詞](../concept/003_jidoushi.md) - 理解なる的自動詞性質
+- [他動詞](../concept/004_tadoushi.md) - 理解する的他動詞性質

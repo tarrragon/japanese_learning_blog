@@ -3,18 +3,18 @@ title: 視点
 description: 日語的視點（視角）概念 - 語言學核心理論
 type: concept
 jlpt: n4
-stage: extension-review
+stage: completed
 tags:
   - domain/cognition
   - domain/communication
 created: 2025-10-30
-updated: 2025-10-31
+updated: 2025-12-27
 
 # 版本歷史
 version_history:
   - version: "1.5.0"
-    stage: "extension-review"
-    date: 2025-12-26
+    stage: "completed"
+    date: 2025-12-27
 
 # 內容驗證
 content_verification:
@@ -27,9 +27,9 @@ content_verification:
 # 連結狀態
 link_status:
   incoming: 0
-  outgoing: 7
+  outgoing: 9
   pending: 0
-  verified_date: 2025-12-26
+  verified_date: 2025-12-27
 ---
 ## 日文
 
@@ -249,16 +249,18 @@ flowchart TD
 ## 相關連結
 
 ### 授受表現系統
-- [授受表現](../grammar/048_juju-hyougen.md) - 日語的給予與接受動詞系統總覽
+- [授受表現](../grammar/051_juju_hyougen.md) - 日語的給予與接受動詞系統總覽
 - [あげる](../verb-ru/011_ageru.md) - 給予（由內向外）
 - [くれる](../verb-ru/013_kureru.md) - 給予（由外向內）
 - [もらう](../verb-ru/012_morau.md) - 接受
 
 ### 視點相關對比
-- [〜てもらう vs 〜てくれる](../comparison/006_te-morau_vs_te-kureru.md) - 視角差異對比
+- [〜てもらう vs 〜てくれる](../comparison/032_te_morau_vs_te_kureru.md) - 視角差異對比
+- [あげる vs くれる](../comparison/029_ageru_vs_kureru.md) - 授與動詞方向對比
 
 ### 文化概念
-- [內與外](007_uchi-soto.md) - 日本社會的內外群體概念
+- [內與外](007_uchi_soto.md) - 日本社會的內外群體概念
 
 ### 相關語言學概念
-- [自動詞與他動詞](003_jidoushi.md) - 另一個展示視點的文法系統
+- [自動詞](003_jidoushi.md) - 自動詞概念，展示視點的文法系統
+- [他動詞](004_tadoushi.md) - 他動詞概念，與自動詞對比

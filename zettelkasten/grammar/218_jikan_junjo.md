@@ -192,17 +192,17 @@ Would you like to go for lunch after the meeting?
 ## 相關連結
 
 ### 基礎文法
-- [[grammar/te_form]] - て形的基本用法（待建立）
-- [[grammar/ta_form]] - た形的基本用法（待建立）
+- [te_form](te_form.md) - て形的基本用法（待建立）
+- [ta_form](ta_form.md) - た形的基本用法（待建立）
 
 ### 相關時間表達
-- [[grammar/toki]] - 〜時（當...的時候）（待建立）
-- [[grammar/aida]] - 〜間（期間）（待建立）
-- [[grammar/uchi_ni]] - 〜うちに（趁...的時候）（待建立）
+- [toki](toki.md) - 〜時（當...的時候）（待建立）
+- [aida](aida.md) - 〜間（期間）（待建立）
+- [uchi_ni](uchi_ni.md) - 〜うちに（趁...的時候）（待建立）
 
 ### 接續表達
-- [[grammar/conjunction_basic]] - 基本接續詞用法（待建立）
-- [[grammar/dakara]] - だから（所以）的用法（待建立）
+- [conjunction_basic](conjunction_basic.md) - 基本接續詞用法（待建立）
+- [dakara](dakara.md) - だから（所以）的用法（待建立）
 
 ---
 

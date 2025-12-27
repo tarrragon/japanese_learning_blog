@@ -3,20 +3,20 @@ title: から・より
 description: から vs より - 起點助詞對比
 type: particle
 jlpt: n4
-stage: draft
+stage: completed
 tags:
   - comparison
   - particle
   - context/formal
   - context/casual
 created: 2025-12-17
-updated: 2025-12-17
+updated: 2025-12-27
 
 # 版本歷史
 version_history:
   - version: "1.5.0"
-    stage: "draft"
-    date: 2025-12-26
+    stage: "completed"
+    date: 2025-12-27
 
 # 內容驗證
 content_verification:
@@ -31,7 +31,7 @@ link_status:
   incoming: 0
   outgoing: 9
   pending: 0
-  verified_date: 2025-12-26
+  verified_date: 2025-12-27
 ---
 ## 日文
 

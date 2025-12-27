@@ -1,18 +1,18 @@
 ---
 jlpt: n4
-stage: draft
+stage: completed
 tags:
   - 副詞
   - 時間表達
   - 多義詞
 created: 2025-12-22
-updated: 2025-12-26
+updated: 2025-12-27
 
 # 版本歷史
 version_history:
   - version: "1.5.0"
-    stage: "draft"
-    date: 2025-12-26
+    stage: "completed"
+    date: 2025-12-27
 
 # 內容驗證
 content_verification:
@@ -27,7 +27,7 @@ link_status:
   incoming: 0
   outgoing: 0
   pending: 0
-  verified_date: 2025-12-26
+  verified_date: 2025-12-27
 ---
 # もう的多重意義
 

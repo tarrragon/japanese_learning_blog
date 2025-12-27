@@ -174,18 +174,18 @@ A businesslike approach is required.
 ## 相關連結
 
 ### 同義詞・類義詞
-- [[noun/shoubal]] - 商売（傳統商業、買賣）（待建立）
-- [[noun/shigoto]] - 仕事（工作）（待建立）
-- [[noun/jigyou]] - 事業（事業、企業）（待建立）
+- [shoubal](shoubal.md) - 商売（傳統商業、買賣）（待建立）
+- [shigoto](shigoto.md) - 仕事（工作）（待建立）
+- [jigyou](jigyou.md) - 事業（事業、企業）（待建立）
 
 ### 相關詞彙
-- [[noun/businessperson]] - ビジネスマン／ビジネスウーマン（商務人士）（待建立）
-- [[noun/kaisha]] - 会社（公司）（待建立）
-- [[noun/keiei]] - 経営（經營）（待建立）
+- [businessperson](businessperson.md) - ビジネスマン／ビジネスウーマン（商務人士）（待建立）
+- [kaisha](kaisha.md) - 会社（公司）（待建立）
+- [keiei](keiei.md) - 経営（經營）（待建立）
 
 ### 延伸概念
-- [[concept/business_culture]] - 日本のビジネス文化（日本商業文化）（待建立）
-- [[concept/business_manner]] - ビジネスマナー（商務禮儀）（待建立）
+- [business_culture](../concept/business_culture.md) - 日本のビジネス文化（日本商業文化）（待建立）
+- [business_manner](../concept/business_manner.md) - ビジネスマナー（商務禮儀）（待建立）
 
 ---
 

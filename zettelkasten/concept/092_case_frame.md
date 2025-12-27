@@ -154,18 +154,18 @@ In the case frame, the "ga"-case functions as the agent role
 ## 相關連結
 
 ### 格助詞系統
-- [[particle/001_ga.md]] - が格的用法（待建立）
-- [[particle/002_wo.md]] - を格的用法（待建立）
-- [[particle/003_ni.md]] - に格的用法（待建立）
+- [001_ga.md](../particle/001_ga.md) - が格的用法（待建立）
+- [002_wo.md](../particle/002_wo.md) - を格的用法（待建立）
+- [003_ni.md](../particle/003_ni.md) - に格的用法（待建立）
 
 ### 語言學理論
-- [[concept/070_valency.md]] - 配價理論（待建立）
-- [[concept/071_argument_structure.md]] - 論元結構（待建立）
-- [[concept/072_semantic_role.md]] - 語意角色理論（待建立）
+- [070_valency.md](070_valency.md) - 配價理論（待建立）
+- [071_argument_structure.md](071_argument_structure.md) - 論元結構（待建立）
+- [072_semantic_role.md](072_semantic_role.md) - 語意角色理論（待建立）
 
 ### 動詞分析
-- [[concept/073_verb_classification.md]] - 動詞分類系統（待建立）
-- [[concept/074_transitivity.md]] - 及物性分析（待建立）
+- [073_verb_classification.md](073_verb_classification.md) - 動詞分類系統（待建立）
+- [074_transitivity.md](074_transitivity.md) - 及物性分析（待建立）
 
 ---
 

@@ -3,19 +3,19 @@ title: 住む（すむ）
 description: 居住、住
 type: verb
 jlpt: n5
-stage: extension-review
+stage: completed
 tags:
   - verb
   - living
   - basic
 created: 2025-10-31
-updated: 2025-12-26
+updated: 2025-12-27
 
 # 版本歷史
 version_history:
   - version: "1.5.0"
-    stage: "extension-review"
-    date: 2025-12-26
+    stage: "completed"
+    date: 2025-12-27
 
 # 內容驗證
 content_verification:
@@ -28,9 +28,9 @@ content_verification:
 # 連結狀態
 link_status:
   incoming: 0
-  outgoing: 19
+  outgoing: 12
   pending: 0
-  verified_date: 2025-12-26
+  verified_date: 2025-12-27
 ---
 ## 日文
 住む（すむ）
@@ -107,21 +107,23 @@ link_status:
 
 ## 相關連結
 
-### 相關動詞（居住）
-- [暮らす](026_kurasu.md) - 生活、過日子
-- [泊まる](../verb-u/027_tomaru.md) - 住宿、過夜（短期）
-- [引っ越す](../verb-u/028_hikkosu.md) - 搬家
+### 動詞活用相關
+- [五段動詞](../grammar/009_godan_verb.md) - 五段動詞活用規則（住む屬於む動詞）
+- [て形](../grammar/002_te_form.md) - て形變化（住んで - む→んで）
+- [ている](../grammar/025_te_iru.md) - 持續狀態（住んでいる）
 
-### 相關詞彙（地點）
-- [家](../noun/003_ie.md) - 家
-- [アパート](../noun/004_apaato.md) - 公寓
-- [マンション](../noun/005_mansion.md) - 大廈
+### 相關助詞
+- [に](../particle/008_ni.md) - 場所助詞（住む必須用に，不能用で）
 
-### 文法相關
-- [に](../particle/002_ni.md) - 場所助詞
-- [ている](../grammar/te-iru.md) - 持續狀態
-- [どこ](../interrogative/001_doko.md) - 疑問詞「哪裡」
+### 相關存在動詞
+- [いる](../verb-irr/004_iru.md) - 存在（人或動物）
+- [ある](../verb-irr/005_aru.md) - 存在（物品）
 
-### 延伸說明
-- [住む vs 暮らす](../extension/comparison/002_sumu_vs_kurasu.md) - 語義差異
-- [日本的住宅類型](../extension/culture/001_japanese-housing.md) - 文化背景
+### 相關移動動詞
+- [帰る](011_kaeru.md) - 回家
+- [行く](009_iku.md) - 去
+- [来る](../verb-irr/003_kuru.md) - 來
+
+### 對比說明
+- 住む vs 暮らす：住む強調居住地點；暮らす強調生活方式（待建立）
+- 住む用に不用で：住む表示存在狀態，必須用「に」助詞

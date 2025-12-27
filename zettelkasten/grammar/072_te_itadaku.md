@@ -3,7 +3,7 @@ title: "〜ていただく"
 description: 承蒙某人為我做某事（謙讓）
 type: grammar
 jlpt: n3
-stage: extension-review
+stage: completed
 tags:
   - grammar
   - giving-receiving
@@ -11,13 +11,13 @@ tags:
   - te-form
   - humble
 created: 2025-10-31
-updated: 2025-12-26
+updated: 2025-12-27
 
 # 版本歷史
 version_history:
   - version: "1.5.0"
-    stage: "extension-review"
-    date: 2025-12-26
+    stage: "completed"
+    date: 2025-12-27
 
 # 內容驗證
 content_verification:
@@ -30,9 +30,9 @@ content_verification:
 # 連結狀態
 link_status:
   incoming: 0
-  outgoing: 25
+  outgoing: 10
   pending: 0
-  verified_date: 2025-12-26
+  verified_date: 2025-12-27
 ---
 ## 日文
 〜ていただく
@@ -161,27 +161,18 @@ This expression is used when the other person is in a superior position[^jouisha
 ## 相關連結
 
 ### 授受表現系列
-- [〜てもらう](../grammar/te-morau.md) - 請人為我做某事（普通）
-- [〜てくれる](../grammar/te-kureru.md) - 某人為我做某事
-- [〜てくださる](../grammar/te-kudasaru.md) - 某人為我做某事（尊敬）
-- [〜てあげる](../grammar/te-ageru.md) - 我為某人做某事
+- [〜てもらう](054_te_morau.md) - 請人為我做某事（普通）
+- [〜てくれる](053_te_kureru.md) - 某人為我做某事
+- [〜てあげる](061_te_ageru.md) - 我為某人做某事
+- [授受表現](051_juju_hyougen.md) - 授受表現總覽
 
 ### 謙讓語相關
-- [謙讓語系統](../grammar/keigo-kenjougo.md) - 謙讓語總覽
-- [いただく](../verb-u/itadaku.md) - 得到、吃喝（謙讓語）
-- [もらう](../verb-u/morau.md) - 得到（普通形）
+- [いただく](../keigo/001_itadaku.md) - 得到、吃喝（謙讓語）
+- [もらう](../verb-ru/012_morau.md) - 得到（普通形）
 
 ### 文法基礎
-- [て形](../grammar/te-form.md) - 動詞て形變化規則
-- [補助動詞](../grammar/auxiliary-verbs.md) - 補助動詞系統
-- [可能形](../grammar/potential-form.md) - 可能形變化
+- [て形](049_te_kei.md) - 動詞て形變化規則
 
 ### 相關請求表現
-- [〜てください](../grammar/te-kudasai.md) - 請做某事（丁寧）
-- [依頼表現](../grammar/request-expressions.md) - 各種請求表達方式
-- [〜ていただけますか](../grammar/te-itadakemasu-ka.md) - 能否請您做某事
-
-### 敬語系統
-- [尊敬語](../grammar/keigo-sonkeigo.md) - 尊敬語系統
-- [丁寧語](../grammar/keigo-teineigo.md) - 丁寧語系統
-- [敬語接頭詞](../grammar/honorific-prefixes.md) - お・ご的使用
+- [〜てください](073_te_kudasai.md) - 請做某事（丁寧）
+- [依頼表現](165_irai_hyougen.md) - 各種請求表達方式

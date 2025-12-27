@@ -3,7 +3,7 @@ title: 〜てもらう vs 〜てくれる
 description: 〜てもらう vs 〜てくれる - 授受動詞視角對比分析
 type: comparison
 jlpt: n4
-stage: extension-review
+stage: completed
 tags:
   - grammar
   - giving-receiving
@@ -12,13 +12,13 @@ tags:
   - context/casual
   - domain/daily_life
 created: 2025-10-31
-updated: 2025-10-31
+updated: 2025-12-27
 
 # 版本歷史
 version_history:
   - version: "1.5.0"
-    stage: "extension-review"
-    date: 2025-12-26
+    stage: "completed"
+    date: 2025-12-27
 
 # 內容驗證
 content_verification:
@@ -31,9 +31,9 @@ content_verification:
 # 連結狀態
 link_status:
   incoming: 0
-  outgoing: 0
+  outgoing: 12
   pending: 0
-  verified_date: 2025-12-26
+  verified_date: 2025-12-27
 ---
 ## 日文
 
@@ -176,8 +176,31 @@ Both patterns express receiving a favor or benefit from someone's action, but di
 
 ## 相關連結
 
-<!-- 待補充：連結到授受動詞、敬語、視角等相關卡片 -->
+### 核心文法
+- [〜てもらう](../grammar/054_te_morau.md) - 請求或接受他人做某事（受益者視角）
+- [〜てくれる](../grammar/053_te_kureru.md) - 他人為我方做某事（動作者視角）
+
+### 授受表現系統
+- [授受表現](../grammar/051_juju_hyougen.md) - 日語的給予與接受動詞系統總覽
+- [〜てあげる](../grammar/061_te_ageru.md) - 為他人做某事
+
+### 基本授受動詞
+- [もらう](../verb-ru/012_morau.md) - 接受物品
+- [くれる](../verb-ru/013_kureru.md) - 給予（由外向內）
+- [あげる](../verb-ru/011_ageru.md) - 給予（由內向外）
+
+### 敬語形式
+- [〜ていただく](../grammar/071_te_itadaku.md) - もらう的謙讓語形式
+- [敬語系統](../grammar/008_keigo_system.md) - 日語敬語系統
+
+### 語用概念
+- [視點理論](../concept/006_viewpoint.md) - 日語的視點概念
+- [授受視角](../concept/036_benefactive_perspective.md) - 授受動詞的視角選擇
 
 ## 腳註
 
-<!-- 待補充：使用情境的細微差異、文化背景等補充說明 -->
+[^perspective]: **視角差異** - 「てもらう」與「てくれる」的核心區別在於視角：前者以受益者為中心（「我得到幫助」），後者以動作者為中心（「他幫助我」）。選擇時需考慮要強調哪方的行為。
+
+[^gratitude]: **感謝程度** - 「てくれる」通常比「てもらう」表達更強烈的感謝之意，因為它強調對方的主動好意，而非自己請求後得到的幫助。
+
+[^honorific]: **敬語對應** - 敬語形式的轉換：もらう → いただく（謙讓）、くれる → くださる（尊敬）。在正式場合需選擇適當的敬語形式。

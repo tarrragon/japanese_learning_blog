@@ -3,20 +3,20 @@ title: "〜てください"
 description: 請求或命令的禮貌表達
 type: grammar
 jlpt: n5
-stage: extension-review
+stage: completed
 tags:
   - grammar
   - request
   - te-form
   - polite
 created: 2025-10-31
-updated: 2025-12-26
+updated: 2025-12-27
 
 # 版本歷史
 version_history:
   - version: "1.5.0"
-    stage: "extension-review"
-    date: 2025-12-26
+    stage: "completed"
+    date: 2025-12-27
 
 # 內容驗證
 content_verification:
@@ -29,9 +29,9 @@ content_verification:
 # 連結狀態
 link_status:
   incoming: 0
-  outgoing: 20
+  outgoing: 9
   pending: 0
-  verified_date: 2025-12-26
+  verified_date: 2025-12-27
 ---
 ## 日文
 〜てください（〜te kudasai）
@@ -120,20 +120,17 @@ While "kudasai" is the imperative form of the honorific verb[^sonkeigo] "kudasar
 ## 相關連結
 
 ### 相關文法
-- [て形](001_te_form.md) - て形的基礎和變化規則
-- [〜ないでください](naide-kudasai.md) - 禁止的禮貌表達（請不要〜）
-- [〜てくれる](te-kureru.md) - 為我做某事
-- [〜てもらう](te-morau.md) - 請別人為我做某事
+- [て形](002_te_form.md) - て形的基礎和變化規則
+- [〜ないでください](022_naide_kudasai.md) - 禁止的禮貌表達（請不要〜）
+- [〜てくれる](053_te_kureru.md) - 為我做某事
+- [〜てもらう](054_te_morau.md) - 請別人為我做某事
+- [〜ていただく](071_te_itadaku.md) - 承蒙為我做某事（謙讓）
 
 ### 相關動詞
-- [ください](../verb-u/kudasai.md) - 給我（命令形）
-- [くださる](../verb-u/kudasaru.md) - 給（尊敬語）
+- [くださる](../verb-u/019_kudasaru.md) - 給（尊敬語）
 
 ### 禮貌程度比較
-- [命令形](imperative-form.md) - 直接命令（最不禮貌）
-- [〜てください](070_te_kudasai.md) - 禮貌請求（本卡片）
-- [〜ていただけますか](te-itadakemasu-ka.md) - 非常禮貌的請求
+- [依頼表現](165_irai_hyougen.md) - 各種請求表達方式的比較
 
-### 延伸說明
-- [依頼表現](../extension/request-expressions.md) - 各種請求表達方式的比較
-- [敬語使用場景](../extension/keigo-contexts.md) - 何時使用何種敬語
+### 授受表現系統
+- [授受表現](051_juju_hyougen.md) - 授受表現總覽

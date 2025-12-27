@@ -199,16 +199,16 @@ I wonder if this product is in stock?
 ## 相關連結
 
 ### 相關文法
-- [[grammar/desuka.md]] - ～ですか（基本疑問形式）（待建立）
-- [[grammar/darou.md]] - ～だろう（推測表現）（待建立）
-- [[grammar/deshō.md]] - ～でしょう（禮貌推測）（待建立）
+- [desuka.md](desuka.md) - ～ですか（基本疑問形式）（待建立）
+- [darou.md](darou.md) - ～だろう（推測表現）（待建立）
+- [deshō.md](deshō.md) - ～でしょう（禮貌推測）（待建立）
 
 ### 敬語表現
-- [[grammar/yoroshii.md]] - よろしいでしょうか（更禮貌的詢問）（待建立）
-- [[grammar/itadakemasu.md]] - ～いただけますでしょうか（請求許可）（待建立）
+- [yoroshii.md](yoroshii.md) - よろしいでしょうか（更禮貌的詢問）（待建立）
+- [itadakemasu.md](itadakemasu.md) - ～いただけますでしょうか（請求許可）（待建立）
 
 ### 比較辨析
-- [[comparison/desuka_vs_deshouka.md]] - ですか vs でしょうか（禮貌程度比較）（待建立）
+- [desuka_vs_deshouka.md](../comparison/desuka_vs_deshouka.md) - ですか vs でしょうか（禮貌程度比較）（待建立）
 
 ---
 

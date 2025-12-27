@@ -3,7 +3,7 @@ title: 着く（つく）
 description: 着く - 到達、抵達
 type: verb
 jlpt: n5
-stage: extension-review
+stage: completed
 tags:
   - basic
   - domain/daily_life
@@ -11,13 +11,13 @@ tags:
   - movement
   - arrival
 created: 2025-10-31
-updated: 2025-12-26
+updated: 2025-12-27
 
 # 版本歷史
 version_history:
   - version: "1.5.0"
-    stage: "extension-review"
-    date: 2025-12-26
+    stage: "completed"
+    date: 2025-12-27
 
 # 內容驗證
 content_verification:
@@ -30,9 +30,9 @@ content_verification:
 # 連結狀態
 link_status:
   incoming: 0
-  outgoing: 11
+  outgoing: 12
   pending: 0
-  verified_date: 2025-12-26
+  verified_date: 2025-12-27
 ---
 ## 日文
 着く（つく）
@@ -346,21 +346,24 @@ A frequently used godan verb in daily life. It expresses arriving at or reaching
 ## 相關連結
 
 ### 動詞類型
-- [五段動詞](../grammar/006_godan_verb.md) - 着く是く型五段動詞
+- [五段動詞](../grammar/009_godan_verb.md) - 着く是く型五段動詞
 - [書く](004_kaku.md) - 同類型く動詞
 
 ### 相關助詞
-- [に](../particle/002_ni.md) - 着く常用的助詞（待建立）
+- [に](../particle/008_ni.md) - 着く常用的目的地助詞
 
 ### 相關文法
-- [ます形](../grammar/007_masu_form.md)（待建立） - 着きますの用法
-- [て形文法](../grammar/001_te_form.md) - 着いての用法（く→いて）
+- [ます形](../grammar/010_masu_form.md) - 着きます的用法
+- [て形](../grammar/002_te_form.md) - 着いて的用法（く→いて）
 
-### 相關動詞
-- [行く](005_iku.md)（待建立） - 去（相關動詞）
-- [来る](../verb-irregular/001_kuru.md)（待建立） - 來（相關動詞）
-- [帰る](../verb-u/022_kaeru.md)（待建立） - 回去（相關動詞）
+### 相關移動動詞
+- [行く](009_iku.md) - 去（離開方向）
+- [来る](../verb-irr/003_kuru.md) - 來（接近方向）
+- [帰る](011_kaeru.md) - 回去（返回基地）
+- [戻る](022_modoru.md) - 返回（廣義返回）
 
-### 相關名詞
-- [駅](../noun/001_eki.md)（待建立） - 車站
-- [空港](../noun/002_kuukou.md)（待建立） - 機場
+### 移動動詞對比
+- 行く：強調離開起點
+- 来る：強調接近說話者
+- 着く：強調到達終點
+- 帰る：強調回到基地
