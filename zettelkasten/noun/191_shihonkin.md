@@ -141,9 +141,9 @@ The sum of capital stock and capital reserves is the total capital.
 
 - [資本](078_shihon.md) - 資本金の基礎概念
 - [自己資本](184_jikoshihon.md) - 資本金を含む概念
-- [純資産](待建立) - 資本金が含まれる会計項目
+- [純資産](../concept/165_jun_shisan.md) - 資本金が含まれる会計項目
 - [増資](待建立) - 資本金を増やす行為
-- [株式](待建立) - 資本金と対応する持分
+- [株式](../concept/167_kabushiki.md) - 資本金と対応する持分
 
 ## 注釈
 

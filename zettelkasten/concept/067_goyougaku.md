@@ -101,11 +101,11 @@ Pragmatics is the study of how language is used in context and how meaning is co
 
 ## 關聯概念
 
-- [意味論（語義學）](待建立)[^1] - 研究語言符號的字面意義
+- [意味論（語義學）](142_imiron.md)[^1] - 研究語言符號的字面意義
 - [語境（Context）](待建立)[^2] - 影響語用解釋的情境因素
 - [發話行為理論（Speech Act Theory）](待建立)[^3] - 奧斯汀和塞爾發展的理論
-- [會話含意理論（Conversational Implicature）](待建立)[^4] - 格萊斯提出的理論
-- [指示語（Deixis）](待建立)[^5] - 依賴語境的表達方式
+- [會話含意理論（Conversational Implicature）](153_conversational_implicature.md)[^4] - 格萊斯提出的理論
+- [指示語（Deixis）](../noun/290_deixis.md)[^5] - 依賴語境的表達方式
 - [敬語系統](../../grammar/031_keigo_taikei.md) - 日語語用學的重要體現
 
 ---

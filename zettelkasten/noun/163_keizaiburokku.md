@@ -78,7 +78,7 @@ Member countries typically eliminate or reduce tariffs, adopt common economic po
 
 ## Related Concepts
 
-- [自由貿易協定](待建立) - Free Trade Agreement
+- [自由貿易協定](../concept/125_jiyuuboekikyoutei.md) - Free Trade Agreement
 - [関税同盟](152_kanzeidoumei.md) - Customs Union
 - [地域経済統合](待建立) - Regional Economic Integration
 - [保護貿易](135_hogoboueki.md) - Protectionism

@@ -171,9 +171,9 @@ English "come" and Japanese 来る don't correspond exactly.
 
 ## 関連文法
 
-- [方向を表す助詞](【待建立】)
-- [移動動詞の活用](【待建立】)
-- [視点と敬語](【待建立】)
+- [方向を表す助詞](../grammar/304_houkou_joshi.md)
+- [移動動詞の活用](../grammar/306_idou_doushi_katsuyou.md)
+- [視点と敬語](../noun/293_shiten_keigo.md)
 
 ## 参考資料
 

@@ -126,8 +126,8 @@ The test evaluates three core areas:
 
 ## 相關概念
 
-- [日語學習框架](待建立) - JLPT 作為標準化學習路徑
-- [詞彙分級系統](待建立) - 按 JLPT 等級劃分的詞彙表
+- [日語學習框架](../noun/298_nihongo_gakushuu_waku.md) - JLPT 作為標準化學習路徑
+- [詞彙分級系統](155_goi_bunkyuu.md) - 按 JLPT 等級劃分的詞彙表
 - [文法體系](待建立) - JLPT 各等級對應的文法項目
 - [語言能力評估](待建立) - 其他日語能力測驗比較
 - [學習里程碑](待建立) - JLPT 在學習進程中的定位

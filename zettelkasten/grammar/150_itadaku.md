@@ -123,7 +123,7 @@ The speaker lowers their own position while elevating the giver or affected part
 - [くださる](../keigo/004_kudasaru.md) - 尊敬語對應詞
 - [もらう](../verb-ru/012_morau.md) - 普通體對應詞
 - [さしあげる](【待建立】) - 謙讓語「給予」動詞
-- [敬語の使い分け](【待建立】) - 敬語使用區別
+- [敬語の使い分け](../noun/285_keigo_tsukaiwake.md) - 敬語使用區別
 
 ## 標記
 

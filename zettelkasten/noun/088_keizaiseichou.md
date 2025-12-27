@@ -76,9 +76,9 @@ Economic growth refers to the expansion of an economy's output over a specific p
 
 ## 関連語彙
 
-- [GDP（国内総生産）](待建立) - 經濟規模的基本衡量指標
+- [GDP（国内総生産）](../concept/123_GDP.md) - 經濟規模的基本衡量指標
 - [実質成長率](待建立) - 扣除物價影響後的成長率
-- [名目成長率](待建立) - 包含物價變動的成長率
+- [名目成長率](../concept/145_meimoku_seichouritsu.md) - 包含物價變動的成長率
 - [持続可能な成長](待建立) - 長期可維持的經濟發展模式
 - [潜在成長率](待建立) - 經濟體在充分利用資源下可達成的成長率
 

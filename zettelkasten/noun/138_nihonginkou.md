@@ -77,7 +77,7 @@ The Bank of Japan (BOJ), Japan's central bank. It serves as the bank of issue, t
 
 - **機能**：発券銀行（通貨の発行）、銀行の銀行（金融機関への資金供給）、政府の銀行（国庫金の管理）
 - **略称**：日銀（にちぎん）
-- **関連語**：[中央銀行](134_chuuouginkou.md)、[金融政策](../grammar/待建立)、[金利](094_kinri.md)、[マネタリーベース](待建立)
+- **関連語**：[中央銀行](134_chuuouginkou.md)、[金融政策](../grammar/待建立)、[金利](094_kinri.md)、[マネタリーベース](../concept/178_monetary_base.md)
 - **関連機関**：金融政策決定会合（きんゆうせいさくけっていかいごう）、政策委員会（せいさくいいんかい）
 
 ## 関連カード
@@ -86,6 +86,6 @@ The Bank of Japan (BOJ), Japan's central bank. It serves as the bank of issue, t
 - [金融政策](../grammar/待建立) - 主要機能
 - [金利](094_kinri.md) - 政策手段
 - [インフレーション](009_infure-shon.md) - 政策目標
-- [マネタリーベース](待建立) - 管理対象
+- [マネタリーベース](../concept/178_monetary_base.md) - 管理対象
 - [市中銀行](待建立) - 取引相手
 - [発券銀行](待建立) - 機能の一つ

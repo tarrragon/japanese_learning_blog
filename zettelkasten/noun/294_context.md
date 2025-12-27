@@ -52,6 +52,6 @@ The circumstances and background in which a specific word or expression is used 
 
 ## 相關概念
 
-待建立：[文脈](待建立)
+待建立：[文脈](../grammar/246_bunmyaku.md)
 待建立：[言語使用](待建立)
-待建立：[意味](待建立)
+待建立：[意味](017_imi.md)

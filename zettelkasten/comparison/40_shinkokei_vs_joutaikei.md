@@ -212,7 +212,7 @@ I've been watching movies a lot lately.
 
 ## Related Concepts
 
-- [動作動詞](待建立) - 動作の性質による動詞分類
-- [状態動詞](待建立) - 状態を表す動詞
-- [アスペクト](待建立) - 時間的側面を表す文法カテゴリー
+- [動作動詞](../grammar/302_dousa_doushi.md) - 動作の性質による動詞分類
+- [状態動詞](../grammar/292_joutai_doushi.md) - 状態を表す動詞
+- [アスペクト](../concept/124_aspect.md) - 時間的側面を表す文法カテゴリー
 - [瞬間動詞](../grammar/195_shunkan_doushi.md) - 瞬間的な動作を表す動詞

@@ -48,8 +48,8 @@ English: To reduce expenses, we are cutting down on unnecessary spending.
 
 ## 關連詞彙
 
-- [支出](待建立) - しゅつしゅつ - expenditure
+- [支出](278_shishutsu.md) - しゅつしゅつ - expenditure
 - [収入](277_shuunyuu.md) - しゅうにゅう - income
-- [予算](待建立) - よさん - budget
+- [予算](120_yosan.md) - よさん - budget
 - [交通費](待建立) - こうつうひ - transportation expenses
 - [通信費](待建立) - つうしんひ - communication charges

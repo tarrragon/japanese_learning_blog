@@ -114,4 +114,4 @@ A tax imposed on imported or exported goods. Collected at customs when goods cro
 - [貿易](073-貿易.md)
 - [税金](082_zeikin.md)
 - [保護主義](待建立)
-- [自由貿易協定](待建立)
+- [自由貿易協定](../concept/125_jiyuuboekikyoutei.md)

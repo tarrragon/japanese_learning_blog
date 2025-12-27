@@ -118,5 +118,5 @@ Keidanren supports the international expansion of Japanese companies through exc
 
 - [経済学](073-経済学.md)
 - [企業](125_kigyou.md)
-- [政策](待建立)
+- [政策](../concept/171_seisaku.md)
 - [組織](待建立)

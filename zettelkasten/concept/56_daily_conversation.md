@@ -126,9 +126,9 @@ Mastering daily conversation requires not only grammatical knowledge but also un
 ## 相關連結
 - [敬語系統](../grammar/18_keigo_system.md)
 - [終助詞用法](待建立)[^1]
-- [寒暄用語](待建立)[^2]
-- [商務日語](待建立)[^3]
-- [電話用語](待建立)[^4]
+- [寒暄用語](../noun/282_aisatsu_yougo.md)[^2]
+- [商務日語](../noun/283_bijinesu_nihongo.md)[^3]
+- [電話用語](../noun/284_denwa_yougo.md)[^4]
 
 ---
 

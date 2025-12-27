@@ -117,7 +117,7 @@ Tax revenue; the total amount of taxes collected by the government from citizens
 
 - [歳入](待建立) - 歲入
 - [財政](待建立) - 財政
-- [税金](待建立) - 稅金
+- [税金](../concept/134_zeikin.md) - 稅金
 - [消費税](129_shouhizei.md) - 消費稅
 - [国債](待建立) - 國債
 - [予算](120_yosan.md) - 預算

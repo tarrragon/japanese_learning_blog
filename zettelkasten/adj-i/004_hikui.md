@@ -176,9 +176,9 @@ Low; short. Describes something that is positioned below a reference point in sp
 ## 相關連結
 
 - [高い](../adj-i/003_takai.md) - 反義詞
-- [短い](待建立) - 易混淆詞
+- [短い](8_mijikai.md) - 易混淆詞
 - [小さい](待建立) - 相關形容詞
-- [安い](待建立) - 價格便宜
+- [安い](8_yasui.md) - 價格便宜
 
 ## 註釋
 

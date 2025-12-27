@@ -103,5 +103,5 @@ Land; one of the three factors of production in economics, referring to resource
 - [労働](181_roudou.md) - 勞動，生產三要素之一
 - [資本](227_shihon.md) - 資本，生產三要素之一
 - [生産性](183_seisansei.md) - 生產性
-- [不動産](待建立) - 不動產
+- [不動産](../concept/135_fudousan.md) - 不動產
 - [地価](待建立) - 地價

@@ -142,7 +142,7 @@ Excessive dependence on borrowed capital increases financial risk.
 - [資本](078_shihon.md) - 自己資本の基礎概念
 - [資本金](183_shihonkin.md) - 自己資本の中核要素
 - [負債](103_fusai.md) - 他人資本との対比
-- [純資産](待建立) - 会計基準での正式名称
+- [純資産](../concept/165_jun_shisan.md) - 会計基準での正式名称
 - [財務分析](待建立) - 自己資本比率等の分析
 
 ## 注釈

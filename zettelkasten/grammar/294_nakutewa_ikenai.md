@@ -347,6 +347,6 @@ More literary and emphatic:
 - [て形](002_te_form.md) - te-form 基礎
 
 ### 相關概念
-- [義務表達](待建立) - 義務相關文法總覽
+- [義務表達](261_obligation_expressions.md) - 義務相關文法總覽
 - [助詞「は」](待建立) - は的用法
 - [動詞活用](009_godan_verb.md) - 動詞變化基礎

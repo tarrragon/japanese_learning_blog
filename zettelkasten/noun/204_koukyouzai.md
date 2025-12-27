@@ -108,7 +108,7 @@ Public goods; goods or services provided by public sectors such as national or l
 ## 相關連結
 
 - [税率](181_zeiritsu.md) - 稅率
-- [税金](待建立) - 稅金
+- [税金](../concept/134_zeikin.md) - 稅金
 - [財政](待建立) - 財政
 - [社会資本](待建立) - 社會資本
 - [市場の失敗](待建立) - 市場失靈

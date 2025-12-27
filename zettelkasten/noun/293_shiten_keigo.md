@@ -79,7 +79,7 @@ link_status:
 
 ## 関連概念
 
-- [敬語システム（Keigo System）](待建立)
+- [敬語システム（Keigo System）](../grammar/008_keigo_system.md)
 - [視点転換と日本語（Perspective Shift in Japanese）](待建立)
 - [社会的距離と言語選択（Social Distance and Language Choice）](待建立)
 - [聴者への配慮と敬語（Audience Design and Honorifics）](待建立)

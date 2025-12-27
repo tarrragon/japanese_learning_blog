@@ -102,7 +102,7 @@ Taxation; the act of government collecting taxes from citizens and businesses ba
 ## 相關連結
 
 - [納税者](185_nouziesha.md) - 納稅者
-- [税金](待建立) - 稅金
-- [所得税](待建立) - 所得稅
+- [税金](../concept/134_zeikin.md) - 稅金
+- [所得税](../concept/132_shotokuzei.md) - 所得稅
 - [消費税](129_shouhizei.md) - 消費稅
-- [財政政策](待建立) - 財政政策
+- [財政政策](../concept/133_zaiseiseisaku.md) - 財政政策

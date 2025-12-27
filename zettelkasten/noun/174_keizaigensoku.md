@@ -102,8 +102,8 @@ Fundamental concepts or rules that form the basis of economic activities and pol
 
 - [経済学](../../noun/065_keizaigaku.md) - 経済原則を研究する学問
 - [市場原理](../../noun/081_shijougenri.md) - 市場における経済原則
-- [需要と供給](待建立) - 基本的な経済原則の一つ
-- [比較優位](待建立) - 貿易における経済原則
+- [需要と供給](../concept/166_juyou_kyoukyuu.md) - 基本的な経済原則の一つ
+- [比較優位](../concept/141_hikaku_yuui.md) - 貿易における経済原則
 - [機会費用](待建立) - 選択における経済原則
 
 ## 学習メモ

@@ -75,7 +75,7 @@ Policies implemented by governments and central banks aimed at achieving economi
 - 緊縮的な経済政策 / 緊縮的經濟政策
 
 **関連する分野**：
-- [財政政策](待建立) - fiscal policy
+- [財政政策](../concept/133_zaiseiseisaku.md) - fiscal policy
 - [金融政策](待建立) - monetary policy
 - [経済成長](../noun/061_keizaiseichou.md) - economic growth
 - [景気](087_keiki.md) - economic conditions

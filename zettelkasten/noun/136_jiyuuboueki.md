@@ -72,7 +72,7 @@ Free trade; international trade without government-imposed restrictions such as 
 - [関税](123_kanzei.md) - 進口商品稅
 - [貿易協定](待建立) - 貿易協定
 - [WTO（世界貿易機関）](待建立) - 世界貿易組織
-- [比較優位](待建立) - 比較優勢
+- [比較優位](../concept/141_hikaku_yuui.md) - 比較優勢
 
 ## 學習要點
 

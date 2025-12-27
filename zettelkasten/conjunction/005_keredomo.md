@@ -102,7 +102,7 @@ The word conveys the meaning "despite~" or "but~," introducing content that is c
 ### 同義詞・類似表現
 - [でも](003_demo.md) - 口語的「但是」
 - [しかし](010_shikashi.md) - 正式的「但是」
-- [けど](待建立) - 口語簡化形「不過」（待建立）
+- [けど](../grammar/293_kedo.md) - 口語簡化形「不過」（待建立）
 - [だが](待建立) - 男性化、強硬的「然而」（待建立）
 
 ### 相關文法

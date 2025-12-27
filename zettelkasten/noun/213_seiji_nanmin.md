@@ -119,5 +119,5 @@ Political refugee; people who leave their home country and seek protection in an
 - [経済難民](待建立) - 經濟難民
 - [亡命](待建立) - 流亡
 - [人権](待建立) - 人權
-- [国際法](待建立) - 國際法
+- [国際法](../concept/169_kokusaihou.md) - 國際法
 - [移民](待建立) - 移民

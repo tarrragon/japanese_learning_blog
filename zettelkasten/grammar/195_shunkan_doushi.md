@@ -97,9 +97,9 @@ Grammatically, when instantaneous verbs take the "te-iru" form, they typically e
 ## 関連カード
 
 - [継続動詞](待建立) - 瞬間動詞的對立概念
-- [ている](待建立) - 與瞬間動詞搭配的核心句型
-- [アスペクト](待建立) - 動詞時態相關的文法概念
-- [状態動詞](待建立) - 另一類不表動作進行的動詞
+- [ている](296_teiru.md) - 與瞬間動詞搭配的核心句型
+- [アスペクト](../concept/124_aspect.md) - 動詞時態相關的文法概念
+- [状態動詞](292_joutai_doushi.md) - 另一類不表動作進行的動詞
 
 ## 脚注
 

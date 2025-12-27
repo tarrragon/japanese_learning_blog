@@ -1,92 +1,44 @@
 # 待建立卡片缺口報告
 
-生成時間：2025-12-27 17:18:07
+生成時間：2025-12-27 18:16:10
 
 ## 摘要
 
-- 缺口總數：474
-- 總出現次數：572
+- 缺口總數：478
+- 總出現次數：524
 
 ## 按出現次數排序
 
 | 日文詞彙 | 出現次數 | 優先級 | 出現位置（前3個）|
 |----------|----------|--------|------------------|
+| 待建立 | 11 | Critical | 204_nakute.md, 204_nakute.md, 204_nakute.md (+8) |
 | 金融政策 | 9 | Critical | 073_bukka.md, 089_keizaiseisaku.md, 183-貨幣供給.md (+6) |
-| 税金 | 7 | Critical | 199_zeiritsu.md, 201_koujo.md, 204_koukyouzai.md (+4) |
-| 待建立 | 6 | Critical | 204_nakute.md, 204_nakute.md, 204_nakute.md (+3) |
+| 敬語 | 4 | High | 154_gengai_no_i.md, 139_masu_kei.md, 284_denwa_yougo.md (+1) |
 | 経済指標 | 4 | High | 073_bukka.md, 161_keikidoukoushisuu.md, 161_keikidoukoushisuu.md (+1) |
-| 財政政策 | 4 | High | 089_keizaiseisaku.md, 175_keizaihakusho.md, 184-貨幣政策.md (+1) |
 | 経常収支 | 4 | High | 131_bouekiakaji.md, 132_bouekikuroji.md, 133_bouekishuushi.md (+1) |
-| GDP | 4 | High | 144_keizaiseichouritsu.md, 146_keizaitaikoku.md, 161_keikidoukoushisuu.md (+1) |
-| 所得税 | 4 | High | 199_zeiritsu.md, 201_koujo.md, 209_kazei.md (+1) |
-| アスペクト | 3 | High | 40_shinkokei_vs_joutaikei.md, 68_hypothetical_condition.md, 195_shunkan_doushi.md |
-| 終助詞 | 3 | High | 055_casual_conversation.md, 209_kansai_hougen.md, 005_daily_conversation_register.md |
-| 景気動向 | 3 | High | 076-先行指標.md, 077-一致指標.md, 175_keizaihakusho.md |
 | 市場経済 | 3 | High | 078_shihon.md, 183_shihonshugi.md, 240_kinyuu_shijou.md |
-| 債券 | 3 | High | 080_shouken.md, 147_shoukentorihikijo.md, 210_toushika.md |
-| 自由貿易協定 | 3 | High | 123_kanzei.md, 153_kanzeishouheki.md, 163_keizaiburokku.md |
-| 接続詞の種類 | 2 | Medium | 006_shikashi_vs_demo.md, 030_mataha_vs_aruiha.md |
-| 尊敬語概念 | 2 | Medium | 040_irassharu_vs_mairu.md, 071_hierarchy.md |
-| 状態動詞 | 2 | Medium | 40_shinkokei_vs_joutaikei.md, 195_shunkan_doushi.md |
-| ウチとソト | 2 | Medium | 057_social_distance.md, 56_social_context.md |
-| 焦點（Focus） | 2 | Medium | 061_jouhou_kouzou_riron.md, 061_jouhou_kouzou_riron.md |
 | 對比焦點 | 2 | Medium | 061_jouhou_kouzou_riron.md, 061_jouhou_kouzou_riron.md |
 | (待建立標記) 重音與資訊結構 | 2 | Medium | 061_jouhou_kouzou_riron.md, 061_jouhou_kouzou_riron.md |
 | sonkeigo_concept.md | 2 | Medium | 093_teineigo_concept.md, 093_teineigo_concept.md |
 | kenjougo_concept.md | 2 | Medium | 093_teineigo_concept.md, 093_teineigo_concept.md |
-| 謙讓語 | 2 | Medium | 56_social_context.md, 144_o_go_suru.md |
 | 形態論 | 2 | Medium | 56_syntax.md, 56_syntax.md |
-| 意味論 | 2 | Medium | 56_syntax.md, 56_syntax.md |
-| 助詞系統 | 2 | Medium | 68_agglutinative_language.md, 187_kihon_kugata.md |
-| けど | 2 | Medium | 005_keredomo.md, 174_demo.md |
 | だが | 2 | Medium | 005_keredomo.md, 174_demo.md |
-| 敬語の使い分け | 2 | Medium | 150_itadaku.md, 211_kenjougo_system.md |
-| ている | 2 | Medium | 157_te_kei.md, 195_shunkan_doushi.md |
-| てもいい | 2 | Medium | 157_te_kei.md, 203_nakutemo_ii.md |
-| なくてはいけない | 2 | Medium | 165_nakereba_naranai.md, 203_nakutemo_ii.md |
 | 時間副詞的用法 | 2 | Medium | 190_jikan_keizoku.md, 190_jikan_keizoku.md |
 | 補助動詞しまう的用法 | 2 | Medium | 190_jikan_keizoku.md, 190_jikan_keizoku.md |
-| 商務敬語的階梯理論 | 2 | Medium | 001_itadaku.md, 005_keigo_system.md |
-| 預金通帳 | 2 | Medium | 074-記帳.md, 075-ネットバンキング.md |
 | 振込 | 2 | Medium | 075-ネットバンキング.md, 185-手数料.md |
-| 資産運用 | 2 | Medium | 081_toushi.md, 184-投資信託.md |
-| 不動産 | 2 | Medium | 083_baburu.md, 203_tochi.md |
-| 物価（物價） | 2 | Medium | 086_infureshon.md, 086_infureshon.md |
 | 実質成長率 | 2 | Medium | 088_keizaiseichou.md, 144_keizaiseichouritsu.md |
-| 名目成長率 | 2 | Medium | 088_keizaiseichou.md, 144_keizaiseichouritsu.md |
 | 投資家 | 2 | Medium | 093_kabushikishijou.md, 099_shoukengaisha.md |
-| 金融機関 | 2 | Medium | 099_shoukengaisha.md, 181-銀行.md |
-| 収入 | 2 | Medium | 118_uriage.md, 120_yosan.md |
-| 支出 | 2 | Medium | 120_yosan.md, 263_kyuufu.md |
-| 経費 | 2 | Medium | 120_yosan.md, 200_hiyou.md |
-| 輸出入 | 2 | Medium | 131_bouekiakaji.md, 132_bouekikuroji.md |
 | 外貨準備 | 2 | Medium | 132_bouekikuroji.md, 137_kokusaishuushi.md |
-| 比較優位 | 2 | Medium | 136_jiyuuboueki.md, 174_keizaigensoku.md |
-| マネタリーベース | 2 | Medium | 138_nihonginkou.md, 138_nihonginkou.md |
-| 国際法 | 2 | Medium | 145_keizaiseisai.md, 213_seiji_nanmin.md |
-| 技術移転 | 2 | Medium | 154_keizaikyouryoku.md, 164_keizaikaihatsu.md |
 | 政策提言 | 2 | Medium | 171_keizaidantairengouka.md, 173_keizaidouyuukai.md |
-| 政策 | 2 | Medium | 171_keizaidantairengouka.md, noun-073-財政.md |
-| 需要と供給 | 2 | Medium | 174_keizaigensoku.md, 240_kinyuu_shijou.md |
-| 電子マネー | 2 | Medium | 181-デジタル貨幣.md, 181_genkin.md |
 | 融資 | 2 | Medium | 181-銀行.md, 211_kinyukikan.md |
 | 為替レート | 2 | Medium | 182-貨幣価値.md, 232_enyasu.md |
 | 量的緩和 | 2 | Medium | 183-貨幣供給.md, 184-貨幣政策.md |
-| 純資産 | 2 | Medium | 191_shihonkin.md, 192_jikoshihon.md |
-| 株式 | 2 | Medium | 191_shihonkin.md, 210_toushika.md |
-| 所得 | 2 | Medium | 198_jintekishihon.md, 239_kakutei_shinkoku.md |
 | 財政 | 2 | Medium | 204_koukyouzai.md, 207_zeishuu.md |
-| 補助動詞 | 2 | Medium | 025_iru.md, 032_oru.md |
-| 短い | 1 | Low | 004_hikui.md |
 | 小さい | 1 | Low | 004_hikui.md |
-| 安い | 1 | Low | 004_hikui.md |
 | いい | 1 | Low | 006_warui.md |
-| 悪化（あっか） | 1 | Low | 006_warui.md |
-| 悪魔（あくま） | 1 | Low | 006_warui.md |
 | 悪質（あくしつ） | 1 | Low | 006_warui.md |
 | 大変的多義用法 | 1 | Low | 004_totemo_vs_taihen.md |
 | 副詞的否定用法 | 1 | Low | 004_totemo_vs_taihen.md |
-| 正式道歉表達 | 1 | Low | 004_totemo_vs_taihen.md |
 | 逆接接続詞 | 1 | Low | 006_shikashi_vs_demo.md |
 | 文語と口語 | 1 | Low | 006_shikashi_vs_demo.md |
 | イ形容詞總覽 | 1 | Low | 010_ookii_vs_ookina.md |
@@ -98,37 +50,16 @@
 | greeting_002 | 1 | Low | 014_shitsureishimasu_vs_sumimasen.md |
 | もしくは | 1 | Low | 030_mataha_vs_aruiha.md |
 | それとも | 1 | Low | 030_mataha_vs_aruiha.md |
-| 法律文書の日本語 | 1 | Low | 030_mataha_vs_aruiha.md |
 | 擬態語系統 | 1 | Low | 034_pikapika_vs_kirakira.md |
 | 光的表現 | 1 | Low | 034_pikapika_vs_kirakira.md |
-| 清潔相關詞彙 | 1 | Low | 034_pikapika_vs_kirakira.md |
 | 視覺效果擬態語 | 1 | Low | 034_pikapika_vs_kirakira.md |
-| 謙讓語概念 | 1 | Low | 040_irassharu_vs_mairu.md |
-| ウチ・ソト理論 | 1 | Low | 040_irassharu_vs_mairu.md |
-| 商務敬語 | 1 | Low | 040_irassharu_vs_mairu.md |
-| て形文法 | 1 | Low | 39_ato_de_vs_te_kara.md |
-| 接續助詞 | 1 | Low | 39_ato_de_vs_te_kara.md |
 | 動作完成表現 | 1 | Low | 39_ato_de_vs_te_kara.md |
-| 方向を表す助詞 | 1 | Low | 39_iku_vs_kuru.md |
-| 移動動詞の活用 | 1 | Low | 39_iku_vs_kuru.md |
-| 視点と敬語 | 1 | Low | 39_iku_vs_kuru.md |
-| 動作動詞 | 1 | Low | 40_shinkokei_vs_joutaikei.md |
-| いらっしゃる vs 参る | 1 | Low | 41_ossharu_vs_mousu.md |
-| ご覧になる vs 拝見する | 1 | Low | 41_ossharu_vs_mousu.md |
 | 語域 | 1 | Low | 055_casual_conversation.md |
 | 話し言葉と書き言葉 | 1 | Low | 055_casual_conversation.md |
 | 待遇表現 | 1 | Low | 057_social_distance.md |
 | 上下關係 | 1 | Low | 057_social_distance.md |
-| 意味論（語義學） | 1 | Low | 067_goyougaku.md |
 | 語境（Context） | 1 | Low | 067_goyougaku.md |
 | 發話行為理論（Speech Act Theory） | 1 | Low | 067_goyougaku.md |
-| 會話含意理論（Conversational Implicature） | 1 | Low | 067_goyougaku.md |
-| 指示語（Deixis） | 1 | Low | 067_goyougaku.md |
-| 察する文化 | 1 | Low | 068_ishin_denshin.md |
-| 空気を読む | 1 | Low | 068_ishin_denshin.md |
-| 言外の意 | 1 | Low | 068_ishin_denshin.md |
-| 日語學習框架 | 1 | Low | 076_jlpt_levels.md |
-| 詞彙分級系統 | 1 | Low | 076_jlpt_levels.md |
 | 文法體系 | 1 | Low | 076_jlpt_levels.md |
 | 語言能力評估 | 1 | Low | 076_jlpt_levels.md |
 | 學習里程碑 | 1 | Low | 076_jlpt_levels.md |
@@ -136,18 +67,41 @@
 | formal_vs_casual_speech_concept.md | 1 | Low | 093_teineigo_concept.md |
 | japanese_language_family.md | 1 | Low | 103_indo_european_languages.md |
 | language_typology.md | 1 | Low | 103_indo_european_languages.md |
+| 経済活動が主に市場メカニズムを通じて調整される経済体制 | 1 | Low | 131_shijokeizai.md |
+| 価格 | 1 | Low | 131_shijokeizai.md |
+| 企業 | 1 | Low | 131_shijokeizai.md |
+| 利潤 | 1 | Low | 131_shijokeizai.md |
+| 私有財産制 | 1 | Low | 131_shijokeizai.md |
+| 競争 | 1 | Low | 131_shijokeizai.md |
+| 経済的自由 | 1 | Low | 131_shijokeizai.md |
+| 価格メカニズム | 1 | Low | 131_shijokeizai.md |
+| 計画経済 (Planned Economy) | 1 | Low | 131_shijokeizai.md |
+| 資本主義 (Capitalism) | 1 | Low | 131_shijokeizai.md |
+| 価格メカニズム (Price Mechanism) | 1 | Low | 131_shijokeizai.md |
+| 競争 (Competition) | 1 | Low | 131_shijokeizai.md |
+| 混合経済 | 1 | Low | 131_shijokeizai.md |
+| 待建立：敬語体系に関する説明カード | 1 | Low | 138_uchi_soto.md |
+| 敬語体系に関する説明カード | 1 | Low | 138_uchi_soto.md |
+| 待建立：日本の集団主義文化カード | 1 | Low | 138_uchi_soto.md |
+| 日本の集団主義文化カード | 1 | Low | 138_uchi_soto.md |
+| 上下関係(superior-subordinate relationship) | 1 | Low | 151_shokuba_bunka.md |
+| 年功序列(seniority system) | 1 | Low | 151_shokuba_bunka.md |
+| 集団主義(collectivism) | 1 | Low | 151_shokuba_bunka.md |
+| 長時間労働(long working hours) | 1 | Low | 151_shokuba_bunka.md |
+| 暗示 | 1 | Low | 154_gengai_no_i.md |
+| 敬語の基本概念 | 1 | Low | 161_goran_vs_haiken.md |
+| 敬語：見るの用法 | 1 | Low | 161_goran_vs_haiken.md |
+| 尊敬語の形成パターン | 1 | Low | 161_goran_vs_haiken.md |
+| 謙讓語の形成パターン | 1 | Low | 161_goran_vs_haiken.md |
+| 来る/行く/いる (基本動詞) | 1 | Low | 162_irassharu_vs_mairu.md |
+| 視點理論 | 1 | Low | 163_uchi_soto_riron.md |
+| 集團主義 | 1 | Low | 163_uchi_soto_riron.md |
+| 和の文化 | 1 | Low | 163_uchi_soto_riron.md |
+| 財務諸表（Financial Statements） | 1 | Low | 165_jun_shisan.md |
 | 社會語用 | 1 | Low | 56_business.md |
 | 職場文化 | 1 | Low | 56_business.md |
-| 慣用表現 | 1 | Low | 56_collocation.md |
 | 自然表現 | 1 | Low | 56_collocation.md |
-| 母語干擾 | 1 | Low | 56_collocation.md |
 | 終助詞用法 | 1 | Low | 56_daily_conversation.md |
-| 寒暄用語 | 1 | Low | 56_daily_conversation.md |
-| 商務日語 | 1 | Low | 56_daily_conversation.md |
-| 電話用語 | 1 | Low | 56_daily_conversation.md |
-| 補語 | 1 | Low | 56_predicate.md |
-| 時態 | 1 | Low | 56_predicate.md |
-| い形容詞 | 1 | Low | 56_predicate.md |
 | な形容詞 | 1 | Low | 56_predicate.md |
 | だ | 1 | Low | 56_predicate.md |
 | です | 1 | Low | 56_predicate.md |
@@ -174,7 +128,6 @@
 | 時間的順序性 | 1 | Low | 68_hypothetical_condition.md |
 | 効用 | 1 | Low | concept-052-効用最大化.md |
 | 限界効用 | 1 | Low | concept-052-効用最大化.md |
-| 敬語 | 1 | Low | 139_masu_kei.md |
 | 助詞「が」 | 1 | Low | 141_kanoukei.md |
 | お/ご～ください | 1 | Low | 144_o_go_suru.md |
 | 申し上げる | 1 | Low | 144_o_go_suru.md |
@@ -237,6 +190,35 @@
 | 社會規則 | 1 | Low | 240_kanshuu.md |
 | から...まで 範圍表達 | 1 | Low | 247_jikan_hyougen.md |
 | に助詞用法 | 1 | Low | 247_jikan_hyougen.md |
+| 形容詞 | 1 | Low | 293_kedo.md |
+| 副詞 | 1 | Low | 293_kedo.md |
+| 接続助詞の全體像 | 1 | Low | 293_kedo.md |
+| 助詞「は」 | 1 | Low | 294_nakutewa_ikenai.md |
+| 文法体系 | 1 | Low | 295_setsuzokushi_shurui.md |
+| 論理構造 | 1 | Low | 295_setsuzokushi_shurui.md |
+| 文章構成 | 1 | Low | 295_setsuzokushi_shurui.md |
+| 格助詞詳解 | 1 | Low | 299_joshi_system.md |
+| 接續助詞用法 | 1 | Low | 299_joshi_system.md |
+| 副助詞與語氣 | 1 | Low | 299_joshi_system.md |
+| 助詞組合與搭配 | 1 | Low | 299_joshi_system.md |
+| 待建立：完了の表現群 | 1 | Low | 303_dousa_kansei.md |
+| 完了の表現群 | 1 | Low | 303_dousa_kansei.md |
+| 待建立：後悔表現との違い | 1 | Low | 303_dousa_kansei.md |
+| 後悔表現との違い | 1 | Low | 303_dousa_kansei.md |
+| に助詞 | 1 | Low | 304_houkou_joshi.md |
+| へ助詞 | 1 | Low | 304_houkou_joshi.md |
+| を助詞 | 1 | Low | 304_houkou_joshi.md |
+| 方向副詞 | 1 | Low | 304_houkou_joshi.md |
+| 空間概念 | 1 | Low | 304_houkou_joshi.md |
+| 感情動詞 | 1 | Low | 309_shimau_usage.md |
+| 日語語氣詞 | 1 | Low | 309_shimau_usage.md |
+| 完結體 | 1 | Low | 309_shimau_usage.md |
+| 品詞體系 | 1 | Low | 313_bunpou_taikei.md |
+| 文型體系 | 1 | Low | 313_bunpou_taikei.md |
+| 格體系 | 1 | Low | 313_bunpou_taikei.md |
+| 時制與體系 | 1 | Low | 313_bunpou_taikei.md |
+| 副詞の分類 | 1 | Low | 316_fukushi_hitei.md |
+| 肯定副詞 | 1 | Low | 316_fukushi_hitei.md |
 | 申し上げる（謙讓語：說） | 1 | Low | 001_itadaku.md |
 | 伺う（謙讓語：訪問/詢問） | 1 | Low | 001_itadaku.md |
 | 謙讓語的分類（謙讓語 I 類與 II 類） | 1 | Low | 001_itadaku.md |
@@ -274,7 +256,6 @@
 | 日本のバブル経済 | 1 | Low | 083_baburu.md |
 | 資産価格の変動 | 1 | Low | 083_baburu.md |
 | 金融政策（貨幣政策） | 1 | Low | 086_infureshon.md |
-| GDP（国内総生産） | 1 | Low | 088_keizaiseichou.md |
 | 持続可能な成長 | 1 | Low | 088_keizaiseichou.md |
 | 潜在成長率 | 1 | Low | 088_keizaiseichou.md |
 | 好景気 | 1 | Low | 090_koukyou.md |
@@ -299,7 +280,6 @@
 | 税関 | 1 | Low | 123_kanzei.md |
 | 保護主義 | 1 | Low | 123_kanzei.md |
 | 税収 | 1 | Low | 126_sainyuu.md |
-| 所得税（しょとくぜい） | 1 | Low | 129_shouhizei.md |
 | 法人税（ほうじんぜい） | 1 | Low | 129_shouhizei.md |
 | 間接税（かんせつぜい） | 1 | Low | 129_shouhizei.md |
 | 直接税（ちょくせつぜい） | 1 | Low | 129_shouhizei.md |
@@ -435,6 +415,30 @@
 | 經營管理 | 1 | Low | 261_kotei_shihon.md |
 | 交付 | 1 | Low | 263_kyuufu.md |
 | 受給 | 1 | Low | 263_kyuufu.md |
+| 銀行 - bank | 1 | Low | 277_yokin_tsuuchou.md |
+| 口座 - account | 1 | Low | 277_yokin_tsuuchou.md |
+| 残高 - balance | 1 | Low | 277_yokin_tsuuchou.md |
+| 取引 - transaction | 1 | Low | 277_yokin_tsuuchou.md |
+| 給料 | 1 | Low | 279_shuunyuu.md |
+| 報酬 | 1 | Low | 279_shuunyuu.md |
+| 交通費 | 1 | Low | 281_keihi.md |
+| 通信費 | 1 | Low | 281_keihi.md |
+| 挨拶（aisatsu）- 問候 | 1 | Low | 282_aisatsu_yougo.md |
+| 敬語（けいご）- 敬語系統 | 1 | Low | 282_aisatsu_yougo.md |
+| ビジネス用語（びじねすようご）- 商業術語 | 1 | Low | 282_aisatsu_yougo.md |
+| ビジネスマナー | 1 | Low | 284_denwa_yougo.md |
+| 電話応対 | 1 | Low | 284_denwa_yougo.md |
+| 代名詞（だいめいし） | 1 | Low | 290_deixis.md |
+| 人称代名詞（にんしょう だいめいし） | 1 | Low | 290_deixis.md |
+| 連指（れんし）- 先行詞の参照用法 | 1 | Low | 290_deixis.md |
+| 零代名詞（れい だいめいし） | 1 | Low | 290_deixis.md |
+| 視点転換と日本語（Perspective Shift in Japanese） | 1 | Low | 293_shiten_keigo.md |
+| 社会的距離と言語選択（Social Distance and Language Choice） | 1 | Low | 293_shiten_keigo.md |
+| 聴者への配慮と敬語（Audience Design and Honorifics） | 1 | Low | 293_shiten_keigo.md |
+| 言語使用 | 1 | Low | 294_context.md |
+| 語言學 | 1 | Low | 297_imiron.md |
+| 言葉の意味 | 1 | Low | 297_imiron.md |
+| 記号論 | 1 | Low | 297_imiron.md |
 | デフレスパイラル | 1 | Low | 75_defureshon.md |
 | 赤字 | 1 | Low | noun-073-財政.md |
 | 動詞連用形 + に取り組む | 1 | Low | noun-073-財政.md |

@@ -77,12 +77,12 @@ Economic growth rate; the rate at which an economy's size changes over a specifi
 政府統計発表、経済分析レポート、ニュース報道、学術論文など、マクロ経済の議論において頻繁に使用される専門用語。
 
 ### 関連語彙
-- [GDP](待建立) - 国内総生産
+- [GDP](../concept/123_GDP.md) - 国内総生産
 - [景気](087_keiki.md) - 経済状況
 - [デフレ](75_defure.md) - デフレーション
 - [インフレ](085_infure.md) - インフレーション
 - [実質成長率](待建立) - 物価変動を除いた成長率
-- [名目成長率](待建立) - 物価変動を含む成長率
+- [名目成長率](../concept/145_meimoku_seichouritsu.md) - 物価変動を含む成長率
 
 ## 学習メモ
 

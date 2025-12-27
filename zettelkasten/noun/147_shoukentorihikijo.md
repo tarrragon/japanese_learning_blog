@@ -81,7 +81,7 @@ Stock exchange. An organization that operates a market for trading securities su
 
 - [証券](./038_shouken.md) - 證券（基礎概念）
 - [株式](075_kabushiki.md) - 股票
-- [債券](待建立) - 債券
+- [債券](../concept/130_saiken.md) - 債券
 - [上場](待建立) - 上市
 - [市場](079_shijou.md) - 市場
 

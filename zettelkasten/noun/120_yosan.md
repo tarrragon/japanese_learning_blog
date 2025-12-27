@@ -89,9 +89,9 @@ Budget; funds or expenses planned and allocated in advance. In economics, it ref
 
 ### 相關詞彙
 - [財政](noun-073-財政.md) - zaisei - 財政
-- [支出](待建立) - shishutsu - 支出
-- [収入](待建立) - shūnyū - 收入
-- [経費](待建立) - keihi - 經費
+- [支出](278_shishutsu.md) - shishutsu - 支出
+- [収入](279_shuunyuu.md) - shūnyū - 收入
+- [経費](281_keihi.md) - keihi - 經費
 - [予算案](待建立) - yosanan - 預算案
 - [財務計画](待建立) - zaimu keikaku - 財務計劃
 - [資金配分](待建立) - shikin haibun - 資金分配

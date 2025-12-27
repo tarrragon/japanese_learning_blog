@@ -15,7 +15,7 @@ category: concept
 lang: ja
 related_cards:
   - "[主題（Theme）](../grammar/050_wa_topic.md)"
-  - "[焦點（Focus）](待建立)"
+  - "[焦點（Focus）](175_focus.md)"
   - "[舊資訊與新資訊](56_given_new_information.md)"
   - "[對比焦點](待建立)"
   - "[(待建立標記) 重音與資訊結構](待建立)"
@@ -151,7 +151,7 @@ A: 本を読んだ。（焦點在「讀書」）
 ## 相關概念
 
 - [主題（Theme）](../grammar/050_wa_topic.md) - 「は」助詞的主題標記功能
-- [焦點（Focus）](待建立) - 話語中的資訊高點
+- [焦點（Focus）](175_focus.md) - 話語中的資訊高點
 - [舊資訊與新資訊](56_given_new_information.md) - Given-New 資訊流
 - [對比焦點](待建立) - 對比性強調
 - [(待建立標記) 重音與資訊結構](待建立) - 韻律層面的資訊組織

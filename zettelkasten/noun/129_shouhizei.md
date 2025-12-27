@@ -128,7 +128,7 @@ A tax levied on the purchase or use of goods and services. Introduced in Japan i
 
 ## 相關詞彙
 
-- [所得税（しょとくぜい）](待建立)：所得稅
+- [所得税（しょとくぜい）](../concept/132_shotokuzei.md)：所得稅
 - [法人税（ほうじんぜい）](待建立)：法人稅
 - [間接税（かんせつぜい）](待建立)：間接稅
 - [直接税（ちょくせつぜい）](待建立)：直接稅

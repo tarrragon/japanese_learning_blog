@@ -98,7 +98,7 @@ A situation where a country or region's imports exceed its exports over a certai
 - [貿易黒字](132_bouekikuroji.md) - 貿易收支盈餘，出口大於進口的狀況
 - [貿易収支](133_bouekishuushi.md) - 貿易收支，進出口的差額
 - [経常収支](待建立) - 經常帳收支，包含貿易收支及服務收支等
-- [輸出入](待建立) - 進出口
+- [輸出入](../concept/146_yushutsunyuu.md) - 進出口
 - [為替レート](106_kawasereto.md) - 匯率
 
 ## 學習要點

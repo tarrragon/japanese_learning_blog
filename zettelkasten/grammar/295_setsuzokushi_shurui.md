@@ -326,14 +326,14 @@ It's raining. Therefore, I'll bring an umbrella.
 ## 相關連結
 
 ### 個別接続詞
-- [だから](待建立)
-- [しかし](待建立)
-- [そして](待建立)
-- [したがって](待建立)
-- [けれども](待建立)
+- [だから](146_dakara.md)
+- [しかし](176_shikashi.md)
+- [そして](../conjunction/007_soshite.md)
+- [したがって](177_shitagatte.md)
+- [けれども](../conjunction/005_keredomo.md)
 
 ### 相關文法
-- [接続助詞](待建立) - 接続助詞システム
+- [接続助詞](../concept/096_setsuzoku_joshi.md) - 接続助詞システム
 - [並列助詞](098_conjunction_particles.md) - 並列助詞體系
 - [文法体系](待建立) - 文法分類
 

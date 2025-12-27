@@ -98,7 +98,7 @@ As the trade surplus continues, the government is considering measures to promot
 - [経常収支](待建立) - 經常帳收支 - current account balance
 - [外貨準備](待建立) - 外匯儲備 - foreign exchange reserves
 - [為替レート](106_kawasereto.md) - 匯率 - exchange rate
-- [輸出入](待建立) - 進出口 - import and export
+- [輸出入](../concept/146_yushutsunyuu.md) - 進出口 - import and export
 
 ## 注意点（Notes）
 

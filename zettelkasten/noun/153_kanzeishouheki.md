@@ -95,7 +95,7 @@ Tariff barriers - high import duties imposed by governments to restrict foreign 
 
 - [貿易障壁](待建立) - 上位概念
 - [保護貿易](135_hogoboueki.md) - 関連政策
-- [自由貿易協定](待建立) - 対立概念
+- [自由貿易協定](../concept/125_jiyuuboekikyoutei.md) - 対立概念
 - [非関税障壁](待建立) - 対比概念
 - [関税](123_kanzei.md) - 構成要素
 

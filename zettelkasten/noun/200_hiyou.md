@@ -116,6 +116,6 @@ Expense; the amount of money spent for business activities or achieving specific
 
 - [収益](115_shuueki.md) - 收益
 - [利益](114_rieki.md) - 利潤
-- [経費](待建立) - 經費
+- [経費](281_keihi.md) - 經費
 - [予算](120_yosan.md) - 預算
 - [原価](待建立) - 成本

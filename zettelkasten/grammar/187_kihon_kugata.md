@@ -124,7 +124,7 @@ Japanese basic sentence patterns follow the SOV (Subject-Object-Verb) word order
 
 **相關卡片**：
 - [動詞分類](../concept/056_verb_classification.md) - 述語的核心類型
-- [助詞系統](待建立) - 標記語法關係的工具
+- [助詞系統](299_joshi_system.md) - 標記語法關係的工具
 - [形容詞活用](待建立) - 形容詞述語的變化
 - [です・だ](待建立) - 名詞述語和形容動詞述語的連接
 - [主語標記：は vs が](待建立) - 主語助詞的選擇

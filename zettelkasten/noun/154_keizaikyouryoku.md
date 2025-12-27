@@ -84,7 +84,7 @@ Economic cooperation refers to mutual support and collaboration between countrie
 ## 関連語彙
 
 - [開発援助](待建立) - 先進国が途上国に行う支援
-- [技術移転](待建立) - 技術やノウハウの提供
+- [技術移転](../concept/177_gijutsu_iten.md) - 技術やノウハウの提供
 - [ODA](待建立) - 政府開発援助
 - [経済連携](待建立) - 経済面での協力関係
 - [国際協力](待建立) - 国家間の協力全般

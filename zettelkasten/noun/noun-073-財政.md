@@ -129,7 +129,7 @@ The activities of acquiring, managing, and disposing of financial resources by t
 
 ### 財政相關術語
 - [赤字](待建立) - 財政失衡狀態
-- [政策](待建立) - 財政的實施手段
+- [政策](../concept/171_seisaku.md) - 財政的實施手段
 - [歳入](126_sainyuu.md) - 財政收入
 - [歳出](127_saishutsu.md) - 財政支出
 

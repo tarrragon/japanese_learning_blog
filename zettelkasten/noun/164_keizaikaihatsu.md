@@ -93,7 +93,7 @@ Economic development; the process of improving the economic well-being and quali
 - [経済成長](../noun/082_keizaiseichou.md) - 經濟成長
 - [産業発展](待建立) - 產業發展
 - [地域開発](待建立) - 區域開發
-- [技術移転](待建立) - 技術轉移
+- [技術移転](../concept/177_gijutsu_iten.md) - 技術轉移
 - [インフラ整備](待建立) - 基礎建設完善
 
 ## 學習要點

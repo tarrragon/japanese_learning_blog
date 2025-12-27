@@ -126,7 +126,7 @@ Suzuki-san, please **review** this document.
 
 ## 關聯概念
 
-- [尊敬語概念](待建立) - 階層關係的上位表現
+- [尊敬語概念](137_sonkeigo_concept.md) - 階層關係的上位表現
 - [謙讓語概念](060_kenjougo_concept.md) - 階層關係的下位表現
 - [丁寧語概念](061_teineigo_concept.md) - 階層中的基本禮貌
 - [內與外](311_uchi_soto.md) - 階層判斷的另一維度

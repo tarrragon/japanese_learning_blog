@@ -88,9 +88,9 @@ In modern Japanese, it refers to a mutual understanding where thoughts and feeli
 
 ## 關聯概念
 
-- **[察する文化](待建立)**：日本文化中重視體察他人心意的特質
-- **[空気を読む](待建立)**：閱讀氛圍、察言觀色的能力
-- **[言外の意](待建立)**：言外之意、弦外之音
+- **[察する文化](150_sassuru_bunka.md)**：日本文化中重視體察他人心意的特質
+- **[空気を読む](149_kuuki_yomu.md)**：閱讀氛圍、察言觀色的能力
+- **[言外の意](154_gengai_no_i.md)**：言外之意、弦外之音
 
 ## 語源
 

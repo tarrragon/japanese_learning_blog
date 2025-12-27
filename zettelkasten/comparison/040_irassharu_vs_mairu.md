@@ -156,17 +156,17 @@ link_status:
 ### 相關敬語動詞
 - [おっしゃる・申す](../honorific/002_ossharu_mousu.md) - 說的敬謙語對比
 - [召し上がる・いただく](../honorific/001_meshiagaru_itadaku.md) - 吃的敬謙語對比
-- [尊敬語概念](待建立)
-- [謙讓語概念](待建立)
+- [尊敬語概念](../concept/137_sonkeigo_concept.md)
+- [謙讓語概念](../concept/157_kenjougo_concept.md)
 
 ### 文法關聯
 - [移動動詞](../concept/待建立) - 移動動詞的分類
 - [視點理論](../concept/012_viewpoint_theory.md)
 - [敬語系統](../concept/189_keigo_system.md)
-- [ウチ・ソト理論](待建立)
+- [ウチ・ソト理論](../concept/163_uchi_soto_riron.md)
 
 ### 語用學
-- [商務敬語](待建立)
+- [商務敬語](../noun/288_bijinesu_keigo.md)
 - [社會階層](../concept/062_shakai_kaisou.md)
 - [語用學](../concept/067_goyougaku.md)
 

@@ -102,8 +102,8 @@ Tax rate; the percentage of tax imposed on taxable items. It serves as a fundame
 
 ## 相關連結
 
-- [税金](待建立) - 稅金
+- [税金](../concept/134_zeikin.md) - 稅金
 - [消費税](129_shouhizei.md) - 消費稅
-- [所得税](待建立) - 所得稅
+- [所得税](../concept/132_shotokuzei.md) - 所得稅
 - [控除](182_koujo.md) - 扣除
 - [税制](待建立) - 稅制

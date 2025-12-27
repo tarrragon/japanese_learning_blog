@@ -95,9 +95,9 @@ Collocation refers to the habitual pairing of specific words in a language. Thes
 
 - [動詞](../verb-basic/001_verb.md)
 - [形容詞](../adjective/001_adjective.md)
-- [慣用表現](【待建立】)
+- [慣用表現](../grammar/300_kanyou_hyougen.md)
 - [自然表現](【待建立】)
-- [母語干擾](【待建立】)
+- [母語干擾](../noun/289_bogo_kanshou.md)
 
 ## 備註
 

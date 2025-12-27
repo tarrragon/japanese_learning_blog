@@ -68,7 +68,7 @@ An economic superpower; a country with a large-scale economy and strong economic
 
 ## Related Cards
 
-- [GDP](待建立) - 経済大国を測る主要指標
+- [GDP](../concept/123_GDP.md) - 経済大国を測る主要指標
 - [経済成長](088_keizaiseichou.md) - 経済大国への発展過程
 - [国際経済](待建立) - 経済大国が活動する舞台
 - [先進国](待建立) - 経済大国の多くが該当する分類

@@ -165,8 +165,8 @@ Both または and あるいは express choices or alternatives, but they differ
 
 - [もしくは](待建立) - 小層級選擇接續詞
 - [それとも](待建立) - 口語選擇疑問
-- [接続詞の種類](待建立) - 接續詞的分類
-- [法律文書の日本語](待建立) - 法律文書的日文表達
+- [接続詞の種類](../grammar/295_setsuzokushi_shurui.md) - 接續詞的分類
+- [法律文書の日本語](../noun/296_houritsu_bunsho.md) - 法律文書的日文表達
 
 ## 參考資料
 

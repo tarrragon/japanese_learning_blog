@@ -102,7 +102,7 @@ A humble form (謙讓語 kenjōgo) used to express respect by lowering the speak
 - [伺う](待建立)[^5] - 「行く/聞く/訪ねる」的謙讓語
 
 ## 関連語彙
-- [謙讓語](待建立)[^6] - 謙讓語系統
+- [謙讓語](../noun/286_kenjougo.md)[^6] - 謙讓語系統
 - [尊敬語](../concept/037_sonkeigo_concept.md)[^7] - 尊敬語系統
 - [丁寧語](../concept/040_teineigo_concept.md)[^8] - 禮貌語系統
 

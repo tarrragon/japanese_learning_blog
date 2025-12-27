@@ -48,7 +48,7 @@ English: I earn additional income through a part-time job.
 
 ## 關連詞彙
 
-- [支出](待建立) - しゅつしゅつ - expenses
+- [支出](278_shishutsu.md) - しゅつしゅつ - expenses
 - [給料](待建立) - きゅうりょう - salary
-- [賃金](待建立) - ちんぎん - wages
+- [賃金](122_chingin.md) - ちんぎん - wages
 - [報酬](待建立) - ほうしゅう - reward/compensation

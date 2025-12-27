@@ -183,7 +183,7 @@ link_status:
 - [授受表現系統](../grammar/048_juju_hyougen.md)
 - [謙讓語概念](../concept/038_kenjougo_concept.md)
 - [謙讓語的分類（謙讓語 I 類與 II 類）](待建立)
-- [商務敬語的階梯理論](待建立)
+- [商務敬語的階梯理論](../concept/152_bijinesu_keigo_kaidan.md)
 
 ### 實用句型
 - [〜ていただく](../grammar/002_te_itadaku.md) - 補助動詞用法詳解

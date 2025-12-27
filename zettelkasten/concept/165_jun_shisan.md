@@ -51,6 +51,6 @@ The value remaining after subtracting liabilities from total assets owned by a c
 
 ## 關聯卡片
 
-- [資産（Assets）](待建立)
-- [負債（Liabilities）](待建立)
+- [資産（Assets）](../noun/108_shisan.md)
+- [負債（Liabilities）](../noun/103_fusai.md)
 - [財務諸表（Financial Statements）](待建立)
