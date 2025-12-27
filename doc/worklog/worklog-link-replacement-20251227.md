@@ -141,6 +141,70 @@ grep -A 15 "階段 3：Link Building" CLAUDE.md
 
 ---
 
+## 測試結果
+
+所有 4 個測試通過：
+- ✅ 測試 1：基本功能驗證（--check, --dry-run, --json）
+- ✅ 測試 2：CSV 整合驗證（成功新增 473 個缺口）
+- ✅ 測試 3：缺口報告驗證（包含優先級）
+- ✅ 測試 4：工作流程驗證（CLAUDE.md 已更新）
+
+---
+
+## 舊版本 CSV 格式問題
+
+### 問題發現
+
+測試過程中發現 `cards-pending-links-1.4.0.csv` 使用了非標準格式：
+
+| CSV 類型 | 欄位數 | 格式 |
+|---------|-------|------|
+| 問題 CSV | 7 | `id,japanese,category,frequency,priority,source_count,stage` |
+| 標準 CSV | 14 | `id,category,number,path,japanese,chinese,...` |
+
+### 問題根源
+
+- `frequency` 和 `source_count` 欄位不是由任何當前腳本生成
+- 在整個 `scripts/` 目錄中搜索這兩個欄位，結果為零
+- 推斷：這是舊版本系統或外部工具的遺留物
+
+### 錯誤現象
+
+```
+ValueError: dict contains fields not in fieldnames: 'frequency', 'source_count'
+```
+
+當 `add_pending_cards.py` 讀取非標準 CSV 後嘗試保存時，DictWriter 因額外欄位而報錯。
+
+### 修復方式
+
+在相關腳本中進行以下修復：
+
+| 腳本 | 問題 | 修復 |
+|------|------|------|
+| `replace_pending_links.py` | subprocess 呼叫方式錯誤 | 直接使用 `sys.executable` |
+| `replace_pending_links.py` | `--csv-only` 參數位置錯誤 | 放在 batch 之前 |
+| `replace_pending_links.py` | chinese 為空導致驗證失敗 | 使用佔位符 `（待填寫）` |
+| `add_pending_cards.py` | `c['path']` KeyError | 使用 `c.get('path')` |
+| `add_pending_cards.py` | 額外欄位導致 save 失敗 | `extrasaction='ignore'` |
+| `add_pending_cards.py` | batch 模式無法自動編號 | 新增 `_get_next_number()` |
+
+### 標準定義位置
+
+專案已有完整的 CSV 標準定義：
+- **文檔層**：`doc/worklog/README-CSV.md`（第 70-85 行）
+- **實現層**：`add_pending_cards.py`（第 147-149 行）
+- **驗證層**：`add_pending_cards.py`（第 159-189 行）
+
+### 預防措施
+
+未來建立 CSV 時應：
+1. 參考 `README-CSV.md` 的欄位表
+2. 使用 `add_pending_cards.py` 的驗證邏輯
+3. 不要手動建立非標準格式的 CSV
+
+---
+
 ## 後續工作
 
 1. **測試通過後**：提交變更

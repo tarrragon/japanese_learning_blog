@@ -150,7 +150,7 @@ link_status:
         ]
 
         with open(self.csv_path, 'w', encoding='utf-8', newline='') as f:
-            writer = csv.DictWriter(f, fieldnames=fieldnames)
+            writer = csv.DictWriter(f, fieldnames=fieldnames, extrasaction='ignore')
             writer.writeheader()
             writer.writerows(self.cards)
 
@@ -182,7 +182,7 @@ link_status:
 
         # 檢查路徑衝突
         if card.get('path'):
-            existing = [c for c in self.cards if c['path'] == card['path']]
+            existing = [c for c in self.cards if c.get('path') == card['path']]
             if existing:
                 errors.append(f"路徑已存在: {card['path']} (ID: {existing[0]['id']})")
 
@@ -281,12 +281,43 @@ link_status:
             print(f"   ❌ 建立檔案失敗: {e}")
             return False
 
+    def _get_next_number(self, category: str) -> Optional[str]:
+        """調用 get-next-number.py 獲取下一個可用編號"""
+        import subprocess
+        try:
+            result = subprocess.run(
+                [sys.executable, str(PROJECT_ROOT / "scripts" / "get-next-number.py"), category],
+                capture_output=True,
+                text=True,
+                cwd=PROJECT_ROOT
+            )
+            if result.returncode == 0:
+                # 取最後一行非空輸出（過濾掉警告訊息）
+                lines = [l.strip() for l in result.stdout.strip().split('\n') if l.strip() and not l.startswith('⚠️')]
+                if lines:
+                    return lines[-1].zfill(3)  # 確保 3 位數格式
+            return None
+        except Exception as e:
+            print(f"   ⚠️ 自動編號失敗: {e}")
+            return None
+
     def add_batch_cards(self, cards_data: List[Dict]) -> int:
         """批次新增卡片，回傳成功新增的數量"""
         success_count = 0
 
         for idx, card_data in enumerate(cards_data, 1):
             print(f"\n📝 處理卡片 {idx}/{len(cards_data)}")
+
+            # 自動分配編號（如果缺失）
+            if 'number' not in card_data or not card_data['number']:
+                category = card_data.get('category', 'concept')
+                auto_number = self._get_next_number(category)
+                if auto_number:
+                    card_data['number'] = auto_number
+                    print(f"   → 自動分配編號: {auto_number}")
+                else:
+                    print(f"❌ 跳過：無法自動分配編號")
+                    continue
 
             # 確保必要欄位存在
             required = ['category', 'number', 'japanese', 'chinese', 'jlpt', 'priority']

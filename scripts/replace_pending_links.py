@@ -300,7 +300,7 @@ class GapReport:
 
             cards.append({
                 "japanese": gap.text,
-                "chinese": "",  # 需要手動填寫
+                "chinese": "（待填寫）",  # 佔位符，待填寫
                 "category": self._guess_category(gap.text),
                 "jlpt": "n3",  # 預設值
                 "priority": self._calc_priority(gap.count),
@@ -577,14 +577,15 @@ def main():
                 temp_json_path = f.name
 
             try:
-                # 呼叫 add_pending_cards.py batch
+                # 呼叫 add_pending_cards.py batch（直接使用當前 Python 環境）
+                # --csv-only 是主程式選項，必須放在 batch 子命令之前
                 result = subprocess.run(
                     [
-                        sys.executable, "-m", "uv", "run",
+                        sys.executable,
                         str(PROJECT_ROOT / "scripts" / "add_pending_cards.py"),
+                        "--csv-only",  # 只新增到 CSV，不建立卡片檔案
                         "batch",
                         "--from-json", temp_json_path,
-                        "--csv-only"  # 只新增到 CSV，不建立卡片檔案
                     ],
                     capture_output=True,
                     text=True,
@@ -595,7 +596,8 @@ def main():
                     if not args.quiet:
                         print(f"\n✅ 已新增 {len(gaps_json)} 個缺口到 Active CSV")
                 else:
-                    print(f"\n❌ 新增到 CSV 失敗：{result.stderr}", file=sys.stderr)
+                    error_msg = result.stderr or result.stdout
+                    print(f"\n❌ 新增到 CSV 失敗：{error_msg}", file=sys.stderr)
             finally:
                 # 清理臨時檔案
                 Path(temp_json_path).unlink(missing_ok=True)
