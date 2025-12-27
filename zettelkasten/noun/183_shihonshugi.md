@@ -137,7 +137,7 @@ In capitalist societies, wealth inequality tends to emerge.
 
 - [資本](078_shihon.md) - 資本主義の中核概念
 - [資本家](182_shihonka.md) - 資本主義の行為主体
-- [市場経済](待建立) - 資本主義の運営原理
+- [市場経済](../concept/189_市場経済.md) - 資本主義の運営原理
 - [社会主義](待建立) - 対立する経済体制
 - [自由主義](待建立) - 資本主義の思想的基盤
 

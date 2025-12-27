@@ -82,7 +82,7 @@ Yen depreciation; a situation where the value of the Japanese yen decreases rela
 ### 経済用語
 - [インフレーション](086_infureshon.md)：物価が持続的に上昇する現象
 - [デフレーション](75_defureshon.md)：物価が持続的に下落する現象
-- [金融政策](待建立)「きんゆうせいさく」：中央銀行が行う政策
+- [金融政策](../concept/181_金融政策.md)「きんゆうせいさく」：中央銀行が行う政策
 
 ---
 

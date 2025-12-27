@@ -137,7 +137,7 @@ The liberalization of financial capital has led to increased international capit
 - [生産性](../concept/122_productivity.md) - 資本と労働の配分による生産性
 - [投資](081_toushi.md) - 資本の形成方法
 - [経済成長](088_keizaiseichou.md) - 資本蓄積と成長の関係
-- [市場経済](待建立) - 資本主義経済システム
+- [市場経済](../concept/189_市場経済.md) - 資本主義経済システム
 
 ## 注釈
 

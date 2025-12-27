@@ -103,7 +103,7 @@ Short for deflation. An economic phenomenon where prices continuously decline an
 
 - [インフレ](085_infure.md) - 通貨膨脹（對比概念）
 - [物価](073_bukka.md) - 物價水準
-- [金融政策](待建立) - 貨幣政策
+- [金融政策](../concept/181_金融政策.md) - 貨幣政策
 - [経済成長](088_keizaiseichou.md) - 經濟成長
 - [中央銀行](134_chuuouginkou.md) - 中央銀行
 

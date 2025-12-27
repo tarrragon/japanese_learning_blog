@@ -95,7 +95,7 @@ As the trade surplus continues, the government is considering measures to promot
 ## 関連語彙（Related Vocabulary）
 
 - [貿易赤字](131_bouekiakaji.md) - 貿易赤字 - trade deficit
-- [経常収支](待建立) - 經常帳收支 - current account balance
+- [経常収支](../concept/185_経常収支.md) - 經常帳收支 - current account balance
 - [外貨準備](待建立) - 外匯儲備 - foreign exchange reserves
 - [為替レート](106_kawasereto.md) - 匯率 - exchange rate
 - [輸出入](../concept/146_yushutsunyuu.md) - 進出口 - import and export

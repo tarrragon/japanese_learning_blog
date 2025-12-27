@@ -145,5 +145,5 @@ The polite form of verbs, used in both spoken and written Japanese to show respe
 - [た形](../concept/088_ta_form.md) - 過去形の作り方
 - [ない形](011_nai_form.md) - 否定形の作り方
 - [たい形](159_tai_kei.md) - 願望表現
-- [敬語](待建立) - より丁寧な表現
+- [敬語](../noun/303_敬語.md) - より丁寧な表現
 - [辞書形](013_dictionary_form.md) - 基本形との関係

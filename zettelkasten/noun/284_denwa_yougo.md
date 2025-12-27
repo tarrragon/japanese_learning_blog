@@ -48,7 +48,7 @@ English: Using proper telephone terminology correctly improves business etiquett
 
 ## 關連詞彙
 
-- [敬語](待建立) - けいご - honorific language
+- [敬語](303_敬語.md) - けいご - honorific language
 - [ビジネスマナー](待建立) - ビジネスマナー - business etiquette
 - [電話応対](待建立) - でんわおうたい - telephone response
 - [コミュニケーション](../grammar/233_communication.md) - こみゅにけーしょん - communication

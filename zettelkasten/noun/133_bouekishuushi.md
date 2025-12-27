@@ -91,5 +91,5 @@ An economic indicator showing the difference between a country's export and impo
 - [為替レート](106_kawasereto.md) - 貿易収支に大きな影響を与える通貨の交換比率
 
 ### 対比
-- [経常収支](待建立) - 貿易収支を含むより広範な国際収支の概念
+- [経常収支](../concept/185_経常収支.md) - 貿易収支を含むより広範な国際収支の概念
 - [財政収支](待建立) - 国内の政府の収入と支出の差額（混同しやすい概念）

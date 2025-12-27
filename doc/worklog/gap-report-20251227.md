@@ -1,22 +1,17 @@
 # 待建立卡片缺口報告
 
-生成時間：2025-12-27 18:16:10
+生成時間：2025-12-27 19:18:40
 
 ## 摘要
 
-- 缺口總數：478
-- 總出現次數：524
+- 缺口總數：475
+- 總出現次數：502
 
 ## 按出現次數排序
 
 | 日文詞彙 | 出現次數 | 優先級 | 出現位置（前3個）|
 |----------|----------|--------|------------------|
 | 待建立 | 11 | Critical | 204_nakute.md, 204_nakute.md, 204_nakute.md (+8) |
-| 金融政策 | 9 | Critical | 073_bukka.md, 089_keizaiseisaku.md, 183-貨幣供給.md (+6) |
-| 敬語 | 4 | High | 154_gengai_no_i.md, 139_masu_kei.md, 284_denwa_yougo.md (+1) |
-| 経済指標 | 4 | High | 073_bukka.md, 161_keikidoukoushisuu.md, 161_keikidoukoushisuu.md (+1) |
-| 経常収支 | 4 | High | 131_bouekiakaji.md, 132_bouekikuroji.md, 133_bouekishuushi.md (+1) |
-| 市場経済 | 3 | High | 078_shihon.md, 183_shihonshugi.md, 240_kinyuu_shijou.md |
 | 對比焦點 | 2 | Medium | 061_jouhou_kouzou_riron.md, 061_jouhou_kouzou_riron.md |
 | (待建立標記) 重音與資訊結構 | 2 | Medium | 061_jouhou_kouzou_riron.md, 061_jouhou_kouzou_riron.md |
 | sonkeigo_concept.md | 2 | Medium | 093_teineigo_concept.md, 093_teineigo_concept.md |
@@ -219,6 +214,9 @@
 | 時制與體系 | 1 | Low | 313_bunpou_taikei.md |
 | 副詞の分類 | 1 | Low | 316_fukushi_hitei.md |
 | 肯定副詞 | 1 | Low | 316_fukushi_hitei.md |
+| 名詞修飾 | 1 | Low | 318_終助詞.md |
+| 間投助詞 | 1 | Low | 318_終助詞.md |
+| 話し言葉表現 | 1 | Low | 318_終助詞.md |
 | 申し上げる（謙讓語：說） | 1 | Low | 001_itadaku.md |
 | 伺う（謙讓語：訪問/詢問） | 1 | Low | 001_itadaku.md |
 | 謙讓語的分類（謙讓語 I 類與 II 類） | 1 | Low | 001_itadaku.md |
@@ -255,7 +253,6 @@
 | 経済学の基本概念 | 1 | Low | 083_baburu.md |
 | 日本のバブル経済 | 1 | Low | 083_baburu.md |
 | 資産価格の変動 | 1 | Low | 083_baburu.md |
-| 金融政策（貨幣政策） | 1 | Low | 086_infureshon.md |
 | 持続可能な成長 | 1 | Low | 088_keizaiseichou.md |
 | 潜在成長率 | 1 | Low | 088_keizaiseichou.md |
 | 好景気 | 1 | Low | 090_koukyou.md |
