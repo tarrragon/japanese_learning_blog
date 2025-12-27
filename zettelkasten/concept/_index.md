@@ -1,7 +1,7 @@
 # Concept 索引
 
-最後編號：069
-總卡片數：119
+最後編號：073
+總卡片數：154
 
 ## 卡片列表
 
@@ -10,40 +10,44 @@
 - [000 - "和"](63_group_harmony/) 
 - [000 - "焦點與強調"](56_focus/) 
 - [000 - "主題化"](56_topicalization/) 
-- [000 - "条件形"](68_conditional_forms/) #"conditionals" #"grammar" #"verb_forms"
+- [000 - "条件形"](68_conditional_forms/) 
 - [000 - "主要動作與附帶動作"](56_main_sub_action/) 
 - [000 - ](56_syntax/) 
 - [000 - ](56_information_structure/) 
 - [000 - ](67_predicate_types/) 
 - [000 - 効用最大化](concept-052-効用最大化/) 
+- [000 - "經濟"](concept-052-経済/) 
 - [000 - "舊資訊與新資訊"](56_given_new_information/) 
 - [000 - "述語"](56_predicate/) 
+- [000 - "供需法則"](concept-054-供給と需要の法則/) 
 - [000 - "丁寧表達"](56_polite_expression/) 
 - [000 - ](56_business/) 
 - [000 - ](68_discovery_expression/) 
 - [000 - "接続詞の概念"](65_setsuzokushi_gainen/) 
-- [000 - "動詞活用"](56_verb_conjugation/) #grammar #verb #conjugation
+- [000 - "動詞活用"](56_verb_conjugation/) 
 - [000 - ](66_gender_language/) 
 - [000 - "敬語系統"](56_keigo_system/) 
 - [000 - "高語境文化"](57_high_context_culture/) 
 - [000 - 行動経済学](concept-054-行動経済学/) 
-- [000 - "搭配"](56_collocation/) #"語彙" #"慣用表現" #"語彙選擇"
+- [000 - "搭配"](56_collocation/) 
 - [000 - ](67_adjective_types/) 
 - [000 - 合理性](concept-053-合理性/) 
 - [000 - 文の構造](67_sentence_structure/) 
 - [000 - "主題優先語言"](56_topic_prominent_language/) 
 - [000 - ](60_kenjougo_gainen/) 
 - [000 - "仮定条件"](68_hypothetical_condition/) 
-- [000 - "日常會話"](59_nichijou_kaiwa/) #"口語" #"會話" #"日常溝通"
-- [000 - "社會語境"](56_social_context/) #語用論 #敬語 #人際關係
+- [000 - "日常會話"](59_nichijou_kaiwa/) 
+- [000 - "社會語境"](56_social_context/) 
 - [000 - ](66_speech_level/) 
 - [000 - "書面語"](56_written_language/) 
 - [000 - ](56_daily_conversation/) 
+- [000 - "尊敬、尊重"](concept-062-敬意/) 
 - [000 - 日常会話](67_daily_conversation2/) 
 - [000 - "社會語言學"](61_shakai_gengogaku/) 
 - [000 - "語順"](56_word_order/) 
 - [000 - "助動詞"](67_auxiliary_verb/) 
-- [000 - "商務場合"](56_bijinesu_baai/) #ビジネス #敬語 #場面
+- [000 - "商務場合"](56_bijinesu_baai/) 
+- [000 - "供給曲線"](concept-053-供給曲線/) 
 - [000 - ](68_agglutinative_language/) 
 - [000 - "正式語體"](56_formal/) 
 - [001 - 物價上漲、通貨膨脹的概念](001_bukka_joushou/) 
@@ -97,34 +101,65 @@
 - [049 - 標籤系統概念 - 知識管理系統中用於分類和檢索的元資料標記](049_context_tags/) 
 - [050 - 感情與欲望表達 - 日文中情感和欲望的語言學表現](050_feeling_desire/) 
 - [051 - 日文禮貌表達的整體概念，涵蓋丁寧語、敬語和謙讓語](051_polite_expression/) 
+- [052 - 需求曲線，表示價格與需求量關係的圖形](052_juyou_kyokusen/) 
+- [053 - 均衡價格，市場供需達到平衡時的價格](053_kinkou_kakaku/) 
+- [054 - 市場原理，市場經濟中供需關係自動調節的基本原則](054_shijou_genri/) 
 - [055 - "日常会話"](055_casual_conversation/) 
 - [055 - "動詞分類"](055_verb_classification/) 
-- [056 - "社會距離"](056_social_distance/) #社會語言學 #人際關係 #敬語
+- [056 - "社會距離"](056_social_distance/) 
 - [057 - "視点理論"](057_shiten_riron/) 
 - [058 - ](058_hourensou/) 
 - [058 - ](058_aizuchi/) 
 - [059 - ](059_jouhou_kouzou_riron/) 
 - [060 - 社會階層](060_shakai_kaisou/) 
-- [060 - ](060_uchi_soto/) #"社會語言學" #"日本文化" #"對人關係"
-- [060 - "丁寧語概念"](060_teineigo_gainen/) #"敬語" #"丁寧語" #"文法"
+- [060 - ](060_uchi_soto/) 
+- [060 - "丁寧語概念"](060_teineigo_gainen/) 
 - [061 - "商務郵件"](061_bijinesu_mail/) 
-- [061 - "語用學"](061_goyougaku/) #"grammar" #"semantics" #"communication"
-- [061 - "以心伝心"](061_ishin_denshin/) #四字熟語 #コミュニケーション #文化
+- [061 - "語用學"](061_goyougaku/) 
+- [061 - "以心伝心"](061_ishin_denshin/) 
 - [061 - ](061_kuuki_wo_yomu/) 
+- [061 - "日語表達的正式程度分級系統"](061_formality_level/) 
+- [061 - "語言使用情境與意義解釋的研究領域"](061_pragmatics/) 
 - [062 - ](062_hierarchy/) 
 - [063 - 主語優先語言的語言學概念，日文屬於主題優先語言而非主語優先語言](063_subject_prominent/) 
 - [063 - ](063_jlpt_levels/) 
+- [063 - "需要賓語的動詞"](063_transitive_verbs/) 
 - [063 - 不規則動詞（ふきそくどうし）](063_irregular_verbs/) 
 - [063 - ](063_business_communication/) 
 - [063 - "五段動詞"](063_godan_verbs/) 
 - [063 - "一段動詞（Ichidan Verbs）"](063_ichidan_verbs/) 
+- [064 - "日文敬語體系的禮貌層級"](064_politeness_levels/) 
+- [065 - 日本文化中表面話語與真實心意的概念](065_tatemae_honne/) 
+- [066 - "日文時間表達系統"](066_time_expressions/) 
 - [066 - 動詞の形 - 日本語動詞のさまざまな形態的変化形式の総称](066_verb_forms/) 
 - [067 - "書面語・フォーマルな文章"](067_formal_writing/) 
 - [068 - "予定"](068_volitional_expression/) 
+- [068 - "動詞的た形（過去式/完成態）"](068_ta_form/) 
 - [068 - ](068_temporal_sequence/) 
+- [068 - "日文助詞系統的整體架構與分類"](068_particle_system/) 
 - [068 - 確定條件](068_definite_condition/) 
-- [068 - 口語](068_spoken_language/) #language-register #spoken-language #casual
-- [069 - "丁寧語"](069_teineigo_concept/) #keigo #polite-language #です-ます
+- [068 - 動詞的命令形態，用於表達命令、指示或強烈要求](068_imperative_form/) 
+- [068 - "語言單位的多功能性概念"](068_versatility/) 
+- [068 - 口語](068_spoken_language/) 
+- [069 - "丁寧語"](069_teineigo_concept/) 
+- [069 - "描述動詞所需格助詞與語意角色的結構框架"](069_case_frame/) 
+- [070 - "句子中表示主語的格位，在日語中由が格標記"](070_nominative_case/) 
+- [070 - "連接句節的助詞，表達時間、原因、條件、逆接等關係"](070_setsuzoku_joshi/) 
+- [071 - "日文格助詞「を」的用法：標記直接受詞與移動經過點"](071_wo/) 
+- [071 - 日語形容詞的一種，修飾名詞時需加「な」](071_na_adjective/) 
+- [072 - 表示引用、報導內容、思想的助詞](072_to_quotative/) 
+- [072 - 概観 - 全体的な見通しや総括的な理解を示す概念](072_overview/) 
+- [072 - 日語文法句型的系統性概念](072_grammar_pattern/) 
+- [072 - "印欧語族"](072_indo_european_languages/) 
+- [072 - 公司、學校等組織內部制定的規章制度](072_organizational_regulation/) 
+- [072 - "日語中表示動作對象、接受者、目的地等語意角色的格"](072_dative_case/) 
+- [072 - 社會人](072_shakaijin/) 
+- [072 - 日語的時態概念，表達動作或狀態發生的時間](072_tense/) 
+- [072 - 表示動作直接受詞的格位，日文主要用「を」助詞標記](072_accusative_case/) 
+- [072 - 日文被動形的文法概念與用法](072_ukemi/) 
+- [073 - "表示動作手段、方法或工具的語法格，對應日語的「で」格"](073_instrumental_case/) 
+- [073 - "禮貌作為語用策略的概念"](073_politeness/) 
+- [073 - "表示動作或移動方向的格位，日文中主要由「に」「へ」助詞表達"](073_allative_case/) 
 
 ---
-最後更新: 2025-12-26 14:23:25
+最後更新: 2025-12-27 14:53:21

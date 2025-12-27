@@ -19,7 +19,7 @@ content_verification:
   japanese: true
   english: true
   chinese: true
-  examples_count: 0
+  examples_count: 3
   pending_links: []
 
 # 連結狀態

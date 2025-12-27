@@ -16,11 +16,16 @@ version_history:
 
 # 內容驗證
 content_verification:
-  japanese: false
+  japanese: true
   english: true
   chinese: true
-  examples_count: 0
-  pending_links: []
+  examples_count: 3
+  pending_links:
+    - 固定金利
+    - 変動金利
+    - 頭金
+    - マイホーム
+    - 金融機関
 
 # 連結狀態
 link_status:

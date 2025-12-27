@@ -1,31 +1,37 @@
 ---
+id: 68
 title: "仮定条件"
-stage: pending
+stage: draft
 tags:
   - grammar
   - conditional
   - sentence-pattern
 created: 2025-12-26
-updated: 2025-12-26
+updated: 2025-12-27
 
 # 版本歷史
 version_history:
+  - version: "1.5.0"
+    stage: "draft"
+    date: 2025-12-27
   - version: "1.5.0"
     stage: "pending"
     date: 2025-12-26
 
 # 內容驗證
 content_verification:
-  japanese: false
+  japanese: true
   english: true
-  chinese: false
-  examples_count: 0
+  chinese: true
+  examples_count: 8
   pending_links:
     - "条件節"
     - "仮定法"
     - "因果関係"
     - "時間的順序性"
     - "モダリティ"
+    - "従属節"
+    - "アスペクト"
 
 # 連結狀態
 link_status:

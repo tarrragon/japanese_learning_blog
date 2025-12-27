@@ -21,7 +21,7 @@ id,japanese,category,frequency,priority,source_count,stage
 20,たら,grammar,3,High,3,draft
 21,た形,grammar,2,Medium,2,draft
 22,だから,grammar,2,Medium,2,draft
-23,文法句型,grammar,2,Medium,2,pending
+23,文法句型,grammar,2,Medium,2,draft
 24,商務場合,grammar,2,Medium,2,draft
 25,main_sub_action.md,concept,2,Medium,2,draft
 26,written_language.md,concept,2,Medium,2,draft
@@ -35,13 +35,13 @@ id,japanese,category,frequency,priority,source_count,stage
 34,daily_conversation.md,concept,2,Medium,2,draft
 35,可能形 vs できる,comparison,2,Medium,2,draft
 36,受身形 vs 可能形（一段動詞）,comparison,2,Medium,2,draft
-37,041_verb_classification.md,concept,2,Medium,2,pending
-38,040_teineitai_vs_futsutai,comparison,2,Medium,2,pending
+37,041_verb_classification.md,concept,2,Medium,2,draft
+38,040_teineitai_vs_futsutai,comparison,2,Medium,2,draft
 39,sentence_types.md,concept,2,Medium,2,draft
 40,ビジネス,grammar,2,Medium,2,draft
-41,供給,grammar,2,Medium,2,pending
-42,資本,grammar,2,Medium,2,pending
-43,確定申告,grammar,2,Medium,2,pending
+41,供給,grammar,2,Medium,2,draft
+42,資本,grammar,2,Medium,2,draft
+43,確定申告,grammar,2,Medium,2,draft
 44,いただく,grammar,2,Medium,2,draft
 45,お〜になる,grammar,2,Medium,2,draft
 46,商務敬語,grammar,2,Medium,2,draft
@@ -55,7 +55,7 @@ id,japanese,category,frequency,priority,source_count,stage
 54,起こす,grammar,1,Low,1,draft
 55,起こる,verb-u,1,Low,1,draft
 56,ない形,grammar,1,Low,1,draft
-57,見える,grammar,1,Low,1,pending
+57,見える,grammar,1,Low,1,draft
 58,授受表現,grammar,1,Low,1,draft
 59,さしあげる,grammar,1,Low,1,draft
 60,物理擁有 vs 抽象擁有,comparison,1,Low,1,draft
@@ -63,12 +63,12 @@ id,japanese,category,frequency,priority,source_count,stage
 62,脱ぐ,grammar,1,Low,1,draft
 63,接續詞概念,concept,1,Low,1,draft
 64,時間順序表達,grammar,1,Low,1,draft
-65,連續動作表達,grammar,1,Low,1,pending
-66,日常會話語域,grammar,1,Low,1,pending
-67,書面語與口語,grammar,1,Low,1,pending
+65,連續動作表達,grammar,1,Low,1,draft
+66,日常會話語域,grammar,1,Low,1,draft
+67,書面語與口語,grammar,1,Low,1,draft
 68,列舉表達,grammar,1,Low,1,draft
 69,指示詞系統,grammar,1,Low,1,draft
-70,起點助詞から,grammar,1,Low,1,pending
+70,起點助詞から,grammar,1,Low,1,draft
 71,そのため,grammar,1,Low,1,draft
 72,したがって,grammar,1,Low,1,draft
 73,因果關係表達,grammar,1,Low,1,draft
@@ -89,58 +89,58 @@ id,japanese,category,frequency,priority,source_count,stage
 88,意志形,grammar,1,Low,1,draft
 89,ましょう,grammar,1,Low,1,draft
 90,にする,verb,1,Low,1,draft
-91,正式度,grammar,1,Low,1,pending
-92,話題管理,grammar,1,Low,1,pending
-93,口語特徵,grammar,1,Low,1,pending
-94,慣習,grammar,1,Low,1,pending
-95,制度,grammar,1,Low,1,pending
-96,持續狀態,grammar,1,Low,1,pending
-97,社會規則,grammar,1,Low,1,pending
-98,組織規定,grammar,1,Low,1,pending
-99,setsuzoku_joshi.md,concept,1,Low,1,pending
-100,masu_form.md,concept,1,Low,1,pending
-101,casual_conversation.md,concept,1,Low,1,pending
-102,jikan_hyougen,grammar,1,Low,1,pending
-103,shusetsu,grammar,1,Low,1,pending
-104,juuzoku_setsu,grammar,1,Low,1,pending
-105,verb_classification,grammar,1,Low,1,pending
-106,verb_forms,grammar,1,Low,1,pending
-107,meishi,grammar,1,Low,1,pending
-108,casual-conversation,grammar,1,Low,1,pending
-109,formal-context,grammar,1,Low,1,pending
-110,jikanteki_junjo,grammar,1,Low,1,pending
-111,ato_de,grammar,1,Low,1,pending
+91,正式度,grammar,1,Low,1,draft
+92,話題管理,grammar,1,Low,1,draft
+93,口語特徵,grammar,1,Low,1,draft
+94,慣習,grammar,1,Low,1,draft
+95,制度,grammar,1,Low,1,draft
+96,持續狀態,grammar,1,Low,1,draft
+97,社會規則,grammar,1,Low,1,draft
+98,組織規定,grammar,1,Low,1,draft
+99,setsuzoku_joshi.md,concept,1,Low,1,draft
+100,masu_form.md,concept,1,Low,1,draft
+101,casual_conversation.md,concept,1,Low,1,draft
+102,jikan_hyougen,grammar,1,Low,1,draft
+103,shusetsu,grammar,1,Low,1,draft
+104,juuzoku_setsu,grammar,1,Low,1,draft
+105,verb_classification,grammar,1,Low,1,draft
+106,verb_forms,grammar,1,Low,1,draft
+107,meishi,grammar,1,Low,1,draft
+108,casual-conversation,grammar,1,Low,1,draft
+109,formal-context,grammar,1,Low,1,draft
+110,jikanteki_junjo,grammar,1,Low,1,draft
+111,ato_de,grammar,1,Low,1,draft
 112,predicate.md,concept,1,Low,1,draft
 113,polite_expression.md,concept,1,Low,1,draft
-114,i_adjective.md,concept,1,Low,1,pending
-115,na_adjective.md,concept,1,Low,1,pending
-116,wa.md,concept,1,Low,1,pending
-117,wo.md,concept,1,Low,1,pending
-118,對比辨析,grammar,1,Low,1,pending
-119,hitsuyousei,grammar,1,Low,1,pending
-120,gimu,grammar,1,Low,1,pending
-121,grammar_pattern,grammar,1,Low,1,pending
-122,conditional_forms,grammar,1,Low,1,pending
-123,negation,grammar,1,Low,1,pending
-124,shakai_kisoku,grammar,1,Low,1,pending
-125,houritsu,grammar,1,Low,1,pending
-126,yakusoku,grammar,1,Low,1,pending
-127,sekinin,grammar,1,Low,1,pending
-128,bunmyaku,grammar,1,Low,1,pending
-129,speaker,grammar,1,Low,1,pending
-130,choice,grammar,1,Low,1,pending
-131,formal,grammar,1,Low,1,pending
-132,teineigo,grammar,1,Low,1,pending
-133,daily_conversation,grammar,1,Low,1,pending
-134,contraction,grammar,1,Low,1,pending
-135,nai_form,grammar,1,Low,1,pending
-136,hypothetical_condition,grammar,1,Low,1,pending
-137,logical_structure,grammar,1,Low,1,pending
-138,grammar_pattern.md,concept,1,Low,1,pending
-139,to_quotative.md,concept,1,Low,1,pending
-140,tense.md,concept,1,Low,1,pending
-141,hearsay_expressions.md,concept,1,Low,1,pending
-142,politeness.md,concept,1,Low,1,pending
+114,i_adjective.md,concept,1,Low,1,draft
+115,na_adjective.md,concept,1,Low,1,draft
+116,wa.md,concept,1,Low,1,draft
+117,wo.md,concept,1,Low,1,draft
+118,對比辨析,grammar,1,Low,1,draft
+119,hitsuyousei,grammar,1,Low,1,draft
+120,gimu,grammar,1,Low,1,draft
+121,grammar_pattern,grammar,1,Low,1,draft
+122,conditional_forms,grammar,1,Low,1,draft
+123,negation,grammar,1,Low,1,draft
+124,shakai_kisoku,grammar,1,Low,1,draft
+125,houritsu,grammar,1,Low,1,draft
+126,yakusoku,grammar,1,Low,1,draft
+127,sekinin,grammar,1,Low,1,draft
+128,bunmyaku,grammar,1,Low,1,draft
+129,speaker,grammar,1,Low,1,draft
+130,choice,grammar,1,Low,1,draft
+131,formal,grammar,1,Low,1,draft
+132,teineigo,grammar,1,Low,1,draft
+133,daily_conversation,grammar,1,Low,1,draft
+134,contraction,grammar,1,Low,1,draft
+135,nai_form,grammar,1,Low,1,draft
+136,hypothetical_condition,grammar,1,Low,1,draft
+137,logical_structure,grammar,1,Low,1,draft
+138,grammar_pattern.md,concept,1,Low,1,draft
+139,to_quotative.md,concept,1,Low,1,draft
+140,tense.md,concept,1,Low,1,draft
+141,hearsay_expressions.md,concept,1,Low,1,draft
+142,politeness.md,concept,1,Low,1,draft
 143,たい形,grammar,1,Low,1,draft
 144,ましょう形,grammar,1,Low,1,draft
 145,ながら形,grammar,1,Low,1,draft
@@ -156,12 +156,12 @@ id,japanese,category,frequency,priority,source_count,stage
 155,imperative_form.md,concept,1,Low,1,draft
 156,particle-system.md,concept,1,Low,1,draft
 157,agglutinative-language.md,concept,1,Low,1,draft
-158,indo-european-languages.md,concept,1,Low,1,pending
-159,nominative-case.md,concept,1,Low,1,pending
-160,accusative-case.md,concept,1,Low,1,pending
-161,dative-case.md,concept,1,Low,1,pending
-162,instrumental-case.md,concept,1,Low,1,pending
-163,allative-case.md,concept,1,Low,1,pending
+158,indo-european-languages.md,concept,1,Low,1,draft
+159,nominative-case.md,concept,1,Low,1,draft
+160,accusative-case.md,concept,1,Low,1,draft
+161,dative-case.md,concept,1,Low,1,draft
+162,instrumental-case.md,concept,1,Low,1,draft
+163,allative-case.md,concept,1,Low,1,draft
 164,word-order.md,concept,1,Low,1,draft
 165,topicalization.md,concept,1,Low,1,draft
 166,information-structure.md,concept,1,Low,1,draft
@@ -186,16 +186,16 @@ id,japanese,category,frequency,priority,source_count,stage
 185,なければならない,grammar,1,Low,1,draft
 186,なくてもいい,grammar,1,Low,1,draft
 187,ないでください,grammar,1,Low,1,draft
-188,overview.md,concept,1,Low,1,pending
+188,overview.md,concept,1,Low,1,draft
 189,keigo_system.md,concept,1,Low,1,draft
-190,002_kanoukei.md,concept,1,Low,1,pending
-191,001_ukemi.md,concept,1,Low,1,pending
-192,038_given_new_information.md,concept,1,Low,1,pending
-193,business_conversation.md,concept,1,Low,1,pending
-194,social_hierarchy.md,concept,1,Low,1,pending
-195,shakaijin.md,concept,1,Low,1,pending
-196,communication,grammar,1,Low,1,pending
-197,001_sonkeigo_overview.md,concept,1,Low,1,pending
+190,002_kanoukei.md,concept,1,Low,1,draft
+191,001_ukemi.md,concept,1,Low,1,draft
+192,038_given_new_information.md,concept,1,Low,1,draft
+193,business_conversation.md,concept,1,Low,1,draft
+194,social_hierarchy.md,concept,1,Low,1,draft
+195,shakaijin.md,concept,1,Low,1,draft
+196,communication,grammar,1,Low,1,draft
+197,001_sonkeigo_overview.md,concept,1,Low,1,draft
 198,ほしい - Want (noun),adj-i,1,Low,1,draft
 199,〜たがる - Third-person desire,grammar,1,Low,1,draft
 200,〜と思う - I think,grammar,1,Low,1,draft
@@ -205,18 +205,18 @@ id,japanese,category,frequency,priority,source_count,stage
 204,te_kara.md,concept,1,Low,1,draft
 205,〜たことがある,verb,1,Low,1,draft
 206,〜たら,grammar,1,Low,1,draft
-207,039_obligation_expressions,grammar,1,Low,1,pending
+207,039_obligation_expressions,grammar,1,Low,1,draft
 208,疑問文,grammar,1,Low,1,draft
 209,不定代詞,grammar,1,Low,1,draft
-210,036_teineigo_concept.md,concept,1,Low,1,pending
+210,036_teineigo_concept.md,concept,1,Low,1,draft
 211,auxiliary_verb.md,concept,1,Low,1,draft
 212,predicate_types.md,concept,1,Low,1,draft
 213,adjective_types.md,concept,1,Low,1,draft
 214,sentence_structure.md,concept,1,Low,1,draft
 215,daily-conversation.md,concept,1,Low,1,draft
-216,040_teineitai_vs_futsutai.md,comparison,1,Low,1,pending
-217,007_masu_form.md,concept,1,Low,1,pending
-218,047_polite_expression.md,concept,1,Low,1,pending
+216,040_teineitai_vs_futsutai.md,comparison,1,Low,1,draft
+217,007_masu_form.md,concept,1,Low,1,draft
+218,047_polite_expression.md,concept,1,Low,1,draft
 219,jlpt_levels.md,concept,1,Low,1,draft
 220,godan_verbs.md,concept,1,Low,1,draft
 221,ichidan_verbs.md,concept,1,Low,1,draft
@@ -227,7 +227,7 @@ id,japanese,category,frequency,priority,source_count,stage
 226,意向形（普通形）- Plain Volitional,grammar,1,Low,1,draft
 227,〜てください - Please do,grammar,1,Low,1,draft
 228,〜なければならない - Obligation,grammar,1,Low,1,draft
-229,Japanese Social Rules and Etiquette,grammar,1,Low,1,pending
+229,Japanese Social Rules and Etiquette,grammar,1,Low,1,draft
 230,Politeness Levels in Japanese,grammar,1,Low,1,draft
 231,〜てある - Preparatory State,verb,1,Low,1,draft
 232,〜ているところ - In the middle of,verb,1,Low,1,draft
@@ -235,73 +235,73 @@ id,japanese,category,frequency,priority,source_count,stage
 234,動作動詞 vs 狀態動詞,comparison,1,Low,1,draft
 235,瞬間動詞,grammar,1,Low,1,draft
 236,經濟活動,grammar,1,Low,1,draft
-237,利益,grammar,1,Low,1,pending
+237,利益,grammar,1,Low,1,draft
 238,營利活動,noun,1,Low,1,draft
 239,非營利,noun,1,Low,1,draft
 240,公共事業,grammar,1,Low,1,draft
-241,金融市場,grammar,1,Low,1,pending
+241,金融市場,grammar,1,Low,1,draft
 242,資金調達,noun,1,Low,1,draft
 243,給付,noun,1,Low,1,draft
 244,固定資本,grammar,1,Low,1,draft
-245,設備投資,grammar,1,Low,1,pending
-246,消費者,grammar,1,Low,1,pending
-247,市場,grammar,1,Low,1,pending
-248,分配,grammar,1,Low,1,pending
+245,設備投資,grammar,1,Low,1,draft
+246,消費者,grammar,1,Low,1,draft
+247,市場,grammar,1,Low,1,draft
+248,分配,grammar,1,Low,1,draft
 249,割当,noun,1,Low,1,draft
-250,為替,grammar,1,Low,1,pending
-251,円高,grammar,1,Low,1,pending
-252,円安,grammar,1,Low,1,pending
+250,為替,grammar,1,Low,1,draft
+251,円高,grammar,1,Low,1,draft
+252,円安,grammar,1,Low,1,draft
 253,輸出,noun,1,Low,1,draft
-254,中央銀行,grammar,1,Low,1,pending
-255,税額控除,grammar,1,Low,1,pending
-256,住宅ローン,grammar,1,Low,1,pending
+254,中央銀行,grammar,1,Low,1,draft
+255,税額控除,grammar,1,Low,1,draft
+256,住宅ローン,grammar,1,Low,1,draft
 257,經營管理,noun,1,Low,1,draft
 258,決策制定,noun,1,Low,1,draft
 259,財務資訊,noun,1,Low,1,draft
 260,帳簿,noun,1,Low,1,draft
 261,稅務申報,noun,1,Low,1,draft
 262,財務報表,grammar,1,Low,1,draft
-263,支付,grammar,1,Low,1,pending
-264,精算,grammar,1,Low,1,pending
-265,透明性,grammar,1,Low,1,pending
-266,信用,grammar,1,Low,1,pending
+263,支付,grammar,1,Low,1,draft
+264,精算,grammar,1,Low,1,draft
+265,透明性,grammar,1,Low,1,draft
+266,信用,grammar,1,Low,1,draft
 267,知識,noun,1,Low,1,draft
 268,經營者,noun,1,Low,1,draft
 269,財務人員,noun,1,Low,1,draft
 270,投資者,noun,1,Low,1,draft
 271,債權人,noun,1,Low,1,draft
-272,所得控除,grammar,1,Low,1,pending
+272,所得控除,grammar,1,Low,1,draft
 273,控除,noun,1,Low,1,draft
-274,renyoukei.md,concept,1,Low,1,pending
-275,meishi.md,concept,1,Low,1,pending
-276,setsumei-bun.md,concept,1,Low,1,pending
-277,productivity.md,concept,1,Low,1,pending
-278,mokutekigo.md,concept,1,Low,1,pending
-279,gakushuusha.md,concept,1,Low,1,pending
-280,nominal_suffix.md,concept,1,Low,1,pending
-281,masu-form.md,concept,1,Low,1,pending
+274,renyoukei.md,concept,1,Low,1,draft
+275,meishi.md,concept,1,Low,1,draft
+276,setsumei-bun.md,concept,1,Low,1,draft
+277,productivity.md,concept,1,Low,1,draft
+278,mokutekigo.md,concept,1,Low,1,draft
+279,gakushuusha.md,concept,1,Low,1,draft
+280,nominal_suffix.md,concept,1,Low,1,draft
+281,masu-form.md,concept,1,Low,1,draft
 282,になる,grammar,1,Low,1,draft
-283,いただけ,grammar,1,Low,1,pending
-284,お/ご～いただく,grammar,1,Low,1,pending
-285,くださる・いただく,grammar,1,Low,1,pending
-286,ご~なさる,grammar,1,Low,1,pending
-287,お~いたす,grammar,1,Low,1,pending
-288,お/ご~なさる,grammar,1,Low,1,pending
-289,お/ご~になる,grammar,1,Low,1,pending
-290,お/ご~いたす,grammar,1,Low,1,pending
-291,お/ご~する,verb,1,Low,1,pending
+283,いただけ,grammar,1,Low,1,draft
+284,お/ご～いただく,grammar,1,Low,1,draft
+285,くださる・いただく,grammar,1,Low,1,draft
+286,ご~なさる,grammar,1,Low,1,draft
+287,お~いたす,grammar,1,Low,1,draft
+288,お/ご~なさる,grammar,1,Low,1,draft
+289,お/ご~になる,grammar,1,Low,1,draft
+290,お/ご~いたす,grammar,1,Low,1,draft
+291,お/ご~する,verb,1,Low,1,draft
 292,走る,verb-u,1,Low,1,draft
 293,行く,verb-u,1,Low,1,draft
-294,駅,grammar,1,Low,1,pending
-295,空港,grammar,1,Low,1,pending
+294,駅,grammar,1,Low,1,draft
+295,空港,grammar,1,Low,1,draft
 296,売る,grammar,1,Low,1,draft
 297,聞こえる,grammar,1,Low,1,draft
 298,尋ねる,grammar,1,Low,1,draft
 299,引用文法,grammar,1,Low,1,draft
 300,謙讓語概念,concept,1,Low,1,draft
 301,丁寧語概念,concept,1,Low,1,draft
-302,尊敬助動詞れる・られる,grammar,1,Low,1,pending
-303,ご〜になる,grammar,1,Low,1,pending
+302,尊敬助動詞れる・られる,grammar,1,Low,1,draft
+303,ご〜になる,grammar,1,Low,1,draft
 304,いらっしゃる,grammar,1,Low,1,draft
 305,おっしゃる,grammar,1,Low,1,draft
 306,召し上がる,grammar,1,Low,1,draft
@@ -326,23 +326,23 @@ id,japanese,category,frequency,priority,source_count,stage
 325,疑問形式,grammar,1,Low,1,draft
 326,～でしょうか,grammar,1,Low,1,draft
 327,pragmatics,grammar,1,Low,1,draft
-328,communication_strategy,grammar,1,Low,1,pending
-329,interpersonal_relationship,grammar,1,Low,1,pending
+328,communication_strategy,grammar,1,Low,1,draft
+329,interpersonal_relationship,grammar,1,Low,1,draft
 330,formality_level,grammar,1,Low,1,draft
 331,group_harmony,concept,1,Low,1,draft
-332,explicit_agreement,grammar,1,Low,1,pending
-333,implicit_communication,grammar,1,Low,1,pending
+332,explicit_agreement,grammar,1,Low,1,draft
+333,implicit_communication,grammar,1,Low,1,draft
 334,ishin_denshin,grammar,1,Low,1,draft
 335,kuuki_wo_yomu,grammar,1,Low,1,draft
 336,aizuchi,grammar,1,Low,1,draft
 337,business_communication,concept,1,Low,1,draft
-338,keigo_overview,grammar,1,Low,1,pending
+338,keigo_overview,grammar,1,Low,1,draft
 339,hierarchy,grammar,1,Low,1,draft
 340,respect,grammar,1,Low,1,draft
-341,casual_conversation,grammar,1,Low,1,pending
-342,004_pragmatics,grammar,1,Low,1,pending
-343,003_psychological_distance,grammar,1,Low,1,pending
-344,001_uchi_soto,grammar,1,Low,1,pending
+341,casual_conversation,grammar,1,Low,1,draft
+342,004_pragmatics,grammar,1,Low,1,draft
+343,003_psychological_distance,grammar,1,Low,1,draft
+344,001_uchi_soto,grammar,1,Low,1,draft
 345,subject_prominent_language.md,concept,1,Low,1,draft
 346,〜ている vs 〜てある,comparison,1,Low,1,draft
 347,〜てくる・〜ていく,verb,1,Low,1,draft
@@ -351,44 +351,44 @@ id,japanese,category,frequency,priority,source_count,stage
 350,關西方言特徵,grammar,1,Low,1,draft
 351,謙讓語系統,grammar,1,Low,1,draft
 352,進行形 vs 狀態形的區別,comparison,1,Low,1,draft
-353,ある - to be/exist (inanimate),verb,1,Low,1,pending
-354,持つ - to hold/have,grammar,1,Low,1,pending
+353,ある - to be/exist (inanimate),verb,1,Low,1,draft
+354,持つ - to hold/have,grammar,1,Low,1,draft
 355,いる vs ある 詳細比較,comparison,1,Low,1,draft
 356,〜ている 的多重意義,verb,1,Low,1,draft
-357,いらっしゃる・おる - いる的敬語,grammar,1,Low,1,pending
+357,いらっしゃる・おる - いる的敬語,grammar,1,Low,1,draft
 358,連用形,grammar,1,Low,1,draft
-359,副詞的位置,grammar,1,Low,1,pending
+359,副詞的位置,grammar,1,Low,1,draft
 360,良い／いい,grammar,1,Low,1,draft
 361,悪い,grammar,1,Low,1,draft
-362,degree-adverbs,grammar,1,Low,1,pending
-363,negation-forms,grammar,1,Low,1,pending
-364,daily-conversation,grammar,1,Low,1,pending
-365,modest-expression,grammar,1,Low,1,pending
-366,nuance,grammar,1,Low,1,pending
-367,nai-form,grammar,1,Low,1,pending
+362,degree-adverbs,grammar,1,Low,1,draft
+363,negation-forms,grammar,1,Low,1,draft
+364,daily-conversation,grammar,1,Low,1,draft
+365,modest-expression,grammar,1,Low,1,draft
+366,nuance,grammar,1,Low,1,draft
+367,nai-form,grammar,1,Low,1,draft
 368,引用表現,grammar,1,Low,1,draft
 369,並列助詞,grammar,1,Low,1,draft
 370,日常會話,grammar,1,Low,1,draft
 371,へ,particle,1,Low,1,draft
-372,いる動詞,verb,1,Low,1,pending
-373,ある動詞,verb,1,Low,1,pending
+372,いる動詞,verb,1,Low,1,draft
+373,ある動詞,verb,1,Low,1,draft
 374,に vs へ 方向用法比較,comparison,1,Low,1,draft
-375,に vs から 起終點比較,comparison,1,Low,1,pending
+375,に vs から 起終點比較,comparison,1,Low,1,draft
 376,動詞連用形+に+行く/来る,grammar,1,Low,1,draft
 377,～になる,grammar,1,Low,1,draft
 378,時間+に,grammar,1,Low,1,draft
 379,格助詞系統,grammar,1,Low,1,draft
 380,他動詞與自動詞,grammar,1,Low,1,draft
-381,文法術語,grammar,1,Low,1,pending
+381,文法術語,grammar,1,Low,1,draft
 382,移動動詞,grammar,1,Low,1,draft
-383,日語音韻史,grammar,1,Low,1,pending
+383,日語音韻史,grammar,1,Low,1,draft
 384,日語基本句型,grammar,1,Low,1,draft
 385,を vs で：場所表達的區別,comparison,1,Low,1,draft
 386,を vs に：移動表達的區別,comparison,1,Low,1,draft
 387,時間の長さと継続,grammar,1,Low,1,draft
 388,期限表現,grammar,1,Low,1,draft
-389,までと動詞の組み合わせ,grammar,1,Low,1,pending
-390,までに と動詞の組み合わせ,grammar,1,Low,1,pending
+389,までと動詞の組み合わせ,grammar,1,Low,1,draft
+390,までに と動詞の組み合わせ,grammar,1,Low,1,draft
 391,時点 vs 時間の長さ,comparison,1,Low,1,draft
 392,継続動作 vs 完了動作,comparison,1,Low,1,draft
 393,主題評述結構,grammar,1,Low,1,draft

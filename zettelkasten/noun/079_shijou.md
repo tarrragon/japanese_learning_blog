@@ -14,10 +14,10 @@ version_history:
 
 # 內容驗證
 content_verification:
-  japanese: false
+  japanese: true
   english: true
   chinese: true
-  examples_count: 0
+  examples_count: 5
   pending_links: []
 
 # 連結狀態
