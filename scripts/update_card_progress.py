@@ -161,7 +161,7 @@ class CardProgressUpdater:
             self._print(f"   批次: {batch}")
 
         # v1.5.0: 同步更新 YAML frontmatter
-        if stage and 'path' in card:
+        if stage and card.get('path', '').strip():
             yaml_updated = self.update_yaml_stage(card['path'], stage)
             if yaml_updated:
                 self._print(f"   YAML: 已同步更新")
@@ -176,8 +176,8 @@ class CardProgressUpdater:
         else:
             full_path = ZETTELKASTEN_DIR / card_path
 
-        if not full_path.exists():
-            self._print(f"   ⚠️ 卡片檔案不存在: {full_path}")
+        if not full_path.exists() or not full_path.is_file():
+            self._print(f"   ⚠️ 卡片檔案不存在或不是檔案: {full_path}")
             return False
 
         try:
