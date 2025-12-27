@@ -1,7 +1,7 @@
 # Concept 索引
 
-最後編號：128
-總卡片數：201
+最後編號：191
+總卡片數：234
 
 ## 卡片列表
 
@@ -171,42 +171,75 @@
 - [120 - 学習者（學習者）- 語言學習領域核心概念](120_gakushuusha/) 
 - [121 - 日語名詞後綴的概念與用法](121_nominal_suffix/) 
 - [122 - 生產力，指投入與產出的效率比](122_productivity/) 
-- [123 - ](123_keijoushuushi/) #economics #finance #trade
-- [123 - 債券](123_saiken/) #finance #economics
-- [123 - ](123_keizaishihyou/) 
-- [123 - 經濟景氣動向、經濟發展趨勢](123_keikidoukou/) 
-- [123 - ](123_shijokeizai/) #economics #経済制度
-- [123 - 所得稅，政府對個人或企業所得徵收的稅款](123_shotokuzei/) 
-- [123 - 税務制度與稅金相關概念的基礎知識](123_zeikin/) 
 - [123 - GDP](123_GDP/) 
-- [123 - 自由貿易協定](123_jiyuuboekikyoutei/) 
-- [123 - ](123_kinyuuseisaku/) 
-- [123 - 財政政策](123_zaiseiseisaku/) #economics #policy
-- [123 - アスペクト](123_aspect/) #grammar #verb #aspect
-- [124 - 不動産（ふどうさん）](124_fudousan/) #concept #economics #legal
-- [124 - ウチとソト](124_uchi_soto/) #culture #society #interpersonal
-- [124 - 資産運用](124_shisan_unyou/) 
-- [124 - 尊敬語概念](124_sonkeigo_concept/) 
-- [125 - 輸出入](125_yushutsunyuu/) 
-- [125 - 意味論](125_imiron/) #言語学 #語言 #意味
-- [125 - 名目成長率](125_meimoku_seichouritsu/) 
-- [125 - 物價，商品和服務的整體價格水準](125_bukka/) 
-- [125 - ](125_gaika_junbi/) 
-- [125 - 比較優位](125_hikaku_yuui/) 
-- [125 - ](125_jisshitsu_seichouritsu/) #経済学 #マクロ経済 #GDP
-- [125 - 金融機構，提供金融服務的機構](125_kinyuu_kikan/) 
-- [126 - 察言觀色、讀空氣的概念、日本文化中的社交智慧](126_kuuki_yomu/) 
-- [126 - ](126_hanashi_kaki_kotoba/) #language-style #formal-informal #communication
-- [126 - ](126_shokuba_bunka/) #culture #workplace #business
-- [126 - ](126_jouge_kankei/) #culture #society #keigo
-- [126 - 察する文化](126_sassuru_bunka/) 
-- [127 - 商務環境中敬語使用的等級體系和層次結構](127_bijinesu_keigo_kaidan/) 
-- [128 - 謙讓語概念](128_kenjougo_concept/) 
-- [128 - 會話含意理論](128_conversational_implicature/) #語用論 #會話分析 #Grice理論
-- [128 - 時態](128_jisei/) #grammar #tense #verb
-- [128 - 詞彙分級系統](128_goi_bunkyuu/) 
-- [128 - ](128_speech_act_theory/) #linguistics #pragmatics #communication
-- [128 - 言外の意](128_gengai_no_i/) 
+- [124 - アスペクト](124_aspect/) #grammar #verb #aspect
+- [125 - 自由貿易協定](125_jiyuuboekikyoutei/) 
+- [126 - ](126_keijoushuushi/) #economics #finance #trade
+- [127 - 經濟景氣動向、經濟發展趨勢](127_keikidoukou/) 
+- [128 - ](128_keizaishihyou/) 
+- [129 - ](129_kinyuuseisaku/) 
+- [130 - 債券](130_saiken/) #finance #economics
+- [131 - ](131_shijokeizai/) #economics #経済制度
+- [132 - 所得稅，政府對個人或企業所得徵收的稅款](132_shotokuzei/) 
+- [133 - 財政政策](133_zaiseiseisaku/) #economics #policy
+- [134 - 税務制度與稅金相關概念的基礎知識](134_zeikin/) 
+- [135 - 不動産（ふどうさん）](135_fudousan/) #concept #economics #legal
+- [136 - 資産運用](136_shisan_unyou/) 
+- [137 - 尊敬語概念](137_sonkeigo_concept/) 
+- [138 - ウチとソト](138_uchi_soto/) #culture #society #interpersonal
+- [139 - 物價，商品和服務的整體價格水準](139_bukka/) 
+- [140 - ](140_gaika_junbi/) 
+- [141 - 比較優位](141_hikaku_yuui/) 
+- [142 - 意味論](142_imiron/) #言語学 #語言 #意味
+- [143 - ](143_jisshitsu_seichouritsu/) #経済学 #マクロ経済 #GDP
+- [144 - 金融機構，提供金融服務的機構](144_kinyuu_kikan/) 
+- [145 - 名目成長率](145_meimoku_seichouritsu/) 
+- [146 - 輸出入](146_yushutsunyuu/) 
+- [147 - ](147_hanashi_kaki_kotoba/) #language-style #formal-informal #communication
+- [148 - ](148_jouge_kankei/) #culture #society #keigo
+- [149 - 察言觀色、讀空氣的概念、日本文化中的社交智慧](149_kuuki_yomu/) 
+- [150 - 察する文化](150_sassuru_bunka/) 
+- [151 - ](151_shokuba_bunka/) #culture #workplace #business
+- [152 - 商務環境中敬語使用的等級體系和層次結構](152_bijinesu_keigo_kaidan/) 
+- [153 - 會話含意理論](153_conversational_implicature/) #語用論 #會話分析 #Grice理論
+- [154 - 言外の意](154_gengai_no_i/) 
+- [155 - 詞彙分級系統](155_goi_bunkyuu/) 
+- [156 - 時態](156_jisei/) #grammar #tense #verb
+- [157 - 謙讓語概念](157_kenjougo_concept/) 
+- [158 - ](158_speech_act_theory/) #linguistics #pragmatics #communication
+- [159 - 学習の進捗を示す重要な段階或いは達成指標](159_gakushuu_milestone/) 
+- [160 - ](160_gitaigo_system/) 
+- [161 - ご覧になる vs 拝見する](161_goran_vs_haiken/) #敬語 #尊敬語 #謙讓語
+- [162 - いらっしゃる vs 参る](162_irassharu_vs_mairu/) 
+- [163 - ウチ・ソト理論 - 日本社會的內外意識理論](163_uchi_soto_riron/) 
+- [164 - 電子マネー](164_denshi_money/) #technology #money #modern-life
+- [165 - 純資産](165_jun_shisan/) 
+- [166 - 需要と供給](166_juyou_kyoukyuu/) #経済 #ビジネス #基本概念
+- [167 - 株式](167_kabushiki/) #経済 #金融 #ビジネス
+- [168 - ](168_kawase_rate/) 
+- [169 - 国際法](169_kokusaihou/) 
+- [170 - ](170_ryouteki_kanwa/) #経済 #金融政策 #中央銀行
+- [171 - 政策](171_seisaku/) 
+- [172 - "所得"](172_shotoku/) 
+- [173 - ](173_yuushi/) 
+- [174 - ](174_zaisei/) 
+- [175 - 焦點 (Focus)](175_focus/) 
+- [176 - ](176_contrastive_focus/) 
+- [177 - 技術移転](177_gijutsu_iten/) 
+- [178 - 基礎貨幣，中央銀行供應的貨幣總量](178_monetary_base/) 
+- [179 - ](179_seisaku_teigen/) 
+- [180 - 正式道歉表達](180_seishiki_shazai/) #apology #formal-expression #politeness
+- [181 - 金融政策](181_金融政策/) #domain/経済学 #concept/政策
+- [182 - 税金、稅收制度的經濟概念](182_税金/) 
+- [183 - 経済指標](183_経済指標/) #domain/経済学 #concept/統計
+- [184 - "財政政策"](184_財政政策/) 
+- [185 - "經常收支"](185_経常収支/) 
+- [186 - 所得税](186_所得税/) 
+- [187 - アスペクト](187_アスペクト/) 
+- [188 - 景気動向](188_景気動向/) #domain/経済学 #concept/景気
+- [189 - 市場経済](189_市場経済/) #domain/経済学 #concept/経済体制
+- [190 - "債券"](190_債券/) 
+- [191 - 國家間的貿易自由化協議，消除關稅和貿易壁壘](191_自由貿易協定/) 
 
 ---
-最後更新: 2025-12-27 17:53:17
+最後更新: 2025-12-27 22:29:27
