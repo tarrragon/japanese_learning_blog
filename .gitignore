@@ -31,3 +31,6 @@ static/data/
 
 # Skill 打包檔案（手動發布用，不需版控）
 *.skill
+
+# Claude Code 設定（覆蓋全域 gitignore，統一權限設定）
+!.claude/settings.local.json

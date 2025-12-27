@@ -1,0 +1,32 @@
+{
+  "permissions": {
+    "allow": [
+      "Write(path:/Users/tarragon/Projects/japanese_learning_blog/zettelkasten/**)",
+      "Edit(path:/Users/tarragon/Projects/japanese_learning_blog/zettelkasten/**)",
+      "Write(path:/Users/tarragon/Projects/japanese_learning_blog/doc/worklog/**)",
+      "Edit(path:/Users/tarragon/Projects/japanese_learning_blog/doc/worklog/**)",
+      "Bash(uv run:*)",
+      "Bash(python3:*)",
+      "Bash(git:*)",
+      "Bash(cat:*)",
+      "Bash(ls:*)",
+      "Bash(find:*)",
+      "Bash(tree:*)",
+      "Bash(wc:*)",
+      "Bash(grep:*)",
+      "Bash(head:*)",
+      "Bash(basename:*)",
+      "Bash(echo:*)",
+      "Bash(printf:*)",
+      "Bash(tr:*)",
+      "Bash(test:*)",
+      "Bash(bun test:*)",
+      "Bash(bun build:*)",
+      "Bash(claude plugin:*)",
+      "Bash(gh:*)",
+      "Bash(curl:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
