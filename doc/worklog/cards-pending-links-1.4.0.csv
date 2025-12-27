@@ -1,397 +1,870 @@
-id,japanese,category,frequency,priority,source_count,stage
-1,に,particle,21,Critical,21,draft
-2,ます形,grammar,14,Critical,14,extension-review
-3,おる,verb,8,Critical,8,linking
-4,来る,verb,6,Critical,6,extension-review
-5,や,particle,6,Critical,6,draft
-6,まで,particle,6,Critical,6,draft
-7,ので,grammar,6,Critical,6,extension-review
-8,後で vs てから,comparison,4,High,4,draft
-9,～ことができる,grammar,4,High,4,extension-review
-10,お/ご～になる,grammar,4,High,4,extension-review
-11,お/ご～する,verb,4,High,4,extension-review
-12,可能形,grammar,3,High,3,extension-review
-13,帰る,verb,3,High,3,extension-review
-14,verb_classification.md,concept,3,High,3,extension-review
-15,casual-conversation.md,concept,3,High,3,extension-review
-16,いる,verb,3,High,3,extension-review
-17,する,verb,3,High,3,extension-review
-18,言う,verb,3,High,3,draft
-19,は,particle,3,High,3,extension-review
-20,たら,grammar,3,High,3,extension-review
-21,た形,grammar,2,Medium,2,extension-review
-22,だから,grammar,2,Medium,2,extension-review
-23,文法句型,grammar,2,Medium,2,extension-review
-24,商務場合,grammar,2,Medium,2,extension-review
-25,main_sub_action.md,concept,2,Medium,2,extension-review
-26,written_language.md,concept,2,Medium,2,extension-review
-27,teineitai_vs_futsutai.md,comparison,2,Medium,2,draft
-28,topic_prominent_language.md,concept,2,Medium,2,extension-review
-29,formal.md,concept,2,Medium,2,extension-review
-30,business.md,concept,2,Medium,2,extension-review
-31,使役受身,grammar,2,Medium,2,extension-review
-32,focus.md,concept,2,Medium,2,extension-review
-33,verb_conjugation.md,concept,2,Medium,2,extension-review
-34,daily_conversation.md,concept,2,Medium,2,extension-review
-35,可能形 vs できる,comparison,2,Medium,2,extension-review
-36,受身形 vs 可能形（一段動詞）,comparison,2,Medium,2,draft
-37,041_verb_classification.md,concept,2,Medium,2,extension-review
-38,040_teineitai_vs_futsutai,comparison,2,Medium,2,draft
-39,sentence_types.md,concept,2,Medium,2,extension-review
-40,ビジネス,grammar,2,Medium,2,extension-review
-41,供給,grammar,2,Medium,2,extension-review
-42,資本,grammar,2,Medium,2,extension-review
-43,確定申告,grammar,2,Medium,2,extension-review
-44,いただく,grammar,2,Medium,2,extension-review
-45,お〜になる,grammar,2,Medium,2,extension-review
-46,商務敬語,grammar,2,Medium,2,extension-review
-47,敬語系統,grammar,2,Medium,2,completed
-48,tatemae_honne,grammar,2,Medium,2,extension-review
-49,given_new_information.md,concept,2,Medium,2,extension-review
-50,ある,verb,2,Medium,2,extension-review
-51,で vs に 場所用法比較,comparison,2,Medium,2,extension-review
-52,まで vs までに 比較,comparison,2,Medium,2,extension-review
-53,が vs は 詳細比較,comparison,2,Medium,2,draft
-54,起こす,grammar,1,Low,1,extension-review
-55,起こる,verb-u,1,Low,1,draft
-56,ない形,grammar,1,Low,1,extension-review
-57,見える,grammar,1,Low,1,extension-review
-58,授受表現,grammar,1,Low,1,extension-review
-59,さしあげる,grammar,1,Low,1,extension-review
-60,物理擁有 vs 抽象擁有,comparison,1,Low,1,draft
-61,履く,verb-u,1,Low,1,draft
-62,脱ぐ,grammar,1,Low,1,extension-review
-63,接續詞概念,concept,1,Low,1,extension-review
-64,時間順序表達,grammar,1,Low,1,extension-review
-65,連續動作表達,grammar,1,Low,1,extension-review
-66,日常會話語域,grammar,1,Low,1,extension-review
-67,書面語與口語,grammar,1,Low,1,extension-review
-68,列舉表達,grammar,1,Low,1,extension-review
-69,指示詞系統,grammar,1,Low,1,extension-review
-70,起點助詞から,grammar,1,Low,1,extension-review
-71,そのため,grammar,1,Low,1,extension-review
-72,したがって,grammar,1,Low,1,extension-review
-73,因果關係表達,grammar,1,Low,1,extension-review
-74,接續詞用法,grammar,1,Low,1,extension-review
-75,それで vs だから,comparison,1,Low,1,draft
-76,因果接續詞比較,comparison,1,Low,1,draft
-77,それから,grammar,1,Low,1,extension-review
-78,それで,grammar,1,Low,1,extension-review
-79,でも,grammar,1,Low,1,extension-review
-80,しかし,grammar,1,Low,1,extension-review
-81,て形,grammar,1,Low,1,extension-review
-82,接續詞,grammar,1,Low,1,extension-review
-83,そして vs それから,comparison,1,Low,1,draft
-84,そして vs だから,comparison,1,Low,1,draft
-85,では,grammar,1,Low,1,extension-review
-86,それでは,grammar,1,Low,1,extension-review
-87,さて,grammar,1,Low,1,extension-review
-88,意志形,grammar,1,Low,1,extension-review
-89,ましょう,grammar,1,Low,1,extension-review
-90,にする,verb,1,Low,1,draft
-91,正式度,grammar,1,Low,1,extension-review
-92,話題管理,grammar,1,Low,1,extension-review
-93,口語特徵,grammar,1,Low,1,extension-review
-94,慣習,grammar,1,Low,1,extension-review
-95,制度,grammar,1,Low,1,extension-review
-96,持續狀態,grammar,1,Low,1,linking
-97,社會規則,grammar,1,Low,1,extension-review
-98,組織規定,grammar,1,Low,1,extension-review
-99,setsuzoku_joshi.md,concept,1,Low,1,linking
-100,masu_form.md,concept,1,Low,1,extension-review
-101,casual_conversation.md,concept,1,Low,1,extension-review
-102,jikan_hyougen,grammar,1,Low,1,extension-review
-103,shusetsu,grammar,1,Low,1,extension-review
-104,juuzoku_setsu,grammar,1,Low,1,extension-review
-105,verb_classification,grammar,1,Low,1,extension-review
-106,verb_forms,grammar,1,Low,1,extension-review
-107,meishi,grammar,1,Low,1,extension-review
-108,casual-conversation,grammar,1,Low,1,extension-review
-109,formal-context,grammar,1,Low,1,extension-review
-110,jikanteki_junjo,grammar,1,Low,1,extension-review
-111,ato_de,grammar,1,Low,1,extension-review
-112,predicate.md,concept,1,Low,1,extension-review
-113,polite_expression.md,concept,1,Low,1,extension-review
-114,i_adjective.md,concept,1,Low,1,extension-review
-115,na_adjective.md,concept,1,Low,1,extension-review
-116,wa.md,concept,1,Low,1,extension-review
-117,wo.md,concept,1,Low,1,extension-review
-118,對比辨析,grammar,1,Low,1,extension-review
-119,hitsuyousei,grammar,1,Low,1,extension-review
-120,gimu,grammar,1,Low,1,extension-review
-121,grammar_pattern,grammar,1,Low,1,extension-review
-122,conditional_forms,grammar,1,Low,1,extension-review
-123,negation,grammar,1,Low,1,extension-review
-124,shakai_kisoku,grammar,1,Low,1,extension-review
-125,houritsu,grammar,1,Low,1,extension-review
-126,yakusoku,grammar,1,Low,1,extension-review
-127,sekinin,grammar,1,Low,1,extension-review
-128,bunmyaku,grammar,1,Low,1,extension-review
-129,speaker,grammar,1,Low,1,extension-review
-130,choice,grammar,1,Low,1,extension-review
-131,formal,grammar,1,Low,1,extension-review
-132,teineigo,grammar,1,Low,1,extension-review
-133,daily_conversation,grammar,1,Low,1,extension-review
-134,contraction,grammar,1,Low,1,extension-review
-135,nai_form,grammar,1,Low,1,extension-review
-136,hypothetical_condition,grammar,1,Low,1,extension-review
-137,logical_structure,grammar,1,Low,1,extension-review
-138,grammar_pattern.md,concept,1,Low,1,extension-review
-139,to_quotative.md,concept,1,Low,1,extension-review
-140,tense.md,concept,1,Low,1,extension-review
-141,hearsay_expressions.md,concept,1,Low,1,extension-review
-142,politeness.md,concept,1,Low,1,extension-review
-143,たい形,grammar,1,Low,1,extension-review
-144,ましょう形,grammar,1,Low,1,extension-review
-145,ながら形,grammar,1,Low,1,extension-review
-146,conditional_forms.md,concept,1,Low,1,extension-review
-147,hypothetical_condition.md,concept,1,Low,1,extension-review
-148,temporal_sequence.md,concept,1,Low,1,extension-review
-149,ta_form.md,concept,1,Low,1,extension-review
-150,definite_condition.md,concept,1,Low,1,extension-review
-151,discovery_expression.md,concept,1,Low,1,extension-review
-152,spoken_language.md,concept,1,Low,1,extension-review
-153,versatility.md,concept,1,Low,1,extension-review
-154,volitional_expression.md,concept,1,Low,1,extension-review
-155,imperative_form.md,concept,1,Low,1,extension-review
-156,particle-system.md,concept,1,Low,1,extension-review
-157,agglutinative-language.md,concept,1,Low,1,extension-review
-158,indo-european-languages.md,concept,1,Low,1,extension-review
-159,nominative-case.md,concept,1,Low,1,extension-review
-160,accusative-case.md,concept,1,Low,1,extension-review
-161,dative-case.md,concept,1,Low,1,extension-review
-162,instrumental-case.md,concept,1,Low,1,extension-review
-163,allative-case.md,concept,1,Low,1,extension-review
-164,word-order.md,concept,1,Low,1,extension-review
-165,topicalization.md,concept,1,Low,1,extension-review
-166,information-structure.md,concept,1,Low,1,extension-review
-167,syntax.md,concept,1,Low,1,extension-review
-168,collocation.md,concept,1,Low,1,extension-review
-169,case-frame.md,concept,1,Low,1,extension-review
-170,teineigo_concept.md,concept,1,Low,1,extension-review
-171,social_context.md,concept,1,Low,1,extension-review
-172,ka.md,concept,1,Low,1,extension-review
-173,social_distance.md,concept,1,Low,1,extension-review
-174,一段動詞,grammar,1,Low,1,extension-review
-175,助詞總覽,grammar,1,Low,1,extension-review
-176,可能形助詞規則,grammar,1,Low,1,extension-review
-177,te_kudasai,grammar,1,Low,1,extension-review
-178,speech_level,grammar,1,Low,1,extension-review
-179,prohibition_forms,grammar,1,Low,1,extension-review
-180,request_expressions,grammar,1,Low,1,extension-review
-181,gender_language,grammar,1,Low,1,extension-review
-182,〜なくて - Negative Te-form,grammar,1,Low,1,extension-review
-183,〜ずに - Without doing (formal),grammar,1,Low,1,extension-review
-184,できる（～することができる）,verb,1,Low,1,extension-review
-185,なければならない,grammar,1,Low,1,extension-review
-186,なくてもいい,grammar,1,Low,1,extension-review
-187,ないでください,grammar,1,Low,1,extension-review
-188,overview.md,concept,1,Low,1,extension-review
-189,keigo_system.md,concept,1,Low,1,extension-review
-190,002_kanoukei.md,concept,1,Low,1,extension-review
-191,001_ukemi.md,concept,1,Low,1,extension-review
-192,038_given_new_information.md,concept,1,Low,1,extension-review
-193,business_conversation.md,concept,1,Low,1,extension-review
-194,social_hierarchy.md,concept,1,Low,1,extension-review
-195,shakaijin.md,concept,1,Low,1,extension-review
-196,communication,grammar,1,Low,1,extension-review
-197,001_sonkeigo_overview.md,concept,1,Low,1,extension-review
-198,ほしい - Want (noun),adj-i,1,Low,1,draft
-199,〜たがる - Third-person desire,grammar,1,Low,1,extension-review
-200,〜と思う - I think,grammar,1,Low,1,extension-review
-201,time-expressions.md,concept,1,Low,1,extension-review
-202,verb-forms.md,concept,1,Low,1,extension-review
-203,formal-writing.md,concept,1,Low,1,extension-review
-204,te_kara.md,concept,1,Low,1,extension-review
-205,〜たことがある,verb,1,Low,1,extension-review
-206,〜たら,grammar,1,Low,1,extension-review
-207,039_obligation_expressions,grammar,1,Low,1,extension-review
-208,疑問文,grammar,1,Low,1,extension-review
-209,不定代詞,grammar,1,Low,1,extension-review
-210,036_teineigo_concept.md,concept,1,Low,1,extension-review
-211,auxiliary_verb.md,concept,1,Low,1,extension-review
-212,predicate_types.md,concept,1,Low,1,extension-review
-213,adjective_types.md,concept,1,Low,1,extension-review
-214,sentence_structure.md,concept,1,Low,1,extension-review
-215,daily-conversation.md,concept,1,Low,1,extension-review
-216,040_teineitai_vs_futsutai.md,comparison,1,Low,1,draft
-217,007_masu_form.md,concept,1,Low,1,extension-review
-218,047_polite_expression.md,concept,1,Low,1,extension-review
-219,jlpt_levels.md,concept,1,Low,1,extension-review
-220,godan_verbs.md,concept,1,Low,1,extension-review
-221,ichidan_verbs.md,concept,1,Low,1,extension-review
-222,irregular_verbs.md,concept,1,Low,1,extension-review
-223,transitive_verbs.md,concept,1,Low,1,extension-review
-224,ga.md,concept,1,Low,1,extension-review
-225,〜ませんか - Negative Invitation,grammar,1,Low,1,extension-review
-226,意向形（普通形）- Plain Volitional,grammar,1,Low,1,extension-review
-227,〜てください - Please do,grammar,1,Low,1,extension-review
-228,〜なければならない - Obligation,grammar,1,Low,1,extension-review
-229,Japanese Social Rules and Etiquette,grammar,1,Low,1,extension-review
-230,Politeness Levels in Japanese,grammar,1,Low,1,extension-review
-231,〜てある - Preparatory State,verb,1,Low,1,draft
-232,〜ているところ - In the middle of,verb,1,Low,1,draft
-233,〜ていた - Past Progressive,grammar,1,Low,1,extension-review
-234,動作動詞 vs 狀態動詞,comparison,1,Low,1,draft
-235,瞬間動詞,grammar,1,Low,1,extension-review
-236,經濟活動,grammar,1,Low,1,extension-review
-237,利益,grammar,1,Low,1,extension-review
-238,營利活動,noun,1,Low,1,draft
-239,非營利,noun,1,Low,1,draft
-240,公共事業,grammar,1,Low,1,extension-review
-241,金融市場,grammar,1,Low,1,extension-review
-242,資金調達,noun,1,Low,1,draft
-243,給付,noun,1,Low,1,extension-review
-244,固定資本,grammar,1,Low,1,extension-review
-245,設備投資,grammar,1,Low,1,extension-review
-246,消費者,grammar,1,Low,1,extension-review
-247,市場,grammar,1,Low,1,extension-review
-248,分配,grammar,1,Low,1,extension-review
-249,割当,noun,1,Low,1,extension-review
-250,為替,grammar,1,Low,1,extension-review
-251,円高,grammar,1,Low,1,extension-review
-252,円安,grammar,1,Low,1,extension-review
-253,輸出,noun,1,Low,1,draft
-254,中央銀行,grammar,1,Low,1,extension-review
-255,税額控除,grammar,1,Low,1,extension-review
-256,住宅ローン,grammar,1,Low,1,extension-review
-257,經營管理,noun,1,Low,1,draft
-258,決策制定,noun,1,Low,1,draft
-259,財務資訊,noun,1,Low,1,draft
-260,帳簿,noun,1,Low,1,draft
-261,稅務申報,noun,1,Low,1,draft
-262,財務報表,grammar,1,Low,1,extension-review
-263,支付,grammar,1,Low,1,extension-review
-264,精算,grammar,1,Low,1,extension-review
-265,透明性,grammar,1,Low,1,extension-review
-266,信用,grammar,1,Low,1,extension-review
-267,知識,noun,1,Low,1,extension-review
-268,經營者,noun,1,Low,1,extension-review
-269,財務人員,noun,1,Low,1,extension-review
-270,投資者,noun,1,Low,1,extension-review
-271,債權人,noun,1,Low,1,extension-review
-272,所得控除,grammar,1,Low,1,extension-review
-273,控除,noun,1,Low,1,draft
-274,renyoukei.md,concept,1,Low,1,extension-review
-275,meishi.md,concept,1,Low,1,extension-review
-276,setsumei-bun.md,concept,1,Low,1,extension-review
-277,productivity.md,concept,1,Low,1,extension-review
-278,mokutekigo.md,concept,1,Low,1,extension-review
-279,gakushuusha.md,concept,1,Low,1,extension-review
-280,nominal_suffix.md,concept,1,Low,1,extension-review
-281,masu-form.md,concept,1,Low,1,extension-review
-282,になる,grammar,1,Low,1,extension-review
-283,いただけ,grammar,1,Low,1,extension-review
-284,お/ご～いただく,grammar,1,Low,1,extension-review
-285,くださる・いただく,grammar,1,Low,1,extension-review
-286,ご~なさる,grammar,1,Low,1,extension-review
-287,お~いたす,grammar,1,Low,1,extension-review
-288,お/ご~なさる,grammar,1,Low,1,extension-review
-289,お/ご~になる,grammar,1,Low,1,extension-review
-290,お/ご~いたす,grammar,1,Low,1,extension-review
-291,お/ご~する,verb,1,Low,1,draft
-292,走る,verb-u,1,Low,1,draft
-293,行く,verb-u,1,Low,1,draft
-294,駅,grammar,1,Low,1,extension-review
-295,空港,grammar,1,Low,1,extension-review
-296,売る,grammar,1,Low,1,extension-review
-297,聞こえる,grammar,1,Low,1,extension-review
-298,尋ねる,grammar,1,Low,1,extension-review
-299,引用文法,grammar,1,Low,1,extension-review
-300,謙讓語概念,concept,1,Low,1,extension-review
-301,丁寧語概念,concept,1,Low,1,extension-review
-302,尊敬助動詞れる・られる,grammar,1,Low,1,extension-review
-303,ご〜になる,grammar,1,Low,1,extension-review
-304,いらっしゃる,grammar,1,Low,1,extension-review
-305,おっしゃる,grammar,1,Low,1,extension-review
-306,召し上がる,grammar,1,Low,1,extension-review
-307,なさる,grammar,1,Low,1,extension-review
-308,ご覧になる,grammar,1,Low,1,extension-review
-309,社會階層,grammar,1,Low,1,extension-review
-310,敬語常見錯誤,grammar,1,Low,1,extension-review
-311,內與外,grammar,1,Low,1,extension-review
-312,視點理論,concept,1,Low,1,extension-review
-313,召し上がる・いただく,grammar,1,Low,1,extension-review
-314,おっしゃる・申す,grammar,1,Low,1,extension-review
-315,いらっしゃる・参る,grammar,1,Low,1,extension-review
-316,お〜する,verb,1,Low,1,draft
-317,社會語言學,grammar,1,Low,1,extension-review
-318,語用學,grammar,1,Low,1,extension-review
-319,高語境文化,concept,1,Low,1,extension-review
-320,気配り,grammar,1,Low,1,extension-review
-321,終助詞「ね」,grammar,1,Low,1,extension-review
-322,終助詞「よね」,grammar,1,Low,1,extension-review
-323,商務郵件,grammar,1,Low,1,extension-review
-324,報連相,grammar,1,Low,1,extension-review
-325,疑問形式,grammar,1,Low,1,extension-review
-326,～でしょうか,grammar,1,Low,1,extension-review
-327,pragmatics,grammar,1,Low,1,extension-review
-328,communication_strategy,grammar,1,Low,1,extension-review
-329,interpersonal_relationship,grammar,1,Low,1,extension-review
-330,formality_level,grammar,1,Low,1,extension-review
-331,group_harmony,concept,1,Low,1,extension-review
-332,explicit_agreement,grammar,1,Low,1,extension-review
-333,implicit_communication,grammar,1,Low,1,extension-review
-334,ishin_denshin,grammar,1,Low,1,extension-review
-335,kuuki_wo_yomu,grammar,1,Low,1,extension-review
-336,aizuchi,grammar,1,Low,1,extension-review
-337,business_communication,concept,1,Low,1,extension-review
-338,keigo_overview,grammar,1,Low,1,extension-review
-339,hierarchy,grammar,1,Low,1,extension-review
-340,respect,grammar,1,Low,1,extension-review
-341,casual_conversation,grammar,1,Low,1,extension-review
-342,004_pragmatics,grammar,1,Low,1,extension-review
-343,003_psychological_distance,grammar,1,Low,1,extension-review
-344,001_uchi_soto,grammar,1,Low,1,extension-review
-345,subject_prominent_language.md,concept,1,Low,1,extension-review
-346,〜ている vs 〜てある,comparison,1,Low,1,extension-review
-347,〜てくる・〜ていく,verb,1,Low,1,extension-review
-348,行く vs 来る 詳細比較,comparison,1,Low,1,extension-review
-349,来る vs 帰る 用法差異,comparison,1,Low,1,extension-review
-350,關西方言特徵,grammar,1,Low,1,extension-review
-351,謙讓語系統,grammar,1,Low,1,extension-review
-352,進行形 vs 狀態形的區別,comparison,1,Low,1,extension-review
-353,ある - to be/exist (inanimate),verb,1,Low,1,extension-review
-354,持つ - to hold/have,grammar,1,Low,1,extension-review
-355,いる vs ある 詳細比較,comparison,1,Low,1,draft
-356,〜ている 的多重意義,verb,1,Low,1,draft
-357,いらっしゃる・おる - いる的敬語,grammar,1,Low,1,extension-review
-358,連用形,grammar,1,Low,1,extension-review
-359,副詞的位置,grammar,1,Low,1,extension-review
-360,良い／いい,grammar,1,Low,1,extension-review
-361,悪い,grammar,1,Low,1,extension-review
-362,degree-adverbs,grammar,1,Low,1,extension-review
-363,negation-forms,grammar,1,Low,1,extension-review
-364,daily-conversation,grammar,1,Low,1,extension-review
-365,modest-expression,grammar,1,Low,1,extension-review
-366,nuance,grammar,1,Low,1,extension-review
-367,nai-form,grammar,1,Low,1,extension-review
-368,引用表現,grammar,1,Low,1,extension-review
-369,並列助詞,grammar,1,Low,1,extension-review
-370,日常會話,grammar,1,Low,1,extension-review
-371,へ,particle,1,Low,1,extension-review
-372,いる動詞,verb,1,Low,1,extension-review
-373,ある動詞,verb,1,Low,1,extension-review
-374,に vs へ 方向用法比較,comparison,1,Low,1,extension-review
-375,に vs から 起終點比較,comparison,1,Low,1,extension-review
-376,動詞連用形+に+行く/来る,grammar,1,Low,1,extension-review
-377,～になる,grammar,1,Low,1,extension-review
-378,時間+に,grammar,1,Low,1,extension-review
-379,格助詞系統,grammar,1,Low,1,extension-review
-380,他動詞與自動詞,grammar,1,Low,1,extension-review
-381,文法術語,grammar,1,Low,1,extension-review
-382,移動動詞,grammar,1,Low,1,extension-review
-383,日語音韻史,grammar,1,Low,1,extension-review
-384,日語基本句型,grammar,1,Low,1,extension-review
-385,を vs で：場所表達的區別,comparison,1,Low,1,extension-review
-386,を vs に：移動表達的區別,comparison,1,Low,1,extension-review
-387,時間の長さと継続,grammar,1,Low,1,extension-review
-388,期限表現,grammar,1,Low,1,extension-review
-389,までと動詞の組み合わせ,grammar,1,Low,1,extension-review
-390,までに と動詞の組み合わせ,grammar,1,Low,1,extension-review
-391,時点 vs 時間の長さ,comparison,1,Low,1,extension-review
-392,継続動作 vs 完了動作,comparison,1,Low,1,extension-review
-393,主題評述結構,grammar,1,Low,1,extension-review
-394,資訊結構理論,concept,1,Low,1,extension-review
-395,對比與焦點,grammar,1,Low,1,extension-review
-396,と vs に 對象用法比較,comparison,1,Low,1,extension-review
+id,category,number,path,japanese,chinese,jlpt,source,priority,stage,note,created,updated,batch
+1,particle,,,に,,,,Critical,draft,,,,
+2,grammar,,,ます形,,,,Critical,extension-review,,,,
+3,verb,,,おる,,,,Critical,linking,,,,
+4,verb,,,来る,,,,Critical,extension-review,,,,
+5,particle,,,や,,,,Critical,draft,,,,
+6,particle,,,まで,,,,Critical,draft,,,,
+7,grammar,,,ので,,,,Critical,extension-review,,,,
+8,comparison,,,後で vs てから,,,,High,draft,,,,
+9,grammar,,,～ことができる,,,,High,extension-review,,,,
+10,grammar,,,お/ご～になる,,,,High,extension-review,,,,
+11,verb,,,お/ご～する,,,,High,extension-review,,,,
+12,grammar,,,可能形,,,,High,extension-review,,,,
+13,verb,,,帰る,,,,High,extension-review,,,,
+14,concept,,,verb_classification.md,,,,High,extension-review,,,,
+15,concept,,,casual-conversation.md,,,,High,extension-review,,,,
+16,verb,,,いる,,,,High,extension-review,,,,
+17,verb,,,する,,,,High,extension-review,,,,
+18,verb,,,言う,,,,High,draft,,,,
+19,particle,,,は,,,,High,extension-review,,,,
+20,grammar,,,たら,,,,High,extension-review,,,,
+21,grammar,,,た形,,,,Medium,extension-review,,,,
+22,grammar,,,だから,,,,Medium,extension-review,,,,
+23,grammar,,,文法句型,,,,Medium,extension-review,,,,
+24,grammar,,,商務場合,,,,Medium,extension-review,,,,
+25,concept,,,main_sub_action.md,,,,Medium,extension-review,,,,
+26,concept,,,written_language.md,,,,Medium,extension-review,,,,
+27,comparison,,,teineitai_vs_futsutai.md,,,,Medium,draft,,,,
+28,concept,,,topic_prominent_language.md,,,,Medium,extension-review,,,,
+29,concept,,,formal.md,,,,Medium,extension-review,,,,
+30,concept,,,business.md,,,,Medium,extension-review,,,,
+31,grammar,,,使役受身,,,,Medium,extension-review,,,,
+32,concept,,,focus.md,,,,Medium,extension-review,,,,
+33,concept,,,verb_conjugation.md,,,,Medium,extension-review,,,,
+34,concept,,,daily_conversation.md,,,,Medium,extension-review,,,,
+35,comparison,,,可能形 vs できる,,,,Medium,extension-review,,,,
+36,comparison,,,受身形 vs 可能形（一段動詞）,,,,Medium,draft,,,,
+37,concept,,,041_verb_classification.md,,,,Medium,extension-review,,,,
+38,comparison,,,040_teineitai_vs_futsutai,,,,Medium,draft,,,,
+39,concept,,,sentence_types.md,,,,Medium,extension-review,,,,
+40,grammar,,,ビジネス,,,,Medium,extension-review,,,,
+41,grammar,,,供給,,,,Medium,extension-review,,,,
+42,grammar,,,資本,,,,Medium,extension-review,,,,
+43,grammar,,,確定申告,,,,Medium,extension-review,,,,
+44,grammar,,,いただく,,,,Medium,extension-review,,,,
+45,grammar,,,お〜になる,,,,Medium,extension-review,,,,
+46,grammar,,,商務敬語,,,,Medium,extension-review,,,,
+47,grammar,,,敬語系統,,,,Medium,completed,,,,
+48,grammar,,,tatemae_honne,,,,Medium,extension-review,,,,
+49,concept,,,given_new_information.md,,,,Medium,extension-review,,,,
+50,verb,,,ある,,,,Medium,extension-review,,,,
+51,comparison,,,で vs に 場所用法比較,,,,Medium,extension-review,,,,
+52,comparison,,,まで vs までに 比較,,,,Medium,extension-review,,,,
+53,comparison,,,が vs は 詳細比較,,,,Medium,draft,,,,
+54,grammar,,,起こす,,,,Low,extension-review,,,,
+55,verb-u,,,起こる,,,,Low,draft,,,,
+56,grammar,,,ない形,,,,Low,extension-review,,,,
+57,grammar,,,見える,,,,Low,extension-review,,,,
+58,grammar,,,授受表現,,,,Low,extension-review,,,,
+59,grammar,,,さしあげる,,,,Low,extension-review,,,,
+60,comparison,,,物理擁有 vs 抽象擁有,,,,Low,draft,,,,
+61,verb-u,,,履く,,,,Low,draft,,,,
+62,grammar,,,脱ぐ,,,,Low,extension-review,,,,
+63,concept,,,接續詞概念,,,,Low,extension-review,,,,
+64,grammar,,,時間順序表達,,,,Low,extension-review,,,,
+65,grammar,,,連續動作表達,,,,Low,extension-review,,,,
+66,grammar,,,日常會話語域,,,,Low,extension-review,,,,
+67,grammar,,,書面語與口語,,,,Low,extension-review,,,,
+68,grammar,,,列舉表達,,,,Low,extension-review,,,,
+69,grammar,,,指示詞系統,,,,Low,extension-review,,,,
+70,grammar,,,起點助詞から,,,,Low,extension-review,,,,
+71,grammar,,,そのため,,,,Low,extension-review,,,,
+72,grammar,,,したがって,,,,Low,extension-review,,,,
+73,grammar,,,因果關係表達,,,,Low,extension-review,,,,
+74,grammar,,,接續詞用法,,,,Low,extension-review,,,,
+75,comparison,,,それで vs だから,,,,Low,draft,,,,
+76,comparison,,,因果接續詞比較,,,,Low,draft,,,,
+77,grammar,,,それから,,,,Low,extension-review,,,,
+78,grammar,,,それで,,,,Low,extension-review,,,,
+79,grammar,,,でも,,,,Low,extension-review,,,,
+80,grammar,,,しかし,,,,Low,extension-review,,,,
+81,grammar,,,て形,,,,Low,extension-review,,,,
+82,grammar,,,接續詞,,,,Low,extension-review,,,,
+83,comparison,,,そして vs それから,,,,Low,draft,,,,
+84,comparison,,,そして vs だから,,,,Low,draft,,,,
+85,grammar,,,では,,,,Low,extension-review,,,,
+86,grammar,,,それでは,,,,Low,extension-review,,,,
+87,grammar,,,さて,,,,Low,extension-review,,,,
+88,grammar,,,意志形,,,,Low,extension-review,,,,
+89,grammar,,,ましょう,,,,Low,extension-review,,,,
+90,verb,,,にする,,,,Low,draft,,,,
+91,grammar,,,正式度,,,,Low,extension-review,,,,
+92,grammar,,,話題管理,,,,Low,extension-review,,,,
+93,grammar,,,口語特徵,,,,Low,extension-review,,,,
+94,grammar,,,慣習,,,,Low,extension-review,,,,
+95,grammar,,,制度,,,,Low,extension-review,,,,
+96,grammar,,,持續狀態,,,,Low,linking,,,,
+97,grammar,,,社會規則,,,,Low,extension-review,,,,
+98,grammar,,,組織規定,,,,Low,extension-review,,,,
+99,concept,,,setsuzoku_joshi.md,,,,Low,linking,,,,
+100,concept,,,masu_form.md,,,,Low,extension-review,,,,
+101,concept,,,casual_conversation.md,,,,Low,extension-review,,,,
+102,grammar,,,jikan_hyougen,,,,Low,extension-review,,,,
+103,grammar,,,shusetsu,,,,Low,extension-review,,,,
+104,grammar,,,juuzoku_setsu,,,,Low,extension-review,,,,
+105,grammar,,,verb_classification,,,,Low,extension-review,,,,
+106,grammar,,,verb_forms,,,,Low,extension-review,,,,
+107,grammar,,,meishi,,,,Low,extension-review,,,,
+108,grammar,,,casual-conversation,,,,Low,extension-review,,,,
+109,grammar,,,formal-context,,,,Low,extension-review,,,,
+110,grammar,,,jikanteki_junjo,,,,Low,extension-review,,,,
+111,grammar,,,ato_de,,,,Low,extension-review,,,,
+112,concept,,,predicate.md,,,,Low,extension-review,,,,
+113,concept,,,polite_expression.md,,,,Low,extension-review,,,,
+114,concept,,,i_adjective.md,,,,Low,extension-review,,,,
+115,concept,,,na_adjective.md,,,,Low,extension-review,,,,
+116,concept,,,wa.md,,,,Low,extension-review,,,,
+117,concept,,,wo.md,,,,Low,extension-review,,,,
+118,grammar,,,對比辨析,,,,Low,extension-review,,,,
+119,grammar,,,hitsuyousei,,,,Low,extension-review,,,,
+120,grammar,,,gimu,,,,Low,extension-review,,,,
+121,grammar,,,grammar_pattern,,,,Low,extension-review,,,,
+122,grammar,,,conditional_forms,,,,Low,extension-review,,,,
+123,grammar,,,negation,,,,Low,extension-review,,,,
+124,grammar,,,shakai_kisoku,,,,Low,extension-review,,,,
+125,grammar,,,houritsu,,,,Low,extension-review,,,,
+126,grammar,,,yakusoku,,,,Low,extension-review,,,,
+127,grammar,,,sekinin,,,,Low,extension-review,,,,
+128,grammar,,,bunmyaku,,,,Low,extension-review,,,,
+129,grammar,,,speaker,,,,Low,extension-review,,,,
+130,grammar,,,choice,,,,Low,extension-review,,,,
+131,grammar,,,formal,,,,Low,extension-review,,,,
+132,grammar,,,teineigo,,,,Low,extension-review,,,,
+133,grammar,,,daily_conversation,,,,Low,extension-review,,,,
+134,grammar,,,contraction,,,,Low,extension-review,,,,
+135,grammar,,,nai_form,,,,Low,extension-review,,,,
+136,grammar,,,hypothetical_condition,,,,Low,extension-review,,,,
+137,grammar,,,logical_structure,,,,Low,extension-review,,,,
+138,concept,,,grammar_pattern.md,,,,Low,extension-review,,,,
+139,concept,,,to_quotative.md,,,,Low,extension-review,,,,
+140,concept,,,tense.md,,,,Low,extension-review,,,,
+141,concept,,,hearsay_expressions.md,,,,Low,extension-review,,,,
+142,concept,,,politeness.md,,,,Low,extension-review,,,,
+143,grammar,,,たい形,,,,Low,extension-review,,,,
+144,grammar,,,ましょう形,,,,Low,extension-review,,,,
+145,grammar,,,ながら形,,,,Low,extension-review,,,,
+146,concept,,,conditional_forms.md,,,,Low,extension-review,,,,
+147,concept,,,hypothetical_condition.md,,,,Low,extension-review,,,,
+148,concept,,,temporal_sequence.md,,,,Low,extension-review,,,,
+149,concept,,,ta_form.md,,,,Low,extension-review,,,,
+150,concept,,,definite_condition.md,,,,Low,extension-review,,,,
+151,concept,,,discovery_expression.md,,,,Low,extension-review,,,,
+152,concept,,,spoken_language.md,,,,Low,extension-review,,,,
+153,concept,,,versatility.md,,,,Low,extension-review,,,,
+154,concept,,,volitional_expression.md,,,,Low,extension-review,,,,
+155,concept,,,imperative_form.md,,,,Low,extension-review,,,,
+156,concept,,,particle-system.md,,,,Low,extension-review,,,,
+157,concept,,,agglutinative-language.md,,,,Low,extension-review,,,,
+158,concept,,,indo-european-languages.md,,,,Low,extension-review,,,,
+159,concept,,,nominative-case.md,,,,Low,extension-review,,,,
+160,concept,,,accusative-case.md,,,,Low,extension-review,,,,
+161,concept,,,dative-case.md,,,,Low,extension-review,,,,
+162,concept,,,instrumental-case.md,,,,Low,extension-review,,,,
+163,concept,,,allative-case.md,,,,Low,extension-review,,,,
+164,concept,,,word-order.md,,,,Low,extension-review,,,,
+165,concept,,,topicalization.md,,,,Low,extension-review,,,,
+166,concept,,,information-structure.md,,,,Low,extension-review,,,,
+167,concept,,,syntax.md,,,,Low,extension-review,,,,
+168,concept,,,collocation.md,,,,Low,extension-review,,,,
+169,concept,,,case-frame.md,,,,Low,extension-review,,,,
+170,concept,,,teineigo_concept.md,,,,Low,extension-review,,,,
+171,concept,,,social_context.md,,,,Low,extension-review,,,,
+172,concept,,,ka.md,,,,Low,extension-review,,,,
+173,concept,,,social_distance.md,,,,Low,extension-review,,,,
+174,grammar,,,一段動詞,,,,Low,extension-review,,,,
+175,grammar,,,助詞總覽,,,,Low,extension-review,,,,
+176,grammar,,,可能形助詞規則,,,,Low,extension-review,,,,
+177,grammar,,,te_kudasai,,,,Low,extension-review,,,,
+178,grammar,,,speech_level,,,,Low,extension-review,,,,
+179,grammar,,,prohibition_forms,,,,Low,extension-review,,,,
+180,grammar,,,request_expressions,,,,Low,extension-review,,,,
+181,grammar,,,gender_language,,,,Low,extension-review,,,,
+182,grammar,,,〜なくて - Negative Te-form,,,,Low,extension-review,,,,
+183,grammar,,,〜ずに - Without doing (formal),,,,Low,extension-review,,,,
+184,verb,,,できる（～することができる）,,,,Low,extension-review,,,,
+185,grammar,,,なければならない,,,,Low,extension-review,,,,
+186,grammar,,,なくてもいい,,,,Low,extension-review,,,,
+187,grammar,,,ないでください,,,,Low,extension-review,,,,
+188,concept,,,overview.md,,,,Low,extension-review,,,,
+189,concept,,,keigo_system.md,,,,Low,extension-review,,,,
+190,concept,,,002_kanoukei.md,,,,Low,extension-review,,,,
+191,concept,,,001_ukemi.md,,,,Low,extension-review,,,,
+192,concept,,,038_given_new_information.md,,,,Low,extension-review,,,,
+193,concept,,,business_conversation.md,,,,Low,extension-review,,,,
+194,concept,,,social_hierarchy.md,,,,Low,extension-review,,,,
+195,concept,,,shakaijin.md,,,,Low,extension-review,,,,
+196,grammar,,,communication,,,,Low,extension-review,,,,
+197,concept,,,001_sonkeigo_overview.md,,,,Low,extension-review,,,,
+198,adj-i,,,ほしい - Want (noun),,,,Low,draft,,,,
+199,grammar,,,〜たがる - Third-person desire,,,,Low,extension-review,,,,
+200,grammar,,,〜と思う - I think,,,,Low,extension-review,,,,
+201,concept,,,time-expressions.md,,,,Low,extension-review,,,,
+202,concept,,,verb-forms.md,,,,Low,extension-review,,,,
+203,concept,,,formal-writing.md,,,,Low,extension-review,,,,
+204,concept,,,te_kara.md,,,,Low,extension-review,,,,
+205,verb,,,〜たことがある,,,,Low,extension-review,,,,
+206,grammar,,,〜たら,,,,Low,extension-review,,,,
+207,grammar,,,039_obligation_expressions,,,,Low,extension-review,,,,
+208,grammar,,,疑問文,,,,Low,extension-review,,,,
+209,grammar,,,不定代詞,,,,Low,extension-review,,,,
+210,concept,,,036_teineigo_concept.md,,,,Low,extension-review,,,,
+211,concept,,,auxiliary_verb.md,,,,Low,extension-review,,,,
+212,concept,,,predicate_types.md,,,,Low,extension-review,,,,
+213,concept,,,adjective_types.md,,,,Low,extension-review,,,,
+214,concept,,,sentence_structure.md,,,,Low,extension-review,,,,
+215,concept,,,daily-conversation.md,,,,Low,extension-review,,,,
+216,comparison,,,040_teineitai_vs_futsutai.md,,,,Low,draft,,,,
+217,concept,,,007_masu_form.md,,,,Low,extension-review,,,,
+218,concept,,,047_polite_expression.md,,,,Low,extension-review,,,,
+219,concept,,,jlpt_levels.md,,,,Low,extension-review,,,,
+220,concept,,,godan_verbs.md,,,,Low,extension-review,,,,
+221,concept,,,ichidan_verbs.md,,,,Low,extension-review,,,,
+222,concept,,,irregular_verbs.md,,,,Low,extension-review,,,,
+223,concept,,,transitive_verbs.md,,,,Low,extension-review,,,,
+224,concept,,,ga.md,,,,Low,extension-review,,,,
+225,grammar,,,〜ませんか - Negative Invitation,,,,Low,extension-review,,,,
+226,grammar,,,意向形（普通形）- Plain Volitional,,,,Low,extension-review,,,,
+227,grammar,,,〜てください - Please do,,,,Low,extension-review,,,,
+228,grammar,,,〜なければならない - Obligation,,,,Low,extension-review,,,,
+229,grammar,,,Japanese Social Rules and Etiquette,,,,Low,extension-review,,,,
+230,grammar,,,Politeness Levels in Japanese,,,,Low,extension-review,,,,
+231,verb,,,〜てある - Preparatory State,,,,Low,draft,,,,
+232,verb,,,〜ているところ - In the middle of,,,,Low,draft,,,,
+233,grammar,,,〜ていた - Past Progressive,,,,Low,extension-review,,,,
+234,comparison,,,動作動詞 vs 狀態動詞,,,,Low,draft,,,,
+235,grammar,,,瞬間動詞,,,,Low,extension-review,,,,
+236,grammar,,,經濟活動,,,,Low,extension-review,,,,
+237,grammar,,,利益,,,,Low,extension-review,,,,
+238,noun,,,營利活動,,,,Low,draft,,,,
+239,noun,,,非營利,,,,Low,draft,,,,
+240,grammar,,,公共事業,,,,Low,extension-review,,,,
+241,grammar,,,金融市場,,,,Low,extension-review,,,,
+242,noun,,,資金調達,,,,Low,draft,,,,
+243,noun,,,給付,,,,Low,extension-review,,,,
+244,grammar,,,固定資本,,,,Low,extension-review,,,,
+245,grammar,,,設備投資,,,,Low,extension-review,,,,
+246,grammar,,,消費者,,,,Low,extension-review,,,,
+247,grammar,,,市場,,,,Low,extension-review,,,,
+248,grammar,,,分配,,,,Low,extension-review,,,,
+249,noun,,,割当,,,,Low,extension-review,,,,
+250,grammar,,,為替,,,,Low,extension-review,,,,
+251,grammar,,,円高,,,,Low,extension-review,,,,
+252,grammar,,,円安,,,,Low,extension-review,,,,
+253,noun,,,輸出,,,,Low,draft,,,,
+254,grammar,,,中央銀行,,,,Low,extension-review,,,,
+255,grammar,,,税額控除,,,,Low,extension-review,,,,
+256,grammar,,,住宅ローン,,,,Low,extension-review,,,,
+257,noun,,,經營管理,,,,Low,draft,,,,
+258,noun,,,決策制定,,,,Low,draft,,,,
+259,noun,,,財務資訊,,,,Low,draft,,,,
+260,noun,,,帳簿,,,,Low,draft,,,,
+261,noun,,,稅務申報,,,,Low,draft,,,,
+262,grammar,,,財務報表,,,,Low,extension-review,,,,
+263,grammar,,,支付,,,,Low,extension-review,,,,
+264,grammar,,,精算,,,,Low,extension-review,,,,
+265,grammar,,,透明性,,,,Low,extension-review,,,,
+266,grammar,,,信用,,,,Low,extension-review,,,,
+267,noun,,,知識,,,,Low,extension-review,,,,
+268,noun,,,經營者,,,,Low,extension-review,,,,
+269,noun,,,財務人員,,,,Low,extension-review,,,,
+270,noun,,,投資者,,,,Low,extension-review,,,,
+271,noun,,,債權人,,,,Low,extension-review,,,,
+272,grammar,,,所得控除,,,,Low,extension-review,,,,
+273,noun,,,控除,,,,Low,draft,,,,
+274,concept,,,renyoukei.md,,,,Low,extension-review,,,,
+275,concept,,,meishi.md,,,,Low,extension-review,,,,
+276,concept,,,setsumei-bun.md,,,,Low,extension-review,,,,
+277,concept,,,productivity.md,,,,Low,extension-review,,,,
+278,concept,,,mokutekigo.md,,,,Low,extension-review,,,,
+279,concept,,,gakushuusha.md,,,,Low,extension-review,,,,
+280,concept,,,nominal_suffix.md,,,,Low,extension-review,,,,
+281,concept,,,masu-form.md,,,,Low,extension-review,,,,
+282,grammar,,,になる,,,,Low,extension-review,,,,
+283,grammar,,,いただけ,,,,Low,extension-review,,,,
+284,grammar,,,お/ご～いただく,,,,Low,extension-review,,,,
+285,grammar,,,くださる・いただく,,,,Low,extension-review,,,,
+286,grammar,,,ご~なさる,,,,Low,extension-review,,,,
+287,grammar,,,お~いたす,,,,Low,extension-review,,,,
+288,grammar,,,お/ご~なさる,,,,Low,extension-review,,,,
+289,grammar,,,お/ご~になる,,,,Low,extension-review,,,,
+290,grammar,,,お/ご~いたす,,,,Low,extension-review,,,,
+291,verb,,,お/ご~する,,,,Low,draft,,,,
+292,verb-u,,,走る,,,,Low,draft,,,,
+293,verb-u,,,行く,,,,Low,draft,,,,
+294,grammar,,,駅,,,,Low,extension-review,,,,
+295,grammar,,,空港,,,,Low,extension-review,,,,
+296,grammar,,,売る,,,,Low,extension-review,,,,
+297,grammar,,,聞こえる,,,,Low,extension-review,,,,
+298,grammar,,,尋ねる,,,,Low,extension-review,,,,
+299,grammar,,,引用文法,,,,Low,extension-review,,,,
+300,concept,,,謙讓語概念,,,,Low,extension-review,,,,
+301,concept,,,丁寧語概念,,,,Low,extension-review,,,,
+302,grammar,,,尊敬助動詞れる・られる,,,,Low,extension-review,,,,
+303,grammar,,,ご〜になる,,,,Low,extension-review,,,,
+304,grammar,,,いらっしゃる,,,,Low,extension-review,,,,
+305,grammar,,,おっしゃる,,,,Low,extension-review,,,,
+306,grammar,,,召し上がる,,,,Low,extension-review,,,,
+307,grammar,,,なさる,,,,Low,extension-review,,,,
+308,grammar,,,ご覧になる,,,,Low,extension-review,,,,
+309,grammar,,,社會階層,,,,Low,extension-review,,,,
+310,grammar,,,敬語常見錯誤,,,,Low,extension-review,,,,
+311,grammar,,,內與外,,,,Low,extension-review,,,,
+312,concept,,,視點理論,,,,Low,extension-review,,,,
+313,grammar,,,召し上がる・いただく,,,,Low,extension-review,,,,
+314,grammar,,,おっしゃる・申す,,,,Low,extension-review,,,,
+315,grammar,,,いらっしゃる・参る,,,,Low,extension-review,,,,
+316,verb,,,お〜する,,,,Low,draft,,,,
+317,grammar,,,社會語言學,,,,Low,extension-review,,,,
+318,grammar,,,語用學,,,,Low,extension-review,,,,
+319,concept,,,高語境文化,,,,Low,extension-review,,,,
+320,grammar,,,気配り,,,,Low,extension-review,,,,
+321,grammar,,,終助詞「ね」,,,,Low,extension-review,,,,
+322,grammar,,,終助詞「よね」,,,,Low,extension-review,,,,
+323,grammar,,,商務郵件,,,,Low,extension-review,,,,
+324,grammar,,,報連相,,,,Low,extension-review,,,,
+325,grammar,,,疑問形式,,,,Low,extension-review,,,,
+326,grammar,,,～でしょうか,,,,Low,extension-review,,,,
+327,grammar,,,pragmatics,,,,Low,extension-review,,,,
+328,grammar,,,communication_strategy,,,,Low,extension-review,,,,
+329,grammar,,,interpersonal_relationship,,,,Low,extension-review,,,,
+330,grammar,,,formality_level,,,,Low,extension-review,,,,
+331,concept,,,group_harmony,,,,Low,extension-review,,,,
+332,grammar,,,explicit_agreement,,,,Low,extension-review,,,,
+333,grammar,,,implicit_communication,,,,Low,extension-review,,,,
+334,grammar,,,ishin_denshin,,,,Low,extension-review,,,,
+335,grammar,,,kuuki_wo_yomu,,,,Low,extension-review,,,,
+336,grammar,,,aizuchi,,,,Low,extension-review,,,,
+337,concept,,,business_communication,,,,Low,extension-review,,,,
+338,grammar,,,keigo_overview,,,,Low,extension-review,,,,
+339,grammar,,,hierarchy,,,,Low,extension-review,,,,
+340,grammar,,,respect,,,,Low,extension-review,,,,
+341,grammar,,,casual_conversation,,,,Low,extension-review,,,,
+342,grammar,,,004_pragmatics,,,,Low,extension-review,,,,
+343,grammar,,,003_psychological_distance,,,,Low,extension-review,,,,
+344,grammar,,,001_uchi_soto,,,,Low,extension-review,,,,
+345,concept,,,subject_prominent_language.md,,,,Low,extension-review,,,,
+346,comparison,,,〜ている vs 〜てある,,,,Low,extension-review,,,,
+347,verb,,,〜てくる・〜ていく,,,,Low,extension-review,,,,
+348,comparison,,,行く vs 来る 詳細比較,,,,Low,extension-review,,,,
+349,comparison,,,来る vs 帰る 用法差異,,,,Low,extension-review,,,,
+350,grammar,,,關西方言特徵,,,,Low,extension-review,,,,
+351,grammar,,,謙讓語系統,,,,Low,extension-review,,,,
+352,comparison,,,進行形 vs 狀態形的區別,,,,Low,extension-review,,,,
+353,verb,,,ある - to be/exist (inanimate),,,,Low,extension-review,,,,
+354,grammar,,,持つ - to hold/have,,,,Low,extension-review,,,,
+355,comparison,,,いる vs ある 詳細比較,,,,Low,draft,,,,
+356,verb,,,〜ている 的多重意義,,,,Low,draft,,,,
+357,grammar,,,いらっしゃる・おる - いる的敬語,,,,Low,extension-review,,,,
+358,grammar,,,連用形,,,,Low,extension-review,,,,
+359,grammar,,,副詞的位置,,,,Low,extension-review,,,,
+360,grammar,,,良い／いい,,,,Low,extension-review,,,,
+361,grammar,,,悪い,,,,Low,extension-review,,,,
+362,grammar,,,degree-adverbs,,,,Low,extension-review,,,,
+363,grammar,,,negation-forms,,,,Low,extension-review,,,,
+364,grammar,,,daily-conversation,,,,Low,extension-review,,,,
+365,grammar,,,modest-expression,,,,Low,extension-review,,,,
+366,grammar,,,nuance,,,,Low,extension-review,,,,
+367,grammar,,,nai-form,,,,Low,extension-review,,,,
+368,grammar,,,引用表現,,,,Low,extension-review,,,,
+369,grammar,,,並列助詞,,,,Low,extension-review,,,,
+370,grammar,,,日常會話,,,,Low,extension-review,,,,
+371,particle,,,へ,,,,Low,extension-review,,,,
+372,verb,,,いる動詞,,,,Low,extension-review,,,,
+373,verb,,,ある動詞,,,,Low,extension-review,,,,
+374,comparison,,,に vs へ 方向用法比較,,,,Low,extension-review,,,,
+375,comparison,,,に vs から 起終點比較,,,,Low,extension-review,,,,
+376,grammar,,,動詞連用形+に+行く/来る,,,,Low,extension-review,,,,
+377,grammar,,,～になる,,,,Low,extension-review,,,,
+378,grammar,,,時間+に,,,,Low,extension-review,,,,
+379,grammar,,,格助詞系統,,,,Low,extension-review,,,,
+380,grammar,,,他動詞與自動詞,,,,Low,extension-review,,,,
+381,grammar,,,文法術語,,,,Low,extension-review,,,,
+382,grammar,,,移動動詞,,,,Low,extension-review,,,,
+383,grammar,,,日語音韻史,,,,Low,extension-review,,,,
+384,grammar,,,日語基本句型,,,,Low,extension-review,,,,
+385,comparison,,,を vs で：場所表達的區別,,,,Low,extension-review,,,,
+386,comparison,,,を vs に：移動表達的區別,,,,Low,extension-review,,,,
+387,grammar,,,時間の長さと継続,,,,Low,extension-review,,,,
+388,grammar,,,期限表現,,,,Low,extension-review,,,,
+389,grammar,,,までと動詞の組み合わせ,,,,Low,extension-review,,,,
+390,grammar,,,までに と動詞の組み合わせ,,,,Low,extension-review,,,,
+391,comparison,,,時点 vs 時間の長さ,,,,Low,extension-review,,,,
+392,comparison,,,継続動作 vs 完了動作,,,,Low,extension-review,,,,
+393,grammar,,,主題評述結構,,,,Low,extension-review,,,,
+394,concept,,,資訊結構理論,,,,Low,extension-review,,,,
+395,grammar,,,對比與焦點,,,,Low,extension-review,,,,
+396,comparison,,,と vs に 對象用法比較,,,,Low,extension-review,,,,
+397,concept,123,concept/123_金融政策.md,金融政策,（待填寫）,n3,gap-20251227,Critical,draft,出現 9 次,2025-12-27,2025-12-27,
+398,concept,123,concept/123_税金.md,税金,（待填寫）,n3,gap-20251227,Critical,draft,出現 7 次,2025-12-27,2025-12-27,
+399,concept,123,concept/123_経済指標.md,経済指標,（待填寫）,n3,gap-20251227,High,draft,出現 4 次,2025-12-27,2025-12-27,
+400,concept,123,concept/123_財政政策.md,財政政策,（待填寫）,n3,gap-20251227,High,draft,出現 4 次,2025-12-27,2025-12-27,
+401,concept,123,concept/123_経常収支.md,経常収支,（待填寫）,n3,gap-20251227,High,draft,出現 4 次,2025-12-27,2025-12-27,
+402,concept,123,concept/123_GDP.md,GDP,（待填寫）,n3,gap-20251227,High,draft,出現 4 次,2025-12-27,2025-12-27,
+403,concept,123,concept/123_所得税.md,所得税,（待填寫）,n3,gap-20251227,High,draft,出現 4 次,2025-12-27,2025-12-27,
+404,concept,123,concept/123_アスペクト.md,アスペクト,（待填寫）,n3,gap-20251227,High,draft,出現 3 次,2025-12-27,2025-12-27,
+405,grammar,290,grammar/290_終助詞.md,終助詞,（待填寫）,n3,gap-20251227,High,draft,出現 3 次,2025-12-27,2025-12-27,
+406,concept,123,concept/123_景気動向.md,景気動向,（待填寫）,n3,gap-20251227,High,draft,出現 3 次,2025-12-27,2025-12-27,
+407,concept,123,concept/123_市場経済.md,市場経済,（待填寫）,n3,gap-20251227,High,draft,出現 3 次,2025-12-27,2025-12-27,
+408,concept,123,concept/123_債券.md,債券,（待填寫）,n3,gap-20251227,High,draft,出現 3 次,2025-12-27,2025-12-27,
+409,concept,123,concept/123_自由貿易協定.md,自由貿易協定,（待填寫）,n3,gap-20251227,High,draft,出現 3 次,2025-12-27,2025-12-27,
+410,grammar,290,grammar/290_接続詞の種類.md,接続詞の種類,（待填寫）,n3,gap-20251227,Medium,draft,出現 2 次,2025-12-27,2025-12-27,
+411,concept,123,concept/123_尊敬語概念.md,尊敬語概念,（待填寫）,n3,gap-20251227,Medium,draft,出現 2 次,2025-12-27,2025-12-27,
+412,grammar,290,grammar/290_状態動詞.md,状態動詞,（待填寫）,n3,gap-20251227,Medium,draft,出現 2 次,2025-12-27,2025-12-27,
+413,concept,123,concept/123_ウチとソト.md,ウチとソト,（待填寫）,n3,gap-20251227,Medium,draft,出現 2 次,2025-12-27,2025-12-27,
+414,concept,123,concept/123_焦點（Focus）.md,焦點（Focus）,（待填寫）,n3,gap-20251227,Medium,draft,出現 2 次,2025-12-27,2025-12-27,
+415,concept,123,concept/123_對比焦點.md,對比焦點,（待填寫）,n3,gap-20251227,Medium,draft,出現 2 次,2025-12-27,2025-12-27,
+416,concept,123,concept/123_(待建立標記)_重音與資訊結構.md,(待建立標記) 重音與資訊結構,（待填寫）,n3,gap-20251227,Medium,pending,出現 2 次,2025-12-27,2025-12-27,
+417,concept,123,concept/123_sonkeigo_concept.md.md,sonkeigo_concept.md,（待填寫）,n3,gap-20251227,Medium,pending,出現 2 次,2025-12-27,2025-12-27,
+418,concept,123,concept/123_kenjougo_concept.md.md,kenjougo_concept.md,（待填寫）,n3,gap-20251227,Medium,pending,出現 2 次,2025-12-27,2025-12-27,
+419,noun,276,noun/276_謙讓語.md,謙讓語,（待填寫）,n3,gap-20251227,Medium,draft,出現 2 次,2025-12-27,2025-12-27,
+420,grammar,290,grammar/290_形態論.md,形態論,（待填寫）,n3,gap-20251227,Medium,draft,出現 2 次,2025-12-27,2025-12-27,
+421,concept,123,concept/123_意味論.md,意味論,（待填寫）,n3,gap-20251227,Medium,draft,出現 2 次,2025-12-27,2025-12-27,
+422,grammar,290,grammar/290_助詞系統.md,助詞系統,（待填寫）,n3,gap-20251227,Medium,draft,出現 2 次,2025-12-27,2025-12-27,
+423,concept,123,concept/123_けど.md,けど,（待填寫）,n3,gap-20251227,Medium,draft,出現 2 次,2025-12-27,2025-12-27,
+424,concept,123,concept/123_だが.md,だが,（待填寫）,n3,gap-20251227,Medium,draft,出現 2 次,2025-12-27,2025-12-27,
+425,noun,276,noun/276_敬語の使い分け.md,敬語の使い分け,（待填寫）,n3,gap-20251227,Medium,draft,出現 2 次,2025-12-27,2025-12-27,
+426,concept,123,concept/123_ている.md,ている,（待填寫）,n3,gap-20251227,Medium,draft,出現 2 次,2025-12-27,2025-12-27,
+427,concept,123,concept/123_てもいい.md,てもいい,（待填寫）,n3,gap-20251227,Medium,draft,出現 2 次,2025-12-27,2025-12-27,
+428,concept,123,concept/123_なくてはいけない.md,なくてはいけない,（待填寫）,n3,gap-20251227,Medium,draft,出現 2 次,2025-12-27,2025-12-27,
+429,grammar,290,grammar/290_時間副詞的用法.md,時間副詞的用法,（待填寫）,n3,gap-20251227,Medium,draft,出現 2 次,2025-12-27,2025-12-27,
+430,grammar,290,grammar/290_補助動詞しまう的用法.md,補助動詞しまう的用法,（待填寫）,n3,gap-20251227,Medium,draft,出現 2 次,2025-12-27,2025-12-27,
+431,concept,123,concept/123_商務敬語的階梯理論.md,商務敬語的階梯理論,（待填寫）,n3,gap-20251227,Medium,draft,出現 2 次,2025-12-27,2025-12-27,
+432,concept,123,concept/123_預金通帳.md,預金通帳,（待填寫）,n3,gap-20251227,Medium,draft,出現 2 次,2025-12-27,2025-12-27,
+433,concept,123,concept/123_振込.md,振込,（待填寫）,n3,gap-20251227,Medium,draft,出現 2 次,2025-12-27,2025-12-27,
+434,concept,123,concept/123_資産運用.md,資産運用,（待填寫）,n3,gap-20251227,Medium,draft,出現 2 次,2025-12-27,2025-12-27,
+435,concept,123,concept/123_不動産.md,不動産,（待填寫）,n3,gap-20251227,Medium,draft,出現 2 次,2025-12-27,2025-12-27,
+436,concept,123,concept/123_物価（物價）.md,物価（物價）,（待填寫）,n3,gap-20251227,Medium,draft,出現 2 次,2025-12-27,2025-12-27,
+437,concept,123,concept/123_実質成長率.md,実質成長率,（待填寫）,n3,gap-20251227,Medium,draft,出現 2 次,2025-12-27,2025-12-27,
+438,concept,123,concept/123_名目成長率.md,名目成長率,（待填寫）,n3,gap-20251227,Medium,draft,出現 2 次,2025-12-27,2025-12-27,
+439,concept,123,concept/123_投資家.md,投資家,（待填寫）,n3,gap-20251227,Medium,draft,出現 2 次,2025-12-27,2025-12-27,
+440,concept,123,concept/123_金融機関.md,金融機関,（待填寫）,n3,gap-20251227,Medium,draft,出現 2 次,2025-12-27,2025-12-27,
+441,concept,123,concept/123_収入.md,収入,（待填寫）,n3,gap-20251227,Medium,draft,出現 2 次,2025-12-27,2025-12-27,
+442,concept,123,concept/123_支出.md,支出,（待填寫）,n3,gap-20251227,Medium,draft,出現 2 次,2025-12-27,2025-12-27,
+443,concept,123,concept/123_経費.md,経費,（待填寫）,n3,gap-20251227,Medium,draft,出現 2 次,2025-12-27,2025-12-27,
+444,concept,123,concept/123_輸出入.md,輸出入,（待填寫）,n3,gap-20251227,Medium,draft,出現 2 次,2025-12-27,2025-12-27,
+445,concept,123,concept/123_外貨準備.md,外貨準備,（待填寫）,n3,gap-20251227,Medium,draft,出現 2 次,2025-12-27,2025-12-27,
+446,concept,123,concept/123_比較優位.md,比較優位,（待填寫）,n3,gap-20251227,Medium,draft,出現 2 次,2025-12-27,2025-12-27,
+447,concept,123,concept/123_マネタリーベース.md,マネタリーベース,（待填寫）,n3,gap-20251227,Medium,draft,出現 2 次,2025-12-27,2025-12-27,
+448,concept,123,concept/123_国際法.md,国際法,（待填寫）,n3,gap-20251227,Medium,draft,出現 2 次,2025-12-27,2025-12-27,
+449,concept,123,concept/123_技術移転.md,技術移転,（待填寫）,n3,gap-20251227,Medium,draft,出現 2 次,2025-12-27,2025-12-27,
+450,concept,123,concept/123_政策提言.md,政策提言,（待填寫）,n3,gap-20251227,Medium,draft,出現 2 次,2025-12-27,2025-12-27,
+451,concept,123,concept/123_政策.md,政策,（待填寫）,n3,gap-20251227,Medium,draft,出現 2 次,2025-12-27,2025-12-27,
+452,concept,123,concept/123_需要と供給.md,需要と供給,（待填寫）,n3,gap-20251227,Medium,draft,出現 2 次,2025-12-27,2025-12-27,
+453,concept,123,concept/123_電子マネー.md,電子マネー,（待填寫）,n3,gap-20251227,Medium,draft,出現 2 次,2025-12-27,2025-12-27,
+454,concept,123,concept/123_融資.md,融資,（待填寫）,n3,gap-20251227,Medium,draft,出現 2 次,2025-12-27,2025-12-27,
+455,concept,123,concept/123_為替レート.md,為替レート,（待填寫）,n3,gap-20251227,Medium,draft,出現 2 次,2025-12-27,2025-12-27,
+456,concept,123,concept/123_量的緩和.md,量的緩和,（待填寫）,n3,gap-20251227,Medium,draft,出現 2 次,2025-12-27,2025-12-27,
+457,concept,123,concept/123_純資産.md,純資産,（待填寫）,n3,gap-20251227,Medium,draft,出現 2 次,2025-12-27,2025-12-27,
+458,concept,123,concept/123_株式.md,株式,（待填寫）,n3,gap-20251227,Medium,draft,出現 2 次,2025-12-27,2025-12-27,
+459,concept,123,concept/123_所得.md,所得,（待填寫）,n3,gap-20251227,Medium,draft,出現 2 次,2025-12-27,2025-12-27,
+460,concept,123,concept/123_財政.md,財政,（待填寫）,n3,gap-20251227,Medium,draft,出現 2 次,2025-12-27,2025-12-27,
+461,grammar,290,grammar/290_補助動詞.md,補助動詞,（待填寫）,n3,gap-20251227,Medium,draft,出現 2 次,2025-12-27,2025-12-27,
+462,concept,123,concept/123_短い.md,短い,（待填寫）,n3,gap-20251227,Low,draft,出現 1 次,2025-12-27,2025-12-27,
+463,concept,123,concept/123_小さい.md,小さい,（待填寫）,n3,gap-20251227,Low,draft,出現 1 次,2025-12-27,2025-12-27,
+464,concept,123,concept/123_安い.md,安い,（待填寫）,n3,gap-20251227,Low,draft,出現 1 次,2025-12-27,2025-12-27,
+465,concept,123,concept/123_いい.md,いい,（待填寫）,n3,gap-20251227,Low,draft,出現 1 次,2025-12-27,2025-12-27,
+466,concept,123,concept/123_悪化（あっか）.md,悪化（あっか）,（待填寫）,n3,gap-20251227,Low,draft,出現 1 次,2025-12-27,2025-12-27,
+467,concept,123,concept/123_悪魔（あくま）.md,悪魔（あくま）,（待填寫）,n3,gap-20251227,Low,draft,出現 1 次,2025-12-27,2025-12-27,
+468,concept,123,concept/123_悪質（あくしつ）.md,悪質（あくしつ）,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+469,grammar,290,grammar/290_大変的多義用法.md,大変的多義用法,（待填寫）,n3,gap-20251227,Low,draft,出現 1 次,2025-12-27,2025-12-27,
+470,grammar,290,grammar/290_副詞的否定用法.md,副詞的否定用法,（待填寫）,n3,gap-20251227,Low,draft,出現 1 次,2025-12-27,2025-12-27,
+471,concept,123,concept/123_正式道歉表達.md,正式道歉表達,（待填寫）,n3,gap-20251227,Low,draft,出現 1 次,2025-12-27,2025-12-27,
+472,grammar,290,grammar/290_逆接接続詞.md,逆接接続詞,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+473,noun,276,noun/276_文語と口語.md,文語と口語,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+474,grammar,290,grammar/290_イ形容詞總覽.md,イ形容詞總覽,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+475,grammar,290,grammar/290_連体詞的用法.md,連体詞的用法,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+476,grammar,290,grammar/290_形容詞的活用.md,形容詞的活用,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+477,grammar,290,grammar/290_動詞する.md,動詞する,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+478,grammar,290,grammar/290_學習相關動詞.md,學習相關動詞,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+479,concept,123,concept/123_greeting_001.md,greeting_001,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+480,concept,123,concept/123_greeting_002.md,greeting_002,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+481,concept,123,concept/123_もしくは.md,もしくは,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+482,concept,123,concept/123_それとも.md,それとも,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+483,noun,276,noun/276_法律文書の日本語.md,法律文書の日本語,（待填寫）,n3,gap-20251227,Low,draft,出現 1 次,2025-12-27,2025-12-27,
+484,concept,123,concept/123_擬態語系統.md,擬態語系統,（待填寫）,n3,gap-20251227,Low,draft,出現 1 次,2025-12-27,2025-12-27,
+485,grammar,290,grammar/290_光的表現.md,光的表現,（待填寫）,n3,gap-20251227,Low,draft,出現 1 次,2025-12-27,2025-12-27,
+486,noun,276,noun/276_清潔相關詞彙.md,清潔相關詞彙,（待填寫）,n3,gap-20251227,Low,draft,出現 1 次,2025-12-27,2025-12-27,
+487,noun,276,noun/276_視覺效果擬態語.md,視覺效果擬態語,（待填寫）,n3,gap-20251227,Low,draft,出現 1 次,2025-12-27,2025-12-27,
+488,concept,123,concept/123_謙讓語概念.md,謙讓語概念,（待填寫）,n3,gap-20251227,Low,draft,出現 1 次,2025-12-27,2025-12-27,
+489,concept,123,concept/123_ウチ・ソト理論.md,ウチ・ソト理論,（待填寫）,n3,gap-20251227,Low,draft,出現 1 次,2025-12-27,2025-12-27,
+490,noun,276,noun/276_商務敬語.md,商務敬語,（待填寫）,n3,gap-20251227,Low,draft,出現 1 次,2025-12-27,2025-12-27,
+491,grammar,290,grammar/290_て形文法.md,て形文法,（待填寫）,n3,gap-20251227,Low,draft,出現 1 次,2025-12-27,2025-12-27,
+492,grammar,290,grammar/290_接續助詞.md,接續助詞,（待填寫）,n3,gap-20251227,Low,draft,出現 1 次,2025-12-27,2025-12-27,
+493,grammar,290,grammar/290_動作完成表現.md,動作完成表現,（待填寫）,n3,gap-20251227,Low,draft,出現 1 次,2025-12-27,2025-12-27,
+494,grammar,290,grammar/290_方向を表す助詞.md,方向を表す助詞,（待填寫）,n3,gap-20251227,Low,draft,出現 1 次,2025-12-27,2025-12-27,
+495,grammar,290,grammar/290_移動動詞の活用.md,移動動詞の活用,（待填寫）,n3,gap-20251227,Low,draft,出現 1 次,2025-12-27,2025-12-27,
+496,noun,276,noun/276_視点と敬語.md,視点と敬語,（待填寫）,n3,gap-20251227,Low,draft,出現 1 次,2025-12-27,2025-12-27,
+497,grammar,290,grammar/290_動作動詞.md,動作動詞,（待填寫）,n3,gap-20251227,Low,draft,出現 1 次,2025-12-27,2025-12-27,
+498,concept,123,concept/123_いらっしゃる_vs_参る.md,いらっしゃる vs 参る,（待填寫）,n3,gap-20251227,Low,draft,出現 1 次,2025-12-27,2025-12-27,
+499,concept,123,concept/123_ご覧になる_vs_拝見する.md,ご覧になる vs 拝見する,（待填寫）,n3,gap-20251227,Low,draft,出現 1 次,2025-12-27,2025-12-27,
+500,noun,276,noun/276_語域.md,語域,（待填寫）,n3,gap-20251227,Low,draft,出現 1 次,2025-12-27,2025-12-27,
+501,concept,123,concept/123_話し言葉と書き言葉.md,話し言葉と書き言葉,（待填寫）,n3,gap-20251227,Low,draft,出現 1 次,2025-12-27,2025-12-27,
+502,grammar,290,grammar/290_待遇表現.md,待遇表現,（待填寫）,n3,gap-20251227,Low,draft,出現 1 次,2025-12-27,2025-12-27,
+503,concept,123,concept/123_上下關係.md,上下關係,（待填寫）,n3,gap-20251227,Low,draft,出現 1 次,2025-12-27,2025-12-27,
+504,noun,276,noun/276_意味論（語義學）.md,意味論（語義學）,（待填寫）,n3,gap-20251227,Low,draft,出現 1 次,2025-12-27,2025-12-27,
+505,noun,276,noun/276_語境（Context）.md,語境（Context）,（待填寫）,n3,gap-20251227,Low,draft,出現 1 次,2025-12-27,2025-12-27,
+506,concept,123,concept/123_發話行為理論（Speech_Act_Theory）.md,發話行為理論（Speech Act Theory）,（待填寫）,n3,gap-20251227,Low,draft,出現 1 次,2025-12-27,2025-12-27,
+507,concept,123,concept/123_會話含意理論（Conversational_Implicature）.md,會話含意理論（Conversational Implicature）,（待填寫）,n3,gap-20251227,Low,draft,出現 1 次,2025-12-27,2025-12-27,
+508,noun,276,noun/276_指示語（Deixis）.md,指示語（Deixis）,（待填寫）,n3,gap-20251227,Low,draft,出現 1 次,2025-12-27,2025-12-27,
+509,concept,123,concept/123_察する文化.md,察する文化,（待填寫）,n3,gap-20251227,Low,draft,出現 1 次,2025-12-27,2025-12-27,
+510,concept,123,concept/123_空気を読む.md,空気を読む,（待填寫）,n3,gap-20251227,Low,draft,出現 1 次,2025-12-27,2025-12-27,
+511,concept,123,concept/123_言外の意.md,言外の意,（待填寫）,n3,gap-20251227,Low,draft,出現 1 次,2025-12-27,2025-12-27,
+512,noun,276,noun/276_日語學習框架.md,日語學習框架,（待填寫）,n3,gap-20251227,Low,draft,出現 1 次,2025-12-27,2025-12-27,
+513,concept,123,concept/123_詞彙分級系統.md,詞彙分級系統,（待填寫）,n3,gap-20251227,Low,draft,出現 1 次,2025-12-27,2025-12-27,
+514,grammar,290,grammar/290_文法體系.md,文法體系,（待填寫）,n3,gap-20251227,Low,draft,出現 1 次,2025-12-27,2025-12-27,
+515,noun,276,noun/276_語言能力評估.md,語言能力評估,（待填寫）,n3,gap-20251227,Low,draft,出現 1 次,2025-12-27,2025-12-27,
+516,concept,123,concept/123_學習里程碑.md,學習里程碑,（待填寫）,n3,gap-20251227,Low,draft,出現 1 次,2025-12-27,2025-12-27,
+517,concept,123,concept/123_keigo_system_concept.md.md,keigo_system_concept.md,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+518,concept,123,concept/123_formal_vs_casual_speech_concept.md.md,formal_vs_casual_speech_concept.md,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+519,concept,123,concept/123_japanese_language_family.md.md,japanese_language_family.md,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+520,concept,123,concept/123_language_typology.md.md,language_typology.md,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+521,noun,276,noun/276_社會語用.md,社會語用,（待填寫）,n3,gap-20251227,Low,draft,出現 1 次,2025-12-27,2025-12-27,
+522,concept,123,concept/123_職場文化.md,職場文化,（待填寫）,n3,gap-20251227,Low,draft,出現 1 次,2025-12-27,2025-12-27,
+523,grammar,290,grammar/290_慣用表現.md,慣用表現,（待填寫）,n3,gap-20251227,Low,draft,出現 1 次,2025-12-27,2025-12-27,
+524,grammar,290,grammar/290_自然表現.md,自然表現,（待填寫）,n3,gap-20251227,Low,draft,出現 1 次,2025-12-27,2025-12-27,
+525,noun,276,noun/276_母語干擾.md,母語干擾,（待填寫）,n3,gap-20251227,Low,draft,出現 1 次,2025-12-27,2025-12-27,
+526,grammar,290,grammar/290_終助詞用法.md,終助詞用法,（待填寫）,n3,gap-20251227,Low,draft,出現 1 次,2025-12-27,2025-12-27,
+527,noun,276,noun/276_寒暄用語.md,寒暄用語,（待填寫）,n3,gap-20251227,Low,draft,出現 1 次,2025-12-27,2025-12-27,
+528,noun,276,noun/276_商務日語.md,商務日語,（待填寫）,n3,gap-20251227,Low,draft,出現 1 次,2025-12-27,2025-12-27,
+529,noun,276,noun/276_電話用語.md,電話用語,（待填寫）,n3,gap-20251227,Low,draft,出現 1 次,2025-12-27,2025-12-27,
+530,noun,276,noun/276_補語.md,補語,（待填寫）,n3,gap-20251227,Low,draft,出現 1 次,2025-12-27,2025-12-27,
+531,concept,123,concept/123_時態.md,時態,（待填寫）,n3,gap-20251227,Low,draft,出現 1 次,2025-12-27,2025-12-27,
+532,grammar,290,grammar/290_い形容詞.md,い形容詞,（待填寫）,n3,gap-20251227,Low,draft,出現 1 次,2025-12-27,2025-12-27,
+533,grammar,290,grammar/290_な形容詞.md,な形容詞,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+534,concept,123,concept/123_だ.md,だ,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+535,concept,123,concept/123_です.md,です,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+536,concept,123,concept/123_上下関係.md,上下関係,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+537,concept,123,concept/123_係り受け.md,係り受け,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+538,grammar,290,grammar/290_助詞の体系.md,助詞の体系,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+539,noun,276,noun/276_品詞の分類.md,品詞の分類,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+540,noun,276,noun/276_主語と述語.md,主語と述語,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+541,noun,276,noun/276_修飾語と被修飾語.md,修飾語と被修飾語,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+542,concept,123,concept/123_複文と単文.md,複文と単文,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+543,concept,123,concept/123_テンス・アスペクト.md,テンス・アスペクト,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+544,concept,123,concept/123_ヴォイス.md,ヴォイス,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+545,noun,276,noun/276_語幹與接辭.md,語幹與接辭,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+546,noun,276,noun/276_屈折語.md,屈折語,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+547,noun,276,noun/276_孤立語.md,孤立語,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+548,noun,276,noun/276_複綜語.md,複綜語,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+549,grammar,290,grammar/290_仮定表現.md,仮定表現,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+550,concept,123,concept/123_順接条件と逆接条件.md,順接条件と逆接条件,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+551,concept,123,concept/123_条件節と主節の時制.md,条件節と主節の時制,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+552,grammar,290,grammar/290_慣用的条件表現.md,慣用的条件表現,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+553,concept,123,concept/123_条件節.md,条件節,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+554,concept,123,concept/123_仮定法.md,仮定法,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+555,concept,123,concept/123_因果関係.md,因果関係,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+556,concept,123,concept/123_時間的順序性.md,時間的順序性,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+557,concept,123,concept/123_効用.md,効用,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+558,concept,123,concept/123_限界効用.md,限界効用,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+559,noun,276,noun/276_敬語.md,敬語,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+560,grammar,290,grammar/290_助詞「が」.md,助詞「が」,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+561,concept,123,concept/123_お/ご～ください.md,お/ご～ください,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+562,concept,123,concept/123_申し上げる.md,申し上げる,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+563,concept,123,concept/123_伺う.md,伺う,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+564,concept,123,concept/123_さしあげる.md,さしあげる,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+565,concept,123,concept/123_〜ましょう.md,〜ましょう,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+566,concept,123,concept/123_ませんか.md,ませんか,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+567,grammar,290,grammar/290_勧誘表現.md,勧誘表現,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+568,concept,123,concept/123_てください.md,てください,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+569,concept,123,concept/123_てはいけない.md,てはいけない,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+570,grammar,290,grammar/290_Group_I_動詞.md,Group I 動詞,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+571,grammar,290,grammar/290_Group_II_動詞.md,Group II 動詞,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+572,grammar,290,grammar/290_動詞活用表.md,動詞活用表,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+573,grammar,290,grammar/290_サ変動詞.md,サ変動詞,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+574,grammar,290,grammar/290_カ変動詞.md,カ変動詞,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+575,grammar,290,grammar/290_動詞の活用.md,動詞の活用,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+576,grammar,290,grammar/290_イ形容詞.md,イ形容詞,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+577,concept,123,concept/123_べきだ.md,べきだ,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+578,concept,123,concept/123_ないといけない.md,ないといけない,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+579,concept,123,concept/123_ようになる.md,ようになる,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+580,concept,123,concept/123_くなる.md,くなる,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+581,concept,123,concept/123_なる.md,なる,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+582,concept,123,concept/123_書き言葉.md,書き言葉,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+583,noun,276,noun/276_接續詞.md,接續詞,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+584,grammar,290,grammar/290_形容詞活用.md,形容詞活用,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+585,concept,123,concept/123_です・だ.md,です・だ,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+586,noun,276,noun/276_主語標記：は_vs_が.md,主語標記：は vs が,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+587,grammar,290,grammar/290_助詞から和まで的用法.md,助詞から和まで的用法,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+588,grammar,290,grammar/290_助詞「に」（場所）.md,助詞「に」（場所）,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+589,noun,276,noun/276_時間詞彙.md,時間詞彙,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+590,grammar,290,grammar/290_助詞「で」（時間）.md,助詞「で」（時間）,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+591,noun,276,noun/276_相對時間詞.md,相對時間詞,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+592,grammar,290,grammar/290_継続動詞.md,継続動詞,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+593,grammar,290,grammar/290_自動詞と他動詞.md,自動詞と他動詞,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+594,concept,123,concept/123_〜たところ.md,〜たところ,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+595,concept,123,concept/123_〜ようとしているところ.md,〜ようとしているところ,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+596,concept,123,concept/123_なくてもかまわない.md,なくてもかまわない,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+597,concept,123,concept/123_しなくていい.md,しなくていい,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+598,concept,123,concept/123_ないほうがいい.md,ないほうがいい,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+599,grammar,290,grammar/290_日文否定表現體系.md,日文否定表現體系,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+600,concept,123,concept/123_許可與禁止的表達方式.md,許可與禁止的表達方式,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+601,grammar,290,grammar/290_義務與必要性文法.md,義務與必要性文法,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+602,grammar,290,grammar/290_動詞ない形.md,動詞ない形,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+603,concept,123,concept/123_てもいい構文.md,てもいい構文,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+604,grammar,290,grammar/290_許可表現.md,許可表現,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+605,noun,276,noun/276_標準語.md,標準語,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+606,concept,123,concept/123_東京方言.md,東京方言,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+607,concept,123,concept/123_大阪方言.md,大阪方言,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+608,concept,123,concept/123_京都方言.md,京都方言,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+609,concept,123,concept/123_方言音調.md,方言音調,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+610,noun,276,noun/276_尊敬語システム.md,尊敬語システム,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+611,noun,276,noun/276_丁寧語システム.md,丁寧語システム,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+612,noun,276,noun/276_ビジネス日本語.md,ビジネス日本語,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+613,concept,123,concept/123_請求表達.md,請求表達,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+614,grammar,290,grammar/290_助詞「か」.md,助詞「か」,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+615,grammar,290,grammar/290_助詞「も」.md,助詞「も」,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+616,grammar,290,grammar/290_否定表現.md,否定表現,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+617,concept,123,concept/123_〜つつ.md,〜つつ,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+618,concept,123,concept/123_〜ながらも.md,〜ながらも,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+619,concept,123,concept/123_社會規則.md,社會規則,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+620,concept,123,concept/123_から...まで_範圍表達.md,から...まで 範圍表達,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+621,grammar,290,grammar/290_に助詞用法.md,に助詞用法,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+622,noun,276,noun/276_申し上げる（謙讓語：說）.md,申し上げる（謙讓語：說）,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+623,noun,276,noun/276_伺う（謙讓語：訪問/詢問）.md,伺う（謙讓語：訪問/詢問）,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+624,noun,276,noun/276_謙讓語的分類（謙讓語_I_類與_II_類）.md,謙讓語的分類（謙讓語 I 類與 II 類）,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+625,concept,123,concept/123_〜ていただけますか（禮貌請求）.md,〜ていただけますか（禮貌請求）,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+626,concept,123,concept/123_〜ていただきたいのですが（更委婉的請求）.md,〜ていただきたいのですが（更委婉的請求）,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+627,noun,276,noun/276_謙讓語_I_類與_II_類的區別.md,謙讓語 I 類與 II 類的區別,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+628,noun,276,noun/276_伺う（謙讓語：拜訪/詢問）.md,伺う（謙讓語：拜訪/詢問）,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+629,noun,276,noun/276_申す（謙讓語：說）.md,申す（謙讓語：說）,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+630,noun,276,noun/276_ご〜する（謙讓語構成）.md,ご〜する（謙讓語構成）,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+631,grammar,290,grammar/290_れる・られる（尊敬語助動詞）.md,れる・られる（尊敬語助動詞）,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+632,concept,123,concept/123_〜て差し上げる.md,〜て差し上げる,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+633,concept,123,concept/123_ATM.md,ATM,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+634,concept,123,concept/123_入出金.md,入出金,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+635,concept,123,concept/123_セキュリティ.md,セキュリティ,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+636,concept,123,concept/123_消費者態度指数.md,消費者態度指数,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+637,concept,123,concept/123_鉱工業生産指数.md,鉱工業生産指数,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+638,concept,123,concept/123_有効求人倍率.md,有効求人倍率,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+639,concept,123,concept/123_完全失業率.md,完全失業率,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+640,concept,123,concept/123_消費者物価指数.md,消費者物価指数,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+641,concept,123,concept/123_労働.md,労働,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+642,concept,123,concept/123_有価証券.md,有価証券,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+643,concept,123,concept/123_リスク.md,リスク,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+644,concept,123,concept/123_株式投資.md,株式投資,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+645,concept,123,concept/123_不動産投資.md,不動産投資,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+646,concept,123,concept/123_ポートフォリオ.md,ポートフォリオ,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+647,concept,123,concept/123_ROI.md,ROI,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+648,concept,123,concept/123_課税.md,課税,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+649,concept,123,concept/123_納税者.md,納税者,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+650,concept,123,concept/123_税率.md,税率,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+651,concept,123,concept/123_公共財.md,公共財,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+652,concept,123,concept/123_租税負担.md,租税負担,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+653,concept,123,concept/123_税制改革.md,税制改革,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+654,concept,123,concept/123_崩壊.md,崩壊,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+655,concept,123,concept/123_経済学の基本概念.md,経済学の基本概念,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+656,concept,123,concept/123_日本のバブル経済.md,日本のバブル経済,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+657,concept,123,concept/123_資産価格の変動.md,資産価格の変動,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+658,concept,123,concept/123_金融政策（貨幣政策）.md,金融政策（貨幣政策）,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+659,concept,123,concept/123_GDP（国内総生産）.md,GDP（国内総生産）,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+660,concept,123,concept/123_持続可能な成長.md,持続可能な成長,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+661,concept,123,concept/123_潜在成長率.md,潜在成長率,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+662,concept,123,concept/123_好景気.md,好景気,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+663,concept,123,concept/123_繁栄.md,繁栄,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+664,concept,123,concept/123_バブル経済.md,バブル経済,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+665,concept,123,concept/123_IPO（新規公開株）.md,IPO（新規公開株）,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+666,concept,123,concept/123_貸借対照表.md,貸借対照表,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+667,concept,123,concept/123_債務.md,債務,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+668,concept,123,concept/123_財産.md,財産,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+669,concept,123,concept/123_現金.md,現金,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+670,concept,123,concept/123_マネー.md,マネー,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+671,concept,123,concept/123_として.md,として,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+672,concept,123,concept/123_により.md,により,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+673,concept,123,concept/123_費用.md,費用,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+674,concept,123,concept/123_予定費用.md,予定費用,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+675,concept,123,concept/123_決算.md,決算,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+676,concept,123,concept/123_実績.md,実績,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+677,concept,123,concept/123_予算案.md,予算案,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+678,concept,123,concept/123_財務計画.md,財務計画,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+679,concept,123,concept/123_資金配分.md,資金配分,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+680,concept,123,concept/123_輸入税.md,輸入税,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+681,concept,123,concept/123_税関.md,税関,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+682,concept,123,concept/123_保護主義.md,保護主義,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+683,concept,123,concept/123_税収.md,税収,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+684,concept,123,concept/123_所得税（しょとくぜい）.md,所得税（しょとくぜい）,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+685,concept,123,concept/123_法人税（ほうじんぜい）.md,法人税（ほうじんぜい）,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+686,concept,123,concept/123_間接税（かんせつぜい）.md,間接税（かんせつぜい）,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+687,concept,123,concept/123_直接税（ちょくせつぜい）.md,直接税（ちょくせつぜい）,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+688,concept,123,concept/123_免税（めんぜい）.md,免税（めんぜい）,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+689,concept,123,concept/123_財政収支.md,財政収支,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+690,concept,123,concept/123_貿易協定.md,貿易協定,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+691,concept,123,concept/123_WTO（世界貿易機関）.md,WTO（世界貿易機関）,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+692,concept,123,concept/123_資本収支.md,資本収支,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+693,concept,123,concept/123_市中銀行.md,市中銀行,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+694,concept,123,concept/123_発券銀行.md,発券銀行,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+695,concept,123,concept/123_国際貿易.md,国際貿易,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+696,concept,123,concept/123_金融危機.md,金融危機,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+697,concept,123,concept/123_恐慌.md,恐慌,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+698,concept,123,concept/123_経済封鎖.md,経済封鎖,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+699,concept,123,concept/123_貿易制限.md,貿易制限,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+700,concept,123,concept/123_資産凍結.md,資産凍結,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+701,concept,123,concept/123_外交政策.md,外交政策,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+702,concept,123,concept/123_人権侵害.md,人権侵害,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+703,concept,123,concept/123_国際経済.md,国際経済,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+704,concept,123,concept/123_先進国.md,先進国,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+705,concept,123,concept/123_上場.md,上場,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+706,concept,123,concept/123_貿易障壁.md,貿易障壁,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+707,concept,123,concept/123_非関税障壁.md,非関税障壁,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+708,concept,123,concept/123_開発援助.md,開発援助,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+709,concept,123,concept/123_ODA.md,ODA,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+710,concept,123,concept/123_経済連携.md,経済連携,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+711,concept,123,concept/123_国際協力.md,国際協力,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+712,concept,123,concept/123_生活費.md,生活費,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+713,concept,123,concept/123_指数.md,指数,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+714,concept,123,concept/123_地域経済統合.md,地域経済統合,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+715,concept,123,concept/123_多国間協定.md,多国間協定,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+716,concept,123,concept/123_産業発展.md,産業発展,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+717,concept,123,concept/123_地域開発.md,地域開発,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+718,concept,123,concept/123_インフラ整備.md,インフラ整備,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+719,concept,123,concept/123_國際通貨基金.md,國際通貨基金,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+720,concept,123,concept/123_世界銀行.md,世界銀行,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+721,concept,123,concept/123_持続可能な開発.md,持続可能な開発,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+722,concept,123,concept/123_労働生産性.md,労働生産性,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+723,concept,123,concept/123_領海.md,領海,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+724,concept,123,concept/123_公海.md,公海,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+725,concept,123,concept/123_排他的経済水域.md,排他的経済水域,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+726,concept,123,concept/123_海洋法条約.md,海洋法条約,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+727,concept,123,concept/123_天然資源.md,天然資源,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+728,concept,123,concept/123_労使関係.md,労使関係,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+729,concept,123,concept/123_春闘.md,春闘,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+730,concept,123,concept/123_組織.md,組織,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+731,concept,123,concept/123_動的最適化.md,動的最適化,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+732,concept,123,concept/123_成長理論.md,成長理論,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+733,concept,123,concept/123_一般均衡理論.md,一般均衡理論,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+734,concept,123,concept/123_経団連.md,経団連,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+735,concept,123,concept/123_日本商工会議所.md,日本商工会議所,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+736,concept,123,concept/123_規制改革.md,規制改革,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+737,concept,123,concept/123_経済団体.md,経済団体,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+738,concept,123,concept/123_機会費用.md,機会費用,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+739,concept,123,concept/123_経済計画.md,経済計画,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+740,concept,123,concept/123_暗号資産.md,暗号資産,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+741,concept,123,concept/123_金融技術.md,金融技術,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+742,concept,123,concept/123_銀行預金.md,銀行預金,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+743,concept,123,concept/123_決済.md,決済,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+744,concept,123,concept/123_キャッシュレス.md,キャッシュレス,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+745,concept,123,concept/123_M&A.md,M&A,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+746,concept,123,concept/123_購買力.md,購買力,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+747,concept,123,concept/123_マネーサプライ.md,マネーサプライ,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+748,concept,123,concept/123_社会主義.md,社会主義,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+749,concept,123,concept/123_自由主義.md,自由主義,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+750,concept,123,concept/123_分散投資.md,分散投資,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+751,concept,123,concept/123_政策金利.md,政策金利,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+752,concept,123,concept/123_売上高.md,売上高,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+753,concept,123,concept/123_営業利益.md,営業利益,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+754,concept,123,concept/123_営業費用.md,営業費用,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+755,concept,123,concept/123_営業外収入.md,営業外収入,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+756,concept,123,concept/123_損益計算書.md,損益計算書,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+757,concept,123,concept/123_雇用.md,雇用,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+758,concept,123,concept/123_労働者.md,労働者,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+759,concept,123,concept/123_企業家.md,企業家,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+760,concept,123,concept/123_増資.md,増資,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+761,concept,123,concept/123_財務分析.md,財務分析,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+762,concept,123,concept/123_資本主義.md,資本主義,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+763,concept,123,concept/123_計画経済.md,計画経済,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+764,concept,123,concept/123_教育.md,教育,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+765,concept,123,concept/123_税制.md,税制,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+766,concept,123,concept/123_原価.md,原価,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+767,concept,123,concept/123_年末調整.md,年末調整,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+768,concept,123,concept/123_地価.md,地価,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+769,concept,123,concept/123_社会資本.md,社会資本,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+770,concept,123,concept/123_市場の失敗.md,市場の失敗,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+771,concept,123,concept/123_効率.md,効率,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+772,concept,123,concept/123_歳入.md,歳入,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+773,concept,123,concept/123_国債.md,国債,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+774,concept,123,concept/123_経済大国.md,経済大国,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+775,concept,123,concept/123_国民所得.md,国民所得,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+776,concept,123,concept/123_金融庁.md,金融庁,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+777,concept,123,concept/123_法人税.md,法人税,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+778,concept,123,concept/123_難民.md,難民,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+779,concept,123,concept/123_経済難民.md,経済難民,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+780,concept,123,concept/123_亡命.md,亡命,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+781,concept,123,concept/123_人権.md,人権,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+782,concept,123,concept/123_移民.md,移民,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+783,concept,123,concept/123_日本銀行.md,日本銀行,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+784,concept,123,concept/123_通貨供給.md,通貨供給,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+785,concept,123,concept/123_物価安定.md,物価安定,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+786,concept,123,concept/123_輸入.md,輸入,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+787,concept,123,concept/123_利益追求の本質.md,利益追求の本質,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+788,concept,123,concept/123_収益と利益の違い.md,収益と利益の違い,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+789,concept,123,concept/123_利益相反.md,利益相反,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+790,concept,123,concept/123_需要.md,需要,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+791,concept,123,concept/123_供給.md,供給,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+792,concept,123,concept/123_納税.md,納税,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+793,concept,123,concept/123_税務署.md,税務署,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+794,concept,123,concept/123_市場の効率性.md,市場の効率性,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+795,concept,123,concept/123_信頼.md,信頼,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+796,concept,123,concept/123_評判.md,評判,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+797,concept,123,concept/123_不透明.md,不透明,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+798,concept,123,concept/123_説明責任.md,説明責任,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+799,concept,123,concept/123_情報公開.md,情報公開,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+800,concept,123,concept/123_信頼性.md,信頼性,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+801,concept,123,concept/123_ガバナンス.md,ガバナンス,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+802,concept,123,concept/123_情報.md,情報,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+803,concept,123,concept/123_学問.md,学問,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+804,concept,123,concept/123_教養.md,教養,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+805,concept,123,concept/123_智恵.md,智恵,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+806,concept,123,concept/123_を持つ.md,を持つ,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+807,concept,123,concept/123_が豊富.md,が豊富,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+808,concept,123,concept/123_を深める.md,を深める,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+809,concept,123,concept/123_會計系統.md,會計系統,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+810,concept,123,concept/123_稅務申報.md,稅務申報,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+811,concept,123,concept/123_監查.md,監查,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+812,concept,123,concept/123_債務者.md,債務者,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+813,concept,123,concept/123_債権.md,債権,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+814,concept,123,concept/123_破産.md,破産,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+815,concept,123,concept/123_担保.md,担保,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+816,concept,123,concept/123_減価償却.md,減価償却,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+817,concept,123,concept/123_經營管理.md,經營管理,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+818,concept,123,concept/123_交付.md,交付,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+819,concept,123,concept/123_受給.md,受給,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+820,concept,123,concept/123_デフレスパイラル.md,デフレスパイラル,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+821,concept,123,concept/123_赤字.md,赤字,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+822,grammar,290,grammar/290_動詞連用形_+_に取り組む.md,動詞連用形 + に取り組む,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+823,concept,123,concept/123_～において.md,～において,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+824,noun,276,noun/276_とても_vs_すごく_vs_大変（程度副詞比較）.md,とても vs すごく vs 大変（程度副詞比較）,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+825,grammar,290,grammar/290_大きな_vs_大きい（連體詞_vs_い形容詞）.md,大きな vs 大きい（連體詞 vs い形容詞）,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+826,grammar,290,grammar/290_副詞的種類和用法.md,副詞的種類和用法,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+827,grammar,290,grammar/290_日文的程度表現.md,日文的程度表現,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+828,concept,123,concept/123_困難・問題的表達方式.md,困難・問題的表達方式,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+829,concept,123,concept/123_ツルツル.md,ツルツル,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+830,concept,123,concept/123_ピカピカの一年生.md,ピカピカの一年生,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+831,concept,123,concept/123_ツヤツヤ.md,ツヤツヤ,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+832,concept,123,concept/123_キラリと.md,キラリと,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+833,grammar,290,grammar/290_存在動詞.md,存在動詞,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+834,concept,123,concept/123_とか.md,とか,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+835,concept,123,concept/123_など.md,など,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+836,concept,123,concept/123_も.md,も,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+837,grammar,290,grammar/290_並列表現.md,並列表現,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+838,concept,123,concept/123_も_(Also/Too).md,も (Also/Too),（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+839,concept,123,concept/123_Topic-Comment_Structure.md,Topic-Comment Structure,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+840,concept,123,concept/123_Contrastive_Focus.md,Contrastive Focus,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+841,concept,123,concept/123_Zero_Pronoun.md,Zero Pronoun,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+842,grammar,290,grammar/290_て形_+_来る.md,て形 + 来る,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+843,concept,123,concept/123_カ行変格活用.md,カ行変格活用,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+844,concept,123,concept/123_目.md,目,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+845,concept,123,concept/123_視力.md,視力,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+846,concept,123,concept/123_見かける.md,見かける,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+847,grammar,290,grammar/290_動詞辞書形.md,動詞辞書形,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+848,grammar,290,grammar/290_可能動詞.md,可能動詞,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+849,grammar,290,grammar/290_一段動詞活用.md,一段動詞活用,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+850,concept,123,concept/123_訪れる.md,訪れる,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+851,concept,123,concept/123_訪問する.md,訪問する,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+852,concept,123,concept/123_質問する.md,質問する,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+853,concept,123,concept/123_問う.md,問う,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+854,noun,276,noun/276_謙讓語體系.md,謙讓語體系,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+855,grammar,290,grammar/290_授受動詞.md,授受動詞,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+856,grammar,290,grammar/290_補助動詞用法.md,補助動詞用法,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+857,concept,123,concept/123_～ていただく.md,～ていただく,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+858,concept,123,concept/123_目上・目下の概念.md,目上・目下の概念,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+859,noun,276,noun/276_ござる（謙讓語）.md,ござる（謙讓語）,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+860,concept,123,concept/123_いる_vs_おる.md,いる vs おる,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+861,concept,123,concept/123_おる_vs_いらっしゃる.md,おる vs いらっしゃる,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+862,grammar,290,grammar/290_引用表現：と.md,引用表現：と,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+863,grammar,290,grammar/290_定義表現：という.md,定義表現：という,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+864,noun,276,noun/276_尊敬語：おっしゃる.md,尊敬語：おっしゃる,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+865,noun,276,noun/276_謙讓語：申す.md,謙讓語：申す,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+866,concept,123,concept/123_商売.md,商売,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+867,grammar,290,grammar/290_動詞活用規則.md,動詞活用規則,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+868,noun,276,noun/276_商業用語.md,商業用語,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
+869,concept,123,concept/123_家（いえ）.md,家（いえ）,（待填寫）,n3,gap-20251227,Low,pending,出現 1 次,2025-12-27,2025-12-27,
