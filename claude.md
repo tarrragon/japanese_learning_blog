@@ -50,6 +50,26 @@ link_status:           # 連結統計
 - `detect_pending_links.py`：檢測待建立連結
 - `verify_content.py`：驗證內容完整性
 - `migrate_cards.py`：遷移卡片到 v1.5.0 格式
+- `stage_dashboard.py`：⭐ **階段管理看板**（進度追蹤的單一入口）
+
+---
+
+## 標準化任務分配流程
+
+**每次分配任務前，必須執行以下步驟**：
+
+```bash
+# 1. 查看當前階段總覽
+uv run scripts/stage_dashboard.py
+
+# 2. 查看下一步行動建議
+uv run scripts/stage_dashboard.py --next-action
+
+# 3. 取得特定階段的待處理卡片（供代理人使用）
+uv run scripts/stage_dashboard.py --stage {stage} --limit 50 --format json
+```
+
+**腳本輸出作為任務分配的事實依據**，不要手動查詢或猜測狀態。
 
 ---
 
@@ -373,6 +393,7 @@ uv run scripts/update_card_progress.py --id {card_id} --stage completed --quiet
 
 | 工具 | 功能 |
 |------|------|
+| ⭐ `stage_dashboard.py` | **階段管理看板**（進度追蹤單一入口） |
 | `list-categories.py` | 列出所有分類 |
 | `list-tags.py` | 列出可用 tags |
 | `get-next-number.py` | 取得下一編號（支援並發） |
