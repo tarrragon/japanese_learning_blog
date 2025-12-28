@@ -13,16 +13,27 @@ Usage:
     # 批次更新
     uv run scripts/update_card_progress.py --ids 59-68 --stage completed --batch 1
 
+    # 使用路徑查找卡片（v1.5.8+）
+    uv run scripts/update_card_progress.py --path concept/174_zaisei.md --stage extension-review
+
+    # 使用檔名查找卡片（v1.5.8+）
+    uv run scripts/update_card_progress.py --filename 174_zaisei --stage extension-review
+
     # 安靜模式（減少輸出）
     uv run scripts/update_card_progress.py --id 59 --stage draft --quiet
 
-    # 只更新 YAML（跳過 CSV）
-    uv run scripts/update_card_progress.py --id 59 --stage draft --yaml-only
+    # 只更新 YAML（跳過 CSV，適用於不在 CSV 中的卡片）
+    uv run scripts/update_card_progress.py --yaml-only --path concept/174_zaisei.md --stage extension-review
 
 v1.5.0 變更：
     - 同時更新 CSV 和卡片 YAML frontmatter
     - YAML 成為單一事實來源
     - 支援 --yaml-only 選項
+
+v1.5.8 變更：
+    - 新增 --path 和 --filename 參數，支援路徑/檔名查找
+    - --yaml-only + --path 模式：直接更新 YAML，不需要 CSV 查找
+    - stage_dashboard.py 輸出包含 csv_id 欄位
 """
 
 import csv
@@ -112,6 +123,28 @@ class CardProgressUpdater:
         """根據 ID 尋找卡片"""
         for card in self.cards:
             if int(card['id']) == card_id:
+                return card
+        return None
+
+    def find_card_by_path(self, path: str) -> Optional[Dict]:
+        """根據路徑尋找卡片"""
+        # 標準化路徑格式
+        if path.startswith('zettelkasten/'):
+            path = path[len('zettelkasten/'):]
+        for card in self.cards:
+            card_path = card.get('path', '')
+            if card_path == path or card_path.endswith('/' + path) or path.endswith(card_path):
+                return card
+        return None
+
+    def find_card_by_filename(self, filename: str) -> Optional[Dict]:
+        """根據檔名尋找卡片"""
+        # 移除 .md 副檔名
+        if filename.endswith('.md'):
+            filename = filename[:-3]
+        for card in self.cards:
+            card_path = card.get('path', '')
+            if filename in card_path:
                 return card
         return None
 
@@ -221,6 +254,61 @@ class CardProgressUpdater:
             self._error(f"   ❌ YAML 更新失敗: {e}")
             return False
 
+    def update_yaml_stage_direct(self, card_path: str, new_stage: str) -> bool:
+        """直接更新卡片 YAML（不需要 CSV 查找，用於 yaml-only 模式）"""
+        # 建立完整路徑
+        if card_path.startswith('zettelkasten/'):
+            full_path = PROJECT_ROOT / card_path
+        else:
+            full_path = ZETTELKASTEN_DIR / card_path
+
+        if not full_path.exists() or not full_path.is_file():
+            self._error(f"❌ 卡片檔案不存在: {full_path}")
+            return False
+
+        try:
+            content = full_path.read_text(encoding='utf-8')
+
+            # 從 YAML 讀取當前階段
+            import re
+            stage_match = re.search(r'^stage:\s*(\S+)', content, re.MULTILINE)
+            current_stage = stage_match.group(1) if stage_match else 'pending'
+
+            # 驗證階段轉換
+            if not self.validate_stage_transition(current_stage, new_stage):
+                self._error(
+                    f"❌ {card_path} 不合法的階段轉換: {current_stage} → {new_stage}\n"
+                    f"   允許的轉換: {', '.join(self.STAGE_TRANSITIONS.get(current_stage, []))}"
+                )
+                return False
+
+            # 更新 stage 欄位
+            content = re.sub(
+                r'^(stage:\s*)(\S+)',
+                f'\\g<1>{new_stage}',
+                content,
+                count=1,
+                flags=re.MULTILINE
+            )
+
+            # 更新 updated 日期
+            today = date.today().isoformat()
+            content = re.sub(
+                r'^(updated:\s*)(\S+)',
+                f'\\g<1>{today}',
+                content,
+                count=1,
+                flags=re.MULTILINE
+            )
+
+            full_path.write_text(content, encoding='utf-8')
+            self._print(f"✅ 已更新 YAML: {card_path} → {new_stage}")
+            return True
+
+        except Exception as e:
+            self._error(f"❌ YAML 更新失敗: {e}")
+            return False
+
     def batch_update(self, card_ids: List[int], stage: str, batch: Optional[int] = None) -> int:
         """批次更新卡片，回傳成功更新的數量"""
         success_count = 0
@@ -270,6 +358,8 @@ def main():
     card_group = parser.add_mutually_exclusive_group(required=True)
     card_group.add_argument('--id', type=int, help='單張卡片 ID')
     card_group.add_argument('--ids', help='批次 ID（如 "59-68" 或 "59,60,61"）')
+    card_group.add_argument('--path', help='卡片路徑（如 "concept/174_zaisei.md"）')
+    card_group.add_argument('--filename', help='卡片檔名（如 "174_zaisei"）')
 
     # 更新內容
     parser.add_argument('--stage', choices=CardProgressUpdater.VALID_STAGES,
@@ -291,12 +381,49 @@ def main():
 
     # 單張或批次更新
     if args.id:
-        # 單張更新
+        # 單張更新（使用 CSV ID）
         success = updater.update_card(args.id, args.stage, args.batch)
         if success:
             updater.save_cards()
             return 0
         else:
+            return 1
+
+    elif args.path:
+        # yaml-only 模式：直接更新 YAML，不需要 CSV 查找
+        if args.yaml_only:
+            if args.stage:
+                success = updater.update_yaml_stage_direct(args.path, args.stage)
+                return 0 if success else 1
+            else:
+                updater._error("❌ yaml-only 模式必須指定 --stage")
+                return 1
+
+        # 一般模式：使用 CSV 路徑查找
+        card = updater.find_card_by_path(args.path)
+        if card:
+            success = updater.update_card(int(card['id']), args.stage, args.batch)
+            if success:
+                updater.save_cards()
+                return 0
+            else:
+                return 1
+        else:
+            updater._error(f"❌ 找不到路徑對應的卡片: {args.path}")
+            return 1
+
+    elif args.filename:
+        # 使用檔名查找
+        card = updater.find_card_by_filename(args.filename)
+        if card:
+            success = updater.update_card(int(card['id']), args.stage, args.batch)
+            if success:
+                updater.save_cards()
+                return 0
+            else:
+                return 1
+        else:
+            updater._error(f"❌ 找不到檔名對應的卡片: {args.filename}")
             return 1
 
     elif args.ids:

@@ -13,7 +13,7 @@ Usage:
     # 按分類顯示某階段卡片
     uv run scripts/stage_dashboard.py --stage draft --by-category
 
-    # JSON 格式輸出（供代理人使用）
+    # JSON 格式輸出（供代理人使用，包含 csv_id）
     uv run scripts/stage_dashboard.py --stage draft --format json
 
     # 顯示下一步行動建議
@@ -23,15 +23,22 @@ Usage:
     1. YAML frontmatter 是進度追蹤的單一事實來源
     2. 每次分配任務前執行此腳本查詢狀態
     3. 腳本輸出作為代理人任務分配的依據
+
+v1.5.8 變更：
+    - JSON 輸出包含 csv_id 欄位，對應 Active CSV 中的 ID
+    - 支援 category/number 輔助匹配（當 path 欄位缺失時）
 """
 
 import json
 import argparse
+import csv
 import sys
 import re
 from pathlib import Path
 from typing import Dict, List, Optional
 from collections import defaultdict
+
+from csv_config import get_default_csv_path
 
 # 專案根目錄
 PROJECT_ROOT = Path(__file__).parent.parent
@@ -58,6 +65,55 @@ STAGE_DESC = {
     "linking": "待最終驗證",
     "completed": "已完成"
 }
+
+
+def load_csv_id_mapping() -> Dict[str, int]:
+    """載入 CSV 建立 path→id 對照表（支援多種匹配方式）"""
+    csv_path = get_default_csv_path()
+    mapping = {}
+    if csv_path and Path(csv_path).exists():
+        with open(csv_path, 'r', encoding='utf-8') as f:
+            reader = csv.DictReader(f)
+            for row in reader:
+                path = row.get('path', '').strip()
+                card_id = row.get('id', '').strip()
+                category = row.get('category', '').strip()
+                number = row.get('number', '').strip()
+
+                if not card_id:
+                    continue
+
+                try:
+                    int_id = int(card_id)
+                except ValueError:
+                    continue
+
+                # 方式 1：使用 path 欄位建立對照
+                if path:
+                    full_path = f"zettelkasten/{path}" if not path.startswith('zettelkasten/') else path
+                    mapping[full_path] = int_id
+
+                # 方式 2：使用 category/number 建立輔助對照
+                # 格式：zettelkasten/{category}/{number}_*.md
+                if category and number:
+                    key = f"{category}/{number}"
+                    mapping[key] = int_id
+
+    return mapping
+
+
+def find_csv_id(csv_id_map: Dict[str, int], path: str, category: str, number: str) -> Optional[int]:
+    """根據多種方式查找 CSV ID"""
+    # 嘗試完整路徑匹配
+    if path in csv_id_map:
+        return csv_id_map[path]
+
+    # 嘗試 category/number 匹配
+    key = f"{category}/{number}"
+    if key in csv_id_map:
+        return csv_id_map[key]
+
+    return None
 
 
 def parse_yaml_frontmatter(content: str) -> dict:
@@ -251,6 +307,9 @@ def list_stage_cards(cards: List[Dict], stage: str, by_category: bool = False,
 def format_json(cards: List[Dict], stage: Optional[str] = None,
                 limit: Optional[int] = None) -> str:
     """JSON 格式輸出（供代理人使用）"""
+    # 載入 CSV ID 對照表
+    csv_id_map = load_csv_id_mapping()
+
     if stage:
         filtered = [c for c in cards if c['stage'] == stage]
     else:
@@ -270,6 +329,7 @@ def format_json(cards: List[Dict], stage: Optional[str] = None,
                 "number": c['number'],
                 "title": c['title'],
                 "stage": c['stage'],
+                "csv_id": find_csv_id(csv_id_map, c['path'], c['category'], c['number']),
             }
             for c in filtered
         ]
