@@ -3,13 +3,13 @@ title: "文法句型（ぶんぽうくがた）"
 description: "文法句型"
 type: grammar
 jlpt: n4
-stage: draft
+stage: extension-review
 tags:
   - grammar_pattern
   - sentence_structure
   - jlpt/n4
 created: 2025-12-24
-updated: 2025-12-24
+updated: 2025-12-28
 
 # 版本歷史
 version_history:

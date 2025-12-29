@@ -3,7 +3,7 @@ title: "格框架（かくわくぐみ）"
 description: "描述動詞所需格助詞與語意角色的結構框架"
 type: concept
 jlpt: none
-stage: draft
+stage: extension-review
 tags:
   - linguistics
   - grammar_theory

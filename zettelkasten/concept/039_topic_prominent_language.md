@@ -3,7 +3,7 @@ title: 主題優先語言（トピック卓越言語）
 description: 主題優先語言的語言學概念，解釋日文如何以主題為中心組織句子
 type: concept
 jlpt: concept
-stage: draft
+stage: extension-review
 tags:
   - domain/linguistics
   - context/academic

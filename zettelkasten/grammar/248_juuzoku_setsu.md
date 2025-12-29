@@ -2,13 +2,13 @@
 title: 従属節
 description: 在複合句中扮演從屬角色、修飾主節的句子成分
 type: linguistics
-stage: draft
+stage: extension-review
 tags:
   - context/formal
   - context/written
   - jlpt/n3
 created: 2025-12-27
-updated: 2025-12-27
+updated: 2025-12-28
 
 # 版本歷史
 version_history:

@@ -3,7 +3,7 @@ title: 敬語の使い分け（けいごのつかいわけ）
 description: 敬語的區分使用，根據不同的人際關係和場景選擇適當的敬語
 type: noun
 jlpt: n3
-stage: draft
+stage: extension-review
 tags:
   - domain/grammar
   - domain/keigo

@@ -3,13 +3,13 @@ title: たら条件形
 description: たら條件形（假定條件/完成條件）
 type: grammar
 jlpt: n4
-stage: draft
+stage: extension-review
 tags:
   - context/formal
   - context/casual
   - domain/daily_life
 created: 2025-10-30
-updated: 2025-10-30
+updated: 2025-12-28
 
 # 版本歷史
 version_history:

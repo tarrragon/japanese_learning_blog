@@ -3,14 +3,14 @@ title: "必要性"
 description: 必要性 - 表達事物必須存在或必須做的概念
 type: grammar
 jlpt: n3
-stage: draft
+stage: extension-review
 tags:
   - necessity
   - obligation
   - grammar_concept
   - context/formal
 created: 2025-12-27
-updated: 2025-12-27
+updated: 2025-12-28
 
 # 版本歷史
 version_history:

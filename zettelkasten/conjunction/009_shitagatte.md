@@ -3,7 +3,7 @@ title: "したがって"
 description: 因此、所以（正式邏輯推論用語）
 type: conjunction
 jlpt: n3
-stage: draft
+stage: extension-review
 tags:
   - logical_connection
   - consequence

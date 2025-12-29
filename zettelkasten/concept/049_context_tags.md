@@ -3,7 +3,7 @@ title: "文脈タグ"
 description: 標籤系統概念 - 知識管理系統中用於分類和檢索的元資料標記
 type: concept
 jlpt: concept
-stage: draft
+stage: extension-review
 tags:
   - domain/linguistics
   - domain/learning

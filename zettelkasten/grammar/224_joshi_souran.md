@@ -3,7 +3,7 @@ title: 助詞總覽
 description: 日文助詞系統的完整概覽，包含格助詞、副助詞、接續助詞、終助詞等主要分類及其功能
 type: grammar
 jlpt: n4
-stage: draft
+stage: extension-review
 tags:
   - jlpt/n4
   - jlpt/n5
@@ -11,7 +11,7 @@ tags:
   - context/casual
   - domain/communication
 created: 2025-12-26
-updated: 2025-12-26
+updated: 2025-12-28
 
 # 版本歷史
 version_history:

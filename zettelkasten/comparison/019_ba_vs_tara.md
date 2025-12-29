@@ -3,7 +3,7 @@ title: ば vs たら
 description: ば條件形與たら條件形的對比辨析
 type: comparison
 jlpt: n4
-stage: draft
+stage: extension-review
 tags:
   - comparison
   - domain/linguistics

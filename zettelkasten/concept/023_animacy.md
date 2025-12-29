@@ -3,7 +3,7 @@ title: 生命性（Animacy）
 description: 日文語法中生命性階層的概念
 type: concept
 jlpt: none
-stage: draft
+stage: extension-review
 tags:
   - domain/linguistics
   - context/academic

@@ -3,13 +3,13 @@ title: "〜そうだ（傳聞）"
 description: 傳聞表達「〜そうだ」- 表示從他人處聽說的資訊
 type: grammar
 jlpt: n4
-stage: draft
+stage: extension-review
 tags:
   - context/casual
   - context/formal
   - domain/communication
 created: 2025-11-03
-updated: 2025-11-03
+updated: 2025-12-28
 
 # 版本歷史
 version_history:

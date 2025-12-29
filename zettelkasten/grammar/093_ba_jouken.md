@@ -3,14 +3,14 @@ title: "ば条件形（仮定条件）"
 description: ば条件形 - 假定條件的進階用法與細節
 type: grammar
 jlpt: n4
-stage: draft
+stage: extension-review
 tags:
   - conditional
   - grammar_pattern
   - context/formal
   - jlpt/n4
 created: 2025-10-31
-updated: 2025-10-31
+updated: 2025-12-28
 
 # 版本歷史
 version_history:

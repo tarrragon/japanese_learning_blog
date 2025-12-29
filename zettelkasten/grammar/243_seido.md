@@ -1,13 +1,13 @@
 ---
 title: 制度
 jlpt: n3
-stage: draft
+stage: extension-review
 tags:
   - 名詞
   - 社會
   - 制度
 created: 2025-12-27
-updated: 2025-12-27
+updated: 2025-12-28
 version_history:
   - version: "1.5.0"
     stage: "draft"

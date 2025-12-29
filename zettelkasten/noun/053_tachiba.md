@@ -3,7 +3,7 @@ title: 立場（たちば）
 description: 立場 - position, stance, standpoint
 type: noun
 jlpt: n3
-stage: draft
+stage: extension-review
 tags:
   - abstract
   - formal

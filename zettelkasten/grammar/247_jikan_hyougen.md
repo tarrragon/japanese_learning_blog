@@ -1,13 +1,13 @@
 ---
 title: "時間表現（じかんひょうげん）"
 jlpt: "n4"
-stage: draft
+stage: extension-review
 tags:
   - grammar
   - 時間表現
   - jlpt/n4
 created: 2025-12-27
-updated: 2025-12-27
+updated: 2025-12-28
 
 # 版本歷史
 version_history:

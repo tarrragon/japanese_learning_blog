@@ -3,7 +3,7 @@ title: どれ
 description: 不定數選項中選擇哪一個的疑問詞
 type: noun
 jlpt: n5
-stage: draft
+stage: extension-review
 tags:
   - question
   - context/daily_life

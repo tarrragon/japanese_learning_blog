@@ -3,7 +3,7 @@ title: "向格（こうかく）"
 description: "表示動作或移動方向的格位，日文中主要由「に」「へ」助詞表達"
 type: concept
 jlpt: none
-stage: draft
+stage: extension-review
 tags:
   - grammar_theory
   - case_system

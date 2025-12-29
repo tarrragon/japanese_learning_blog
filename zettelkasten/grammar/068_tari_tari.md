@@ -3,13 +3,13 @@ title: 〜たり〜たりする
 description: 〜たり〜たりする句型用於列舉多個動作或狀態的代表性例子，表示「做...做...等等」
 type: grammar
 jlpt: n4
-stage: draft
+stage: extension-review
 tags:
   - jlpt/n4
   - context/casual
   - domain/communication
 created: 2025-10-30
-updated: 2025-10-30
+updated: 2025-12-28
 
 # 版本歷史
 version_history:

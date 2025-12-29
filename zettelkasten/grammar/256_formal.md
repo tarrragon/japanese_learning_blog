@@ -3,13 +3,13 @@ title: "正式表達"
 description: 日語中正式場合使用的語法形式與表達方式
 type: grammar
 jlpt: n4
-stage: draft
+stage: extension-review
 tags:
   - context/formal
   - domain/keigo
   - jlpt/n4
 created: 2025-12-27
-updated: 2025-12-27
+updated: 2025-12-28
 
 # 版本歷史
 version_history:

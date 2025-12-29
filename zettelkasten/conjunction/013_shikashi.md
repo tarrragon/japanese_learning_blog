@@ -3,7 +3,7 @@ title: "しかし"
 description: 但是、然而（正式逆接連接詞）
 type: conjunction
 jlpt: n4
-stage: draft
+stage: extension-review
 tags:
   - adversative
   - contrast

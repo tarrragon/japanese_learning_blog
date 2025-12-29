@@ -4,7 +4,7 @@ title: 組織規定
 description: 公司、學校等組織內部制定的規章制度
 type: concept
 jlpt: n3
-stage: draft
+stage: extension-review
 tags:
   - context/business
   - context/formal

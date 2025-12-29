@@ -1,6 +1,6 @@
 ---
 title: 社會人
-stage: draft
+stage: extension-review
 tags:
   - 日本文化
   - 社會概念

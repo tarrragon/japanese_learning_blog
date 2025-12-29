@@ -3,13 +3,13 @@ title: ました
 description: ました是ます形的過去肯定形式，用於禮貌地表達過去完成的動作或狀態
 type: grammar
 jlpt: n5
-stage: draft
+stage: extension-review
 tags:
   - jlpt/n5
   - context/formal
   - domain/communication
 created: 2025-10-30
-updated: 2025-10-30
+updated: 2025-12-28
 
 # 版本歷史
 version_history:

@@ -3,7 +3,7 @@ title: 差し上げる
 description: 差し上げる - 給予（謙讓語）
 type: verb
 jlpt: n3
-stage: draft
+stage: extension-review
 tags:
   - context/formal
   - context/business

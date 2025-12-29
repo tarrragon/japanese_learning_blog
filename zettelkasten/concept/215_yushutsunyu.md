@@ -4,7 +4,7 @@ title: "輸出入（ゆしゅつにゅう）"
 description: "進出口，國際貿易中的進口與出口"
 type: concept
 jlpt: n3
-stage: draft
+stage: extension-review
 tags:
   - domain/economics
   - domain/trade

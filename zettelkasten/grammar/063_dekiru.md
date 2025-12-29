@@ -3,13 +3,13 @@ title: できる
 description: できる是する的可能形，表示能力、可能性，也可以單獨使用表示「能夠」「會做」
 type: grammar
 jlpt: n5
-stage: draft
+stage: extension-review
 tags:
   - jlpt/n5
   - context/casual
   - domain/communication
 created: 2025-10-30
-updated: 2025-10-30
+updated: 2025-12-28
 
 # 版本歷史
 version_history:

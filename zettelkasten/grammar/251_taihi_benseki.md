@@ -3,7 +3,7 @@ title: 對比辨析
 description: 對比辨析 - 日語比較分析的方法論與學習策略
 type: grammar
 jlpt: n3
-stage: draft
+stage: extension-review
 tags:
   - grammar
   - comparison
@@ -11,7 +11,7 @@ tags:
   - learning_strategy
   - methodology
 created: 2025-12-27
-updated: 2025-12-27
+updated: 2025-12-28
 
 # 版本歷史
 version_history:

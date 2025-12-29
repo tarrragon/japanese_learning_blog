@@ -3,13 +3,13 @@ title: 意向形（普通形）
 description: 動詞的意向形變化及其用法，表達說話者的意志或提議
 type: grammar
 jlpt: n4
-stage: draft
+stage: extension-review
 tags:
   - grammar_conjugation
   - jlpt/n4
   - context/casual
 created: 2025-12-26
-updated: 2025-12-26
+updated: 2025-12-28
 
 # 版本歷史
 version_history:

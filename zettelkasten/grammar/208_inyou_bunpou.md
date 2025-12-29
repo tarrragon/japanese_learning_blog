@@ -3,13 +3,13 @@ title: 引用文法
 description: 引用文法（と引用）是日文中用來轉述他人話語、思考或表達內容的文法結構
 type: grammar
 jlpt: n4
-stage: draft
+stage: extension-review
 tags:
   - context/formal
   - context/casual
   - domain/communication
 created: 2025-12-26
-updated: 2025-12-26
+updated: 2025-12-28
 
 # 版本歷史
 version_history:

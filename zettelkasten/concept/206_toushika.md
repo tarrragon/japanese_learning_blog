@@ -4,7 +4,7 @@ title: "投資家（とうしか）"
 description: "投資者 - 投入資金以獲取收益的個人或機構"
 type: concept
 jlpt: n3
-stage: draft
+stage: extension-review
 tags:
   - economics
   - finance

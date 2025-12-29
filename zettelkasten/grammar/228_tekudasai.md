@@ -3,14 +3,14 @@ title: "〜てください"
 description: "禮貌請求表達：請做某事"
 type: grammar
 jlpt: n5
-stage: draft
+stage: extension-review
 tags:
   - grammar
   - request_expression
   - jlpt/n5
   - politeness
 created: 2025-12-26
-updated: 2025-12-26
+updated: 2025-12-28
 
 # 版本歷史
 version_history:

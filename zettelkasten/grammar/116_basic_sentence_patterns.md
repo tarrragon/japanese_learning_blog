@@ -3,13 +3,13 @@ title: "基本句型（きほんぶんけい）"
 description: 日語基本句型（名詞句、形容詞句、動詞句）
 type: grammar
 jlpt: n5
-stage: draft
+stage: extension-review
 tags:
   - context/daily_life
   - context/formal
   - jlpt/n5
 created: 2025-11-03
-updated: 2025-11-03
+updated: 2025-12-28
 
 # 版本歷史
 version_history:

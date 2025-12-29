@@ -3,14 +3,14 @@ title: "金融市場"
 description: 日語中描述金融市場相關的專業術語與表達
 type: grammar
 jlpt: n2
-stage: draft
+stage: extension-review
 id: 241
 tags:
   - domain/economics
   - domain/finance
   - jlpt/n2
 created: 2025-12-27
-updated: 2025-12-27
+updated: 2025-12-28
 
 # 版本歷史
 version_history:

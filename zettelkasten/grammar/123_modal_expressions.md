@@ -3,13 +3,13 @@ title: モダリティ
 description: 日語的語氣表達系統，用於表示說話者的態度、判斷和心理狀態
 type: grammar
 jlpt: n3
-stage: draft
+stage: extension-review
 tags:
   - grammar_system
   - domain/linguistics
   - context/formal
 created: 2025-11-03
-updated: 2025-11-03
+updated: 2025-12-28
 
 # 版本歷史
 version_history:

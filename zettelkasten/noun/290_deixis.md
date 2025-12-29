@@ -9,7 +9,7 @@ created: 2025-12-27
 updated: 2025-12-27
 version_history:
   - version: 1.5.1
-    stage: draft
+    stage: extension-review
     date: 2025-12-27
 content_verification:
   completeness: 95
@@ -19,7 +19,7 @@ link_status:
   total: 0
   valid: 0
   pending: 0
-stage: draft
+stage: extension-review
 tags:
   - grammar
   - deixis

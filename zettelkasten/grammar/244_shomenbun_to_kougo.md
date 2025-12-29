@@ -3,7 +3,7 @@ title: 書面語與口語
 description: 日本語における書き言葉と話し言葉の違い、特徴、使い分けについての解説
 type: grammar
 jlpt: N3
-stage: draft
+stage: extension-review
 tags:
   - jlpt/n3
   - register
@@ -11,7 +11,7 @@ tags:
   - spoken_language
   - style
 created: 2025-12-27
-updated: 2025-12-27
+updated: 2025-12-28
 
 # 版本歷史
 version_history:

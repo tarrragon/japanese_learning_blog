@@ -3,7 +3,7 @@ title: なぜ
 description: 為什麼（疑問詞）
 type: noun
 jlpt: n4
-stage: draft
+stage: extension-review
 tags:
   - question
   - context/daily_life

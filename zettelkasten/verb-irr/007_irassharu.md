@@ -3,7 +3,7 @@ title: いらっしゃる
 description: いらっしゃる - 尊敬語動詞（いる・行く・来る的尊敬語）
 type: verb
 jlpt: n4
-stage: draft
+stage: extension-review
 tags:
   - context/formal
   - context/business

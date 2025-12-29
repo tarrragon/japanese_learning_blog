@@ -2,13 +2,13 @@
 title: "時間+に"
 type: "grammar"
 jlpt: "n5"
-stage: "draft"
+stage: "extension-review"
 tags:
   - "助詞"
   - "時間表現"
   - "N5文法"
 created: "2025-12-26"
-updated: "2025-12-26"
+updated: "2025-12-28"
 
 # 版本歷史
 version_history:

@@ -3,7 +3,7 @@ title: "それから"
 description: 然後、之後（時間或順序連接詞）
 type: conjunction
 jlpt: n4
-stage: draft
+stage: extension-review
 tags:
   - conjunction
   - sequence

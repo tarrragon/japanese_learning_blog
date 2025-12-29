@@ -5,7 +5,7 @@ category: concept
 title: 名目成長率
 created_at: 2025-12-27
 updated_at: 2025-12-27
-status: draft
+status: extension-review
 version_history:
   - version: 1.5.1
     stage: draft

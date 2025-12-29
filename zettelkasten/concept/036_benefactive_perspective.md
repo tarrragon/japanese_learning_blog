@@ -3,7 +3,7 @@ title: 授受視角（じゅじゅしかく）
 description: 日文授受動詞的視角選擇概念
 type: concept
 jlpt: n3
-stage: draft
+stage: extension-review
 tags:
   - domain/linguistics
   - domain/communication

@@ -1,7 +1,7 @@
 ---
 id: 505
 version: 1.5.1
-stage: draft
+stage: extension-review
 created_date: 2025-12-27
 category: noun
 number: 282

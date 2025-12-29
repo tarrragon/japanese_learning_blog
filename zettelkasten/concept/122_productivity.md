@@ -3,7 +3,7 @@ title: 生産性（せいさんせい）
 description: 生產力，指投入與產出的效率比
 type: concept
 jlpt: N2
-stage: draft
+stage: extension-review
 tags:
   - domain/経済学
   - domain/business

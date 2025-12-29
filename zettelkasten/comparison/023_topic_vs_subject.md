@@ -3,7 +3,7 @@ title: 主題 vs 主語
 description: 主題與主語的語言學區別 - 理解日文句子結構的關鍵
 type: comparison
 jlpt: n4
-stage: draft
+stage: extension-review
 tags:
   - comparison
   - grammar_core

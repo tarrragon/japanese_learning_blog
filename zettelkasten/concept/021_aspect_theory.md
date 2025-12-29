@@ -3,7 +3,7 @@ title: 体理論（たいりろん）
 description: 體理論 - 動作或狀態的內部時間結構分析理論
 type: concept
 jlpt: concept
-stage: draft
+stage: extension-review
 tags:
   - domain/linguistics
   - context/academic

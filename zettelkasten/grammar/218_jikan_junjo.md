@@ -3,13 +3,13 @@ title: "時間順序表達"
 description: "表達事件時間順序的文法句型"
 type: grammar
 jlpt: n4
-stage: draft
+stage: extension-review
 tags:
   - grammar
   - time_expression
   - jlpt/n4
 created: 2025-12-26
-updated: 2025-12-26
+updated: 2025-12-28
 
 # 版本歷史
 version_history:

@@ -3,7 +3,7 @@ title: 〜ことができる
 description: 表達能力與可能性的基本句型
 type: grammar
 jlpt: n5
-stage: draft
+stage: extension-review
 tags:
   - grammar
   - jlpt/n5
@@ -12,7 +12,7 @@ tags:
   - context/daily_life
   - basic
 created: 2025-11-03
-updated: 2025-11-03
+updated: 2025-12-28
 
 # 版本歷史
 version_history:

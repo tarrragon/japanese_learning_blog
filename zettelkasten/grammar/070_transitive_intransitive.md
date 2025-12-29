@@ -3,13 +3,13 @@ title: 他動詞と自動詞
 description: 他動詞與自動詞的對比和使用規則，是日文動詞分類和助詞選擇的核心概念
 type: grammar
 jlpt: n4
-stage: draft
+stage: extension-review
 tags:
   - jlpt/n4
   - context/academic
   - domain/communication
 created: 2025-10-30
-updated: 2025-10-30
+updated: 2025-12-28
 
 # 版本歷史
 version_history:

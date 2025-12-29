@@ -3,14 +3,14 @@ title: "自他動詞対応（じたどうしたいおう）"
 description: 自動詞與他動詞的對應關係及使用規則
 type: grammar
 jlpt: n4
-stage: draft
+stage: extension-review
 tags:
   - grammar/verb-classification
   - verb_type
   - domain/linguistics
   - jlpt/n4
 created: 2025-10-31
-updated: 2025-10-31
+updated: 2025-12-28
 
 # 版本歷史
 version_history:

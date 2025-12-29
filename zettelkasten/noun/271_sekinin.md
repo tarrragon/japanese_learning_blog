@@ -3,7 +3,7 @@ title: 責任（せきにん）
 description: 責任，指對自己的行為、言論或決定負有應盡的義務
 type: noun
 jlpt: n3
-stage: draft
+stage: extension-review
 tags:
   - context/business
   - context/formal

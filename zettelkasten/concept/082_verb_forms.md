@@ -3,7 +3,7 @@ title: 動詞の形
 description: 動詞の形 - 日本語動詞のさまざまな形態的変化形式の総称
 type: concept
 jlpt: concept
-stage: draft
+stage: extension-review
 tags:
   - concept
   - grammar

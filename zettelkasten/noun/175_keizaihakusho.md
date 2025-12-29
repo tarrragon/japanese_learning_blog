@@ -1,6 +1,6 @@
 ---
 jlpt: N1
-stage: draft
+stage: extension-review
 tags:
   - "domain/経済学"
 created: 2025-12-26

@@ -3,7 +3,7 @@ title: 丁寧体と普通体
 description: 丁寧體與普通體的區別和使用情境
 type: concept
 jlpt: none
-stage: draft
+stage: extension-review
 tags:
   - domain/linguistics
   - context/formal
@@ -14,8 +14,8 @@ updated: 2025-10-31
 # 版本歷史
 version_history:
   - version: "1.5.0"
-    stage: "draft"
-    date: 2025-12-26
+    stage: "extension-review"
+    date: 2025-12-28
 
 # 內容驗證
 content_verification:

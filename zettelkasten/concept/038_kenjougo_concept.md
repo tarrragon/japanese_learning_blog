@@ -3,20 +3,29 @@ title: 謙譲語（けんじょうご）
 description: 謙讓語概念 - 降低自己或內部人士地位以表達敬意的語言形式
 type: concept
 jlpt: n3
-stage: draft
+stage: completed
 tags:
   - domain/linguistics
   - domain/communication
   - context/formal
   - context/business
 created: 2025-10-31
-updated: 2025-10-31
+updated: 2025-12-28
 
 # 版本歷史
 version_history:
   - version: "1.5.0"
     stage: "draft"
     date: 2025-12-26
+  - version: "1.5.6"
+    stage: "extension-review"
+    date: 2025-12-28
+  - version: "1.5.6"
+    stage: "linking"
+    date: 2025-12-28
+  - version: "1.5.6"
+    stage: "completed"
+    date: 2025-12-28
 
 # 內容驗證
 content_verification:
@@ -753,7 +762,7 @@ Thank you for giving me your time despite being busy. (humble + benefactive)
 
 ### 敬語體系
 - [敬語體系](013_keigo_taikei.md) - 敬語的整體理論框架
-- [尊敬語概念](034_sonkeigo_concept.md) - 提高對方地位的敬語
+- [尊敬語概念](037_sonkeigo_concept.md) - 提高對方地位的敬語
 - [丁寧語概念](teineigo_concept.md)(待建立) - 基本禮貌表達
 
 ### 謙讓語文法形式
@@ -772,7 +781,7 @@ Thank you for giving me your time despite being busy. (humble + benefactive)
 - [伺う](../verb-u/ukagau.md)(待建立) - 訪問・聽・問的謙讓語
 
 ### 社會語言學概念
-- [內與外](007_uchi-soto.md) - 內外群體概念對敬語的影響
+- [內與外](007_uchi_soto.md) - 內外群體概念對敬語的影響
 - [視點理論](006_viewpoint.md) - 視點與敬語選擇的關係
 - [受益表達](benefactive.md)(待建立) - 恩惠關係的語言表現
 
@@ -784,6 +793,6 @@ Thank you for giving me your time despite being busy. (humble + benefactive)
 ---
 
 **建立日期**: 2025-10-31
-**最後更新**: 2025-10-31
+**最後更新**: 2025-12-28
 **字數**: ~6800
 **例句數**: 5

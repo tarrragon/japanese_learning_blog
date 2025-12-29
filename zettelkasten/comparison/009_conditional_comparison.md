@@ -3,7 +3,7 @@ title: 日本語の四大条件形比較
 description: 四種條件形總對比（と・たら・ば・なら）
 type: comparison
 jlpt: n4
-stage: draft
+stage: extension-review
 tags:
   - context/formal
   - context/casual

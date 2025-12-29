@@ -3,7 +3,7 @@ title: 今日（きょう）
 description: 今天、今日
 type: noun
 jlpt: n5
-stage: draft
+stage: extension-review
 tags:
   - context/daily_life
   - domain/daily_life

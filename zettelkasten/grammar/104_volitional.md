@@ -3,7 +3,7 @@ title: "意向形（いこうけい）"
 description: 意向形（普通形）- 表達意志、建議和推測的動詞變化
 type: grammar
 jlpt: n4
-stage: draft
+stage: extension-review
 tags:
   - grammar
   - jlpt/n4
@@ -11,7 +11,7 @@ tags:
   - conjugation
   - intention
 created: 2025-10-31
-updated: 2025-10-31
+updated: 2025-12-28
 
 # 版本歷史
 version_history:

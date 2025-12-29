@@ -8,7 +8,7 @@ english: Language proficiency assessment
 tags: [教育, 言語, 評価]
 created: 2025-12-27
 updated: 2025-12-27
-stage: draft
+stage: extension-review
 ---
 
 # 語言能力評估

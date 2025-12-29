@@ -4,12 +4,12 @@ description: 日語名詞的基本概念與用法
 type: grammar
 id: 107
 jlpt: n5
-stage: draft
+stage: extension-review
 tags:
   - context/daily_life
   - domain/linguistics
 created: 2025-12-27
-updated: 2025-12-27
+updated: 2025-12-28
 
 # 版本歷史
 version_history:

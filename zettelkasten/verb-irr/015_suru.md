@@ -2,7 +2,7 @@
 title: "する"
 type: verb
 jlpt: n5
-stage: draft
+stage: extension-review
 created: 2025-12-26
 updated: 2025-12-26
 

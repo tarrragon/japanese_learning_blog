@@ -3,7 +3,7 @@ title: "主格（しゅかく）"
 description: "句子中表示主語的格位，在日語中由が格標記"
 type: concept
 jlpt: none
-stage: draft
+stage: extension-review
 tags:
   - linguistics
   - grammar_theory

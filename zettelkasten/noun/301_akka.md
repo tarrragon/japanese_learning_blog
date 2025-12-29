@@ -3,7 +3,7 @@ title: 悪化（あっか）
 description: 惡化，變得更壞
 type: noun
 jlpt: n3
-stage: draft
+stage: extension-review
 tags:
   - domain/abstract
   - domain/news_topics

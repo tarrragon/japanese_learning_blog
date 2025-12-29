@@ -3,7 +3,7 @@ title: 學習動詞系統
 description: 勉強する/学ぶ/習う/研究する 詳細比較 - 日語學習動詞的細微差異
 type: comparison
 jlpt: n4
-stage: draft
+stage: linking
 tags:
   - comparison
   - verb

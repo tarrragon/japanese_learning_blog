@@ -3,13 +3,13 @@ title: 自他動詞対応
 description: 自他動詞對應 - 日文動詞配對系統與轉換規律
 type: grammar
 jlpt: n4
-stage: draft
+stage: extension-review
 tags:
   - context/academic
   - domain/communication
   - jlpt/n4
 created: 2025-10-30
-updated: 2025-10-30
+updated: 2025-12-28
 
 # 版本歷史
 version_history:

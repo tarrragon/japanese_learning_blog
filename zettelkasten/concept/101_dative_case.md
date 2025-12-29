@@ -3,7 +3,7 @@ title: "與格（よかく）"
 description: "日語中表示動作對象、接受者、目的地等語意角色的格"
 type: concept
 jlpt: none
-stage: draft
+stage: extension-review
 tags:
   - linguistics
   - grammar_theory

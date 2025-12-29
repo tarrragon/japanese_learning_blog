@@ -3,7 +3,7 @@ title: くださる
 description: くださる - 給予（尊敬語）
 type: verb
 jlpt: n4
-stage: draft
+stage: extension-review
 tags:
   - context/formal
   - context/business

@@ -3,7 +3,7 @@ title: "いらっしゃる・おる"
 description: いる的敬語形式 - 尊敬語「いらっしゃる」與謙讓語「おる」
 type: grammar
 jlpt: n4
-stage: draft
+stage: extension-review
 tags:
   - grammar
   - keigo
@@ -12,7 +12,7 @@ tags:
   - kenjougo
   - existence
 created: 2025-12-27
-updated: 2025-12-27
+updated: 2025-12-28
 
 # 版本歷史
 version_history:

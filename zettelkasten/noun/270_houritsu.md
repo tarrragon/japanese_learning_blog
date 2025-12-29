@@ -3,7 +3,7 @@ title: 法律（ほうりつ）
 description: 法律，由國家制定並強制執行的社會規範
 type: noun
 jlpt: n3
-stage: draft
+stage: extension-review
 tags:
   - domain/law
   - context/formal

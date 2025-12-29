@@ -3,7 +3,7 @@ title: いる vs ある
 description: いる vs ある - 存在動詞的生命性區分（有生命 vs 無生命）
 type: comparison
 jlpt: n5
-stage: draft
+stage: extension-review
 tags:
   - jlpt/n5
   - existence

@@ -3,12 +3,12 @@ title: "受身形（うけみけい）"
 description: 受身形的基本概念與應用
 type: grammar
 jlpt: n4
-stage: draft
+stage: extension-review
 tags:
   - context/daily_life
   - domain/linguistics
 created: 2025-10-31
-updated: 2025-10-31
+updated: 2025-12-28
 
 # 版本歷史
 version_history:

@@ -3,13 +3,13 @@ title: "疑問詞（ぎもんし）"
 description: 日文疑問詞系統的完整說明
 type: grammar
 jlpt: n5
-stage: draft
+stage: extension-review
 tags:
   - question
   - context/daily_life
   - jlpt/n5
 created: 2025-11-03
-updated: 2025-11-03
+updated: 2025-12-28
 
 # 版本歷史
 version_history:

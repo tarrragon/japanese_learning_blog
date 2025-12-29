@@ -3,7 +3,7 @@ title: なぜなら vs だって
 description: なぜなら vs だって 理由接續詞比較
 type: comparison
 jlpt: n4
-stage: draft
+stage: extension-review
 tags:
   - comparison
   - conjunction
@@ -15,7 +15,7 @@ updated: 2025-12-22
 # 版本歷史
 version_history:
   - version: "1.5.0"
-    stage: "draft"
+    stage: "extension-review"
     date: 2025-12-26
 
 # 內容驗證
@@ -23,14 +23,16 @@ content_verification:
   japanese: true
   english: true
   chinese: true
-  examples_count: 0
-  pending_links: []
+  examples_count: 14
+  pending_links:
+    - formal_vs_casual_reasoning.md
+    - objective_vs_subjective_reasons.md
 
 # 連結狀態
 link_status:
   incoming: 0
   outgoing: 7
-  pending: 0
+  pending: 2
   verified_date: 2025-12-26
 ---
 ## 概述

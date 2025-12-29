@@ -3,7 +3,7 @@ title: 所（ところ）
 description: 地方、場所、位置
 type: noun
 jlpt: n4
-stage: draft
+stage: extension-review
 tags:
   - context/daily_life
   - domain/daily_life

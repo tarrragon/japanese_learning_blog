@@ -3,7 +3,7 @@ title: "並列助詞（へいれつじょし）"
 description: 並列助詞系統用於連接名詞、動詞、形容詞等句子成分，表達並列、列舉、添加等關係
 type: grammar
 jlpt: n4
-stage: draft
+stage: extension-review
 tags:
   - jlpt/n4
   - jlpt/n5
@@ -11,7 +11,7 @@ tags:
   - context/casual
   - domain/communication
 created: 2025-10-31
-updated: 2025-10-31
+updated: 2025-12-28
 
 # 版本歷史
 version_history:

@@ -3,7 +3,7 @@ title: いくら
 description: 多少錢（詢問價格的疑問詞）
 type: noun
 jlpt: n5
-stage: draft
+stage: extension-review
 tags:
   - shopping
   - question

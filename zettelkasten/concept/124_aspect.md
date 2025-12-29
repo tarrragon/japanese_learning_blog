@@ -9,7 +9,7 @@ category: concept
 tags: [grammar, verb, aspect, tense]
 created: 2025-12-27
 updated: 2025-12-27
-status: draft
+status: extension-review
 version_history:
   v1.5.1:
     date: 2025-12-27

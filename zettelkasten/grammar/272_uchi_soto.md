@@ -3,7 +3,7 @@ title: "内と外の関係"
 description: 内外 - 日語中的內部與外部人際關係系統
 type: grammar
 jlpt: n3
-stage: draft
+stage: extension-review
 tags:
   - grammar
   - pragmatics
@@ -11,7 +11,7 @@ tags:
   - keigo
   - uchi-soto
 created: 2025-12-27
-updated: 2025-12-27
+updated: 2025-12-28
 
 # 版本歷史
 version_history:

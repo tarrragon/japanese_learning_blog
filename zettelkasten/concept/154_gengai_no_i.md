@@ -8,7 +8,7 @@ tags:
   - implication
   - meaning
 created_at: 2025-12-27
-status: draft
+status: extension-review
 version_history:
   - version: 1.5.1
     stage: draft

@@ -3,7 +3,7 @@ title: 形成（けいせい）
 description: 形成（構詞法）- 日語詞彙形成的語言學理論
 type: concept
 jlpt: concept
-stage: draft
+stage: extension-review
 tags:
   - domain/linguistics
   - domain/learning

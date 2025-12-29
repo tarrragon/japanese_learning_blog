@@ -3,7 +3,7 @@ title: 主語
 description: 日文句子中的主語概念與特性
 type: concept
 jlpt: none
-stage: draft
+stage: extension-review
 tags:
   - domain/linguistics
   - context/academic

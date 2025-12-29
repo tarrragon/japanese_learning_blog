@@ -1,7 +1,7 @@
 ---
 title: 名詞（めいし）
 description: 日語名詞的基本概念與分類
-stage: draft
+stage: extension-review
 tags:
   - context/formal
   - context/academic

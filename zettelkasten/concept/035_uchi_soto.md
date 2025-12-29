@@ -3,7 +3,7 @@ title: 内・外（うち・そと）
 description: 內外群體概念 - 日本社會的內外意識與人際關係
 type: concept
 jlpt: concept
-stage: draft
+stage: extension-review
 tags:
   - domain/cognition
   - domain/communication

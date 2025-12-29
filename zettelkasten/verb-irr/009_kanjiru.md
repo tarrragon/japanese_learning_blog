@@ -3,7 +3,7 @@ title: 感じる（かんじる）
 description: 感受、感覺、察覺
 type: verb
 jlpt: n4
-stage: draft
+stage: extension-review
 tags:
   - context/formal
   - context/casual

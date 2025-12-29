@@ -3,7 +3,7 @@ title: 〜ている vs 〜た
 description: 〜ている vs 〜た - 時態對比（持續狀態 vs 完成動作）
 type: comparison
 jlpt: n4
-stage: draft
+stage: extension-review
 tags:
   - jlpt/n4
   - grammar

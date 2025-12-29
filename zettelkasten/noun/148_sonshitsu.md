@@ -1,7 +1,7 @@
 ---
 title: 損失
 jlpt: n2
-stage: draft
+stage: extension-review
 tags:
   - domain/経済学
   - domain/商業

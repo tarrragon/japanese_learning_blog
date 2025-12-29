@@ -3,7 +3,7 @@ title: 同意（どうい）
 description: 同意表達的語言概念與溝通策略
 type: concept
 jlpt: concept
-stage: draft
+stage: extension-review
 tags:
   - domain/communication
   - context/daily_life

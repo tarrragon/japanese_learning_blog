@@ -3,14 +3,14 @@ title: "〜ている"
 description: 持續狀態（已確認存在）
 type: grammar
 jlpt: n5
-stage: draft
+stage: extension-review
 tags:
   - te-form
   - state
   - progressive
   - aspect
 created: 2025-10-31
-updated: 2025-10-31
+updated: 2025-12-28
 
 # 版本歷史
 version_history:

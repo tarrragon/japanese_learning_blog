@@ -11,7 +11,7 @@ tags:
   - 人際關係
   - 察知能力
 version: 1.5.1
-status: draft
+status: extension-review
 stage_history:
   - stage: draft
     date: 2025-12-27

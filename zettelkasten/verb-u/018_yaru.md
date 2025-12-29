@@ -3,7 +3,7 @@ title: やる
 description: やる - 給、做、試
 type: verb
 jlpt: n5
-stage: draft
+stage: extension-review
 tags:
   - jlpt/n5
   - giving_casual

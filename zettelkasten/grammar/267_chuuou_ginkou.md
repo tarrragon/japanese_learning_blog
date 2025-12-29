@@ -2,14 +2,14 @@
 title: 中央銀行
 description: 各國金融體系核心機構，負責貨幣發行與金融政策
 type: noun
-stage: draft
+stage: extension-review
 card_id: 254
 tags:
   - domain/経済学
   - domain/金融
   - jlpt/n2
 created: 2025-12-27
-updated: 2025-12-27
+updated: 2025-12-28
 
 # 版本歷史
 version_history:

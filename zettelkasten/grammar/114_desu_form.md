@@ -3,13 +3,13 @@ title: "です形（ですけい）"
 description: です形 - 名詞和形容詞的禮貌形式
 type: grammar
 jlpt: n5
-stage: draft
+stage: extension-review
 tags:
   - context/formal
   - context/daily_life
   - jlpt/n5
 created: 2025-11-03
-updated: 2025-11-03
+updated: 2025-12-28
 
 # 版本歷史
 version_history:

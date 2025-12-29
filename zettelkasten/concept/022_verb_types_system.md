@@ -3,7 +3,7 @@ title: 動詞類型（どうしるいけい）
 description: 日文動詞類型的理論體系與分類原理
 type: concept
 jlpt: concept
-stage: draft
+stage: extension-review
 tags:
   - domain/linguistics
   - grammar/verb-classification

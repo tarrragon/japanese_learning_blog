@@ -3,7 +3,7 @@ title: "なぜなら"
 description: 因為（理由性連接詞）
 type: conjunction
 jlpt: n3
-stage: draft
+stage: extension-review
 tags:
   - causal
   - reason

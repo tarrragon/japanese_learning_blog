@@ -3,7 +3,7 @@ title: 程度副詞比較
 description: とても・非常に・すごく・めちゃ - 日語程度副詞的語域和強度差異
 type: comparison
 jlpt: n4
-stage: draft
+stage: extension-review
 tags:
   - comparison
   - adverb

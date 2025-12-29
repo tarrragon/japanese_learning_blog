@@ -1,21 +1,40 @@
 ---
-id: 507
-title: 會話含意理論
-japanese_title: 会話含意理論（かいわ がんいりろん）
-category: concept
-tags: [語用論, 會話分析, Grice理論]
-related_cards: []
+title: "会話の含意（かいわのがんい）"
+description: "會話含意理論 - Grice 語用學中的隱含意義理論"
+type: concept
+subtype: pragmatics
+jlpt: n2
+stage: completed
+draft: false
+auto_generated: false
+needs_review: false
+tags:
+  - linguistics
+  - pragmatics
+  - communication
+created: 2025-12-27
+updated: 2025-12-28
+
 version_history:
-  - version: 1.5.2
-    status: draft
+  - version: "1.5.6"
+    stage: "completed"
+    date: 2025-12-28
+  - version: "1.5.2"
+    stage: "draft"
     date: 2025-12-27
+
 content_verification:
-  completeness: 100%
-  examples_count: 3
-  languages: [ja, zh-TW, en]
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 9
+  pending_links: []
+
 link_status:
-  internal_links: 0
-  pending_links: 0
+  incoming: 0
+  outgoing: 3
+  pending: 0
+  verified_date: 2025-12-28
 ---
 
 ## 日文定義
@@ -190,15 +209,23 @@ B: I'm very busy these days.
 
 ---
 
-## 延伸閱讀
+## 相關連結
 
-- **語用學基礎**：會話含意是語用分析的核心
-- **禮貌原則**：Leech提出的禮貌原則對會話含意的進一步補充
-- **關聯論**：Sperber和Wilson的關聯論提供了會話含意的另一種解釋框架
+### 基礎概念
+- [語用論（ごようろん）](concept/070_pragmatics.md) - 語用學概論
+- [語用學](concept/067_goyougaku.md) - 語用學基礎
+
+### 相關理論
+- [言語行為理論（Speech Act Theory）](concept/158_speech_act_theory.md) - Austin 與 Searle 的發話行為理論
+
+### 延伸閱讀
+- **禮貌原則**：Leech 提出的禮貌原則對會話含意的進一步補充
+- **關聯論**：Sperber 和 Wilson 的關聯論提供了會話含意的另一種解釋框架
 - **指涉與預設**：與會話含意相關的其他語用現象
 
 ---
 
-**建立日期**：2025-12-27
-**版本**：v1.5.2
-**狀態**：draft
+**建立日期**: 2025-12-27
+**最後更新**: 2025-12-28
+**字數**: ~2500
+**例句數**: 9

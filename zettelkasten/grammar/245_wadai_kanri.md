@@ -4,7 +4,7 @@ description: 會話中話題轉換與維持的文法策略
 id: 92
 type: grammar
 jlpt: n3
-stage: draft
+stage: extension-review
 tags:
   - grammar
   - conversation
@@ -12,7 +12,7 @@ tags:
   - context/formal
   - context/casual
 created: 2025-12-27
-updated: 2025-12-27
+updated: 2025-12-28
 
 # 版本歷史
 version_history:

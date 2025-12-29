@@ -3,7 +3,7 @@ title: 動詞分類（どうしぶんるい）
 description: 日文動詞分類系統的完整介紹
 type: concept
 jlpt: concept
-stage: draft
+stage: extension-review
 tags:
   - domain/linguistics
   - context/academic

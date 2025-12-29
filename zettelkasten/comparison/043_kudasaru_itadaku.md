@@ -1,7 +1,7 @@
 ---
 title: くださる vs いただく
 jlpt: n4
-stage: draft
+stage: extension-review
 tags:
   - 敬語
   - 授受表現

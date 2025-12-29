@@ -1,13 +1,13 @@
 ---
 title: "疑問文"
 type: "grammar"
-stage: "draft"
+stage: "extension-review"
 tags:
   - "jlpt-n5"
   - "grammar"
   - "sentence-pattern"
 created: 2025-12-26
-updated: 2025-12-26
+updated: 2025-12-28
 
 # 版本歷史
 version_history:

@@ -1,7 +1,7 @@
 ---
 title: 賓格（ひんかく）
 description: 表示動作直接受詞的格位，日文主要用「を」助詞標記
-stage: draft
+stage: extension-review
 tags:
   - context/formal
   - context/academic

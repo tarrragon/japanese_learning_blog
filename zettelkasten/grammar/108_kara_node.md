@@ -3,13 +3,13 @@ title: "から・ので"
 description: 表達理由和原因的文法模式
 type: grammar
 jlpt: n4
-stage: draft
+stage: extension-review
 tags:
   - context/daily_life
   - context/formal
   - domain/communication
 created: 2025-11-03
-updated: 2025-11-03
+updated: 2025-12-28
 
 # 版本歷史
 version_history:

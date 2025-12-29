@@ -3,13 +3,13 @@ title: "分配"
 description: "表示分配、配給的語法結構，用於描述資源、任務或物品的分發"
 type: grammar
 jlpt: n3
-stage: draft
+stage: extension-review
 tags:
   - grammar
   - distribution
   - suru_verb
 created: 2025-12-27
-updated: 2025-12-27
+updated: 2025-12-28
 
 # 版本歷史
 version_history:

@@ -3,7 +3,7 @@ title: 既知・新情報（きち・しんじょうほう）
 description: 日文中既知資訊與新資訊的排序原則
 type: concept
 jlpt: none
-stage: draft
+stage: extension-review
 tags:
   - domain/linguistics
   - domain/communication
@@ -15,8 +15,8 @@ updated: 2025-10-31
 # 版本歷史
 version_history:
   - version: "1.5.0"
-    stage: "draft"
-    date: 2025-12-26
+    stage: "extension-review"
+    date: 2025-12-28
 
 # 內容驗證
 content_verification:

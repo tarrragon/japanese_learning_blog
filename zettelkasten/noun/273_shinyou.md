@@ -3,7 +3,7 @@ title: 信用（しんよう）
 description: 信用、信譽、信任
 type: noun
 jlpt: n3
-stage: draft
+stage: extension-review
 tags:
   - context/formal
   - context/business

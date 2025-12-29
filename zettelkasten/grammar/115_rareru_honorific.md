@@ -3,13 +3,13 @@ title: "れる・られる（尊敬語用法）"
 description: れる・られる的尊敬語用法
 type: grammar
 jlpt: n4
-stage: draft
+stage: extension-review
 tags:
   - context/formal
   - context/business
   - domain/communication
 created: 2025-11-03
-updated: 2025-11-03
+updated: 2025-12-28
 
 # 版本歷史
 version_history:

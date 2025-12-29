@@ -3,13 +3,13 @@ title: "〜ほうがいい"
 description: 最好...、應該...（建議的表達方式）
 type: grammar
 jlpt: n4
-stage: draft
+stage: extension-review
 tags:
   - context/daily_life
   - domain/communication
   - jlpt/n4
 created: 2025-11-03
-updated: 2025-11-03
+updated: 2025-12-28
 
 # 版本歷史
 version_history:

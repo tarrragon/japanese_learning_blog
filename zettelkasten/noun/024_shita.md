@@ -3,7 +3,7 @@ title: 下（した）
 description: 下面、下方、底部
 type: noun
 jlpt: n5
-stage: draft
+stage: extension-review
 tags:
   - position/location
   - position/direction

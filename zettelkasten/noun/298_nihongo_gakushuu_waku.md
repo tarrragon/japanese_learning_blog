@@ -3,7 +3,7 @@ title: 日語學習框架（にほんごがくしゅうわく）
 description: A comprehensive framework for learning Japanese, combining vocabulary building, grammar understanding, and practical communication skills
 type: noun
 jlpt: n4
-stage: draft
+stage: extension-review
 tags:
   - domain/education
   - domain/methodology

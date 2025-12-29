@@ -3,14 +3,14 @@ title: 格助詞
 description: 格助詞系統是日文中標記名詞文法功能的助詞體系，包含が、を、に、で、へ、と、から、まで等
 type: grammar
 jlpt: n4
-stage: draft
+stage: extension-review
 tags:
   - jlpt/n4
   - jlpt/n5
   - context/formal
   - domain/communication
 created: 2025-10-30
-updated: 2025-10-30
+updated: 2025-12-28
 
 # 版本歷史
 version_history:

@@ -1,6 +1,6 @@
 ---
 title: "印欧語族"
-stage: draft
+stage: extension-review
 tags:
   - linguistics
   - language-family

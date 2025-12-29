@@ -3,13 +3,13 @@ title: "〜た時"
 description: 〜た時 - 表示「...的時候」的時間文法
 type: grammar
 jlpt: n4
-stage: draft
+stage: extension-review
 tags:
   - grammar
   - pattern
   - context/daily_life
 created: 2025-10-31
-updated: 2025-10-31
+updated: 2025-12-28
 
 # 版本歷史
 version_history:

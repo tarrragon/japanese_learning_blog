@@ -3,7 +3,7 @@ title: 商務敬語的階梯理論
 description: 商務環境中敬語使用的等級體系和層次結構
 type: concept
 jlpt: n3
-stage: draft
+stage: extension-review
 tags:
   - context/business
   - domain/linguistics

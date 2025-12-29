@@ -3,7 +3,7 @@ title: ます形
 description: ます形 - 日本語動詞の丁寧形を作る基本的な活用形式
 type: concept
 jlpt: N5
-stage: draft
+stage: extension-review
 tags:
   - concept
   - grammar

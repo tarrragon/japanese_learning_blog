@@ -3,7 +3,7 @@ title: 昨日（きのう）
 description: 昨天、昨日
 type: noun
 jlpt: n5
-stage: draft
+stage: extension-review
 tags:
   - time
   - daily_life

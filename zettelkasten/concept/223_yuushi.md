@@ -6,7 +6,7 @@ japanese: 融資
 reading: ゆうし
 type: concept
 jlpt: n3
-stage: draft
+stage: extension-review
 tags:
   - finance
   - banking

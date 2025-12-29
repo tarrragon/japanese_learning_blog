@@ -2,7 +2,7 @@
 title: "動詞分類"
 type: concept
 jlpt: n5
-stage: draft
+stage: extension-review
 created: 2025-12-24
 updated: 2025-12-24
 

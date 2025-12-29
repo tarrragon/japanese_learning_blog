@@ -1,7 +1,7 @@
 ---
 title: 義務（ぎむ）
 description: 義務、責任、責務
-stage: draft
+stage: extension-review
 tags:
   - context/formal
   - domain/learning

@@ -3,7 +3,7 @@ title: 概観
 description: 概観 - 全体的な見通しや総括的な理解を示す概念
 type: concept
 jlpt: N2
-stage: draft
+stage: extension-review
 tags:
   - domain/general
   - context/formal

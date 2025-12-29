@@ -13,7 +13,7 @@ tags:
   - politeness
   - daily-expression
 status: draft
-stage: draft
+stage: extension-review
 version_history:
   - version: "1.5.1"
     date: 2025-12-27

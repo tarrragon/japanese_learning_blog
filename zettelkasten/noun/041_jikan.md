@@ -3,7 +3,7 @@ title: 時間（じかん）
 description: 時間 - 表示時間概念的基礎名詞
 type: noun
 jlpt: n5
-stage: draft
+stage: extension-review
 tags:
   - context/daily_life
   - domain/daily_life

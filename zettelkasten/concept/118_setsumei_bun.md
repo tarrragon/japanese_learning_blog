@@ -1,6 +1,6 @@
 ---
 title: "説明文"
-stage: draft
+stage: extension-review
 tags:
   - 文章類型
   - 文体

@@ -3,7 +3,7 @@ title: 時刻（じこく）
 description: 表示具體的時間點或特定時刻
 type: noun
 jlpt: n4
-stage: draft
+stage: extension-review
 tags:
   - context/daily_life
   - domain/daily_life

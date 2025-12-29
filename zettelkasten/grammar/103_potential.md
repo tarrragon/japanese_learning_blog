@@ -3,14 +3,14 @@ title: "可能形（かのうけい）"
 description: 可能形 - 表達能力和可能性的動詞變化形式
 type: grammar
 jlpt: n4
-stage: draft
+stage: extension-review
 tags:
   - grammar
   - conjugation
   - potential
   - jlpt/n4
 created: 2025-10-31
-updated: 2025-10-31
+updated: 2025-12-28
 
 # 版本歷史
 version_history:

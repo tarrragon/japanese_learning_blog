@@ -3,7 +3,7 @@ title: 意味論（いみろん）
 description: 意味論（語義學）- 研究語言意義的語言學分支
 type: concept
 jlpt: n3
-stage: draft
+stage: extension-review
 tags:
   - domain/linguistics
   - domain/semantics
@@ -13,6 +13,9 @@ updated: 2025-12-27
 
 # 版本歷史
 version_history:
+  - version: "1.5.4"
+    stage: "extension-review"
+    date: 2025-12-28
   - version: "1.5.4"
     stage: "draft"
     date: 2025-12-27

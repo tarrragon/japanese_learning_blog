@@ -3,7 +3,7 @@ title: 動詞分類
 description: 日文動詞的分類系統，包含三大類型（五段、一段、不規則）和語義分類（自他動詞等），是理解動詞活用的基礎
 type: concept
 jlpt: n5
-stage: draft
+stage: extension-review
 tags:
   - jlpt/n5
   - context/academic

@@ -3,7 +3,7 @@ title: "接続助詞（せつぞくじょし）"
 description: "連接句節的助詞，表達時間、原因、條件、逆接等關係"
 type: concept
 jlpt: N3
-stage: draft
+stage: extension-review
 tags:
   - grammar_system
   - particles

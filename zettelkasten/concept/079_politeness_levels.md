@@ -3,7 +3,7 @@ title: "敬語レベル（けいごれべる）"
 description: "日文敬語體系的禮貌層級"
 type: concept
 jlpt: n4
-stage: draft
+stage: extension-review
 tags:
   - honorific
   - pragmatics

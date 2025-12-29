@@ -3,7 +3,7 @@ title: "動詞"
 description: 動詞的基本概念與分類系統
 type: concept
 jlpt: n5
-stage: draft
+stage: extension-review
 tags:
   - domain/linguistics
   - context/academic

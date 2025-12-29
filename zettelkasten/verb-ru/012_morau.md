@@ -3,7 +3,7 @@ title: "もらう（もらう）"
 description: もらう - 得到、收到、接受
 type: verb
 jlpt: n5
-stage: draft
+stage: extension-review
 tags:
   - jlpt/n5
   - receiving

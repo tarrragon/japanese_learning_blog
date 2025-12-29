@@ -2,7 +2,7 @@
 title: "商務会話"
 type: concept
 jlpt: n3
-stage: draft
+stage: extension-review
 created: 2025-12-27
 updated: 2025-12-27
 

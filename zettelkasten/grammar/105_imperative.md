@@ -3,14 +3,14 @@ title: "命令形（めいれいけい）"
 description: 命令形 - 日語動詞命令態
 type: grammar
 jlpt: n4
-stage: draft
+stage: extension-review
 tags:
   - grammar
   - conjugation
   - imperative
   - jlpt/n4
 created: 2025-10-31
-updated: 2025-10-31
+updated: 2025-12-28
 
 # 版本歷史
 version_history:

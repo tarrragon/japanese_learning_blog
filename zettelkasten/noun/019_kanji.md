@@ -3,7 +3,7 @@ title: 漢字(かんじ)
 description: 漢字，日文書寫系統中使用的中國文字
 type: noun
 jlpt: n5
-stage: draft
+stage: extension-review
 tags:
   - domain/learning
   - domain/linguistics

@@ -3,7 +3,7 @@ title: 語用学（ごようがく）
 description: 語用學總論 - 研究語言在實際使用中意義的語言學分支
 type: concept
 jlpt: concept
-stage: draft
+stage: extension-review
 tags:
   - domain/linguistics
   - context/academic

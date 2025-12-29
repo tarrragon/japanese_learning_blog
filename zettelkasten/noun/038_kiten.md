@@ -3,7 +3,7 @@ title: 起点（きてん）
 description: 起點，開始的地方或時間點
 type: noun
 jlpt: n3
-stage: draft
+stage: extension-review
 tags:
   - context/formal
   - domain/movement

@@ -6,7 +6,7 @@ title: 時態
 created_date: 2025-12-27
 updated_date: 2025-12-27
 status: draft
-stage: draft
+stage: extension-review
 tags: [grammar, tense, verb]
 related_cards: []
 version_history: []

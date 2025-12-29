@@ -3,13 +3,13 @@ title: "目的語（もくてきご）"
 description: 賓語（目的語）- 動作的直接對象
 type: grammar
 jlpt: concept
-stage: draft
+stage: extension-review
 tags:
   - context/academic
   - grammar-term
   - sentence-structure
 created: 2025-11-03
-updated: 2025-11-03
+updated: 2025-12-28
 
 # 版本歷史
 version_history:

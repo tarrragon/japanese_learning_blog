@@ -4,7 +4,7 @@ description: 連用形 - 日本語動詞の六活用形の一つで、用言や�
 id: 274
 type: concept
 jlpt: N4
-stage: draft
+stage: extension-review
 tags:
   - concept
   - grammar

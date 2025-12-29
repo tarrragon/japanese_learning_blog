@@ -3,7 +3,7 @@ title: を vs で
 description: を vs で 用法比較 - 賓語標記 vs 動作場所／手段
 type: comparison
 jlpt: n5
-stage: draft
+stage: extension-review
 tags:
   - comparison
   - particle

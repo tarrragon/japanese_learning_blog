@@ -3,12 +3,12 @@ title: "ます形"
 description: "動詞的丁寧形（禮貌形），日語基本句型的核心結構"
 type: grammar
 jlpt: n5
-stage: draft
+stage: extension-review
 tags:
   - verb_conjugation
   - politeness
 created: 2025-12-26
-updated: 2025-12-26
+updated: 2025-12-28
 
 # 版本歷史
 version_history:

@@ -3,7 +3,7 @@ title: 悪魔（あくま）
 description: 惡魔，邪惡或陰險的超自然存在
 type: noun
 jlpt: n2
-stage: draft
+stage: extension-review
 tags:
   - domain/mythology
   - context/formal

@@ -3,7 +3,7 @@ title: "た形（たけい）"
 description: "動詞的た形（過去式/完成態）"
 type: concept
 jlpt: n5
-stage: draft
+stage: extension-review
 tags:
   - grammar
   - verb_conjugation

@@ -3,13 +3,13 @@ title: "〜たり〜たり（する）"
 description: 列舉多個動作或狀態，表示「做...做...」
 type: grammar
 jlpt: n4
-stage: draft
+stage: extension-review
 tags:
   - context/daily_life
   - context/casual
   - jlpt/n4
 created: 2025-11-03
-updated: 2025-11-03
+updated: 2025-12-28
 
 # 版本歷史
 version_history:

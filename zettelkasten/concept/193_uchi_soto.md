@@ -3,7 +3,7 @@ title: ウチとソト
 description: 內與外概念 - 日語社會語言學中的內外群體區分
 type: concept
 jlpt: n3
-stage: draft
+stage: extension-review
 tags:
   - social_concept
   - keigo

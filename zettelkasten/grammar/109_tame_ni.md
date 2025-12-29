@@ -3,7 +3,7 @@ title: "〜ために"
 description: 〜ために - 表示「為了」（目的）或「因為」（原因）的文法
 type: grammar
 jlpt: n4
-stage: draft
+stage: extension-review
 tags:
   - grammar
   - purpose
@@ -11,7 +11,7 @@ tags:
   - context/daily_life
   - context/formal
 created: 2025-11-03
-updated: 2025-11-03
+updated: 2025-12-28
 
 # 版本歷史
 version_history:

@@ -3,7 +3,7 @@ title: 義務表現（ぎむひょうげん）
 description: 義務表達的概念和語法體系
 type: concept
 jlpt: concept
-stage: draft
+stage: extension-review
 tags:
   - domain/linguistics
   - context/formal

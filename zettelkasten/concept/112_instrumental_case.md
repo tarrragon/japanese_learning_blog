@@ -3,7 +3,7 @@ title: "工具格（どうぐかく）"
 description: "表示動作手段、方法或工具的語法格，對應日語的「で」格"
 type: concept
 jlpt: none
-stage: draft
+stage: extension-review
 tags:
   - linguistics
   - grammar_theory

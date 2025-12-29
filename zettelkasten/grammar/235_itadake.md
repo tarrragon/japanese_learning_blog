@@ -1,12 +1,12 @@
 ---
 title: いただけ
 jlpt: n4
-stage: draft
+stage: extension-review
 tags:
   - 謙讓語
   - 請求表達
 created: 2025-12-27
-updated: 2025-12-27
+updated: 2025-12-28
 version_history:
   - version: "1.5.0"
     stage: "draft"

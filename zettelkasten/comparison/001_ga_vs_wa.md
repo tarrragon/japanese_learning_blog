@@ -3,7 +3,7 @@ title: が vs は
 description: が vs は 詳細比較 - 日語學習最大難點
 type: comparison
 jlpt: n5
-stage: draft
+stage: extension-review
 tags:
   - comparison
   - particle

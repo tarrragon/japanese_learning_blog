@@ -3,7 +3,7 @@ title: "または"
 description: 或者（選擇性連接詞）
 type: conjunction
 jlpt: n3
-stage: draft
+stage: extension-review
 tags:
   - disjunctive
   - choice

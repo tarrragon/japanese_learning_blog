@@ -3,7 +3,7 @@ title: 考え（かんがえ）
 description: 想法、意見、看法
 type: noun
 jlpt: n4
-stage: draft
+stage: extension-review
 tags:
   - daily_life
   - abstract_noun

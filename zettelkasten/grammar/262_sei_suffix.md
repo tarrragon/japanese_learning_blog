@@ -2,14 +2,14 @@
 title: 性（せい）接尾辞
 description: 抽象名詞を形成する接尾辞「性」の用法
 type: grammar
-stage: draft
+stage: extension-review
 tags:
   - N2
   - formal
   - academic
   - word_formation
 created: 2025-12-27
-updated: 2025-12-27
+updated: 2025-12-28
 
 # 版本歷史
 version_history:

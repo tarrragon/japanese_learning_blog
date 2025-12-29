@@ -3,7 +3,7 @@ title: で vs に
 description: で vs に 場所用法比較 - 動作場所 vs 存在場所/目的地
 type: comparison
 jlpt: n5
-stage: draft
+stage: extension-review
 tags:
   - comparison
   - particle

@@ -3,7 +3,7 @@ title: 内と外
 description: 內與外（ウチとソト）- 日本社會的內外群體概念
 type: concept
 jlpt: n3
-stage: draft
+stage: extension-review
 tags:
   - domain/cognition
   - domain/communication

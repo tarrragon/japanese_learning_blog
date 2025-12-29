@@ -3,7 +3,7 @@ title: 明日（あした）
 description: 明天、次日
 type: noun
 jlpt: n5
-stage: draft
+stage: extension-review
 tags:
   - context/daily_life
   - daily_life

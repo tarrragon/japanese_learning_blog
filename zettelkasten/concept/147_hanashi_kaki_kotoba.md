@@ -1,23 +1,42 @@
 ---
-id: 501
-number: 126
-category: concept
-title_ja: 話し言葉と書き言葉
-title_zh: 口語與書面語
-title_en: Spoken Language vs. Written Language
-tags: [language-style, formal-informal, communication]
-related_to: []
+title: "話し言葉と書き言葉（はなしことばとかきことば）"
+description: "口語與書面語的區別與使用場景"
+type: concept
+jlpt: n3
+stage: completed
+draft: false
+auto_generated: false
+needs_review: true
+tags:
+  - language-style
+  - formal-informal
+  - communication
+created: 2025-12-27
+updated: 2025-12-28
 version_history:
-  - version: 1.5.1
-    status: created
-    date: 2025-12-27
+  - version: "1.5.6"
+    stage: "completed"
+    date: 2025-12-28
 content_verification:
-  complete: true
-  last_checked: 2025-12-27
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 6
+  pending_links: []
 link_status:
-  total_links: 0
-  verified_links: 0
+  incoming: 0
+  outgoing: 6
+  pending: 0
+  verified_date: 2025-12-28
 ---
+
+日語中的「話し言葉」（口語）與「書き言葉」（書面語）代表兩種不同的語言表達形式，是理解日語語域（register）變化的基礎概念。
+
+<!--more-->
+
+## 日文
+
+話し言葉と書き言葉（はなしことばとかきことば）
 
 ## 日文解釋
 
@@ -63,7 +82,7 @@ link_status:
 
 ---
 
-## English Explanation
+## 英文解釋
 
 **Hanashi kotoba** (spoken language) is the language form used primarily in conversation and speaking situations. **Kaki kotoba** (written language) is the language form used in documents, emails, academic papers, and other written contexts.
 
@@ -85,30 +104,57 @@ link_status:
 
 ---
 
-## 用法例文
+## 核心用法
 
-### 話し言葉の例
+### 用法 1：日常對話中的口語表達
 
-1. **A: 昨日、何してた？**
-   - B: あ、昨日？映画見てたよ。
-   - **中文**: A: 你昨天在做什麼？ B: 啊，昨天？我在看電影。
+話し言葉在日常會話中廣泛使用，特徵是省略和縮略形式。
 
-2. **先生、ちょっと質問があるんですけど。**
-   - **中文**: 老師，我有個小問題想問。
+**例句 1**
+```
+A: 昨日、何してた？ B: あ、昨日？映画見てたよ。
+A: What were you doing yesterday? B: Oh, yesterday? I was watching a movie.
+A: 你昨天在做什麼？ B: 啊，昨天？我在看電影。
+```
 
-3. **あれ、鍵がない。どこにやった？**
-   - **中文**: 咦，鑰匙不見了。我把它放在哪裡了？
+**例句 2**
+```
+先生、ちょっと質問があるんですけど。
+Teacher, I have a quick question.
+老師，我有個小問題想問。
+```
 
-### 書き言葉の例
+**例句 3**
+```
+あれ、鍵がない。どこにやった？
+Huh, where's my key? Where did I put it?
+咦，鑰匙不見了。我把它放在哪裡了？
+```
 
-1. **昨日の会議において、重要な決定がなされた。**
-   - **中文**: 在昨天的會議上，做出了重要的決定。
+### 用法 2：正式場合中的書面語表達
 
-2. **本研究では、日本語教育の現状について検討する。**
-   - **中文**: 本研究旨在探討日語教育的現狀。
+書き言葉在商務、學術和正式文件中使用，特徵是完整的句子結構和敬語。
 
-3. **申し訳ございませんが、お忙しいところ恐れ入りますが。**
-   - **中文**: 非常抱歉，打擾您了。
+**例句 4**
+```
+昨日の会議において、重要な決定がなされた。
+An important decision was made at yesterday's meeting.
+在昨天的會議上，做出了重要的決定。
+```
+
+**例句 5**
+```
+本研究では、日本語教育の現状について検討する。
+This research examines the current state of Japanese language education.
+本研究旨在探討日語教育的現狀。
+```
+
+**例句 6**
+```
+お忙しいところ恐れ入りますが、ご確認いただけますでしょうか。
+I apologize for disturbing you when you're busy, but could you please verify this?
+百忙之中打擾了，能否請您確認一下？
+```
 
 ---
 
@@ -133,10 +179,23 @@ link_status:
 
 ---
 
-## 延伸關聯
+## 相關連結
 
-該卡片涵蓋語言風格的基本分類，應連結至：
-- 敬語系統卡片（敬語、謙語、丁寧語等）
-- 方言卡片
-- 文體風格卡片
-- 具體的口語表達與書面語對比卡片
+### 敬語系統
+- [尊敬語](192_sonkeigo.md) - 尊敬語的概念與使用
+- [謙讓語](157_kenjougo_concept.md) - 謙讓語的概念與使用
+- [丁寧語](093_teineigo_concept.md) - 丁寧語的基礎
+
+### 語域與文體
+- [敬体と常体](238_formal_vs_casual_speech.md) - 正式語體與日常語體的區別
+- [文語と口語](233_bungo_to_kougo.md) - 文語與口語的對比
+
+### 相關比較
+- [です・だ](245_desu_da.md) - 敬體與常體的斷定助動詞差異
+
+---
+
+**建立日期**: 2025-12-27
+**最後更新**: 2025-12-28
+**字數**: ~1,500
+**例句數**: 6

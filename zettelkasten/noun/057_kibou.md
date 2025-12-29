@@ -3,7 +3,7 @@ title: 希望（きぼう）
 description: 希望、願望、期待
 type: noun
 jlpt: n4
-stage: draft
+stage: extension-review
 tags:
   - context/daily_life
   - domain/cognition

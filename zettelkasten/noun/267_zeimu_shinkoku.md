@@ -3,7 +3,7 @@ title: "税務申告（ぜいむしんこく）"
 description: "稅務申報"
 type: noun
 jlpt: n1
-stage: draft
+stage: extension-review
 tags:
   - business
   - legal

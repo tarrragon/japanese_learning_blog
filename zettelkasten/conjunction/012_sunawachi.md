@@ -3,7 +3,7 @@ title: "すなわち"
 description: 也就是說、即
 type: conjunction
 jlpt: n2
-stage: draft
+stage: extension-review
 tags:
   - context/formal
   - context/academic

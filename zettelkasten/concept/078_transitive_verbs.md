@@ -3,7 +3,7 @@ title: "他動詞（たどうし）"
 description: "需要賓語的動詞"
 type: concept
 jlpt: n4
-stage: draft
+stage: extension-review
 tags:
   - grammar
   - verb_classification

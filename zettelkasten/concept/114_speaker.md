@@ -3,7 +3,7 @@ title: 話者
 description: 說話者（話者）- 語言學核心概念，指發出言語行為的主體
 type: concept
 jlpt: n4
-stage: draft
+stage: extension-review
 tags:
   - domain/linguistics
   - domain/pragmatics

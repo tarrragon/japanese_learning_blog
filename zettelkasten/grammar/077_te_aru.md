@@ -3,13 +3,13 @@ title: "〜てある"
 description: 表示動作完成後的結果狀態持續存在
 type: grammar
 jlpt: n4
-stage: draft
+stage: extension-review
 tags:
   - te-form
   - state
   - grammar_pattern
 created: 2025-10-31
-updated: 2025-10-31
+updated: 2025-12-28
 
 # 版本歷史
 version_history:

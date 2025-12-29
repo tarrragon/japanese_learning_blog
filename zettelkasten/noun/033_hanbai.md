@@ -3,7 +3,7 @@ title: 販売(はんばい)
 description: 販売 - 銷售、銷售活動
 type: noun
 jlpt: n3
-stage: draft
+stage: extension-review
 tags:
   - domain/commerce
   - domain/transaction

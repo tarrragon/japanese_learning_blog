@@ -2,13 +2,13 @@
 title: "可能形"
 type: "grammar"
 jlpt: "n4"
-stage: "draft"
+stage: "extension-review"
 tags:
   - "動詞變化"
   - "可能表現"
   - "N4文法"
 created: "2025-12-24"
-updated: "2025-12-24"
+updated: "2025-12-28"
 
 # 版本歷史
 version_history:

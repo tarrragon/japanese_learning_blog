@@ -3,7 +3,7 @@ title: 事業(じぎょう)
 description: 事業、商業活動
 type: noun
 jlpt: n3
-stage: draft
+stage: extension-review
 tags:
   - context/business
   - context/formal

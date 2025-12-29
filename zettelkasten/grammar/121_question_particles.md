@@ -3,7 +3,7 @@ title: "疑問助詞（ぎもんじょし）"
 description: 疑問助詞系統用於構成疑問句，包括か、の等助詞，表達疑問、確認、反問等語氣
 type: grammar
 jlpt: n5
-stage: draft
+stage: extension-review
 tags:
   - jlpt/n5
   - context/casual
@@ -11,7 +11,7 @@ tags:
   - domain/communication
   - question
 created: 2025-11-03
-updated: 2025-11-03
+updated: 2025-12-28
 
 # 版本歷史
 version_history:

@@ -3,7 +3,7 @@ title: "お/ご〜する"
 description: お/ご～する - 謙讓語形成模式
 type: grammar
 jlpt: n4
-stage: draft
+stage: extension-review
 tags:
   - jlpt/n4
   - honorific
@@ -11,7 +11,7 @@ tags:
   - humble_form
   - formal
 created: 2025-10-30
-updated: 2025-10-30
+updated: 2025-12-28
 
 # 版本歷史
 version_history:

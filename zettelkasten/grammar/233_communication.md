@@ -1,14 +1,14 @@
 ---
 title: "コミュニケーション"
 type: grammar
-stage: draft
+stage: extension-review
 tags:
   - grammar
   - communication
   - pragmatics
   - interpersonal
 created: 2025-12-27
-updated: 2025-12-27
+updated: 2025-12-28
 
 # 版本歷史
 version_history:

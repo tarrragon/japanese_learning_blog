@@ -10,7 +10,7 @@ tags: [言語学, 語言, 意味]
 created_date: 2025-12-27
 version_history:
   - version: 1.5.1
-    stage: draft
+    stage: extension-review
     date: 2025-12-27
 content_verification:
   complete: false

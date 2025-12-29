@@ -3,7 +3,7 @@ title: 体理論（たいりろん）
 description: 日文動詞的體系統：描述動作的時間結構和進行狀態的語法概念
 type: concept
 jlpt: concept
-stage: draft
+stage: extension-review
 tags:
   - domain/linguistics
   - context/academic

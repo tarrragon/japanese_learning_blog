@@ -3,7 +3,7 @@ title: したがって vs だから
 description: したがって vs だから 詳細比較 - 因果關係接續詞的正式度與使用情境
 type: comparison
 jlpt: n4
-stage: draft
+stage: extension-review
 tags:
   - comparison
   - conjunction

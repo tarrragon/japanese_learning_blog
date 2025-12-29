@@ -1,43 +1,98 @@
 ---
-title: 商務禮貌表達
-stage: pending
+title: "商務禮貌表達（ビジネスマナー表現）"
+description: 商務場合進退場的禮貌用語與敬語表達
+type: keigo
+subtype: business-manner
+jlpt: n3
+stage: extension-review
+draft: false
+auto_generated: false
+needs_review: true
 tags:
   - keigo
   - business-japanese
   - office-culture
+  - jlpt/n3
 created: 2025-12-22
-updated: 2025-12-26
+updated: 2025-12-28
 
-# 版本歷史
 version_history:
   - version: "1.5.0"
     stage: "pending"
     date: 2025-12-26
+  - version: "1.5.6"
+    stage: "draft"
+    date: 2025-12-28
 
-# 內容驗證
 content_verification:
   japanese: true
   english: true
   chinese: true
-  examples_count: 0
+  examples_count: 5
   pending_links: []
 
-# 連結狀態
 link_status:
   incoming: 0
   outgoing: 9
   pending: 0
-  verified_date: 2025-12-26
+  verified_date: 2025-12-28
 ---
-# 商務禮貌表達
+
+商務場合中進出房間、辦公室時使用的禮貌表達，是日本職場文化中不可或缺的敬語運用。
+
+<!--more-->
+
+## 日文
+
+商務禮貌表達（しょうむれいぎひょうげん）/ ビジネスマナー表現
+
+### 文法情報
+
+| 項目 | 內容 |
+|------|------|
+| 文法類型 | 敬語表達・禮儀用語 |
+| JLPT | N3 |
+| 使用場面 | 商務・職場 |
+| 形成 | 固定表達句型 |
+
+### 核心表達一覽
+
+| 表達 | 讀音 | 使用場景 |
+|------|------|----------|
+| 失礼します | しつれいします | 進入時 |
+| お邪魔します | おじゃまします | 進入時（較親切） |
+| 失礼しました | しつれいしました | 離開時 |
+| お先に失礼します | おさきにしつれいします | 提前離開時 |
 
 ## 日文解釋
 
 ビジネスシーンにおいて、部屋への入室時や退室時に使用する丁寧な表現。相手への敬意を示し、円滑なコミュニケーションを図るための重要なマナー表現である。
 
+日本のビジネス文化において、これらの表現は単なる挨拶ではなく、**相手の領域に入る許可を求める**という意味合いを持つ。「失礼します」は文字通り「失礼なことをします」という意味だが、実際には謙遜の気持ちを表す定型表現となっている。
+
+特に重要なのは、**時制の使い分け**である。入室時は「します」（これから失礼する）、退室時は「しました」（失礼したことへのお詫び）と使い分ける。これは日本語の敬語体系における時制の論理的な運用を示している。
+
+また、「お先に失礼します」は他の人より先に退室する際に使う表現で、**周囲への配慮**を示す日本の集団主義的文化を反映している。
+
+## 英文解釋
+
+Polite expressions used when entering or leaving a room in business situations. These phrases demonstrate respect and are essential for maintaining professional relationships in Japanese business culture.
+
+In Japanese business culture, these expressions are not mere greetings but carry the nuance of **requesting permission to enter someone's territory**. While "失礼します" literally means "I will be rude," it has evolved into a set phrase expressing humility.
+
+The **tense distinction** is crucial: "します" (present/future) when entering and "しました" (past) when leaving. This reflects the logical application of tense in the Japanese honorific system.
+
+"お先に失礼します" is used when leaving before others, reflecting Japan's **collectivist culture** where consideration for the group is paramount.
+
 ## 中文解釋
 
 商務場合中進入或離開房間時使用的禮貌表達。這些表達方式展現對他人的尊重，是建立良好商務關係的重要禮儀用語。
+
+在日本商務文化中，這些表達不僅是問候，更帶有**請求進入他人領域許可**的含義。「失礼します」字面意思是「我將做失禮的事」，但實際上已成為表達謙遜的固定用語。
+
+**時態的區分**特別重要：進入時用「します」（即將打擾），離開時用「しました」（為已經打擾表示歉意）。這反映了日語敬語體系中時態的邏輯運用。
+
+「お先に失礼します」用於比他人先離開時，體現了日本**集體主義文化**中對團體的顧慮與配慮。
 
 主要表達：
 - **失礼します**（しつれいします）：「打擾了」，進入時使用
@@ -45,15 +100,58 @@ link_status:
 - **失礼しました**（しつれいしました）：「打擾了」，離開時使用
 - **お先に失礼します**（おさきにしつれいします）：「我先告辭了」，提前離開時使用
 
-## 英文解釋
+## 核心用法
 
-Polite expressions used when entering or leaving a room in business situations. These phrases demonstrate respect and are essential for maintaining professional relationships in Japanese business culture.
+### 用法 1：進入他人領域（入室表達）
 
-Key expressions:
-- **失礼します** (shitsurei shimasu): "Excuse me" when entering
-- **お邪魔します** (ojama shimasu): "Pardon the intrusion" (more casual)
-- **失礼しました** (shitsurei shimashita): "Excuse me" when leaving
-- **お先に失礼します** (osaki ni shitsurei shimasu): "I'll take my leave first"
+進入上司辦公室、會議室、客戶公司時使用的標準表達。
+
+**例句 1**
+```
+失礼します。今、お時間よろしいでしょうか。
+Excuse me. Do you have time now?
+打擾了，現在方便嗎？
+```
+
+**例句 2**
+```
+失礼します。本日はお時間をいただき、ありがとうございます。
+Excuse me. Thank you for your time today.
+打擾了。感謝您今天撥冗相見。
+```
+
+### 用法 2：離開場合（退室表達）
+
+會議結束、拜訪結束、離開他人辦公室時使用。
+
+**例句 3**
+```
+本日はありがとうございました。失礼しました。
+Thank you for today. Excuse me.
+今天非常感謝。告辭了。
+```
+
+### 用法 3：提前離開（配慮表達）
+
+比同事先下班或提前離開會議時，表示對他人的顧慮。
+
+**例句 4**
+```
+申し訳ございません。本日はお先に失礼します。
+I apologize. I'll take my leave first today.
+不好意思，今天我先告辭了。
+```
+
+### 用法 4：非正式場合（親近表達）
+
+拜訪同事座位或較親近的商務夥伴時使用。
+
+**例句 5**
+```
+お邪魔します。ちょっとご相談があるのですが。
+Pardon me. I have something to consult with you about.
+打擾一下，有點事想請教您。
+```
 
 ## 使用場景
 
@@ -67,70 +165,49 @@ Key expressions:
 - **提前下班**：お先に失礼します
 - **拜訪結束**：本日はありがとうございました。失礼します
 
-## 例句
+## 文法規則
 
-### 例句 1：進入上司辦公室
-**日文**：失礼します。今、お時間よろしいでしょうか。
-**羅馬拼音**：Shitsurei shimasu. Ima, ojikan yoroshii deshou ka.
-**中文翻譯**：打擾了，現在方便嗎？
-**英文翻譯**：Excuse me. Do you have time now?
-
-### 例句 2：訪問客戶
-**日文**：失礼します。本日はお時間をいただき、ありがとうございます。
-**羅馬拼音**：Shitsurei shimasu. Honjitsu wa ojikan wo itadaki, arigatou gozaimasu.
-**中文翻譯**：打擾了。感謝您今天撥冗相見。
-**英文翻譯**：Excuse me. Thank you for your time today.
-
-### 例句 3：離開會議室
-**日文**：本日はありがとうございました。失礼しました。
-**羅馬拼音**：Honjitsu wa arigatou gozaimashita. Shitsurei shimashita.
-**中文翻譯**：今天非常感謝。告辭了。
-**英文翻譯**：Thank you for today. Excuse me.
-
-### 例句 4：提前離開辦公室
-**日文**：申し訳ございません。本日はお先に失礼します。
-**羅馬拼音**：Moushiwake gozaimasen. Honjitsu wa osaki ni shitsurei shimasu.
-**中文翻譯**：不好意思，今天我先告辭了。
-**英文翻譯**：I apologize. I'll take my leave first today.
-
-### 例句 5：拜訪同事座位
-**日文**：お邪魔します。ちょっとご相談があるのですが。
-**羅馬拼音**：Ojama shimasu. Chotto gosoudan ga aru no desu ga.
-**中文翻譯**：打擾一下，有點事想請教您。
-**英文翻譯**：Pardon me. I have something to consult with you about.
-
-## 文法結構
-
-### 1. 失礼します的結構
+### 規則 1：失礼します的結構
 - **失礼**（名詞）+ **します**（動詞）
 - 意為「做出失禮的行為」，但實際上是謙遜的禮貌表達
+- 屬於「名詞+する」型的サ變動詞
 
-### 2. お先に的用法
+### 規則 2：お先に的敬語構成
 - **お先に**（副詞）= 「先」的尊敬說法
+- お + 先（名詞）+ に（助詞）→ 美化語形式
 - 表示自己先做某事，帶有歉意和謙遜的語氣
 
-### 3. 過去式的區別
-- **失礼します**：現在要打擾（進入時）
-- **失礼しました**：已經打擾過了（離開時）
+### 規則 3：時態的邏輯區分
+- **失礼します**：現在要打擾（進入時）→ 未然形
+- **失礼しました**：已經打擾過了（離開時）→ 已然形
+- 這反映了日語敬語中時態與禮貌的邏輯對應
+
+## 常見錯誤
+
+### 錯誤 1：時態混淆
+❌ 誤：（離開時）失礼します。
+✅ 正：（離開時）失礼しました。
+說明：離開時應使用過去式，表示「對剛才的打擾表示歉意」。
+
+### 錯誤 2：對上級使用お邪魔します
+❌ 誤：（進入部長辦公室）お邪魔します。
+✅ 正：（進入部長辦公室）失礼します。
+說明：お邪魔します較為親切隨意，對上級或客戶應使用失礼します。
+
+### 錯誤 3：忘記配合動作
+❌ 誤：背對著說失礼しました就離開
+✅ 正：面向對方鞠躬說失礼しました，再轉身離開
+說明：禮貌用語需配合適當的肢體語言，這是日本商務禮儀的重要部分。
 
 ## 學習要點
 
-### 禮儀要點
-1. **進入前先敲門**，等待回應後說「失礼します」
-2. **離開時面向對方**說「失礼しました」，不要背對著說
-3. **鞠躬配合**，說話時輕輕點頭或鞠躬
+1. **時態即禮貌**：進入用「します」（未然），離開用「しました」（已然），這是邏輯性的敬語運用
+2. **場合決定用語**：正式場合用「失礼します」，非正式場合可用「お邪魔します」
+3. **配慮文化**：「お先に失礼します」體現對團體的顧慮，是日本集體主義的語言表現
+4. **動作配合**：禮貌用語必須配合敲門、鞠躬、眼神接觸等非語言行為
+5. **組合使用**：可與感謝語、道歉語組合，如「ありがとうございました。失礼します」
 
-### 場合區別
-- **正式商務場合**：使用「失礼します/しました」
-- **內部同事間**：可使用「お邪魔します」或「お先に失礼します」
-- **客戶訪問**：進出都要說「失礼します/しました」
-
-### 常見搭配
-- **失礼します** + 目的說明（今、お時間よろしいでしょうか）
-- **お先に失礼します** + 道歉（申し訳ございません）
-- **失礼しました** + 感謝（ありがとうございました）
-
-## 延伸學習
+## 相關連結
 
 ### 敬語體系
 - [敬語系統總覽](005_keigo_system.md) - 商務禮貌在敬語體系中的位置[^1]
@@ -138,13 +215,13 @@ Key expressions:
 - [授受表現系統](007_juju_system.md) - 商務場合的授受敬語[^3]
 
 ### 相關禮貌表達
-- [すみません](../phrase/024_sumimasen.md) - 萬能禮貌用語[^4]
-- [失礼します](../phrase/025_shitsureishimasu.md) - 進退場專用表達[^5]
-- [申し訳ございません](../phrase/026_moushiwakegozaimasen.md) - 最正式道歉[^6]
-- [ありがとうございます](../phrase/021_ありがとうございます.md) - 感謝表達[^7]
+- [すみません](../phrase/024_sumimasen.md) - 萬能禮貌用語[^4]（待建立）
+- [失礼します](../phrase/025_shitsureishimasu.md) - 進退場專用表達[^5]（待建立）
+- [申し訳ございません](../phrase/026_moushiwakegozaimasen.md) - 最正式道歉[^6]（待建立）
+- [ありがとうございます](../phrase/021_arigatougozaimasu.md) - 感謝表達[^7]（待建立）
 
 ### 語言學概念
-- [丁寧語概念](../concept/040_teineigo_concept.md) - 失礼します屬於丁寧語範疇[^8]
+- [丁寧語概念](../concept/040_teineigo_concept.md) - 失礼します屬於丁寧語範疇[^8]（待建立）
 - [內與外](../concept/007_uchi_soto.md) - 商務禮貌的文化背景[^9]
 
 [^1]: 失礼します、お邪魔します等是敬語系統中丁寧語的代表性表達。
@@ -156,3 +233,10 @@ Key expressions:
 [^7]: 離開時常組合使用「ありがとうございました。失礼します」。
 [^8]: 失礼します使用「です・ます」體，是丁寧語的典型例子。
 [^9]: 商務禮貌體現「內與外」的界線，對外部客戶需使用適當敬語。
+
+---
+
+**建立日期**: 2025-12-22
+**最後更新**: 2025-12-28
+**字數**: ~2800
+**例句數**: 5

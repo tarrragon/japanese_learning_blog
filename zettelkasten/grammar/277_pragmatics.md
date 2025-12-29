@@ -3,14 +3,14 @@ title: 語用論
 description: 語用學 - 研究語言在語境中的使用和理解
 type: grammar
 jlpt: n1
-stage: draft
+stage: extension-review
 tags:
   - grammar
   - linguistic_theory
   - context/academic
   - communication
 created: 2025-12-27
-updated: 2025-12-27
+updated: 2025-12-28
 
 # 版本歷史
 version_history:

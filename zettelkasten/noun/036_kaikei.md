@@ -3,7 +3,7 @@ title: 会計(かいけい)
 description: 會計、帳簿、會計部門
 type: noun
 jlpt: n3
-stage: draft
+stage: extension-review
 tags:
   - context/business
   - context/formal

@@ -1,7 +1,7 @@
 ---
 title: に vs から 起終點比較
 jlpt: n5
-stage: draft
+stage: extension-review
 tags:
   - 助詞
   - 方向

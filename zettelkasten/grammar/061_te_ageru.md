@@ -3,14 +3,14 @@ title: 〜てあげる
 description: 為他人做某事（給予者視角）
 type: grammar
 jlpt: n4
-stage: draft
+stage: extension-review
 tags:
   - context/casual
   - context/formal
   - domain/daily_life
   - domain/communication
 created: 2025-10-30
-updated: 2025-10-30
+updated: 2025-12-28
 
 # 版本歷史
 version_history:

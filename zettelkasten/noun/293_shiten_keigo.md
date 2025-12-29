@@ -13,7 +13,7 @@ tags:
 date_created: 2025-12-27
 date_modified: 2025-12-27
 status: draft
-stage: draft
+stage: extension-review
 version: 1.5.1
 version_history:
   - version: 1.5.1

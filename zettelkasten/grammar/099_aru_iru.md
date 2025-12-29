@@ -3,14 +3,14 @@ title: "ある/いる（存在表達）"
 description: 存在表達 - ある/いる的基本句型與用法
 type: grammar
 jlpt: n5
-stage: draft
+stage: extension-review
 tags:
   - existence
   - basic
   - sentence_pattern
   - jlpt/n5
 created: 2025-10-31
-updated: 2025-10-31
+updated: 2025-12-28
 
 # 版本歷史
 version_history:

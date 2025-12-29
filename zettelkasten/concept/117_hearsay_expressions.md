@@ -3,7 +3,7 @@ title: 伝聞表現（でんぶんひょうげん）
 description: 傳聞表達的概念和語法體系
 type: concept
 jlpt: concept
-stage: draft
+stage: extension-review
 tags:
   - domain/linguistics
   - context/formal

@@ -3,7 +3,7 @@ title: "税金"
 description: 税務制度與稅金相關概念的基礎知識
 type: concept
 jlpt: n2
-stage: draft
+stage: extension-review
 tags:
   - context/finance
   - domain/economics

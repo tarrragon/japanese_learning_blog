@@ -3,7 +3,7 @@ title: 尊敬語（そんけいご）
 description: 尊敬語概念 - 提高對方或第三者地位的敬語形式
 type: concept
 jlpt: n3
-stage: draft
+stage: extension-review
 tags:
   - domain/linguistics
   - domain/communication
@@ -15,7 +15,7 @@ updated: 2025-10-31
 # 版本歷史
 version_history:
   - version: "1.5.0"
-    stage: "draft"
+    stage: "extension-review"
     date: 2025-12-26
 
 # 內容驗證

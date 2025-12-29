@@ -3,13 +3,13 @@ title: 〜てください
 description: 〜てください是日文中禮貌請求的基本句型，用於請求對方做某事
 type: grammar
 jlpt: n5
-stage: draft
+stage: extension-review
 tags:
   - jlpt/n5
   - context/formal
   - domain/communication
 created: 2025-10-30
-updated: 2025-10-30
+updated: 2025-12-28
 
 # 版本歷史
 version_history:

@@ -3,14 +3,14 @@ title: "〜らしい"
 description: 表達推測、傳聞或典型特質的助動詞
 type: grammar
 jlpt: n4
-stage: draft
+stage: extension-review
 tags:
   - modal
   - grammar_pattern
   - context/daily_life
   - jlpt/n4
 created: 2025-11-03
-updated: 2025-11-03
+updated: 2025-12-28
 
 # 版本歷史
 version_history:

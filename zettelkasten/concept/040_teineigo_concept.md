@@ -3,7 +3,7 @@ title: 丁寧語（ていねいご）
 description: 日文敬語系統中的丁寧語概念
 type: concept
 jlpt: none
-stage: draft
+stage: extension-review
 tags:
   - context/formal
   - domain/linguistics

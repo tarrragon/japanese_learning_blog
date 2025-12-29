@@ -3,14 +3,14 @@ title: 連体修飾
 description: 連體修飾是指動詞、形容詞等修飾名詞的文法結構，是日文構造複雜句子的核心機制
 type: grammar
 jlpt: n4
-stage: draft
+stage: extension-review
 tags:
   - jlpt/n4
   - jlpt/n5
   - context/formal
   - domain/communication
 created: 2025-10-30
-updated: 2025-10-30
+updated: 2025-12-28
 
 # 版本歷史
 version_history:

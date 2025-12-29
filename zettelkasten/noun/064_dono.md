@@ -3,7 +3,7 @@ title: どの
 description: 哪個（連體詞，必須修飾名詞）
 type: noun
 jlpt: n5
-stage: draft
+stage: extension-review
 tags:
   - question
   - context/daily_life

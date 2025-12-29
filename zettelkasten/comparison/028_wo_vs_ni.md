@@ -3,7 +3,7 @@ title: を vs に
 description: を vs に 詳細比較 - 直接賓語與間接賓語的區別
 type: comparison
 jlpt: n5
-stage: draft
+stage: extension-review
 tags:
   - comparison
   - particle

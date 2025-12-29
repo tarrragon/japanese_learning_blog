@@ -3,7 +3,7 @@ title: "造語法"
 description: 日語造語法的基本概念與規則
 type: concept
 jlpt: none
-stage: draft
+stage: extension-review
 tags:
   - domain/linguistics
   - linguistic/linguistic_theory

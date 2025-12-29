@@ -3,7 +3,7 @@ title: "〜ました"
 description: ました形は丁寧体における過去・完了の表現形式で、礼儀正しく過去の出来事を述べる際に使用します
 type: grammar
 jlpt: n5
-stage: draft
+stage: extension-review
 tags:
   - jlpt/n5
   - verb_conjugation
@@ -11,7 +11,7 @@ tags:
   - past_tense
   - context/daily_life
 created: 2025-10-31
-updated: 2025-10-31
+updated: 2025-12-28
 
 # 版本歷史
 version_history:

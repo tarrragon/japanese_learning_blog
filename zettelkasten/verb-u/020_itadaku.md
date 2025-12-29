@@ -3,7 +3,7 @@ title: いただく
 description: いただく - 接受、收到（謙讓語）
 type: verb
 jlpt: n4
-stage: draft
+stage: extension-review
 tags:
   - context/formal
   - context/business

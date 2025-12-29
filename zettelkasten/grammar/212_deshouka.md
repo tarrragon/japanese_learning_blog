@@ -3,13 +3,13 @@ title: "～でしょうか"
 description: "詢問或確認的禮貌表現"
 type: grammar
 jlpt: n4
-stage: draft
+stage: extension-review
 tags:
   - question
   - polite
   - uncertainty
 created: 2025-12-26
-updated: 2025-12-26
+updated: 2025-12-28
 
 # 版本歷史
 version_history:

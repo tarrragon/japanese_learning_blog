@@ -1,7 +1,7 @@
 # Concept 索引
 
-最後編號：231
-總卡片數：271
+最後編號：276
+總卡片數：284
 
 ## 卡片列表
 
@@ -171,7 +171,8 @@
 - [120 - 学習者（學習者）- 語言學習領域核心概念](120_gakushuusha/) 
 - [121 - 日語名詞後綴的概念與用法](121_nominal_suffix/) 
 - [122 - 生產力，指投入與產出的效率比](122_productivity/) 
-- [123 - GDP](123_GDP/) 
+- [123 - "日本獨特的察言觀色文化，強調不需明說就能理解對方心意的溝通方式"](123_sassuru_bunka/) 
+- [123 - "表示二選一關係的接續詞"](123_moshikuwa/) 
 - [124 - アスペクト](124_aspect/) #grammar #verb #aspect
 - [125 - 自由貿易協定](125_jiyuuboekikyoutei/) 
 - [126 - ](126_keijoushuushi/) #economics #finance #trade
@@ -195,13 +196,13 @@
 - [144 - 金融機構，提供金融服務的機構](144_kinyuu_kikan/) 
 - [145 - 名目成長率](145_meimoku_seichouritsu/) 
 - [146 - 輸出入](146_yushutsunyuu/) 
-- [147 - ](147_hanashi_kaki_kotoba/) #language-style #formal-informal #communication
+- [147 - "口語與書面語的區別與使用場景"](147_hanashi_kaki_kotoba/) 
 - [148 - ](148_jouge_kankei/) #culture #society #keigo
 - [149 - 察言觀色、讀空氣的概念、日本文化中的社交智慧](149_kuuki_yomu/) 
 - [150 - 察する文化](150_sassuru_bunka/) 
 - [151 - ](151_shokuba_bunka/) #culture #workplace #business
 - [152 - 商務環境中敬語使用的等級體系和層次結構](152_bijinesu_keigo_kaidan/) 
-- [153 - 會話含意理論](153_conversational_implicature/) #語用論 #會話分析 #Grice理論
+- [153 - "會話含意理論 - Grice 語用學中的隱含意義理論"](153_conversational_implicature/) 
 - [154 - 言外の意](154_gengai_no_i/) 
 - [155 - 詞彙分級系統](155_goi_bunkyuu/) 
 - [156 - 時態](156_jisei/) #grammar #tense #verb
@@ -277,6 +278,18 @@
 - [229 - 股票，公司發行的所有權憑證](229_kabushiki/) 
 - [230 - "所得"](230_shotoku/) 
 - [231 - 政府的收入與支出管理，公共財務的經濟概念](231_zaisei/) 
+- [232 - "惡魔、魔鬼 - 宗教與文化中的邪惡存在概念"](232_akuma/) 
+- [232 - 尊敬語 - 透過提升對方來表達敬意的敬語形式](232_sonkeigo_concept/) 
+- [232 - "好、可以、不錯 - 日文最常用的形容詞之一"](232_ii/) 
+- [232 - "惡劣的、惡質的"](232_akushitsu/) 
+- [233 - "日本社會人際關係的內外區分理論"](233_uchi_soto_riron/) 
+- [234 - "選擇疑問的接續詞，用於連接兩個或以上的選項"](234_soretomo/) 
+- [236 - "言葉に直接表現されていない意味や含意"](236_gengai_no_i/) 
+- [237 - "日本語學習的階段性里程碑與目標設定"](237_gakushuu_milestone/) 
+- [237 - "日語語系的分類與特徵"](237_japanese_language_family/) 
+- [241 - "日文中表達事件時間先後順序的語法概念與表現方式"](241_jikan_no_junjosei/) 
+- [245 - 許可與禁止的表達方式](245_kyoka_kinshi_hyougen/) 
+- [276 - "日語謙讓語的核心概念與應用原則"](276_kenjougo_concept/) 
 
 ---
-最後更新: 2025-12-27 23:02:25
+最後更新: 2025-12-28 17:25:46

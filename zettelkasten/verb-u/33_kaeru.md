@@ -2,7 +2,7 @@
 title: "帰る（かえる）"
 type: verb
 jlpt: n5
-stage: draft
+stage: extension-review
 tags:
   - 移動
   - 日常

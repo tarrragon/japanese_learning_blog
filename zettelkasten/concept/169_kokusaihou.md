@@ -8,10 +8,10 @@ category: concept
 created_at: 2025-12-27
 updated_at: 2025-12-27
 status: draft
-stage: draft
+stage: extension-review
 version_history:
   - version: 1.5.1
-    stage: draft
+    stage: extension-review
     created_at: 2025-12-27
 content_verification:
   structure: complete

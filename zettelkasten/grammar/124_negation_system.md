@@ -3,14 +3,14 @@ title: 否定体系
 description: 否定系統整合 - 動詞、形容詞、名詞的否定表達完整體系
 type: grammar
 jlpt: n4
-stage: draft
+stage: extension-review
 tags:
   - grammar
   - negation
   - system
   - jlpt/n4
 created: 2025-11-03
-updated: 2025-11-03
+updated: 2025-12-28
 
 # 版本歷史
 version_history:

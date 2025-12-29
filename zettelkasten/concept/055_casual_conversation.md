@@ -2,7 +2,7 @@
 title: "日常会話"
 type: concept
 jlpt: n4
-stage: draft
+stage: extension-review
 created: 2025-12-26
 updated: 2025-12-26
 

@@ -3,7 +3,7 @@ title: 表現(ひょうげん)
 description: 表現：透過語言、文字、藝術等形式將思想或感情傳達給他人
 type: noun
 jlpt: n4
-stage: draft
+stage: extension-review
 tags:
   - domain/communication
   - domain/linguistics

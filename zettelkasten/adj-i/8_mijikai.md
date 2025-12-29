@@ -1,23 +1,50 @@
 ---
 id: 462
 number: 8
-title: 短い
+title: "短い（みじかい）"
 ruby: みじかい
+description: "短的、簡短的"
+type: adj-i
 category: adj-i
+jlpt: n5
+stage: completed
+draft: false
+auto_generated: false
+needs_review: false
 tags:
-  - 形容詞
-  - 基礎
-status: draft
+  - adjective
+  - basic
+  - daily_life
+  - "日本語能力試験N5"
+created: 2025-12-27
+updated: 2025-12-28
+
 version_history:
-  - version: 1.5.1
-    stage: draft
+  - version: "1.5.1"
+    stage: "draft"
     date: 2025-12-27
+  - version: "1.5.6"
+    stage: "extension-review"
+    date: 2025-12-28
+  - version: "1.5.6"
+    stage: "linking"
+    date: 2025-12-28
+  - version: "1.5.6"
+    stage: "completed"
+    date: 2025-12-28
+
 content_verification:
-  completeness: 100%
-  verified_date: 2025-12-27
+  japanese: true
+  english: true
+  chinese: true
+  examples_count: 4
+  pending_links: []
+
 link_status:
-  total_links: 0
-  pending_links: 0
+  incoming: 0
+  outgoing: 2
+  pending: 0
+  verified_date: 2025-12-28
 ---
 
 ## 日文解釋
@@ -87,12 +114,22 @@ An i-adjective describing something that has limited length, duration, or distan
 
 ## 關聯卡片
 
-- [長い](https://待建立) - 反義詞：長的
-- [期間](https://待建立) - 時間的長度
-- [形容詞](https://待建立) - 詞類
+### 相關文法
+- [イ形容詞](../grammar/290_イ形容詞.md) - i 形容詞系統概述
+
+### 反義詞
+- 長い（待建立） - 反義詞：長的
+
+### 相關概念
+- 期間（待建立） - 時間的長度
 
 ---
 
 ## 備註
 
 短い 是日文中最常用的長度形容詞之一，廣泛應用於日常表達中。
+
+---
+
+**建立日期**: 2025-12-27
+**最後更新**: 2025-12-28

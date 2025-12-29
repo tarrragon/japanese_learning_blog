@@ -3,7 +3,7 @@ title: 諦める
 description: 諦める - 放棄、接受現實（文化概念：理性地接受無法改變的事）
 type: verb
 jlpt: n3
-stage: draft
+stage: extension-review
 tags:
   - context/casual
   - context/formal

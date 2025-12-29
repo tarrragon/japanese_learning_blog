@@ -3,7 +3,7 @@ title: 〜てもらう vs 〜てくれる
 description: 〜てもらう vs 〜てくれる - 視角差異對比
 type: comparison
 jlpt: n4
-stage: draft
+stage: extension-review
 tags:
   - context/formal
   - context/casual

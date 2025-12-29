@@ -1,6 +1,6 @@
 ---
 title: "目的語"
-stage: draft
+stage: extension-review
 tags:
   - 文法
   - 統語論

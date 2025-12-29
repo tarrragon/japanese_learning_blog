@@ -2,13 +2,13 @@
 title: 主節
 description: 複文構造中獨立表達完整意思的主要子句
 type: linguistics
-stage: draft
+stage: extension-review
 tags:
   - context/formal
   - context/casual
   - jlpt/n3
 created: 2025-12-27
-updated: 2025-12-27
+updated: 2025-12-28
 
 # 版本歷史
 version_history:

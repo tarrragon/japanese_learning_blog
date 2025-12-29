@@ -3,13 +3,13 @@ title: "〜ておく"
 description: 表示事先準備或保持狀態的文法句型
 type: grammar
 jlpt: n4
-stage: draft
+stage: extension-review
 tags:
   - te-form
   - preparation
   - grammar_pattern
 created: 2025-10-31
-updated: 2025-10-31
+updated: 2025-12-28
 
 # 版本歷史
 version_history:

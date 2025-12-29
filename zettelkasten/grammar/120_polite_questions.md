@@ -3,14 +3,14 @@ title: "丁寧な質問（ていねいなしつもん）"
 description: 丁寧な質問 - 禮貌提問的語法結構和使用方式
 type: grammar
 jlpt: n4
-stage: draft
+stage: extension-review
 tags:
   - context/formal
   - context/business
   - question
   - context/social
 created: 2025-11-03
-updated: 2025-11-03
+updated: 2025-12-28
 
 # 版本歷史
 version_history:

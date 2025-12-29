@@ -2,14 +2,14 @@
 title: 日常会話
 description: 日常生活中使用的基本對話模式和表達方式
 type: grammar
-stage: draft
+stage: extension-review
 tags:
   - context/casual
   - context/formal
   - jlpt/n5
   - jlpt/n4
 created: 2025-12-27
-updated: 2025-12-27
+updated: 2025-12-28
 
 # 版本歷史
 version_history:

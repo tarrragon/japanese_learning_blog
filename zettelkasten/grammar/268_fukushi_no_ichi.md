@@ -2,14 +2,14 @@
 title: 副詞的位置
 description: 日文副詞在句子中的放置規則與語順變化
 type: linguistics
-stage: draft
+stage: extension-review
 card_id: 359
 tags:
   - context/formal
   - context/casual
   - jlpt/n4
 created: 2025-12-27
-updated: 2025-12-27
+updated: 2025-12-28
 
 # 版本歷史
 version_history:

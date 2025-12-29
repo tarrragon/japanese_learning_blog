@@ -3,14 +3,14 @@ title: 義務表達
 description: 義務表達 - 日文中表達必須、應該、不得不等義務的文法系統
 type: grammar
 jlpt: n4
-stage: draft
+stage: extension-review
 tags:
   - obligation
   - modal
   - grammar_pattern
   - context/formal
 created: 2025-12-27
-updated: 2025-12-27
+updated: 2025-12-28
 
 # 版本歷史
 version_history:

@@ -1,7 +1,7 @@
 # Grammar 索引
 
-最後編號：328
-總卡片數：326
+最後編號：343
+總卡片數：331
 
 ## 卡片列表
 
@@ -296,6 +296,10 @@
 - [288 - 言葉の微妙な意味合いや雰囲気の違いを理解する概念](288_nuance/) 
 - [289 - "までにと動詞の組み合わせ"](289_madeni_doushi_kumiawase/) 
 - [290 - 終助詞](290_shuujoshi/) #particle #sentence-ending #emotion
+- [290 - 日語イ形容詞（い形容詞）的完整體系介紹](290_i_keiyoushi_souran/) 
+- [290 - "表示移動方向的助詞に、へ、を的用法與區別"](290_houkou_wo_arawasu_joshi/) 
+- [290 - "日語文法體系的整體架構與分類"](290_文法體系/) 
+- [290 - "學習相關動詞的用法與區別"](290_gakushuu_kanren_doushi/) 
 - [291 - ](291_daga/) #接續詞 #書面語 #逆接
 - [292 - 状態動詞](292_joutai_doushi/) 
 - [293 - けど](293_kedo/) #grammar #conjunction #particle
@@ -317,9 +321,8 @@
 - [309 - ](309_shimau_usage/) 
 - [310 - ](310_shizen_hyougen/) 
 - [311 - ](311_shuujoshi_youhou/) #"particles" #"sentence-ending" #"nuance"
-- [312 - て形文法](312_tekei_bunpou/) #文法基礎 #動詞活用 #て形
 - [313 - ](313_bunpou_taikei/) #文法 #體系 #系統架構
-- [314 - 光の表現](314_hikari_hyougen/) #onomatopoeia #light #visual-description
+- [314 - "光的擬態詞與表現方式"](314_hikari_hyougen/) 
 - [315 - 補助動詞](315_hojo_doushi/) #auxiliary-verb #verb-combination #te-form
 - [316 - 副詞の否定用法 - 副詞を使った否定表現](316_fukushi_hitei/) 
 - [317 - 大変の多義用法](317_taihen_usage/) #adjective #adverb #polysemy
@@ -332,6 +335,8 @@
 - [326 - 大変の多義用法](326_taihen/) 
 - [327 - 副詞の否定用法 - 副詞と否定形の組み合わせパターン](327_fukushi_hitei/) 
 - [328 - 逆接接續詞的類型和使用場合](328_gyakusetsu_setsuzokushi/) 
+- [329 - "サ變動詞的形成與用法"](329_doushi_suru/) 
+- [343 - "日文形容詞的活用變化系統"](343_keiyoushi_katsuyou/) 
 
 ---
-最後更新: 2025-12-27 23:03:12
+最後更新: 2025-12-28 17:25:16

@@ -3,7 +3,7 @@ title: 隣（となり）
 description: 旁邊、隔壁、鄰近的地方
 type: noun
 jlpt: n5
-stage: draft
+stage: extension-review
 tags:
   - context/daily_life
   - domain/daily_life

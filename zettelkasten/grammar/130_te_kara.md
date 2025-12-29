@@ -3,13 +3,13 @@ title: 〜てから
 description: 表示「做完...之後」的時間順序文法
 type: grammar
 jlpt: n5
-stage: draft
+stage: extension-review
 tags:
   - time_expression
   - sequence
   - daily_life
 created: 2025-11-03
-updated: 2025-11-03
+updated: 2025-12-28
 
 # 版本歷史
 version_history:

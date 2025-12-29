@@ -3,7 +3,7 @@ title: "お/ご〜になる"
 description: お/ご～になる - 尊敬語形成模式
 type: grammar
 jlpt: n4
-stage: draft
+stage: extension-review
 tags:
   - jlpt/n4
   - honorific
@@ -11,7 +11,7 @@ tags:
   - keigo
   - pattern
 created: 2025-10-29
-updated: 2025-10-29
+updated: 2025-12-28
 
 # 版本歷史
 version_history:

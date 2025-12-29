@@ -3,7 +3,7 @@ title: 方法（ほうほう）
 description: 方法、做事的方式或手段
 type: noun
 jlpt: n4
-stage: draft
+stage: extension-review
 tags:
   - context/daily_life
   - domain/learning

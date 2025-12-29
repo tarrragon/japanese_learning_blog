@@ -3,7 +3,7 @@ title: 述語
 description: 日語句子結構中的述語概念 - 語言學核心理論
 type: concept
 jlpt: concept
-stage: draft
+stage: extension-review
 tags:
   - domain/linguistics
   - domain/communication

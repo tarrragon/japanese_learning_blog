@@ -3,14 +3,14 @@ title: 〜ざるを得ない
 description: 〜ざるを得ない - 不得不、只好
 type: grammar
 jlpt: n3
-stage: draft
+stage: extension-review
 tags:
   - obligation
   - necessity
   - grammar_pattern
   - context/formal
 created: 2025-12-17
-updated: 2025-12-17
+updated: 2025-12-28
 
 # 版本歷史
 version_history:

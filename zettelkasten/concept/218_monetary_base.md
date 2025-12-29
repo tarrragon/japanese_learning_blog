@@ -4,7 +4,7 @@ title: "マネタリーベース"
 description: "貨幣基數，中央銀行發行的貨幣總量"
 type: concept
 jlpt: n2
-stage: draft
+stage: extension-review
 tags:
   - domain/economics
   - domain/monetary_policy

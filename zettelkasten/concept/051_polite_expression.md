@@ -3,7 +3,7 @@ title: "丁寧表現"
 description: 日文禮貌表達的整體概念，涵蓋丁寧語、敬語和謙讓語
 type: concept
 jlpt: none
-stage: draft
+stage: extension-review
 tags:
   - context/formal
   - domain/communication

@@ -3,7 +3,7 @@ title: "礼儀正しさ（れいぎただしさ）"
 description: "禮貌作為語用策略的概念"
 type: concept
 jlpt: n3
-stage: draft
+stage: extension-review
 tags:
   - pragmatics
   - social_context

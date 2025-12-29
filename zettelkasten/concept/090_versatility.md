@@ -3,7 +3,7 @@ title: "多機能性（たきのうせい）"
 description: "語言單位的多功能性概念"
 type: concept
 jlpt: none
-stage: draft
+stage: extension-review
 tags:
   - linguistics
   - grammar_concept

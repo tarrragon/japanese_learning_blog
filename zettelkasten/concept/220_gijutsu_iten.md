@@ -4,7 +4,7 @@ title: "技術移転（ぎじゅついてん）"
 description: "技術轉移，技術的跨國或跨組織轉移"
 type: concept
 jlpt: n2
-stage: draft
+stage: extension-review
 tags:
   - domain/business
   - domain/technology

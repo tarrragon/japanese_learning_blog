@@ -1,13 +1,13 @@
 ---
 title: 列舉表達
-stage: draft
+stage: extension-review
 tags:
   - grammar
   - sentence-patterns
   - enumeration
   - N4
 created: 2025-12-26
-updated: 2025-12-26
+updated: 2025-12-28
 
 # 版本歷史
 version_history:

@@ -3,7 +3,7 @@ id: 123
 card_type: concept
 created_date: 2025-12-27
 updated_date: 2025-12-27
-status: draft
+status: extension-review
 priority: normal
 tags:
   - economics

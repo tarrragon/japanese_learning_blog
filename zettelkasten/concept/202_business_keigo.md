@@ -4,13 +4,13 @@ description: 商務敬語的階梯理論
 type: concept
 subtype: keigo
 jlpt: n2
-stage: draft
+stage: extension-review
 tags:
   - keigo
   - business
   - formal
 created: 2025-12-27
-updated: 2025-12-27
+updated: 2025-12-28
 
 # 版本歷史
 version_history:

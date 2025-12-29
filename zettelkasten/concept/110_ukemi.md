@@ -1,7 +1,7 @@
 ---
 title: 受身（うけみ）
 description: 日文被動形的文法概念與用法
-stage: draft
+stage: extension-review
 tags:
   - context/formal
   - context/daily

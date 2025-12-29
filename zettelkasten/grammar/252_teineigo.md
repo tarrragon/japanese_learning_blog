@@ -3,7 +3,7 @@ title: "丁寧語"
 description: 丁寧語 - 聞き手に対する礼儀正しさを示す敬語の基本形式
 type: grammar
 jlpt: n5
-stage: draft
+stage: extension-review
 tags:
   - grammar
   - keigo
@@ -11,7 +11,7 @@ tags:
   - polite
   - desu-masu
 created: 2025-12-27
-updated: 2025-12-27
+updated: 2025-12-28
 
 # 版本歷史
 version_history:

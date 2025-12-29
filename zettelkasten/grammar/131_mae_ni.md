@@ -3,13 +3,13 @@ title: "〜前に（まえに）"
 description: 表示某動作或事件發生之前的時間點
 type: grammar
 jlpt: n5
-stage: draft
+stage: extension-review
 tags:
   - context/daily_life
   - domain/communication
   - jlpt/n5
 created: 2025-11-03
-updated: 2025-11-03
+updated: 2025-12-28
 
 # 版本歷史
 version_history:

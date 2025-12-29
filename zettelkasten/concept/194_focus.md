@@ -3,7 +3,7 @@ title: 焦点（フォーカス）
 description: 語言學中透過助詞和語序標示的資訊焦點概念
 type: concept
 jlpt: n3
-stage: draft
+stage: extension-review
 tags:
   - domain/linguistics
   - domain/information_structure
@@ -15,7 +15,7 @@ updated: 2025-12-27
 # 版本歷史
 version_history:
   - version: "1.5.4"
-    stage: "draft"
+    stage: "extension-review"
     date: 2025-12-27
 
 # 內容驗證

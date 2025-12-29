@@ -3,7 +3,7 @@ title: いくつ
 description: 幾個、多少個、幾歲（疑問詞）
 type: noun
 jlpt: n5
-stage: draft
+stage: extension-review
 tags:
   - question
   - context/daily_life

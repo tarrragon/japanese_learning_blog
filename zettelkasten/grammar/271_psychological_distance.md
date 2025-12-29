@@ -2,13 +2,13 @@
 title: 心理的距離
 description: 話者と聞き手・事物との心理的な隔たりを表す言語概念
 type: linguistics
-stage: draft
+stage: extension-review
 tags:
   - context/formal
   - context/casual
   - jlpt/n3
 created: 2025-12-27
-updated: 2025-12-27
+updated: 2025-12-28
 
 # 版本歷史
 version_history:

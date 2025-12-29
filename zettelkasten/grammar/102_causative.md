@@ -3,14 +3,14 @@ title: "使役形（しえきけい）"
 description: 使役形 - 表示讓某人做某事或給予許可的文法形式
 type: grammar
 jlpt: n4
-stage: draft
+stage: extension-review
 tags:
   - causative
   - verb_conjugation
   - context/formal
   - grammar_pattern
 created: 2025-10-31
-updated: 2025-10-31
+updated: 2025-12-28
 
 # 版本歷史
 version_history:

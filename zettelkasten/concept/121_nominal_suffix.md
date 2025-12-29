@@ -3,7 +3,7 @@ title: "名詞後綴"
 description: 日語名詞後綴的概念與用法
 type: concept
 jlpt: N3
-stage: draft
+stage: extension-review
 tags:
   - domain/linguistics
   - linguistic/morphology

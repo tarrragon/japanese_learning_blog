@@ -3,14 +3,14 @@ title: "〜たばかり"
 description: 表示動作剛剛完成，強調時間的接近性
 type: grammar
 jlpt: n3
-stage: draft
+stage: extension-review
 tags:
   - te-form
   - time_expression
   - grammar_pattern
   - context/daily_life
 created: 2025-10-31
-updated: 2025-10-31
+updated: 2025-12-28
 
 # 版本歷史
 version_history:

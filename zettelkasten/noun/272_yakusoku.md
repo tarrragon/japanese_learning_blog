@@ -2,7 +2,7 @@
 title: 約束（やくそく）
 description: 約束、承諾、約定
 jlpt: N4
-stage: draft
+stage: extension-review
 tags:
   - context/formal
   - context/daily

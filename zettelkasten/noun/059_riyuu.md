@@ -3,7 +3,7 @@ title: 理由（りゆう）
 description: 理由、原因
 type: noun
 jlpt: n4
-stage: draft
+stage: extension-review
 tags:
   - context/daily_life
   - domain/cognition

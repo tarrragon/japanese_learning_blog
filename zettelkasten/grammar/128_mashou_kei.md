@@ -3,7 +3,7 @@ title: ましょう形
 description: ましょう形（意向形丁寧體）- 動詞活用形式的基礎
 type: grammar
 jlpt: n5
-stage: draft
+stage: extension-review
 tags:
   - grammar
   - conjugation
@@ -11,7 +11,7 @@ tags:
   - invitation
   - volitional
 created: 2025-11-03
-updated: 2025-11-03
+updated: 2025-12-28
 
 # 版本歷史
 version_history:

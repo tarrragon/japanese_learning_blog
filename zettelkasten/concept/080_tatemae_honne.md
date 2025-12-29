@@ -1,7 +1,7 @@
 ---
 title: 建前と本音（たてまえとほんね）
 description: 日本文化中表面話語與真實心意的概念
-stage: draft
+stage: extension-review
 tags:
   - context/formal
   - context/culture

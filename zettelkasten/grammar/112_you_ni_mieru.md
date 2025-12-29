@@ -3,13 +3,13 @@ title: "〜ように見える"
 description: 表達「看起來...」的判斷文法
 type: grammar
 jlpt: n4
-stage: draft
+stage: extension-review
 tags:
   - context/daily_life
   - domain/perception
   - jlpt/n4
 created: 2025-11-03
-updated: 2025-11-03
+updated: 2025-12-28
 
 # 版本歷史
 version_history:

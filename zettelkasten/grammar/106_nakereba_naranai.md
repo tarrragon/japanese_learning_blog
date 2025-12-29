@@ -3,14 +3,14 @@ title: "〜なければならない"
 description: 表示義務和必須性的文法句型
 type: grammar
 jlpt: n4
-stage: draft
+stage: extension-review
 tags:
   - grammar_pattern
   - modal
   - conditional
   - context/formal
 created: 2025-10-31
-updated: 2025-10-31
+updated: 2025-12-28
 
 # 版本歷史
 version_history:

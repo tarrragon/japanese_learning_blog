@@ -3,13 +3,13 @@ title: "〜たことがある"
 description: 經驗表達（曾經做過某事）
 type: grammar
 jlpt: n4
-stage: draft
+stage: extension-review
 tags:
   - context/casual
   - context/formal
   - domain/communication
 created: 2025-10-31
-updated: 2025-10-31
+updated: 2025-12-28
 
 # 版本歷史
 version_history:

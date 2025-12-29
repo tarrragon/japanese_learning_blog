@@ -3,7 +3,7 @@ title: "助詞システム（じょしシステム）"
 description: "日文助詞系統的整體架構與分類"
 type: concept
 jlpt: none
-stage: draft
+stage: extension-review
 tags:
   - grammar_system
   - particles

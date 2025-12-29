@@ -1,7 +1,7 @@
 ---
 title: 文法句型（ぶんぽうこうもく）
 description: 日語文法句型的系統性概念
-stage: draft
+stage: extension-review
 tags:
   - context/academic
   - domain/linguistics

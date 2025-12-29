@@ -3,7 +3,7 @@ title: "感情・欲望"
 description: 感情與欲望表達 - 日文中情感和欲望的語言學表現
 type: concept
 jlpt: concept
-stage: draft
+stage: extension-review
 tags:
   - domain/linguistics
   - domain/cognition

@@ -3,7 +3,7 @@ title: "明確同意（めいかくどうい）"
 description: 表達明確同意的文法表現與用語
 type: grammar
 jlpt: n4
-stage: draft
+stage: extension-review
 tags:
   - context/formal
   - context/casual
@@ -11,7 +11,7 @@ tags:
   - function/agreement
   - jlpt/n4
 created: 2025-12-27
-updated: 2025-12-27
+updated: 2025-12-28
 
 # 版本歷史
 version_history:

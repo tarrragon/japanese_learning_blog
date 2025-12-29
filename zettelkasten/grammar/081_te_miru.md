@@ -3,7 +3,7 @@ title: "〜てみる"
 description: 表示嘗試做某事的文法形式
 type: grammar
 jlpt: n4
-stage: draft
+stage: extension-review
 tags:
   - grammar
   - auxiliary_verb
@@ -11,7 +11,7 @@ tags:
   - experiential
   - jlpt/n4
 created: 2025-10-31
-updated: 2025-10-31
+updated: 2025-12-28
 
 # 版本歷史
 version_history:

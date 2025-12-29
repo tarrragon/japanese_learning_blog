@@ -3,7 +3,7 @@ title: あげる vs くれる
 description: あげる vs くれる - 授受動詞方向性對比
 type: comparison
 jlpt: n4
-stage: draft
+stage: extension-review
 tags:
   - comparison
   - 授受表現

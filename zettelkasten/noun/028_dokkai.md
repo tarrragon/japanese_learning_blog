@@ -3,7 +3,7 @@ title: 読解(どっかい)
 description: 閱讀理解，指理解文章內容的能力
 type: noun
 jlpt: n3
-stage: draft
+stage: extension-review
 tags:
   - domain/learning
   - domain/linguistics

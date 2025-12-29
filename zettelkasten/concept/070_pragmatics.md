@@ -3,7 +3,7 @@ title: "語用論（ごようろん）"
 description: "語言使用情境與意義解釋的研究領域"
 type: concept
 jlpt: none
-stage: draft
+stage: extension-review
 tags:
   - linguistics
   - language_theory

@@ -4,7 +4,7 @@ title: "為替レート（かわせレート）"
 description: "匯率，貨幣之間的兌換比率"
 type: concept
 jlpt: n3
-stage: draft
+stage: extension-review
 tags:
   - domain/finance
   - domain/international

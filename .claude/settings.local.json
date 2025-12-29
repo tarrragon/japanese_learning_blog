@@ -24,7 +24,15 @@
       "Bash(bun build:*)",
       "Bash(claude plugin:*)",
       "Bash(gh:*)",
-      "Bash(curl:*)"
+      "Bash(curl:*)",
+      "Bash(# 查看新卡片的版本歷史 for f in zettelkasten/concept/232_akka.md zettelkasten/concept/248_kahen_katsuyou.md zettelkasten/noun/310_aisatsu.md zettelkasten/grammar/329_doushi_suru.md; do echo \"\"=== $f ===\"\" grep -A5 \"\"version_history:\"\" \"\"$f\"\")",
+      "Bash(done)",
+      "Bash(# 獲取前 20 張 draft 卡片的路徑 uv run scripts/stage_dashboard.py --stage draft --limit 20 --format json)",
+      "Bash(# 獲取下一批 20 張 draft 卡片 uv run scripts/stage_dashboard.py --stage draft --limit 20 --format json)",
+      "Bash(# 獲取下一批 30 張 draft 卡片 uv run scripts/stage_dashboard.py --stage draft --limit 30 --format json)",
+      "Bash(# 獲取下一批 30 張 draft 卡片路徑 uv run scripts/stage_dashboard.py --stage draft --limit 30 --format json)",
+      "Bash(# 獲取第 21-50 張 draft 卡片 uv run scripts/stage_dashboard.py --stage draft --limit 50 --format json)",
+      "Bash(xargs -I {} sh -c 'echo \"\"=== File: {} ===\"\" && head -30 {}')"
     ],
     "deny": [],
     "ask": []

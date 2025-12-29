@@ -3,7 +3,7 @@ title: 財務人員（ざいむじんいん）
 description: 財務人員、財務專業人士，指負責企業或組織財務管理和會計工作的專業人員
 type: noun
 jlpt: n1
-stage: draft
+stage: extension-review
 tags:
   - context/business
   - context/formal

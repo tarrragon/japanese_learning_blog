@@ -3,13 +3,13 @@ title: "たら条件形（たらじょうけんけい）"
 description: たら条件形，表示假定條件或時間順序
 type: grammar
 jlpt: n4
-stage: draft
+stage: extension-review
 tags:
   - context/daily_life
   - domain/communication
   - jlpt/n4
 created: 2025-10-31
-updated: 2025-10-31
+updated: 2025-12-28
 
 # 版本歷史
 version_history:

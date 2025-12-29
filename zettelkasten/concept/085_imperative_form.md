@@ -3,7 +3,7 @@ title: 命令形（めいれいけい）
 description: 動詞的命令形態，用於表達命令、指示或強烈要求
 type: concept
 jlpt: n4
-stage: draft
+stage: extension-review
 tags:
   - grammar_structure
   - verb_conjugation

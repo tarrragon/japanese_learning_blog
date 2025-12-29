@@ -3,13 +3,13 @@ title: "ので"
 description: "表示原因、理由的接續助詞，較から委婉、客觀，常用於正式場合"
 type: grammar
 jlpt: n4
-stage: draft
+stage: extension-review
 tags:
   - cause_reason
   - conjunction
   - formal_expression
 created: 2025-12-26
-updated: 2025-12-26
+updated: 2025-12-28
 
 # 版本歷史
 version_history:

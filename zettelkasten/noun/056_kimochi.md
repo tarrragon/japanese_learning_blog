@@ -3,7 +3,7 @@ title: "気持ち（きもち）"
 description: 感受、心情、情緒
 type: noun
 jlpt: n4
-stage: draft
+stage: extension-review
 tags:
   - context/daily_life
   - domain/perception

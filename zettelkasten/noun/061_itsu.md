@@ -3,7 +3,7 @@ title: いつ
 description: 疑問詞，詢問時間「何時、什麼時候」
 type: noun
 jlpt: n5
-stage: draft
+stage: extension-review
 tags:
   - question_form
   - time

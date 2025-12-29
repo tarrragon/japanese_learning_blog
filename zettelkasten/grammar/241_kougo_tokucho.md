@@ -3,12 +3,12 @@ title: "口語特徵（こうごとくちょう）"
 description: 日語口語表達的特點與書面語的差異
 type: grammar
 jlpt: n3
-stage: draft
+stage: extension-review
 tags:
   - context/daily_life
   - domain/linguistics
 created: 2025-12-27
-updated: 2025-12-27
+updated: 2025-12-28
 
 # 版本歷史
 version_history:

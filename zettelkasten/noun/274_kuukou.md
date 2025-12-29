@@ -3,7 +3,7 @@ title: 空港（くうこう）
 description: 機場，航空交通的樞紐設施
 type: noun
 jlpt: n5
-stage: draft
+stage: extension-review
 tags:
   - context/formal
   - domain/travel

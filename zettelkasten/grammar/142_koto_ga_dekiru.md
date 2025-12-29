@@ -2,13 +2,13 @@
 title: "～ことができる"
 type: grammar
 jlpt: n4
-stage: draft
+stage: extension-review
 tags:
   - 可能表現
   - 動詞変換
   - 文法パターン
 created: 2025-12-24
-updated: 2025-12-24
+updated: 2025-12-28
 
 # 版本歷史
 version_history:

@@ -3,13 +3,13 @@ title: "連体修飾"
 description: 連體修飾的進階運用與實際應用
 type: grammar
 jlpt: n5
-stage: draft
+stage: extension-review
 tags:
   - jlpt/n5
   - context/formal
   - domain/linguistics
 created: 2025-10-31
-updated: 2025-10-31
+updated: 2025-12-28
 
 # 版本歷史
 version_history:

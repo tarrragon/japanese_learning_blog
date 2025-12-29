@@ -2,14 +2,14 @@
 title: "お/ご～する"
 type: grammar
 jlpt: n3
-stage: draft
+stage: extension-review
 tags:
   - 敬語
   - 謙讓語
   - honorific
   - humble_speech
 created: 2025-12-24
-updated: 2025-12-26
+updated: 2025-12-28
 
 # 版本歷史
 version_history:

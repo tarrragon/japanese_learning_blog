@@ -4,7 +4,7 @@ version: 1.5.1
 title: 母語干擾
 kana: ぼごかんしょう
 category: noun
-stage: draft
+stage: extension-review
 tags:
   - linguistics
   - language-learning

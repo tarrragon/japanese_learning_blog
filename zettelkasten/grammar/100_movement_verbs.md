@@ -3,13 +3,13 @@ title: "移動動詞とを助詞の特殊用法"
 description: 移動動詞與を助詞的特殊用法：表示經過路徑、離開起點
 type: grammar
 jlpt: n4
-stage: draft
+stage: extension-review
 tags:
   - jlpt/n4
   - context/daily_life
   - context/formal
 created: 2025-10-31
-updated: 2025-10-31
+updated: 2025-12-28
 
 # 版本歷史
 version_history:

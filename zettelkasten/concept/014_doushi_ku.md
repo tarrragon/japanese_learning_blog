@@ -3,7 +3,7 @@ title: 動詞句（どうしく）
 description: 日語句子結構的核心類型，以動詞為謂語的句子或片語
 type: concept
 jlpt: concept
-stage: draft
+stage: extension-review
 tags:
   - concept
   - sentence_structure

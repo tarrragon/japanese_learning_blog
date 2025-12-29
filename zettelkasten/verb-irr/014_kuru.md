@@ -3,7 +3,7 @@ title: "来る（くる）"
 description: "カ行変格活用動詞。話し手や特定の場所に向かって移動することを表す。「行く」と対比される基本的な移動動詞。"
 type: verb
 jlpt: n5
-stage: draft
+stage: extension-review
 tags:
   - motion
   - basic

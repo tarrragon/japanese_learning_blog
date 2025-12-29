@@ -3,7 +3,7 @@ id: 130
 title: 電子マネー
 category: concept
 tags: [technology, money, modern-life]
-stage: draft
+stage: extension-review
 version_history:
   - version: 1.5.1
     date: 2025-12-27

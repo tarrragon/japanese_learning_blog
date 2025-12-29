@@ -3,7 +3,7 @@ title: 作文(さくぶん)
 description: 作文（文章創作、寫作作業）
 type: noun
 jlpt: n3
-stage: draft
+stage: extension-review
 tags:
   - domain/learning
   - domain/education

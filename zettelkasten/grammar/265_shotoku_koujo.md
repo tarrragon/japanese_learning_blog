@@ -3,14 +3,14 @@ id: 272
 title: 所得控除
 description: 課税所得から差し引かれる金額項目の総称
 type: economics
-stage: draft
+stage: extension-review
 tags:
   - context/formal
   - domain/tax
   - domain/finance
   - jlpt/n1
 created: 2025-12-27
-updated: 2025-12-27
+updated: 2025-12-28
 
 # 版本歷史
 version_history:

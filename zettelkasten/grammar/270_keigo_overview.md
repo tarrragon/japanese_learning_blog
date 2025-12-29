@@ -3,7 +3,7 @@ title: "敬語概述"
 description: 敬語概述 - 日語敬語的基本概念與分類入門
 type: grammar
 jlpt: n4
-stage: draft
+stage: extension-review
 tags:
   - grammar
   - keigo
@@ -11,7 +11,7 @@ tags:
   - pragmatics
   - overview
 created: 2025-12-27
-updated: 2025-12-27
+updated: 2025-12-28
 
 # 版本歷史
 version_history:

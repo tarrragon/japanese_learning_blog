@@ -3,7 +3,7 @@ title: 生命性（せいめいせい）
 description: 生命性（有生性）- 語言學中區分有生命與無生命實體的概念
 type: concept
 jlpt: concept
-stage: draft
+stage: extension-review
 tags:
   - domain/linguistics
   - domain/cognition

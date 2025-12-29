@@ -3,13 +3,13 @@ title: 〜ましょうか
 description: 表示提議、建議或邀請的文法句型
 type: grammar
 jlpt: n5
-stage: draft
+stage: extension-review
 tags:
   - context/daily_life
   - context/social
   - invitation
 created: 2025-11-03
-updated: 2025-11-03
+updated: 2025-12-28
 
 # 版本歷史
 version_history:

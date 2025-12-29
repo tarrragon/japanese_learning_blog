@@ -3,7 +3,7 @@ title: "〜ません"
 description: ます形的現在否定形式，用於禮貌地表達不做某事
 type: grammar
 jlpt: n5
-stage: draft
+stage: extension-review
 tags:
   - jlpt/n5
   - verb_conjugation
@@ -11,7 +11,7 @@ tags:
   - negation
   - basic
 created: 2025-10-31
-updated: 2025-10-31
+updated: 2025-12-28
 
 # 版本歷史
 version_history:

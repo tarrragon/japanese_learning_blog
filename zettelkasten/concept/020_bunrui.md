@@ -3,7 +3,7 @@ title: 分類（ぶんるい）
 description: 分類系統的概念與應用
 type: concept
 jlpt: none
-stage: draft
+stage: extension-review
 tags:
   - domain/cognition
   - domain/linguistics

@@ -3,7 +3,7 @@ title: 学習者
 description: 学習者（學習者）- 語言學習領域核心概念
 type: concept
 jlpt: n3
-stage: draft
+stage: extension-review
 tags:
   - domain/linguistics
   - domain/learning_theory

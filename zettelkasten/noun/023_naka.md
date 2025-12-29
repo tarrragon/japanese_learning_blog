@@ -3,7 +3,7 @@ title: 中（なか）
 description: 中間、裡面
 type: noun
 jlpt: n5
-stage: draft
+stage: extension-review
 tags:
   - domain/location
   - concept/position

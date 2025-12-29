@@ -2,7 +2,7 @@
 title: "後で vs てから"
 type: comparison
 jlpt: 4
-stage: draft
+stage: extension-review
 tags:
   - "time"
   - "sequence"
@@ -13,7 +13,7 @@ updated: 2025-12-26
 # 版本歷史
 version_history:
   - version: "1.5.0"
-    stage: "draft"
+    stage: "extension-review"
     date: 2025-12-26
 
 # 內容驗證

@@ -3,14 +3,14 @@ title: "引用表現（いんようひょうげん）"
 description: 引用表達的文法模式
 type: grammar
 jlpt: n4
-stage: draft
+stage: extension-review
 tags:
   - context/formal
   - context/casual
   - domain/communication
   - jlpt/n4
 created: 2025-10-31
-updated: 2025-10-31
+updated: 2025-12-28
 
 # 版本歷史
 version_history:
