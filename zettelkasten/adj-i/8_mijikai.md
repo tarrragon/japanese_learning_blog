@@ -18,7 +18,6 @@ tags:
   - "日本語能力試験N5"
 created: 2025-12-27
 updated: 2025-12-28
-
 version_history:
   - version: "1.5.1"
     stage: "draft"
@@ -32,14 +31,12 @@ version_history:
   - version: "1.5.6"
     stage: "completed"
     date: 2025-12-28
-
 content_verification:
   japanese: true
   english: true
   chinese: true
   examples_count: 4
   pending_links: []
-
 link_status:
   incoming: 0
   outgoing: 2

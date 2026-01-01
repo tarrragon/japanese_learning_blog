@@ -12,12 +12,10 @@ tags:
   - formal
 created: 2025-12-28
 updated: 2025-12-28
-
 version_history:
   - version: "1.5.6"
     stage: "pending"
     date: 2025-12-28
-
 content_verification:
   japanese: true
   english: true
@@ -30,7 +28,6 @@ content_verification:
     - "concept/jlpt_vocabulary.md"
     - "concept/gakushuu_houhou.md"
     - "concept/corpus_linguistics.md"
-
 link_status:
   incoming: 0
   outgoing: 2

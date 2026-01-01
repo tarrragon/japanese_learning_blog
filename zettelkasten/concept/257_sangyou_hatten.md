@@ -23,7 +23,6 @@ dictionary:
   lookup_date: "2025-12-28"
 created: "2025-12-28"
 updated: "2025-12-28"
-
 version_history:
   - version: "1.5.0"
     stage: "pending"
@@ -31,7 +30,6 @@ version_history:
   - version: "1.5.9"
     stage: "extension-review"
     date: "2025-12-29"
-
 content_verification:
   japanese: true
   english: true
@@ -46,7 +44,6 @@ content_verification:
     - "noun/経済"
     - "concept/ビジネス日本語"
     - "concept/経済ニュース"
-
 link_status:
   incoming: 0
   outgoing: 1

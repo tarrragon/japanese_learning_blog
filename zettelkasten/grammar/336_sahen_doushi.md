@@ -14,12 +14,10 @@ tags:
   - する動詞
 created: 2025-12-28
 updated: 2025-12-28
-
 version_history:
   - version: "1.5.6"
     stage: "pending"
     date: 2025-12-28
-
 content_verification:
   japanese: true
   english: true
@@ -31,7 +29,6 @@ content_verification:
     - grammar/003_kahen_doushi.md
     - grammar/004_fukugou_doushi.md
     - grammar/005_keigo_hyougen.md
-
 link_status:
   incoming: 0
   outgoing: 0

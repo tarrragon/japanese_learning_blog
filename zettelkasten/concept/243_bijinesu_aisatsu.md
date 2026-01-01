@@ -24,22 +24,16 @@ dictionary:
   lookup_date: 2025-12-28
 created: 2025-12-28
 updated: 2025-12-28
-
-# 版本歷史
 version_history:
   - version: "1.5.6"
     stage: "extension-review"
     date: 2025-12-28
-
-# 內容驗證
 content_verification:
   japanese: true
   english: true
   chinese: true
   examples_count: 5
   pending_links: []
-
-# 連結狀態
 link_status:
   incoming: 0
   outgoing: 0

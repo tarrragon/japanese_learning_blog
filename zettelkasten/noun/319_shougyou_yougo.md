@@ -13,7 +13,6 @@ tags:
   - formal
 created: 2025-12-28
 updated: 2025-12-28
-
 version_history:
   - version: "1.5.6"
     stage: "pending"
@@ -21,7 +20,6 @@ version_history:
   - version: "1.5.6"
     stage: "draft"
     date: 2025-12-28
-
 content_verification:
   japanese: true
   english: true
@@ -32,7 +30,6 @@ content_verification:
     - "concept/238_formal_vs_casual_speech.md"
     - "keigo/001_sonkeigo.md"
     - "noun/310_denwa_yougo.md"
-
 link_status:
   incoming: 0
   outgoing: 0

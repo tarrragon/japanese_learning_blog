@@ -7,14 +7,10 @@ tags:
   - "finance"
 created: 2025-12-26
 updated: 2025-12-26
-
-# 版本歷史
 version_history:
   - version: "1.5.0"
     stage: "pending"
     date: 2025-12-26
-
-# 內容驗證
 content_verification:
   japanese: false
   english: true
@@ -24,8 +20,6 @@ content_verification:
     - "利益追求の本質"
     - "収益と利益の違い"
     - "利益相反"
-
-# 連結狀態
 link_status:
   incoming: 0
   outgoing: 0

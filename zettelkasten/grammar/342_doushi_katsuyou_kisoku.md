@@ -14,12 +14,10 @@ tags:
   - jlpt/n3
 created: 2025-12-28
 updated: 2025-12-28
-
 version_history:
   - version: "1.5.6"
     stage: "pending"
     date: 2025-12-28
-
 content_verification:
   japanese: true
   english: true
@@ -32,7 +30,6 @@ content_verification:
     - grammar/290_doushi_nai_kei.md
     - grammar/290_自動詞と他動詞.md
     - grammar/290_文法體系.md
-
 link_status:
   incoming: 0
   outgoing: 0

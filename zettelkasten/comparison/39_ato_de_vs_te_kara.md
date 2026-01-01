@@ -9,14 +9,10 @@ tags:
   - "grammar"
 created: 2025-12-26
 updated: 2025-12-26
-
-# 版本歷史
 version_history:
   - version: "1.5.0"
     stage: "extension-review"
     date: 2025-12-26
-
-# 內容驗證
 content_verification:
   japanese: false
   english: false
@@ -27,8 +23,6 @@ content_verification:
     - "て形文法"
     - "接續助詞"
     - "動作完成表現"
-
-# 連結狀態
 link_status:
   incoming: 0
   outgoing: 0

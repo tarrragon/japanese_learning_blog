@@ -16,14 +16,10 @@ tags:
   - visibility
 created: 2025-12-28
 updated: 2025-12-28
-
-# 版本歷史
 version_history:
   - version: "1.5.6"
     stage: "pending"
     date: 2025-12-28
-
-# 內容驗證
 content_verification:
   japanese: true
   english: true
@@ -35,8 +31,6 @@ content_verification:
     - "ギラギラ"
     - "擬聲擬態語系統"
     - "觸覺效果擬態語"
-
-# 連結狀態
 link_status:
   incoming: 0
   outgoing: 2

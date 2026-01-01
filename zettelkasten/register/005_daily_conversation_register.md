@@ -10,14 +10,10 @@ tags:
   - register/conversation
 created: 2025-12-27
 updated: 2025-12-27
-
-# 版本歷史
 version_history:
   - version: "1.5.0"
     stage: "completed"
     date: 2025-12-27
-
-# 內容驗證
 content_verification:
   japanese: true
   english: true
@@ -27,15 +23,11 @@ content_verification:
     - "普通形"
     - "終助詞"
     - "縮約形"
-
-# 連結狀態
 link_status:
   incoming: 0
   outgoing: 2
   pending: 3
   verified_date: 2025-12-27
-
-# 連結
 links:
   - target: concept/055_casual_conversation.md
     type: related

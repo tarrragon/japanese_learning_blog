@@ -6,14 +6,10 @@ tags:
   - domain/経済学
 created: 2025-12-22
 updated: 2025-12-22
-
-# 版本歷史
 version_history:
   - version: "1.5.0"
     stage: "pending"
     date: 2025-12-26
-
-# 內容驗證
 content_verification:
   japanese: false
   english: true
@@ -25,8 +21,6 @@ content_verification:
     - "名目成長率"
     - "持続可能な成長"
     - "潜在成長率"
-
-# 連結狀態
 link_status:
   incoming: 0
   outgoing: 0

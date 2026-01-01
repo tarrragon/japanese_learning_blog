@@ -13,12 +13,10 @@ tags:
   - linguistics
 created: 2025-12-28
 updated: 2025-12-28
-
 version_history:
   - version: "1.5.6"
     stage: "pending"
     date: 2025-12-28
-
 content_verification:
   japanese: true
   english: true
@@ -32,7 +30,6 @@ content_verification:
     - concept/002_register.md
     - grammar/001_teineigo.md
     - grammar/002_sonkeigo.md
-
 link_status:
   incoming: 0
   outgoing: 0

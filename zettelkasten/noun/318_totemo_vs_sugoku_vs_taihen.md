@@ -35,12 +35,10 @@ dictionary:
   lookup_date: 2025-12-28
 created: 2025-12-28
 updated: 2025-12-28
-
 version_history:
   - version: "1.5.6"
     stage: "pending"
     date: 2025-12-28
-
 content_verification:
   japanese: true
   english: true
@@ -54,7 +52,6 @@ content_verification:
     - concept/formal_vs_casual_speech
     - concept/keigo_system
     - comparison/hontou_ni_vs_totemo
-
 link_status:
   incoming: 0
   outgoing: 0

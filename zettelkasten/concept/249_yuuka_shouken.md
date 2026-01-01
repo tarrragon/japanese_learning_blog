@@ -13,7 +13,6 @@ tags:
   - 学術的な場面
 created: 2025-12-28
 updated: 2025-12-28
-
 version_history:
   - version: "1.5.6"
     stage: "pending"
@@ -24,14 +23,12 @@ version_history:
   - version: "1.5.6"
     stage: "extension-review"
     date: 2025-12-28
-
 content_verification:
   japanese: true
   english: true
   chinese: true
   examples_count: 4
   pending_links: []
-
 link_status:
   incoming: 0
   outgoing: 0

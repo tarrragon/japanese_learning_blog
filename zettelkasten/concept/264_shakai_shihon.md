@@ -13,12 +13,10 @@ tags:
   - 学術的な場面
 created: 2025-12-28
 updated: 2025-12-28
-
 version_history:
   - version: "1.5.6"
     stage: "draft"
     date: 2025-12-28
-
 content_verification:
   japanese: true
   english: true
@@ -30,7 +28,6 @@ content_verification:
     - concept/コミュニティ.md
     - concept/人的資本.md
     - noun/信頼.md
-
 link_status:
   incoming: 0
   outgoing: 1

@@ -15,14 +15,10 @@ tags:
   - result_state
 created: 2025-12-28
 updated: 2025-12-28
-
-# 版本歷史
 version_history:
   - version: "1.5.6"
     stage: "extension-review"
     date: 2025-12-28
-
-# 內容驗證
 content_verification:
   japanese: true
   english: true
@@ -32,8 +28,6 @@ content_verification:
     - "〜ているところ"
     - "〜ようとしているところ"
     - "〜ところだ"
-
-# 連結狀態
 link_status:
   incoming: 1
   outgoing: 3

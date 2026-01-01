@@ -9,14 +9,10 @@ tags:
   - interpersonal
 created: 2025-12-27
 updated: 2025-12-28
-
-# 版本歷史
 version_history:
   - version: "1.5.0"
     stage: "draft"
     date: 2025-12-27
-
-# 內容驗證
 content_verification:
   japanese: true
   english: true
@@ -26,8 +22,6 @@ content_verification:
     - "敬語系統"
     - "語用學"
     - "社會語言學"
-
-# 連結狀態
 link_status:
   incoming: 0
   outgoing: 2

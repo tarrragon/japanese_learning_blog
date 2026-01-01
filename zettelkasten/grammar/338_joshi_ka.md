@@ -14,12 +14,10 @@ tags:
   - 日常会話の場面
 created: 2025-12-28
 updated: 2025-12-28
-
 version_history:
   - version: "1.5.6"
     stage: "pending"
     date: 2025-12-28
-
 content_verification:
   japanese: true
   english: true
@@ -28,7 +26,6 @@ content_verification:
   pending_links:
     - "concept/question_types"
     - "concept/politeness_levels"
-
 link_status:
   incoming: 0
   outgoing: 0

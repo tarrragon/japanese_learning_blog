@@ -24,7 +24,6 @@ dictionary:
   lookup_date: "2025-12-28"
 created: 2025-12-28
 updated: 2025-12-28
-
 version_history:
   - version: "1.5.6"
     stage: "pending"
@@ -41,7 +40,6 @@ version_history:
   - version: "1.5.6"
     stage: "completed"
     date: 2025-12-28
-
 content_verification:
   japanese: true
   english: true
@@ -54,7 +52,6 @@ content_verification:
     - "ウチとソト"
     - "語用的失敗"
     - "ポライトネス理論"
-
 link_status:
   incoming: 0
   outgoing: 6

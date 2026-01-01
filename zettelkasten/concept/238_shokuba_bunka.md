@@ -14,12 +14,10 @@ tags:
   - 社交的な場面
 created: 2025-12-28
 updated: 2025-12-28
-
 version_history:
   - version: "1.5.6"
     stage: "pending"
     date: 2025-12-28
-
 content_verification:
   japanese: true
   english: true
@@ -32,7 +30,6 @@ content_verification:
     - "../phrase/002_nemawashi.md"
     - "../concept/002_nomikai.md"
     - "../concept/003_meishi_koukan.md"
-
 link_status:
   incoming: 0
   outgoing: 0

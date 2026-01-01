@@ -7,14 +7,10 @@ tags:
   - formal
 created: 2025-12-27
 updated: 2025-12-27
-
-# 版本歷史
 version_history:
   - version: "1.5.1"
     stage: "draft"
     date: 2025-12-27
-
-# 內容驗證
 content_verification:
   japanese: true
   english: true
@@ -26,8 +22,6 @@ content_verification:
     - "記号論"
     - "文脈"
     - "語彙"
-
-# 連結狀態
 link_status:
   incoming: 0
   outgoing: 0

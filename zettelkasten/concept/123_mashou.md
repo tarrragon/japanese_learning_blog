@@ -17,7 +17,6 @@ tags:
   - 日常会話の場面
 created: 2025-12-28
 updated: 2025-12-28
-
 dictionary:
   sources:
     daijirin: true
@@ -26,19 +25,16 @@ dictionary:
   pos_details: "連語"
   definition_ja: "話し手の意志や決意を丁寧に言い表す。"
   lookup_date: 2025-12-28
-
 version_history:
   - version: "1.5.6"
     stage: "draft"
     date: 2025-12-28
-
 content_verification:
   japanese: true
   english: true
   chinese: true
   examples_count: 5
   pending_links: []
-
 link_status:
   incoming: 0
   outgoing: 5

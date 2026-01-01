@@ -7,14 +7,10 @@ tags:
   - "communication"
 created: 2025-12-26
 updated: 2025-12-26
-
-# 版本歷史
 version_history:
   - version: "1.5.0"
     stage: "pending"
     date: 2025-12-26
-
-# 內容驗證
 content_verification:
   japanese: false
   english: true
@@ -26,8 +22,6 @@ content_verification:
     - "發話行為理論（Speech Act Theory）"
     - "會話含意理論（Conversational Implicature）"
     - "指示語（Deixis）"
-
-# 連結狀態
 link_status:
   incoming: 0
   outgoing: 1

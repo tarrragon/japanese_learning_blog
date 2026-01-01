@@ -15,22 +15,16 @@ tags:
   - habitual
 created: 2025-12-17
 updated: 2025-12-27
-
-# 版本歷史
 version_history:
   - version: "1.5.0"
     stage: "completed"
     date: 2025-12-27
-
-# 內容驗證
 content_verification:
   japanese: false
   english: true
   chinese: true
   examples_count: 0
   pending_links: []
-
-# 連結狀態
 link_status:
   incoming: 0
   outgoing: 23

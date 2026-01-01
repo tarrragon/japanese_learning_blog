@@ -9,14 +9,10 @@ tags:
   - visual-effect
 created: 2025-12-22
 updated: 2025-12-26
-
-# 版本歷史
 version_history:
   - version: "1.5.0"
     stage: "pending"
     date: 2025-12-26
-
-# 內容驗證
 content_verification:
   japanese: false
   english: false
@@ -27,8 +23,6 @@ content_verification:
     - "光的表現"
     - "清潔相關詞彙"
     - "視覺效果擬態語"
-
-# 連結狀態
 link_status:
   incoming: 0
   outgoing: 0

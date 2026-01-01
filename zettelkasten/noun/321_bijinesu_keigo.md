@@ -14,7 +14,6 @@ tags:
   - polite
 created: 2025-12-28
 updated: 2025-12-28
-
 version_history:
   - version: "1.5.0"
     stage: "pending"
@@ -31,7 +30,6 @@ version_history:
   - version: "1.5.0"
     stage: "completed"
     date: 2025-12-28
-
 content_verification:
   japanese: true
   english: true
@@ -41,7 +39,6 @@ content_verification:
     - "keigo/kenjougo_system"
     - "keigo/sonkeigo_system"
     - "concept/uchi_soto"
-
 link_status:
   incoming: 0
   outgoing: 5

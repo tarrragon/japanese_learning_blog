@@ -13,12 +13,10 @@ tags:
   - 学術的な場面
 created: 2025-12-28
 updated: 2025-12-28
-
 version_history:
   - version: "1.5.6"
     stage: "pending"
     date: 2025-12-28
-
 content_verification:
   japanese: true
   english: true
@@ -32,7 +30,6 @@ content_verification:
     - "noun/国連海洋法条約"
     - "concept/無害通航権"
     - "concept/尖閣諸島問題"
-
 link_status:
   incoming: 0
   outgoing: 0

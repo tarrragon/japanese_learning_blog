@@ -8,14 +8,10 @@ tags:
   - language-typology
 created: 2025-12-27
 updated: 2025-12-27
-
-# 版本歷史
 version_history:
   - version: "1.5.0"
     stage: "draft"
     date: 2025-12-27
-
-# 內容驗證
 content_verification:
   japanese: true
   english: true
@@ -25,8 +21,6 @@ content_verification:
     - "japanese_language_family.md"
     - "language_typology.md"
     - "subject_prominent.md"
-
-# 連結狀態
 link_status:
   incoming: 0
   outgoing: 0

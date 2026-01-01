@@ -13,12 +13,10 @@ tags:
   - daily_life
 created: 2025-12-28
 updated: 2025-12-28
-
 version_history:
   - version: "1.5.6"
     stage: "pending"
     date: 2025-12-28
-
 content_verification:
   japanese: true
   english: true
@@ -30,7 +28,6 @@ content_verification:
     - "concept/金融政策"
     - "concept/金融緩和"
     - "noun/銀行"
-
 link_status:
   incoming: 0
   outgoing: 0

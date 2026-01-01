@@ -9,8 +9,8 @@ version_history:
     changes: Initial creation
 content_verification:
   - checked: false
-    checker: ""
-    date: ""
+    checker: "
+    date: "
 link_status:
   total_links: 0
   active_links: 0

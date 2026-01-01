@@ -13,12 +13,10 @@ tags:
   - 動詞活用
 created: 2025-12-27
 updated: 2025-12-27
-
 version_history:
   - version: "1.5.0"
     stage: "pending"
     date: 2025-12-27
-
 content_verification:
   japanese: true
   english: true
@@ -29,7 +27,6 @@ content_verification:
     - "五段動詞"
     - "一段動詞"
     - "受身形"
-
 link_status:
   incoming: 0
   outgoing: 0

@@ -4,22 +4,16 @@ jlpt: n4
 stage: pending
 created: 2025-12-26
 updated: 2025-12-26
-
-# 版本歷史
 version_history:
   - version: "1.5.0"
     stage: "pending"
     date: 2025-12-26
-
-# 內容驗證
 content_verification:
   japanese: false
   english: false
   chinese: true
   examples_count: 3
   pending_links: []
-
-# 連結狀態
 link_status:
   incoming: 0
   outgoing: 2

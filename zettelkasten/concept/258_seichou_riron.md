@@ -13,7 +13,6 @@ tags:
   - learning
 created: 2025-12-28
 updated: 2025-12-29
-
 version_history:
   - version: "1.5.0"
     stage: "pending"
@@ -21,7 +20,6 @@ version_history:
   - version: "1.5.0"
     stage: "extension-review"
     date: 2025-12-29
-
 content_verification:
   japanese: true
   english: true
@@ -34,7 +32,6 @@ content_verification:
     - concept/metacognition
     - noun/noryoku
     - noun/doryoku
-
 link_status:
   incoming: 0
   outgoing: 0

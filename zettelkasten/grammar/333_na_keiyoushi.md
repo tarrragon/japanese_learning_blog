@@ -14,12 +14,10 @@ tags:
   - "日本語能力試験N5"
 created: 2025-12-28
 updated: 2025-12-28
-
 version_history:
   - version: "1.5.7"
     stage: "pending"
     date: 2025-12-28
-
 content_verification:
   japanese: true
   english: true
@@ -33,7 +31,6 @@ content_verification:
     - adj-na/001_shizuka.md
     - adj-na/002_kirei.md
     - adj-na/003_genki.md
-
 link_status:
   incoming: 0
   outgoing: 0

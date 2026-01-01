@@ -6,14 +6,10 @@ tags:
   - "domain/金融"
 created: 2025-12-26
 updated: 2025-12-26
-
-# 版本歷史
 version_history:
   - version: "1.5.0"
     stage: "pending"
     date: 2025-12-26
-
-# 內容驗證
 content_verification:
   japanese: true
   english: true
@@ -22,8 +18,6 @@ content_verification:
   pending_links:
     - "貸借対照表"
     - "債務"
-
-# 連結狀態
 link_status:
   incoming: 0
   outgoing: 1

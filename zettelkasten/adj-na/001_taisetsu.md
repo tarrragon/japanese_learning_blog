@@ -10,29 +10,21 @@ tags:
   - jlpt/n4
 created: 2025-10-27
 updated: 2025-10-28
-
-# 版本歷史
 version_history:
   - version: "1.5.0"
     stage: "completed"
     date: 2025-12-26
-
-# 內容驗證
 content_verification:
   japanese: true
   english: true
   chinese: true
   examples_count: 3
   pending_links: []
-
-# 連結狀態
 link_status:
   incoming: 0
   outgoing: 7
   pending: 0
   verified_date: 2025-12-26
-
-# 連結
 links:
 ---
 ## 日文
