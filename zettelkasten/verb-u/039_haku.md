@@ -58,7 +58,7 @@ to put on (lower-body clothing/footwear), to wear (pants/shoes/socks)
 
 ### 例句 1
 
-{{< japanese >}}靴を履いてから出かけましょう。{{< /japanese >}}
+**靴を履いてから出かけましょう。**
 
 **羅馬音**：Kutsu o haite kara dekakemashou.
 
@@ -68,7 +68,7 @@ to put on (lower-body clothing/footwear), to wear (pants/shoes/socks)
 
 ### 例句 2
 
-{{< japanese >}}新しいジーンズを履いてみたい。{{< /japanese >}}
+**新しいジーンズを履いてみたい。**
 
 **羅馬音**：Atarashii jiinzu o haite mitai.
 
@@ -78,7 +78,7 @@ to put on (lower-body clothing/footwear), to wear (pants/shoes/socks)
 
 ### 例句 3
 
-{{< japanese >}}毎朝、靴下を履くのが面倒だ。{{< /japanese >}}
+**毎朝、靴下を履くのが面倒だ。**
 
 **羅馬音**：Maiasa, kutsushita o haku no ga mendou da.
 

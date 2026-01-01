@@ -32,7 +32,9 @@
       "Bash(# 獲取下一批 30 張 draft 卡片 uv run scripts/stage_dashboard.py --stage draft --limit 30 --format json)",
       "Bash(# 獲取下一批 30 張 draft 卡片路徑 uv run scripts/stage_dashboard.py --stage draft --limit 30 --format json)",
       "Bash(# 獲取第 21-50 張 draft 卡片 uv run scripts/stage_dashboard.py --stage draft --limit 50 --format json)",
-      "Bash(xargs -I {} sh -c 'echo \"\"=== File: {} ===\"\" && head -30 {}')"
+      "Bash(xargs -I {} sh -c 'echo \"\"=== File: {} ===\"\" && head -30 {}')",
+      "Bash(hugo version:*)",
+      "Bash(hugo:*)"
     ],
     "deny": [],
     "ask": []
