@@ -27,6 +27,7 @@ import { InputHandlerFactory } from './input/InputHandlerFactory.js';
 import { TextRenderer } from './renderers/TextRenderer.js';
 import { RomajiRenderer } from './renderers/RomajiRenderer.js';
 import { ResultRenderer } from './renderers/ResultRenderer.js';
+import { GridRenderer } from './renderers/GridRenderer.js';
 
 // 效果與服務
 import { FlashEffect } from './effects/FlashEffect.js';
@@ -61,6 +62,7 @@ export class App {
    * @param {HTMLElement} elements.bufferDisplay - 緩衝區顯示
    * @param {HTMLElement} elements.keyboardContainer - 鍵盤容器
    * @param {HTMLInputElement} elements.mobileInputElement - 手機輸入框
+   * @param {HTMLElement} [elements.gridContainer] - 表格練習容器（五十音模式）
    */
   constructor(elements) {
     this.#elements = elements;
@@ -117,6 +119,34 @@ export class App {
       this.#elements.resultContainer,
       this.#detectBasePath()
     );
+    this.#renderers.grid = new GridRenderer(this.#elements.gridContainer ?? null);
+    this.#renderers.grid.setCallbacks({
+      onSelect: (id) => this.#handleGridSelect(id),
+      onAction: (id) => this.#handleGridAction(id),
+    });
+  }
+
+  /**
+   * 點擊表格格子：移動游標
+   * @param {string} id
+   * @private
+   */
+  #handleGridSelect(id) {
+    if (this.#currentSession?.isGrid && this.#currentSession.selectCell(id)) {
+      this.#render();
+    }
+  }
+
+  /**
+   * 表格上方按鈕（例如切換平假名 / 片假名）
+   * @param {string} actionId
+   * @private
+   */
+  #handleGridAction(actionId) {
+    const mode = modeRegistry.getCurrentMode();
+    if (mode?.handleGridAction?.(actionId)) {
+      this.loadNextQuestion();
+    }
   }
 
   /**
@@ -203,7 +233,9 @@ export class App {
       await this.#startWithText(urlParams.text);
     } else {
       // 切換到初始模式
-      const modeId = urlParams.mode === 'kana' ? 'kana' : 'question';
+      const modeId = urlParams.mode && modeRegistry.hasMode(urlParams.mode)
+        ? urlParams.mode
+        : 'question';
       await this.switchPracticeMode(modeId);
     }
 
@@ -246,6 +278,7 @@ export class App {
   async switchPracticeMode(modeId) {
     try {
       this.#store.dispatch(actions.setPracticeMode(modeId));
+      this.#updateUrlParam('mode', modeId === 'question' ? null : modeId);
       await modeRegistry.switchMode(modeId);
       await this.loadNextQuestion();
     } catch (error) {
@@ -343,6 +376,12 @@ export class App {
     const session = mode ? mode.createSession(question) : this.#createDefaultSession(question);
     this.#currentSession = session;
 
+    // 表格模式（五十音）與文字模式使用不同的版面
+    this.#updateLayout(Boolean(session?.isGrid));
+
+    // 新題目開始時清空上一題殘留的輸入緩衝顯示
+    this.#updateBufferDisplay('');
+
     // 建立 Session-Store 橋接器
     // 將 Session 事件轉發到 Store，由 Store 訂閱者統一處理
     this.#sessionAdapter = new SessionStoreAdapter(session, this.#store);
@@ -365,6 +404,19 @@ export class App {
 
     // 渲染
     this.#render();
+  }
+
+  /**
+   * 切換文字 / 表格版面
+   * @param {boolean} isGrid
+   * @private
+   */
+  #updateLayout(isGrid) {
+    this.#elements.container?.classList.toggle('layout-grid', isGrid);
+    const grid = this.#elements.gridContainer;
+    if (grid) grid.hidden = !isGrid;
+    if (!isGrid) this.#renderers.grid.clear();
+    this.#flashEffect.setContainer(isGrid && grid ? grid : this.#elements.textContainer);
   }
 
   /**
@@ -483,11 +535,18 @@ export class App {
   #render() {
     if (!this.#currentSession) return;
 
-    const state = this.#store.getState();
-    const question = this.#currentSession.question;
+    if (this.#currentSession.isGrid) {
+      const mode = modeRegistry.getCurrentMode();
+      this.#renderers.grid.render(this.#currentSession, {
+        actions: mode?.getGridActions?.() ?? [],
+      });
+    } else {
+      const state = this.#store.getState();
+      const question = this.#currentSession.question;
 
-    this.#renderers.text.render(question, state.currentQuestion);
-    this.#renderers.romaji.render(question);
+      this.#renderers.text.render(question, state.currentQuestion);
+      this.#renderers.romaji.render(question);
+    }
 
     if (this.#inputHandler?.updateHighlight) {
       this.#inputHandler.updateHighlight();

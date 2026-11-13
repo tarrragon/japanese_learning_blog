@@ -894,3 +894,207 @@ body {
     padding: 0.6rem 0.8rem;
   }
 }
+
+/* ===================================
+   五十音表格練習（五十音表 / 五十音進階）
+   =================================== */
+
+.practice-grid[hidden] {
+  display: none;
+}
+
+/* 表格模式：隱藏單行文字與羅馬拼音區 */
+.layout-grid .practice-text-wrapper,
+.layout-grid .divider,
+.layout-grid .practice-romaji-wrapper {
+  display: none;
+}
+
+.layout-grid .practice-display {
+  margin-bottom: 1.5rem;
+  padding: 0;
+  max-width: none;
+}
+
+.layout-grid .practice-title {
+  margin-bottom: 1rem;
+}
+
+.layout-grid .buffer-display {
+  min-height: 1.5em;
+}
+
+.grid-toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-bottom: 0.75rem;
+  font-size: 0.85rem;
+  color: #9CA3AF;
+  text-align: left;
+}
+
+.grid-progress {
+  color: var(--color-current);
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+
+.grid-hint {
+  flex: 1;
+  min-width: 12rem;
+}
+
+.grid-actions {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.grid-scroll {
+  overflow: auto;
+  border: 1px solid #2A2F38;
+  border-radius: 10px;
+}
+
+.grid-scroll:has(.grid-dictionary) {
+  max-height: 55vh;
+}
+
+.grid-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-variant-numeric: tabular-nums;
+}
+
+.grid-table th {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background: #1C2028;
+  color: #9CA3AF;
+  font-weight: 400;
+  font-size: 0.8rem;
+  padding: 0.5rem 0.4rem;
+  border-bottom: 1px solid #2A2F38;
+  white-space: nowrap;
+}
+
+.grid-table .grid-row-label {
+  position: static;
+  text-align: left;
+  padding-left: 0.75rem;
+  background: transparent;
+  border-bottom: 1px solid #1F242C;
+}
+
+.grid-cell {
+  padding: 0.35rem 0.4rem;
+  border-bottom: 1px solid #1F242C;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.grid-text {
+  display: block;
+  line-height: 1.3;
+}
+
+.grid-reading,
+.grid-meaning {
+  display: block;
+  font-size: 0.7rem;
+  color: #6B7280;
+  line-height: 1.3;
+}
+
+.grid-reading {
+  font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
+}
+
+.hide-romaji-hint .grid-reading {
+  visibility: hidden;
+}
+
+/* 可輸入格子 */
+.grid-target {
+  cursor: pointer;
+  transition: background-color 0.25s ease, color 0.25s ease;
+}
+
+.grid-target.cell-pending {
+  color: var(--color-pending);
+}
+
+.grid-target.cell-pending:hover {
+  background: rgba(59, 130, 246, 0.08);
+}
+
+.grid-target.cell-current {
+  color: var(--color-current);
+  background: rgba(16, 185, 129, 0.12);
+  box-shadow: inset 0 0 0 2px var(--color-current);
+  font-weight: 700;
+}
+
+.grid-target.cell-completed {
+  color: var(--color-completed);
+  background: rgba(107, 114, 128, 0.12);
+  cursor: default;
+}
+
+.grid-target.cell-completed .grid-text {
+  color: #D1D5DB;
+}
+
+.grid-label-kana .grid-text {
+  font-size: 1.25rem;
+  color: #E5E7EB;
+}
+
+.grid-label {
+  color: #6B7280;
+  font-size: 0.85rem;
+}
+
+/* 基本五十音表：大字 */
+.grid-gojuon .grid-target .grid-text {
+  font-size: 1.6rem;
+}
+
+.grid-gojuon .grid-cell {
+  padding: 0.25rem 0.5rem;
+  width: 17%;
+}
+
+/* 進階字典表：單字 */
+.grid-dictionary .grid-target .grid-text {
+  font-size: 1.05rem;
+  white-space: nowrap;
+}
+
+/* 表格模式的閃爍：成功不閃整張表，錯誤讓目前格子變紅 */
+.practice-grid.flash-success {
+  animation: none;
+}
+
+.practice-grid.flash-error {
+  animation: none;
+}
+
+.practice-grid.flash-error .cell-current {
+  color: #EF4444;
+  box-shadow: inset 0 0 0 2px #EF4444;
+  background: rgba(239, 68, 68, 0.12);
+  animation: flash-error 0.2s ease;
+}
+
+.practice-grid.flash-error .cell-current .char-current {
+  color: #EF4444;
+}
+
+.layout-grid .practice-container,
+.practice-container.layout-grid {
+  max-width: 1000px;
+}

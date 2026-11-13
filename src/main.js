@@ -24,6 +24,25 @@ import { i18n } from './i18n/index.js';
 // 應用程式實例
 let app = null;
 
+/** 練習模式選單（順序即顯示順序） */
+const PRACTICE_MODE_OPTIONS = [
+  { id: 'question', labelKey: 'modeQuestion' },
+  { id: 'kana', labelKey: 'modeKana' },
+  { id: 'gojuon', labelKey: 'modeGojuon' },
+  { id: 'gojuon-advanced', labelKey: 'modeGojuonAdvanced' },
+];
+
+/**
+ * 表格模式（五十音）的「下一題」改為「重新開始」
+ * @param {string} practiceMode
+ * @returns {string}
+ */
+function getNextButtonText(practiceMode) {
+  return modeRegistry.getModeClass(practiceMode)?.isGrid
+    ? i18n.t('restart')
+    : i18n.t('nextQuestion');
+}
+
 /**
  * 建立控制面板
  * @param {App} appInstance - 應用程式實例
@@ -43,11 +62,13 @@ function createControlPanel(appInstance) {
   const hintBtnText = state.uiSettings.showRomajiHint
     ? i18n.t('hideHint')
     : i18n.t('showHint');
-  const practiceModeText = state.practiceMode === 'question'
-    ? i18n.t('kanaMode')
-    : i18n.t('questionMode');
-  // 假名模式不需要 JLPT 選單
-  const jlptDisplayStyle = state.practiceMode === 'kana' ? 'none' : '';
+  const isQuestionMode = state.practiceMode === 'question';
+  // 只有文章（題庫）模式需要 JLPT 選單
+  const jlptDisplayStyle = isQuestionMode ? '' : 'none';
+  const practiceModeOptions = PRACTICE_MODE_OPTIONS.map(({ id, labelKey }) => {
+    const selected = id === state.practiceMode ? 'selected' : '';
+    return `<option value="${id}" ${selected}>${i18n.t(labelKey)}</option>`;
+  }).join('');
 
   // 取得當前語言選項
   const currentLang = i18n.getLanguage();
@@ -58,7 +79,7 @@ function createControlPanel(appInstance) {
 
   const controlPanel = document.createElement('div');
   controlPanel.id = 'practice-controls';
-  controlPanel.className = 'practice-controls' + (state.practiceMode === 'kana' ? ' controls-centered' : '');
+  controlPanel.className = 'practice-controls' + (isQuestionMode ? '' : ' controls-centered');
   controlPanel.innerHTML = `
     <div class="control-group" id="jlpt-filter-group" style="display: ${jlptDisplayStyle}">
       <label for="jlpt-filter">${i18n.t('jlptLabel')}</label>
@@ -72,8 +93,8 @@ function createControlPanel(appInstance) {
       </select>
     </div>
     <div class="control-group">
-      <button id="btn-next" class="control-btn">${i18n.t('nextQuestion')}</button>
-      <button id="btn-toggle-practice" class="control-btn secondary">${practiceModeText}</button>
+      <select id="practice-mode-select" class="lang-selector" aria-label="${i18n.t('practiceModeLabel')}">${practiceModeOptions}</select>
+      <button id="btn-next" class="control-btn">${getNextButtonText(state.practiceMode)}</button>
       <button id="btn-toggle-input" class="control-btn secondary">${inputModeText}</button>
       <button id="btn-toggle-hint" class="control-btn secondary">${hintBtnText}</button>
       <select id="lang-selector" class="lang-selector">${langOptions}</select>
@@ -113,25 +134,26 @@ function bindControlPanelEvents(appInstance) {
     });
   }
 
-  // 練習模式切換按鈕
-  const togglePracticeBtn = document.getElementById('btn-toggle-practice');
-  if (togglePracticeBtn) {
-    togglePracticeBtn.addEventListener('click', () => {
-      const state = appInstance.getState();
-      const newMode = state.practiceMode === 'question' ? 'kana' : 'question';
+  // 練習模式選單
+  const practiceModeSelect = document.getElementById('practice-mode-select');
+  if (practiceModeSelect) {
+    practiceModeSelect.addEventListener('change', (e) => {
+      const newMode = e.target.value;
+      e.target.blur();  // 避免之後的按鍵改到選單
       appInstance.switchPracticeMode(newMode);
-      togglePracticeBtn.textContent = newMode === 'question'
-        ? i18n.t('kanaMode')
-        : i18n.t('questionMode');
 
-      // 假名模式不需要 JLPT 選單，並調整按鈕置中
+      // 只有文章模式需要 JLPT 選單，其他模式按鈕置中
+      const isQuestionMode = newMode === 'question';
       const jlptGroup = document.getElementById('jlpt-filter-group');
       const controls = document.getElementById('practice-controls');
       if (jlptGroup) {
-        jlptGroup.style.display = newMode === 'kana' ? 'none' : '';
+        jlptGroup.style.display = isQuestionMode ? '' : 'none';
       }
       if (controls) {
-        controls.classList.toggle('controls-centered', newMode === 'kana');
+        controls.classList.toggle('controls-centered', !isQuestionMode);
+      }
+      if (nextBtn) {
+        nextBtn.textContent = getNextButtonText(newMode);
       }
     });
   }
@@ -290,6 +312,17 @@ async function init() {
   // 取得手機輸入框
   const mobileInputElement = document.getElementById('mobile-kana-input');
 
+  // 建立表格練習容器（五十音模式，如果不存在）
+  let gridContainer = document.getElementById('practice-grid');
+  if (!gridContainer) {
+    gridContainer = document.createElement('div');
+    gridContainer.id = 'practice-grid';
+    gridContainer.className = 'practice-grid';
+    gridContainer.hidden = true;
+    const display = document.querySelector('.practice-display');
+    display?.appendChild(gridContainer);
+  }
+
   // 顯示載入中
   showLoading(textContainer);
 
@@ -303,6 +336,7 @@ async function init() {
       bufferDisplay,
       keyboardContainer,
       mobileInputElement,
+      gridContainer,
     });
 
     // 初始化應用程式（這裡會恢復 localStorage 和 URL 參數的設定）

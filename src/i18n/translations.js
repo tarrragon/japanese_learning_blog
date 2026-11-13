@@ -53,6 +53,26 @@ export const translations = {
     // 錯誤訊息
     initFailed: '應用程式初始化失敗',
     reload: '重新載入',
+    // 練習模式選單
+    practiceModeLabel: '練習：',
+    modeQuestion: '文章練習',
+    modeKana: '假名練習',
+    modeGojuon: '五十音表',
+    modeGojuonAdvanced: '五十音進階',
+    restart: '重新開始',
+
+    // 五十音表格
+    gridProgress: '進度',
+    gridHintFree: '照順序輸入，或任意輸入表中的假名；點擊格子可移動目前位置',
+    gridHintOrdered: '依序輸入每列的範例單字；點擊格子可跳到該單字',
+    switchToKatakana: '切換片假名',
+    switchToHiragana: '切換平假名',
+    dictNumber: '編號',
+    dictHiragana: '平假名',
+    dictKatakana: '片假名',
+    dictDakuon: '濁音',
+    dictHandakuon: '半濁音',
+    dictWord: '範例單字',
   },
 
   'en': {
@@ -100,6 +120,26 @@ export const translations = {
     // Error messages
     initFailed: 'Failed to initialize application',
     reload: 'Reload',
+    // Practice mode menu
+    practiceModeLabel: 'Practice:',
+    modeQuestion: 'Articles',
+    modeKana: 'Kana',
+    modeGojuon: 'Gojūon Chart',
+    modeGojuonAdvanced: 'Gojūon Advanced',
+    restart: 'Restart',
+
+    // Gojūon grid
+    gridProgress: 'Progress',
+    gridHintFree: 'Type in order, or type any kana in the chart; click a cell to move the cursor',
+    gridHintOrdered: 'Type each example word in order; click a cell to jump to it',
+    switchToKatakana: 'Katakana',
+    switchToHiragana: 'Hiragana',
+    dictNumber: 'No.',
+    dictHiragana: 'Hiragana',
+    dictKatakana: 'Katakana',
+    dictDakuon: 'Dakuon',
+    dictHandakuon: 'Handakuon',
+    dictWord: 'Example',
   },
 
   'ja': {
@@ -147,5 +187,25 @@ export const translations = {
     // エラーメッセージ
     initFailed: 'アプリの初期化に失敗しました',
     reload: '再読み込み',
+    // 練習モードメニュー
+    practiceModeLabel: '練習：',
+    modeQuestion: '文章練習',
+    modeKana: 'かな練習',
+    modeGojuon: '五十音図',
+    modeGojuonAdvanced: '五十音・応用',
+    restart: 'やり直す',
+
+    // 五十音表
+    gridProgress: '進捗',
+    gridHintFree: '順番どおり、または表の好きなかなを入力。マスをクリックすると現在位置を移動',
+    gridHintOrdered: '各行の例語を順番に入力。マスをクリックするとその単語へ移動',
+    switchToKatakana: 'カタカナ',
+    switchToHiragana: 'ひらがな',
+    dictNumber: '番号',
+    dictHiragana: 'ひらがな',
+    dictKatakana: 'カタカナ',
+    dictDakuon: '濁音',
+    dictHandakuon: '半濁音',
+    dictWord: '例語',
   },
 };

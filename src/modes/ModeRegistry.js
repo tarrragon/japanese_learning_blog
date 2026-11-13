@@ -6,6 +6,8 @@
 
 import { QuestionMode } from './QuestionMode.js';
 import { KanaMode } from './KanaMode.js';
+import { GojuonMode } from './GojuonMode.js';
+import { GojuonAdvancedMode } from './GojuonAdvancedMode.js';
 
 class ModeRegistryClass {
   #modes = new Map();
@@ -16,6 +18,8 @@ class ModeRegistryClass {
     // 註冊內建模式
     this.register(QuestionMode);
     this.register(KanaMode);
+    this.register(GojuonMode);
+    this.register(GojuonAdvancedMode);
   }
 
   /**
@@ -57,6 +61,7 @@ class ModeRegistryClass {
       id: ModeClass.id,
       displayName: ModeClass.displayName,
       description: ModeClass.description,
+      isGrid: Boolean(ModeClass.isGrid),
     }));
   }
 
