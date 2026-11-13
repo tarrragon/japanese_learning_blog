@@ -32,7 +32,7 @@ ZETTELKASTEN_DIR = PROJECT_ROOT / "zettelkasten"
 LOCK_DIR = PROJECT_ROOT / ".locks"
 
 # 與 fix-numbering.py 相同的判斷：延伸卡片 = {base}_{name}_{ext}_{name}
-EXTENSION_RE = re.compile(r"^(\d{3})_(.+?)_(\d{3})_(.+)$")
+EXTENSION_RE = re.compile(r"^(\d+)_(.+?)_(\d{3})_(.+)$")
 BASIC_RE = re.compile(r"^(\d+)_(.+)$")
 
 

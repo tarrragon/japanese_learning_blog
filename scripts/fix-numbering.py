@@ -20,9 +20,11 @@
 功能：
   1. 檢測編號缺口（如 001, 002, 005 缺少 003, 004）
   2. 檢測編號跳號（如 017 直接跳到 022）
-  3. 檢測檔名格式問題（不符合 ###_name.md 標準格式）
-  4. 提供重新編號方案
-  5. 支援延伸卡片的編號修復
+  3. 檢測重複編號（同分類多張基本卡片使用同一編號）
+  4. 檢測未補零的編號（如 39_name.md，應為 039_name.md）
+  5. 檢測檔名格式問題（不符合 ###_name.md 標準格式）
+  6. 提供重新編號方案（兩階段改名，不會覆蓋既有檔案）
+  7. 支援延伸卡片的編號修復（依編號 + 名稱對應基本卡片）
 
 標準檔名格式：
   - 基本卡片：###_name.md（如 001_taberu.md）
@@ -52,6 +54,7 @@ def parse_filename(filename: str) -> Optional[dict]:
     支援格式：
     - 001_name.md （基本卡片）
     - 001_name_001_extension.md （延伸卡片）
+    - 39_name.md （未補零的舊檔名，'padded' 為 False）
 
     Returns:
         {
@@ -59,14 +62,15 @@ def parse_filename(filename: str) -> Optional[dict]:
             'name': 卡片名稱,
             'is_extension': 是否為延伸卡片,
             'extension_number': 延伸編號（如果是延伸卡片）,
-            'full_name': 完整名稱（包含延伸部分）
+            'full_name': 完整名稱（包含延伸部分）,
+            'padded': 基本編號是否為三位數,
         }
     """
     # 移除 .md 後綴
     name_without_ext = filename[:-3] if filename.endswith('.md') else filename
 
     # 嘗試匹配延伸卡片格式：001_name_001_extension
-    ext_match = re.match(r'^(\d{3})_(.+?)_(\d{3})_(.+)$', name_without_ext)
+    ext_match = re.match(r'^(\d+)_(.+?)_(\d{3})_(.+)$', name_without_ext)
     if ext_match:
         return {
             'number': int(ext_match.group(1)),
@@ -75,10 +79,11 @@ def parse_filename(filename: str) -> Optional[dict]:
             'extension_number': int(ext_match.group(3)),
             'extension_name': ext_match.group(4),
             'full_name': name_without_ext,
+            'padded': len(ext_match.group(1)) == 3,
         }
 
     # 嘗試匹配基本卡片格式：001_name
-    basic_match = re.match(r'^(\d{3})_(.+)$', name_without_ext)
+    basic_match = re.match(r'^(\d+)_(.+)$', name_without_ext)
     if basic_match:
         return {
             'number': int(basic_match.group(1)),
@@ -86,6 +91,7 @@ def parse_filename(filename: str) -> Optional[dict]:
             'is_extension': False,
             'extension_number': None,
             'full_name': name_without_ext,
+            'padded': len(basic_match.group(1)) == 3,
         }
 
     return None
@@ -135,7 +141,12 @@ def check_filename_format(category_path: Path) -> dict:
         issue = ""
         suggestion = ""
 
-        if not re.match(r'^\d{3}', filename):
+        unpadded = re.match(r'^(\d{1,2})_(.+)$', filename)
+        if unpadded:
+            # 編號未補零（舊版 get-next-number.py 預設輸出造成）
+            issue = "編號未補零（應為三位數）"
+            suggestion = f"{unpadded.group(1).zfill(3)}_{unpadded.group(2)}"
+        elif not re.match(r'^\d{3}', filename):
             # 沒有編號前綴
             if '-' in filename:
                 # 有 - 但格式錯誤
@@ -249,7 +260,7 @@ def check_category_numbering(category_path: Path) -> dict:
                    if f.is_file() and f.suffix == '.md' and f.name != 'index.md'])
 
     base_cards = []
-    extensions = {}  # {base_number: [extension_cards]}
+    extensions = {}  # {(base_number, base_name): [extension_cards]}
 
     for file in files:
         parsed = parse_filename(file.name)
@@ -257,10 +268,8 @@ def check_category_numbering(category_path: Path) -> dict:
             continue
 
         if parsed['is_extension']:
-            base_num = parsed['number']
-            if base_num not in extensions:
-                extensions[base_num] = []
-            extensions[base_num].append({
+            key = (parsed['number'], parsed['name'])
+            extensions.setdefault(key, []).append({
                 'file': file,
                 'parsed': parsed,
             })
@@ -270,8 +279,8 @@ def check_category_numbering(category_path: Path) -> dict:
                 'parsed': parsed,
             })
 
-    # 排序基本卡片
-    base_cards.sort(key=lambda x: x['parsed']['number'])
+    # 排序基本卡片（同編號依檔名排序，結果可重現）
+    base_cards.sort(key=lambda x: (x['parsed']['number'], x['file'].name))
 
     # 檢查編號缺口
     if not base_cards:
@@ -281,6 +290,9 @@ def check_category_numbering(category_path: Path) -> dict:
             'base_cards': [],
             'extensions': {},
             'gaps': [],
+            'duplicates': {},
+            'unpadded': [],
+            'orphan_extensions': [],
             'max_number': 0,
             'expected_max': 0,
             'has_issues': False,
@@ -303,6 +315,43 @@ def check_category_numbering(category_path: Path) -> dict:
             'description': f"缺少編號: {', '.join(f'{n:03d}' for n in missing)}"
         })
 
+    # 檢查重複編號
+    by_number = {}
+    for card in base_cards:
+        by_number.setdefault(card['parsed']['number'], []).append(card['file'].name)
+    duplicates = {n: names for n, names in by_number.items() if len(names) > 1}
+    if duplicates:
+        total = sum(len(v) for v in duplicates.values())
+        gaps.append({
+            'type': 'duplicate',
+            'numbers': sorted(duplicates),
+            'description': (f"重複編號: {len(duplicates)} 個編號被 {total} 張基本卡片共用"
+                            f"（{', '.join(f'{n:03d}' for n in sorted(duplicates)[:10])}"
+                            f"{' …' if len(duplicates) > 10 else ''}）")
+        })
+
+    # 檢查未補零的檔名
+    unpadded = [card['file'].name for card in base_cards if not card['parsed']['padded']]
+    unpadded += [ext['file'].name for exts in extensions.values() for ext in exts
+                 if not ext['parsed']['padded']]
+    if unpadded:
+        gaps.append({
+            'type': 'unpadded',
+            'files': sorted(unpadded),
+            'description': f"編號未補零: {len(unpadded)} 個檔案（如 {sorted(unpadded)[0]}）"
+        })
+
+    # 找不到對應基本卡片的延伸卡片（不會被重新編號）
+    base_keys = {(c['parsed']['number'], c['parsed']['name']) for c in base_cards}
+    orphan_extensions = sorted(ext['file'].name for key, exts in extensions.items()
+                               if key not in base_keys for ext in exts)
+    if orphan_extensions:
+        gaps.append({
+            'type': 'orphan',
+            'files': orphan_extensions,
+            'description': f"找不到基本卡片的延伸卡片: {', '.join(orphan_extensions)}"
+        })
+
     # 檢查跳號
     for i in range(len(numbers) - 1):
         current = numbers[i]
@@ -323,6 +372,9 @@ def check_category_numbering(category_path: Path) -> dict:
         'base_cards': base_cards,
         'extensions': extensions,
         'gaps': gaps,
+        'duplicates': duplicates,
+        'unpadded': unpadded,
+        'orphan_extensions': orphan_extensions,
         'max_number': max_number,
         'expected_max': expected_max,
         'has_issues': has_issues,
@@ -355,9 +407,16 @@ def generate_renumbering_plan(result: dict) -> list[dict]:
     for new_num, card in enumerate(base_cards, start=1):
         old_num = card['parsed']['number']
 
-        if old_num != new_num:
+        parsed = card['parsed']
+        ext_cards = extensions.get((old_num, parsed['name']), [])
+        needs_rename = (
+            old_num != new_num
+            or not parsed['padded']
+            or any(not e['parsed']['padded'] for e in ext_cards)
+        )
+
+        if needs_rename:
             old_file = card['file']
-            parsed = card['parsed']
 
             # 生成新檔名
             new_filename = f"{new_num:03d}_{parsed['name']}.md"
@@ -372,9 +431,9 @@ def generate_renumbering_plan(result: dict) -> list[dict]:
                 'name': parsed['name'],
             })
 
-            # 處理此卡片的延伸卡片
-            if old_num in extensions:
-                for ext_card in extensions[old_num]:
+            # 處理此卡片的延伸卡片（依編號 + 名稱對應，避免重複編號時掛錯）
+            if ext_cards:
+                for ext_card in ext_cards:
                     ext_parsed = ext_card['parsed']
                     old_ext_file = ext_card['file']
 
@@ -397,9 +456,33 @@ def generate_renumbering_plan(result: dict) -> list[dict]:
     return plan
 
 
+def validate_plan(plan: list[dict]) -> list[str]:
+    """
+    檢查重新編號計畫是否安全
+
+    - 新檔名不可重複
+    - 新檔名不可與計畫外的既有檔案相同（避免覆蓋）
+    """
+    errors = []
+    old_files = {item['old_file'] for item in plan}
+    seen = {}
+    for item in plan:
+        new_file = item['new_file']
+        if new_file in seen:
+            errors.append(f"新檔名重複: {new_file.name}（{seen[new_file].name} 與 {item['old_file'].name}）")
+        seen[new_file] = item['old_file']
+        if new_file.exists() and new_file not in old_files:
+            errors.append(f"新檔名與計畫外的檔案衝突: {new_file.name}")
+    return errors
+
+
 def execute_renumbering(plan: list[dict], dry_run: bool = False) -> bool:
     """
     執行重新編號
+
+    使用兩階段改名：先全部改成暫存檔名，再改成新檔名。
+    有重複編號時，新檔名可能正是另一個尚未搬走的舊檔名，
+    直接 rename 會在 macOS/Linux 上靜默覆蓋檔案。
 
     Returns:
         是否成功
@@ -407,22 +490,42 @@ def execute_renumbering(plan: list[dict], dry_run: bool = False) -> bool:
     if not plan:
         return True
 
-    # 按編號降序排列，避免覆蓋問題
-    plan.sort(key=lambda x: x['old_number'], reverse=True)
+    errors = validate_plan(plan)
+    if errors:
+        print("  ❌ 重新編號計畫不安全，已中止：")
+        for error in errors:
+            print(f"     - {error}")
+        return False
 
-    for item in plan:
-        old_file = item['old_file']
-        new_file = item['new_file']
+    plan = sorted(plan, key=lambda x: (x['new_number'], x['type'] != 'base', x['new_file'].name))
 
-        if dry_run:
-            print(f"  重命名: {old_file.name} → {new_file.name}")
-        else:
-            try:
-                old_file.rename(new_file)
-                print(f"  ✅ {old_file.name} → {new_file.name}")
-            except Exception as e:
-                print(f"  ❌ 錯誤: {old_file.name} - {e}")
-                return False
+    if dry_run:
+        for item in plan:
+            print(f"  重命名: {item['old_file'].name} → {item['new_file'].name}")
+        return True
+
+    # 第 1 階段：改成暫存檔名
+    staged = []
+    try:
+        for i, item in enumerate(plan):
+            tmp = item['old_file'].with_name(f".renumber_tmp_{i:05d}.md")
+            if tmp.exists():
+                raise FileExistsError(f"暫存檔已存在: {tmp.name}")
+            item['old_file'].rename(tmp)
+            staged.append((tmp, item))
+    except Exception as e:
+        print(f"  ❌ 暫存改名失敗：{e}，還原中…")
+        for tmp, item in reversed(staged):
+            tmp.rename(item['old_file'])
+        return False
+
+    # 第 2 階段：改成新檔名
+    for tmp, item in staged:
+        if item['new_file'].exists():
+            print(f"  ❌ 目標已存在，停止：{item['new_file'].name}（暫存檔 {tmp.name} 保留未動）")
+            return False
+        tmp.rename(item['new_file'])
+        print(f"  ✅ {item['old_file'].name} → {item['new_file'].name}")
 
     return True
 
