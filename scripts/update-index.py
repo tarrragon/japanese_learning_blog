@@ -59,20 +59,44 @@ def parse_yaml_frontmatter(content: str) -> dict:
 
     yaml_content = yaml_match.group(1)
     data = {}
+    current_list_key = None
 
-    for line in yaml_content.split("\n"):
-        line = line.strip()
-        if ":" in line and not line.startswith("-"):
-            parts = line.split(":", 1)
-            key = parts[0].strip()
-            value = parts[1].strip() if len(parts) > 1 else ""
+    for raw_line in yaml_content.split("\n"):
+        stripped = raw_line.strip()
+        if not stripped or stripped.startswith("#"):
+            continue
 
-            # 處理 tags 的 inline array
-            if key == "tags" and value.startswith("[") and value.endswith("]"):
-                tags_str = value[1:-1]
-                data["tags"] = [t.strip() for t in tags_str.split(",") if t.strip()]
+        indented = raw_line[:1] in (" ", "\t")
+
+        # 區塊清單：tags:\n  - a\n  - b
+        if indented and stripped.startswith("- ") and current_list_key:
+            item = stripped[2:].strip().strip('"').strip("'")
+            if item:
+                data.setdefault(current_list_key, []).append(item)
+            continue
+
+        # 只讀最上層欄位，避免 version_history 等巢狀欄位覆蓋上層的值
+        if indented:
+            continue
+
+        current_list_key = None
+        if ":" not in stripped or stripped.startswith("-"):
+            continue
+
+        key, value = (part.strip() for part in stripped.split(":", 1))
+
+        if key == "tags":
+            if value.startswith("[") and value.endswith("]"):
+                data["tags"] = [t.strip().strip('"').strip("'") for t in value[1:-1].split(",") if t.strip()]
+            elif not value:
+                data["tags"] = []
+                current_list_key = "tags"
             else:
-                data[key] = value
+                data["tags"] = [value]
+        else:
+            if len(value) >= 2 and value[0] == value[-1] and value[0] in "\"'":
+                value = value[1:-1]
+            data[key] = value
 
     return data
 
