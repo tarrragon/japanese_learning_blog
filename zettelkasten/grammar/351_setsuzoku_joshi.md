@@ -8,9 +8,7 @@ stage: draft
 draft: true
 auto_generated: false
 needs_review: true
-tags:
-  - grammar
-  - particle
+tags: [grammar]
 created: 2025-12-28
 updated: 2025-12-28
 version_history:
@@ -29,7 +27,6 @@ link_status:
   pending: 6
   verified_date: 2025-12-28
 ---
-
 接続助詞は文と文を繋ぐ重要な文法要素です。順接、逆接、条件、並列など様々な関係を表します。
 
 <!--more-->

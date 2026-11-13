@@ -7,8 +7,9 @@ stage: completed
 tags:
   - irregular
   - jlpt/n5
-  - domain/movement
   - basic
+domains:
+  - movement
 created: 2025-10-30
 updated: 2025-10-30
 version_history:

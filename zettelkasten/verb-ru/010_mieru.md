@@ -6,10 +6,11 @@ jlpt: n4
 stage: completed
 tags:
   - jlpt/n4
-  - domain/perception
   - visibility
   - potential
   - basic
+domains:
+  - perception
 created: 2025-10-29
 updated: 2025-12-26
 version_history:

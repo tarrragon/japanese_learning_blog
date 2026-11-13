@@ -6,9 +6,10 @@ jlpt: n4
 stage: completed
 tags:
   - jlpt/n4
-  - domain/communication
   - verb_type
   - concept
+domains:
+  - communication
 created: 2025-10-30
 updated: 2025-10-30
 version_history:

@@ -8,9 +8,11 @@ draft: true
 auto_generated: false
 needs_review: true
 tags:
-  - economics
-  - finance
   - international_trade
+domains:
+  - economics
+domain_topics:
+  - economics/finance
 created: 2025-12-28
 updated: 2025-12-29
 version_history:

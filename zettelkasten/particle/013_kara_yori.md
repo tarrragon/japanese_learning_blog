@@ -4,11 +4,7 @@ description: から vs より - 起點助詞對比
 type: particle
 jlpt: n4
 stage: completed
-tags:
-  - comparison
-  - particle
-  - context/formal
-  - context/casual
+tags: [comparison, context/formal, context/casual]
 created: 2025-12-17
 updated: 2025-12-27
 version_history:

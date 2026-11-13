@@ -10,8 +10,11 @@ needs_review: true
 tags:
   - shopping
   - commerce
-  - "経済学"
   - "日本語能力試験N3"
+domains:
+  - economics
+domain_topics:
+  - economics/general
 dictionary:
   sources:
     daijirin: true

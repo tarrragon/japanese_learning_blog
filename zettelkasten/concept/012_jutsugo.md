@@ -4,9 +4,10 @@ description: 日語句子結構中的述語概念 - 語言學核心理論
 type: concept
 jlpt: concept
 stage: extension-review
-tags:
-  - domain/linguistics
-  - domain/communication
+tags: []
+domains:
+  - linguistics
+  - communication
 created: 2025-10-31
 updated: 2025-10-31
 version_history:

@@ -8,7 +8,7 @@ tags:
   - comparison
   - conjunction
   - reason
-  - n4
+  - jlpt/n4
 created: 2025-12-22
 updated: 2025-12-22
 version_history:

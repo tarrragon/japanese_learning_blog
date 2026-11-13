@@ -6,9 +6,10 @@ jlpt: n5
 stage: extension-review
 tags:
   - context/daily_life
-  - domain/daily_life
   - time
   - jlpt/n5
+domains:
+  - daily-life
 created: 2025-10-31
 updated: 2025-10-31
 version_history:

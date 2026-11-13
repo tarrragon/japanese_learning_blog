@@ -2,9 +2,12 @@
 type: "card"
 stage: pending
 tags:
-  - "finance"
   - "real-estate"
   - "loan"
+domains:
+  - economics
+domain_topics:
+  - economics/finance
 created: "2025-12-26"
 updated: 2025-12-26
 version_history:

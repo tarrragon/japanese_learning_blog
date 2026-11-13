@@ -5,9 +5,10 @@ stage: pending
 tags:
   - context/conversational
   - context/formal
-  - domain/culture
-  - domain/psychology
   - jlpt/n2
+domains:
+  - society
+  - cognition
 created: 2025-12-27
 updated: 2025-12-27
 version_history:

@@ -11,7 +11,8 @@ tags:
   - concept
   - grammar
   - 言語学概念
-  - domain/linguistics
+domains:
+  - linguistics
 created: 2025-12-28
 updated: 2025-12-28
 version_history:

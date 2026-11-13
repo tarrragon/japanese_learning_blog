@@ -3,9 +3,12 @@ title: 経済団体連合会
 jlpt: N1
 stage: pending
 tags:
-  - domain/経済学
   - 専門用語
   - 組織名
+domains:
+  - economics
+domain_topics:
+  - economics/general
 created: 2025-12-22
 updated: 2025-12-22
 version_history:

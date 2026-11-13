@@ -7,8 +7,9 @@ stage: extension-review
 tags:
   - question
   - context/daily_life
-  - domain/communication
   - jlpt/n4
+domains:
+  - communication
 created: 2025-10-31
 updated: 2025-10-31
 version_history:

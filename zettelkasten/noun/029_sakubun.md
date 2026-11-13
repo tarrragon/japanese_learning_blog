@@ -5,9 +5,9 @@ type: noun
 jlpt: n3
 stage: extension-review
 tags:
-  - domain/learning
-  - domain/education
   - jlpt/n3
+domains:
+  - learning
 created: 2025-10-31
 updated: 2025-10-31
 version_history:

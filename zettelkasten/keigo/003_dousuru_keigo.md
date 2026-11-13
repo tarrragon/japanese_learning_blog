@@ -1,11 +1,7 @@
 ---
 title: "どうするの敬語"
 stage: pending
-tags:
-  - keigo
-  - verb
-  - honorific
-  - jlpt-n4
+tags: [keigo, honorific, jlpt-n4]
 created: 2025-12-22
 updated: 2025-12-26
 version_history:

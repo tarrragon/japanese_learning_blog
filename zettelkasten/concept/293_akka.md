@@ -10,7 +10,10 @@ needs_review: true
 tags:
   - 状態変化
   - 医療分野
-  - 経済学
+domains:
+  - economics
+domain_topics:
+  - economics/general
 dictionary:
   sources:
     daijirin: true

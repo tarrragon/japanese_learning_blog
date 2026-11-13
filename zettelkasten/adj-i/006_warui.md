@@ -1,10 +1,7 @@
 ---
 title: "悪い（わるい）"
 stage: pending
-tags:
-  - i-adjective
-  - basic-vocabulary
-  - negative-evaluation
+tags: [basic-vocabulary, negative-evaluation]
 created: 2025-12-26
 updated: 2025-12-26
 version_history:

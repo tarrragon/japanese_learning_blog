@@ -6,8 +6,11 @@ type: concept
 jlpt: n3
 stage: pending
 tags:
-  - economics
   - basic
+domains:
+  - economics
+domain_topics:
+  - economics/general
 created: 2025-12-27
 updated: 2025-12-27
 version_history:

@@ -9,10 +9,13 @@ draft: true
 auto_generated: false
 needs_review: true
 tags:
-  - economics
   - politics
   - formal_language
   - news_vocabulary
+domains:
+  - economics
+domain_topics:
+  - economics/general
 dictionary:
   sources:
     daijirin: false

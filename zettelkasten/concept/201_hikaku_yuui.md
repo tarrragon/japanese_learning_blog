@@ -7,9 +7,11 @@ english: Comparative Advantage
 category: concept
 status: draft
 tags:
-  - economics
-  - trade
   - efficiency
+domains:
+  - economics
+domain_topics:
+  - economics/trade
 version_history:
   - version: 1.5.1
     date: 2025-12-27

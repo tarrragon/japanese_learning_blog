@@ -9,7 +9,10 @@ auto_generated: false
 needs_review: true
 tags:
   - daily_life
-  - finance
+domains:
+  - economics
+domain_topics:
+  - economics/finance
 dictionary:
   sources:
     daijirin: true

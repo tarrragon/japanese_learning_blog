@@ -4,10 +4,7 @@ description: 日語助詞的完整分類系統，包含格助詞、副助詞、�
 type: grammar
 jlpt: n3
 stage: pending
-tags:
-  - jlpt/n3
-  - particle
-  - grammar_system
+tags: [jlpt/n3, grammar_system]
 created: 2025-12-27
 updated: 2025-12-27
 version_history:

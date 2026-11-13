@@ -8,7 +8,8 @@ tags:
   - concept
   - sentence_structure
   - grammar
-  - domain/linguistics
+domains:
+  - linguistics
 created: 2025-10-31
 updated: 2025-10-31
 version_history:

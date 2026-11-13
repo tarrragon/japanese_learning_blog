@@ -4,10 +4,7 @@ description: い形容詞（い形容詞） - 以い結尾的形容詞
 type: grammar
 jlpt: n3
 stage: draft
-tags:
-  - grammar
-  - adjective
-  - basic
+tags: [grammar, basic]
 created: 2025-12-27
 updated: 2025-12-27
 version_history:
@@ -26,7 +23,6 @@ link_status:
   pending: 0
   verified_date: 2025-12-27
 ---
-
 ## 日文
 
 い形容詞（いけいようし）/ い系形容詞

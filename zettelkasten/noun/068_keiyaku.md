@@ -4,10 +4,7 @@ description: "合約、協議"
 type: noun
 jlpt: n4
 stage: pending
-tags:
-  - noun
-  - business
-  - formal
+tags: [business, formal]
 created: 2025-10-31
 updated: 2025-12-26
 version_history:

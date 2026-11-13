@@ -4,10 +4,7 @@ description: "外面、外部"
 type: noun
 jlpt: n4
 stage: pending
-tags:
-  - noun
-  - location
-  - direction
+tags: [location, direction]
 created: 2025-10-31
 updated: 2025-12-26
 version_history:

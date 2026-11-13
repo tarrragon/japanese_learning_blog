@@ -6,9 +6,10 @@ type: concept
 stage: pending
 jlpt: n2
 tags:
-  - domain/社会学
   - concept/社会規範
   - context/formal
+domains:
+  - society
 created: 2025-12-27
 updated: 2025-12-27
 version_history:

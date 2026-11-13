@@ -5,9 +5,12 @@ type: concept
 jlpt: n3
 stage: pending
 tags:
-  - domain/経済学
   - concept/金融
   - concept/機関
+domains:
+  - economics
+domain_topics:
+  - economics/general
 created: 2025-12-27
 updated: 2025-12-27
 version_history:

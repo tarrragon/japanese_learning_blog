@@ -7,9 +7,11 @@ stage: pending
 draft: true
 auto_generated: false
 needs_review: true
-tags:
-  - 経済学
-  - 金融
+tags: []
+domains:
+  - economics
+domain_topics:
+  - economics/finance
 dictionary:
   sources:
     daijirin: true

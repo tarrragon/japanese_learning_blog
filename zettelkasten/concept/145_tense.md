@@ -5,8 +5,9 @@ stage: pending
 tags:
   - context/grammar
   - context/formal
-  - domain/linguistics
   - jlpt/n4
+domains:
+  - linguistics
 created: 2025-12-27
 updated: 2025-12-27
 version_history:

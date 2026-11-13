@@ -6,9 +6,12 @@ updated_date: 2025-12-27
 status: extension-review
 priority: normal
 tags:
-  - economics
   - business
   - statistics
+domains:
+  - economics
+domain_topics:
+  - economics/general
 version_history:
   - version: "1.5.1"
     stage: draft

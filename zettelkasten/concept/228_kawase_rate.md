@@ -5,9 +5,11 @@ japanese: 為替レート
 chinese: 匯率
 english: exchange rate
 tags:
-  - economics
-  - finance
   - currency
+domains:
+  - economics
+domain_topics:
+  - economics/finance
 status: draft
 version_history:
   - version: "1.5.1"

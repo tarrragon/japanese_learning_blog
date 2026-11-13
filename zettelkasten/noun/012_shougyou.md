@@ -6,8 +6,11 @@ jlpt: n3
 stage: completed
 tags:
   - business
-  - economics
   - formal
+domains:
+  - economics
+domain_topics:
+  - economics/general
 created: 2025-10-31
 updated: 2025-12-27
 version_history:

@@ -9,9 +9,11 @@ draft: false
 auto_generated: false
 needs_review: true
 tags:
-  - 経済学
   - 学術的な場面
-  - domain
+domains:
+  - economics
+domain_topics:
+  - economics/general
 dictionary:
   sources:
     daijirin: true

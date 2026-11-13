@@ -10,7 +10,8 @@ tags:
   - benefactive
   - context/formal
   - context/casual
-  - domain/daily_life
+domains:
+  - daily-life
 created: 2025-10-31
 updated: 2025-12-27
 version_history:

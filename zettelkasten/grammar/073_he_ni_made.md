@@ -4,11 +4,7 @@ description: 方向助詞的比較與用法
 type: grammar
 jlpt: n5
 stage: completed
-tags:
-  - grammar
-  - particle
-  - direction
-  - comparison
+tags: [grammar, direction, comparison]
 created: 2025-10-31
 updated: 2025-12-27
 version_history:

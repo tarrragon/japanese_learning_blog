@@ -5,9 +5,11 @@ description: "進出口，國際貿易中的進口與出口"
 type: concept
 jlpt: n3
 stage: extension-review
-tags:
-  - domain/economics
-  - domain/trade
+tags: []
+domains:
+  - economics
+domain_topics:
+  - economics/trade
 created: 2025-12-27
 updated: 2025-12-27
 version_history:

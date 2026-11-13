@@ -8,11 +8,7 @@ stage: pending
 draft: true
 auto_generated: false
 needs_review: true
-tags:
-  - verb_conjugation
-  - conjugation
-  - verb
-  - "日本語能力試験N5"
+tags: [verb_conjugation, conjugation, "日本語能力試験N5"]
 created: 2025-12-28
 updated: 2025-12-28
 version_history:
@@ -31,7 +27,6 @@ link_status:
   pending: 0
   verified_date: 2025-12-28
 ---
-
 一段動詞（上一段動詞・下一段動詞）的活用變化規則，是日文動詞三大類中變化最規則的一類。
 
 <!--more-->

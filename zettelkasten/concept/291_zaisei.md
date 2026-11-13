@@ -4,9 +4,12 @@ description: 政府的收入與支出管理，公共財務的經濟概念
 type: concept
 jlpt: n3
 stage: pending
-tags:
-  - domain/economics
-  - domain/government
+tags: []
+domains:
+  - economics
+  - society
+domain_topics:
+  - economics/general
 created: 2025-12-27
 updated: 2025-12-27
 version_history:

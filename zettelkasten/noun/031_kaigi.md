@@ -6,8 +6,9 @@ jlpt: n3
 stage: extension-review
 tags:
   - context/business
-  - domain/communication
   - jlpt/n3
+domains:
+  - communication
 created: 2025-10-31
 updated: 2025-10-31
 version_history:

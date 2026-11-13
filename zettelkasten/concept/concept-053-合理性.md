@@ -2,10 +2,13 @@
 title: 合理性
 stage: pending
 tags:
-  - 経済学
   - 意思決定
   - 経済人
   - 理性
+domains:
+  - economics
+domain_topics:
+  - economics/general
 created: 2025-12-23
 updated: 2025-12-23
 version_history:

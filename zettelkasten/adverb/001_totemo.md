@@ -7,8 +7,9 @@ stage: completed
 tags:
   - context/daily_life
   - context/casual
-  - domain/communication
   - jlpt/n5
+domains:
+  - communication
 created: 2025-12-17
 updated: 2025-12-27
 version_history:

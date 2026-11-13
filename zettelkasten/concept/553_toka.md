@@ -8,11 +8,7 @@ stage: draft
 draft: true
 auto_generated: false
 needs_review: true
-tags:
-  - particle
-  - grammar_pattern
-  - casual
-  - 日常会話の場面
+tags: [grammar_pattern, casual, 日常会話の場面]
 dictionary:
   sources:
     daijirin: true
@@ -46,7 +42,6 @@ link_status:
   pending: 0
   verified_date: 2025-12-28
 ---
-
 並列助詞「とか」用於列舉多個事例，帶有不完全列舉和模糊表達的語感。
 
 <!--more-->

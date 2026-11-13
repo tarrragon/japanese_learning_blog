@@ -4,10 +4,7 @@ description: 居住、住
 type: verb
 jlpt: n5
 stage: completed
-tags:
-  - verb
-  - living
-  - basic
+tags: [living, basic]
 created: 2025-10-31
 updated: 2025-12-27
 version_history:

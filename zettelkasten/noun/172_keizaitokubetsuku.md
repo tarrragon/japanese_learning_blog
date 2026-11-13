@@ -2,9 +2,12 @@
 jlpt: n1
 stage: pending
 tags:
-  - domain/経済学
   - concept/制度
   - concept/政策
+domains:
+  - economics
+domain_topics:
+  - economics/general
 created: 2025-12-22
 updated: 2025-12-22
 version_history:

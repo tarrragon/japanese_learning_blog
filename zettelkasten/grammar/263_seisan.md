@@ -6,8 +6,11 @@ stage: pending
 tags:
   - context/business
   - context/formal
-  - domain/accounting
   - jlpt/n2
+domains:
+  - economics
+domain_topics:
+  - economics/business
 created: 2025-12-27
 updated: 2025-12-27
 version_history:

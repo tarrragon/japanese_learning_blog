@@ -7,9 +7,12 @@ english: "income, earnings"
 chinese: "所得"
 jlpt: n3
 stage: pending
-tags:
-  - finance
-  - tax
+tags: []
+domains:
+  - economics
+domain_topics:
+  - economics/finance
+  - economics/fiscal
 created: 2025-12-27
 updated: 2025-12-27
 version_history:

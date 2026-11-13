@@ -8,8 +8,11 @@ chinese: "資產管理"
 jlpt: n2
 stage: pending
 tags:
-  - finance
   - investment
+domains:
+  - economics
+domain_topics:
+  - economics/finance
 created: 2025-12-27
 updated: 2025-12-27
 version_history:

@@ -3,7 +3,7 @@ id: 405
 number: 290
 title: 終助詞
 category: grammar
-tags: [particle, sentence-ending, emotion, nuance]
+tags: [sentence-ending, emotion, nuance]
 created: 2025-12-27
 updated: 2025-12-27
 status: draft
@@ -19,7 +19,6 @@ link_status:
   internal_links: 0
   pending_links: 0
 ---
-
 ## 日文解釋
 
 終助詞（しゅうじょし）是位於句子末尾，表達說話者的感情、態度或疑問的助詞。它們不改變句子的基本意義，但會增加說話的情感色彩和語氣。

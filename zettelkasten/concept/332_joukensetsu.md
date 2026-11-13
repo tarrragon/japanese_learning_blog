@@ -8,9 +8,10 @@ draft: false
 auto_generated: false
 needs_review: false
 tags:
-  - domain/linguistics
   - context/academic
   - grammar_structure
+domains:
+  - linguistics
 dictionary:
   sources:
     daijirin: true

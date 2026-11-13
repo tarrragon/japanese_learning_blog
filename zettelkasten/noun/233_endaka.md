@@ -2,9 +2,11 @@
 title: "円高（えんだか）"
 stage: pending
 tags:
-  - "economics"
-  - "finance"
   - "currency"
+domains:
+  - economics
+domain_topics:
+  - economics/finance
 created: 2025-12-26
 updated: 2025-12-26
 version_history:

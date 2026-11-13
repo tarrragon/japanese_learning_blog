@@ -8,10 +8,7 @@ stage: draft
 draft: true
 auto_generated: false
 needs_review: true
-tags:
-  - particle
-  - question
-  - 日常会話の場面
+tags: [question, 日常会話の場面]
 created: 2025-12-28
 updated: 2025-12-28
 version_history:
@@ -32,7 +29,6 @@ link_status:
   pending: 0
   verified_date: 2025-12-28
 ---
-
 疑問・選択・不確定を表す基本助詞「か」の用法を解説します。
 
 <!--more-->

@@ -5,10 +5,11 @@ type: concept
 jlpt: n3
 stage: completed
 tags:
-  - domain/linguistics
-  - domain/communication
   - context/formal
   - context/business
+domains:
+  - linguistics
+  - communication
 created: 2025-10-31
 updated: 2025-12-28
 version_history:

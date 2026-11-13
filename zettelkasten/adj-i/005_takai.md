@@ -2,11 +2,7 @@
 title: 高い (takai)
 jlpt: n5
 stage: pending
-tags:
-  - i-adjective
-  - n5
-  - daily-use
-  - polysemy
+tags: [jlpt/n5, daily-use, polysemy]
 created: 2025-12-22
 updated: 2025-12-26
 version_history:

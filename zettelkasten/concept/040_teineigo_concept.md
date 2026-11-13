@@ -6,8 +6,9 @@ jlpt: none
 stage: extension-review
 tags:
   - context/formal
-  - domain/linguistics
-  - domain/communication
+domains:
+  - linguistics
+  - communication
 created: 2025-10-31
 updated: 2025-10-31
 version_history:

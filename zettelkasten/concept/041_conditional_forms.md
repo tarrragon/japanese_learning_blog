@@ -5,9 +5,10 @@ type: concept
 jlpt: n3
 stage: extension-review
 tags:
-  - domain/linguistics
   - context/academic
   - grammar_comparison
+domains:
+  - linguistics
 created: 2025-10-31
 updated: 2025-10-31
 version_history:

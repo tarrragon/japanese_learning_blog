@@ -4,7 +4,11 @@ category: concept
 japanese: 量的緩和
 chinese: 量化寬鬆
 english: Quantitative Easing (QE)
-tags: [経済, 金融政策, 中央銀行]
+tags: [金融政策, 中央銀行]
+domains:
+  - economics
+domain_topics:
+  - economics/general
 version: v1.5.1
 version_history:
   - version: v1.5.1

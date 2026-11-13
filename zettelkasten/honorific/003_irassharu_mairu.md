@@ -7,8 +7,9 @@ stage: completed
 tags:
   - honorific
   - keigo
-  - domain/movement
   - jlpt/n4
+domains:
+  - movement
 created: 2025-10-28
 updated: 2025-12-26
 version_history:

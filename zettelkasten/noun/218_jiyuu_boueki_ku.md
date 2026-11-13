@@ -4,9 +4,11 @@ description: 自由貿易區，實施特殊貿易政策的經濟特區
 type: noun
 jlpt: none
 stage: pending
-tags:
-  - domain/経済学
-  - domain/貿易
+tags: []
+domains:
+  - economics
+domain_topics:
+  - economics/trade
 created: 2025-12-23
 updated: 2025-12-23
 version_history:

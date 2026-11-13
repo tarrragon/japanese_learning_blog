@@ -2,9 +2,11 @@
 title: "資産"
 stage: pending
 tags:
-  - "domain/経済学"
-  - "domain/金融"
   - "JLPT/N2"
+domains:
+  - economics
+domain_topics:
+  - economics/finance
 created: 2025-12-22
 updated: 2025-12-26
 version_history:

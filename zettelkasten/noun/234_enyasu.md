@@ -1,11 +1,11 @@
 ---
 title: "円安（えんやす）"
 stage: pending
-tags:
-  - noun
-  - economy
-  - finance
-  - currency
+tags: [economy, currency]
+domains:
+  - economics
+domain_topics:
+  - economics/finance
 created: 2025-12-26
 updated: 2025-12-26
 version_history:

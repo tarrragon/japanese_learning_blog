@@ -1,7 +1,7 @@
 ---
 id: 298
 category: grammar
-tags: [adjective, adverb, polysemy, intensity-modifier]
+tags: [adverb, polysemy, intensity-modifier]
 title: 大変の多義用法
 created: 2025-12-27
 version_history:
@@ -16,7 +16,6 @@ link_status:
   internal_links: 2
   pending_links: 0
 ---
-
 # 大変の多義用法
 
 ## 日文解釋

@@ -6,9 +6,10 @@ jlpt: n5
 stage: completed
 tags:
   - jlpt/n5
-  - domain/movement
   - returning
   - basic
+domains:
+  - movement
 created: 2025-12-26
 updated: 2025-12-26
 version_history:

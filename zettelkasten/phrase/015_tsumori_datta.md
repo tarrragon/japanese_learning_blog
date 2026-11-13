@@ -6,9 +6,10 @@ jlpt: n4
 stage: completed
 tags:
   - context/daily_life
-  - domain/cognition
   - grammar_pattern
   - jlpt/n4
+domains:
+  - cognition
 created: 2025-12-17
 updated: 2025-12-27
 version_history:

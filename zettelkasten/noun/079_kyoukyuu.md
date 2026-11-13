@@ -1,8 +1,11 @@
 ---
 jlpt: N2
 stage: pending
-tags:
-  - domain/経済学
+tags: []
+domains:
+  - economics
+domain_topics:
+  - economics/general
 created: 2025-12-22
 updated: 2025-12-22
 version_history:
@@ -124,7 +127,7 @@ To provide goods or services as needed. In economics, refers to offering product
 - [価格](noun/待建立.md) - 價格
 
 ### 相關分類
-- [domain/経済学](../_meta/tags/domain/経済学.md)
+- [経済](../../domains/economics/)
 
 ### 延伸概念
 - [供給曲線](concept/待建立.md) - 供給曲線

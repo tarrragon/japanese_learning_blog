@@ -12,7 +12,8 @@ tags:
   - keigo
   - context/formal
   - context/business
-  - domain/linguistics
+domains:
+  - linguistics
 created: 2025-12-28
 updated: 2025-12-28
 version_history:

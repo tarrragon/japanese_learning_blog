@@ -3,10 +3,7 @@ title: "まだ"
 type: "adverb"
 jlpt: "n5"
 stage: pending
-tags:
-  - 副詞
-  - 時間
-  - n5
+tags: [副詞, 時間, jlpt/n5]
 created: "2025-12-22"
 updated: "2025-12-22"
 version_history:

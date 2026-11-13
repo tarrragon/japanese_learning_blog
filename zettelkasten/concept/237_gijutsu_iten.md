@@ -8,7 +8,10 @@ category: concept
 tags:
   - business
   - technology
+domains:
   - economics
+domain_topics:
+  - economics/general
 status: draft
 version_history:
   - version: 1.5.1

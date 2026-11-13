@@ -5,9 +5,10 @@ type: noun
 jlpt: n5
 stage: extension-review
 tags:
-  - domain/learning
-  - domain/linguistics
   - jlpt/n5
+domains:
+  - learning
+  - linguistics
 created: 2025-10-31
 updated: 2025-10-31
 version_history:

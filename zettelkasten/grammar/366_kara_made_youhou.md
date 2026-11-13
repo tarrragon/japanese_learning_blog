@@ -10,7 +10,6 @@ auto_generated: false
 needs_review: true
 tags:
   - grammar
-  - particle
   - time
   - place
   - jlpt/n5
@@ -44,7 +43,6 @@ link_status:
   pending: 2
   verified_date: 2025-12-28
 ---
-
 助詞「から」和「まで」是日語中表示起點和終點的基本助詞組合，用於標示時間、空間或抽象範圍的界限。
 
 <!--more-->

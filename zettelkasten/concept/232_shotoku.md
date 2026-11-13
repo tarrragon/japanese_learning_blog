@@ -7,9 +7,11 @@ title: "所得"
 title_en: "Income / Earnings"
 title_zh: "所得/收入"
 tags:
-  - "economics"
-  - "finance"
   - "noun"
+domains:
+  - economics
+domain_topics:
+  - economics/finance
 csv_id: "459"
 version_history:
   - version: "1.5.1"

@@ -7,7 +7,8 @@ stage: extension-review
 tags:
   - context/formal
   - context/business
-  - domain/communication
+domains:
+  - communication
 created: 2025-11-03
 updated: 2025-12-28
 version_history:

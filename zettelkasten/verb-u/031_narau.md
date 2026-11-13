@@ -1,12 +1,7 @@
 ---
 title: 習う
 stage: pending
-tags:
-  - verb
-  - u-verb
-  - JLPT-N5
-  - education
-  - learning
+tags: [JLPT-N5, education, learning]
 created: 2025-12-22
 updated: 2025-12-26
 version_history:

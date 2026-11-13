@@ -3,9 +3,11 @@ title: "投資"
 type: "noun"
 jlpt: "n3"
 stage: pending
-tags:
-  - "domain/経済学"
-  - "domain/金融"
+tags: []
+domains:
+  - economics
+domain_topics:
+  - economics/finance
 created: 2025-12-22
 updated: 2025-12-22
 version_history:

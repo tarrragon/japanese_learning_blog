@@ -4,10 +4,11 @@ description: 感情與欲望表達 - 日文中情感和欲望的語言學表現
 type: concept
 jlpt: concept
 stage: extension-review
-tags:
-  - domain/linguistics
-  - domain/cognition
-  - domain/communication
+tags: []
+domains:
+  - linguistics
+  - cognition
+  - communication
 created: 2025-10-31
 updated: 2025-10-31
 version_history:

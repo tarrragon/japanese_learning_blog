@@ -7,9 +7,9 @@ reading: "こくさいほう"
 chinese: "國際法"
 jlpt: n2
 stage: pending
-tags:
-  - domain/law
-  - domain/international
+tags: []
+domains:
+  - society
 created: 2025-12-27
 updated: 2025-12-27
 version_history:

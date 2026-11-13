@@ -2,9 +2,12 @@
 jlpt: N2
 stage: pending
 tags:
-  - domain/経済学
   - pos/noun
   - source/economics
+domains:
+  - economics
+domain_topics:
+  - economics/general
 created: 2025-12-26
 updated: 2025-12-26
 version_history:

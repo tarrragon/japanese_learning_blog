@@ -3,8 +3,10 @@ title: "輸出（ゆしゅつ）"
 stage: pending
 tags:
   - "business"
-  - "economics"
-  - "trade"
+domains:
+  - economics
+domain_topics:
+  - economics/trade
 created: 2025-12-26
 updated: 2025-12-26
 version_history:

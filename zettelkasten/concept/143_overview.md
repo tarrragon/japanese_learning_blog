@@ -5,7 +5,6 @@ type: concept
 jlpt: N2
 stage: extension-review
 tags:
-  - domain/general
   - context/formal
   - context/academic
 created: 2025-12-27

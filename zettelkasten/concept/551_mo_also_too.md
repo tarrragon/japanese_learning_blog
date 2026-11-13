@@ -9,7 +9,6 @@ draft: true
 auto_generated: false
 needs_review: true
 tags:
-  - particle
   - pragmatics
   - information_structure
   - focus
@@ -35,7 +34,6 @@ link_status:
   pending: 3
   verified_date: 2025-12-28
 ---
-
 助詞「も」所承載的「添加」概念，是日語資訊結構中用於建立事物間共同性的核心語用機制。
 
 <!--more-->

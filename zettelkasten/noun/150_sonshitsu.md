@@ -2,9 +2,11 @@
 title: 損失
 jlpt: n2
 stage: extension-review
-tags:
-  - domain/経済学
-  - domain/商業
+tags: []
+domains:
+  - economics
+domain_topics:
+  - economics/business
 created: 2025-12-22
 updated: 2025-12-26
 version_history:

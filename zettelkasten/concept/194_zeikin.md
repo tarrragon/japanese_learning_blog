@@ -6,8 +6,11 @@ jlpt: n2
 stage: extension-review
 tags:
   - context/finance
-  - domain/economics
-  - domain/society
+domains:
+  - economics
+  - society
+domain_topics:
+  - economics/general
 created: 2025-12-27
 updated: 2025-12-27
 version_history:

@@ -4,11 +4,7 @@ description: が vs は 詳細比較 - 日語學習最大難點
 type: comparison
 jlpt: n5
 stage: extension-review
-tags:
-  - comparison
-  - particle
-  - n5
-  - grammar_core
+tags: [comparison, jlpt/n5, grammar_core]
 created: 2025-10-29
 updated: 2025-10-29
 version_history:

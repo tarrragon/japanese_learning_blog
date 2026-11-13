@@ -8,7 +8,11 @@ title_en: Nominal Growth Rate
 reading: めいもくせいちょうりつ
 category: concept
 type: economics
-tags: [economics, finance, jlpt/n2]
+tags: [jlpt/n2]
+domains:
+  - economics
+domain_topics:
+  - economics/finance
 created: 2025-12-27
 status: draft
 version_history:

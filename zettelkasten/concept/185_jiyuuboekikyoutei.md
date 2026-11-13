@@ -6,9 +6,11 @@ title: 自由貿易協定
 title_en: Free Trade Agreement
 title_ja: 自由貿易協定 (じゆうぼうえききょうてい)
 tags:
-  - economics
-  - trade
   - politics
+domains:
+  - economics
+domain_topics:
+  - economics/trade
 version: 1.5.1
 status: draft
 date_created: 2025-12-27

@@ -4,8 +4,9 @@ description: 日語文法句型的系統性概念
 stage: extension-review
 tags:
   - context/academic
-  - domain/linguistics
   - jlpt/n3
+domains:
+  - linguistics
 created: 2025-12-27
 updated: 2025-12-27
 version_history:

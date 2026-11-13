@@ -4,11 +4,7 @@ description: 給予（尊敬語）
 type: verb
 jlpt: n3
 stage: completed
-tags:
-  - verb
-  - honorific
-  - keigo
-  - giving
+tags: [honorific, keigo, giving]
 created: 2025-10-31
 updated: 2025-12-27
 version_history:

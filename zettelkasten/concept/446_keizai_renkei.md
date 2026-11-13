@@ -8,9 +8,12 @@ draft: true
 auto_generated: false
 needs_review: true
 tags:
-  - "経済学"
   - "ビジネスシーン"
   - concept
+domains:
+  - economics
+domain_topics:
+  - economics/general
 created: 2025-12-28
 updated: 2025-12-28
 version_history:

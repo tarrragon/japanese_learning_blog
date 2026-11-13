@@ -11,11 +11,7 @@ stage: completed
 draft: false
 auto_generated: false
 needs_review: false
-tags:
-  - adjective
-  - basic
-  - daily_life
-  - "日本語能力試験N5"
+tags: [basic, daily_life, "日本語能力試験N5"]
 created: 2025-12-27
 updated: 2025-12-28
 version_history:
@@ -43,7 +39,6 @@ link_status:
   pending: 0
   verified_date: 2025-12-28
 ---
-
 ## 日文解釋
 
 **短い**（みじかい）は、長さ・期間・距離などが少ないことを表す。相反語は「長い」である。

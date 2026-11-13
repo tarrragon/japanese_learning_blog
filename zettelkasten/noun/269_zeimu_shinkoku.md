@@ -7,7 +7,10 @@ stage: extension-review
 tags:
   - business
   - legal
-  - finance
+domains:
+  - economics
+domain_topics:
+  - economics/finance
 created: 2025-12-26
 updated: 2025-12-26
 version_history:

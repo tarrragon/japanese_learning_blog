@@ -5,9 +5,11 @@ type: concept
 jlpt: N2
 stage: extension-review
 tags:
-  - domain/経済学
-  - domain/business
   - concept/efficiency
+domains:
+  - economics
+domain_topics:
+  - economics/business
 created: 2025-12-27
 updated: 2025-12-27
 version_history:

@@ -6,10 +6,12 @@ japanese: 金融政策
 chinese: 金融政策
 english: Monetary Policy / Financial Policy
 tags:
-  - 経済
   - 政策
-  - 金融
   - 金融機関
+domains:
+  - economics
+domain_topics:
+  - economics/finance
 version_history:
   - version: 1.5.1
     stage: extension-review

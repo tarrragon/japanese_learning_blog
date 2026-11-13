@@ -5,8 +5,9 @@ stage: pending
 tags:
   - context/family
   - context/formal
-  - domain/daily_life
   - jlpt/n3
+domains:
+  - daily-life
 created: 2025-10-27
 updated: 2025-12-26
 version_history:

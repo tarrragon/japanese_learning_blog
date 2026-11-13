@@ -6,8 +6,9 @@ jlpt: n4
 stage: extension-review
 tags:
   - context/formal
-  - domain/keigo
   - jlpt/n4
+domains:
+  - linguistics
 created: 2025-12-27
 updated: 2025-12-28
 version_history:

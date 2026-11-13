@@ -4,8 +4,7 @@ description: "用於詢問「誰」的疑問詞。當想知道某個人是誰、
 type: noun
 jlpt: n5
 stage: pending
-tags:
-  - noun
+tags: []
 created: 2025-10-31
 updated: 2025-12-26
 version_history:

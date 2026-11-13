@@ -5,11 +5,11 @@ type: noun
 jlpt: n3
 stage: extension-review
 tags:
-  - domain/grammar
-  - domain/keigo
   - context/formal
   - context/business
   - jlpt/n3
+domains:
+  - linguistics
 created: 2025-12-27
 updated: 2025-12-27
 version_history:

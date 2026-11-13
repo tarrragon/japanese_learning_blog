@@ -5,10 +5,11 @@ type: noun
 jlpt: n5
 stage: extension-review
 tags:
-  - domain/location
   - concept/position
   - concept/basic
   - jlpt/n5
+domains:
+  - travel
 created: 2025-10-31
 updated: 2025-12-26
 version_history:
@@ -171,7 +172,7 @@ I'm in a meeting now, so please call later.
 - [〜中](../grammar/〜中.md)- ...中（進行中、期間中）（待建立）
 
 ### 相關標籤
-- [位置](_meta/tags/domain/location.md) - 位置和空間相關詞彙
+- [位置](../../domains/travel/) - 位置和空間相關詞彙
 - [基本概念](_meta/tags/concept/basic.md) - 基礎概念詞彙
 - [JLPT N5](_meta/tags/jlpt/n5.md) - JLPT N5 級別詞彙
 

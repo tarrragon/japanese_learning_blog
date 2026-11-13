@@ -7,7 +7,7 @@ created_date: 2025-12-27
 updated_date: 2025-12-27
 status: draft
 stage: extension-review
-tags: [grammar, tense, verb]
+tags: [grammar, tense]
 related_cards: []
 version_history: []
 content_verification: []
@@ -16,7 +16,6 @@ link_status:
   internal_links: 0
   external_links: 0
 ---
-
 # 時態（じせい）
 
 ## 日文解釋

@@ -5,9 +5,9 @@ type: concept
 jlpt: n3
 stage: extension-review
 tags:
-  - domain/linguistics
-  - domain/semantics
   - context/academic
+domains:
+  - linguistics
 created: 2025-12-27
 updated: 2025-12-27
 version_history:

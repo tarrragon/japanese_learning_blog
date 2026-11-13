@@ -3,10 +3,7 @@ title: "召し上がる"
 type: grammar
 jlpt: n4
 stage: pending
-tags:
-  - honorific
-  - verb
-  - respect-language
+tags: [honorific, respect-language]
 created: 2025-12-26
 updated: 2025-12-26
 version_history:

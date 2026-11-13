@@ -1,11 +1,7 @@
 ---
 type: comparison
 stage: pending
-tags:
-  - particle
-  - movement
-  - destination
-  - path
+tags: [movement, destination, path]
 created: 2025-12-26
 updated: 2025-12-26
 version_history:

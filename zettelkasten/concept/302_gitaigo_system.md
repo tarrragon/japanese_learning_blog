@@ -11,7 +11,8 @@ needs_review: true
 tags:
   - "専門用語・特殊語彙"
   - context
-  - domain/linguistics
+domains:
+  - linguistics
 created: 2025-12-28
 updated: 2025-12-28
 version_history:

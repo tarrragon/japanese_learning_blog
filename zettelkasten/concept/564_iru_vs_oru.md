@@ -10,7 +10,6 @@ auto_generated: false
 needs_review: true
 tags:
   - comparison
-  - verb
   - dialect
   - keigo
   - existence
@@ -51,7 +50,6 @@ link_status:
   pending: 0
   verified_date: 2025-12-28
 ---
-
 存在動詞「いる」與「おる」的方言差異與敬語用法比較。
 
 <!--more-->

@@ -1,10 +1,11 @@
 ---
 stage: pending
-tags:
-  - noun
-  - finance
-  - accounting
-  - JLPT-N1
+tags: [JLPT-N1]
+domains:
+  - economics
+domain_topics:
+  - economics/finance
+  - economics/business
 created: 2025-12-26
 updated: 2025-12-26
 version_history:

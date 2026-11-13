@@ -8,10 +8,7 @@ stage: pending
 draft: true
 auto_generated: false
 needs_review: true
-tags:
-  - particle
-  - jlpt/n5
-  - daily_life
+tags: [jlpt/n5, daily_life]
 created: 2025-12-28
 updated: 2025-12-28
 version_history:
@@ -30,7 +27,6 @@ link_status:
   pending: 0
   verified_date: 2025-12-28
 ---
-
 助詞「も」表示「也、也是」的意思，用於表達類同或累加的概念。
 
 <!--more-->

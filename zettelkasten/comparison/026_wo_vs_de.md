@@ -4,10 +4,7 @@ description: を vs で 用法比較 - 賓語標記 vs 動作場所／手段
 type: comparison
 jlpt: n5
 stage: extension-review
-tags:
-  - comparison
-  - particle
-  - jlpt/n5
+tags: [comparison, jlpt/n5]
 created: 2025-11-03
 updated: 2025-12-19
 version_history:

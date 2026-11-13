@@ -9,7 +9,8 @@ tags:
   - grammar
   - verb_conjugation
   - polite_speech
-  - domain/linguistics
+domains:
+  - linguistics
 created: 2025-12-27
 updated: 2025-12-27
 version_history:

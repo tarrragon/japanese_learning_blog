@@ -4,8 +4,7 @@ description: "表示疑問的代名詞，用於詢問事物或事情。意思是
 type: noun
 jlpt: n4
 stage: pending
-tags:
-  - noun
+tags: []
 created: 2025-10-31
 updated: 2025-12-26
 version_history:

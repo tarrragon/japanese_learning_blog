@@ -10,8 +10,11 @@ needs_review: true
 tags:
   - context/formal
   - context/academic
-  - domain/economics
   - jlpt/n3
+domains:
+  - economics
+domain_topics:
+  - economics/general
 created: 2025-12-28
 updated: 2025-12-28
 version_history:

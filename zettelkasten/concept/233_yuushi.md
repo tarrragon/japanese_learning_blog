@@ -6,9 +6,11 @@ romaji: yuushi
 created_date: 2025-12-27
 status: draft
 tags:
-  - economics
   - business
-  - finance
+domains:
+  - economics
+domain_topics:
+  - economics/finance
 version_history:
   - version: 1.5.1
     date: 2025-12-27

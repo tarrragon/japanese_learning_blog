@@ -4,8 +4,7 @@ description: "顧客、客戶。購買商品或服務的人。這是商業場合
 type: noun
 jlpt: n3
 stage: pending
-tags:
-  - noun
+tags: []
 created: 2025-10-31
 updated: 2025-12-26
 version_history:

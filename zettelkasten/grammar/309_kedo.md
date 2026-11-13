@@ -3,7 +3,7 @@ id: 423
 number: 291
 title: けど
 category: grammar
-tags: [grammar, conjunction, particle, contrast]
+tags: [grammar, conjunction, contrast]
 created_date: 2025-12-27
 updated_date: 2025-12-27
 status: draft
@@ -18,7 +18,6 @@ link_status:
   total_links: 0
   valid_links: 0
 ---
-
 # けど
 
 ## 日文解釋

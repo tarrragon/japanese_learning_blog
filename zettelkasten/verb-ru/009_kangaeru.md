@@ -7,7 +7,8 @@ stage: completed
 tags:
   - basic
   - thinking
-  - domain/cognition
+domains:
+  - cognition
 created: 2025-10-28
 updated: 2025-12-26
 version_history:

@@ -8,9 +8,12 @@ draft: true
 auto_generated: false
 needs_review: true
 tags:
-  - economics
   - ビジネスシーン
   - technical_term
+domains:
+  - economics
+domain_topics:
+  - economics/general
 dictionary:
   sources:
     daijirin: true

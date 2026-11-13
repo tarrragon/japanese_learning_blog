@@ -4,11 +4,7 @@ description: 勉強する/学ぶ/習う/研究する 詳細比較 - 日語學習
 type: comparison
 jlpt: n4
 stage: linking
-tags:
-  - comparison
-  - verb
-  - n4
-  - learning
+tags: [comparison, jlpt/n4, learning]
 created: 2025-12-22
 updated: 2025-12-22
 version_history:

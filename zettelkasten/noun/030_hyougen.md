@@ -5,10 +5,11 @@ type: noun
 jlpt: n4
 stage: extension-review
 tags:
-  - domain/communication
-  - domain/linguistics
   - context/daily_life
   - jlpt/n4
+domains:
+  - communication
+  - linguistics
 created: 2025-10-31
 updated: 2025-10-31
 version_history:

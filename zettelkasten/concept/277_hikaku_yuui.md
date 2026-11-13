@@ -4,9 +4,11 @@ description: 比較優勢，國際貿易理論中說明專業分工利益的核�
 type: concept
 jlpt: n2
 stage: pending
-tags:
-  - domain/economics
-  - domain/trade
+tags: []
+domains:
+  - economics
+domain_topics:
+  - economics/trade
 created: 2025-12-27
 updated: 2025-12-27
 version_history:

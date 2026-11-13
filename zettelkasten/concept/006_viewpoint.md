@@ -4,9 +4,10 @@ description: 日語的視點（視角）概念 - 語言學核心理論
 type: concept
 jlpt: n4
 stage: completed
-tags:
-  - domain/cognition
-  - domain/communication
+tags: []
+domains:
+  - cognition
+  - communication
 created: 2025-10-30
 updated: 2025-12-27
 version_history:

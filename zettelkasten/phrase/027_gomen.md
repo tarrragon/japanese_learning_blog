@@ -1,10 +1,7 @@
 ---
 jlpt: n5
 stage: pending
-tags:
-  - apology
-  - casual
-  - n5
+tags: [apology, casual, jlpt/n5]
 created: 2025-12-22
 updated: 2025-12-26
 version_history:

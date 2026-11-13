@@ -3,10 +3,7 @@ title: "動詞活用"
 type: concept
 jlpt: n5
 stage: pending
-tags:
-  - grammar
-  - verb
-  - conjugation
+tags: [grammar, conjugation]
 created: 2025-12-26
 updated: 2025-12-26
 version_history:

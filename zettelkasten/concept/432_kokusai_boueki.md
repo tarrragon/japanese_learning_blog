@@ -8,9 +8,11 @@ draft: true
 auto_generated: false
 needs_review: true
 tags:
-  - 商業
-  - "経済学"
   - "ビジネスシーン"
+domains:
+  - economics
+domain_topics:
+  - economics/business
 dictionary:
   sources:
     daijirin: false

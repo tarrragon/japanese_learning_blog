@@ -6,8 +6,9 @@ jlpt: n4
 stage: extension-review
 tags:
   - context/daily_life
-  - domain/perception
-  - domain/cognition
+domains:
+  - perception
+  - cognition
 created: 2025-11-03
 updated: 2025-12-28
 version_history:

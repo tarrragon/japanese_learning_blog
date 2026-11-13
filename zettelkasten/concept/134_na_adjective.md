@@ -4,8 +4,9 @@ description: 日語形容詞的一種，修飾名詞時需加「な」
 stage: pending
 tags:
   - context/grammar
-  - domain/linguistics
   - jlpt/n5
+domains:
+  - linguistics
 created: 2025-12-27
 updated: 2025-12-27
 version_history:

@@ -7,9 +7,11 @@ chinese_title: 外匯存底
 english_title: Foreign Exchange Reserves
 status: draft
 tags:
-  - economics
-  - finance
   - international-trade
+domains:
+  - economics
+domain_topics:
+  - economics/finance
 created_date: 2025-12-27
 updated_date: 2025-12-27
 version_history:

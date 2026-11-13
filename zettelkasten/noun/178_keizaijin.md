@@ -2,8 +2,11 @@
 title: 経済人
 jlpt: N1
 stage: pending
-tags:
-  - domain/経済学
+tags: []
+domains:
+  - economics
+domain_topics:
+  - economics/general
 created: 2025-12-22
 updated: 2025-12-26
 version_history:

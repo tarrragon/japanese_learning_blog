@@ -16,7 +16,7 @@
 - **內容**：記錄所有使用的 tag 及其定義
 - **子分類**：
   - `context/` - 使用情境標籤
-  - `domain/` - 領域標籤
+  - 領域改用卡片的 `domains` 欄位，定義在 `data/domains.toml`
   - `jlpt/` - JLPT 等級標籤
 
 ### Categories（分類）

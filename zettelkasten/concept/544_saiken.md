@@ -9,9 +9,12 @@ draft: true
 auto_generated: false
 needs_review: true
 tags:
-  - "金融"
-  - "商業"
   - "ビジネスシーン"
+domains:
+  - economics
+domain_topics:
+  - economics/finance
+  - economics/business
 dictionary:
   sources:
     daijirin: false

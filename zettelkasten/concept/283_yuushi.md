@@ -7,9 +7,11 @@ reading: ゆうし
 type: concept
 jlpt: n3
 stage: extension-review
-tags:
-  - finance
-  - banking
+tags: []
+domains:
+  - economics
+domain_topics:
+  - economics/finance
 created: 2025-12-27
 updated: 2025-12-27
 version_history:

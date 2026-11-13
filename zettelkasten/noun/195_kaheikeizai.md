@@ -3,8 +3,11 @@ title: "貨幣経済"
 stage: pending
 tags:
   - 經濟
-  - 金融
   - N3
+domains:
+  - economics
+domain_topics:
+  - economics/finance
 created: 2025-12-23
 updated: 2025-12-26
 version_history:

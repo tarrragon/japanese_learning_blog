@@ -8,10 +8,7 @@ stage: extension-review
 draft: false
 auto_generated: false
 needs_review: true
-tags:
-  - grammar
-  - particle
-  - jlpt/n3
+tags: [grammar, jlpt/n3]
 dictionary:
   sources:
     daijirin: true
@@ -46,7 +43,6 @@ link_status:
   pending: 6
   verified_date: 2025-12-28
 ---
-
 「として」は資格・立場・身分を表す複合助詞。名詞の後に付いて、その名詞が表す役割や資格で行動することを示す。
 
 <!--more-->

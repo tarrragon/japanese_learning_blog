@@ -7,8 +7,9 @@ stage: extension-review
 tags:
   - grammar_structure
   - verb_conjugation
-  - domain/linguistics
   - jlpt/n4
+domains:
+  - linguistics
 created: 2025-12-26
 updated: 2025-12-26
 version_history:

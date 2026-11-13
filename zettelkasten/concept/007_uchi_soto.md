@@ -5,10 +5,11 @@ type: concept
 jlpt: n3
 stage: extension-review
 tags:
-  - domain/cognition
-  - domain/communication
   - context/social
   - context/business
+domains:
+  - cognition
+  - communication
 created: 2025-10-30
 updated: 2025-10-30
 version_history:

@@ -5,9 +5,10 @@ type: concept
 jlpt: concept
 stage: extension-review
 tags:
-  - domain/cognition
   - context/academic
-  - domain/learning
+domains:
+  - cognition
+  - learning
 created: 2025-10-31
 updated: 2025-10-31
 version_history:

@@ -6,7 +6,8 @@ jlpt: n4
 stage: completed
 tags:
   - jlpt/n4
-  - domain/daily_life
+domains:
+  - daily-life
 created: 2025-10-30
 updated: 2025-10-30
 version_history:

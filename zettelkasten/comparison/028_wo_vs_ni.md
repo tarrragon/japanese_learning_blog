@@ -4,11 +4,7 @@ description: を vs に 詳細比較 - 直接賓語與間接賓語的區別
 type: comparison
 jlpt: n5
 stage: extension-review
-tags:
-  - comparison
-  - particle
-  - jlpt/n5
-  - context/daily_life
+tags: [comparison, jlpt/n5, context/daily_life]
 created: 2025-11-03
 updated: 2025-11-03
 version_history:

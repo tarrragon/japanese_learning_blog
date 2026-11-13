@@ -5,9 +5,11 @@ description: "貨幣基數，中央銀行發行的貨幣總量"
 type: concept
 jlpt: n2
 stage: extension-review
-tags:
-  - domain/economics
-  - domain/monetary_policy
+tags: []
+domains:
+  - economics
+domain_topics:
+  - economics/finance
 created: 2025-12-27
 updated: 2025-12-27
 version_history:

@@ -7,9 +7,12 @@ stage: extension-review
 tags:
   - context/formal
   - context/business
-  - domain/finance
-  - domain/society
   - jlpt/n3
+domains:
+  - economics
+  - society
+domain_topics:
+  - economics/finance
 created: 2025-12-27
 updated: 2025-12-27
 version_history:

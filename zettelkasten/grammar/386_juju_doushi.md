@@ -10,7 +10,6 @@ auto_generated: false
 needs_review: true
 tags:
   - grammar
-  - verb
   - pragmatics
   - social
   - benefactive
@@ -32,7 +31,6 @@ link_status:
   pending: 0
   verified_date: 2025-12-28
 ---
-
 日語授受動詞是表達給予與接受關係的核心動詞系統，包含あげる、くれる、もらう三大動詞及其敬語形式。
 
 <!--more-->

@@ -4,12 +4,9 @@ description: 着く - 到達、抵達
 type: verb
 jlpt: n5
 stage: completed
-tags:
-  - basic
-  - domain/daily_life
-  - verb
-  - movement
-  - arrival
+tags: [basic, movement, arrival]
+domains:
+  - daily-life
 created: 2025-10-31
 updated: 2025-12-27
 version_history:

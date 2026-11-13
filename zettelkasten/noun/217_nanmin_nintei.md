@@ -4,9 +4,12 @@ description: 難民認定，確認某人是否符合難民資格的法律程序
 type: noun
 jlpt: none
 stage: pending
-tags:
-  - domain/経済学
-  - domain/法律
+tags: []
+domains:
+  - economics
+  - society
+domain_topics:
+  - economics/general
 created: 2025-12-23
 updated: 2025-12-23
 version_history:

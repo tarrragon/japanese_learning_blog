@@ -3,9 +3,11 @@ title: "売上"
 type: "basic"
 jlpt: "n3"
 stage: pending
-tags:
-  - "domain/経済学"
-  - "domain/商業"
+tags: []
+domains:
+  - economics
+domain_topics:
+  - economics/business
 created: "2025-12-22"
 updated: "2025-12-22"
 version_history:

@@ -4,10 +4,7 @@ description: 放棄、死心、接受現實
 type: verb
 jlpt: n3
 stage: completed
-tags:
-  - verb
-  - emotion
-  - decision
+tags: [emotion, decision]
 created: 2025-10-31
 updated: 2025-12-27
 version_history:

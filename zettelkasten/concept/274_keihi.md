@@ -8,8 +8,11 @@ chinese: "經費"
 jlpt: n3
 stage: pending
 tags:
-  - finance
   - business
+domains:
+  - economics
+domain_topics:
+  - economics/finance
 created: 2025-12-27
 updated: 2025-12-27
 version_history:

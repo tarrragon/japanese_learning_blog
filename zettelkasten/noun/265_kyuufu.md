@@ -3,8 +3,11 @@ title: "給付"
 stage: pending
 tags:
   - "N1"
-  - "経済"
   - "法律"
+domains:
+  - economics
+domain_topics:
+  - economics/general
 created: 2025-12-26
 updated: 2025-12-26
 version_history:

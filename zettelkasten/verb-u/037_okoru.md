@@ -3,11 +3,7 @@ title: "起こる（おこる）"
 type: verb
 jlpt: n4
 stage: pending
-tags:
-  - u-verb
-  - jlpt-n4
-  - occurrence
-  - event
+tags: [jlpt-n4, occurrence, event]
 created: 2025-12-24
 updated: 2025-12-26
 version_history:

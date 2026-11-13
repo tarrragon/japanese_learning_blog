@@ -3,9 +3,7 @@ title: "他動詞與自動詞"
 type: grammar
 jlpt: n4
 stage: pending
-tags:
-  - verb
-  - jlpt-n4
+tags: [jlpt-n4]
 created: 2025-12-26
 updated: 2025-12-26
 version_history:

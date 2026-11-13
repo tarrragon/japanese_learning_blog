@@ -1,9 +1,11 @@
 ---
 stage: pending
 tags:
-  - domain/経済学
-  - accounting
   - financial-statement
+domains:
+  - economics
+domain_topics:
+  - economics/business
 created: 2025-12-26
 updated: 2025-12-26
 version_history:

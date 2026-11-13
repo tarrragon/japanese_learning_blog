@@ -5,10 +5,11 @@ type: noun
 jlpt: n4
 stage: completed
 tags:
-  - domain/transportation
   - semantic/location
   - semantic/endpoint
   - jlpt/n4
+domains:
+  - travel
 created: 2025-10-31
 updated: 2025-12-27
 version_history:

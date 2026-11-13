@@ -9,10 +9,11 @@ tags:
   - daily_life
   - context/casual
   - context/formal
-  - domain/daily_life
   - jlpt/n5
   - time
   - habitual
+domains:
+  - daily-life
 created: 2025-12-17
 updated: 2025-12-27
 version_history:

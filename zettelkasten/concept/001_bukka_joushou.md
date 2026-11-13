@@ -5,8 +5,11 @@ stage: pending
 tags:
   - context/formal
   - context/academic
-  - domain/economics
   - jlpt/n1
+domains:
+  - economics
+domain_topics:
+  - economics/general
 created: 2025-10-27
 updated: 2025-12-26
 version_history:

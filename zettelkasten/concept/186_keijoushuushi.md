@@ -6,7 +6,12 @@ kana: けいじょうしゅうし
 kanji: 経常収支
 romaji: keijoushuushi
 category: concept
-tags: [economics, finance, trade]
+tags: []
+domains:
+  - economics
+domain_topics:
+  - economics/finance
+  - economics/trade
 status: draft
 created_date: 2025-12-27
 version_history:

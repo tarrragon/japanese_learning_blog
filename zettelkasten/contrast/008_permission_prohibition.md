@@ -7,7 +7,8 @@ stage: completed
 tags:
   - vocabulary_distinction
   - context/formal
-  - domain/communication
+domains:
+  - communication
 created: 2025-11-03
 updated: 2025-12-27
 version_history:

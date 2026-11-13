@@ -2,11 +2,14 @@
 title: "確定申告"
 stage: pending
 tags:
-  - "tax"
-  - "finance"
   - "legal"
   - "government"
   - "business"
+domains:
+  - economics
+domain_topics:
+  - economics/fiscal
+  - economics/finance
 created: 2025-12-26
 updated: 2025-12-26
 version_history:

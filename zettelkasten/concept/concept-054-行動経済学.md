@@ -2,10 +2,13 @@
 title: 行動経済学
 stage: pending
 tags:
-  - 経済学
   - 心理学
   - 意思決定
   - 行動科学
+domains:
+  - economics
+domain_topics:
+  - economics/general
 created: 2025-12-23
 updated: 2025-12-23
 version_history:

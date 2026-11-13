@@ -4,9 +4,9 @@ description: "尊敬、尊重"
 type: concept
 jlpt: n3
 stage: pending
-tags:
-  - domain/語用論
-  - domain/社会言語学
+tags: []
+domains:
+  - linguistics
 created: 2025-12-26
 updated: 2025-12-26
 version_history:

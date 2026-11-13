@@ -8,10 +8,11 @@ draft: true
 auto_generated: false
 needs_review: true
 tags:
-  - domain/communication
   - context/business
   - "ビジネスシーン"
   - "フォーマルな場面"
+domains:
+  - communication
 dictionary:
   sources:
     daijirin: true

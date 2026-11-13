@@ -2,7 +2,11 @@
 id: 123
 title: 財政政策
 category: concept
-tags: [economics, policy]
+tags: [policy]
+domains:
+  - economics
+domain_topics:
+  - economics/general
 version_history:
   - version: "1.5.1"
     status: draft

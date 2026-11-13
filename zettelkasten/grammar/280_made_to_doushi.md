@@ -7,7 +7,6 @@ stage: draft
 tags:
   - grammar
   - jlpt/n4
-  - particle
   - verb-pattern
   - time
 created: 2025-12-27
@@ -28,7 +27,6 @@ link_status:
   pending: 0
   verified_date: 2025-12-27
 ---
-
 # までと動詞の組み合わせ
 
 ## 日文

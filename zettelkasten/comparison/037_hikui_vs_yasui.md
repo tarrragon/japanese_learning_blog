@@ -1,11 +1,7 @@
 ---
 title: "低い vs 安い"
 stage: pending
-tags:
-  - i-adjective
-  - comparison
-  - price
-  - height
+tags: [comparison, price, height]
 created: 2025-12-22
 updated: 2025-12-22
 version_history:

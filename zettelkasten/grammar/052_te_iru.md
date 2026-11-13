@@ -6,9 +6,10 @@ jlpt: n5
 stage: completed
 tags:
   - jlpt/n5
-  - domain/daily_life
   - context/casual
   - context/formal
+domains:
+  - daily-life
 created: 2025-10-30
 updated: 2025-10-30
 version_history:

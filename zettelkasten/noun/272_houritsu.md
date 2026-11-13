@@ -5,9 +5,10 @@ type: noun
 jlpt: n3
 stage: extension-review
 tags:
-  - domain/law
   - context/formal
   - jlpt/n3
+domains:
+  - society
 created: 2025-12-27
 updated: 2025-12-27
 id: 125

@@ -6,7 +6,6 @@ jlpt: n5
 stage: completed
 tags:
   - grammar
-  - verb
   - pragmatics
   - social
   - context/business

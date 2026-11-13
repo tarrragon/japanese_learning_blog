@@ -13,7 +13,8 @@ tags:
   - kenjougo
   - ビジネスシーン
   - フォーマルな場面
-  - domain/communication
+domains:
+  - communication
 dictionary:
   sources:
     daijirin: true

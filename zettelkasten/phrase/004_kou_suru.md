@@ -7,8 +7,9 @@ stage: completed
 tags:
   - context/casual
   - context/business
-  - domain/daily_life
   - jlpt/n5
+domains:
+  - daily-life
 created: 2025-10-30
 updated: 2025-12-27
 version_history:

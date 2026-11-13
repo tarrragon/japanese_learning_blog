@@ -5,9 +5,10 @@ type: concept
 jlpt: N3
 stage: extension-review
 tags:
-  - domain/linguistics
   - linguistic/morphology
   - linguistic/concept
+domains:
+  - linguistics
 created: 2025-12-27
 updated: 2025-12-27
 version_history:

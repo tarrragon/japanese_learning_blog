@@ -5,9 +5,9 @@ type: noun
 jlpt: n3
 stage: extension-review
 tags:
-  - domain/abstract
-  - domain/news_topics
   - jlpt/n3
+domains:
+  - society
 created: 2025-12-27
 updated: 2025-12-27
 version_history:

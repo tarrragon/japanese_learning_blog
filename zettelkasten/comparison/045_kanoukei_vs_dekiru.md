@@ -7,7 +7,7 @@ tags:
   - grammar
   - potential-form
   - ability
-  - n4
+  - jlpt/n4
 created: 2025-12-24
 updated: 2025-12-26
 version_history:

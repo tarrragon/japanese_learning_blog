@@ -3,9 +3,12 @@ title: "控除"
 stage: pending
 tags:
   - "financial"
-  - "accounting"
-  - "tax"
   - "bureaucratic"
+domains:
+  - economics
+domain_topics:
+  - economics/business
+  - economics/fiscal
 created: 2025-12-26
 updated: 2025-12-26
 version_history:

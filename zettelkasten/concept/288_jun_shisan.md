@@ -8,9 +8,12 @@ english: "net assets"
 chinese: "淨資產"
 jlpt: n2
 stage: pending
-tags:
-  - finance
-  - accounting
+tags: []
+domains:
+  - economics
+domain_topics:
+  - economics/finance
+  - economics/business
 created: 2025-12-27
 updated: 2025-12-27
 version_history:

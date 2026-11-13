@@ -9,8 +9,11 @@ auto_generated: false
 needs_review: true
 tags:
   - economy
-  - finance
   - institution
+domains:
+  - economics
+domain_topics:
+  - economics/finance
 dictionary:
   sources:
     daijirin: false

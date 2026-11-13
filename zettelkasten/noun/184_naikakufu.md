@@ -5,7 +5,10 @@ tags:
   - 政府機関
   - 政治
   - 行政
-  - 経済
+domains:
+  - economics
+domain_topics:
+  - economics/general
 created: 2025-12-23
 updated: 2025-12-23
 version_history:

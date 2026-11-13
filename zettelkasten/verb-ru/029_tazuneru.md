@@ -1,12 +1,6 @@
 ---
 stage: pending
-tags:
-  - japanese
-  - verb
-  - ichidan
-  - ru-verb
-  - visit
-  - inquire
+tags: [japanese, visit, inquire]
 created: 2025-12-26
 updated: 2025-12-26
 version_history:

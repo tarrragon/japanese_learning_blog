@@ -2,9 +2,11 @@
 title: "金融商品"
 stage: pending
 tags:
-  - 金融
-  - 投資
   - N3
+domains:
+  - economics
+domain_topics:
+  - economics/finance
 created: 2025-12-23
 updated: 2025-12-26
 version_history:

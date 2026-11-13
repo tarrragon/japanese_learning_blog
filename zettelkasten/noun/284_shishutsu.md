@@ -9,7 +9,11 @@ japanese: 支出
 romaji: shishutsu
 chinese: 支出
 english: expenditure, expense, outlay
-tags: [finance, economy]
+tags: [economy]
+domains:
+  - economics
+domain_topics:
+  - economics/finance
 created_date: 2025-12-27
 updated_date: 2025-12-27
 status: draft

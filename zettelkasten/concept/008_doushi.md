@@ -5,8 +5,9 @@ type: concept
 jlpt: n5
 stage: extension-review
 tags:
-  - domain/cognition
   - context/academic
+domains:
+  - cognition
 created: 2025-10-30
 updated: 2025-10-30
 version_history:

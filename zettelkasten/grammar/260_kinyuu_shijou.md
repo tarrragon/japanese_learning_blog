@@ -6,9 +6,11 @@ jlpt: n2
 stage: extension-review
 id: 241
 tags:
-  - domain/economics
-  - domain/finance
   - jlpt/n2
+domains:
+  - economics
+domain_topics:
+  - economics/finance
 created: 2025-12-27
 updated: 2025-12-28
 version_history:

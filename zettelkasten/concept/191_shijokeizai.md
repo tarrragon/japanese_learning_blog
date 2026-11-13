@@ -5,7 +5,11 @@ category: concept
 created_date: 2025-12-27
 updated_date: 2025-12-27
 stage: pending
-tags: [economics, 経済制度]
+tags: [経済制度]
+domains:
+  - economics
+domain_topics:
+  - economics/general
 japanese: 市場経済
 chinese: 市場經濟
 english: Market Economy

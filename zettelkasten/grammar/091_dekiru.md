@@ -6,8 +6,9 @@ jlpt: n5
 stage: extension-review
 tags:
   - context/daily_life
-  - domain/cognition
   - jlpt/n5
+domains:
+  - cognition
 created: 2025-10-31
 updated: 2025-12-28
 version_history:

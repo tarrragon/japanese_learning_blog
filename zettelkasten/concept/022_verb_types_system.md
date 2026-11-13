@@ -5,9 +5,10 @@ type: concept
 jlpt: concept
 stage: extension-review
 tags:
-  - domain/linguistics
   - grammar/verb-classification
   - linguistic_theory
+domains:
+  - linguistics
 created: 2025-10-31
 updated: 2025-10-31
 version_history:

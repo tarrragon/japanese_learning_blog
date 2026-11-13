@@ -7,8 +7,9 @@ stage: extension-review
 tags:
   - context/academic
   - context/daily_life
-  - domain/linguistics
   - jlpt/n4
+domains:
+  - linguistics
 created: 2025-10-31
 updated: 2025-12-28
 version_history:

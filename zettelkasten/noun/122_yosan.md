@@ -2,8 +2,11 @@
 title: "予算"
 jlpt: "n3"
 stage: pending
-tags:
-  - "domain/経済学"
+tags: []
+domains:
+  - economics
+domain_topics:
+  - economics/general
 created: "2025-12-22"
 updated: "2025-12-22"
 version_history:

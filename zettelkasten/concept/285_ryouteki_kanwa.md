@@ -5,9 +5,11 @@ id: 456
 type: concept
 jlpt: n2
 stage: pending
-tags:
-  - domain/economics
-  - domain/monetary_policy
+tags: []
+domains:
+  - economics
+domain_topics:
+  - economics/finance
 created: 2025-12-27
 updated: 2025-12-27
 version_history:

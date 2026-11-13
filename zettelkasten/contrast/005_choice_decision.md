@@ -6,8 +6,9 @@ jlpt: n4
 stage: completed
 tags:
   - vocabulary_distinction
-  - domain/cognition
   - context/formal
+domains:
+  - cognition
 created: 2025-11-03
 updated: 2025-12-27
 version_history:

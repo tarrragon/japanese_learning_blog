@@ -9,8 +9,11 @@ auto_generated: false
 needs_review: true
 tags:
   - mathematics
-  - economics
   - statistics
+domains:
+  - economics
+domain_topics:
+  - economics/general
 dictionary:
   sources:
     daijirin: false

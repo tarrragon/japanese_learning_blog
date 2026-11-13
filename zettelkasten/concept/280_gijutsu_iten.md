@@ -5,9 +5,12 @@ description: "技術轉移，技術的跨國或跨組織轉移"
 type: concept
 jlpt: n2
 stage: extension-review
-tags:
-  - domain/business
-  - domain/technology
+tags: []
+domains:
+  - economics
+  - technology
+domain_topics:
+  - economics/business
 created: 2025-12-27
 updated: 2025-12-27
 version_history:

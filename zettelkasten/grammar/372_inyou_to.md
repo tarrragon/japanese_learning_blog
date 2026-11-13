@@ -11,7 +11,8 @@ needs_review: true
 tags:
   - context/formal
   - context/casual
-  - domain/communication
+domains:
+  - communication
 created: 2025-12-28
 updated: 2025-12-28
 version_history:

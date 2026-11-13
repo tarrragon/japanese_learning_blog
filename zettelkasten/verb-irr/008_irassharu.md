@@ -4,11 +4,7 @@ description: 在、來、去的尊敬語
 type: verb
 jlpt: n4
 stage: completed
-tags:
-  - verb
-  - honorific
-  - keigo
-  - irregular
+tags: [honorific, keigo, irregular]
 created: 2025-10-31
 updated: 2025-12-27
 version_history:

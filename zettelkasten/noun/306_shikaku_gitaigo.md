@@ -5,9 +5,9 @@ stage: pending
 tags:
   - context/casual
   - context/descriptive
-  - domain/onomatopoeia
-  - domain/language
   - jlpt/n2
+domains:
+  - linguistics
 created: 2025-12-27
 updated: 2025-12-27
 version_history:

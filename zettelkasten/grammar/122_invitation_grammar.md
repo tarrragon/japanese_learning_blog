@@ -9,7 +9,8 @@ tags:
   - jlpt/n4
   - invitation
   - context/social
-  - domain/communication
+domains:
+  - communication
 created: 2025-11-03
 updated: 2025-12-28
 version_history:

@@ -3,10 +3,7 @@ title: "使役受身"
 type: grammar
 jlpt: n3
 stage: pending
-tags:
-  - verb-form
-  - n3
-  - causative-passive
+tags: [verb-form, jlpt/n3, causative-passive]
 created: 2025-12-26
 updated: 2025-12-26
 version_history:

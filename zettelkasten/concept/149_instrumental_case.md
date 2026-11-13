@@ -4,11 +4,7 @@ description: "表示動作手段、方法或工具的語法格，對應日語的
 type: concept
 jlpt: none
 stage: extension-review
-tags:
-  - linguistics
-  - grammar_theory
-  - syntax
-  - particle
+tags: [linguistics, grammar_theory, syntax]
 created: 2025-12-27
 updated: 2025-12-27
 version_history:

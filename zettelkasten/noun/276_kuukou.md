@@ -6,8 +6,9 @@ jlpt: n5
 stage: extension-review
 tags:
   - context/formal
-  - domain/travel
   - jlpt/n5
+domains:
+  - travel
 created: 2025-12-27
 updated: 2025-12-27
 id: 295

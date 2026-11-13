@@ -5,9 +5,10 @@ type: concept
 jlpt: none
 stage: extension-review
 tags:
-  - domain/cognition
-  - domain/linguistics
   - context/academic
+domains:
+  - cognition
+  - linguistics
 created: 2025-10-31
 updated: 2025-10-31
 version_history:

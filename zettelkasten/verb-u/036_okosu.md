@@ -3,10 +3,7 @@ title: "起こす（おこす）"
 type: verb
 jlpt: n4
 stage: pending
-tags:
-  - 五段動詞
-  - 他動詞
-  - u-verb
+tags: [五段動詞, 他動詞]
 created: 2025-12-24
 updated: 2025-12-26
 version_history:

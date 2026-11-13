@@ -5,7 +5,6 @@ type: noun
 jlpt: n4
 stage: completed
 tags:
-  - domain/general
   - context/formal
   - expression/resignation
   - jlpt/n4

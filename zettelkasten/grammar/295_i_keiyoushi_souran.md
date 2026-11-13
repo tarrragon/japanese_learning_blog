@@ -8,11 +8,7 @@ stage: completed
 draft: false
 auto_generated: false
 needs_review: true
-tags:
-  - grammar
-  - conjugation
-  - adjective
-  - word_class
+tags: [grammar, conjugation, word_class]
 created: 2025-12-28
 updated: 2025-12-28
 version_history:
@@ -31,7 +27,6 @@ link_status:
   pending: 0
   verified_date: 2025-12-28
 ---
-
 イ形容詞是日語形容詞的主要類型之一，以「い」結尾，可直接修飾名詞和進行活用變化。
 
 <!--more-->

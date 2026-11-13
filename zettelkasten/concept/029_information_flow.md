@@ -5,9 +5,10 @@ type: concept
 jlpt: concept
 stage: extension-review
 tags:
-  - domain/communication
-  - domain/linguistics
   - context/academic
+domains:
+  - communication
+  - linguistics
 created: 2025-10-31
 updated: 2025-10-31
 version_history:

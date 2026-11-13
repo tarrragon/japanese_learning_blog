@@ -5,11 +5,12 @@ type: grammar
 jlpt: n4
 stage: extension-review
 tags:
-  - domain/linguistics
   - context/formal
   - context/academic
   - jlpt/n4
   - jlpt/n5
+domains:
+  - linguistics
 created: 2025-10-31
 updated: 2025-12-28
 version_history:

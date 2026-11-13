@@ -1,12 +1,7 @@
 ---
 title: "大きい vs 大きな"
 stage: pending
-tags:
-  - i-adjective
-  - na-adjective
-  - size
-  - comparison
-  - grammar
+tags: [size, comparison, grammar]
 created: 2025-12-22
 updated: 2025-12-22
 version_history:

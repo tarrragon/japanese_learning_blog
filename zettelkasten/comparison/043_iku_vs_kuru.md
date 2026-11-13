@@ -3,11 +3,7 @@ title: "行く vs 来る 詳細比較"
 type: comparison
 jlpt: n5
 stage: pending
-tags:
-  - grammar
-  - verb
-  - direction
-  - perspective
+tags: [grammar, direction, perspective]
 created: 2025-12-26
 updated: 2025-12-26
 version_history:

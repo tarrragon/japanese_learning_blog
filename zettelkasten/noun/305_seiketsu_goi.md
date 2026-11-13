@@ -4,10 +4,10 @@ description: 清潔相關詞彙
 stage: pending
 tags:
   - context/daily
-  - domain/household
-  - domain/lifestyle
   - jlpt/n3
   - jlpt/n2
+domains:
+  - daily-life
 created: 2025-12-27
 updated: 2025-12-27
 version_history:

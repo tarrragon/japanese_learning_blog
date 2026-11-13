@@ -2,7 +2,11 @@
 id: 130
 title: 株式
 category: concept
-tags: [経済, 金融, ビジネス]
+tags: [ビジネス]
+domains:
+  - economics
+domain_topics:
+  - economics/finance
 version_history:
   - version: "1.5.1"
     date: "2025-12-27"

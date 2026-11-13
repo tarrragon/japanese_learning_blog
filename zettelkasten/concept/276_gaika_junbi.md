@@ -5,10 +5,11 @@ description: "外匯儲備，國家持有的外國貨幣和資產，用於穩定
 type: concept
 jlpt: n2
 stage: pending
-tags:
-  - domain/economics
-  - domain/finance
-  - domain/international
+tags: []
+domains:
+  - economics
+domain_topics:
+  - economics/finance
 created: 2025-12-27
 updated: 2025-12-27
 version_history:

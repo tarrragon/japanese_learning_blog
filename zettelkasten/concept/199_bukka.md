@@ -5,8 +5,11 @@ type: concept
 jlpt: n2
 stage: pending
 tags:
-  - domain/経済
   - concept/price
+domains:
+  - economics
+domain_topics:
+  - economics/general
 created: 2025-12-27
 updated: 2025-12-27
 version_history:

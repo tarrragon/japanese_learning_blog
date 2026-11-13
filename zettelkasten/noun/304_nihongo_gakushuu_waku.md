@@ -5,10 +5,10 @@ type: noun
 jlpt: n4
 stage: extension-review
 tags:
-  - domain/education
-  - domain/methodology
   - context/academic
   - jlpt/n4
+domains:
+  - learning
 created: 2025-12-27
 updated: 2025-12-27
 version_history:

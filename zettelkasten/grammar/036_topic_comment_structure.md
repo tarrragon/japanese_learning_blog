@@ -9,7 +9,8 @@ tags:
   - sentence_structure
   - linguistic_theory
   - context/formal
-  - domain/linguistics
+domains:
+  - linguistics
 created: 2025-10-30
 updated: 2025-10-30
 version_history:

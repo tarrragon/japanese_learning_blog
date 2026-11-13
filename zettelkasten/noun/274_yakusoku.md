@@ -6,7 +6,8 @@ stage: extension-review
 tags:
   - context/formal
   - context/daily
-  - domain/社会
+domains:
+  - society
 created: 2025-12-27
 updated: 2025-12-27
 version_history:

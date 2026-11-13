@@ -6,8 +6,11 @@ type: concept
 jlpt: n3
 stage: pending
 tags:
-  - banking
   - daily_life
+domains:
+  - economics
+domain_topics:
+  - economics/finance
 created: 2025-12-27
 updated: 2025-12-27
 version_history:

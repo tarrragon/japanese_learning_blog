@@ -4,10 +4,10 @@ description: 說話者（話者）- 語言學核心概念，指發出言語行�
 type: concept
 jlpt: n4
 stage: extension-review
-tags:
-  - domain/linguistics
-  - domain/pragmatics
-  - domain/communication
+tags: []
+domains:
+  - linguistics
+  - communication
 created: 2025-12-27
 updated: 2025-12-27
 version_history:

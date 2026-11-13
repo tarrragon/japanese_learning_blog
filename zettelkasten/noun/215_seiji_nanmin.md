@@ -2,9 +2,9 @@
 jlpt: n2
 stage: pending
 tags:
-  - domain/社会学
-  - domain/政治学
   - concept/migration
+domains:
+  - society
 created: 2025-12-26
 updated: 2025-12-26
 version_history:

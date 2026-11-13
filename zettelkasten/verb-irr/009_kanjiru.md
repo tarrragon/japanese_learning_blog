@@ -7,9 +7,10 @@ stage: extension-review
 tags:
   - context/formal
   - context/casual
-  - domain/perception
-  - domain/cognition
   - jlpt/n4
+domains:
+  - perception
+  - cognition
 created: 2025-12-17
 updated: 2025-12-17
 version_history:

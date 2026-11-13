@@ -5,9 +5,12 @@ type: contrast
 jlpt: n3
 stage: completed
 tags:
-  - domain/commerce
   - vocabulary_distinction
   - formality_levels
+domains:
+  - economics
+domain_topics:
+  - economics/business
 created: 2025-11-03
 updated: 2025-12-27
 version_history:

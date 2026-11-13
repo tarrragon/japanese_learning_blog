@@ -7,9 +7,10 @@ id: 97
 stage: pending
 tags:
   - jlpt/n3
-  - domain/society
   - context/formal
-  - domain/communication
+domains:
+  - society
+  - communication
 created: 2025-12-27
 updated: 2025-12-27
 version_history:

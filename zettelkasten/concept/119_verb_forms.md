@@ -9,7 +9,8 @@ tags:
   - grammar
   - verb_conjugation
   - morphology
-  - domain/linguistics
+domains:
+  - linguistics
 created: 2025-12-26
 updated: 2025-12-26
 version_history:

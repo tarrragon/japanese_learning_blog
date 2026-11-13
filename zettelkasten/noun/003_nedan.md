@@ -5,8 +5,11 @@ stage: pending
 tags:
   - context/casual
   - context/business
-  - domain/economics
   - jlpt/n4
+domains:
+  - economics
+domain_topics:
+  - economics/general
 created: 2025-10-27
 updated: 2025-12-26
 version_history:

@@ -4,8 +4,9 @@ description: 義務、責任、責務
 stage: extension-review
 tags:
   - context/formal
-  - domain/learning
   - jlpt/n3
+domains:
+  - learning
 created: 2025-10-31
 updated: 2025-12-26
 version_history:

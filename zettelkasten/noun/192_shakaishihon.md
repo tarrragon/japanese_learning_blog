@@ -1,9 +1,12 @@
 ---
 stage: pending
 tags:
-  - economics
   - infrastructure
   - public-sector
+domains:
+  - economics
+domain_topics:
+  - economics/general
 created: 2025-12-26
 updated: 2025-12-26
 version_history:

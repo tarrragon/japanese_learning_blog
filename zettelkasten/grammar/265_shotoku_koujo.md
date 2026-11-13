@@ -6,9 +6,12 @@ type: economics
 stage: extension-review
 tags:
   - context/formal
-  - domain/tax
-  - domain/finance
   - jlpt/n1
+domains:
+  - economics
+domain_topics:
+  - economics/fiscal
+  - economics/finance
 created: 2025-12-27
 updated: 2025-12-28
 version_history:

@@ -10,8 +10,9 @@ tags:
   - commerce
   - conversation
   - context/casual
-  - domain/daily_life
   - jlpt/n5
+domains:
+  - daily-life
 created: 2025-10-31
 updated: 2025-12-27
 version_history:

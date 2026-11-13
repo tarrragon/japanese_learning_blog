@@ -4,9 +4,12 @@ title: 純資産
 kana: じゅんしさん
 category: concept
 tags:
-  - finance
-  - accounting
   - assets
+domains:
+  - economics
+domain_topics:
+  - economics/finance
+  - economics/business
 version_history:
   - version: 1.5.1
     status: created

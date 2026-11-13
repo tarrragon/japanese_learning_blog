@@ -9,9 +9,11 @@ chinese: 實質成長率
 english: Real Growth Rate
 jlpt: n2
 status: draft
-tags:
+tags: []
+domains:
   - economics
-  - finance
+domain_topics:
+  - economics/finance
 created_at: 2025-12-27
 updated_at: 2025-12-27
 version_history:

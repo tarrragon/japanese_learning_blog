@@ -3,7 +3,11 @@ id: 408
 title: 債券
 slug: saiken
 category: concept
-tags: [finance, economics]
+tags: []
+domains:
+  - economics
+domain_topics:
+  - economics/finance
 version_history:
   - version: "1.5.1"
     date: "2025-12-27"

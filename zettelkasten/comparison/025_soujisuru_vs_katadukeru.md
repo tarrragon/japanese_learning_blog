@@ -2,11 +2,7 @@
 title: "掃除する vs 片付ける"
 jlpt: n5
 stage: pending
-tags:
-  - comparison
-  - verb
-  - daily-life
-  - cleaning
+tags: [comparison, daily-life, cleaning]
 created: 2025-12-22
 updated: 2025-12-26
 version_history:

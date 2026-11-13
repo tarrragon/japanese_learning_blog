@@ -4,9 +4,11 @@ description: 稅制優惠，政府為達成特定政策目標而提供的稅務�
 type: noun
 jlpt: none
 stage: pending
-tags:
-  - domain/経済学
-  - domain/財政
+tags: []
+domains:
+  - economics
+domain_topics:
+  - economics/fiscal
 created: 2025-12-23
 updated: 2025-12-23
 version_history:

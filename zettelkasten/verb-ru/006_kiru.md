@@ -6,8 +6,9 @@ jlpt: n5
 stage: completed
 tags:
   - basic
-  - domain/daily_life
   - clothing
+domains:
+  - daily-life
 created: 2025-10-28
 updated: 2025-12-26
 version_history:

@@ -9,9 +9,11 @@ draft: true
 auto_generated: false
 needs_review: true
 tags:
-  - 金融
-  - 経済学
   - ビジネスシーン
+domains:
+  - economics
+domain_topics:
+  - economics/finance
 created: 2025-12-28
 updated: 2025-12-28
 version_history:

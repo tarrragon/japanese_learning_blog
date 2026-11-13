@@ -4,8 +4,11 @@ description: 收入、金錢的收入來源
 stage: pending
 tags:
   - context/daily_life
-  - domain/finance
   - jlpt/n3
+domains:
+  - economics
+domain_topics:
+  - economics/finance
 created: 2025-12-27
 updated: 2025-12-27
 version_history:

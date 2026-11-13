@@ -7,9 +7,10 @@ stage: extension-review
 tags:
   - context/casual
   - context/formal
-  - domain/cognition
-  - domain/communication
   - jlpt/n3
+domains:
+  - cognition
+  - communication
 created: 2025-10-30
 updated: 2025-10-30
 version_history:

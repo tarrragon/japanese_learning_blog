@@ -7,10 +7,7 @@ stage: extension-review
 draft: true
 auto_generated: false
 needs_review: true
-tags:
-  - noun
-  - 学術的な場面
-  - grammar_terminology
+tags: [学術的な場面, grammar_terminology]
 created: 2025-12-28
 updated: 2025-12-28
 version_history:
@@ -29,7 +26,6 @@ link_status:
   pending: 0
   verified_date: 2025-12-28
 ---
-
 補語是日文文法中用來補充說明主語或賓語狀態、性質的句子成分。
 
 <!--more-->

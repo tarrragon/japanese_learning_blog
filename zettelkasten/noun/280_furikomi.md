@@ -4,7 +4,11 @@ category: noun
 japanese: 振込
 chinese: 轉帳/匯款
 english: Transfer/Remittance
-tags: [finance, banking, money]
+tags: [money]
+domains:
+  - economics
+domain_topics:
+  - economics/finance
 related_cards: []
 version_history:
   - version: 1.5.1

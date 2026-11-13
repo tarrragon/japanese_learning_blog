@@ -9,7 +9,7 @@ Tags 用於標記卡片的屬性，幫助分類和檢索。每個卡片可以有
 ### Tag 類型
 
 1. **context/** - 使用情境標籤
-2. **domain/** - 領域標籤
+2. ~~**domain/**~~ - 已改用 `domains` 欄位（見下方「領域」）
 3. **jlpt/** - JLPT 等級標籤
 4. **linguistic/** - 語言學特徵標籤
 5. **particle/** - 助詞相關標籤
@@ -30,31 +30,20 @@ Tags 用於標記卡片的屬性，幫助分類和檢索。每個卡片可以有
 - [005 - academic](context/005_academic/) - 學術環境
 - [006 - social](context/006_social/) - 社交場合
 
-## Domain Tags（領域）
+## 領域（已改用 domains 欄位）
 
-**路徑**：`_meta/tags/domain/`
-**最後編號**：003
-**總 tags 數**：3
+領域不再使用 `domain/*` tag，改在卡片 frontmatter 使用 `domains` / `domain_topics` 欄位：
 
-### 已定義的 Domain Tags
+```yaml
+domains:
+  - economics
+domain_topics:
+  - economics/finance
+```
 
-- [001 - economics](domain/001_economics/) - 經濟學
-- [002 - daily_life](domain/002_daily_life/) - 日常生活
-- [003 - finance](domain/003_finance/) - 財經金融
-
-### 其他可用的 Domain Tags
-
-根據 `.claude.md` 定義，以下 domain tags 可使用但尚未建立卡片：
-- technology - 科技
-- philosophy - 哲學
-- history - 歷史
-- culture - 文化
-- medical - 醫療
-- legal - 法律
-- art - 藝術
-- science - 科學
-- politics - 政治
-- education - 教育
+- 領域定義：`data/domains.toml`
+- 查詢可用領域：`uv run scripts/list-domains.py`
+- 網站瀏覽：[專業領域](../../domains/)
 
 ## JLPT Tags（等級）
 

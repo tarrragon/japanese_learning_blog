@@ -4,9 +4,11 @@ description: 關稅免除，免除進出口商品應繳納的關稅
 type: noun
 jlpt: none
 stage: pending
-tags:
-  - domain/経済学
-  - domain/貿易
+tags: []
+domains:
+  - economics
+domain_topics:
+  - economics/trade
 created: 2025-12-23
 updated: 2025-12-23
 version_history:

@@ -7,8 +7,9 @@ stage: extension-review
 tags:
   - comparison
   - grammar_core
-  - domain/linguistics
   - context/academic
+domains:
+  - linguistics
 created: 2025-11-03
 updated: 2025-11-03
 version_history:

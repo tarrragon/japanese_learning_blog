@@ -7,8 +7,11 @@ stage: extension-review
 tags:
   - context/business
   - context/formal
-  - domain/finance
-  - domain/commerce
+domains:
+  - economics
+domain_topics:
+  - economics/finance
+  - economics/business
 created: 2025-10-31
 updated: 2025-10-31
 version_history:

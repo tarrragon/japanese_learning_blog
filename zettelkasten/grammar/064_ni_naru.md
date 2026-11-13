@@ -7,7 +7,8 @@ stage: extension-review
 tags:
   - context/formal
   - context/casual
-  - domain/daily_life
+domains:
+  - daily-life
 created: 2025-10-30
 updated: 2025-12-28
 version_history:

@@ -5,9 +5,11 @@ type: noun
 jlpt: n3
 stage: draft
 tags:
-  - domain/economics
-  - domain/business
   - context/formal
+domains:
+  - economics
+domain_topics:
+  - economics/business
 created: 2025-12-27
 updated: 2025-12-27
 version_history:

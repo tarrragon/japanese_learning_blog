@@ -10,8 +10,9 @@ auto_generated: false
 needs_review: false
 tags:
   - context/daily_life
-  - domain/communication
   - style/natural
+domains:
+  - communication
 created: 2025-12-28
 updated: 2025-12-28
 version_history:

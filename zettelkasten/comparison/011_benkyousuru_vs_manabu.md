@@ -3,9 +3,7 @@ title: "勉強する vs 学ぶ"
 description: "學習動詞的語感差異與使用場景比較"
 jlpt: n4
 stage: pending
-tags:
-  - verb
-  - nuance
+tags: [nuance]
 created: 2025-12-22
 updated: 2025-12-26
 version_history:

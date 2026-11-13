@@ -5,10 +5,11 @@ type: noun
 jlpt: n3
 stage: extension-review
 tags:
-  - domain/learning
-  - domain/linguistics
   - context/academic
   - jlpt/n3
+domains:
+  - learning
+  - linguistics
 created: 2025-10-31
 updated: 2025-10-31
 version_history:

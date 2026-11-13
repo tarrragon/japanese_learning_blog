@@ -3,11 +3,7 @@ title: "と vs に 對象用法比較"
 type: comparison
 jlpt: n4
 stage: pending
-tags:
-  - grammar
-  - particle
-  - comparison
-  - usage
+tags: [grammar, comparison, usage]
 created: 2025-12-26
 updated: 2025-12-26
 version_history:

@@ -8,8 +8,11 @@ draft: true
 auto_generated: false
 needs_review: true
 tags:
-  - "domain/経済学"
   - formal
+domains:
+  - economics
+domain_topics:
+  - economics/general
 dictionary:
   sources:
     daijirin: false

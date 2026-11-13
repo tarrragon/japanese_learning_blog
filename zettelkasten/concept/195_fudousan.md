@@ -5,7 +5,11 @@ category: concept
 title: 不動産（ふどうさん）
 created_date: 2025-12-27
 status: draft
-tags: [concept, economics, legal, 法律用語]
+tags: [concept, legal, 法律用語]
+domains:
+  - economics
+domain_topics:
+  - economics/general
 version_history:
   - version: 1.5.1
     date: 2025-12-27

@@ -6,8 +6,8 @@ jlpt: n3
 stage: extension-review
 tags:
   - context/business
-  - domain/linguistics
-  - domain/honorific-system
+domains:
+  - linguistics
 created: 2025-12-27
 updated: 2025-12-27
 version_history:

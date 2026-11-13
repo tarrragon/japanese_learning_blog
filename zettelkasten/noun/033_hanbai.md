@@ -5,9 +5,11 @@ type: noun
 jlpt: n3
 stage: extension-review
 tags:
-  - domain/commerce
-  - domain/transaction
   - jlpt/n3
+domains:
+  - economics
+domain_topics:
+  - economics/business
 created: 2025-10-31
 updated: 2025-10-31
 version_history:

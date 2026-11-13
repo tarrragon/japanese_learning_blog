@@ -7,10 +7,12 @@ stage: draft
 draft: true
 auto_generated: false
 needs_review: true
-tags:
-  - 経済学
-  - 金融
-  - 商業
+tags: []
+domains:
+  - economics
+domain_topics:
+  - economics/finance
+  - economics/business
 created: 2025-12-28
 updated: 2025-12-28
 version_history:

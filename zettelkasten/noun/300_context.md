@@ -8,13 +8,8 @@ number: 282
 yomi: ごぎょう
 pos: noun
 slug: context
-tags:
-  - japanese
-  - noun
-  - communication
-  - linguistics
+tags: [japanese, communication, linguistics]
 ---
-
 # 語境（ごぎょう）
 
 ## 日文解釋

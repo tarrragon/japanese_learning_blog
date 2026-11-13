@@ -5,9 +5,10 @@ type: noun
 jlpt: n2
 stage: extension-review
 tags:
-  - domain/mythology
   - context/formal
   - jlpt/n2
+domains:
+  - society
 created: 2025-12-27
 updated: 2025-12-27
 version_history:

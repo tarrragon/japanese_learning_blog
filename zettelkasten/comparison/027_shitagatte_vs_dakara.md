@@ -7,7 +7,7 @@ stage: extension-review
 tags:
   - comparison
   - conjunction
-  - n4
+  - jlpt/n4
   - formality
 created: 2025-12-22
 updated: 2025-12-22

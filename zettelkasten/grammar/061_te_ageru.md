@@ -7,8 +7,9 @@ stage: extension-review
 tags:
   - context/casual
   - context/formal
-  - domain/daily_life
-  - domain/communication
+domains:
+  - daily-life
+  - communication
 created: 2025-10-30
 updated: 2025-12-28
 version_history:

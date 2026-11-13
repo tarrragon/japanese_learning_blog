@@ -6,7 +6,7 @@ japanese: アスペクト
 chinese: 體貌
 english: Aspect
 category: concept
-tags: [grammar, verb, aspect, tense]
+tags: [grammar, aspect, tense]
 created: 2025-12-27
 updated: 2025-12-27
 status: extension-review
@@ -23,7 +23,6 @@ link_status:
   active: 0
   pending: 2
 ---
-
 ## 日文解釋
 
 **アスペクト**は、動詞の述べる動作・状態の進行中の側面や完了の側面を表す文法カテゴリーである。日本語において、動詞の活用形や補助動詞を用いてアスペクトを表現する。

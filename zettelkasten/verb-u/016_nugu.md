@@ -9,7 +9,8 @@ tags:
   - clothing
   - removing
   - basic
-  - domain/daily_life
+domains:
+  - daily-life
 created: 2025-10-29
 updated: 2025-12-26
 version_history:

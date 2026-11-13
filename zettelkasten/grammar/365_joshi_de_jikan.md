@@ -8,10 +8,7 @@ stage: draft
 draft: true
 auto_generated: false
 needs_review: true
-tags:
-  - grammar
-  - grammar_pattern
-  - particle
+tags: [grammar, grammar_pattern]
 created: 2025-12-28
 updated: 2025-12-28
 version_history:
@@ -30,7 +27,6 @@ link_status:
   pending: 0
   verified_date: 2025-12-28
 ---
-
 助詞「で」表示時間期限或時間範圍的用法，是N3程度必須掌握的重要文法點。
 
 <!--more-->

@@ -1,10 +1,7 @@
 ---
 jlpt: n4
 stage: pending
-tags:
-  - intensity
-  - difficulty
-  - na-adjective
+tags: [intensity, difficulty]
 created: 2025-12-26
 updated: 2025-12-26
 version_history:

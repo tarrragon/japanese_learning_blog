@@ -10,8 +10,11 @@ auto_generated: false
 needs_review: true
 tags:
   - business
-  - finance
   - planning
+domains:
+  - economics
+domain_topics:
+  - economics/finance
 dictionary:
   sources:
     daijirin: false

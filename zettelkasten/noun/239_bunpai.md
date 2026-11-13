@@ -1,10 +1,10 @@
 ---
 stage: pending
-tags:
-  - noun
-  - resource-management
+tags: [resource-management, organization]
+domains:
   - economics
-  - organization
+domain_topics:
+  - economics/general
 created: 2025-12-26
 updated: 2025-12-26
 version_history:

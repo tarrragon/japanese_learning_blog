@@ -8,9 +8,10 @@ draft: false
 auto_generated: false
 needs_review: true
 tags:
-  - domain/communication
   - context
   - formal
+domains:
+  - communication
 created: 2025-12-28
 updated: 2025-12-28
 version_history:

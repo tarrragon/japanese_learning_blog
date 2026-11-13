@@ -4,11 +4,7 @@ description: で vs に 場所用法比較 - 動作場所 vs 存在場所/目的
 type: comparison
 jlpt: n5
 stage: extension-review
-tags:
-  - comparison
-  - particle
-  - n5
-  - location
+tags: [comparison, jlpt/n5, location]
 created: 2025-10-29
 updated: 2025-10-29
 version_history:

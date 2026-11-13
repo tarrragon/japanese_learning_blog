@@ -5,9 +5,10 @@ type: concept
 jlpt: n5
 stage: extension-review
 tags:
-  - domain/linguistics
   - context/academic
   - jlpt/n5
+domains:
+  - linguistics
 created: 2025-10-31
 updated: 2025-10-31
 version_history:

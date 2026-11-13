@@ -7,7 +7,8 @@ stage: extension-review
 tags:
   - jlpt/n5
   - context/formal
-  - domain/linguistics
+domains:
+  - linguistics
 created: 2025-10-31
 updated: 2025-12-28
 version_history:

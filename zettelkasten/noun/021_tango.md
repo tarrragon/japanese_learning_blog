@@ -4,10 +4,7 @@ description: "單字、詞彙"
 type: noun
 jlpt: n4
 stage: pending
-tags:
-  - noun
-  - language_learning
-  - vocabulary
+tags: [language_learning, vocabulary]
 created: 2025-10-31
 updated: 2025-12-26
 version_history:

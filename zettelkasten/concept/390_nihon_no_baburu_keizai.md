@@ -9,9 +9,12 @@ draft: true
 auto_generated: false
 needs_review: true
 tags:
-  - economics
   - japanese_history
   - business
+domains:
+  - economics
+domain_topics:
+  - economics/general
 dictionary:
   sources:
     daijirin: false

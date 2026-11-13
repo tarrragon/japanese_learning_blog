@@ -6,9 +6,10 @@ jlpt: n4
 stage: extension-review
 tags:
   - context/daily_life
-  - domain/perception
   - semantic/feeling
   - jlpt/n4
+domains:
+  - perception
 created: 2025-10-31
 updated: 2025-10-31
 version_history:

@@ -6,8 +6,9 @@ jlpt: n3
 stage: completed
 tags:
   - context/formal
-  - domain/cognition
   - context/daily_life
+domains:
+  - cognition
 created: 2025-10-31
 updated: 2025-12-27
 version_history:

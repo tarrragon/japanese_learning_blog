@@ -1,11 +1,7 @@
 ---
 title: 聞こえる（きこえる）
 stage: pending
-tags:
-  - ru-verb
-  - ichidan
-  - perception
-  - hearing
+tags: [perception, hearing]
 created: 2025-12-26
 updated: 2025-12-26
 version_history:

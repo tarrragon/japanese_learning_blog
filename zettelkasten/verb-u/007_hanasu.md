@@ -6,7 +6,8 @@ jlpt: n5
 stage: completed
 tags:
   - basic
-  - domain/communication
+domains:
+  - communication
 created: 2025-10-28
 updated: 2025-12-26
 version_history:

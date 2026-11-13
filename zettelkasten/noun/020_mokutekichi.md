@@ -4,8 +4,7 @@ description: "目的地是指作為前往目標而設定的地點，打算到達
 type: noun
 jlpt: n4
 stage: pending
-tags:
-  - noun
+tags: []
 created: 2025-10-31
 updated: 2025-12-26
 version_history:

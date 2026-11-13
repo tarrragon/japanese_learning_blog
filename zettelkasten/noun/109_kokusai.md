@@ -2,9 +2,11 @@
 title: "#077 国債（こくさい）"
 jlpt: n2
 stage: pending
-tags:
-  - domain/経済学
-  - domain/金融
+tags: []
+domains:
+  - economics
+domain_topics:
+  - economics/finance
 created: 2025-12-26
 updated: 2025-12-26
 version_history:

@@ -1,8 +1,11 @@
 ---
 title: "景気循環"
 stage: pending
-tags:
-  - "domain/経済学"
+tags: []
+domains:
+  - economics
+domain_topics:
+  - economics/general
 created: 2025-12-26
 updated: 2025-12-26
 version_history:

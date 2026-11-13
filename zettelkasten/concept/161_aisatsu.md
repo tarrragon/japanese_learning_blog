@@ -8,10 +8,11 @@ draft: true
 auto_generated: false
 needs_review: true
 tags:
-  - domain/communication
   - context/social
   - context/business
   - daily_life
+domains:
+  - communication
 dictionary:
   sources:
     daijirin: true

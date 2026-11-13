@@ -7,8 +7,9 @@ stage: extension-review
 tags:
   - context/business
   - context/formal
-  - domain/society
   - jlpt/n3
+domains:
+  - society
 created: 2025-12-27
 updated: 2025-12-27
 version_history:

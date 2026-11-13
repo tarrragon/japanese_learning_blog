@@ -5,9 +5,10 @@ type: concept
 jlpt: n2
 stage: completed
 tags:
-  - domain/linguistics
-  - domain/learning_theory
   - context/academic
+domains:
+  - linguistics
+  - learning
 created: 2025-10-31
 updated: 2025-12-27
 version_history:

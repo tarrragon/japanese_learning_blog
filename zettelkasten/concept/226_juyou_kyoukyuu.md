@@ -8,7 +8,11 @@ zh_cn: 供需
 zh_tw: 供需
 en: Supply and Demand
 category: concept
-tags: [経済, ビジネス, 基本概念]
+tags: [ビジネス, 基本概念]
+domains:
+  - economics
+domain_topics:
+  - economics/general
 version_history:
   - version: 1.5.1
     date: 2025-12-27

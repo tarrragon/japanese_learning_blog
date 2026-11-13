@@ -5,8 +5,9 @@ stage: extension-review
 tags:
   - context/formal
   - context/culture
-  - domain/sociology
   - jlpt/n2
+domains:
+  - society
 created: 2025-12-26
 updated: 2025-12-26
 version_history:

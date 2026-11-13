@@ -2,10 +2,12 @@
 title: "金融市場"
 stage: pending
 tags:
-  - "経済"
-  - "金融"
   - "市場"
   - "N1"
+domains:
+  - economics
+domain_topics:
+  - economics/finance
 created: 2025-12-26
 updated: 2025-12-26
 version_history:

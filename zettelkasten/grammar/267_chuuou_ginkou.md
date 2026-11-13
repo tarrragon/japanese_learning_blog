@@ -5,9 +5,11 @@ type: noun
 stage: extension-review
 card_id: 254
 tags:
-  - domain/経済学
-  - domain/金融
   - jlpt/n2
+domains:
+  - economics
+domain_topics:
+  - economics/finance
 created: 2025-12-27
 updated: 2025-12-28
 version_history:

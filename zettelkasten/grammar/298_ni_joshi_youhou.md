@@ -9,7 +9,6 @@ draft: true
 auto_generated: false
 needs_review: true
 tags:
-  - particle
   - grammar
   - location
   - time
@@ -37,7 +36,6 @@ link_status:
   pending: 5
   verified_date: 2025-12-28
 ---
-
 助詞「に」是日文中最常用且用法最多樣的格助詞之一，本卡片整理其主要用法體系。
 
 <!--more-->

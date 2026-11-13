@@ -3,9 +3,11 @@ title: "資金調達"
 type: "noun"
 stage: pending
 tags:
-  - "経済"
   - "ビジネス"
-  - "finance"
+domains:
+  - economics
+domain_topics:
+  - economics/finance
 created: "2025-12-26"
 updated: "2025-12-26"
 version_history:

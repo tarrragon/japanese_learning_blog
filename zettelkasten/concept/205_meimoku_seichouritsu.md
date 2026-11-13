@@ -21,9 +21,12 @@ link_status:
   external_links: 0
   pending_links: 0
 tags:
-  - economics
   - growth-rate
   - macroeconomics
+domains:
+  - economics
+domain_topics:
+  - economics/general
 related_cards: []
 references: []
 ---

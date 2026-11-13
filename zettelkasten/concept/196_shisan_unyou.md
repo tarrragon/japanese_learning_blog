@@ -3,9 +3,11 @@ id: 124
 title: 資産運用
 category: concept
 tags:
-  - economics
-  - finance
   - business
+domains:
+  - economics
+domain_topics:
+  - economics/finance
 created_date: 2025-12-27
 version_history:
   - version: "1.5.1"

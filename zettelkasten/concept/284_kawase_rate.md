@@ -5,9 +5,11 @@ description: "匯率，貨幣之間的兌換比率"
 type: concept
 jlpt: n3
 stage: extension-review
-tags:
-  - domain/finance
-  - domain/international
+tags: []
+domains:
+  - economics
+domain_topics:
+  - economics/finance
 created: 2025-12-27
 updated: 2025-12-27
 version_history:

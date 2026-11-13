@@ -5,10 +5,11 @@ type: concept
 jlpt: n3
 stage: extension-review
 tags:
-  - domain/communication
   - context/daily_life
   - context/business
   - context/formal
+domains:
+  - communication
 created: 2025-10-31
 updated: 2025-10-31
 version_history:

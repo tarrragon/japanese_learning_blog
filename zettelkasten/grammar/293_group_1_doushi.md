@@ -8,11 +8,7 @@ stage: draft
 draft: true
 auto_generated: false
 needs_review: true
-tags:
-  - grammar_category
-  - verb_conjugation
-  - godan
-  - jlpt/n5
+tags: [grammar_category, verb_conjugation, jlpt/n5]
 created: 2025-12-28
 updated: 2025-12-28
 version_history:
@@ -31,7 +27,6 @@ link_status:
   pending: 0
   verified_date: 2025-12-28
 ---
-
 五段動詞是日文中數量最多的動詞類別，特徵是語幹末尾會在う段五個母音間變化。
 
 <!--more-->

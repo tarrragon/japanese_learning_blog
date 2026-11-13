@@ -4,9 +4,11 @@ description: "不動產，土地及建築物等無法移動的財產"
 type: concept
 jlpt: n3
 stage: pending
-tags:
-  - domain/real_estate
-  - domain/economics
+tags: []
+domains:
+  - economics
+domain_topics:
+  - economics/business
 created: 2025-12-27
 updated: 2025-12-27
 version_history:

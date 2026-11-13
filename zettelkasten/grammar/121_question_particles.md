@@ -8,8 +8,9 @@ tags:
   - jlpt/n5
   - context/casual
   - context/formal
-  - domain/communication
   - question
+domains:
+  - communication
 created: 2025-11-03
 updated: 2025-12-28
 version_history:

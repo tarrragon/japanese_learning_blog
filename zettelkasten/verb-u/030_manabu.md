@@ -1,10 +1,7 @@
 ---
 jlpt: n4
 stage: pending
-tags:
-  - verb
-  - education
-  - learning
+tags: [education, learning]
 created: 2025-12-22
 updated: 2025-12-26
 version_history:

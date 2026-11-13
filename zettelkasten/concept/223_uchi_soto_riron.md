@@ -6,10 +6,10 @@ jlpt: n3
 stage: pending
 csv_id: 489
 tags:
-  - domain/sociolinguistics
-  - domain/pragmatics
   - context/social
   - context/culture
+domains:
+  - linguistics
 created: 2025-12-27
 updated: 2025-12-27
 version_history:

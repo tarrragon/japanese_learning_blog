@@ -2,10 +2,12 @@
 title: 医療費控除
 stage: pending
 tags:
-  - domain/経済学
-  - domain/税務
   - concept/tax-deduction
   - topic/healthcare
+domains:
+  - economics
+domain_topics:
+  - economics/fiscal
 created: 2025-12-23
 updated: 2025-12-26
 version_history:

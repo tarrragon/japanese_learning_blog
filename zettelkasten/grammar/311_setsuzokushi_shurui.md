@@ -8,7 +8,8 @@ tags:
   - jlpt/n3
   - context/formal
   - context/written
-  - domain/communication
+domains:
+  - communication
 created: 2025-12-27
 updated: 2025-12-27
 version_history:

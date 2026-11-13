@@ -5,10 +5,11 @@ type: noun
 jlpt: n4
 stage: completed
 tags:
-  - domain/location
   - jlpt/n4
   - concept/direction
   - concept/basic
+domains:
+  - travel
 created: 2025-10-31
 updated: 2025-12-27
 version_history:
@@ -127,5 +128,5 @@ He walked off in the opposite direction.
 （暫無卡片 - 可建立：方針、目標、道）
 
 ### 相關標籤
-- [位置](_meta/tags/domain/location.md) - 位置和空間相關詞彙
+- [位置](../../domains/travel/) - 位置和空間相關詞彙
 - [基本概念](_meta/tags/concept/basic.md) - 基礎概念詞彙

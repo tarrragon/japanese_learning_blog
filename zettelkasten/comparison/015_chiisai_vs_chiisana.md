@@ -2,11 +2,7 @@
 title: "小さい vs 小さな"
 jlpt: n5
 stage: pending
-tags:
-  - adjective
-  - い-adjective
-  - な-adjective
-  - size
+tags: [い-adjective, な-adjective, size]
 created: 2025-12-22
 updated: 2025-12-26
 version_history:

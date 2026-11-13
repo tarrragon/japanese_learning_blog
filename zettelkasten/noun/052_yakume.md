@@ -7,7 +7,8 @@ stage: extension-review
 tags:
   - context/business
   - context/formal
-  - domain/cognition
+domains:
+  - cognition
 created: 2025-10-31
 updated: 2025-10-31
 version_history:

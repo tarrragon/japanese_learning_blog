@@ -7,7 +7,8 @@ jlpt: n5
 stage: extension-review
 tags:
   - context/daily_life
-  - domain/linguistics
+domains:
+  - linguistics
 created: 2025-12-27
 updated: 2025-12-28
 version_history:

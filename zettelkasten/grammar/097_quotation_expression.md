@@ -7,8 +7,9 @@ stage: extension-review
 tags:
   - context/formal
   - context/casual
-  - domain/communication
   - jlpt/n4
+domains:
+  - communication
 created: 2025-10-31
 updated: 2025-12-28
 version_history:

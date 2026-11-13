@@ -4,8 +4,9 @@ description: 主語優先語言的語言學概念，日文屬於主題優先語�
 stage: pending
 tags:
   - context/academic
-  - domain/linguistics
   - jlpt/n1
+domains:
+  - linguistics
 created: 2025-12-26
 updated: 2025-12-26
 version_history:

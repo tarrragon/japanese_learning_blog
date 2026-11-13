@@ -6,8 +6,11 @@ jlpt: n3
 stage: extension-review
 tags:
   - context/business
-  - domain/commerce
   - jlpt/n3
+domains:
+  - economics
+domain_topics:
+  - economics/business
 created: 2025-10-31
 updated: 2025-10-31
 version_history:

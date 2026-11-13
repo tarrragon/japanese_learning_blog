@@ -9,9 +9,11 @@ draft: true
 auto_generated: false
 needs_review: true
 tags:
-  - economics
   - society
-  - finance
+domains:
+  - economics
+domain_topics:
+  - economics/finance
 dictionary:
   sources:
     daijirin: true

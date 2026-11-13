@@ -1,10 +1,7 @@
 ---
 title: "高い（高度）vs 高い（價格）"
 stage: pending
-tags:
-  - i-adjective
-  - semantic-difference
-  - homonym
+tags: [semantic-difference, homonym]
 created: "2025-12-22"
 updated: "2025-12-22"
 version_history:

@@ -7,7 +7,11 @@ title_zh: 實質成長率
 title_en: Real Growth Rate
 category: concept
 type: economics
-tags: [経済学, マクロ経済, GDP, インフレーション]
+tags: [マクロ経済, GDP, インフレーション]
+domains:
+  - economics
+domain_topics:
+  - economics/general
 created: 2025-12-27
 status: pending
 version_history:

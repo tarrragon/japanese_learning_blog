@@ -6,9 +6,12 @@ type: concept
 jlpt: n3
 stage: pending
 tags:
-  - domain/finance
-  - domain/technology
   - context/daily_life
+domains:
+  - economics
+  - technology
+domain_topics:
+  - economics/finance
 created: 2025-12-27
 updated: 2025-12-27
 version_history:

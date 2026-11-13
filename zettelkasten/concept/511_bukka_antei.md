@@ -10,7 +10,10 @@ needs_review: true
 tags:
   - context/formal
   - context/academic
-  - domain/economics
+domains:
+  - economics
+domain_topics:
+  - economics/general
 dictionary:
   sources:
     daijirin: false

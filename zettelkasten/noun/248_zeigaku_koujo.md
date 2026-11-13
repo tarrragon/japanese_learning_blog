@@ -1,10 +1,12 @@
 ---
 title: "税額控除"
 stage: pending
-tags:
-  - "tax"
-  - "finance"
-  - "economics"
+tags: []
+domains:
+  - economics
+domain_topics:
+  - economics/fiscal
+  - economics/finance
 created: 2025-12-26
 updated: 2025-12-26
 version_history:

@@ -1,10 +1,12 @@
 ---
 jlpt: n1
 stage: pending
-tags:
-  - domain/経済学
-  - domain/教育
-  - domain/人事
+tags: []
+domains:
+  - economics
+  - learning
+domain_topics:
+  - economics/business
 created: 2025-12-23
 updated: 2025-12-23
 version_history:

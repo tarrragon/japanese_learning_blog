@@ -8,9 +8,12 @@ tags:
   - phrase
   - shopping
   - context/business
-  - domain/commerce
   - conversation
   - jlpt/n4
+domains:
+  - economics
+domain_topics:
+  - economics/business
 created: 2025-12-17
 updated: 2025-12-27
 version_history:

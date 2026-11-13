@@ -6,8 +6,9 @@ jlpt: n4
 stage: extension-review
 tags:
   - context/academic
-  - domain/communication
   - jlpt/n4
+domains:
+  - communication
 created: 2025-10-30
 updated: 2025-12-28
 version_history:

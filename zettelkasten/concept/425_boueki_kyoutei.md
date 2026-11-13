@@ -8,9 +8,12 @@ draft: true
 auto_generated: false
 needs_review: true
 tags:
-  - economics
   - business
   - international
+domains:
+  - economics
+domain_topics:
+  - economics/general
 dictionary:
   sources:
     daijirin: true

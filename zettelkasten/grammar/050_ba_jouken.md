@@ -7,8 +7,9 @@ stage: completed
 tags:
   - context/formal
   - context/casual
-  - domain/communication
   - jlpt/n4
+domains:
+  - communication
 created: 2025-10-30
 updated: 2025-10-30
 version_history:
