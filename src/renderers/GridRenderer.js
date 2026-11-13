@@ -46,14 +46,15 @@ export class GridRenderer {
    * 渲染表格
    * @param {import('../domain/GridSession.js').GridSession} session
    * @param {Object} [options]
-   * @param {Array<{ id: string, label: string }>} [options.actions] - 上方按鈕
+   * @param {Array<{ id: string, label: string, active?: boolean, group?: string }>} [options.actions] - 上方按鈕
+   * @param {string} [options.hint] - 自訂提示文字
    */
   render(session, options = {}) {
     if (!this.#container || !session) return;
 
     const board = session.board;
     const actions = options.actions ?? [];
-    const hint = session.ordered ? i18n.t('gridHintOrdered') : i18n.t('gridHintFree');
+    const hint = options.hint ?? (session.ordered ? i18n.t('gridHintOrdered') : i18n.t('gridHintFree'));
 
     const toolbar = `
       <div class="grid-toolbar">
@@ -61,7 +62,7 @@ export class GridRenderer {
         <span class="grid-hint">${escapeHtml(hint)}</span>
         <span class="grid-actions">
           ${actions
-            .map((a) => `<button type="button" class="control-btn secondary grid-action" data-action="${escapeHtml(a.id)}">${escapeHtml(a.label)}</button>`)
+            .map((a) => `<button type="button" class="control-btn secondary grid-action${a.active ? ' is-active' : ''}${a.group ? ` grid-action-${escapeHtml(a.group)}` : ''}" data-action="${escapeHtml(a.id)}"${a.active ? ' aria-pressed="true"' : ''}>${escapeHtml(a.label)}</button>`)
             .join('')}
         </span>
       </div>`;

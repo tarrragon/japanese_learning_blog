@@ -18,6 +18,7 @@
   <!-- 行動裝置提示 -->
   <div class="mobile-notice">
     <p>請使用桌面瀏覽器搭配實體鍵盤進行練習</p>
+    <a href="?mode=handwriting" class="back-btn handwriting-link">改用手寫練習</a>
     <a href="../" class="back-btn">返回卡片盒</a>
   </div>
 
@@ -47,6 +48,9 @@
 
       <!-- 表格練習區（五十音模式，由 JS 動態渲染） -->
       <div class="practice-grid" id="practice-grid" hidden></div>
+
+      <!-- 手寫練習區（五十音手寫模式，由 JS 動態渲染） -->
+      <div class="practice-handwriting" id="practice-handwriting" hidden></div>
     </section>
 
     <!-- 虛擬鍵盤（羅馬字模式） -->

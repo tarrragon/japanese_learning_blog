@@ -13,6 +13,8 @@
 | `InputBuffer.js` | 輸入緩衝區，處理使用者的按鍵輸入和匹配邏輯 |
 | `TypingSession.js` | Session Aggregate Root，協調整個打字練習的生命週期 |
 | `GridSession.js` | 表格式 Session（介面同 TypingSession），支援亂序與依序兩種比對 |
+| `HandwritingSession.js` | 手寫練習 Session，逐筆或整字比對筆順，支援異體寫法 |
+| `handwriting/` | 筆畫幾何運算（`strokeGeometry.js`）、異體寫法（`kanaVariants.js`）、筆畫比對（`StrokeMatcher.js`） |
 | `EventTypes.js` | 領域事件類型常數定義 |
 | `RomajiMap.js` | 羅馬字對應表，定義假名和輸入方式的映射關係 |
 

@@ -28,6 +28,7 @@ import { TextRenderer } from './renderers/TextRenderer.js';
 import { RomajiRenderer } from './renderers/RomajiRenderer.js';
 import { ResultRenderer } from './renderers/ResultRenderer.js';
 import { GridRenderer } from './renderers/GridRenderer.js';
+import { HandwritingRenderer } from './renderers/HandwritingRenderer.js';
 
 // 效果與服務
 import { FlashEffect } from './effects/FlashEffect.js';
@@ -63,6 +64,7 @@ export class App {
    * @param {HTMLElement} elements.keyboardContainer - 鍵盤容器
    * @param {HTMLInputElement} elements.mobileInputElement - 手機輸入框
    * @param {HTMLElement} [elements.gridContainer] - 表格練習容器（五十音模式）
+   * @param {HTMLElement} [elements.handwritingContainer] - 手寫練習容器
    */
   constructor(elements) {
     this.#elements = elements;
@@ -124,6 +126,16 @@ export class App {
       onSelect: (id) => this.#handleGridSelect(id),
       onAction: (id) => this.#handleGridAction(id),
     });
+    this.#renderers.handwriting = new HandwritingRenderer(this.#elements.handwritingContainer ?? null);
+    this.#renderers.handwriting.setCallbacks({
+      onStroke: (points) => this.#currentSession?.submitStroke?.(points),
+      onClear: () => {
+        this.#currentSession?.clearCurrent?.();
+        this.#render();
+      },
+      onSelect: (id) => this.#handleGridSelect(id),
+      onAction: (id) => this.#handleGridAction(id),
+    });
   }
 
   /**
@@ -132,7 +144,7 @@ export class App {
    * @private
    */
   #handleGridSelect(id) {
-    if (this.#currentSession?.isGrid && this.#currentSession.selectCell(id)) {
+    if (typeof this.#currentSession?.selectCell === 'function' && this.#currentSession.selectCell(id)) {
       this.#render();
     }
   }
@@ -144,7 +156,10 @@ export class App {
    */
   #handleGridAction(actionId) {
     const mode = modeRegistry.getCurrentMode();
-    if (mode?.handleGridAction?.(actionId)) {
+    const result = mode?.handleGridAction?.(actionId);
+    if (result === 'render') {
+      this.#render();
+    } else if (result) {
       this.loadNextQuestion();
     }
   }
@@ -330,6 +345,7 @@ export class App {
    * 注意：在 direct 輸入模式下，此功能無效（鍵盤強制隱藏）
    */
   toggleKeyboard() {
+    if (this.#currentSession?.inputless) return;
     const state = this.#store.getState();
     // 只在 romaji 模式下切換才有意義
     if (state.inputMode === 'romaji') {
@@ -376,8 +392,8 @@ export class App {
     const session = mode ? mode.createSession(question) : this.#createDefaultSession(question);
     this.#currentSession = session;
 
-    // 表格模式（五十音）與文字模式使用不同的版面
-    this.#updateLayout(Boolean(session?.isGrid));
+    // 文字、表格（五十音）、手寫三種版面
+    this.#updateLayout(session?.isHandwriting ? 'handwriting' : session?.isGrid ? 'grid' : 'text');
 
     // 新題目開始時清空上一題殘留的輸入緩衝顯示
     this.#updateBufferDisplay('');
@@ -399,8 +415,16 @@ export class App {
       });
     }
 
-    // 啟動輸入處理
-    this.#switchInputHandler(this.#store.getState().inputMode);
+    // 啟動輸入處理（手寫模式不使用鍵盤）
+    if (session?.inputless) {
+      if (this.#inputHandler) {
+        this.#inputHandler.dispose();
+        this.#inputHandler = null;
+      }
+      this.#updateInputModeUI(this.#store.getState().inputMode);
+    } else {
+      this.#switchInputHandler(this.#store.getState().inputMode);
+    }
 
     // 渲染
     this.#render();
@@ -411,12 +435,26 @@ export class App {
    * @param {boolean} isGrid
    * @private
    */
-  #updateLayout(isGrid) {
-    this.#elements.container?.classList.toggle('layout-grid', isGrid);
+  #updateLayout(layout) {
+    const isGrid = layout === 'grid';
+    const isHandwriting = layout === 'handwriting';
+    const container = this.#elements.container;
+    container?.classList.toggle('layout-grid', isGrid || isHandwriting);
+    container?.classList.toggle('layout-handwriting', isHandwriting);
+    if (typeof document !== 'undefined') {
+      document.body.classList.toggle('mode-handwriting', isHandwriting);
+    }
+
     const grid = this.#elements.gridContainer;
     if (grid) grid.hidden = !isGrid;
     if (!isGrid) this.#renderers.grid.clear();
-    this.#flashEffect.setContainer(isGrid && grid ? grid : this.#elements.textContainer);
+
+    const handwriting = this.#elements.handwritingContainer;
+    if (handwriting) handwriting.hidden = !isHandwriting;
+    if (!isHandwriting) this.#renderers.handwriting.clear();
+
+    const flashTarget = (isGrid && grid) || (isHandwriting && handwriting) || this.#elements.textContainer;
+    this.#flashEffect.setContainer(flashTarget);
   }
 
   /**
@@ -478,6 +516,13 @@ export class App {
       ? document.getElementById('mobile-input-section')
       : null;
 
+    // 手寫模式：不顯示鍵盤與輸入框
+    if (this.#currentSession?.inputless) {
+      if (inputSection) inputSection.style.display = 'none';
+      this.#updateKeyboardVisibility(false);
+      return;
+    }
+
     if (mode === 'direct') {
       container?.classList.add('mode-direct');
       body?.classList.add('mode-direct');
@@ -535,7 +580,12 @@ export class App {
   #render() {
     if (!this.#currentSession) return;
 
-    if (this.#currentSession.isGrid) {
+    if (this.#currentSession.isHandwriting) {
+      const mode = modeRegistry.getCurrentMode();
+      this.#renderers.handwriting.render(this.#currentSession, {
+        actions: mode?.getGridActions?.() ?? [],
+      });
+    } else if (this.#currentSession.isGrid) {
       const mode = modeRegistry.getCurrentMode();
       this.#renderers.grid.render(this.#currentSession, {
         actions: mode?.getGridActions?.() ?? [],

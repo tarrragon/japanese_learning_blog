@@ -12,6 +12,7 @@ UI 渲染層，負責將應用程式狀態渲染到畫面上，與業務邏輯�
 | `RomajiRenderer.js` | 羅馬拼音渲染，顯示輸入提示 |
 | `ResultRenderer.js` | 結果顯示，渲染練習成績和統計 |
 | `GridRenderer.js` | 表格渲染（五十音表／字典表），依格子狀態上色並處理點擊 |
+| `HandwritingRenderer.js` | 手寫板渲染（SVG 範本＋canvas 筆跡），處理觸控／滑鼠／觸控筆輸入 |
 
 ## 參考
 

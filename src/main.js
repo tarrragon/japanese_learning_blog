@@ -30,7 +30,19 @@ const PRACTICE_MODE_OPTIONS = [
   { id: 'kana', labelKey: 'modeKana' },
   { id: 'gojuon', labelKey: 'modeGojuon' },
   { id: 'gojuon-advanced', labelKey: 'modeGojuonAdvanced' },
+  { id: 'handwriting', labelKey: 'modeHandwriting' },
 ];
+
+/**
+ * 手寫模式不使用鍵盤，隱藏「手機模式」切換按鈕
+ * @param {string} practiceMode
+ */
+function updateInputToggleVisibility(practiceMode) {
+  const btn = document.getElementById('btn-toggle-input');
+  if (btn) {
+    btn.style.display = modeRegistry.getModeClass(practiceMode)?.isHandwriting ? 'none' : '';
+  }
+}
 
 /**
  * 表格模式（五十音）的「下一題」改為「重新開始」
@@ -104,6 +116,7 @@ function createControlPanel(appInstance) {
   // 插入到練習區域上方
   const practiceArea = container.querySelector('.practice-area') || container.firstChild;
   container.insertBefore(controlPanel, practiceArea);
+  updateInputToggleVisibility(state.practiceMode);
 
   // 綁定事件
   bindControlPanelEvents(appInstance);
@@ -155,6 +168,7 @@ function bindControlPanelEvents(appInstance) {
       if (nextBtn) {
         nextBtn.textContent = getNextButtonText(newMode);
       }
+      updateInputToggleVisibility(newMode);
     });
   }
 
@@ -214,7 +228,12 @@ function updateStaticTexts() {
     mobileNotice.textContent = i18n.t('mobileNotice');
   }
 
-  const backBtn = document.querySelector('.mobile-notice .back-btn');
+  const handwritingLink = document.querySelector('.mobile-notice .handwriting-link');
+  if (handwritingLink) {
+    handwritingLink.textContent = i18n.t('mobileHandwritingLink');
+  }
+
+  const backBtn = document.querySelector('.mobile-notice .back-btn:not(.handwriting-link)');
   if (backBtn) {
     backBtn.textContent = i18n.t('backButton');
   }
@@ -323,6 +342,17 @@ async function init() {
     display?.appendChild(gridContainer);
   }
 
+  // 建立手寫練習容器（如果不存在）
+  let handwritingContainer = document.getElementById('practice-handwriting');
+  if (!handwritingContainer) {
+    handwritingContainer = document.createElement('div');
+    handwritingContainer.id = 'practice-handwriting';
+    handwritingContainer.className = 'practice-handwriting';
+    handwritingContainer.hidden = true;
+    const display = document.querySelector('.practice-display');
+    display?.appendChild(handwritingContainer);
+  }
+
   // 顯示載入中
   showLoading(textContainer);
 
@@ -337,6 +367,7 @@ async function init() {
       keyboardContainer,
       mobileInputElement,
       gridContainer,
+      handwritingContainer,
     });
 
     // 初始化應用程式（這裡會恢復 localStorage 和 URL 參數的設定）
