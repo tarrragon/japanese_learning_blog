@@ -4,7 +4,9 @@ description: 返回、回到
 type: verb
 jlpt: n4
 stage: completed
-tags: [movement, basic]
+tags: [basic]
+domains:
+  - movement
 created: 2025-10-31
 updated: 2025-12-27
 version_history:

@@ -1,6 +1,7 @@
 ---
 id: 446
 title: 比較優位
+description: "相對成本較低領域的比較優勢理論"
 japanese: 比較優位（ひかくゆういい）
 chinese: 比較優勢
 english: Comparative Advantage

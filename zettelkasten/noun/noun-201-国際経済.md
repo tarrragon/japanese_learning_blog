@@ -1,5 +1,7 @@
 ---
-stage: pending
+title: "国際経済（こくさいけいざい）"
+description: "國際經濟（各國間的經濟活動與關係）"
+stage: draft
 tags:
   - international-relations
   - global-economy
@@ -8,7 +10,7 @@ domains:
 domain_topics:
   - economics/general
 created: 2025-12-26
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

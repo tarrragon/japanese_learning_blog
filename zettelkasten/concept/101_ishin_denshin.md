@@ -1,12 +1,13 @@
 ---
 title: "以心伝心"
-stage: pending
+description: "不需言語即心意相通的四字成語"
+stage: draft
 tags:
   - 四字熟語
   - コミュニケーション
   - 文化
 created: 2025-12-26
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

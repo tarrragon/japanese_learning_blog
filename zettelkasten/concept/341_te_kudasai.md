@@ -12,7 +12,8 @@ tags:
   - grammar_pattern
   - request
   - polite_form
-  - daily_life
+domains:
+  - daily-life
 dictionary:
   sources:
     daijirin: true

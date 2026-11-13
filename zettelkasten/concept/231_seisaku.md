@@ -2,6 +2,7 @@
 id: 451
 number: 130
 title: 政策
+description: "政府或組織的政策、方針"
 category: concept
 furigana: せいさく
 status: draft
@@ -21,9 +22,9 @@ link_status:
   external_links: 0
   pending_links: 0
 tags:
-  - politics
-  - government
   - administration
+domains:
+  - society
 ---
 
 ## 日文解釋

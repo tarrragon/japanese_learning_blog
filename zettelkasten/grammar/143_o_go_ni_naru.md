@@ -1,5 +1,6 @@
 ---
 title: "お/ご～になる"
+description: "表示對對方動作敬意的尊敬語句型"
 type: grammar
 jlpt: n3
 stage: extension-review

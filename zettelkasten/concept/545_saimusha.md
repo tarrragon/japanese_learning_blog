@@ -4,7 +4,7 @@ description: "負有債務義務的人，與債權者相對的法律概念"
 type: concept
 subtype: legal_term
 jlpt: n3
-stage: pending
+stage: draft
 draft: true
 auto_generated: false
 needs_review: true
@@ -17,7 +17,7 @@ domains:
 domain_topics:
   - economics/finance
 created: 2025-12-28
-updated: 2025-12-28
+updated: 2026-11-14
 version_history:
   - version: "1.5.6"
     stage: "pending"

@@ -1,6 +1,8 @@
 ---
+title: "課税（かぜい）"
+description: "課稅、政府依法徵收稅金"
 jlpt: n2
-stage: pending
+stage: draft
 tags:
   - concept/fiscal-policy
 domains:
@@ -8,7 +10,7 @@ domains:
 domain_topics:
   - economics/general
 created: 2025-12-26
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

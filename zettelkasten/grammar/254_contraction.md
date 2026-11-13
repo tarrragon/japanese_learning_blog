@@ -3,7 +3,7 @@ title: 縮約形
 description: 日文口語中常見的縮約變化規則與系統
 type: grammar
 jlpt: n4
-stage: pending
+stage: draft
 tags:
   - contraction
   - 口語
@@ -11,7 +11,7 @@ tags:
   - casual
   - phonetic_change
 created: 2025-12-27
-updated: 2025-12-27
+updated: 2026-11-14
 id: 134
 version_history:
   - version: "1.5.0"

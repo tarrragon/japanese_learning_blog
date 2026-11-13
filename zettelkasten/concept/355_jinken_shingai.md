@@ -3,16 +3,17 @@ title: "人権侵害（じんけんしんがい）"
 description: "侵害人權"
 type: concept
 jlpt: n3
-stage: pending
+stage: draft
 draft: true
 auto_generated: false
 needs_review: true
 tags:
-  - law
   - social_issue
   - formal
+domains:
+  - society
 created: 2025-12-28
-updated: 2025-12-28
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

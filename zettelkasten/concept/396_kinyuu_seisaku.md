@@ -9,10 +9,10 @@ draft: true
 auto_generated: false
 needs_review: true
 tags:
-  - policy
   - central_bank
 domains:
   - economics
+  - society
 domain_topics:
   - economics/finance
 created: 2025-12-28

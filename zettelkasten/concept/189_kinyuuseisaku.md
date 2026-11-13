@@ -1,4 +1,6 @@
 ---
+title: "金融政策（きんゆうせいさく）"
+description: "央行以利率與貨幣供給調節經濟的政策"
 card_id: 397
 number: 123
 category: concept

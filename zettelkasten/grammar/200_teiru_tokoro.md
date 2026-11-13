@@ -1,5 +1,6 @@
 ---
 title: "〜ているところ"
+description: "表示正在進行某動作的時刻"
 stage: pending
 tags:
   - "grammar"

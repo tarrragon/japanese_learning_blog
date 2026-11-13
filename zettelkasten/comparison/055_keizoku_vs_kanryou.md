@@ -1,5 +1,6 @@
 ---
 title: 継続動作 vs 完了動作
+description: "持續動作與完成動作的區別"
 stage: pending
 tags:
   - 文法

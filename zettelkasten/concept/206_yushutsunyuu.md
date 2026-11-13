@@ -1,6 +1,7 @@
 ---
 id: 125
 title: 輸出入
+description: "系統接收與發送資料的輸出入概念"
 type: concept
 category: concept
 japanese: 輸出入

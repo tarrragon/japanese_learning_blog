@@ -1,5 +1,7 @@
 ---
-stage: pending
+title: "景気（けいき / keiki）"
+description: "景氣、經濟狀況"
+stage: draft
 tags:
   - type/noun
   - jlpt/n3
@@ -8,7 +10,7 @@ domains:
 domain_topics:
   - economics/general
 created: 2025-12-26
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

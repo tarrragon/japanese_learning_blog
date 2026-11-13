@@ -1,5 +1,6 @@
 ---
 title: お〜する
+description: "謙讓語的基本形式，謙稱自己的行為"
 stage: pending
 tags:
   - 謙讓語

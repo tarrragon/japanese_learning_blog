@@ -1,5 +1,6 @@
 ---
 title: "時間+に"
+description: "以「に」標示動作發生的具體時間點"
 type: "grammar"
 jlpt: "n5"
 stage: "extension-review"

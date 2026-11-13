@@ -1,6 +1,8 @@
 ---
+title: "現金（げんきん）"
+description: "現金"
 jlpt: n3
-stage: pending
+stage: draft
 tags:
   - concept/money
 domains:
@@ -8,7 +10,7 @@ domains:
 domain_topics:
   - economics/general
 created: 2025-12-26
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

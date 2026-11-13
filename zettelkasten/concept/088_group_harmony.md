@@ -1,13 +1,15 @@
 ---
 title: "和"
-stage: pending
+description: "日本社會重視群體和睦的核心價值"
+stage: draft
 tags:
-  - 社会
   - 文化
   - 人間関係
   - 調和
+domains:
+  - society
 created: 2025-12-26
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

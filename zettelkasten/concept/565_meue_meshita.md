@@ -3,16 +3,16 @@ title: "目上・目下の概念（めうえ・めした）"
 description: "日本社會中表示地位高低的概念與敬語使用"
 type: concept
 jlpt: n3
-stage: pending
+stage: draft
 draft: true
 auto_generated: false
 needs_review: true
 tags:
   - keigo
-  - culture
+domains:
   - society
 created: 2025-12-28
-updated: 2025-12-28
+updated: 2026-11-14
 version_history:
   - version: "1.5.6"
     stage: "pending"

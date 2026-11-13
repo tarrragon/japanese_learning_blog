@@ -1,4 +1,6 @@
 ---
+title: "所得控除（しょとくこうじょ）"
+description: "所得扣除額"
 stage: pending
 tags: []
 domains:

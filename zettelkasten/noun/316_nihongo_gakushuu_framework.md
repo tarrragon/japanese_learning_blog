@@ -11,7 +11,8 @@ needs_review: true
 tags:
   - 学術的な場面
   - concept
-  - language_learning
+domains:
+  - learning
 created: 2025-12-28
 updated: 2025-12-28
 version_history:

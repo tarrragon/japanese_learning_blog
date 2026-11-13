@@ -1,6 +1,7 @@
 ---
 title: 住宅ローン控除
-stage: pending
+description: "房貸減稅（日本住宅貸款稅額扣除）"
+stage: draft
 tags:
   - concept/tax-deduction
   - topic/housing
@@ -9,7 +10,7 @@ domains:
 domain_topics:
   - economics/fiscal
 created: 2025-12-23
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

@@ -2,11 +2,14 @@
 id: 421
 number: 125
 title: 意味論
+description: "研究語言意義的語義學"
 category: concept
 japanese: 意味論
 chinese: 語義學
 english: semantics
-tags: [言語学, 語言, 意味]
+tags: [語言, 意味]
+domains:
+  - linguistics
 created_date: 2025-12-27
 version_history:
   - version: 1.5.1

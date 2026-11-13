@@ -1,4 +1,6 @@
 ---
+title: "財政（ざいせい）"
+description: "政府收支的管理與運作，財政"
 id: 460
 category: concept
 number: 130

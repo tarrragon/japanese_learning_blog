@@ -10,6 +10,7 @@ needs_review: true
 tags:
   - 学術的な場面
   - language
+domains:
   - linguistics
 created: 2025-12-28
 updated: 2025-12-28

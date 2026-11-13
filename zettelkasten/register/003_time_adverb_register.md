@@ -1,12 +1,13 @@
 ---
 title: "時間副詞語域"
-stage: pending
+description: "時間副詞從口語到正式的語域層級"
+stage: draft
 tags:
   - register
   - time-adverb
   - formality
 created: 2025-12-22
-updated: 2025-12-22
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

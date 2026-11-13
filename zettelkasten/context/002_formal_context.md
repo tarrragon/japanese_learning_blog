@@ -3,14 +3,14 @@ title: 正式場合
 description: 正式場合的定義、特徵及適用敬語的情境說明
 id: 109
 category: context
-stage: pending
+stage: draft
 tags:
   - context
   - keigo
   - jlpt/n3
   - jlpt/n2
 created: 2025-12-27
-updated: 2025-12-27
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

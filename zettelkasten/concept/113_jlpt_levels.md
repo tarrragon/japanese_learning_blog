@@ -1,11 +1,13 @@
 ---
-stage: pending
+title: "JLPT等級（Japanese Language Proficiency Test Levels）"
+description: "日語能力試驗N5至N1的等級體系"
+stage: draft
 tags:
   - japanese-proficiency-test
   - language-assessment
   - learning-framework
 created: 2025-12-26
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

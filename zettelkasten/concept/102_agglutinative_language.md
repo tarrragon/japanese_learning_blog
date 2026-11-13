@@ -1,11 +1,14 @@
 ---
-stage: pending
+title: "膠著語"
+description: "在詞幹上依序附加詞綴的語言類型"
+stage: draft
 tags:
-  - linguistics
   - language-typology
   - japanese-grammar
+domains:
+  - linguistics
 created: 2025-12-26
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

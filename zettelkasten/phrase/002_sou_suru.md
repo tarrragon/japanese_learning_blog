@@ -9,9 +9,10 @@ tags:
   - jlpt/n5
   - agreement
   - confirmation
-  - daily_life
   - context/casual
   - context/business
+domains:
+  - daily-life
 created: 2025-10-30
 updated: 2025-12-27
 version_history:

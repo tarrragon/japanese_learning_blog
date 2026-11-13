@@ -3,14 +3,14 @@ title: "〜てくださる"
 description: "表示尊敬的授受表達，用於描述地位較高者為說話者做某事"
 type: grammar
 jlpt: n4
-stage: pending
+stage: draft
 tags:
   - grammar
   - giving_receiving
   - te_form
   - honorific
 created: 2025-10-31
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

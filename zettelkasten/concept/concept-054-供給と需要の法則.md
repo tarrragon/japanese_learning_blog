@@ -3,7 +3,7 @@ title: "供給と需要の法則（きょうきゅうとじゅようのほうそ
 description: "供需法則"
 type: concept
 jlpt: n1
-stage: pending
+stage: draft
 tags:
   - concept/principle
 domains:
@@ -11,7 +11,7 @@ domains:
 domain_topics:
   - economics/general
 created: 2025-12-23
-updated: 2025-12-23
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

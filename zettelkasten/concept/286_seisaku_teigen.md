@@ -1,7 +1,7 @@
 ---
 title: 政策提言（せいさくていげん）
 description: 政策建議、向政府或決策者提出的政策提案
-stage: pending
+stage: draft
 tags:
   - context/formal
   - context/academic
@@ -9,7 +9,7 @@ tags:
 domains:
   - society
 created: 2025-12-27
-updated: 2025-12-27
+updated: 2026-11-14
 version_history:
   - version: "1.5.4"
     stage: "pending"

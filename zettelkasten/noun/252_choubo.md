@@ -1,5 +1,6 @@
 ---
 title: "帳簿"
+description: "帳簿、帳冊"
 stage: pending
 tags:
   - "business"

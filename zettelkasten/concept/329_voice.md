@@ -9,9 +9,10 @@ draft: true
 auto_generated: false
 needs_review: true
 tags:
-  - 言語学
   - grammar
   - linguistic_theory
+domains:
+  - linguistics
 dictionary:
   sources:
     daijirin: false

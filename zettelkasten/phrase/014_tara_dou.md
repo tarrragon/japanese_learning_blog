@@ -10,7 +10,8 @@ tags:
   - suggestion
   - advice
   - conditional
-  - daily_life
+domains:
+  - daily-life
 created: 2025-12-17
 updated: 2025-12-27
 version_history:

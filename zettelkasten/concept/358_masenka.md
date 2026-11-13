@@ -4,7 +4,7 @@ description: "禮貌邀請表達：用於邀請對方一起做某事"
 type: concept
 subtype: invitation_expression
 jlpt: n5
-stage: pending
+stage: draft
 draft: true
 auto_generated: false
 needs_review: true
@@ -15,7 +15,7 @@ tags:
   - grammar_pattern
   - 日常会話の場面
 created: 2025-12-28
-updated: 2025-12-28
+updated: 2026-11-14
 version_history:
   - version: "1.5.6"
     stage: "pending"

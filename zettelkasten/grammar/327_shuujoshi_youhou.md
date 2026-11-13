@@ -1,4 +1,6 @@
 ---
+title: "終助詞の用法（しゅうじょしのようほう）"
+description: "よ、ね、な等終助詞的語氣差異"
 id: 526
 number: 294
 version_history:

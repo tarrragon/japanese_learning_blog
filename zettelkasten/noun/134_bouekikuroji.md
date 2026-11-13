@@ -1,5 +1,6 @@
 ---
 title: 貿易黒字
+description: "貿易順差"
 jlpt: n2
 stage: extension-review
 tags: []

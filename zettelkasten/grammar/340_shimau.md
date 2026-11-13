@@ -2,6 +2,7 @@
 id: 430
 number: 324
 title: 補助動詞しまうの用法
+description: "表示動作完成、遺憾或不小心的補助動詞"
 category: grammar
 tags:
   - auxiliary_verb
@@ -9,8 +10,8 @@ tags:
   - jlpt/n3
 jlpt: n3
 created: 2025-12-27
-updated: 2025-12-27
-stage: pending
+updated: 2026-11-14
+stage: draft
 version_history:
   - version: "1.5.4"
     stage: "pending"

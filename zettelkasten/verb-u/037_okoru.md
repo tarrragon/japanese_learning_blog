@@ -1,5 +1,6 @@
 ---
 title: "起こる（おこる）"
+description: "發生、出現、起床"
 type: verb
 jlpt: n4
 stage: pending

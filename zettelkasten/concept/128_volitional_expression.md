@@ -1,12 +1,13 @@
 ---
 title: "予定"
-stage: pending
+description: "表達意圖、決心與計畫的意志表現總稱"
+stage: draft
 tags:
   - 文法
   - 意志
   - 表現形式
 created: 2025-12-26
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

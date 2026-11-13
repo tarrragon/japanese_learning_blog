@@ -4,7 +4,7 @@ description: "進口商品時所課徵的稅金"
 type: concept
 subtype: economics
 jlpt: n3
-stage: pending
+stage: draft
 draft: true
 auto_generated: false
 needs_review: true
@@ -16,7 +16,7 @@ domains:
 domain_topics:
   - economics/general
 created: 2025-12-28
-updated: 2025-12-28
+updated: 2026-11-14
 version_history:
   - version: "1.5.6"
     stage: "pending"

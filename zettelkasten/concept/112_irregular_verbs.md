@@ -1,12 +1,13 @@
 ---
 title: 不規則動詞（ふきそくどうし）
-stage: pending
+description: "不依規則活用的来る與する"
+stage: draft
 tags:
   - verb-conjugation
   - grammar-basics
   - irregular-patterns
 created: 2025-12-26
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

@@ -3,14 +3,14 @@ title: "不動産（ふどうさん）"
 description: "不動產，土地及建築物等無法移動的財產"
 type: concept
 jlpt: n3
-stage: pending
+stage: draft
 tags: []
 domains:
   - economics
 domain_topics:
   - economics/business
 created: 2025-12-27
-updated: 2025-12-27
+updated: 2026-11-14
 version_history:
   - version: "1.5.4"
     stage: "pending"

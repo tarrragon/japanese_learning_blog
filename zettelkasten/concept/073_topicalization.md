@@ -1,15 +1,16 @@
 ---
 title: "主題化"
+description: "透過は將成分提升為話題的語法概念"
 type: concept
 jlpt: n3
-stage: pending
+stage: draft
 tags:
   - grammar
   - は
   - topic
   - topicalization
 created: 2025-12-26
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

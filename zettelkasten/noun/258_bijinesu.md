@@ -3,13 +3,13 @@ title: "ビジネス"
 description: "商業、生意、業務"
 type: noun
 jlpt: n2
-stage: pending
+stage: draft
 tags:
   - business
   - workplace
   - jlpt/n2
 created: 2025-12-26
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

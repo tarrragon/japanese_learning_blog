@@ -1,13 +1,13 @@
 ---
 title: 理由（りゆう）
 description: 理由、原因
-stage: pending
+stage: draft
 tags:
   - context/formal
   - context/casual
   - jlpt/n3
 created: 2025-10-27
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

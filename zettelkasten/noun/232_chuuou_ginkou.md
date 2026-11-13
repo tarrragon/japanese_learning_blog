@@ -1,6 +1,7 @@
 ---
 title: "中央銀行（ちゅうおうぎんこう）"
-stage: pending
+description: "中央銀行、負責貨幣政策與發行貨幣的機構"
+stage: draft
 tags:
   - "economic"
   - "institution"
@@ -9,7 +10,7 @@ domains:
 domain_topics:
   - economics/finance
 created: 2025-12-26
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

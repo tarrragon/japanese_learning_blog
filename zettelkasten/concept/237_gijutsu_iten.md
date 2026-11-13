@@ -2,14 +2,15 @@
 id: 449
 number: 132
 title: 技術移転
+description: "技術轉讓、技術移轉"
 title_en: Technology Transfer
 title_zh: 技術轉讓
 category: concept
 tags:
   - business
-  - technology
 domains:
   - economics
+  - technology
 domain_topics:
   - economics/general
 status: draft

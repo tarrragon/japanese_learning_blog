@@ -1,13 +1,14 @@
 ---
 title: "動詞連用形+に+行く/来る"
-stage: pending
+description: "表示移動目的「為了做…而去、來」"
+stage: draft
 tags:
   - "grammar-pattern"
   - "verb-conjugation"
   - "purpose-expression"
   - "movement-verbs"
 created: 2025-12-26
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

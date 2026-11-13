@@ -1,5 +1,6 @@
 ---
 title: "〜ずに"
+description: "表示不做某動作而做另一動作（書面語）"
 type: "grammar"
 stage: pending
 created: 2025-12-26
@@ -29,6 +30,10 @@ link_status:
 **中文**：表示不做某個動作而進行另一個動作的正式表達。「〜ないで」的書面語。
 
 **English**: A formal expression indicating doing something without performing another action. The written form of "〜ないで".
+
+## 中文解釋
+
+「〜ずに」表示不做某個動作，而直接進行另一個動作，意思相當於「〜ないで」，中文可譯為「不……就……」、「沒有……而……」。它是「〜ないで」的書面語形式，常用於文章、論文、商務文書與較正式的說話場合。接續方式是動詞ない形去掉「ない」後加「ずに」，例如「書かずに」、「食べずに」。要注意「する」要變成「せずに」，而不是「しずに」。日常口語中一般更常使用「〜ないで」。
 
 ## 形成
 

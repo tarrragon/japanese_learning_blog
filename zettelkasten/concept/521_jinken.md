@@ -7,10 +7,9 @@ stage: draft
 draft: true
 auto_generated: false
 needs_review: true
-tags:
-  - law
+tags: []
+domains:
   - society
-  - politics
 dictionary:
   sources:
     daijirin: false

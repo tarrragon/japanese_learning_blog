@@ -1,5 +1,6 @@
 ---
 title: "まで vs までに 比較"
+description: "まで與までに的持續與期限差異"
 type: comparison
 jlpt: n4
 stage: pending

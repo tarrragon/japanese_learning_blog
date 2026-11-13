@@ -1,6 +1,7 @@
 ---
 title: 合理性
-stage: pending
+description: "經濟學中基於一致偏好的最優選擇性質"
+stage: draft
 tags:
   - 意思決定
   - 経済人
@@ -10,7 +11,7 @@ domains:
 domain_topics:
   - economics/general
 created: 2025-12-23
-updated: 2025-12-23
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

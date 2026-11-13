@@ -9,9 +9,9 @@ draft: false
 auto_generated: false
 needs_review: true
 tags:
-  - pragmatics
-  - 言語学
   - コミュニケーション分野
+domains:
+  - linguistics
 dictionary:
   sources:
     daijirin: false

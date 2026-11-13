@@ -1,6 +1,7 @@
 ---
 id: 457
 title: "純資産"
+description: "總資產扣除總負債後的淨資產"
 japanese: "純資産"
 reading: "じゅんしさん"
 romaji: "jun shisan"

@@ -1,5 +1,6 @@
 ---
 title: "消費"
+description: "消費"
 type: "basic"
 stage: pending
 tags: []

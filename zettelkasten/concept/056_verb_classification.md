@@ -1,5 +1,6 @@
 ---
 title: "動詞分類"
+description: "日語動詞分為一段、五段、不規則三類"
 type: concept
 jlpt: n5
 stage: extension-review

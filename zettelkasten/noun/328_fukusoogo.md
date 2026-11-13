@@ -8,9 +8,10 @@ draft: true
 auto_generated: false
 needs_review: true
 tags:
-  - linguistics
   - 言語類型
   - technical_term
+domains:
+  - linguistics
 created: 2025-12-28
 updated: 2025-12-28
 version_history:

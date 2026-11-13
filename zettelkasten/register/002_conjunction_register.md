@@ -1,13 +1,13 @@
 ---
 title: 接続詞の語域（せつぞくしのごいき）
 description: 口語到正式的層次
-stage: pending
+stage: draft
 tags:
   - register/formality
   - context/conjunction
   - jlpt/n4
 created: 2025-12-22
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

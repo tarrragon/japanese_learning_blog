@@ -1,5 +1,6 @@
 ---
 title: "謙讓語系統"
+description: "謙讓語系統，降低自己動作以表敬意"
 stage: pending
 tags:
   - 敬語

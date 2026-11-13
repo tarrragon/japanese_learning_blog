@@ -9,11 +9,11 @@ draft: true
 auto_generated: false
 needs_review: true
 tags:
-  - politics
   - formal_language
   - news_vocabulary
 domains:
   - economics
+  - society
 domain_topics:
   - economics/general
 dictionary:

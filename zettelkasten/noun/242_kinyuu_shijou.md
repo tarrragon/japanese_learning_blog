@@ -1,5 +1,6 @@
 ---
 title: "金融市場"
+description: "金融市場"
 stage: pending
 tags:
   - "市場"

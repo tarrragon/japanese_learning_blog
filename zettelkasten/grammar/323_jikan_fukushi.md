@@ -1,6 +1,7 @@
 ---
 id: 294
 title: 時間副詞の用法
+description: "表達動作何時發生的時間副詞"
 title_en: Adverbs of Time Usage
 title_zh: 時間副詞的用法
 category: grammar

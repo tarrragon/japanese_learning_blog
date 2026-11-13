@@ -1,5 +1,6 @@
 ---
 title: "丁寧体 vs 普通体"
+description: "丁寧体與普通体的禮貌程度差異"
 type: comparison
 jlpt: n5
 stage: pending

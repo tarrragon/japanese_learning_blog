@@ -1,12 +1,14 @@
 ---
 title: "敬語表達：ごちそうさま"
-stage: pending
+description: "用餐後表達感謝與滿足的招呼語"
+stage: draft
 tags:
   - "honorific"
   - "teineigo"
-  - "daily_life"
+domains:
+  - daily-life
 created: 2025-12-26
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

@@ -10,7 +10,8 @@ needs_review: true
 tags:
   - "医療分野"
   - "知覚・感覚分野"
-  - daily_life
+domains:
+  - daily-life
 created: 2025-12-28
 updated: 2025-12-28
 version_history:

@@ -1,4 +1,6 @@
 ---
+title: "経済指標（けいざいしひょう）"
+description: "衡量經濟狀況的GDP、失業率等統計指標"
 id: 123
 card_type: concept
 created_date: 2025-12-27

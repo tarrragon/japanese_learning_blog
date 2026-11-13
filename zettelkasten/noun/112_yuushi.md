@@ -1,4 +1,6 @@
 ---
+title: "融資（ゆうし）"
+description: "融資、貸款"
 type: card
 jlpt: n2
 stage: pending

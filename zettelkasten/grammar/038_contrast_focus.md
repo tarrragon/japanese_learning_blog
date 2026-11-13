@@ -10,7 +10,8 @@ tags:
   - contrast
   - focus
   - topic_marking
-  - information_structure
+domains:
+  - linguistics
 created: 2025-10-30
 updated: 2025-10-30
 version_history:

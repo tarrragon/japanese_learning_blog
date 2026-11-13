@@ -3,6 +3,7 @@ id: 438
 number: 125
 category: concept
 title: 名目成長率
+description: "未扣除物價影響的名義經濟成長率"
 created_at: 2025-12-27
 updated_at: 2025-12-27
 status: extension-review

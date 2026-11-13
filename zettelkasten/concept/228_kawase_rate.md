@@ -1,4 +1,6 @@
 ---
+title: "為替レート（かわせレート）"
+description: "匯率、貨幣間的兌換比例"
 id: 455
 category: concept
 japanese: 為替レート

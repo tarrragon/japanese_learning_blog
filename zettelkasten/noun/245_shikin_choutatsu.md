@@ -1,7 +1,8 @@
 ---
 title: "資金調達"
+description: "籌措資金、募資"
 type: "noun"
-stage: pending
+stage: draft
 tags:
   - "ビジネス"
 domains:
@@ -9,7 +10,7 @@ domains:
 domain_topics:
   - economics/finance
 created: "2025-12-26"
-updated: "2025-12-26"
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

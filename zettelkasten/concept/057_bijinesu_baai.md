@@ -1,14 +1,15 @@
 ---
 title: "商務場合"
+description: "會議、洽談等需用敬語的職場場合"
 type: concept
 jlpt: n3
-stage: pending
+stage: draft
 tags:
   - ビジネス
   - 敬語
   - 場面
 created: 2025-12-24
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

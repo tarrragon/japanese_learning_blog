@@ -1,10 +1,12 @@
 ---
 title: 日常会話
+description: "日常生活中的一般對話"
 stage: draft
 tags:
-  - communication
   - social-interaction
   - language-use
+domains:
+  - communication
 created: 2025-12-26
 updated: 2025-12-26
 version_history:

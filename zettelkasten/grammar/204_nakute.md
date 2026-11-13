@@ -1,12 +1,13 @@
 ---
 title: "〜なくて"
-stage: pending
+description: "否定て形，連接否定的原因或狀態"
+stage: draft
 tags:
   - "negative"
   - "conjugation"
   - "N5"
 created: 2025-12-26
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

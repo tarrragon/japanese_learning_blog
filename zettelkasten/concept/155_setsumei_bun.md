@@ -1,5 +1,6 @@
 ---
 title: "説明文"
+description: "客觀清晰傳達資訊的說明文文體"
 stage: extension-review
 tags:
   - 文章類型

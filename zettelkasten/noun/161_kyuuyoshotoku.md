@@ -1,13 +1,14 @@
 ---
 title: "給与所得"
-stage: pending
+description: "薪資所得"
+stage: draft
 tags: []
 domains:
   - economics
 domain_topics:
   - economics/general
 created: 2025-12-26
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

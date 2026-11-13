@@ -1,5 +1,7 @@
 ---
-stage: pending
+title: "社会資本（しゃかいしほん）"
+description: "社會資本、政府建設管理的公共基礎設施"
+stage: draft
 tags:
   - infrastructure
   - public-sector
@@ -8,7 +10,7 @@ domains:
 domain_topics:
   - economics/general
 created: 2025-12-26
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

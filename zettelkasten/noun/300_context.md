@@ -1,4 +1,6 @@
 ---
+title: "語境（ごぎょう）"
+description: "語境、上下文"
 id: 505
 version: 1.5.1
 stage: extension-review
@@ -8,7 +10,10 @@ number: 282
 yomi: ごぎょう
 pos: noun
 slug: context
-tags: [japanese, communication, linguistics]
+tags: [japanese]
+domains:
+  - communication
+  - linguistics
 ---
 # 語境（ごぎょう）
 

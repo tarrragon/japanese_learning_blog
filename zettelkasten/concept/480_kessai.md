@@ -9,9 +9,9 @@ auto_generated: false
 needs_review: true
 tags:
   - ビジネスシーン
-  - daily_life
 domains:
   - economics
+  - daily-life
 domain_topics:
   - economics/finance
 dictionary:

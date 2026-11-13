@@ -1,6 +1,8 @@
 ---
+title: "税率(ぜいりつ)"
+description: "稅率、對課稅對象徵稅的比率"
 jlpt: n2
-stage: pending
+stage: draft
 tags:
   - concept/parameter
 domains:
@@ -8,7 +10,7 @@ domains:
 domain_topics:
   - economics/fiscal
 created: 2025-12-26
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

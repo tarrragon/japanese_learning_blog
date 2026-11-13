@@ -1,12 +1,14 @@
 ---
-stage: pending
+title: "階層（hierarchy）"
+description: "社會或組織中的上下關係與等級序列"
+stage: draft
 tags:
   - concept
   - social-structure
   - keigo
   - japanese-culture
 created: 2025-12-26
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

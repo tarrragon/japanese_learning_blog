@@ -1,5 +1,6 @@
 ---
 title: 履く
+description: "穿（褲子、裙子、鞋襪等下半身衣物）"
 stage: pending
 tags:
   - 五段動詞

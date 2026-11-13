@@ -1,4 +1,6 @@
 ---
+title: "空気を読む（くうきをよむ）"
+description: "日本社交中察言觀色、讀取場合氣氛的概念"
 stage: pending
 tags:
   - 社會互動

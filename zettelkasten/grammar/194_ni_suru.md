@@ -1,13 +1,14 @@
 ---
 title: "にする"
-stage: pending
+description: "表示決定選擇或使之變成"
+stage: draft
 tags:
   - grammar
   - decision
   - choice
   - transformation
 created: 2025-12-26
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

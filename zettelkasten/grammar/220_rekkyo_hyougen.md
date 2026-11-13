@@ -1,5 +1,6 @@
 ---
 title: 列舉表達
+description: "列舉多個項目或動作的表達"
 stage: extension-review
 tags:
   - grammar

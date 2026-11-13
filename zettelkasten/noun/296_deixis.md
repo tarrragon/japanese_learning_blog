@@ -3,6 +3,7 @@ id: 508
 number: 281
 category: noun
 title: 指示語
+description: "指示語、指示詞（こそあど）"
 ruby: しじご
 pinyin: zhǐshìyǔ
 created: 2025-12-27

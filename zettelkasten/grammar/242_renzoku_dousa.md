@@ -2,14 +2,14 @@
 title: 連續動作表達
 description: 日文中表達連續動作的文法結構，包括て形連接、～たり～たり、～てから等
 type: grammar
-stage: pending
+stage: draft
 tags:
   - context/casual
   - context/formal
   - jlpt/n5
   - jlpt/n4
 created: 2025-12-27
-updated: 2025-12-27
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

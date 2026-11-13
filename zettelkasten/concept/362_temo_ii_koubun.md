@@ -4,7 +4,7 @@ description: "表達許可、允許的日文句型"
 type: concept
 subtype: grammar_pattern
 jlpt: n4
-stage: pending
+stage: draft
 draft: true
 auto_generated: false
 needs_review: true
@@ -15,7 +15,7 @@ tags:
   - modal
   - "日本語能力試験N4"
 created: 2025-12-28
-updated: 2025-12-28
+updated: 2026-11-14
 version_history:
   - version: "1.5.6"
     stage: "pending"

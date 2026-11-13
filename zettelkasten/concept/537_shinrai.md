@@ -10,8 +10,9 @@ auto_generated: false
 needs_review: true
 tags:
   - relationship
-  - psychology
   - business
+domains:
+  - cognition
 dictionary:
   sources:
     daijirin: true

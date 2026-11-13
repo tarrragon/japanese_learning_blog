@@ -1,9 +1,11 @@
 ---
+title: "大変（たいへん）"
+description: "非常、很；辛苦、嚴重"
 jlpt: n4
-stage: pending
+stage: draft
 tags: [intensity, difficulty]
 created: 2025-12-26
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

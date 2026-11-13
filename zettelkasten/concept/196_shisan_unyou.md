@@ -1,6 +1,7 @@
 ---
 id: 124
 title: 資産運用
+description: "管理運用資產以增加價值的投資行為"
 category: concept
 tags:
   - business

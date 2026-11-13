@@ -1,13 +1,14 @@
 ---
 title: いただく
+description: "もらう的謙讓語，領受、得到"
 jlpt: n4
-stage: pending
+stage: draft
 tags:
   - 謙讓語
   - 授受動詞
   - 敬語基礎
 created: 2025-12-22
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

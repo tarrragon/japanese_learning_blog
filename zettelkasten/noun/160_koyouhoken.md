@@ -1,5 +1,7 @@
 ---
-stage: pending
+title: "雇用保険"
+description: "就業保險"
+stage: draft
 tags:
   - level/n2
 domains:
@@ -7,7 +9,7 @@ domains:
 domain_topics:
   - economics/general
 created: 2025-12-26
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

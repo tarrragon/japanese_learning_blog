@@ -1,10 +1,11 @@
 ---
 title: "小さい vs 小さな"
+description: "小さい與小さな的文法差異"
 jlpt: n5
-stage: pending
+stage: draft
 tags: [い-adjective, な-adjective, size]
 created: 2025-12-22
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

@@ -2,6 +2,7 @@
 id: 404
 number: 123
 title: アスペクト
+description: "表示動作進行、完成等狀態的體貌範疇"
 japanese: アスペクト
 chinese: 體貌
 english: Aspect

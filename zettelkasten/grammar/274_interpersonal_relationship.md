@@ -2,14 +2,14 @@
 title: 人際關係
 description: 日語中表達和處理人際關係的語言表達與社會語言學概念
 type: pragmatics
-stage: pending
+stage: draft
 tags:
   - context/social
   - context/formal
   - context/casual
   - jlpt/n3
 created: 2025-12-27
-updated: 2025-12-27
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

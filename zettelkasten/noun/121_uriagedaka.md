@@ -1,4 +1,6 @@
 ---
+title: "売上高（うりあげだか）"
+description: "銷售額、營業額"
 jlpt: n2
 stage: extension-review
 tags: []

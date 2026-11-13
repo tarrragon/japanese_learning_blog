@@ -1,16 +1,17 @@
 ---
 title: 内閣府
-stage: pending
+description: "內閣府"
+stage: draft
 tags:
   - 政府機関
-  - 政治
   - 行政
 domains:
   - economics
+  - society
 domain_topics:
   - economics/general
 created: 2025-12-23
-updated: 2025-12-23
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

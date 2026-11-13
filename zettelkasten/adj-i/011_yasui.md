@@ -9,7 +9,8 @@ auto_generated: false
 needs_review: true
 tags:
   - shopping
-  - daily_life
+domains:
+  - daily-life
 dictionary:
   sources:
     daijirin: true

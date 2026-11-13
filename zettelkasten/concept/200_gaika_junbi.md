@@ -1,4 +1,6 @@
 ---
+title: "外貨準備（がいかじゅんび）"
+description: "國家持有的外幣與黃金等外匯存底"
 id: 445
 card_number: 125
 category: concept

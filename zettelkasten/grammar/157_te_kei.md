@@ -1,14 +1,15 @@
 ---
 title: "て形"
+description: "動詞て形的連接、請求、許可等功能"
 type: "grammar"
 jlpt: "n5"
-stage: pending
+stage: draft
 tags:
   - grammar
   - verb-conjugation
   - jlpt-n5
 created: 2025-12-26
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

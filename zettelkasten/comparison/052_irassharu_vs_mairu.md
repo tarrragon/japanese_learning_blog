@@ -1,4 +1,6 @@
 ---
+title: "いらっしゃる vs 参る"
+description: "いらっしゃる與参る的敬語差異"
 stage: pending
 tags:
   - "comparison"

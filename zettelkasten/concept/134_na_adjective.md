@@ -1,14 +1,14 @@
 ---
 title: ナ形容詞
 description: 日語形容詞的一種，修飾名詞時需加「な」
-stage: pending
+stage: draft
 tags:
   - context/grammar
   - jlpt/n5
 domains:
   - linguistics
 created: 2025-12-27
-updated: 2025-12-27
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

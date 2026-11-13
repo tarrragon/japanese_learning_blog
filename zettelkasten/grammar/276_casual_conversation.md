@@ -2,12 +2,12 @@
 title: 隨意會話
 description: 日語口語中的非正式對話表達方式
 type: linguistics
-stage: pending
+stage: draft
 tags:
   - context/casual
   - jlpt/n4
 created: 2025-12-27
-updated: 2025-12-27
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

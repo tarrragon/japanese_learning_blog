@@ -1,15 +1,17 @@
 ---
 title: "高語境文化"
+description: "重視默契與語境、不明說也能理解的文化"
 type: concept
 jlpt: n2
-stage: pending
+stage: draft
 tags:
   - concept
+domains:
   - communication
-  - culture
-  - pragmatics
+  - society
+  - linguistics
 created: 2025-12-26
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

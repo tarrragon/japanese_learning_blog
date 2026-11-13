@@ -1,13 +1,14 @@
 ---
 title: "とても vs 大変"
-stage: pending
+description: "とても與大変的程度表現差異"
+stage: draft
 tags:
   - adverb
   - degree
   - comparison
   - intensity
 created: 2025-12-22
-updated: 2025-12-22
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

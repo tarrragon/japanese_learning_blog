@@ -1,5 +1,6 @@
 ---
 title: お/ご〜なさる
+description: "對高地位者的最高敬意尊敬語"
 jlpt: n3
 stage: extension-review
 tags:

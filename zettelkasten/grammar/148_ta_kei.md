@@ -1,10 +1,11 @@
 ---
 title: "た形"
+description: "表示過去或完成的動詞た形"
 type: "grammar"
 jlpt: "n5"
-stage: pending
+stage: draft
 created: 2025-12-24
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

@@ -1,14 +1,15 @@
 ---
 title: "しかし vs でも"
+description: "しかし與でも的正式程度差異"
 type: comparison
-stage: pending
+stage: draft
 tags:
   - comparison
   - grammar
   - conjunction
   - adversative
 created: 2025-12-22
-updated: 2025-12-22
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

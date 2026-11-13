@@ -1,5 +1,6 @@
 ---
 title: "因果関係表現"
+description: "表示原因理由與結果的表達"
 stage: pending
 tags:
   - "grammar"

@@ -8,9 +8,9 @@ stage: completed
 draft: false
 auto_generated: false
 needs_review: false
-tags:
+tags: []
+domains:
   - linguistics
-  - pragmatics
   - communication
 created: 2025-12-27
 updated: 2025-12-28

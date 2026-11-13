@@ -1,6 +1,7 @@
 ---
 title: "取引口座"
-stage: pending
+description: "交易帳戶、買賣證券用的帳戶"
+stage: draft
 tags:
   - 證券
   - N3
@@ -9,7 +10,7 @@ domains:
 domain_topics:
   - economics/finance
 created: 2025-12-23
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

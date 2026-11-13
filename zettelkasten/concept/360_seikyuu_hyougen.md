@@ -10,9 +10,10 @@ needs_review: true
 tags:
   - request
   - keigo
-  - pragmatics
   - "日常会話の場面"
   - "ビジネスシーン"
+domains:
+  - linguistics
 dictionary:
   sources:
     daijirin: true

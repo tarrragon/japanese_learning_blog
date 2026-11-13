@@ -3,13 +3,13 @@ id: 263
 title: 支払い
 description: 支付的名詞形態，及其在經濟文脈中的文法應用
 type: grammar
-stage: pending
+stage: draft
 tags:
   - context/formal
   - context/business
   - jlpt/n3
 created: 2025-12-27
-updated: 2025-12-27
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

@@ -1,4 +1,6 @@
 ---
+title: "對比焦點 (Contrastive Focus)"
+description: "在多個選項中對比強調的焦點"
 id: 415
 number: 132
 category: concept
@@ -8,10 +10,10 @@ chinese_title: 對比焦點
 english_title: Contrastive Focus
 status: draft
 tags:
-  - linguistics
-  - pragmatics
   - information-structure
   - contrast
+domains:
+  - linguistics
 created_date: 2025-12-27
 last_modified: 2025-12-27
 version_history:

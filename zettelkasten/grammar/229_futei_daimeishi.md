@@ -1,13 +1,14 @@
 ---
 title: "不定代詞"
-stage: pending
+description: "疑問詞加か或も的不定代詞"
+stage: draft
 tags:
   - "代詞"
   - "疑問詞"
   - "文法"
   - "基礎語法"
 created: 2025-12-26
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

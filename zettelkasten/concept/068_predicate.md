@@ -1,14 +1,15 @@
 ---
 title: "述語"
+description: "說明主語狀態、動作的句尾核心成分"
 type: concept
 jlpt: n4
-stage: pending
+stage: draft
 tags:
   - concept
   - grammar
   - sentence_structure
 created: 2025-12-26
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

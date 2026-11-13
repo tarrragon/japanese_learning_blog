@@ -1,9 +1,10 @@
 ---
 title: それで
+description: "口語的因果接續詞「因此、所以」"
 jlpt: n4
-stage: pending
+stage: draft
 created: 2025-12-26
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

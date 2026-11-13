@@ -1,13 +1,14 @@
 ---
 title: 一石二鳥 vs 一挙両得
+description: "一石二鳥與一挙両得的成語差異"
 jlpt: n3
-stage: pending
+stage: draft
 tags:
   - idiom
   - four-character-idiom
   - similarity
 created: 2025-12-22
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

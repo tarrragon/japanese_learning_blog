@@ -1,7 +1,7 @@
 ---
 title: 空気を読む（くうきをよむ）
 description: 察言觀色、讀空氣的概念、日本文化中的社交智慧
-stage: pending
+stage: draft
 tags:
   - context/conversational
   - context/formal
@@ -10,7 +10,7 @@ domains:
   - society
   - cognition
 created: 2025-12-27
-updated: 2025-12-27
+updated: 2026-11-14
 version_history:
   - version: "1.5.1"
     stage: "pending"

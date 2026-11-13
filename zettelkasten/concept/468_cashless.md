@@ -9,10 +9,10 @@ auto_generated: false
 needs_review: true
 tags:
   - "日常会話の場面"
-  - daily_life
   - transaction
 domains:
   - economics
+  - daily-life
 domain_topics:
   - economics/finance
 created: 2025-12-28

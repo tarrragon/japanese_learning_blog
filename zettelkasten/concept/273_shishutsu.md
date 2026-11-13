@@ -4,15 +4,15 @@ title: "支出（ししゅつ）"
 description: "支出的概念，金錢花費的分類"
 type: concept
 jlpt: n3
-stage: pending
-tags:
-  - daily_life
+stage: draft
+tags: []
 domains:
   - economics
+  - daily-life
 domain_topics:
   - economics/finance
 created: 2025-12-27
-updated: 2025-12-27
+updated: 2026-11-14
 version_history:
   - version: "1.5.4"
     stage: "pending"

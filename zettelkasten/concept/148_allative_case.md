@@ -7,6 +7,7 @@ stage: extension-review
 tags:
   - grammar_theory
   - case_system
+domains:
   - linguistics
 created: 2025-12-27
 updated: 2025-12-27

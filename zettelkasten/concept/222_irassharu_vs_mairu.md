@@ -2,6 +2,7 @@
 id: 498
 number: 129
 title: いらっしゃる vs 参る
+description: "いらっしゃる尊敬語與参る謙讓語的差異"
 category: concept
 status: draft
 difficulty: intermediate

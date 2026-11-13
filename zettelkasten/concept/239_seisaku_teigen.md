@@ -1,4 +1,6 @@
 ---
+title: "政策提言（せいさくていげん）"
+description: "政策建議、改革方案的提出"
 id: 450
 card_type: concept
 japanese: 政策提言
@@ -6,8 +8,9 @@ traditional_chinese: 政策建議
 english: Policy Proposal
 category: concept
 tags:
-  - 政治
   - 政策
+domains:
+  - society
 version: 1.5.1
 status: draft
 version_history:

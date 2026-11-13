@@ -1,5 +1,6 @@
 ---
 title: お/ご〜いたす
+description: "極謙遜的謙讓語，商務正式場合用"
 jlpt: n3
 stage: extension-review
 tags:

@@ -1,13 +1,14 @@
 ---
 title: "助動詞"
+description: "接在用言後表達判斷、語氣的詞類"
 type: concept
-stage: pending
+stage: draft
 tags:
   - grammar
   - function-words
   - verb-auxiliary
 created: 2025-12-26
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

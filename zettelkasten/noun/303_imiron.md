@@ -1,10 +1,13 @@
 ---
+title: "意味論（いみろん）"
+description: "語義學、語意論"
 stage: extension-review
 tags:
   - N1
-  - linguistics
   - academic
   - formal
+domains:
+  - linguistics
 created: 2025-12-27
 updated: 2025-12-27
 version_history:

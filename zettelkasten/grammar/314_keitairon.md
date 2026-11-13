@@ -1,4 +1,6 @@
 ---
+title: "形態論（けいたいろん）"
+description: "語言學中研究詞的構成與變化的形態學"
 id: 420
 version: 1.5.1
 status: draft
@@ -7,7 +9,9 @@ category: grammar
 japanese: 形態論
 chinese: 形態學
 english: Morphology
-tags: [linguistics, word-structure]
+tags: [word-structure]
+domains:
+  - linguistics
 related: []
 version_history:
   - version: 1.5.1

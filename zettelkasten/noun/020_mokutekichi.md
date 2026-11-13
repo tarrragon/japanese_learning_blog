@@ -3,10 +3,10 @@ title: "目的地（もくてきち）"
 description: "目的地是指作為前往目標而設定的地點，打算到達的地方。在旅行或移動時，指最終要前往的地點。"
 type: noun
 jlpt: n4
-stage: pending
+stage: draft
 tags: []
 created: 2025-10-31
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

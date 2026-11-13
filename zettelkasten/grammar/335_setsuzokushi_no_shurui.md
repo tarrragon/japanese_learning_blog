@@ -3,14 +3,14 @@ title: 接続詞の種類
 description: 接續詞的種類
 type: grammar
 jlpt: n3
-stage: pending
+stage: draft
 draft: true
 tags:
   - grammar_category
   - conjunction
   - jlpt/n3
 created: 2025-12-27
-updated: 2025-12-27
+updated: 2026-11-14
 version_history:
   - version: "1.5.4"
     stage: "pending"

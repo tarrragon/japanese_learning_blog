@@ -1,5 +1,6 @@
 ---
 title: "と vs に 對象用法比較"
+description: "と與に表示對象的用法差異"
 type: comparison
 jlpt: n4
 stage: pending

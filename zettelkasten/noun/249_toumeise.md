@@ -1,4 +1,6 @@
 ---
+title: "透明性（とうめいせい）"
+description: "透明性、透明度"
 stage: extension-review
 tags:
   - N1

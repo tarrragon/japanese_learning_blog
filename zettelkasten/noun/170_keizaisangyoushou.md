@@ -1,6 +1,8 @@
 ---
+title: "経済産業省"
+description: "經濟產業省（METI）"
 jlpt: n1
-stage: pending
+stage: draft
 tags:
   - type/組織
 domains:
@@ -8,7 +10,7 @@ domains:
 domain_topics:
   - economics/general
 created: 2025-12-22
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

@@ -1,12 +1,13 @@
 ---
 title: 良い／いい（よい／いい）
-stage: pending
+description: "好的、良好的"
+stage: draft
 tags:
   - 基礎い形容詞
   - 評価
   - 常用語彙
 created: 2025-12-26
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

@@ -1,12 +1,14 @@
 ---
+title: "すみません"
+description: "對不起、不好意思、謝謝"
 jlpt: n5
-stage: pending
+stage: draft
 tags:
   - apology
   - politeness
   - greeting
 created: 2025-12-22
-updated: 2025-12-22
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

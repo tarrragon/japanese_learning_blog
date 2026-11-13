@@ -1,4 +1,6 @@
 ---
+title: "すぐ"
+description: "馬上、立刻、很近"
 type: time-distance
 stage: completed
 tags:

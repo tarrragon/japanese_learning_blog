@@ -1,5 +1,6 @@
 ---
 title: "経費"
+description: "事業活動所需的費用、經費"
 japanese: "経費"
 reading: "けいひ"
 romaji: "keihi"
@@ -39,6 +40,10 @@ link_status:
 **English**: General term for expenses necessary for business operations. Includes costs such as transportation, communication, entertainment, and consumables incurred in the course of work.
 
 **中文**：經營事業活動所需費用的總稱。包括交通費、通信費、接待費、消耗品費等，為執行業務而支出的金錢。
+
+## 中文解釋
+
+「経費」是指為了經營事業、執行業務而必須支出的費用總稱，中文常說「經費」。內容涵蓋交通費、通信費、接待費、消耗品費、會議費等。在公司裡，員工先自掏腰包墊付業務費用，再附上收據向公司申請核銷，這個程序稱為「経費精算」。常見的搭配有「経費で落とす」（以經費報銷）、「経費削減」（削減經費）等。是商務場合與會計處理中極為常用的詞彙，各公司對可報銷的範圍規定不同，須事先確認。
 
 ## 経費の種類
 

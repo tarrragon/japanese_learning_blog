@@ -1,12 +1,13 @@
 ---
 title: "可能形助詞規則"
-stage: pending
+description: "可能形中「を」變「が」的助詞規則"
+stage: draft
 tags:
   - "可能形"
   - "助詞"
   - "を→が"
 created: 2025-12-26
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

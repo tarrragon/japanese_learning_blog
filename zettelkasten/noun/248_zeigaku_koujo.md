@@ -1,6 +1,7 @@
 ---
 title: "税額控除"
-stage: pending
+description: "稅額扣除、直接抵減稅額"
+stage: draft
 tags: []
 domains:
   - economics
@@ -8,7 +9,7 @@ domain_topics:
   - economics/fiscal
   - economics/finance
 created: 2025-12-26
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

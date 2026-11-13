@@ -1,13 +1,14 @@
 ---
 title: "しかし"
+description: "但是、然而（書面語的逆接）"
 jlpt: "n4"
-stage: pending
+stage: draft
 tags:
   - "逆接"
   - "書面語"
   - "正式表現"
 created: 2025-12-22
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

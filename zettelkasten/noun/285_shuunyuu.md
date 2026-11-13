@@ -1,6 +1,7 @@
 ---
 id: 277
 title: 収入
+description: "收入"
 category: noun
 ruby: しゅうにゅう
 version_history:

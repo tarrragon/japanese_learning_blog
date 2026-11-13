@@ -1,13 +1,14 @@
 ---
 title: "主要動作與附帶動作"
+description: "同時進行動作中的核心動作與附帶動作"
 type: concept
 jlpt: n4
-stage: pending
+stage: draft
 tags:
   - 動詞接續
   - 同時動作
 created: 2025-12-26
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

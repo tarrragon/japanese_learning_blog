@@ -1,13 +1,14 @@
 ---
 title: 口語
-stage: pending
+description: "日常對話的省略與縮約等口語特徵"
+stage: draft
 tags:
   - language-register
   - spoken-language
   - casual
   - conversation
 created: 2025-12-26
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

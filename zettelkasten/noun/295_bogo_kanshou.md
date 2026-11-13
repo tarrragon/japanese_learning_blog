@@ -2,13 +2,15 @@
 id: 281
 version: 1.5.1
 title: 母語干擾
+description: "母語干擾"
 kana: ぼごかんしょう
 category: noun
 stage: extension-review
 tags:
-  - linguistics
   - language-learning
-  - psychology
+domains:
+  - linguistics
+  - cognition
 created_date: 2025-12-27
 updated_date: 2025-12-27
 version_history:

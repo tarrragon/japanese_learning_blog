@@ -10,7 +10,8 @@ tags:
   - resignation
   - acceptance
   - idiom
-  - daily_life
+domains:
+  - daily-life
 created: 2025-10-30
 updated: 2025-12-27
 version_history:

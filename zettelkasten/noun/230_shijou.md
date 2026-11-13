@@ -1,10 +1,11 @@
 ---
 title: "市場（しじょう）"
+description: "市場、商品買賣的場所或供需相遇的機制"
 type: noun
 jlpt: n2
-stage: pending
+stage: draft
 created: 2025-12-26
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

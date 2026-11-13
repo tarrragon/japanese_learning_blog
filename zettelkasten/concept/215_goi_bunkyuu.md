@@ -1,6 +1,7 @@
 ---
 id: 128
 title: 詞彙分級系統
+description: "依學習者程度將詞彙分級的系統"
 japanese: 語彙レベル分類体系
 category: concept
 created: 2025-12-27

@@ -5,9 +5,10 @@ type: grammar
 jlpt: n5
 stage: completed
 tags:
-  - daily_life
   - casual
   - family
+domains:
+  - daily-life
 created: 2025-10-30
 updated: 2025-10-30
 version_history:

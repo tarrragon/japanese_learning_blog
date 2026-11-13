@@ -3,11 +3,11 @@ title: "続ける"
 description: "繼續、持續。不中斷地進行某事，維持相同的狀態或行為。"
 type: verb-ru
 jlpt: n4
-stage: pending
+stage: draft
 tags:
   - verb-ru
 created: 2025-10-31
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

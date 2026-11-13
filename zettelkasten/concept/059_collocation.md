@@ -1,5 +1,6 @@
 ---
 title: "搭配"
+description: "詞語習慣性搭配使用的組合關係"
 type: "concept"
 jlpt: "n3"
 stage: pending

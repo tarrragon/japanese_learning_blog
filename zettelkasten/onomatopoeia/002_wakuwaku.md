@@ -1,13 +1,14 @@
 ---
 title: "ワクワク"
-stage: pending
+description: "期待而興奮雀躍"
+stage: draft
 tags:
   - "jlpt-n4"
   - "emotion"
   - "positive"
   - "gitaigo"
 created: 2025-12-18
-updated: 2025-12-22
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

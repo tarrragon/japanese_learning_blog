@@ -6,7 +6,6 @@ jlpt: n5
 stage: completed
 tags:
   - phrase
-  - daily_life
   - context/casual
   - context/formal
   - jlpt/n5

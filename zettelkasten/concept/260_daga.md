@@ -3,13 +3,13 @@ title: "だが"
 description: 但是（書面語逆接接續詞）
 type: concept
 jlpt: n3
-stage: pending
+stage: draft
 tags:
   - conjunction
   - formal
   - written
 created: 2025-12-27
-updated: 2025-12-27
+updated: 2026-11-14
 version_history:
   - version: "1.5.4"
     stage: "pending"

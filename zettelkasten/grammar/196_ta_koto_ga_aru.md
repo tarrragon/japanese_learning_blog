@@ -1,12 +1,13 @@
 ---
 title: "〜たことがある"
-stage: pending
+description: "表示曾經有過某種經驗"
+stage: draft
 tags:
   - grammar
   - experience
   - past-tense
 created: 2025-12-26
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

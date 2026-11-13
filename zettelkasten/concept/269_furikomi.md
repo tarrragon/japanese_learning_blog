@@ -4,15 +4,15 @@ title: "振込（ふりこみ）"
 description: "轉帳 - 將資金從一個帳戶轉移到另一個帳戶的金融操作"
 type: concept
 jlpt: n3
-stage: pending
-tags:
-  - daily_life
+stage: draft
+tags: []
 domains:
   - economics
+  - daily-life
 domain_topics:
   - economics/finance
 created: 2025-12-27
-updated: 2025-12-27
+updated: 2026-11-14
 version_history:
   - version: "1.5.4"
     stage: "pending"

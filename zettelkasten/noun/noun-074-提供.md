@@ -1,6 +1,7 @@
 ---
 title: 提供
-stage: pending
+description: "提供、供給"
+stage: draft
 tags:
   - action/provide
   - concept/supply
@@ -9,7 +10,7 @@ domains:
 domain_topics:
   - economics/general
 created: 2025-12-23
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

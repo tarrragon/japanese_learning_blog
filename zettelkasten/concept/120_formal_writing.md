@@ -1,12 +1,13 @@
 ---
 title: "書面語・フォーマルな文章"
-stage: pending
+description: "用於正式文書與論文的書面語風格"
+stage: draft
 tags:
   - 文体
   - レジスター
   - 書き言葉
 created: 2025-12-26
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

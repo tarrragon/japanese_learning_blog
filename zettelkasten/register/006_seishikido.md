@@ -1,12 +1,14 @@
 ---
 title: "正式度"
-stage: pending
+description: "語言表達的正式度等級與運用"
+stage: draft
 tags:
   - register
   - formality
-  - pragmatics
+domains:
+  - linguistics
 created: 2025-12-27
-updated: 2025-12-27
+updated: 2026-11-14
 id: 91
 version_history:
   - version: "1.5.0"

@@ -1,12 +1,13 @@
 ---
 title: "並列助詞"
-stage: pending
+description: "以と、や、か等並列連接詞語的助詞"
+stage: draft
 tags:
   - 助詞
   - 並列
   - N5
 created: 2025-12-26
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

@@ -1,4 +1,6 @@
 ---
+title: "物価指数（ぶっかしすう）"
+description: "物價指數"
 jlpt: n2
 stage: pending
 tags: []

@@ -1,10 +1,12 @@
 ---
+title: "債権者（さいけんしゃ）"
+description: "債權人"
 stage: pending
 tags:
-  - 法律
   - N1
 domains:
   - economics
+  - society
 domain_topics:
   - economics/general
 created: 2025-12-26

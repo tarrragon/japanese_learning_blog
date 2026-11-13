@@ -1,4 +1,6 @@
 ---
+title: "言語行為論（げんごこういろん）"
+description: "視言語為社會行為的奧斯汀、瑟爾理論"
 id: 506
 card_number: 128
 category: concept
@@ -8,7 +10,10 @@ version: 1.5.1
 japanese_term: 発話行為理論
 chinese_term: 言語行為理論
 english_term: Speech Act Theory
-tags: [linguistics, pragmatics, communication, philosophy]
+tags: [philosophy]
+domains:
+  - linguistics
+  - communication
 related_cards: []
 version_history:
   - version: 1.5.1

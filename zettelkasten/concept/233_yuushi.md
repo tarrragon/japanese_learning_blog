@@ -1,4 +1,6 @@
 ---
+title: "融資（ゆうし）"
+description: "金融機構提供資金的融資"
 id: 454
 card_type: concept
 card_number: 130

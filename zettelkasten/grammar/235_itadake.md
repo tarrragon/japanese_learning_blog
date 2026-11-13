@@ -1,5 +1,6 @@
 ---
 title: いただけ
+description: "いただく的可能形詞幹，用於禮貌請求"
 jlpt: n4
 stage: extension-review
 tags:

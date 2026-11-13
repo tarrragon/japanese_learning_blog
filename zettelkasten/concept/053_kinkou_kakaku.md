@@ -3,7 +3,7 @@ title: 均衡価格（きんこうかかく）
 description: 均衡價格，市場供需達到平衡時的價格
 type: concept
 jlpt: none
-stage: pending
+stage: draft
 tags:
   - concept/theory
 domains:
@@ -11,7 +11,7 @@ domains:
 domain_topics:
   - economics/general
 created: 2025-12-23
-updated: 2025-12-23
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

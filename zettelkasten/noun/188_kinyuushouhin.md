@@ -1,6 +1,7 @@
 ---
 title: "金融商品"
-stage: pending
+description: "金融商品、股票、債券、保險等投資理財產品"
+stage: draft
 tags:
   - N3
 domains:
@@ -8,7 +9,7 @@ domains:
 domain_topics:
   - economics/finance
 created: 2025-12-23
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

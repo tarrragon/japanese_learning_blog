@@ -5,6 +5,7 @@ type: card
 category: noun
 number: 277
 title: 支出
+description: "支出、開銷"
 japanese: 支出
 romaji: shishutsu
 chinese: 支出

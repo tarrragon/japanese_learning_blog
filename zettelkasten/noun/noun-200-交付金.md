@@ -1,5 +1,7 @@
 ---
-stage: pending
+title: "交付金（こうふきん）"
+description: "補助金、撥款（政府為特定目的支付的款項）"
+stage: draft
 tags:
   - government/finance
   - public-finance
@@ -8,7 +10,7 @@ domains:
 domain_topics:
   - economics/general
 created: 2025-12-26
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

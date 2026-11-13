@@ -4,10 +4,10 @@ description: 文法
 type: noun
 jlpt: n4
 stage: completed
-tags:
-  - education
+tags: []
+domains:
+  - learning
   - linguistics
-  - language_learning
 created: 2025-10-31
 updated: 2025-12-27
 version_history:

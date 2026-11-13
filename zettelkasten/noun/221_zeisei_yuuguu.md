@@ -3,14 +3,14 @@ title: 税制優遇（ぜいせいゆうぐう）
 description: 稅制優惠，政府為達成特定政策目標而提供的稅務減免措施
 type: noun
 jlpt: none
-stage: pending
+stage: draft
 tags: []
 domains:
   - economics
 domain_topics:
   - economics/fiscal
 created: 2025-12-23
-updated: 2025-12-23
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

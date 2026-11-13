@@ -1,4 +1,6 @@
 ---
+title: "待遇表現（たいぐうひょうげん）"
+description: "依對象表達尊敬與親密程度的待遇表現"
 id: 293
 category: grammar
 tag: 敬語

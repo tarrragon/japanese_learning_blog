@@ -1,13 +1,14 @@
 ---
 title: "そのため"
+description: "書面語的因果接續詞「因此」"
 jlpt: "n3"
-stage: pending
+stage: draft
 tags:
   - "接続詞"
   - "因果関係"
   - "書き言葉"
 created: "2025-12-26"
-updated: "2025-12-26"
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

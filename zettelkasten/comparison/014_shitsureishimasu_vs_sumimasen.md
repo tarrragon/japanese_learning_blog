@@ -1,13 +1,14 @@
 ---
 title: "失礼します vs すみません"
-stage: pending
+description: "失礼します與すみません的場合差異"
+stage: draft
 tags:
   - comparison
   - politeness
   - business-japanese
   - daily-expression
 created: 2025-12-22
-updated: 2025-12-22
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

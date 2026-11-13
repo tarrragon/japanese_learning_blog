@@ -2,6 +2,7 @@
 id: 280
 index: noun-280
 title: 補語
+description: "補語，補足述語意義的句子成分"
 reading: ほごご
 level: N1
 tags:

@@ -1,5 +1,6 @@
 ---
 title: "主題評述結構"
+description: "「は」標示主題再加評述的句子結構"
 type: grammar
 jlpt: n3
 stage: pending

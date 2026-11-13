@@ -1,5 +1,6 @@
 ---
 title: "丁寧語"
+description: "對聽者表示禮貌的敬語，以です、ます體為主"
 stage: pending
 tags:
   - keigo

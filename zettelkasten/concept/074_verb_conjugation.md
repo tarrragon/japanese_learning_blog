@@ -1,5 +1,6 @@
 ---
 title: "動詞活用"
+description: "動詞依語法功能改變形態的系統"
 type: concept
 jlpt: n5
 stage: pending

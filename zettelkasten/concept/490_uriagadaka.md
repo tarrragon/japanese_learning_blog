@@ -4,7 +4,7 @@ description: "銷售額、營業收入"
 type: concept
 subtype: business_term
 jlpt: n3
-stage: pending
+stage: draft
 draft: true
 auto_generated: false
 needs_review: true
@@ -15,7 +15,7 @@ domain_topics:
   - economics/business
   - economics/finance
 created: 2025-12-28
-updated: 2025-12-28
+updated: 2026-11-14
 version_history:
   - version: "1.5.6"
     stage: "pending"

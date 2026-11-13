@@ -1,6 +1,8 @@
 ---
+title: "控除(こうじょ)"
+description: "扣除、從課稅所得中減去一定金額"
 jlpt: n2
-stage: pending
+stage: draft
 tags:
   - concept/mechanism
 domains:
@@ -8,7 +10,7 @@ domains:
 domain_topics:
   - economics/fiscal
 created: 2025-12-26
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

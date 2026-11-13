@@ -1,15 +1,16 @@
 ---
 title: "社會距離"
+description: "說話者間由親疏與上下決定的距離感"
 type: concept
 jlpt: n3
-stage: pending
+stage: draft
 tags:
   - 社會語言學
   - 人際關係
   - 敬語
   - 待遇表現
 created: 2025-12-26
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

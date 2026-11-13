@@ -3,7 +3,7 @@ title: "税関（ぜいかん）"
 description: "海關，負責進出口貨物檢查和關稅徵收的政府機關"
 type: concept
 jlpt: n3
-stage: pending
+stage: draft
 draft: true
 auto_generated: false
 needs_review: true
@@ -12,7 +12,7 @@ tags:
   - 取引
   - "日常生活"
 created: 2025-12-28
-updated: 2025-12-28
+updated: 2026-11-14
 version_history:
   - version: "1.5.6"
     stage: "pending"

@@ -3,7 +3,7 @@ title: 物価（ぶっか）
 description: 物價，商品和服務的整體價格水準
 type: concept
 jlpt: n3
-stage: pending
+stage: draft
 tags:
   - context/daily_life
 domains:
@@ -11,7 +11,7 @@ domains:
 domain_topics:
   - economics/general
 created: 2025-12-27
-updated: 2025-12-27
+updated: 2026-11-14
 version_history:
   - version: "1.5.4"
     stage: "pending"

@@ -1,17 +1,18 @@
 ---
 id: 425
 title: 敬語の使い分け
+description: "依場合與對象區分使用敬語"
 title_reading: けいごのつかいわけ
 type: noun
 category: noun
 jlpt: n3
-stage: pending
+stage: draft
 tags:
   - keigo
   - usage
   - formal
 created: 2025-12-27
-updated: 2025-12-27
+updated: 2026-11-14
 version_history:
   - version: "1.5.4"
     stage: "pending"

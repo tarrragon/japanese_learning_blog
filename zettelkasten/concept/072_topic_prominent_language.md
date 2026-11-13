@@ -1,15 +1,17 @@
 ---
 title: "主題優先語言"
+description: "以主題-評述為組織方式的語言類型"
 type: concept
 jlpt: n3
-stage: pending
+stage: draft
 tags:
-  - linguistics
   - syntax
   - topic-comment
   - comparison
+domains:
+  - linguistics
 created: 2025-12-24
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

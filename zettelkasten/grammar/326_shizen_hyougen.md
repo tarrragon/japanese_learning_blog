@@ -1,4 +1,6 @@
 ---
+title: "自然な表現（しぜんなひょうげん）"
+description: "母語者常用的自然日語表達"
 id: 294
 category: grammar
 title_jp: 自然表現

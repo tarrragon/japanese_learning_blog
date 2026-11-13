@@ -1,14 +1,15 @@
 ---
 title: "申し訳ございません"
+description: "非常抱歉（正式謙遜的道歉）"
 type: "phrase"
-stage: pending
+stage: draft
 tags:
   - phrase
   - keigo
   - apology
   - formal-expressions
 created: 2025-12-22
-updated: 2025-12-22
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

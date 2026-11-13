@@ -2,6 +2,7 @@
 id: 405
 number: 290
 title: 終助詞
+description: "句尾表達情感與語氣的終助詞"
 category: grammar
 tags: [sentence-ending, emotion, nuance]
 created: 2025-12-27

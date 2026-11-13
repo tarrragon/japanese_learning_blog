@@ -1,4 +1,6 @@
 ---
+title: "歳出（さいしゅつ）"
+description: "歲出、政府年度支出"
 jlpt: n2
 stage: extension-review
 tags: []

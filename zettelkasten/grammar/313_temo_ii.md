@@ -1,6 +1,7 @@
 ---
 id: 427
 title: てもいい
+description: "表示許可，可以、沒關係"
 kana: てもいい
 romaji: te mo ii
 number: 291

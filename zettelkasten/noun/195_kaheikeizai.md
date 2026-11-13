@@ -1,6 +1,7 @@
 ---
 title: "貨幣経済"
-stage: pending
+description: "貨幣經濟、以貨幣為交易媒介的經濟體系"
+stage: draft
 tags:
   - 經濟
   - N3
@@ -9,7 +10,7 @@ domains:
 domain_topics:
   - economics/finance
 created: 2025-12-23
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

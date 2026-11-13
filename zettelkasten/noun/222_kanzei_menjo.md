@@ -3,14 +3,14 @@ title: 関税免除（かんぜいめんじょ）
 description: 關稅免除，免除進出口商品應繳納的關稅
 type: noun
 jlpt: none
-stage: pending
+stage: draft
 tags: []
 domains:
   - economics
 domain_topics:
   - economics/trade
 created: 2025-12-23
-updated: 2025-12-23
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

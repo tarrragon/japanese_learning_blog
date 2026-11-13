@@ -1,5 +1,6 @@
 ---
 title: "たい形"
+description: "接在動詞語幹後表示願望「想做」"
 type: grammar
 jlpt: n5
 stage: pending

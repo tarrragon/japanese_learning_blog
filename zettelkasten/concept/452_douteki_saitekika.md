@@ -3,7 +3,7 @@ title: "動的最適化（どうてきさいてきか）"
 description: "動態最佳化：經濟學與控制理論中的跨期決策優化概念"
 type: concept
 jlpt: n3
-stage: pending
+stage: draft
 draft: true
 auto_generated: false
 needs_review: true
@@ -15,7 +15,7 @@ domains:
 domain_topics:
   - economics/general
 created: 2025-12-28
-updated: 2025-12-28
+updated: 2026-11-14
 version_history:
   - version: "1.5.6"
     stage: "pending"

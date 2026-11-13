@@ -9,10 +9,10 @@ draft: true
 auto_generated: false
 needs_review: true
 tags:
-  - 言語学
   - concept
   - linguistic_theory
-  - information_structure
+domains:
+  - linguistics
 dictionary:
   sources:
     daijirin: true

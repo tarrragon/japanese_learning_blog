@@ -1,5 +1,6 @@
 ---
 title: "受身形 vs 可能形（一段動詞）"
+description: "一段動詞受身形與可能形的區別"
 type: comparison
 stage: pending
 tags:

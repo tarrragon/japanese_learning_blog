@@ -1,13 +1,14 @@
 ---
 title: "負債"
-stage: pending
+description: "負債、債務"
+stage: draft
 tags: []
 domains:
   - economics
 domain_topics:
   - economics/finance
 created: 2025-12-26
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

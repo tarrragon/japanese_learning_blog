@@ -2,6 +2,7 @@
 id: 490
 number: 281
 title: 商務敬語
+description: "商務敬語"
 kana: しょうむしけいご
 category: noun
 tags:

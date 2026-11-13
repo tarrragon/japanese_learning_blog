@@ -11,7 +11,9 @@ stage: completed
 draft: false
 auto_generated: false
 needs_review: false
-tags: [basic, daily_life, "日本語能力試験N5"]
+tags: [basic, "日本語能力試験N5"]
+domains:
+  - daily-life
 created: 2025-12-27
 updated: 2025-12-28
 version_history:

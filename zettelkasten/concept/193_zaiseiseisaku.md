@@ -1,10 +1,12 @@
 ---
 id: 123
 title: 財政政策
+description: "政府調整支出與稅收的經濟政策"
 category: concept
-tags: [policy]
+tags: []
 domains:
   - economics
+  - society
 domain_topics:
   - economics/general
 version_history:

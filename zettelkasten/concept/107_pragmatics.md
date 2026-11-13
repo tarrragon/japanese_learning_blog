@@ -5,8 +5,9 @@ type: concept
 jlpt: none
 stage: extension-review
 tags:
-  - linguistics
   - language_theory
+domains:
+  - linguistics
   - communication
 created: 2025-12-26
 updated: 2025-12-26

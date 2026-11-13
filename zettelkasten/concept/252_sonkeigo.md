@@ -4,14 +4,14 @@ description: 尊敬語概念
 type: concept
 subtype: keigo
 jlpt: n3
-stage: pending
+stage: draft
 draft: true
 tags:
   - keigo
   - honorific
   - formal
 created: 2025-12-27
-updated: 2025-12-27
+updated: 2026-11-14
 version_history:
   - version: "1.5.4"
     stage: "pending"

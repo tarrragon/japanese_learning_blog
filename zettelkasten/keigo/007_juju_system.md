@@ -3,13 +3,13 @@ title: "授受表現系統"
 description: "あげる/もらう/くれる的敬語形式與視點轉換"
 type: keigo
 jlpt: n4
-stage: pending
+stage: draft
 tags:
   - 授受動詞
   - 敬語系統
   - 視點表現
 created: 2025-12-22
-updated: 2025-12-22
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

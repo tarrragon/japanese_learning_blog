@@ -1,6 +1,7 @@
 ---
 title: 効用最大化
-stage: pending
+description: "在有限資源下追求效用最大的原理"
+stage: draft
 tags:
   - 効用
   - 経済人
@@ -10,7 +11,7 @@ domains:
 domain_topics:
   - economics/general
 created: 2025-12-23
-updated: 2025-12-23
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

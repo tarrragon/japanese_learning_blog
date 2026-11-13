@@ -3,11 +3,11 @@ title: "頂く"
 description: "「頂く」是謙讓語動詞，是「もらう（收到）」的謙遜表達。用於從對方那裡接受某物或恩惠時，常用於商務場合"
 type: verb-ru
 jlpt: n3
-stage: pending
+stage: draft
 tags:
   - verb-ru
 created: 2025-10-31
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

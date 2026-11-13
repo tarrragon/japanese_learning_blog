@@ -8,10 +8,11 @@ draft: true
 auto_generated: false
 needs_review: true
 tags:
-  - 言語学
   - "学術的な場面"
   - concept
   - linguistic_theory
+domains:
+  - linguistics
 dictionary:
   sources:
     daijirin: true

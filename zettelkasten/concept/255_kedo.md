@@ -4,13 +4,13 @@ description: けど/けれど/けれどもの用法 - 逆接・鋪陳・委婉�
 type: concept
 subtype: conjunction
 jlpt: n4
-stage: pending
+stage: draft
 draft: true
 tags:
   - conjunction
   - casual
 created: 2025-12-27
-updated: 2025-12-27
+updated: 2026-11-14
 version_history:
   - version: "1.5.4"
     stage: "pending"

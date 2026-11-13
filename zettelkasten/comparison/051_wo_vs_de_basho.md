@@ -1,11 +1,13 @@
 ---
 title: "を vs で：場所表達的區別"
+description: "を與で表示場所的區別"
 type: comparison
 jlpt: n4
 stage: pending
 tags:
   - particles
   - location
+domains:
   - movement
 created: 2025-12-26
 updated: 2025-12-26

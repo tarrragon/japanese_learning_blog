@@ -1,10 +1,11 @@
 ---
 title: "ない形"
+description: "動詞的否定形，否定動作或狀態"
 type: grammar
 jlpt: n5
-stage: pending
+stage: draft
 created: 2025-12-26
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

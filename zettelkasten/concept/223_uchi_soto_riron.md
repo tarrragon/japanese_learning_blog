@@ -3,7 +3,7 @@ title: ウチ・ソト理論
 description: ウチ・ソト理論 - 日本社會的內外意識理論
 type: concept
 jlpt: n3
-stage: pending
+stage: draft
 csv_id: 489
 tags:
   - context/social
@@ -11,7 +11,7 @@ tags:
 domains:
   - linguistics
 created: 2025-12-27
-updated: 2025-12-27
+updated: 2026-11-14
 version_history:
   - version: "1.5.1"
     stage: "pending"

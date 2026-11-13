@@ -1,5 +1,6 @@
 ---
 title: "雇用調整"
+description: "雇用調整、依景氣調整僱用規模"
 stage: pending
 tags: []
 domains:

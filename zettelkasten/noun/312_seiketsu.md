@@ -8,8 +8,9 @@ draft: true
 auto_generated: false
 needs_review: true
 tags:
-  - daily_life
   - 日常生活
+domains:
+  - daily-life
 dictionary:
   sources:
     daijirin: false

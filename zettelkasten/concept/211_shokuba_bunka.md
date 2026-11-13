@@ -1,4 +1,6 @@
 ---
+title: "職場文化（しょくばぶんか）"
+description: "日本職場的年功序列、集體主義等文化特徵"
 id: 522
 card_type: concept
 number: 126
@@ -6,7 +8,9 @@ title_ja: 職場文化
 title_zh: 職場文化
 title_en: Workplace Culture
 category: concept
-tags: [culture, workplace, business, society]
+tags: [workplace, business]
+domains:
+  - society
 status: pending
 version_history:
   - version: 1.5.1

@@ -10,9 +10,9 @@ needs_review: true
 tags:
   - context/social
   - context/business
-  - daily_life
 domains:
   - communication
+  - daily-life
 dictionary:
   sources:
     daijirin: true

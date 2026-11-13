@@ -1,13 +1,14 @@
 ---
 title: "〜たがる"
-stage: pending
+description: "表示第三人稱想做某事"
+stage: draft
 tags:
   - grammar
   - auxiliary-verb
   - third-person
   - desire
 created: 2025-12-26
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

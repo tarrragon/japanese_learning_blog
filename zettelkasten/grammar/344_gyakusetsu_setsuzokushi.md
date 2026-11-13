@@ -3,12 +3,12 @@ title: 逆接接続詞
 description: 逆接接續詞的類型和使用場合
 type: grammar
 jlpt: n3
-stage: pending
+stage: draft
 tags:
   - conjunction
   - contrast
 created: 2025-12-27
-updated: 2025-12-27
+updated: 2026-11-14
 version_history:
   - version: "1.5.4"
     stage: "pending"

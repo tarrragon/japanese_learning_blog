@@ -1,4 +1,6 @@
 ---
+title: "動作完成表現"
+description: "表示動作已完成的多種表達"
 id: 494-2024
 card_number: 294
 category: grammar

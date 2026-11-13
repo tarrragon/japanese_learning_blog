@@ -1,7 +1,8 @@
 ---
 title: 敬語系統總覽
+description: "尊敬語、謙讓語、丁寧語的敬語系統總覽"
 jlpt: n4
-stage: pending
+stage: draft
 tags:
   - 敬語三分類
   - 尊敬語
@@ -9,7 +10,7 @@ tags:
   - 丁寧語
   - 敬語理論
 created: 2025-12-22
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

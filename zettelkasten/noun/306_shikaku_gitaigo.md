@@ -1,7 +1,7 @@
 ---
 title: 視覚効果擬態語（しかくこうか ぎたいご）
 description: Visual effect onomatopoeia
-stage: pending
+stage: draft
 tags:
   - context/casual
   - context/descriptive
@@ -9,7 +9,7 @@ tags:
 domains:
   - linguistics
 created: 2025-12-27
-updated: 2025-12-27
+updated: 2026-11-14
 version_history:
   - version: "1.5.1"
     stage: "pending"

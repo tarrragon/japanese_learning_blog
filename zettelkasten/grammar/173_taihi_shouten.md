@@ -1,14 +1,15 @@
 ---
 title: "對比與焦點"
+description: "「は」表對比與「が」表焦點的區別"
 type: grammar
 jlpt: n3
-stage: pending
+stage: draft
 tags:
   - particle-usage
   - information-structure
   - は-が-distinction
 created: 2025-12-26
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

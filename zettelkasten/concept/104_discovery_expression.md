@@ -1,4 +1,6 @@
 ---
+title: "発見表現（Discovery Expression）"
+description: "表達察覺新資訊瞬間的語言形式"
 stage: pending
 tags:
   - grammar

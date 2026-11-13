@@ -11,6 +11,7 @@ needs_review: true
 tags:
   - 日常会話の場面
   - フォーマルな場面
+domains:
   - movement
 dictionary:
   sources:

@@ -3,7 +3,7 @@ title: 株式（かぶしき）
 description: 股票，公司發行的所有權憑證
 type: concept
 jlpt: n3
-stage: pending
+stage: draft
 tags:
   - concept/investment
 domains:
@@ -11,7 +11,7 @@ domains:
 domain_topics:
   - economics/finance
 created: 2025-12-27
-updated: 2025-12-27
+updated: 2026-11-14
 version_history:
   - version: "1.5.4"
     stage: "pending"

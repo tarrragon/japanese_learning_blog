@@ -1,5 +1,6 @@
 ---
 title: "資産運用"
+description: "管理運用資產以增加資產價值"
 japanese: "資産運用"
 reading: "しさんうんよう"
 romaji: "shisan unyou"

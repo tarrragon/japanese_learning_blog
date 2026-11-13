@@ -3,15 +3,16 @@ title: "まだの多重意義"
 description: まだ在肯定句與否定句中的語意差異
 type: nuance
 jlpt: n4
-stage: pending
+stage: draft
 tags:
   - nuance
   - adverb
   - time
   - jlpt/n4
-  - pragmatics
+domains:
+  - linguistics
 created: 2025-12-22
-updated: 2025-12-22
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

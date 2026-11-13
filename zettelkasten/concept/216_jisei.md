@@ -3,6 +3,7 @@ id: 531
 number: 128
 category: concept
 title: 時態
+description: "動詞表示現在、過去、未來的時態"
 created_date: 2025-12-27
 updated_date: 2025-12-27
 status: draft

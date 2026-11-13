@@ -3,13 +3,13 @@ title: 位置(いち)
 description: 位置
 type: noun
 jlpt: n4
-stage: pending
+stage: draft
 tags:
   - location
   - position
   - spatial
 created: 2025-10-31
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

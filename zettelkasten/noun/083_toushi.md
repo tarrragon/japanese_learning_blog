@@ -1,5 +1,6 @@
 ---
 title: "投資"
+description: "投資"
 type: "noun"
 jlpt: "n3"
 stage: pending

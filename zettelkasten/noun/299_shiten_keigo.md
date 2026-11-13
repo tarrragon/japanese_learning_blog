@@ -1,6 +1,7 @@
 ---
 id: 496
 title: 視点と敬語
+description: "說話者視點與敬語使用的關係"
 category: noun
 sub_category: concept
 number: 281
@@ -9,7 +10,8 @@ tags:
   - honorifics
   - perspective
   - discourse
-  - pragmatics
+domains:
+  - linguistics
 date_created: 2025-12-27
 date_modified: 2025-12-27
 status: draft

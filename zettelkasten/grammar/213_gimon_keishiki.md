@@ -2,13 +2,13 @@
 title: 疑問形式
 description: 日文的疑問句構造與語尾助詞「か」的運用
 type: related
-stage: pending
+stage: draft
 tags:
   - context/formal
   - context/casual
   - jlpt/n5
 created: 2025-12-26
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

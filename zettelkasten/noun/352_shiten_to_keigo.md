@@ -11,9 +11,10 @@ needs_review: true
 tags:
   - keigo
   - concept
-  - pragmatics
   - "ビジネスシーン"
   - "フォーマルな場面"
+domains:
+  - linguistics
 created: 2025-12-28
 updated: 2025-12-28
 version_history:

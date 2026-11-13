@@ -1,12 +1,13 @@
 ---
 title: "接続詞の概念"
-stage: pending
+description: "連接句子並表明邏輯關係的詞類"
+stage: draft
 tags:
   - "文法"
   - "接続詞"
   - "文章構造"
 created: "2025-12-26"
-updated: "2025-12-26"
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

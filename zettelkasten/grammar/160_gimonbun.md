@@ -1,5 +1,6 @@
 ---
 title: "疑問文"
+description: "以疑問詞或「か」構成的詢問句型"
 type: "grammar"
 stage: "extension-review"
 tags:

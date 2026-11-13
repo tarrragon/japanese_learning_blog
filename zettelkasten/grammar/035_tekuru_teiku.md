@@ -7,9 +7,10 @@ stage: completed
 tags:
   - auxiliary_verb
   - direction
-  - movement
   - grammar_pattern
   - aspect
+domains:
+  - movement
 created: 2025-10-30
 updated: 2025-10-30
 version_history:

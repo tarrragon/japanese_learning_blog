@@ -3,7 +3,7 @@ title: "減価償却（げんかしょうきゃく）"
 description: "折舊、資產的價值減損會計處理"
 type: concept
 jlpt: none
-stage: pending
+stage: draft
 draft: true
 auto_generated: false
 needs_review: true
@@ -15,7 +15,7 @@ domains:
 domain_topics:
   - economics/finance
 created: 2025-12-28
-updated: 2025-12-28
+updated: 2026-11-14
 version_history:
   - version: "1.5.6"
     stage: "pending"

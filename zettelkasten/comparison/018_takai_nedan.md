@@ -1,9 +1,10 @@
 ---
 title: "高い（高度）vs 高い（價格）"
-stage: pending
+description: "高い表高度與表價格的區別"
+stage: draft
 tags: [semantic-difference, homonym]
 created: "2025-12-22"
-updated: "2025-12-22"
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

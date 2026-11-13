@@ -1,6 +1,8 @@
 ---
+title: "費用（ひよう）"
+description: "費用、為事業活動支出的金額"
 jlpt: n3
-stage: pending
+stage: draft
 tags:
   - concept/accounting
 domains:
@@ -8,7 +10,7 @@ domains:
 domain_topics:
   - economics/general
 created: 2025-12-26
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

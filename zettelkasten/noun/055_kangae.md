@@ -5,9 +5,10 @@ type: noun
 jlpt: n4
 stage: extension-review
 tags:
-  - daily_life
   - abstract_noun
   - jlpt/n4
+domains:
+  - daily-life
 created: 2025-10-31
 updated: 2025-10-31
 version_history:

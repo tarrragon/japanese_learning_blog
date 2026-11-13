@@ -1,14 +1,15 @@
 ---
 title: "舊資訊與新資訊"
+description: "聽者已知與未知資訊，對應は與が"
 type: concept
 jlpt: n3
-stage: pending
+stage: draft
 tags:
   - information-structure
   - は
   - が
 created: 2025-12-24
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

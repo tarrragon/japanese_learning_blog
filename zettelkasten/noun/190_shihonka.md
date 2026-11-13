@@ -1,6 +1,8 @@
 ---
+title: "資本家（しほんか）"
+description: "資本家、擁有生產工具並僱用勞動者的人"
 jlpt: n1
-stage: pending
+stage: draft
 tags: []
 domains:
   - economics
@@ -8,7 +10,7 @@ domains:
 domain_topics:
   - economics/general
 created: 2025-12-23
-updated: 2025-12-23
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

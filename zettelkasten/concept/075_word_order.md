@@ -1,14 +1,15 @@
 ---
 title: "語順"
+description: "SOV基本語序與助詞帶來的彈性"
 type: concept
 jlpt: n4
-stage: pending
+stage: draft
 tags:
   - grammar
   - syntax
   - sentence-structure
 created: 2025-12-26
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

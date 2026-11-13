@@ -9,9 +9,9 @@ auto_generated: false
 needs_review: true
 tags:
   - ビジネス
-  - 社会
 domains:
   - economics
+  - society
 domain_topics:
   - economics/general
 created: 2025-12-28

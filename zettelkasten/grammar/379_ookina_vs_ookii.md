@@ -4,7 +4,7 @@ description: "大きな（連體詞）與大きい（い形容詞）的用法比
 type: grammar
 subtype: comparison
 jlpt: n3
-stage: pending
+stage: draft
 draft: true
 auto_generated: false
 needs_review: true
@@ -12,9 +12,10 @@ tags:
   - comparison
   - grammar
   - "日本語能力試験N3"
-  - daily_life
+domains:
+  - daily-life
 created: 2025-12-28
-updated: 2025-12-28
+updated: 2026-11-14
 version_history:
   - version: "1.5.6"
     stage: "pending"

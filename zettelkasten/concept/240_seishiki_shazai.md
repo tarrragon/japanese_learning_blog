@@ -2,6 +2,7 @@
 id: 471
 number: 132
 title: 正式道歉表達
+description: "以敬語表達的正式道歉"
 category: concept
 tags: [apology, formal-expression, politeness]
 version_history:

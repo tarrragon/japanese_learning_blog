@@ -1,12 +1,13 @@
 ---
 title: "瞬間動詞"
-stage: pending
+description: "動作瞬間完成、不持續的動詞"
+stage: draft
 tags:
   - "動詞分類"
   - "アスペクト"
   - "ている"
 created: 2025-12-26
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

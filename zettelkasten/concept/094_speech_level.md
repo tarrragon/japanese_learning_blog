@@ -1,7 +1,9 @@
 ---
-stage: pending
+title: "語体（Speech Level）"
+description: "依對象與場合變化的普通體與敬體"
+stage: draft
 created: 2025-12-26
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

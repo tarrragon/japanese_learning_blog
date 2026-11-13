@@ -4,18 +4,19 @@ description: "て形 + 来る - 動作向說話者方向進行"
 type: grammar
 subtype: pattern
 jlpt: n3
-stage: pending
+stage: draft
 draft: true
 auto_generated: false
 needs_review: true
 tags:
   - auxiliary_verb
   - direction
-  - movement
   - grammar_pattern
   - aspect
+domains:
+  - movement
 created: 2025-12-28
-updated: 2025-12-28
+updated: 2026-11-14
 version_history:
   - version: "1.5.6"
     stage: "pending"

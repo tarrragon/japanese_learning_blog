@@ -4,13 +4,15 @@ description: "表示類同、累加的副助詞"
 type: grammar
 subtype: particle
 jlpt: n5
-stage: pending
+stage: draft
 draft: true
 auto_generated: false
 needs_review: true
-tags: [jlpt/n5, daily_life]
+tags: [jlpt/n5]
+domains:
+  - daily-life
 created: 2025-12-28
-updated: 2025-12-28
+updated: 2026-11-14
 version_history:
   - version: "1.5.6"
     stage: "pending"

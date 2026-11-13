@@ -1,12 +1,14 @@
 ---
 title: "語用學"
-stage: pending
+description: "研究語境中說話意圖與意義的學問"
+stage: draft
 tags:
   - "grammar"
-  - "semantics"
-  - "communication"
+domains:
+  - linguistics
+  - communication
 created: 2025-12-26
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

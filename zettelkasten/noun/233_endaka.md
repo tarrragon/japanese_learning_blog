@@ -1,5 +1,6 @@
 ---
 title: "円高（えんだか）"
+description: "日圓升值、日圓相對外幣價值上升"
 stage: pending
 tags:
   - "currency"

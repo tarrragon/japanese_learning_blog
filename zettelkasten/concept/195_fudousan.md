@@ -3,6 +3,7 @@ id: 435
 number: 124
 category: concept
 title: 不動産（ふどうさん）
+description: "土地及其定著物等不可移動資產"
 created_date: 2025-12-27
 status: draft
 tags: [concept, legal, 法律用語]

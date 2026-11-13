@@ -3,10 +3,13 @@ id: 413
 number: 124
 category: concept
 title: ウチとソト
+description: "區分內部集團與外部的日本社會概念"
 japanese: ウチとソト
 chinese: 內與外
 english: Inside and Outside / In-group and Out-group
-tags: [culture, society, interpersonal, hierarchy]
+tags: [interpersonal, hierarchy]
+domains:
+  - society
 status: draft
 version_history:
   - version: 1.5.1

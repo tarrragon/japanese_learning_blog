@@ -1,11 +1,12 @@
 ---
 title: "起こす（おこす）"
+description: "叫醒、引起、發生（他動詞）"
 type: verb
 jlpt: n4
-stage: pending
+stage: draft
 tags: [五段動詞, 他動詞]
 created: 2025-12-24
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

@@ -1,14 +1,14 @@
 ---
 title: "気配り（きくばり）"
 description: "おもてなし - 熱情款待的精神"
-stage: pending
+stage: draft
 tags:
   - 日本文化
   - 人間関係
   - 配慮
   - おもてなし
 created: 2025-12-26
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

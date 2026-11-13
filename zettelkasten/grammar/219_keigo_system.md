@@ -1,6 +1,7 @@
 ---
 title: "敬語系統"
-stage: pending
+description: "敬語系統：尊敬語、謙讓語、丁寧語"
+stage: draft
 tags:
   - "敬語"
   - "尊敬語"
@@ -9,7 +10,7 @@ tags:
   - "待遇表現"
   - "社會語言學"
 created: 2025-12-26
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

@@ -1,16 +1,16 @@
 ---
 title: "社會語言學"
+description: "研究語言與社會因素關係的學問"
 type: concept
 jlpt: n1
-stage: pending
+stage: draft
 tags:
   - concept
-  - linguistics
-  - sociolinguistics
-  - pragmatics
   - keigo
+domains:
+  - linguistics
 created: 2025-12-26
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

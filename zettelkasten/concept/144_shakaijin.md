@@ -1,5 +1,6 @@
 ---
 title: 社會人
+description: "畢業後進入職場、承擔社會責任的成年人"
 stage: extension-review
 tags:
   - 日本文化

@@ -9,10 +9,11 @@ auto_generated: false
 needs_review: true
 tags:
   - concept
-  - communication
-  - culture
-  - pragmatics
   - 社交的な場面
+domains:
+  - communication
+  - society
+  - linguistics
 dictionary:
   sources:
     daijirin: true

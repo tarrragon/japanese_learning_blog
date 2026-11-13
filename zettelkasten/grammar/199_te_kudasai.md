@@ -1,13 +1,14 @@
 ---
 title: "〜てください"
-stage: pending
+description: "禮貌地請求或指示對方做某事"
+stage: draft
 tags:
   - grammar
   - te-form
   - request
   - politeness
 created: 2025-12-26
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

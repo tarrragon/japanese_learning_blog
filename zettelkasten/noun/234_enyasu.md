@@ -1,13 +1,14 @@
 ---
 title: "円安（えんやす）"
-stage: pending
+description: "日圓貶值、日圓相對外幣價值下降"
+stage: draft
 tags: [economy, currency]
 domains:
   - economics
 domain_topics:
   - economics/finance
 created: 2025-12-26
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

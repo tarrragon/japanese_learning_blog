@@ -2,13 +2,13 @@
 title: て形（動詞て形）
 description: 日文動詞的て形變化及其用法
 type: comparison
-stage: pending
+stage: draft
 tags:
   - context/casual
   - context/formal
   - jlpt/n5
 created: 2025-10-27
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

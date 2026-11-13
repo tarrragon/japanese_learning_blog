@@ -1,13 +1,14 @@
 ---
 title: "丁寧語概念"
-stage: pending
+description: "以です・ます表示對聽者禮貌的敬語"
+stage: draft
 tags:
   - "敬語"
   - "丁寧語"
   - "文法"
   - "待建立"
 created: "2025-12-26"
-updated: "2025-12-26"
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

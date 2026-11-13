@@ -4,7 +4,9 @@ description: "單字、詞彙"
 type: noun
 jlpt: n4
 stage: pending
-tags: [language_learning, vocabulary]
+tags: [vocabulary]
+domains:
+  - learning
 created: 2025-10-31
 updated: 2025-12-26
 version_history:
@@ -26,6 +28,10 @@ link_status:
 單字、詞彙。語言的最小有意義單位，用於構成句子的基本元素。
 
 <!--more-->
+## 中文解釋
+
+「単語」是名詞，意思是「單字」「詞彙」，指語言中最小的、有意義的單位，也是組成句子的基本元素。在學習語言時經常使用，例如「単語を覚える」（背單字）、「単語帳」（單字本）。它與「言葉」不同：「単語」偏向語言學上的概念，多用於學術或技術性的情境；「言葉」則是日常用語，涵蓋語言整體、表達、發言等更廣的意思。
+
 ## Examples
 
 ### Example 1

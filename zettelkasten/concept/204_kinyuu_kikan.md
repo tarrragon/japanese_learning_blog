@@ -3,7 +3,7 @@ title: 金融機関（きんゆうきかん）
 description: 金融機構，提供金融服務的機構
 type: concept
 jlpt: none
-stage: pending
+stage: draft
 tags:
   - concept/finance
 domains:
@@ -11,7 +11,7 @@ domains:
 domain_topics:
   - economics/general
 created: 2025-12-27
-updated: 2025-12-27
+updated: 2026-11-14
 version_history:
   - version: "1.5.1"
     stage: "pending"

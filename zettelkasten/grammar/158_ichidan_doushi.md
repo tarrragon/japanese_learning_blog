@@ -1,13 +1,14 @@
 ---
 title: "一段動詞"
+description: "去掉「る」即可活用的一類動詞"
 type: grammar
 jlpt: n5
-stage: pending
+stage: draft
 tags:
   - 動詞
   - 活用
 created: 2025-12-26
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

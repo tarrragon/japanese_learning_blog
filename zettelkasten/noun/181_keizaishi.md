@@ -1,4 +1,6 @@
 ---
+title: "経済史"
+description: "經濟史"
 jlpt: n1
 stage: extension-review
 tags: []

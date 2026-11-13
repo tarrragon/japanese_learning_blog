@@ -3,6 +3,7 @@ id: 437
 number: 204
 category: concept
 title: 実質成長率
+description: "排除物價影響後的經濟成長率"
 japanese: 実質成長率
 reading: じっしつせいちょうりつ
 chinese: 實質成長率

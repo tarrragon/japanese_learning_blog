@@ -2,6 +2,7 @@
 id: 419
 number: 279
 title: 謙讓語
+description: "謙讓語，降低自己以表敬意的敬語"
 category: noun
 tags: [grammar, polite-language, humble-language]
 created_date: 2025-12-27

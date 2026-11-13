@@ -9,10 +9,10 @@ draft: false
 auto_generated: false
 needs_review: true
 tags:
-  - politics
   - ビジネスシーン
 domains:
   - economics
+  - society
 domain_topics:
   - economics/general
 created: 2025-12-28

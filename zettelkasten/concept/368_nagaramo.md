@@ -4,7 +4,7 @@ description: "表示逆接的接續助詞，雖然...但仍然"
 type: concept
 subtype: grammar_pattern
 jlpt: n3
-stage: pending
+stage: draft
 draft: true
 auto_generated: false
 needs_review: true
@@ -13,7 +13,7 @@ tags:
   - 接続助詞
   - formal
 created: 2025-12-28
-updated: 2025-12-28
+updated: 2026-11-14
 version_history:
   - version: "1.5.6"
     stage: "pending"

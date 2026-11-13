@@ -1,6 +1,8 @@
 ---
+title: "資本主義（しほんしゅぎ）"
+description: "資本主義、以私有生產工具與追求利潤為基礎的經濟體制"
 jlpt: n1
-stage: pending
+stage: draft
 tags: []
 domains:
   - economics
@@ -8,7 +10,7 @@ domains:
 domain_topics:
   - economics/general
 created: 2025-12-23
-updated: 2025-12-23
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

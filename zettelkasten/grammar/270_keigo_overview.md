@@ -8,8 +8,9 @@ tags:
   - grammar
   - keigo
   - honorific
-  - pragmatics
   - overview
+domains:
+  - linguistics
 created: 2025-12-27
 updated: 2025-12-28
 version_history:

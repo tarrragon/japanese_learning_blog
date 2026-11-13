@@ -1,5 +1,6 @@
 ---
 title: "行く vs 来る 詳細比較"
+description: "行く與来る的視點與方向差異"
 type: comparison
 jlpt: n5
 stage: pending

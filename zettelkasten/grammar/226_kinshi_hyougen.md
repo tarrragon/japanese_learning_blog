@@ -1,13 +1,14 @@
 ---
 title: "禁止表達"
+description: "表示禁止、不可以做的表達"
 jlpt: N5
-stage: pending
+stage: draft
 tags:
   - grammar
   - prohibition
   - negative-imperative
 created: 2025-12-26
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

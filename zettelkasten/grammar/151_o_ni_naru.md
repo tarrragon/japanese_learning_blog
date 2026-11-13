@@ -1,14 +1,15 @@
 ---
 title: "お〜になる"
+description: "將動詞轉為尊敬表達的基本句型"
 type: grammar
 jlpt: n3
-stage: pending
+stage: draft
 tags:
   - 尊敬語
   - 動詞變化
   - 敬語表現
 created: 2025-12-24
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

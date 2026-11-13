@@ -1,12 +1,14 @@
 ---
+title: "政治難民（せいじなんみん）"
+description: "政治難民、因政治迫害而逃往他國的人"
 jlpt: n2
-stage: pending
+stage: draft
 tags:
   - concept/migration
 domains:
   - society
 created: 2025-12-26
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

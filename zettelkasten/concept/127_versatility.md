@@ -5,9 +5,10 @@ type: concept
 jlpt: none
 stage: extension-review
 tags:
-  - linguistics
   - grammar_concept
   - language_structure
+domains:
+  - linguistics
 created: 2025-12-26
 updated: 2025-12-26
 version_history:

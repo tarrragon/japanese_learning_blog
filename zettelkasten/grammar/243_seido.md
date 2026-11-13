@@ -1,5 +1,6 @@
 ---
 title: 制度
+description: "社會或組織的規則體系，制度"
 jlpt: n3
 stage: extension-review
 tags:

@@ -1,6 +1,7 @@
 ---
 id: 130
 title: 純資産
+description: "資產扣除負債後的淨值"
 kana: じゅんしさん
 category: concept
 tags:

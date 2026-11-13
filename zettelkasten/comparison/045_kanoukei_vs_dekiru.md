@@ -1,5 +1,6 @@
 ---
 title: "可能形 vs できる"
+description: "可能形與できる的用法差異"
 type: comparison
 jlpt: n4
 stage: pending

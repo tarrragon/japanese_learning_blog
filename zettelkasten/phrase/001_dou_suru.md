@@ -9,8 +9,9 @@ tags:
   - jlpt/n5
   - question
   - casual
-  - daily_life
   - context/casual
+domains:
+  - daily-life
 created: 2025-10-30
 updated: 2025-10-30
 version_history:

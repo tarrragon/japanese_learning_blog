@@ -4,7 +4,7 @@ title: "電子マネー（でんしマネー）"
 description: "電子貨幣，數位支付方式的總稱"
 type: concept
 jlpt: n3
-stage: pending
+stage: draft
 tags:
   - context/daily_life
 domains:
@@ -13,7 +13,7 @@ domains:
 domain_topics:
   - economics/finance
 created: 2025-12-27
-updated: 2025-12-27
+updated: 2026-11-14
 version_history:
   - version: "1.5.4"
     stage: "pending"

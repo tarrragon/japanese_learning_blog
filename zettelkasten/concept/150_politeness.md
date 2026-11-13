@@ -5,8 +5,9 @@ type: concept
 jlpt: n3
 stage: extension-review
 tags:
-  - pragmatics
   - social_context
+domains:
+  - linguistics
   - communication
 created: 2025-12-27
 updated: 2025-12-27

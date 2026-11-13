@@ -1,13 +1,14 @@
 ---
 title: 白書
-stage: pending
+description: "白皮書、政府公開的現況與政策報告"
+stage: draft
 tags:
   - 政府
   - 報告書
   - 政策
   - 情報
 created: 2025-12-23
-updated: 2025-12-23
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

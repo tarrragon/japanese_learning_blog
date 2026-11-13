@@ -4,13 +4,13 @@ description: "日語終助詞的基礎概念與用法"
 type: grammar
 subtype: particle
 jlpt: n4
-stage: pending
+stage: draft
 draft: true
 auto_generated: false
 needs_review: true
 tags: [終助詞, "日常会話の場面"]
 created: 2025-12-28
-updated: 2025-12-28
+updated: 2026-11-14
 version_history:
   - version: "1.5.6"
     stage: "pending"

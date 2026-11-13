@@ -2,13 +2,13 @@
 title: 隱含溝通
 description: 日文透過省略、間接表達傳遞言外之意的溝通方式
 type: pragmatics
-stage: pending
+stage: draft
 tags:
   - context/formal
   - context/casual
   - jlpt/n2
 created: 2025-12-27
-updated: 2025-12-27
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

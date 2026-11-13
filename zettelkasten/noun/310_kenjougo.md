@@ -2,17 +2,18 @@
 id: 419
 number: 304
 title: 謙讓語
+description: "謙讓語，敬語三大分類之一"
 japanese: 謙譲語
 reading: けんじょうご
 category: noun
 jlpt: n3
-stage: pending
+stage: draft
 tags:
   - keigo
   - honorific
   - formal
 created: 2025-12-27
-updated: 2025-12-27
+updated: 2026-11-14
 version_history:
   - version: "1.5.4"
     stage: "pending"

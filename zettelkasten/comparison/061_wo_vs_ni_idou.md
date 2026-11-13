@@ -1,9 +1,13 @@
 ---
+title: "を vs に：移動表達的區別"
+description: "移動動詞中を表經過場所、に表目的地"
 type: comparison
-stage: pending
-tags: [movement, destination, path]
+stage: draft
+tags: [destination, path]
+domains:
+  - movement
 created: 2025-12-26
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

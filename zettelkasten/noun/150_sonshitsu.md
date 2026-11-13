@@ -1,5 +1,6 @@
 ---
 title: 損失
+description: "損失、虧損"
 jlpt: n2
 stage: extension-review
 tags: []

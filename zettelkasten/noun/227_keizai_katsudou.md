@@ -1,17 +1,18 @@
 ---
 title: "経済活動（けいざいかつどう）"
+description: "經濟活動、生產、流通、分配、消費等活動"
 type: noun
 jlpt: n2
-stage: pending
+stage: draft
 tags:
-  - 社会
   - ビジネス
 domains:
   - economics
+  - society
 domain_topics:
   - economics/general
 created: 2025-12-26
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

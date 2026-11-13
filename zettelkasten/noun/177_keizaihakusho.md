@@ -1,4 +1,6 @@
 ---
+title: "経済白書（けいざいはくしょ）"
+description: "經濟白皮書"
 jlpt: N1
 stage: extension-review
 tags: []

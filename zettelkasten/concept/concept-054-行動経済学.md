@@ -1,16 +1,17 @@
 ---
 title: 行動経済学
-stage: pending
+description: "結合心理學的經濟學分支"
+stage: draft
 tags:
-  - 心理学
   - 意思決定
   - 行動科学
 domains:
   - economics
+  - cognition
 domain_topics:
   - economics/general
 created: 2025-12-23
-updated: 2025-12-23
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

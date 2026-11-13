@@ -1,5 +1,6 @@
 ---
 title: "それから"
+description: "表示時間順序或追加的接續詞「然後」"
 jlpt: n5
 stage: pending
 created: 2025-12-26

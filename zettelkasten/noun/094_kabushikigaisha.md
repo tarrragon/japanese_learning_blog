@@ -1,14 +1,15 @@
 ---
 title: "株式会社"
+description: "股份有限公司"
 jlpt: "n3"
-stage: pending
+stage: draft
 tags: []
 domains:
   - economics
 domain_topics:
   - economics/finance
 created: 2025-12-26
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

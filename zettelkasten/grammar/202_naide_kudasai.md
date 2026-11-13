@@ -1,12 +1,13 @@
 ---
 title: "ないでください"
-stage: pending
+description: "禮貌地請求對方不要做某事"
+stage: draft
 tags:
   - "N5"
   - "禁止表現"
   - "請求形式"
 created: 2025-12-26
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

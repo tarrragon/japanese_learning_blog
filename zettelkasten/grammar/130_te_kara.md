@@ -7,7 +7,8 @@ stage: extension-review
 tags:
   - time_expression
   - sequence
-  - daily_life
+domains:
+  - daily-life
 created: 2025-11-03
 updated: 2025-12-28
 version_history:

@@ -1,10 +1,13 @@
 ---
 title: "掃除する vs 片付ける"
+description: "掃除する與片付ける的用法差異"
 jlpt: n5
-stage: pending
-tags: [comparison, daily-life, cleaning]
+stage: draft
+tags: [comparison, cleaning]
+domains:
+  - daily-life
 created: 2025-12-22
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

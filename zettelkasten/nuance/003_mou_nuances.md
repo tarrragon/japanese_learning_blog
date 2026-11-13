@@ -1,4 +1,6 @@
 ---
+title: "もう的多重意義"
+description: "もう的已經、不再、馬上、再四種意義"
 jlpt: n4
 stage: completed
 tags:

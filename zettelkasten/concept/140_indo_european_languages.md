@@ -1,11 +1,13 @@
 ---
 title: "印欧語族"
+description: "印歐語系與日語的語序、語型差異"
 stage: extension-review
 tags:
-  - linguistics
   - language-family
   - comparative-linguistics
   - language-typology
+domains:
+  - linguistics
 created: 2025-12-27
 updated: 2025-12-27
 version_history:

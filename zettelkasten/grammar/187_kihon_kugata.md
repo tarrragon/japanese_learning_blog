@@ -1,13 +1,14 @@
 ---
 title: 日語基本句型
-stage: pending
+description: "日語主賓述（SOV）的基本語序句型"
+stage: draft
 tags:
   - grammar
   - sentence-structure
   - sov-order
   - predicate
 created: 2025-12-26
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

@@ -1,6 +1,7 @@
 ---
 card_id: 293
 title: 助詞系統
+description: "標示詞語文法關係的助詞系統"
 japanese_title: 助詞システム
 category: grammar
 tags: [particles, fundamental, joshi]

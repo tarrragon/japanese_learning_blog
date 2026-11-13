@@ -6,9 +6,10 @@ jlpt: n3
 stage: draft
 tags:
   - grammar
-  - pragmatics
   - keigo
   - social
+domains:
+  - linguistics
   - communication
 created: 2025-12-27
 updated: 2025-12-27

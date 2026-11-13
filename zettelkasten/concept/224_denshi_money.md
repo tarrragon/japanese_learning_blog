@@ -1,8 +1,11 @@
 ---
 id: 130
 title: 電子マネー
+description: "以電子設備儲存與轉移金錢的非現金支付"
 category: concept
-tags: [technology, money, modern-life]
+tags: [money, modern-life]
+domains:
+  - technology
 stage: extension-review
 version_history:
   - version: 1.5.1

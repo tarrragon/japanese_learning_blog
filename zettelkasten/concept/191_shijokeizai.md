@@ -1,10 +1,12 @@
 ---
+title: "市場経済（しじょうけいざい）"
+description: "由市場供需與價格機制調節的經濟體制"
 id: 407
 number: 123
 category: concept
 created_date: 2025-12-27
 updated_date: 2025-12-27
-stage: pending
+stage: draft
 tags: [経済制度]
 domains:
   - economics

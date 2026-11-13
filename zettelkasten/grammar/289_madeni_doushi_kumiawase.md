@@ -1,5 +1,6 @@
 ---
 title: "までにと動詞の組み合わせ"
+description: "までに只能搭配完成性動詞"
 stage: draft
 tags:
   - grammar

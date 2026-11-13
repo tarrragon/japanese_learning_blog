@@ -1,5 +1,6 @@
 ---
 title: "それでは"
+description: "轉換話題或道別時的接續表達"
 jlpt: n4
 stage: pending
 tags:

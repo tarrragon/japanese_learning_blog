@@ -1,4 +1,6 @@
 ---
+title: "尋ねる（たずねる）"
+description: "詢問、打聽；拜訪"
 stage: pending
 tags: [japanese, visit, inquire]
 created: 2025-12-26

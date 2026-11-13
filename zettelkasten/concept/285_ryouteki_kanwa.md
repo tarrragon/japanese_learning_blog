@@ -4,14 +4,14 @@ description: 量化寬鬆，中央銀行大規模購買資產以增加貨幣供�
 id: 456
 type: concept
 jlpt: n2
-stage: pending
+stage: draft
 tags: []
 domains:
   - economics
 domain_topics:
   - economics/finance
 created: 2025-12-27
-updated: 2025-12-27
+updated: 2026-11-14
 version_history:
   - version: "1.5.4"
     stage: "pending"

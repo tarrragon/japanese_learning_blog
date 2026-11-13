@@ -1,13 +1,14 @@
 ---
 title: "もう vs まだ - 時間副詞比較"
-stage: pending
+description: "もう與まだ的時間概念對比"
+stage: draft
 tags:
   - adverb
   - time-expression
   - state-change
   - negation
 created: 2025-12-22
-updated: 2025-12-22
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

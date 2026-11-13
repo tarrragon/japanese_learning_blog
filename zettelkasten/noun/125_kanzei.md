@@ -1,8 +1,9 @@
 ---
 title: 関税
-stage: pending
+description: "關稅"
+stage: draft
 created: 2025-12-26
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

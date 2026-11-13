@@ -1,7 +1,10 @@
 ---
 title: 聞こえる（きこえる）
+description: "聽得見、能聽到"
 stage: pending
-tags: [perception, hearing]
+tags: [hearing]
+domains:
+  - perception
 created: 2025-12-26
 updated: 2025-12-26
 version_history:

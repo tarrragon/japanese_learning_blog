@@ -1,6 +1,7 @@
 ---
 title: "資産"
-stage: pending
+description: "資產、財產"
+stage: draft
 tags:
   - "JLPT/N2"
 domains:
@@ -8,7 +9,7 @@ domains:
 domain_topics:
   - economics/finance
 created: 2025-12-22
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

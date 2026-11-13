@@ -2,6 +2,7 @@
 id: 294
 number: 294
 title: 動作動詞
+description: "表示具體身體動作的動詞"
 category: grammar
 tags: [verb_classification, verb_types, grammar_concept]
 status: draft

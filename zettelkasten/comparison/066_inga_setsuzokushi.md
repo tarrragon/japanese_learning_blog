@@ -1,14 +1,15 @@
 ---
 title: 因果接續詞比較
+description: "因果接續詞的文法與語用差異"
 type: comparison
-stage: pending
+stage: draft
 tags:
   - grammar
   - conjunctions
   - causality
   - nuance
 created: 2025-12-26
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

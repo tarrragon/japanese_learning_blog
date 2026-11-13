@@ -9,9 +9,10 @@ draft: true
 auto_generated: false
 needs_review: true
 tags:
-  - 教育
   - 言語学習
   - 方法論
+domains:
+  - learning
 dictionary:
   sources:
     daijirin: true

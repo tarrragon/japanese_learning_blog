@@ -1,13 +1,14 @@
 ---
 title: "すぐ vs 直ちに - 時間副詞比較"
-stage: pending
+description: "すぐ與直ちに的正式程度差異"
+stage: draft
 tags:
   - adverb
   - time-expression
   - formality
   - nuance
 created: 2025-12-22
-updated: 2025-12-22
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

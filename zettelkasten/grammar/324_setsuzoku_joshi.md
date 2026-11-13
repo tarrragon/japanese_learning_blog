@@ -2,6 +2,7 @@
 id: 292
 number: 294
 title: 接續助詞
+description: "連接前後文節的接續助詞"
 category: grammar
 tags: [助詞, 文法基礎, 接續]
 stage: draft

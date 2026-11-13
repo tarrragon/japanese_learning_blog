@@ -8,9 +8,9 @@ draft: true
 auto_generated: false
 needs_review: true
 tags:
-  - politics
-  - government
   - formal
+domains:
+  - society
 created: 2025-12-28
 updated: 2025-12-29
 version_history:

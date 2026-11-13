@@ -1,9 +1,12 @@
 ---
 title: 習う
-stage: pending
-tags: [JLPT-N5, education, learning]
+description: "向人學習（跟隨老師學技能）"
+stage: draft
+tags: [JLPT-N5]
+domains:
+  - learning
 created: 2025-12-22
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

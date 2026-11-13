@@ -1,5 +1,6 @@
 ---
 title: "目的語"
+description: "句中表示動作對象、由を標記的成分"
 stage: extension-review
 tags:
   - 文法

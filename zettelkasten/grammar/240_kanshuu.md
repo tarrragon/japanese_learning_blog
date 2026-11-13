@@ -3,7 +3,7 @@ id: 94
 title: 慣習
 description: 社會團體中長期形成的習慣性行為模式
 type: concept
-stage: pending
+stage: draft
 jlpt: n2
 tags:
   - concept/社会規範
@@ -11,7 +11,7 @@ tags:
 domains:
   - society
 created: 2025-12-27
-updated: 2025-12-27
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

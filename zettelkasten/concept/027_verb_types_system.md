@@ -6,9 +6,9 @@ jlpt: concept
 stage: extension-review
 tags:
   - context/academic
-  - learning
 domains:
   - linguistics
+  - learning
 created: 2025-10-31
 updated: 2025-10-31
 version_history:

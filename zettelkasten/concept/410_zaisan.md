@@ -7,10 +7,10 @@ stage: extension-review
 draft: true
 auto_generated: false
 needs_review: true
-tags:
-  - daily_life
+tags: []
 domains:
   - economics
+  - daily-life
 domain_topics:
   - economics/finance
 dictionary:

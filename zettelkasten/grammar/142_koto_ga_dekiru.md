@@ -1,5 +1,6 @@
 ---
 title: "～ことができる"
+description: "表示「能夠做」的正式書面說法"
 type: grammar
 jlpt: n4
 stage: extension-review

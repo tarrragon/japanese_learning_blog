@@ -1,12 +1,13 @@
 ---
 title: 文の構造
-stage: pending
+description: "謂語置於句尾的日語基本句構"
+stage: draft
 tags:
   - 文法基礎
   - 句子分析
   - 語順
 created: 2025-12-26
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

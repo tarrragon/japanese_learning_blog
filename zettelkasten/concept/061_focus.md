@@ -1,15 +1,16 @@
 ---
 title: "焦點與強調"
+description: "句中被強調的資訊與標記手段"
 type: concept
 jlpt: N3
-stage: pending
+stage: draft
 tags:
   - Japanese
   - Grammar
   - Information-Structure
   - Focus
 created: 2025-12-24
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

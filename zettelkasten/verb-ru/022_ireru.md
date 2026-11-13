@@ -3,11 +3,11 @@ title: "入れる"
 description: "放入、加入、裝入。將物品或人移動到某個容器或空間之中。"
 type: verb-ru
 jlpt: n4
-stage: pending
+stage: draft
 tags:
   - verb-ru
 created: 2025-10-31
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

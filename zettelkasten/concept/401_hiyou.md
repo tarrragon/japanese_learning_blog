@@ -8,10 +8,10 @@ draft: true
 auto_generated: false
 needs_review: true
 tags:
-  - daily_life
   - "ビジネスシーン"
 domains:
   - economics
+  - daily-life
 domain_topics:
   - economics/finance
 created: 2025-12-28

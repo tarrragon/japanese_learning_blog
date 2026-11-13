@@ -10,6 +10,7 @@ needs_review: true
 tags:
   - language-style
   - formal-informal
+domains:
   - communication
 created: 2025-12-27
 updated: 2025-12-28

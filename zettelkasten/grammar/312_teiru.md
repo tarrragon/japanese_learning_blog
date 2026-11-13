@@ -2,6 +2,7 @@
 id: 426
 number: 291
 title: ている
+description: "表示進行、結果狀態、習慣等"
 category: grammar
 tags: [aspect, continuous, present-progressive, te-form]
 created: 2025-12-27

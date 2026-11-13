@@ -1,4 +1,6 @@
 ---
+title: "経常収支（けいじょうしゅうし）"
+description: "國際收支中商品、服務與所得的交易收支"
 id: 401
 number: 123
 type: concept

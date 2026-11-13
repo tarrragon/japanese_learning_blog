@@ -2,6 +2,7 @@
 id: 423
 number: 291
 title: けど
+description: "逆接接續助詞，表示轉折對比"
 category: grammar
 tags: [grammar, conjunction, contrast]
 created_date: 2025-12-27

@@ -1,4 +1,6 @@
 ---
+title: "補助動詞しまう的用法"
+description: "補助動詞しまう表示完成與遺憾"
 id: 430
 number: 294
 category: grammar

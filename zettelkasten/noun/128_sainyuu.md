@@ -1,13 +1,15 @@
 ---
+title: "歳入（さいにゅう）"
+description: "歲入、政府年度收入"
 jlpt: N2
-stage: pending
+stage: draft
 tags: []
 domains:
   - economics
 domain_topics:
   - economics/general
 created: 2025-12-26
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

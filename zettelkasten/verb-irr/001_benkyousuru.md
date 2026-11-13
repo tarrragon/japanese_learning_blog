@@ -1,13 +1,14 @@
 ---
 title: 勉強する
+description: "學習、讀書"
 jlpt: n5
-stage: pending
+stage: draft
 tags:
   - サ変動詞
   - 学習
   - 日常
 created: 2025-12-22
-updated: 2025-12-22
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

@@ -1,6 +1,8 @@
 ---
+title: "経済特区（けいざいとっく）"
+description: "經濟特區"
 jlpt: n1
-stage: pending
+stage: draft
 tags:
   - concept/制度
   - concept/政策
@@ -9,7 +11,7 @@ domains:
 domain_topics:
   - economics/general
 created: 2025-12-22
-updated: 2025-12-22
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

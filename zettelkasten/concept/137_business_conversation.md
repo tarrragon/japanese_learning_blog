@@ -1,5 +1,6 @@
 ---
 title: "商務会話"
+description: "商業場合口頭交流的敬語與緩衝詞運用"
 type: concept
 jlpt: n3
 stage: extension-review

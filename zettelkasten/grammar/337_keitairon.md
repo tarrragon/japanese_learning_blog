@@ -1,4 +1,6 @@
 ---
+title: "形態論（けいたいろん）"
+description: "研究詞內部結構與構詞規則的形態論"
 id: 420
 type: 延伸卡片
 category: grammar
@@ -6,14 +8,15 @@ title_ja: 形態論
 title_zh: 形態論
 title_en: Morphology
 tags:
-  - linguistics
   - grammar_theory
   - jlpt/n3
+domains:
+  - linguistics
 jlpt: n3
-stage: pending
+stage: draft
 draft: true
 created: 2025-12-27
-updated: 2025-12-27
+updated: 2026-11-14
 version_history:
   - version: "1.5.4"
     stage: "pending"

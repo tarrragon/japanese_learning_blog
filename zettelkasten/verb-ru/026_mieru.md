@@ -1,13 +1,15 @@
 ---
 title: "見える（みえる）"
+description: "看得見、看起來"
 type: verb
 jlpt: n4
-stage: pending
+stage: draft
 tags:
-  - perception
   - visibility
+domains:
+  - perception
 created: 2025-12-24
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

@@ -1,12 +1,14 @@
 ---
-stage: pending
+title: "営利活動（えいりかつどう）"
+description: "營利活動"
+stage: draft
 tags:
   - 詞性-名詞
   - JLPT-N1
   - 主題-經濟學
   - 主題-商業
 created: 2025-12-26
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

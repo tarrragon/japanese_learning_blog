@@ -1,6 +1,7 @@
 ---
 id: 68
 title: "仮定条件"
+description: "表示「如果～」的四種假定條件形式"
 stage: draft
 tags:
   - grammar

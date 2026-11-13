@@ -6,8 +6,9 @@ jlpt: n4
 stage: extension-review
 tags:
   - honorific
-  - pragmatics
   - social_context
+domains:
+  - linguistics
 created: 2025-12-26
 updated: 2025-12-26
 version_history:

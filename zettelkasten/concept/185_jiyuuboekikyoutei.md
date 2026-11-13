@@ -3,12 +3,13 @@ id: 409
 number: 123
 category: concept
 title: 自由貿易協定
+description: "國家間降低關稅、促進自由貿易的協定"
 title_en: Free Trade Agreement
 title_ja: 自由貿易協定 (じゆうぼうえききょうてい)
-tags:
-  - politics
+tags: []
 domains:
   - economics
+  - society
 domain_topics:
   - economics/trade
 version: 1.5.1

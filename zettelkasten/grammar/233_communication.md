@@ -1,12 +1,14 @@
 ---
 title: "コミュニケーション"
+description: "溝通的概念與日本的溝通模式"
 type: grammar
 stage: extension-review
 tags:
   - grammar
-  - communication
-  - pragmatics
   - interpersonal
+domains:
+  - communication
+  - linguistics
 created: 2025-12-27
 updated: 2025-12-28
 version_history:

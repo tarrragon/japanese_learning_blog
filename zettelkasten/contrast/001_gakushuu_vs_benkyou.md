@@ -6,8 +6,9 @@ jlpt: n4
 stage: completed
 tags:
   - vocabulary_distinction
-  - education
   - formality_levels
+domains:
+  - learning
 created: 2025-10-31
 updated: 2025-12-27
 version_history:

@@ -7,9 +7,8 @@ stage: draft
 draft: true
 auto_generated: false
 needs_review: true
-tags:
-  - government
-  - law
+tags: []
+domains:
   - society
 created: 2025-12-28
 updated: 2025-12-28

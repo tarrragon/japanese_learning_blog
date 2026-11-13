@@ -1,5 +1,6 @@
 ---
 title: "後で vs てから"
+description: "後で與てから的先後關係差異"
 type: comparison
 jlpt: 4
 stage: extension-review

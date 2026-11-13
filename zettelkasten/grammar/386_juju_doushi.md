@@ -4,17 +4,18 @@ description: "日語給予與接受的三大核心動詞：あげる・くれる
 type: grammar
 subtype: verb_system
 jlpt: n3
-stage: pending
+stage: draft
 draft: true
 auto_generated: false
 needs_review: true
 tags:
   - grammar
-  - pragmatics
   - social
   - benefactive
+domains:
+  - linguistics
 created: 2025-12-28
-updated: 2025-12-28
+updated: 2026-11-14
 version_history:
   - version: "1.5.6"
     stage: "pending"

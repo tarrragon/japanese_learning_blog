@@ -1,5 +1,7 @@
 ---
-stage: pending
+title: "精算（せいさん）"
+description: "精算、詳細結算金額"
+stage: draft
 tags: [JLPT-N1]
 domains:
   - economics
@@ -7,7 +9,7 @@ domain_topics:
   - economics/finance
   - economics/business
 created: 2025-12-26
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

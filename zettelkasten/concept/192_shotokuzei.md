@@ -3,7 +3,7 @@ title: 所得税（しょとくぜい）
 description: 所得稅，政府對個人或企業所得徵收的稅款
 type: concept
 jlpt: none
-stage: pending
+stage: draft
 tags:
   - concept/政策
 domains:
@@ -11,7 +11,7 @@ domains:
 domain_topics:
   - economics/general
 created: 2025-12-27
-updated: 2025-12-27
+updated: 2026-11-14
 version_history:
   - version: "1.5.1"
     stage: "pending"

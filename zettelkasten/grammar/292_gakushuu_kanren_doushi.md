@@ -9,9 +9,10 @@ draft: false
 auto_generated: false
 needs_review: false
 tags:
-  - learning
   - 学習
-  - daily_life
+domains:
+  - learning
+  - daily-life
 dictionary:
   sources:
     daijirin: true

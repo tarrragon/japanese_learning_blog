@@ -1,6 +1,7 @@
 ---
 title: "輸出（ゆしゅつ）"
-stage: pending
+description: "出口、輸出（商品出口、資料匯出）"
+stage: draft
 tags:
   - "business"
 domains:
@@ -8,7 +9,7 @@ domains:
 domain_topics:
   - economics/trade
 created: 2025-12-26
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

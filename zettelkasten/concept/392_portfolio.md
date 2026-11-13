@@ -9,7 +9,8 @@ auto_generated: false
 needs_review: true
 tags:
   - ビジネスシーン
-  - daily_life
+domains:
+  - daily-life
 dictionary:
   sources:
     daijirin: false

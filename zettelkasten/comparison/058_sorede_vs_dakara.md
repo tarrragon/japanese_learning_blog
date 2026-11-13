@@ -1,4 +1,6 @@
 ---
+title: "それで vs だから"
+description: "それで與だから的因果表達差異"
 stage: pending
 tags:
   - 連接詞

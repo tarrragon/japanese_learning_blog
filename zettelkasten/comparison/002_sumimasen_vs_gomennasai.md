@@ -1,14 +1,15 @@
 ---
 title: "すみません vs ごめんなさい"
+description: "すみません與ごめんなさい的道歉用法差異"
 jlpt: n5
-stage: pending
+stage: draft
 tags:
   - 比較
   - 禮貌
   - 道歉
   - 日常會話
 created: 2025-12-22
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

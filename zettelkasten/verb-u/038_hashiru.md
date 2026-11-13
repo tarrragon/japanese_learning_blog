@@ -1,9 +1,12 @@
 ---
+title: "走る"
+description: "跑、奔跑"
 stage: pending
 tags:
-  - movement
   - basic-action
   - intransitive
+domains:
+  - movement
 created: 2025-12-26
 updated: 2025-12-26
 version_history:

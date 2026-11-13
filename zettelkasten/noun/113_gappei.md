@@ -1,4 +1,6 @@
 ---
+title: "合併（がっぺい）"
+description: "合併、整合"
 jlpt: n2
 stage: extension-review
 tags: []

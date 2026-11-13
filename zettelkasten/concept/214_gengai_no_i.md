@@ -1,12 +1,14 @@
 ---
 id: 128
 title: 言外の意
+description: "話語表面之外隱含的真實意圖"
 category: concept
 tags:
-  - pragmatics
-  - communication
   - implication
   - meaning
+domains:
+  - linguistics
+  - communication
 created_at: 2025-12-27
 status: extension-review
 version_history:

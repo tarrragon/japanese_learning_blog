@@ -3,7 +3,7 @@ title: "金融機関（きんゆうきかん）"
 description: "金融機関"
 type: concept
 jlpt: n3
-stage: pending
+stage: draft
 tags:
   - concept/金融
   - concept/機関
@@ -12,7 +12,7 @@ domains:
 domain_topics:
   - economics/general
 created: 2025-12-27
-updated: 2025-12-27
+updated: 2026-11-14
 version_history:
   - version: "1.5.4"
     stage: "pending"

@@ -1,6 +1,7 @@
 ---
 title: 金融資本
-stage: pending
+description: "金融資本、以貨幣形式存在的資本"
+stage: draft
 tags:
   - concept/capital
   - category/financial-assets
@@ -9,7 +10,7 @@ domains:
 domain_topics:
   - economics/general
 created: 2025-12-23
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

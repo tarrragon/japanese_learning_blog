@@ -1,4 +1,6 @@
 ---
+title: "文法体系（ぶんぽうたいけい）"
+description: "將文法規則系統化整理的知識體系"
 id: 295
 type: 延伸卡片
 category: grammar

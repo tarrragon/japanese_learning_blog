@@ -1,5 +1,7 @@
 ---
-stage: pending
+title: "租税負担（そぜいふたん）"
+description: "租稅負擔、納稅人實際承擔的稅負"
+stage: draft
 tags:
   - taxation
   - fiscal-policy
@@ -8,7 +10,7 @@ domains:
 domain_topics:
   - economics/general
 created: 2025-12-26
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

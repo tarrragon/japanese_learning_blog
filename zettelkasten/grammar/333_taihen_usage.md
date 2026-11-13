@@ -3,6 +3,7 @@ id: 298
 category: grammar
 tags: [adverb, polysemy, intensity-modifier]
 title: 大変の多義用法
+description: "大変的多義用法：非常、嚴重、辛苦"
 created: 2025-12-27
 version_history:
   - version: 1.5.1

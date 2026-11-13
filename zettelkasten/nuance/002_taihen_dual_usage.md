@@ -1,14 +1,15 @@
 ---
 title: "大変的雙重用法"
+description: "大変作副詞與な形容詞的意思差異"
 jlpt: n4
-stage: pending
+stage: draft
 tags:
   - 副詞
   - な形容詞
   - 程度表現
   - 多義語
 created: 2025-12-22
-updated: 2025-12-22
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

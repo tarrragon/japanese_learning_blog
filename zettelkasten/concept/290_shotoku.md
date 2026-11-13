@@ -1,5 +1,6 @@
 ---
 title: "所得"
+description: "收入扣除必要經費後的所得"
 japanese: "所得"
 reading: "しょとく"
 romaji: "shotoku"
@@ -39,6 +40,10 @@ link_status:
 **English**: The amount remaining after deducting necessary expenses from income earned by an individual or corporation over a specified period. It is a crucial concept for tax calculations and includes various types such as employment income, business income, and real estate income.
 
 **中文**：個人或法人在一定期間內獲得的收入，扣除必要經費後的金額。這是稅金計算的重要基準概念，包括薪資所得、事業所得、不動產所得等各種類型。
+
+## 中文解釋
+
+「所得」是指個人或法人在一定期間內的收入扣除必要經費後所剩下的金額，是計算稅金時的基準。它與單純指收到的錢的總額的「収入」不同，在稅務上兩者區分得很清楚。所得依來源分為薪資所得、事業所得、不動產所得、利息所得、股利所得等多種類型。常見的相關詞有「所得税」（所得稅）、「所得控除」（所得扣除）、「課税所得」（應稅所得）。在報稅與年末調整等場合經常出現，是理解日本稅制的基本詞彙。
 
 ## 所得の種類
 

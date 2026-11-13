@@ -3,14 +3,14 @@ title: "銀行預金（ぎんこうよきん）"
 description: "銀行存款的概念與相關金融用語"
 type: concept
 jlpt: n3
-stage: pending
+stage: draft
 draft: true
 auto_generated: false
 needs_review: true
-tags:
-  - daily_life
+tags: []
 domains:
   - economics
+  - daily-life
 domain_topics:
   - economics/finance
 dictionary:
@@ -24,7 +24,7 @@ dictionary:
   definition_en: null
   lookup_date: "2025-12-28"
 created: 2025-12-28
-updated: 2025-12-28
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

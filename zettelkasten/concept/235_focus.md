@@ -2,11 +2,12 @@
 id: 414
 number: 131
 title: 焦點 (Focus)
+description: "語言學資訊結構中的焦點概念"
 category: concept
 tags:
-  - linguistics
   - information-structure
-  - pragmatics
+domains:
+  - linguistics
 created_date: 2025-12-27
 status: draft
 version_history:

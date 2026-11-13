@@ -1,14 +1,15 @@
 ---
 title: "が vs は 詳細比較"
+description: "が與は的主題與主格差異"
 type: comparison
 jlpt: n4
-stage: pending
+stage: draft
 tags:
   - particles
   - grammar
   - fundamentals
 created: 2025-12-24
-updated: 2025-12-24
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

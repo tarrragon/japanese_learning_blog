@@ -2,6 +2,7 @@
 id: 412
 number: 291
 title: 状態動詞
+description: "表示人或物狀態、性質的動詞"
 kana: じょうたいどうし
 category: grammar
 tags:

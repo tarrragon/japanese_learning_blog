@@ -1,4 +1,6 @@
 ---
+title: "振込（ふりこみ）"
+description: "匯款、轉帳"
 id: 276
 category: noun
 japanese: 振込

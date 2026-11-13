@@ -1,7 +1,7 @@
 ---
 title: 家庭（かてい）
 description: 家庭、家戶
-stage: pending
+stage: draft
 tags:
   - context/family
   - context/formal
@@ -9,7 +9,7 @@ tags:
 domains:
   - daily-life
 created: 2025-10-27
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

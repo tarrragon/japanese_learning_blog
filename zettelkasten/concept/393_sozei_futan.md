@@ -4,14 +4,14 @@ description: "稅務負擔、納稅義務的程度與分配概念"
 type: concept
 subtype: economics
 jlpt: n3
-stage: pending
+stage: draft
 draft: true
 auto_generated: false
 needs_review: true
-tags:
-  - 社会
+tags: []
 domains:
   - economics
+  - society
 domain_topics:
   - economics/finance
 dictionary:
@@ -25,7 +25,7 @@ dictionary:
   definition_en: null
   lookup_date: "2025-12-28"
 created: 2025-12-28
-updated: 2025-12-28
+updated: 2026-11-14
 version_history:
   - version: "1.5.6"
     stage: "pending"

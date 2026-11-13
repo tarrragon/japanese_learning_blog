@@ -1,10 +1,11 @@
 ---
 title: 高い (takai)
+description: "高的、貴的"
 jlpt: n5
-stage: pending
+stage: draft
 tags: [jlpt/n5, daily-use, polysemy]
 created: 2025-12-22
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

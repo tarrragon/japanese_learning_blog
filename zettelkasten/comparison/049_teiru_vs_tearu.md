@@ -1,13 +1,14 @@
 ---
 title: "〜ている vs 〜てある"
+description: "〜ている與〜てある的用法差異"
 type: comparison
 jlpt: n4
-stage: pending
+stage: draft
 tags:
   - 文法
   - 状態表現
 created: 2025-12-26
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

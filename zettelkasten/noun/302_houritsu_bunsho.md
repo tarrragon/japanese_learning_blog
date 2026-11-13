@@ -2,13 +2,15 @@
 id: 283
 number: 282
 title: 法律文書の日本語
+description: "法律文書中使用的日語"
 kana: ほうりつぶんしょのにほんご
 category: noun
 tags:
-  - 法律
   - 文書
   - 日本語表現
   - 専門用語
+domains:
+  - society
 status: draft
 created: 2025-12-27
 version_history:

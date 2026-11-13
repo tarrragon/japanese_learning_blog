@@ -1,12 +1,13 @@
 ---
 title: 確定條件
-stage: pending
+description: "以たら表達前項必然發生的確定條件"
+stage: draft
 tags:
   - 文法
   - 條件句
   - N3
 created: 2025-12-26
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

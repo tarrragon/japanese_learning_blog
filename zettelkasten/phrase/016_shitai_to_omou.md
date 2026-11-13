@@ -3,7 +3,7 @@ title: したいと思う
 description: したいと思う - 想要做（表達願望的委婉說法）
 type: phrase
 jlpt: n5
-stage: pending
+stage: draft
 tags:
   - phrase
   - jlpt/n5
@@ -12,7 +12,7 @@ tags:
   - intention
   - tai-form
 created: 2025-12-17
-updated: 2025-12-17
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

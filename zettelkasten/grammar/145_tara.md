@@ -1,5 +1,6 @@
 ---
 title: "たら"
+description: "表示假定條件或時間先後的「如果、之後」"
 type: grammar
 jlpt: n4
 stage: extension-review

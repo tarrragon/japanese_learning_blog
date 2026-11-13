@@ -1,14 +1,15 @@
 ---
 title: "〜ていただく"
+description: "「てもらう」的謙讓語，表示請對方做事"
 jlpt: n4
-stage: pending
+stage: draft
 tags:
   - grammar
   - keigo
   - request
   - humble
 created: 2025-12-22
-updated: 2025-12-22
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

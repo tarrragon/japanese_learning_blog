@@ -1,14 +1,15 @@
 ---
 title: "なければならない"
+description: "表示必須做某事的義務表達"
 type: grammar
 jlpt: n4
-stage: pending
+stage: draft
 tags:
   - 義務表達
   - 動詞變化
   - N4文法
 created: 2025-12-26
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

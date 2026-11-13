@@ -3,13 +3,13 @@ title: "補助動詞"
 description: 接在動詞て形後，添加語法意義的動詞群
 type: grammar
 jlpt: n3
-stage: pending
+stage: draft
 tags:
   - grammar_category
   - auxiliary_verb
   - jlpt/n3
 created: 2025-12-27
-updated: 2025-12-27
+updated: 2026-11-14
 version_history:
   - version: "1.5.4"
     stage: "pending"

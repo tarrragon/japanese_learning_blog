@@ -3,6 +3,7 @@ id: 432
 number: 276
 category: noun
 title: 預金通帳
+description: "存摺、銀行存摺"
 ruby: よきんつうちょう
 version_history:
   - version: 1.5.1

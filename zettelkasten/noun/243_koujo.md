@@ -1,6 +1,7 @@
 ---
 title: "控除"
-stage: pending
+description: "扣除、減除（稅額計算）"
+stage: draft
 tags:
   - "financial"
   - "bureaucratic"
@@ -10,7 +11,7 @@ domain_topics:
   - economics/business
   - economics/fiscal
 created: 2025-12-26
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

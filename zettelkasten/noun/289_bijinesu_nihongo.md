@@ -1,6 +1,7 @@
 ---
 id: 528
 title: 商務日語
+description: "商務日語"
 ruby: しょうむにほんご
 category: noun
 number: 279

@@ -2,6 +2,7 @@
 id: 448
 card_id: concept-130
 title: 国際法
+description: "規範國與國關係的法律制度"
 english: International Law
 chinese: 國際法
 category: concept

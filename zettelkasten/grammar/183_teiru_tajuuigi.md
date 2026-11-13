@@ -1,6 +1,7 @@
 ---
 title: "〜ている 的多重意義"
-stage: pending
+description: "〜ている的進行、狀態、結果持續等多重意義"
+stage: draft
 tags:
   - "aspect"
   - "progressive"
@@ -8,7 +9,7 @@ tags:
   - "resultative"
   - "habitual"
 created: 2025-12-26
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

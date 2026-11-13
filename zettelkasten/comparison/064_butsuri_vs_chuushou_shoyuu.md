@@ -1,6 +1,7 @@
 ---
 title: 物理擁有 vs 抽象擁有
-stage: pending
+description: "具體物品與抽象事物的擁有表達差異"
+stage: draft
 tags:
   - 所有
   - ある
@@ -8,7 +9,7 @@ tags:
   - 持つ
   - 抽象概念
 created: 2025-12-26
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

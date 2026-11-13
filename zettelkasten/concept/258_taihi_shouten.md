@@ -2,14 +2,15 @@
 id: 415
 number: 198
 title: 対比焦点
+description: "以「は」標示的對比焦點概念"
 category: concept
 japanese: 対比焦点
 reading: たいひしょうてん
 chinese: 對比焦點
 jlpt: n3
-tags:
+tags: []
+domains:
   - linguistics
-  - information_structure
 created_date: 2025-12-27
 status: draft
 version_history:

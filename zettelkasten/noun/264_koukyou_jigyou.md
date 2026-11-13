@@ -1,12 +1,14 @@
 ---
 title: "公共事業"
-stage: pending
+description: "公共事業、公共建設"
+stage: draft
 tags:
   - "economy"
   - "infrastructure"
-  - "government"
+domains:
+  - society
 created: "2025-12-26"
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

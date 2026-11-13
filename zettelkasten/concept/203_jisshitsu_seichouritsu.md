@@ -1,4 +1,6 @@
 ---
+title: "実質成長率（じっしつせいちょうりつ）"
+description: "扣除物價影響後的實際經濟成長率"
 id: 437
 number: 125
 slug: jisshitsu_seichouritsu

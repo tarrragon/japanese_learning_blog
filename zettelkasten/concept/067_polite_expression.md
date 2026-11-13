@@ -1,14 +1,15 @@
 ---
 title: "丁寧表達"
+description: "以です・ます體表示禮貌的表達"
 type: concept
 jlpt: n4
-stage: pending
+stage: draft
 tags:
   - concept
   - politeness
   - register
 created: 2025-12-26
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

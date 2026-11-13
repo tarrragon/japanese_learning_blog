@@ -6,8 +6,9 @@ jlpt: n3
 stage: completed
 tags:
   - vocabulary_distinction
-  - linguistics
   - academic_terminology
+domains:
+  - linguistics
 created: 2025-10-31
 updated: 2025-12-27
 version_history:

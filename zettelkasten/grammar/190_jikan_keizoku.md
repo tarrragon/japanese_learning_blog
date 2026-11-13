@@ -1,13 +1,14 @@
 ---
 title: "時間の長さと継続"
-stage: pending
+description: "時間長度與動作持續的表達方式"
+stage: draft
 tags:
   - 時間表現
   - 助詞
   - 副詞
   - 継続性
 created: 2025-12-26
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

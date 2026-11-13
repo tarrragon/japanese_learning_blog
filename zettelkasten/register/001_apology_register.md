@@ -1,14 +1,14 @@
 ---
 title: 道歉表達語域
 description: 從口語到正式的道歉語言層次
-stage: pending
+stage: draft
 tags:
   - context/politeness
   - context/social
   - jlpt/n4
   - register/apology
 created: 2025-12-22
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

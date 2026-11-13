@@ -1,4 +1,6 @@
 ---
+title: "量的緩和（りょうてきかんわ）"
+description: "央行大量購入資產的非常規貨幣政策"
 id: 130
 category: concept
 japanese: 量的緩和

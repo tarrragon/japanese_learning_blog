@@ -1,5 +1,7 @@
 ---
-stage: pending
+title: "財務諸表"
+description: "財務報表"
+stage: draft
 tags:
   - "business"
 domains:
@@ -8,7 +10,7 @@ domain_topics:
   - economics/finance
   - economics/business
 created: 2025-12-26
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

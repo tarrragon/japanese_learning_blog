@@ -2,6 +2,7 @@
 id: 523
 number: 293
 title: 慣用表現
+description: "固定組合、不可照字面理解的慣用表現"
 category: grammar
 tags:
   - phrase

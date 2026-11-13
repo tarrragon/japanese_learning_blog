@@ -1,13 +1,14 @@
 ---
 title: "敬語系統"
+description: "尊敬語、謙讓語、丁寧語三類敬語體系"
 type: concept
 jlpt: n3
-stage: pending
+stage: draft
 tags:
   - 語法
   - 敬語
 created: 2025-12-26
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

@@ -1,6 +1,7 @@
 ---
 title: 医療費控除
-stage: pending
+description: "醫療費扣除（日本所得稅扣除制度）"
+stage: draft
 tags:
   - concept/tax-deduction
   - topic/healthcare
@@ -9,7 +10,7 @@ domains:
 domain_topics:
   - economics/fiscal
 created: 2025-12-23
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

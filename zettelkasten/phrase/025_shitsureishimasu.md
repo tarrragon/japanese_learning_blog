@@ -1,12 +1,13 @@
 ---
 title: "失礼します"
-stage: pending
+description: "打擾了、失陪了（依場合使用的禮貌語）"
+stage: draft
 tags:
   - "greeting"
   - "business"
   - "politeness"
 created: 2025-12-26
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

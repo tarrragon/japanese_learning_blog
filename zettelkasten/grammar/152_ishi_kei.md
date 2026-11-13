@@ -1,14 +1,15 @@
 ---
 title: "意志形"
+description: "表達意志、決心或邀約的動詞活用形"
 type: grammar
 jlpt: n4
-stage: pending
+stage: draft
 tags:
   - 動詞活用
   - 意志表現
   - 勧誘表現
 created: 2025-12-26
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

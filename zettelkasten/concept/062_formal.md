@@ -1,14 +1,15 @@
 ---
 title: "正式語體"
+description: "用於正式場合的丁寧語與書面表達"
 type: concept
 jlpt: n4
-stage: pending
+stage: draft
 tags:
   - 語体
   - 敬語
   - 書面語
 created: 2025-12-26
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

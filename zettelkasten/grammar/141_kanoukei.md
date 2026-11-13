@@ -1,5 +1,6 @@
 ---
 title: "可能形"
+description: "表示「能夠做某事」的動詞可能形"
 type: "grammar"
 jlpt: "n4"
 stage: "extension-review"

@@ -1,5 +1,6 @@
 ---
 title: "する"
+description: "做、進行、使成為"
 type: verb
 jlpt: n5
 stage: extension-review

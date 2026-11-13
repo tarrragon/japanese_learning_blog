@@ -1,7 +1,7 @@
 ---
 title: 清潔相關詞彙（せいけつかんれんようご）
 description: 清潔相關詞彙
-stage: pending
+stage: draft
 tags:
   - context/daily
   - jlpt/n3
@@ -9,7 +9,7 @@ tags:
 domains:
   - daily-life
 created: 2025-12-27
-updated: 2025-12-27
+updated: 2026-11-14
 version_history:
   - version: "1.5.1"
     stage: "pending"

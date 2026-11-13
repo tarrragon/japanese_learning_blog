@@ -2,6 +2,7 @@
 id: 411
 number: 124
 title: 尊敬語概念
+description: "抬高對方或第三者行為的敬語"
 slug: sonkeigo_concept
 category: concept
 tags:

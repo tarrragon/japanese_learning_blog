@@ -1,5 +1,6 @@
 ---
 title: に vs から 起終點比較
+description: "に表到達點、から表起點的用法差異"
 jlpt: n5
 stage: extension-review
 tags:

@@ -10,8 +10,9 @@ auto_generated: false
 needs_review: true
 tags:
   - grammar
-  - daily_life
   - permission
+domains:
+  - daily-life
 created: 2025-12-28
 updated: 2025-12-29
 version_history:

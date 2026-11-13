@@ -1,5 +1,6 @@
 ---
 title: "市場"
+description: "市場、交易場所"
 stage: "extension-review"
 tags: []
 domains:

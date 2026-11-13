@@ -1,5 +1,6 @@
 ---
 title: "失業"
+description: "失業"
 jlpt: n3
 stage: extension-review
 tags: []

@@ -3,7 +3,7 @@ title: "上下関係（じょうげかんけい）"
 description: "日本社會中的上下階級關係概念"
 type: concept
 jlpt: n2
-stage: pending
+stage: draft
 draft: true
 auto_generated: false
 needs_review: true
@@ -14,7 +14,7 @@ tags:
   - concept
   - respect
 created: 2025-12-28
-updated: 2025-12-28
+updated: 2026-11-14
 version_history:
   - version: "1.5.6"
     stage: "pending"

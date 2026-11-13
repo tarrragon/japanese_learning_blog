@@ -1,6 +1,7 @@
 ---
 id: 408
 title: 債券
+description: "發行人為籌資而發行的有價證券"
 slug: saiken
 category: concept
 tags: []

@@ -1,4 +1,6 @@
 ---
+title: "雇用"
+description: "僱用、雇用"
 jlpt: N2
 stage: extension-review
 tags:

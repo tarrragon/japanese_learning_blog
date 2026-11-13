@@ -1,13 +1,14 @@
 ---
 title: 召し上がる vs いただく
-stage: pending
+description: "尊敬語與謙讓語的「吃、喝」用法差異"
+stage: draft
 tags:
   - 敬語
   - 尊敬語
   - 謙讓語
   - 食事
 created: 2025-12-26
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

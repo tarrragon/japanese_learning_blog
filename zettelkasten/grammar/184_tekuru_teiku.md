@@ -1,12 +1,13 @@
 ---
 title: "〜てくる・〜ていく"
-stage: pending
+description: "表示動作方向或變化趨勢的補語形式"
+stage: draft
 tags:
   - "方向補語"
   - "複合動詞"
   - "移動方向"
 created: 2025-12-26
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

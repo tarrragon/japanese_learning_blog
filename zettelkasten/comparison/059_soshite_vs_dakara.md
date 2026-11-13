@@ -1,4 +1,6 @@
 ---
+title: "そして vs だから"
+description: "そして與だから的接續功能差異"
 stage: pending
 tags:
   - 接續詞

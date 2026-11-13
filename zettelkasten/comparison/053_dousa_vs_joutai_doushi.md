@@ -1,5 +1,6 @@
 ---
 title: 動作動詞 vs 狀態動詞
+description: "動作動詞與狀態動詞的區別"
 stage: pending
 tags:
   - verb-types

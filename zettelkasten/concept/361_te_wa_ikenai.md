@@ -3,7 +3,7 @@ title: "〜てはいけない"
 description: "表示禁止的文法句型"
 type: grammar
 jlpt: n5
-stage: pending
+stage: draft
 draft: true
 auto_generated: false
 needs_review: true
@@ -12,7 +12,7 @@ tags:
   - grammar_pattern
   - must_not
 created: 2025-12-28
-updated: 2025-12-28
+updated: 2026-11-14
 version_history:
   - version: "1.5.6"
     stage: "pending"

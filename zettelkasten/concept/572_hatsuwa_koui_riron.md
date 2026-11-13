@@ -11,9 +11,10 @@ needs_review: true
 tags:
   - concept
   - linguistic_theory
-  - pragmatics
   - "コミュニケーション分野"
   - speech
+domains:
+  - linguistics
 dictionary:
   sources:
     daijirin: false

@@ -1,4 +1,6 @@
 ---
+title: "名目成長率（めいもくせいちょうりつ）"
+description: "未調整物價變動的經濟成長率"
 id: 438
 number: 205
 slug: meimoku_seichouritsu

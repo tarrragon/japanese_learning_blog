@@ -1,14 +1,15 @@
 ---
 title: "連用形"
+description: "連接ます、たい等的活用形，也可名詞化"
 type: "grammar"
 jlpt: "n4"
-stage: pending
+stage: draft
 tags:
   - "verb_conjugation"
   - "adjective_conjugation"
   - "grammar_form"
 created: 2025-12-26
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

@@ -1,5 +1,6 @@
 ---
 title: "で vs に 場所用法比較"
+description: "で與に表示場所的用法差異"
 type: comparison
 jlpt: n5
 stage: pending

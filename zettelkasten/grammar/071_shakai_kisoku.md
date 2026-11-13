@@ -4,7 +4,7 @@ description: 社會規則的表達與文法結構
 type: grammar
 jlpt: n3
 id: 97
-stage: pending
+stage: draft
 tags:
   - jlpt/n3
   - context/formal
@@ -12,7 +12,7 @@ domains:
   - society
   - communication
 created: 2025-12-27
-updated: 2025-12-27
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

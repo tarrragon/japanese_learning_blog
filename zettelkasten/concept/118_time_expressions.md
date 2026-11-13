@@ -3,13 +3,14 @@ title: "時間表現（じかんひょうげん）"
 description: "日文時間表達系統"
 type: concept
 jlpt: n5
-stage: pending
+stage: draft
 tags:
   - time
   - grammar
-  - daily_life
+domains:
+  - daily-life
 created: 2025-12-26
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

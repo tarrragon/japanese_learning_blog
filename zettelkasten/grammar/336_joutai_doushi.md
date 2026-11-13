@@ -3,13 +3,13 @@ title: 状態動詞
 description: 状態動詞 - 表示狀態而非動作的動詞類型
 type: grammar
 jlpt: n3
-stage: pending
+stage: draft
 tags:
   - verb_type
   - grammar_category
   - jlpt/n3
 created: 2025-12-27
-updated: 2025-12-27
+updated: 2026-11-14
 version_history:
   - version: "1.5.4"
     stage: "pending"

@@ -3,14 +3,14 @@ title: "邏輯結構"
 description: "日文句子的邏輯組織方式，包含論點展開、因果推理和結論導出的表達模式"
 type: grammar
 jlpt: n3
-stage: pending
+stage: draft
 tags:
   - grammar
   - logical_structure
   - discourse
   - writing
 created: 2025-12-27
-updated: 2025-12-27
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

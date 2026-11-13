@@ -1,5 +1,6 @@
 ---
 title: "日常会話"
+description: "與親近者交談的非正式口語"
 type: concept
 jlpt: n4
 stage: extension-review

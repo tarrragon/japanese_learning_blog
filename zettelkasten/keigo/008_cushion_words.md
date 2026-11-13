@@ -1,12 +1,13 @@
 ---
 title: "クッション言葉"
-stage: pending
+description: "請求、拒絕前緩和語氣的緩衝語"
+stage: draft
 tags:
   - business-japanese
   - politeness
   - communication-skills
 created: 2025-12-22
-updated: 2025-12-22
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

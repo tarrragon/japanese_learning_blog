@@ -1,12 +1,14 @@
 ---
-stage: pending
+title: "分配"
+description: "分配、配給、分派"
+stage: draft
 tags: [resource-management, organization]
 domains:
   - economics
 domain_topics:
   - economics/general
 created: 2025-12-26
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

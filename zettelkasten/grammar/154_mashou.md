@@ -1,15 +1,16 @@
 ---
 title: "ましょう"
+description: "禮貌地邀請或提議一起做某事"
 type: grammar
 jlpt: n5
-stage: pending
+stage: draft
 tags:
   - 勧誘表現
   - 提案
   - 動詞活用
   - 丁寧語
 created: 2025-12-24
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

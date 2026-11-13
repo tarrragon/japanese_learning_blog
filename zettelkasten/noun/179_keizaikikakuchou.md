@@ -1,7 +1,9 @@
 ---
+title: "経済企画庁（けいざいきかくちょう）"
+description: "經濟企劃廳（日本舊中央機關）"
 type: noun
 jlpt: n1
-stage: pending
+stage: draft
 tags:
   - "historical"
 domains:
@@ -10,7 +12,7 @@ domains:
 domain_topics:
   - economics/general
 created: 2025-12-26
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

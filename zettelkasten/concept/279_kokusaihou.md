@@ -6,12 +6,12 @@ japanese: "国際法"
 reading: "こくさいほう"
 chinese: "國際法"
 jlpt: n2
-stage: pending
+stage: draft
 tags: []
 domains:
   - society
 created: 2025-12-27
-updated: 2025-12-27
+updated: 2026-11-14
 version_history:
   - version: "1.5.4"
     stage: "pending"

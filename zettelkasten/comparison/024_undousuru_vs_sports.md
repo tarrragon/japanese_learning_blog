@@ -1,13 +1,14 @@
 ---
 title: "運動する vs スポーツをする"
+description: "運動する與スポーツをする的用法差異"
 type: comparison
-stage: pending
+stage: draft
 tags:
   - verb-comparison
   - health
   - sports
 created: 2025-12-22
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

@@ -1,12 +1,13 @@
 ---
 title: "一段動詞（Ichidan Verbs）"
-stage: pending
+description: "以「る」結尾、活用規則統一的動詞分類"
+stage: draft
 tags:
   - 動詞分類
   - 活用規則
   - 文法基礎
 created: 2025-12-26
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

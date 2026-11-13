@@ -3,7 +3,7 @@ title: "税務申告（ぜいむしんこく）"
 description: "稅務申報"
 type: concept
 jlpt: n3
-stage: pending
+stage: draft
 draft: true
 auto_generated: false
 needs_review: true
@@ -15,7 +15,7 @@ domains:
 domain_topics:
   - economics/finance
 created: 2025-12-28
-updated: 2025-12-28
+updated: 2026-11-14
 version_history:
   - version: "1.5.6"
     stage: "pending"

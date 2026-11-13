@@ -3,14 +3,14 @@ title: 比較優位（ひかくゆうい）
 description: 比較優勢，國際貿易理論中說明專業分工利益的核心概念
 type: concept
 jlpt: n2
-stage: pending
+stage: draft
 tags: []
 domains:
   - economics
 domain_topics:
   - economics/trade
 created: 2025-12-27
-updated: 2025-12-27
+updated: 2026-11-14
 version_history:
   - version: "1.5.4"
     stage: "pending"

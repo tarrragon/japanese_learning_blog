@@ -1,13 +1,14 @@
 ---
 title: "商務郵件"
-stage: pending
+description: "工作用電子郵件及其敬語與格式"
+stage: draft
 tags:
   - "business_communication"
   - "formal_writing"
   - "email_etiquette"
   - "keigo_application"
 created: 2025-12-26
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

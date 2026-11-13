@@ -1,12 +1,14 @@
 ---
-stage: pending
+title: "でも"
+description: "但是、可是（口語的轉折連接詞）"
+stage: draft
 tags:
   - grammar/conjunction
   - everyday-conversation
   - contrast
   - spoken-japanese
 created: 2025-12-22
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

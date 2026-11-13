@@ -1,7 +1,7 @@
 ---
 title: 時制（じせい）
 description: 日語的時態概念，表達動作或狀態發生的時間
-stage: pending
+stage: draft
 tags:
   - context/grammar
   - context/formal
@@ -9,7 +9,7 @@ tags:
 domains:
   - linguistics
 created: 2025-12-27
-updated: 2025-12-27
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

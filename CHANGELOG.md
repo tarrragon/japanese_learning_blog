@@ -17,6 +17,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - `scripts/list-domains.py`：列出領域與子主題的卡片數
 - `scripts/migrate_domain_tags.py`：將 `domain/*` 與意思明確的無前綴領域 tag 遷移為 `domains` / `domain_topics` 欄位
 - 編號系統：`scripts/card_numbering.py`（保留紀錄取號、`check` / `duplicates`）
+- `scripts/audit_card_fields.py`：盤點缺 title / description / 中文說明、空範本與 stage 落後的卡片
+- `scripts/fill_card_fields.py`：以內文標題補 title，或套用 JSON 補 title / description
+
+### Fixed（卡片內容）
+- 補上 153 張卡片的 title（131 張取自內文標題、22 張由 AI 產生）
+- 補上 552 張卡片的 description（Sonnet 依卡片內容產生簡短繁中釋義，經簡體字與格式檢查後寫入）
+- 補上 10 張卡片的中文解釋；填寫 1 張空範本卡片（concept/092_formality_level）
+- 526 張內容已具三語說明但 stage 仍為 pending 的卡片更新為 draft（YAML 為單一事實來源）
+- 237 張卡片的無前綴領域 tag（語言學、日常生活、社會等）遷移為 domains 欄位
 
 ### Changed
 - 領域改用 frontmatter 的 `domains` / `domain_topics` 欄位，不再使用 `domain/*` tag

@@ -1,6 +1,7 @@
 ---
 title: 配給
-stage: pending
+description: "配給、配發（按計劃分配物資）"
+stage: draft
 tags:
   - action/distribution
   - concept/rationing
@@ -9,7 +10,7 @@ domains:
 domain_topics:
   - economics/general
 created: 2025-12-23
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

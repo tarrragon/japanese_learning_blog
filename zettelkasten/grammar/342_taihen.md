@@ -2,6 +2,7 @@
 id: 469
 number: 326
 title: 大変の多義用法
+description: "大変作副詞（非常）與な形容詞（嚴重、不容易）的用法"
 category: grammar
 tags:
   - adverb
@@ -9,8 +10,8 @@ tags:
   - jlpt/n4
 jlpt: n4
 created: 2025-12-27
-updated: 2025-12-27
-stage: pending
+updated: 2026-11-14
+stage: draft
 version_history:
   - version: "1.5.4"
     stage: "pending"

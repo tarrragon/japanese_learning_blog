@@ -1,12 +1,13 @@
 ---
 title: "日常會話"
-stage: pending
+description: "簡短自然、親近的日常口語交流"
+stage: draft
 tags:
   - "口語"
   - "會話"
   - "日常溝通"
 created: 2025-12-26
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

@@ -1,6 +1,7 @@
 ---
 id: 278
 title: 経費
+description: "經費、開支"
 category: noun
 ruby: けいひ
 version_history:

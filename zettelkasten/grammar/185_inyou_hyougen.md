@@ -1,13 +1,14 @@
 ---
 title: "引用表現"
-stage: pending
+description: "引述他人話語或想法的語法結構"
+stage: draft
 tags:
   - grammar
   - quotation
   - と言う
   - という
 created: 2025-12-26
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

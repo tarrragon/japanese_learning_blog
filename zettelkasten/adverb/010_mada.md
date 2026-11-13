@@ -1,11 +1,12 @@
 ---
 title: "まだ"
+description: "還、尚未（狀態持續或未完成）"
 type: "adverb"
 jlpt: "n5"
-stage: pending
+stage: draft
 tags: [副詞, 時間, jlpt/n5]
 created: "2025-12-22"
-updated: "2025-12-22"
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

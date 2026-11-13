@@ -3,7 +3,7 @@ title: "国際協力（こくさいきょうりょく）"
 description: "國際合作，指國家間為達成共同目標而進行的互助與協調"
 type: concept
 jlpt: n3
-stage: pending
+stage: draft
 draft: true
 auto_generated: false
 needs_review: true
@@ -15,7 +15,7 @@ domains:
 domain_topics:
   - economics/general
 created: 2025-12-28
-updated: 2025-12-28
+updated: 2026-11-14
 version_history:
   - version: "1.5.6"
     stage: "pending"

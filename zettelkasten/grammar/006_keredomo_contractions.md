@@ -1,5 +1,6 @@
 ---
 title: けれども縮約形
+description: "けれども的縮約形與格式度差異"
 jlpt: n4
 stage: pending
 tags:

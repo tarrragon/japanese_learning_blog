@@ -1,6 +1,8 @@
 ---
+title: "市場経済（しじょうけいざい）"
+description: "市場經濟、由市場自由交易決定資源配置的體系"
 jlpt: n1
-stage: pending
+stage: draft
 tags:
   - concept/system
 domains:
@@ -8,7 +10,7 @@ domains:
 domain_topics:
   - economics/general
 created: 2025-12-26
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

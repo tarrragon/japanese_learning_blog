@@ -1,13 +1,14 @@
 ---
 title: "関税障壁"
-stage: pending
+description: "關稅壁壘"
+stage: draft
 tags: []
 domains:
   - economics
 domain_topics:
   - economics/business
 created: 2025-12-26
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

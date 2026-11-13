@@ -8,8 +8,9 @@ draft: true
 auto_generated: false
 needs_review: true
 tags:
-  - daily_life
   - 学術的な場面
+domains:
+  - daily-life
 dictionary:
   sources:
     daijirin: true

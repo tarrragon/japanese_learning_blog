@@ -1,11 +1,15 @@
 ---
+title: "語言能力評估"
+description: "語言能力評估"
 id: 515
 number: 282
 category: noun
 japanese: 語言能力評估
 chinese: 語言能力評估
 english: Language proficiency assessment
-tags: [教育, 言語, 評価]
+tags: [言語, 評価]
+domains:
+  - learning
 created: 2025-12-27
 updated: 2025-12-27
 stage: extension-review

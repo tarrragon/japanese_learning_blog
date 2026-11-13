@@ -8,10 +8,10 @@ stage: extension-review
 draft: true
 auto_generated: false
 needs_review: true
-tags:
-  - society
+tags: []
 domains:
   - economics
+  - society
 domain_topics:
   - economics/finance
 dictionary:

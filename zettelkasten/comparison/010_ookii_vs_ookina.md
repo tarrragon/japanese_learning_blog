@@ -1,9 +1,10 @@
 ---
 title: "大きい vs 大きな"
-stage: pending
+description: "大きい與大きな的文法差異"
+stage: draft
 tags: [size, comparison, grammar]
 created: 2025-12-22
-updated: 2025-12-22
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

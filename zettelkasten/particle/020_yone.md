@@ -1,13 +1,14 @@
 ---
 title: "よね"
+description: "句尾助詞，傳達資訊並尋求對方認同"
 type: particle
-stage: pending
+stage: draft
 tags:
   - 終助詞
   - 確認
   - 共感
 created: 2025-12-26
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

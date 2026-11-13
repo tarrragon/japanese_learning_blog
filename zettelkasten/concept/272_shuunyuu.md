@@ -1,7 +1,7 @@
 ---
 title: 収入（しゅうにゅう）
 description: 收入、金錢的收入來源
-stage: pending
+stage: draft
 tags:
   - context/daily_life
   - jlpt/n3
@@ -10,7 +10,7 @@ domains:
 domain_topics:
   - economics/finance
 created: 2025-12-27
-updated: 2025-12-27
+updated: 2026-11-14
 version_history:
   - version: "1.5.4"
     stage: "pending"

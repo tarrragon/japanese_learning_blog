@@ -3,10 +3,10 @@ title: "助詞系統（じょしシステム）"
 description: 日語助詞的完整分類系統，包含格助詞、副助詞、接續助詞、終助詞等各類助詞的功能概述
 type: grammar
 jlpt: n3
-stage: pending
+stage: draft
 tags: [jlpt/n3, grammar_system]
 created: 2025-12-27
-updated: 2025-12-27
+updated: 2026-11-14
 version_history:
   - version: "1.5.4"
     stage: "pending"

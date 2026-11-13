@@ -1,5 +1,6 @@
 ---
 title: "金利"
+description: "利率"
 jlpt: "n2"
 stage: "extension-review"
 tags: []

@@ -1,6 +1,7 @@
 ---
 id: 294
 title: 移動動詞の活用
+description: "行く、来る、帰る等移動動詞的活用"
 title_ja: 移動動詞の活用
 title_en: Conjugation of Movement Verbs
 category: grammar

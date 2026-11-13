@@ -4,14 +4,14 @@ title: "外貨準備（がいかじゅんび）"
 description: "外匯儲備，國家持有的外國貨幣和資產，用於穩定匯率和國際支付"
 type: concept
 jlpt: n2
-stage: pending
+stage: draft
 tags: []
 domains:
   - economics
 domain_topics:
   - economics/finance
 created: 2025-12-27
-updated: 2025-12-27
+updated: 2026-11-14
 version_history:
   - version: "1.5.4"
     stage: "pending"

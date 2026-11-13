@@ -9,8 +9,9 @@ auto_generated: false
 needs_review: false
 tags:
   - 学習
-  - learning
   - "認知・思考分野"
+domains:
+  - learning
 created: 2025-12-28
 updated: 2025-12-28
 version_history:

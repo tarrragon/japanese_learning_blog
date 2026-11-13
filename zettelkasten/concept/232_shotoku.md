@@ -4,6 +4,7 @@ type: "concept"
 status: "draft"
 slug: "shotoku"
 title: "所得"
+description: "個人或企業的所得、收入"
 title_en: "Income / Earnings"
 title_zh: "所得/收入"
 tags:

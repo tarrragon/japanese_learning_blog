@@ -2,13 +2,13 @@
 title: 時間副詞の用法
 description: 時間副詞的用法
 type: linguistics
-stage: pending
+stage: draft
 tags:
   - adverb
   - time_expression
   - jlpt/n3
 created: 2025-12-27
-updated: 2025-12-27
+updated: 2026-11-14
 version_history:
   - version: "1.5.4"
     stage: "pending"

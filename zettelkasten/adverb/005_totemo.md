@@ -3,13 +3,13 @@ title: とても
 description: 非常、很、十分
 type: adverb
 jlpt: n5
-stage: pending
+stage: draft
 tags:
   - adverb
   - degree
   - jlpt/n5
 created: 2025-12-18
-updated: 2025-12-22
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

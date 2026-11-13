@@ -1,15 +1,16 @@
 ---
-stage: pending
+title: "税制改革（ぜいせいかいかく）"
+description: "稅制改革、系統性調整稅收制度"
+stage: draft
 tags:
   - taxation
-  - policy
-  - government
 domains:
   - economics
+  - society
 domain_topics:
   - economics/general
 created: 2025-12-26
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

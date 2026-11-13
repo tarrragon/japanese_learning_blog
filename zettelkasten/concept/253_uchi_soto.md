@@ -7,7 +7,8 @@ stage: extension-review
 tags:
   - social_concept
   - keigo
-  - culture
+domains:
+  - society
 created: 2025-12-27
 updated: 2025-12-27
 version_history:

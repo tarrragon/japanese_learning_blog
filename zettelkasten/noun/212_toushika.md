@@ -1,6 +1,8 @@
 ---
+title: "投資家(とうしか)"
+description: "投資者、投資股票債券等以獲利的個人或機構"
 jlpt: n2
-stage: pending
+stage: draft
 tags:
   - concept/role
 domains:
@@ -8,7 +10,7 @@ domains:
 domain_topics:
   - economics/finance
 created: 2025-12-26
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

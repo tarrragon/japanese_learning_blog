@@ -8,6 +8,7 @@ tags:
   - jlpt/n4
   - particles
   - direction
+domains:
   - movement
 created: 2025-12-27
 updated: 2025-12-27

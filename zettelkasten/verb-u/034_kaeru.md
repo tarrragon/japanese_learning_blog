@@ -1,5 +1,6 @@
 ---
 title: "帰る（かえる）"
+description: "回去、返回、回家"
 type: verb
 jlpt: n5
 stage: extension-review

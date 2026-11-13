@@ -1,6 +1,7 @@
 ---
 id: 452
 title: 需要と供給
+description: "市場經濟中需求與供給的關係"
 kanji: 需要と供給
 hiragana: じゅよう と きょうきゅう
 romaji: juyou to kyoukyuu

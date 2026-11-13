@@ -1,12 +1,13 @@
 ---
 title: できる
-stage: pending
+description: "能夠、會；做好、完成；產生"
+stage: draft
 tags:
   - 一段動詞
   - 可能動詞
   - N4
 created: 2025-12-26
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

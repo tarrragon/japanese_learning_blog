@@ -2,7 +2,7 @@
 title: 精算
 description: 詳細計算、結算的會計與財務用語
 type: noun
-stage: pending
+stage: draft
 tags:
   - context/business
   - context/formal
@@ -12,7 +12,7 @@ domains:
 domain_topics:
   - economics/business
 created: 2025-12-27
-updated: 2025-12-27
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

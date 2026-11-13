@@ -1,4 +1,6 @@
 ---
+title: "だが"
+description: "書面語常用的逆接接續詞"
 id: 291
 category: grammar
 term: だが

@@ -1,12 +1,13 @@
 ---
 title: "政策"
+description: "政府為達成目標制定的方針、政策"
 japanese: "政策"
 reading: "せいさく"
 romaji: "seisaku"
 stage: pending
-tags:
-  - politics
-  - government
+tags: []
+domains:
+  - society
 jlpt: n3
 created: 2025-12-27
 updated: 2025-12-27

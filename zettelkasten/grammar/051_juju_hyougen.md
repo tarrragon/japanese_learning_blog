@@ -6,10 +6,11 @@ jlpt: n5
 stage: completed
 tags:
   - grammar
-  - pragmatics
   - social
   - context/business
   - context/family
+domains:
+  - linguistics
 created: 2025-10-30
 updated: 2025-10-30
 version_history:

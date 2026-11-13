@@ -7,8 +7,9 @@ stage: extension-review
 tags:
   - shopping
   - question
-  - daily_life
   - jlpt/n5
+domains:
+  - daily-life
 created: 2025-10-31
 updated: 2025-10-31
 version_history:

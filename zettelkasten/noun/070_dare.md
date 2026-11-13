@@ -3,10 +3,10 @@ title: "誰"
 description: "用於詢問「誰」的疑問詞。當想知道某個人是誰、或者想詢問不特定人物時使用。可以用於各種場合，從日常對話"
 type: noun
 jlpt: n5
-stage: pending
+stage: draft
 tags: []
 created: 2025-10-31
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

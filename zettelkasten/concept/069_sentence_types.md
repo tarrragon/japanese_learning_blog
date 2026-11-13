@@ -1,14 +1,15 @@
 ---
 title: "句型分類"
+description: "陳述、疑問、命令、感嘆四種句型"
 type: concept
 jlpt: n4
-stage: pending
+stage: draft
 tags:
   - grammar
   - syntax
   - sentence-structure
 created: 2025-12-24
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

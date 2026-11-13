@@ -1,12 +1,14 @@
 ---
 title: "敬語表達：いただきます"
-stage: pending
+description: "用餐前表達感謝的招呼語"
+stage: draft
 tags:
   - "honorific"
   - "teineigo"
-  - "daily_life"
+domains:
+  - daily-life
 created: 2025-12-26
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

@@ -1,9 +1,10 @@
 ---
 title: "しかし"
+description: "正式的轉折接續詞「但是」"
 jlpt: n4
-stage: pending
+stage: draft
 created: 2025-12-26
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

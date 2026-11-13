@@ -2,6 +2,7 @@
 id: 128
 category: concept
 title: 謙讓語概念
+description: "降低自己或內群體行為的敬語"
 created_date: 2025-12-27
 updated_date: 2025-12-27
 tags:

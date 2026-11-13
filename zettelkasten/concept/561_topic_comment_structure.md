@@ -12,7 +12,8 @@ tags:
   - syntax
   - sentence_structure
   - topic_marker
-  - information_structure
+domains:
+  - linguistics
 created: 2025-12-28
 updated: 2025-12-28
 version_history:

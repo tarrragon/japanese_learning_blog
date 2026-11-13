@@ -1,12 +1,14 @@
 ---
-stage: pending
+title: "法人税（ほうじんぜい）"
+description: "法人稅、公司所得稅"
+stage: draft
 tags: [jlpt/n2]
 domains:
   - economics
 domain_topics:
   - economics/general
 created: 2025-12-26
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

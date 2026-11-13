@@ -1,14 +1,14 @@
 ---
 title: 学習マイルストーン（がくしゅうまいるすとーん）
 description: 学習の進捗を示す重要な段階或いは達成指標
-stage: pending
+stage: draft
 tags:
   - context/educational
   - jlpt/n2
 domains:
   - learning
 created: 2025-12-27
-updated: 2025-12-27
+updated: 2026-11-14
 version_history:
   - version: "1.5.1"
     stage: "pending"

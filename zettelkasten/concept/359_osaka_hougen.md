@@ -4,7 +4,7 @@ description: "大阪方言的特徵與核心表達"
 type: concept
 subtype: dialect
 jlpt: n2
-stage: pending
+stage: draft
 draft: true
 auto_generated: false
 needs_review: true
@@ -13,7 +13,7 @@ tags:
   - linguistic_theory
   - "日常会話の場面"
 created: 2025-12-28
-updated: 2025-12-28
+updated: 2026-11-14
 version_history:
   - version: "1.5.6"
     stage: "pending"

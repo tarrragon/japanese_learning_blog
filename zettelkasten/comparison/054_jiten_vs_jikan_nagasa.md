@@ -1,5 +1,6 @@
 ---
 title: "時点 vs 時間の長さ"
+description: "時間點與時間長度的表達區別"
 stage: pending
 tags:
   - 時間表現

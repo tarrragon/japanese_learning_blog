@@ -1,6 +1,7 @@
 ---
 id: 279
 title: 電話用語
+description: "電話用語"
 category: noun
 ruby: でんわようご
 version_history:

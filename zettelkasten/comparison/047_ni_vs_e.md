@@ -1,5 +1,6 @@
 ---
 title: "に vs へ 方向用法比較"
+description: "に與へ表示方向的用法差異"
 type: "comparison"
 jlpt: "n5"
 stage: pending

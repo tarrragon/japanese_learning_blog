@@ -1,6 +1,8 @@
 ---
+title: "自己資本（じこしほん）"
+description: "自有資本、無須償還的企業資金"
 jlpt: n1
-stage: pending
+stage: draft
 tags: []
 domains:
   - economics
@@ -8,7 +10,7 @@ domain_topics:
   - economics/business
   - economics/finance
 created: 2025-12-23
-updated: 2025-12-23
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

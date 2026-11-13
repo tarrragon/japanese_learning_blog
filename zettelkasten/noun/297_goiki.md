@@ -1,10 +1,14 @@
 ---
+title: "語域（ごいき）"
+description: "語域，依情境變化的語言使用"
 id: 281
 type: noun
 japanese: 語域
 chinese: 語域
 english: Register
-tags: [言語, 社会言語学, 談話分析]
+tags: [言語, 談話分析]
+domains:
+  - linguistics
 status: pending
 created_at: 2025-12-27
 updated_at: 2025-12-27

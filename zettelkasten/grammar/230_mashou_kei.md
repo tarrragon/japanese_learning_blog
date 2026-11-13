@@ -1,12 +1,14 @@
 ---
-stage: pending
+title: "ましょう形"
+description: "提議一起做某事的ましょう形"
+stage: draft
 tags:
   - verb-conjugation
   - proposal
   - invitation
   - polite-speech
 created: 2025-12-26
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

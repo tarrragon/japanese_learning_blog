@@ -1,7 +1,7 @@
 ---
 title: 景気動向（けいきどうこう）
 description: 經濟景氣動向、經濟發展趨勢
-stage: pending
+stage: draft
 tags:
   - context/formal
   - context/academic
@@ -11,7 +11,7 @@ domains:
 domain_topics:
   - economics/general
 created: 2025-12-27
-updated: 2025-12-27
+updated: 2026-11-14
 version_history:
   - version: "1.5.1"
     stage: "pending"

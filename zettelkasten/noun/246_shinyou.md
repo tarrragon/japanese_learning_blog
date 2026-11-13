@@ -1,10 +1,13 @@
 ---
+title: "信用（しんよう）"
+description: "信用、信賴"
 stage: extension-review
 tags:
   - concept
   - business
-  - society
   - trust
+domains:
+  - society
 created: 2025-12-26
 updated: 2025-12-26
 version_history:

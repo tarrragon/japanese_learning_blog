@@ -4,6 +4,7 @@ type: vocabulary
 category: noun
 number: 279
 title: 寒暄用語
+description: "寒暄用語、問候語"
 furigana: かんしゃくようご
 created_date: 2025-12-27
 updated_date: 2025-12-27

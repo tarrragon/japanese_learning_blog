@@ -1,5 +1,6 @@
 ---
 title: "お/ご～する"
+description: "降低自己動作以尊敬對方的謙讓語句型"
 type: grammar
 jlpt: n3
 stage: extension-review

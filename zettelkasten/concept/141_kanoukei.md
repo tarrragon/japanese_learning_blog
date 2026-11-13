@@ -3,7 +3,7 @@ title: "可能形（かのうけい）"
 description: "表示能力或可能性的動詞變化形式"
 type: concept
 jlpt: n4
-stage: pending
+stage: draft
 draft: true
 auto_generated: false
 needs_review: true
@@ -12,7 +12,7 @@ tags:
   - 可能表現
   - 動詞活用
 created: 2025-12-27
-updated: 2025-12-27
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

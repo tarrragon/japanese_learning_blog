@@ -1,13 +1,14 @@
 ---
 title: 社會階層
-stage: pending
+description: "社會地位或身份的上下關係"
+stage: draft
 tags:
   - 社會語言學
   - 敬語系統
   - 日本文化
   - 語用學
 created: 2025-12-26
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

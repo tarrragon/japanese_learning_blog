@@ -13,7 +13,8 @@ tags:
   - linguistic_theory
   - social
   - keigo
-  - pragmatics
+domains:
+  - linguistics
 dictionary:
   sources:
     daijirin: true

@@ -4,14 +4,14 @@ description: ている的多重語義功能：進行態、結果態、習慣態�
 type: concept
 subtype: aspect
 jlpt: n4
-stage: pending
+stage: draft
 draft: true
 tags:
   - aspect
   - progressive
   - resultative
 created: 2025-12-27
-updated: 2025-12-27
+updated: 2026-11-14
 version_history:
   - version: "1.5.4"
     stage: "pending"

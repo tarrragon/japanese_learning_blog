@@ -1,5 +1,6 @@
 ---
 title: "ごめんなさい（御免なさい）"
+description: "對不起、抱歉"
 stage: pending
 tags:
   - phrase

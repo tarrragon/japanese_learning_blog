@@ -3,11 +3,11 @@ title: "取る（とる）"
 description: "拿、取得、獲得。表示用手拿取物品，或是取得、獲得某物的基本動詞。"
 type: verb-u
 jlpt: n5
-stage: pending
+stage: draft
 tags:
   - verb-u
 created: 2025-10-31
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

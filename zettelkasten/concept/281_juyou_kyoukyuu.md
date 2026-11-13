@@ -4,7 +4,7 @@ title: 需要と供給（じゅようときょうきゅう）
 description: 供需，經濟學基本概念，表示需求與供給之間的相互關係
 type: concept
 jlpt: n3
-stage: pending
+stage: draft
 tags:
   - basic
 domains:
@@ -12,7 +12,7 @@ domains:
 domain_topics:
   - economics/general
 created: 2025-12-27
-updated: 2025-12-27
+updated: 2026-11-14
 version_history:
   - version: "1.5.4"
     stage: "pending"

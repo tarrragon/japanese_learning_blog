@@ -1,5 +1,6 @@
 ---
 title: "になる"
+description: "表示狀態或性質變化「變成」"
 type: grammar
 jlpt: n5
 stage: pending

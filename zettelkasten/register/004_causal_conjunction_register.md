@@ -1,12 +1,13 @@
 ---
 title: "因果接續詞的語域階層"
-stage: pending
+description: "因果接續詞從口語到學術的語域層級"
+stage: draft
 tags:
   - conjunction
   - formality
   - register
 created: 2025-12-22
-updated: 2025-12-22
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

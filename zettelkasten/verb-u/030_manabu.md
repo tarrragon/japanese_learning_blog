@@ -1,9 +1,13 @@
 ---
+title: "学ぶ（まなぶ）"
+description: "學習、習得（透過實踐、經驗或模仿）"
 jlpt: n4
-stage: pending
-tags: [education, learning]
+stage: draft
+tags: []
+domains:
+  - learning
 created: 2025-12-22
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

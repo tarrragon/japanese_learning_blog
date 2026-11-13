@@ -1,6 +1,8 @@
 ---
+title: "人的資本（じんてきしほん）"
+description: "人力資本、個人的知識與技能等經濟價值"
 jlpt: n1
-stage: pending
+stage: draft
 tags: []
 domains:
   - economics
@@ -8,7 +10,7 @@ domains:
 domain_topics:
   - economics/business
 created: 2025-12-23
-updated: 2025-12-23
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

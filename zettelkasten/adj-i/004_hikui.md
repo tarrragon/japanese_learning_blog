@@ -1,13 +1,14 @@
 ---
 title: 低い
-stage: pending
+description: "低的、矮的（高度、數值、程度低）"
+stage: draft
 tags:
   - jlpt-n5
   - basic-adjective
   - physical-description
   - dimension
 created: 2025-12-22
-updated: 2025-12-22
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

@@ -3,7 +3,7 @@ title: "経営管理（けいえいかんり）"
 description: "企業或組織的經營管理概念"
 type: concept
 jlpt: n3
-stage: pending
+stage: draft
 draft: true
 auto_generated: false
 needs_review: true
@@ -25,7 +25,7 @@ dictionary:
   definition_en: null
   lookup_date: "2025-12-28"
 created: "2025-12-28"
-updated: "2025-12-28"
+updated: 2026-11-14
 version_history:
   - version: "1.5.6"
     stage: "pending"

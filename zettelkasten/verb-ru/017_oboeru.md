@@ -6,8 +6,9 @@ jlpt: n5
 stage: completed
 tags:
   - memory
-  - learning
   - mental_action
+domains:
+  - learning
 created: 2025-10-31
 updated: 2025-12-27
 version_history:

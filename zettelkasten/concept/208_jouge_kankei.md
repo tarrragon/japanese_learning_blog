@@ -1,11 +1,15 @@
 ---
+title: "上下関係（じょうげかんけい）"
+description: "依年齡、職位形成的日本階層與尊敬關係"
 id: 503
 number: 126
 category: concept
 title_ja: 上下関係
 title_zh: 上下關係
 title_en: Hierarchical Relationships
-tags: [culture, society, keigo]
+tags: [keigo]
+domains:
+  - society
 version: 1.5.1
 status: draft
 ---

@@ -1,12 +1,13 @@
 ---
 title: "〜たら（條件）"
-stage: pending
+description: "表示條件或假設「如果…的話」"
+stage: draft
 tags:
   - "condition"
   - "hypothesis"
   - "temporal"
 created: 2025-12-26
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

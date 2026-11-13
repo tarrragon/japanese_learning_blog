@@ -2,6 +2,7 @@
 id: 509
 number: 126
 title: 察する文化
+description: "不言明而體察對方心情的日本文化"
 category: concept
 created_date: 2025-12-27
 tags:

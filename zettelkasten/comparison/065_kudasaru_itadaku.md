@@ -1,5 +1,6 @@
 ---
 title: くださる vs いただく
+description: "くださる與いただく的視角與敬語差異"
 jlpt: n4
 stage: extension-review
 tags:

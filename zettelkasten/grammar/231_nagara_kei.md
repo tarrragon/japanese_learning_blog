@@ -1,12 +1,14 @@
 ---
+title: "ながら形（Nagara-form）"
+description: "表示一邊…一邊…的同時動作"
 type: grammar
-stage: pending
+stage: draft
 tags:
   - te-form
   - compound-verb
   - adverbial
 created: 2025-12-26
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

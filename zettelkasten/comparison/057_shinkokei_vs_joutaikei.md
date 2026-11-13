@@ -1,13 +1,13 @@
 ---
 title: "進行形 vs 状態形の区別"
 description: "「ている」の進行的用法と状態的用法の区別、及び動詞種類との関連性"
-stage: pending
+stage: draft
 tags:
   - "grammar"
   - "verb"
   - "aspect"
 created: "2025-12-26"
-updated: "2025-12-26"
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

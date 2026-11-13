@@ -1,5 +1,6 @@
 ---
 title: "ピカピカ vs キラキラ"
+description: "ピカピカ與キラキラ的光澤語感差異"
 jlpt: n4
 stage: pending
 tags:

@@ -3,7 +3,7 @@ title: 需要曲線（じゅようきょくせん）
 description: 需求曲線，表示價格與需求量關係的圖形
 type: concept
 jlpt: none
-stage: pending
+stage: draft
 tags:
   - concept/theory
 domains:
@@ -11,7 +11,7 @@ domains:
 domain_topics:
   - economics/general
 created: 2025-12-23
-updated: 2025-12-23
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

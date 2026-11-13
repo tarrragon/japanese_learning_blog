@@ -1,6 +1,7 @@
 ---
 id: 130
 title: 株式
+description: "股票，代表公司所有權的有價證券"
 category: concept
 tags: [ビジネス]
 domains:

@@ -1,14 +1,16 @@
 ---
 title: "社會語境"
+description: "影響敬語選擇的人際關係與場合因素"
 type: concept
 jlpt: n3
-stage: pending
+stage: draft
 tags:
-  - 語用論
   - 敬語
   - 人際關係
+domains:
+  - linguistics
 created: 2025-12-26
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

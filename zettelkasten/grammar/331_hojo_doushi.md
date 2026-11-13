@@ -2,6 +2,7 @@
 id: 461
 number: 297
 title: 補助動詞
+description: "接在て形後補充意義的補助動詞"
 category: grammar
 tags: [auxiliary-verb, verb-combination, te-form, aspect]
 created: 2025-12-27

@@ -1,10 +1,15 @@
 ---
+title: "社会語用論（しゃかいごようろん）"
+description: "研究語言與社會關係的社會語用學"
 id: 281
 category: noun
 japanese: 社会語用論
 chinese: 社會語用學
 english: Sociolinguistics
-tags: [linguistics, language-study, communication]
+tags: [language-study]
+domains:
+  - linguistics
+  - communication
 content_type: concept
 csv_id: 521
 version: 1.0.0

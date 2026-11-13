@@ -10,8 +10,9 @@ needs_review: true
 tags:
   - grammar_pattern
   - action
-  - learning
   - "認知・思考分野"
+domains:
+  - learning
 dictionary:
   sources:
     daijirin: true

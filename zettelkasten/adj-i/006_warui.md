@@ -1,9 +1,10 @@
 ---
 title: "悪い（わるい）"
-stage: pending
+description: "壞的、不好的、不舒服的、不利的"
+stage: draft
 tags: [basic-vocabulary, negative-evaluation]
 created: 2025-12-26
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

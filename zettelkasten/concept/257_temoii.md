@@ -1,6 +1,7 @@
 ---
 id: 427
 title: てもいい
+description: "表示許可的文法表達"
 japanese: てもいい
 chinese: てもいい的用法
 jlpt: n4

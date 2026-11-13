@@ -2,6 +2,7 @@
 id: 499
 number: 129
 title: ご覧になる vs 拝見する
+description: "ご覧になる與拝見する的敬語差異"
 slug: goran-vs-haiken
 category: concept
 tags: [敬語, 尊敬語, 謙讓語, 見る]

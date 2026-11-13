@@ -1,14 +1,14 @@
 ---
 title: 上がる的多義性與特殊用法
 description: 「上がる」的多種含義 - 上升、緊張、完成、進屋等
-stage: pending
+stage: draft
 tags:
   - context
   - nuance
   - jlpt/n3
   - jlpt/n2
 created: 2025-10-28
-updated: 2025-12-26
+updated: 2026-11-14
 version_history:
   - version: "1.5.0"
     stage: "pending"

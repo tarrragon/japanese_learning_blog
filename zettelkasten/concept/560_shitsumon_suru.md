@@ -3,7 +3,7 @@ title: "質問する（しつもんする）"
 description: "提問、發問"
 type: concept
 jlpt: n3
-stage: pending
+stage: draft
 draft: true
 auto_generated: false
 needs_review: true
@@ -12,7 +12,7 @@ tags:
   - 日常会話の場面
   - ビジネスシーン
 created: 2025-12-28
-updated: 2025-12-28
+updated: 2026-11-14
 version_history:
   - version: "1.5.6"
     stage: "pending"

@@ -1,5 +1,6 @@
 ---
 title: "時間表現（じかんひょうげん）"
+description: "日語表達時間概念的詞彙與文法體系"
 jlpt: "n4"
 stage: extension-review
 tags:
