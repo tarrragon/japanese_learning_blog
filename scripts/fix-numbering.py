@@ -62,6 +62,13 @@ WORKLOG_DIR = PROJECT_ROOT / "doc" / "worklog"
 # [text](target.md#anchor)
 LINK_RE = re.compile(r'\[([^\]\n]*)\]\(([^)\s]+?\.md)(#[^)\s]*)?\)')
 
+# YAML / 清單中的裸路徑：
+#   - concept/001_x.md   - "concept/001_x.md"   - path: concept/001_x.md
+LIST_PATH_RE = re.compile(
+    r'^(\s*-\s*(?:[A-Za-z_]+:\s*)?["\']?)([^"\'\s\[\]()]+\.md)(["\']?[ \t]*)$',
+    re.MULTILINE,
+)
+
 
 def parse_filename(filename: str) -> Optional[dict]:
     """
@@ -556,6 +563,24 @@ def build_mapping(plans: list[dict]) -> dict:
     return {_norm(item['old_file']): item['new_file'] for item in plans}
 
 
+_CASEFOLD_CACHE: dict = {}
+
+
+def _lookup(mapping: dict, resolved: str):
+    """
+    依解析出的路徑查對照表。
+    macOS 檔案系統不分大小寫，連結寫成 123_gdp.md 也能找到 123_GDP.md，
+    所以精確比對失敗時再以不分大小寫比對。
+    """
+    if resolved in mapping:
+        return mapping[resolved]
+    cached = _CASEFOLD_CACHE.get(id(mapping))
+    if cached is None or cached[0] is not mapping:
+        cached = (mapping, {k.casefold(): v for k, v in mapping.items()})
+        _CASEFOLD_CACHE[id(mapping)] = cached
+    return cached[1].get(resolved.casefold())
+
+
 def resolve_link_target(target: str, source_file: Path,
                         zettel_dir: Path, project_root: Path) -> Optional[str]:
     """
@@ -576,26 +601,49 @@ def rewrite_links(content: str, source_file: Path, mapping: dict,
                   zettel_dir: Path = ZETTELKASTEN_DIR,
                   project_root: Path = PROJECT_ROOT) -> tuple[str, int]:
     """
-    改寫指向被改名卡片的連結，保留原本的路徑寫法，只替換檔名。
-    連結文字若正好是舊檔名（不含 .md），一併改成新檔名。
+    改寫指向被改名卡片的引用，保留原本的路徑寫法，只替換檔名。
+
+    處理兩種引用：
+      - Markdown 連結 [text](path.md)；連結文字正好是舊檔名時一併更新
+      - 清單中的裸路徑（frontmatter 的 pending_links、path:、target: 等）
     """
     count = 0
 
-    def replace(match):
+    def new_target(target: str):
+        resolved = resolve_link_target(target, source_file, zettel_dir, project_root)
+        if resolved is None:
+            return None
+        new_file = _lookup(mapping, resolved)
+        if new_file is None:
+            return None
+        old_name = target.rsplit('/', 1)[-1]
+        return old_name, target[: len(target) - len(old_name)] + new_file.name, new_file
+
+    def replace_link(match):
         nonlocal count
         text, target, anchor = match.group(1), match.group(2), match.group(3) or ''
-        resolved = resolve_link_target(target, source_file, zettel_dir, project_root)
-        if resolved is None or resolved not in mapping:
+        found = new_target(target)
+        if found is None:
             return match.group(0)
-        new_file = mapping[resolved]
-        old_name = target.rsplit('/', 1)[-1]
-        prefix = target[: len(target) - len(old_name)]
-        if text in (old_name, old_name[:-3]):
-            text = new_file.name if text == old_name else new_file.stem
+        old_name, rewritten, new_file = found
+        if text == old_name:
+            text = new_file.name
+        elif text == old_name[:-3]:
+            text = new_file.stem
         count += 1
-        return f"[{text}]({prefix}{new_file.name}{anchor})"
+        return f"[{text}]({rewritten}{anchor})"
 
-    return LINK_RE.sub(replace, content), count
+    def replace_list_path(match):
+        nonlocal count
+        found = new_target(match.group(2))
+        if found is None:
+            return match.group(0)
+        count += 1
+        return f"{match.group(1)}{found[1]}{match.group(3)}"
+
+    content = LINK_RE.sub(replace_link, content)
+    content = LIST_PATH_RE.sub(replace_list_path, content)
+    return content, count
 
 
 def update_links(mapping: dict, dry_run: bool = False,
@@ -648,7 +696,7 @@ def update_csvs(mapping: dict, dry_run: bool = False,
 
         changed = 0
         for row in rows:
-            new_file = rel_mapping.get(_norm(row.get('path') or ''))
+            new_file = _lookup(rel_mapping, _norm(row.get('path') or ''))
             if new_file is None:
                 continue
             new_number = new_file.name.split('_', 1)[0]

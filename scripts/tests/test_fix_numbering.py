@@ -181,6 +181,38 @@ class ReferenceUpdateTest(unittest.TestCase):
         out, _ = fix_numbering.rewrite_links(src.read_text(), src, mapping, self.zettel, self.root)
         self.assertEqual(out, "[a](123_a.md) [b](124_b.md)")
 
+    def test_rewrites_yaml_list_paths(self):
+        self.write("concept/123_GDP.md")
+        self.write("concept/124_keep.md")
+        src = self.write("concept/407_src.md", "\n".join([
+            "---",
+            "pending_links:",
+            '    - "concept/123_GDP.md"',
+            "    - concept/123_GDP.md",
+            "  - path: concept/123_GDP.md",
+            "    - concept/124_keep.md",
+            "    - concept/999_missing.md",
+            "---",
+        ]))
+        mapping = self.mapping([("concept/123_GDP.md", "concept/160_GDP.md")])
+        out, count = fix_numbering.rewrite_links(src.read_text(), src, mapping, self.zettel, self.root)
+        self.assertEqual(count, 3)
+        self.assertIn('    - "concept/160_GDP.md"', out)
+        self.assertIn("    - concept/160_GDP.md", out)
+        self.assertIn("  - path: concept/160_GDP.md", out)
+        self.assertIn("    - concept/124_keep.md", out)
+        self.assertIn("    - concept/999_missing.md", out)
+
+    def test_case_insensitive_match(self):
+        """連結大小寫與檔名不同（macOS 可解析）也要更新"""
+        self.write("concept/123_GDP.md")
+        src = self.write("concept/001_src.md", "[GDP](123_gdp.md)")
+        mapping = self.mapping([("concept/123_GDP.md", "concept/160_GDP.md")])
+        if not (self.zettel / "concept" / "123_gdp.md").exists():
+            self.skipTest("檔案系統區分大小寫")
+        out, count = fix_numbering.rewrite_links(src.read_text(), src, mapping, self.zettel, self.root)
+        self.assertEqual(out, "[GDP](160_GDP.md)")
+
     def test_update_csvs(self):
         self.write("concept/123_b.md")
         csv_path = self.worklog / "cards.csv"
