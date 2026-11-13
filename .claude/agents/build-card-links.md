@@ -122,7 +122,7 @@ created: 2025-10-28
 
 **相同 domain**：
 - 找相同領域的詞彙
-- 例如：所有 `domain/economics` 的詞彙
+- 例如：`domains` 欄位含 `economics` 的詞彙（`uv run scripts/list-domains.py`）
 - 連結類型：`domain_related` (領域相關)
 
 **相同 context**：
@@ -1321,7 +1321,7 @@ uv run scripts/list-tags.py
 
 # 查詢特定類型的 tags
 uv run scripts/list-tags.py --type context
-uv run scripts/list-tags.py --type domain
+uv run scripts/list-domains.py  # 領域改用 domains 欄位
 uv run scripts/list-tags.py --type jlpt
 
 # 顯示使用次數
@@ -1380,7 +1380,7 @@ uv run scripts/update-index.py verb-ru --dry-run
 
 ```bash
 # 步驟 1：查詢可用 tags
-uv run scripts/list-tags.py --type domain
+uv run scripts/list-domains.py  # 領域改用 domains 欄位
 uv run scripts/list-tags.py --type context
 
 # 步驟 2：取得下一個編號
@@ -1423,7 +1423,7 @@ uv run scripts/update-index.py verb-u
 ## 維護工具使用記錄（新增）
 
 ### 查詢可用 Tags
-✅ 執行：uv run scripts/list-tags.py --type domain
+✅ 執行：uv run scripts/list-domains.py  # 領域改用 domains 欄位
 ✅ 執行：uv run scripts/list-tags.py --type context
 確認可用 tags：daily_life, casual, family, formal, humble_form
 

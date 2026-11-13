@@ -430,3 +430,136 @@ body {
     display: none;
   }
 }
+
+/* ===== 專業領域（domains） ===== */
+.domain-subtitle {
+  font-size: 0.6em;
+  font-weight: normal;
+  color: var(--secondary);
+}
+
+.domain-count {
+  display: inline-block;
+  margin-left: 0.4em;
+  padding: 0 0.5em;
+  font-size: 0.75em;
+  font-weight: normal;
+  border-radius: 999px;
+  background: var(--code-bg);
+  color: var(--secondary);
+}
+
+.domain-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 16px;
+}
+
+.domain-tile {
+  display: block;
+  padding: 16px 18px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--entry);
+  transition: transform 0.1s;
+}
+
+.domain-tile:hover {
+  transform: translateY(-2px);
+  border-color: var(--secondary);
+}
+
+.domain-tile h2 {
+  margin: 0 0 4px;
+  font-size: 1.3rem;
+}
+
+.domain-tile-count {
+  margin: 0;
+  font-weight: 600;
+}
+
+.domain-tile-desc {
+  margin: 6px 0 0;
+  font-size: 0.9rem;
+  color: var(--secondary);
+}
+
+.domain-tile-topics {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 10px 0 0;
+  padding: 0;
+  list-style: none;
+  font-size: 0.8rem;
+}
+
+.domain-tile-topics li {
+  padding: 1px 8px;
+  border-radius: 999px;
+  background: var(--code-bg);
+}
+
+.domain-topic-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 24px;
+}
+
+.domain-topic-nav a {
+  padding: 4px 12px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: var(--entry);
+}
+
+.domain-topic {
+  margin-bottom: 32px;
+}
+
+.domain-topic h2 {
+  margin: 0 0 12px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid var(--border);
+}
+
+.domain-section-title {
+  margin: 16px 0 8px;
+  font-size: 1rem;
+  color: var(--secondary);
+}
+
+.domain-card-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 8px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.domain-card a {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 8px 12px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--entry);
+  box-shadow: none;
+}
+
+.domain-card a:hover {
+  border-color: var(--secondary);
+}
+
+.domain-card-title {
+  font-weight: 600;
+}
+
+.domain-card-desc {
+  font-size: 0.85rem;
+  color: var(--secondary);
+}

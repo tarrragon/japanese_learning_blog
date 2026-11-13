@@ -191,6 +191,8 @@ uv run scripts/update_card_progress.py --id {card_id} --stage linking --quiet
 # 第 1 步：檢查問題
 uv run scripts/card_numbering.py duplicates
 uv run scripts/fix-numbering.py --check
+uv run scripts/migrate_domain_tags.py --check
+uv run scripts/list-domains.py
 uv run scripts/fix-wikilinks.py --check
 uv run scripts/verify-meta.py --verbose
 
@@ -397,6 +399,8 @@ uv run scripts/update_card_progress.py --id {card_id} --stage completed --quiet
 | ⭐ `stage_dashboard.py` | **階段管理看板**（進度追蹤單一入口） |
 | `list-categories.py` | 列出所有分類 |
 | `list-tags.py` | 列出可用 tags |
+| `list-domains.py` | 列出專業領域與子主題（定義於 `data/domains.toml`） |
+| `migrate_domain_tags.py` | 將舊 `domain/*` tag 遷移為 `domains` 欄位；`--check` 檢查殘留 |
 | `get-next-number.py` | 取得並保留下一編號（支援並發，輸出三位數） |
 | `card_numbering.py` | 編號核心模組；`check` 檢查衝突、`duplicates` 列出重複編號 |
 | `allocate_card_numbers.py` | 預先分配編號 |

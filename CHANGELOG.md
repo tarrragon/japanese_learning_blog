@@ -7,6 +7,30 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+- **專業領域（domains）分類頁**：除了依文法分類瀏覽，也能依專業領域瀏覽卡片
+  - `/domains/` 總覽頁：各領域的卡片數與子主題
+  - `/domains/{slug}/` 領域頁：依子主題分段、段內依詞性分組，顯示日文、讀音與中文
+  - 卡片頁尾顯示所屬領域；首頁按鈕與主選單新增「領域」入口
+  - 經濟領域分為 5 個子主題：経済一般、金融、財政・税、貿易、商業・会計
+- `data/domains.toml`：領域定義的單一事實來源（名稱、子主題、舊 tag 對應、詞性顯示名稱）
+- `scripts/list-domains.py`：列出領域與子主題的卡片數
+- `scripts/migrate_domain_tags.py`：將 `domain/*` 與意思明確的無前綴領域 tag 遷移為 `domains` / `domain_topics` 欄位
+- 編號系統：`scripts/card_numbering.py`（保留紀錄取號、`check` / `duplicates`）
+
+### Changed
+- 領域改用 frontmatter 的 `domains` / `domain_topics` 欄位，不再使用 `domain/*` tag
+  - 遷移 687 張卡片；經濟領域從分散在二十多個 tag 整合為 429 張卡片
+  - 刪除 `_meta/tags/domain/` 舊定義頁
+  - `clean-tags.py` 不再產生 `domain/*` tag；`list-tags.py --type domain` 改提示使用 `list-domains.py`
+  - 代理人與 `/create-zettel` 的卡片範本改用 `domains` 欄位
+- 重新編號 6 個分類（951 個檔案），並同步更新 838 個連結與 136 筆 CSV
+
+### Fixed
+- 編號系統重複發號：取號後未保留、預設輸出未補零（詳見 b94e9d4）
+- `fix-numbering.py`：支援兩位數檔名、兩階段安全改名、延伸卡片依名稱對應
+- `update-index.py`：支援區塊清單格式的 tags
+
 ## [2.3.0] - 2026-11-14
 
 日文輸入練習系統新增三種五十音練習模式。

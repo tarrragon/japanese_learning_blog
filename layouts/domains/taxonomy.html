@@ -1,0 +1,29 @@
+{{- define "main" }}
+<header class="page-header">
+  {{- partial "breadcrumbs.html" . }}
+  <h1>{{ .Title }}</h1>
+  {{- with .Description }}<div class="post-description">{{ . }}</div>{{ end }}
+</header>
+
+<div class="domain-grid">
+  {{- range site.Data.domains.domains }}
+  {{- $d := . }}
+  {{- with index site.Taxonomies.domains $d.slug }}
+  {{- $termPages := .Pages }}
+  <a class="domain-tile" href="{{ .Page.RelPermalink }}">
+    <h2>{{ $d.name_ja }} <span class="domain-subtitle">{{ $d.name_zh }}</span></h2>
+    <p class="domain-tile-count">{{ .Count }} 張卡片</p>
+    {{- with $d.description }}<p class="domain-tile-desc">{{ . }}</p>{{ end }}
+    {{- with $d.topics }}
+    <ul class="domain-tile-topics">
+      {{- range . }}
+      {{- $n := len (where $termPages "Params.domain_topics" "intersect" (slice (printf "%s/%s" $d.slug .slug))) }}
+      {{- if $n }}<li>{{ .name_ja }} {{ $n }}</li>{{ end }}
+      {{- end }}
+    </ul>
+    {{- end }}
+  </a>
+  {{- end }}
+  {{- end }}
+</div>
+{{- end }}{{/* end main */}}

@@ -120,22 +120,22 @@ context/academic     # 學術環境
 context/social       # 社交場合
 ```
 
-**2. 領域（domain/）**- 根據文章主題選擇
+**2. 領域（domains 欄位，不是 tag）**- 根據文章主題選擇，不適用就省略
+
+領域定義在 `data/domains.toml`，先查詢可用的領域與子主題：
+```bash
+uv run scripts/list-domains.py
 ```
-domain/economics     # 經濟學
-domain/finance       # 財經金融
-domain/technology    # 科技
-domain/philosophy    # 哲學
-domain/history       # 歷史
-domain/culture       # 文化
-domain/medical       # 醫療
-domain/legal         # 法律
-domain/art           # 藝術
-domain/science       # 科學
-domain/politics      # 政治
-domain/education     # 教育
-[可以新增其他領域]
+
+寫在 frontmatter 的 `domains` / `domain_topics` 欄位（**不要**寫成 `domain/*` tag）：
+```yaml
+domains:
+  - economics            # 經濟
+domain_topics:
+  - economics/finance    # 子主題：金融（領域有子主題時必填）
 ```
+
+需要新領域時，先在 `data/domains.toml` 新增，再使用。
 
 **3. JLPT 等級（jlpt/）**- 必選一個
 ```
@@ -206,8 +206,11 @@ title: [卡片標題]
 description: [一句話描述]
 tags:
   - context/[情境]
-  - domain/[領域]  # 如果適用
   - jlpt/[等級]
+domains:            # 如果適用（見 list-domains.py）
+  - [領域]
+domain_topics:      # 領域有子主題時
+  - [領域]/[子主題]
 date: [今天日期 YYYY-MM-DD]
 links:
   連結詞彙1: 相對路徑1
@@ -361,11 +364,11 @@ links:
 
 #### 詞彙類卡片
 1. **noun/001_gdp.md** - GDP（国内総生産）
-   - Tags: context/business, domain/economics, jlpt/n1
+   - Tags: context/business, jlpt/n1；Domains: economics（economics/general）
    - 連結：2 個
 
 2. **verb-u/005_toushi_suru.md** - 投資する
-   - Tags: context/business, domain/finance, jlpt/n2
+   - Tags: context/business, jlpt/n2；Domains: economics（economics/finance）
    - 連結：3 個
 
 #### 文法卡片
@@ -375,7 +378,7 @@ links:
 
 #### 概念卡片
 4. **concept/008_quantitative_easing.md** - 量的緩和
-   - Tags: context/academic, domain/economics, jlpt/none
+   - Tags: context/academic, jlpt/none；Domains: economics（economics/general）
    - 連結：4 個
 
 ### 統計

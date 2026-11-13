@@ -42,15 +42,9 @@ JLPT_CONVERSION = {
     'n1': 'jlpt/n1',
 }
 
-# 可以轉換為 domain 的語意標籤
-SEMANTIC_TO_DOMAIN = {
-    'daily_life': 'domain/daily_life',
-    'movement': 'domain/movement',
-    'communication': 'domain/communication',
-    'cognition': 'domain/cognition',
-    'perception': 'domain/perception',
-    'emotion': 'domain/emotion',
-}
+# 領域已改用 frontmatter 的 domains / domain_topics 欄位（定義見 data/domains.toml），
+# 不再產生 domain/* tag。殘留的 domain/* tag 請用 migrate_domain_tags.py 遷移。
+SEMANTIC_TO_DOMAIN: dict[str, str] = {}
 
 
 def parse_yaml_frontmatter(content: str) -> tuple[dict, str, str]:
@@ -115,6 +109,7 @@ def clean_tags(tags: list[str], yaml_data: dict) -> tuple[list[str], dict]:
         'converted_jlpt': [],
         'converted_domain': [],
         'kept': [],
+        'legacy_domain': [],
     }
 
     for tag in tags:
@@ -139,7 +134,11 @@ def clean_tags(tags: list[str], yaml_data: dict) -> tuple[list[str], dict]:
                 changes['converted_domain'].append(f"{tag} -> {new_tag}")
             continue
 
-        # 4. 保留其他 tags（包括已經是標準格式的）
+        # 4. 舊格式 domain/* tag：保留但回報，交給 migrate_domain_tags.py 處理
+        if tag.startswith('domain/'):
+            changes['legacy_domain'].append(tag)
+
+        # 5. 保留其他 tags（包括已經是標準格式的）
         if tag not in cleaned:  # 避免重複
             cleaned.append(tag)
             changes['kept'].append(tag)
@@ -265,10 +264,12 @@ def generate_report(results: list[dict]) -> str:
     total_removed = 0
     total_converted_jlpt = 0
     total_converted_domain = 0
+    total_legacy_domain = 0
 
     for r in results:
+        changes = r.get('changes') or {}
+        total_legacy_domain += len(changes.get('legacy_domain', []))
         if r['status'] == 'modified':
-            changes = r['changes']
             total_removed += len(changes['removed_redundant'])
             total_converted_jlpt += len(changes['converted_jlpt'])
             total_converted_domain += len(changes['converted_domain'])
@@ -289,6 +290,7 @@ def generate_report(results: list[dict]) -> str:
   移除重複 tags：{total_removed} 個
   轉換 JLPT 格式：{total_converted_jlpt} 個
   轉換為 domain：{total_converted_domain} 個
+  舊格式 domain/* tag：{total_legacy_domain} 個（請執行 migrate_domain_tags.py）
 
 ================================================================================
 """

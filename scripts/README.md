@@ -102,6 +102,37 @@ uv run scripts/list-tags.py context/business
 
 ---
 
+### 2.5 list-domains.py - 列出專業領域
+
+**用途**：列出可用的專業領域（domains）與子主題，以及各自的卡片數。
+領域不使用 `domain/*` tag，而是寫在卡片 frontmatter：
+
+```yaml
+domains:
+  - economics
+domain_topics:
+  - economics/finance
+```
+
+領域定義（名稱、子主題、舊 tag 對應表、詞性顯示名稱）集中在 `data/domains.toml`，
+網站的 `/domains/` 頁面與腳本共用。
+
+```bash
+uv run scripts/list-domains.py          # 文字輸出
+uv run scripts/list-domains.py --json   # JSON 輸出
+```
+
+**遷移舊 tag**：`migrate_domain_tags.py` 依 `data/domains.toml` 的 `[aliases]`
+把 `domain/*` tag 轉成 `domains` / `domain_topics`。
+
+```bash
+uv run scripts/migrate_domain_tags.py --dry-run   # 預覽
+uv run scripts/migrate_domain_tags.py             # 執行
+uv run scripts/migrate_domain_tags.py --check     # 檢查是否還有殘留（有則回傳 1）
+```
+
+---
+
 ### 3. get-next-number.py - 取得並保留下一個編號
 
 **用途**：在新增卡片時取得下一個可用編號。取得的編號會寫入保留紀錄

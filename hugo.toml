@@ -21,6 +21,7 @@ enableEmoji = true
 [taxonomies]
   tag = "tags"
   category = "categories"
+  domain = "domains"  # 專業領域（定義見 data/domains.toml）
 
 # 忽略 type 欄位與 Hugo 內建衝突
 [frontmatter]
@@ -79,6 +80,10 @@ enableEmoji = true
       url = "grammar/"
 
     [[params.profileMode.buttons]]
+      name = "專業領域"
+      url = "domains/"
+
+    [[params.profileMode.buttons]]
       name = "所有分類"
       url = "_meta/categories/"
 
@@ -99,6 +104,12 @@ enableEmoji = true
     name = "分類"
     url = "_meta/categories/"
     weight = 10
+
+  [[menu.main]]
+    identifier = "domains"
+    name = "領域"
+    url = "domains/"
+    weight = 15
 
   [[menu.main]]
     identifier = "tags"

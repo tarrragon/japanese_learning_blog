@@ -1,0 +1,28 @@
+{{- /*
+  領域頁的卡片項目
+  部分卡片 frontmatter 缺少 title / description，依序備援：
+    title：frontmatter → 內文第一個 # 標題 → 檔名
+    description：frontmatter → 「中文解釋」段落第一句（截斷）
+*/ -}}
+{{- /* frontmatter 沒有 title 時 Hugo 會以檔名作為 .Title，所以改判斷 .Params.title */ -}}
+{{- $title := .Params.title -}}
+{{- if not $title -}}
+  {{- with findRESubmatch `(?m)^#\s+(.+?)\s*$` .RawContent 1 -}}
+    {{- $title = index (index . 0) 1 -}}
+  {{- end -}}
+{{- end -}}
+{{- $title = $title | default .File.ContentBaseName -}}
+
+{{- $desc := .Description -}}
+{{- if not $desc -}}
+  {{- with findRESubmatch `(?s)##\s*中文解釋\s*\n+\s*([^\n#]+)` .RawContent 1 -}}
+    {{- $desc = index (index . 0) 1 | markdownify | plainify | truncate 28 -}}
+  {{- end -}}
+{{- end -}}
+
+<li class="domain-card">
+  <a href="{{ .RelPermalink }}">
+    <span class="domain-card-title">{{ $title }}</span>
+    {{- with $desc }}<span class="domain-card-desc">{{ . }}</span>{{ end }}
+  </a>
+</li>

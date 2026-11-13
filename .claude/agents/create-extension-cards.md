@@ -694,7 +694,7 @@ uv run scripts/list-tags.py
 
 # 查詢特定類型的 tags
 uv run scripts/list-tags.py --type context
-uv run scripts/list-tags.py --type domain
+uv run scripts/list-domains.py  # 領域改用 domains 欄位
 
 # 顯示使用次數
 uv run scripts/list-tags.py --count
@@ -757,7 +757,7 @@ uv run scripts/update-index.py verb-ru --dry-run
 uv run scripts/list-categories.py
 
 # 步驟 2：查詢可用 tags
-uv run scripts/list-tags.py --type domain
+uv run scripts/list-domains.py  # 領域改用 domains 欄位
 uv run scripts/list-tags.py --type context
 
 # 步驟 3：取得延伸卡片編號

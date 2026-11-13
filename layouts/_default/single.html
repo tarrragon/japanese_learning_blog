@@ -52,6 +52,14 @@
   {{- end }}
 
   <footer class="post-footer">
+    {{- with .GetTerms "domains" }}
+    <ul class="post-tags domain-tags" aria-label="專業領域">
+      {{- range . }}
+      {{- $info := partial "domains/info.html" .Data.Term }}
+      <li><a href="{{ .RelPermalink }}">🏷 {{ $info.name_ja | default .LinkTitle }}</a></li>
+      {{- end }}
+    </ul>
+    {{- end }}
     {{- $tags := .Language.Params.Taxonomies.tag | default "tags" }}
     <ul class="post-tags">
       {{- range ($.GetTerms $tags) }}

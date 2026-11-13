@@ -1,0 +1,270 @@
+# 領域（Domain）定義 - 單一事實來源
+#
+# 用途：
+#   - Hugo：layouts/domains/*.html 讀取 site.Data.domains 顯示領域名稱與子主題
+#   - 腳本：scripts/migrate_domain_tags.py 依 [aliases] 將舊的 domain/* tag 轉為
+#           卡片 frontmatter 的 domains / domain_topics 欄位
+#
+# 卡片寫法：
+#   domains:
+#     - economics
+#   domain_topics:
+#     - economics/finance
+#
+# 新增領域：在 [[domains]] 加一筆；slug 使用英文小寫與連字號（成為網址 /domains/{slug}/）
+
+# 注意：TOML 中最上層的設定必須寫在第一個 [[表格]] 之前
+# 視為領域的「無前綴」tag（遷移時與 domain/* 相同處理：轉為 domains 欄位並從 tags 移除）
+# 只列意思明確的；commerce、transaction、business 等常表示情境而非領域，不列入
+bare_tags = ["経済学", "経済", "economics", "金融", "finance", "banking", "投資", "商業", "accounting", "tax", "trade"]
+
+[[domains]]
+slug = "economics"
+name_ja = "経済"
+name_zh = "經濟"
+name_en = "Economics"
+description = "經濟、金融、財政、貿易與商業會計的專業詞彙"
+
+  [[domains.topics]]
+  slug = "general"
+  name_ja = "経済一般"
+  name_zh = "經濟總論"
+
+  [[domains.topics]]
+  slug = "finance"
+  name_ja = "金融"
+  name_zh = "金融"
+
+  [[domains.topics]]
+  slug = "fiscal"
+  name_ja = "財政・税"
+  name_zh = "財政與稅務"
+
+  [[domains.topics]]
+  slug = "trade"
+  name_ja = "貿易"
+  name_zh = "貿易"
+
+  [[domains.topics]]
+  slug = "business"
+  name_ja = "商業・会計"
+  name_zh = "商業與會計"
+
+[[domains]]
+slug = "linguistics"
+name_ja = "言語学"
+name_zh = "語言學"
+name_en = "Linguistics"
+description = "文法、語用、敬語體系等語言學概念"
+
+[[domains]]
+slug = "communication"
+name_ja = "コミュニケーション"
+name_zh = "溝通交流"
+name_en = "Communication"
+description = "對話、表達與人際溝通相關的詞彙"
+
+[[domains]]
+slug = "learning"
+name_ja = "学習・教育"
+name_zh = "學習與教育"
+name_en = "Learning"
+description = "學習方法、教育與語言學習相關的詞彙"
+
+[[domains]]
+slug = "daily-life"
+name_ja = "日常生活"
+name_zh = "日常生活"
+name_en = "Daily Life"
+description = "日常生活、家庭與生活方式相關的詞彙"
+
+[[domains]]
+slug = "cognition"
+name_ja = "認知・心理"
+name_zh = "認知與心理"
+name_en = "Cognition"
+description = "思考、理解與心理相關的詞彙"
+
+[[domains]]
+slug = "perception"
+name_ja = "知覚"
+name_zh = "感知"
+name_en = "Perception"
+description = "視覺、聽覺等感知相關的詞彙"
+
+[[domains]]
+slug = "movement"
+name_ja = "移動"
+name_zh = "移動"
+name_en = "Movement"
+description = "移動與動作相關的詞彙"
+
+[[domains]]
+slug = "travel"
+name_ja = "旅行・交通"
+name_zh = "旅行與交通"
+name_en = "Travel"
+description = "旅行、交通、地點與地理相關的詞彙"
+
+[[domains]]
+slug = "society"
+name_ja = "社会"
+name_zh = "社會"
+name_en = "Society"
+description = "社會、政治、法律與文化相關的詞彙"
+
+[[domains]]
+slug = "medical"
+name_ja = "医療"
+name_zh = "醫療"
+name_en = "Medical"
+description = "醫療與健康相關的詞彙"
+
+[[domains]]
+slug = "technology"
+name_ja = "技術"
+name_zh = "科技"
+name_en = "Technology"
+description = "科技與資訊相關的詞彙"
+
+# 舊 tag（domain/ 之後的部分）→ "領域" 或 "領域/子主題"
+# 空字串表示移除且不對應任何領域（修飾詞，非領域）
+[aliases]
+# 經濟：總論
+"経済学" = "economics/general"
+"経済" = "economics/general"
+"economics" = "economics/general"
+# 經濟：金融
+"金融" = "economics/finance"
+"finance" = "economics/finance"
+"banking" = "economics/finance"
+"投資" = "economics/finance"
+"monetary_policy" = "economics/finance"
+# 經濟：財政與稅務
+"財政" = "economics/fiscal"
+"税制" = "economics/fiscal"
+"税務" = "economics/fiscal"
+"tax" = "economics/fiscal"
+# 經濟：貿易
+"貿易" = "economics/trade"
+"国際貿易" = "economics/trade"
+"trade" = "economics/trade"
+# 經濟：商業與會計
+"商業" = "economics/business"
+"commerce" = "economics/business"
+"business" = "economics/business"
+"transaction" = "economics/business"
+"会計" = "economics/business"
+"accounting" = "economics/business"
+"人事" = "economics/business"
+"real_estate" = "economics/business"
+# 語言學
+"linguistics" = "linguistics"
+"言語学" = "linguistics"
+"grammar" = "linguistics"
+"semantics" = "linguistics"
+"pragmatics" = "linguistics"
+"語用論" = "linguistics"
+"information_structure" = "linguistics"
+"sociolinguistics" = "linguistics"
+"社会言語学" = "linguistics"
+"language" = "linguistics"
+"honorific-system" = "linguistics"
+"keigo" = "linguistics"
+"onomatopoeia" = "linguistics"
+# 溝通
+"communication" = "communication"
+# 學習與教育
+"learning" = "learning"
+"learning_theory" = "learning"
+"language_learning" = "learning"
+"education" = "learning"
+"教育" = "learning"
+"methodology" = "learning"
+# 日常生活
+"daily_life" = "daily-life"
+"household" = "daily-life"
+"lifestyle" = "daily-life"
+# 認知與心理
+"cognition" = "cognition"
+"psychology" = "cognition"
+"心理学" = "cognition"
+# 其他領域
+"perception" = "perception"
+"movement" = "movement"
+"medical" = "medical"
+"travel" = "travel"
+"transportation" = "travel"
+"location" = "travel"
+"geography" = "travel"
+"technology" = "technology"
+"IT" = "technology"
+# 社會
+"society" = "society"
+"社会" = "society"
+"社会学" = "society"
+"sociology" = "society"
+"culture" = "society"
+"mythology" = "society"
+"politics" = "society"
+"政治" = "society"
+"政治学" = "society"
+"government" = "society"
+"policy" = "society"
+"law" = "society"
+"法律" = "society"
+"news_topics" = "society"
+# 修飾詞，不是領域
+"international" = ""
+"general" = ""
+"abstract" = ""
+
+# 領域頁依詞性分組時的顯示順序與名稱（對應 zettelkasten/ 下的分類資料夾）
+[[sections]]
+slug = "noun"
+name = "名詞"
+[[sections]]
+slug = "verb-u"
+name = "五段動詞"
+[[sections]]
+slug = "verb-ru"
+name = "一段動詞"
+[[sections]]
+slug = "verb-irr"
+name = "不規則動詞"
+[[sections]]
+slug = "adj-i"
+name = "い形容詞"
+[[sections]]
+slug = "adj-na"
+name = "な形容詞"
+[[sections]]
+slug = "adverb"
+name = "副詞"
+[[sections]]
+slug = "phrase"
+name = "常用短語"
+[[sections]]
+slug = "idiom"
+name = "慣用語"
+[[sections]]
+slug = "honorific"
+name = "敬語表達"
+[[sections]]
+slug = "concept"
+name = "概念"
+[[sections]]
+slug = "grammar"
+name = "文法"
+[[sections]]
+slug = "comparison"
+name = "比較分析"
+[[sections]]
+slug = "contrast"
+name = "對比"
+[[sections]]
+slug = "context"
+name = "情境"
+[[sections]]
+slug = "register"
+name = "語域"

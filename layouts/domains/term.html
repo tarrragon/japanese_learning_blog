@@ -1,0 +1,53 @@
+{{- define "main" }}
+{{- $slug := .Data.Term }}
+{{- $info := partial "domains/info.html" $slug }}
+{{- $pages := .Pages }}
+
+<header class="page-header">
+  {{- partial "breadcrumbs.html" . }}
+  <h1>{{ $info.name_ja | default .Title }}
+    {{- with $info.name_zh }} <span class="domain-subtitle">{{ . }}</span>{{ end }}
+  </h1>
+  <div class="post-description">
+    {{- with $info.description }}{{ . }} · {{ end }}共 {{ len $pages }} 張卡片
+  </div>
+</header>
+
+{{- with $info.topics }}
+{{- $topicPages := slice }}
+<nav class="domain-topic-nav" aria-label="子主題">
+  {{- range . }}
+  {{- $id := printf "%s/%s" $slug .slug }}
+  {{- $n := len (where $pages "Params.domain_topics" "intersect" (slice $id)) }}
+  {{- if $n }}<a href="#topic-{{ .slug }}">{{ .name_ja }}<span class="domain-count">{{ $n }}</span></a>{{ end }}
+  {{- end }}
+</nav>
+
+{{- range . }}
+{{- $id := printf "%s/%s" $slug .slug }}
+{{- $group := where $pages "Params.domain_topics" "intersect" (slice $id) }}
+{{- with $group }}
+{{- $topicPages = $topicPages | append . }}
+{{- end }}
+{{- if $group }}
+<section class="domain-topic" id="topic-{{ .slug }}">
+  <h2>{{ .name_ja }} <span class="domain-subtitle">{{ .name_zh }}</span></h2>
+  {{- partial "domains/cards.html" (dict "pages" $group) }}
+</section>
+{{- end }}
+{{- end }}
+
+{{- $rest := complement $topicPages $pages }}
+{{- with $rest }}
+<section class="domain-topic" id="topic-other">
+  <h2>未分子主題</h2>
+  {{- partial "domains/cards.html" (dict "pages" .) }}
+</section>
+{{- end }}
+
+{{- else }}
+<section class="domain-topic">
+  {{- partial "domains/cards.html" (dict "pages" $pages) }}
+</section>
+{{- end }}
+{{- end }}{{/* end main */}}

@@ -7,6 +7,7 @@
 | 頁面 | 網址 |
 |------|------|
 | 📚 學習卡片盒 | [https://tarrragon.github.io/japanese_learning_blog/](https://tarrragon.github.io/japanese_learning_blog/) |
+| 🏷 專業領域（如經濟） | [https://tarrragon.github.io/japanese_learning_blog/domains/](https://tarrragon.github.io/japanese_learning_blog/domains/) |
 | ⌨️ 日文輸入練習 | [https://tarrragon.github.io/japanese_learning_blog/practice/](https://tarrragon.github.io/japanese_learning_blog/practice/) |
 | 🔤 五十音表練習 | [https://tarrragon.github.io/japanese_learning_blog/practice/?mode=gojuon](https://tarrragon.github.io/japanese_learning_blog/practice/?mode=gojuon) |
 | 📖 五十音進階（範例單字） | [https://tarrragon.github.io/japanese_learning_blog/practice/?mode=gojuon-advanced](https://tarrragon.github.io/japanese_learning_blog/practice/?mode=gojuon-advanced) |

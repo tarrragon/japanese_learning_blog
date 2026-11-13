@@ -223,6 +223,11 @@ needs_review: true
 tags:
   - {tag1}
   - {tag2}
+# 專業領域（可選；不要寫成 domain/* tag，可用值見 uv run scripts/list-domains.py）
+domains:
+  - {domain}
+domain_topics:
+  - {domain}/{topic}
 # 字典資料區塊（新增！）
 dictionary:
   sources:
@@ -380,7 +385,7 @@ uv run scripts/list-categories.py --count
 # 查詢 tags
 uv run scripts/list-tags.py
 uv run scripts/list-tags.py --type context
-uv run scripts/list-tags.py --type domain
+uv run scripts/list-domains.py  # 領域改用 domains 欄位
 ```
 
 ### 修復工具
@@ -563,6 +568,8 @@ needs_review: true
 tags:
   - {tag1}
   - {tag2}
+domains:            # 可選，見 list-domains.py
+  - {domain}
 created: {今日日期}
 updated: {今日日期}
 ---

@@ -13,7 +13,7 @@
 選項：
   --json              以 JSON 格式輸出
   --count             顯示每個 tag 的使用次數
-  --type TYPE         只顯示特定類型的 tags (context/domain/jlpt)
+  --type TYPE         只顯示特定類型的 tags (context/jlpt…；領域請用 list-domains.py)
   [tag_name]          顯示特定 tag 的詳細資訊
 """
 
@@ -244,6 +244,11 @@ def main():
             break
 
     # 取得所有 tags
+    if filter_type == "domain":
+        print("ℹ️  領域已改用 frontmatter 的 domains / domain_topics 欄位，不再使用 domain/* tag。")
+        print("   請執行：uv run scripts/list-domains.py")
+        return
+
     tags = get_all_tags_from_meta()
 
     # 如果需要顯示使用次數，計算

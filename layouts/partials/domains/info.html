@@ -1,0 +1,6 @@
+{{- /* 依 slug 取得 data/domains.toml 中的領域定義；找不到時回傳空 dict */ -}}
+{{- $info := dict -}}
+{{- range site.Data.domains.domains -}}
+  {{- if eq .slug $ -}}{{- $info = . -}}{{- end -}}
+{{- end -}}
+{{- return $info -}}

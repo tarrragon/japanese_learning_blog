@@ -1,0 +1,33 @@
+{{- /*
+  依詞性（分類資料夾）分組列出卡片
+  參數：dict "pages" <Pages> "headingLevel" <int>
+*/ -}}
+{{- $pages := .pages -}}
+{{- $sections := site.Data.domains.sections -}}
+{{- $known := slice -}}
+{{- range $sections }}{{ $known = $known | append .slug }}{{ end -}}
+
+{{- range $sections -}}
+  {{- $section := . -}}
+  {{- $group := where $pages "Section" $section.slug -}}
+  {{- with $group -}}
+  <div class="domain-section">
+    <h3 class="domain-section-title">{{ $section.name }}<span class="domain-count">{{ len $group }}</span></h3>
+    <ul class="domain-card-list">
+      {{- range sort $group "File.ContentBaseName" }}{{ partial "domains/card.html" . }}{{ end }}
+    </ul>
+  </div>
+  {{- end -}}
+{{- end -}}
+
+{{- /* 未列在 sections 的分類 */ -}}
+{{- $others := slice -}}
+{{- range $pages }}{{ if not (in $known .Section) }}{{ $others = $others | append . }}{{ end }}{{ end -}}
+{{- with $others -}}
+  <div class="domain-section">
+    <h3 class="domain-section-title">其他<span class="domain-count">{{ len . }}</span></h3>
+    <ul class="domain-card-list">
+      {{- range . }}{{ partial "domains/card.html" . }}{{ end }}
+    </ul>
+  </div>
+{{- end -}}
