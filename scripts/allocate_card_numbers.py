@@ -20,20 +20,24 @@ Usage:
     # 限制數量
     uv run scripts/allocate_card_numbers.py --limit 10
 
-    # 乾跑模式（不實際更新 CSV）
+    # 乾跑模式（不實際更新 CSV，也不保留編號）
     uv run scripts/allocate_card_numbers.py --dry-run
+
+編號來源（card_numbering.py）：
+    在檔案鎖內保留編號，並以 CSV 中已分配的最大編號作為下限，
+    所以重複執行、分批執行或與 get-next-number.py 同時使用都不會發出重複編號。
 """
 
 import csv
 import sys
 import argparse
 import json
-import subprocess
 from pathlib import Path
 from collections import defaultdict
 from typing import List, Dict
 
 from csv_config import get_default_csv_path
+from card_numbering import CardNumbering
 
 # 專案根目錄
 PROJECT_ROOT = Path(__file__).parent.parent
@@ -56,7 +60,10 @@ class CardNumberAllocator:
         with open(self.csv_path, 'r', encoding='utf-8') as f:
             reader = csv.DictReader(f)
             self.cards = list(reader)
-            self.fieldnames = reader.fieldnames
+            self.fieldnames = list(reader.fieldnames or [])
+            # 舊版 CSV 沒有 allocated_number 欄位，寫回時需補上
+            if 'allocated_number' not in self.fieldnames:
+                self.fieldnames.append('allocated_number')
 
     def save_cards(self):
         """儲存 CSV 檔案"""
@@ -95,19 +102,28 @@ class CardNumberAllocator:
 
         return result
 
-    def get_next_number_via_script(self, category: str, batch_size: int = 1) -> dict:
-        """呼叫 get-next-number.py 腳本取得編號"""
-        cmd = ['uv', 'run', 'scripts/get-next-number.py', category, '--json']
+    def csv_max_allocated(self, category: str) -> int:
+        """CSV 中該分類已分配（可能尚未建立檔案）的最大編號"""
+        max_number = 0
+        for card in self.cards:
+            if card.get('category') != category:
+                continue
+            for field in ('allocated_number', 'number'):
+                value = (card.get(field) or '').strip()
+                if value.isdigit():
+                    max_number = max(max_number, int(value))
+        return max_number
 
-        if batch_size > 1:
-            cmd.extend(['--batch', str(batch_size)])
-
-        result = subprocess.run(cmd, cwd=PROJECT_ROOT, capture_output=True, text=True)
-
-        if result.returncode != 0:
-            return {'error': result.stderr.strip()}
-
-        return json.loads(result.stdout)
+    @staticmethod
+    def build_path(card: Dict, number: str) -> str:
+        """依分配的編號產生卡片路徑"""
+        filename = card.get('path', '').split('/')[-1] if card.get('path') else ''
+        parts = filename.split('_', 1)
+        if len(parts) == 2 and parts[0].isdigit():
+            rest = parts[1]
+        else:
+            rest = f"{card['japanese'].replace(' ', '_')}.md"
+        return f"{card['category']}/{number}_{rest}"
 
     def allocate_numbers(self,
                         stage: str = 'pending',
@@ -139,15 +155,23 @@ class CardNumberAllocator:
         for cat, cat_cards in cards_by_category.items():
             count = len(cat_cards)
 
-            # 使用 get-next-number.py 批次分配編號
-            result = self.get_next_number_via_script(cat, batch_size=count)
-
-            if 'error' in result:
-                print(f"❌ 分類「{cat}」分配編號失敗: {result['error']}", file=sys.stderr)
+            numbering = CardNumbering(cat)
+            if not numbering.exists():
+                print(f"❌ 分類「{cat}」不存在，跳過", file=sys.stderr)
                 continue
 
-            start_num = result['next_number']
-            end_num = result.get('end_number', start_num)
+            floor = self.csv_max_allocated(cat)
+            try:
+                if dry_run:
+                    start_num = numbering.peek(floor=floor)
+                else:
+                    labels = [self.build_path(card, '???') for card in cat_cards]
+                    start_num = numbering.reserve(count, labels=labels, floor=floor)[0]
+            except (TimeoutError, OSError, ValueError) as e:
+                print(f"❌ 分類「{cat}」分配編號失敗: {e}", file=sys.stderr)
+                continue
+
+            end_num = start_num + count - 1
 
             allocation_summary.append({
                 'category': cat,
@@ -159,17 +183,8 @@ class CardNumberAllocator:
             for i, card in enumerate(cat_cards):
                 allocated_num = start_num + i
                 card['allocated_number'] = f"{allocated_num:03d}"
-
-                # 更新 number 欄位（從 path 中提取的編號）
-                # 例如：noun/018_tango.md -> 018
-                if '/' in card['path']:
-                    filename = card['path'].split('/')[-1]
-                    card['number'] = card['allocated_number']
-                    # 也更新 path 中的編號
-                    parts = filename.split('_', 1)
-                    if len(parts) == 2:
-                        new_filename = f"{card['allocated_number']}_{parts[1]}"
-                        card['path'] = f"{card['category']}/{new_filename}"
+                card['number'] = card['allocated_number']
+                card['path'] = self.build_path(card, card['allocated_number'])
 
                 total_allocated += 1
 

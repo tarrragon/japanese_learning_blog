@@ -31,6 +31,12 @@ Usage:
 v1.5.0 變更：
     - 新增卡片時同時建立 YAML frontmatter 檔案
     - 新增 --csv-only 選項（只更新 CSV，不建立卡片）
+
+編號規則（card_numbering.py）：
+    - batch 未指定編號時，透過 card_numbering 保留編號，不會重複發號
+    - --csv-only 的 batch 不分配編號（number 與 path 留空），
+      等真正建立卡片時再由 allocate_card_numbers.py 或 get-next-number.py 分配
+    - 新增前檢查同分類是否已有相同基本編號，有則拒絕
 """
 
 import csv
@@ -42,6 +48,7 @@ from datetime import datetime, date
 from typing import List, Dict, Optional
 
 from csv_config import get_default_csv_path
+from card_numbering import CardNumbering
 
 # 專案根目錄
 PROJECT_ROOT = Path(__file__).parent.parent
@@ -146,7 +153,8 @@ link_status:
         """儲存到 CSV 檔案"""
         fieldnames = [
             'id', 'category', 'number', 'path', 'japanese', 'chinese',
-            'jlpt', 'source', 'priority', 'stage', 'note', 'created', 'updated', 'batch'
+            'jlpt', 'source', 'priority', 'stage', 'note', 'created', 'updated', 'batch',
+            'allocated_number'
         ]
 
         with open(self.csv_path, 'w', encoding='utf-8', newline='') as f:
@@ -160,8 +168,10 @@ link_status:
         """驗證卡片資料，回傳錯誤訊息列表"""
         errors = []
 
-        # 必填欄位
-        required = ['category', 'number', 'japanese', 'chinese', 'jlpt', 'priority']
+        # 必填欄位（--csv-only 時編號可延後分配）
+        required = ['category', 'japanese', 'chinese', 'jlpt', 'priority']
+        if not self.csv_only:
+            required.insert(1, 'number')
         for field in required:
             if not card.get(field):
                 errors.append(f"缺少必填欄位: {field}")
@@ -179,6 +189,23 @@ link_status:
             num = card['number']
             if not num.isdigit() or len(num) != 3:
                 errors.append(f"編號格式錯誤: {num}，應為 3 位數字（如 025）")
+
+        # 檢查編號衝突：同分類已有相同基本編號的檔案或 CSV 紀錄
+        if card.get('number') and card.get('category'):
+            number = card['number']
+            filename = card['path'].split('/')[-1] if card.get('path') else None
+            conflicts = CardNumbering(card['category'], ZETTELKASTEN_DIR).find_conflicts(int(number), filename)
+            if conflicts:
+                errors.append(f"編號 {card['category']}/{number} 已被使用: {', '.join(conflicts)}")
+            csv_conflicts = [
+                c for c in self.cards
+                if c.get('category') == card['category']
+                and (c.get('allocated_number') or c.get('number')) == number
+                and c.get('path') != card.get('path')
+            ]
+            if csv_conflicts:
+                ids = ', '.join(c['id'] for c in csv_conflicts)
+                errors.append(f"編號 {card['category']}/{number} 已分配給 CSV 中的卡片 (ID: {ids})")
 
         # 檢查路徑衝突
         if card.get('path'):
@@ -200,8 +227,8 @@ link_status:
                        stage: str = 'pending') -> bool:
         """新增單張卡片"""
 
-        # 建立卡片路徑
-        path = f"{category}/{number}_{japanese.replace(' ', '_')}.md"
+        # 建立卡片路徑（尚未分配編號時留空，待建立卡片時再分配）
+        path = f"{category}/{number}_{japanese.replace(' ', '_')}.md" if number else ''
 
         # 建立新卡片
         new_card = {
@@ -233,10 +260,10 @@ link_status:
         self.cards.append(new_card)
         self.max_id += 1
 
-        print(f"✅ 已新增卡片 ID {new_card['id']}: {path}")
+        print(f"✅ 已新增卡片 ID {new_card['id']}: {path or f'{category}/（未編號）{japanese}'}")
 
         # v1.5.0: 同時建立卡片檔案
-        if not self.csv_only:
+        if not self.csv_only and new_card['path']:
             file_created = self.create_card_file(new_card)
             if file_created:
                 print(f"   📄 已建立卡片檔案")
@@ -281,22 +308,12 @@ link_status:
             print(f"   ❌ 建立檔案失敗: {e}")
             return False
 
-    def _get_next_number(self, category: str) -> Optional[str]:
-        """調用 get-next-number.py 獲取下一個可用編號"""
-        import subprocess
+    def _reserve_number(self, category: str, japanese: str) -> Optional[str]:
+        """透過 card_numbering 保留下一個編號（保留後不會再發給其他人）"""
         try:
-            result = subprocess.run(
-                [sys.executable, str(PROJECT_ROOT / "scripts" / "get-next-number.py"), category],
-                capture_output=True,
-                text=True,
-                cwd=PROJECT_ROOT
-            )
-            if result.returncode == 0:
-                # 取最後一行非空輸出（過濾掉警告訊息）
-                lines = [l.strip() for l in result.stdout.strip().split('\n') if l.strip() and not l.startswith('⚠️')]
-                if lines:
-                    return lines[-1].zfill(3)  # 確保 3 位數格式
-            return None
+            numbering = CardNumbering(category, ZETTELKASTEN_DIR)
+            label = f"{category}/{japanese}"
+            return f"{numbering.reserve(1, labels=[label])[0]:03d}"
         except Exception as e:
             print(f"   ⚠️ 自動編號失敗: {e}")
             return None
@@ -308,12 +325,19 @@ link_status:
         for idx, card_data in enumerate(cards_data, 1):
             print(f"\n📝 處理卡片 {idx}/{len(cards_data)}")
 
+            reserved_number = None
+
             # 自動分配編號（如果缺失）
-            if 'number' not in card_data or not card_data['number']:
+            # --csv-only 不分配：卡片尚未建立，提早寫死編號會造成重複
+            if self.csv_only and not card_data.get('number'):
+                card_data['number'] = ''
+                print("   → 尚未分配編號（建立卡片時再分配）")
+            elif not card_data.get('number'):
                 category = card_data.get('category', 'concept')
-                auto_number = self._get_next_number(category)
+                auto_number = self._reserve_number(category, card_data.get('japanese', ''))
                 if auto_number:
                     card_data['number'] = auto_number
+                    reserved_number = (category, auto_number)
                     print(f"   → 自動分配編號: {auto_number}")
                 else:
                     print(f"❌ 跳過：無法自動分配編號")
@@ -324,6 +348,8 @@ link_status:
             missing = [f for f in required if f not in card_data]
             if missing:
                 print(f"❌ 跳過：缺少欄位 {', '.join(missing)}")
+                if reserved_number:
+                    CardNumbering(reserved_number[0], ZETTELKASTEN_DIR).release(int(reserved_number[1]))
                 continue
 
             # 新增卡片
@@ -339,6 +365,9 @@ link_status:
                 stage=card_data.get('stage', 'pending')
             ):
                 success_count += 1
+            elif reserved_number:
+                # 新增失敗，歸還剛保留的編號
+                CardNumbering(reserved_number[0], ZETTELKASTEN_DIR).release(int(reserved_number[1]))
 
         return success_count
 

@@ -479,8 +479,20 @@ else:
 ```
 
 ```bash
-uv run scripts/get-next-number.py {category}
-# 輸出：025
+uv run scripts/get-next-number.py {category} --label {category}/{預定檔名}
+# 輸出：025（三位數，已保留，不會再發給其他代理人）
+```
+
+**編號規則（必須遵守）**：
+- 檔名一律使用腳本輸出的三位數編號（`025_name.md`），不可寫成 `25_name.md`
+- 不可自行推算編號（例如「看到最大是 024 所以用 025」），一定要用腳本取號
+- `--peek` 只查詢不保留，**不可**用 `--peek` 的結果建立檔案
+- 最後沒有建立卡片時，歸還編號：`uv run scripts/get-next-number.py {category} --release 025`
+
+**建立檔案後必須檢查衝突**：
+```bash
+uv run scripts/card_numbering.py check {category} {檔名}
+# 回傳 1 表示同分類已有相同編號 → 不可繼續，回報錯誤
 ```
 
 ### 步驟 3.5：查詢字典（新增！）
@@ -695,9 +707,9 @@ title: "上がる（あがる）"
 
 ### 並發執行
 
-- 使用 `allocated_number` 時支援並發
-- 每張卡片獨立處理，不會衝突
-- 不需要額外的檔案鎖
+- `allocated_number` 與 `get-next-number.py` 都會寫入保留紀錄（`.locks/{category}.reserved.json`），並發取號不會重複
+- 不可在取號之外自行決定編號
+- 建立檔案後一律執行 `card_numbering.py check` 確認沒有衝突
 
 ---
 

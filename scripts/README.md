@@ -102,19 +102,29 @@ uv run scripts/list-tags.py context/business
 
 ---
 
-### 3. get-next-number.py - 取得下一個編號
+### 3. get-next-number.py - 取得並保留下一個編號
 
-**用途**：在新增卡片時自動取得下一個可用編號
+**用途**：在新增卡片時取得下一個可用編號。取得的編號會寫入保留紀錄
+（`.locks/{category}.reserved.json`），之後的呼叫不會再拿到同一個編號，
+卡片檔案建立後保留紀錄自動清除。核心邏輯在 `card_numbering.py`。
 
 **執行方式**：
 ```bash
-# 取得下一個編號
-uv run scripts/get-next-number.py verb-ru
-# 輸出: 11
-
-# 格式化輸出（補零）
-uv run scripts/get-next-number.py verb-ru --format
+# 取得並保留下一個編號（輸出一律為三位數）
+uv run scripts/get-next-number.py verb-ru --label verb-ru/011_taberu.md
 # 輸出: 011
+
+# 只查詢不保留（不可用來建立檔案）
+uv run scripts/get-next-number.py verb-ru --peek
+
+# 保留 5 個連續編號
+uv run scripts/get-next-number.py verb-ru --batch 5
+
+# 卡片最後沒建立時，歸還編號
+uv run scripts/get-next-number.py verb-ru --release 011
+
+# 列出保留中的編號
+uv run scripts/get-next-number.py verb-ru --reservations
 
 # 取得延伸卡片編號
 uv run scripts/get-next-number.py verb-ru --extension 001
@@ -124,12 +134,29 @@ uv run scripts/get-next-number.py verb-ru --extension 001
 uv run scripts/get-next-number.py verb-ru --json
 ```
 
+**下一個編號的計算**：
+`max(實際檔案最大編號, index.md 最後編號, 已保留最大編號) + 1`。
+檔名為兩位數（如 `39_xxx.md`）也會被計入。
+
+**衝突檢查**（`card_numbering.py`）：
+```bash
+# 建立卡片後檢查同分類是否已有相同基本編號（有衝突回傳 1）
+uv run scripts/card_numbering.py check verb-ru 011_taberu.md
+
+# 列出所有分類的重複編號
+uv run scripts/card_numbering.py duplicates
+```
+
+**測試**：`python3 -m unittest discover -s scripts/tests -v`
+
 **JSON 輸出範例**：
 ```json
 {
   "category": "verb-ru",
   "index_last_number": 10,
   "files_max_number": 10,
+  "batch_size": 1,
+  "reserved": true,
   "next_number": 11
 }
 ```
@@ -424,8 +451,11 @@ uv run scripts/list-categories.py
 NEXT_NUM=$(uv run scripts/get-next-number.py verb-ru)
 echo "下一個編號: $NEXT_NUM"
 
-# 3. 建立卡片檔案
+# 3. 建立卡片檔案（檔名使用三位數編號，如 ${NEXT_NUM}_taberu.md）
 # （手動建立或使用其他工具）
+
+# 3.5 確認沒有編號衝突
+uv run scripts/card_numbering.py check verb-ru ${NEXT_NUM}_taberu.md
 
 # 4. 更新索引
 uv run scripts/update-index.py verb-ru

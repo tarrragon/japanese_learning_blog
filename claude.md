@@ -107,7 +107,7 @@ uv run scripts/update_card_progress.py --id {card_id} --stage draft --quiet
 - ❌ 不要執行 `--stage completed`（階段跳躍，報錯）
 
 **並發執行支援（v1.0.6+）**：
-- ✅ `get-next-number.py` 已支援並發（使用檔案鎖機制）
+- ✅ `get-next-number.py` 已支援並發（檔案鎖 + 保留紀錄，取號即保留）
 - ✅ 推薦使用 `allocate_card_numbers.py` 預先分配編號
 - ✅ 代理人優先使用 `allocated_number` 欄位
 - ✅ 支援平行執行多個 card-structure-handler 和 build-card-content 代理人
@@ -189,6 +189,7 @@ uv run scripts/update_card_progress.py --id {card_id} --stage linking --quiet
 
 ```bash
 # 第 1 步：檢查問題
+uv run scripts/card_numbering.py duplicates
 uv run scripts/fix-numbering.py --check
 uv run scripts/fix-wikilinks.py --check
 uv run scripts/verify-meta.py --verbose
@@ -396,7 +397,8 @@ uv run scripts/update_card_progress.py --id {card_id} --stage completed --quiet
 | ⭐ `stage_dashboard.py` | **階段管理看板**（進度追蹤單一入口） |
 | `list-categories.py` | 列出所有分類 |
 | `list-tags.py` | 列出可用 tags |
-| `get-next-number.py` | 取得下一編號（支援並發） |
+| `get-next-number.py` | 取得並保留下一編號（支援並發，輸出三位數） |
+| `card_numbering.py` | 編號核心模組；`check` 檢查衝突、`duplicates` 列出重複編號 |
 | `allocate_card_numbers.py` | 預先分配編號 |
 | `update-index.py` | 更新分類索引 |
 | `verify-meta.py` | 驗證 Meta 系統 |

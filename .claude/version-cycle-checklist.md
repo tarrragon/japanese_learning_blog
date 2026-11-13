@@ -219,7 +219,8 @@
 **開始前：**
 - [ ] 確認工作日誌中的卡片清單已完整定義
 - [ ] 確認每張卡片的優先級和 JLPT 等級
-- [ ] 確認卡片編號已正確分配（使用 `get-next-number.py`）
+- [ ] 確認卡片編號已正確分配（使用 `get-next-number.py` 或 `allocate_card_numbers.py`）
+- [ ] 確認沒有重複編號：`uv run scripts/card_numbering.py duplicates`
 
 **執行中：**
 - [ ] 使用 `card-structure-handler` 建立卡片結構，`build-card-content` 填充內容
