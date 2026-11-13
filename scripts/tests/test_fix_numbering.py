@@ -117,5 +117,94 @@ class FixNumberingTest(unittest.TestCase):
         self.assertEqual(result["invalid_files"][0]["suggestion"], "008_ii.md")
 
 
+
+class ReferenceUpdateTest(unittest.TestCase):
+    def setUp(self):
+        self.tmp = tempfile.TemporaryDirectory()
+        self.root = Path(self.tmp.name)
+        self.zettel = self.root / "zettelkasten"
+        self.worklog = self.root / "doc" / "worklog"
+        for d in ("concept", "noun"):
+            (self.zettel / d).mkdir(parents=True)
+        self.worklog.mkdir(parents=True)
+
+    def tearDown(self):
+        self.tmp.cleanup()
+
+    def write(self, rel, text="x"):
+        path = self.zettel / rel
+        path.write_text(text, encoding="utf-8")
+        return path
+
+    def mapping(self, pairs):
+        return fix_numbering.build_mapping([
+            {"old_file": self.zettel / old, "new_file": self.zettel / new} for old, new in pairs
+        ])
+
+    def test_rewrites_all_link_styles_and_keeps_prefix(self):
+        self.write("concept/123_aisatsu.md")
+        self.write("concept/123_など.md")
+        self.write("concept/124_other.md")
+        src = self.write("noun/001_src.md", "\n".join([
+            "[a](../concept/123_aisatsu.md)",
+            "[b](concept/123_aisatsu.md#sec)",
+            "[c](/zettelkasten/concept/123_aisatsu.md)",
+            "[123_など](../concept/123_など.md)",
+            "[keep](../concept/124_other.md)",
+            "[broken](../concept/999_missing.md)",
+        ]))
+        same_dir = self.write("concept/124_other.md", "[d](./123_aisatsu.md) [e](123_aisatsu.md)")
+        mapping = self.mapping([
+            ("concept/123_aisatsu.md", "concept/290_aisatsu.md"),
+            ("concept/123_など.md", "concept/291_など.md"),
+        ])
+
+        out, count = fix_numbering.rewrite_links(src.read_text(), src, mapping, self.zettel, self.root)
+        self.assertEqual(count, 4)
+        self.assertEqual(out.split("\n"), [
+            "[a](../concept/290_aisatsu.md)",
+            "[b](concept/290_aisatsu.md#sec)",
+            "[c](/zettelkasten/concept/290_aisatsu.md)",
+            "[291_など](../concept/291_など.md)",
+            "[keep](../concept/124_other.md)",
+            "[broken](../concept/999_missing.md)",
+        ])
+
+        out, count = fix_numbering.rewrite_links(same_dir.read_text(), same_dir, mapping, self.zettel, self.root)
+        self.assertEqual(out, "[d](./290_aisatsu.md) [e](290_aisatsu.md)")
+
+    def test_same_number_different_cards_map_independently(self):
+        self.write("concept/123_a.md")
+        self.write("concept/123_b.md")
+        src = self.write("concept/001_src.md", "[a](123_a.md) [b](123_b.md)")
+        mapping = self.mapping([("concept/123_b.md", "concept/124_b.md")])
+        out, _ = fix_numbering.rewrite_links(src.read_text(), src, mapping, self.zettel, self.root)
+        self.assertEqual(out, "[a](123_a.md) [b](124_b.md)")
+
+    def test_update_csvs(self):
+        self.write("concept/123_b.md")
+        csv_path = self.worklog / "cards.csv"
+        csv_path.write_text(
+            "id,category,number,path,allocated_number\n"
+            "1,concept,123,concept/123_b.md,123\n"
+            "2,concept,123,concept/123_a.md,\n",
+            encoding="utf-8",
+        )
+        mapping = self.mapping([("concept/123_b.md", "concept/124_b.md")])
+        rows = fix_numbering.update_csvs(mapping, zettel_dir=self.zettel, worklog_dir=self.worklog)
+        self.assertEqual(rows, 1)
+        lines = csv_path.read_text(encoding="utf-8").splitlines()
+        self.assertEqual(lines[1], "1,concept,124,concept/124_b.md,124")
+        self.assertEqual(lines[2], "2,concept,123,concept/123_a.md,")
+
+    def test_update_links_dry_run_writes_nothing(self):
+        self.write("concept/123_b.md")
+        src = self.write("concept/001_src.md", "[b](123_b.md)")
+        mapping = self.mapping([("concept/123_b.md", "concept/124_b.md")])
+        files, links = fix_numbering.update_links(mapping, dry_run=True, zettel_dir=self.zettel, project_root=self.root)
+        self.assertEqual((files, links), (1, 1))
+        self.assertEqual(src.read_text(), "[b](123_b.md)")
+
+
 if __name__ == "__main__":
     unittest.main()

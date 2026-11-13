@@ -14,8 +14,15 @@
   --check             只檢查，不修復
   --check-format      檢查檔名格式問題（不符合 ###_name.md 的檔案）
   --category NAME     只處理特定分類
-  --fix              執行修復（重新編號）
+  --fix              執行修復（重新編號 + 更新連結與 CSV）
   --dry-run          預覽修復結果，不實際執行
+  --no-links         --fix 時不更新連結與 CSV（不建議）
+
+--fix 會同時：
+  - 更新 zettelkasten 內所有指向被改名卡片的 Markdown 連結
+    （相對路徑、zettelkasten 根目錄路徑、/zettelkasten/ 絕對路徑皆支援）
+  - 更新 doc/worklog/*.csv 的 path / number / allocated_number
+  - 輸出新舊檔名對照表：doc/worklog/renumbering-{YYYYMMDD}.json
 
 功能：
   1. 檢測編號缺口（如 001, 002, 005 缺少 003, 004）
@@ -37,14 +44,23 @@
   - aspect.md（無編號）
 """
 
+import csv
+import json
+import os
 import re
 import sys
+import unicodedata
+from datetime import date
 from pathlib import Path
 from typing import Optional
 
 # 專案根目錄
 PROJECT_ROOT = Path(__file__).parent.parent
 ZETTELKASTEN_DIR = PROJECT_ROOT / "zettelkasten"
+WORKLOG_DIR = PROJECT_ROOT / "doc" / "worklog"
+
+# [text](target.md#anchor)
+LINK_RE = re.compile(r'\[([^\]\n]*)\]\(([^)\s]+?\.md)(#[^)\s]*)?\)')
 
 
 def parse_filename(filename: str) -> Optional[dict]:
@@ -530,6 +546,143 @@ def execute_renumbering(plan: list[dict], dry_run: bool = False) -> bool:
     return True
 
 
+def _norm(path) -> str:
+    """正規化路徑字串（含 Unicode NFC，避免 macOS 日文檔名比對失敗）"""
+    return unicodedata.normalize('NFC', os.path.normpath(str(path)))
+
+
+def build_mapping(plans: list[dict]) -> dict:
+    """{舊檔案正規化路徑: 新檔案 Path}"""
+    return {_norm(item['old_file']): item['new_file'] for item in plans}
+
+
+def resolve_link_target(target: str, source_file: Path,
+                        zettel_dir: Path, project_root: Path) -> Optional[str]:
+    """
+    依序嘗試：/ 開頭 → 專案根目錄；相對於來源檔案；相對於 zettelkasten 根目錄。
+    回傳第一個實際存在的檔案（正規化路徑），都不存在則回傳 None。
+    """
+    if target.startswith('/'):
+        candidates = [project_root / target.lstrip('/')]
+    else:
+        candidates = [source_file.parent / target, zettel_dir / target, project_root / target]
+    for candidate in candidates:
+        if Path(os.path.normpath(candidate)).is_file():
+            return _norm(candidate)
+    return None
+
+
+def rewrite_links(content: str, source_file: Path, mapping: dict,
+                  zettel_dir: Path = ZETTELKASTEN_DIR,
+                  project_root: Path = PROJECT_ROOT) -> tuple[str, int]:
+    """
+    改寫指向被改名卡片的連結，保留原本的路徑寫法，只替換檔名。
+    連結文字若正好是舊檔名（不含 .md），一併改成新檔名。
+    """
+    count = 0
+
+    def replace(match):
+        nonlocal count
+        text, target, anchor = match.group(1), match.group(2), match.group(3) or ''
+        resolved = resolve_link_target(target, source_file, zettel_dir, project_root)
+        if resolved is None or resolved not in mapping:
+            return match.group(0)
+        new_file = mapping[resolved]
+        old_name = target.rsplit('/', 1)[-1]
+        prefix = target[: len(target) - len(old_name)]
+        if text in (old_name, old_name[:-3]):
+            text = new_file.name if text == old_name else new_file.stem
+        count += 1
+        return f"[{text}]({prefix}{new_file.name}{anchor})"
+
+    return LINK_RE.sub(replace, content), count
+
+
+def update_links(mapping: dict, dry_run: bool = False,
+                 zettel_dir: Path = ZETTELKASTEN_DIR,
+                 project_root: Path = PROJECT_ROOT) -> tuple[int, int]:
+    """
+    更新 zettelkasten 內所有 Markdown 連結（需在改名「之前」執行，以舊檔案狀態解析連結）
+
+    Returns:
+        (修改的檔案數, 修改的連結數)
+    """
+    files_changed = 0
+    links_changed = 0
+    for md_file in sorted(zettel_dir.rglob('*.md')):
+        content = md_file.read_text(encoding='utf-8')
+        new_content, count = rewrite_links(content, md_file, mapping, zettel_dir, project_root)
+        if count:
+            files_changed += 1
+            links_changed += count
+            if not dry_run:
+                md_file.write_text(new_content, encoding='utf-8')
+    return files_changed, links_changed
+
+
+def update_csvs(mapping: dict, dry_run: bool = False,
+                zettel_dir: Path = ZETTELKASTEN_DIR,
+                worklog_dir: Path = WORKLOG_DIR) -> int:
+    """
+    更新 worklog CSV 的 path / number / allocated_number（path 為 {category}/{file}.md）
+
+    Returns:
+        修改的資料列數
+    """
+    rel_mapping = {}
+    for old, new_file in mapping.items():
+        try:
+            rel_old = _norm(os.path.relpath(old, zettel_dir))
+        except ValueError:
+            continue
+        rel_mapping[rel_old] = new_file
+
+    rows_changed = 0
+    for csv_file in sorted(worklog_dir.glob('*.csv')):
+        with open(csv_file, encoding='utf-8', newline='') as f:
+            reader = csv.DictReader(f)
+            fieldnames = reader.fieldnames
+            rows = list(reader)
+        if not fieldnames or 'path' not in fieldnames:
+            continue
+
+        changed = 0
+        for row in rows:
+            new_file = rel_mapping.get(_norm(row.get('path') or ''))
+            if new_file is None:
+                continue
+            new_number = new_file.name.split('_', 1)[0]
+            row['path'] = f"{new_file.parent.name}/{new_file.name}"
+            if 'number' in row:
+                row['number'] = new_number
+            if row.get('allocated_number'):
+                row['allocated_number'] = new_number
+            changed += 1
+
+        if changed:
+            rows_changed += changed
+            if not dry_run:
+                with open(csv_file, 'w', encoding='utf-8', newline='') as f:
+                    writer = csv.DictWriter(f, fieldnames=fieldnames)
+                    writer.writeheader()
+                    writer.writerows(rows)
+    return rows_changed
+
+
+def write_mapping_report(plans: list[dict], output: Path) -> None:
+    """輸出新舊檔名對照表"""
+    entries = [
+        {
+            'category': item['old_file'].parent.name,
+            'old': item['old_file'].name,
+            'new': item['new_file'].name,
+        }
+        for item in plans
+    ]
+    output.parent.mkdir(parents=True, exist_ok=True)
+    output.write_text(json.dumps(entries, ensure_ascii=False, indent=2), encoding='utf-8')
+
+
 def format_report(results: list[dict], show_all: bool = False):
     """格式化輸出報告"""
     print("\n" + "=" * 80)
@@ -581,6 +734,7 @@ def main():
     do_fix = '--fix' in args
     dry_run = '--dry-run' in args
     show_all = '--all' in args
+    no_links = '--no-links' in args
 
     category = None
     if '--category' in args:
@@ -642,19 +796,47 @@ def main():
         if dry_run:
             print("（預覽模式 - 不會實際修改檔案）\n")
 
+        # 1. 產生所有分類的計畫並檢查安全性
+        plans_by_category = []
         for result in categories_to_fix:
-            print(f"處理 【{result['category']}】...")
             plan = generate_renumbering_plan(result)
-
+            errors = validate_plan(plan)
+            if errors:
+                print(f"❌ 【{result['category']}】重新編號計畫不安全，全部中止：")
+                for error in errors:
+                    print(f"   - {error}")
+                sys.exit(1)
             if plan:
-                success = execute_renumbering(plan, dry_run)
-                if success and not dry_run:
-                    print(f"  ✅ 完成！已重新編號 {len(plan)} 個檔案\n")
-                elif dry_run:
-                    print(f"  預覽完成\n")
-                else:
-                    print(f"  ❌ 修復失敗\n")
-                    sys.exit(1)
+                plans_by_category.append((result['category'], plan))
+
+        all_plans = [item for _, plan in plans_by_category for item in plan]
+        mapping = build_mapping(all_plans)
+
+        # 2. 更新連結與 CSV（必須在改名前，以舊檔案狀態解析連結）
+        if not no_links:
+            files_changed, links_changed = update_links(mapping, dry_run)
+            rows_changed = update_csvs(mapping, dry_run)
+            verb = "將更新" if dry_run else "已更新"
+            print(f"🔗 {verb} {links_changed} 個連結（{files_changed} 個檔案）")
+            print(f"📄 {verb} {rows_changed} 筆 CSV 資料\n")
+
+        # 3. 改名
+        for category_name, plan in plans_by_category:
+            print(f"處理 【{category_name}】...")
+            success = execute_renumbering(plan, dry_run)
+            if success and not dry_run:
+                print(f"  ✅ 完成！已重新編號 {len(plan)} 個檔案\n")
+            elif dry_run:
+                print(f"  預覽完成（{len(plan)} 個檔案）\n")
+            else:
+                print(f"  ❌ 修復失敗\n")
+                sys.exit(1)
+
+        if not dry_run:
+            report = WORKLOG_DIR / f"renumbering-{date.today().strftime('%Y%m%d')}.json"
+            write_mapping_report(all_plans, report)
+            print(f"🗂  新舊檔名對照表：{report.relative_to(PROJECT_ROOT)}")
+            print("💡 接著執行 update-index.py 重建各分類索引")
 
         if dry_run:
             print("\n💡 使用 --fix 執行實際修復")
