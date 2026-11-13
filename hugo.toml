@@ -1,6 +1,6 @@
 # Hugo 配置 - 日文學習 Zettelkasten 系統
 # 網站基本設定
-baseURL = "https://mac-eric.github.io/japanese_learning_blog/"
+baseURL = "https://tarrragon.github.io/japanese_learning_blog/"
 languageCode = "zh-TW"
 title = "日文學習卡片盒"
 theme = "PaperMod"

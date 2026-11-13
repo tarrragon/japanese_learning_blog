@@ -2,6 +2,16 @@
 
 使用 AI 來分析日文文章，拆解成原子化的學習卡片。
 
+## 🌐 線上網站
+
+| 頁面 | 網址 |
+|------|------|
+| 📚 學習卡片盒 | [https://tarrragon.github.io/japanese_learning_blog/](https://tarrragon.github.io/japanese_learning_blog/) |
+| ⌨️ 日文輸入練習 | [https://tarrragon.github.io/japanese_learning_blog/practice/](https://tarrragon.github.io/japanese_learning_blog/practice/) |
+| 🔤 五十音表練習 | [https://tarrragon.github.io/japanese_learning_blog/practice/?mode=gojuon](https://tarrragon.github.io/japanese_learning_blog/practice/?mode=gojuon) |
+| 📖 五十音進階（範例單字） | [https://tarrragon.github.io/japanese_learning_blog/practice/?mode=gojuon-advanced](https://tarrragon.github.io/japanese_learning_blog/practice/?mode=gojuon-advanced) |
+| ✍️ 五十音手寫（筆順，可用手機） | [https://tarrragon.github.io/japanese_learning_blog/practice/?mode=handwriting](https://tarrragon.github.io/japanese_learning_blog/practice/?mode=handwriting) |
+
 ## 專案簡介
 
 這個專案提供一套完整的 AI 工具，分析日文文章、提取詞彙、解釋文法。
@@ -269,7 +279,19 @@ japanese_learning_blog/
 - 即時視覺回饋與語音朗讀
 - 虛擬鍵盤提示
 
-**使用方式**：
+**練習模式**（控制面板的下拉選單切換，或以網址參數 `?mode=` 直接開啟）：
+
+| 模式 | `mode` 參數 | 說明 |
+|------|------------|------|
+| 文章練習 | （預設） | 從卡片盒題庫抽題輸入，可依 JLPT 等級篩選 |
+| 假名練習 | `kana` | 隨機的清音、濁音、拗音與常用詞 |
+| 五十音表 | `gojuon` | 照順序或亂序輸入，完成的格子變色；可切換平／片假名 |
+| 五十音進階 | `gojuon-advanced` | 依 46 列假名字典表，逐列輸入平假名、片假名、濁音、半濁音範例單字 |
+| 五十音手寫 | `handwriting` | 觸控／滑鼠／觸控筆依筆順書寫，分描紅、提示、默寫三個等級 |
+
+**線上使用**：[https://tarrragon.github.io/japanese_learning_blog/practice/](https://tarrragon.github.io/japanese_learning_blog/practice/)
+
+**本地開發**：
 ```bash
 # 啟動本地伺服器後
 hugo server

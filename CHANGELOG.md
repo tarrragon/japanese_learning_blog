@@ -7,6 +7,69 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.3.0] - 2026-11-14
+
+日文輸入練習系統新增三種五十音練習模式。
+
+### Added
+
+- **練習模式選單**：控制面板的「題庫／假名」切換按鈕改為下拉選單，共五種模式
+  - 支援網址參數 `?mode=gojuon`、`?mode=gojuon-advanced`、`?mode=handwriting` 直接開啟
+
+- **五十音表**（`gojuon`）：以「行 × 段」表格練習 46 個清音
+  - 照順序輸入時游標自動往下一格；亂序輸入也會讓對應格子變色
+  - 點擊格子移動目前位置、平假名／片假名切換
+  - 「ん」等待下一個鍵再判定（`n` + 子音 → ん，`na` → な，`nn` → ん）
+  - 支援手機 IME 直接輸入
+
+- **五十音進階**（`gojuon-advanced`）：依 46 列假名字典表逐列輸入範例單字
+  - 順序：平假名單字 → 片假名單字 → 濁音單字 → 半濁音單字（共 116 個）
+  - 中文翻譯與羅馬拼音作為提示；輸入中的單字逐字上色
+  - 單字完成後朗讀整個單字
+
+- **五十音手寫**（`handwriting`）：手寫板依筆順書寫五十音
+  - Pointer Events 支援觸控、滑鼠與觸控筆
+  - 描紅／提示／默寫三個等級共用同一套筆順比對引擎
+  - 逐筆判定筆順、方向與形狀，錯誤時顯示原因並以動畫畫出正確筆畫
+  - 默寫模式寫完整字後對齊外框再比對，不要求大小與位置一致
+  - 異體寫法：さ、き、り、ふ 接受連寫，そ 接受兩筆寫法
+  - 「示範筆順」動畫、依序／隨機順序、平假名／片假名切換
+  - 手機版可使用；手機提示頁新增「改用手寫練習」入口
+
+- **新增模組**
+  - `src/domain/GridSession.js`：表格式 Session（亂序與依序兩種比對）
+  - `src/domain/HandwritingSession.js`、`src/domain/handwriting/`：筆畫幾何、異體寫法、筆畫比對
+  - `src/renderers/GridRenderer.js`、`src/renderers/HandwritingRenderer.js`
+  - `src/modes/GojuonMode.js`、`GojuonAdvancedMode.js`、`HandwritingMode.js`
+  - `src/data/gojuon.js`（五十音表與假名字典）、`src/data/kanaStrokes.js`（假名筆順）
+
+- **測試**：新增 46 個測試（536 → 582）
+
+### Fixed
+
+- **片假名拗音無法輸入**：`ROMAJI_MAP` 缺少シャ、ニュ、ジョ等片假名拗音，導致シャツ、ニュース等詞打不出來
+- **切換題目後殘留輸入緩衝**：新題目開始時清空上一題的羅馬字緩衝顯示
+- **手寫筆跡遺失**：部分瀏覽器的 `getCoalescedEvents()` 回傳空陣列時，改用事件本身
+
+### Changed
+
+- 假名字典修正原表範例單字
+  - ぢ：ぢょうず → はなぢ（上手 應為 じょうず）
+  - づ：づくり → つづく（づくり 僅為接尾形式）
+  - を：をしえる → ほんをよむ（教える 應為 おしえる）
+  - ば、ぱ行範例單字改用片假名（バス、パン、ピアノ、プール、ペン、ポケット）
+
+### Third-party
+
+- 假名筆順資料來自 [KanjiVG](https://kanjivg.tagaini.net/)，授權 CC BY-SA 3.0，已於資料檔與手寫板下方標示來源
+
+### Documentation
+
+- `README.md`：新增線上網站網址與練習模式說明
+- 更新 `src/`、`src/domain/`、`src/modes/`、`src/renderers/` 的 README 索引
+
+---
+
 ## [1.5.0] - 2025-12-27
 
 ### Added
