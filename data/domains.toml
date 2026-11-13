@@ -16,7 +16,20 @@
 # 注意：TOML 中最上層的設定必須寫在第一個 [[表格]] 之前
 # 視為領域的「無前綴」tag（遷移時與 domain/* 相同處理：轉為 domains 欄位並從 tags 移除）
 # 只列意思明確的；commerce、transaction、business 等常表示情境而非領域，不列入
-bare_tags = ["経済学", "経済", "economics", "金融", "finance", "banking", "投資", "商業", "accounting", "tax", "trade"]
+bare_tags = [
+  # 經濟
+  "経済学", "経済", "economics", "金融", "finance", "banking", "投資", "商業", "accounting", "tax", "trade",
+  # 語言學
+  "linguistics", "言語学", "pragmatics", "語用論", "semantics", "sociolinguistics", "社会言語学", "information_structure",
+  # 學習與教育
+  "learning", "education", "教育", "language_learning",
+  # 其他領域
+  "daily_life", "daily-life", "communication", "movement", "perception", "cognition", "psychology", "心理学", "technology",
+  # 社會
+  "society", "社会", "politics", "政治", "government", "policy", "law", "法律", "culture",
+]
+# 刻意不列入（多表示情境或卡片類型，而非領域）：
+#   grammar, keigo, onomatopoeia, business, commerce, transaction, location, language, methodology, international, abstract
 
 [[domains]]
 slug = "economics"
