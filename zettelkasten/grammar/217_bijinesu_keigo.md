@@ -241,7 +241,7 @@ Excuse me, may I confirm one point?
 - [丁寧語概念](../concept/丁寧語概念.md) - 丁寧語概念（待建立）
 
 ### 商務溝通相關
-- [56_business.md](../concept/56_business.md) - 商務日語概念（待建立）
+- [058_business.md](../concept/058_business.md) - 商務日語概念（待建立）
 - [063_business_communication.md](../concept/063_business_communication.md) - 商務溝通（待建立）
 - [報連相](報連相.md) - 報告・連絡・相談系統（待建立）
 - [緩衝用語](緩衝用語.md) - クッション言葉（待建立）

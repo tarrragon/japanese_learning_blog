@@ -1,0 +1,4757 @@
+[
+  {
+    "category": "adj-i",
+    "old": "6_yoi_ii.md",
+    "new": "007_yoi_ii.md"
+  },
+  {
+    "category": "adj-i",
+    "old": "007_hoshii.md",
+    "new": "008_hoshii.md"
+  },
+  {
+    "category": "adj-i",
+    "old": "8_ii.md",
+    "new": "009_ii.md"
+  },
+  {
+    "category": "adj-i",
+    "old": "8_mijikai.md",
+    "new": "010_mijikai.md"
+  },
+  {
+    "category": "adj-i",
+    "old": "8_yasui.md",
+    "new": "011_yasui.md"
+  },
+  {
+    "category": "comparison",
+    "old": "39_ato_de_vs_te_kara.md",
+    "new": "040_ato_de_vs_te_kara.md"
+  },
+  {
+    "category": "comparison",
+    "old": "39_de_vs_ni_basho.md",
+    "new": "041_de_vs_ni_basho.md"
+  },
+  {
+    "category": "comparison",
+    "old": "39_ga_vs_wa.md",
+    "new": "042_ga_vs_wa.md"
+  },
+  {
+    "category": "comparison",
+    "old": "39_iku_vs_kuru.md",
+    "new": "043_iku_vs_kuru.md"
+  },
+  {
+    "category": "comparison",
+    "old": "39_iru_vs_aru.md",
+    "new": "044_iru_vs_aru.md"
+  },
+  {
+    "category": "comparison",
+    "old": "39_kanoukei_vs_dekiru.md",
+    "new": "045_kanoukei_vs_dekiru.md"
+  },
+  {
+    "category": "comparison",
+    "old": "39_made_vs_madeni.md",
+    "new": "046_made_vs_madeni.md"
+  },
+  {
+    "category": "comparison",
+    "old": "39_ni_vs_e.md",
+    "new": "047_ni_vs_e.md"
+  },
+  {
+    "category": "comparison",
+    "old": "39_teineitai_vs_futsutai.md",
+    "new": "048_teineitai_vs_futsutai.md"
+  },
+  {
+    "category": "comparison",
+    "old": "39_teiru_vs_tearu.md",
+    "new": "049_teiru_vs_tearu.md"
+  },
+  {
+    "category": "comparison",
+    "old": "39_ukemi_vs_kanou_ichidan.md",
+    "new": "050_ukemi_vs_kanou_ichidan.md"
+  },
+  {
+    "category": "comparison",
+    "old": "39_wo_vs_de_basho.md",
+    "new": "051_wo_vs_de_basho.md"
+  },
+  {
+    "category": "comparison",
+    "old": "040_irassharu_vs_mairu.md",
+    "new": "052_irassharu_vs_mairu.md"
+  },
+  {
+    "category": "comparison",
+    "old": "40_dousa_vs_joutai_doushi.md",
+    "new": "053_dousa_vs_joutai_doushi.md"
+  },
+  {
+    "category": "comparison",
+    "old": "40_jiten_vs_jikan_nagasa.md",
+    "new": "054_jiten_vs_jikan_nagasa.md"
+  },
+  {
+    "category": "comparison",
+    "old": "40_keizoku_vs_kanryou.md",
+    "new": "055_keizoku_vs_kanryou.md"
+  },
+  {
+    "category": "comparison",
+    "old": "40_kuru_vs_kaeru.md",
+    "new": "056_kuru_vs_kaeru.md"
+  },
+  {
+    "category": "comparison",
+    "old": "40_shinkokei_vs_joutaikei.md",
+    "new": "057_shinkokei_vs_joutaikei.md"
+  },
+  {
+    "category": "comparison",
+    "old": "40_sorede_vs_dakara.md",
+    "new": "058_sorede_vs_dakara.md"
+  },
+  {
+    "category": "comparison",
+    "old": "40_soshite_vs_dakara.md",
+    "new": "059_soshite_vs_dakara.md"
+  },
+  {
+    "category": "comparison",
+    "old": "40_soshite_vs_sorekara.md",
+    "new": "060_soshite_vs_sorekara.md"
+  },
+  {
+    "category": "comparison",
+    "old": "40_wo_vs_ni_idou.md",
+    "new": "061_wo_vs_ni_idou.md"
+  },
+  {
+    "category": "comparison",
+    "old": "041_meshiagaru_vs_itadaku.md",
+    "new": "062_meshiagaru_vs_itadaku.md"
+  },
+  {
+    "category": "comparison",
+    "old": "41_ossharu_vs_mousu.md",
+    "new": "063_ossharu_vs_mousu.md"
+  },
+  {
+    "category": "comparison",
+    "old": "042_butsuri_vs_chuushou_shoyuu.md",
+    "new": "064_butsuri_vs_chuushou_shoyuu.md"
+  },
+  {
+    "category": "comparison",
+    "old": "043_kudasaru_itadaku.md",
+    "new": "065_kudasaru_itadaku.md"
+  },
+  {
+    "category": "comparison",
+    "old": "43_inga_setsuzokushi.md",
+    "new": "066_inga_setsuzokushi.md"
+  },
+  {
+    "category": "comparison",
+    "old": "044_ni_vs_kara_endpoint.md",
+    "new": "067_ni_vs_kara_endpoint.md"
+  },
+  {
+    "category": "concept",
+    "old": "56_bijinesu_baai.md",
+    "new": "057_bijinesu_baai.md"
+  },
+  {
+    "category": "concept",
+    "old": "56_business.md",
+    "new": "058_business.md"
+  },
+  {
+    "category": "concept",
+    "old": "56_collocation.md",
+    "new": "059_collocation.md"
+  },
+  {
+    "category": "concept",
+    "old": "56_daily_conversation.md",
+    "new": "060_daily_conversation.md"
+  },
+  {
+    "category": "concept",
+    "old": "56_focus.md",
+    "new": "061_focus.md"
+  },
+  {
+    "category": "concept",
+    "old": "56_formal.md",
+    "new": "062_formal.md"
+  },
+  {
+    "category": "concept",
+    "old": "56_given_new_information.md",
+    "new": "063_given_new_information.md"
+  },
+  {
+    "category": "concept",
+    "old": "56_information_structure.md",
+    "new": "064_information_structure.md"
+  },
+  {
+    "category": "concept",
+    "old": "56_keigo_system.md",
+    "new": "065_keigo_system.md"
+  },
+  {
+    "category": "concept",
+    "old": "56_main_sub_action.md",
+    "new": "066_main_sub_action.md"
+  },
+  {
+    "category": "concept",
+    "old": "56_polite_expression.md",
+    "new": "067_polite_expression.md"
+  },
+  {
+    "category": "concept",
+    "old": "56_predicate.md",
+    "new": "068_predicate.md"
+  },
+  {
+    "category": "concept",
+    "old": "56_sentence_types.md",
+    "new": "069_sentence_types.md"
+  },
+  {
+    "category": "concept",
+    "old": "56_social_context.md",
+    "new": "070_social_context.md"
+  },
+  {
+    "category": "concept",
+    "old": "56_syntax.md",
+    "new": "071_syntax.md"
+  },
+  {
+    "category": "concept",
+    "old": "56_topic_prominent_language.md",
+    "new": "072_topic_prominent_language.md"
+  },
+  {
+    "category": "concept",
+    "old": "56_topicalization.md",
+    "new": "073_topicalization.md"
+  },
+  {
+    "category": "concept",
+    "old": "56_verb_conjugation.md",
+    "new": "074_verb_conjugation.md"
+  },
+  {
+    "category": "concept",
+    "old": "56_word_order.md",
+    "new": "075_word_order.md"
+  },
+  {
+    "category": "concept",
+    "old": "56_written_language.md",
+    "new": "076_written_language.md"
+  },
+  {
+    "category": "concept",
+    "old": "057_social_distance.md",
+    "new": "077_social_distance.md"
+  },
+  {
+    "category": "concept",
+    "old": "57_high_context_culture.md",
+    "new": "078_high_context_culture.md"
+  },
+  {
+    "category": "concept",
+    "old": "058_shiten_riron.md",
+    "new": "079_shiten_riron.md"
+  },
+  {
+    "category": "concept",
+    "old": "059_aizuchi.md",
+    "new": "080_aizuchi.md"
+  },
+  {
+    "category": "concept",
+    "old": "59_nichijou_kaiwa.md",
+    "new": "081_nichijou_kaiwa.md"
+  },
+  {
+    "category": "concept",
+    "old": "060_hourensou.md",
+    "new": "082_hourensou.md"
+  },
+  {
+    "category": "concept",
+    "old": "60_kenjougo_gainen.md",
+    "new": "083_kenjougo_gainen.md"
+  },
+  {
+    "category": "concept",
+    "old": "061_jouhou_kouzou_riron.md",
+    "new": "084_jouhou_kouzou_riron.md"
+  },
+  {
+    "category": "concept",
+    "old": "61_shakai_gengogaku.md",
+    "new": "085_shakai_gengogaku.md"
+  },
+  {
+    "category": "concept",
+    "old": "062_shakai_kaisou.md",
+    "new": "086_shakai_kaisou.md"
+  },
+  {
+    "category": "concept",
+    "old": "063_teineigo_gainen.md",
+    "new": "087_teineigo_gainen.md"
+  },
+  {
+    "category": "concept",
+    "old": "63_group_harmony.md",
+    "new": "088_group_harmony.md"
+  },
+  {
+    "category": "concept",
+    "old": "064_uchi_soto.md",
+    "new": "089_uchi_soto.md"
+  },
+  {
+    "category": "concept",
+    "old": "065_bijinesu_mail.md",
+    "new": "090_bijinesu_mail.md"
+  },
+  {
+    "category": "concept",
+    "old": "65_setsuzokushi_gainen.md",
+    "new": "091_setsuzokushi_gainen.md"
+  },
+  {
+    "category": "concept",
+    "old": "066_formality_level.md",
+    "new": "092_formality_level.md"
+  },
+  {
+    "category": "concept",
+    "old": "66_gender_language.md",
+    "new": "093_gender_language.md"
+  },
+  {
+    "category": "concept",
+    "old": "66_speech_level.md",
+    "new": "094_speech_level.md"
+  },
+  {
+    "category": "concept",
+    "old": "067_goyougaku.md",
+    "new": "095_goyougaku.md"
+  },
+  {
+    "category": "concept",
+    "old": "67_adjective_types.md",
+    "new": "096_adjective_types.md"
+  },
+  {
+    "category": "concept",
+    "old": "67_auxiliary_verb.md",
+    "new": "097_auxiliary_verb.md"
+  },
+  {
+    "category": "concept",
+    "old": "67_daily_conversation2.md",
+    "new": "098_daily_conversation2.md"
+  },
+  {
+    "category": "concept",
+    "old": "67_predicate_types.md",
+    "new": "099_predicate_types.md"
+  },
+  {
+    "category": "concept",
+    "old": "67_sentence_structure.md",
+    "new": "100_sentence_structure.md"
+  },
+  {
+    "category": "concept",
+    "old": "068_ishin_denshin.md",
+    "new": "101_ishin_denshin.md"
+  },
+  {
+    "category": "concept",
+    "old": "68_agglutinative_language.md",
+    "new": "102_agglutinative_language.md"
+  },
+  {
+    "category": "concept",
+    "old": "68_conditional_forms.md",
+    "new": "103_conditional_forms.md"
+  },
+  {
+    "category": "concept",
+    "old": "68_discovery_expression.md",
+    "new": "104_discovery_expression.md"
+  },
+  {
+    "category": "concept",
+    "old": "68_hypothetical_condition.md",
+    "new": "105_hypothetical_condition.md"
+  },
+  {
+    "category": "concept",
+    "old": "069_kuuki_wo_yomu.md",
+    "new": "106_kuuki_wo_yomu.md"
+  },
+  {
+    "category": "concept",
+    "old": "070_pragmatics.md",
+    "new": "107_pragmatics.md"
+  },
+  {
+    "category": "concept",
+    "old": "071_hierarchy.md",
+    "new": "108_hierarchy.md"
+  },
+  {
+    "category": "concept",
+    "old": "072_business_communication.md",
+    "new": "109_business_communication.md"
+  },
+  {
+    "category": "concept",
+    "old": "073_godan_verbs.md",
+    "new": "110_godan_verbs.md"
+  },
+  {
+    "category": "concept",
+    "old": "074_ichidan_verbs.md",
+    "new": "111_ichidan_verbs.md"
+  },
+  {
+    "category": "concept",
+    "old": "075_irregular_verbs.md",
+    "new": "112_irregular_verbs.md"
+  },
+  {
+    "category": "concept",
+    "old": "076_jlpt_levels.md",
+    "new": "113_jlpt_levels.md"
+  },
+  {
+    "category": "concept",
+    "old": "077_subject_prominent.md",
+    "new": "114_subject_prominent.md"
+  },
+  {
+    "category": "concept",
+    "old": "078_transitive_verbs.md",
+    "new": "115_transitive_verbs.md"
+  },
+  {
+    "category": "concept",
+    "old": "079_politeness_levels.md",
+    "new": "116_politeness_levels.md"
+  },
+  {
+    "category": "concept",
+    "old": "080_tatemae_honne.md",
+    "new": "117_tatemae_honne.md"
+  },
+  {
+    "category": "concept",
+    "old": "081_time_expressions.md",
+    "new": "118_time_expressions.md"
+  },
+  {
+    "category": "concept",
+    "old": "082_verb_forms.md",
+    "new": "119_verb_forms.md"
+  },
+  {
+    "category": "concept",
+    "old": "083_formal_writing.md",
+    "new": "120_formal_writing.md"
+  },
+  {
+    "category": "concept",
+    "old": "084_definite_condition.md",
+    "new": "121_definite_condition.md"
+  },
+  {
+    "category": "concept",
+    "old": "085_imperative_form.md",
+    "new": "122_imperative_form.md"
+  },
+  {
+    "category": "concept",
+    "old": "086_particle_system.md",
+    "new": "123_particle_system.md"
+  },
+  {
+    "category": "concept",
+    "old": "087_spoken_language.md",
+    "new": "124_spoken_language.md"
+  },
+  {
+    "category": "concept",
+    "old": "088_ta_form.md",
+    "new": "125_ta_form.md"
+  },
+  {
+    "category": "concept",
+    "old": "089_temporal_sequence.md",
+    "new": "126_temporal_sequence.md"
+  },
+  {
+    "category": "concept",
+    "old": "090_versatility.md",
+    "new": "127_versatility.md"
+  },
+  {
+    "category": "concept",
+    "old": "091_volitional_expression.md",
+    "new": "128_volitional_expression.md"
+  },
+  {
+    "category": "concept",
+    "old": "092_case_frame.md",
+    "new": "129_case_frame.md"
+  },
+  {
+    "category": "concept",
+    "old": "093_teineigo_concept.md",
+    "new": "130_teineigo_concept.md"
+  },
+  {
+    "category": "concept",
+    "old": "094_nominative_case.md",
+    "new": "131_nominative_case.md"
+  },
+  {
+    "category": "concept",
+    "old": "095_renyoukei.md",
+    "new": "132_renyoukei.md"
+  },
+  {
+    "category": "concept",
+    "old": "096_setsuzoku_joshi.md",
+    "new": "133_setsuzoku_joshi.md"
+  },
+  {
+    "category": "concept",
+    "old": "097_na_adjective.md",
+    "new": "134_na_adjective.md"
+  },
+  {
+    "category": "concept",
+    "old": "098_wo.md",
+    "new": "135_wo.md"
+  },
+  {
+    "category": "concept",
+    "old": "099_accusative_case.md",
+    "new": "136_accusative_case.md"
+  },
+  {
+    "category": "concept",
+    "old": "100_business_conversation.md",
+    "new": "137_business_conversation.md"
+  },
+  {
+    "category": "concept",
+    "old": "101_dative_case.md",
+    "new": "138_dative_case.md"
+  },
+  {
+    "category": "concept",
+    "old": "102_grammar_pattern.md",
+    "new": "139_grammar_pattern.md"
+  },
+  {
+    "category": "concept",
+    "old": "103_indo_european_languages.md",
+    "new": "140_indo_european_languages.md"
+  },
+  {
+    "category": "concept",
+    "old": "104_kanoukei.md",
+    "new": "141_kanoukei.md"
+  },
+  {
+    "category": "concept",
+    "old": "105_organizational_regulation.md",
+    "new": "142_organizational_regulation.md"
+  },
+  {
+    "category": "concept",
+    "old": "106_overview.md",
+    "new": "143_overview.md"
+  },
+  {
+    "category": "concept",
+    "old": "107_shakaijin.md",
+    "new": "144_shakaijin.md"
+  },
+  {
+    "category": "concept",
+    "old": "108_tense.md",
+    "new": "145_tense.md"
+  },
+  {
+    "category": "concept",
+    "old": "109_to_quotative.md",
+    "new": "146_to_quotative.md"
+  },
+  {
+    "category": "concept",
+    "old": "110_ukemi.md",
+    "new": "147_ukemi.md"
+  },
+  {
+    "category": "concept",
+    "old": "111_allative_case.md",
+    "new": "148_allative_case.md"
+  },
+  {
+    "category": "concept",
+    "old": "112_instrumental_case.md",
+    "new": "149_instrumental_case.md"
+  },
+  {
+    "category": "concept",
+    "old": "113_politeness.md",
+    "new": "150_politeness.md"
+  },
+  {
+    "category": "concept",
+    "old": "114_speaker.md",
+    "new": "151_speaker.md"
+  },
+  {
+    "category": "concept",
+    "old": "115_masu_form.md",
+    "new": "152_masu_form.md"
+  },
+  {
+    "category": "concept",
+    "old": "116_meishi.md",
+    "new": "153_meishi.md"
+  },
+  {
+    "category": "concept",
+    "old": "117_hearsay_expressions.md",
+    "new": "154_hearsay_expressions.md"
+  },
+  {
+    "category": "concept",
+    "old": "118_setsumei_bun.md",
+    "new": "155_setsumei_bun.md"
+  },
+  {
+    "category": "concept",
+    "old": "119_mokutekigo.md",
+    "new": "156_mokutekigo.md"
+  },
+  {
+    "category": "concept",
+    "old": "120_gakushuusha.md",
+    "new": "157_gakushuusha.md"
+  },
+  {
+    "category": "concept",
+    "old": "121_nominal_suffix.md",
+    "new": "158_nominal_suffix.md"
+  },
+  {
+    "category": "concept",
+    "old": "122_productivity.md",
+    "new": "159_productivity.md"
+  },
+  {
+    "category": "concept",
+    "old": "123_GDP.md",
+    "new": "160_GDP.md"
+  },
+  {
+    "category": "concept",
+    "old": "123_aisatsu.md",
+    "new": "161_aisatsu.md"
+  },
+  {
+    "category": "concept",
+    "old": "123_goran_ni_naru_vs_haiken_suru.md",
+    "new": "162_goran_ni_naru_vs_haiken_suru.md"
+  },
+  {
+    "category": "concept",
+    "old": "123_greeting_002.md",
+    "new": "163_greeting_002.md"
+  },
+  {
+    "category": "concept",
+    "old": "123_haitaiteki_keizai_suiiki.md",
+    "new": "164_haitaiteki_keizai_suiiki.md"
+  },
+  {
+    "category": "concept",
+    "old": "123_jouge_kankei.md",
+    "new": "165_jouge_kankei.md"
+  },
+  {
+    "category": "concept",
+    "old": "123_keiei_kanri.md",
+    "new": "166_keiei_kanri.md"
+  },
+  {
+    "category": "concept",
+    "old": "123_mashou.md",
+    "new": "167_mashou.md"
+  },
+  {
+    "category": "concept",
+    "old": "123_moshikuwa.md",
+    "new": "168_moshikuwa.md"
+  },
+  {
+    "category": "concept",
+    "old": "123_oru_vs_irassharu.md",
+    "new": "169_oru_vs_irassharu.md"
+  },
+  {
+    "category": "concept",
+    "old": "123_otozureru.md",
+    "new": "170_otozureru.md"
+  },
+  {
+    "category": "concept",
+    "old": "123_rieki_tsuikyuu_no_honshitsu.md",
+    "new": "171_rieki_tsuikyuu_no_honshitsu.md"
+  },
+  {
+    "category": "concept",
+    "old": "123_ryoukai.md",
+    "new": "172_ryoukai.md"
+  },
+  {
+    "category": "concept",
+    "old": "123_sassuru_bunka.md",
+    "new": "173_sassuru_bunka.md"
+  },
+  {
+    "category": "concept",
+    "old": "123_なくてもかまわない.md",
+    "new": "174_なくてもかまわない.md"
+  },
+  {
+    "category": "concept",
+    "old": "123_など.md",
+    "new": "175_など.md"
+  },
+  {
+    "category": "concept",
+    "old": "123_べきだ.md",
+    "new": "176_べきだ.md"
+  },
+  {
+    "category": "concept",
+    "old": "123_債務.md",
+    "new": "177_債務.md"
+  },
+  {
+    "category": "concept",
+    "old": "123_受給.md",
+    "new": "178_受給.md"
+  },
+  {
+    "category": "concept",
+    "old": "123_困難・問題的表達方式.md",
+    "new": "179_困難・問題的表達方式.md"
+  },
+  {
+    "category": "concept",
+    "old": "123_擬態語系統.md",
+    "new": "180_擬態語系統.md"
+  },
+  {
+    "category": "concept",
+    "old": "123_時態.md",
+    "new": "181_時態.md"
+  },
+  {
+    "category": "concept",
+    "old": "123_条件節と主節の時制.md",
+    "new": "182_条件節と主節の時制.md"
+  },
+  {
+    "category": "concept",
+    "old": "123_需要.md",
+    "new": "183_需要.md"
+  },
+  {
+    "category": "concept",
+    "old": "124_aspect.md",
+    "new": "184_aspect.md"
+  },
+  {
+    "category": "concept",
+    "old": "125_jiyuuboekikyoutei.md",
+    "new": "185_jiyuuboekikyoutei.md"
+  },
+  {
+    "category": "concept",
+    "old": "126_keijoushuushi.md",
+    "new": "186_keijoushuushi.md"
+  },
+  {
+    "category": "concept",
+    "old": "127_keikidoukou.md",
+    "new": "187_keikidoukou.md"
+  },
+  {
+    "category": "concept",
+    "old": "128_keizaishihyou.md",
+    "new": "188_keizaishihyou.md"
+  },
+  {
+    "category": "concept",
+    "old": "129_kinyuuseisaku.md",
+    "new": "189_kinyuuseisaku.md"
+  },
+  {
+    "category": "concept",
+    "old": "130_saiken.md",
+    "new": "190_saiken.md"
+  },
+  {
+    "category": "concept",
+    "old": "131_shijokeizai.md",
+    "new": "191_shijokeizai.md"
+  },
+  {
+    "category": "concept",
+    "old": "132_shotokuzei.md",
+    "new": "192_shotokuzei.md"
+  },
+  {
+    "category": "concept",
+    "old": "133_zaiseiseisaku.md",
+    "new": "193_zaiseiseisaku.md"
+  },
+  {
+    "category": "concept",
+    "old": "134_zeikin.md",
+    "new": "194_zeikin.md"
+  },
+  {
+    "category": "concept",
+    "old": "135_fudousan.md",
+    "new": "195_fudousan.md"
+  },
+  {
+    "category": "concept",
+    "old": "136_shisan_unyou.md",
+    "new": "196_shisan_unyou.md"
+  },
+  {
+    "category": "concept",
+    "old": "137_sonkeigo_concept.md",
+    "new": "197_sonkeigo_concept.md"
+  },
+  {
+    "category": "concept",
+    "old": "138_uchi_soto.md",
+    "new": "198_uchi_soto.md"
+  },
+  {
+    "category": "concept",
+    "old": "139_bukka.md",
+    "new": "199_bukka.md"
+  },
+  {
+    "category": "concept",
+    "old": "140_gaika_junbi.md",
+    "new": "200_gaika_junbi.md"
+  },
+  {
+    "category": "concept",
+    "old": "141_hikaku_yuui.md",
+    "new": "201_hikaku_yuui.md"
+  },
+  {
+    "category": "concept",
+    "old": "142_imiron.md",
+    "new": "202_imiron.md"
+  },
+  {
+    "category": "concept",
+    "old": "143_jisshitsu_seichouritsu.md",
+    "new": "203_jisshitsu_seichouritsu.md"
+  },
+  {
+    "category": "concept",
+    "old": "144_kinyuu_kikan.md",
+    "new": "204_kinyuu_kikan.md"
+  },
+  {
+    "category": "concept",
+    "old": "145_meimoku_seichouritsu.md",
+    "new": "205_meimoku_seichouritsu.md"
+  },
+  {
+    "category": "concept",
+    "old": "146_yushutsunyuu.md",
+    "new": "206_yushutsunyuu.md"
+  },
+  {
+    "category": "concept",
+    "old": "147_hanashi_kaki_kotoba.md",
+    "new": "207_hanashi_kaki_kotoba.md"
+  },
+  {
+    "category": "concept",
+    "old": "148_jouge_kankei.md",
+    "new": "208_jouge_kankei.md"
+  },
+  {
+    "category": "concept",
+    "old": "149_kuuki_yomu.md",
+    "new": "209_kuuki_yomu.md"
+  },
+  {
+    "category": "concept",
+    "old": "150_sassuru_bunka.md",
+    "new": "210_sassuru_bunka.md"
+  },
+  {
+    "category": "concept",
+    "old": "151_shokuba_bunka.md",
+    "new": "211_shokuba_bunka.md"
+  },
+  {
+    "category": "concept",
+    "old": "152_bijinesu_keigo_kaidan.md",
+    "new": "212_bijinesu_keigo_kaidan.md"
+  },
+  {
+    "category": "concept",
+    "old": "153_conversational_implicature.md",
+    "new": "213_conversational_implicature.md"
+  },
+  {
+    "category": "concept",
+    "old": "154_gengai_no_i.md",
+    "new": "214_gengai_no_i.md"
+  },
+  {
+    "category": "concept",
+    "old": "155_goi_bunkyuu.md",
+    "new": "215_goi_bunkyuu.md"
+  },
+  {
+    "category": "concept",
+    "old": "156_jisei.md",
+    "new": "216_jisei.md"
+  },
+  {
+    "category": "concept",
+    "old": "157_kenjougo_concept.md",
+    "new": "217_kenjougo_concept.md"
+  },
+  {
+    "category": "concept",
+    "old": "158_speech_act_theory.md",
+    "new": "218_speech_act_theory.md"
+  },
+  {
+    "category": "concept",
+    "old": "159_gakushuu_milestone.md",
+    "new": "219_gakushuu_milestone.md"
+  },
+  {
+    "category": "concept",
+    "old": "160_gitaigo_system.md",
+    "new": "220_gitaigo_system.md"
+  },
+  {
+    "category": "concept",
+    "old": "161_goran_vs_haiken.md",
+    "new": "221_goran_vs_haiken.md"
+  },
+  {
+    "category": "concept",
+    "old": "162_irassharu_vs_mairu.md",
+    "new": "222_irassharu_vs_mairu.md"
+  },
+  {
+    "category": "concept",
+    "old": "163_uchi_soto_riron.md",
+    "new": "223_uchi_soto_riron.md"
+  },
+  {
+    "category": "concept",
+    "old": "164_denshi_money.md",
+    "new": "224_denshi_money.md"
+  },
+  {
+    "category": "concept",
+    "old": "165_jun_shisan.md",
+    "new": "225_jun_shisan.md"
+  },
+  {
+    "category": "concept",
+    "old": "166_juyou_kyoukyuu.md",
+    "new": "226_juyou_kyoukyuu.md"
+  },
+  {
+    "category": "concept",
+    "old": "167_kabushiki.md",
+    "new": "227_kabushiki.md"
+  },
+  {
+    "category": "concept",
+    "old": "168_kawase_rate.md",
+    "new": "228_kawase_rate.md"
+  },
+  {
+    "category": "concept",
+    "old": "169_kokusaihou.md",
+    "new": "229_kokusaihou.md"
+  },
+  {
+    "category": "concept",
+    "old": "170_ryouteki_kanwa.md",
+    "new": "230_ryouteki_kanwa.md"
+  },
+  {
+    "category": "concept",
+    "old": "171_seisaku.md",
+    "new": "231_seisaku.md"
+  },
+  {
+    "category": "concept",
+    "old": "172_shotoku.md",
+    "new": "232_shotoku.md"
+  },
+  {
+    "category": "concept",
+    "old": "173_yuushi.md",
+    "new": "233_yuushi.md"
+  },
+  {
+    "category": "concept",
+    "old": "174_zaisei.md",
+    "new": "234_zaisei.md"
+  },
+  {
+    "category": "concept",
+    "old": "175_focus.md",
+    "new": "235_focus.md"
+  },
+  {
+    "category": "concept",
+    "old": "176_contrastive_focus.md",
+    "new": "236_contrastive_focus.md"
+  },
+  {
+    "category": "concept",
+    "old": "177_gijutsu_iten.md",
+    "new": "237_gijutsu_iten.md"
+  },
+  {
+    "category": "concept",
+    "old": "178_monetary_base.md",
+    "new": "238_monetary_base.md"
+  },
+  {
+    "category": "concept",
+    "old": "179_seisaku_teigen.md",
+    "new": "239_seisaku_teigen.md"
+  },
+  {
+    "category": "concept",
+    "old": "180_seishiki_shazai.md",
+    "new": "240_seishiki_shazai.md"
+  },
+  {
+    "category": "concept",
+    "old": "181_金融政策.md",
+    "new": "241_金融政策.md"
+  },
+  {
+    "category": "concept",
+    "old": "182_税金.md",
+    "new": "242_税金.md"
+  },
+  {
+    "category": "concept",
+    "old": "183_経済指標.md",
+    "new": "243_経済指標.md"
+  },
+  {
+    "category": "concept",
+    "old": "184_財政政策.md",
+    "new": "244_財政政策.md"
+  },
+  {
+    "category": "concept",
+    "old": "185_経常収支.md",
+    "new": "245_経常収支.md"
+  },
+  {
+    "category": "concept",
+    "old": "186_所得税.md",
+    "new": "246_所得税.md"
+  },
+  {
+    "category": "concept",
+    "old": "187_アスペクト.md",
+    "new": "247_アスペクト.md"
+  },
+  {
+    "category": "concept",
+    "old": "188_景気動向.md",
+    "new": "248_景気動向.md"
+  },
+  {
+    "category": "concept",
+    "old": "189_市場経済.md",
+    "new": "249_市場経済.md"
+  },
+  {
+    "category": "concept",
+    "old": "190_債券.md",
+    "new": "250_債券.md"
+  },
+  {
+    "category": "concept",
+    "old": "191_自由貿易協定.md",
+    "new": "251_自由貿易協定.md"
+  },
+  {
+    "category": "concept",
+    "old": "192_sonkeigo.md",
+    "new": "252_sonkeigo.md"
+  },
+  {
+    "category": "concept",
+    "old": "193_uchi_soto.md",
+    "new": "253_uchi_soto.md"
+  },
+  {
+    "category": "concept",
+    "old": "194_focus.md",
+    "new": "254_focus.md"
+  },
+  {
+    "category": "concept",
+    "old": "195_kedo.md",
+    "new": "255_kedo.md"
+  },
+  {
+    "category": "concept",
+    "old": "196_teiru.md",
+    "new": "256_teiru.md"
+  },
+  {
+    "category": "concept",
+    "old": "197_temoii.md",
+    "new": "257_temoii.md"
+  },
+  {
+    "category": "concept",
+    "old": "198_taihi_shouten.md",
+    "new": "258_taihi_shouten.md"
+  },
+  {
+    "category": "concept",
+    "old": "199_imiron.md",
+    "new": "259_imiron.md"
+  },
+  {
+    "category": "concept",
+    "old": "200_daga.md",
+    "new": "260_daga.md"
+  },
+  {
+    "category": "concept",
+    "old": "201_nakutehaikenai.md",
+    "new": "261_nakutehaikenai.md"
+  },
+  {
+    "category": "concept",
+    "old": "202_business_keigo.md",
+    "new": "262_business_keigo.md"
+  },
+  {
+    "category": "concept",
+    "old": "203_bukka.md",
+    "new": "263_bukka.md"
+  },
+  {
+    "category": "concept",
+    "old": "204_jisshitsu_seichouritsu.md",
+    "new": "264_jisshitsu_seichouritsu.md"
+  },
+  {
+    "category": "concept",
+    "old": "205_meimoku_seichouritsu.md",
+    "new": "265_meimoku_seichouritsu.md"
+  },
+  {
+    "category": "concept",
+    "old": "206_toushika.md",
+    "new": "266_toushika.md"
+  },
+  {
+    "category": "concept",
+    "old": "207_kinyuu_kikan.md",
+    "new": "267_kinyuu_kikan.md"
+  },
+  {
+    "category": "concept",
+    "old": "208_yokin_tsuchou.md",
+    "new": "268_yokin_tsuchou.md"
+  },
+  {
+    "category": "concept",
+    "old": "209_furikomi.md",
+    "new": "269_furikomi.md"
+  },
+  {
+    "category": "concept",
+    "old": "210_shisan_unyou.md",
+    "new": "270_shisan_unyou.md"
+  },
+  {
+    "category": "concept",
+    "old": "211_fudousan.md",
+    "new": "271_fudousan.md"
+  },
+  {
+    "category": "concept",
+    "old": "212_shuunyuu.md",
+    "new": "272_shuunyuu.md"
+  },
+  {
+    "category": "concept",
+    "old": "213_shishutsu.md",
+    "new": "273_shishutsu.md"
+  },
+  {
+    "category": "concept",
+    "old": "214_keihi.md",
+    "new": "274_keihi.md"
+  },
+  {
+    "category": "concept",
+    "old": "215_yushutsunyu.md",
+    "new": "275_yushutsunyu.md"
+  },
+  {
+    "category": "concept",
+    "old": "216_gaika_junbi.md",
+    "new": "276_gaika_junbi.md"
+  },
+  {
+    "category": "concept",
+    "old": "217_hikaku_yuui.md",
+    "new": "277_hikaku_yuui.md"
+  },
+  {
+    "category": "concept",
+    "old": "218_monetary_base.md",
+    "new": "278_monetary_base.md"
+  },
+  {
+    "category": "concept",
+    "old": "219_kokusaihou.md",
+    "new": "279_kokusaihou.md"
+  },
+  {
+    "category": "concept",
+    "old": "220_gijutsu_iten.md",
+    "new": "280_gijutsu_iten.md"
+  },
+  {
+    "category": "concept",
+    "old": "221_juyou_kyoukyuu.md",
+    "new": "281_juyou_kyoukyuu.md"
+  },
+  {
+    "category": "concept",
+    "old": "222_denshi_money.md",
+    "new": "282_denshi_money.md"
+  },
+  {
+    "category": "concept",
+    "old": "223_yuushi.md",
+    "new": "283_yuushi.md"
+  },
+  {
+    "category": "concept",
+    "old": "224_kawase_rate.md",
+    "new": "284_kawase_rate.md"
+  },
+  {
+    "category": "concept",
+    "old": "225_ryouteki_kanwa.md",
+    "new": "285_ryouteki_kanwa.md"
+  },
+  {
+    "category": "concept",
+    "old": "226_seisaku_teigen.md",
+    "new": "286_seisaku_teigen.md"
+  },
+  {
+    "category": "concept",
+    "old": "227_seisaku.md",
+    "new": "287_seisaku.md"
+  },
+  {
+    "category": "concept",
+    "old": "228_jun_shisan.md",
+    "new": "288_jun_shisan.md"
+  },
+  {
+    "category": "concept",
+    "old": "229_kabushiki.md",
+    "new": "289_kabushiki.md"
+  },
+  {
+    "category": "concept",
+    "old": "230_shotoku.md",
+    "new": "290_shotoku.md"
+  },
+  {
+    "category": "concept",
+    "old": "231_zaisei.md",
+    "new": "291_zaisei.md"
+  },
+  {
+    "category": "concept",
+    "old": "232_accent_information_structure.md",
+    "new": "292_accent_information_structure.md"
+  },
+  {
+    "category": "concept",
+    "old": "232_akka.md",
+    "new": "293_akka.md"
+  },
+  {
+    "category": "concept",
+    "old": "232_akuma.md",
+    "new": "294_akuma.md"
+  },
+  {
+    "category": "concept",
+    "old": "232_akushitsu.md",
+    "new": "295_akushitsu.md"
+  },
+  {
+    "category": "concept",
+    "old": "232_ii.md",
+    "new": "296_ii.md"
+  },
+  {
+    "category": "concept",
+    "old": "232_sonkeigo_concept.md",
+    "new": "297_sonkeigo_concept.md"
+  },
+  {
+    "category": "concept",
+    "old": "233_bungo_to_kougo.md",
+    "new": "298_bungo_to_kougo.md"
+  },
+  {
+    "category": "concept",
+    "old": "233_kenjougo_concept.md",
+    "new": "299_kenjougo_concept.md"
+  },
+  {
+    "category": "concept",
+    "old": "233_seishiki_owabi_hyougen.md",
+    "new": "300_seishiki_owabi_hyougen.md"
+  },
+  {
+    "category": "concept",
+    "old": "233_uchi_soto_riron.md",
+    "new": "301_uchi_soto_riron.md"
+  },
+  {
+    "category": "concept",
+    "old": "234_gitaigo_system.md",
+    "new": "302_gitaigo_system.md"
+  },
+  {
+    "category": "concept",
+    "old": "234_houritsu_bunsho_no_nihongo.md",
+    "new": "303_houritsu_bunsho_no_nihongo.md"
+  },
+  {
+    "category": "concept",
+    "old": "234_shikaku_koka_gitaigo.md",
+    "new": "304_shikaku_koka_gitaigo.md"
+  },
+  {
+    "category": "concept",
+    "old": "234_soretomo.md",
+    "new": "305_soretomo.md"
+  },
+  {
+    "category": "concept",
+    "old": "235_conversational_implicature.md",
+    "new": "306_conversational_implicature.md"
+  },
+  {
+    "category": "concept",
+    "old": "235_goran_ni_naru_vs_haiken_suru.md",
+    "new": "307_goran_ni_naru_vs_haiken_suru.md"
+  },
+  {
+    "category": "concept",
+    "old": "235_kuuki_wo_yomu.md",
+    "new": "308_kuuki_wo_yomu.md"
+  },
+  {
+    "category": "concept",
+    "old": "235_shiten_to_keigo.md",
+    "new": "309_shiten_to_keigo.md"
+  },
+  {
+    "category": "concept",
+    "old": "236_gengai_no_i.md",
+    "new": "310_gengai_no_i.md"
+  },
+  {
+    "category": "concept",
+    "old": "236_hatsuwa_koui_riron.md",
+    "new": "311_hatsuwa_koui_riron.md"
+  },
+  {
+    "category": "concept",
+    "old": "236_jouge_kankei.md",
+    "new": "312_jouge_kankei.md"
+  },
+  {
+    "category": "concept",
+    "old": "237_gakushuu_milestone.md",
+    "new": "313_gakushuu_milestone.md"
+  },
+  {
+    "category": "concept",
+    "old": "237_goi_bunkyuu_system.md",
+    "new": "314_goi_bunkyuu_system.md"
+  },
+  {
+    "category": "concept",
+    "old": "237_japanese_language_family.md",
+    "new": "315_japanese_language_family.md"
+  },
+  {
+    "category": "concept",
+    "old": "237_keigo_system_concept.md",
+    "new": "316_keigo_system_concept.md"
+  },
+  {
+    "category": "concept",
+    "old": "237_language_typology.md",
+    "new": "317_language_typology.md"
+  },
+  {
+    "category": "concept",
+    "old": "238_formal_vs_casual_speech.md",
+    "new": "318_formal_vs_casual_speech.md"
+  },
+  {
+    "category": "concept",
+    "old": "238_shokuba_bunka.md",
+    "new": "319_shokuba_bunka.md"
+  },
+  {
+    "category": "concept",
+    "old": "239_da.md",
+    "new": "320_da.md"
+  },
+  {
+    "category": "concept",
+    "old": "239_desu.md",
+    "new": "321_desu.md"
+  },
+  {
+    "category": "concept",
+    "old": "239_jouge_kankei.md",
+    "new": "322_jouge_kankei.md"
+  },
+  {
+    "category": "concept",
+    "old": "239_kakariuke.md",
+    "new": "323_kakariuke.md"
+  },
+  {
+    "category": "concept",
+    "old": "239_だ.md",
+    "new": "324_だ.md"
+  },
+  {
+    "category": "concept",
+    "old": "239_です.md",
+    "new": "325_です.md"
+  },
+  {
+    "category": "concept",
+    "old": "240_fukubun_to_tanbun.md",
+    "new": "326_fukubun_to_tanbun.md"
+  },
+  {
+    "category": "concept",
+    "old": "240_junsetsu_gyakusetsu_jouken.md",
+    "new": "327_junsetsu_gyakusetsu_jouken.md"
+  },
+  {
+    "category": "concept",
+    "old": "240_tense_aspect.md",
+    "new": "328_tense_aspect.md"
+  },
+  {
+    "category": "concept",
+    "old": "240_voice.md",
+    "new": "329_voice.md"
+  },
+  {
+    "category": "concept",
+    "old": "241_inga_kankei.md",
+    "new": "330_inga_kankei.md"
+  },
+  {
+    "category": "concept",
+    "old": "241_jikan_no_junjosei.md",
+    "new": "331_jikan_no_junjosei.md"
+  },
+  {
+    "category": "concept",
+    "old": "241_joukensetsu.md",
+    "new": "332_joukensetsu.md"
+  },
+  {
+    "category": "concept",
+    "old": "241_kateihou.md",
+    "new": "333_kateihou.md"
+  },
+  {
+    "category": "concept",
+    "old": "241_kouyou.md",
+    "new": "334_kouyou.md"
+  },
+  {
+    "category": "concept",
+    "old": "241_moushiageru.md",
+    "new": "335_moushiageru.md"
+  },
+  {
+    "category": "concept",
+    "old": "241_o_go_kudasai.md",
+    "new": "336_o_go_kudasai.md"
+  },
+  {
+    "category": "concept",
+    "old": "242_genkai_kouyou.md",
+    "new": "337_genkai_kouyou.md"
+  },
+  {
+    "category": "concept",
+    "old": "243_bijinesu_aisatsu.md",
+    "new": "338_bijinesu_aisatsu.md"
+  },
+  {
+    "category": "concept",
+    "old": "243_kenjougo_concept.md",
+    "new": "339_kenjougo_concept.md"
+  },
+  {
+    "category": "concept",
+    "old": "243_naito_ikenai.md",
+    "new": "340_naito_ikenai.md"
+  },
+  {
+    "category": "concept",
+    "old": "243_te_kudasai.md",
+    "new": "341_te_kudasai.md"
+  },
+  {
+    "category": "concept",
+    "old": "243_you_ni_naru.md",
+    "new": "342_you_ni_naru.md"
+  },
+  {
+    "category": "concept",
+    "old": "244_ku_naru.md",
+    "new": "343_ku_naru.md"
+  },
+  {
+    "category": "concept",
+    "old": "244_ukagau.md",
+    "new": "344_ukagau.md"
+  },
+  {
+    "category": "concept",
+    "old": "245_desu_da.md",
+    "new": "345_desu_da.md"
+  },
+  {
+    "category": "concept",
+    "old": "245_kakikotoba.md",
+    "new": "346_kakikotoba.md"
+  },
+  {
+    "category": "concept",
+    "old": "245_kyoka_kinshi_hyougen.md",
+    "new": "347_kyoka_kinshi_hyougen.md"
+  },
+  {
+    "category": "concept",
+    "old": "245_nai_hou_ga_ii.md",
+    "new": "348_nai_hou_ga_ii.md"
+  },
+  {
+    "category": "concept",
+    "old": "245_ta_tokoro.md",
+    "new": "349_ta_tokoro.md"
+  },
+  {
+    "category": "concept",
+    "old": "245_you_to_shiteiru_tokoro.md",
+    "new": "350_you_to_shiteiru_tokoro.md"
+  },
+  {
+    "category": "concept",
+    "old": "246_naru.md",
+    "new": "351_naru.md"
+  },
+  {
+    "category": "concept",
+    "old": "247_shinakute_ii.md",
+    "new": "352_shinakute_ii.md"
+  },
+  {
+    "category": "concept",
+    "old": "248_hougen_chouchou.md",
+    "new": "353_hougen_chouchou.md"
+  },
+  {
+    "category": "concept",
+    "old": "248_infura_seibi.md",
+    "new": "354_infura_seibi.md"
+  },
+  {
+    "category": "concept",
+    "old": "248_jinken_shingai.md",
+    "new": "355_jinken_shingai.md"
+  },
+  {
+    "category": "concept",
+    "old": "248_kahen_katsuyou.md",
+    "new": "356_kahen_katsuyou.md"
+  },
+  {
+    "category": "concept",
+    "old": "248_kyoto_hougen.md",
+    "new": "357_kyoto_hougen.md"
+  },
+  {
+    "category": "concept",
+    "old": "248_masenka.md",
+    "new": "358_masenka.md"
+  },
+  {
+    "category": "concept",
+    "old": "248_osaka_hougen.md",
+    "new": "359_osaka_hougen.md"
+  },
+  {
+    "category": "concept",
+    "old": "248_seikyuu_hyougen.md",
+    "new": "360_seikyuu_hyougen.md"
+  },
+  {
+    "category": "concept",
+    "old": "248_te_wa_ikenai.md",
+    "new": "361_te_wa_ikenai.md"
+  },
+  {
+    "category": "concept",
+    "old": "248_temo_ii_koubun.md",
+    "new": "362_temo_ii_koubun.md"
+  },
+  {
+    "category": "concept",
+    "old": "248_tokyo_hougen.md",
+    "new": "363_tokyo_hougen.md"
+  },
+  {
+    "category": "concept",
+    "old": "248_zaisei_shuushi.md",
+    "new": "364_zaisei_shuushi.md"
+  },
+  {
+    "category": "concept",
+    "old": "249_ATM.md",
+    "new": "365_ATM.md"
+  },
+  {
+    "category": "concept",
+    "old": "249_kanzen_shitsugyouritsu.md",
+    "new": "366_kanzen_shitsugyouritsu.md"
+  },
+  {
+    "category": "concept",
+    "old": "249_kara_made_hani.md",
+    "new": "367_kara_made_hani.md"
+  },
+  {
+    "category": "concept",
+    "old": "249_nagaramo.md",
+    "new": "368_nagaramo.md"
+  },
+  {
+    "category": "concept",
+    "old": "249_risuku.md",
+    "new": "369_risuku.md"
+  },
+  {
+    "category": "concept",
+    "old": "249_shakai_kisoku.md",
+    "new": "370_shakai_kisoku.md"
+  },
+  {
+    "category": "concept",
+    "old": "249_shouhisha_bukka_shisuu.md",
+    "new": "371_shouhisha_bukka_shisuu.md"
+  },
+  {
+    "category": "concept",
+    "old": "249_shouhisha_taido_shisuu.md",
+    "new": "372_shouhisha_taido_shisuu.md"
+  },
+  {
+    "category": "concept",
+    "old": "249_te_itadakemasu_ka.md",
+    "new": "373_te_itadakemasu_ka.md"
+  },
+  {
+    "category": "concept",
+    "old": "249_te_itadakitai_nodesuga.md",
+    "new": "374_te_itadakitai_nodesuga.md"
+  },
+  {
+    "category": "concept",
+    "old": "249_tsutsu.md",
+    "new": "375_tsutsu.md"
+  },
+  {
+    "category": "concept",
+    "old": "249_yuuka_shouken.md",
+    "new": "376_yuuka_shouken.md"
+  },
+  {
+    "category": "concept",
+    "old": "249_yuukou_kyuujin_bairitsu.md",
+    "new": "377_yuukou_kyuujin_bairitsu.md"
+  },
+  {
+    "category": "concept",
+    "old": "250_kougyou_seisan_shisuu.md",
+    "new": "378_kougyou_seisan_shisuu.md"
+  },
+  {
+    "category": "concept",
+    "old": "250_nyushukkin.md",
+    "new": "379_nyushukkin.md"
+  },
+  {
+    "category": "concept",
+    "old": "250_roudou.md",
+    "new": "380_roudou.md"
+  },
+  {
+    "category": "concept",
+    "old": "250_security.md",
+    "new": "381_security.md"
+  },
+  {
+    "category": "concept",
+    "old": "250_te_sashiageru.md",
+    "new": "382_te_sashiageru.md"
+  },
+  {
+    "category": "concept",
+    "old": "251_ROI.md",
+    "new": "383_ROI.md"
+  },
+  {
+    "category": "concept",
+    "old": "251_fudousan_toushi.md",
+    "new": "384_fudousan_toushi.md"
+  },
+  {
+    "category": "concept",
+    "old": "251_houkai.md",
+    "new": "385_houkai.md"
+  },
+  {
+    "category": "concept",
+    "old": "251_kabushiki_toushi.md",
+    "new": "386_kabushiki_toushi.md"
+  },
+  {
+    "category": "concept",
+    "old": "251_kazei.md",
+    "new": "387_kazei.md"
+  },
+  {
+    "category": "concept",
+    "old": "251_keizaigaku_no_kihon_gainen.md",
+    "new": "388_keizaigaku_no_kihon_gainen.md"
+  },
+  {
+    "category": "concept",
+    "old": "251_koukyouzai.md",
+    "new": "389_koukyouzai.md"
+  },
+  {
+    "category": "concept",
+    "old": "251_nihon_no_baburu_keizai.md",
+    "new": "390_nihon_no_baburu_keizai.md"
+  },
+  {
+    "category": "concept",
+    "old": "251_nouzeisha.md",
+    "new": "391_nouzeisha.md"
+  },
+  {
+    "category": "concept",
+    "old": "251_portfolio.md",
+    "new": "392_portfolio.md"
+  },
+  {
+    "category": "concept",
+    "old": "251_sozei_futan.md",
+    "new": "393_sozei_futan.md"
+  },
+  {
+    "category": "concept",
+    "old": "251_zeiritsu.md",
+    "new": "394_zeiritsu.md"
+  },
+  {
+    "category": "concept",
+    "old": "251_zeisei_kaikaku.md",
+    "new": "395_zeisei_kaikaku.md"
+  },
+  {
+    "category": "concept",
+    "old": "252_kinyuu_seisaku.md",
+    "new": "396_kinyuu_seisaku.md"
+  },
+  {
+    "category": "concept",
+    "old": "252_shisan_kakaku_no_hendou.md",
+    "new": "397_shisan_kakaku_no_hendou.md"
+  },
+  {
+    "category": "concept",
+    "old": "253_baburu_keizai.md",
+    "new": "398_baburu_keizai.md"
+  },
+  {
+    "category": "concept",
+    "old": "253_genkin.md",
+    "new": "399_genkin.md"
+  },
+  {
+    "category": "concept",
+    "old": "253_hanei.md",
+    "new": "400_hanei.md"
+  },
+  {
+    "category": "concept",
+    "old": "253_hiyou.md",
+    "new": "401_hiyou.md"
+  },
+  {
+    "category": "concept",
+    "old": "253_ipo.md",
+    "new": "402_ipo.md"
+  },
+  {
+    "category": "concept",
+    "old": "253_jizoku_kanou_na_seichou.md",
+    "new": "403_jizoku_kanou_na_seichou.md"
+  },
+  {
+    "category": "concept",
+    "old": "253_kokeiki.md",
+    "new": "404_kokeiki.md"
+  },
+  {
+    "category": "concept",
+    "old": "253_money.md",
+    "new": "405_money.md"
+  },
+  {
+    "category": "concept",
+    "old": "253_niyori.md",
+    "new": "406_niyori.md"
+  },
+  {
+    "category": "concept",
+    "old": "253_senzai_seichouritsu.md",
+    "new": "407_senzai_seichouritsu.md"
+  },
+  {
+    "category": "concept",
+    "old": "253_taishaku_taishouhyou.md",
+    "new": "408_taishaku_taishouhyou.md"
+  },
+  {
+    "category": "concept",
+    "old": "253_toshite.md",
+    "new": "409_toshite.md"
+  },
+  {
+    "category": "concept",
+    "old": "253_zaisan.md",
+    "new": "410_zaisan.md"
+  },
+  {
+    "category": "concept",
+    "old": "253_バブル経済.md",
+    "new": "411_バブル経済.md"
+  },
+  {
+    "category": "concept",
+    "old": "254_chokusetsu_zei.md",
+    "new": "412_chokusetsu_zei.md"
+  },
+  {
+    "category": "concept",
+    "old": "254_hogo_shugi.md",
+    "new": "413_hogo_shugi.md"
+  },
+  {
+    "category": "concept",
+    "old": "254_houjinzei.md",
+    "new": "414_houjinzei.md"
+  },
+  {
+    "category": "concept",
+    "old": "254_jisseki.md",
+    "new": "415_jisseki.md"
+  },
+  {
+    "category": "concept",
+    "old": "254_kansetuzei.md",
+    "new": "416_kansetuzei.md"
+  },
+  {
+    "category": "concept",
+    "old": "254_menzei.md",
+    "new": "417_menzei.md"
+  },
+  {
+    "category": "concept",
+    "old": "254_shikin_haibun.md",
+    "new": "418_shikin_haibun.md"
+  },
+  {
+    "category": "concept",
+    "old": "254_yotei_hiyou.md",
+    "new": "419_yotei_hiyou.md"
+  },
+  {
+    "category": "concept",
+    "old": "254_yunyuuzei.md",
+    "new": "420_yunyuuzei.md"
+  },
+  {
+    "category": "concept",
+    "old": "254_zaimu_keikaku.md",
+    "new": "421_zaimu_keikaku.md"
+  },
+  {
+    "category": "concept",
+    "old": "254_zeikan.md",
+    "new": "422_zeikan.md"
+  },
+  {
+    "category": "concept",
+    "old": "254_zeishuu.md",
+    "new": "423_zeishuu.md"
+  },
+  {
+    "category": "concept",
+    "old": "255_WTO.md",
+    "new": "424_WTO.md"
+  },
+  {
+    "category": "concept",
+    "old": "255_boueki_kyoutei.md",
+    "new": "425_boueki_kyoutei.md"
+  },
+  {
+    "category": "concept",
+    "old": "255_boueki_seigen.md",
+    "new": "426_boueki_seigen.md"
+  },
+  {
+    "category": "concept",
+    "old": "255_gaikou_seisaku.md",
+    "new": "427_gaikou_seisaku.md"
+  },
+  {
+    "category": "concept",
+    "old": "255_hakken_ginkou.md",
+    "new": "428_hakken_ginkou.md"
+  },
+  {
+    "category": "concept",
+    "old": "255_keizai_fuusa.md",
+    "new": "429_keizai_fuusa.md"
+  },
+  {
+    "category": "concept",
+    "old": "255_kessan.md",
+    "new": "430_kessan.md"
+  },
+  {
+    "category": "concept",
+    "old": "255_kinyu_kiki.md",
+    "new": "431_kinyu_kiki.md"
+  },
+  {
+    "category": "concept",
+    "old": "255_kokusai_boueki.md",
+    "new": "432_kokusai_boueki.md"
+  },
+  {
+    "category": "concept",
+    "old": "255_kokusai_keizai.md",
+    "new": "433_kokusai_keizai.md"
+  },
+  {
+    "category": "concept",
+    "old": "255_shichuu_ginkou.md",
+    "new": "434_shichuu_ginkou.md"
+  },
+  {
+    "category": "concept",
+    "old": "255_shihon_shuushi.md",
+    "new": "435_shihon_shuushi.md"
+  },
+  {
+    "category": "concept",
+    "old": "255_shisan_toketsu.md",
+    "new": "436_shisan_toketsu.md"
+  },
+  {
+    "category": "concept",
+    "old": "255_yosanan.md",
+    "new": "437_yosanan.md"
+  },
+  {
+    "category": "concept",
+    "old": "256_kyoukou.md",
+    "new": "438_kyoukou.md"
+  },
+  {
+    "category": "concept",
+    "old": "257_ODA.md",
+    "new": "439_ODA.md"
+  },
+  {
+    "category": "concept",
+    "old": "257_boueki_shouheki.md",
+    "new": "440_boueki_shouheki.md"
+  },
+  {
+    "category": "concept",
+    "old": "257_chiiki_kaihatsu.md",
+    "new": "441_chiiki_kaihatsu.md"
+  },
+  {
+    "category": "concept",
+    "old": "257_chiiki_keizai_tougou.md",
+    "new": "442_chiiki_keizai_tougou.md"
+  },
+  {
+    "category": "concept",
+    "old": "257_hikanzei_shouheki.md",
+    "new": "443_hikanzei_shouheki.md"
+  },
+  {
+    "category": "concept",
+    "old": "257_jouba.md",
+    "new": "444_jouba.md"
+  },
+  {
+    "category": "concept",
+    "old": "257_kaihatsu_enjo.md",
+    "new": "445_kaihatsu_enjo.md"
+  },
+  {
+    "category": "concept",
+    "old": "257_keizai_renkei.md",
+    "new": "446_keizai_renkei.md"
+  },
+  {
+    "category": "concept",
+    "old": "257_sangyou_hatten.md",
+    "new": "447_sangyou_hatten.md"
+  },
+  {
+    "category": "concept",
+    "old": "257_seikatsuhi.md",
+    "new": "448_seikatsuhi.md"
+  },
+  {
+    "category": "concept",
+    "old": "257_senshinkoku.md",
+    "new": "449_senshinkoku.md"
+  },
+  {
+    "category": "concept",
+    "old": "257_shisuu.md",
+    "new": "450_shisuu.md"
+  },
+  {
+    "category": "concept",
+    "old": "257_takokukan_kyoutei.md",
+    "new": "451_takokukan_kyoutei.md"
+  },
+  {
+    "category": "concept",
+    "old": "258_douteki_saitekika.md",
+    "new": "452_douteki_saitekika.md"
+  },
+  {
+    "category": "concept",
+    "old": "258_ippan_kinkou_riron.md",
+    "new": "453_ippan_kinkou_riron.md"
+  },
+  {
+    "category": "concept",
+    "old": "258_jizoku_kanou_na_kaihatsu.md",
+    "new": "454_jizoku_kanou_na_kaihatsu.md"
+  },
+  {
+    "category": "concept",
+    "old": "258_kaiyouhou_jouyaku.md",
+    "new": "455_kaiyouhou_jouyaku.md"
+  },
+  {
+    "category": "concept",
+    "old": "258_kokusai_kyouryoku.md",
+    "new": "456_kokusai_kyouryoku.md"
+  },
+  {
+    "category": "concept",
+    "old": "258_kokusai_tsuuka_kikin.md",
+    "new": "457_kokusai_tsuuka_kikin.md"
+  },
+  {
+    "category": "concept",
+    "old": "258_koukai.md",
+    "new": "458_koukai.md"
+  },
+  {
+    "category": "concept",
+    "old": "258_roudou_seisansei.md",
+    "new": "459_roudou_seisansei.md"
+  },
+  {
+    "category": "concept",
+    "old": "258_roushi_kankei.md",
+    "new": "460_roushi_kankei.md"
+  },
+  {
+    "category": "concept",
+    "old": "258_seichou_riron.md",
+    "new": "461_seichou_riron.md"
+  },
+  {
+    "category": "concept",
+    "old": "258_shunto.md",
+    "new": "462_shunto.md"
+  },
+  {
+    "category": "concept",
+    "old": "259_sekai_ginkou.md",
+    "new": "463_sekai_ginkou.md"
+  },
+  {
+    "category": "concept",
+    "old": "259_soshiki.md",
+    "new": "464_soshiki.md"
+  },
+  {
+    "category": "concept",
+    "old": "259_tennen_shigen.md",
+    "new": "465_tennen_shigen.md"
+  },
+  {
+    "category": "concept",
+    "old": "260_M_and_A.md",
+    "new": "466_M_and_A.md"
+  },
+  {
+    "category": "concept",
+    "old": "260_angou_shisan.md",
+    "new": "467_angou_shisan.md"
+  },
+  {
+    "category": "concept",
+    "old": "260_cashless.md",
+    "new": "468_cashless.md"
+  },
+  {
+    "category": "concept",
+    "old": "260_ginkou_yokin.md",
+    "new": "469_ginkou_yokin.md"
+  },
+  {
+    "category": "concept",
+    "old": "260_keidanren.md",
+    "new": "470_keidanren.md"
+  },
+  {
+    "category": "concept",
+    "old": "260_keizai_dantai.md",
+    "new": "471_keizai_dantai.md"
+  },
+  {
+    "category": "concept",
+    "old": "260_keizai_keikaku.md",
+    "new": "472_keizai_keikaku.md"
+  },
+  {
+    "category": "concept",
+    "old": "260_kikai_hiyou.md",
+    "new": "473_kikai_hiyou.md"
+  },
+  {
+    "category": "concept",
+    "old": "260_kinyu_gijutsu.md",
+    "new": "474_kinyu_gijutsu.md"
+  },
+  {
+    "category": "concept",
+    "old": "260_kisei_kaikaku.md",
+    "new": "475_kisei_kaikaku.md"
+  },
+  {
+    "category": "concept",
+    "old": "260_koubairyoku.md",
+    "new": "476_koubairyoku.md"
+  },
+  {
+    "category": "concept",
+    "old": "260_money_supply.md",
+    "new": "477_money_supply.md"
+  },
+  {
+    "category": "concept",
+    "old": "260_nihon_shoukou_kaigisho.md",
+    "new": "478_nihon_shoukou_kaigisho.md"
+  },
+  {
+    "category": "concept",
+    "old": "260_shakaishugi.md",
+    "new": "479_shakaishugi.md"
+  },
+  {
+    "category": "concept",
+    "old": "261_kessai.md",
+    "new": "480_kessai.md"
+  },
+  {
+    "category": "concept",
+    "old": "262_bunsan_toushi.md",
+    "new": "481_bunsan_toushi.md"
+  },
+  {
+    "category": "concept",
+    "old": "262_eigyou_rieki.md",
+    "new": "482_eigyou_rieki.md"
+  },
+  {
+    "category": "concept",
+    "old": "262_jiyuu_shugi.md",
+    "new": "483_jiyuu_shugi.md"
+  },
+  {
+    "category": "concept",
+    "old": "262_keikaku_keizai.md",
+    "new": "484_keikaku_keizai.md"
+  },
+  {
+    "category": "concept",
+    "old": "262_kigyouka.md",
+    "new": "485_kigyouka.md"
+  },
+  {
+    "category": "concept",
+    "old": "262_roudousha.md",
+    "new": "486_roudousha.md"
+  },
+  {
+    "category": "concept",
+    "old": "262_seisaku_kinri.md",
+    "new": "487_seisaku_kinri.md"
+  },
+  {
+    "category": "concept",
+    "old": "262_shihon_shugi.md",
+    "new": "488_shihon_shugi.md"
+  },
+  {
+    "category": "concept",
+    "old": "262_songeki_keisansho.md",
+    "new": "489_songeki_keisansho.md"
+  },
+  {
+    "category": "concept",
+    "old": "262_uriagadaka.md",
+    "new": "490_uriagadaka.md"
+  },
+  {
+    "category": "concept",
+    "old": "262_zaimu_bunseki.md",
+    "new": "491_zaimu_bunseki.md"
+  },
+  {
+    "category": "concept",
+    "old": "263_eigyou_hiyou.md",
+    "new": "492_eigyou_hiyou.md"
+  },
+  {
+    "category": "concept",
+    "old": "263_eigyougai_shuunyuu.md",
+    "new": "493_eigyougai_shuunyuu.md"
+  },
+  {
+    "category": "concept",
+    "old": "263_koyou.md",
+    "new": "494_koyou.md"
+  },
+  {
+    "category": "concept",
+    "old": "263_zoushi.md",
+    "new": "495_zoushi.md"
+  },
+  {
+    "category": "concept",
+    "old": "264_houjinzei.md",
+    "new": "496_houjinzei.md"
+  },
+  {
+    "category": "concept",
+    "old": "264_keizai_taikoku.md",
+    "new": "497_keizai_taikoku.md"
+  },
+  {
+    "category": "concept",
+    "old": "264_kinyuuchou.md",
+    "new": "498_kinyuuchou.md"
+  },
+  {
+    "category": "concept",
+    "old": "264_kokumin_shotoku.md",
+    "new": "499_kokumin_shotoku.md"
+  },
+  {
+    "category": "concept",
+    "old": "264_kokusai.md",
+    "new": "500_kokusai.md"
+  },
+  {
+    "category": "concept",
+    "old": "264_kouritsu.md",
+    "new": "501_kouritsu.md"
+  },
+  {
+    "category": "concept",
+    "old": "264_kyouiku.md",
+    "new": "502_kyouiku.md"
+  },
+  {
+    "category": "concept",
+    "old": "264_nanmin.md",
+    "new": "503_nanmin.md"
+  },
+  {
+    "category": "concept",
+    "old": "264_sainyuu.md",
+    "new": "504_sainyuu.md"
+  },
+  {
+    "category": "concept",
+    "old": "264_shakai_shihon.md",
+    "new": "505_shakai_shihon.md"
+  },
+  {
+    "category": "concept",
+    "old": "264_zeisei.md",
+    "new": "506_zeisei.md"
+  },
+  {
+    "category": "concept",
+    "old": "265_chika.md",
+    "new": "507_chika.md"
+  },
+  {
+    "category": "concept",
+    "old": "265_genka.md",
+    "new": "508_genka.md"
+  },
+  {
+    "category": "concept",
+    "old": "265_nenmatsu_chousei.md",
+    "new": "509_nenmatsu_chousei.md"
+  },
+  {
+    "category": "concept",
+    "old": "265_shijou_no_shippai.md",
+    "new": "510_shijou_no_shippai.md"
+  },
+  {
+    "category": "concept",
+    "old": "266_bukka_antei.md",
+    "new": "511_bukka_antei.md"
+  },
+  {
+    "category": "concept",
+    "old": "266_imin.md",
+    "new": "512_imin.md"
+  },
+  {
+    "category": "concept",
+    "old": "266_keizai_nanmin.md",
+    "new": "513_keizai_nanmin.md"
+  },
+  {
+    "category": "concept",
+    "old": "266_nihon_ginkou.md",
+    "new": "514_nihon_ginkou.md"
+  },
+  {
+    "category": "concept",
+    "old": "266_nyuuryoku.md",
+    "new": "515_nyuuryoku.md"
+  },
+  {
+    "category": "concept",
+    "old": "266_rieki_souhan.md",
+    "new": "516_rieki_souhan.md"
+  },
+  {
+    "category": "concept",
+    "old": "266_shuueki_to_rieki_no_chigai.md",
+    "new": "517_shuueki_to_rieki_no_chigai.md"
+  },
+  {
+    "category": "concept",
+    "old": "266_tsuuka_kyoukyuu.md",
+    "new": "518_tsuuka_kyoukyuu.md"
+  },
+  {
+    "category": "concept",
+    "old": "266_zeimusho.md",
+    "new": "519_zeimusho.md"
+  },
+  {
+    "category": "concept",
+    "old": "267_boumei.md",
+    "new": "520_boumei.md"
+  },
+  {
+    "category": "concept",
+    "old": "267_jinken.md",
+    "new": "521_jinken.md"
+  },
+  {
+    "category": "concept",
+    "old": "267_kyoukyuu.md",
+    "new": "522_kyoukyuu.md"
+  },
+  {
+    "category": "concept",
+    "old": "267_nouzei.md",
+    "new": "523_nouzei.md"
+  },
+  {
+    "category": "concept",
+    "old": "268_chie.md",
+    "new": "524_chie.md"
+  },
+  {
+    "category": "concept",
+    "old": "268_jouhou.md",
+    "new": "525_jouhou.md"
+  },
+  {
+    "category": "concept",
+    "old": "268_jouhou_koukai.md",
+    "new": "526_jouhou_koukai.md"
+  },
+  {
+    "category": "concept",
+    "old": "268_setsumei_sekinin.md",
+    "new": "527_setsumei_sekinin.md"
+  },
+  {
+    "category": "concept",
+    "old": "268_shijou_no_kouritsuse.md",
+    "new": "528_shijou_no_kouritsuse.md"
+  },
+  {
+    "category": "concept",
+    "old": "268_shinraisei.md",
+    "new": "529_shinraisei.md"
+  },
+  {
+    "category": "concept",
+    "old": "268_wo_fukameru.md",
+    "new": "530_wo_fukameru.md"
+  },
+  {
+    "category": "concept",
+    "old": "268_wo_motsu.md",
+    "new": "531_wo_motsu.md"
+  },
+  {
+    "category": "concept",
+    "old": "269_ga_houfu.md",
+    "new": "532_ga_houfu.md"
+  },
+  {
+    "category": "concept",
+    "old": "269_gabanansu.md",
+    "new": "533_gabanansu.md"
+  },
+  {
+    "category": "concept",
+    "old": "269_gakumon.md",
+    "new": "534_gakumon.md"
+  },
+  {
+    "category": "concept",
+    "old": "269_hyouban.md",
+    "new": "535_hyouban.md"
+  },
+  {
+    "category": "concept",
+    "old": "269_kyouyou.md",
+    "new": "536_kyouyou.md"
+  },
+  {
+    "category": "concept",
+    "old": "269_shinrai.md",
+    "new": "537_shinrai.md"
+  },
+  {
+    "category": "concept",
+    "old": "270_akaji.md",
+    "new": "538_akaji.md"
+  },
+  {
+    "category": "concept",
+    "old": "270_defure_supairaru.md",
+    "new": "539_defure_supairaru.md"
+  },
+  {
+    "category": "concept",
+    "old": "270_genkashoukyaku.md",
+    "new": "540_genkashoukyaku.md"
+  },
+  {
+    "category": "concept",
+    "old": "270_hasan.md",
+    "new": "541_hasan.md"
+  },
+  {
+    "category": "concept",
+    "old": "270_kansa.md",
+    "new": "542_kansa.md"
+  },
+  {
+    "category": "concept",
+    "old": "270_ni_oite.md",
+    "new": "543_ni_oite.md"
+  },
+  {
+    "category": "concept",
+    "old": "270_saiken.md",
+    "new": "544_saiken.md"
+  },
+  {
+    "category": "concept",
+    "old": "270_saimusha.md",
+    "new": "545_saimusha.md"
+  },
+  {
+    "category": "concept",
+    "old": "270_tanpo.md",
+    "new": "546_tanpo.md"
+  },
+  {
+    "category": "concept",
+    "old": "270_zeimu_shinkoku.md",
+    "new": "547_zeimu_shinkoku.md"
+  },
+  {
+    "category": "concept",
+    "old": "271_kaikei_system.md",
+    "new": "548_kaikei_system.md"
+  },
+  {
+    "category": "concept",
+    "old": "271_koufu.md",
+    "new": "549_koufu.md"
+  },
+  {
+    "category": "concept",
+    "old": "272_kirari_to.md",
+    "new": "550_kirari_to.md"
+  },
+  {
+    "category": "concept",
+    "old": "272_mo_also_too.md",
+    "new": "551_mo_also_too.md"
+  },
+  {
+    "category": "concept",
+    "old": "272_pikapika_no_ichinensei.md",
+    "new": "552_pikapika_no_ichinensei.md"
+  },
+  {
+    "category": "concept",
+    "old": "272_toka.md",
+    "new": "553_toka.md"
+  },
+  {
+    "category": "concept",
+    "old": "272_tsurutsuru.md",
+    "new": "554_tsurutsuru.md"
+  },
+  {
+    "category": "concept",
+    "old": "272_tsuyatsuya.md",
+    "new": "555_tsuyatsuya.md"
+  },
+  {
+    "category": "concept",
+    "old": "273_houmon_suru.md",
+    "new": "556_houmon_suru.md"
+  },
+  {
+    "category": "concept",
+    "old": "273_me.md",
+    "new": "557_me.md"
+  },
+  {
+    "category": "concept",
+    "old": "273_mikakeru.md",
+    "new": "558_mikakeru.md"
+  },
+  {
+    "category": "concept",
+    "old": "273_shiryoku.md",
+    "new": "559_shiryoku.md"
+  },
+  {
+    "category": "concept",
+    "old": "273_shitsumon_suru.md",
+    "new": "560_shitsumon_suru.md"
+  },
+  {
+    "category": "concept",
+    "old": "273_topic_comment_structure.md",
+    "new": "561_topic_comment_structure.md"
+  },
+  {
+    "category": "concept",
+    "old": "273_tou.md",
+    "new": "562_tou.md"
+  },
+  {
+    "category": "concept",
+    "old": "273_zero_pronoun.md",
+    "new": "563_zero_pronoun.md"
+  },
+  {
+    "category": "concept",
+    "old": "274_iru_vs_oru.md",
+    "new": "564_iru_vs_oru.md"
+  },
+  {
+    "category": "concept",
+    "old": "274_meue_meshita.md",
+    "new": "565_meue_meshita.md"
+  },
+  {
+    "category": "concept",
+    "old": "274_te_itadaku.md",
+    "new": "566_te_itadaku.md"
+  },
+  {
+    "category": "concept",
+    "old": "275_shoubai.md",
+    "new": "567_shoubai.md"
+  },
+  {
+    "category": "concept",
+    "old": "276_kenjougo_concept.md",
+    "new": "568_kenjougo_concept.md"
+  },
+  {
+    "category": "concept",
+    "old": "276_yasui_suffix.md",
+    "new": "569_yasui_suffix.md"
+  },
+  {
+    "category": "concept",
+    "old": "277_irassharu_vs_mairu.md",
+    "new": "570_irassharu_vs_mairu.md"
+  },
+  {
+    "category": "concept",
+    "old": "278_goi_bunkyuu.md",
+    "new": "571_goi_bunkyuu.md"
+  },
+  {
+    "category": "concept",
+    "old": "278_hatsuwa_koui_riron.md",
+    "new": "572_hatsuwa_koui_riron.md"
+  },
+  {
+    "category": "concept",
+    "old": "278_kuuki_wo_yomu.md",
+    "new": "573_kuuki_wo_yomu.md"
+  },
+  {
+    "category": "concept",
+    "old": "279_jouge_kankei.md",
+    "new": "574_jouge_kankei.md"
+  },
+  {
+    "category": "grammar",
+    "old": "290_doushi_nai_kei.md",
+    "new": "291_doushi_nai_kei.md"
+  },
+  {
+    "category": "grammar",
+    "old": "290_gakushuu_kanren_doushi.md",
+    "new": "292_gakushuu_kanren_doushi.md"
+  },
+  {
+    "category": "grammar",
+    "old": "290_group_1_doushi.md",
+    "new": "293_group_1_doushi.md"
+  },
+  {
+    "category": "grammar",
+    "old": "290_houkou_wo_arawasu_joshi.md",
+    "new": "294_houkou_wo_arawasu_joshi.md"
+  },
+  {
+    "category": "grammar",
+    "old": "290_i_keiyoushi_souran.md",
+    "new": "295_i_keiyoushi_souran.md"
+  },
+  {
+    "category": "grammar",
+    "old": "290_idou_doushi_katsuyou.md",
+    "new": "296_idou_doushi_katsuyou.md"
+  },
+  {
+    "category": "grammar",
+    "old": "290_kahen_doushi.md",
+    "new": "297_kahen_doushi.md"
+  },
+  {
+    "category": "grammar",
+    "old": "290_ni_joshi_youhou.md",
+    "new": "298_ni_joshi_youhou.md"
+  },
+  {
+    "category": "grammar",
+    "old": "290_rentaishi_youhou.md",
+    "new": "299_rentaishi_youhou.md"
+  },
+  {
+    "category": "grammar",
+    "old": "290_shizen_hyougen.md",
+    "new": "300_shizen_hyougen.md"
+  },
+  {
+    "category": "grammar",
+    "old": "290_shuujoshi.md",
+    "new": "301_shuujoshi.md"
+  },
+  {
+    "category": "grammar",
+    "old": "290_助詞「に」（場所）.md",
+    "new": "302_助詞「に」（場所）.md"
+  },
+  {
+    "category": "grammar",
+    "old": "290_動詞辞書形.md",
+    "new": "303_動詞辞書形.md"
+  },
+  {
+    "category": "grammar",
+    "old": "290_待遇表現.md",
+    "new": "304_待遇表現.md"
+  },
+  {
+    "category": "grammar",
+    "old": "290_文法體系.md",
+    "new": "305_文法體系.md"
+  },
+  {
+    "category": "grammar",
+    "old": "290_自動詞と他動詞.md",
+    "new": "306_自動詞と他動詞.md"
+  },
+  {
+    "category": "grammar",
+    "old": "291_daga.md",
+    "new": "307_daga.md"
+  },
+  {
+    "category": "grammar",
+    "old": "292_joutai_doushi.md",
+    "new": "308_joutai_doushi.md"
+  },
+  {
+    "category": "grammar",
+    "old": "293_kedo.md",
+    "new": "309_kedo.md"
+  },
+  {
+    "category": "grammar",
+    "old": "294_nakutewa_ikenai.md",
+    "new": "310_nakutewa_ikenai.md"
+  },
+  {
+    "category": "grammar",
+    "old": "295_setsuzokushi_shurui.md",
+    "new": "311_setsuzokushi_shurui.md"
+  },
+  {
+    "category": "grammar",
+    "old": "296_teiru.md",
+    "new": "312_teiru.md"
+  },
+  {
+    "category": "grammar",
+    "old": "297_temo_ii.md",
+    "new": "313_temo_ii.md"
+  },
+  {
+    "category": "grammar",
+    "old": "298_keitairon.md",
+    "new": "314_keitairon.md"
+  },
+  {
+    "category": "grammar",
+    "old": "299_joshi_system.md",
+    "new": "315_joshi_system.md"
+  },
+  {
+    "category": "grammar",
+    "old": "300_kanyou_hyougen.md",
+    "new": "316_kanyou_hyougen.md"
+  },
+  {
+    "category": "grammar",
+    "old": "301_taiguu_hyougen.md",
+    "new": "317_taiguu_hyougen.md"
+  },
+  {
+    "category": "grammar",
+    "old": "302_dousa_doushi.md",
+    "new": "318_dousa_doushi.md"
+  },
+  {
+    "category": "grammar",
+    "old": "303_dousa_kansei.md",
+    "new": "319_dousa_kansei.md"
+  },
+  {
+    "category": "grammar",
+    "old": "304_houkou_joshi.md",
+    "new": "320_houkou_joshi.md"
+  },
+  {
+    "category": "grammar",
+    "old": "305_i_keiyoushi.md",
+    "new": "321_i_keiyoushi.md"
+  },
+  {
+    "category": "grammar",
+    "old": "306_idou_doushi_katsuyou.md",
+    "new": "322_idou_doushi_katsuyou.md"
+  },
+  {
+    "category": "grammar",
+    "old": "307_jikan_fukushi.md",
+    "new": "323_jikan_fukushi.md"
+  },
+  {
+    "category": "grammar",
+    "old": "308_setsuzoku_joshi.md",
+    "new": "324_setsuzoku_joshi.md"
+  },
+  {
+    "category": "grammar",
+    "old": "309_shimau_usage.md",
+    "new": "325_shimau_usage.md"
+  },
+  {
+    "category": "grammar",
+    "old": "310_shizen_hyougen.md",
+    "new": "326_shizen_hyougen.md"
+  },
+  {
+    "category": "grammar",
+    "old": "311_shuujoshi_youhou.md",
+    "new": "327_shuujoshi_youhou.md"
+  },
+  {
+    "category": "grammar",
+    "old": "312_tekei_bunpou.md",
+    "new": "328_tekei_bunpou.md"
+  },
+  {
+    "category": "grammar",
+    "old": "313_bunpou_taikei.md",
+    "new": "329_bunpou_taikei.md"
+  },
+  {
+    "category": "grammar",
+    "old": "314_hikari_hyougen.md",
+    "new": "330_hikari_hyougen.md"
+  },
+  {
+    "category": "grammar",
+    "old": "315_hojo_doushi.md",
+    "new": "331_hojo_doushi.md"
+  },
+  {
+    "category": "grammar",
+    "old": "316_fukushi_hitei.md",
+    "new": "332_fukushi_hitei.md"
+  },
+  {
+    "category": "grammar",
+    "old": "317_taihen_usage.md",
+    "new": "333_taihen_usage.md"
+  },
+  {
+    "category": "grammar",
+    "old": "318_終助詞.md",
+    "new": "334_終助詞.md"
+  },
+  {
+    "category": "grammar",
+    "old": "319_setsuzokushi_no_shurui.md",
+    "new": "335_setsuzokushi_no_shurui.md"
+  },
+  {
+    "category": "grammar",
+    "old": "320_joutai_doushi.md",
+    "new": "336_joutai_doushi.md"
+  },
+  {
+    "category": "grammar",
+    "old": "321_keitairon.md",
+    "new": "337_keitairon.md"
+  },
+  {
+    "category": "grammar",
+    "old": "322_joshi_system.md",
+    "new": "338_joshi_system.md"
+  },
+  {
+    "category": "grammar",
+    "old": "323_jikan_fukushi.md",
+    "new": "339_jikan_fukushi.md"
+  },
+  {
+    "category": "grammar",
+    "old": "324_shimau.md",
+    "new": "340_shimau.md"
+  },
+  {
+    "category": "grammar",
+    "old": "325_hojo_doushi.md",
+    "new": "341_hojo_doushi.md"
+  },
+  {
+    "category": "grammar",
+    "old": "326_taihen.md",
+    "new": "342_taihen.md"
+  },
+  {
+    "category": "grammar",
+    "old": "327_fukushi_hitei.md",
+    "new": "343_fukushi_hitei.md"
+  },
+  {
+    "category": "grammar",
+    "old": "328_gyakusetsu_setsuzokushi.md",
+    "new": "344_gyakusetsu_setsuzokushi.md"
+  },
+  {
+    "category": "grammar",
+    "old": "329_doushi_suru.md",
+    "new": "345_doushi_suru.md"
+  },
+  {
+    "category": "grammar",
+    "old": "329_i_keiyoushi_souran.md",
+    "new": "346_i_keiyoushi_souran.md"
+  },
+  {
+    "category": "grammar",
+    "old": "329_keiyoushi_no_katsuyou.md",
+    "new": "347_keiyoushi_no_katsuyou.md"
+  },
+  {
+    "category": "grammar",
+    "old": "329_rentaishi_no_youhou.md",
+    "new": "348_rentaishi_no_youhou.md"
+  },
+  {
+    "category": "grammar",
+    "old": "330_dousa_doushi.md",
+    "new": "349_dousa_doushi.md"
+  },
+  {
+    "category": "grammar",
+    "old": "330_dousa_kanryou_hyougen.md",
+    "new": "350_dousa_kanryou_hyougen.md"
+  },
+  {
+    "category": "grammar",
+    "old": "330_setsuzoku_joshi.md",
+    "new": "351_setsuzoku_joshi.md"
+  },
+  {
+    "category": "grammar",
+    "old": "331_idou_doushi_katsuyou.md",
+    "new": "352_idou_doushi_katsuyou.md"
+  },
+  {
+    "category": "grammar",
+    "old": "332_kanyou_hyougen.md",
+    "new": "353_kanyou_hyougen.md"
+  },
+  {
+    "category": "grammar",
+    "old": "332_shuujoshi_youhou.md",
+    "new": "354_shuujoshi_youhou.md"
+  },
+  {
+    "category": "grammar",
+    "old": "333_i_keiyoushi.md",
+    "new": "355_i_keiyoushi.md"
+  },
+  {
+    "category": "grammar",
+    "old": "333_joshi_no_taikei.md",
+    "new": "356_joshi_no_taikei.md"
+  },
+  {
+    "category": "grammar",
+    "old": "333_na_keiyoushi.md",
+    "new": "357_na_keiyoushi.md"
+  },
+  {
+    "category": "grammar",
+    "old": "333_助詞の体系.md",
+    "new": "358_助詞の体系.md"
+  },
+  {
+    "category": "grammar",
+    "old": "334_katei_hyougen.md",
+    "new": "359_katei_hyougen.md"
+  },
+  {
+    "category": "grammar",
+    "old": "335_kanyouteki_jouken_hyougen.md",
+    "new": "360_kanyouteki_jouken_hyougen.md"
+  },
+  {
+    "category": "grammar",
+    "old": "336_doushi_katsuyouhyou.md",
+    "new": "361_doushi_katsuyouhyou.md"
+  },
+  {
+    "category": "grammar",
+    "old": "336_doushi_no_katsuyou.md",
+    "new": "362_doushi_no_katsuyou.md"
+  },
+  {
+    "category": "grammar",
+    "old": "336_kanyuu_hyougen.md",
+    "new": "363_kanyuu_hyougen.md"
+  },
+  {
+    "category": "grammar",
+    "old": "336_sahen_doushi.md",
+    "new": "364_sahen_doushi.md"
+  },
+  {
+    "category": "grammar",
+    "old": "337_joshi_de_jikan.md",
+    "new": "365_joshi_de_jikan.md"
+  },
+  {
+    "category": "grammar",
+    "old": "337_kara_made_youhou.md",
+    "new": "366_kara_made_youhou.md"
+  },
+  {
+    "category": "grammar",
+    "old": "337_keiyoushi_katsuyou.md",
+    "new": "367_keiyoushi_katsuyou.md"
+  },
+  {
+    "category": "grammar",
+    "old": "337_keizoku_doushi.md",
+    "new": "368_keizoku_doushi.md"
+  },
+  {
+    "category": "grammar",
+    "old": "337_nihongo_hitei_hyougen_taikei.md",
+    "new": "369_nihongo_hitei_hyougen_taikei.md"
+  },
+  {
+    "category": "grammar",
+    "old": "338_gimu_hitsuyousei_bunpou.md",
+    "new": "370_gimu_hitsuyousei_bunpou.md"
+  },
+  {
+    "category": "grammar",
+    "old": "338_hitei_hyougen.md",
+    "new": "371_hitei_hyougen.md"
+  },
+  {
+    "category": "grammar",
+    "old": "338_inyou_to.md",
+    "new": "372_inyou_to.md"
+  },
+  {
+    "category": "grammar",
+    "old": "338_joshi_ka.md",
+    "new": "373_joshi_ka.md"
+  },
+  {
+    "category": "grammar",
+    "old": "338_joshi_mo.md",
+    "new": "374_joshi_mo.md"
+  },
+  {
+    "category": "grammar",
+    "old": "338_kyoka_hyougen.md",
+    "new": "375_kyoka_hyougen.md"
+  },
+  {
+    "category": "grammar",
+    "old": "339_reru_rareru_sonkeigo.md",
+    "new": "376_reru_rareru_sonkeigo.md"
+  },
+  {
+    "category": "grammar",
+    "old": "340_heiretsu_hyougen.md",
+    "new": "377_heiretsu_hyougen.md"
+  },
+  {
+    "category": "grammar",
+    "old": "340_ni_torikumu.md",
+    "new": "378_ni_torikumu.md"
+  },
+  {
+    "category": "grammar",
+    "old": "340_ookina_vs_ookii.md",
+    "new": "379_ookina_vs_ookii.md"
+  },
+  {
+    "category": "grammar",
+    "old": "341_fukushi_no_shurui.md",
+    "new": "380_fukushi_no_shurui.md"
+  },
+  {
+    "category": "grammar",
+    "old": "341_sonzai_doushi.md",
+    "new": "381_sonzai_doushi.md"
+  },
+  {
+    "category": "grammar",
+    "old": "341_teido_hyougen.md",
+    "new": "382_teido_hyougen.md"
+  },
+  {
+    "category": "grammar",
+    "old": "342_doushi_katsuyou_kisoku.md",
+    "new": "383_doushi_katsuyou_kisoku.md"
+  },
+  {
+    "category": "grammar",
+    "old": "342_hojo_doushi.md",
+    "new": "384_hojo_doushi.md"
+  },
+  {
+    "category": "grammar",
+    "old": "342_ichidan_doushi_katsuyou.md",
+    "new": "385_ichidan_doushi_katsuyou.md"
+  },
+  {
+    "category": "grammar",
+    "old": "342_juju_doushi.md",
+    "new": "386_juju_doushi.md"
+  },
+  {
+    "category": "grammar",
+    "old": "342_kanou_doushi.md",
+    "new": "387_kanou_doushi.md"
+  },
+  {
+    "category": "grammar",
+    "old": "342_tekei_kuru.md",
+    "new": "388_tekei_kuru.md"
+  },
+  {
+    "category": "grammar",
+    "old": "342_toiu_teigi.md",
+    "new": "389_toiu_teigi.md"
+  },
+  {
+    "category": "grammar",
+    "old": "343_keiyoushi_katsuyou.md",
+    "new": "390_keiyoushi_katsuyou.md"
+  },
+  {
+    "category": "grammar",
+    "old": "344_dousa_kanryou_hyougen.md",
+    "new": "391_dousa_kanryou_hyougen.md"
+  },
+  {
+    "category": "grammar",
+    "old": "344_setsuzoku_joshi.md",
+    "new": "392_setsuzoku_joshi.md"
+  },
+  {
+    "category": "grammar",
+    "old": "345_dousa_doushi.md",
+    "new": "393_dousa_doushi.md"
+  },
+  {
+    "category": "grammar",
+    "old": "345_tekei_bunpou.md",
+    "new": "394_tekei_bunpou.md"
+  },
+  {
+    "category": "grammar",
+    "old": "346_kanyou_hyougen.md",
+    "new": "395_kanyou_hyougen.md"
+  },
+  {
+    "category": "grammar",
+    "old": "346_shuujoshi.md",
+    "new": "396_shuujoshi.md"
+  },
+  {
+    "category": "noun",
+    "old": "75_defure.md",
+    "new": "076_defure.md"
+  },
+  {
+    "category": "noun",
+    "old": "75_defureshon.md",
+    "new": "077_defureshon.md"
+  },
+  {
+    "category": "noun",
+    "old": "076_koyou.md",
+    "new": "078_koyou.md"
+  },
+  {
+    "category": "noun",
+    "old": "077_kyoukyuu.md",
+    "new": "079_kyoukyuu.md"
+  },
+  {
+    "category": "noun",
+    "old": "078_shihon.md",
+    "new": "080_shihon.md"
+  },
+  {
+    "category": "noun",
+    "old": "079_shijou.md",
+    "new": "081_shijou.md"
+  },
+  {
+    "category": "noun",
+    "old": "080_shouken.md",
+    "new": "082_shouken.md"
+  },
+  {
+    "category": "noun",
+    "old": "081_toushi.md",
+    "new": "083_toushi.md"
+  },
+  {
+    "category": "noun",
+    "old": "082_zeikin.md",
+    "new": "084_zeikin.md"
+  },
+  {
+    "category": "noun",
+    "old": "083_baburu.md",
+    "new": "085_baburu.md"
+  },
+  {
+    "category": "noun",
+    "old": "084_fukyou.md",
+    "new": "086_fukyou.md"
+  },
+  {
+    "category": "noun",
+    "old": "085_infure.md",
+    "new": "087_infure.md"
+  },
+  {
+    "category": "noun",
+    "old": "086_infureshon.md",
+    "new": "088_infureshon.md"
+  },
+  {
+    "category": "noun",
+    "old": "087_keiki.md",
+    "new": "089_keiki.md"
+  },
+  {
+    "category": "noun",
+    "old": "088_keizaiseichou.md",
+    "new": "090_keizaiseichou.md"
+  },
+  {
+    "category": "noun",
+    "old": "089_keizaiseisaku.md",
+    "new": "091_keizaiseisaku.md"
+  },
+  {
+    "category": "noun",
+    "old": "090_koukyou.md",
+    "new": "092_koukyou.md"
+  },
+  {
+    "category": "noun",
+    "old": "091_kabuka.md",
+    "new": "093_kabuka.md"
+  },
+  {
+    "category": "noun",
+    "old": "092_kabushikigaisha.md",
+    "new": "094_kabushikigaisha.md"
+  },
+  {
+    "category": "noun",
+    "old": "093_kabushikishijou.md",
+    "new": "095_kabushikishijou.md"
+  },
+  {
+    "category": "noun",
+    "old": "094_kinri.md",
+    "new": "096_kinri.md"
+  },
+  {
+    "category": "noun",
+    "old": "095_rishi.md",
+    "new": "097_rishi.md"
+  },
+  {
+    "category": "noun",
+    "old": "096_shitsugyou.md",
+    "new": "098_shitsugyou.md"
+  },
+  {
+    "category": "noun",
+    "old": "097_shitsugyouritsu.md",
+    "new": "099_shitsugyouritsu.md"
+  },
+  {
+    "category": "noun",
+    "old": "098_shouhi.md",
+    "new": "100_shouhi.md"
+  },
+  {
+    "category": "noun",
+    "old": "099_shoukengaisha.md",
+    "new": "101_shoukengaisha.md"
+  },
+  {
+    "category": "noun",
+    "old": "100_shoukenshijou.md",
+    "new": "102_shoukenshijou.md"
+  },
+  {
+    "category": "noun",
+    "old": "101_endaka.md",
+    "new": "103_endaka.md"
+  },
+  {
+    "category": "noun",
+    "old": "102_enyasu.md",
+    "new": "104_enyasu.md"
+  },
+  {
+    "category": "noun",
+    "old": "103_fusai.md",
+    "new": "105_fusai.md"
+  },
+  {
+    "category": "noun",
+    "old": "104_haitou.md",
+    "new": "106_haitou.md"
+  },
+  {
+    "category": "noun",
+    "old": "105_kawase.md",
+    "new": "107_kawase.md"
+  },
+  {
+    "category": "noun",
+    "old": "106_kawasereto.md",
+    "new": "108_kawasereto.md"
+  },
+  {
+    "category": "noun",
+    "old": "107_kokusai.md",
+    "new": "109_kokusai.md"
+  },
+  {
+    "category": "noun",
+    "old": "108_shisan.md",
+    "new": "110_shisan.md"
+  },
+  {
+    "category": "noun",
+    "old": "109_yokin.md",
+    "new": "111_yokin.md"
+  },
+  {
+    "category": "noun",
+    "old": "110_yuushi.md",
+    "new": "112_yuushi.md"
+  },
+  {
+    "category": "noun",
+    "old": "111_gappei.md",
+    "new": "113_gappei.md"
+  },
+  {
+    "category": "noun",
+    "old": "112_kahei.md",
+    "new": "114_kahei.md"
+  },
+  {
+    "category": "noun",
+    "old": "113_kyuuyo.md",
+    "new": "115_kyuuyo.md"
+  },
+  {
+    "category": "noun",
+    "old": "114_rieki.md",
+    "new": "116_rieki.md"
+  },
+  {
+    "category": "noun",
+    "old": "115_shuueki.md",
+    "new": "117_shuueki.md"
+  },
+  {
+    "category": "noun",
+    "old": "116_tousan.md",
+    "new": "118_tousan.md"
+  },
+  {
+    "category": "noun",
+    "old": "117_tsuuka.md",
+    "new": "119_tsuuka.md"
+  },
+  {
+    "category": "noun",
+    "old": "118_uriage.md",
+    "new": "120_uriage.md"
+  },
+  {
+    "category": "noun",
+    "old": "119_uriagedaka.md",
+    "new": "121_uriagedaka.md"
+  },
+  {
+    "category": "noun",
+    "old": "120_yosan.md",
+    "new": "122_yosan.md"
+  },
+  {
+    "category": "noun",
+    "old": "121_bukkashisuu.md",
+    "new": "123_bukkashisuu.md"
+  },
+  {
+    "category": "noun",
+    "old": "122_chingin.md",
+    "new": "124_chingin.md"
+  },
+  {
+    "category": "noun",
+    "old": "123_kanzei.md",
+    "new": "125_kanzei.md"
+  },
+  {
+    "category": "noun",
+    "old": "124_keiei.md",
+    "new": "126_keiei.md"
+  },
+  {
+    "category": "noun",
+    "old": "125_kigyou.md",
+    "new": "127_kigyou.md"
+  },
+  {
+    "category": "noun",
+    "old": "126_sainyuu.md",
+    "new": "128_sainyuu.md"
+  },
+  {
+    "category": "noun",
+    "old": "127_saishutsu.md",
+    "new": "129_saishutsu.md"
+  },
+  {
+    "category": "noun",
+    "old": "128_shotokuzei.md",
+    "new": "130_shotokuzei.md"
+  },
+  {
+    "category": "noun",
+    "old": "129_shouhizei.md",
+    "new": "131_shouhizei.md"
+  },
+  {
+    "category": "noun",
+    "old": "130_zaiseiaakaji.md",
+    "new": "132_zaiseiaakaji.md"
+  },
+  {
+    "category": "noun",
+    "old": "131_bouekiakaji.md",
+    "new": "133_bouekiakaji.md"
+  },
+  {
+    "category": "noun",
+    "old": "132_bouekikuroji.md",
+    "new": "134_bouekikuroji.md"
+  },
+  {
+    "category": "noun",
+    "old": "133_bouekishuushi.md",
+    "new": "135_bouekishuushi.md"
+  },
+  {
+    "category": "noun",
+    "old": "134_chuuouginkou.md",
+    "new": "136_chuuouginkou.md"
+  },
+  {
+    "category": "noun",
+    "old": "135_hogoboueki.md",
+    "new": "137_hogoboueki.md"
+  },
+  {
+    "category": "noun",
+    "old": "136_jiyuuboueki.md",
+    "new": "138_jiyuuboueki.md"
+  },
+  {
+    "category": "noun",
+    "old": "137_kokusaishuushi.md",
+    "new": "139_kokusaishuushi.md"
+  },
+  {
+    "category": "noun",
+    "old": "138_nihonginkou.md",
+    "new": "140_nihonginkou.md"
+  },
+  {
+    "category": "noun",
+    "old": "139_yunyuu.md",
+    "new": "141_yunyuu.md"
+  },
+  {
+    "category": "noun",
+    "old": "140_yushutsu.md",
+    "new": "142_yushutsu.md"
+  },
+  {
+    "category": "noun",
+    "old": "141_kabukashisuu.md",
+    "new": "143_kabukashisuu.md"
+  },
+  {
+    "category": "noun",
+    "old": "142_keikijunkan.md",
+    "new": "144_keikijunkan.md"
+  },
+  {
+    "category": "noun",
+    "old": "143_keizaikyoukou.md",
+    "new": "145_keizaikyoukou.md"
+  },
+  {
+    "category": "noun",
+    "old": "144_keizaiseichouritsu.md",
+    "new": "146_keizaiseichouritsu.md"
+  },
+  {
+    "category": "noun",
+    "old": "145_keizaiseisai.md",
+    "new": "147_keizaiseisai.md"
+  },
+  {
+    "category": "noun",
+    "old": "146_keizaitaikoku.md",
+    "new": "148_keizaitaikoku.md"
+  },
+  {
+    "category": "noun",
+    "old": "147_shoukentorihikijo.md",
+    "new": "149_shoukentorihikijo.md"
+  },
+  {
+    "category": "noun",
+    "old": "148_sonshitsu.md",
+    "new": "150_sonshitsu.md"
+  },
+  {
+    "category": "noun",
+    "old": "149_yokinkouza.md",
+    "new": "151_yokinkouza.md"
+  },
+  {
+    "category": "noun",
+    "old": "150_yokintsuuchou.md",
+    "new": "152_yokintsuuchou.md"
+  },
+  {
+    "category": "noun",
+    "old": "151_houjinzei.md",
+    "new": "153_houjinzei.md"
+  },
+  {
+    "category": "noun",
+    "old": "152_kanzeidoumei.md",
+    "new": "154_kanzeidoumei.md"
+  },
+  {
+    "category": "noun",
+    "old": "153_kanzeishouheki.md",
+    "new": "155_kanzeishouheki.md"
+  },
+  {
+    "category": "noun",
+    "old": "154_keizaikyouryoku.md",
+    "new": "156_keizaikyouryoku.md"
+  },
+  {
+    "category": "noun",
+    "old": "155_keizaitoukei.md",
+    "new": "157_keizaitoukei.md"
+  },
+  {
+    "category": "noun",
+    "old": "156_kokkayosan.md",
+    "new": "158_kokkayosan.md"
+  },
+  {
+    "category": "noun",
+    "old": "157_koyouchousei.md",
+    "new": "159_koyouchousei.md"
+  },
+  {
+    "category": "noun",
+    "old": "158_koyouhoken.md",
+    "new": "160_koyouhoken.md"
+  },
+  {
+    "category": "noun",
+    "old": "159_kyuuyoshotoku.md",
+    "new": "161_kyuuyoshotoku.md"
+  },
+  {
+    "category": "noun",
+    "old": "160_shouhishabukkashisuu.md",
+    "new": "162_shouhishabukkashisuu.md"
+  },
+  {
+    "category": "noun",
+    "old": "161_keikidoukoushisuu.md",
+    "new": "163_keikidoukoushisuu.md"
+  },
+  {
+    "category": "noun",
+    "old": "162_keikishihyou.md",
+    "new": "164_keikishihyou.md"
+  },
+  {
+    "category": "noun",
+    "old": "163_keizaiburokku.md",
+    "new": "165_keizaiburokku.md"
+  },
+  {
+    "category": "noun",
+    "old": "164_keizaikaihatsu.md",
+    "new": "166_keizaikaihatsu.md"
+  },
+  {
+    "category": "noun",
+    "old": "165_keizaiken.md",
+    "new": "167_keizaiken.md"
+  },
+  {
+    "category": "noun",
+    "old": "166_keizaikyouryokukaihatukikou.md",
+    "new": "168_keizaikyouryokukaihatukikou.md"
+  },
+  {
+    "category": "noun",
+    "old": "167_keizainanmin.md",
+    "new": "169_keizainanmin.md"
+  },
+  {
+    "category": "noun",
+    "old": "168_keizaisangyoushou.md",
+    "new": "170_keizaisangyoushou.md"
+  },
+  {
+    "category": "noun",
+    "old": "169_keizaisuiiki.md",
+    "new": "171_keizaisuiiki.md"
+  },
+  {
+    "category": "noun",
+    "old": "170_keizaitokubetsuku.md",
+    "new": "172_keizaitokubetsuku.md"
+  },
+  {
+    "category": "noun",
+    "old": "171_keizaidantairengouka.md",
+    "new": "173_keizaidantairengouka.md"
+  },
+  {
+    "category": "noun",
+    "old": "172_keizaidougaku.md",
+    "new": "174_keizaidougaku.md"
+  },
+  {
+    "category": "noun",
+    "old": "173_keizaidouyuukai.md",
+    "new": "175_keizaidouyuukai.md"
+  },
+  {
+    "category": "noun",
+    "old": "174_keizaigensoku.md",
+    "new": "176_keizaigensoku.md"
+  },
+  {
+    "category": "noun",
+    "old": "175_keizaihakusho.md",
+    "new": "177_keizaihakusho.md"
+  },
+  {
+    "category": "noun",
+    "old": "176_keizaijin.md",
+    "new": "178_keizaijin.md"
+  },
+  {
+    "category": "noun",
+    "old": "177_keizaikikakuchou.md",
+    "new": "179_keizaikikakuchou.md"
+  },
+  {
+    "category": "noun",
+    "old": "178_keizaiseigaku.md",
+    "new": "180_keizaiseigaku.md"
+  },
+  {
+    "category": "noun",
+    "old": "179_keizaishi.md",
+    "new": "181_keizaishi.md"
+  },
+  {
+    "category": "noun",
+    "old": "180_keizaizaiseihakusho.md",
+    "new": "182_keizaizaiseihakusho.md"
+  },
+  {
+    "category": "noun",
+    "old": "181_genkin.md",
+    "new": "183_genkin.md"
+  },
+  {
+    "category": "noun",
+    "old": "182_naikakufu.md",
+    "new": "184_naikakufu.md"
+  },
+  {
+    "category": "noun",
+    "old": "183_shihonshugi.md",
+    "new": "185_shihonshugi.md"
+  },
+  {
+    "category": "noun",
+    "old": "184_torihikikouza.md",
+    "new": "186_torihikikouza.md"
+  },
+  {
+    "category": "noun",
+    "old": "185_hakusho.md",
+    "new": "187_hakusho.md"
+  },
+  {
+    "category": "noun",
+    "old": "186_kinyuushouhin.md",
+    "new": "188_kinyuushouhin.md"
+  },
+  {
+    "category": "noun",
+    "old": "187_roudou.md",
+    "new": "189_roudou.md"
+  },
+  {
+    "category": "noun",
+    "old": "188_shihonka.md",
+    "new": "190_shihonka.md"
+  },
+  {
+    "category": "noun",
+    "old": "189_butsubutsukoukan.md",
+    "new": "191_butsubutsukoukan.md"
+  },
+  {
+    "category": "noun",
+    "old": "190_shakaishihon.md",
+    "new": "192_shakaishihon.md"
+  },
+  {
+    "category": "noun",
+    "old": "191_shihonkin.md",
+    "new": "193_shihonkin.md"
+  },
+  {
+    "category": "noun",
+    "old": "192_jikoshihon.md",
+    "new": "194_jikoshihon.md"
+  },
+  {
+    "category": "noun",
+    "old": "193_kaheikeizai.md",
+    "new": "195_kaheikeizai.md"
+  },
+  {
+    "category": "noun",
+    "old": "194_ruishinkazei.md",
+    "new": "196_ruishinkazei.md"
+  },
+  {
+    "category": "noun",
+    "old": "195_shijokeizai.md",
+    "new": "197_shijokeizai.md"
+  },
+  {
+    "category": "noun",
+    "old": "196_angoukahe.md",
+    "new": "198_angoukahe.md"
+  },
+  {
+    "category": "noun",
+    "old": "197_ipo.md",
+    "new": "199_ipo.md"
+  },
+  {
+    "category": "noun",
+    "old": "198_jintekishihon.md",
+    "new": "200_jintekishihon.md"
+  },
+  {
+    "category": "noun",
+    "old": "199_zeiritsu.md",
+    "new": "201_zeiritsu.md"
+  },
+  {
+    "category": "noun",
+    "old": "200_hiyou.md",
+    "new": "202_hiyou.md"
+  },
+  {
+    "category": "noun",
+    "old": "201_koujo.md",
+    "new": "203_koujo.md"
+  },
+  {
+    "category": "noun",
+    "old": "202_sozeifutan.md",
+    "new": "204_sozeifutan.md"
+  },
+  {
+    "category": "noun",
+    "old": "203_tochi.md",
+    "new": "205_tochi.md"
+  },
+  {
+    "category": "noun",
+    "old": "204_koukyouzai.md",
+    "new": "206_koukyouzai.md"
+  },
+  {
+    "category": "noun",
+    "old": "205_seisansei.md",
+    "new": "207_seisansei.md"
+  },
+  {
+    "category": "noun",
+    "old": "206_zeiseikaikaku.md",
+    "new": "208_zeiseikaikaku.md"
+  },
+  {
+    "category": "noun",
+    "old": "207_zeishuu.md",
+    "new": "209_zeishuu.md"
+  },
+  {
+    "category": "noun",
+    "old": "208_gdp.md",
+    "new": "210_gdp.md"
+  },
+  {
+    "category": "noun",
+    "old": "209_kazei.md",
+    "new": "211_kazei.md"
+  },
+  {
+    "category": "noun",
+    "old": "210_toushika.md",
+    "new": "212_toushika.md"
+  },
+  {
+    "category": "noun",
+    "old": "211_kinyukikan.md",
+    "new": "213_kinyukikan.md"
+  },
+  {
+    "category": "noun",
+    "old": "212_nouziesha.md",
+    "new": "214_nouziesha.md"
+  },
+  {
+    "category": "noun",
+    "old": "213_seiji_nanmin.md",
+    "new": "215_seiji_nanmin.md"
+  },
+  {
+    "category": "noun",
+    "old": "214_chokusetsu_zei.md",
+    "new": "216_chokusetsu_zei.md"
+  },
+  {
+    "category": "noun",
+    "old": "215_nanmin_nintei.md",
+    "new": "217_nanmin_nintei.md"
+  },
+  {
+    "category": "noun",
+    "old": "216_jiyuu_boueki_ku.md",
+    "new": "218_jiyuu_boueki_ku.md"
+  },
+  {
+    "category": "noun",
+    "old": "217_kansetsu_zei.md",
+    "new": "219_kansetsu_zei.md"
+  },
+  {
+    "category": "noun",
+    "old": "218_kikan_toushika.md",
+    "new": "220_kikan_toushika.md"
+  },
+  {
+    "category": "noun",
+    "old": "219_zeisei_yuuguu.md",
+    "new": "221_zeisei_yuuguu.md"
+  },
+  {
+    "category": "noun",
+    "old": "220_kanzei_menjo.md",
+    "new": "222_kanzei_menjo.md"
+  },
+  {
+    "category": "noun",
+    "old": "221_online_shouken.md",
+    "new": "223_online_shouken.md"
+  },
+  {
+    "category": "noun",
+    "old": "222_money.md",
+    "new": "224_money.md"
+  },
+  {
+    "category": "noun",
+    "old": "223_kachi_shakudo.md",
+    "new": "225_kachi_shakudo.md"
+  },
+  {
+    "category": "noun",
+    "old": "224_koukan_shudan.md",
+    "new": "226_koukan_shudan.md"
+  },
+  {
+    "category": "noun",
+    "old": "225_keizai_katsudou.md",
+    "new": "227_keizai_katsudou.md"
+  },
+  {
+    "category": "noun",
+    "old": "226_kyoukyuu.md",
+    "new": "228_kyoukyuu.md"
+  },
+  {
+    "category": "noun",
+    "old": "227_shihon.md",
+    "new": "229_shihon.md"
+  },
+  {
+    "category": "noun",
+    "old": "228_shijou.md",
+    "new": "230_shijou.md"
+  },
+  {
+    "category": "noun",
+    "old": "229_kikubari.md",
+    "new": "231_kikubari.md"
+  },
+  {
+    "category": "noun",
+    "old": "230_chuuou_ginkou.md",
+    "new": "232_chuuou_ginkou.md"
+  },
+  {
+    "category": "noun",
+    "old": "231_endaka.md",
+    "new": "233_endaka.md"
+  },
+  {
+    "category": "noun",
+    "old": "232_enyasu.md",
+    "new": "234_enyasu.md"
+  },
+  {
+    "category": "noun",
+    "old": "233_kawase.md",
+    "new": "235_kawase.md"
+  },
+  {
+    "category": "noun",
+    "old": "234_yushutsu.md",
+    "new": "236_yushutsu.md"
+  },
+  {
+    "category": "noun",
+    "old": "235_rieki.md",
+    "new": "237_rieki.md"
+  },
+  {
+    "category": "noun",
+    "old": "236_shouhisha.md",
+    "new": "238_shouhisha.md"
+  },
+  {
+    "category": "noun",
+    "old": "237_bunpai.md",
+    "new": "239_bunpai.md"
+  },
+  {
+    "category": "noun",
+    "old": "238_juutaku_loan.md",
+    "new": "240_juutaku_loan.md"
+  },
+  {
+    "category": "noun",
+    "old": "239_kakutei_shinkoku.md",
+    "new": "241_kakutei_shinkoku.md"
+  },
+  {
+    "category": "noun",
+    "old": "240_kinyuu_shijou.md",
+    "new": "242_kinyuu_shijou.md"
+  },
+  {
+    "category": "noun",
+    "old": "241_koujo.md",
+    "new": "243_koujo.md"
+  },
+  {
+    "category": "noun",
+    "old": "242_setsubi_toushi.md",
+    "new": "244_setsubi_toushi.md"
+  },
+  {
+    "category": "noun",
+    "old": "243_shikin_choutatsu.md",
+    "new": "245_shikin_choutatsu.md"
+  },
+  {
+    "category": "noun",
+    "old": "244_shinyou.md",
+    "new": "246_shinyou.md"
+  },
+  {
+    "category": "noun",
+    "old": "245_shotoku_koujo.md",
+    "new": "247_shotoku_koujo.md"
+  },
+  {
+    "category": "noun",
+    "old": "246_zeigaku_koujo.md",
+    "new": "248_zeigaku_koujo.md"
+  },
+  {
+    "category": "noun",
+    "old": "247_toumeise.md",
+    "new": "249_toumeise.md"
+  },
+  {
+    "category": "noun",
+    "old": "248_seisan.md",
+    "new": "250_seisan.md"
+  },
+  {
+    "category": "noun",
+    "old": "249_chishiki.md",
+    "new": "251_chishiki.md"
+  },
+  {
+    "category": "noun",
+    "old": "250_choubo.md",
+    "new": "252_choubo.md"
+  },
+  {
+    "category": "noun",
+    "old": "251_keieisha.md",
+    "new": "253_keieisha.md"
+  },
+  {
+    "category": "noun",
+    "old": "252_saikensha.md",
+    "new": "254_saikensha.md"
+  },
+  {
+    "category": "noun",
+    "old": "253_shiharai.md",
+    "new": "255_shiharai.md"
+  },
+  {
+    "category": "noun",
+    "old": "254_toushika.md",
+    "new": "256_toushika.md"
+  },
+  {
+    "category": "noun",
+    "old": "255_zaimu_shohyou.md",
+    "new": "257_zaimu_shohyou.md"
+  },
+  {
+    "category": "noun",
+    "old": "256_bijinesu.md",
+    "new": "258_bijinesu.md"
+  },
+  {
+    "category": "noun",
+    "old": "257_eiri_katsudou.md",
+    "new": "259_eiri_katsudou.md"
+  },
+  {
+    "category": "noun",
+    "old": "258_hieiri.md",
+    "new": "260_hieiri.md"
+  },
+  {
+    "category": "noun",
+    "old": "259_keiei_kanri.md",
+    "new": "261_keiei_kanri.md"
+  },
+  {
+    "category": "noun",
+    "old": "260_kettei_sakusei.md",
+    "new": "262_kettei_sakusei.md"
+  },
+  {
+    "category": "noun",
+    "old": "261_kotei_shihon.md",
+    "new": "263_kotei_shihon.md"
+  },
+  {
+    "category": "noun",
+    "old": "262_koukyou_jigyou.md",
+    "new": "264_koukyou_jigyou.md"
+  },
+  {
+    "category": "noun",
+    "old": "263_kyuufu.md",
+    "new": "265_kyuufu.md"
+  },
+  {
+    "category": "noun",
+    "old": "264_wariate.md",
+    "new": "266_wariate.md"
+  },
+  {
+    "category": "noun",
+    "old": "265_zaimu_jouhou.md",
+    "new": "267_zaimu_jouhou.md"
+  },
+  {
+    "category": "noun",
+    "old": "266_zaimu_jinzai.md",
+    "new": "268_zaimu_jinzai.md"
+  },
+  {
+    "category": "noun",
+    "old": "267_zeimu_shinkoku.md",
+    "new": "269_zeimu_shinkoku.md"
+  },
+  {
+    "category": "noun",
+    "old": "268_kinyuu_shijou.md",
+    "new": "270_kinyuu_shijou.md"
+  },
+  {
+    "category": "noun",
+    "old": "269_setsubi_toushi.md",
+    "new": "271_setsubi_toushi.md"
+  },
+  {
+    "category": "noun",
+    "old": "270_houritsu.md",
+    "new": "272_houritsu.md"
+  },
+  {
+    "category": "noun",
+    "old": "271_sekinin.md",
+    "new": "273_sekinin.md"
+  },
+  {
+    "category": "noun",
+    "old": "272_yakusoku.md",
+    "new": "274_yakusoku.md"
+  },
+  {
+    "category": "noun",
+    "old": "273_shinyou.md",
+    "new": "275_shinyou.md"
+  },
+  {
+    "category": "noun",
+    "old": "274_kuukou.md",
+    "new": "276_kuukou.md"
+  },
+  {
+    "category": "noun",
+    "old": "275_eki.md",
+    "new": "277_eki.md"
+  },
+  {
+    "category": "noun",
+    "old": "276_bijinesu_nihongo.md",
+    "new": "278_bijinesu_nihongo.md"
+  },
+  {
+    "category": "noun",
+    "old": "276_bogo_kansho.md",
+    "new": "279_bogo_kansho.md"
+  },
+  {
+    "category": "noun",
+    "old": "276_furikomi.md",
+    "new": "280_furikomi.md"
+  },
+  {
+    "category": "noun",
+    "old": "276_go_suru_kenjouretsu.md",
+    "new": "281_go_suru_kenjouretsu.md"
+  },
+  {
+    "category": "noun",
+    "old": "276_母語干渉.md",
+    "new": "282_母語干渉.md"
+  },
+  {
+    "category": "noun",
+    "old": "277_yokin_tsuuchou.md",
+    "new": "283_yokin_tsuuchou.md"
+  },
+  {
+    "category": "noun",
+    "old": "278_shishutsu.md",
+    "new": "284_shishutsu.md"
+  },
+  {
+    "category": "noun",
+    "old": "279_shuunyuu.md",
+    "new": "285_shuunyuu.md"
+  },
+  {
+    "category": "noun",
+    "old": "280_toushika.md",
+    "new": "286_toushika.md"
+  },
+  {
+    "category": "noun",
+    "old": "281_keihi.md",
+    "new": "287_keihi.md"
+  },
+  {
+    "category": "noun",
+    "old": "282_aisatsu_yougo.md",
+    "new": "288_aisatsu_yougo.md"
+  },
+  {
+    "category": "noun",
+    "old": "283_bijinesu_nihongo.md",
+    "new": "289_bijinesu_nihongo.md"
+  },
+  {
+    "category": "noun",
+    "old": "284_denwa_yougo.md",
+    "new": "290_denwa_yougo.md"
+  },
+  {
+    "category": "noun",
+    "old": "285_keigo_tsukaiwake.md",
+    "new": "291_keigo_tsukaiwake.md"
+  },
+  {
+    "category": "noun",
+    "old": "286_kenjougo.md",
+    "new": "292_kenjougo.md"
+  },
+  {
+    "category": "noun",
+    "old": "287_hogo.md",
+    "new": "293_hogo.md"
+  },
+  {
+    "category": "noun",
+    "old": "288_bijinesu_keigo.md",
+    "new": "294_bijinesu_keigo.md"
+  },
+  {
+    "category": "noun",
+    "old": "289_bogo_kanshou.md",
+    "new": "295_bogo_kanshou.md"
+  },
+  {
+    "category": "noun",
+    "old": "290_deixis.md",
+    "new": "296_deixis.md"
+  },
+  {
+    "category": "noun",
+    "old": "291_goiki.md",
+    "new": "297_goiki.md"
+  },
+  {
+    "category": "noun",
+    "old": "292_shakai_goyou.md",
+    "new": "298_shakai_goyou.md"
+  },
+  {
+    "category": "noun",
+    "old": "293_shiten_keigo.md",
+    "new": "299_shiten_keigo.md"
+  },
+  {
+    "category": "noun",
+    "old": "294_context.md",
+    "new": "300_context.md"
+  },
+  {
+    "category": "noun",
+    "old": "295_gengo_nouryoku_hyouka.md",
+    "new": "301_gengo_nouryoku_hyouka.md"
+  },
+  {
+    "category": "noun",
+    "old": "296_houritsu_bunsho.md",
+    "new": "302_houritsu_bunsho.md"
+  },
+  {
+    "category": "noun",
+    "old": "297_imiron.md",
+    "new": "303_imiron.md"
+  },
+  {
+    "category": "noun",
+    "old": "298_nihongo_gakushuu_waku.md",
+    "new": "304_nihongo_gakushuu_waku.md"
+  },
+  {
+    "category": "noun",
+    "old": "299_seiketsu_goi.md",
+    "new": "305_seiketsu_goi.md"
+  },
+  {
+    "category": "noun",
+    "old": "300_shikaku_gitaigo.md",
+    "new": "306_shikaku_gitaigo.md"
+  },
+  {
+    "category": "noun",
+    "old": "301_akka.md",
+    "new": "307_akka.md"
+  },
+  {
+    "category": "noun",
+    "old": "302_akuma.md",
+    "new": "308_akuma.md"
+  },
+  {
+    "category": "noun",
+    "old": "303_敬語.md",
+    "new": "309_敬語.md"
+  },
+  {
+    "category": "noun",
+    "old": "304_kenjougo.md",
+    "new": "310_kenjougo.md"
+  },
+  {
+    "category": "noun",
+    "old": "305_keigo_tsukaiwake.md",
+    "new": "311_keigo_tsukaiwake.md"
+  },
+  {
+    "category": "noun",
+    "old": "306_seiketsu.md",
+    "new": "312_seiketsu.md"
+  },
+  {
+    "category": "noun",
+    "old": "307_goiki.md",
+    "new": "313_goiki.md"
+  },
+  {
+    "category": "noun",
+    "old": "308_imiron.md",
+    "new": "314_imiron.md"
+  },
+  {
+    "category": "noun",
+    "old": "309_gengo_nouryoku_hyouka.md",
+    "new": "315_gengo_nouryoku_hyouka.md"
+  },
+  {
+    "category": "noun",
+    "old": "309_nihongo_gakushuu_framework.md",
+    "new": "316_nihongo_gakushuu_framework.md"
+  },
+  {
+    "category": "noun",
+    "old": "309_shakai_goyou.md",
+    "new": "317_shakai_goyou.md"
+  },
+  {
+    "category": "noun",
+    "old": "310_aisatsu.md",
+    "new": "318_aisatsu.md"
+  },
+  {
+    "category": "noun",
+    "old": "310_bijinesu_nihongo.md",
+    "new": "319_bijinesu_nihongo.md"
+  },
+  {
+    "category": "noun",
+    "old": "310_denwa_yougo.md",
+    "new": "320_denwa_yougo.md"
+  },
+  {
+    "category": "noun",
+    "old": "310_hogo.md",
+    "new": "321_hogo.md"
+  },
+  {
+    "category": "noun",
+    "old": "310_商務日語.md",
+    "new": "322_商務日語.md"
+  },
+  {
+    "category": "noun",
+    "old": "311_hinshi_no_bunrui.md",
+    "new": "323_hinshi_no_bunrui.md"
+  },
+  {
+    "category": "noun",
+    "old": "311_shugo_to_jutsugo.md",
+    "new": "324_shugo_to_jutsugo.md"
+  },
+  {
+    "category": "noun",
+    "old": "311_shuushokugo_to_hishuushokugo.md",
+    "new": "325_shuushokugo_to_hishuushokugo.md"
+  },
+  {
+    "category": "noun",
+    "old": "311_修飾語と被修飾語.md",
+    "new": "326_修飾語と被修飾語.md"
+  },
+  {
+    "category": "noun",
+    "old": "311_品詞の分類.md",
+    "new": "327_品詞の分類.md"
+  },
+  {
+    "category": "noun",
+    "old": "312_fukusoogo.md",
+    "new": "328_fukusoogo.md"
+  },
+  {
+    "category": "noun",
+    "old": "312_gokan_to_setsuji.md",
+    "new": "329_gokan_to_setsuji.md"
+  },
+  {
+    "category": "noun",
+    "old": "312_koritsugo.md",
+    "new": "330_koritsugo.md"
+  },
+  {
+    "category": "noun",
+    "old": "312_kutsusetsugo.md",
+    "new": "331_kutsusetsugo.md"
+  },
+  {
+    "category": "noun",
+    "old": "313_soutai_jikan_shi.md",
+    "new": "332_soutai_jikan_shi.md"
+  },
+  {
+    "category": "noun",
+    "old": "314_jikan_goi.md",
+    "new": "333_jikan_goi.md"
+  },
+  {
+    "category": "noun",
+    "old": "315_hyoujungo.md",
+    "new": "334_hyoujungo.md"
+  },
+  {
+    "category": "noun",
+    "old": "315_sonkeigo_system.md",
+    "new": "335_sonkeigo_system.md"
+  },
+  {
+    "category": "noun",
+    "old": "315_teineigo_system.md",
+    "new": "336_teineigo_system.md"
+  },
+  {
+    "category": "noun",
+    "old": "316_kenjougo_bunrui.md",
+    "new": "337_kenjougo_bunrui.md"
+  },
+  {
+    "category": "noun",
+    "old": "316_moushiageru.md",
+    "new": "338_moushiageru.md"
+  },
+  {
+    "category": "noun",
+    "old": "316_ukagau.md",
+    "new": "339_ukagau.md"
+  },
+  {
+    "category": "noun",
+    "old": "317_kenjougo_kubetsu.md",
+    "new": "340_kenjougo_kubetsu.md"
+  },
+  {
+    "category": "noun",
+    "old": "317_mousu.md",
+    "new": "341_mousu.md"
+  },
+  {
+    "category": "noun",
+    "old": "318_totemo_vs_sugoku_vs_taihen.md",
+    "new": "342_totemo_vs_sugoku_vs_taihen.md"
+  },
+  {
+    "category": "noun",
+    "old": "319_gozaru.md",
+    "new": "343_gozaru.md"
+  },
+  {
+    "category": "noun",
+    "old": "319_kenjougo_taikei.md",
+    "new": "344_kenjougo_taikei.md"
+  },
+  {
+    "category": "noun",
+    "old": "319_ossharu.md",
+    "new": "345_ossharu.md"
+  },
+  {
+    "category": "noun",
+    "old": "319_shougyou_yougo.md",
+    "new": "346_shougyou_yougo.md"
+  },
+  {
+    "category": "noun",
+    "old": "320_bungo_to_kougo.md",
+    "new": "347_bungo_to_kougo.md"
+  },
+  {
+    "category": "noun",
+    "old": "321_bijinesu_keigo.md",
+    "new": "348_bijinesu_keigo.md"
+  },
+  {
+    "category": "noun",
+    "old": "321_goiki.md",
+    "new": "349_goiki.md"
+  },
+  {
+    "category": "noun",
+    "old": "321_houritsu_bunsho_no_nihongo.md",
+    "new": "350_houritsu_bunsho_no_nihongo.md"
+  },
+  {
+    "category": "noun",
+    "old": "321_seiketsu.md",
+    "new": "351_seiketsu.md"
+  },
+  {
+    "category": "noun",
+    "old": "321_shiten_to_keigo.md",
+    "new": "352_shiten_to_keigo.md"
+  },
+  {
+    "category": "noun",
+    "old": "322_gokyo.md",
+    "new": "353_gokyo.md"
+  },
+  {
+    "category": "noun",
+    "old": "322_shikaku_kouka_gitaigo.md",
+    "new": "354_shikaku_kouka_gitaigo.md"
+  },
+  {
+    "category": "noun",
+    "old": "323_imiron.md",
+    "new": "355_imiron.md"
+  },
+  {
+    "category": "noun",
+    "old": "323_nihongo_gakushuu_framework.md",
+    "new": "356_nihongo_gakushuu_framework.md"
+  },
+  {
+    "category": "noun",
+    "old": "323_shijigo.md",
+    "new": "357_shijigo.md"
+  },
+  {
+    "category": "noun",
+    "old": "323_指示語.md",
+    "new": "358_指示語.md"
+  },
+  {
+    "category": "noun",
+    "old": "324_gengo_nouryoku_hyouka.md",
+    "new": "359_gengo_nouryoku_hyouka.md"
+  },
+  {
+    "category": "noun",
+    "old": "324_hogo.md",
+    "new": "360_hogo.md"
+  },
+  {
+    "category": "verb-u",
+    "old": "33_kaeru.md",
+    "new": "034_kaeru.md"
+  },
+  {
+    "category": "verb-u",
+    "old": "034_aru.md",
+    "new": "035_aru.md"
+  },
+  {
+    "category": "verb-u",
+    "old": "035_okosu.md",
+    "new": "036_okosu.md"
+  },
+  {
+    "category": "verb-u",
+    "old": "35_okoru.md",
+    "new": "037_okoru.md"
+  },
+  {
+    "category": "verb-u",
+    "old": "036_hashiru.md",
+    "new": "038_hashiru.md"
+  },
+  {
+    "category": "verb-u",
+    "old": "037_iku.md",
+    "new": "039_iku.md"
+  },
+  {
+    "category": "verb-u",
+    "old": "038_uru.md",
+    "new": "040_uru.md"
+  },
+  {
+    "category": "verb-u",
+    "old": "039_haku.md",
+    "new": "041_haku.md"
+  },
+  {
+    "category": "verb-u",
+    "old": "040_nugu.md",
+    "new": "042_nugu.md"
+  }
+]

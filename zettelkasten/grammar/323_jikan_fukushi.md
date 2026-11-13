@@ -1,161 +1,141 @@
 ---
+id: 294
 title: 時間副詞の用法
-description: 時間副詞的用法
-type: linguistics
-stage: pending
-tags:
-  - adverb
-  - time_expression
-  - jlpt/n3
-created: 2025-12-27
-updated: 2025-12-27
+title_en: Adverbs of Time Usage
+title_zh: 時間副詞的用法
+category: grammar
+tags: [grammar, adverb, time, temporal-expressions]
 version_history:
-  - version: "1.5.4"
-    stage: "pending"
+  - version: v1.5.1
+    status: created
     date: 2025-12-27
 content_verification:
-  japanese: true
-  english: true
-  chinese: true
-  examples_count: 6
-  pending_links: []
+  - japanese_explanation: true
+    chinese_explanation: true
+    english_explanation: true
+    examples: true
 link_status:
-  incoming: 0
-  outgoing: 3
-  pending: 0
-  verified_date: 2025-12-27
-links:
+  internal_links: 0
+  external_links: 0
 ---
-## 日文
-時間副詞の用法（じかんふくしのようほう）
-
-**羅馬拼音**：jikan fukushi no youhou
-
-**品詞分類**：文法（副詞用法）
 
 ## 日文解釋
-時間副詞は、動作や状態の時間的な側面を表す副詞です。日本語の時間副詞は、時制（過去・現在・未来）と密接に関係し、文全体の時間的意味を決定する重要な役割を果たします。代表的なものに「もう」「まだ」「すでに」「いつも」「たいてい」「ときどき」「まもなく」などがあります。これらの副詞は、動詞の時制形式と組み合わせることで、様々な時間的ニュアンスを表現できます。
 
-## 英文解釋
-Time adverbs (時間副詞) are adverbs that express the temporal aspect of actions or states. In Japanese, time adverbs are closely related to tense (past, present, future) and play a crucial role in determining the temporal meaning of the entire sentence. Common examples include もう (mou, "already/anymore"), まだ (mada, "still/not yet"), すでに (sudeni, "already"), いつも (itsumo, "always"), たいてい (taitei, "usually"), ときどき (tokidoki, "sometimes"), and まもなく (mamonaku, "soon"). These adverbs, when combined with verb tense forms, can express various temporal nuances.
+時間副詞（じかんふくし）は、動作や状態がいつ起こるかを表現する語彙です。主に以下のカテゴリに分類されます：
+
+### 時間副詞の分類
+
+1. **時点を表す副詞** - 特定の時間点を示す
+   - 今（いま）：現在
+   - 今日（きょう）：今日
+   - 明日（あした）：明日
+   - 昨日（きのう）：昨日
+
+2. **時間的な位置を表す副詞** - 時間の相対的な位置を示す
+   - 前（まえ）：前に
+   - 後（あと）：後で
+   - 中（あいだ）：間に
+   - 間（かん）：～間
+
+3. **頻度を表す副詞** - 動作の繰り返しの程度を示す
+   - いつも：常に
+   - しばしば：頻繁に
+   - ときどき：時々
+   - たまに：稀に
+
+4. **継続の副詞** - 動作の継続を示す
+   - ずっと：ずっと～
+   - ずっと前から：ずっと前から～
 
 ## 中文解釋
-時間副詞是表達動作或狀態時間層面的副詞。日語的時間副詞與時態（過去、現在、未來）密切相關，在決定整個句子的時間意義上扮演重要角色。常見的時間副詞包括：「もう」（已經/不再）、「まだ」（還/尚未）、「すでに」（已經）、「いつも」（總是）、「たいてい」（通常）、「ときどき」（有時）、「まもなく」（即將）等。這些副詞與動詞時態形式的搭配，可以表達各種時間上的細微差異。
 
-## 例句
+時間副詞是表達動作或狀態何時發生的詞彙。主要分為以下幾類：
 
-**例句1**
-```
-もう宿題を終わりました。
-I have already finished my homework.
-我已經完成作業了。
-```
+### 時間副詞的分類
 
-**例句2**
-```
-まだ電車が来ていません。
-The train hasn't come yet.
-電車還沒來。
-```
+1. **表示時間點的副詞** - 指出特定時間
+   - 今（いま）：現在
+   - 今日（きょう）：今天
+   - 明日（あした）：明天
+   - 昨日（きのう）：昨天
 
-**例句3**
-```
-彼女はいつも朝早く起きます。
-She always wakes up early in the morning.
-她總是一大早就起床。
-```
+2. **表示時間位置的副詞** - 表示相對時間位置
+   - 前（まえ）：之前
+   - 後（あと）：之後
+   - 中（あいだ）：期間中
+   - 間（かん）：～間
 
-**例句4**
-```
-すでに会議は始まっていた。
-The meeting had already started.
-會議已經開始了。
-```
+3. **表示頻度的副詞** - 表示動作重複的程度
+   - いつも：總是
+   - しばしば：頻繁地
+   - ときどき：有時
+   - たまに：偶爾
 
-**例句5**
-```
-父はたいてい７時に帰ってきます。
-My father usually comes home at 7 o'clock.
-父親通常7點回家。
-```
+4. **表示持續的副詞** - 表示動作的持續
+   - ずっと：一直
+   - ずっと前から：很久以前
 
-**例句6**
-```
-電車はまもなく到着します。
-The train will arrive soon.
-電車即將到站。
-```
+## English Explanation
 
-## 補充說明
+Adverbs of time (時間副詞/jikan fukushi) are words that express when an action or state occurs. They can be classified into several main categories:
 
-### 主要時間副詞分類
+### Classification of Adverbs of Time
 
-#### 1. 完了・未完了系
-| 副詞 | 意味 | 時態搭配 |
-|------|------|----------|
-| もう | 已經（肯定）/不再（否定） | 過去・完了 |
-| まだ | 還（肯定）/尚未（否定） | 現在進行・未完了 |
-| すでに | 已經（較正式） | 過去・完了 |
+1. **Point-of-time adverbs** - Indicate specific moments
+   - 今（いま）：now
+   - 今日（きょう）：today
+   - 明日（あした）：tomorrow
+   - 昨日（きのう）：yesterday
 
-#### 2. 頻度系
-| 副詞 | 頻度 | 例 |
-|------|------|-----|
-| いつも | 100% | いつも勉強する |
-| たいてい | 80-90% | たいてい歩いて行く |
-| よく | 70-80% | よく映画を見る |
-| ときどき | 40-50% | ときどき旅行する |
-| たまに | 20-30% | たまに外食する |
-| めったに〜ない | 5-10% | めったに怒らない |
-| 全然〜ない | 0% | 全然分からない |
+2. **Positional adverbs** - Indicate relative temporal positions
+   - 前（まえ）：before
+   - 後（あと）：after
+   - 中（あいだ）：during
+   - 間（かん）：for (duration)
 
-#### 3. 未来系
-| 副詞 | 意味 | 用法 |
-|------|------|------|
-| まもなく | 即將 | 近い未来 |
-| もうすぐ | 很快 | 近い未来 |
-| やがて | 不久 | 少し先の未来 |
-| いずれ | 將來 | 遠い未来 |
+3. **Frequency adverbs** - Indicate how often something occurs
+   - いつも：always
+   - しばしば：frequently
+   - ときどき：sometimes
+   - たまに：occasionally
 
-### 「もう」と「まだ」の対比[^1]
+4. **Continuity adverbs** - Indicate continuation of action
+   - ずっと：all along / continuously
+   - ずっと前から：from long ago
 
-**肯定文での使い分け**：
-- もう食べた → 已經吃了（動作完了）
-- まだ食べている → 還在吃（動作持續）
+## 例文
 
-**否定文での使い分け**：
-- もう食べない → 不再吃了（今後の否定）
-- まだ食べていない → 還沒吃（未完了）
+### 時間點の例文
+- 今、仕事をしています。*Currently, I am working.*
+- 昨日、映画を見ました。*Yesterday, I watched a movie.*
+- 明日、友達と会います。*Tomorrow, I will meet with my friend.*
+- 今日は学校に行きません。*Today, I will not go to school.*
 
-### 時制との相性
+### 時間位置の例文
+- 前に会ったことがあります。*I have met (you) before.*
+- 後で連絡します。*I will contact you later.*
+- その間、何もしていませんでした。*During that time, I was not doing anything.*
+- 3時間の間、映画を見ました。*I watched a movie for 3 hours.*
 
-| 副詞 | 過去形 | 〜ている | 非過去形 |
-|------|--------|----------|----------|
-| もう | ◎ | ○ | △ |
-| まだ | △ | ◎ | ○ |
-| すでに | ◎ | ○ | × |
-| まもなく | × | × | ◎ |
+### 頻度の例文
+- いつも朝7時に起きます。*I always wake up at 7 in the morning.*
+- しばしば雨が降ります。*It frequently rains.*
+- ときどき公園に行きます。*I sometimes go to the park.*
+- たまに外食します。*I occasionally eat out.*
 
-### 注意事項
+### 継続の例文
+- ずっと待っていました。*I was waiting all along.*
+- ずっと前から知っていました。*I have known it since long ago.*
+- 一晩中、泣いていました。*I was crying all night long.*
 
-1. **位置の柔軟性**：時間副詞は文頭・主語後・動詞前など比較的自由に配置可能
-2. **時制との一致**：副詞と動詞の時制が矛盾しないよう注意
-3. **否定との組み合わせ**：「まだ」「めったに」などは否定形との相性が重要
+## 關連卡片
 
-### 常見錯誤
+[待建立]
 
-❌ まだ食べました。（「まだ」は完了形と不自然）
-⭕ もう食べました。/まだ食べていません。
+## 附註
 
-❌ すでに明日行きます。（「すでに」は未来形と矛盾）
-⭕ まもなく行きます。/すでに行きました。
-
-## 相關連結
-
-### 相關文法概念
-- [て形](002_te_form.md) - 時間副詞と組み合わせる基本形式
-- [ている](052_te_iru.md) - 進行・状態表現との関係
-- [た形](048_ta_kei.md) - 完了表現との組み合わせ
+時間副詞の位置は柔軟です。文頭、動詞の前、文末など様々な位置に置くことができます。
 
 ---
 
-[^1]: 「もう」と「まだ」は対照的な時間副詞で、完了・未完了の対比を表します。肯定文と否定文で意味が変化することに注意が必要です。
+**Last updated**: 2025-12-27

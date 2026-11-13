@@ -111,12 +111,12 @@ Through quantitative easing policy, the central bank purchased large amounts of 
 ## 相關連結
 
 ### 貨幣政策相關
-- [金融政策](../noun/089_keizaiseisaku.md) - 中央銀行實施的政策
-- [金利](../noun/094_kinri.md) - 政策工具之一
-- [通貨](../noun/117_tsuuka.md) - 中央銀行發行的貨幣
+- [金融政策](../noun/091_keizaiseisaku.md) - 中央銀行實施的政策
+- [金利](../noun/096_kinri.md) - 政策工具之一
+- [通貨](../noun/119_tsuuka.md) - 中央銀行發行的貨幣
 
 ### 金融機構相關
-- [日本銀行](../noun/138_nihonginkou.md) - 日本的中央銀行
+- [日本銀行](../noun/140_nihonginkou.md) - 日本的中央銀行
 - [銀行](../noun/181-銀行.md) - 金融機構總稱
 
 ---

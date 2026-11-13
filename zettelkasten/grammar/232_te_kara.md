@@ -85,7 +85,7 @@ The pattern "〜てから" means "after doing..." and emphasizes the sequential 
 - [〜前に](131_mae_ni.md) - 對比：表示動作之前
 - [〜後で](017_ato_de.md) - 近義：表示動作之後
 - [〜たら](197_tara_joken.md) - 對比：條件假設用法
-- [時間表現](../concept/081_time_expressions.md) - 相關概念
+- [時間表現](../concept/118_time_expressions.md) - 相關概念
 
 ## 參考來源
 - 基礎日文文法教材

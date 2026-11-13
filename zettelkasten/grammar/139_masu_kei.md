@@ -131,13 +131,13 @@ The polite form of verbs, used in both spoken and written Japanese to show respe
 
 ## 相關連結
 
-- [一段動詞](../concept/074_ichidan_verbs.md) - ます形の変化が規則的
-- [五段動詞](../concept/073_godan_verbs.md) - 語尾変化のパターン理解が必要
-- [不規則動詞](../concept/075_irregular_verbs.md) - する・来るの特殊な変化
+- [一段動詞](../concept/111_ichidan_verbs.md) - ます形の変化が規則的
+- [五段動詞](../concept/110_godan_verbs.md) - 語尾変化のパターン理解が必要
+- [不規則動詞](../concept/112_irregular_verbs.md) - する・来るの特殊な変化
 - [普通形](215_ikou_kei.md) - カジュアルな表現との対比
 - [て形](002_te_form.md) - ます形の語幹を使う活用
-- [た形](../concept/088_ta_form.md) - 過去形の作り方
+- [た形](../concept/125_ta_form.md) - 過去形の作り方
 - [ない形](011_nai_form.md) - 否定形の作り方
 - [たい形](159_tai_kei.md) - 願望表現
-- [敬語](../noun/303_敬語.md) - より丁寧な表現
+- [敬語](../noun/309_敬語.md) - より丁寧な表現
 - [辞書形](013_dictionary_form.md) - 基本形との関係

@@ -90,8 +90,8 @@ link_status:
 
 ## 相關連結
 
-- [動詞活用](../concept/56_verb_conjugation.md)[^1]
-- [ます形](../concept/115_masu_form.md)[^2]
+- [動詞活用](../concept/074_verb_conjugation.md)[^1]
+- [ます形](../concept/152_masu_form.md)[^2]
 - [ませんか](待建立)[^3]
 - [意志形](152_ishi_kei.md)[^4]
 - [勧誘表現](待建立)[^5]

@@ -1,14 +1,12 @@
 # Verb U 索引
 
-最後編號：037
+最後編號：042
 總卡片數：42
 
 ## 卡片列表
 
 ### 依編號
-- [000 - "帰る（かえる）"](33_kaeru/) 
-- [000 - "起こる（おこる）"](35_okoru/) #u-verb #jlpt-n4 #occurrence
-- [001 - 上升、上漲、提高](001_agaru/) 
+- [001 - 上升、上漲、提高](001_agaru/) #context/casual #context/formal #domain/economics
 - [002 - 飲む - 喝](002_nomu/) #basic #domain/daily_life
 - [003 - 読む - 讀、閱讀](003_yomu/) #basic #learning
 - [004 - 書く - 寫、書寫](004_kaku/) #basic #learning
@@ -16,38 +14,40 @@
 - [006 - 買う - 買、購買](006_kau/) #basic #shopping #domain/daily_life
 - [007 - 話す - 說話、交談](007_hanasu/) #basic #domain/communication
 - [008 - 歩く - 走路、步行](008_aruku/) #basic #domain/movement #domain/daily_life
-- [009 - 行く - 去、前往](009_iku/) 
-- [010 - 入る - 進入、加入](010_hairu/) 
-- [011 - 帰る - 回去、回家](011_kaeru/) 
-- [012 - 売る - 賣、出售](012_uru/) 
-- [013 - 言う - 說、講](013_iu/) 
-- [014 - 思う - 想、覺得、認為](014_omou/) 
-- [015 - 履く - 穿（褲子、鞋子、襪子）](015_haku/) 
-- [016 - 脱ぐ - 脫（衣服、鞋子）](016_nugu/) 
-- [017 - 走る - 跑、奔跑](017_hashiru/) 
-- [018 - やる - 給、做、試](018_yaru/) 
-- [019 - くださる - 給予（尊敬語）](019_kudasaru/) 
-- [020 - いただく - 接受、收到（謙讓語）](020_itadaku/) 
+- [009 - 行く - 去、前往](009_iku/) #basic #domain/movement #domain/daily_life
+- [010 - 入る - 進入、加入](010_hairu/) #jlpt/n5 #domain/movement #entering
+- [011 - 帰る - 回去、回家](011_kaeru/) #jlpt/n5 #domain/movement #returning
+- [012 - 売る - 賣、出售](012_uru/) #jlpt/n5 #commerce #transaction
+- [013 - 言う - 說、講](013_iu/) #jlpt/n5 #domain/communication #speech
+- [014 - 思う - 想、覺得、認為](014_omou/) #jlpt/n5 #thinking #feeling
+- [015 - 履く - 穿（褲子、鞋子、襪子）](015_haku/) #jlpt/n5 #clothing #wearing
+- [016 - 脱ぐ - 脫（衣服、鞋子）](016_nugu/) #jlpt/n5 #clothing #removing
+- [017 - 走る - 跑、奔跑](017_hashiru/) #jlpt/n5 #domain/movement #running
+- [018 - やる - 給、做、試](018_yaru/) #jlpt/n5 #giving_casual #doing
+- [019 - くださる - 給予（尊敬語）](019_kudasaru/) #context/formal #context/business #domain/communication
+- [020 - いただく - 接受、收到（謙讓語）](020_itadaku/) #context/formal #context/business #domain/communication
 - [021 - 學習](021_manabu/) #education #learning #active_learning
 - [022 - 返回、回到](022_modoru/) #verb #movement #basic
-- [023 - "等待、等候"](023_matsu/) #verb-u #action #basic
+- [023 - 等待、等候](023_matsu/) #verb-u #action #basic
 - [024 - 着く - 到達、抵達](024_tsuku/) #basic #domain/daily_life #verb
 - [025 - 居住、住](025_sumu/) #verb #living #basic
-- [026 - "知道、了解"](026_shiru/) #verb-u #cognition #basic
-- [027 - "明白、理解"](027_wakaru/) #verb-u #cognition #basic
-- [028 - "拿、取得、獲得。表示用手拿取物品，或是取得、獲得某物的基本動詞。"](028_toru/) #verb-u
-- [029 - "關閉、熄滅、消除"](029_kesu/) #verb-u #action #basic
-- [030 - ](030_manabu/) 
-- [031 - 習う](031_narau/) 
+- [026 - 知道、了解](026_shiru/) #verb-u #cognition #basic
+- [027 - 明白、理解](027_wakaru/) #verb-u #cognition #basic
+- [028 - 拿、取得、獲得。表示用手拿取物品，或是取得、獲得某物的基本動詞。](028_toru/) #verb-u
+- [029 - 關閉、熄滅、消除](029_kesu/) #verb-u #action #basic
+- [030 - ](030_manabu/) #verb #education #learning
+- [031 - 習う](031_narau/) #verb #u-verb #JLPT-N5
 - [032 - ](032_oru/) 
 - [033 - ](033_iu/) 
-- [034 - "ある"](034_aru/) #"existence" #"possession" #"godan-verb"
-- [035 - "起こす（おこす）"](035_okosu/) 
-- [036 - ](036_uru/) 
-- [036 - ](036_iku/) 
-- [036 - ](036_hashiru/) #movement #basic-action #intransitive
-- [037 - 履く](037_haku/) 
-- [037 - ](037_nugu/) 
+- [034 - 帰る（かえる）](034_kaeru/) #移動 #日常
+- [035 - ある](035_aru/) #existence #possession #godan-verb
+- [036 - 起こす（おこす）](036_okosu/) #五段動詞 #他動詞 #u-verb
+- [037 - 起こる（おこる）](037_okoru/) #u-verb #jlpt-n4 #occurrence
+- [038 - ](038_hashiru/) #movement #basic-action #intransitive
+- [039 - ](039_iku/) 
+- [040 - ](040_uru/) #u-verb #transitive #commerce
+- [041 - 履く](041_haku/) #五段動詞 #動作 #服裝
+- [042 - ](042_nugu/) 
 
 ---
-最後更新: 2025-12-26 13:05:26
+最後更新: 2026-11-14 02:27:42

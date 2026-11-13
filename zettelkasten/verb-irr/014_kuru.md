@@ -160,11 +160,11 @@ To come; to arrive. An irregular verb indicating movement toward the speaker or 
 
 ### 関連文法
 - [て形 + 来る](待建立)：補助動詞用法
-- [ます形](../concept/115_masu_form.md)：丁寧形
-- [可能形](../concept/104_kanoukei.md)：可能表現
+- [ます形](../concept/152_masu_form.md)：丁寧形
+- [可能形](../concept/141_kanoukei.md)：可能表現
 
 ### 関連概念
-- [不規則動詞](../concept/075_irregular_verbs.md)：活用の種類
+- [不規則動詞](../concept/112_irregular_verbs.md)：活用の種類
 - [カ行変格活用](待建立)：活用パターン
 - [移動動詞](../grammar/170_idou_doushi.md)：動詞の分類
 - [視点](../concept/006_viewpoint.md)：話者の視点

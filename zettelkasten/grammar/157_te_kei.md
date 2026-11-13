@@ -157,14 +157,14 @@ It rained, and the game was canceled.
 
 ## 関連文法（Related Grammar）
 
-- [ます形](../concept/115_masu_form.md)（連用形）
-- [ている](296_teiru.md)（進行・状態）
+- [ます形](../concept/152_masu_form.md)（連用形）
+- [ている](312_teiru.md)（進行・状態）
 - [てください](【待建立】)（依頼表現）
-- [てもいい](297_temo_ii.md)（許可表現）
+- [てもいい](313_temo_ii.md)（許可表現）
 - [てはいけない](【待建立】)（禁止表現）
 - [Group I 動詞](【待建立】)（五段動詞）
 - [Group II 動詞](【待建立】)（一段動詞）
-- [不規則動詞](../concept/075_irregular_verbs.md)
+- [不規則動詞](../concept/112_irregular_verbs.md)
 
 ---
 

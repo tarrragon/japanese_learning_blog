@@ -169,14 +169,14 @@ Written language (書き言葉, kakikotoba) and spoken language (話し言葉, h
 ## 相關連結
 
 ### 相關概念
-- [書面語](../concept/56_written_language.md) - 書面語的詳細概念說明
+- [書面語](../concept/076_written_language.md) - 書面語的詳細概念說明
 - [口語特徵](./150_kougo_tokucho.md) - 口語的特徵說明
 - [丁寧語](../concept/036_teineigo_concept.md) - 敬語系統中的禮貌語
 
 ### 接續詞比較
 - [しかし vs でも](../comparison/006_shikashi_vs_demo.md) - 逆接接續詞比較
-- [それで vs だから](../comparison/40_sorede_vs_dakara.md) - 因果接續詞比較
-- [そして vs だから](../comparison/40_soshite_vs_dakara.md) - 順接接續詞比較
+- [それで vs だから](../comparison/058_sorede_vs_dakara.md) - 因果接續詞比較
+- [そして vs だから](../comparison/059_soshite_vs_dakara.md) - 順接接續詞比較
 
 ### 語體相關
 - [ます形](./046_masu_kei.md) - 禮貌體的基本形式

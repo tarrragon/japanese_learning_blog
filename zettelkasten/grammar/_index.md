@@ -1,342 +1,344 @@
 # Grammar 索引
 
-最後編號：343
-總卡片數：331
+最後編號：390
+總卡片數：333
 
 ## 卡片列表
 
 ### 依編號
-- [001 - 只能修飾名詞、不能單獨使用的品詞](001_rentaishi/) 
-- [002 - 日文動詞的て形變化及其用法](002_te_form/) 
-- [003 - 表示兩個動作同時進行（一邊...一邊...）](003_nagara/) 
-- [004 - "〜ていただく"](004_te_itadaku/) 
-- [005 - 一段動詞（る動詞）- 規則動詞類型](005_ichidan_verb/) 
-- [006 - けれども縮約形](006_keredomo_contractions/) 
-- [007 - 〜前に - 表示「在...之前」的時間文法](007_mae_ni/) 
-- [008 - 敬語系統 - 日語的尊敬、謙讓、丁寧語三大系統](008_keigo_system/) 
-- [009 - 五段動詞（う動詞）- 變化複雜的動詞類型](009_godan_verb/) 
-- [010 - ます形 - 日語禮貌形動詞變化](010_masu_form/) 
-- [011 - ない形 - 日語否定形動詞變化](011_nai_form/) 
-- [012 - た形 - 日語過去形・完了形動詞變化](012_ta_form/) 
-- [013 - 辞書形 - 日語動詞基本形・原形](013_dictionary_form/) 
-- [014 - 可能形 - 日語動詞可能態](014_potential_form/) 
-- [015 - 受身形 - 日語動詞被動態](015_passive_form/) 
-- [016 - 使役形 - 日語動詞使役態](016_causative_form/) 
-- [017 - 〜後で - 表示「在...之後」的時間文法](017_ato_de/) 
-- [018 - 〜てから - 表示「做完...之後」的時間順序文法（強調緊接順序）](018_te_kara/) 
-- [019 - たい形 - 想要做某事的表達方式](019_tai_form/) 
-- [020 - ましょう形 - 建議、邀請、意向的表達方式](020_mashou_form/) 
-- [021 - ないで - 不做某動作就做另一動作的表達方式](021_naide/) 
-- [022 - ないでください - 禮貌的否定請求（請不要做某事）](022_naide_kudasai/) 
-- [023 - たことがある - 經驗的表達方式（曾經做過某事）](023_ta_koto_ga_aru/) 
-- [024 - ことができる - 能力的表達方式（會做、能做某事）](024_koto_ga_dekiru/) 
-- [025 - 〜ている - 進行式、持續狀態的表達方式](025_te_iru/) 
-- [026 - てもいい - 許可的表達方式（可以做某事）](026_temo_ii/) 
-- [027 - てはいけない - 禁止的表達方式（不可以做某事）](027_tewa_ikenai/) 
-- [028 - お/ご～になる - 尊敬語形成模式](028_o_go_ni_naru/) 
-- [029 - お/ご～する - 謙讓語形成模式](029_o_go_suru/) 
-- [030 - なければならない - 必須、一定要](030_nakereba_naranai/) 
-- [031 - なくてもいい - 不必、不用](031_nakutemo_ii/) 
-- [032 - お/ご～いただく - 更謙遜的謙讓語表達](032_o_go_itadaku/) 
-- [033 - たら - 條件、假設（如果...的話）](033_tara/) 
-- [034 - てある - 結果狀態（有意圖的準備狀態）](034_tearu/) 
-- [035 - てくる・ていく - 方向補助動詞（來去方向）](035_tekuru_teiku/) 
-- [036 - 主題評述結構 - 日語句子的基本組織方式，以「主題」為出發點進行陳述](036_topic_comment_structure/) 
-- [037 - 資訊結構理論 - 舊資訊與新資訊的標記系統](037_information_structure/) 
-- [038 - 對比與焦點 - は的對比功能與焦點理論](038_contrast_focus/) 
-- [039 - まで vs までに - 持續性 vs 期限的重要區別](039_made_vs_madeni/) 
-- [040 - ～にする - 決定、選擇（表達做出選擇和改變狀態）](040_ni_suru/) 
-- [041 - 進行形 vs 狀態形 - 〜ている的兩大核心意義區別](041_progressive_vs_state/) 
-- [042 - ～として - 作為...（表達身份、角色、立場、資格）](042_to_shite/) 
-- [043 - することがある - 有時會做、偶爾做（表示習慣性的偶爾發生）](043_suru_koto_ga_aru/) 
-- [044 - 動詞的辞書形（基本形），是字典查詢用的形式，也是普通體的基礎。所有動詞在字典中都以此形式呈現，表示未完成的動作或狀態。](044_jishokei/) 
-- [045 - 過去疑問形〜ましたか，用於禮貌地詢問過去發生的事情或行為](045_mashitaka/) 
-- [046 - ます形は日本語の丁寧体における基本的な動詞活用形式で、初学者が最初に学ぶ礼儀正しい表現方法です](046_masu_kei/) 
-- [047 - 動詞的否定形式，用於表示否定、禁止、義務等各種文法結構的基礎形態](047_nai_kei/) 
-- [048 - 日文動詞た形，表示過去、完了、經驗的基本動詞形式](048_ta_kei/) 
-- [049 - 日語動詞最重要的活用形之一，用於連接句子、表達請求、進行狀態等多種文法功能](049_te_kei/) 
-- [050 - ば條件形 - 假定條件表達方式](050_ba_jouken/) 
-- [051 - 授受表現 - 日語的給予與接受動詞系統](051_juju_hyougen/) 
-- [052 - 〜ている形 - 日文的進行式與狀態表達（進行、結果、習慣、職業四大用法）](052_te_iru/) 
-- [053 - 〜てくれる（他人為我方做某事）](053_te_kureru/) 
-- [054 - 請求或接受他人做某事（受益者視角）](054_te_morau/) 
-- [055 - と條件形（自然條件/恆常關係）](055_to_jouken/) 
-- [056 - 應該、義務建議（表達義務、應然、道德規範的助動詞）](056_beki/) 
-- [057 - なら - 話題條件/建議前提（基於對方提出的話題或情況）](057_nara/) 
-- [058 - 存在與場所表達 - いる/ある的使用與場所句型](058_sonzai_basho/) 
-- [059 - 連體修飾是指動詞、形容詞等修飾名詞的文法結構，是日文構造複雜句子的核心機制](059_rentai_shushoku/) 
-- [060 - たら條件形（假定條件/完成條件）](060_tara_jouken/) 
-- [061 - 為他人做某事（給予者視角）](061_te_ageru/) 
-- [062 - ました是ます形的過去肯定形式，用於禮貌地表達過去完成的動作或狀態](062_mashita/) 
-- [063 - できる是する的可能形，表示能力、可能性，也可以單獨使用表示「能夠」「會做」](063_dekiru/) 
-- [064 - ～になる（自然變化/結果狀態）](064_ni_naru/) 
-- [065 - ～ことにする（決定做某事）](065_koto_ni_suru/) 
-- [066 - 〜てください是日文中禮貌請求的基本句型，用於請求對方做某事](066_te_kudasai/) 
-- [067 - 自他動詞對應 - 日文動詞配對系統與轉換規律](067_jita_taiou/) 
-- [068 - 〜たり〜たりする句型用於列舉多個動作或狀態的代表性例子，表示「做...做...等等」](068_tari_tari/) 
-- [069 - 格助詞系統是日文中標記名詞文法功能的助詞體系，包含が、を、に、で、へ、と、から、まで等](069_case_particles/) 
-- [070 - 他動詞與自動詞的對比和使用規則，是日文動詞分類和助詞選擇的核心概念](070_transitive_intransitive/) 
-- [071 - 社會規則的表達與文法結構](071_shakai_kisoku/) 
-- [072 - 承蒙某人為我做某事（謙讓）](072_te_itadaku/) 
-- [073 - 方向助詞的比較與用法](073_he_ni_made/) 
-- [074 - 請求或命令的禮貌表達](074_te_kudasai/) 
-- [075 - 最好...、應該...（建議）](075_hou_ga_ii/) 
-- [076 - 決定做某事（主動決定）](076_koto_ni_suru/) 
-- [077 - 表示動作完成後的結果狀態持續存在](077_te_aru/) 
-- [078 - 表示動作完了或帶有遺憾、後悔語氣的文法形式](078_te_shimau/) 
-- [079 - 持續狀態（已確認存在）](079_te_iru/) 
-- [080 - 表示事先準備或保持狀態的文法句型](080_te_oku/) 
-- [081 - 表示嘗試做某事的文法形式](081_te_miru/) 
-- [082 - 經驗表達（曾經做過某事）](082_ta_koto_ga_aru/) 
-- [083 - 〜た後で - 動詞た形接續的「之後」表達](083_ta_ato/) 
-- [084 - 表示動作剛剛完成，強調時間的接近性](084_ta_bakari/) 
-- [085 - 〜た時 - 表示「...的時候」的時間文法](085_ta_toki/) 
-- [086 - ました形は丁寧体における過去・完了の表現形式で、礼儀正しく過去の出来事を述べる際に使用します](086_mashita/) 
-- [087 - ます形的現在否定形式，用於禮貌地表達不做某事](087_masen/) 
-- [088 - ませんでした形是丁寧體的過去否定形式，用於禮貌地表達過去沒有做某事](088_masen_deshita/) 
-- [089 - 連體修飾的進階運用與實際應用](089_rentai_shushoku/) 
-- [090 - 表達打算、計劃或意圖的文法](090_tsumori_da/) 
-- [091 - する的可能形，表示能力或可能性](091_dekiru/) 
-- [092 - たら条件形，表示假定條件或時間順序](092_tara_jouken/) 
-- [093 - ば条件形 - 假定條件的進階用法與細節](093_ba_jouken/) 
-- [094 - 格助詞系統 - 日文中標記名詞文法功能的核心助詞體系](094_case_particles/) 
-- [095 - 他動詞與自動詞的完整解析 - 從概念到實踐的全方位指南](095_transitive_intransitive/) 
-- [096 - 自動詞與他動詞的對應關係及使用規則](096_jita_taiou/) 
-- [097 - 引用表達的文法模式](097_quotation_expression/) 
-- [098 - 並列助詞系統用於連接名詞、動詞、形容詞等句子成分，表達並列、列舉、添加等關係](098_conjunction_particles/) 
-- [099 - 存在表達 - ある/いる的基本句型與用法](099_aru_iru/) 
-- [100 - 移動動詞與を助詞的特殊用法：表示經過路徑、離開起點](100_movement_verbs/) 
-- [101 - 受身形的基本概念與應用](101_passive/) 
-- [102 - 使役形 - 表示讓某人做某事或給予許可的文法形式](102_causative/) 
-- [103 - 可能形 - 表達能力和可能性的動詞變化形式](103_potential/) 
-- [104 - 意向形（普通形）- 表達意志、建議和推測的動詞變化](104_volitional/) 
-- [105 - 命令形 - 日語動詞命令態](105_imperative/) 
-- [106 - 表示義務和必須性的文法句型](106_nakereba_naranai/) 
-- [107 - 最好...、應該...（建議的表達方式）](107_hou_ga_ii/) 
-- [108 - 表達理由和原因的文法模式](108_kara_node/) 
-- [109 - 〜ために - 表示「為了」（目的）或「因為」（原因）的文法](109_tame_ni/) 
-- [110 - 樣態助動詞「〜そうだ」，表示根據視覺觀察推測事物的狀態或即將發生的事](110_sou_da_appearance/) 
-- [111 - 傳聞表達「〜そうだ」- 表示從他人處聽說的資訊](111_sou_da_hearsay/) 
-- [112 - 表達「看起來...」的判斷文法](112_you_ni_mieru/) 
-- [113 - 表達推測、傳聞或典型特質的助動詞](113_rashii/) 
-- [114 - です形 - 名詞和形容詞的禮貌形式](114_desu_form/) 
-- [115 - れる・られる的尊敬語用法](115_rareru_honorific/) 
-- [116 - 日語基本句型（名詞句、形容詞句、動詞句）](116_basic_sentence_patterns/) 
-- [117 - 賓語（目的語）- 動作的直接對象](117_mokutekigo/) 
-- [118 - 列舉多個動作或狀態，表示「做...做...」](118_tari_tari/) 
-- [119 - 日文疑問詞系統的完整說明](119_question_words/) 
-- [120 - 丁寧な質問 - 禮貌提問的語法結構和使用方式](120_polite_questions/) 
-- [121 - 疑問助詞系統用於構成疑問句，包括か、の等助詞，表達疑問、確認、反問等語氣](121_question_particles/) 
-- [122 - 邀約文法 - 邀請他人、提出建議的各種表達方式](122_invitation_grammar/) 
-- [123 - 日語的語氣表達系統，用於表示說話者的態度、判斷和心理狀態](123_modal_expressions/) 
-- [124 - 否定系統整合 - 動詞、形容詞、名詞的否定表達完整體系](124_negation_system/) 
-- [125 - こと名詞化 - 動詞や形容詞を名詞化する基本文法](125_koto_nominalization/) 
-- [126 - 表達能力與可能性的基本句型](126_koto_ga_dekiru/) 
-- [127 - 表示決定或規定（非個人意志）](127_koto_ni_naru/) 
-- [128 - ましょう形（意向形丁寧體）- 動詞活用形式的基礎](128_mashou_kei/) 
-- [129 - 表示提議、建議或邀請的文法句型](129_mashou_ka/) 
-- [130 - 表示「做完...之後」的時間順序文法](130_te_kara/) 
-- [131 - 表示某動作或事件發生之前的時間點](131_mae_ni/) 
-- [132 - 表示在某動作或事件結束後進行另一個動作](132_ato_de/) 
-- [133 - 一邊...一邊...（表示同時進行兩個動作）](133_nagara/) 
-- [134 - 表示已確立的規定或慣例](134_koto_ni_natte_iru/) 
-- [135 - 〜ざるを得ない - 不得不、只好](135_zaruwoenai/) 
-- [136 - "「〜になる」表示狀態或性質的變化，用於描述自然發生的變化或隨時間改變的狀態。這是自動詞性質的表達，表"](136_ni_naru/) 
-- [137 - "表示為某人做某事的授受表達"](137_te_ageru/) 
-- [138 - "表示尊敬的授受表達，用於描述地位較高者為說話者做某事"](138_te_kudasaru/) 
-- [139 - "動詞的丁寧形（禮貌形），日語基本句型的核心結構"](139_masu_kei/) 
-- [140 - "表示原因、理由的接續助詞，較から委婉、客觀，常用於正式場合"](140_node/) 
-- [141 - "可能形"](141_kanoukei/) 
-- [142 - "～ことができる"](142_koto_ga_dekiru/) 
-- [143 - "お/ご～になる"](143_o_go_ni_naru/) 
-- [144 - "お/ご～する"](144_o_go_suru/) 
-- [145 - "たら"](145_tara/) 
+- [001 - 只能修飾名詞、不能單獨使用的品詞](001_rentaishi/) #context/formal #context/casual #jlpt/n4
+- [002 - 日文動詞的て形變化及其用法](002_te_form/) #context/casual #context/formal #jlpt/n5
+- [003 - 表示兩個動作同時進行（一邊...一邊...）](003_nagara/) #context/casual #context/formal #jlpt/n4
+- [004 - 〜ていただく](004_te_itadaku/) #grammar #keigo #request
+- [005 - 一段動詞（る動詞）- 規則動詞類型](005_ichidan_verb/) #grammar #conjugation #basic
+- [006 - けれども縮約形](006_keredomo_contractions/) #接続詞 #縮約形 #語域
+- [007 - 〜前に - 表示「在...之前」的時間文法](007_mae_ni/) #grammar #time #sequence
+- [008 - 敬語系統 - 日語的尊敬、謙讓、丁寧語三大系統](008_keigo_system/) #grammar #keigo #honorific
+- [009 - 五段動詞（う動詞）- 變化複雜的動詞類型](009_godan_verb/) #grammar #conjugation #basic
+- [010 - ます形 - 日語禮貌形動詞變化](010_masu_form/) #grammar #conjugation #polite
+- [011 - ない形 - 日語否定形動詞變化](011_nai_form/) #grammar #conjugation #negative
+- [012 - た形 - 日語過去形・完了形動詞變化](012_ta_form/) #grammar #conjugation #past
+- [013 - 辞書形 - 日語動詞基本形・原形](013_dictionary_form/) #grammar #conjugation #basic
+- [014 - 可能形 - 日語動詞可能態](014_potential_form/) #grammar #conjugation #potential
+- [015 - 受身形 - 日語動詞被動態](015_passive_form/) #grammar #conjugation #passive
+- [016 - 使役形 - 日語動詞使役態](016_causative_form/) #grammar #conjugation #causative
+- [017 - 〜後で - 表示「在...之後」的時間文法](017_ato_de/) #grammar #time #sequence
+- [018 - 〜てから - 表示「做完...之後」的時間順序文法（強調緊接順序）](018_te_kara/) #grammar #time #sequence
+- [019 - たい形 - 想要做某事的表達方式](019_tai_form/) #grammar #jlpt/n5 #desire
+- [020 - ましょう形 - 建議、邀請、意向的表達方式](020_mashou_form/) #grammar #jlpt/n5 #volitional
+- [021 - ないで - 不做某動作就做另一動作的表達方式](021_naide/) #grammar #jlpt/n5 #nai-form
+- [022 - ないでください - 禮貌的否定請求（請不要做某事）](022_naide_kudasai/) #grammar #jlpt/n5 #request
+- [023 - たことがある - 經驗的表達方式（曾經做過某事）](023_ta_koto_ga_aru/) #grammar #jlpt/n5 #experience
+- [024 - ことができる - 能力的表達方式（會做、能做某事）](024_koto_ga_dekiru/) #grammar #jlpt/n5 #ability
+- [025 - 〜ている - 進行式、持續狀態的表達方式](025_te_iru/) #grammar #jlpt/n5 #progressive
+- [026 - てもいい - 許可的表達方式（可以做某事）](026_temo_ii/) #grammar #jlpt/n5 #permission
+- [027 - てはいけない - 禁止的表達方式（不可以做某事）](027_tewa_ikenai/) #grammar #jlpt/n5 #prohibition
+- [028 - お/ご～になる - 尊敬語形成模式](028_o_go_ni_naru/) #jlpt/n4 #honorific #respect
+- [029 - お/ご～する - 謙讓語形成模式](029_o_go_suru/) #jlpt/n4 #honorific #keigo
+- [030 - なければならない - 必須、一定要](030_nakereba_naranai/) #obligation #necessity #grammar_pattern
+- [031 - なくてもいい - 不必、不用](031_nakutemo_ii/) #permission #optional #grammar_pattern
+- [032 - お/ご～いただく - 更謙遜的謙讓語表達](032_o_go_itadaku/) #jlpt/n4 #honorific #keigo
+- [033 - たら - 條件、假設（如果...的話）](033_tara/) #conditional #hypothesis #grammar_pattern
+- [034 - てある - 結果狀態（有意圖的準備狀態）](034_tearu/) #jlpt/n4 #domain/daily_life
+- [035 - てくる・ていく - 方向補助動詞（來去方向）](035_tekuru_teiku/) #auxiliary_verb #direction #movement
+- [036 - 主題評述結構 - 日語句子的基本組織方式，以「主題」為出發點進行陳述](036_topic_comment_structure/) #grammar #sentence_structure #linguistic_theory
+- [037 - 資訊結構理論 - 舊資訊與新資訊的標記系統](037_information_structure/) #grammar #linguistic_theory #information_flow
+- [038 - 對比與焦點 - は的對比功能與焦點理論](038_contrast_focus/) #grammar #linguistic_theory #contrast
+- [039 - まで vs までに - 持續性 vs 期限的重要區別](039_made_vs_madeni/) #grammar #jlpt/n5 #time
+- [040 - ～にする - 決定、選擇（表達做出選擇和改變狀態）](040_ni_suru/) #grammar #jlpt/n4 #decision
+- [041 - 進行形 vs 狀態形 - 〜ている的兩大核心意義區別](041_progressive_vs_state/) #jlpt/n5 #grammar/aspect #grammar/verb-classification
+- [042 - ～として - 作為...（表達身份、角色、立場、資格）](042_to_shite/) #grammar #jlpt/n3 #role
+- [043 - することがある - 有時會做、偶爾做（表示習慣性的偶爾發生）](043_suru_koto_ga_aru/) #grammar #jlpt/n4 #frequency
+- [044 - 動詞的辞書形（基本形），是字典查詢用的形式，也是普通體的基礎。所有動詞在字典中都以此形式呈現，表示未完成的動作或狀態。](044_jishokei/) #jlpt/n5 #verb_conjugation #basic_form
+- [045 - 過去疑問形〜ましたか，用於禮貌地詢問過去發生的事情或行為](045_mashitaka/) #jlpt/n5 #question_form #polite
+- [046 - ます形は日本語の丁寧体における基本的な動詞活用形式で、初学者が最初に学ぶ礼儀正しい表現方法です](046_masu_kei/) #jlpt/n5 #verb_conjugation #polite_form
+- [047 - 動詞的否定形式，用於表示否定、禁止、義務等各種文法結構的基礎形態](047_nai_kei/) #jlpt/n5 #verb_conjugation #negation
+- [048 - 日文動詞た形，表示過去、完了、經驗的基本動詞形式](048_ta_kei/) #jlpt/n5 #verb_conjugation #past_tense
+- [049 - 日語動詞最重要的活用形之一，用於連接句子、表達請求、進行狀態等多種文法功能](049_te_kei/) #jlpt/n5 #domain/communication
+- [050 - ば條件形 - 假定條件表達方式](050_ba_jouken/) #context/formal #context/casual #domain/communication
+- [051 - 授受表現 - 日語的給予與接受動詞系統](051_juju_hyougen/) #grammar #verb #pragmatics
+- [052 - 〜ている形 - 日文的進行式與狀態表達（進行、結果、習慣、職業四大用法）](052_te_iru/) #jlpt/n5 #domain/daily_life #context/casual
+- [053 - 〜てくれる（他人為我方做某事）](053_te_kureru/) #daily_life #casual #family
+- [054 - 請求或接受他人做某事（受益者視角）](054_te_morau/) #casual #formal #daily_life
+- [055 - と條件形（自然條件/恆常關係）](055_to_jouken/) #context/formal #context/casual #domain/daily_life
+- [056 - 應該、義務建議（表達義務、應然、道德規範的助動詞）](056_beki/) #grammar #modal #formal
+- [057 - なら - 話題條件/建議前提（基於對方提出的話題或情況）](057_nara/) #context/casual #context/formal #domain/daily_life
+- [058 - 存在與場所表達 - いる/ある的使用與場所句型](058_sonzai_basho/) #grammar #jlpt/n5 #existence
+- [059 - 連體修飾是指動詞、形容詞等修飾名詞的文法結構，是日文構造複雜句子的核心機制](059_rentai_shushoku/) #jlpt/n4 #jlpt/n5 #context/formal
+- [060 - たら條件形（假定條件/完成條件）](060_tara_jouken/) #context/formal #context/casual #domain/daily_life
+- [061 - 為他人做某事（給予者視角）](061_te_ageru/) #context/casual #context/formal #domain/daily_life
+- [062 - ました是ます形的過去肯定形式，用於禮貌地表達過去完成的動作或狀態](062_mashita/) #jlpt/n5 #context/formal #domain/communication
+- [063 - できる是する的可能形，表示能力、可能性，也可以單獨使用表示「能夠」「會做」](063_dekiru/) #jlpt/n5 #context/casual #domain/communication
+- [064 - ～になる（自然變化/結果狀態）](064_ni_naru/) #context/formal #context/casual #domain/daily_life
+- [065 - ～ことにする（決定做某事）](065_koto_ni_suru/) #context/formal #context/casual #domain/daily_life
+- [066 - 〜てください是日文中禮貌請求的基本句型，用於請求對方做某事](066_te_kudasai/) #jlpt/n5 #context/formal #domain/communication
+- [067 - 自他動詞對應 - 日文動詞配對系統與轉換規律](067_jita_taiou/) #context/academic #domain/communication #jlpt/n4
+- [068 - 〜たり〜たりする句型用於列舉多個動作或狀態的代表性例子，表示「做...做...等等」](068_tari_tari/) #jlpt/n4 #context/casual #domain/communication
+- [069 - 格助詞系統是日文中標記名詞文法功能的助詞體系，包含が、を、に、で、へ、と、から、まで等](069_case_particles/) #jlpt/n4 #jlpt/n5 #context/formal
+- [070 - 他動詞與自動詞的對比和使用規則，是日文動詞分類和助詞選擇的核心概念](070_transitive_intransitive/) #jlpt/n4 #context/academic #domain/communication
+- [071 - 社會規則的表達與文法結構](071_shakai_kisoku/) #jlpt/n3 #domain/society #context/formal
+- [072 - 承蒙某人為我做某事（謙讓）](072_te_itadaku/) #grammar #giving-receiving #benefactive
+- [073 - 方向助詞的比較與用法](073_he_ni_made/) #grammar #particle #direction
+- [074 - 請求或命令的禮貌表達](074_te_kudasai/) #grammar #request #te-form
+- [075 - 最好...、應該...（建議）](075_hou_ga_ii/) #grammar #advice #suggestion
+- [076 - 決定做某事（主動決定）](076_koto_ni_suru/) #grammar #decision #volition
+- [077 - 表示動作完成後的結果狀態持續存在](077_te_aru/) #te-form #state #grammar_pattern
+- [078 - 表示動作完了或帶有遺憾、後悔語氣的文法形式](078_te_shimau/) #grammar #auxiliary_verb #aspect
+- [079 - 持續狀態（已確認存在）](079_te_iru/) #te-form #state #progressive
+- [080 - 表示事先準備或保持狀態的文法句型](080_te_oku/) #te-form #preparation #grammar_pattern
+- [081 - 表示嘗試做某事的文法形式](081_te_miru/) #grammar #auxiliary_verb #volition
+- [082 - 經驗表達（曾經做過某事）](082_ta_koto_ga_aru/) #context/casual #context/formal #domain/communication
+- [083 - 〜た後で - 動詞た形接續的「之後」表達](083_ta_ato/) #context/daily_life #domain/communication #jlpt/n4
+- [084 - 表示動作剛剛完成，強調時間的接近性](084_ta_bakari/) #te-form #time_expression #grammar_pattern
+- [085 - 〜た時 - 表示「...的時候」的時間文法](085_ta_toki/) #grammar #pattern #context/daily_life
+- [086 - ました形は丁寧体における過去・完了の表現形式で、礼儀正しく過去の出来事を述べる際に使用します](086_mashita/) #jlpt/n5 #verb_conjugation #polite_form
+- [087 - ます形的現在否定形式，用於禮貌地表達不做某事](087_masen/) #jlpt/n5 #verb_conjugation #polite_form
+- [088 - ませんでした形是丁寧體的過去否定形式，用於禮貌地表達過去沒有做某事](088_masen_deshita/) #jlpt/n5 #verb_conjugation #polite_form
+- [089 - 連體修飾的進階運用與實際應用](089_rentai_shushoku/) #jlpt/n5 #context/formal #domain/linguistics
+- [090 - 表達打算、計劃或意圖的文法](090_tsumori_da/) #context/daily_life #domain/communication #jlpt/n4
+- [091 - する的可能形，表示能力或可能性](091_dekiru/) #context/daily_life #domain/cognition #jlpt/n5
+- [092 - たら条件形，表示假定條件或時間順序](092_tara_jouken/) #context/daily_life #domain/communication #jlpt/n4
+- [093 - ば条件形 - 假定條件的進階用法與細節](093_ba_jouken/) #conditional #grammar_pattern #context/formal
+- [094 - 格助詞系統 - 日文中標記名詞文法功能的核心助詞體系](094_case_particles/) #domain/linguistics #context/formal #context/academic
+- [095 - 他動詞與自動詞的完整解析 - 從概念到實踐的全方位指南](095_transitive_intransitive/) #context/academic #context/daily_life #domain/linguistics
+- [096 - 自動詞與他動詞的對應關係及使用規則](096_jita_taiou/) #grammar/verb-classification #verb_type #domain/linguistics
+- [097 - 引用表達的文法模式](097_quotation_expression/) #context/formal #context/casual #domain/communication
+- [098 - 並列助詞系統用於連接名詞、動詞、形容詞等句子成分，表達並列、列舉、添加等關係](098_conjunction_particles/) #jlpt/n4 #jlpt/n5 #context/formal
+- [099 - 存在表達 - ある/いる的基本句型與用法](099_aru_iru/) #existence #basic #sentence_pattern
+- [100 - 移動動詞與を助詞的特殊用法：表示經過路徑、離開起點](100_movement_verbs/) #jlpt/n4 #context/daily_life #context/formal
+- [101 - 受身形的基本概念與應用](101_passive/) #context/daily_life #domain/linguistics
+- [102 - 使役形 - 表示讓某人做某事或給予許可的文法形式](102_causative/) #causative #verb_conjugation #context/formal
+- [103 - 可能形 - 表達能力和可能性的動詞變化形式](103_potential/) #grammar #conjugation #potential
+- [104 - 意向形（普通形）- 表達意志、建議和推測的動詞變化](104_volitional/) #grammar #jlpt/n4 #volitional
+- [105 - 命令形 - 日語動詞命令態](105_imperative/) #grammar #conjugation #imperative
+- [106 - 表示義務和必須性的文法句型](106_nakereba_naranai/) #grammar_pattern #modal #conditional
+- [107 - 最好...、應該...（建議的表達方式）](107_hou_ga_ii/) #context/daily_life #domain/communication #jlpt/n4
+- [108 - 表達理由和原因的文法模式](108_kara_node/) #context/daily_life #context/formal #domain/communication
+- [109 - 〜ために - 表示「為了」（目的）或「因為」（原因）的文法](109_tame_ni/) #grammar #purpose #reason
+- [110 - 樣態助動詞「〜そうだ」，表示根據視覺觀察推測事物的狀態或即將發生的事](110_sou_da_appearance/) #context/daily_life #domain/perception #domain/cognition
+- [111 - 傳聞表達「〜そうだ」- 表示從他人處聽說的資訊](111_sou_da_hearsay/) #context/casual #context/formal #domain/communication
+- [112 - 表達「看起來...」的判斷文法](112_you_ni_mieru/) #context/daily_life #domain/perception #jlpt/n4
+- [113 - 表達推測、傳聞或典型特質的助動詞](113_rashii/) #modal #grammar_pattern #context/daily_life
+- [114 - です形 - 名詞和形容詞的禮貌形式](114_desu_form/) #context/formal #context/daily_life #jlpt/n5
+- [115 - れる・られる的尊敬語用法](115_rareru_honorific/) #context/formal #context/business #domain/communication
+- [116 - 日語基本句型（名詞句、形容詞句、動詞句）](116_basic_sentence_patterns/) #context/daily_life #context/formal #jlpt/n5
+- [117 - 賓語（目的語）- 動作的直接對象](117_mokutekigo/) #context/academic #grammar-term #sentence-structure
+- [118 - 列舉多個動作或狀態，表示「做...做...」](118_tari_tari/) #context/daily_life #context/casual #jlpt/n4
+- [119 - 日文疑問詞系統的完整說明](119_question_words/) #question #context/daily_life #jlpt/n5
+- [120 - 丁寧な質問 - 禮貌提問的語法結構和使用方式](120_polite_questions/) #context/formal #context/business #question
+- [121 - 疑問助詞系統用於構成疑問句，包括か、の等助詞，表達疑問、確認、反問等語氣](121_question_particles/) #jlpt/n5 #context/casual #context/formal
+- [122 - 邀約文法 - 邀請他人、提出建議的各種表達方式](122_invitation_grammar/) #grammar #jlpt/n4 #invitation
+- [123 - 日語的語氣表達系統，用於表示說話者的態度、判斷和心理狀態](123_modal_expressions/) #grammar_system #domain/linguistics #context/formal
+- [124 - 否定系統整合 - 動詞、形容詞、名詞的否定表達完整體系](124_negation_system/) #grammar #negation #system
+- [125 - こと名詞化 - 動詞や形容詞を名詞化する基本文法](125_koto_nominalization/) #grammar #jlpt/n4 #nominalization
+- [126 - 表達能力與可能性的基本句型](126_koto_ga_dekiru/) #grammar #jlpt/n5 #ability
+- [127 - 表示決定或規定（非個人意志）](127_koto_ni_naru/) #context/formal #context/business #jlpt/n4
+- [128 - ましょう形（意向形丁寧體）- 動詞活用形式的基礎](128_mashou_kei/) #grammar #conjugation #jlpt/n5
+- [129 - 表示提議、建議或邀請的文法句型](129_mashou_ka/) #context/daily_life #context/social #invitation
+- [130 - 表示「做完...之後」的時間順序文法](130_te_kara/) #time_expression #sequence #daily_life
+- [131 - 表示某動作或事件發生之前的時間點](131_mae_ni/) #context/daily_life #domain/communication #jlpt/n5
+- [132 - 表示在某動作或事件結束後進行另一個動作](132_ato_de/) #context/daily_life #domain/communication #jlpt/n5
+- [133 - 一邊...一邊...（表示同時進行兩個動作）](133_nagara/) #context/daily_life #domain/communication #jlpt/n4
+- [134 - 表示已確立的規定或慣例](134_koto_ni_natte_iru/) #context/formal #context/business #jlpt/n4
+- [135 - 〜ざるを得ない - 不得不、只好](135_zaruwoenai/) #obligation #necessity #grammar_pattern
+- [136 - 「〜になる」表示狀態或性質的變化，用於描述自然發生的變化或隨時間改變的狀態。這是自動詞性質的表達，表](136_ni_naru/) #grammar
+- [137 - 表示為某人做某事的授受表達](137_te_ageru/) #grammar #giving_receiving #te_form
+- [138 - 表示尊敬的授受表達，用於描述地位較高者為說話者做某事](138_te_kudasaru/) #grammar #giving_receiving #te_form
+- [139 - 動詞的丁寧形（禮貌形），日語基本句型的核心結構](139_masu_kei/) #verb_conjugation #politeness
+- [140 - 表示原因、理由的接續助詞，較から委婉、客觀，常用於正式場合](140_node/) #cause_reason #conjunction #formal_expression
+- [141 - 可能形](141_kanoukei/) #動詞變化 #可能表現 #N4文法
+- [142 - ～ことができる](142_koto_ga_dekiru/) #可能表現 #動詞変換 #文法パターン
+- [143 - お/ご～になる](143_o_go_ni_naru/) 
+- [144 - お/ご～する](144_o_go_suru/) #敬語 #謙讓語 #honorific
+- [145 - たら](145_tara/) 
 - [146 - ](146_dakara/) 
-- [147 - "使役受身"](147_shieki_ukemi/) 
-- [148 - "た形"](148_ta_kei/) 
-- [149 - "文法句型"](149_bunpou_kugata/) 
-- [150 - "いただく"](150_itadaku/) 
-- [151 - "お〜になる"](151_o_ni_naru/) 
-- [152 - "意志形"](152_ishi_kei/) 
+- [147 - 使役受身](147_shieki_ukemi/) #verb-form #n3 #causative-passive
+- [148 - た形](148_ta_kei/) 
+- [149 - 文法句型](149_bunpou_kugata/) #grammar_pattern #sentence_structure #jlpt/n4
+- [150 - いただく](150_itadaku/) 
+- [151 - お〜になる](151_o_ni_naru/) #尊敬語 #動詞變化 #敬語表現
+- [152 - 意志形](152_ishi_kei/) #動詞活用 #意志表現 #勧誘表現
 - [153 - ](153_juju_hyougen/) 
-- [154 - "ましょう"](154_mashou/) 
-- [155 - "ない形"](155_nai_kei/) 
-- [156 - "接続詞"](156_setsuzokushi/) 
-- [157 - "て形"](157_te_kei/) 
-- [158 - "一段動詞"](158_ichidan_doushi/) 
-- [159 - "たい形"](159_tai_kei/) 
-- [160 - "疑問文"](160_gimonbun/) 
-- [161 - "ご覧になる"](161_goran_ni_naru/) 
-- [162 - "いらっしゃる"](162_irassharu/) 
+- [154 - ましょう](154_mashou/) #勧誘表現 #提案 #動詞活用
+- [155 - ない形](155_nai_kei/) 
+- [156 - 接続詞](156_setsuzokushi/) #接続詞 #文法 #文章構造
+- [157 - て形](157_te_kei/) #grammar #verb-conjugation #jlpt-n5
+- [158 - 一段動詞](158_ichidan_doushi/) #動詞 #活用
+- [159 - たい形](159_tai_kei/) #conjugation #desire #adjective-type
+- [160 - 疑問文](160_gimonbun/) #jlpt-n5 #grammar #sentence-pattern
+- [161 - ご覧になる](161_goran_ni_naru/) #honorific #keigo #sonkeigo
+- [162 - いらっしゃる](162_irassharu/) #尊敬語 #五段動詞 #敬語体系
 - [163 - ](163_kakujoshi_system/) 
-- [164 - "召し上がる"](164_meshiagaru/) 
-- [165 - "なければならない"](165_nakereba_naranai/) 
-- [166 - "なさる"](166_nasaru/) 
-- [167 - "になる"](167_ni_naru/) 
-- [168 - "おっしゃる"](168_ossharu/) 
-- [169 - "連用形"](169_renyoukei/) 
-- [170 - "移動動詞"](170_idou_doushi/) 
-- [171 - "他動詞與自動詞"](171_tadoushi_jidoushi/) 
-- [172 - "主題評述結構"](172_shudai_hyoujutsu/) 
-- [173 - "對比與焦點"](173_taihi_shouten/) 
-- [174 - "でも"](174_demo/) 
-- [175 - "では"](175_dewa/) 
-- [176 - "しかし"](176_shikashi/) 
-- [177 - "したがって"](177_shitagatte/) 
-- [178 - "そのため"](178_sonotame/) 
+- [164 - 召し上がる](164_meshiagaru/) #honorific #verb #respect-language
+- [165 - なければならない](165_nakereba_naranai/) #義務表達 #動詞變化 #N4文法
+- [166 - なさる](166_nasaru/) #尊敬語 #五段動詞 #敬語表現
+- [167 - になる](167_ni_naru/) #change #state-transition #verb-pattern
+- [168 - おっしゃる](168_ossharu/) #尊敬語 #五段動詞
+- [169 - 連用形](169_renyoukei/) #verb_conjugation #adjective_conjugation #grammar_form
+- [170 - 移動動詞](170_idou_doushi/) #動詞 #移動 #方向性
+- [171 - 他動詞與自動詞](171_tadoushi_jidoushi/) #verb #jlpt-n4
+- [172 - 主題評述結構](172_shudai_hyoujutsu/) #grammar #syntax #topic-comment
+- [173 - 對比與焦點](173_taihi_shouten/) #particle-usage #information-structure #は-が-distinction
+- [174 - でも](174_demo/) #接續詞 #轉折 #口語
+- [175 - では](175_dewa/) 
+- [176 - しかし](176_shikashi/) 
+- [177 - したがって](177_shitagatte/) #接続詞 #因果関係 #書き言葉
+- [178 - そのため](178_sonotame/) #接続詞 #因果関係 #書き言葉
 - [179 - それで](179_sorede/) 
-- [180 - "それから"](180_sorekara/) 
-- [181 - "それでは"](181_soredewa/) 
+- [180 - それから](180_sorekara/) 
+- [181 - それでは](181_soredewa/) #grammar #conjunction #phrase
 - [182 - ](182_sate/) 
-- [183 - "〜ている 的多重意義"](183_teiru_tajuuigi/) 
-- [184 - "〜てくる・〜ていく"](184_tekuru_teiku/) 
-- [185 - "引用表現"](185_inyou_hyougen/) 
-- [186 - "並列助詞"](186_heiretsu_joshi/) 
-- [187 - 日語基本句型](187_kihon_kugata/) 
+- [183 - 〜ている 的多重意義](183_teiru_tajuuigi/) #aspect #progressive #state
+- [184 - 〜てくる・〜ていく](184_tekuru_teiku/) #方向補語 #複合動詞 #移動方向
+- [185 - 引用表現](185_inyou_hyougen/) #grammar #quotation #と言う
+- [186 - 並列助詞](186_heiretsu_joshi/) #助詞 #並列 #N5
+- [187 - 日語基本句型](187_kihon_kugata/) #grammar #sentence-structure #sov-order
 - [188 - ](188_ni_naru_henka/) 
-- [189 - "動詞連用形+に+行く/来る"](189_renyoukei_ni_iku/) 
-- [190 - "時間の長さと継続"](190_jikan_keizoku/) 
-- [191 - "時間+に"](191_jikan_ni/) 
-- [192 - "期限表現"](192_kigen_hyougen/) 
-- [193 - "〜ませんか"](193_masenka/) 
-- [194 - "にする"](194_ni_suru/) 
-- [195 - "瞬間動詞"](195_shunkan_doushi/) 
-- [196 - "〜たことがある"](196_ta_koto_ga_aru/) 
-- [197 - "〜たら（條件）"](197_tara_joken/) 
+- [189 - 動詞連用形+に+行く/来る](189_renyoukei_ni_iku/) #grammar-pattern #verb-conjugation #purpose-expression
+- [190 - 時間の長さと継続](190_jikan_keizoku/) #時間表現 #助詞 #副詞
+- [191 - 時間+に](191_jikan_ni/) #助詞 #時間表現 #N5文法
+- [192 - 期限表現](192_kigen_hyougen/) #grammar #time-limit #deadline
+- [193 - 〜ませんか](193_masenka/) #invitation #polite #negative-form
+- [194 - にする](194_ni_suru/) #grammar #decision #choice
+- [195 - 瞬間動詞](195_shunkan_doushi/) #動詞分類 #アスペクト #ている
+- [196 - 〜たことがある](196_ta_koto_ga_aru/) #grammar #experience #past-tense
+- [197 - 〜たら（條件）](197_tara_joken/) #condition #hypothesis #temporal
 - [198 - ](198_te_aru/) 
-- [199 - "〜てください"](199_te_kudasai/) 
-- [200 - "〜ているところ"](200_teiru_tokoro/) 
+- [199 - 〜てください](199_te_kudasai/) #grammar #te-form #request
+- [200 - 〜ているところ](200_teiru_tokoro/) #grammar #progressive #aspect
 - [201 - ](201_teita/) 
-- [202 - "ないでください"](202_naide_kudasai/) 
-- [203 - "なくてもいい"](203_nakutemo_ii/) 
-- [204 - "〜なくて"](204_nakute/) 
-- [205 - "〜たがる"](205_tagaru/) 
-- [206 - "〜と思う"](206_to_omou/) 
-- [207 - "〜ずに"](207_zuni/) 
-- [208 - 引用文法（と引用）是日文中用來轉述他人話語、思考或表達內容的文法結構](208_inyou_bunpou/) 
-- [209 - "関西弁の特徴"](209_kansai_hougen/) 
+- [202 - ないでください](202_naide_kudasai/) #N5 #禁止表現 #請求形式
+- [203 - なくてもいい](203_nakutemo_ii/) #grammar #permission #negation
+- [204 - 〜なくて](204_nakute/) #negative #conjugation #N5
+- [205 - 〜たがる](205_tagaru/) #grammar #auxiliary-verb #third-person
+- [206 - 〜と思う](206_to_omou/) #opinion #judgment #subjective-expression
+- [207 - 〜ずに](207_zuni/) 
+- [208 - 引用文法（と引用）是日文中用來轉述他人話語、思考或表達內容的文法結構](208_inyou_bunpou/) #context/formal #context/casual #domain/communication
+- [209 - 関西弁の特徴](209_kansai_hougen/) #grammar #方言 #関西弁
 - [210 - ](210_keigo_machigai/) 
-- [211 - "謙讓語系統"](211_kenjougo_system/) 
-- [212 - "詢問或確認的禮貌表現"](212_deshouka/) 
-- [213 - 日文的疑問句構造與語尾助詞「か」的運用](213_gimon_keishiki/) 
-- [214 - お〜する](214_o_suru/) 
-- [215 - 動詞的意向形變化及其用法，表達說話者的意志或提議](215_ikou_kei/) 
-- [216 - "Obligation, Must, Have to"](216_nakereba_naranai2/) 
-- [217 - "商務敬語 - 職場與商務場合的正式敬語表達"](217_bijinesu_keigo/) 
-- [218 - "表達事件時間順序的文法句型"](218_jikan_junjo/) 
-- [219 - "敬語系統"](219_keigo_system/) 
-- [220 - 列舉表達](220_rekkyo_hyougen/) 
+- [211 - 謙讓語系統](211_kenjougo_system/) #敬語 #謙讓語 #文法體系
+- [212 - 詢問或確認的禮貌表現](212_deshouka/) #question #polite #uncertainty
+- [213 - 日文的疑問句構造與語尾助詞「か」的運用](213_gimon_keishiki/) #context/formal #context/casual #jlpt/n5
+- [214 - お〜する](214_o_suru/) #謙讓語 #敬語 #動詞接続
+- [215 - 動詞的意向形變化及其用法，表達說話者的意志或提議](215_ikou_kei/) #grammar_conjugation #jlpt/n4 #context/casual
+- [216 - Obligation, Must, Have to](216_nakereba_naranai2/) #obligation #necessity #formal
+- [217 - 商務敬語 - 職場與商務場合的正式敬語表達](217_bijinesu_keigo/) #grammar #keigo #business
+- [218 - 表達事件時間順序的文法句型](218_jikan_junjo/) #grammar #time_expression #jlpt/n4
+- [219 - 敬語系統](219_keigo_system/) #敬語 #尊敬語 #謙讓語
+- [220 - 列舉表達](220_rekkyo_hyougen/) #grammar #sentence-patterns #enumeration
 - [221 - ](221_shijishi_system/) 
-- [222 - "因果関係表現"](222_inga_hyougen/) 
-- [223 - "依頼表現"](223_irai_hyougen/) 
-- [224 - 日文助詞系統的完整概覽，包含格助詞、副助詞、接續助詞、終助詞等主要分類及其功能](224_joshi_souran/) 
-- [225 - "可能形助詞規則"](225_kanoukei_joshi/) 
-- [226 - "禁止表達"](226_kinshi_hyougen/) 
+- [222 - 因果関係表現](222_inga_hyougen/) #grammar #因果 #論理
+- [223 - 依頼表現](223_irai_hyougen/) #grammar #request #politeness
+- [224 - 日文助詞系統的完整概覽，包含格助詞、副助詞、接續助詞、終助詞等主要分類及其功能](224_joshi_souran/) #jlpt/n4 #jlpt/n5 #context/formal
+- [225 - 可能形助詞規則](225_kanoukei_joshi/) #可能形 #助詞 #を→が
+- [226 - 禁止表達](226_kinshi_hyougen/) #grammar #prohibition #negative-imperative
 - [227 - ](227_setsuzokushi_youhou/) 
-- [228 - "禮貌請求表達：請做某事"](228_tekudasai/) 
-- [229 - "不定代詞"](229_futei_daimeishi/) 
-- [230 - ](230_mashou_kei/) 
-- [231 - ](231_nagara_kei/) 
-- [232 - "〜てから"](232_te_kara/) 
-- [233 - "コミュニケーション"](233_communication/) 
-- [234 - 複文構造中獨立表達完整意思的主要子句](234_shusetsu/) 
-- [235 - いただけ](235_itadake/) 
+- [228 - 禮貌請求表達：請做某事](228_tekudasai/) #grammar #request_expression #jlpt/n5
+- [229 - 不定代詞](229_futei_daimeishi/) #代詞 #疑問詞 #文法
+- [230 - ](230_mashou_kei/) #verb-conjugation #proposal #invitation
+- [231 - ](231_nagara_kei/) #te-form #compound-verb #adverbial
+- [232 - 〜てから](232_te_kara/) #grammar #te-form #sequence
+- [233 - コミュニケーション](233_communication/) #grammar #communication #pragmatics
+- [234 - 複文構造中獨立表達完整意思的主要子句](234_shusetsu/) #context/formal #context/casual #jlpt/n3
+- [235 - いただけ](235_itadake/) #謙讓語 #請求表達
 - [236 - ](236_shomenbun_kougo/) 
 - [237 - ](237_washa/) 
-- [238 - お/ご〜なさる](238_o_go_nasaru/) 
-- [239 - お/ご〜いたす](239_o_go_itasu/) 
-- [240 - 社會團體中長期形成的習慣性行為模式](240_kanshuu/) 
-- [241 - 日語口語表達的特點與書面語的差異](241_kougo_tokucho/) 
-- [242 - 日文中表達連續動作的文法結構，包括て形連接、～たり～たり、～てから等](242_renzoku_dousa/) 
-- [243 - 制度](243_seido/) 
-- [244 - 日本語における書き言葉と話し言葉の違い、特徴、使い分けについての解説](244_shomenbun_to_kougo/) 
-- [245 - 會話中話題轉換與維持的文法策略](245_wadai_kanri/) 
-- [246 - 文章や発話の前後関係・状況から生じる意味](246_bunmyaku/) 
-- [247 - "時間表現（じかんひょうげん）"](247_jikan_hyougen/) 
-- [248 - 在複合句中扮演從屬角色、修飾主節的句子成分](248_juuzoku_setsu/) 
-- [249 - 日常生活中使用的基本對話模式和表達方式](249_daily_conversation/) 
-- [250 - 必要性 - 表達事物必須存在或必須做的概念](250_hitsuyousei/) 
-- [251 - 對比辨析 - 日語比較分析的方法論與學習策略](251_taihi_benseki/) 
-- [252 - 丁寧語 - 聞き手に対する礼儀正しさを示す敬語の基本形式](252_teineigo/) 
-- [253 - 選択・代替を表す文法表現とパターン](253_choice/) 
-- [254 - 日文口語中常見的縮約變化規則與系統](254_contraction/) 
-- [255 - 日語名詞的基本概念與用法](255_meishi/) 
-- [256 - 日語中正式場合使用的語法形式與表達方式](256_formal/) 
-- [257 - "日文句子的邏輯組織方式，包含論點展開、因果推理和結論導出的表達模式"](257_logical_structure/) 
-- [258 - いる的敬語形式 - 尊敬語「いらっしゃる」與謙讓語「おる」](258_irassharu_oru/) 
-- [259 - 日本社會規則與禮儀的表達體系](259_japanese_social_rules/) 
-- [260 - 日語中描述金融市場相關的專業術語與表達](260_kinyuu_shijou/) 
-- [261 - 義務表達 - 日文中表達必須、應該、不得不等義務的文法系統](261_obligation_expressions/) 
-- [262 - 抽象名詞を形成する接尾辞「性」の用法](262_sei_suffix/) 
-- [263 - 詳細計算、結算的會計與財務用語](263_seisan/) 
-- [264 - 支付的名詞形態，及其在經濟文脈中的文法應用](264_shiharai/) 
-- [265 - 課税所得から差し引かれる金額項目の総称](265_shotoku_koujo/) 
-- [266 - "表示分配、配給的語法結構，用於描述資源、任務或物品的分發"](266_bunpai/) 
-- [267 - 各國金融體系核心機構，負責貨幣發行與金融政策](267_chuuou_ginkou/) 
-- [268 - 日文副詞在句子中的放置規則與語順變化](268_fukushi_no_ichi/) 
-- [269 - 日文透過省略、間接表達傳遞言外之意的溝通方式](269_implicit_communication/) 
-- [270 - 敬語概述 - 日語敬語的基本概念與分類入門](270_keigo_overview/) 
-- [271 - 話者と聞き手・事物との心理的な隔たりを表す言語概念](271_psychological_distance/) 
-- [272 - 内外 - 日語中的內部與外部人際關係系統](272_uchi_soto/) 
-- [273 - 日語溝通中的語用策略與表達調整技巧](273_communication_strategy/) 
-- [274 - 日語中表達和處理人際關係的語言表達與社會語言學概念](274_interpersonal_relationship/) 
-- [275 - 表達明確同意的文法表現與用語](275_explicit_agreement/) 
-- [276 - 日語口語中的非正式對話表達方式](276_casual_conversation/) 
-- [277 - 語用學 - 研究語言在語境中的使用和理解](277_pragmatics/) 
-- [278 - 日本語文法を説明するための専門用語体系](278_bunpou_yougo/) 
-- [279 - 程度副詞的基本概念與應用](279_degree_adverbs/) 
-- [280 - まで助詞と動詞の組み合わせ規則と使い分け](280_made_to_doushi/) 
-- [281 - 謙遜表達 - 日語中表達謙虛的語用策略](281_modest_expression/) 
-- [282 - 日語語音系統的歷史演變與發展](282_nihongo_oninshi/) 
-- [283 - 購買或使用商品、服務的個人或群體，經濟學術語](283_shouhisha/) 
-- [284 - 日常生活で使われる自然な会話パターンと表現](284_daily_conversation/) 
-- [285 - ない形 - 動詞否定形活用](285_nai_form/) 
-- [286 - 收益或利潤，也指利益或好處，經濟學及商業用語](286_rieki/) 
-- [287 - 日語否定表達的各種形式 - 包含動詞、形容詞、名詞的否定變化](287_negation_forms/) 
-- [288 - 言葉の微妙な意味合いや雰囲気の違いを理解する概念](288_nuance/) 
-- [289 - "までにと動詞の組み合わせ"](289_madeni_doushi_kumiawase/) 
-- [290 - 終助詞](290_shuujoshi/) #particle #sentence-ending #emotion
-- [290 - 日語イ形容詞（い形容詞）的完整體系介紹](290_i_keiyoushi_souran/) 
-- [290 - "表示移動方向的助詞に、へ、を的用法與區別"](290_houkou_wo_arawasu_joshi/) 
-- [290 - "日語文法體系的整體架構與分類"](290_文法體系/) 
-- [290 - "學習相關動詞的用法與區別"](290_gakushuu_kanren_doushi/) 
-- [291 - ](291_daga/) #接續詞 #書面語 #逆接
-- [292 - 状態動詞](292_joutai_doushi/) 
-- [293 - けど](293_kedo/) #grammar #conjunction #particle
-- [294 - なくてはいけない - 日語表達必須義務的文法](294_nakutewa_ikenai/) 
-- [295 - 接続詞（接続詞）システムは文や句を連結する機能による分類。順接、逆接、添加、選択などの関係を表現する。](295_setsuzokushi_shurui/) 
-- [296 - ている](296_teiru/) #aspect #continuous #present-progressive
-- [297 - てもいい](297_temo_ii/) 
-- [298 - ](298_keitairon/) #linguistics #word-structure
-- [299 - 助詞系統](299_joshi_system/) #particles #fundamental #joshi
-- [300 - 慣用表現](300_kanyou_hyougen/) 
-- [301 - ](301_taiguu_hyougen/) 
-- [302 - 動作動詞](302_dousa_doushi/) #verb_classification #verb_types #grammar_concept
-- [303 - ](303_dousa_kansei/) 
-- [304 - 方向を表す助詞は、移動や動作の方向を示す助詞。主にへ（e）、に（ni）、を（o）などで表現される](304_houkou_joshi/) 
-- [305 - い形容詞（い形容詞） - 以い結尾的形容詞](305_i_keiyoushi/) 
-- [306 - 移動動詞の活用](306_idou_doushi_katsuyou/) 
-- [307 - 時間副詞の用法](307_jikan_fukushi/) #grammar #adverb #time
-- [308 - 接續助詞](308_setsuzoku_joshi/) #助詞 #文法基礎 #接續
-- [309 - ](309_shimau_usage/) 
-- [310 - ](310_shizen_hyougen/) 
-- [311 - ](311_shuujoshi_youhou/) #"particles" #"sentence-ending" #"nuance"
-- [313 - ](313_bunpou_taikei/) #文法 #體系 #系統架構
-- [314 - "光的擬態詞與表現方式"](314_hikari_hyougen/) 
-- [315 - 補助動詞](315_hojo_doushi/) #auxiliary-verb #verb-combination #te-form
-- [316 - 副詞の否定用法 - 副詞を使った否定表現](316_fukushi_hitei/) 
-- [317 - 大変の多義用法](317_taihen_usage/) #adjective #adverb #polysemy
-- [318 - 句末に付いて文全体の雰囲気や話者の態度を表す助詞](318_終助詞/) 
-- [320 - 状態動詞 - 表示狀態而非動作的動詞類型](320_joutai_doushi/) 
-- [322 - 日語助詞的完整分類系統，包含格助詞、副助詞、接續助詞、終助詞等各類助詞的功能概述](322_joshi_system/) 
-- [323 - 時間副詞的用法](323_jikan_fukushi/) 
-- [324 - 補助動詞しまうの用法](324_shimau/) 
-- [325 - 接在動詞て形後，添加語法意義的動詞群](325_hojo_doushi/) 
-- [326 - 大変の多義用法](326_taihen/) 
-- [327 - 副詞の否定用法 - 副詞と否定形の組み合わせパターン](327_fukushi_hitei/) 
-- [328 - 逆接接續詞的類型和使用場合](328_gyakusetsu_setsuzokushi/) 
-- [329 - "サ變動詞的形成與用法"](329_doushi_suru/) 
-- [343 - "日文形容詞的活用變化系統"](343_keiyoushi_katsuyou/) 
+- [238 - お/ご〜なさる](238_o_go_nasaru/) #尊敬語 #敬語 #上級敬語
+- [239 - お/ご〜いたす](239_o_go_itasu/) #謙讓語 #敬語 #上級敬語
+- [240 - 社會團體中長期形成的習慣性行為模式](240_kanshuu/) #domain/社会学 #concept/社会規範 #context/formal
+- [241 - 日語口語表達的特點與書面語的差異](241_kougo_tokucho/) #context/daily_life #domain/linguistics
+- [242 - 日文中表達連續動作的文法結構，包括て形連接、～たり～たり、～てから等](242_renzoku_dousa/) #context/casual #context/formal #jlpt/n5
+- [243 - 制度](243_seido/) #名詞 #社會 #制度
+- [244 - 日本語における書き言葉と話し言葉の違い、特徴、使い分けについての解説](244_shomenbun_to_kougo/) #jlpt/n3 #register #written_language
+- [245 - 會話中話題轉換與維持的文法策略](245_wadai_kanri/) #grammar #conversation #discourse
+- [246 - 文章や発話の前後関係・状況から生じる意味](246_bunmyaku/) #context/formal #context/casual #jlpt/n2
+- [247 - 時間表現（じかんひょうげん）](247_jikan_hyougen/) #grammar #時間表現 #jlpt/n4
+- [248 - 在複合句中扮演從屬角色、修飾主節的句子成分](248_juuzoku_setsu/) #context/formal #context/written #jlpt/n3
+- [249 - 日常生活中使用的基本對話模式和表達方式](249_daily_conversation/) #context/casual #context/formal #jlpt/n5
+- [250 - 必要性 - 表達事物必須存在或必須做的概念](250_hitsuyousei/) #necessity #obligation #grammar_concept
+- [251 - 對比辨析 - 日語比較分析的方法論與學習策略](251_taihi_benseki/) #grammar #comparison #analysis
+- [252 - 丁寧語 - 聞き手に対する礼儀正しさを示す敬語の基本形式](252_teineigo/) #grammar #keigo #teineigo
+- [253 - 選択・代替を表す文法表現とパターン](253_choice/) #context/formal #context/casual #jlpt/n3
+- [254 - 日文口語中常見的縮約變化規則與系統](254_contraction/) #contraction #口語 #spoken_language
+- [255 - 日語名詞的基本概念與用法](255_meishi/) #context/daily_life #domain/linguistics
+- [256 - 日語中正式場合使用的語法形式與表達方式](256_formal/) #context/formal #domain/keigo #jlpt/n4
+- [257 - 日文句子的邏輯組織方式，包含論點展開、因果推理和結論導出的表達模式](257_logical_structure/) #grammar #logical_structure #discourse
+- [258 - いる的敬語形式 - 尊敬語「いらっしゃる」與謙讓語「おる」](258_irassharu_oru/) #grammar #keigo #honorific
+- [259 - 日本社會規則與禮儀的表達體系](259_japanese_social_rules/) #jlpt/n3 #domain/society #domain/culture
+- [260 - 日語中描述金融市場相關的專業術語與表達](260_kinyuu_shijou/) #domain/economics #domain/finance #jlpt/n2
+- [261 - 義務表達 - 日文中表達必須、應該、不得不等義務的文法系統](261_obligation_expressions/) #obligation #modal #grammar_pattern
+- [262 - 抽象名詞を形成する接尾辞「性」の用法](262_sei_suffix/) #N2 #formal #academic
+- [263 - 詳細計算、結算的會計與財務用語](263_seisan/) #context/business #context/formal #domain/accounting
+- [264 - 支付的名詞形態，及其在經濟文脈中的文法應用](264_shiharai/) #context/formal #context/business #jlpt/n3
+- [265 - 課税所得から差し引かれる金額項目の総称](265_shotoku_koujo/) #context/formal #domain/tax #domain/finance
+- [266 - 表示分配、配給的語法結構，用於描述資源、任務或物品的分發](266_bunpai/) #grammar #distribution #suru_verb
+- [267 - 各國金融體系核心機構，負責貨幣發行與金融政策](267_chuuou_ginkou/) #domain/経済学 #domain/金融 #jlpt/n2
+- [268 - 日文副詞在句子中的放置規則與語順變化](268_fukushi_no_ichi/) #context/formal #context/casual #jlpt/n4
+- [269 - 日文透過省略、間接表達傳遞言外之意的溝通方式](269_implicit_communication/) #context/formal #context/casual #jlpt/n2
+- [270 - 敬語概述 - 日語敬語的基本概念與分類入門](270_keigo_overview/) #grammar #keigo #honorific
+- [271 - 話者と聞き手・事物との心理的な隔たりを表す言語概念](271_psychological_distance/) #context/formal #context/casual #jlpt/n3
+- [272 - 内外 - 日語中的內部與外部人際關係系統](272_uchi_soto/) #grammar #pragmatics #social
+- [273 - 日語溝通中的語用策略與表達調整技巧](273_communication_strategy/) #context/formal #context/casual #jlpt/n3
+- [274 - 日語中表達和處理人際關係的語言表達與社會語言學概念](274_interpersonal_relationship/) #context/social #context/formal #context/casual
+- [275 - 表達明確同意的文法表現與用語](275_explicit_agreement/) #context/formal #context/casual #domain/communication
+- [276 - 日語口語中的非正式對話表達方式](276_casual_conversation/) #context/casual #jlpt/n4
+- [277 - 語用學 - 研究語言在語境中的使用和理解](277_pragmatics/) #grammar #linguistic_theory #context/academic
+- [278 - 日本語文法を説明するための専門用語体系](278_bunpou_yougo/) #context/formal #jlpt/n3
+- [279 - 程度副詞的基本概念與應用](279_degree_adverbs/) #context/daily_life #domain/linguistics
+- [280 - まで助詞と動詞の組み合わせ規則と使い分け](280_made_to_doushi/) #grammar #jlpt/n4 #particle
+- [281 - 謙遜表達 - 日語中表達謙虛的語用策略](281_modest_expression/) #grammar #pragmatics #keigo
+- [282 - 日語語音系統的歷史演變與發展](282_nihongo_oninshi/) #grammar #linguistic_theory #historical_linguistics
+- [283 - 購買或使用商品、服務的個人或群體，經濟學術語](283_shouhisha/) #domain/economics #domain/business #context/formal
+- [284 - 日常生活で使われる自然な会話パターンと表現](284_daily_conversation/) #context/casual #context/daily #jlpt/n4
+- [285 - ない形 - 動詞否定形活用](285_nai_form/) #grammar #conjugation #negative
+- [286 - 收益或利潤，也指利益或好處，經濟學及商業用語](286_rieki/) #domain/economics #domain/business #context/formal
+- [287 - 日語否定表達的各種形式 - 包含動詞、形容詞、名詞的否定變化](287_negation_forms/) #grammar #negation #conjugation
+- [288 - 言葉の微妙な意味合いや雰囲気の違いを理解する概念](288_nuance/) #context/formal #context/casual #jlpt/n2
+- [289 - までにと動詞の組み合わせ](289_madeni_doushi_kumiawase/) #grammar #time-limit #deadline
+- [292 - 學習相關動詞的用法與區別](292_gakushuu_kanren_doushi/) #learning #学習 #daily_life
+- [294 - 表示移動方向的助詞に、へ、を的用法與區別](294_houkou_wo_arawasu_joshi/) #助詞 #方向 #移動
+- [295 - 日語イ形容詞（い形容詞）的完整體系介紹](295_i_keiyoushi_souran/) #grammar #conjugation #adjective
+- [300 - 日文中使事物聽起來自然、地道的表達方式和語法原則](300_shizen_hyougen/) #context/daily_life #domain/communication #style/natural
+- [301 - 終助詞](301_shuujoshi/) #particle #sentence-ending #emotion
+- [305 - 日語文法體系的整體架構與分類](305_文法體系/) #grammar_system #linguistics #structure
+- [307 - ](307_daga/) #接續詞 #書面語 #逆接
+- [308 - 状態動詞](308_joutai_doushi/) #verb-types #state-of-being #continuous-state
+- [309 - けど](309_kedo/) #grammar #conjunction #particle
+- [310 - なくてはいけない - 日語表達必須義務的文法](310_nakutewa_ikenai/) #grammar #obligation #necessity
+- [311 - 接続詞（接続詞）システムは文や句を連結する機能による分類。順接、逆接、添加、選択などの関係を表現する。](311_setsuzokushi_shurui/) #jlpt/n3 #context/formal #context/written
+- [312 - ている](312_teiru/) #aspect #continuous #present-progressive
+- [313 - てもいい](313_temo_ii/) #助動詞 #許可 #口語表現
+- [314 - ](314_keitairon/) #linguistics #word-structure
+- [315 - 助詞系統](315_joshi_system/) #particles #fundamental #joshi
+- [316 - 慣用表現](316_kanyou_hyougen/) #phrase #expression #idiom
+- [317 - ](317_taiguu_hyougen/) 
+- [318 - 動作動詞](318_dousa_doushi/) #verb_classification #verb_types #grammar_concept
+- [319 - ](319_dousa_kansei/) 
+- [320 - 方向を表す助詞は、移動や動作の方向を示す助詞。主にへ（e）、に（ni）、を（o）などで表現される](320_houkou_joshi/) #jlpt/n4 #particles #direction
+- [321 - い形容詞（い形容詞） - 以い結尾的形容詞](321_i_keiyoushi/) #grammar #adjective #basic
+- [322 - 移動動詞の活用](322_idou_doushi_katsuyou/) #動詞 #活用 #移動
+- [323 - 時間副詞の用法](323_jikan_fukushi/) #grammar #adverb #time
+- [324 - 接續助詞](324_setsuzoku_joshi/) #助詞 #文法基礎 #接續
+- [325 - ](325_shimau_usage/) #auxiliary-verb #completion #regret
+- [326 - ](326_shizen_hyougen/) 
+- [327 - ](327_shuujoshi_youhou/) #particles #sentence-ending #nuance
+- [329 - ](329_bunpou_taikei/) #文法 #體系 #系統架構
+- [330 - 光的擬態詞與表現方式](330_hikari_hyougen/) #onomatopoeia #visual-description #日常会話の場面
+- [331 - 補助動詞](331_hojo_doushi/) #auxiliary-verb #verb-combination #te-form
+- [332 - 副詞の否定用法 - 副詞を使った否定表現](332_fukushi_hitei/) #adverb #negation #grammar_pattern
+- [333 - 大変の多義用法](333_taihen_usage/) #adjective #adverb #polysemy
+- [334 - 句末に付いて文全体の雰囲気や話者の態度を表す助詞](334_終助詞/) #domain/言語学 #grammar/助詞 #jlpt/n4
+- [336 - 状態動詞 - 表示狀態而非動作的動詞類型](336_joutai_doushi/) #verb_type #grammar_category #jlpt/n3
+- [338 - 日語助詞的完整分類系統，包含格助詞、副助詞、接續助詞、終助詞等各類助詞的功能概述](338_joshi_system/) #jlpt/n3 #particle #grammar_system
+- [339 - 時間副詞的用法](339_jikan_fukushi/) #adverb #time_expression #jlpt/n3
+- [340 - 補助動詞しまうの用法](340_shimau/) #auxiliary_verb #aspect #jlpt/n3
+- [341 - 接在動詞て形後，添加語法意義的動詞群](341_hojo_doushi/) #grammar_category #auxiliary_verb #jlpt/n3
+- [342 - 大変の多義用法](342_taihen/) #adverb #polysemy #jlpt/n4
+- [343 - 副詞の否定用法 - 副詞と否定形の組み合わせパターン](343_fukushi_hitei/) #adverb #negation
+- [344 - 逆接接續詞的類型和使用場合](344_gyakusetsu_setsuzokushi/) #conjunction #contrast
+- [345 - サ變動詞的形成與用法](345_doushi_suru/) #grammar #verb_conjugation #jlpt/n3
+- [358 - 日語助詞的完整分類體系](358_助詞の体系/) #jlpt/n3
+- [390 - 日文形容詞的活用變化系統](390_keiyoushi_katsuyou/) #grammar #conjugation #日本語能力試験N5
 
 ---
-最後更新: 2025-12-28 17:25:16
+最後更新: 2026-11-14 02:27:41

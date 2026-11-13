@@ -221,7 +221,7 @@ I would like to report regarding the above matter.
 - [masu_form](010_masu_form.md) - ます形
 
 ### 概念相關
-- [formal](../concept/56_formal.md) - 正式語體（概念）
+- [formal](../concept/062_formal.md) - 正式語體（概念）
 - [formal_writing](../concept/067_formal_writing.md) - 書面語
 
 ---

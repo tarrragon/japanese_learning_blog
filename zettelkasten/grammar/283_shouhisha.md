@@ -84,9 +84,9 @@ link_status:
 ## 關聯詞彙
 
 - [生産者](../noun/227_seisansha.md) - 生產者
-- [消費](../noun/098_shouhi.md) - 消費
-- [消費税](../noun/129_shouhizei.md) - 消費稅
-- [消費者物価指数](../noun/160_shouhishabukkashisuu.md) - 消費者物價指數
+- [消費](../noun/100_shouhi.md) - 消費
+- [消費税](../noun/131_shouhizei.md) - 消費稅
+- [消費者物価指数](../noun/162_shouhishabukkashisuu.md) - 消費者物價指數
 
 ## 參考資料
 

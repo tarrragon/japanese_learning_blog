@@ -1,148 +1,73 @@
 ---
 id: 438
-number: 205
-slug: meimoku_seichouritsu
-title_ja: 名目成長率
-title_zh: 名目成長率
-title_en: Nominal Growth Rate
-reading: めいもくせいちょうりつ
+number: 125
 category: concept
-type: economics
-tags: [economics, finance, jlpt/n2]
-created: 2025-12-27
-status: draft
+title: 名目成長率
+created_at: 2025-12-27
+updated_at: 2025-12-27
+status: extension-review
 version_history:
-  - version: 1.5.4
+  - version: 1.5.1
+    stage: draft
     date: 2025-12-27
-    action: created
 content_verification:
-  complete: true
-  checked_at: 2025-12-27
+  content_complete: false
+  examples_provided: true
+  jp_explanation: true
+  zh_explanation: true
+  en_explanation: true
 link_status:
-  total: 2
-  internal: 2
-  verified: true
+  internal_links: 0
+  external_links: 0
+  pending_links: 0
+tags:
+  - economics
+  - growth-rate
+  - macroeconomics
+related_cards: []
+references: []
 ---
+
+# 名目成長率（めいもくせいちょうりつ）
 
 ## 日文解釋
 
-**名目成長率**（めいもくせいちょうりつ）とは、物価変動の影響を調整せずに計算された経済成長率のことである。名目GDP（国内総生産）の増加率を示し、インフレーション（物価上昇）やデフレーション（物価下落）の影響がそのまま反映される。
-
-### 計算式
-
-名目成長率（%） = [(当年度の名目GDP - 前年度の名目GDP) / 前年度の名目GDP] × 100
-
-### 特徴
-
-- 物価変動を含んだ成長率
-- 実際の経済活動の増減を正確に反映しない場合がある
-- 短期的な経済動向の把握に使用される
-
-### 実質成長率との関係
-
-名目成長率 = 実質成長率 + インフレ率（物価上昇率）
-
-インフレが高い時期には名目成長率が実質成長率より大きくなり、デフレの時期には逆に名目成長率が実質成長率より小さくなる。
-
----
+名目成長率とは、物価上昇を考慮せず、名義上の成長を示す経済指標である。前年度の名目GDPと当年度の名目GDPの差を、前年度の名目GDPで割った値（パーセンテージ）で表される。名目GDPには、物価変動による見かけ上の成長も含まれているため、実質的な経済成長を判断する際には、実質成長率と比較する必要がある。
 
 ## 中文解釋
 
-**名目成長率**是指未經物價變動調整的經濟成長率。它反映的是名目GDP的增長幅度，包含了通貨膨脹或通貨緊縮的影響。
-
-### 計算公式
-
-名目成長率（%）= [（當年度名目GDP - 前年度名目GDP）/ 前年度名目GDP] × 100
-
-### 特點
-
-- 包含物價變動的成長率
-- 可能無法準確反映實際經濟活動的增減
-- 常用於短期經濟動向的觀察
-
-### 與實質成長率的關係
-
-名目成長率 = 實質成長率 + 通貨膨脹率
-
-在高通膨時期，名目成長率會高於實質成長率；在通貨緊縮時期，名目成長率則會低於實質成長率。
-
-### 為什麼要區分名目與實質？
-
-假設某年名目GDP成長了5%，但物價也上漲了3%，那麼實際的經濟產出增長只有2%。因此，比較不同年度的經濟表現時，實質成長率更能反映真實狀況。
-
----
+名目成長率是指未考慮物價上升影響的名義經濟成長率。通過將前一年度的名目GDP與當年度的名目GDP的差值除以前一年度的名目GDP來計算（百分比表示）。由於名目GDP包含物價變動帶來的表面上的增長，因此在判斷實際經濟增長時，需要與實質成長率進行比較。
 
 ## English Explanation
 
-**Nominal Growth Rate** refers to the economic growth rate calculated without adjusting for inflation or deflation. It represents the percentage change in nominal GDP and includes the effects of price level changes.
+Nominal growth rate refers to the apparent economic growth without considering the effect of inflation. It is calculated by dividing the difference between the current year's nominal GDP and the previous year's nominal GDP by the previous year's nominal GDP (expressed as a percentage). Since nominal GDP includes apparent growth caused by price changes, it is necessary to compare it with the real growth rate when assessing actual economic growth.
 
-### Formula
+## 計算式（Formula）
 
-Nominal Growth Rate (%) = [(Current Year Nominal GDP - Previous Year Nominal GDP) / Previous Year Nominal GDP] × 100
-
-### Characteristics
-
-- Includes the effect of price changes
-- May not accurately reflect actual changes in economic output
-- Used for observing short-term economic trends
-
-### Relationship with Real Growth Rate
-
-Nominal Growth Rate = Real Growth Rate + Inflation Rate
-
-During periods of high inflation, the nominal growth rate exceeds the real growth rate. Conversely, during deflation, the nominal growth rate is lower than the real growth rate.
-
-### Why Distinguish Between Nominal and Real?
-
-If nominal GDP grows by 5% but prices also rise by 3%, the actual increase in economic output is only 2%. Therefore, when comparing economic performance across different years, the real growth rate provides a more accurate picture.
-
----
+```
+名目成長率 = [(当年度GDP - 前年度GDP) / 前年度GDP] × 100%
+```
 
 ## 例文
 
 ### 例文 1
+日本の名目成長率は2023年に1.3%だったが、実質成長率は1.8%だった。これは物価下落がGDPに負の影響を与えたことを示している。
 
-**日文**：今年の名目成長率は3.5%だったが、インフレ率が2%だったため、実質成長率は1.5%にとどまった。
-
-**中文**：今年的名目成長率為3.5%，但由於通膨率達2%，實質成長率僅為1.5%。
-
-**English**：This year's nominal growth rate was 3.5%, but due to a 2% inflation rate, the real growth rate was only 1.5%.
+中文：日本2023年的名目成長率為1.3%，而實質成長率為1.8%。這表明物價下降對GDP產生了負面影響。
 
 ### 例文 2
+インフレーションが高い時期には、名目成長率が実質成長率よりも大幅に高くなることがある。
 
-**日文**：デフレ期には、名目成長率がマイナスでも実質成長率はプラスになることがある。
+中文：在高通貨膨脹時期，名目成長率往往會明顯高於實質成長率。
 
-**中文**：在通貨緊縮時期，即使名目成長率為負數，實質成長率也可能為正數。
+## 用語説明
 
-**English**：During deflationary periods, even if the nominal growth rate is negative, the real growth rate can be positive.
+- **実質成長率**：物価上昇を考慮した実際の経済成長率
+- **GDP**：国内総生産（Gross Domestic Product）
+- **インフレーション**：物価の上昇
 
-### 例文 3
+## 相関概念
 
-**日文**：経済政策を評価する際には、名目成長率と実質成長率の両方を確認することが重要です。
-
-**中文**：在評估經濟政策時，同時確認名目成長率和實質成長率是很重要的。
-
-**English**：When evaluating economic policies, it is important to check both the nominal and real growth rates.
-
----
-
-## 関連概念
-
-- [実質成長率](143_jisshitsu_seichouritsu.md) - 物価調整後の成長率
-- [物価上昇](001_bukka_joushou.md) - インフレーションの概念
-
----
-
-## 比較表
-
-| 項目 | 名目成長率 | 実質成長率 |
-|------|----------|----------|
-| 計算基礎 | 當期價格 | 基準年價格 |
-| 物價影響 | 包含 | 排除 |
-| 用途 | 名義財富評估 | 實際經濟表現 |
-| 特點 | 可能被物價膨脹誇大 | 反映真實產出變化 |
-
----
-
-**語言層級**：JLPT N2
-**領域**：經濟學、金融
+- [実質成長率](pending-link) - 物価調整後の成長率
+- [GDP](pending-link) - 経済規模の指標
+- [GDPデフレータ](pending-link) - 物価指数の一種

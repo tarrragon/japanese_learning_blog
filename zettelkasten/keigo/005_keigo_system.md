@@ -215,7 +215,7 @@ The "keigo system" is a Japanese linguistic framework for expressing respect and
 ### 敬語概念卡片
 - [謙讓語概念](../concept/038_kenjougo_concept.md)
 - [尊敬語概念](../concept/034_sonkeigo_concept.md)
-- [丁寧語概念](../concept/063_teineigo_gainen.md)
+- [丁寧語概念](../concept/087_teineigo_gainen.md)
 - [謙讓語 I 類與 II 類的區別](待建立)
 
 ### 代表性敬語動詞
@@ -238,7 +238,7 @@ The "keigo system" is a Japanese linguistic framework for expressing respect and
 ### 社會語言學概念
 - [內與外（ウチとソト）](../concept/007_uchi_soto.md)
 - [視點理論與敬語](../concept/006_viewpoint.md)
-- [商務敬語的階梯理論](../concept/152_bijinesu_keigo_kaidan.md)
+- [商務敬語的階梯理論](../concept/212_bijinesu_keigo_kaidan.md)
 
 ### 商務場合應用
 - [商務禮貌表達](006_business_politeness.md) - 商務入退場敬語[^1]

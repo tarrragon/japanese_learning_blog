@@ -1,295 +1,330 @@
 # Concept 索引
 
-最後編號：276
-總卡片數：284
+最後編號：568
+總卡片數：319
 
 ## 卡片列表
 
 ### 依編號
-- [000 - "句型分類"](56_sentence_types/) 
-- [000 - "和"](63_group_harmony/) 
-- [000 - "焦點與強調"](56_focus/) 
-- [000 - "主題化"](56_topicalization/) 
-- [000 - "条件形"](68_conditional_forms/) 
-- [000 - "主要動作與附帶動作"](56_main_sub_action/) 
-- [000 - ](56_syntax/) 
-- [000 - ](56_information_structure/) 
-- [000 - ](67_predicate_types/) 
-- [000 - 効用最大化](concept-052-効用最大化/) 
-- [000 - "經濟"](concept-052-経済/) 
-- [000 - "舊資訊與新資訊"](56_given_new_information/) 
-- [000 - "述語"](56_predicate/) 
-- [000 - "供需法則"](concept-054-供給と需要の法則/) 
-- [000 - "丁寧表達"](56_polite_expression/) 
-- [000 - ](56_business/) 
-- [000 - ](68_discovery_expression/) 
-- [000 - "接続詞の概念"](65_setsuzokushi_gainen/) 
-- [000 - "動詞活用"](56_verb_conjugation/) 
-- [000 - ](66_gender_language/) 
-- [000 - "敬語系統"](56_keigo_system/) 
-- [000 - "高語境文化"](57_high_context_culture/) 
-- [000 - 行動経済学](concept-054-行動経済学/) 
-- [000 - "搭配"](56_collocation/) 
-- [000 - ](67_adjective_types/) 
-- [000 - 合理性](concept-053-合理性/) 
-- [000 - 文の構造](67_sentence_structure/) 
-- [000 - "主題優先語言"](56_topic_prominent_language/) 
-- [000 - ](60_kenjougo_gainen/) 
-- [000 - "仮定条件"](68_hypothetical_condition/) 
-- [000 - "日常會話"](59_nichijou_kaiwa/) 
-- [000 - "社會語境"](56_social_context/) 
-- [000 - ](66_speech_level/) 
-- [000 - "書面語"](56_written_language/) 
-- [000 - ](56_daily_conversation/) 
-- [000 - "尊敬、尊重"](concept-062-敬意/) 
-- [000 - 日常会話](67_daily_conversation2/) 
-- [000 - "社會語言學"](61_shakai_gengogaku/) 
-- [000 - "語順"](56_word_order/) 
-- [000 - "助動詞"](67_auxiliary_verb/) 
-- [000 - "商務場合"](56_bijinesu_baai/) 
-- [000 - "供給曲線"](concept-053-供給曲線/) 
-- [000 - ](68_agglutinative_language/) 
-- [000 - "正式語體"](56_formal/) 
-- [001 - 物價上漲、通貨膨脹的概念](001_bukka_joushou/) 
-- [002 - 日文中する、来る、ある等不規則動詞的特殊活用規則，是初學者必須掌握的基礎文法](002_fukisoku_katsuyou/) 
-- [003 - 自動詞（不需要賓語的動詞，描述狀態變化或自發動作）](003_jidoushi/) 
-- [004 - 日文中需要賓語的動詞，動作及於對象，與自動詞形成對比](004_tadoushi/) 
-- [005 - 日文動詞的分類系統，包含三大類型（五段、一段、不規則）和語義分類（自他動詞等），是理解動詞活用的基礎](005_doushi_bunrui/) 
-- [006 - 日語的視點（視角）概念 - 語言學核心理論](006_viewpoint/) 
-- [007 - 內與外（ウチとソト）- 日本社會的內外群體概念](007_uchi_soto/) 
-- [008 - 動詞（どうし）- 日語動詞基本概念](008_doushi/) 
-- [009 - 言語習得（語言習得）- 語言學習理論核心概念](009_language_acquisition/) 
-- [010 - 活用 - 動詞、形容詞、助動詞等根據語法功能而改變形式的變化系統](010_katsuyou/) 
-- [011 - 日文句子中的主語概念與特性](011_shugo/) 
-- [012 - 日語句子結構中的述語概念 - 語言學核心理論](012_jutsugo/) 
-- [013 - 敬語体系 - 日語敬語的理論框架與社會語言學基礎](013_keigo_taikei/) 
-- [014 - 日語句子結構的核心類型，以動詞為謂語的句子或片語](014_doushi_ku/) 
-- [015 - 音韻論（音韻論）- 語言學研究語音系統和規則的學科](015_onin_ron/) 
-- [016 - 語彙論（詞彙學）- 研究詞彙系統的語言學分支](016_goi_ron/) 
-- [017 - 文法論 - 研究語言文法結構的理論體系](017_bunpou_ron/) 
-- [018 - 形成（構詞法）- 日語詞彙形成的語言學理論](018_keisei/) 
-- [019 - 語順 - 句子中詞語的排列順序](019_go_jun/) 
-- [020 - 分類系統的概念與應用](020_bunrui/) 
-- [021 - 體理論 - 動作或狀態的內部時間結構分析理論](021_aspect_theory/) 
-- [022 - 日文動詞類型的理論體系與分類原理](022_verb_types_system/) 
-- [023 - 日文語法中生命性階層的概念](023_animacy/) 
-- [024 - 主題優先語言的語言類型學概念](024_topic_prominent_language/) 
-- [025 - 生命性（有生性）- 語言學中區分有生命與無生命實體的概念](025_animacy/) 
-- [026 - 日文動詞的體系統：描述動作的時間結構和進行狀態的語法概念](026_aspect_theory/) 
-- [027 - 日文動詞分類系統的理論框架](027_verb_types_system/) 
-- [028 - 語用學總論 - 研究語言在實際使用中意義的語言學分支](028_pragmatics/) 
-- [029 - 資訊在溝通中的傳遞方向和結構](029_information_flow/) 
-- [030 - 語感表達 - 語言中的細微意義差異和語感](030_nuance/) 
-- [031 - 同意表達的語言概念與溝通策略](031_agreement/) 
-- [032 - 確認表達 - 日語中確認訊息與核實理解的語言機制](032_confirmation/) 
-- [033 - 仮説 - 科學研究和推理中的假設性陳述](033_hypothesis/) 
-- [034 - 意見表達 - 表達個人觀點和看法的語言行為](034_opinion/) 
-- [035 - 內外群體概念 - 日本社會的內外意識與人際關係](035_uchi_soto/) 
-- [036 - 日文授受動詞的視角選擇概念](036_benefactive_perspective/) 
-- [037 - 尊敬語概念 - 提高對方或第三者地位的敬語形式](037_sonkeigo_concept/) 
-- [038 - 謙讓語概念 - 降低自己或內部人士地位以表達敬意的語言形式](038_kenjougo_concept/) 
-- [039 - 主題優先語言的語言學概念，解釋日文如何以主題為中心組織句子](039_topic_prominent_language/) 
-- [040 - 日文敬語系統中的丁寧語概念](040_teineigo_concept/) 
-- [041 - 日文條件形的完整總覽與比較](041_conditional_forms/) 
-- [042 - 日文中既知資訊與新資訊的排序原則](042_given_new_information/) 
-- [043 - 義務表達的概念和語法體系](043_obligation_expressions/) 
-- [044 - 丁寧體與普通體的區別和使用情境](044_teineitai_vs_futsutai/) 
-- [045 - 日文動詞分類系統的完整介紹](045_verb_classification/) 
-- [046 - 動詞的基本概念與分類系統](046_doushi_base/) 
-- [047 - 日語造語法的基本概念與規則](047_word_formation/) 
-- [048 - 商業交易流程的基本概念與實務](048_commercial_transaction/) 
-- [049 - 標籤系統概念 - 知識管理系統中用於分類和檢索的元資料標記](049_context_tags/) 
-- [050 - 感情與欲望表達 - 日文中情感和欲望的語言學表現](050_feeling_desire/) 
-- [051 - 日文禮貌表達的整體概念，涵蓋丁寧語、敬語和謙讓語](051_polite_expression/) 
-- [052 - 需求曲線，表示價格與需求量關係的圖形](052_juyou_kyokusen/) 
-- [053 - 均衡價格，市場供需達到平衡時的價格](053_kinkou_kakaku/) 
-- [054 - 市場原理，市場經濟中供需關係自動調節的基本原則](054_shijou_genri/) 
-- [055 - "日常会話"](055_casual_conversation/) 
-- [056 - "動詞分類"](056_verb_classification/) 
-- [057 - "社會距離"](057_social_distance/) 
-- [058 - "視点理論"](058_shiten_riron/) 
-- [059 - ](059_aizuchi/) 
-- [060 - ](060_hourensou/) 
-- [061 - ](061_jouhou_kouzou_riron/) 
-- [062 - 社會階層](062_shakai_kaisou/) 
-- [063 - "丁寧語概念"](063_teineigo_gainen/) 
-- [064 - ](064_uchi_soto/) 
-- [065 - "商務郵件"](065_bijinesu_mail/) 
-- [066 - "日語表達的正式程度分級系統"](066_formality_level/) 
-- [067 - "語用學"](067_goyougaku/) 
-- [068 - "以心伝心"](068_ishin_denshin/) 
-- [069 - ](069_kuuki_wo_yomu/) 
-- [070 - "語言使用情境與意義解釋的研究領域"](070_pragmatics/) 
-- [071 - ](071_hierarchy/) 
-- [072 - ](072_business_communication/) 
-- [073 - "五段動詞"](073_godan_verbs/) 
-- [074 - "一段動詞（Ichidan Verbs）"](074_ichidan_verbs/) 
-- [075 - 不規則動詞（ふきそくどうし）](075_irregular_verbs/) 
-- [076 - ](076_jlpt_levels/) 
-- [077 - 主語優先語言的語言學概念，日文屬於主題優先語言而非主語優先語言](077_subject_prominent/) 
-- [078 - "需要賓語的動詞"](078_transitive_verbs/) 
-- [079 - "日文敬語體系的禮貌層級"](079_politeness_levels/) 
-- [080 - 日本文化中表面話語與真實心意的概念](080_tatemae_honne/) 
-- [081 - "日文時間表達系統"](081_time_expressions/) 
-- [082 - 動詞の形 - 日本語動詞のさまざまな形態的変化形式の総称](082_verb_forms/) 
-- [083 - "書面語・フォーマルな文章"](083_formal_writing/) 
-- [084 - 確定條件](084_definite_condition/) 
-- [085 - 動詞的命令形態，用於表達命令、指示或強烈要求](085_imperative_form/) 
-- [086 - "日文助詞系統的整體架構與分類"](086_particle_system/) 
-- [087 - 口語](087_spoken_language/) 
-- [088 - "動詞的た形（過去式/完成態）"](088_ta_form/) 
-- [089 - ](089_temporal_sequence/) 
-- [090 - "語言單位的多功能性概念"](090_versatility/) 
-- [091 - "予定"](091_volitional_expression/) 
-- [092 - "描述動詞所需格助詞與語意角色的結構框架"](092_case_frame/) 
-- [093 - "丁寧語"](093_teineigo_concept/) 
-- [094 - "句子中表示主語的格位，在日語中由が格標記"](094_nominative_case/) 
-- [095 - 連用形 - 日本語動詞の六活用形の一つで、用言や助動詞に接続する形式](095_renyoukei/) 
-- [096 - "連接句節的助詞，表達時間、原因、條件、逆接等關係"](096_setsuzoku_joshi/) 
-- [097 - 日語形容詞的一種，修飾名詞時需加「な」](097_na_adjective/) 
-- [098 - "日文格助詞「を」的用法：標記直接受詞與移動經過點"](098_wo/) 
-- [099 - 表示動作直接受詞的格位，日文主要用「を」助詞標記](099_accusative_case/) 
-- [100 - "商務会話"](100_business_conversation/) 
-- [101 - "日語中表示動作對象、接受者、目的地等語意角色的格"](101_dative_case/) 
-- [102 - 日語文法句型的系統性概念](102_grammar_pattern/) 
-- [103 - "印欧語族"](103_indo_european_languages/) 
-- [105 - 公司、學校等組織內部制定的規章制度](105_organizational_regulation/) 
-- [106 - 概観 - 全体的な見通しや総括的な理解を示す概念](106_overview/) 
-- [107 - 社會人](107_shakaijin/) 
-- [108 - 日語的時態概念，表達動作或狀態發生的時間](108_tense/) 
-- [109 - 表示引用、報導內容、思想的助詞](109_to_quotative/) 
-- [110 - 日文被動形的文法概念與用法](110_ukemi/) 
-- [111 - "表示動作或移動方向的格位，日文中主要由「に」「へ」助詞表達"](111_allative_case/) 
-- [112 - "表示動作手段、方法或工具的語法格，對應日語的「で」格"](112_instrumental_case/) 
-- [113 - "禮貌作為語用策略的概念"](113_politeness/) 
-- [114 - 說話者（話者）- 語言學核心概念，指發出言語行為的主體](114_speaker/) 
-- [115 - ます形 - 日本語動詞の丁寧形を作る基本的な活用形式](115_masu_form/) 
-- [116 - 日語名詞的基本概念與分類](116_meishi/) 
-- [117 - 傳聞表達的概念和語法體系](117_hearsay_expressions/) 
-- [118 - "説明文"](118_setsumei_bun/) 
-- [119 - "目的語"](119_mokutekigo/) 
-- [120 - 学習者（學習者）- 語言學習領域核心概念](120_gakushuusha/) 
-- [121 - 日語名詞後綴的概念與用法](121_nominal_suffix/) 
-- [122 - 生產力，指投入與產出的效率比](122_productivity/) 
-- [123 - "日本獨特的察言觀色文化，強調不需明說就能理解對方心意的溝通方式"](123_sassuru_bunka/) 
-- [123 - "表示二選一關係的接續詞"](123_moshikuwa/) 
-- [124 - アスペクト](124_aspect/) #grammar #verb #aspect
-- [125 - 自由貿易協定](125_jiyuuboekikyoutei/) 
-- [126 - ](126_keijoushuushi/) #economics #finance #trade
-- [127 - 經濟景氣動向、經濟發展趨勢](127_keikidoukou/) 
-- [128 - ](128_keizaishihyou/) 
-- [129 - ](129_kinyuuseisaku/) 
-- [130 - 債券](130_saiken/) #finance #economics
-- [131 - ](131_shijokeizai/) #economics #経済制度
-- [132 - 所得稅，政府對個人或企業所得徵收的稅款](132_shotokuzei/) 
-- [133 - 財政政策](133_zaiseiseisaku/) #economics #policy
-- [134 - 税務制度與稅金相關概念的基礎知識](134_zeikin/) 
-- [135 - 不動産（ふどうさん）](135_fudousan/) #concept #economics #legal
-- [136 - 資産運用](136_shisan_unyou/) 
-- [137 - 尊敬語概念](137_sonkeigo_concept/) 
-- [138 - ウチとソト](138_uchi_soto/) #culture #society #interpersonal
-- [139 - 物價，商品和服務的整體價格水準](139_bukka/) 
-- [140 - ](140_gaika_junbi/) 
-- [141 - 比較優位](141_hikaku_yuui/) 
-- [142 - 意味論](142_imiron/) #言語学 #語言 #意味
-- [143 - ](143_jisshitsu_seichouritsu/) #経済学 #マクロ経済 #GDP
-- [144 - 金融機構，提供金融服務的機構](144_kinyuu_kikan/) 
-- [145 - 名目成長率](145_meimoku_seichouritsu/) 
-- [146 - 輸出入](146_yushutsunyuu/) 
-- [147 - "口語與書面語的區別與使用場景"](147_hanashi_kaki_kotoba/) 
-- [148 - ](148_jouge_kankei/) #culture #society #keigo
-- [149 - 察言觀色、讀空氣的概念、日本文化中的社交智慧](149_kuuki_yomu/) 
-- [150 - 察する文化](150_sassuru_bunka/) 
-- [151 - ](151_shokuba_bunka/) #culture #workplace #business
-- [152 - 商務環境中敬語使用的等級體系和層次結構](152_bijinesu_keigo_kaidan/) 
-- [153 - "會話含意理論 - Grice 語用學中的隱含意義理論"](153_conversational_implicature/) 
-- [154 - 言外の意](154_gengai_no_i/) 
-- [155 - 詞彙分級系統](155_goi_bunkyuu/) 
-- [156 - 時態](156_jisei/) #grammar #tense #verb
-- [157 - 謙讓語概念](157_kenjougo_concept/) 
-- [158 - ](158_speech_act_theory/) #linguistics #pragmatics #communication
-- [159 - 学習の進捗を示す重要な段階或いは達成指標](159_gakushuu_milestone/) 
-- [160 - ](160_gitaigo_system/) 
-- [161 - ご覧になる vs 拝見する](161_goran_vs_haiken/) #敬語 #尊敬語 #謙讓語
-- [162 - いらっしゃる vs 参る](162_irassharu_vs_mairu/) 
-- [163 - ウチ・ソト理論 - 日本社會的內外意識理論](163_uchi_soto_riron/) 
-- [164 - 電子マネー](164_denshi_money/) #technology #money #modern-life
-- [165 - 純資産](165_jun_shisan/) 
-- [166 - 需要と供給](166_juyou_kyoukyuu/) #経済 #ビジネス #基本概念
-- [167 - 株式](167_kabushiki/) #経済 #金融 #ビジネス
-- [168 - ](168_kawase_rate/) 
-- [169 - 国際法](169_kokusaihou/) 
-- [170 - ](170_ryouteki_kanwa/) #経済 #金融政策 #中央銀行
-- [171 - 政策](171_seisaku/) 
-- [172 - "所得"](172_shotoku/) 
-- [173 - ](173_yuushi/) 
-- [174 - ](174_zaisei/) 
-- [175 - 焦點 (Focus)](175_focus/) 
-- [176 - ](176_contrastive_focus/) 
-- [177 - 技術移転](177_gijutsu_iten/) 
-- [178 - 基礎貨幣，中央銀行供應的貨幣總量](178_monetary_base/) 
-- [179 - ](179_seisaku_teigen/) 
-- [180 - 正式道歉表達](180_seishiki_shazai/) #apology #formal-expression #politeness
-- [181 - 金融政策](181_金融政策/) #domain/経済学 #concept/政策
-- [182 - 税金、稅收制度的經濟概念](182_税金/) 
-- [183 - 経済指標](183_経済指標/) #domain/経済学 #concept/統計
-- [184 - "財政政策"](184_財政政策/) 
-- [185 - "經常收支"](185_経常収支/) 
-- [186 - 所得税](186_所得税/) 
-- [187 - アスペクト](187_アスペクト/) 
-- [188 - 景気動向](188_景気動向/) #domain/経済学 #concept/景気
-- [189 - 市場経済](189_市場経済/) #domain/経済学 #concept/経済体制
-- [190 - "債券"](190_債券/) 
-- [191 - 國家間的貿易自由化協議，消除關稅和貿易壁壘](191_自由貿易協定/) 
-- [193 - 內與外概念 - 日語社會語言學中的內外群體區分](193_uchi_soto/) 
-- [194 - 語言學中透過助詞和語序標示的資訊焦點概念](194_focus/) 
-- [197 - てもいい](197_temoii/) 
-- [198 - 対比焦点](198_taihi_shouten/) 
-- [199 - 意味論（語義學）- 研究語言意義的語言學分支](199_imiron/) 
-- [200 - 但是（書面語逆接接續詞）](200_daga/) 
-- [201 - 表達義務必須做某事的文法概念](201_nakutehaikenai/) 
-- [202 - 商務敬語的階梯理論](202_business_keigo/) 
-- [203 - 物價，商品和服務的整體價格水準](203_bukka/) 
-- [204 - 実質成長率](204_jisshitsu_seichouritsu/) 
-- [205 - ](205_meimoku_seichouritsu/) #economics #finance #jlpt/n2
-- [206 - "投資者 - 投入資金以獲取收益的個人或機構"](206_toushika/) 
-- [207 - "金融機関"](207_kinyuu_kikan/) 
-- [208 - "存摺"](208_yokin_tsuchou/) 
-- [209 - "轉帳 - 將資金從一個帳戶轉移到另一個帳戶的金融操作"](209_furikomi/) 
-- [210 - "資産運用"](210_shisan_unyou/) 
-- [211 - "不動產，土地及建築物等無法移動的財產"](211_fudousan/) 
-- [212 - 收入、金錢的收入來源](212_shuunyuu/) 
-- [213 - "支出的概念，金錢花費的分類"](213_shishutsu/) 
-- [214 - "経費"](214_keihi/) 
-- [215 - "進出口，國際貿易中的進口與出口"](215_yushutsunyu/) 
-- [216 - "外匯儲備，國家持有的外國貨幣和資產，用於穩定匯率和國際支付"](216_gaika_junbi/) 
-- [217 - 比較優勢，國際貿易理論中說明專業分工利益的核心概念](217_hikaku_yuui/) 
-- [218 - "貨幣基數，中央銀行發行的貨幣總量"](218_monetary_base/) 
-- [219 - 規範國家間關係的法律體系](219_kokusaihou/) 
-- [220 - "技術轉移，技術的跨國或跨組織轉移"](220_gijutsu_iten/) 
-- [221 - 供需，經濟學基本概念，表示需求與供給之間的相互關係](221_juyou_kyoukyuu/) 
-- [222 - "電子貨幣，數位支付方式的總稱"](222_denshi_money/) 
-- [223 - 融資，金融機構向企業或個人提供貸款](223_yuushi/) 
-- [224 - "匯率，貨幣之間的兌換比率"](224_kawase_rate/) 
-- [225 - 量化寬鬆，中央銀行大規模購買資產以增加貨幣供應的非傳統貨幣政策](225_ryouteki_kanwa/) 
-- [226 - 政策建議、向政府或決策者提出的政策提案](226_seisaku_teigen/) 
-- [227 - "政策"](227_seisaku/) 
-- [228 - "純資産"](228_jun_shisan/) 
-- [229 - 股票，公司發行的所有權憑證](229_kabushiki/) 
-- [230 - "所得"](230_shotoku/) 
-- [231 - 政府的收入與支出管理，公共財務的經濟概念](231_zaisei/) 
-- [232 - "惡魔、魔鬼 - 宗教與文化中的邪惡存在概念"](232_akuma/) 
-- [232 - 尊敬語 - 透過提升對方來表達敬意的敬語形式](232_sonkeigo_concept/) 
-- [232 - "好、可以、不錯 - 日文最常用的形容詞之一"](232_ii/) 
-- [232 - "惡劣的、惡質的"](232_akushitsu/) 
-- [233 - "日本社會人際關係的內外區分理論"](233_uchi_soto_riron/) 
-- [234 - "選擇疑問的接續詞，用於連接兩個或以上的選項"](234_soretomo/) 
-- [236 - "言葉に直接表現されていない意味や含意"](236_gengai_no_i/) 
-- [237 - "日本語學習的階段性里程碑與目標設定"](237_gakushuu_milestone/) 
-- [237 - "日語語系的分類與特徵"](237_japanese_language_family/) 
-- [241 - "日文中表達事件時間先後順序的語法概念與表現方式"](241_jikan_no_junjosei/) 
-- [245 - 許可與禁止的表達方式](245_kyoka_kinshi_hyougen/) 
-- [276 - "日語謙讓語的核心概念與應用原則"](276_kenjougo_concept/) 
+- [000 - 効用最大化](concept-052-効用最大化/) #効用 #経済人 #経済学
+- [000 - 經濟](concept-052-経済/) #domain/経済学
+- [000 - 供需法則](concept-054-供給と需要の法則/) #domain/経済学 #concept/principle
+- [000 - 行動経済学](concept-054-行動経済学/) #経済学 #心理学 #意思決定
+- [000 - 合理性](concept-053-合理性/) #経済学 #意思決定 #経済人
+- [000 - 尊敬、尊重](concept-062-敬意/) #domain/語用論 #domain/社会言語学
+- [000 - 供給曲線](concept-053-供給曲線/) #domain/経済学 #concept/theory
+- [001 - 物價上漲、通貨膨脹的概念](001_bukka_joushou/) #context/formal #context/academic #domain/economics
+- [002 - 日文中する、来る、ある等不規則動詞的特殊活用規則，是初學者必須掌握的基礎文法](002_fukisoku_katsuyou/) #jlpt/n5 #verb_conjugation #irregular
+- [003 - 自動詞（不需要賓語的動詞，描述狀態變化或自發動作）](003_jidoushi/) #domain/communication #context/academic #jlpt/n4
+- [004 - 日文中需要賓語的動詞，動作及於對象，與自動詞形成對比](004_tadoushi/) #jlpt/n4 #domain/communication #verb_type
+- [005 - 日文動詞的分類系統，包含三大類型（五段、一段、不規則）和語義分類（自他動詞等），是理解動詞活用的基礎](005_doushi_bunrui/) #jlpt/n5 #context/academic #domain/communication
+- [006 - 日語的視點（視角）概念 - 語言學核心理論](006_viewpoint/) #domain/cognition #domain/communication
+- [007 - 內與外（ウチとソト）- 日本社會的內外群體概念](007_uchi_soto/) #domain/cognition #domain/communication #context/social
+- [008 - 動詞（どうし）- 日語動詞基本概念](008_doushi/) #domain/cognition #context/academic
+- [009 - 言語習得（語言習得）- 語言學習理論核心概念](009_language_acquisition/) #domain/linguistics #domain/learning_theory #context/academic
+- [010 - 活用 - 動詞、形容詞、助動詞等根據語法功能而改變形式的變化系統](010_katsuyou/) #concept #grammar #verb_conjugation
+- [011 - 日文句子中的主語概念與特性](011_shugo/) #domain/linguistics #context/academic #grammar
+- [012 - 日語句子結構中的述語概念 - 語言學核心理論](012_jutsugo/) #domain/linguistics #domain/communication
+- [013 - 敬語体系 - 日語敬語的理論框架與社會語言學基礎](013_keigo_taikei/) #domain/linguistics #domain/communication #context/formal
+- [014 - 日語句子結構的核心類型，以動詞為謂語的句子或片語](014_doushi_ku/) #concept #sentence_structure #grammar
+- [015 - 音韻論（音韻論）- 語言學研究語音系統和規則的學科](015_onin_ron/) #domain/linguistics #context/academic
+- [016 - 語彙論（詞彙學）- 研究詞彙系統的語言學分支](016_goi_ron/) #domain/linguistics #domain/learning #context/academic
+- [017 - 文法論 - 研究語言文法結構的理論體系](017_bunpou_ron/) #context/academic #linguistics
+- [018 - 形成（構詞法）- 日語詞彙形成的語言學理論](018_keisei/) #domain/linguistics #domain/learning #context/academic
+- [019 - 語順 - 句子中詞語的排列順序](019_go_jun/) #domain/linguistics #domain/learning #context/academic
+- [020 - 分類系統的概念與應用](020_bunrui/) #domain/cognition #domain/linguistics #context/academic
+- [021 - 體理論 - 動作或狀態的內部時間結構分析理論](021_aspect_theory/) #domain/linguistics #context/academic #grammar_theory
+- [022 - 日文動詞類型的理論體系與分類原理](022_verb_types_system/) #domain/linguistics #grammar/verb-classification #linguistic_theory
+- [023 - 日文語法中生命性階層的概念](023_animacy/) #domain/linguistics #context/academic #grammar_feature
+- [024 - 主題優先語言的語言類型學概念](024_topic_prominent_language/) #domain/linguistics #domain/cognition #context/academic
+- [025 - 生命性（有生性）- 語言學中區分有生命與無生命實體的概念](025_animacy/) #domain/linguistics #domain/cognition #context/academic
+- [026 - 日文動詞的體系統：描述動作的時間結構和進行狀態的語法概念](026_aspect_theory/) #domain/linguistics #context/academic #grammar_theory
+- [027 - 日文動詞分類系統的理論框架](027_verb_types_system/) #domain/linguistics #context/academic #learning
+- [028 - 語用學總論 - 研究語言在實際使用中意義的語言學分支](028_pragmatics/) #domain/linguistics #context/academic #domain/communication
+- [029 - 資訊在溝通中的傳遞方向和結構](029_information_flow/) #domain/communication #domain/linguistics #context/academic
+- [030 - 語感表達 - 語言中的細微意義差異和語感](030_nuance/) #domain/linguistics #domain/communication #context/academic
+- [031 - 同意表達的語言概念與溝通策略](031_agreement/) #domain/communication #context/daily_life #context/social
+- [032 - 確認表達 - 日語中確認訊息與核實理解的語言機制](032_confirmation/) #domain/communication #context/daily_life #context/business
+- [033 - 仮説 - 科學研究和推理中的假設性陳述](033_hypothesis/) #domain/cognition #context/academic #domain/learning
+- [034 - 意見表達 - 表達個人觀點和看法的語言行為](034_opinion/) #domain/communication #context/social #context/business
+- [035 - 內外群體概念 - 日本社會的內外意識與人際關係](035_uchi_soto/) #domain/cognition #domain/communication #context/social
+- [036 - 日文授受動詞的視角選擇概念](036_benefactive_perspective/) #domain/linguistics #domain/communication #context/formal
+- [037 - 尊敬語概念 - 提高對方或第三者地位的敬語形式](037_sonkeigo_concept/) #domain/linguistics #domain/communication #context/formal
+- [038 - 謙讓語概念 - 降低自己或內部人士地位以表達敬意的語言形式](038_kenjougo_concept/) #domain/linguistics #domain/communication #context/formal
+- [039 - 主題優先語言的語言學概念，解釋日文如何以主題為中心組織句子](039_topic_prominent_language/) #domain/linguistics #context/academic
+- [040 - 日文敬語系統中的丁寧語概念](040_teineigo_concept/) #context/formal #domain/linguistics #domain/communication
+- [041 - 日文條件形的完整總覽與比較](041_conditional_forms/) #domain/linguistics #context/academic #grammar_comparison
+- [042 - 日文中既知資訊與新資訊的排序原則](042_given_new_information/) #domain/linguistics #domain/communication #context/formal
+- [043 - 義務表達的概念和語法體系](043_obligation_expressions/) #domain/linguistics #context/formal #context/daily_life
+- [044 - 丁寧體與普通體的區別和使用情境](044_teineitai_vs_futsutai/) #domain/linguistics #context/formal #context/casual
+- [045 - 日文動詞分類系統的完整介紹](045_verb_classification/) #domain/linguistics #context/academic #grammar_foundation
+- [046 - 動詞的基本概念與分類系統](046_doushi_base/) #domain/linguistics #context/academic #jlpt/n5
+- [047 - 日語造語法的基本概念與規則](047_word_formation/) #domain/linguistics #linguistic/linguistic_theory #linguistic/concept
+- [048 - 商業交易流程的基本概念與實務](048_commercial_transaction/) #context/business #domain/commerce #domain/transaction
+- [049 - 標籤系統概念 - 知識管理系統中用於分類和檢索的元資料標記](049_context_tags/) #domain/linguistics #domain/learning #context/academic
+- [050 - 感情與欲望表達 - 日文中情感和欲望的語言學表現](050_feeling_desire/) #domain/linguistics #domain/cognition #domain/communication
+- [051 - 日文禮貌表達的整體概念，涵蓋丁寧語、敬語和謙讓語](051_polite_expression/) #context/formal #domain/communication #domain/linguistics
+- [052 - 需求曲線，表示價格與需求量關係的圖形](052_juyou_kyokusen/) #domain/経済学 #concept/theory
+- [053 - 均衡價格，市場供需達到平衡時的價格](053_kinkou_kakaku/) #domain/経済学 #concept/theory
+- [054 - 市場原理，市場經濟中供需關係自動調節的基本原則](054_shijou_genri/) #domain/経済学 #concept/theory
+- [055 - 日常会話](055_casual_conversation/) 
+- [056 - 動詞分類](056_verb_classification/) 
+- [057 - 商務場合](057_bijinesu_baai/) #ビジネス #敬語 #場面
+- [058 - ](058_business/) 
+- [059 - 搭配](059_collocation/) #語彙 #慣用表現 #語彙選擇
+- [060 - ](060_daily_conversation/) 
+- [061 - 焦點與強調](061_focus/) #Japanese #Grammar #Information-Structure
+- [062 - 正式語體](062_formal/) #語体 #敬語 #書面語
+- [063 - 舊資訊與新資訊](063_given_new_information/) #information-structure #は #が
+- [064 - ](064_information_structure/) 
+- [065 - 敬語系統](065_keigo_system/) #語法 #敬語
+- [066 - 主要動作與附帶動作](066_main_sub_action/) #動詞接續 #同時動作
+- [067 - 丁寧表達](067_polite_expression/) #concept #politeness #register
+- [068 - 述語](068_predicate/) #concept #grammar #sentence_structure
+- [069 - 句型分類](069_sentence_types/) #grammar #syntax #sentence-structure
+- [070 - 社會語境](070_social_context/) #語用論 #敬語 #人際關係
+- [071 - ](071_syntax/) 
+- [072 - 主題優先語言](072_topic_prominent_language/) #linguistics #syntax #topic-comment
+- [073 - 主題化](073_topicalization/) #grammar #は #topic
+- [074 - 動詞活用](074_verb_conjugation/) #grammar #verb #conjugation
+- [075 - 語順](075_word_order/) #grammar #syntax #sentence-structure
+- [076 - 書面語](076_written_language/) #語用 #文体
+- [077 - 社會距離](077_social_distance/) #社會語言學 #人際關係 #敬語
+- [078 - 高語境文化](078_high_context_culture/) #concept #communication #culture
+- [079 - 視点理論](079_shiten_riron/) #文法理論 #授受動詞 #視點
+- [080 - ](080_aizuchi/) 
+- [081 - 日常會話](081_nichijou_kaiwa/) #口語 #會話 #日常溝通
+- [082 - ](082_hourensou/) 
+- [083 - ](083_kenjougo_gainen/) 
+- [084 - ](084_jouhou_kouzou_riron/) 
+- [085 - 社會語言學](085_shakai_gengogaku/) #concept #linguistics #sociolinguistics
+- [086 - 社會階層](086_shakai_kaisou/) #社會語言學 #敬語系統 #日本文化
+- [087 - 丁寧語概念](087_teineigo_gainen/) #敬語 #丁寧語 #文法
+- [088 - 和](088_group_harmony/) #社会 #文化 #人間関係
+- [089 - ](089_uchi_soto/) #社會語言學 #日本文化 #對人關係
+- [090 - 商務郵件](090_bijinesu_mail/) #business_communication #formal_writing #email_etiquette
+- [091 - 接続詞の概念](091_setsuzokushi_gainen/) #文法 #接続詞 #文章構造
+- [092 - 日語表達的正式程度分級系統](092_formality_level/) #linguistics #pragmatics #social_context
+- [093 - ](093_gender_language/) 
+- [094 - ](094_speech_level/) 
+- [095 - 語用學](095_goyougaku/) #grammar #semantics #communication
+- [096 - ](096_adjective_types/) 
+- [097 - 助動詞](097_auxiliary_verb/) #grammar #function-words #verb-auxiliary
+- [098 - 日常会話](098_daily_conversation2/) #communication #social-interaction #language-use
+- [099 - ](099_predicate_types/) 
+- [100 - 文の構造](100_sentence_structure/) #文法基礎 #句子分析 #語順
+- [101 - 以心伝心](101_ishin_denshin/) #四字熟語 #コミュニケーション #文化
+- [102 - ](102_agglutinative_language/) #linguistics #language-typology #japanese-grammar
+- [103 - 条件形](103_conditional_forms/) #conditionals #grammar #verb_forms
+- [104 - ](104_discovery_expression/) #grammar #発見 #気づき
+- [105 - 仮定条件](105_hypothetical_condition/) #grammar #conditional #sentence-pattern
+- [106 - ](106_kuuki_wo_yomu/) #社會互動 #語用學 #文化概念
+- [107 - 語言使用情境與意義解釋的研究領域](107_pragmatics/) #linguistics #language_theory #communication
+- [108 - ](108_hierarchy/) #concept #social-structure #keigo
+- [109 - ](109_business_communication/) 
+- [110 - 五段動詞](110_godan_verbs/) #grammar #verbs #conjugation
+- [111 - 一段動詞（Ichidan Verbs）](111_ichidan_verbs/) #動詞分類 #活用規則 #文法基礎
+- [112 - 不規則動詞（ふきそくどうし）](112_irregular_verbs/) #verb-conjugation #grammar-basics #irregular-patterns
+- [113 - ](113_jlpt_levels/) #japanese-proficiency-test #language-assessment #learning-framework
+- [114 - 主語優先語言的語言學概念，日文屬於主題優先語言而非主語優先語言](114_subject_prominent/) #context/academic #domain/linguistics #jlpt/n1
+- [115 - 需要賓語的動詞](115_transitive_verbs/) #grammar #verb_classification #jlpt/n4
+- [116 - 日文敬語體系的禮貌層級](116_politeness_levels/) #honorific #pragmatics #social_context
+- [117 - 日本文化中表面話語與真實心意的概念](117_tatemae_honne/) #context/formal #context/culture #domain/sociology
+- [118 - 日文時間表達系統](118_time_expressions/) #time #grammar #daily_life
+- [119 - 動詞の形 - 日本語動詞のさまざまな形態的変化形式の総称](119_verb_forms/) #concept #grammar #verb_conjugation
+- [120 - 書面語・フォーマルな文章](120_formal_writing/) #文体 #レジスター #書き言葉
+- [121 - 確定條件](121_definite_condition/) #文法 #條件句 #N3
+- [122 - 動詞的命令形態，用於表達命令、指示或強烈要求](122_imperative_form/) #grammar_structure #verb_conjugation #domain/linguistics
+- [123 - 日文助詞系統的整體架構與分類](123_particle_system/) #grammar_system #particles #language_structure
+- [124 - 口語](124_spoken_language/) #language-register #spoken-language #casual
+- [125 - 動詞的た形（過去式/完成態）](125_ta_form/) #grammar #verb_conjugation #ta-form
+- [126 - ](126_temporal_sequence/) #文法 #時間表現 #前後關係
+- [127 - 語言單位的多功能性概念](127_versatility/) #linguistics #grammar_concept #language_structure
+- [128 - 予定](128_volitional_expression/) #文法 #意志 #表現形式
+- [129 - 描述動詞所需格助詞與語意角色的結構框架](129_case_frame/) #linguistics #grammar_theory #syntax
+- [130 - 丁寧語](130_teineigo_concept/) #keigo #polite-language #です-ます
+- [131 - 句子中表示主語的格位，在日語中由が格標記](131_nominative_case/) #linguistics #grammar_theory #syntax
+- [132 - 連用形 - 日本語動詞の六活用形の一つで、用言や助動詞に接続する形式](132_renyoukei/) #concept #grammar #verb_conjugation
+- [133 - 連接句節的助詞，表達時間、原因、條件、逆接等關係](133_setsuzoku_joshi/) #grammar_system #particles #conjunctive_particles
+- [134 - 日語形容詞的一種，修飾名詞時需加「な」](134_na_adjective/) #context/grammar #domain/linguistics #jlpt/n5
+- [135 - 日文格助詞「を」的用法：標記直接受詞與移動經過點](135_wo/) #grammar_system #particles #case_particles
+- [136 - 表示動作直接受詞的格位，日文主要用「を」助詞標記](136_accusative_case/) #context/formal #context/academic #domain/linguistics
+- [137 - 商務会話](137_business_conversation/) 
+- [138 - 日語中表示動作對象、接受者、目的地等語意角色的格](138_dative_case/) #linguistics #grammar_theory #syntax
+- [139 - 日語文法句型的系統性概念](139_grammar_pattern/) #context/academic #domain/linguistics #jlpt/n3
+- [140 - 印欧語族](140_indo_european_languages/) #linguistics #language-family #comparative-linguistics
+- [142 - 公司、學校等組織內部制定的規章制度](142_organizational_regulation/) #context/business #context/formal #jlpt/n3
+- [143 - 概観 - 全体的な見通しや総括的な理解を示す概念](143_overview/) #domain/general #context/formal #context/academic
+- [144 - 社會人](144_shakaijin/) #日本文化 #社會概念 #職場用語
+- [145 - 日語的時態概念，表達動作或狀態發生的時間](145_tense/) #context/grammar #context/formal #domain/linguistics
+- [146 - 表示引用、報導內容、思想的助詞](146_to_quotative/) #context/formal #context/casual #domain/grammar
+- [147 - 日文被動形的文法概念與用法](147_ukemi/) #context/formal #context/daily #domain/grammar
+- [148 - 表示動作或移動方向的格位，日文中主要由「に」「へ」助詞表達](148_allative_case/) #grammar_theory #case_system #linguistics
+- [149 - 表示動作手段、方法或工具的語法格，對應日語的「で」格](149_instrumental_case/) #linguistics #grammar_theory #syntax
+- [150 - 禮貌作為語用策略的概念](150_politeness/) #pragmatics #social_context #communication
+- [151 - 說話者（話者）- 語言學核心概念，指發出言語行為的主體](151_speaker/) #domain/linguistics #domain/pragmatics #domain/communication
+- [152 - ます形 - 日本語動詞の丁寧形を作る基本的な活用形式](152_masu_form/) #concept #grammar #verb_conjugation
+- [153 - 日語名詞的基本概念與分類](153_meishi/) #context/formal #context/academic #domain/linguistics
+- [154 - 傳聞表達的概念和語法體系](154_hearsay_expressions/) #domain/linguistics #context/formal #context/daily_life
+- [155 - 説明文](155_setsumei_bun/) #文章類型 #文体 #書き言葉
+- [156 - 目的語](156_mokutekigo/) #文法 #統語論 #文構造
+- [157 - 学習者（學習者）- 語言學習領域核心概念](157_gakushuusha/) #domain/linguistics #domain/learning_theory #context/academic
+- [158 - 日語名詞後綴的概念與用法](158_nominal_suffix/) #domain/linguistics #linguistic/morphology #linguistic/concept
+- [159 - 生產力，指投入與產出的效率比](159_productivity/) #domain/経済学 #domain/business #concept/efficiency
+- [168 - 表示二選一關係的接續詞](168_moshikuwa/) #formal #学術的な場面 #ビジネスシーン
+- [173 - 日本獨特的察言觀色文化，強調不需明說就能理解對方心意的溝通方式](173_sassuru_bunka/) #concept #communication #culture
+- [184 - アスペクト](184_aspect/) #grammar #verb #aspect
+- [185 - 自由貿易協定](185_jiyuuboekikyoutei/) #economics #trade #politics
+- [186 - ](186_keijoushuushi/) #economics #finance #trade
+- [187 - 經濟景氣動向、經濟發展趨勢](187_keikidoukou/) #context/formal #context/academic #domain/economics
+- [188 - ](188_keizaishihyou/) #economics #business #statistics
+- [189 - ](189_kinyuuseisaku/) #経済 #政策 #金融
+- [190 - 債券](190_saiken/) #finance #economics
+- [191 - ](191_shijokeizai/) #economics #経済制度
+- [192 - 所得稅，政府對個人或企業所得徵收的稅款](192_shotokuzei/) #domain/経済学 #concept/政策
+- [193 - 財政政策](193_zaiseiseisaku/) #economics #policy
+- [194 - 税務制度與稅金相關概念的基礎知識](194_zeikin/) #context/finance #domain/economics #domain/society
+- [195 - 不動産（ふどうさん）](195_fudousan/) #concept #economics #legal
+- [196 - 資産運用](196_shisan_unyou/) #economics #finance #business
+- [197 - 尊敬語概念](197_sonkeigo_concept/) #grammar #politeness-level #honorific
+- [198 - ウチとソト](198_uchi_soto/) #culture #society #interpersonal
+- [199 - 物價，商品和服務的整體價格水準](199_bukka/) #domain/経済 #concept/price
+- [200 - ](200_gaika_junbi/) #economics #finance #international-trade
+- [201 - 比較優位](201_hikaku_yuui/) #economics #trade #efficiency
+- [202 - 意味論](202_imiron/) #言語学 #語言 #意味
+- [203 - ](203_jisshitsu_seichouritsu/) #経済学 #マクロ経済 #GDP
+- [204 - 金融機構，提供金融服務的機構](204_kinyuu_kikan/) #domain/経済学 #concept/finance
+- [205 - 名目成長率](205_meimoku_seichouritsu/) #economics #growth-rate #macroeconomics
+- [206 - 輸出入](206_yushutsunyuu/) #コンピュータ #情報処理 #IT用語
+- [207 - 口語與書面語的區別與使用場景](207_hanashi_kaki_kotoba/) #language-style #formal-informal #communication
+- [208 - ](208_jouge_kankei/) #culture #society #keigo
+- [209 - 察言觀色、讀空氣的概念、日本文化中的社交智慧](209_kuuki_yomu/) #context/conversational #context/formal #domain/culture
+- [210 - 察する文化](210_sassuru_bunka/) #日本文化 #溝通方式 #非言語溝通
+- [211 - ](211_shokuba_bunka/) #culture #workplace #business
+- [212 - 商務環境中敬語使用的等級體系和層次結構](212_bijinesu_keigo_kaidan/) #context/business #domain/linguistics #domain/honorific-system
+- [213 - 會話含意理論 - Grice 語用學中的隱含意義理論](213_conversational_implicature/) #linguistics #pragmatics #communication
+- [214 - 言外の意](214_gengai_no_i/) #pragmatics #communication #implication
+- [215 - 詞彙分級系統](215_goi_bunkyuu/) #vocabulary #jlpt #learning-system
+- [216 - 時態](216_jisei/) #grammar #tense #verb
+- [217 - 謙讓語概念](217_kenjougo_concept/) #japanese-grammar #politeness-levels #language-register
+- [218 - ](218_speech_act_theory/) #linguistics #pragmatics #communication
+- [219 - 学習の進捗を示す重要な段階或いは達成指標](219_gakushuu_milestone/) #context/educational #domain/learning #jlpt/n2
+- [220 - ](220_gitaigo_system/) 
+- [221 - ご覧になる vs 拝見する](221_goran_vs_haiken/) #敬語 #尊敬語 #謙讓語
+- [222 - いらっしゃる vs 参る](222_irassharu_vs_mairu/) #敬語 #動詞 #尊敬語
+- [223 - ウチ・ソト理論 - 日本社會的內外意識理論](223_uchi_soto_riron/) #domain/sociolinguistics #domain/pragmatics #context/social
+- [224 - 電子マネー](224_denshi_money/) #technology #money #modern-life
+- [225 - 純資産](225_jun_shisan/) #finance #accounting #assets
+- [226 - 需要と供給](226_juyou_kyoukyuu/) #経済 #ビジネス #基本概念
+- [227 - 株式](227_kabushiki/) #経済 #金融 #ビジネス
+- [228 - ](228_kawase_rate/) #economics #finance #currency
+- [229 - 国際法](229_kokusaihou/) 
+- [230 - ](230_ryouteki_kanwa/) #経済 #金融政策 #中央銀行
+- [231 - 政策](231_seisaku/) #politics #government #administration
+- [232 - 所得](232_shotoku/) #economics #finance #noun
+- [233 - ](233_yuushi/) #economics #business #finance
+- [234 - ](234_zaisei/) 
+- [235 - 焦點 (Focus)](235_focus/) #linguistics #information-structure #pragmatics
+- [236 - ](236_contrastive_focus/) #linguistics #pragmatics #information-structure
+- [237 - 技術移転](237_gijutsu_iten/) #business #technology #economics
+- [238 - 基礎貨幣，中央銀行供應的貨幣總量](238_monetary_base/) #domain/経済学 #concept/monetary
+- [239 - ](239_seisaku_teigen/) #政治 #政策
+- [240 - 正式道歉表達](240_seishiki_shazai/) #apology #formal-expression #politeness
+- [241 - 金融政策](241_金融政策/) #domain/経済学 #concept/政策
+- [242 - 税金、稅收制度的經濟概念](242_税金/) #domain/economics #context/formal #jlpt/n1
+- [243 - 経済指標](243_経済指標/) #domain/経済学 #concept/統計
+- [244 - 財政政策](244_財政政策/) #domain/経済学 #concept/政策
+- [245 - 經常收支](245_経常収支/) #domain/経済学 #concept/国際収支
+- [246 - 所得税](246_所得税/) #domain/経済学 #concept/税制
+- [247 - アスペクト](247_アスペクト/) #domain/言語学 #concept/文法
+- [248 - 景気動向](248_景気動向/) #domain/経済学 #concept/景気
+- [249 - 市場経済](249_市場経済/) #domain/経済学 #concept/経済体制
+- [250 - 債券](250_債券/) #domain/経済学 #concept/金融商品
+- [251 - 國家間的貿易自由化協議，消除關稅和貿易壁壘](251_自由貿易協定/) #domain/経済学 #domain/国際貿易 #context/formal
+- [253 - 內與外概念 - 日語社會語言學中的內外群體區分](253_uchi_soto/) #social_concept #keigo #culture
+- [254 - 語言學中透過助詞和語序標示的資訊焦點概念](254_focus/) #domain/linguistics #domain/information_structure #context/academic
+- [257 - てもいい](257_temoii/) #permission #modal
+- [258 - 対比焦点](258_taihi_shouten/) #linguistics #information_structure
+- [259 - 意味論（語義學）- 研究語言意義的語言學分支](259_imiron/) #domain/linguistics #domain/semantics #context/academic
+- [260 - 但是（書面語逆接接續詞）](260_daga/) #conjunction #formal #written
+- [261 - 表達義務必須做某事的文法概念](261_nakutehaikenai/) #obligation #modal #grammar
+- [262 - 商務敬語的階梯理論](262_business_keigo/) #keigo #business #formal
+- [263 - 物價，商品和服務的整體價格水準](263_bukka/) #domain/economics #context/daily_life
+- [264 - 実質成長率](264_jisshitsu_seichouritsu/) #economics #finance
+- [265 - ](265_meimoku_seichouritsu/) #economics #finance #jlpt/n2
+- [266 - 投資者 - 投入資金以獲取收益的個人或機構](266_toushika/) #economics #finance #person
+- [267 - 金融機関](267_kinyuu_kikan/) #domain/経済学 #concept/金融 #concept/機関
+- [268 - 存摺](268_yokin_tsuchou/) #domain/banking #context/daily_life
+- [269 - 轉帳 - 將資金從一個帳戶轉移到另一個帳戶的金融操作](269_furikomi/) #banking #daily_life
+- [270 - 資産運用](270_shisan_unyou/) #finance #investment
+- [271 - 不動產，土地及建築物等無法移動的財產](271_fudousan/) #domain/real_estate #domain/economics
+- [272 - 收入、金錢的收入來源](272_shuunyuu/) #context/daily_life #domain/finance #jlpt/n3
+- [273 - 支出的概念，金錢花費的分類](273_shishutsu/) #finance #daily_life
+- [274 - 経費](274_keihi/) #finance #business
+- [275 - 進出口，國際貿易中的進口與出口](275_yushutsunyu/) #domain/economics #domain/trade
+- [276 - 外匯儲備，國家持有的外國貨幣和資產，用於穩定匯率和國際支付](276_gaika_junbi/) #domain/economics #domain/finance #domain/international
+- [277 - 比較優勢，國際貿易理論中說明專業分工利益的核心概念](277_hikaku_yuui/) #domain/economics #domain/trade
+- [278 - 貨幣基數，中央銀行發行的貨幣總量](278_monetary_base/) #domain/economics #domain/monetary_policy
+- [279 - 規範國家間關係的法律體系](279_kokusaihou/) #domain/law #domain/international
+- [280 - 技術轉移，技術的跨國或跨組織轉移](280_gijutsu_iten/) #domain/business #domain/technology
+- [281 - 供需，經濟學基本概念，表示需求與供給之間的相互關係](281_juyou_kyoukyuu/) #economics #basic
+- [282 - 電子貨幣，數位支付方式的總稱](282_denshi_money/) #domain/finance #domain/technology #context/daily_life
+- [283 - 融資，金融機構向企業或個人提供貸款](283_yuushi/) #finance #banking
+- [284 - 匯率，貨幣之間的兌換比率](284_kawase_rate/) #domain/finance #domain/international
+- [285 - 量化寬鬆，中央銀行大規模購買資產以增加貨幣供應的非傳統貨幣政策](285_ryouteki_kanwa/) #domain/economics #domain/monetary_policy
+- [286 - 政策建議、向政府或決策者提出的政策提案](286_seisaku_teigen/) #context/formal #context/academic #domain/politics
+- [287 - 政策](287_seisaku/) #politics #government
+- [288 - 純資産](288_jun_shisan/) #finance #accounting
+- [289 - 股票，公司發行的所有權憑證](289_kabushiki/) #domain/finance #concept/investment
+- [290 - 所得](290_shotoku/) #finance #tax
+- [291 - 政府的收入與支出管理，公共財務的經濟概念](291_zaisei/) #domain/economics #domain/government
+- [294 - 惡魔、魔鬼 - 宗教與文化中的邪惡存在概念](294_akuma/) #宗教 #文化 #神話
+- [295 - 惡劣的、惡質的](295_akushitsu/) #negative #negative-action
+- [296 - 好、可以、不錯 - 日文最常用的形容詞之一](296_ii/) #daily_life #日常会話の場面
+- [297 - 尊敬語 - 透過提升對方來表達敬意的敬語形式](297_sonkeigo_concept/) #keigo #sonkeigo #honorific
+- [301 - 日本社會人際關係的內外區分理論](301_uchi_soto_riron/) #concept #linguistic_theory #social
+- [302 - 日語中描述狀態、感覺、心理的表現詞彙體系](302_gitaigo_system/) #専門用語・特殊語彙 #context #domain/linguistics
+- [305 - 選擇疑問的接續詞，用於連接兩個或以上的選項](305_soretomo/) #conjunction #question #choice
+- [307 - 尊敬語與謙讓語的「看」對比](307_goran_ni_naru_vs_haiken_suru/) #keigo #formal #敬語分野
+- [310 - 言葉に直接表現されていない意味や含意](310_gengai_no_i/) #pragmatics #formal
+- [313 - 日本語學習的階段性里程碑與目標設定](313_gakushuu_milestone/) #学習 #learning #認知・思考分野
+- [315 - 日語語系的分類與特徵](315_japanese_language_family/) #linguistics #language_family #学術的な場面
+- [320 - 日文判定助動詞，用於表達斷定、肯定的基本語法概念](320_da/) #grammar #auxiliary_verb #basic_form
+- [321 - 日文丁寧語的基本判斷助動詞](321_desu/) #日常生活 #フォーマルな場面 #コミュニケーション分野
+- [324 - 日文判定助動詞](324_だ/) #jlpt/n5
+- [325 - 日文丁寧語的基本判斷助動詞](325_です/) #jlpt/n5
+- [330 - 原因與結果之間的邏輯關係](330_inga_kankei/) #grammar #reason #認知・思考分野
+- [331 - 日文中表達事件時間先後順序的語法概念與表現方式](331_jikan_no_junjosei/) #文法 #時間表現 #前後關係
+- [332 - 條件從句的概念與構造](332_joukensetsu/) #domain/linguistics #context/academic #grammar_structure
+- [333 - 日語中表達假設、條件和非現實情況的語法體系](333_kateihou/) #concept #grammar #conditional
+- [334 - 效用，指事物發揮的功效或作用](334_kouyou/) #経済学 #concept
+- [335 - 「言う」「する」的謙讓語表達](335_moushiageru/) #keigo #humble #business
+- [336 - 敬語表達中請求對方做某事的丁寧語句型](336_o_go_kudasai/) #keigo #request #teineigo
+- [337 - 經濟學中的邊際效用概念](337_genkai_kouyou/) #経済学 #学術的な場面 #domain
+- [339 - 日語謙讓語的核心概念與應用原則](339_kenjougo_concept/) #keigo #kenjougo #honorific
+- [340 - 口語體義務表達，表示必須做某事](340_naito_ikenai/) #obligation #modal #grammar
+- [342 - 表達狀態變化、能力獲得的日文文法表達](342_you_ni_naru/) #学習 #言語学 #daily_life
+- [344 - 謙讓語動詞：訪問、拜訪、詢問、聆聽的謙讓形式](344_ukagau/) #keigo #humble_form #ビジネスシーン
+- [346 - 書面語、正式寫作中使用的日文表達風格](346_kakikotoba/) #concept #言語学 #学術的な場面
+- [347 - 許可與禁止的表達方式](347_kyoka_kinshi_hyougen/) #domain/communication #context #formal
+- [349 - 剛做完某事的瞬間／剛剛～](349_ta_tokoro/) #grammar #aspect #temporal
+- [357 - 京都地區特有的方言，以優雅柔和的語調著稱](357_kyoto_hougen/) #言語学 #日常会話の場面 #社交的な場面
+- [364 - 財政收支](364_zaisei_shuushi/) #domain/経済学 #concept/財政
+- [366 - 完全失業率 - 日本勞動市場的核心經濟指標](366_kanzen_shitsugyouritsu/) #経済学 #金融
+- [367 - 日語中表示範圍的基本句型](367_kara_made_hani/) #concept #range #expression
+- [370 - 社會規範、社會習俗與行為準則](370_shakai_kisoku/) #社交的な場面 #フォーマルな場面 #daily_life
+- [374 - 最委婉的請求表達，用於商務或正式場合請求對方做某事](374_te_itadakitai_nodesuga/) #keigo #request #ビジネスシーン
+- [380 - 勞動、勞動工作的概念](380_roudou/) #ビジネスシーン #daily_life
+- [381 - 安全防護、資訊安全](381_security/) #ビジネスシーン #専門用語・特殊語彙 #concept
+- [392 - 作品集、投資組合](392_portfolio/) #ビジネスシーン #daily_life
+- [405 - 金錢、貨幣（外來語）](405_money/) #daily_life #ビジネスシーン
+- [407 - 經濟體在資源充分利用下可達成的長期成長率](407_senzai_seichouritsu/) #経済学 #金融 #学術的な場面
+- [409 - 表示資格、立場、身份的複合助詞](409_toshite/) #grammar #particle #jlpt/n3
+- [411 - 泡沫經濟](411_バブル経済/) #jlpt/concept
+- [413 - 保護主義，指國家透過關稅、進口限制等政策保護國內產業](413_hogo_shugi/) #economics #politics #ビジネスシーン
+- [418 - 資金配置、資源分配](418_shikin_haibun/) #経済学 #金融 #ビジネスシーン
+- [445 - 發展援助、開發援助](445_kaihatsu_enjo/) #経済学 #フォーマルな場面 #concept
+- [568 - 日語謙讓語的核心概念與應用原則](568_kenjougo_concept/) #keigo #kenjougo #honorific
 
 ---
-最後更新: 2025-12-28 17:25:46
+最後更新: 2026-11-14 02:27:41

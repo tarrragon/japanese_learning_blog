@@ -93,8 +93,8 @@ Price level; a comprehensive indicator showing the overall level of prices for g
 
 ## 相關連結
 
-- [インフレーション](086_infureshon.md) - 通貨膨脹
-- [デフレーション](75_defureshon.md) - 通貨緊縮
-- [消費者物価指数](160_shouhishabukkashisuu.md) - 消費者物價指數
-- [金融政策](../concept/181_金融政策.md) - 貨幣政策
-- [経済指標](../concept/183_経済指標.md) - 經濟指標
+- [インフレーション](088_infureshon.md) - 通貨膨脹
+- [デフレーション](077_defureshon.md) - 通貨緊縮
+- [消費者物価指数](162_shouhishabukkashisuu.md) - 消費者物價指數
+- [金融政策](../concept/241_金融政策.md) - 貨幣政策
+- [経済指標](../concept/243_経済指標.md) - 經濟指標

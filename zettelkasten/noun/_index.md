@@ -1,375 +1,386 @@
 # Noun 索引
 
-最後編號：321
-總卡片數：364
+最後編號：358
+總卡片數：375
 
 ## 卡片列表
 
 ### 依編號
-- [000 - 提供](noun-074-提供/) 
-- [000 - ](noun-073-財政/) 
-- [000 - 金融資本](noun-078-金融資本/) 
-- [000 - 支給](noun-075-支給/) 
-- [000 - ](75_defure/) 
-- [000 - ](noun-203-損益計算書/) 
-- [000 - 物的資本](noun-077-物的資本/) 
-- [000 - ](noun-200-交付金/) 
-- [000 - ](noun-204-赤字/) 
-- [000 - "デフレーション"](75_defureshon/) 
-- [000 - 配給](noun-076-配給/) 
-- [000 - 住宅ローン控除](noun-080-住宅ローン控除/) 
-- [000 - "金融"](noun-073-金融/) 
-- [000 - ](noun-201-国際経済/) 
-- [000 - ](noun-202-先進国/) 
-- [000 - 医療費控除](noun-079-医療費控除/) 
-- [001 - 早餐，一天中的第一餐](001_asagohan/) 
-- [002 - 健康、身心處於良好狀態](002_kenkou/) 
-- [003 - 價格、價錢](003_nedan/) 
-- [004 - 服務](004_service/) 
-- [005 - 理由、原因](005_riyuu/) 
-- [006 - 家庭、家戶](006_katei/) 
-- [007 - 食物、食品](007_tabemono/) 
-- [008 - 文法](008_bunpou/) 
-- [009 - 學習（學習過程、學術性的學習）](009_gakushuu/) 
-- [010 - 詞彙](010_goi/) 
-- [011 - 發音](011_hatsuon/) 
-- [012 - 商業](012_shougyou/) 
-- [013 - 交易、買賣](013_torihiki/) 
-- [014 - 方向、方位](014_houkou/) 
-- [015 - 終點、終點站](015_shuuten/) 
-- [016 - 方法、辦法；在「仕方がない」中表示無可奈何](016_shikata/) 
-- [017 - "意義、含義、意思"](017_imi/) 
-- [018 - 會話、對話、交談](018_kaiwa/) 
-- [019 - 漢字，日文書寫系統中使用的中國文字](019_kanji/) 
-- [020 - "目的地是指作為前往目標而設定的地點，打算到達的地方。在旅行或移動時，指最終要前往的地點。"](020_mokutekichi/) 
-- [021 - "單字、詞彙"](021_tango/) 
-- [022 - 位置](022_ichi/) 
-- [023 - 中間、裡面](023_naka/) 
-- [024 - 下面、下方、底部](024_shita/) 
-- [025 - "外面、外部"](025_soto/) 
-- [026 - 上面、上方的位置](026_ue/) 
-- [027 - 聽力理解（語言學習中的聽力能力）](027_choukai/) 
-- [028 - 閱讀理解，指理解文章內容的能力](028_dokkai/) 
-- [029 - 作文（文章創作、寫作作業）](029_sakubun/) 
-- [030 - 表現：透過語言、文字、藝術等形式將思想或感情傳達給他人](030_hyougen/) 
-- [031 - 會議 - 為了討論、決策或報告而召集人員的正式聚會](031_kaigi/) 
-- [032 - 企劃、計畫、方案](032_kikaku/) 
-- [033 - 販売 - 銷售、銷售活動](033_hanbai/) 
-- [034 - 營業、業務活動、銷售業務](034_eigyou/) 
-- [035 - 事業、商業活動](035_jigyou/) 
-- [036 - 會計、帳簿、會計部門](036_kaikei/) 
-- [037 - 出發地、起點、旅程或移動的起始地點](037_shuppatsuchi/) 
-- [038 - 起點，開始的地方或時間點](038_kiten/) 
-- [039 - 地方、場所、位置](039_tokoro/) 
-- [040 - 旁邊、隔壁、鄰近的地方](040_tonari/) 
-- [041 - 時間 - 表示時間概念的基礎名詞](041_jikan/) 
-- [042 - 表示具體的時間點或特定時刻](042_jikoku/) 
-- [043 - 現在、此刻、目前](043_ima/) 
-- [044 - 昨天、昨日](044_kinou/) 
-- [045 - 明天、次日](045_ashita/) 
-- [046 - 今天、今日](046_kyou/) 
-- [047 - 前面、之前的時間或位置](047_mae/) 
-- [048 - 之後、後來、之後的時間](048_ato/) 
-- [049 - 必要性、必需品，表示不可或缺的事物或狀態](049_hitsuyo/) 
-- [050 - 義務、責任、責務](050_gimu/) 
-- [051 - 役割 - 角色、職責、功能](051_yakuwari/) 
-- [052 - 職責、任務、角色](052_yakume/) 
-- [053 - 立場 - position, stance, standpoint](053_tachiba/) 
-- [054 - 意見 - 個人的看法或主張](054_iken/) 
-- [055 - 想法、意見、看法](055_kangae/) 
-- [056 - 感受、心情、情緒](056_kimochi/) 
-- [057 - 希望、願望、期待](057_kibou/) 
-- [058 - 願望、希望、期待](058_nozomi/) 
-- [059 - 理由、原因](059_riyuu/) 
-- [060 - 方法、做事的方式或手段](060_houhou/) 
-- [061 - 疑問詞，詢問時間「何時、什麼時候」](061_itsu/) 
-- [062 - 為什麼（疑問詞）](062_naze/) 
-- [063 - 不定數選項中選擇哪一個的疑問詞](063_dore/) 
-- [064 - 哪個（連體詞，必須修飾名詞）](064_dono/) 
-- [065 - 多少錢（詢問價格的疑問詞）](065_ikura/) 
-- [066 - 幾個、多少個、幾歲（疑問詞）](066_ikutsu/) 
-- [067 - "顧客、客戶。購買商品或服務的人。這是商業場合中常用的禮貌用語，指光顧商店或使用公司服務的人。"](067_kokyaku/) 
-- [068 - "合約、協議"](068_keiyaku/) 
-- [069 - "哪裡（疑問詞）"](069_doko/) 
-- [070 - "用於詢問「誰」的疑問詞。當想知道某個人是誰、或者想詢問不特定人物時使用。可以用於各種場合，從日常對話"](070_dare/) 
-- [071 - "場所、地方、地點。指某個空間或位置，可以是具體的實體空間，也可以是抽象的情境或場合。日常生活中非常常"](071_basho/) 
-- [072 - "表示疑問的代名詞，用於詢問事物或事情。意思是「什麼」。根據語境不同，讀音會是「なに」或「なん」。"](072_nani/) 
-- [073 - "經濟學"](073-経済学/) 
-- [073 - "貿易"](073-貿易/) 
-- [073 - ](073_bukka/) 
-- [074 - 記帳](074-記帳/) 
+- [000 - 提供](noun-074-提供/) #domain/経済学 #action/provide #concept/supply
+- [000 - ](noun-073-財政/) #domain/経済学
+- [000 - 金融資本](noun-078-金融資本/) #domain/経済学 #concept/capital #category/financial-assets
+- [000 - 支給](noun-075-支給/) #domain/経済学 #action/payment #concept/distribution
+- [000 - ](noun-203-損益計算書/) #domain/経済学 #accounting #financial-statement
+- [000 - 物的資本](noun-077-物的資本/) #domain/経済学 #concept/capital #category/physical-assets
+- [000 - ](noun-200-交付金/) #domain/経済学 #government/finance #public-finance
+- [000 - ](noun-204-赤字/) #domain/経済学 #accounting #finance
+- [000 - 配給](noun-076-配給/) #domain/経済学 #action/distribution #concept/rationing
+- [000 - 住宅ローン控除](noun-080-住宅ローン控除/) #domain/経済学 #domain/税務 #concept/tax-deduction
+- [000 - 金融](noun-073-金融/) #domain/経済学 #domain/金融
+- [000 - ](noun-201-国際経済/) #domain/経済学 #international-relations #global-economy
+- [000 - ](noun-202-先進国/) #domain/経済学 #international-relations #development
+- [000 - 医療費控除](noun-079-医療費控除/) #domain/経済学 #domain/税務 #concept/tax-deduction
+- [001 - 早餐，一天中的第一餐](001_asagohan/) #context/family #context/casual #domain/daily_life
+- [002 - 健康、身心處於良好狀態](002_kenkou/) #context/casual #context/formal #domain/medical
+- [003 - 價格、價錢](003_nedan/) #context/casual #context/business #domain/economics
+- [004 - 服務](004_service/) #context/business #context/casual #domain/economics
+- [005 - 理由、原因](005_riyuu/) #context/formal #context/casual #jlpt/n3
+- [006 - 家庭、家戶](006_katei/) #context/family #context/formal #domain/daily_life
+- [007 - 食物、食品](007_tabemono/) #context/casual #context/family #domain/daily_life
+- [008 - 文法](008_bunpou/) #education #linguistics #language_learning
+- [009 - 學習（學習過程、學術性的學習）](009_gakushuu/) #education #kanji_compound #formal
+- [010 - 詞彙](010_goi/) #context/academic #context/formal #domain/linguistics
+- [011 - 發音](011_hatsuon/) #education #phonetics #language_learning
+- [012 - 商業](012_shougyou/) #business #economics #formal
+- [013 - 交易、買賣](013_torihiki/) #business #transaction #commerce
+- [014 - 方向、方位](014_houkou/) #domain/location #jlpt/n4 #concept/direction
+- [015 - 終點、終點站](015_shuuten/) #domain/transportation #semantic/location #semantic/endpoint
+- [016 - 方法、辦法；在「仕方がない」中表示無可奈何](016_shikata/) #domain/general #context/formal #expression/resignation
+- [017 - 意義、含義、意思](017_imi/) #noun #language_learning #meaning
+- [018 - 會話、對話、交談](018_kaiwa/) #domain/communication #domain/learning #context/daily_life
+- [019 - 漢字，日文書寫系統中使用的中國文字](019_kanji/) #domain/learning #domain/linguistics #jlpt/n5
+- [020 - 目的地是指作為前往目標而設定的地點，打算到達的地方。在旅行或移動時，指最終要前往的地點。](020_mokutekichi/) #noun
+- [021 - 單字、詞彙](021_tango/) #noun #language_learning #vocabulary
+- [022 - 位置](022_ichi/) #location #position #spatial
+- [023 - 中間、裡面](023_naka/) #domain/location #concept/position #concept/basic
+- [024 - 下面、下方、底部](024_shita/) #position/location #position/direction #context/daily_life
+- [025 - 外面、外部](025_soto/) #noun #location #direction
+- [026 - 上面、上方的位置](026_ue/) #context/daily_life #domain/movement #basic
+- [027 - 聽力理解（語言學習中的聽力能力）](027_choukai/) #domain/learning #domain/linguistics #jlpt/n3
+- [028 - 閱讀理解，指理解文章內容的能力](028_dokkai/) #domain/learning #domain/linguistics #context/academic
+- [029 - 作文（文章創作、寫作作業）](029_sakubun/) #domain/learning #domain/education #jlpt/n3
+- [030 - 表現：透過語言、文字、藝術等形式將思想或感情傳達給他人](030_hyougen/) #domain/communication #domain/linguistics #context/daily_life
+- [031 - 會議 - 為了討論、決策或報告而召集人員的正式聚會](031_kaigi/) #context/business #domain/communication #jlpt/n3
+- [032 - 企劃、計畫、方案](032_kikaku/) #context/business #domain/commerce #jlpt/n3
+- [033 - 販売 - 銷售、銷售活動](033_hanbai/) #domain/commerce #domain/transaction #jlpt/n3
+- [034 - 營業、業務活動、銷售業務](034_eigyou/) #context/business #domain/commerce #jlpt/n3
+- [035 - 事業、商業活動](035_jigyou/) #context/business #context/formal #domain/commerce
+- [036 - 會計、帳簿、會計部門](036_kaikei/) #context/business #context/formal #domain/finance
+- [037 - 出發地、起點、旅程或移動的起始地點](037_shuppatsuchi/) #context/formal #context/business #domain/travel
+- [038 - 起點，開始的地方或時間點](038_kiten/) #context/formal #domain/movement #jlpt/n3
+- [039 - 地方、場所、位置](039_tokoro/) #context/daily_life #domain/daily_life #position/location
+- [040 - 旁邊、隔壁、鄰近的地方](040_tonari/) #context/daily_life #domain/daily_life #jlpt/n5
+- [041 - 時間 - 表示時間概念的基礎名詞](041_jikan/) #context/daily_life #domain/daily_life #time
+- [042 - 表示具體的時間點或特定時刻](042_jikoku/) #context/daily_life #domain/daily_life #jlpt/n4
+- [043 - 現在、此刻、目前](043_ima/) #domain/daily_life #context/daily_life #context/casual
+- [044 - 昨天、昨日](044_kinou/) #time #daily_life #jlpt/n5
+- [045 - 明天、次日](045_ashita/) #context/daily_life #daily_life #jlpt/n5
+- [046 - 今天、今日](046_kyou/) #context/daily_life #domain/daily_life #jlpt/n5
+- [047 - 前面、之前的時間或位置](047_mae/) #context/daily_life #domain/movement #time
+- [048 - 之後、後來、之後的時間](048_ato/) #context/daily_life #domain/daily_life #jlpt/n5
+- [049 - 必要性、必需品，表示不可或缺的事物或狀態](049_hitsuyo/) #context/formal #context/business #context/daily_life
+- [050 - 義務、責任、責務](050_gimu/) #context/formal #domain/learning #jlpt/n3
+- [051 - 役割 - 角色、職責、功能](051_yakuwari/) #context/business #context/social #domain/cognition
+- [052 - 職責、任務、角色](052_yakume/) #context/business #context/formal #domain/cognition
+- [053 - 立場 - position, stance, standpoint](053_tachiba/) #abstract #formal #jlpt/n3
+- [054 - 意見 - 個人的看法或主張](054_iken/) #context/daily_life #domain/communication #jlpt/n4
+- [055 - 想法、意見、看法](055_kangae/) #daily_life #abstract_noun #jlpt/n4
+- [056 - 感受、心情、情緒](056_kimochi/) #context/daily_life #domain/perception #semantic/feeling
+- [057 - 希望、願望、期待](057_kibou/) #context/daily_life #domain/cognition #jlpt/n4
+- [058 - 願望、希望、期待](058_nozomi/) #context/formal #domain/cognition #context/daily_life
+- [059 - 理由、原因](059_riyuu/) #context/daily_life #domain/cognition #domain/communication
+- [060 - 方法、做事的方式或手段](060_houhou/) #context/daily_life #domain/learning #domain/cognition
+- [061 - 疑問詞，詢問時間「何時、什麼時候」](061_itsu/) #question_form #time #jlpt/n5
+- [062 - 為什麼（疑問詞）](062_naze/) #question #context/daily_life #domain/communication
+- [063 - 不定數選項中選擇哪一個的疑問詞](063_dore/) #question #context/daily_life #question_form
+- [064 - 哪個（連體詞，必須修飾名詞）](064_dono/) #question #context/daily_life #question_form
+- [065 - 多少錢（詢問價格的疑問詞）](065_ikura/) #shopping #question #daily_life
+- [066 - 幾個、多少個、幾歲（疑問詞）](066_ikutsu/) #question #context/daily_life #jlpt/n5
+- [067 - 顧客、客戶。購買商品或服務的人。這是商業場合中常用的禮貌用語，指光顧商店或使用公司服務的人。](067_kokyaku/) #noun
+- [068 - 合約、協議](068_keiyaku/) #noun #business #formal
+- [069 - 哪裡（疑問詞）](069_doko/) #interrogative #question #place
+- [070 - 用於詢問「誰」的疑問詞。當想知道某個人是誰、或者想詢問不特定人物時使用。可以用於各種場合，從日常對話](070_dare/) #noun
+- [071 - 場所、地方、地點。指某個空間或位置，可以是具體的實體空間，也可以是抽象的情境或場合。日常生活中非常常](071_basho/) #noun
+- [072 - 表示疑問的代名詞，用於詢問事物或事情。意思是「什麼」。根據語境不同，讀音會是「なに」或「なん」。](072_nani/) #noun
+- [073 - 經濟學](073-経済学/) #domain/経済学
+- [073 - 貿易](073-貿易/) #domain/経済学 #domain/商業
+- [073 - ](073_bukka/) #domain/経済学 #concept/indicator
+- [074 - 記帳](074-記帳/) #domain/経済学 #domain/金融 #context/日常生活
 - [074 - ](074_juyou/) 
-- [075 - ](075_kabushiki/) 
-- [075 - ネットバンキング](075-ネットバンキング/) 
-- [076 - 先行指標](076-先行指標/) 
-- [076 - ](076_koyou/) 
-- [077 - ](077_kyoukyuu/) 
-- [077 - 一致指標](077-一致指標/) 
-- [078 - ](078_shihon/) 
-- [078 - 遅行指標](078-遅行指標/) 
-- [079 - "市場"](079_shijou/) 
-- [080 - ](080_shouken/) 
-- [081 - "投資"](081_toushi/) 
-- [082 - ](082_zeikin/) 
-- [083 - "バブル"](083_baburu/) 
-- [084 - "不況"](084_fukyou/) 
-- [085 - ](085_infure/) 
-- [086 - "インフレーション"](086_infureshon/) 
-- [087 - ](087_keiki/) 
-- [088 - 経済成長](088_keizaiseichou/) 
-- [089 - 経済政策](089_keizaiseisaku/) 
-- [090 - ](090_koukyou/) 
-- [091 - "株価"](091_kabuka/) 
-- [092 - "株式会社"](092_kabushikigaisha/) 
-- [093 - "株式市場"](093_kabushikishijou/) 
-- [094 - "金利"](094_kinri/) 
-- [095 - ](095_rishi/) 
-- [096 - "失業"](096_shitsugyou/) 
-- [097 - ](097_shitsugyouritsu/) 
-- [098 - "消費"](098_shouhi/) 
-- [099 - 証券会社](099_shoukengaisha/) 
-- [100 - "証券市場"](100_shoukenshijou/) 
-- [101 - ](101_endaka/) 
-- [102 - "円安"](102_enyasu/) 
-- [103 - "負債"](103_fusai/) 
-- [104 - "配当"](104_haitou/) 
-- [105 - ](105_kawase/) 
-- [106 - ](106_kawasereto/) 
-- [107 - "#077 国債（こくさい）"](107_kokusai/) 
-- [108 - "資産"](108_shisan/) 
-- [109 - 預金](109_yokin/) 
-- [110 - ](110_yuushi/) 
-- [111 - ](111_gappei/) 
-- [112 - 貨幣](112_kahei/) 
-- [113 - "給与"](113_kyuuyo/) 
-- [114 - "利益"](114_rieki/) 
-- [115 - 収益](115_shuueki/) 
-- [116 - "倒産"](116_tousan/) 
-- [117 - ](117_tsuuka/) 
-- [118 - "売上"](118_uriage/) 
-- [119 - ](119_uriagedaka/) 
-- [120 - "予算"](120_yosan/) 
-- [121 - ](121_bukkashisuu/) 
-- [122 - "賃金"](122_chingin/) 
-- [123 - 関税](123_kanzei/) 
-- [124 - ](124_keiei/) 
-- [125 - ](125_kigyou/) 
-- [126 - ](126_sainyuu/) 
-- [127 - ](127_saishutsu/) 
-- [128 - ](128_shotokuzei/) 
-- [129 - "消費税"](129_shouhizei/) 
-- [130 - ](130_zaiseiaakaji/) 
-- [131 - "貿易赤字"](131_bouekiakaji/) 
-- [132 - 貿易黒字](132_bouekikuroji/) 
-- [133 - 貿易収支](133_bouekishuushi/) 
-- [134 - ](134_chuuouginkou/) 
-- [135 - "保護貿易"](135_hogoboueki/) 
-- [136 - ](136_jiyuuboueki/) 
-- [137 - ](137_kokusaishuushi/) 
-- [138 - ](138_nihonginkou/) 
-- [139 - ](139_yunyuu/) 
-- [140 - "輸出"](140_yushutsu/) 
-- [141 - 株価指数](141_kabukashisuu/) 
-- [142 - "景気循環"](142_keikijunkan/) 
-- [143 - "経済恐慌"](143_keizaikyoukou/) 
-- [144 - ](144_keizaiseichouritsu/) 
-- [145 - ](145_keizaiseisai/) 
-- [146 - ](146_keizaitaikoku/) 
-- [147 - "証券取引所"](147_shoukentorihikijo/) 
-- [148 - 損失](148_sonshitsu/) 
-- [149 - "預金口座"](149_yokinkouza/) 
-- [150 - ](150_yokintsuuchou/) 
-- [151 - ](151_houjinzei/) 
-- [152 - ](152_kanzeidoumei/) 
-- [153 - "関税障壁"](153_kanzeishouheki/) 
-- [154 - "経済協力"](154_keizaikyouryoku/) 
-- [155 - ""](155_keizaitoukei/) 
-- [156 - "国家予算"](156_kokkayosan/) 
-- [157 - "雇用調整"](157_koyouchousei/) 
-- [158 - ](158_koyouhoken/) 
-- [159 - "給与所得"](159_kyuuyoshotoku/) 
-- [160 - ](160_shouhishabukkashisuu/) 
-- [161 - "景気動向指数"](161_keikidoukoushisuu/) 
-- [162 - ](162_keikishihyou/) 
-- [163 - ](163_keizaiburokku/) 
-- [164 - ](164_keizaikaihatsu/) 
-- [165 - "経済圏"](165_keizaiken/) 
-- [166 - ](166_keizaikyouryokukaihatukikou/) 
-- [167 - ](167_keizainanmin/) 
-- [168 - ](168_keizaisangyoushou/) 
-- [169 - 経済水域](169_keizaisuiiki/) 
-- [170 - ](170_keizaitokubetsuku/) 
-- [171 - 経済団体連合会](171_keizaidantairengouka/) 
-- [172 - "経済動学"](172_keizaidougaku/) 
-- [173 - "経済同友会"](173_keizaidouyuukai/) 
-- [174 - ](174_keizaigensoku/) 
-- [175 - ](175_keizaihakusho/) 
-- [176 - 経済人](176_keizaijin/) 
-- [177 - ](177_keizaikikakuchou/) 
-- [178 - 経済静学](178_keizaiseigaku/) 
-- [179 - ](179_keizaishi/) 
-- [180 - ](180_keizaizaiseihakusho/) 
-- [181 - ](181_genkin/) 
-- [181 - "銀行"](181-銀行/) 
-- [181 - デジタル貨幣](181-デジタル貨幣/) 
-- [182 - 貨幣価値](182-貨幣価値/) 
-- [182 - "投資銀行"](182-投資銀行/) 
-- [182 - 内閣府](182_naikakufu/) 
-- [183 - 貨幣供給](183-貨幣供給/) 
-- [183 - ](183_shihonshugi/) 
-- [183 - "株式取引"](183-株式取引/) 
-- [184 - 貨幣政策](184-貨幣政策/) 
-- [184 - "取引口座"](184_torihikikouza/) 
-- [184 - "投資信託"](184-投資信託/) 
-- [185 - 営業収入](185-営業収入/) 
-- [185 - 白書](185_hakusho/) 
-- [185 - "手数料"](185-手数料/) 
-- [186 - "移民政策"](186-移民政策/) 
-- [186 - "金融商品"](186_kinyuushouhin/) 
-- [187 - ](187_roudou/) 
-- [187 - "国際難民法"](187-国際難民法/) 
-- [188 - ](188_shihonka/) 
-- [188 - "保税区"](188-保税区/) 
-- [189 - "物々交換"](189_butsubutsukoukan/) 
-- [189 - "外資規制"](189-外資規制/) 
-- [190 - "ホモ・エコノミクス"](190-ホモ・エコノミクス/) 
-- [190 - ](190_shakaishihon/) 
-- [191 - "限定合理性"](191-限定合理性/) 
-- [191 - ](191_shihonkin/) 
-- [192 - ](192_jikoshihon/) 
-- [192 - "GDP成長率"](192-GDP成長率/) 
-- [193 - "貨幣経済"](193_kaheikeizai/) 
-- [194 - ](194_ruishinkazei/) 
-- [195 - ](195_shijokeizai/) 
-- [196 - "暗号貨幣"](196_angoukahe/) 
-- [197 - ](197_ipo/) 
-- [198 - ](198_jintekishihon/) 
-- [199 - ](199_zeiritsu/) 
-- [200 - ](200_hiyou/) 
+- [075 - ](075_kabushiki/) #domain/経済学 #domain/金融
+- [075 - ネットバンキング](075-ネットバンキング/) #domain/経済学 #domain/金融 #domain/IT
+- [076 - 先行指標](076-先行指標/) #domain/経済学 #domain/金融 #context/経済分析
+- [076 - ](076_defure/) #domain/経済学
+- [077 - 一致指標](077-一致指標/) #domain/経済学 #domain/金融 #context/経済分析
+- [077 - デフレーション](077_defureshon/) #domain/経済学
+- [078 - ](078_koyou/) #domain/経済学 #労働市場 #企業活動
+- [078 - 遅行指標](078-遅行指標/) #domain/経済学 #domain/金融 #context/経済分析
+- [079 - ](079_kyoukyuu/) #domain/経済学
+- [080 - ](080_shihon/) #domain/経済学 #domain/金融
+- [081 - 市場](081_shijou/) #domain/経済学
+- [082 - ](082_shouken/) #domain/経済学 #domain/金融
+- [083 - 投資](083_toushi/) #domain/経済学 #domain/金融
+- [084 - ](084_zeikin/) #domain/経済学
+- [085 - バブル](085_baburu/) #domain/経済学
+- [086 - 不況](086_fukyou/) #domain/経済学
+- [087 - ](087_infure/) #domain/経済学 #pos/noun #source/economics
+- [088 - インフレーション](088_infureshon/) #domain/経済学
+- [089 - ](089_keiki/) #type/noun #jlpt/n3 #domain/経済学
+- [090 - 経済成長](090_keizaiseichou/) #domain/経済学
+- [091 - 経済政策](091_keizaiseisaku/) #domain/経済学
+- [092 - ](092_koukyou/) #domain/経済学
+- [093 - 株価](093_kabuka/) #domain/経済学 #domain/金融
+- [094 - 株式会社](094_kabushikigaisha/) #domain/経済学 #domain/金融
+- [095 - 株式市場](095_kabushikishijou/) #domain/経済学 #domain/金融
+- [096 - 金利](096_kinri/) #domain/経済学 #domain/金融
+- [097 - ](097_rishi/) #domain/経済学 #domain/金融
+- [098 - 失業](098_shitsugyou/) #domain/経済学
+- [099 - ](099_shitsugyouritsu/) #domain/経済学
+- [100 - 消費](100_shouhi/) #domain/経済学
+- [101 - 証券会社](101_shoukengaisha/) #domain/経済学 #domain/金融
+- [102 - 証券市場](102_shoukenshijou/) #domain/経済学 #domain/金融
+- [103 - ](103_endaka/) #domain/経済学 #domain/金融
+- [104 - 円安](104_enyasu/) #domain/経済学 #domain/金融
+- [105 - 負債](105_fusai/) #domain/経済学 #domain/金融
+- [106 - 配当](106_haitou/) #domain/経済学 #domain/金融
+- [107 - ](107_kawase/) #domain/経済学 #domain/金融
+- [108 - ](108_kawasereto/) #domain/経済学 #domain/金融
+- [109 - #077 国債（こくさい）](109_kokusai/) #domain/経済学 #domain/金融
+- [110 - 資産](110_shisan/) #domain/経済学 #domain/金融 #JLPT/N2
+- [111 - 預金](111_yokin/) #domain/経済学 #domain/金融
+- [112 - ](112_yuushi/) #domain/経済学 #domain/金融
+- [113 - ](113_gappei/) #domain/経済学 #domain/商業
+- [114 - 貨幣](114_kahei/) #domain/経済学 #domain/金融
+- [115 - 給与](115_kyuuyo/) #domain/経済学
+- [116 - 利益](116_rieki/) #domain/経済学 #domain/商業
+- [117 - 収益](117_shuueki/) #domain/経済学 #domain/商業
+- [118 - 倒産](118_tousan/) #domain/経済学 #domain/商業
+- [119 - ](119_tsuuka/) #domain/経済学 #domain/金融
+- [120 - 売上](120_uriage/) #domain/経済学 #domain/商業
+- [121 - ](121_uriagedaka/) #domain/経済学 #domain/商業
+- [122 - 予算](122_yosan/) #domain/経済学
+- [123 - ](123_bukkashisuu/) #domain/経済学
+- [124 - 賃金](124_chingin/) #domain/経済学
+- [125 - 関税](125_kanzei/) 
+- [126 - ](126_keiei/) #domain/経済学 #domain/商業
+- [127 - ](127_kigyou/) #domain/経済学 #domain/商業
+- [128 - ](128_sainyuu/) #domain/経済学
+- [129 - ](129_saishutsu/) #domain/経済学
+- [130 - ](130_shotokuzei/) #domain/経済学 #context/税制 #context/財政
+- [131 - 消費税](131_shouhizei/) #domain/経済学
+- [132 - ](132_zaiseiaakaji/) #domain/経済学
+- [133 - 貿易赤字](133_bouekiakaji/) #domain/経済学 #domain/商業
+- [134 - 貿易黒字](134_bouekikuroji/) #domain/経済学 #domain/商業
+- [135 - 貿易収支](135_bouekishuushi/) #domain/経済学 #domain/商業
+- [136 - ](136_chuuouginkou/) #domain/経済学 #domain/金融
+- [137 - 保護貿易](137_hogoboueki/) #domain/経済学 #domain/商業
+- [138 - ](138_jiyuuboueki/) #domain/経済学 #domain/商業
+- [139 - ](139_kokusaishuushi/) #domain/経済学
+- [140 - ](140_nihonginkou/) #domain/経済学 #domain/金融
+- [141 - ](141_yunyuu/) #domain/経済学 #domain/商業
+- [142 - 輸出](142_yushutsu/) #domain/経済学 #domain/商業
+- [143 - 株価指数](143_kabukashisuu/) #domain/経済学 #domain/金融
+- [144 - 景気循環](144_keikijunkan/) #domain/経済学
+- [145 - 経済恐慌](145_keizaikyoukou/) #domain/経済学
+- [146 - ](146_keizaiseichouritsu/) #domain/経済学
+- [147 - ](147_keizaiseisai/) #domain/経済学
+- [148 - ](148_keizaitaikoku/) #domain/経済学
+- [149 - 証券取引所](149_shoukentorihikijo/) #domain/経済学 #domain/金融
+- [150 - 損失](150_sonshitsu/) #domain/経済学 #domain/商業
+- [151 - 預金口座](151_yokinkouza/) #domain/経済学 #domain/金融
+- [152 - ](152_yokintsuuchou/) #domain/経済学 #domain/金融
+- [153 - ](153_houjinzei/) #noun #jlpt/n2 #domain/経済学
+- [154 - ](154_kanzeidoumei/) #domain/経済学 #domain/商業
+- [155 - 関税障壁](155_kanzeishouheki/) #domain/経済学 #domain/商業
+- [156 - 経済協力](156_keizaikyouryoku/) #domain/経済学
+- [157 - 経済統計](157_keizaitoukei/) #domain/経済学
+- [158 - 国家予算](158_kokkayosan/) #domain/経済学
+- [159 - 雇用調整](159_koyouchousei/) #domain/経済学
+- [160 - ](160_koyouhoken/) #level/n2 #domain/経済学
+- [161 - 給与所得](161_kyuuyoshotoku/) #domain/経済学
+- [162 - ](162_shouhishabukkashisuu/) #domain/経済学
+- [163 - 景気動向指数](163_keikidoukoushisuu/) #domain/経済学
+- [164 - ](164_keikishihyou/) #domain/経済学
+- [165 - ](165_keizaiburokku/) #domain/経済学
+- [166 - ](166_keizaikaihatsu/) #domain/経済学
+- [167 - 経済圏](167_keizaiken/) #domain/経済学
+- [168 - ](168_keizaikyouryokukaihatukikou/) #domain/経済学
+- [169 - ](169_keizainanmin/) #domain/経済学
+- [170 - ](170_keizaisangyoushou/) #domain/経済学 #type/組織
+- [171 - 経済水域](171_keizaisuiiki/) #domain/経済学
+- [172 - ](172_keizaitokubetsuku/) #domain/経済学 #concept/制度 #concept/政策
+- [173 - 経済団体連合会](173_keizaidantairengouka/) #domain/経済学 #専門用語 #組織名
+- [174 - 経済動学](174_keizaidougaku/) #domain/経済学
+- [175 - 経済同友会](175_keizaidouyuukai/) #domain/経済学
+- [176 - ](176_keizaigensoku/) #domain/経済学
+- [177 - ](177_keizaihakusho/) #domain/経済学
+- [178 - 経済人](178_keizaijin/) #domain/経済学
+- [179 - ](179_keizaikikakuchou/) #domain/経済学 #domain/政治 #historical
+- [180 - 経済静学](180_keizaiseigaku/) #domain/経済学 #concept/分析方法
+- [181 - 銀行](181-銀行/) #economics #finance #institution
+- [181 - ](181_keizaishi/) #domain/経済学
+- [181 - デジタル貨幣](181-デジタル貨幣/) #N2 #經濟學 #金融
+- [182 - 貨幣価値](182-貨幣価値/) #N2 #經濟學 #金融
+- [182 - 投資銀行](182-投資銀行/) #economics #finance #investment
+- [182 - ](182_keizaizaiseihakusho/) #domain/経済学
+- [183 - 貨幣供給](183-貨幣供給/) #N2 #經濟學 #金融
+- [183 - 株式取引](183-株式取引/) #economics #finance #trading
+- [183 - ](183_genkin/) #domain/経済学 #concept/money
+- [184 - 貨幣政策](184-貨幣政策/) #N2 #經濟學 #金融
+- [184 - 内閣府](184_naikakufu/) #政府機関 #政治 #行政
+- [184 - 投資信託](184-投資信託/) #economics #finance #investment
+- [185 - 営業収入](185-営業収入/) #N2 #經濟學 #會計
+- [185 - ](185_shihonshugi/) #domain/経済学 #domain/政治
+- [185 - 手数料](185-手数料/) #economics #finance #fee
+- [186 - 移民政策](186-移民政策/) #domain/経済学 #concept/政策
+- [186 - 取引口座](186_torihikikouza/) #金融 #證券 #N3
+- [187 - 白書](187_hakusho/) #政府 #報告書 #政策
+- [187 - 国際難民法](187-国際難民法/) #domain/経済学 #domain/法律 #concept/国際法
+- [188 - 金融商品](188_kinyuushouhin/) #金融 #投資 #N3
+- [188 - 保税区](188-保税区/) #domain/経済学 #domain/貿易 #concept/制度
+- [189 - 外資規制](189-外資規制/) #domain/経済学 #concept/政策 #domain/投資
+- [189 - ](189_roudou/) #domain/経済学 #concept/production-factor
+- [190 - ](190_shihonka/) #domain/経済学 #domain/社会学
+- [190 - ホモ・エコノミクス](190-ホモ・エコノミクス/) #domain/経済学 #concept/理論 #origin/ラテン語
+- [191 - 物々交換](191_butsubutsukoukan/) #經濟 #歷史 #N3
+- [191 - 限定合理性](191-限定合理性/) #domain/経済学 #concept/理論 #domain/心理学
+- [192 - ](192_shakaishihon/) #economics #infrastructure #public-sector
+- [192 - GDP成長率](192-GDP成長率/) #domain/経済学 #concept/指標 #measurement/経済
+- [193 - ](193_shihonkin/) #domain/経済学 #domain/会計 #domain/金融
+- [194 - ](194_jikoshihon/) #domain/経済学 #domain/会計 #domain/金融
+- [195 - 貨幣経済](195_kaheikeizai/) #經濟 #金融 #N3
+- [196 - ](196_ruishinkazei/) #economics #taxation #fiscal-policy
+- [197 - ](197_shijokeizai/) #domain/経済学 #concept/system
+- [198 - 暗号貨幣](198_angoukahe/) #金融 #科技 #N3
+- [199 - ](199_ipo/) #economics #finance #securities
+- [200 - ](200_jintekishihon/) #domain/経済学 #domain/教育 #domain/人事
 - [201 - ](201-機会費用/) 
-- [201 - ](201_koujo/) 
+- [201 - ](201_zeiritsu/) #domain/経済学 #domain/税制 #concept/parameter
 - [201 - ](201-価値保存/) 
-- [202 - ](202_sozeifutan/) 
 - [202 - ](202-預金通貨/) 
 - [202 - ](202-通帳記帳機/) 
-- [203 - ](203_tochi/) 
+- [202 - ](202_hiyou/) #domain/経済学 #concept/accounting
 - [203 - ](203-収益性/) 
 - [203 - ](203-通帳レス/) 
+- [203 - ](203_koujo/) #domain/経済学 #domain/税制 #concept/mechanism
 - [204 - ](204-鉱工業生産指数/) 
-- [204 - ](204_koukyouzai/) 
+- [204 - ](204_sozeifutan/) #economics #taxation #fiscal-policy
 - [204 - ](204-財産収入/) 
 - [205 - ](205-有効求人倍率/) 
+- [205 - ](205_tochi/) #domain/経済学 #concept/production-factor
 - [205 - ](205-公債収入/) 
-- [205 - ](205_seisansei/) 
-- [206 - ](206_zeiseikaikaku/) 
 - [206 - ](206-貿易額/) 
+- [206 - ](206_koukyouzai/) #domain/経済学 #concept/resource #concept/policy
 - [206 - ](206-完全失業率/) 
+- [207 - ](207_seisansei/) #domain/経済学 #concept/efficiency
 - [207 - ](207-リスク管理/) 
 - [207 - ](207-経済指標/) 
-- [207 - ](207_zeishuu/) 
-- [208 - ](208_gdp/) 
-- [209 - ](209_kazei/) 
-- [210 - ](210_toushika/) 
-- [211 - ](211_kinyukikan/) 
-- [212 - ](212_nouziesha/) 
-- [213 - ](213_seiji_nanmin/) 
-- [214 - ](214_chokusetsu_zei/) 
-- [215 - 難民認定，確認某人是否符合難民資格的法律程序](215_nanmin_nintei/) 
-- [216 - 自由貿易區，實施特殊貿易政策的經濟特區](216_jiyuu_boueki_ku/) 
-- [217 - ](217_kansetsu_zei/) 
-- [218 - ](218_kikan_toushika/) 
-- [219 - 稅制優惠，政府為達成特定政策目標而提供的稅務減免措施](219_zeisei_yuuguu/) 
-- [220 - 關稅免除，免除進出口商品應繳納的關稅](220_kanzei_menjo/) 
-- [221 - ](221_online_shouken/) 
-- [222 - ](222_money/) 
-- [223 - ](223_kachi_shakudo/) 
-- [224 - ](224_koukan_shudan/) 
-- [225 - "経済活動（けいざいかつどう）"](225_keizai_katsudou/) 
-- [226 - ](226_kyoukyuu/) 
-- [227 - ](227_shihon/) 
-- [228 - "市場（しじょう）"](228_shijou/) 
-- [229 - "おもてなし - 熱情款待的精神"](229_kikubari/) 
-- [230 - "中央銀行（ちゅうおうぎんこう）"](230_chuuou_ginkou/) 
-- [231 - "円高（えんだか）"](231_endaka/) 
-- [232 - "円安（えんやす）"](232_enyasu/) 
-- [233 - ](233_kawase/) 
-- [234 - "輸出（ゆしゅつ）"](234_yushutsu/) 
-- [235 - "利益（りえき）"](235_rieki/) 
-- [236 - "消費者（しょうひしゃ）"](236_shouhisha/) 
-- [237 - ](237_bunpai/) 
-- [238 - ](238_juutaku_loan/) 
-- [239 - "確定申告"](239_kakutei_shinkoku/) 
-- [240 - "金融市場"](240_kinyuu_shijou/) 
-- [241 - "控除"](241_koujo/) 
-- [242 - ](242_setsubi_toushi/) 
-- [243 - "資金調達"](243_shikin_choutatsu/) 
-- [244 - ](244_shinyou/) 
-- [245 - ](245_shotoku_koujo/) 
-- [246 - "税額控除"](246_zeigaku_koujo/) 
-- [247 - ](247_toumeise/) 
-- [248 - ](248_seisan/) 
-- [249 - ](249_chishiki/) 
-- [250 - "帳簿"](250_choubo/) 
-- [251 - ](251_keieisha/) 
-- [252 - ](252_saikensha/) 
-- [253 - ](253_shiharai/) 
-- [254 - ](254_toushika/) 
-- [255 - ](255_zaimu_shohyou/) 
-- [256 - "商業、生意、業務"](256_bijinesu/) 
-- [257 - ](257_eiri_katsudou/) 
-- [258 - ](258_hieiri/) 
-- [259 - ](259_keiei_kanri/) 
-- [260 - ](260_kettei_sakusei/) 
-- [261 - ](261_kotei_shihon/) 
-- [262 - "公共事業"](262_koukyou_jigyou/) 
-- [263 - "給付"](263_kyuufu/) 
-- [264 - "割当"](264_wariate/) 
-- [265 - ](265_zaimu_jouhou/) 
-- [266 - 財務人員、財務專業人士，指負責企業或組織財務管理和會計工作的專業人員](266_zaimu_jinzai/) 
-- [267 - "稅務申報"](267_zeimu_shinkoku/) 
-- [268 - ](268_kinyuu_shijou/) 
-- [269 - ](269_setsubi_toushi/) 
-- [270 - 法律，由國家制定並強制執行的社會規範](270_houritsu/) 
-- [271 - 責任，指對自己的行為、言論或決定負有應盡的義務](271_sekinin/) 
-- [272 - 約束、承諾、約定](272_yakusoku/) 
-- [273 - 信用、信譽、信任](273_shinyou/) 
-- [274 - 機場，航空交通的樞紐設施](274_kuukou/) 
-- [275 - 車站，火車、地鐵等的停靠站點](275_eki/) 
-- [276 - ](276_furikomi/) #finance #banking #money
-- [277 - 預金通帳](277_yokin_tsuuchou/) 
-- [278 - 支出](278_shishutsu/) #finance #economy
-- [279 - 収入](279_shuunyuu/) 
-- [280 - ](280_toushika/) 
-- [281 - 経費](281_keihi/) 
-- [282 - 寒暄用語](282_aisatsu_yougo/) 
-- [283 - 商務日語](283_bijinesu_nihongo/) 
-- [284 - 電話用語](284_denwa_yougo/) 
-- [285 - 敬語的區分使用，根據不同的人際關係和場景選擇適當的敬語](285_keigo_tsukaiwake/) 
-- [286 - 謙讓語](286_kenjougo/) #grammar #polite-language #humble-language
-- [287 - 補語](287_hogo/) 
-- [288 - 商務敬語](288_bijinesu_keigo/) 
-- [289 - 母語干擾](289_bogo_kanshou/) 
-- [290 - 指示語](290_deixis/) 
-- [291 - ](291_goiki/) #言語 #社会言語学 #談話分析
-- [292 - ](292_shakai_goyou/) #linguistics #language-study #communication
-- [293 - 視点と敬語](293_shiten_keigo/) 
-- [294 - ](294_context/) 
-- [295 - ](295_gengo_nouryoku_hyouka/) #教育 #言語 #評価
-- [296 - 法律文書の日本語](296_houritsu_bunsho/) 
-- [297 - ](297_imiron/) 
-- [298 - A comprehensive framework for learning Japanese, combining vocabulary building, grammar understanding, and practical communication skills](298_nihongo_gakushuu_waku/) 
-- [299 - 清潔相關詞彙](299_seiketsu_goi/) 
-- [300 - Visual effect onomatopoeia](300_shikaku_gitaigo/) 
-- [301 - 惡化，變得更壞](301_akka/) 
-- [302 - 惡魔，邪惡或陰險的超自然存在](302_akuma/) 
-- [303 - 敬語](303_敬語/) 
-- [304 - 謙讓語](304_kenjougo/) 
-- [305 - 敬語の使い分け](305_keigo_tsukaiwake/) 
-- [309 - "社會語用學：研究社會因素如何影響語言使用的學科"](309_shakai_goyou/) 
-- [315 - 日語敬語體系中表達禮貌的語言系統](315_teineigo_system/) 
-- [319 - 謙讓語體系 - 日語敬語系統中謙讓語的完整體系結構與分類](319_kenjougo_taikei/) 
-- [320 - "書面語與口語的區分：日語書寫與口頭表達的差異"](320_bungo_to_kougo/) 
-- [321 - "語言使用的適切場合與風格層級，語言學術語"](321_goiki/) 
+- [208 - ](208_zeiseikaikaku/) #economics #taxation #policy
+- [209 - ](209_zeishuu/) #domain/経済学 #concept/public-finance
+- [210 - ](210_gdp/) #domain/経済学 #concept/indicator
+- [211 - ](211_kazei/) #domain/経済学 #concept/fiscal-policy
+- [212 - ](212_toushika/) #domain/経済学 #domain/金融 #concept/role
+- [213 - ](213_kinyukikan/) #domain/経済学 #domain/金融 #concept/organization
+- [214 - ](214_nouziesha/) #domain/経済学 #concept/fiscal-policy
+- [215 - ](215_seiji_nanmin/) #domain/社会学 #domain/政治学 #concept/migration
+- [216 - ](216_chokusetsu_zei/) 
+- [217 - 難民認定，確認某人是否符合難民資格的法律程序](217_nanmin_nintei/) #domain/経済学 #domain/法律
+- [218 - 自由貿易區，實施特殊貿易政策的經濟特區](218_jiyuu_boueki_ku/) #domain/経済学 #domain/貿易
+- [219 - ](219_kansetsu_zei/) 
+- [220 - ](220_kikan_toushika/) 
+- [221 - 稅制優惠，政府為達成特定政策目標而提供的稅務減免措施](221_zeisei_yuuguu/) #domain/経済学 #domain/財政
+- [222 - 關稅免除，免除進出口商品應繳納的關稅](222_kanzei_menjo/) #domain/経済学 #domain/貿易
+- [223 - ](223_online_shouken/) 
+- [224 - ](224_money/) 
+- [225 - ](225_kachi_shakudo/) 
+- [226 - ](226_koukan_shudan/) 
+- [227 - 経済活動（けいざいかつどう）](227_keizai_katsudou/) #経済 #社会 #ビジネス
+- [228 - ](228_kyoukyuu/) 
+- [229 - ](229_shihon/) 
+- [230 - 市場（しじょう）](230_shijou/) 
+- [231 - おもてなし - 熱情款待的精神](231_kikubari/) #日本文化 #人間関係 #配慮
+- [232 - 中央銀行（ちゅうおうぎんこう）](232_chuuou_ginkou/) #economic #finance #institution
+- [233 - 円高（えんだか）](233_endaka/) #economics #finance #currency
+- [234 - 円安（えんやす）](234_enyasu/) #noun #economy #finance
+- [235 - ](235_kawase/) 
+- [236 - 輸出（ゆしゅつ）](236_yushutsu/) #business #economics #trade
+- [237 - 利益（りえき）](237_rieki/) #business #economics #finance
+- [238 - 消費者（しょうひしゃ）](238_shouhisha/) #economics #business #society
+- [239 - ](239_bunpai/) #noun #resource-management #economics
+- [240 - ](240_juutaku_loan/) #finance #real-estate #loan
+- [241 - 確定申告](241_kakutei_shinkoku/) #tax #finance #legal
+- [242 - 金融市場](242_kinyuu_shijou/) #経済 #金融 #市場
+- [243 - 控除](243_koujo/) #financial #accounting #tax
+- [244 - ](244_setsubi_toushi/) #business #economics #finance
+- [245 - 資金調達](245_shikin_choutatsu/) #経済 #ビジネス #finance
+- [246 - ](246_shinyou/) #concept #business #society
+- [247 - ](247_shotoku_koujo/) #tax #finance #economics
+- [248 - 税額控除](248_zeigaku_koujo/) #tax #finance #economics
+- [249 - ](249_toumeise/) #N1 #business #abstract_concept
+- [250 - ](250_seisan/) #noun #finance #accounting
+- [251 - ](251_chishiki/) 
+- [252 - 帳簿](252_choubo/) #business #accounting #formal
+- [253 - ](253_keieisha/) 
+- [254 - ](254_saikensha/) #経済 #法律 #N1
+- [255 - ](255_shiharai/) 
+- [256 - ](256_toushika/) 
+- [257 - ](257_zaimu_shohyou/) #business #finance #accounting
+- [258 - 商業、生意、業務](258_bijinesu/) #business #workplace #jlpt/n2
+- [259 - ](259_eiri_katsudou/) #詞性-名詞 #JLPT-N1 #主題-經濟學
+- [260 - ](260_hieiri/) #organization #business #social
+- [261 - ](261_keiei_kanri/) 
+- [262 - ](262_kettei_sakusei/) 
+- [263 - ](263_kotei_shihon/) 
+- [264 - 公共事業](264_koukyou_jigyou/) #economy #infrastructure #government
+- [265 - 給付](265_kyuufu/) #N1 #経済 #法律
+- [266 - 割当](266_wariate/) #N1 #business #management
+- [267 - ](267_zaimu_jouhou/) 
+- [268 - 財務人員、財務專業人士，指負責企業或組織財務管理和會計工作的專業人員](268_zaimu_jinzai/) #context/business #context/formal #occupation
+- [269 - 稅務申報](269_zeimu_shinkoku/) #business #legal #finance
+- [270 - ](270_kinyuu_shijou/) 
+- [271 - ](271_setsubi_toushi/) 
+- [272 - 法律，由國家制定並強制執行的社會規範](272_houritsu/) #domain/law #context/formal #jlpt/n3
+- [273 - 責任，指對自己的行為、言論或決定負有應盡的義務](273_sekinin/) #context/business #context/formal #domain/society
+- [274 - 約束、承諾、約定](274_yakusoku/) #context/formal #context/daily #domain/社会
+- [275 - 信用、信譽、信任](275_shinyou/) #context/formal #context/business #domain/finance
+- [276 - 機場，航空交通的樞紐設施](276_kuukou/) #context/formal #domain/travel #jlpt/n5
+- [277 - 車站，火車、地鐵等的停靠站點](277_eki/) #context/daily_life #context/travel #domain/transportation
+- [279 - 語言學習中母語對目標語言的影響](279_bogo_kansho/) #言語学 #学習
+- [280 - ](280_furikomi/) #finance #banking #money
+- [282 - 母語干擾](282_母語干渉/) #jlpt/n3
+- [283 - 預金通帳](283_yokin_tsuuchou/) 
+- [284 - 支出](284_shishutsu/) #finance #economy
+- [285 - 収入](285_shuunyuu/) 
+- [286 - ](286_toushika/) 
+- [287 - 経費](287_keihi/) 
+- [288 - 寒暄用語](288_aisatsu_yougo/) #greeting #conversation-starter #politeness
+- [289 - 商務日語](289_bijinesu_nihongo/) 
+- [290 - 電話用語](290_denwa_yougo/) 
+- [291 - 敬語的區分使用，根據不同的人際關係和場景選擇適當的敬語](291_keigo_tsukaiwake/) #domain/grammar #domain/keigo #context/formal
+- [292 - 謙讓語](292_kenjougo/) #grammar #polite-language #humble-language
+- [293 - 補語](293_hogo/) #grammar_term #syntax #linguistic_concept
+- [294 - 商務敬語](294_bijinesu_keigo/) #business #keigo #formal-language
+- [295 - 母語干擾](295_bogo_kanshou/) #linguistics #language-learning #psychology
+- [296 - 指示語](296_deixis/) #grammar #deixis #pronoun
+- [297 - ](297_goiki/) #言語 #社会言語学 #談話分析
+- [298 - ](298_shakai_goyou/) #linguistics #language-study #communication
+- [299 - 視点と敬語](299_shiten_keigo/) #grammar #honorifics #perspective
+- [300 - ](300_context/) #japanese #noun #communication
+- [301 - ](301_gengo_nouryoku_hyouka/) #教育 #言語 #評価
+- [302 - 法律文書の日本語](302_houritsu_bunsho/) #法律 #文書 #日本語表現
+- [303 - ](303_imiron/) #N1 #linguistics #academic
+- [304 - A comprehensive framework for learning Japanese, combining vocabulary building, grammar understanding, and practical communication skills](304_nihongo_gakushuu_waku/) #domain/education #domain/methodology #context/academic
+- [305 - 清潔相關詞彙](305_seiketsu_goi/) #context/daily #domain/household #domain/lifestyle
+- [306 - Visual effect onomatopoeia](306_shikaku_gitaigo/) #context/casual #context/descriptive #domain/onomatopoeia
+- [307 - 惡化，變得更壞](307_akka/) #domain/abstract #domain/news_topics #jlpt/n3
+- [308 - 惡魔，邪惡或陰險的超自然存在](308_akuma/) #domain/mythology #context/formal #jlpt/n2
+- [309 - 敬語](309_敬語/) #domain/言語学 #concept/敬語
+- [310 - 謙讓語](310_kenjougo/) #keigo #honorific #formal
+- [311 - 敬語の使い分け](311_keigo_tsukaiwake/) #keigo #usage #formal
+- [317 - 社會語用學：研究社會因素如何影響語言使用的學科](317_shakai_goyou/) #pragmatics #言語学 #コミュニケーション分野
+- [319 - 商業場合使用的日語](319_bijinesu_nihongo/) #ビジネスシーン #formal #daily_life
+- [320 - 電話相關的專門用語和慣用表達](320_denwa_yougo/) #コミュニケーション分野 #ビジネスシーン #daily_life
+- [322 - 商業場合使用的日語](322_商務日語/) #jlpt/n3
+- [323 - 日語詞類的分類體系](323_hinshi_no_bunrui/) #言語学 #学習 #grammar
+- [326 - 修飾語與被修飾語：日文句子結構中的修飾關係](326_修飾語と被修飾語/) #grammar #言語学 #学術的な場面
+- [327 - 品詞分類](327_品詞の分類/) #jlpt/n3
+- [336 - 日語敬語體系中表達禮貌的語言系統](336_teineigo_system/) #keigo #teineigo #コミュニケーション分野
+- [344 - 謙讓語體系 - 日語敬語系統中謙讓語的完整體系結構與分類](344_kenjougo_taikei/) #domain/linguistics #domain/keigo #context/formal
+- [347 - 書面語與口語的區分：日語書寫與口頭表達的差異](347_bungo_to_kougo/) #言語学 #concept #comparison
+- [348 - 日本商業場合中使用的敬語體系和表達方式](348_bijinesu_keigo/) #keigo #ビジネスシーン #formal
+- [349 - 語言使用的適切場合與風格層級，語言學術語](349_goiki/) #学術的な場面 #linguistics #formal
+- [350 - 法律文書中使用的日語特徵與表達方式](350_houritsu_bunsho_no_nihongo/) #専門用語・特殊語彙 #formal #ビジネスシーン
+- [358 - 指示語（Deixis）](358_指示語/) #jlpt/n2
 
 ---
-最後更新: 2025-12-28 17:25:27
+最後更新: 2026-11-14 02:27:42

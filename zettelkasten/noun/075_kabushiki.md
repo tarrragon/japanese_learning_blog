@@ -129,7 +129,7 @@ A security that represents a fractional ownership interest in a corporation. By 
 
 ## 相關連結
 - [株主]（待建立）- 持有株式的人
-- [投資](081_toushi.md)- 將資金投入以獲取收益的行為
-- [配当](104_haitou.md)- 株式持有者獲得的收益分配
-- [証券取引所](147_shoukentorihikijo.md)- 株式等證券交易的場所
+- [投資](083_toushi.md)- 將資金投入以獲取收益的行為
+- [配当](106_haitou.md)- 株式持有者獲得的收益分配
+- [証券取引所](149_shoukentorihikijo.md)- 株式等證券交易的場所
 - [上場]（待建立）- 企業股票在證券交易所公開交易

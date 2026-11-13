@@ -129,10 +129,10 @@ link_status:
 
 ## 相關概念（Related Concepts）
 
-- [ほしい](../adj-i/007_hoshii.md)[^1] - 想要（物品）
+- [ほしい](../adj-i/008_hoshii.md)[^1] - 想要（物品）
 - [動詞の活用](待建立)[^2] - 動詞活用
 - [イ形容詞](待建立)[^3] - イ形容詞
-- [ます形](../concept/115_masu_form.md)[^4] - ます形
+- [ます形](../concept/152_masu_form.md)[^4] - ます形
 
 ## 常見錯誤（Common Mistakes）
 

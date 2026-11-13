@@ -118,14 +118,14 @@ The activities of acquiring, managing, and disposing of financial resources by t
 ### 經濟學核心概念
 - [經濟](./noun-072-経済.md) - 上位概念
 - [金融](noun-073-金融.md) - 相關領域概念
-- [予算](120_yosan.md) - 財政運營的具體工具
-- [税金](082_zeikin.md) - 財政收入的主要來源
+- [予算](122_yosan.md) - 財政運營的具體工具
+- [税金](084_zeikin.md) - 財政收入的主要來源
 
 ### 財政相關術語
 - [赤字](待建立) - 財政失衡狀態
-- [政策](../concept/171_seisaku.md) - 財政的實施手段
-- [歳入](126_sainyuu.md) - 財政收入
-- [歳出](127_saishutsu.md) - 財政支出
+- [政策](../concept/231_seisaku.md) - 財政的實施手段
+- [歳入](128_sainyuu.md) - 財政收入
+- [歳出](129_saishutsu.md) - 財政支出
 
 ### 相關文法與用法
 - [動詞連用形 + に取り組む](待建立) - 例句 1 使用的文法

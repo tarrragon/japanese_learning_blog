@@ -129,8 +129,8 @@ Kansai dialect is often associated with a friendly, humorous character and is wi
 - [大阪方言](待建立)[^3]
 - [京都方言](待建立)[^4]
 - [方言音調](待建立)[^5]
-- [終助詞](290_shuujoshi.md)[^6]
-- [動詞活用](../concept/56_verb_conjugation.md)[^7]
+- [終助詞](301_shuujoshi.md)[^6]
+- [動詞活用](../concept/074_verb_conjugation.md)[^7]
 
 ---
 
